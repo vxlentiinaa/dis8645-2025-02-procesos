@@ -4,8 +4,9 @@ Taller de diseño de máquinas computacionales, segundo semestre 2025
 
 ## Equipo docente
 
-* Aarón Montoya <https://github.com/montoyamoraga>
-* Matías Serrano <https://github.com/misaaaaaa>
+* Aarón Montoya <https://github.com/montoyamoraga>: profesore primario
+* Matías Serrano <https://github.com/misaaaaaa>: profesore secundario
+* Janis Sepúlveda <https://github.com/janisepulveda>: ayudante
 
 ## Calendario
 
