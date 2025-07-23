@@ -8,15 +8,42 @@ Taller de diseño de máquinas computacionales, segundo semestre 2025
 * Matías Serrano <https://github.com/misaaaaaa>: profesore secundario
 * Janis Sepúlveda <https://github.com/janisepulveda>: ayudante
 
-## Calendario
+## Unidades
+
+Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. Las entregas grupales se hacen en grupos de 3 estudiantes.
+
+### Unidad 1: diseño de software para microcontroladores
+
+* Fundamentos de programación en C++
+* Programación orientada a objetos
+* Programación de microcontroladores Arduino
+* Programación de microcontroladores Raspberry Pi Pico
+* Documentación de código con MarkDown y Github
+* Desarrollo y publicación de bibliotecas de código
+
+### Unidad 2: diseño de hardware para microcontroladores
+
+* Diagramación de circuitos computacionales
+* Diseño de circuitos con Kicad
+* Uso de bibliotecas de hardware
+* Tecnologías de fabricación con SMD
+* Manufactura de PCBs con proceso de ensamblado
+
+### Unidad 3: diseño de máquinas computacionales
+
+* Diseño de carcasas para máquinas computacionales
+* Diseño de productos computacionales
+* Diseño de interfaces humano computador
+
+## Calendario detallado
 
 | Sesión                           | Fecha       | Temas                           |
 | :------------------------------- | :---------- | :------------------------------ |
-| [01a](./00-docentes/sesion-01a/) | 08-05 mar   |                                 |
-| [01b](./00-docentes/sesion-01b/) | 08-08 vier  |                                 |
-| [02a](./00-docentes/sesion-02a/) | 08-12 mar   |                                 |
-| [02b](./00-docentes/sesion-02b/) | 08-15 vier  |                                 |
-| [03a](./00-docentes/sesion-03a/) | 08-19 mar   |                                 |
+| [01a](./00-docentes/sesion-01a/) | 08-05 mar   | intro máquinas computacionales  |
+| [01b](./00-docentes/sesion-01b/) | 08-08 vier  | markdown y github en la nube    |
+| [02a](./00-docentes/sesion-02a/) | 08-12 mar   | C++ en microcontroladores       |
+| [02b](./00-docentes/sesion-02b/) | 08-15 vier  | variables y funciones           |
+| [03a](./00-docentes/sesion-03a/) | 08-19 mar   | prog. orientada a objetos       |
 | [03b](./00-docentes/sesion-03b/) | 08-22 vier  |                                 |
 | [04a](./00-docentes/sesion-04a/) | 08-26 mar   |                                 |
 | [04b](./00-docentes/sesion-04b/) | 08-29 vier  |                                 |
@@ -47,3 +74,5 @@ Taller de diseño de máquinas computacionales, segundo semestre 2025
 | [16b](./00-docentes/sesion-16b/) | 11-28 vier  | / exámenes, no hay ev. taller   |
 | [17a](./00-docentes/sesion-17a/) | 12-02 mar   | / semana talleres               |
 | [17b](./00-docentes/sesion-17b/) | 12-05 vier  | / semana talleres               |
+
+## Calendario de evaluaciones
