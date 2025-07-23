@@ -76,3 +76,15 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 | [17b](./00-docentes/sesion-17b/) | 12-05 vier  | / semana talleres               |
 
 ## Calendario de evaluaciones
+
+## Evaluaciones
+
+La nota final del curso se compone de:
+
+* 50% examen
+* 50% nota presentación
+
+La nota de presentación se compone del promedio de las siguientes notas:
+
+* Entrega grupal de unidad 1
+* Entrega grupal de unidad 2
