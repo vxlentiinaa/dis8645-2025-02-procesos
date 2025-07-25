@@ -2,3 +2,4 @@
 
 viernes 15 agosto 2025
 
+## variables y funciones
