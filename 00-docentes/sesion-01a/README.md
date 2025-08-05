@@ -190,3 +190,7 @@ editor de texto: Visual Studio Code
 microcontrolador: Arduino R4 Wifi o Minima
 
 microcontrolador: Raspberry Pi Pico
+
+## referentes vistos en clase
+
+<https://itp.nyu.edu/physcomp/syllabus-fall-2025/>
