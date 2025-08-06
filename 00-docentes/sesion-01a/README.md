@@ -139,57 +139,27 @@ enlaces:
 
 TODOJANIS
 
+### mateo arce
+
+ayudante del curso.
+
+educación:
+
+2020-2025: diseño, Universidad Diego Portales
+
+enlaces:
+
+TODOMATEO
+
 ## contexto udp
 
-este año 2025 lanzamos la nueva malla de diseño UDP, donde se incluye la nueva mención de interacción digital.
+este año 2025 lanzamos la nueva malla de diseño UDP, la número 9.0, donde se incluye la nueva mención de interacción digital.
 
 entre 2023 y 2024 el profesor sergio majluf en conjunto con le profesore aarón montoya dictaron los talleres de interfaz de usuario UI y experiencia de usuario UX.
 
 en 2025 el profesor sergio majluf se incorpora al equipo de seminario y título de diseño udp, mientras que le profesore aarón montoya inaugura la nueva serie de talleres de diseño de máquinas electrónicas y computacionales, en conjunto con el profesor matías serrano.
 
-## inspiraciones y referentes
-
-### critter and guitari
-
-Kaleidoloop
-
-Pocket Piano
-
-Bolsa Bass
-
-Organelle
-
-Eyesy
-
-### monome
-
-grid
-
-arc
-
-norns
-
-teletype
-
-arc
-
-### bleep labs
-
-bleep drum
-
-## bastl
-
-### oficina de sonido
-
-## herramientas
-
-computador portátil
-
-editor de texto: Visual Studio Code
-
-microcontrolador: Arduino R4 Wifi o Minima
-
-microcontrolador: Raspberry Pi Pico
+este taller de diseño de máquinas electrónicas está enmarcado actualmente en el ciclo de talleres ofrecidos por la escuela de diseño UDP para estudiantes de tercer y cuarto año.
 
 ## referentes vistos en clase
 
