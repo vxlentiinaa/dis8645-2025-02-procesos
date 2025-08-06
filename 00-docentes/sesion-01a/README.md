@@ -163,4 +163,26 @@ este taller de diseño de máquinas electrónicas está enmarcado actualmente en
 
 ## referentes vistos en clase
 
-<https://itp.nyu.edu/physcomp/syllabus-fall-2025/>
+* <https://itp.nyu.edu/physcomp/syllabus-fall-2025/>
+* <https://marhicks.com/>
+* <https://www.utadeo.edu.co/es/continuada/educacion-continua/53376/catedra-en-diseno-arte-y-ciencia>
+* <https://arduinohistory.github.io/>
+* <https://en.wikipedia.org/wiki/Wiring_(software)>
+* <https://processing.org/>
+* <https://en.wikipedia.org/wiki/Hernando_Barrag%C3%A1n>
+* <https://en.wikipedia.org/wiki/Interaction_Design_Institute_Ivrea>
+* <https://www.risd.edu/>
+* <https://acg.media.mit.edu/>
+* <https://acg.media.mit.edu/people/maeda/>
+* <https://docs.arduino.cc/hardware/uno-rev3/>
+* <https://jlcpcb.com/>
+* <https://en.wikipedia.org/wiki/Pick-and-place_machine>
+* <https://www.instagram.com/lid.udp>
+* <https://www.instagram.com/teee.udp>
+* <https://www.idea.usach.cl/programas>
+* <https://ml5js.org/>
+* <https://petewarden.com/>
+* <https://dspace.mit.edu/handle/1721.1/142838>
+* <https://www.media.mit.edu/>
+* <https://tisch.nyu.edu/itp>
+* <https://www.mariajosecontreras.com/>
