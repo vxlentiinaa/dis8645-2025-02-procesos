@@ -17,16 +17,14 @@ Este día me costó levantarme, principalmente por mi desorden del descanso y ho
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
-![imagen](./archivos/.)
-![imagen](./archivos/.)
+![imagen](./archivos/03.jpeg)
 
-▼ Descripción de la imagen. Obtenido de: cita
+▼ Secuenciador de pasos polifónico "Q64" - KORG. Obtenido de: creación personal. [Más información del producto.](https://www.korg.com/cl/products/dj/sq_64/)
 
-![imagen](./archivos/.)
-![imagen](./archivos/.)
-![imagen](./archivos/.)
+![imagen](./archivos/04.jpeg)
+![imagen](./archivos/05.jpeg)
 
-▼ Descripción de la imagen. Obtenido de: cita
+▼ Sinetizador semi-modular análogo poliritmico "Subharmonicon" - Moog. Obtenido de: creación personal. [Más información del producto.](https://www.moogmusic.com/synthesizers/subharmonicon/)
 
 ***
 
