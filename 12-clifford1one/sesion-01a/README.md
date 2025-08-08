@@ -1,4 +1,4 @@
-# sesion-01a 
+# sesion-01a
 
 ## 05-agosto-2025 - clase 1
 
@@ -16,7 +16,7 @@ computación viene del latín "compútare" que significa contar o calcular.
 
 algo estático no es una máquina.
 
-### conexiones entre estos conceptos y las definiciones dadas.
+### conexiones entre estos conceptos y las definiciones dadas
 
 medio: tiempo, energía
 
@@ -39,7 +39,6 @@ artificio: piezas, objeto físico, intención
 - datos/información
 
 - HCI: interfaz humano-computador
-
 
 ## energía
 
@@ -69,20 +68,17 @@ Investigar:
 
 - [Aarón](https://github.com/montoyamoraga)
 
-
 - [Misa](https://github.com/misaaaaaa)
-
 
 - [Mateo](https://github.com/matbutom)
 
 - [Janis](https://github.com/janisepulveda)
 
-
 #### instagram
 
 - [Instagram Laboratorio de Interacción Digital.](https://www.instagram.com/lid.udp)
 
-- [Instagram Taller Dis Máquinas Electrónicas/Computacionales ](https://www.instagram.com/teee.udp)
+- [Instagram Taller Dis Máquinas Electrónicas/Computacionales](https://www.instagram.com/teee.udp)
 
 - [Instagram Aarón](https://www.instagram.com/montoyamoraga)
 
@@ -158,20 +154,13 @@ Investigar:
 
 - [Wiring](https://en.wikipedia.org/wiki/Wiring_(software)) - Fernando Baragán
 
-## ENCARGO
+## encargos
 
-# sesion-01b
-
-## 08-agosto-2025 - clase 2
-
-### encargo:
-
-## Ada Lovelace
+### Ada Lovelace
 
 ![Imagen investigación previa](./imagenes/adaLovelace-pcm.png)
 
 Esta es una pequeña investigación que hice en el marco del curso de profundización Programación Creativa Multimedia.
-
 
 ## Alan Turing
 
