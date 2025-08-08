@@ -75,8 +75,6 @@ solamente es necesario declarar una ves y puedo utilizarle cuando quiera.
 
 declarar: declaran en programacion...
 
-
-
-
-
 ## Encargos
+
+### programar y equivocarse 5 veces
