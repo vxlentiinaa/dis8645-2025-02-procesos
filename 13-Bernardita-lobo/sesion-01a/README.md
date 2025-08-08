@@ -2,7 +2,11 @@
 
 ## Trabajo en clase / Martes 05 de agosto, 2025
 
-### Introducción de contenidos
+### Taller de diseño de maquinas electronicas
+
+
+### Introducción de contenidos  
+
 
 ## Encargos
 
