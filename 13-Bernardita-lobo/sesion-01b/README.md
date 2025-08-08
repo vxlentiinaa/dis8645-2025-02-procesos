@@ -53,4 +53,14 @@ hay varias maneras de programar cosas, lo importante es el cmino que tomenos par
 
 (tiempoPrendido) y (tiempoApagado)
 
+las funciones son palabras que llaman a funcionamientos, a diferencia de void setup y void loop, el resto de palabras, dentro de los parenticis v estan los parametros, pueden haber muchos parametros.
+
+para esto existen reglas de estilo, apuntes conssitentes y como se llaman las cosas para que tengan sentido. lenguaje con reglas extrictas pero son mas o menos legibles, a eso se le llaman niveles de abstraccion(?
+
+en programacion para que algo ocuura tiene que haber sido creado antes, 
+
+
+
+
+
 ## Encargos
