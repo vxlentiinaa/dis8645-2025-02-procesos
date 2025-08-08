@@ -27,6 +27,32 @@ me gustaria aprender a imaginar como funciona la programacion, perssistir en est
 
 ### Introducción de contenidos  
 
+¡que es una maquina? es un obejto fisico, tiene la capacidad de correr procesos, tiene in y out, piezas moviles, componentes eelctronicoa, regiere energia, tiempo, objetivo definido, compuesto por mas de un elemento, tienen intencion y facilidad.
+
+no se puede definir un objeto / sugeto por su predicado
+
+palabras clave de maquina / machina / meckhane / artificio / ingenio / medio 
+
+palabras clave de tecnologia / teckne / arte / oficio / destreza
+
+que es lo computacional? objto fisico, tiene un lenguaje y orden, signos, simbolos a lo que se le llama semiotoca,  tiene computos, numeros
+
+orden logico
+
+interfaz humano computador
+
+
+### Palabras importantes
+
+curatoria: 
+
+semiotica
+
+hci: interfaz humano computador
+
+sts: ciencia tecnologia sociedad.
+
+
 
 ## Encargos
 
