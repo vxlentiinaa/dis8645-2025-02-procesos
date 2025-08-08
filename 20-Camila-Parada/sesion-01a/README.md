@@ -32,7 +32,13 @@ Este día me costó levantarme, principalmente por mi desorden del descanso y ho
 
 Energía más tiempo = Potencia
 
+![imagen](./archivos/.)
+
 ### ¿Qué es un computador (computacional)?
+
+![imagen](./archivos/.)
+
+![imagen](./archivos/.)
 
 Este semestre se busca trabajar más desde un computador, pero no por ello se va a realizar trabajos con circuitos de forma física. Para ello se usará la tecnología PCBA.
 Raspberry pi RP2040,
@@ -50,6 +56,7 @@ JLCPBC
 - Computadores análogos
 - ZKM (arte electrónico)
 - Dev board
+- Raspberry pi RP2040
 
 #### _Personas_
 
