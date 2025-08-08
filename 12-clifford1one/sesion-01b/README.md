@@ -2,10 +2,20 @@
 
 ## 08-agosto-2025 - clase 2
 
-### encargo:
+### 
 
-## Ada Lovelace
+## personas
 
-![Imagen investigación previa](./imagenes/adaLovelace-pcm.png)
+[Constanza Gaggero:](https://www.instagram.com/gaggeroworks/?hl=en) Diseñadora Gráfica profe FaAAD
 
-Esta es una pequeña investigación que hice en el marco del curso de profundización Programación Creativa Multimedia.
+## links
+
+- [arduino.cc](https://www.arduino.cc)
+
+- [Arduino IDE:](https://www.arduino.cc/en/software) Integrated Development Enviroment
+
+- [Arduino UNO R4 Wi Fi](https://docs.arduino.cc/hardware/uno-r4-wifi)
+
+- [Arduino UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)
+
+- [Íñigo Montoya:](https://www.youtube.com/watch?v=6JGp7Meg42U) ejemplo comunicación acertiva
