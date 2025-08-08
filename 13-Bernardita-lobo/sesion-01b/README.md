@@ -49,6 +49,8 @@ loop  ocurre el resto del dia,
 
 las patitas del arrduino se llman pines, pinmode, cuando usamos un pin digital tenemos que decrile para que sirve.
 
+hay varias maneras de programar cosas, lo importante es el cmino que tomenos para optimizar el procesos, uanque el resultado sea el mismo.
 
+(tiempoPrendido) y (tiempoApagado)
 
 ## Encargos
