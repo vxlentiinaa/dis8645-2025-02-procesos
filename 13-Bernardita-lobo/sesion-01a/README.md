@@ -91,6 +91,7 @@ Alan Turing fue un genio increíblemente creativo, que ayudó profundamente al d
 
 video de referecia
 
+![Foto de los tres esquemáticos](./imagenes/tmc-sesion01a-encargo02.jpeg)
 
 ### Ada Lovelace
 
