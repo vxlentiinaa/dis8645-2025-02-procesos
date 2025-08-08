@@ -61,7 +61,7 @@ en programacion para que algo ocuura tiene que haber sido creado antes, si no ex
 
 para declarar algo tengo que hacer que aparezca void y dentro de los murcielados { } ponemos la funcion, es como darle un nombre a una funcion. es la declaracion de que algo se llama por ejemplo setup, todo lo del codigo son declaraciones de funsiones.
 
-
+no importa el orden pero si es importante que sepa que existen esas cosas atraves de las declaraciones.
 
 ## palabras importantes
 
