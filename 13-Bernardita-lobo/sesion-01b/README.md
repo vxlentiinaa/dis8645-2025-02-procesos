@@ -63,6 +63,8 @@ para declarar algo tengo que hacer que aparezca void y dentro de los murcielados
 
 no importa el orden pero si es importante que sepa que existen esas cosas atraves de las declaraciones.
 
+solamente es necesario declarar una ves y puedo utilizarle cuando quiera.
+
 ### Referentes
 
 - alejandra pizarnik
