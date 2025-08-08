@@ -7,7 +7,7 @@
 proferore: Aarón montoya
 profesor adjunto: Matias Serrano
 ayudante: mateo
-ayudante: 
+ayudante: Janis
 
 nos presentamos y hablamos un poco sobre porque volvimos a tomar un taller de esta area, y cuales eran nuestras expectavias, en lo personal tome este taller porque me encanto el ambiente de trabajo, me gusto mucho las tareas de escuchar discos y estudiar referentes
 
