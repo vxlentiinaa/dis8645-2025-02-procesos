@@ -26,4 +26,19 @@ Arduino.cc
 
 con control y , se pueden abrir las preferencias de configuracion
 
+cuando apretas el boton es como apagarlo y prenderlo, es como resetearlo, cuando lo desenchufo el codigo queda grabado en el arduino, porque tienen memoria.
+
+se usa para hablar de tres cosas
+
+el hardwer, la placa, el arduino
+el codigo, que es el arduino, un dialecto, para subirla a una placa de arduino xd
+
+se le puede hacer daño al arduino con el codigo, pero es dificil que se dañe, solo fisicamente
+
+si le das doble click entra en un estado de reseteo.
+
+no todos los usb c pueden hacer lo mismo, algunos se ahorran la parte de transmitir datos, solo sirve para cargar
+
+que tengo que hcaer? instalar y sofwer, instale el arduino, y el cable es real.
+
 ## Encargos
