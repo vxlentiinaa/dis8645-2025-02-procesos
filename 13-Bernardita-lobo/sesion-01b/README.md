@@ -18,7 +18,7 @@ Hay que considerar los estados de las maquinas electronicas, hablamos de los bot
 
 - ¿Como me incorporo al repositorio? hay que hacer fork arriba
 
-## Arduino
+### Arduino
 
 Arduino.cc
 
@@ -69,7 +69,7 @@ no importa el orden pero si es importante que sepa que existen esas cosas atrave
 
 - 
 
-## palabras importantes
+### palabras importantes
 
 declarar: declaran en programacion...
 
