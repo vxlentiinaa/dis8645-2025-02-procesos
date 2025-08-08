@@ -47,7 +47,7 @@ setup es importante, ocurre una vez, es como despetar, solo lo hacemos una vez e
 
 loop  ocurre el resto del dia,
 
-las patitas del arrduino se llman pines, pinmodecuando usamos un pin digital tenemos que decrile para que sirve.
+las patitas del arrduino se llman pines, pinmode, cuando usamos un pin digital tenemos que decrile para que sirve.
 
 
 
