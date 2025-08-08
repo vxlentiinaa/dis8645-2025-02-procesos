@@ -1,8 +1,8 @@
-# sesion-01a
+# Sesion-01a
 
 ## Trabajo en clase / Martes 05 de agosto, 2025
 
-### introducción de contenidos
+### Introducción de contenidos
 
 ## Encargos
 
