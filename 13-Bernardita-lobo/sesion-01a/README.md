@@ -2,8 +2,24 @@
 
 ## Trabajo en clase / Martes 05 de agosto, 2025
 
-### Taller de diseño de maquinas electronicas
+### Taller de diseño de maquinas computacionales DIS 8645
 
+proferore: Aarón montoya
+profesor adjunto: Matias Serrano
+ayudante: mateo
+ayudante: 
+
+nos presentamos y hablamos un poco sobre porque volvimos a tomar un taller de esta area, y cuales eran nuestras expectavias, en lo personal tome este taller porque me encanto el ambiente de trabajo, me gusto mucho las tareas de escuchar discos y estudiar referentes
+
+me gustaria aprender a imaginar como funciona la programacion, perssistir en esta bella area del diseño y buscar mi enfoque o pasion de la carrrera
+
+### horarios
+
+08:30 - 09:00 llegar
+09:00 - 10:30 trabajo
+10:30 - 11:00 descansar
+11:00 - 12:30 trabajar
+12:30 - 12:50 ordenar
 
 ### Introducción de contenidos  
 
