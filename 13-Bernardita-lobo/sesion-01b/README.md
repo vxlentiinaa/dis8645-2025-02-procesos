@@ -63,6 +63,12 @@ para declarar algo tengo que hacer que aparezca void y dentro de los murcielados
 
 no importa el orden pero si es importante que sepa que existen esas cosas atraves de las declaraciones.
 
+### Referentes
+
+- alejandra pizarnik
+
+- 
+
 ## palabras importantes
 
 declarar: declaran en programacion...
