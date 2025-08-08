@@ -24,4 +24,6 @@ Arduino.cc
 
 (IDE) Ambiente de desarrollo integrado
 
+con control y , se pueden abrir las preferencias de configuracion
+
 ## Encargos
