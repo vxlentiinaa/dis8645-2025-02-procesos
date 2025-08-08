@@ -8,6 +8,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**/*.md'
+      - '!**/28-FranUDP/**'
 
 # Un workflow se compone de uno o mas jobs que pueden correr en serie o paralelo
 jobs:
@@ -30,4 +33,5 @@ jobs:
       with:
         fix: true
         config: 'config/.markdownlint.jsonc'
-        globs: '**/*.md'
+        globs:
+          -'**/*.md'
