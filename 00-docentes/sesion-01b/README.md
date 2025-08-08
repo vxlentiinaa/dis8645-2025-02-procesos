@@ -4,6 +4,8 @@ viernes 08 agosto 2025
 
 markdown y github en la nube
 
+### error a propósito
+
 ## inspiraciones y referentes
 
 ### critter and guitari
