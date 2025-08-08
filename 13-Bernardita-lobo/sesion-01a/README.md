@@ -41,6 +41,19 @@ orden logico
 
 interfaz humano computador
 
+### Referentes
+
+- Casey Reas <https://reas.com/>
+
+- Cristian Oyarzun, ramo de especializacion: cuerpo, moviento y codigo
+
+- hernando barragan, computacion fisica <https://people.interactionivrea.org/proxy-body.html?src=h.barragan%2Findex.html>
+
+- Ada Lovelace, invento la comptacion
+
+- Alan Turing, maquina de turing
+
+- Mar Hicks <https://mitpress.mit.edu/9780262535182/programmed-inequality/>
 
 ### Palabras importantes
 
