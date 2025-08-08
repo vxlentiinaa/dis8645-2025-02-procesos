@@ -11,6 +11,8 @@
 
 - [delay()](https://docs.arduino.cc/language-reference/en/functions/time/delay) usar delay() es considerado una mala práctica, pues, el arduino se congela durante el tiempo establecido, por lo que no puede realizar otras tareas durante ese tiempo.
 
+- [Serial.begin()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/begin)
+
 ## Arduino IDE
 
 códigos de color
@@ -59,4 +61,6 @@ estos datos se pueden entender como "contenedores", al ir a comprar un chicle, l
 
 ### extras
 
-el caracter "enter" se representa así: /n
+- el caracter "enter" se representa así: \n
+
+- [Décimas - Violeta Parra](https://web.uchile.cl/publicaciones/cyber/13/tx7.html)
