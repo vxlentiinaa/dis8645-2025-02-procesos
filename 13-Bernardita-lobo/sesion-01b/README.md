@@ -41,4 +41,14 @@ no todos los usb c pueden hacer lo mismo, algunos se ahorran la parte de transmi
 
 que tengo que hcaer? instalar y sofwer, instale el arduino, y el cable es real.
 
+comentarios de arduino? primero los podemos organizar en papel, de rrepente sin comentarios es mas rapido hacerlo de nuevo que entenderlo, no apostar a que vamos a recordar que hace cada linea.
+
+setup es importante, ocurre una vez, es como despetar, solo lo hacemos una vez en el dia.
+
+loop  ocurre el resto del dia,
+
+las patitas del arrduino se llman pines, pinmodecuando usamos un pin digital tenemos que decrile para que sirve.
+
+
+
 ## Encargos
