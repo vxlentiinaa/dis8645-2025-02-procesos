@@ -57,7 +57,15 @@ las funciones son palabras que llaman a funcionamientos, a diferencia de void se
 
 para esto existen reglas de estilo, apuntes conssitentes y como se llaman las cosas para que tengan sentido. lenguaje con reglas extrictas pero son mas o menos legibles, a eso se le llaman niveles de abstraccion(?
 
-en programacion para que algo ocuura tiene que haber sido creado antes, 
+en programacion para que algo ocuura tiene que haber sido creado antes, si no existe, te avisa a traves de un error que no fue declarado.
+
+para declarar algo tengo que hacer que aparezca void y dentro de los murcielados { } ponemos la funcion, es como darle un nombre a una funcion. es la declaracion de que algo se llama por ejemplo setup, todo lo del codigo son declaraciones de funsiones.
+
+
+
+## palabras importantes
+
+declarar: declaran en programacion...
 
 
 
