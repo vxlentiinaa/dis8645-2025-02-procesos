@@ -31,7 +31,7 @@ por lo tanto, puede crear un void confeti( ){ } y definir (dentro del murciélag
 
 ### tipos de dato
 
-en arduino al declarar una variables, hay que explicitar qué tipo de dato es.
+en arduino al declarar una variables, hay que explicitar qué tipo de dato es. Para esto se usan [variables de C++](https://www.w3schools.com/cpp/cpp_variables.asp)
 
 - int - númro entero
 - float - número decimal
@@ -43,9 +43,11 @@ estos datos se pueden entender como "contenedores", al ir a comprar un chicle, l
 
 ## personas
 
-[Constanza Gaggero:](https://www.instagram.com/gaggeroworks/?hl=en) diseñadora gráfica profe FaAAD
+- [Constanza Gaggero:](https://www.instagram.com/gaggeroworks/?hl=en) diseñadora gráfica profe FaAAD
 
-[Alejandra Pizarnik:](https://es.wikipedia.org/wiki/Alejandra_Pizarnik) poeta surrealista
+- [Alejandra Pizarnik:](https://es.wikipedia.org/wiki/Alejandra_Pizarnik) poeta surrealista
+
+- [Samuel Morse](https://es.wikipedia.org/wiki/Samuel_Morse)
 
 ## links
 
@@ -64,3 +66,7 @@ estos datos se pueden entender como "contenedores", al ir a comprar un chicle, l
 - el caracter "enter" se representa así: \n
 
 - [Décimas - Violeta Parra](https://web.uchile.cl/publicaciones/cyber/13/tx7.html)
+
+#### encargo
+
+Documentar mínimo 3 códigos probados en el arduino que no funcionaron.
