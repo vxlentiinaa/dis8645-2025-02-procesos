@@ -152,7 +152,7 @@ Investigar:
 
 ## proyectos
 
-- [Arduino:](https://www.arduino.cc)es una placa con un microcontrolador integrado
+- [Arduino:](https://www.arduino.cc) es una placa con un microcontrolador integrado
 
 - [Processing](https://processing.org): herramienta/entorno de programación encofado a la parte visual.
 
@@ -171,3 +171,12 @@ Investigar:
 ![Imagen investigación previa](./imagenes/adaLovelace-pcm.png)
 
 Esta es una pequeña investigación que hice en el marco del curso de profundización Programación Creativa Multimedia.
+
+
+## Alan Turing
+
+Alan Turing fue un matemático, criptógrafo, entre otros. Nacido en 1912 en Londres, falleció en 1954. Se dice que se suicidó debido a las grandes prresiones y ostigamientos que recibió debido a su orientación sexual.
+
+Alan Turing entre otras cosas, es recordado  por sus aportes tecnológicos durante la 2da guerra mundial, su creación ["Bombe"](https://www.codesandciphers.org.uk/virtualbp/tbombe/bombesc.htm) se estima acortó la guerra entre 2 y 4 años. Además se le considera el padre teóirico de la IA, debido a su invención el ["test de Turing"](https://turingtest.live). Este test se puede considerar como "el referente" usado para crear los CAPTCHA.
+
+A pesar de sus múltples e influyentes aportes a la ciencia y el mundo, Turing fue perseguido e incluso encarcelado en 1952 por ser homosexual. Han habido ciertos de intentos de reparación y conmemoración por parte del reino británico, incluyendo un indulto póstumo otorgado por la Reina Isabel II, y el uso del término [Ley Alan Turing](https://es.wikipedia.org/wiki/Ley_Alan_Turing) para referir a la ley que perdona y conmemora la amonestación y condena de la homosexualidad.
