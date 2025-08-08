@@ -16,9 +16,13 @@ me gustaria aprender a imaginar como funciona la programacion, perssistir en est
 ### horarios
 
 08:30 - 09:00 llegar
+
 09:00 - 10:30 trabajo
+
 10:30 - 11:00 descansar
+
 11:00 - 12:30 trabajar
+
 12:30 - 12:50 ordenar
 
 ### Introducción de contenidos  
