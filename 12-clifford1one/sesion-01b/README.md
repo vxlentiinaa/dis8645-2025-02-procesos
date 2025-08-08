@@ -41,6 +41,90 @@ en arduino al declarar una variables, hay que explicitar qué tipo de dato es. P
 
 estos datos se pueden entender como "contenedores", al ir a comprar un chicle, lo guardas en un bolsillo. Pero al ir a comprar una sandía tendría que llevar un carrito de feria. Y si compras planchas de terciado, necesitas un flete. Estos distintos contenedores tienen distinto costo, y pueden cargar distintas cosas.
 
+## códigos de hoy
+
+```cpp
+/*
+  Blink
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+
+  https://docs.arduino.cc/built-in-examples/basics/Blink/
+*/
+
+int onTime;
+int offTime;
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(n°, INPUT);
+
+  onTime = 200;
+  offTime = 3000;
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(onTime);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(offTime);      
+  
+  confeti();                // wait for a second
+}
+
+void confeti(){
+  Serial.print('wujuuu!');
+}
+```
+
+```cpp
+/*
+  Blink
+  Turns an LED on for one second, then off for one second, repeatedly.
+  https://docs.arduino.cc/built-in-examples/basics/Blink/
+*/
+
+int onTime;
+int offTime;
+
+String poema;
+
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(n°, INPUT);
+
+  Serial.begin(9600);
+
+  onTime = 200;
+  offTime = 3000;
+
+poema = "poemaaaaaaaaaaaaaaaaa \n";
+poema = poema + "sigue poema \n";
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(onTime);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(offTime);
+  confeti();                // wait for a second
+}
+
+void confeti(){
+ Serial.print(poema);
+ //Serial.print("\n");
+}
+```
+
+
 ## personas
 
 - [Constanza Gaggero:](https://www.instagram.com/gaggeroworks/?hl=en) diseñadora gráfica profe FaAAD
