@@ -40,4 +40,30 @@ for (int brillo = 0; birllo <= 255;brillo++) {
 }
 ```
 
-La idea es simular pulso, aumentar y bajar brillo con PWM
+La idea es simular pulso, aumentar y bajar brillo con PWM. Me equivoqué en la palabra brillo.
+
+## Código 3
+
+```cpp
+onst int ledPin = LED_BUILTING;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(ledPin,HIGH);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(ledPin,HIGH);
+delay(200);
+digitalWrite(ledPin,LOW);
+delay(200)
+
+digitalWrite(ledPin, HIGH);
+delay(1000);
+digitalWrite(ledPin,LOW);
+delay(1000);
+}
+```
+
+La idea es que el LED alternara el parpadeo, uno rápido y después uno lento. 
