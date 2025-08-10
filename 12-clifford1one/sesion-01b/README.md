@@ -154,6 +154,30 @@ void confeti(){
 
 - [Décimas - Violeta Parra](https://web.uchile.cl/publicaciones/cyber/13/tx7.html)
 
-#### encargo
+## encargo
 
 Documentar mínimo 3 códigos probados en el arduino que no funcionaron.
+
+### experimento-01
+
+Mi objetivo es utilizar el input del usuario. Escribir en el puerto serial produce cierto output.
+
+para esto hay que entender [Seril.read( )](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println/). 
+
+con este código, al escribir en el puerto serial, devuelve números enteros de 1-3 dígitos. Los cuales provienen de [ASCII(American Standard Code for Iformation Interchange)](https://www.ascii-code.com). ASCII es un método de codificación de carácteres.
+
+- [tabla de conversión ASCII](https://elcodigoascii.com.ar/#google_vignette)
+
+## Serial.println( )
+
+[Serial.println( )](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println/?_gl=1*eskx99*_up*MQ..*_ga*MTk4NjE4Njc5MC4xNzU0ODQyNjQ5*_ga_NEXN8H46L5*czE3NTQ4NDI2NDckbzEkZzEkdDE3NTQ4NDI3NzckajYwJGwwJGgxMjQ5NDI2NDI.) escribe en la consola, y pide 2 variables:
+
+Serial.println(valor/variable, formato);
+
+fromatos permitidos: 
+
+- DEC: decimal codificado en ASCII
+- HEX: hexadecimal codificado en ASCII
+- OCT: octal codificado en ASCII
+- BIN: binario codificado en ASCII
+
