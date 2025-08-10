@@ -21,6 +21,6 @@ delay (500);//pausa larga despues de los destellos
 }
 ```
 
-La idea es que después de tres destellos haga una pausa larga y reset. Pero, me resultó 7 destellos consecutivos y 1 rápido, siguiendo con que no se apague más.
+La idea es que después de 3 destellos haga una pausa larga y reset. Pero, me resultó 7 destellos consecutivos y 1 rápido, siguiendo con que no se apague más.
 
 ## Código 2
