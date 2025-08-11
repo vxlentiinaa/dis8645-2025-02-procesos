@@ -82,7 +82,7 @@ En 1936, diez años antes de que se construyera la primera computadora, Alan Tur
 
 En ese tiempo, David Hilbert estaba estudiando las matemáticas y buscando una manera de convertirlas todas en símbolos, de modo que no existiera en ellas ningún supuesto ni enunciado indemostrable. Se planteó la siguiente pregunta: ¿existe un conjunto de pasos para determinar si un enunciado es verdadero o falso? Esto es conocido como el problema de la decisión. La idea era que no existieran enunciados imposibles de demostrar.
 
-Luego Kurt Gödel presentó su teorema de la incompletud, que dice que las matemáticas son un sistema incompleto y que para resolver sus problemas tenemos que aceptar cosas no demostrables. Esto revolucionó las matemáticas y su sistema matemático.
+Luego Kurt Gödel presentó su teorema de la incompletud, que dice que las matemáticas son un sistema incompleto y que para resolver sus problemas tenemos que aceptar cosas no demostrables. Esto revolucionó las matemáticas y su sistema.
 
 En 1936, Turing escribió un ensayo llamado On Computable Numbers (Acerca de números computables), donde definió dos tipos de números, los computables, es decir aquellos que se pueden resolver con una serie de pasos o algoritmos, y los no computables, para los cuales no existe algoritmo. Para responder a esta pregunta, Turing inventó una computadora.
 
