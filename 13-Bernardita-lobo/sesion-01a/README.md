@@ -92,9 +92,9 @@ Ya que en ese tiempo las computadoras eran realmente personas haciendo cálculos
 
 ¿Cómo sabe si debe escribir, borrar o dejar igual? Esto podía funcionar gracias a algo que Turing llamó tabla de instrucciones, que ahora llamamos algoritmo o tabla de instrucciones. Con este modelo, que era una abstracción de una computadora, Turing demostró que con las debidas instrucciones una máquina podría resolver cualquier problema.
 
-En diciembre de 1951, Turing se enfrentó a una pena de cárcel por mantener una relación sentimental con un hombre. Fue sometido a un terrible proceso de castración química, que consumió su vida, y él decidió acabar con ella en 1954. Se dice que fue por una profunda depresión debido a lo horrible de este proceso. En 2009, Gordon Brown, entonces primer ministro, dio una disculpa pública a Turing, aunque en 2012 se negó el indulto. Finalmente, en 2013, la reina Isabel volvió a ofrecer una disculpa.
+En diciembre de 1951, Turing se enfrentó a una pena de cárcel por mantener una relación sentimental con un hombre. Fue procesado por "indecencia grave" y sometido a un terrible proceso de castración química, que consumió su vida, y él decidió acabar con ella en 1954. Se dice que fue por una profunda depresión debido a lo horrible de este proceso. En 2009, Gordon Brown, entonces primer ministro, dio una disculpa pública a Turing, aunque en 2012 se negó el indulto. Finalmente, en 2013, la reina Isabel volvió a ofrecer una disculpa.
 
-Alan Turing fue un genio increíblemente creativo, que ayudó profundamente al desarrollo de la tecnología. Es una pena que todos los prejuicios hayan acabado con su vida.
+Alan Turing fue un genio increíblemente creativo. Es realmente terrible cómo los prejuicios y la discriminación no solo limitaron el desarrollo de su investigación y sus avances en la informática, sino que también convirtieron su vida en una persecución marcada por la crueldad.
 
 Video de referencia ["La historia de Alan Turing, el hombre que inventó las computadoras"](https://youtu.be/H1ZE9CGO4js?si=yM7Q5HFvov5P2o_H)
 
