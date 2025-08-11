@@ -4,13 +4,13 @@
 
 ### Taller de diseño de maquinas computacionales DIS 8645
 
-Proferore: Aarón Montoya
-
-Profesor adjunto: Matias Serrano
-
-Ayudante: Mateo
-
-Ayudante: Janis
+> Proferore: Aarón Montoya
+>
+> Profesor adjunto: Matias Serrano
+>
+> Ayudante: Mateo
+>
+> Ayudante: Janis
 
 Nos presentamos y hablamos un poco sobre por qué decidimos volver a tomar un taller en esta área, y cuáles eran nuestras expectativas. En lo personal, tomé este taller porque me encantó el ambiente de trabajo. Disfruté mucho las tareas de escuchar discos y estudiar referentes.
 
