@@ -54,7 +54,7 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 - Casey Reas <https://reas.com/>
 
-- Cristian Oyarzún: ramo de especialización: Cuerpo, Movimiento y Código
+- Cristian Oyarzún: ramo de especialización, Cuerpo, Movimiento y Código
 
 - Hernando Barragán: Desarrolló el concepto de computación física <https://people.interactionivrea.org/proxy-body.html?src=h.barragan%2Findex.html>
 
