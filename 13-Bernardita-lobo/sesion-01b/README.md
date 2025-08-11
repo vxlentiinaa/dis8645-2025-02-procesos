@@ -74,6 +74,30 @@ No importa el orden en que estén las funciones, pero sí es importante que el c
 
 Solo es necesario declarar una vez una función o variable, y después puedo usarla cuando quiera.
 
+
+
+Parentesis ()
+Murcielagos {}
+Corchete []
+
+C++ variables: int, double, char, string, bool
+
+Cosas en celeste y cosas en naranja
+
+El check (verificar) es para ver si funciona el código
+
+Y la flecha (upload) es para mandarlo a arduino través del cable
+
+Upload primero verifica el codigo y despues lo sube, no es necesario verificar en tonces
+
+Si pongo /* todas las lineas son comentario hasta */ 
+
+Al menos que comentes uno por un los comentarios por lineas con //
+
+Cada linea antes de que pase algo debería tener su comentario
+
+Serial.begin();
+
 ### Referentes
 
 - Alejandra Pizarnik
@@ -89,3 +113,33 @@ Solo es necesario declarar una vez una función o variable, y después puedo usa
 ## Encargo
 
 ### programar y equivocarse 5 veces
+
+En int tiempoPrendido = 100
+Int tiempoApagado = 300
+
+Agregue eso y me tiraba error
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo01.png)
+
+Intenté replicar el codigo que hacia aaron, y me volvio a tirar error, me faltaban las ;
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo02.png)
+
+Para string había que poner la frase entre comillas
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo03.png)
+
+Agregue un string = una frase entre comillas y no se solucionó, 
+Agregue una palabra antes y no se solucionó
+Pense que solo se podia poner la palabra poema, pero no funciono
+Me faltaba al final ;
+
+Agregue mas de una palabra y no me funciono, parese que despues de string tiene que ir solo una palabra
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo04.png)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo05.png)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo06.png)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo07.png)
