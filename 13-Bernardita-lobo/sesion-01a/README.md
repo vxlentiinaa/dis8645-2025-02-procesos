@@ -4,68 +4,75 @@
 
 ### Taller de diseño de maquinas computacionales DIS 8645
 
-proferore: Aarón montoya
-profesor adjunto: Matias Serrano
-ayudante: mateo
-ayudante: Janis
+Proferore: Aarón Montoya
 
-nos presentamos y hablamos un poco sobre porque volvimos a tomar un taller de esta area, y cuales eran nuestras expectavias, en lo personal tome este taller porque me encanto el ambiente de trabajo, me gusto mucho las tareas de escuchar discos y estudiar referentes
+Profesor adjunto: Matias Serrano
 
-me gustaria aprender a imaginar como funciona la programacion, perssistir en esta bella area del diseño y buscar mi enfoque o pasion de la carrrera
+Ayudante: Mateo
 
-### horarios
+Ayudante: Janis
 
-08:30 - 09:00 llegar
+Nos presentamos y hablamos un poco sobre por qué decidimos volver a tomar un taller en esta área, y cuáles eran nuestras expectativas. En lo personal, tomé este taller porque me encantó el ambiente de trabajo. Disfruté mucho las tareas de escuchar discos y estudiar referentes.
 
-09:00 - 10:30 trabajo
+Me gustaría aprender a imaginar cómo funciona la programación, persistir en esta bella área del diseño y encontrar mi propio enfoque o pasión dentro de la carrera.
 
-10:30 - 11:00 descansar
+### Horarios
 
-11:00 - 12:30 trabajar
+08:30 - 09:00 Llegar
 
-12:30 - 12:50 ordenar
+09:00 - 10:30 Trabajar
+
+10:30 - 11:00 Descansar
+
+11:00 - 12:30 Trabajar
+
+12:30 - 12:50 Ordenar
 
 ### Introducción de contenidos  
 
-¡que es una maquina? es un obejto fisico, tiene la capacidad de correr procesos, tiene in y out, piezas moviles, componentes eelctronicoa, regiere energia, tiempo, objetivo definido, compuesto por mas de un elemento, tienen intencion y facilidad.
+#### ¿Qué es una máquina?
 
-no se puede definir un objeto / sugeto por su predicado
+Palabras clave relacionadas con “máquina”, Machina, Meckhane, artificio, ingenio y medio.
 
-palabras clave de maquina / machina / meckhane / artificio / ingenio / medio 
+Una máquina es un objeto físico con la capacidad de realizar procesos. Tiene entrada (input) y salida (output), puede contener piezas móviles o componentes electrónicos, y requiere energía, tiempo y un objetivo definido para funcionar. Está compuesta por más de un elemento, tiene intención y busca facilitar tareas.
 
-palabras clave de tecnologia / teckne / arte / oficio / destreza
+No se puede definir un objeto o sujeto únicamente por su predicado.
 
-que es lo computacional? objto fisico, tiene un lenguaje y orden, signos, simbolos a lo que se le llama semiotoca,  tiene computos, numeros
+#### ¿Qué es la tecnología?
 
-orden logico
+La palabra viene del griego téchne, que se relaciona con arte, oficio y destreza.
 
-interfaz humano computador
+Tecnología es la aplicación del conocimiento para resolver problemas o facilitar tareas a través de herramientas, técnicas o sistemas.
+
+#### ¿Qué es lo computacional?
+
+Es un campo que involucra, un objeto físico que puede procesar información, un lenguaje y orden lógico, cálculos numéricos (cómputos), uso de signos y símbolos, lo que se estudia en la semiótica.
+
+También implica la interfaz humano-computador, es decir cómo las personas interactúan con las máquinas para dar instrucciones o recibir información.
 
 ### Referentes
 
 - Casey Reas <https://reas.com/>
 
-- Cristian Oyarzun, ramo de especializacion: cuerpo, moviento y codigo
+- Cristian Oyarzún: ramo de especialización: Cuerpo, Movimiento y Código
 
-- hernando barragan, computacion fisica <https://people.interactionivrea.org/proxy-body.html?src=h.barragan%2Findex.html>
+- Hernando Barragán: Desarrolló el concepto de computación física <https://people.interactionivrea.org/proxy-body.html?src=h.barragan%2Findex.html>
 
-- Ada Lovelace, invento la comptacion
+- Ada Lovelace: Inventó la computación.
 
-- Alan Turing, maquina de turing
+- Alan Turing: Creador de la máquina de Turing.
 
-- Mar Hicks <https://mitpress.mit.edu/9780262535182/programmed-inequality/>
+- Mar Hicks: <https://mitpress.mit.edu/9780262535182/programmed-inequality/>
 
 ### Palabras importantes
 
-curatoria: 
+[Curadoría:](https://dle.rae.es/curadur%C3%ADa) Conservación y supervisión de bienes artísticos o culturales, especialmente para su eventual exhibición.
 
-semiotica
+[Semiótica:](https://dotlib.com/es/blog/semiotica-definicion-fundamentos-y-aplicaciones#:~:text=%C2%BFQu%C3%A9%20es%20la%20semi%C3%B3tica%3F,signo'%20o%20'se%C3%B1al'.) Es el estudio de los sistemas de signos y los procesos de significación.
 
-hci: interfaz humano computador
+[HCI:](https://albertolacalle.com/hci.htm) La Interacción Persona-Ordenador o en inglés Human Computer Interaction, es una disciplina relacionada con el diseño, evaluación, desarrollo y estudio de los fenómenos que rodean los sistemas informáticos para uso humano.
 
-sts: ciencia tecnologia sociedad.
-
-
+[STS:](https://gsas.harvard.edu/policy/science-technology-and-society#:~:text=Cimientos,/about/whatissts.html%20.) La Ciencia, Tecnología y Sociedad o en inglés science technology and society, emplean diversos métodos de las humanidades y las ciencias sociales para examinar cómo la ciencia y la tecnología influyen y se ven influidas por sus contextos sociales, culturales y materiales.
 
 ## Encargos
 
@@ -89,7 +96,7 @@ En diciembre de 1951, Turing se enfrentó a una pena de cárcel por mantener una
 
 Alan Turing fue un genio increíblemente creativo, que ayudó profundamente al desarrollo de la tecnología. Es una pena que todos los prejuicios hayan acabado con su vida.
 
-video de referecia
+Video de referencia ["La historia de Alan Turing, el hombre que inventó las computadoras"](https://youtu.be/H1ZE9CGO4js?si=yM7Q5HFvov5P2o_H)
 
 ![Foto de los tres esquemáticos](./imagenes/tmc-sesion01a-encargo02.jpeg)
 
@@ -110,3 +117,5 @@ Ada Lovelace ya había visto la máquina de telar y le encantó la nueva idea de
 Aquí ella desarrolló tres puntos. Primero, la máquina programable debía ser universal, es decir, capaz de resolver cualquier problema si se le entregaban las instrucciones correctas. Segundo, afirmó que las máquinas no podían pensar, solo ejecutaban las órdenes que se les daban. Y por último, escribió el primer programa de computadoras de la historia, explicando paso a paso los bucles y rutinas para calcular los números de Bernoulli y cómo entregar esa información a la máquina a través de las perforaciones.
 
 Por estas notas, Ada es considerada la primera programadora, aunque lamentablemente existen discusiones sobre si las notas eran completamente suyas o no. Ada, aunque no era una genia de las matemáticas, definitivamente fue una gran visionaria y creativa. Indiscutiblemente, fue la primera en publicar el primer programa de computadoras y se adelantó 100 años a su tiempo, imaginando y especulando cómo serían utilizadas las computadoras.
+
+Video de referencia ["La mujer que inició la programación, antes que existan las computadoras"](https://youtu.be/LdkXhXaZAZU?si=-T877GAZN710k29T)
