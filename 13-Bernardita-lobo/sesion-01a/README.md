@@ -90,7 +90,7 @@ Ya que en ese tiempo las computadoras eran realmente personas haciendo cálculos
 
 Él hizo un modelo lógico, no construyó ninguna computadora. Consistía en una cinta de papel infinita dividida en espacios que podían estar en blanco o contener un 0 o un 1, con un cabezal que podía leer cada cuadro, escribir o borrar las secciones. Este cabezal también podía moverse, y dentro de él había una memoria interna con los estados. Cada vez que el cabezal se movía, tenía la opción de escribir, borrar o dejar igual.
 
-¿Cómo sabe si debe escribir, borrar o dejar igual? Esto podía funcionar gracias a algo que Turing llamó tabla de instrucciones, que ahora llamamos algoritmo o tabla de instrucciones. Con este modelo, que era una abstracción de una computadora, Turing demostró que con las debidas instrucciones una máquina podría resolver cualquier problema.
+¿Cómo sabe si debe escribir, borrar o dejar igual? Esto podía funcionar gracias a algo que Turing llamó tabla de instrucciones, que ahora llamamos algoritmo. Con este modelo, que era una abstracción de una computadora, Turing demostró que con las debidas instrucciones una máquina podría resolver cualquier problema.
 
 En diciembre de 1951, Turing se enfrentó a una pena de cárcel por mantener una relación sentimental con un hombre. Fue procesado por "indecencia grave" y sometido a un terrible proceso de castración química, que consumió su vida, y él decidió acabar con ella en 1954. Se dice que fue por una profunda depresión debido a lo horrible de este proceso. En 2009, Gordon Brown, entonces primer ministro, dio una disculpa pública a Turing, aunque en 2012 se negó el indulto. Finalmente, en 2013, la reina Isabel volvió a ofrecer una disculpa.
 
