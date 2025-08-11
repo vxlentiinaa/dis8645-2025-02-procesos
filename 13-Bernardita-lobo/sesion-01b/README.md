@@ -4,66 +4,71 @@
 
 ### Cosas que hablamos en la mañana
 
-Cuando mandas un correo en bcc esta como en oculto, entonces no le llega a todo el mundo todos los correos de confirmacion porque no pueden ver al de al lado
+Cuando mandas un correo en bcc (copia oculta), los destinatarios no pueden ver a quién más se lo enviaste, así que no les llegan todos los correos de confirmación porque no pueden ver quién más está en la lista.
 
-Tambien nos explicaron como enciar correos para muchas personas usando un alias de ese conjunto de personas
+También nos explicaron cómo enviar correos a muchas personas usando un alias que agrupa a ese conjunto de contactos.
 
-Hay que considerar los estados de las maquinas electronicas, hablamos de los botones de los ascensores xd, y como aveces en hacer cosas mundanas por no saber como funcionan las cosas las hacemos y utilizamos como edicientes
+Hay que tener en cuenta los estados de las máquinas electrónicas. Por ejemplo, hablamos de los botones de los ascensores y cómo a veces, por no saber bien cómo funcionan las cosas, terminamos haciendo acciones cotidianas de forma poco eficiente.
 
 ### Preguntas de de hithub
 
-- ¿Como se cambia el nombre de una carpeta?
+¿Cómo se cambia el nombre de una carpeta?
 
-- ¿Como se elimina una carpeta? parece que ha que instalar hithub en el computador y hay se puede hacer
+Hay que instalar GitHub en el computador, y desde ahí se puede hacer.
 
-- ¿Como me incorporo al repositorio? hay que hacer fork arriba
+¿Cómo se elimina un repositorio?
+
+Cuando estás en el repositorio, puedes ir a Settings, y al final aparece la opción de archivarlo o eliminarlo.
+
+¿Cómo me incorporo al repositorio?
+
+Hay que hacer un fork en la parte superior y luego sincronizar.
 
 ### Arduino
 
 Arduino.cc
 
-(IDE) Ambiente de desarrollo integrado
+IDE (Entorno de Desarrollo Integrado) es el programa que se usa para escribir y cargar código en la placa de Arduino.
 
-con control y , se pueden abrir las preferencias de configuracion
+Con los controles y el menú, se pueden abrir las preferencias de configuración.
 
-cuando apretas el boton es como apagarlo y prenderlo, es como resetearlo, cuando lo desenchufo el codigo queda grabado en el arduino, porque tienen memoria.
+Cuando presionas el botón de reset, es como apagar y prender el Arduino, lo reinicia. Incluso si lo desenchufas, el código se queda grabado en la placa, porque tiene memoria.
 
-se usa para hablar de tres cosas
+La palabra "Arduino" se usa para hablar de dos cosas. Primero, el hardware, es decir, la placa física. Y segundo el código, que también se llama Arduino. Es un dialecto de C++ que se escribe en el IDE y se sube a la placa.
 
-el hardwer, la placa, el arduino
-el codigo, que es el arduino, un dialecto, para subirla a una placa de arduino xd
+Se le puede hacer daño al Arduino con un mal uso del código, pero es difícil. Generalmente, solo se daña físicamente.
 
-se le puede hacer daño al arduino con el codigo, pero es dificil que se dañe, solo fisicamente
+Si le das doble clic al botón de reset, entra en un modo especial de reseteo.
 
-si le das doble click entra en un estado de reseteo.
+No todos los cables USB-C transmiten datos; algunos solo sirven para cargar energía.
 
-no todos los usb c pueden hacer lo mismo, algunos se ahorran la parte de transmitir datos, solo sirve para cargar
+¿Qué tengo que hacer para empezar? Tengo que instalar el software de Arduino, asegurarme de que el cable sea compatible (que transmita datos, no solo carga).
 
-que tengo que hcaer? instalar y sofwer, instale el arduino, y el cable es real.
+### Comentarios y Conceptos Básicos de Arduino
 
-comentarios de arduino? primero los podemos organizar en papel, de rrepente sin comentarios es mas rapido hacerlo de nuevo que entenderlo, no apostar a que vamos a recordar que hace cada linea.
+Primero, los comentarios en el código los podemos organizar en papel. A veces, sin comentarios, puede ser más rápido rehacer el código que tratar de entenderlo, no hay que confiar en que vamos a recordar qué hace cada línea.
 
-setup es importante, ocurre una vez, es como despetar, solo lo hacemos una vez en el dia.
+El setup es importante, ocurre una vez al inicio, es como despetar, solo se hace una vez al día.
 
-loop  ocurre el resto del dia,
+El loop es el proceso que continúa durante todo el tiempo, repitiéndose constantemente.
 
-las patitas del arrduino se llman pines, pinmode, cuando usamos un pin digital tenemos que decrile para que sirve.
+Las patitas del Arduino se llaman pines. Cuando usamos un pin digital, tenemos que decirle para qué sirve con la función pinMode.
 
-hay varias maneras de programar cosas, lo importante es el cmino que tomenos para optimizar el procesos, uanque el resultado sea el mismo.
+Hay varias maneras de programar cosas; lo importante es el camino que tomemos para optimizar el proceso, aunque el resultado sea el mismo.
 
-(tiempoPrendido) y (tiempoApagado)
+Podemos usar variables como tiempoPrendido y tiempoApagado.
 
-las funciones son palabras que llaman a funcionamientos, a diferencia de void setup y void loop, el resto de palabras, dentro de los parenticis v estan los parametros, pueden haber muchos parametros.
+Las funciones son palabras que llaman a ciertos comportamientos. A diferencia de void setup() y void loop(), el resto de funciones tienen parámetros dentro de los paréntesis, y puede haber muchos parámetros.
 
-para esto existen reglas de estilo, apuntes conssitentes y como se llaman las cosas para que tengan sentido. lenguaje con reglas extrictas pero son mas o menos legibles, a eso se le llaman niveles de abstraccion(?
+Para esto existen reglas de estilo, apuntes consistentes y nombres claros para que el código tenga sentido. La programación tiene reglas estrictas, pero son más o menos legibles; a esto se le llama niveles de abstracción.
 
-en programacion para que algo ocuura tiene que haber sido creado antes, si no existe, te avisa a traves de un error que no fue declarado.
+En programación, para que algo ocurra, debe haber sido creado antes. Si no existe, el compilador te avisa con un error que dice que no fue declarado.
 
-para declarar algo tengo que hacer que aparezca void y dentro de los murcielados { } ponemos la funcion, es como darle un nombre a una funcion. es la declaracion de que algo se llama por ejemplo setup, todo lo del codigo son declaraciones de funsiones.
+Para declarar una función, tengo que usar la palabra void y dentro de las llaves { } ponemos el código de la función. Es como darle un nombre a esa función. Por ejemplo, declarar setup es decir que existe esa función. Todo el código está formado por declaraciones de funciones.
 
-no importa el orden pero si es importante que sepa que existen esas cosas atraves de las declaraciones.
+No importa el orden en que estén las funciones, pero sí es importante que el compilador sepa que existen, a través de las declaraciones.
 
-solamente es necesario declarar una ves y puedo utilizarle cuando quiera.
+Solo es necesario declarar una vez una función o variable, y después puedo usarla cuando quiera.
 
 ### Referentes
 
@@ -74,6 +79,10 @@ solamente es necesario declarar una ves y puedo utilizarle cuando quiera.
 ### palabras importantes
 
 declarar: declaran en programacion...
+
+variables
+
+hardware
 
 ## Encargos
 
