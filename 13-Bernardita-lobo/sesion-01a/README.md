@@ -122,4 +122,4 @@ Aquí ella desarrolló tres puntos. Primero, la máquina programable debía ser 
 
 Por estas notas, Ada es considerada la primera programadora, aunque lamentablemente existen discusiones sobre si las notas eran completamente suyas o no. Ada, aunque no era una genia de las matemáticas, definitivamente fue una gran visionaria y creativa. Indiscutiblemente fue la primera en publicar el primer programa de computadoras y se adelantó 100 años a su tiempo, imaginando y especulando cómo serían utilizadas las computadoras.
 
-Video de referencia ["La mujer que inició la programación, antes que existan las computadoras"](https://youtu.be/LdkXhXaZAZU?si=-T877GAZN710k29T)
+> Video de referencia ["La mujer que inició la programación, antes que existan las computadoras"](https://youtu.be/LdkXhXaZAZU?si=-T877GAZN710k29T)
