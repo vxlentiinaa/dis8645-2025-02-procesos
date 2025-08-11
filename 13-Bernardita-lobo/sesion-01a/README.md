@@ -96,9 +96,13 @@ En diciembre de 1951, Turing se enfrentó a una pena de cárcel por mantener una
 
 Alan Turing fue un genio increíblemente creativo. Es realmente terrible cómo los prejuicios y la discriminación no solo limitaron el desarrollo de su investigación y sus avances en la informática, sino que también convirtieron su vida en una persecución marcada por la crueldad.
 
-Video de referencia ["La historia de Alan Turing, el hombre que inventó las computadoras"](https://youtu.be/H1ZE9CGO4js?si=yM7Q5HFvov5P2o_H)
-
 ![Foto de los tres esquemáticos](./imagenes/tmc-sesion01a-encargo02.jpeg)
+
+▼ Figura 01. Fotografía. Fuente <https://teachinglondoncomputing.org/wp-content/uploads/2019/02/29-alan-turing-from-rs-.jpg>
+
+▼ Figura 02. Fotografía. Fuente <https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f3c32e7bc6bd007054065ad/mediaLibrary/photo/9baedef8-29e5-423c-b38e-b860712b7bb8-extra-large-standard-q100.webp?v=1688084008>
+
+Video de referencia ["La historia de Alan Turing, el hombre que inventó las computadoras"](https://youtu.be/H1ZE9CGO4js?si=yM7Q5HFvov5P2o_H)
 
 ### Ada Lovelace
 
