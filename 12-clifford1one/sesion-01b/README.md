@@ -180,10 +180,10 @@ Serial.println(valor/variable, formato);
 
 formatos permitidos: 
 
-- DEC: decimal codificado en ASCII
-- HEX: hexadecimal codificado en ASCII
-- OCT: octal codificado en ASCII
-- BIN: binario codificado en ASCII
+- DEC: decimal
+- HEX: hexadecimal
+- OCT: octal
+- BIN: binario
 
 | N° | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |:---:|---|:---:|:---:|:---:|---|---|---|---|---|---|
@@ -191,7 +191,7 @@ formatos permitidos:
 
 sabiendo esto, puedo escribir un código en el que, dependiendo del caracter que envíe el usuario, el arduino haga cierta tarea.
 
-por ejemplo, con los números del teclado controlar por cuántos segundos se enciende el LED del arduino.
+por ejemplo, con los números del teclado controlar durante cuántos segundos se enciende el LED del arduino.
 
 ```cpp
 int datoRecibido = 0;  // for incoming serial data
@@ -251,7 +251,7 @@ void loop() {
 
 ### experimento-02
 
-usando la misma lógica de código ASCII, escribpi un código, que controla la intensidad del LED del arduuno con las teclas numéricas. 
+usando la misma lógica de código ASCII, escribí un código, que controla la intensidad del LED con las teclas numéricas. 
 
 ```cpp
 int datoRecibido = 0;  // for incoming serial data
@@ -300,4 +300,4 @@ void loop() {
 
 #### error en experimento-02
 
-intente usar la función [map( )](https://docs.arduino.cc/language-reference/en/functions/math/map) para reasignar la cantidad de valores análogos predeterminados, que son 1024, del 0 al 1023. Esto debido a que es el valor máximo almacenable en 10 bits (2^10).
+intenté usar la función [map( )](https://docs.arduino.cc/language-reference/en/functions/math/map) para reasignar la cantidad de valores análogos predeterminados, que son 1024(del 0 al 1023). Esto debido a que es el valor máximo almacenable en 10 bits (2^10). No funcionó
