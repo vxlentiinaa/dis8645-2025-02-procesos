@@ -44,21 +44,24 @@ Este semestre se busca trabajar más desde un computador, pero no por ello se va
 Raspberry pi RP2040,
 JLCPBC
 
+***
+
 ### Listado de conceptos
 
-#### _Herramientas, conceptos, etc_
+### _Herramientas, conceptos, etc_
 
 - Lenguajes de progamación C y C++
-- Mermaid (programa para la diagramación de textos)
-- Magister de Artes mediales
-- Mechanic.design (web)
-- Tiny Trainable
+- [Mermaid](https://mermaid.js.org/) (programa para la diagramación de textos)
+- [Magister de Artes mediales](https://artes.uchile.cl/postgrados/43490/artes-mediales)
+- Mechanic.design ([sitio web 1](https://mechanicaldesign101.com/) y [sitio web 2](https://www.machinedesign.com/))
+- [Tiny Trainable](https://github.com/montoyamoraga/tiny-trainable-instruments)
 - Computadores análogos
-- ZKM (arte electrónico)
-- Dev board
-- Raspberry pi RP2040
+- [ZKM](https://en.wikipedia.org/wiki/ZKM_Center_for_Art_and_Media_Karlsruhe) (arte electrónico)
+- Dev board ([video explicativo en inglés](https://www.youtube.com/watch?v=JrO2LziLXtM&ab_channel=UTSOURCE))
+- [Raspberry pi RP2040](https://raspberrypi.cl/producto/raspberry-pi-rp2040/)
 
-#### _Personas_
+
+### _Personas_
 
 - Roberto Bolaño (escritor) "Estrella distante".
 - Cristian Oyarzun (programador)
@@ -73,13 +76,21 @@ JLCPBC
 - Casey Reas
 - Hernando Barragan
 - Tom Igoe
-- Ada Lovelace
-- Alan Turing
 - Mar Hicks
 
-### Tarea 01
+***
 
-Aún no hay apuntes
+### Tarea 01: ¿Quiénes son?
+
+#### 1. Ada Lovelace
+
+
+*Información recuperdada de:*
+
+#### 2. Alan Turing
+
+
+*Información recuperdada de:*
 
 ***
 
