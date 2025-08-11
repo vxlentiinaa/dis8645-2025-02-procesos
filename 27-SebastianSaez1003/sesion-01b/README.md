@@ -17,7 +17,7 @@ Las cosas open source son aquellas que pueden ir más allá de la compañía, de
 
 Tenemos que instalar el Board Manager de la placa R4 para poder ser capaces de usar este Arduino.
 
-Piruetasxyz (Aaron) está creando librerías de sus proyectos para que puedan llegar a más personas. La biblioteca te permite hacer funciones preprogramadas, para que otras personas no tengan que volver a pasar por ese proceso tan largo.
+Piruetasxyz (Aarón Montoya) está creando librerías de sus proyectos para que puedan llegar a más personas. La biblioteca te permite hacer funciones preprogramadas, para que otras personas no tengan que volver a pasar por ese proceso tan largo.
 
 File-01.Basics-Blink, donde parte haciendo nada, donde existen los comentarios que indican el funcionamiento de las determinadas líneas de código…
 
@@ -35,7 +35,7 @@ Si presiono dos veces rápidamente el botón reset, se va a un estado…
 
 Todo Arduino es C, todo C no es Arduino… 
 
-/* es para indicar que todo es un comentario hasta que se encuentre el */ al menos Aaron prefiere escribir cada línea individualmente, que sería con //.
+/* es para indicar que todo es un comentario hasta que se encuentre el */ al menos Aarón Montoya prefiere escribir cada línea individualmente, que sería con //.
 
 El comentario, como buen modal, debería ir una línea anterior a donde iría a pasar, por ejemplo:
 
