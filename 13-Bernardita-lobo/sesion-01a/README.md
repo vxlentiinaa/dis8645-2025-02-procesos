@@ -66,7 +66,7 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 ### Palabras importantes
 
-[Curadoría:](https://dle.rae.es/curadur%C3%ADa) Conservación y supervisión de bienes artísticos o culturales, especialmente para su eventual exhibición.
+[Curaduría:](https://dle.rae.es/curadur%C3%ADa) Conservación y supervisión de bienes artísticos o culturales, especialmente para su eventual exhibición.
 
 [Semiótica:](https://dotlib.com/es/blog/semiotica-definicion-fundamentos-y-aplicaciones#:~:text=%C2%BFQu%C3%A9%20es%20la%20semi%C3%B3tica%3F,signo'%20o%20'se%C3%B1al'.) Es el estudio de los sistemas de signos y los procesos de significación.
 
