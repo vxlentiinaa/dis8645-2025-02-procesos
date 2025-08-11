@@ -114,31 +114,40 @@ Serial.begin();
 
 ### programar y equivocarse 5 veces
 
-En int tiempoPrendido = 100
-Int tiempoApagado = 300
+Agregué esto y me arrojaba error.
 
-Agregue eso y me tiraba error
+Int tiempoPrendido = 100
+Int tiempoApagado = 300
 
 ![Captura de pantalla](./imagenes/tmc-sesion01b-encargo01.png)
 
-Intenté replicar el codigo que hacia aaron, y me volvio a tirar error, me faltaban las ;
+Intenté replicar el código que hacía Aarón, ordenando y separando las líneas, ya que pensé que el error venía de otra parte.
+
+Me volvió a arrojar error, me faltaban los punto y coma (;)
 
 ![Captura de pantalla](./imagenes/tmc-sesion01b-encargo02.png)
 
-Para string había que poner la frase entre comillas
+Pensé que no se podía usar la palabra holaa, por tener dos letras a o por ser solo una palabra.
+
+La cambié por una frase, y tampoco funcionó.
 
 ![Captura de pantalla](./imagenes/tmc-sesion01b-encargo03.png)
 
-Agregue un string = una frase entre comillas y no se solucionó, 
-Agregue una palabra antes y no se solucionó
-Pense que solo se podia poner la palabra poema, pero no funciono
-Me faltaba al final ;
-
-Agregue mas de una palabra y no me funciono, parese que despues de string tiene que ir solo una palabra
+Agregué un String con una frase entre comillas, pero no se solucionó.
 
 ![Captura de pantalla](./imagenes/tmc-sesion01b-encargo04.png)
 
+Quité la palabra poema y el signo igual (=), y me arrojaba error.
+
+Agregué más de una palabra y no me funcionó; parece que después de String tiene que ir solo una palabra.
+
+Me di cuenta de que al final faltaba el punto y coma (;).
+
 ![Captura de pantalla](./imagenes/tmc-sesion01b-encargo05.png)
+
+No logré hacer que se repitieran más de una frase.
+
+La verdad, no pude encontrar una solución.
 
 ![Captura de pantalla](./imagenes/tmc-sesion01b-encargo06.png)
 
