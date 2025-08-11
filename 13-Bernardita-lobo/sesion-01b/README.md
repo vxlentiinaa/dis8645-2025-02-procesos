@@ -12,15 +12,15 @@ Hay que tener en cuenta los estados de las máquinas electrónicas. Por ejemplo,
 
 ### Preguntas de de hithub
 
-¿Cómo se cambia el nombre de una carpeta?
+- ¿Cómo se cambia el nombre de una carpeta?
 
 Hay que instalar GitHub en el computador, y desde ahí se puede hacer.
 
-¿Cómo se elimina un repositorio?
+- ¿Cómo se elimina un repositorio?
 
 Cuando estás en el repositorio, puedes ir a Settings, y al final aparece la opción de archivarlo o eliminarlo.
 
-¿Cómo me incorporo al repositorio?
+- ¿Cómo me incorporo al repositorio?
 
 Hay que hacer un fork en la parte superior y luego sincronizar.
 
@@ -41,6 +41,12 @@ Si le das doble clic al botón de reset, entra en un modo especial de reseteo.
 No todos los cables USB-C transmiten datos; algunos solo sirven para cargar energía.
 
 ¿Qué tengo que hacer para empezar? Tengo que instalar el software de Arduino, asegurarme de que el cable sea compatible (que transmita datos, no solo carga).
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-arduino01.png)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-arduino02.png)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-arduino03.png)
 
 ### Comentarios y Conceptos Básicos de Arduino
 
@@ -70,9 +76,9 @@ Solo es necesario declarar una vez una función o variable, y después puedo usa
 
 ### Referentes
 
-- alejandra pizarnik
+- Alejandra Pizarnik
 
-### palabras importantes
+### Palabras importantes
 
 [Declarar:](https://www.lenovo.com/es/es/glossary/what-is-a-declaration/?orgRef=https%253A%252F%252Fwww.google.com%252F) Una declaración es un enunciado que define o declara una variable, función u objeto en programación. Especifica el nombre, el tipo de datos y el valor inicial (si procede) de la entidad declarada. Las declaraciones son esenciales en programación, ya que permiten al compilador o al intérprete comprender y asignar memoria a las entidades declaradas.
 
@@ -80,6 +86,6 @@ Solo es necesario declarar una vez una función o variable, y después puedo usa
 
 [Hardware:](https://www.lenovo.com/cl/es/glosario/hardware/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor3Gt7B6Y6xNSJNojEyvhr_MUmAUAT3oOphR7g2wk_2xoFBj4NQ) El hardware se refiere a los componentes físicos de un sistema informático que puedes ver y tocar. Esto incluye dispositivos como la unidad central de procesamiento (CPU), módulos de memoria, discos duros, teclados, mouse, monitores y otros periféricos. 
 
-## Encargos
+## Encargo
 
 ### programar y equivocarse 5 veces
