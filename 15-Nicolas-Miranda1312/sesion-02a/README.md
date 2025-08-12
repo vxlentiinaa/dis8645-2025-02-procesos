@@ -1,16 +1,13 @@
 # sesion-02a
 
-##subtitulo
+## subtitulo
 
-###subsubtítulo
+### subsubtítulo
 
 jajaja
 
-*ente asteriscos se ve cursiva*
+para hacer *cursiva* se escribe entre asteriscos
 
-**doble asterisco la orasion se ve en negrita**
+para hacer **bold** se escribe entre doble asterisco
 
 los linnk se ponen ente <>
-
-
-
