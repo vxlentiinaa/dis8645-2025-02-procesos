@@ -1,4 +1,3 @@
-
 # Clase 03
 
 Martes 12 de agosto de 2025
