@@ -72,4 +72,6 @@ stack overflow >> pagina web que ayuda cuando no me sale un codigo
 
 puesto de empanadas, tiene que estar limpio
 
+cdm  blog de musica
+
 utilizar fuentes originales // no las de inteligencia artificial
