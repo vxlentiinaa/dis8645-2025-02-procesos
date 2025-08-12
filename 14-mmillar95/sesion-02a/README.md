@@ -57,3 +57,22 @@ Libro de proyectos Arduino (kit arduino)
 
 ![Uploading Captura de pantalla 2025-08-12 085639.png…]()
 
+
+
+# Clase 03 // 12.08.2025
+
+- U : universal = estandar
+- S: serial
+- B: bus 
+
+Tipo de comunicación por transporte 
+
+Intercambio de comunicación binaria 
+
+mouse: 9600
+
+stack overflow >> pagina web que ayuda cuando no me sale un codigo 
+
+puesto de empanadas, tiene que estar limpio 
+
+utilizar fuentes originales // no las de inteligencia artificial 
