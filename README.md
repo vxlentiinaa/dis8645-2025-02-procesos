@@ -7,11 +7,11 @@ Taller de diseño de máquinas computacionales, segundo semestre 2025
 * Aarón Montoya <https://github.com/montoyamoraga>: profesore primario
 * Matías Serrano <https://github.com/misaaaaaa>: profesore secundario
 * Janis Sepúlveda <https://github.com/janisepulveda>: ayudante
-* Mateo Arce <https://github.com/matbutom/>
+* Mateo Arce <https://github.com/matbutom/>: ayudante
 
 ## Unidades
 
-Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. Las entregas grupales se hacen en grupos de 3 estudiantes.
+Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. Las entregas grupales se hacen en grupos de 3 a 4 estudiantes.
 
 ### Unidad 1: diseño de software para microcontroladores
 
@@ -41,13 +41,13 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 | Sesión                           | Fecha       | Temas                           |
 | :------------------------------- | :---------- | :------------------------------ |
 | [01a](./00-docentes/sesion-01a/) | 08-05 mar   | intro máquinas computacionales  |
-| [01b](./00-docentes/sesion-01b/) | 08-08 vier  | markdown y github en la nube    |
-| [02a](./00-docentes/sesion-02a/) | 08-12 mar   | C++ en microcontroladores       |
-| [02b](./00-docentes/sesion-02b/) | 08-15 vier  | variables y funciones           |
-| [03a](./00-docentes/sesion-03a/) | 08-19 mar   | prog. orientada a objetos       |
-| [03b](./00-docentes/sesion-03b/) | 08-22 vier  |                                 |
-| [04a](./00-docentes/sesion-04a/) | 08-26 mar   |                                 |
-| [04b](./00-docentes/sesion-04b/) | 08-29 vier  |                                 |
+| [01b](./00-docentes/sesion-01b/) | 08-08 vier  | variables y funciones en C++    |
+| [02a](./00-docentes/sesion-02a/) | 08-12 mar   | markdown y github en la nube    |
+| [02b](./00-docentes/sesion-02b/) | 08-15 vier  | no hay sesión, feriado          |
+| [03a](./00-docentes/sesion-03a/) | 08-19 mar   | no hay sesión, feriado          |
+| [03b](./00-docentes/sesion-03b/) | 08-22 vier  | TODO                            |
+| [04a](./00-docentes/sesion-04a/) | 08-26 mar   | TODO                            |
+| [04b](./00-docentes/sesion-04b/) | 08-29 vier  | TODO                            |
 | [05a](./00-docentes/sesion-05a/) | 09-02 mar   | / solemnes 1, no hay ev. taller |
 | [05b](./00-docentes/sesion-05b/) | 09-05 vier  | / solemnes 1, no hay ev. taller |
 | [06a](./00-docentes/sesion-06a/) | 09-09 mar   |                                 |
