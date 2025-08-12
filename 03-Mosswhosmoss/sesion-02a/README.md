@@ -218,10 +218,17 @@ void switchLED (int timing) {
 ## **CLASE MARTES 12**
 ### **REFERENTES/LINKS**
 [Tecnópolis](https://es.wikipedia.org/wiki/Tecnópolis)
+
 [UNTREF](https://untref.edu.ar)
+
 [YAELTEX](https://yaeltex.com)
+
 [J.CROWE](https://www.jcrowe.xyz)
+
 [.XYZ](https://gen.xyz) Sitio para comprar dominio barato 
+
 [Nicholas Negroponte](https://es.wikipedia.org/wiki/Nicholas_Negroponte)
+
 [Yuk Hui](https://scholars.cityu.edu.hk/ws/portalfiles/portal/185446872/45522588.pdf)
+
 [cajaNegraEditorial](https://cajanegraeditora.com.ar) 
