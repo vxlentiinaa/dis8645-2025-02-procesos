@@ -63,20 +63,20 @@ JLCPBC
 
 ### _Personas_
 
-- Roberto Bolaño (escritor) "Estrella distante".
-- Cristian Oyarzun (programador)
-- Rafael Berguña (Premio nacional de ciencias)
-- Rodrio Cadiz y la psicoacutica
-- María José Contreras Lorenzini
-- Tod Machover
-- Zach Lieberman
-- Pete Warden
-- Muriel Cooper
-- John Maeda
-- Casey Reas
-- Hernando Barragan
-- Tom Igoe
-- Mar Hicks
+- [Roberto Bolaño](https://es.wikipedia.org/wiki/Roberto_Bola%C3%B1o) (escritor) ["Estrella distante"](https://es.wikipedia.org/wiki/Estrella_distante).
+- [Cristian Oyarzun](https://www.instagram.com/coyarzunroa/) (programador)
+- [Rafael Berguña](https://www.uc.cl/universidad/premios-nacionales/rafael-benguria-donoso/) (Premio nacional de ciencias)
+- [Rodrigo Cádiz](https://musica.uc.cl/docentes/rodrigo-cadiz/) y la psicoacutica
+- [María José Contreras Lorenzini](https://www.mariajosecontreras.com/)
+- [Tod Machover](https://www.media.mit.edu/people/tod/overview/)
+- [Zach Lieberman](http://zach.li/)
+- [Pete Warden](https://petewarden.com/) (blog)
+- [Muriel Cooper](https://disenadorasgraficas.com/biografia/muriel-cooper/)
+- [John Maeda](https://www.media.mit.edu/people/maeda/overview/)
+- [Casey Reas](https://reas.com/)
+- Hernando Barragán ([La historia no contada de Arduino](https://arduinohistory.github.io/))
+- [Tom Igoe](https://tigoe.com/)
+- [Mar Hicks](https://marhicks.com/)
 
 ***
 
