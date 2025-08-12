@@ -64,8 +64,7 @@ Serial. --> puerto
 ; --> fin de una linea 
 
 \n --> enter 
-
-## encargos
+ ## encargos
 1. crear variables 3-5 codigos que no funcionen 
 2. pensar que me gustaria hacer con arduino
-3. documentar lo anterior 
+3. documentar lo anterior
