@@ -6,17 +6,18 @@
 
 - [baudios(Bd)](https://es.wikipedia.org/wiki/Baudio)
 
-- [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus) Universal Serial Bus. Se lama bus, porque se envía grupos de información contenida en "paquetes" 
-
 - [ISO](https://www.iso.org/home.html)
 
 - [ACM](https://www.acm.org)
 
 - [IEEE](https://webstore.ansi.org/sdo/IEEE)
 
-![imagen del diagrama de la pizarra]("./imagenes/pizarra-usb.png")
+
+- [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus) Universal Serial Bus. Se lama bus, porque se envía grupos de información contenida en "paquetes" 
 
 un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ningún código cargado), se está haciendfo uso de los 2 cables de GND y VCC, al cargar el código activo la comunicación PC-> Arduino, y si en el código, tiene un Serial.begin();, activo la comunicación Arduino -> PC.
+
+![imagen del diagrama de la pizarra](./imagenes/pizarra-usb.jpg)
 
 #### extras
 
@@ -34,7 +35,7 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning�
 
 - [tecnópolis](https://es.wikipedia.org/wiki/Tecnópolis)
 
-[untref](https://untref.edu.ar) universidad Argentina con posgrado de arte electrónico
+- [untref](https://untref.edu.ar) universidad Argentina con posgrado de arte electrónico
 
 - [MIDI's personalizados](https://yaeltex.com)
 
@@ -56,7 +57,7 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning�
 
 - [Yuk Hui](https://cajanegraeditora.com.ar/autores/?autor=hui-yuk)
 
-### Libro
+### libros
 
 - [trilogía salud mental](https://cajanegraeditora.com.ar/libros/combo-salud-mental)
 
