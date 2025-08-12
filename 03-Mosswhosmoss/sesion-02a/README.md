@@ -1,7 +1,7 @@
 # sesion-02a
 ## Tarea sesion pasada
 ### **IDEA**
-Voy a replicar un poema en codigo morse, con el led integrado en el pin 13 de Arduino :D 
+Voy en codigo morse decir "mish", con el led integrado en el pin 13 de Arduino :D 
 
 ### **REFERENTES**
 [ejemplo-01](https://www.instructables.com/Morse-code-with-arduinoLED)
