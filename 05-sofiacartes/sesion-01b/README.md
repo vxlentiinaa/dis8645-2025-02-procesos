@@ -23,6 +23,8 @@ delay (500);//pausa larga despues de los destellos
 
 La idea es que después de 3 destellos haga una pausa larga y reset. Pero, me resultó 7 destellos consecutivos y 1 rápido, siguiendo con que no se apague más.
 
+<img width="1469" height="825" alt="ejercicio1arduino" src="https://github.com/user-attachments/assets/91688fbb-cfd5-4bf2-bce2-0deab6055056" />
+
 ## Código 2
 
 ```cpp
@@ -41,6 +43,8 @@ for (int brillo = 0; birllo <= 255;brillo++) {
 ```
 
 La idea es simular pulso, aumentar y bajar brillo con PWM. Me equivoqué en la palabra brillo.
+
+<img width="1278" height="825" alt="ejercicio2arduino" src="https://github.com/user-attachments/assets/23b1abcd-4f91-468c-aabd-70724e4cfe90" />
 
 ## Código 3
 
@@ -66,4 +70,6 @@ delay(1000);
 }
 ```
 
-La idea es que el LED alternara el parpadeo, uno rápido y después uno lento. 
+La idea es que el LED alternara el parpadeo, uno rápido y después uno lento.
+
+<img width="992" height="652" alt="ejerciio3arduino0 1" src="https://github.com/user-attachments/assets/c13e2541-4d89-4984-9045-13200bd5eb12" />
