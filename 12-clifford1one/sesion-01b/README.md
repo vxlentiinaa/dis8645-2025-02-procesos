@@ -26,7 +26,8 @@ códigos de color
 
 - rojo/naranjo: identifica funciones
 
-ejemplo: 
+ejemplo:
+
 - void loop(){}
 - digitalWrite();
 
@@ -131,7 +132,6 @@ void confeti(){
 }
 ```
 
-
 ## personas
 
 - [Constanza Gaggero:](https://www.instagram.com/gaggeroworks/?hl=en) diseñadora gráfica profe FaAAD
@@ -166,7 +166,7 @@ Documentar mínimo 3 códigos probados en el arduino que no funcionaron.
 
 Mi objetivo es utilizar el input del usuario. Escribir en el puerto serial produce cierto output.
 
-para esto hay que entender [Serial.read( )](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println/). 
+para esto hay que entender [Serial.read( )](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println/).
 
 con este código, al escribir en el puerto serial, devuelve números enteros de 1-3 dígitos. Los cuales provienen de [ASCII(American Standard Code for Iformation Interchange)](https://www.ascii-code.com). ASCII es un método de codificación de carácteres.
 
@@ -178,7 +178,7 @@ con este código, al escribir en el puerto serial, devuelve números enteros de 
 
 Serial.println(valor/variable, formato);
 
-formatos permitidos: 
+formatos permitidos:
 
 - DEC: decimal
 - HEX: hexadecimal
@@ -251,7 +251,7 @@ void loop() {
 
 ### experimento-02
 
-usando la misma lógica de código ASCII, escribí un código, que controla la intensidad del LED con las teclas numéricas. 
+usando la misma lógica de código ASCII, escribí un código, que controla la intensidad del LED con las teclas numéricas.
 
 ```cpp
 int datoRecibido = 0;  // for incoming serial data
@@ -302,7 +302,6 @@ void loop() {
 
 intenté usar la función [map( )](https://docs.arduino.cc/language-reference/en/functions/math/map) para reasignar la cantidad de valores análogos predeterminados, que son 1024(del 0 al 1023). Esto debido a que es el valor máximo almacenable en 10 bits (2^10). No funcionó
 
-
 ### experimento-03
 
 ```cpp
@@ -344,9 +343,9 @@ mi idea era hacer un "recordador", en referencia a lo poco que se demora en en d
 
 este es el error que me tira:
 
-```
-Failed to retrieve language identifiers
-Failed to retrieve language identifiers
-error get_status: LIBUSB_ERROR_TIMEOUT
-Failed uploading: uploading error: exit status 74
+```cpp
+// Failed to retrieve language identifiers
+// Failed to retrieve language identifiers
+// error get_status: LIBUSB_ERROR_TIMEOUT
+// Failed uploading: uploading error: exit status 74
 ```
