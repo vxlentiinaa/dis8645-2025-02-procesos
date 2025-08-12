@@ -1,1 +1,4 @@
-# sesion-01b
+# sesion-01b 08/08
+## Apuntes clase
+## Encargo 02
+
