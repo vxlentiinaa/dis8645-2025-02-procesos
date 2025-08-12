@@ -74,29 +74,21 @@ No importa el orden en que estén las funciones, pero sí es importante que el c
 
 Solo es necesario declarar una vez una función o variable, y después puedo usarla cuando quiera.
 
-
-
-Parentesis ()
-Murcielagos {}
-Corchete []
+Paréntesis: () Murciélagos: {} Corchetes: []
 
 C++ variables: int, double, char, string, bool
 
-Cosas en celeste y cosas en naranja
+En el entorno de Arduino, hay cosas que aparecen en celeste y otras en naranjo, lo que ayuda a distinguir funciones, variables y otros elementos del código.
 
-El check (verificar) es para ver si funciona el código
+El botón de check ( Verificar) sirve para comprobar si el código funciona correctamente.
 
-Y la flecha (upload) es para mandarlo a arduino través del cable
+La flecha ( Upload ) se utiliza para enviar el código al Arduino a través del cable. Cuando haces upload, el programa primero verifica el código y luego lo sube. Por lo tanto, no es necesario verificar manualmente antes de subirlo.
 
-Upload primero verifica el codigo y despues lo sube, no es necesario verificar en tonces
+Si escribes /* todas las líneas que sigan serán consideradas comentarios hasta que pongas */
 
-Si pongo /* todas las lineas son comentario hasta */ 
+Si quieres comentar línea por línea, debes usar // al comienzo de cada una.
 
-Al menos que comentes uno por un los comentarios por lineas con //
-
-Cada linea antes de que pase algo debería tener su comentario
-
-Serial.begin();
+Lo ideal es que cada línea de código tenga un comentario explicando lo que hace, especialmente cuando estás empezando.
 
 ### Referentes
 
