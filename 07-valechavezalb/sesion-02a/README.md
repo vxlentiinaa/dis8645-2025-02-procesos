@@ -14,7 +14,8 @@ Un baudio o baud rate es la veocidad de la comunicación de datos. Por ejemplo
 
 ## **Códigos**
 #### Luz que parpadea con código morse con la palabra SOS
-```  // luz led incorporada del arduino
+``` javascript 
+// luz led incorporada del arduino
   pinMode(LED_BUILTIN, OUTPUT);
 
 }
@@ -49,7 +50,8 @@ void flash (int duracion)
 }
 ```
 #### Reloj que muestra horas, minutos y segundos
-```void setup() {
+``` javascript
+void setup() {
 
   unsigned long tiempoAnterior = 0;
 }
@@ -80,7 +82,8 @@ void loop() {
 - Este tuvo un error que no pude resolverlo, dice que tiene un error de sintaxis pero está bien escrito y no supe resolverlo. Escrbí Serial.printIn y no me lo toma.
 
 #### Elección de número al azar, que se ve en el serial monitor
-```Serial.begin(9600); // inicia comunicacion serie 9600 --> velocidad a la que los datos se transmitiran entre pc-arduino
+``` javascript 
+Serial.begin(9600); // inicia comunicacion serie 9600 --> velocidad a la que los datos se transmitiran entre pc-arduino
   randomSeed(analogRead(0)); // semilla que hace que los numeros no se repitan siempre
 
 }
