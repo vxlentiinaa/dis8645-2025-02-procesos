@@ -4,77 +4,143 @@
 
 ### Cosas que hablamos en la mañana
 
-Cuando mandas un correo en bcc esta como en oculto, entonces no le llega a todo el mundo todos los correos de confirmacion porque no pueden ver al de al lado
+Cuando mandas un correo en bcc (copia oculta), los destinatarios no pueden ver a quién más se lo enviaste, así que no les llegan todos los correos de confirmación porque no pueden ver quién más está en la lista.
 
-Tambien nos explicaron como enciar correos para muchas personas usando un alias de ese conjunto de personas
+También nos explicaron cómo enviar correos a muchas personas usando un alias que agrupa a ese conjunto de contactos.
 
-Hay que considerar los estados de las maquinas electronicas, hablamos de los botones de los ascensores xd, y como aveces en hacer cosas mundanas por no saber como funcionan las cosas las hacemos y utilizamos como edicientes
+Hay que tener en cuenta los estados de las máquinas electrónicas. Por ejemplo, hablamos de los botones de los ascensores y cómo a veces, por no saber bien cómo funcionan las cosas, terminamos haciendo acciones cotidianas de forma poco eficiente.
 
 ### Preguntas de de hithub
 
-- ¿Como se cambia el nombre de una carpeta?
+- ¿Cómo se cambia el nombre de una carpeta?
 
-- ¿Como se elimina una carpeta? parece que ha que instalar hithub en el computador y hay se puede hacer
+Hay que instalar GitHub en el computador, y desde ahí se puede hacer.
 
-- ¿Como me incorporo al repositorio? hay que hacer fork arriba
+- ¿Cómo se elimina un repositorio?
 
-### Arduino
+Cuando estás en el repositorio, puedes ir a Settings, y al final aparece la opción de archivarlo o eliminarlo.
 
-Arduino.cc
+- ¿Cómo me incorporo al repositorio?
 
-(IDE) Ambiente de desarrollo integrado
+Hay que hacer un fork en la parte superior y luego sincronizar.
 
-con control y , se pueden abrir las preferencias de configuracion
+### Arduino.cc
 
-cuando apretas el boton es como apagarlo y prenderlo, es como resetearlo, cuando lo desenchufo el codigo queda grabado en el arduino, porque tienen memoria.
+IDE (Entorno de Desarrollo Integrado) es el programa que se usa para escribir y cargar código en la placa de Arduino.
 
-se usa para hablar de tres cosas
+Con los controles y el menú, se pueden abrir las preferencias de configuración.
 
-el hardwer, la placa, el arduino
-el codigo, que es el arduino, un dialecto, para subirla a una placa de arduino xd
+Cuando presionas el botón de reset, es como apagar y prender el Arduino, lo reinicia. Incluso si lo desenchufas, el código se queda grabado en la placa, porque tiene memoria.
 
-se le puede hacer daño al arduino con el codigo, pero es dificil que se dañe, solo fisicamente
+La palabra "Arduino" se usa para hablar de dos cosas. Primero, el hardware, es decir, la placa física. Y segundo el código, que también se llama Arduino. Es un dialecto de C++ que se escribe en el IDE y se sube a la placa.
 
-si le das doble click entra en un estado de reseteo.
+Se le puede hacer daño al Arduino con un mal uso del código, pero es difícil. Generalmente, solo se daña físicamente.
 
-no todos los usb c pueden hacer lo mismo, algunos se ahorran la parte de transmitir datos, solo sirve para cargar
+Si le das doble clic al botón de reset, entra en un modo especial de reseteo.
 
-que tengo que hcaer? instalar y sofwer, instale el arduino, y el cable es real.
+No todos los cables USB-C transmiten datos; algunos solo sirven para cargar energía.
 
-comentarios de arduino? primero los podemos organizar en papel, de rrepente sin comentarios es mas rapido hacerlo de nuevo que entenderlo, no apostar a que vamos a recordar que hace cada linea.
+¿Qué tengo que hacer para empezar? Tengo que instalar el software de Arduino, asegurarme de que el cable sea compatible (que transmita datos, no solo carga).
 
-setup es importante, ocurre una vez, es como despetar, solo lo hacemos una vez en el dia.
+![Captura de pantalla](./imagenes/tmc-sesion01b-arduino01.png)
 
-loop  ocurre el resto del dia,
+![Captura de pantalla](./imagenes/tmc-sesion01b-arduino02.png)
 
-las patitas del arrduino se llman pines, pinmode, cuando usamos un pin digital tenemos que decrile para que sirve.
+![Captura de pantalla](./imagenes/tmc-sesion01b-arduino03.png)
 
-hay varias maneras de programar cosas, lo importante es el cmino que tomenos para optimizar el procesos, uanque el resultado sea el mismo.
+### Comentarios y Conceptos Básicos de Arduino
 
-(tiempoPrendido) y (tiempoApagado)
+Primero, los comentarios en el código los podemos organizar en papel. A veces, sin comentarios, puede ser más rápido rehacer el código que tratar de entenderlo, no hay que confiar en que vamos a recordar qué hace cada línea.
 
-las funciones son palabras que llaman a funcionamientos, a diferencia de void setup y void loop, el resto de palabras, dentro de los parenticis v estan los parametros, pueden haber muchos parametros.
+El setup es importante, ocurre una vez al inicio, es como despetar, solo se hace una vez al día.
 
-para esto existen reglas de estilo, apuntes conssitentes y como se llaman las cosas para que tengan sentido. lenguaje con reglas extrictas pero son mas o menos legibles, a eso se le llaman niveles de abstraccion(?
+El loop es el proceso que continúa durante todo el tiempo, repitiéndose constantemente.
 
-en programacion para que algo ocuura tiene que haber sido creado antes, si no existe, te avisa a traves de un error que no fue declarado.
+Las patitas del Arduino se llaman pines. Cuando usamos un pin digital, tenemos que decirle para qué sirve con la función pinMode.
 
-para declarar algo tengo que hacer que aparezca void y dentro de los murcielados { } ponemos la funcion, es como darle un nombre a una funcion. es la declaracion de que algo se llama por ejemplo setup, todo lo del codigo son declaraciones de funsiones.
+Hay varias maneras de programar cosas; lo importante es el camino que tomemos para optimizar el proceso, aunque el resultado sea el mismo.
 
-no importa el orden pero si es importante que sepa que existen esas cosas atraves de las declaraciones.
+Podemos usar variables como tiempoPrendido y tiempoApagado.
 
-solamente es necesario declarar una ves y puedo utilizarle cuando quiera.
+Las funciones son palabras que llaman a ciertos comportamientos. A diferencia de void setup() y void loop(), el resto de funciones tienen parámetros dentro de los paréntesis, y puede haber muchos parámetros.
+
+Para esto existen reglas de estilo, apuntes consistentes y nombres claros para que el código tenga sentido. La programación tiene reglas estrictas, pero son más o menos legibles; a esto se le llama niveles de abstracción.
+
+En programación, para que algo ocurra, debe haber sido creado antes. Si no existe, el compilador te avisa con un error que dice que no fue declarado.
+
+Para declarar una función, tengo que usar la palabra void y dentro de las llaves { } ponemos el código de la función. Es como darle un nombre a esa función. Por ejemplo, declarar setup es decir que existe esa función. Todo el código está formado por declaraciones de funciones.
+
+No importa el orden en que estén las funciones, pero sí es importante que el compilador sepa que existen, a través de las declaraciones.
+
+Solo es necesario declarar una vez una función o variable, y después puedo usarla cuando quiera.
+
+Paréntesis: () Murciélagos: {} Corchetes: []
+
+C++ variables: int, double, char, string, bool
+
+En el entorno de Arduino, hay cosas que aparecen en celeste y otras en naranjo, lo que ayuda a distinguir funciones, variables y otros elementos del código.
+
+El botón de check ( Verificar) sirve para comprobar si el código funciona correctamente.
+
+La flecha ( Upload ) se utiliza para enviar el código al Arduino a través del cable. Cuando haces upload, el programa primero verifica el código y luego lo sube. Por lo tanto, no es necesario verificar manualmente antes de subirlo.
+
+Si escribes /* todas las líneas que sigan serán consideradas comentarios hasta que pongas */
+
+Si quieres comentar línea por línea, debes usar // al comienzo de cada una.
+
+Lo ideal es que cada línea de código tenga un comentario explicando lo que hace, especialmente cuando estás empezando.
 
 ### Referentes
 
-- alejandra pizarnik
+- Alejandra Pizarnik
 
-- 
+### Palabras importantes
 
-### palabras importantes
+[Declarar:](https://www.lenovo.com/es/es/glossary/what-is-a-declaration/?orgRef=https%253A%252F%252Fwww.google.com%252F) Una declaración es un enunciado que define o declara una variable, función u objeto en programación. Especifica el nombre, el tipo de datos y el valor inicial (si procede) de la entidad declarada. Las declaraciones son esenciales en programación, ya que permiten al compilador o al intérprete comprender y asignar memoria a las entidades declaradas.
 
-declarar: declaran en programacion...
+[Variables:](https://www.flexbot.es/variables-y-constantes-en-arduino/) Una variable es la manera que tenemos de guardar valores. Las variables tienen nombre y son de un solo tipo. Estas variables se pueden usar para muchas cosas: comprobaciones, operaciones matemáticas. Una variable puede ser declarada al inicio del programa, antes del setup(), dentro de otras funciones o dentro de un control de flujo.
 
-## Encargos
+[Hardware:](https://www.lenovo.com/cl/es/glosario/hardware/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor3Gt7B6Y6xNSJNojEyvhr_MUmAUAT3oOphR7g2wk_2xoFBj4NQ) El hardware se refiere a los componentes físicos de un sistema informático que puedes ver y tocar. Esto incluye dispositivos como la unidad central de procesamiento (CPU), módulos de memoria, discos duros, teclados, mouse, monitores y otros periféricos. 
+
+## Encargo
 
 ### programar y equivocarse 5 veces
+
+Agregué esto y me arrojaba error.
+
+Int tiempoPrendido = 100
+Int tiempoApagado = 300
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo01.png)
+
+Intenté replicar el código que hacía Aarón, ordenando y separando las líneas, ya que pensé que el error venía de otra parte.
+
+Me volvió a arrojar error, me faltaban los punto y coma (;)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo02.png)
+
+Pensé que no se podía usar la palabra holaa, por tener dos letras a o por ser solo una palabra.
+
+La cambié por una frase, y tampoco funcionó.
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo03.png)
+
+Agregué un String con una frase entre comillas, pero no se solucionó.
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo04.png)
+
+Quité la palabra poema y el signo igual (=), y me arrojaba error.
+
+Agregué más de una palabra y no me funcionó; parece que después de String tiene que ir solo una palabra.
+
+Me di cuenta de que al final faltaba el punto y coma (;).
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo05.png)
+
+No logré hacer que se repitieran más de una frase.
+
+La verdad, no pude encontrar una solución.
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo06.png)
+
+![Captura de pantalla](./imagenes/tmc-sesion01b-encargo07.png)
