@@ -4,7 +4,7 @@
 
 Primera clase del **taller de diseño de máquinas computacionales**
 
-````C++
+````cpp
 if (dia == martes || dia == viernes)
 {
     8:30 - 9:00 = llegar
@@ -16,7 +16,7 @@ if (dia == martes || dia == viernes)
 ````
 
 - ZKM - arte sonoro
--  HCI - interacción humano --> computador
+- HCI - interacción humano --> computador
 - STS - Science Technology and Society
 - ATmega328p
 - Muriel Cooper - Physical lenguaje
@@ -26,8 +26,7 @@ if (dia == martes || dia == viernes)
 - [UTADEO](https://www.utadeo.edu.co/es/continuada/educacion-continua/53376/catedra-en-diseno-arte-y-ciencia)
 - Ada Lovelace inventora de la computación 1852
 - Alan Turing
-- MArk Hicks - historiadora de la computación 
-
+- MArk Hicks - historiadora de la computación
 
 ## Qué es una "máquina"
 
@@ -37,7 +36,7 @@ if (dia == martes || dia == viernes)
 - Tiene IN & OUT
 - Piezas móviles
 - Componentes electrónicos
-- Require **energía** 
+- Require **energía**
 - **tiempo** - "sustrato de la energía" - Misa - no se puede cambiar algo sin el tiempo
 - Obvetivo definido
 - **Compuesta** por más de un elemento
@@ -45,17 +44,18 @@ if (dia == martes || dia == viernes)
 - Facilitar
 
 ### MACHINA --> MAKHANE
-    - Artificio
-    - Ingenio
-    - Medio
+
+- Artificio
+- Ingenio
+- Medio
 
 ## Qué es "computacionales"
 
 - Objeto físico
 - **Lenguaje** - signos y símbolos
 - Orden **lógico**
-    - Combinacional
-    - Secuencial
+  - Combinacional
+  - Secuencial
 - **Cómputo** - número - resultado
 - Datos / Cálculo
 - Informarión

@@ -1,23 +1,25 @@
 # sesion-01b
+
 viernes 08 de abril
 
 - Hay que saber mandar correos
   - Siempre se pone Subject (asunto)
   - Evitar saludos largos (no es necesario "junto con saludar...") en este contexto no es necesario (Aarón quiere correos que vayan directo al punto)
 - Siempre hay que documentar y comentar
-- [C++ Variabels](https://www.w3schools.com/cpp/cpp_variables.asp)
- 
+- <https://www.w3schools.com/cpp/cpp_variables.asp>
+
 ## instalar Arduino IDE
 
 <https://www.arduino.cc/en/software/>
 
 ### usando arduino
+
 - void *declaración*() {
   - void =
   - declaración = crea una declaración con ese nombre
   - { = aquí dentro está todo lo que debe ocurrir cuando se llama *declaración*
-- <font color="orange">"delay</font>(xxxx)" palabras rojas/naranjas con paréntesis indican **funciones** = palabaras que llaman a otro código
-- /* "de aquí en adelante todo es comentario" */ = notas grandes dentro del código
+- palabras rojas/naranjas con paréntesis indican **funciones** = palabaras que llaman a otro código
+- /*"de aquí en adelante todo es comentario"*/ = notas grandes dentro del código
 - // = para notas por lineas
 - () = paréntesis = parámetros, se separan mediante ", " (incluyendo el espacio)
 - {} = murciélago
@@ -31,7 +33,7 @@ viernes 08 de abril
     - bool = sí (1) o no (0)
     - float = numeros decimales
     - char = 1 caracter *´a´*
-    - string = palabras *"texto"* 
+    - string = palabras *"texto"*
   - tiempoPrendido = nombre de variable
   - 100 = tiempo que corre
 - setup = función que corre desde que se presiona "reset" o cuando se prende la placa
@@ -52,13 +54,13 @@ viernes 08 de abril
 
 ----
 
-````
-se puede poner bloques de código con las comillas invertidas (AltGr + }). Se deben poner 4 al inicio y al final del bloque. Para señalar el lenguaje de código hay que poner "````C++"
-````
+```cpp
+// se puede poner bloques de código con las comillas invertidas (AltGr + }). Se deben poner 3 al inicio y al final del bloque. Para señalar el lenguaje de código hay que poner "````cpp"
+```
 
 ejemplo:
 
-````C++
+````cpp
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
   delay(1000);      
@@ -68,23 +70,25 @@ Fuente: <https://www.markdownguide.org/extended-syntax/#fenced-code-blocks>
 
 También vi que se puede poner un enlace hacia un título del texto: [instalar Arduino IDE](#instalar-arduino-ide)
 
-````
+```cpp
 Así:
 [instalar Arduino IDE](#instalar-arduino-ide)
-`````
+````
 
 --
 
 También le puedo cambiar el color a las letras con:
 
-````
+```html
 <font color="0 255 0">Este texto debería ser verde.</font>
-````
+```
 
-Se pueden usar códigos de colores, RGB o el nombre del color en inglés. Los colores no se ven tan bien estando en modo oscuro.
+<!-- Se pueden usar códigos de colores, RGB o el nombre del color en inglés. Los colores no se ven tan bien estando en modo oscuro.
 
 Resultado:
-<font color="green">Este texto debería ser verde.</font>
+
+```
+<font color="green">Este texto debería ser verde.</font> -->
 
 <https://tutorialmarkdown.com/consejos/cambiar-color-texto>
 
@@ -93,7 +97,6 @@ Resultado:
 Hacer al menos 3 códigos para correr en la placa Arduino. La idea es fallar muchas veces.
 
 Puedo hacer una frase en código morse. Un traductor de código morse.
-
 
 ### Código 01 --> Señal de SOS en código morse
 
@@ -109,7 +112,7 @@ El primer error que saltó fue el ``;`` de casi todas las líneas. Fue un error 
 
 [casi todas las líneas sin punto y coma](./archivos/error.00.png)
 
-````C++
+````cpp
 // señal SOS en morse
 
 // setup es la función que corre desde que se envía el código:
@@ -146,7 +149,7 @@ El siguiente error fue no decirle cuándo apagarse ni por cuánto tiempo. Al no 
 
 Así que nombré 2 nuevas funciones ``int`` para que se apague 'a' tiempo entre caracteres y 'b' tiempo entre letras.  
 
-````C++
+```cpp
 // funciones que definen el tiempo que está encendido o apagado
 // dependiendo de si es "guion", "punto", "espacioCaracter" o "espacio"
 int guion = 1000;
@@ -174,7 +177,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
     delay(punto);
 }
-````
+```
 
 ![nuevos "int"](./archivos/morse/error.01-01.png)
 
@@ -186,14 +189,14 @@ Noté que el tiempo del punto y guión era muy similar, asíque, en vez de poner
 
 ##### antes
 
-````C++
+```cpp
 // funciones que definen el tiempo que está encendido o apagado
 // dependiendo de si es "guion", "punto", "espacioCaracter" o "espacio"
 int guion = 1000;
 int punto = 500;
 int entreCaracter = 500;
 ...
-````
+```
 
 ![tiempos muy similares entre los int](./archivos/morse/error02-00.png)
 
@@ -201,14 +204,14 @@ int entreCaracter = 500;
 
 ##### después
 
-````C++
+```cpp
 // funciones que definen el tiempo que está encendido o apagado
 // dependiendo de si es "guion", "punto", "espacioCaracter" o "espacio"
 int guion = 1000;
 int punto = 250;
 int entreCaracter = 250;
-...
-````
+// ...
+```
 
 ![tiempos distintos entre los int](./archivos/morse/error02-01.png)
 
@@ -218,7 +221,7 @@ int entreCaracter = 250;
 
 Luego de cambiar ese tiempo, vi que, al reiniciar el loop, en vez de hacer 2 puntos separados (con LOW entremedio), hacía 2 puntos seguidos sin espacio de apagado, lo cual terminón pareciendo otro guión en vez de puntos.
 
-````C++
+```cpp
   digitalWrite(LED_BUILTIN, HIGH);
     delay(punto);
 
@@ -234,7 +237,7 @@ Luego de cambiar ese tiempo, vi que, al reiniciar el loop, en vez de hacer 2 pun
   digitalWrite(LED_BUILTIN, HIGH);
     delay(punto);
 }
-````
+```
 
 ![sin el LOW al final del código](./archivos/morse/error03-00.png)
 
@@ -242,7 +245,7 @@ Luego de cambiar ese tiempo, vi que, al reiniciar el loop, en vez de hacer 2 pun
 
 Para cambiarlo puse otro ``espacio`` de LOW para que sea visible el reinicio del loop
 
-````C++
+```cpp
 ...
 int espacio = 1000
 ...
@@ -250,7 +253,7 @@ int espacio = 1000
   digitalWrite(LED_BUILTIN, LOW);
     delay(espacio);
 }
-````
+```
 
 ![LOW agregado](./archivos/morse/error03-01.png)
 
@@ -264,7 +267,7 @@ Quise ir probando letra por letra para ir con calma.
 
 Dejé el código anterior como nota para no borrar el proceso.
 
-##### Letra S = ...
+##### Letra S =
 
 Primero escribí los `delay(punto);` para los 3 puntos y luego los `delay (entreCaracter);` para los espacios entre caracteres. Esta vez recordé ponerle un espacio al final del código con `delay(espacio);`
 
@@ -272,8 +275,8 @@ Primero escribí los `delay(punto);` para los 3 puntos y luego los `delay (entre
 
 ![video código letra S](./archivos/morse/letraS-01.gif)
 
-````C++
-// letra S = ... 
+```cpp
+// letra S = ...
   digitalWrite(LED_BUILTIN, HIGH);
     delay(punto);
 
@@ -292,7 +295,7 @@ Primero escribí los `delay(punto);` para los 3 puntos y luego los `delay (entre
   digitalWrite(LED_BUILTIN, LOW);
     delay(espacio);
 }
-````
+```
 
 ¡Salió súper bien a la primera! :]
 
@@ -302,7 +305,7 @@ Primero escribí los `delay(punto);` para los 3 puntos y luego los `delay (entre
 
 Para la letra O sólo copié y pegué lo de la letra S para sólo tener que cambiar los `delay(punto)` por `delay(guion)`
 
-````C++
+```cpp
 // letra O = --- 
   digitalWrite(LED_BUILTIN, HIGH);
     delay(guion);
@@ -322,7 +325,7 @@ Para la letra O sólo copié y pegué lo de la letra S para sólo tener que camb
   digitalWrite(LED_BUILTIN, LOW);
     delay(espacio);
 }
-````
+```
 
 ¡Otra vez salió a la primera!
 
@@ -334,7 +337,7 @@ Para la letra O sólo copié y pegué lo de la letra S para sólo tener que camb
 
 ![código final](./archivos/morse/SOS.gif)
 
-````C++
+```cpp
 // señal SOS en código morse
 
 // setup es la función que corre desde que se envía el código:
@@ -410,13 +413,13 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);
     delay(espacio);
 }
-````
+```
 
 ¡Salió perfecto!
 
 ### Código 02 --> enciende y apaga
 
-````C++
+```cpp
 // Encendido y apagado mediante chat
 
 // Al escribir en el monitor serial "luz encendida"
@@ -459,7 +462,7 @@ void loop() {
 // alcanzaba a verlo encendido, pero luego no se apagó nunca
   }
 }
-````
+```
 
 ### Código 03 --> Número aleatorio
 
@@ -473,7 +476,7 @@ Para abrir el monitor serial lo llamé con ``Serial.begin(9600)`` (el número 96
 
 Luego, con ``random()`` designar el rango de números para lanzar al azar. Por último, con ``Serial print(numeroRandom)`` hacer que aparezca un número en el monitor serial.
 
-#### error 00
+#### imagen error 00
 
 ![loop setup](./archivos/numeroRandom/error00.png)
 
@@ -481,12 +484,12 @@ No sé de dónde saqué el ``loop setup`` esa función no existe :p
 
 Era cosa de ponerlo como debe ser: ``void loop``
 
-#### error 01
+#### imagen error 01
 
 ![Serial print mal escrito](./archivos/numeroRandom/error01.png)
 No entendía que pasaba, pero al volver a ver el código de referencia, entendí que era porque debe haber un . entremedio: ``Serial.print``
 
-#### error 02
+#### imagen error 02
 
 ![Números aleatorios sin parar](./archivos/numeroRandom/error02.png)
 
@@ -502,7 +505,7 @@ Va a tener que ser con tiempo designado por un ``delay``. Puse que sea en 2 segu
 
 ![Gif](./archivos/numeroRandom/error02-02.gif)
 
-````C++
+```cpp
 // RULETA DE NÚMEROS
 
 // Al conectar la placa o resetear el código, 
@@ -529,4 +532,4 @@ void loop() {
 // tiempo entre números lanzados
   delay(2000);
 }
-````
+```
