@@ -4,6 +4,7 @@
 ### subsubtítulo
 *esto está entre asteriscos y quedó cursiva*
 **esto es bold**
+```cpp
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600); 
@@ -28,4 +29,4 @@ Serial.println(); //linea extra para separar un patron de otro
 delay(2000); //tiempo de espera entre cada patron
 
 }
-
+```
