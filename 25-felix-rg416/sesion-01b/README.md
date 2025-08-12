@@ -326,6 +326,8 @@ Para la letra O sólo copié y pegué lo de la letra S para sólo tener que camb
 
 ¡Otra vez salió a la primera!
 
+[video código letra O](./archivos/letraO.gif)
+
 --
 
 ##### Código final
@@ -416,6 +418,73 @@ void loop() {
 
 Al conectar la placa aparece un mensaje de bienvenida y luego de unos segundos, uno de despedida
 
-### Código 03 --> Desvanece
+### Código 03 --> Número aleatorio
 
-La luz se enciende y va bajando su intensidad
+Me basé en este código: <https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/>
+
+Al conectar la placa o al presionar RESET, la placa lanza un número aleatorio en el Serial Moinot
+
+Con ``int`` declaro una variable con el nombre "numeroRandom"
+
+Para abrir el monitor serial lo llamé con ``Serial.begin(9600)`` (el número 9600 es como el genérico para abrirlo según Aarón y la página de arduino)
+
+Luego, con ``random()`` designar el rango de números para lanzar al azar. Por último, con ``Serial print(numeroRandom)`` hacer que aparezca un número en el monitor serial.
+
+#### error 00
+
+[loop setup](./archivos/numeroRandom/error00.png)
+
+No sé de dónde saqué el ``loop setup`` esa función no existe :p
+
+Era cosa de ponerlo como debe ser: ``void loop``
+
+#### error 01
+
+[Serial print mal escrito](./archivos/numeroRandom/error01.png)
+
+No entendía que pasaba, pero al volver a ver el código de referencia, entendí que era porque debe haber un . entremedio: ``Serial.print``
+
+#### error 02
+
+[Números aleatorios sin parar](./archivos/numeroRandom/error02.png)
+
+El código estaba perfecto, pero empezó a lanzar números al azar sin parar. Tuve que desenchufar la placa para detenerlo.
+
+Va a tener que ser con tiempo designado por un ``delay``. Puse que sea en 2 segundos para que se note la diferencia entre números
+
+> Entre este error se me olvidó reconectar la placa y me asusté pensando que había otro error.
+>
+> NO OLVIDAR RECONECTAR LA PLACA
+
+¡AHORA SÍ FUNCIONÓ!
+
+[Gif](./archivos/numeroRandom/error02-02.gif)
+
+````C++
+// RULETA DE NÚMEROS
+
+// Al conectar la placa o resetear el código, 
+// aparece un número aleatorio del 0 al 10 en el Monitor Serial
+
+// Designar una variable con el nombre "numeroRandom"
+int numeroRandom;
+
+void setup() {
+// Llamar al Serial Monitor
+  Serial.begin(9600);
+}
+
+void loop() {
+
+// Hacer que, al llamar a "numeroRandom", se corra la función "random(10)"
+// lo cual lanza un número al azar entre el 0 y el 10
+  numeroRandom = random(10);
+
+// Muestra en el monitor serial el número random lanzado por
+// "numeroRandom = random(10)"
+  Serial.print(numeroRandom);
+
+// tiempo entre números lanzados
+  delay(2000);
+}
+````
