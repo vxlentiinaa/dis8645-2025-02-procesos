@@ -1,2 +1,3 @@
-## Viernes 8 de agosto de 2025
-# Clase 2
+# sesion-01b
+
+Viernes 8 de agosto de 2025
