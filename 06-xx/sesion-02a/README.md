@@ -30,7 +30,7 @@ Nota del día: soy muy mala en ortografía, perdón de antemano si faltan alguna
 <https://markdownguide.offshoot.io/cheat-sheet/>*
 
 ## Charla + invitados
->**Sokio - Mauricio Díaz Gallardo**
+>**Sokio - Díaz Gallardo**
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/f8e4bdc2-c937-457e-a6be-f82e5ebe4729" />
 
