@@ -30,6 +30,8 @@ Stack Overflow, lugar para preguntar de progamacion <https://stackoverflow.com/q
 
 Tener cuidado con las licencias, y con la ia porque toma de referencia otros codigos sin dar creditos.
 
+Jonh Cage
+
 Github
 
 Explicaron como funciona github para utilizarlo en el taller maquinas computacionales, 
