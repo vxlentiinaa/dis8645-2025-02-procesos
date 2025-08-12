@@ -95,6 +95,342 @@ Después de declararlo, puedo usarlo.
 
 C++ W3Schools 
 
+
+Primero quiero lograr que con los digitos de mi computador, el LED del arduino brille la cantidad de veces que corresponda al dígito ingresado
+
+basandome en el ejemplo de blink y el print de la poesía que hicimos en clase, intente crearme una base para poder trabajar en este código
+
+con ciertos conocimientos previos llegue a lo siguiente:
+
+```txt
+
+// Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
+
+
+
+
+// dejar escrito los caracteres que quiero que existan
+char UNO;
+char DOS;
+char TRES;
+char CUATRO;
+char CINCO;
+char SEIS;
+char SIETE;
+char OCHO;
+char NUEVE;
+
+
+void setup() {
+  // escribo que el LEd que quiero usar es el que esta montado en el mismo Arduino
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+  // declaro que cada una de estas palabras equivale a la cifra que esta escrita entre ''
+  UNO = '1';
+  DOS = '2';
+  TRES = '3';
+  CUATRO = '4';
+  CINCO = '5';
+  SEIS = '6';
+  SIETE = '7';
+  OCHO = '8';
+  NUEVE = '9';
+  char = '0';
+}
+
+
+void loop() {
+// no se como funcionan los (if) statements en este lenguaje de programacion, pero quiero intentar usarlos
+// si es que el character inscrito equivale a, por ejemplo UNO, DOS, ect
+ if char = UNO{
+  // para que se pueda diferenciar la cantidad de veces que sera prendida, una vez termine el ciclo, existira
+  // una pausa donde la LED estara apagada por mayor tiempo
+  digitalWrite(LED_BUILTIN, HIGH);
+    // en clase se dijo que no se ocupara delay, pero para esta primera version, no se que ocupar como reemplazo
+    delay(500);    
+  digitalWrite(LED_BUILTIN, LOW);
+    delay(5000)
+ }
+
+
+ if char = DOS{
+  //debido a que esta vez seran 2 veces en la que se prende el LED
+  digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);    
+  // este apagado tiene el mismo tiempo que el prendido
+  digitalWrite(LED_BUILTIN, LOW);
+    delay(500)
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);    
+  // con este, siendo el de apagado de mayor duracion para referenciar el reinicio del ciclo
+  digitalWrite(LED_BUILTIN, LOW);
+    delay(5000)
+ }
+
+
+
+
+}
+
+
+
+ahora, investigare de que manera tengo que escribir un código, para que mi computador pueda enviar señales (inputs) a mi arduino
+
+// Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
+
+
+
+
+// dejar escrito los caracteres que quiero que existan
+char UNO;
+char DOS;
+char TRES;
+char CUATRO;
+char CINCO;
+char SEIS;
+char SIETE;
+char OCHO;
+char NUEVE;
+char receivedChar;
+boolean newData = false;
+
+
+void setup() {
+  // escribo que el LEd que quiero usar es el que esta montado en el mismo Arduino
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+  Serial.println("<Arduino is ready>");
+  /*
+  // declaro que cada una de estas palabras equivale a la cifra que esta escrita entre ''
+  UNO = '1';
+  DOS = '2';
+  TRES = '3';
+  CUATRO = '4';
+  CINCO = '5';
+  SEIS = '6';
+  SIETE = '7';
+  OCHO = '8';
+  NUEVE = '9';
+  */
+}
+
+
+void loop() {
+  /*
+// no se como funcionan los (if) statements en este lenguaje de programacion, pero quiero intentar usarlos
+// si es que el character inscrito equivale a, por ejemplo UNO, DOS, ect
+ if char == UNO {
+  // para que se pueda diferenciar la cantidad de veces que sera prendida, una vez termine el ciclo, existira
+  // una pausa donde la LED estara apagada por mayor tiempo
+  digitalWrite(LED_BUILTIN, HIGH);
+    // en clase se dijo que no se ocupara delay, pero para esta primera version, no se que ocupar como reemplazo
+    delay(500);    
+  digitalWrite(LED_BUILTIN, LOW);
+    delay(5000)
+   
+ }
+
+
+ if char == DOS{
+  //debido a que esta vez seran 2 veces en la que se prende el LED
+  digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);    
+  // este apagado tiene el mismo tiempo que el prendido
+  digitalWrite(LED_BUILTIN, LOW);
+    delay(500)
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);    
+  // con este, siendo el de apagado de mayor duracion para referenciar el reinicio del ciclo
+  digitalWrite(LED_BUILTIN, LOW);
+    delay(5000)
+ } */
+
+
+recvOneChar();
+    showNewData();
+
+
+}
+
+
+void recvOneChar() {
+    if (Serial.available() > 0) {
+        receivedChar = Serial.read();
+        //newData = true;
+       
+    }
+}
+
+
+void showNewData() {
+    if (receivedChar == '1') {
+        Serial.print("Acabas de enviarme un ");
+        Serial.println(receivedChar);
+       digitalWrite(LED_BUILTIN, HIGH);
+       delay (1000);
+       digitalWrite(LED_BUILTIN, LOW);
+       receivedChar = 0;
+       
+    }
+}
+
+
+```
+
+como realmente no tenía idea de como comunicarme con el arduino busque en internet una manera en la que el arduino podía entender mis inputs, llegando al siguiente link:
+
+https://forum.arduino.cc/t/serial-input-basics-updated/382007
+
+específicamente el ejemplo n1 para “recibir” un carácter, que incorporé a mi código para poder observar cuando mi arduino estaba recibiendo estos caracteres, lo cual funcionó bastante bien.
+
+Ahora existía un problema, el cual era que cualquier carácter recibido causaba que se activará este display de que un carácter había sido recibido, por esta razón busqué alguna manera en la que se pudiese identificar específicamente los dígitos que yo quiero.
+
+pensé que cambiando: “if (Serial.available() > 0) {“ a algo como “if (Serial.available() = 1) {“   significando que el número disponible fuese 1, pero no funcionó tal cual, asumo que esto puede tener que ver con el [ASCII](https://www.w3schools.com/charsets/ref_html_ascii.asp), que es un modo de codificación de datos, pero no puedo confirmar mi hipótesis, debido a que encontré otro modo en el que podía hacer funcionar el código
+
+al buscar si tal vez un if statement podía servir encontré lo siguiente:
+
+https://docs.arduino.cc/built-in-examples/strings/CharacterAnalysis/
+
+esto mostraba unas maneras de usar los If statements para diferenciar distintos datos, con lo que use  if (cifra == '1') {  servía como condición para identificar mi dato especifico, lo cual funciono, de esta manera empecé a escribir, como con el ejemplo de blick, la cantidad de veces que quería que se prendiese el led según cada cifra enviada al arduino.
+
+esto estaba funcionando genial, pero me empecé a dar cuenta que si quería legar a que se prendiera y se apagará el LED multiples veces, el código se empezaria a ver desordenado o sobresaturado, por lo que busque si habia una manera de lograr hacer loops de alguna cantidad específica que yo deseara, donde encontré la siguiente página:
+
+https://docs.arduino.cc/language-reference/en/structure/control-structure/for/
+
+dónde “for” es un argumento en el que puedo repetir un bloque de código que está contenido entre [murciélagos}, con esto ya optimice el código a un punto que me agrado.
+
+```txt
+// Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
+
+// el character que voy a obtener se guardara con el alias cifra
+char cifra;
+
+// se crea una boolean para
+boolean newData = false;
+
+void setup() {
+  // escribo que el LEd que quiero usar es el que esta montado en el mismo Arduino
+  pinMode(LED_BUILTIN, OUTPUT);
+  // para poder comunicarme con arduino a partir del Serial Monitor
+  Serial.begin(9600);
+}
+
+void loop() {
+  // obtener el caracter que sea ingresado eventualmente
+  recvOneChar();
+    showNewData();
+  }
+
+void recvOneChar() {
+  // detecta si el monitor Serial esta recibiendo algo
+    if (Serial.available() > 0) {
+      // lo ingresado sera catalogado como la variable cifra
+        cifra = Serial.read();
+        // mostrar en la consola el mensaje de "Acabas de enviarme un " para que a continuacion se demuestre que caracter fue enviado
+        Serial.print("Acabas de enviarme un ");      
+        Serial.println(cifra);
+    }
+}
+
+void showNewData() {
+  // cuando la viariable cifra equivale a 1
+    if (cifra == '1') {
+    // se encendera el LED que esta en el pin13 del Arduino
+    digitalWrite(LED_BUILTIN, HIGH);
+    // en clase se dijo que no se ocupara delay, pero para esta primera version, no se que ocupar como reemplazo
+    delay(500);    
+        // despues de que pase el tiempo, se apagara el LED
+        digitalWrite(LED_BUILTIN, LOW);
+        delay(500);
+    }
+       
+    if (cifra == '2') {
+      //debido a esta cifra es 2, esta vez seran 2 veces en la que se prende y apaga el LED
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(500);    
+        digitalWrite(LED_BUILTIN, LOW);
+        delay(500);
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+              digitalWrite(LED_BUILTIN, LOW);
+              delay(500);
+       }
+    if (cifra == '3') {
+      //debido a que esta vez seran 3 veces en la que se prende el LED lo repito 3 veces
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(500);    
+        digitalWrite(LED_BUILTIN, LOW);
+        delay(500);
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+            digitalWrite(LED_BUILTIN, LOW);
+            delay(500);
+              digitalWrite(LED_BUILTIN, HIGH);
+              delay(500);    
+                digitalWrite(LED_BUILTIN, LOW);
+                delay(500);
+       }
+
+      if (cifra == '4') {
+      // cuando la cifra 4 sea enviada al Arduino, este "x" se repetira hasta que sea mayor que el numero indicado
+      // cada vez que se repite este bloque de codigo aumenta el "contador" gracias a x++
+      for ( int x = 0; x < 4; x++ ) {
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+           digitalWrite(LED_BUILTIN, LOW);
+           delay(500);
+          }
+      }
+
+      if (cifra == '5') {
+      for ( int x = 0; x < 5; x++ ) {
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+            digitalWrite(LED_BUILTIN, LOW);
+            delay(500);
+          }
+      }
+
+      if (cifra == '6') {
+      for ( int x = 0; x < 6; x++ ) {
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+            digitalWrite(LED_BUILTIN, LOW);
+            delay(500);
+          }
+      }
+
+      if (cifra == '7') {
+      for ( int x = 0; x < 7; x++ ) {
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+           digitalWrite(LED_BUILTIN, LOW);
+           delay(500);
+          }
+      }
+
+      if (cifra == '8') {
+      for ( int x = 0; x < 8; x++ ) {
+          digitalWrite(LED_BUILTIN, HIGH);
+          delay(500);    
+           digitalWrite(LED_BUILTIN, LOW);
+           delay(500);
+          }
+      }
+       
+      if (cifra == '9') {
+      for ( int x = 0; x < 9; x++ ) {
+         digitalWrite(LED_BUILTIN, HIGH);
+         delay(500);    
+          digitalWrite(LED_BUILTIN, LOW);
+          delay(500);
+         }
+      }
+   }  
+
+```
+
+
 La tarea de hoy es romperlo de maneras raras, crear variables, documentar errores. 
 
 Fallar con al menos 5 códigos que no nos funcionen.
