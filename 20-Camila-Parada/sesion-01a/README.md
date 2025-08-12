@@ -43,42 +43,55 @@ Este semestre se busca trabajar más desde un computador, pero no por ello se va
 Raspberry pi RP2040,
 JLCPBC
 
+***
+
 ### Listado de conceptos
 
-#### _Herramientas, conceptos, etc_
+### _Herramientas, conceptos, etc_
 
 - Lenguajes de progamación C y C++
-- Mermaid (programa para la diagramación de textos)
-- Magister de Artes mediales
-- Mechanic.design (web)
-- Tiny Trainable
+- [Mermaid](https://mermaid.js.org/) (programa para la diagramación de textos)
+- [Magister de Artes mediales](https://artes.uchile.cl/postgrados/43490/artes-mediales)
+- Mechanic.design ([sitio web 1](https://mechanicaldesign101.com/) y [sitio web 2](https://www.machinedesign.com/))
+- [Tiny Trainable](https://github.com/montoyamoraga/tiny-trainable-instruments)
 - Computadores análogos
-- ZKM (arte electrónico)
-- Dev board
-- Raspberry pi RP2040
+- [ZKM](https://en.wikipedia.org/wiki/ZKM_Center_for_Art_and_Media_Karlsruhe) (arte electrónico)
+- Dev board ([video explicativo en inglés](https://www.youtube.com/watch?v=JrO2LziLXtM&ab_channel=UTSOURCE))
+- [Raspberry pi RP2040](https://raspberrypi.cl/producto/raspberry-pi-rp2040/)
 
-#### _Personas_
 
-- Roberto Bolaño (escritor) "Estrella distante".
-- Cristian Oyarzun (programador)
-- Rafael Berguña (Premio nacional de ciencias)
-- Rodrio Cadiz y la psicoacutica
-- María José Contreras Lorenzini
-- Tod Machover
-- Zach Lieberman
-- Pete Warden
-- Muriel Cooper
-- John Maeda
-- Casey Reas
-- Hernando Barragan
-- Tom Igoe
-- Ada Lovelace
-- Alan Turing
-- Mar Hicks
+### _Personas_
 
-### Tarea 01
+- [Roberto Bolaño](https://es.wikipedia.org/wiki/Roberto_Bola%C3%B1o) (escritor) ["Estrella distante"](https://es.wikipedia.org/wiki/Estrella_distante).
+- [Cristian Oyarzun](https://www.instagram.com/coyarzunroa/) (programador)
+- [Rafael Berguña](https://www.uc.cl/universidad/premios-nacionales/rafael-benguria-donoso/) (Premio nacional de ciencias)
+- [Rodrigo Cádiz](https://musica.uc.cl/docentes/rodrigo-cadiz/) y la psicoacutica
+- [María José Contreras Lorenzini](https://www.mariajosecontreras.com/)
+- [Tod Machover](https://www.media.mit.edu/people/tod/overview/)
+- [Zach Lieberman](http://zach.li/)
+- [Pete Warden](https://petewarden.com/) (blog)
+- [Muriel Cooper](https://disenadorasgraficas.com/biografia/muriel-cooper/)
+- [John Maeda](https://www.media.mit.edu/people/maeda/overview/)
+- [Casey Reas](https://reas.com/)
+- Hernando Barragán ([La historia no contada de Arduino](https://arduinohistory.github.io/))
+- [Tom Igoe](https://tigoe.com/)
+- [Mar Hicks](https://marhicks.com/)
 
-Aún no hay apuntes
+***
+
+### Tarea 01: ¿Quiénes son?
+
+#### 1. Ada Lovelace
+
+
+*Información recuperdada de:*
+
+#### 2. Alan Turing
+
+Matemático, informático teórico de origen británico.
+Es uno de los precursores de las computadoras y de la informática. 
+
+*Información recuperdada de:*
 
 ***
 
