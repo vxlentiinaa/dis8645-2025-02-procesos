@@ -7,6 +7,7 @@ Viernes 8 Agosto 2025
 ## Observaciones
 
 Tuve inconvenientes para llegar a la hora, dado que se les ocurrió romper una calle por la cual transitan las micros que me acercan al metro. Terminé pidiendo un auto por uber para llegar al metro más cercano e ir corriendo a la sala.
+
 ***
 
 ### Apuntes escritos del día
@@ -43,40 +44,9 @@ Este semestre se busca trabajar más desde un computador, pero no por ello se va
 Raspberry pi RP2040,
 JLCPBC
 
-### Listado de conceptos
+***
 
-#### _Herramientas, conceptos, etc_
-
-- Lenguajes de progamación C y C++
-- Mermaid (programa para la diagramación de textos)
-- Magister de Artes mediales
-- Mechanic.design (web)
-- Tiny Trainable
-- Computadores análogos
-- ZKM (arte electrónico)
-- Dev board
-- Raspberry pi RP2040
-
-#### _Personas_
-
-- Roberto Bolaño (escritor) "Estrella distante".
-- Cristian Oyarzun (programador)
-- Rafael Berguña (Premio nacional de ciencias)
-- Rodrio Cadiz y la psicoacutica
-- María José Contreras Lorenzini
-- Tod Machover
-- Zach Lieberman
-- Pete Warden
-- Muriel Cooper
-- John Maeda
-- Casey Reas
-- Hernando Barragan
-- Tom Igoe
-- Ada Lovelace
-- Alan Turing
-- Mar Hicks
-
-### Tarea 01
+### Tarea 02
 
 Aún no hay apuntes
 
