@@ -8,9 +8,9 @@ Sokio, tiene una organización que se llama new latin wave, hace música, hizo u
 * Soundpler  instrumento dedicado para obtener muestras de sonido 
 * Hizo opera, fue catalogada la mejor opera de chile
 * Inaguró el teatro teatro a 100
-* *Paraíso*, Opera experimental (2023), en Nueva York. Fue un exito después de que parara en 20 años.
+* "Paraíso", Opera experimental (2023), en Nueva York. Fue un exito después de que parara en 20 años.
 * s2000 Akai
-* *teenage engineering*, empresa de diseño enfocada en música
+* teenage engineering, empresa de diseño enfocada en música
 
 <https://sokio.studio/>
 
