@@ -18,7 +18,7 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning√
 
 ![imagen del diagrama de la pizarra](./imagenes/pizarra-usb.jpg)
 
-#### proyectos 
+#### proyectos
 
 - [mp4 museum v6](https://mp4museum.org/download)
 
