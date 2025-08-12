@@ -301,3 +301,52 @@ void loop() {
 #### error en experimento-02
 
 intenté usar la función [map( )](https://docs.arduino.cc/language-reference/en/functions/math/map) para reasignar la cantidad de valores análogos predeterminados, que son 1024(del 0 al 1023). Esto debido a que es el valor máximo almacenable en 10 bits (2^10). No funcionó
+
+
+### experimento-03
+
+```cpp
+String datoRecibido;
+String menuStart1;
+String menuStart2;
+
+void setup() {
+  datoRecibido = "hola mundo lindo";
+  menuStart2 = "❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀";
+  menuStart1 = "❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾LE RECORDAMOS QUE:⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀";
+
+  Serial.begin(9600);  // opens serial port, sets data rate to 9600 bps
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+
+  // send data only when you receive data:
+  if (Serial.available() > 0) {
+    // read the incoming byte:
+    datoRecibido = Serial.readString();
+
+    // say what you got:
+    //Serial.print("I received: ");
+    //Serial.println(datoRecibido, DEC);
+
+    //map(datoRecibido, 0, 1023, 1, 10);
+
+    Serial.print(menuStart2 + "\n");
+    Serial.print(menuStart1 + "\n");
+    Serial.print(menuStart2 + "\n");
+    Serial.print(datoRecibido);
+  }
+}
+```
+
+mi idea era hacer un "recordador", en referencia a lo poco que se demora en en devolver el texto escrito en el moitor serial.
+
+este es el error que me tira:
+
+```
+Failed to retrieve language identifiers
+Failed to retrieve language identifiers
+error get_status: LIBUSB_ERROR_TIMEOUT
+Failed uploading: uploading error: exit status 74
+```
