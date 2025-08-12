@@ -14,6 +14,10 @@
 
 [I'm an inline-style link](https://www.youtube.com/watch?v=EEKMPT_YcTI&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB&index=3)
 
+*video referencial for arduino*
+
+[I'm an inline-style link](https://www.youtube.com/watch?v=e8CEpAQ4otU )
+
 *libro de kit arduino, descripción de componentes y proyecctos para realizar*
 
 Libro de proyectos Arduino (kit arduino)
@@ -40,3 +44,16 @@ Libro de proyectos Arduino (kit arduino)
 
 
 ## Codigo 02
+
+#### la luz del pin 13 cambia de intensidad (baja y alta)
+
+<img width="1919" height="1018" alt="delay" src="https://github.com/user-attachments/assets/41c64782-3928-462a-9b65-b6d2d126fb7e" />
+
+
+## Codigo 03<img width="1919" height="1017" alt="Captura de pantalla 2025-08-12 085639" src="https://github.com/user-attachments/assets/592c541d-dfc3-4665-ae3e-041c0b09e004" />
+
+
+#### uso de la funcion for, el pin prende y apaga 15 veces 
+
+![Uploading Captura de pantalla 2025-08-12 085639.png…]()
+
