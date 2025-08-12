@@ -133,11 +133,29 @@ ayudante del curso.
 
 educación:
 
-2020-2025: diseño, Universidad Diego Portales
+* 2020-2025: Diseño mención Industrial, Universidad Diego Portales.
+* 2023: Diploma de Honor en Movilidad y Ciudad: Políticas de Transporte y Desarrollo Urbano.
+
+ayudantías:
+
+* Ayudante DIS8645 taller de diseño de máquinas computacionales
+  * primer semestre 2025.
+* Ayudante DIS9034 programación creativa multimedia, Universidad Diego Portales.
+  * primer semestre 2024.
+* Ayudante DIS145 diseño y construcción de interfaces, Universidad Adolfo Ibáñez
+  * primer semestre 2024
+* Workshop Diplomado UX/UI, Universidad Diego Portales.
+  * Primer semestre 2023.
+* Workshop Componentes en Figma Diplomado UX/UI, Universidad Diego Portales.
+  * Segundo semestre 2023.
+* Ayudante Talleres Momentos p5.js, Universidad Diego Portales.
+  * Segundo semestre 2023.
+* Docente responsable Talleres Momentos Figma, Universidad Diego Portales.
+  * Segundo semestre 2023.
 
 enlaces:
 
-TODOJANIS
+* <https://github.com/janisepulveda>
 
 ### mateo arce
 
