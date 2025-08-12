@@ -12,17 +12,16 @@ Este día me costó levantarme, principalmente por mi desorden del descanso y ho
 
 ### Escaneo de bitácora y apuntes escritos del día
 
-![imagen](./archivos/.)
-![imagen](./archivos/.)
+![imagen](./imagenes/.)
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
-![imagen](./archivos/03.jpeg)
+![imagen](./imagenes/03.jpeg)
 
 ▼ Secuenciador de pasos polifónico "Q64" - KORG. Obtenido de: creación personal. [Más información del producto.](https://www.korg.com/cl/products/dj/sq_64/)
 
-![imagen](./archivos/04.jpeg)
-![imagen](./archivos/05.jpeg)
+![imagen](./imagenes/04.jpeg)
+![imagen](./imagenes/05.jpeg)
 
 ▼ Sinetizador semi-modular análogo poliritmico "Subharmonicon" - Moog. Obtenido de: creación personal. [Más información del producto.](https://www.moogmusic.com/synthesizers/subharmonicon/)
 
@@ -32,13 +31,13 @@ Este día me costó levantarme, principalmente por mi desorden del descanso y ho
 
 Energía más tiempo = Potencia
 
-![imagen](./archivos/06.jpeg)
+![imagen](./imagenes/06.jpeg)
 
 ### ¿Qué es un computador (computacional)?
 
-![imagen](./archivos/07.jpeg)
+![imagen](./imagenes/07.jpeg)
 
-![imagen](./archivos/08.jpeg)
+![imagen](./imagenes/08.jpeg)
 
 Este semestre se busca trabajar más desde un computador, pero no por ello se va a realizar trabajos con circuitos de forma física. Para ello se usará la tecnología PCBA.
 Raspberry pi RP2040,

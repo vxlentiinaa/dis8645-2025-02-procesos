@@ -34,9 +34,9 @@ quiero que se prenda y apague el pin 13
 
 error no finalizar con
 
-<img width="1903" height="1015" alt="{" src="https://github.com/user-attachments/assets/79ebbff4-9e40-4d6f-b645-4e9dbcadb474" />
+<img width="1903" height="1015" alt="{" src="" />
 
-#### error placa no conectada
+### error placa no conectada
 
 <img width="1919" height="1027" alt="placa no conectada" src="https://github.com/user-attachments/assets/2ec0c2dd-48c9-4ce8-b706-38dc2a620975" />
 
@@ -46,13 +46,15 @@ error no finalizar con
 
 ## Codigo 02
 
-#### la luz del pin 13 cambia de intensidad (baja y alta)
+### la luz del pin 13 cambia de intensidad (baja y alta)
 
 <img width="1919" height="1018" alt="delay" src="https://github.com/user-attachments/assets/41c64782-3928-462a-9b65-b6d2d126fb7e" />
 
 ## Codigo 03<img width="1919" height="1017" alt="Captura de pantalla 2025-08-12 085639" src="https://github.com/user-attachments/assets/592c541d-dfc3-4665-ae3e-041c0b09e004" />
 
 ### uso de la funcion for, el pin prende y apaga 15 veces
+
+TODO: subiste pero no esperaste a que cargara, entonces quedó este link mal.
 
 ![Uploading Captura de pantalla 2025-08-12 085639.png…]()
 
