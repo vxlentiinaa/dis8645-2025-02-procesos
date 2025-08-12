@@ -19,7 +19,7 @@
 - Tiene una organización que se llama *New Latín Wave*
 - Spitting/Abscence:
 
-*Gordon Matta Clark Artista*
+## Gordon Matta Clark Artista
 
 - Son obras claiedoscopal, juega con los cortes en las paredes.
 
