@@ -89,6 +89,8 @@ JLCPBC
 
 #### 2. Alan Turing
 
+Matemático, informático teórico de origen británico.
+Es uno de los precursores de las computadoras y de la informática. 
 
 *Información recuperdada de:*
 
