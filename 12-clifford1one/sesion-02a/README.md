@@ -52,6 +52,10 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning√
 
 - [Taller d√≠namo](https://tallerdinamo.cl)
 
+- [polyend](https://polyend.com)
+
+- [polyend perc](https://polyend.com/legacy/polyend-perc)
+
 - [Museo Downey](https://casamuseodowney.cl)
 
 - [Caja Hammond](https://www.mouser.cl/c/enclosures/enclosures-boxes-cases/?m=Hammond)
@@ -87,10 +91,6 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning√
 - [Laurie Anderson](https://en.wikipedia.org/wiki/Laurie_Anderson)
 
 - [Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
-
-- [polyend](https://polyend.com)
-
-- [polyend perc](https://polyend.com/legacy/polyend-perc)
 
 - [Andy Cavatorta](https://andycavatorta.com)
 
