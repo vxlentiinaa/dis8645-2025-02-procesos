@@ -1,17 +1,16 @@
 # sesion-02a
-
 Martes 12, Agosto - 2025
 
 Nota del día: soy muy mala en ortografía, perdón de antemano si faltan algunas tildes (estoy mejorando de a poco). 
 
 ## Referentes de la clase
 - caja negra editora  <https://cajanegraeditora.com.ar/>
-  
 - CDM  <https://cdm.link/>
-  
 - synthopia  <https://www.synthtopia.com/>
-
 - bricolo (robot música)
+- Roberto Matta
+- Juan Downey
+- Taller dinamo <https://www.instagram.com/tallerdinamo?igsh=djd2N3Exc2g1Z3l3>
 
 ## Qué aprendí hoy
 >**Como usar github**
@@ -23,7 +22,8 @@ Nota del día: soy muy mala en ortografía, perdón de antemano si faltan alguna
 4. Cada persona del curso tiene su propia carpeta, siempre trabajar desde ahí.
 5. Las subcarpetas de las carpetas personales están nombradas como "sesion" + un numero y una letra, esto representa una clase y una fecha especifica.
 6. La idea general es poner aca apuntes generales de la clase asi como las tareas/encargos que se den, en el caso de los encargos se ponen en la carpeta del día que se dieron.
-7. Las palabras se ponen entre ciertos simbolos para poder generar jerarquias visualez y cada linea de texto debe estar separada de un espacio para que en el resultado final salga separado, sino saldrá todo el texto junto. 
+7. Las palabras se ponen entre ciertos simbolos para poder generar jerarquias visualez y cada linea de texto debe estar separada de un espacio para que en el resultado final salga separado, sino saldrá todo el texto junto.
+8. Al poner imagenes, para modificar el tamaño cambiar el *width* y el *height*. 
 
 - markdown: ejemplos rapidos de como poner el texto los encuentras desde este link (funciones). 
 
@@ -32,11 +32,11 @@ Nota del día: soy muy mala en ortografía, perdón de antemano si faltan alguna
 ## Charla + invitados
 >**Sokio - Díaz Gallardo**
 
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/f8e4bdc2-c937-457e-a6be-f82e5ebe4729" />
-
 *Artista chileno con una carrera internacional en música electrónica, performances y ópera.*
 
-- Redes sociales. (IG: @sokio) <https://www.instagram.com/sokio/?hl=es>
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f8e4bdc2-c937-457e-a6be-f82e5ebe4729" />
+
+- Redes sociales. (IG: @sokio) <https://www.instagram.com/sokio/?hl=es> (página web) <https://sokio.studio/latest>
 
 según google: *"Su carrera incluye la producción musical, remixes, y presentaciones en festivales como Earthdance y Urbandance. También ha incursionado en la composición de óperas, como "Paraíso", estrenada en Nueva York. Además, ha explorado la relación entre Roberto Matta y Gordon Matta-Clark a través de una charla-performance titulada "La Distancia Entre"."*
 
@@ -47,7 +47,6 @@ según google: *"Su carrera incluye la producción musical, remixes, y presentac
 <https://www.adprensa.cl/cultura/con-la-opera-experimental-paraiso-el-artista-chileno-sokio-retorna-al-genero-despues-de-veinte-anos/>
 
 - El  nombre viene de socio pero con K, vive en EEUU (Nueva York).
-
 - Trabaja en **Tennage.engineering**: *productos enfocados en el área de la música*.
 
 <https://teenage.engineering/>
