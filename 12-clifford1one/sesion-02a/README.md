@@ -57,6 +57,8 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning√
 
 - [Yuk Hui](https://cajanegraeditora.com.ar/autores/?autor=hui-yuk)
 
+- [John Cage](https://en.wikipedia.org/wiki/John_Cage)
+
 ### libros
 
 - [trilog√≠a salud mental](https://cajanegraeditora.com.ar/libros/combo-salud-mental)
@@ -64,3 +66,5 @@ un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ning√
 - [sobre la existencia de objetos digitales](https://materiaoscuraeditorial.com/filosofia/sobre-la-existencia-de-los-objetos-digitales)
 
 - [being digital](https://www.amazon.com/Being-Digital-Nicholas-Negroponte/dp/0679762906)
+
+- [silencio -John Cage](https://monoskop.org/images/e/eb/Cage_John_Silencio_conferencias_y_escritos_2002_part.pdf)
