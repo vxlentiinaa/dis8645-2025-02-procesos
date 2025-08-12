@@ -2,6 +2,7 @@
 ## Entrga de codigos clase 12/Agosto
 
 ### CODIGO 01
+```cpp
 void setup() {
   pinMode (2, INPUT_PULLUP);
   Serial.begin(9600);
@@ -15,8 +16,10 @@ void loop() {
  }
 
 }
+```
 
 ### CODIGO 02
+```cpp
 void setup() {
 //declarar pin a usar
  pinMode(2, INPUT_PULLUP);
@@ -32,8 +35,10 @@ void loop() {
     delay(200);
   }
 }
+```
 
 ### CODIGO 03
+```cpp
 void setup() {
   pinMode(13, OUTPUT);
 
@@ -90,3 +95,4 @@ void loop() {
   delay(3000);
 
 }
+```
