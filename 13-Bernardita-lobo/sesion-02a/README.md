@@ -4,31 +4,37 @@
 
 ### Cosas que hablamos en la mañana
 
-daniel emoresa vive de instalaciones, de montajes 
+Daniel, empresa vive de instalaciones, de montajes 
 
-untref hacen un postragdos de arte eelctronico <https://untref.edu.ar/>
+Untref hacen un postragdos de arte electronico <https://untref.edu.ar/>
 
-nicolas negroponte being digital, LA BASE DE LOS 90S
+Nicolas Negroponte being digital, la base de los 90s
 
-jazmin adler, señales hipermateriales <https://jazminadler.com.ar/>
+Jazmin Adler, Señales hipermateriales <https://jazminadler.com.ar/>
 
 jcrover
 
-yaeltex, hacen micrporsesadores <https://yaeltex.com/>
+Yaeltex, hacen microprocesadores <https://yaeltex.com/>
 
-yuk hui ¿que es objeto digital? estudio ingeneria electronica y filosofia, y estudio en la bauhause. wau gracias por este referente misa
+Yuk Hui ¿que es objeto digital? estudio ingeneria electronica y filosofia, y estudio en la bauhause. wau gracias por este referente misa
 
-caja negra, editorial argentina que traduce libros <https://cajanegraeditora.com.ar/>
+Caja negra, editorial argentina que traduce libros <https://cajanegraeditora.com.ar/>
 
-encontre esta tienda donde venden libros de esta editoria el Chile <https://lakomuna.cl/brand/caja-negra-editora/>
+Encontre esta tienda donde venden libros de esta editoria el Chile <https://lakomuna.cl/brand/caja-negra-editora/>
 
-habalamos de la existencias dominios en internet, dominio es un terreno y hosting es la casa xd
+hablamos de la existencias dominios en internet, dominio es un terreno y hosting es la casa xd
 
 IOT the internet of things
 
-stack overflow, lugar para preguntar de progamacion <https://stackoverflow.com/questions>
+Stack Overflow, lugar para preguntar de progamacion <https://stackoverflow.com/questions>
 
-tener cuidado con las licencias, y con la ia porque toma de referencia otros codigos sin dar creditos.
+Tener cuidado con las licencias, y con la ia porque toma de referencia otros codigos sin dar creditos.
+
+Github
+
+Explicaron como funciona github para utilizarlo en el taller maquinas computacionales, 
+
+
 
 
 
