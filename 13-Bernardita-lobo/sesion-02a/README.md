@@ -36,7 +36,45 @@ Github
 
 Explicaron como funciona github para utilizarlo en el taller maquinas computacionales, 
 
+### sokio
 
+<https://sokio.studio/>
 
+new latin wabe 
 
+sincali
+
+s2000 akai
+
+le gustaba desarmar computadores para cambiar los solidos de los chips en basic, lenguaje
+
+estudiar teatro, musica para las obras
+
+hacer una opera
+
+operas fomes, sampler instrumento para dar muestras de sonido y secuenciarlos
+
+procesar voces con efectos
+
+catalogada como la mejor opera en 10 años de chile, opera patria
+
+cantantes liricos, voces procesadas, y computadores
+
+inaguro el teatro matucana 100
+
+musica para cine
+
+opera sobre enmigracion
+
+incorporo instrumentos reales que procesaba a tiempor real
+
+antes postular a fondart era muy complejo, siempre se lo ganaban los mismos.
+
+teenage engineering <https://teenage.engineering/>
+
+op-1 es como tener muchos instrumentos
+
+teenage engineering, diseñaban sus muebles para la oficina, luego los comenzaron a vender 
+
+georgia tech
 
