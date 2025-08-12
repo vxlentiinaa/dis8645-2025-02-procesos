@@ -1,4 +1,4 @@
-# sesion-02a
+# Sesion-02a
 
 ## Trabajo en clase / Martes 12 de agosto, 2025
 
