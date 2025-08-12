@@ -78,3 +78,24 @@ teenage engineering, diseñaban sus muebles para la oficina, luego los comenzaro
 
 georgia tech
 
+se hace la opera en el national sawdust, brooklyn, NY
+
+SPLITTING ABSECENCE
+
+basada en la vida de  Gordon Matta-Clark
+
+anarquitecto, artista visual, trabaja con la ciudad, analisis de los objetos y de nosotros mismod
+
+juan downey
+
+el ojo pensante
+
+crear un rotot que mueva un solenoide con un midi
+
+Santiago, Nueva York, Paris y Chicago
+
+GAM de Santiago y Nueva York
+
+
+
+
