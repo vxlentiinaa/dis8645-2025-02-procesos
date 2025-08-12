@@ -140,9 +140,9 @@ void loop
 
 El siguiente error fue no decirle cuándo apagarse ni por cuánto tiempo. Al no ponerle ``digitalWrite(LED_BUILTIN, LOW)`` nunca se apagó y se mantuvo encendido todo el tiempo.
 
-[no ponerle LOW para que sepa cuándo apagarse](./archivos/error.01-00.png)
+![no ponerle LOW para que sepa cuándo apagarse](./archivos/morse/error.01-00.png)
 
-[video sin espacio LOW entre HIGH](./archivos/error01-00.gif)
+![video sin espacio LOW entre HIGH](./archivos/morse/error01-00.gif)
 
 Así que nombré 2 nuevas funciones ``int`` para que se apague 'a' tiempo entre caracteres y 'b' tiempo entre letras.  
 
@@ -176,9 +176,9 @@ void loop() {
 }
 ````
 
-[nuevos "int"](./archivos/error.01-01.png)
+![nuevos "int"](./archivos/morse/error.01-01.png)
 
-[video con espacios LOW entre HIGH](./archivos/error01-01.gif)
+![video con espacios LOW entre HIGH](./archivos/morse/error01-01.gif)
 
 #### error 02
 
@@ -195,9 +195,9 @@ int entreCaracter = 500;
 ...
 ````
 
-[tiempos muy similares entre los int](./archivos/error02-00.png)
+![tiempos muy similares entre los int](./archivos/morse/error02-00.png)
 
-[video de tiempos similares](./archivos/error02-00.gif)
+![video de tiempos similares](./archivos/morse/error02-00.gif)
 
 ##### después
 
@@ -210,9 +210,9 @@ int entreCaracter = 250;
 ...
 ````
 
-[tiempos distintos entre los int](./archivos/error02-01.png)
+![tiempos distintos entre los int](./archivos/morse/error02-01.png)
 
-[video de tiempos distintos](./archivos/error02-01.gif)
+![video de tiempos distintos](./archivos/morse/error02-01.gif)
 
 #### error 03
 
@@ -236,9 +236,9 @@ Luego de cambiar ese tiempo, vi que, al reiniciar el loop, en vez de hacer 2 pun
 }
 ````
 
-[sin el LOW al final del código](./archivos/error03-00.png)
+![sin el LOW al final del código](./archivos/morse/error03-00.png)
 
-[video de puntos seguidos](./archivos/error02-01.gif)
+![video de puntos seguidos](./archivos/morse//error02-01.gif)
 
 Para cambiarlo puse otro ``espacio`` de LOW para que sea visible el reinicio del loop
 
@@ -252,9 +252,9 @@ int espacio = 1000
 }
 ````
 
-[LOW agregado](./archivos/error03-01.png)
+![LOW agregado](./archivos/morse/error03-01.png)
 
-[video de espacio entre puntos](./archivos/error03.gif)
+![video de espacio entre puntos](./archivos/morse/error03.gif)
 
 --
 
@@ -268,9 +268,9 @@ Dejé el código anterior como nota para no borrar el proceso.
 
 Primero escribí los `delay(punto);` para los 3 puntos y luego los `delay (entreCaracter);` para los espacios entre caracteres. Esta vez recordé ponerle un espacio al final del código con `delay(espacio);`
 
-[código letra S](./archivos/letraS-00.png)
+![código letra S](./archivos/morse/letraS-00.png)
 
-[video código letra S](./archivos/letraS-01.gif)
+![video código letra S](./archivos/morse/letraS-01.gif)
 
 ````C++
 // letra S = ... 
@@ -326,13 +326,13 @@ Para la letra O sólo copié y pegué lo de la letra S para sólo tener que camb
 
 ¡Otra vez salió a la primera!
 
-[video código letra O](./archivos/letraO.gif)
+![video código letra O](./archivos/morse/letraO.gif)
 
 --
 
 ##### Código final
 
-[código final](./archivos/SOS.gif)
+![código final](./archivos/morse/SOS.gif)
 
 ````C++
 // señal SOS en código morse
@@ -414,9 +414,52 @@ void loop() {
 
 ¡Salió perfecto!
 
-### Código 02 --> Bienvenida y adiós
+### Código 02 --> enciende y apaga
 
-Al conectar la placa aparece un mensaje de bienvenida y luego de unos segundos, uno de despedida
+````C++
+// Encendido y apagado mediante chat
+
+// Al escribir en el monitor serial "luz encendida"
+// el led de Arduino se enciende
+// Al escribir en el monitor serial "luz apagada"
+// el led de Arduino se apaga
+
+void setup() {
+  // Llama al monitor serial
+  Serial.begin(9600);
+
+  // Llama al led integrado en Arduino
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+/*
+void loop() {
+  digitalWrite(LED_BUILTIN, LOW);
+// Al recibir un texto con "luz encendida"
+// el led se enciende
+  if ("luz encendida") {
+    digitalWrite(LED_BUILTIN, HIGH);
+  }
+    else if ("luz apagada") {
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+} */
+
+void loop() {
+
+// Al iniciar mantiene apagado el led 
+  digitalWrite(LED_BUILTIN, LOW);
+
+// Si recibe un texto que dice "luz encendida"
+// el led se enciende por dos segundos
+  if Serial.readString("luz encendida /n") {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(2000);
+
+// le tuve que poner "delay(2000)" pensando que no
+// alcanzaba a verlo encendido, pero luego no se apagó nunca
+  }
+}
+````
 
 ### Código 03 --> Número aleatorio
 
@@ -432,7 +475,7 @@ Luego, con ``random()`` designar el rango de números para lanzar al azar. Por �
 
 #### error 00
 
-[loop setup](./archivos/numeroRandom/error00.png)
+![loop setup](./archivos/numeroRandom/error00.png)
 
 No sé de dónde saqué el ``loop setup`` esa función no existe :p
 
@@ -440,13 +483,12 @@ Era cosa de ponerlo como debe ser: ``void loop``
 
 #### error 01
 
-[Serial print mal escrito](./archivos/numeroRandom/error01.png)
-
+![Serial print mal escrito](./archivos/numeroRandom/error01.png)
 No entendía que pasaba, pero al volver a ver el código de referencia, entendí que era porque debe haber un . entremedio: ``Serial.print``
 
 #### error 02
 
-[Números aleatorios sin parar](./archivos/numeroRandom/error02.png)
+![Números aleatorios sin parar](./archivos/numeroRandom/error02.png)
 
 El código estaba perfecto, pero empezó a lanzar números al azar sin parar. Tuve que desenchufar la placa para detenerlo.
 
@@ -458,7 +500,7 @@ Va a tener que ser con tiempo designado por un ``delay``. Puse que sea en 2 segu
 
 ¡AHORA SÍ FUNCIONÓ!
 
-[Gif](./archivos/numeroRandom/error02-02.gif)
+![Gif](./archivos/numeroRandom/error02-02.gif)
 
 ````C++
 // RULETA DE NÚMEROS
