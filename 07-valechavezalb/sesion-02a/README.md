@@ -1,20 +1,26 @@
-### Martes 12 de agosto de 2025
+
 # Clase 03
 
+Martes 12 de agosto de 2025
+
 ## Cultura computacional
+
 - Serial.beging: inicializa comunicación serial permitiendo que arduino reciba datos a través de puerto serie.
 - c++ es c pero con clases.
 - Proyectos computacionales programados.
 - camelCase, sintáxis de programación.
 
 ### ¿Qué es un baudio?
+
 Un baudio o baud rate es la veocidad de la comunicación de datos. Por ejemplo 9600 se usa para ser más estable.
 
-# Encargo de la clase de hoy: documentar código, fallos y aciertos con arduino
+## Encargo de la clase de hoy: documentar código, fallos y aciertos con arduino
 
 ## **Códigos**
-#### Luz que parpadea con código morse con la palabra SOS
-``` javascript 
+
+## Luz que parpadea con código morse con la palabra SOS
+
+```cpp
 // luz led incorporada del arduino
   pinMode(LED_BUILTIN, OUTPUT);
 
@@ -49,8 +55,10 @@ void flash (int duracion)
   delay(duracion);
 }
 ```
-#### Reloj que muestra horas, minutos y segundos
-``` javascript
+
+### Reloj que muestra horas, minutos y segundos
+
+``` cpp
 void setup() {
 
   unsigned long tiempoAnterior = 0;
@@ -79,10 +87,12 @@ void loop() {
   delay(1000); //espera de un segundo para mostrar de nuevo 
 }
 ```
+
 - Este tuvo un error que no pude resolverlo, dice que tiene un error de sintaxis pero está bien escrito y no supe resolverlo. Escrbí Serial.printIn y no me lo toma.
 
 #### Elección de número al azar, que se ve en el serial monitor
-``` javascript 
+
+```cpp
 Serial.begin(9600); // inicia comunicacion serie 9600 --> velocidad a la que los datos se transmitiran entre pc-arduino
   randomSeed(analogRead(0)); // semilla que hace que los numeros no se repitan siempre
 
@@ -94,11 +104,13 @@ void loop() {
   delay(1000);
 }
 ```
+
 - Este código también tuvo el mismo error del código anterior, en términos de sintáxis con la misma variable Serial.printIn. Y no supe como solucionarlo.
 
-
 ## Charla de Sokio, Mauricio Días Gallardo
+
 [https://sokio.studio/]
+
 - Compositor chileno.
 - New Latin Wave.
 - Desarrollo de ópera experimental.
