@@ -1,4 +1,5 @@
 # sesion-01b
+## Apuntes videos
 
 int numeros enteros
 
@@ -21,8 +22,6 @@ funcion debe tener ()
 \n enter
 
 Declaracion: tipoDeDato nombreDeFantasiaUnico;
-
-
 
 Funciones: así();
 
