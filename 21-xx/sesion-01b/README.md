@@ -1,4 +1,5 @@
 # sesion-01b
+
 ## Apuntes videos
 
 int numeros enteros
@@ -13,7 +14,7 @@ String colección de caracteres uno tras otro “
 
 notación camello “usar mayúscula entre palabras”
 
-Serial. (adentro) 
+Serial. (adentro)
 
 funcion debe tener ()
 
