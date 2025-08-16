@@ -38,18 +38,18 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 
 ## Calendario detallado
 
-| Sesión                           | Fecha       | Temas                           |
-| :------------------------------- | :---------- | :------------------------------ |
-| [01a](./00-docentes/sesion-01a/) | 08-05 mar   | intro máquinas computacionales  |
-| [01b](./00-docentes/sesion-01b/) | 08-08 vier  | variables y funciones en C++    |
-| [02a](./00-docentes/sesion-02a/) | 08-12 mar   | markdown y github en la nube    |
-| [02b](./00-docentes/sesion-02b/) | 08-15 vier  | no hay sesión, feriado          |
-| [03a](./00-docentes/sesion-03a/) | 08-19 mar   | no hay sesión, feriado          |
-| [03b](./00-docentes/sesion-03b/) | 08-22 vier  | TODO                            |
-| [04a](./00-docentes/sesion-04a/) | 08-26 mar   | TODO                            |
-| [04b](./00-docentes/sesion-04b/) | 08-29 vier  | TODO                            |
-| [05a](./00-docentes/sesion-05a/) | 09-02 mar   | / solemnes 1, no hay ev. taller |
-| [05b](./00-docentes/sesion-05b/) | 09-05 vier  | / solemnes 1, no hay ev. taller |
+| Sesión                           | Fecha       | Temas                                                |
+| :------------------------------- | :---------- | :--------------------------------------------------- |
+| [01a](./00-docentes/sesion-01a/) | 08-05 mar   | intro máquinas computacionales                       |
+| [01b](./00-docentes/sesion-01b/) | 08-08 vier  | variables y funciones en C++                         |
+| [02a](./00-docentes/sesion-02a/) | 08-12 mar   | markdown y github en la nube                         |
+| [02b](./00-docentes/sesion-02b/) | 08-15 vier  | no hay sesión, feriado                               |
+| [03a](./00-docentes/sesion-03a/) | 08-19 mar   | condicionales, iteradores, Serial.read(), protoboard |
+| [03b](./00-docentes/sesion-03b/) | 08-22 vier  | potenciómetro, arreglos, bibliotecas, pantalla       |
+| [04a](./00-docentes/sesion-04a/) | 08-26 mar   | trabajo en proyecto-01                               |
+| [04b](./00-docentes/sesion-04b/) | 08-29 vier  | entrega de proyecto-01                               |
+| [05a](./00-docentes/sesion-05a/) | 09-02 mar   | intro a clases / solemnes 1, no hay ev. taller       |
+| [05b](./00-docentes/sesion-05b/) | 09-05 vier  | intro a clases / solemnes 1, no hay ev. taller       |
 | [06a](./00-docentes/sesion-06a/) | 09-09 mar   |                                 |
 | [06b](./00-docentes/sesion-06b/) | 09-12 vier  |                                 |
 | semana libre                     | 09-15/19    | receso fiestas patrias          |
