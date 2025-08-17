@@ -14,6 +14,8 @@ Por lo tanto aqui plasmare los conocimientos mas basicos para tener una mejor ba
 
 int : int dentro de la declaracion indica que tipo de dato es (en ese caso numeros enteros) hay diferentes variables para indicar otras cosas
 
+long : similar a int, pero este almacena datos mas grandes y largos
+
 ***Para acordarme: Siempre de los siempres se debe declarar, o Arduino nunca sabra nada (`ー´)***
 
 1. float: numeros decimales
@@ -76,7 +78,7 @@ return 0;
 }
 ```
 
-## errores 
+## Errores 
 
 Mi primer ejercicio fue buscar parte de un codigo simple, pero aparentemente mezcle el lenguaje c++ y por ello no arrancaba el programa, con sinceridad apenas si entendia el codigo cuando lo vi. no se como se me ocurrio la idea de estudiar algo que no captaba.
 
@@ -98,6 +100,54 @@ Serial.begin(9600);
 }
 ```
 
-## errores
+## Errores
 
 Por loco que suene no se que esta mal. el programa advierte sobre esto. Voy a ver como subir una imagen
+![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/error%201.png)
+ //demonios lo logre despues de 10 minutos
+
+ ---
+ 
+ ### Ultimo ejercicio
+
+ ```cpp
+void setup() {
+pinMode(LED_BUILTIN, OUPUT);
+}
+
+//este es otro intento de generar numeros randoms, donde declaro que existe el numero aleatorio
+long numeroaleatorio() {
+//este numero es igual a random en un rango de 900
+numeroaleatorio();=random(900);
+//despues mando esto para que se vea en el computador
+SerialprintIl (numeroaleatorio);
+//para decir que el numero aleatorio es random en un rango de 0 a 900
+numeroaleatorio = random(0,900);
+delay(500)
+}
+```
+
+## Errores
+
+Posiblemente puse las cosas en desorden, como recien declarar a final que random puede ir de 0 a 900.
+aunque el programa lanzo incluso mas cosas que ya no llegue a comprender
+
+![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/error%202.png)
+
+---
+
+
+Y termine. tal vez parezca que es poco pero aprender a programar de 0 y ser lanzada a investigar me ha hecho ver la gran cuesta del aprendizaje
+
+Estuve motivada al hacer estos ejercicios aunque no funcionaran (solo lo hizo uno)
+![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/casi%20error.png)
+
+Lo se. dice que hay error, pero sacando aquel experimento de la letra, funciona perfectamente (pero parece que no le saque captura al intento bueno) 
+
+La cosa es que el arduino repetidamente da en codigo morse la letra C (al ser la inicial de mi nombre)
+
+Queria hacer mas pero no sabia cuanto almacenamiento ocuparia y no me atrevi
+
+## Pero ese es mi recorrido, un poco torpe siendo honesta pero de a poco ire aprendiendo 
+✺◟( • ω • )◞✺
+
