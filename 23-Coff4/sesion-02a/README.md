@@ -151,3 +151,10 @@ Queria hacer mas pero no sabia cuanto almacenamiento ocuparia y no me atrevi
 ## Pero ese es mi recorrido, un poco torpe siendo honesta pero de a poco ire aprendiendo 
 ✺◟( • ω • )◞✺
 
+## Creditos ★
+
+1. (https://www.tutorialspoint.com/arduino/arduino_loops.htm)
+2. (https://arduino.cl/programa-arduino/)
+3. (https://www.instructables.com/Arduino-101-Fundamentals/)
+4. (https://learn.robolink.com/lesson/rokit-counters/)
+
