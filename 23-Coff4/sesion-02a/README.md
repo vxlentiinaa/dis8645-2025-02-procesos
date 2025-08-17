@@ -2,7 +2,7 @@
 
 ## El primer paso de alguien que no sabe nada de programacion o Arduino ( `ε´ )
 ---
-Al no conocer ni ser una apasionada, se me ha dificultado saber por dónde empezar. No podría crear códigos sin saber lo fundamental.
+Al no conocer, ni ser una apasionada, se me ha dificultado saber por dónde empezar. No podría crear códigos sin saber lo fundamental.
 Por lo tanto aqui plasmare los conocimientos mas basicos para tener una mejor base
 
 ## Intro ★
@@ -21,6 +21,7 @@ int : int dentro de la declaracion indica que tipo de dato es (en ese caso numer
 3. String: frases "Chocolate" //de las pocas variables que comienzan con mayuscula
 4. const: se le da un valor fijo y constante (que nunca cambia)
 5. boolean: contiene 2 valores (truth or false)
+6. main: punto de inicio
 
 ---
 
@@ -74,3 +75,29 @@ Serial.printIn("resultado); << x;
 return 0; 
 }
 ```
+
+## errores 
+
+Mi primer ejercicio fue buscar parte de un codigo simple, pero aparentemente mezcle el lenguaje c++ y por ello no arrancaba el programa, con sinceridad apenas si entendia el codigo cuando lo vi. no se como se me ocurrio la idea de estudiar algo que no captaba.
+
+---
+
+```cpp
+//esto de arriba ya venia con el ejercicio base de arduino
+void setup() {
+pinMode(LED_BUILTIN, OUPUT);
+}
+//con esto se comienza
+int main(); {
+//aqui conoci la instruccion random() en el parentesis se coloca el numero limite
+String numero = random(1000)
+//con ello se manda la señal al pc
+Serial.print(numero);
+//y lo hace en estos tantos milisegundos
+Serial.begin(9600);
+}
+```
+
+## errores
+
+Por loco que suene no se que esta mal. el programa advierte sobre esto. Voy a ver como subir una imagen
