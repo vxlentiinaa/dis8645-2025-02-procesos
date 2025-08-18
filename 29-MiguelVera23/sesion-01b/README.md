@@ -47,51 +47,92 @@ Uso de if
 SOS en morse
 
 ...---...
+
 void setup() {
+
   // put your setup code here, to run once:
+
 Serial.begin(9600);     //números específicos
+
 pinMode(LED_BUILTIN,OUTPUT);    //siempre es necesario?
+
 }
 
 
 void loop() {
+
   // code for SOS
+
 digitalWrite(LED_BUILTIN,HIGH);     //morse for S
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,LOW);      //menos lineas?
+
 delay(500);                         //mejor opción que delay?
+
 digitalWrite(LED_BUILTIN,HIGH);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,HIGH);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(500);
 
 digitalWrite(LED_BUILTIN,HIGH);     //morse for O
+
 delay(1000);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(1000);
+
 digitalWrite(LED_BUILTIN,HIGH);
+
 delay(1000);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(1000);
+
 digitalWrite(LED_BUILTIN,HIGH);
+
 delay(1000);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(1000);
 
 digitalWrite(LED_BUILTIN,HIGH);     //morse for S
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,HIGH);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,LOW);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,HIGH);
+
 delay(500);
+
 digitalWrite(LED_BUILTIN,LOW);  
+
 delay(2000);                       //delay de 2 segundos para que no se confunda con _
+
 }
