@@ -181,7 +181,35 @@ en 2025 el profesor sergio majluf se incorpora al equipo de seminario y título 
 
 este taller de diseño de máquinas electrónicas está enmarcado actualmente en el ciclo de talleres ofrecidos por la escuela de diseño UDP para estudiantes de tercer y cuarto año.
 
-## referentes vistos en clase
+## horario durante el semestre
+
+```cpp
+if (dia == martes || dia == viernes)
+{
+  if (hora in 8:30 - 9:00) {
+    ordenar();
+  }
+  else if (hora in 9:00 - 10:30) {
+    trabajar();
+  }
+  else if (hora in 10:30 - 11:00) {
+    descansar();
+  }
+  else if (hora in 11:00 - 12:30) {
+    trabajar();
+  }
+  else if (hora in 12:30 - 12:50) {
+    ordenar();
+}
+```
+
+inspirado en apuntes de felix-rg416.
+
+## microcontrolador
+
+en este curso usaremos Arduino Uno R4 Minima.
+
+## referentes vistos en clases
 
 * <https://itp.nyu.edu/physcomp/syllabus-fall-2025/>
 * <https://marhicks.com/>
@@ -206,3 +234,4 @@ este taller de diseño de máquinas electrónicas está enmarcado actualmente en
 * <https://www.media.mit.edu/>
 * <https://tisch.nyu.edu/itp>
 * <https://www.mariajosecontreras.com/>
+* <https://mermaid-js.github.io/>

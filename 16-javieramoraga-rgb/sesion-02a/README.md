@@ -4,10 +4,11 @@
 ### CODIGO 01
 ```cpp
 void setup() {
+// declarar pinMode
   pinMode (2, INPUT_PULLUP);
   Serial.begin(9600);
 }
-
+// loop de frase
 void loop() {
  if(digitalRead(2) == LOW){
   Serial.println("oe");
@@ -40,10 +41,11 @@ void loop() {
 ### CODIGO 03
 ```cpp
 void setup() {
+// declarar pinMode
   pinMode(13, OUTPUT);
 
 }
-
+// loop de frase en morze con LED de arduino
 void loop() {
   digitalWrite(13, HIGH);
   delay(500);
