@@ -89,9 +89,14 @@ JLCPBC
 #### 2. Alan Turing
 
 Matemático, informático teórico de origen británico.
-Es uno de los precursores de las computadoras y de la informática. 
+Es uno de los precursores de las computadoras y de la informática. A temprana edad se interesó por la relación entre mente y materia, involucrandose con la física y mecánica cuántica. En la universidad "King's College Cambridge" se destacó en lógica y matemática. Más tarde (1936) hizo un doctorado en criptología en la Universidad de Princeton, ideando el funcionamiento de una máquina que pudiera resolver problemas traducido a operaciones mátemáticas y cuyo resultado constara en una serie de operaciones lógicas en código binario (si y no, 1 y 0, etc). 
+
+Uno de sus hitos más grandes sería en la Segunda Guerra Mudial, fecha en la cuál los Alemanes utilizaban la máquina "Enigma" para encriptar sus mensajes (con más de 150 billones de combinaciones posibles). A partir de ello, Turing crearía en Bletchley Park (1939) una máquina llamada "Bombe", la precursora de los computadores programables, la que se encargaba de descifrar dichos mensajes y recuperar información valiosa para adelantarse a las estrategias del enemigo. 
 
 *Información recuperdada de:*
+1) https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/
+2) https://es.wikipedia.org/wiki/Enigma_(m%C3%A1quina)
+3) https://es.wikipedia.org/wiki/Bombe
 
 ***
 
