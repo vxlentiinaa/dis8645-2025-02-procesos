@@ -1,10 +1,12 @@
 # sesion-01b
-*8 Agosto 2025*
+
+8 Agosto 2025
 
 DIS8645
 Mi número en la lista: 19
 
 ## Correos
+
 cómo escribir los correos?
 Asunto que capte la atención.
 Ir al grano con los correos, separar en párrafos si hay muchas ideas.
@@ -15,15 +17,13 @@ El “para” es para la persona a la que le va a llegar el correo
 “Cc” significa con copia
 “Bcc” Le llega a la persona pero está oculto.
 
-
 Arduino IDE: integrated development environment (IDE) software de desarrollo
 
 Versión legacy: versiones antiguas de un software que aún asi se pueden descargar
 
-Dentro de Arduino IDE, hay que instalar la placa que se va a usar. 
+Dentro de Arduino IDE, hay que instalar la placa que se va a usar.
 
 archivo - ejemplos - hay varias bibliotecas - basics - blink
-
 
 dentro de un código, es importante que los espacios, los paréntesis, los murciélagos, y los corchetes estén donde tienen que estar.
 
@@ -57,9 +57,8 @@ Quizas no instalé el paquete de arduino r4 minima
 
 ``LED_BUILTIN`` es para establecer cual pin es.
 
-
 ejemplo: quiero que la patita numero 13 sea una salida.
-cuando usamos un pin digital, hay que decirle para que sirve. 
+cuando usamos un pin digital, hay que decirle para que sirve.
 
 loop: ocurre una y otra vez
 
@@ -72,22 +71,22 @@ Al principio, se pueden establecer parámetros de tiempo prendido y tiempo apaga
 int tiempoPrendido = 100;
 
 palabras acompañadas de paréntesis
-Las palabras que vienen antes de un paréntesis se les cambia el color automáticamente porque es una función importante. 
+Las palabras que vienen antes de un paréntesis se les cambia el color automáticamente porque es una función importante.
 
-
-¿Cuál es la diferencia entre loop y las palabras que están abajo? 
+¿Cuál es la diferencia entre loop y las palabras que están abajo?
 qué loop tiene una palabra antes, el cual es void. Además tiene un parentesis y un murciélago.
 Todo lo que está dentro de un parentesis son las opciones o parámetros (que pueden cambiar según decisiones, según variables, o en el tiempo) dependiendo del lenguaje de programación. Los parámetros se separan con comas. Ej. (asdffbb, asdf)
 
 El punto y coma se usa para decir que una línea terminó.
 
 ## Declaración de funciones
+
 Hay que declarar las palabras utilizando el void para que no sea un problema. Se declara una palabra para avisar que es un alias, que significa otras cosas.
 Como la computación tiende a ser secuencial, es importante que esta declaración se haga antes de que se utilice la función.
 
 Los murciélagos ayudan a decirle al computador que significa la función. Todo lo que esté dentro es lo que significa. Básicamente, todo lo que esté dentro es una declaración de sus funciones.
 
-Las variables que no tienen parentesis no son funciones. 
+Las variables que no tienen parentesis no son funciones.
 
 “float” funciona con decimales
 “int” significa numero entero. No funcionan palabras con int.
@@ -124,12 +123,11 @@ el nombre de fantasia debe ser unico
 funcion  ();
 variables  asd = 1;
 
-
 se puede asignar a una variable el resultado de llamar a una funcion
 lluvia = preguntaleASepu();
 
 “void” es un tipo de funcion.
 
-
 ### Encargo
+
 Crear variables dentro del arduino y experimentar. Fotitos de cosas que fallaron y que pasó. Minimo 3 codigos que no funcionan. Documentar los fallos.
