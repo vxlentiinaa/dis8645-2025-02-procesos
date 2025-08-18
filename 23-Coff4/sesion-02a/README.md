@@ -1,11 +1,13 @@
 # sesion-02a
 
 ## El primer paso de alguien que no sabe nada de programacion o Arduino ( `ε´ )
+
 ---
 Al no conocer, ni ser una apasionada, se me ha dificultado saber por dónde empezar. No podría crear códigos sin saber lo fundamental.
 Por lo tanto aqui plasmare los conocimientos mas basicos para tener una mejor base
 
 ## Intro ★
+
 ### Variables y comandos
 
 «void setup()» : Primera funcion que se coloca para arrancar el programa. dentro de los parentesis varian las instrucciones
@@ -31,7 +33,7 @@ long : similar a int, pero este almacena datos mas grandes y largos
 
 ### Pines
 
-- pinMode(pin, mode); : se configura uno de los pines para ser la entrada o salida (INPUT, OUTPUT, or INPUT_PULLUP) 
+- pinMode(pin, mode); : se configura uno de los pines para ser la entrada o salida (INPUT, OUTPUT, or INPUT_PULLUP)
 Input para que el pin reciba la señal. Output para que el mande la señal e Input Pull up //... pendiente
 
 - digitalWrite(LED,HIGH/LOW); : se usa para hacer que un pin este HIGH or LOW (prendido o apagado)
@@ -78,7 +80,7 @@ return 0;
 }
 ```
 
-## Errores 
+## Errores del ejercicio 1
 
 Mi primer ejercicio fue buscar parte de un codigo simple, pero aparentemente mezcle el lenguaje c++ y por ello no arrancaba el programa, con sinceridad apenas si entendia el codigo cuando lo vi. no se como se me ocurrio la idea de estudiar algo que no captaba.
 
@@ -107,8 +109,8 @@ Por loco que suene no se que esta mal. el programa advierte sobre esto. Voy a ve
  //demonios lo logre despues de 10 minutos
 
  ---
- 
- ### Ultimo ejercicio
+
+### Último ejercicio
 
  ```cpp
 void setup() {
@@ -127,7 +129,7 @@ delay(500)
 }
 ```
 
-## Errores
+## Errores del último ejercicio
 
 Posiblemente puse las cosas en desorden, como recien declarar a final que random puede ir de 0 a 900.
 aunque el programa lanzo incluso mas cosas que ya no llegue a comprender
@@ -136,25 +138,24 @@ aunque el programa lanzo incluso mas cosas que ya no llegue a comprender
 
 ---
 
-
 Y termine. tal vez parezca que es poco pero aprender a programar de 0 y ser lanzada a investigar me ha hecho ver la gran cuesta del aprendizaje
 
 Estuve motivada al hacer estos ejercicios aunque no funcionaran (solo lo hizo uno)
 ![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/casi%20error.png)
 
-Lo se. dice que hay error, pero sacando aquel experimento de la letra, funciona perfectamente (pero parece que no le saque captura al intento bueno) 
+Lo se. dice que hay error, pero sacando aquel experimento de la letra, funciona perfectamente (pero parece que no le saque captura al intento bueno)
 
 La cosa es que el arduino repetidamente da en codigo morse la letra C (al ser la inicial de mi nombre)
 
 Queria hacer mas pero no sabia cuanto almacenamiento ocuparia y no me atrevi
 
-## Pero ese es mi recorrido, un poco torpe siendo honesta pero de a poco ire aprendiendo 
+## Pero ese es mi recorrido, un poco torpe siendo honesta pero de a poco ire aprendiendo
+
 ✺◟( • ω • )◞✺
 
-## Creditos ★
+## Créditos ★
 
-1. (https://www.tutorialspoint.com/arduino/arduino_loops.htm)
-2. (https://arduino.cl/programa-arduino/)
-3. (https://www.instructables.com/Arduino-101-Fundamentals/)
-4. (https://learn.robolink.com/lesson/rokit-counters/)
-
+1. (<https://www.tutorialspoint.com/arduino/arduino_loops.htm>)
+2. (<https://arduino.cl/programa-arduino/>)
+3. (<https://www.instructables.com/Arduino-101-Fundamentals/>)
+4. (<https://learn.robolink.com/lesson/rokit-counters/>)
