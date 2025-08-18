@@ -138,7 +138,7 @@ delay(250);
 
 Para poder volver a entender sobre como codificar en arduino es que decidí analizar un código que tenía guardado hace 2 años, para poder entenderlo y descubrir qué fue lo que programé, el cómo lo hice y qué significa cada línea.
 
-En un comienzo quise probar si funcionaba armando un pequeño circuito con una protoboard, un [display de 28 x 64 px](https://mcielectronics.cl/shop/product/display-oled-de-128-x-64-pixeles-controlable-por-i2c-29546/) y cables dupont.
+En un comienzo quise probar si funcionaba armando un pequeño circuito con una protoboard, un [display de 128 x 64 px](https://mcielectronics.cl/shop/product/display-oled-de-128-x-64-pixeles-controlable-por-i2c-29546/) y cables dupont.
 
 Al parecer alguna de las piezas estaban dañadas (conclusión), por lo que terminé usando un simulador online: [WOKWI](https://wokwi.com/projects/439087666921849857)
 
