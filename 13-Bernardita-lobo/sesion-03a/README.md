@@ -38,5 +38,35 @@ else{
 
 // noPuedoNomas
 
+operadores logicos: are, or, not
 
+compuerta and, or, not
 
+tabla de verdad
+
+las compuertas de y son dependientes
+
+#### tabla de verdad and
+
+| A 	| B 	| OUT 	|
+|---	|---	|-----	|
+| 0 	| 0 	| 0   	|
+| 0 	| 1 	| 0   	|
+| 1 	| 0 	| 0   	|
+| 1 	| 1 	| 1   	|
+
+#### tabla de verdad or
+
+| A 	| B 	| OUT 	|
+|---	|---	|-----	|
+| 0 	| 0 	| 0   	|
+| 0 	| 1 	| 1   	|
+| 1 	| 0 	| 1   	|
+| 1 	| 1 	| 1   	|
+
+#### tabla de verdad not
+
+| A 	| OUT 	|
+|---	|-----	|
+| 0 	| 1   	|
+| 1 	| 0   	|
