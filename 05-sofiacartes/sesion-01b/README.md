@@ -17,10 +17,12 @@
 ## Arduino 
 
 ¿Qué es arduino?
-
+ 
 Es un dialecto,
 
-* **Arduino IDE** -> de entorno de desarrollo integrado.
+* **Arduino IDE** -> de entorno de desarrollo integrado. Es la interfaz gráfica, tiene varios software que conviven entre si.
+  
+* IDE: Integrated Developed Enviroment. Entorno de desarrollo integrado
 
 IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el IDE2.(  )
 
@@ -31,8 +33,11 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 3. Basics
 4. Blink
 
+*Cada vez que se presiona 2 veces el botón reset, se olvida de todo lo anterior.*
+
 * **Lenguaje en Arduino**
-  
+
+- **Serial monitor**: Todo lo que tenga serial pasa por aquí. 
 - **( )** : Parentesis.
 - **[  ]** : Corchete.
 - **{ }** : Murciélago.
@@ -48,7 +53,7 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 - **==** : Se compara. Condición.   
 - **HIGH**: Lo que está en 1
 - **LOW**: Lo que está en 0
-- **delay**: Arduino congelado
+- **delay**: Significa que el arduino manda la señal y se queda ahí por un segunso, se vita que se queme. *Le dice al arduino congelado.*
 - **Void**:
 - **int**: Son variables.
 - **foat**:Para decimales.
@@ -63,6 +68,7 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 - **for**: Iteración.
 - **if:** Si pasa algo funciona. Es como si tuviera mas opciones. Para hacer o no hacer cualquier código.
 - **else**:
+- **Serial.being()**: Es una función y lo que esta en el paréntesis es el valos que se le asigna.
 
   
 
