@@ -31,6 +31,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);                      // wait for a second
 }
-
+```
+Esto se puede hacer en discord tambien
 
 --- TRASPASAR APUNTES BITACORA ---
