@@ -73,4 +73,6 @@ void loop() {
 
 
 }
+```
+### repasar if, else, for, int
 
