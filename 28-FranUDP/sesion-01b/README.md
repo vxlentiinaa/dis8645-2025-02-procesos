@@ -94,7 +94,11 @@ float numeroDecimal = 6.9;
 ````
 
 bool: <br/>
-
+una palabra es verdadera o falsa
+````
+bool notFalse = true;
+bool truen't = false;
+````
 
 char: <br/>
 Una palabra corresponde a un caracter (character)
