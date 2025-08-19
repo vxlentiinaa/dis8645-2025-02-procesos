@@ -2,9 +2,9 @@
 
 ## Apuntes
 
-### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$ <br/>
+### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$
 
-### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
+### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$
 
 ### [Arduino IDE (Integrated Development Environment)](https://aws.amazon.com/what-is/ide/)
 
@@ -14,10 +14,16 @@ En el caso del Arduino IDE, este programa facilita trabajar con microcontrolador
 
 ### Elementos del Código
 
-Comentarios: <br/>
+Comentarios:  display.clearDisplay();                // Borrar pantalla
+  display.setTextSize(1);                // Tamaño del texto
+  display.setTextColor(SSD1306_WHITE);   // Color del texto
+  display.setCursor(0, 10);              // Posición del texto
+  display.println(F("¡Hola Mundo!"));   // Texto a mostrar
+  display.display();
+
 Texto humano dirigido al humano que está viendo el código, utilizado para explicar lo que hace cierta línea de código, cómo modificarla, entre otras cosas.
 
-```
+```cpp
 pinMode(text, example); // comentario arduino y javascript
 pinMode(text, example); # comentario python
 pinMode(text, example); <!-- comentario markdown -->
