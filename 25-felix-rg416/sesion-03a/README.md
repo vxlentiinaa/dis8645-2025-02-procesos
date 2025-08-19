@@ -15,7 +15,7 @@ if (Boolean condition) THEN
     (consequent)
 else
     (alternative)
-```
+``
 
 ![if and else](./imagenes/if-else.png)
 
