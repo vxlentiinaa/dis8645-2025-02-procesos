@@ -6,7 +6,7 @@ Martes 19 Agosto 2025
 
 ## Observaciones
 
-LLorem ipsum dolor sit amet,
+Hoy llegué un poco atrasada por un problema en la frecuencia del metro. Cuando aborde la sala me di cuenta que estaban hablando de los contenidos de hoy y una futura entrega de un taller, en el que se definió una parte grupal y otra individual.
 
 ***
 
@@ -19,11 +19,33 @@ LLorem ipsum dolor sit amet,
 
 ***
 
-### Donec mattis
+### Condicionales (if, else, else if)
 
-Interdum et malesuada fames
+```cpp
+if (condición booleana) {
+pasa esto ();
+}
+else (otra condición) {
+pasa esto otro ();
+}
+== <!-- es una pregunta -->
+
+if (!condición booleana inversa) {
+pasa esto ();
+```
+
+Nesting -> Anidación: colocar una condición dentro de otra.
+
+long: variable para números grandes. Se acompaña de unsigned (de 0 a arriba).
+bool: variable booleana (0 o 1).
+
+Operadores logicos: Y (and), O (or), No (not).
+Condiciones dependiente.
+¿Qué es Nand, Nor, Xor?
 
 ***
+
+https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/
 
 ### Posdata
 
