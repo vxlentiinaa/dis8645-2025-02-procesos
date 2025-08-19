@@ -83,8 +83,11 @@ JLCPBC
 
 #### 1. Ada Lovelace
 
+Es considerada la primera programadora de la historia
 
 *Información recuperdada de:*
+1) https://ebac.mx/blog/ada-lovelace
+2) 
 
 #### 2. Alan Turing
 
