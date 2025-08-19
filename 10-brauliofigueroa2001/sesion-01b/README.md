@@ -1,7 +1,8 @@
 # sesion-01b
+
 ## taller clase viernes 8 de agosto
 
-**llegué medianamente tarde**
+llegué medianamente tarde
 
 - cuando llegué estaban hablando sobre los mails y el cómo enviarlos
 - mail: cc
@@ -26,9 +27,9 @@
 **ARDUINO Y CONCEPTOS**
 - vamos a archivo ---> ejemplos ---> ejemplos para arduino r4 minima
 - luego vamos a blink, en esta opción aparecen las personas que lo crearon y nos describen las acciones que suceden con tales comandos
-- ()
-- { murciélago
-- [ corchete
+- `()`
+- `{` murciélago
+- `[` corchete
 - las mayúsculas son cosas importantes
 - upload: manda lo que está en el código a la placa de arduino
 - primero apretamos verificar para corroborar que todo esté bien y después upload para mandar al arduino
@@ -47,14 +48,14 @@
 - otro ejemplo es que si ponemos delay (1000/10) el computador hace este cálculo y lo lleva a cabo en el arduino
 - otro ejemplo
 - apagado
--   // tiempo prendido
--   digitalWrite
--   delay(tiempo prendido)
--   //apaga
--   digitalWrite
--   delay (tiempo apagado)
+- // tiempo prendido
+- digitalWrite
+- delay(tiempo prendido)
+- //apaga
+- digitalWrite
+- delay (tiempo apagado)
 
-**BREAK**
+BREAK
 
 - // ---> son comentarios
 - funciones: palabras que vienen acompañadas de paréntesis
@@ -94,7 +95,3 @@
 - **segundo error**: probé a ver qué ocurría si los valores de delay eran escritos en letras y en inglés en vez de números, para ver si también aceptaba o no valores escritos de forma no numérica
 
 ![error](./imagenes/errornumero2.JPG)
-
-
-
-
