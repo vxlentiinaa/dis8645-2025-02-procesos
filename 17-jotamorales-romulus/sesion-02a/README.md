@@ -1,1 +1,2 @@
 # sesion-02a
+--- TRASPASAR APUNTES BITACORA ---
