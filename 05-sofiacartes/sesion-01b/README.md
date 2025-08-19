@@ -46,21 +46,21 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 - **;** : La línea terminó.
 - **=** : Dentro de la izquierda vive el valor de la derecha. Asignar valor.
 - **==** : Se compara. Condición.   
-- **HIGH**: lo que está en 1
-- **LOW**: lo que está en 0
-- **delay**: arduino congelado
+- **HIGH**: Lo que está en 1
+- **LOW**: Lo que está en 0
+- **delay**: Arduino congelado
 - **Void**:
-- **int**: son variables.
-- **foat**: para decimales.
-- **Char** sólo una letra o un caracter.
-- **String**: colección de carácteres.
+- **int**: Son variables.
+- **foat**:Para decimales.
+- **Char** Sólo una letra o un caracter.
+- **String**: Colección de carácteres.
 - **bool**: si//no
 - **AND**: Debe cumplir todas.
 - **OR**: Debe cumplir alguna.
-- **command t**: se ordena en el arduino.
-- **Serial.println**: imprime en otra línea.
-- **Serial.print**: imprime en la misma línea.
-- **for**: iteración.
+- **command t**: Se ordena en el arduino.
+- **Serial.println**: Imprime en otra línea.
+- **Serial.print**: Imprime en la misma línea.
+- **for**: Iteración.
 - **if:** Si pasa algo funciona. Es como si tuviera mas opciones. Para hacer o no hacer cualquier código.
 - **else**:
 - **end if**:
