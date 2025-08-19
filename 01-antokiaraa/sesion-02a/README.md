@@ -79,7 +79,7 @@ C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\s
 exit status 1
 
 Compilation error: stray '\303' in program
-## por lo que entendí despues es que en vez de un punto puse una coma sin querer y q el texto debe ir en comillas,,,,, lo modifiqué y me volvió a dar error porq el murciélago está mal(?)
+### por lo que entendí despues es que en vez de un punto puse una coma sin querer y q el texto debe ir en comillas,,,,, lo modifiqué y me volvió a dar error porq el murciélago está mal(?)
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino: In function 'void setup()':
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino:4:1: error: expected primary-expression before '}' token
  }
@@ -87,7 +87,7 @@ C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\s
 exit status 1
 
 Compilation error: expected primary-expression before '}' token
-## se me había colado un + eso era
+### se me había colado un + eso era
 ```cpp
 void setup() {
   // put your setup code here, to run once:
