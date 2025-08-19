@@ -52,3 +52,4 @@ noPuedoNoMas();
 }
 ```
 - millis() cuenta el tiempo desde que se prendió el arduino.
+si crean variables con millis(), que sean declaradas con   unsigned long
