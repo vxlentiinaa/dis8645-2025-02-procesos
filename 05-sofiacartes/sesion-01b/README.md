@@ -32,10 +32,49 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 4. Blink
 
 * **Lenguaje en Arduino**
-  - ( ) parentesis
-  - [  ] corchete
-  - { } murciélago
-  - 
+  
+- **( )** : Parentesis.
+- **[  ]** : Corchete.
+- **{ }** : Murciélago.
+- **!** :
+- **//** :Viene un comentario.
+- **||** :
+- **✔️** : Para enviar código.
+- **->** :Para verificar código.
+- ***/** :Abrir comentario.
+- ***/** : Cerrar un comentario.
+- **;** : La línea terminó.
+- **=** : Dentro de la izquierda vive el valor de la derecha. Asignar valor.
+- **==** : Se compara. Condición.   
+- **HIGH**: lo que está en 1
+- **LOW**: lo que está en 0
+- **delay**: arduino congelado
+- **Void**:
+- **int**: son variables.
+- **foat**: para decimales.
+- **Char** sólo una letra o un caracter.
+- **String**: colección de carácteres.
+- **bool**: si//no
+- **AND**: Debe cumplir todas.
+- **OR**: Debe cumplir alguna.
+- **command t**: se ordena en el arduino.
+- **Serial.println**: imprime en otra línea.
+- **Serial.print**: imprime en la misma línea.
+- **for**: iteración.
+  
+```cpp
+  //se itera con for
+  //se pone entre parentesis 3 cosas:
+  // 1 partida
+  // 2 término
+  // 3 actualización
+  // y entre murcielagos { } lo que quiero iterar
+ 
+  for (int i = 0; i<veces; i = i +1)
+  {
+  hazEsto();
+  }
+```
 
 ## Encargo 02
 
