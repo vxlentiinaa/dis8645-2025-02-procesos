@@ -61,6 +61,9 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 - **Serial.println**: imprime en otra línea.
 - **Serial.print**: imprime en la misma línea.
 - **for**: iteración.
+- **if:** Si pasa algo funciona. Es como si tuviera mas opciones. Para hacer o no hacer cualquier código.
+- **else**:
+- **end if**:
   
 ```cpp
   //se itera con for
