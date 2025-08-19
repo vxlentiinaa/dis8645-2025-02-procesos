@@ -12,9 +12,11 @@ Este día me costó levantarme, principalmente por mi desorden del descanso y ho
 
 ### Escaneo de bitácora y apuntes escritos del día
 
-![imagen](./imagenes/.)
+![imagen](./imagenes/01.jpg)
 
-▼ Descripción de la imagen. Obtenido de: cita
+![imagen](./imagenes/02.jpg)
+
+▼ Escaner de la bitácora. Obtenido de: recurso propio.
 
 ![imagen](./imagenes/03.jpeg)
 
