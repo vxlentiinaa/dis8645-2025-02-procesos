@@ -191,4 +191,4 @@ void loop() {
 
 ### encargo
 
-investigar NAND, NOR, XOR
+investigar NAND, NOR, XOR, XNOR
