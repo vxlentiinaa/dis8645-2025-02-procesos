@@ -51,3 +51,4 @@ else {
 noPuedoNoMas();
 }
 ```
+- millis() cuenta el tiempo desde que se prendió el arduino.
