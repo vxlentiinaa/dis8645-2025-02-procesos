@@ -1,6 +1,6 @@
 # sesion-01b
 
-
+--- TRASPASAR APUNTES BITACORA____
 
 
 
@@ -30,7 +30,7 @@ void loop() {
 
 ### Error 2 
 
-Modifique el codigo de efemplo de Serial.readString(), el cual lee las palabras qque se envían a través del puerto serial y los guarda como una conversación.
+Modifique el codigo de ejemplo de [Serial.readString()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/readString), el cual lee las palabras que se envían a través del puerto serial y los guarda como un string.
 ```cpp
 //https://docs.arduino.cc/language-reference/en/functions/communication/serial/readString
 //Quiero crear una conversacion con distintas respuestas en el serial monitor
@@ -54,3 +54,18 @@ void loop() {
 }
 ```
 ![imagen de primero error](./imagenes/error2.png)
+
+### Error 3 
+
+Esto no es tanto un error, pero igual es algo que, para mí, genera un conflicto leve. Pido perdón por esto, pero no se me ocurría qué más hacer, así que simplemente fui jugando con un ejemplo y viendo qué pasaba. Al modificar el ejemplo Blink y cambiar el high-low a high-high, ocurría que:
+
+```cpp
+ digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+```
+[![Registro Error ???](https://img.youtube.com/vi/3wDIDZGPhik/0.jpg)](https://youtu.be/3wDIDZGPhik)
+
+La primera línea digitalWrite(LED_BUILTIN, HIGH) enciende el LED, mientras que la segunda línea digitalWrite(LED_BUILTIN, HIGH) intenta encender el LED de nuevo, pero como ya estaba encendido, no hay un cambio. Resultando en que El resultado es que el LED se enciende al principio y nunca vuelve a recibir la instrucción de apagarse.
