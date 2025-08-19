@@ -2,10 +2,12 @@
 
 ## Apuntes clase
 
+* **Serial monitor:**
+
 * **Serial begin:** sirve para sostener la comunicación.
 
-* **Serial begin:** 9600 --> baudios: significa a qué velocidad va un baudio, velocidad de comunicación, a qué velocidad lo estoy viendo.
-  
+* **Serial begin:** 9600. cantidad en **baudios** -> significa a qué velocidad va un baudio, velocidad de comunicación, a qué velocidad lo estoy viendo.
+
 * **Baudio** (Bd) cantidad de símbolos o cambios de señal por segundo en una comunicación.
 
 ## Sokio diaz-gallardo
