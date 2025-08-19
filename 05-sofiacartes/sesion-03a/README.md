@@ -11,5 +11,13 @@
 - **if**: Si pasa algo funciona. Es como si tuviera mas opciones. *Para hacer o no hacer cualquier código.*
 - **else**:
 - **end if**:
+- **módulo**: Cuantas veces entra el número en ese. *El módulo es solo para números enteros*
+  
+Ejemplos: 
 
+3 en 6:2 
+
+3 en 3:1
+
+- 
   
