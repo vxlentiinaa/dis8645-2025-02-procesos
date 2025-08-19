@@ -40,5 +40,30 @@
 - millis: cuenta el tiempo desde que se prendió el arduino
 - funciones que graben millis van a ser unsigned long para hacerlo más eficiente
 - que sean declaradas con unsigned long
+- ## BREAK
+
+-   ### operadores lógicos: y (and) o (or) no(not)
+-  **and:** se deben cumplir todos, ejemplo si quiero ir a mi casa, debo tener plata, pagar el metro, tomar la micro y caminar
+-  estos cuatro se deben cumplir porque sino no llegaré a mi casa
+-  **or**: ejemplo de transporte, si me quiero ir a mi casa puedo irme en metro o en micro o en uber o a pie
+-  solo cuando los 2 están de pie, la compuerta vale 1, EJ: SI Y SI = SI
+-  NO Y SI = NO   SI Y NO= NO    NO Y NO= NO,    SI Y SI= SI, en 3 de esas opciones es NO
+-  debe estar sí y sí para que se abra la compuerta
+-  estas =D- tiene 2 entradas y una salida, condiciones deben cumplirse para que se habilite esta salida
+-  **NOT:** hay una entrada, un negador y un resultado, en este ejemplo aaron y matías se agacharon
+-  aarón hacía lo contrario a lo que hacía matías, aaron sería el resultado después del negador
+-  el orden de los operadores lógicos no cambia el resultado
+-  **INVESTIGAR NAND, NOR, XOR**
+
+-  **ITERAR**
+-  el computador es una máquina de iterar
+-  int i , se la tiende a poner i porque se usa para iterar
+-  i < veces, i menor a veces, cuando i deja de ser menor a veces, esto deja de repetir
+-  división: lo que hace es truncar, ej: 5 dividido 2 nos da 2 y el resto de decimales no los sigue dividiendo
+-  **ver toda la parte de la iteración y división**
+-  **ejemplo de misaa: (pendiente ver video de esta parte de la clase porque me estaba quedando dormido)**
+-  repasar if, else, jugar con print, println, for,
+-  aprenderemos cómo usar las cosas que creó alguien para no hacer todo desde 0
+-  
 - 
 - 
