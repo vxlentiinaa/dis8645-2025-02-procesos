@@ -47,7 +47,7 @@ delay(tiempoPrendido);
 delay(tiempoApagado);
 }
 ```
-![intento de código con error](./imagenes/archivo.png/intentoArduinos1) (no se cómo colocarlo bien, ya que no me lleva a la foto)
+![intento de código con error](./imagenes/intentoArduinos1.png) (no se cómo colocarlo bien, ya que no me lleva a la foto)
 
 ### CÓDIGO 2 
 Quería realizar un código en donde al apretar la tecla 1 de mi computador, la luz Led se prendiera una vez, y al apretar la tecla 2, la luz se prendiera dos veces, pero no supe como realizarlo.
