@@ -46,7 +46,7 @@ tabla de verdad
 
 las compuertas de y son dependientes
 
-#### tabla de verdad and
+#### Tabla de verdad AND
 
 | A 	| B 	| OUT 	|
 |---	|---	|-----	|
@@ -55,7 +55,7 @@ las compuertas de y son dependientes
 | 1 	| 0 	| 0   	|
 | 1 	| 1 	| 1   	|
 
-#### tabla de verdad or
+#### Tabla de verdad OR
 
 | A 	| B 	| OUT 	|
 |---	|---	|-----	|
@@ -64,9 +64,14 @@ las compuertas de y son dependientes
 | 1 	| 0 	| 1   	|
 | 1 	| 1 	| 1   	|
 
-#### tabla de verdad not
+#### Tabla de verdad NOT
 
 | A 	| OUT 	|
 |---	|-----	|
 | 0 	| 1   	|
 | 1 	| 0   	|
+
+
+sofistas
+
+con control t ordena las cosas en arduino
