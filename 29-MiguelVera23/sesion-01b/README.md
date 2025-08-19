@@ -44,6 +44,7 @@ Uso de if
 
 <https://programarfacil.com/blog/arduino-blog/if-else-arduino/#:~:text=Las%20sentencias%20condicionales%20if%20con,indefinidamente%20dentro%20de%20nuestro%20programa.>
 
+```cpp
 SOS en morse
 
 ...---...
@@ -136,3 +137,5 @@ digitalWrite(LED_BUILTIN,LOW);
 delay(2000);                       //delay de 2 segundos para que no se confunda con _
 
 }
+
+```
