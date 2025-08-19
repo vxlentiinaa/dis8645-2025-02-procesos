@@ -75,3 +75,5 @@ las compuertas de y son dependientes
 sofistas
 
 con control t ordena las cosas en arduino
+
+VARIABLES, FUNCIONES, FOR, IF, ARE
