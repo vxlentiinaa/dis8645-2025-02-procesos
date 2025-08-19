@@ -63,7 +63,7 @@ JLCPBC
 ### _Personas_
 
 - [Roberto Bolaño](https://es.wikipedia.org/wiki/Roberto_Bola%C3%B1o) (escritor) ["Estrella distante"](https://es.wikipedia.org/wiki/Estrella_distante).
-- [Cristian Oyarzun](https://www.instagram.com/coyarzunroa/) (programador)
+- [Cristian Oyarzun](https://www.instagram.com/coyarzunroa/) (Programador)
 - [Rafael Berguña](https://www.uc.cl/universidad/premios-nacionales/rafael-benguria-donoso/) (Premio nacional de ciencias)
 - [Rodrigo Cádiz](https://musica.uc.cl/docentes/rodrigo-cadiz/) y la psicoacutica
 - [María José Contreras Lorenzini](https://www.mariajosecontreras.com/)
@@ -88,10 +88,12 @@ JLCPBC
 
 #### 2. Alan Turing
 
-Matemático, informático teórico de origen británico.
-Es uno de los precursores de las computadoras y de la informática. A temprana edad se interesó por la relación entre mente y materia, involucrandose con la física y mecánica cuántica. En la universidad "King's College Cambridge" se destacó en lógica y matemática. Más tarde (1936) hizo un doctorado en criptología en la Universidad de Princeton, ideando el funcionamiento de una máquina que pudiera resolver problemas traducido a operaciones mátemáticas y cuyo resultado constara en una serie de operaciones lógicas en código binario (si y no, 1 y 0, etc). 
+Matemático, informático teórico de origen británico. 
+Es uno de los precursores de las computadoras y de la informática. A temprana edad se interesó por la relación entre mente y materia, involucrándose con la física y mecánica cuántica. En la universidad "King's College Cambridge" se destacó en lógica y matemática. Más tarde (1936) hizo un doctorado en criptología en la Universidad de Princeton, ideando el funcionamiento de una máquina que pudiera resolver problemas traducido a operaciones matemáticas y cuyo resultado constara en una serie de operaciones lógicas en código binario (si y no, 1 y 0, etc).
 
-Uno de sus hitos más grandes sería en la Segunda Guerra Mudial, fecha en la cuál los Alemanes utilizaban la máquina "Enigma" para encriptar sus mensajes (con más de 150 billones de combinaciones posibles). A partir de ello, Turing crearía en Bletchley Park (1939) una máquina llamada "Bombe", la precursora de los computadores programables, la que se encargaba de descifrar dichos mensajes y recuperar información valiosa para adelantarse a las estrategias del enemigo. 
+Uno de sus hitos más grandes sería en la Segunda Guerra Mundial, fecha en la cual los alemanes utilizaban la máquina "Enigma" para encriptar sus mensajes (con más de 150 billones de combinaciones posibles). A partir de ello, Turing crearía en Bletchley Park (1939) una máquina llamada "Bombe", la precursora de los computadores programables, la que se encargaba de descifrar dichos mensajes y recuperar información valiosa para adelantarse a las estrategias del enemigo.
+
+Otra de sus hazañas fue ser el primer científico en cuestionarse sobre la capacidad de las máquinas para poder pensar, haciendo alusión al termino actual de “Inteligencia artificial”. Haciendo paralelismos con la biología del cerebro, se cree que este órgano funciona similar a una computadora en cuanto a la capacidad de retención y procesamiento de datos. Frente a esta situación es que surge el “Test de Turing”, un examen dedicado a analizar la capacidad de una máquina para hacerse pasar por un ser humano a través de una conversación. 
 
 *Información recuperdada de:*
 1) https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/
