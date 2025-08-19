@@ -17,6 +17,8 @@
 
 - segundo error: probé a ver qué ocurría si los valores de delay eran escritos en letras y en inglés en vez de números, para ver si también aceptaba o no valores escritos de forma no numérica
 
+![error](./imagenes/errornumero2.JPG)
+
 
 
 
