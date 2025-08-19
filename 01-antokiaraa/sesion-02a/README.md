@@ -103,4 +103,4 @@ void loop() {
 
 }
 ```
-ya está pero no me funciona en el serial monitor c:
+ya está pero no me funciona en el serial monitor c: ////// era el puerto usb, ya funcionó
