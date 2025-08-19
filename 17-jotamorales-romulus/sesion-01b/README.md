@@ -28,4 +28,29 @@ void loop() {
 ```
 ![imagen de primero error](./imagenes/error1.png)
 
+### Error 2 
 
+Modifique el codigo de efemplo de Serial.readString(), el cual lee las palabras qque se envían a través del puerto serial y los guarda como una conversación.
+```cpp
+//https://docs.arduino.cc/language-reference/en/functions/communication/serial/readString
+//Quiero crear una conversacion con distintas respuestas en el serial monitor
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.println("Enter data:");
+  while (Serial.available() == 0) {}     //wait for data available
+  String teststr = Serial.readString();  //read until timeout
+  teststr.trim();                        // remove any \r \n whitespace at the end of the String
+    if (teststr == "hola"); { 
+    Serial.println("Como estas");
+  } else if (teststr == "chau") {
+    Serial.println("hasta luego");
+  } else {
+    Serial.println("que tal");
+  }
+}
+```
+![imagen de primero error](./imagenes/error2.png)
