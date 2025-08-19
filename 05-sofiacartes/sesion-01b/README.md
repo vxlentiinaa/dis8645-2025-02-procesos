@@ -63,21 +63,8 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 - **for**: Iteración.
 - **if:** Si pasa algo funciona. Es como si tuviera mas opciones. Para hacer o no hacer cualquier código.
 - **else**:
-- **end if**:
+
   
-```cpp
-  //se itera con for
-  //se pone entre parentesis 3 cosas:
-  // 1 partida
-  // 2 término
-  // 3 actualización
-  // y entre murcielagos { } lo que quiero iterar
- 
-  for (int i = 0; i<veces; i = i +1)
-  {
-  hazEsto();
-  }
-```
 
 ## Encargo 02
 
