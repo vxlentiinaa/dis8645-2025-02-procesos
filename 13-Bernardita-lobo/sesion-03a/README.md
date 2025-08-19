@@ -1,6 +1,6 @@
 # Sesión-03a
 
-## Trabajo en clase / MMartes 19 de agosto, 2025
+## Trabajo en clase / Martes 19 de agosto, 2025
 
 ### Condicionales e Iteradores
 
