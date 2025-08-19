@@ -72,6 +72,7 @@ if (tecla == '1') {
   digitalWrite(LUZLED, LOW);
 }
 ```
+![intento de código 2](./imagenes/intentoArduinos2.png)
 ### CÓDIGO 3 
 Quería que la frase "tengo sueño" se tradujera en código morse a través de la luz led.
 No se si de verdad se traduce como debe ser en morse.
