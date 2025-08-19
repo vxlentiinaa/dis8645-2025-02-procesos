@@ -33,7 +33,7 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 
 * **Lenguaje en Arduino**
   - ( ) parentesis
-  - [ ] corchete
+  - [  ] corchete
   - { } murciélago
   - 
 
