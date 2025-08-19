@@ -53,3 +53,32 @@ noPuedoNoMas();
 ```
 - millis() cuenta el tiempo desde que se prendió el arduino.
 si crean variables con millis(), que sean declaradas con   unsigned long
+---
+```ccp
+OPERADORES LÓGICOS
+o/ or    /    no/not       /   y/ and
+La compuerta and solo es 1 cuando las dos variables estan en 1, en cualquier otro caso es 0 (&&)
+La compuerta or, si alguna de las entradas es sí, la respuesta es sí, si ambas es no la respuesta es no (||)
+La compuerta not, la respuesta a la entrada siempre va a ser contraria (!)
+El orden de los operadores lógicos no cambia el resultado (son conmutativos)
+```
+## INVESTIGAR: NAND, NOR, XOR
+
+```ccp
+Iterar
+//cuantas veces quieren repetir algo
+//se itera con for
+//se pone entre parentesis 3 cosas:
+//1 partida
+//2 termino
+//3 actualizaciones
+//y entre murcielagos {} lo que quiero iterar
+int repeticiones/veces; 
+for (parto; termino; que hago cada paso)
+{
+hazEsto();
+}
+ej:
+for (int i = 0; i < veces; i = i + 1)
+
+``` 
