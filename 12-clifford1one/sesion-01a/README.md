@@ -62,6 +62,8 @@ Investigar:
 
 ## información relevante
 
+- [ASISTENCIA Y NOTAS](https://docs.google.com/spreadsheets/d/e/2PACX-1vRnFAEnt5oLCFWewvBVA58Pi46nAygd1loPPLg1okp0Uxrve20pwYoe92ZW1s2e01EFvVJ3CpKFXwVx/pubhtml)
+
 ### equipo
 
 #### github
