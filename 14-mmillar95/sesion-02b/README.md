@@ -56,3 +56,18 @@ void loop() {
   digitalWrite(LED_BUILTIN, prender);
 
 }
+
+
+### operadores logicos 
+
+operacion que solo aparecen cuando quiero combinar es su estado logico 
+
+
+
+### Iterar 
+
+hazEsto();
+
+int veces;
+
+for(parto,termino; que hago cada paso)
