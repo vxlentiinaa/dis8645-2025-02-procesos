@@ -83,11 +83,20 @@ JLCPBC
 
 #### 1. Ada Lovelace
 
-Es considerada la primera programadora de la historia
+Matemática de nacionalidad británica. Es considerada la primera programadora de la historia, puesto que sentó la base para la creación de las computadoras.
+Desde pequeña, y gracias a su posición social, pudo acceder a una educación académica privada centrada en las matemáticas (principal área de interés de su madre), ciencias, música y en lengua francesa.
+
+Pese a su mala salud, esta no le limitó en cuanto al desarrollo de su aprendizaje y curiosidad por sus temas de interés, como las máquinas. 
+Ya de mayor puso establecer un vínculo amistoso con el matemático Charles Babbage, quien es considerado como el padre de las computadoras modernas. Este le mostró su taller a Ada, un espacio en el que se encontraba su “computadora analítica”, una máquina que permitía programarse para poder realizar cálculos matemáticos y que contaba con una unidad de procesamiento y otra para la memoria.
+
+Al hacer paralelismos con el telar de seda de Joseph Marie Jacquard, máquina que destacó en su época, pudo identificar similitudes con la computadora analítica: ambos poseían placas con perforaciones (información). Ello genero la idea de que la invención de no sólo podía ser utilizada para cálculos, sino que se podía “programar” para cumplir con otras tareas.
+Dicha información sobre estas reflexiones en torno a las posibilidades de la máquina fue publicada en una traducción al inglés de un artículo centrado en este mismo mecanismo, escrito y desarrollado por el matemático italiano Luigi Menabrea. El texto fue traducido y complementado con anotaciones de Lovelace, en conjunto con una teoría para poder hacer que la máquina pueda calcular “números de Bernoulli”, además de plantear las capacidades de que la máquina siga ordenes y permita crear cualquier contenido representado de forma simbólica, cambiando la forma de ver este tipo de maquinaria.
 
 *Información recuperdada de:*
 1) https://ebac.mx/blog/ada-lovelace
-2) 
+2) https://lemelson.mit.edu/resources/ada-lovelace
+
+- - - - - - - - - - -
 
 #### 2. Alan Turing
 
