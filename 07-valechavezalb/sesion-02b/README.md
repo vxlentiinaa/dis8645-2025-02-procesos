@@ -138,6 +138,7 @@ for (int i = 0; i < veces; i = i + 1); // se va sumando todo en un loop, cambian
 {
 hazEsto();
 }
+```
 
 ### **EJEMPLOS ARDUINO CON ITERACIONES**
 ```cpp
