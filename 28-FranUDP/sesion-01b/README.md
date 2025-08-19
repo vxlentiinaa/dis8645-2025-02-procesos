@@ -9,6 +9,8 @@ Un IDE es una aplicación que hace el desarrollo de software más eficiente, med
 
 En el caso del Arduino IDE, este programa facilita trabajar con microcontroladores varios, no solo placas arduino, al integrar un lenguaje de programación simple (C/C++), compatibilidad con múltiples chips, compatibilidad con librerías de códigos que el programa descarga directamente de github, herramientas de debug, códigos de ejemplo, etc.
 
+<br/>
+
 ### Elementos del Código
 Comentarios: <br/> 
 Texto humano dirigido al humano que está viendo el código, utilizado para explicar lo que hace cierta línea de código, cómo modificarla, entre otras cosas.
@@ -38,6 +40,8 @@ void loop () {
     linea 2;
     linea 3; // Cuando termine de correr esta línea, el código vuelva a correr desde la línea 1
 ````
+<br/>
+
 ### Comandos de arduino
 pinMode: <br/>
 determina si un pin GPIO es input o output
@@ -66,8 +70,11 @@ void loop () {
 }
 ````
 
+<br/>
+
+### Variables
 int: <br/>
-Variable, una palabra corresponde a un valor
+Una palabra corresponde a un valor entero
 ````
 int tiempoEncendido = 1000; // variable
 int tiempoApagado = 5000; // variable
@@ -80,7 +87,41 @@ void loop () {
 }
 ````
 
+float: <br/>
+Una palabra corresponde a un número con decimal
+````
+float numeroDecimal = 6.9;
+````
 
+bool: <br/>
+
+
+char: <br/>
+Una palabra corresponde a un caracter (character)
+````
+char palabra = 'A';
+````
+
+String: <br/>
+Una palabra corresponde a lo que esté dentro de las comillas
+````
+String palabra = "Lorem ipsum dolor sit amet (...)"
+````
+
+<br/>
+
+### Comunicación serial
+El arduino (o nuestro microcontrolador de preferencia) se comunica con nuestro pc a travez del cable USB, esto nos permite ver los valores que lee de un sensor, hacer debugging, darle instrucciones, etc
+````
+void setup () {
+// iniciar comunicación serial (ritmo/velocidad de la comunicación [baud rate])
+Serial.begin (9600);
+}
+
+void loop () {
+    Serial.print(mensaje que se enviará al monitor serial);
+}
+````
 
 
 ### Other things: <!-- Things to organize + random stuff -->
