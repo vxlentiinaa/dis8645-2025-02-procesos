@@ -16,13 +16,18 @@
 
 - [Serial.println](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println)
 
+- [map( )](https://docs.arduino.cc/language-reference/en/functions/math/map)
+
+- [analogWrite( )](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite)
+
 ## Arduino IDE
 
 códigos de color
 
 - rojo/naranjo: identifica funciones
 
-ejemplo: 
+ejemplo:
+
 - void loop(){}
 - digitalWrite();
 
@@ -127,7 +132,6 @@ void confeti(){
 }
 ```
 
-
 ## personas
 
 - [Constanza Gaggero:](https://www.instagram.com/gaggeroworks/?hl=en) diseñadora gráfica profe FaAAD
@@ -154,6 +158,194 @@ void confeti(){
 
 - [Décimas - Violeta Parra](https://web.uchile.cl/publicaciones/cyber/13/tx7.html)
 
-#### encargo
+## encargo
 
 Documentar mínimo 3 códigos probados en el arduino que no funcionaron.
+
+### experimento-01
+
+Mi objetivo es utilizar el input del usuario. Escribir en el puerto serial produce cierto output.
+
+para esto hay que entender [Serial.read( )](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println/).
+
+con este código, al escribir en el puerto serial, devuelve números enteros de 1-3 dígitos. Los cuales provienen de [ASCII(American Standard Code for Iformation Interchange)](https://www.ascii-code.com). ASCII es un método de codificación de carácteres.
+
+- [tabla de conversión ASCII](https://elcodigoascii.com.ar/#google_vignette)
+
+## Serial.println( )
+
+[Serial.println( )](https://docs.arduino.cc/language-reference/en/functions/communication/serial/println/?_gl=1*eskx99*_up*MQ..*_ga*MTk4NjE4Njc5MC4xNzU0ODQyNjQ5*_ga_NEXN8H46L5*czE3NTQ4NDI2NDckbzEkZzEkdDE3NTQ4NDI3NzckajYwJGwwJGgxMjQ5NDI2NDI.) escribe en la consola, y pide 2 variables:
+
+Serial.println(valor/variable, formato);
+
+formatos permitidos:
+
+- DEC: decimal
+- HEX: hexadecimal
+- OCT: octal
+- BIN: binario
+
+| N° | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|:---:|---|:---:|:---:|:---:|---|---|---|---|---|---|
+| ASCII | 48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 |
+
+sabiendo esto, puedo escribir un código en el que, dependiendo del caracter que envíe el usuario, el arduino haga cierta tarea.
+
+por ejemplo, con los números del teclado controlar durante cuántos segundos se enciende el LED del arduino.
+
+```cpp
+int datoRecibido = 0;  // for incoming serial data
+
+void setup() {
+  Serial.begin(9600);  // opens serial port, sets data rate to 9600 bps
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  // send data only when you receive data:
+  if (Serial.available() > 0) {
+    // read the incoming byte:
+    datoRecibido = Serial.read();
+
+    //tecla '1' = 1 segundo, tecla '2' = 2 segundos, etc.
+    if (datoRecibido == 49) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(1000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 50) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(2000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 51) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(3000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 52) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(4000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 53) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(5000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 54) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(6000);
+      digitalWrite(LED_BUILTIN, LOW);
+    }else if (datoRecibido == 55) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(7000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 56) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(8000);
+      digitalWrite(LED_BUILTIN, LOW);
+    } else if (datoRecibido == 57) {
+      digitalWrite(LED_BUILTIN, HIGH);
+      delay(9000);
+      digitalWrite(LED_BUILTIN, LOW);
+    }
+  }
+}
+```
+
+### experimento-02
+
+usando la misma lógica de código ASCII, escribí un código, que controla la intensidad del LED con las teclas numéricas.
+
+```cpp
+int datoRecibido = 0;  // for incoming serial data
+
+void setup() {
+  Serial.begin(9600);  // opens serial port, sets data rate to 9600 bps
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  // send data only when you receive data:
+  if (Serial.available() > 0) {
+    // read the incoming byte:
+    datoRecibido = Serial.read();
+
+    // say what you got:
+    //Serial.print("I received: ");
+    //Serial.println(datoRecibido, DEC);
+
+    //map(datoRecibido, 0, 1023, 1, 10);
+
+    if (datoRecibido == 49) {
+      analogWrite(LED_BUILTIN, 25);
+    } else if (datoRecibido == 50) {
+      analogWrite(LED_BUILTIN, 50);
+    } else if (datoRecibido == 51) {
+      analogWrite(LED_BUILTIN, 75);
+    } else if (datoRecibido == 52) {
+      analogWrite(LED_BUILTIN, 100);
+    } else if (datoRecibido == 53) {
+      analogWrite(LED_BUILTIN, 125);
+    } else if (datoRecibido == 54) {
+      analogWrite(LED_BUILTIN, 150);
+    } else if (datoRecibido == 55) {
+      analogWrite(LED_BUILTIN, 175);
+    }else if (datoRecibido== 56){
+      analogWrite(LED_BUILTIN, 200);
+    }else if (datoRecibido== 57){
+      analogWrite(LED_BUILTIN, 225);
+    }else if (datoRecibido== 48){
+      analogWrite(LED_BUILTIN, 255);
+    }
+  }
+}
+```
+
+#### error en experimento-02
+
+intenté usar la función [map( )](https://docs.arduino.cc/language-reference/en/functions/math/map) para reasignar la cantidad de valores análogos predeterminados, que son 1024(del 0 al 1023). Esto debido a que es el valor máximo almacenable en 10 bits (2^10). No funcionó
+
+### experimento-03
+
+```cpp
+String datoRecibido;
+String menuStart1;
+String menuStart2;
+
+void setup() {
+  datoRecibido = "hola mundo lindo";
+  menuStart2 = "❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀";
+  menuStart1 = "❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾LE RECORDAMOS QUE:⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀⑅*⳾⳾*⑅*❀⑅*❀⑅*❀⑅*❀⑅*❀";
+
+  Serial.begin(9600);  // opens serial port, sets data rate to 9600 bps
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+
+  // send data only when you receive data:
+  if (Serial.available() > 0) {
+    // read the incoming byte:
+    datoRecibido = Serial.readString();
+
+    // say what you got:
+    //Serial.print("I received: ");
+    //Serial.println(datoRecibido, DEC);
+
+    //map(datoRecibido, 0, 1023, 1, 10);
+
+    Serial.print(menuStart2 + "\n");
+    Serial.print(menuStart1 + "\n");
+    Serial.print(menuStart2 + "\n");
+    Serial.print(datoRecibido);
+  }
+}
+```
+
+mi idea era hacer un "recordador", en referencia a lo poco que se demora en en devolver el texto escrito en el moitor serial.
+
+este es el error que me tira:
+
+```cpp
+// Failed to retrieve language identifiers
+// Failed to retrieve language identifiers
+// error get_status: LIBUSB_ERROR_TIMEOUT
+// Failed uploading: uploading error: exit status 74
+```

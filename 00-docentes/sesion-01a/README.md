@@ -133,11 +133,29 @@ ayudante del curso.
 
 educación:
 
-2020-2025: diseño, Universidad Diego Portales
+* 2020-2025: Diseño mención Industrial, Universidad Diego Portales.
+* 2023: Diploma de Honor en Movilidad y Ciudad: Políticas de Transporte y Desarrollo Urbano.
+
+ayudantías:
+
+* Ayudante DIS8645 taller de diseño de máquinas computacionales
+  * primer semestre 2025.
+* Ayudante DIS9034 programación creativa multimedia, Universidad Diego Portales.
+  * primer semestre 2024.
+* Ayudante DIS145 diseño y construcción de interfaces, Universidad Adolfo Ibáñez
+  * primer semestre 2024
+* Workshop Diplomado UX/UI, Universidad Diego Portales.
+  * Primer semestre 2023.
+* Workshop Componentes en Figma Diplomado UX/UI, Universidad Diego Portales.
+  * Segundo semestre 2023.
+* Ayudante Talleres Momentos p5.js, Universidad Diego Portales.
+  * Segundo semestre 2023.
+* Docente responsable Talleres Momentos Figma, Universidad Diego Portales.
+  * Segundo semestre 2023.
 
 enlaces:
 
-TODOJANIS
+* <https://github.com/janisepulveda>
 
 ### mateo arce
 
@@ -163,7 +181,35 @@ en 2025 el profesor sergio majluf se incorpora al equipo de seminario y título 
 
 este taller de diseño de máquinas electrónicas está enmarcado actualmente en el ciclo de talleres ofrecidos por la escuela de diseño UDP para estudiantes de tercer y cuarto año.
 
-## referentes vistos en clase
+## horario durante el semestre
+
+```cpp
+if (dia == martes || dia == viernes)
+{
+  if (hora in 8:30 - 9:00) {
+    ordenar();
+  }
+  else if (hora in 9:00 - 10:30) {
+    trabajar();
+  }
+  else if (hora in 10:30 - 11:00) {
+    descansar();
+  }
+  else if (hora in 11:00 - 12:30) {
+    trabajar();
+  }
+  else if (hora in 12:30 - 12:50) {
+    ordenar();
+}
+```
+
+inspirado en apuntes de felix-rg416.
+
+## microcontrolador
+
+en este curso usaremos Arduino Uno R4 Minima.
+
+## referentes vistos en clases
 
 * <https://itp.nyu.edu/physcomp/syllabus-fall-2025/>
 * <https://marhicks.com/>
@@ -188,3 +234,4 @@ este taller de diseño de máquinas electrónicas está enmarcado actualmente en
 * <https://www.media.mit.edu/>
 * <https://tisch.nyu.edu/itp>
 * <https://www.mariajosecontreras.com/>
+* <https://mermaid-js.github.io/>
