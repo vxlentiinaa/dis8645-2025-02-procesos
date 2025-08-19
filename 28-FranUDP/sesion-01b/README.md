@@ -5,7 +5,7 @@
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
 ### [Arduino IDE (Integrated Development Environment)](https://aws.amazon.com/what-is/ide/)
-<img align="left" src="./imagenes/arduinoLogo.png" width=160> 
+<img align="left" src="./imagenes/arduinoLogo.png" width=200> 
 Un IDE (Entorno de Desarrollo Integrado) es una aplicación que hace el desarrollo de software más eficiente, al integrar funciones como edición de código, compilación, pruebas y empaquetado en un único entorno.
 
 En el caso del Arduino IDE, este programa facilita el trabajo con varios microcontroladores, no solo con placas Arduino, al integrar un lenguaje de programación simple (basado en ${\color{lightblue}C/C++}$), compatibilidad con múltiples chips, un gestor de librerías que se conectan directamente con repositorios como GitHub, herramientas de depuración, códigos de ejemplo, etc.
