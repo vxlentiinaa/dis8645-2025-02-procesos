@@ -18,9 +18,8 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 * Fundamentos de programación en C++
 * Programación orientada a objetos
 * Programación de microcontroladores Arduino
-* Programación de microcontroladores Raspberry Pi Pico
 * Documentación de código con MarkDown y Github
-* Desarrollo y publicación de bibliotecas de código
+* Uso de sensores y actuadores con microcontroladores
 
 ### Unidad 2: diseño de hardware para microcontroladores
 
@@ -35,6 +34,8 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 * Diseño de carcasas para máquinas computacionales
 * Diseño de productos computacionales
 * Diseño de interfaces humano computador
+* Programación de microcontroladores Raspberry Pi Pico
+* Desarrollo y publicación de bibliotecas de código
 
 ## Calendario detallado
 
@@ -60,7 +61,7 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 | [09a](./00-docentes/sesion-09a/) | 10-07 mar   |                                 |
 | [09b](./00-docentes/sesion-09b/) | 10-10 vier  |                                 |
 | [10a](./00-docentes/sesion-10a/) | 10-14 mar   |                                 |
-| [10b](./00-docentes/sesion-10b/) | 10-17 vier  |                                 |
+| [10b](./00-docentes/sesion-10b/) | 10-17 vier  | entrega de proyecto-02          |
 | [11a](./00-docentes/sesion-11a/) | 10-21 mar   | / solemnes 2, no hay ev. taller |
 | [11b](./00-docentes/sesion-11b/) | 10-24 vier  | / solemnes 2, no hay ev. taller |
 | [12a](./00-docentes/sesion-12a/) | 10-28 mar   |                                 |
