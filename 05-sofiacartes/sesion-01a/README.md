@@ -1,3 +1,3 @@
 # sesion-01a
 
-![prueba cara](./archivos/IMG_3384.JPG)
+![prueba cara](./archivos/imagenes/IMG_3384.JPG)
