@@ -19,17 +19,15 @@ Para poder complementar la información de la clase estaré observando algunas d
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
-
-
 ***
 
 ### Visita a la sala: [Sokio](https://sokio.studio/)
 
 Mauricio Díaz Gallardo
 
-**Redes de contacto**
+Redes de contacto
 
-- https://pueblonuevo.cl/bios/sokio/
+- <https://pueblonuevo.cl/bios/sokio/>
 
 ***
 
