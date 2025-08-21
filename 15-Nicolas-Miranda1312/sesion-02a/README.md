@@ -23,13 +23,13 @@
 <https://pueblonuevo.cl>
 <https://newlatinwave.com>
 
-
 ---
 
 ## Gordon Matta-Clark (Artista)
 
 - Su obra se caracteriza por cortes y vacíos en muros y estructuras, creando efectos casi caleidoscópicos.  
 <https://www.archdaily.cl/cl/768903/en-perspectiva-gordon-matta-clark>
+
 ---
 
 ## Ejercicios de encargo
@@ -67,6 +67,7 @@ void loop() {
 
 }
 ```
+
 **La solución corregida.**
 Se reemplazó / por m y se corrigieron los espacios
 
@@ -99,13 +100,16 @@ void loop() {
 
 }
 ```
+
 ### Ejercicio 2
-**Bucle ascendente y descendente**
+
+Bucle ascendente y descendente
 
 Este ejercicio imprime en el monitor serial una onda de `m` que va creciendo hasta un máximo y luego decreciendo hasta 1.
 <https://docs.arduino.cc/language-reference/en/structure/control-structure/for>
 
-**codigo error**
+codigo error
+
 ```cpp
 // Ejercicio 1 - Onda en el bucle
 
@@ -137,8 +141,10 @@ Serial.println();
 delay(300);
 }
 ```
+
 **La solución corregida.**
 condición equivocada
+
 - `>=` estaba al revés, debía ser `<=`.
 - `j > i` estaba al revés, debía ser `j < i`.
 
@@ -173,5 +179,3 @@ Serial.println();
 delay(300);
 }
 ```
-
-
