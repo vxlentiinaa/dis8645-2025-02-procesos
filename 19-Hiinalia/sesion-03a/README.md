@@ -1,6 +1,6 @@
 # sesion-03a
 
-*19 Agosto 2025*
+19 Agosto 2025
 
 Presentación de proyecto 1
 
@@ -11,7 +11,7 @@ Presentación de proyecto 1
 ```If (condición booleana) Then (consiguiente)```
 
 ```Else (alternativa)```
-``` End if (alternativa)```
+```End if (alternativa)```
 
 si se cumple la condición, entonces se cumple el “then”
 también existe el else, para otra alternativa en el caso de que no se cumpla el if.
@@ -24,7 +24,6 @@ Existen diagramas de flujo que representan estas condicionales.
 
 Mapa de flujo condicionales <https://en.wikipedia.org/wiki/Conditional_(computer_programming)#/media/File:IF-THEN-ELSE-END_flowchart.svg>
 
-
 Ejemplo:
 
 if (estaLloviendo == true) {
@@ -34,13 +33,13 @@ else {
 salirAAndarEnBici();
 }
 
-
 Con 2 iguales == es para comparar. Se dice si o no.
 
 Se puede tambien escribir una condicion dentro de otra
 
 Ejemplo:
-```
+
+```cpp
 if (ver == false) {
 ponermeLentes();
 
@@ -56,15 +55,13 @@ Operadores lógicos <https://learn.microsoft.com/es-es/dotnet/csharp/language-re
 <https://www.freecodecamp.org/espanol/news/operador-c-operadores-logicos-de-programacion-en-c/#:~:text=¿Cuál%20es%20el%20papel%20de,uno%20en%20las%20siguientes%20secciones.>
 
 ### ¿Cuál es el papel de los Operadores Lógicos en la Programación en C?
+
 <https://www.freecodecamp.org/espanol/news/operador-c-operadores-logicos-de-programacion-en-c/#:~:text=¿Cuál%20es%20el%20papel%20de,uno%20en%20las%20siguientes%20secciones.>
 Los operadores lógicos se utilizan comúnmente en declaraciones condicionales (como las declaraciones if..else), ya que ayudan en la toma de decisiones: determinan qué acción debe tener lugar y qué código debe ejecutarse a continuación según las condiciones que establezcas.
 Combina los operadores lógicos con una o múltiples condiciones para crear una expresión lógica.
 Los operadores lógicos evalúan la expresión lógica y devuelven un resultado.
 El resultado siempre es un valor booleano. Un valor booleano determina si la expresión es verdadera true o falsa false.
 Hay tres operadores lógicos en la programación en C: el AND lógico (&&), el OR lógico (||) y el NOT lógico (!).
-
-
-
 
 ```
 //si no hay arana
@@ -93,9 +90,7 @@ else {
 }
 ```
 
-
 bool: puede ser 0 o 1, verdadero o falso
-
 
 **ejemplo ordinario**
 // variable booleana
@@ -123,17 +118,14 @@ void loop() {
   prender = true;
   digitalWrite(LED_BUILTIN, prender);
   
-
-
 }
-
 
 millis() cuenta el tiempo desde que se prendió el arduino. no es infinito<https://docs.arduino.cc/language-reference/en/functions/time/millis/>
 
 no se trabaja con int cuando se usa millis porque no cabe el número. se utiliza ```unsigned long```
 
-
 **codigo que usamos con if**
+
 ```
 // variable booleana
 // la inicializamos falsa
@@ -177,6 +169,7 @@ void loop() {
 int es para uso de números cotidianamente. se utiliza long para usar números más grandes.
 
 **con la maña de misa de usar la variable segundos y hacerse cargo muy responsablemente de usar unsigned long**
+
 ```
 // variable booleana
 // la inicializamos falsa
@@ -226,62 +219,55 @@ Siempre utilizar la documentación oficial.
 <https://docs.arduino.cc/programming/>
 <https://docs.arduino.cc/language-reference/>
 
-
-
 ## Operadores Lógicos
 
 tabla de simbolos de operadores lógicos <https://panamahitek.com/wp-content/uploads/2014/02/compuertas-logicas.png>
 
-
 Existen 3 operadores lógicos.
 
-y/and	o/or	no/not
+y/and o/or no/not
 
 and &
 or ||
 not !
-
 
 Cuando hay varias condiciones que se deben cumplir al mismo tiempo y no funciona si uno no se cumple, están bajo el operador lógico de ```and```.
 
 Se simboliza como la cabecita del android dentro del mapa de flujo.
 
 **tablita de ejemplo para entender el and
-A	B		Out
-0	0		0
-0	1		0
-1	0		0
-1	1		1**
+A B  Out
+0 0  0
+0 1  0
+1 0  0
+1 1  1**
 
 Para or, si alguna de las condiciones se cumple, si funciona, ya que es uno o lo otro. Tambien va a funcionar si es que los dos se cumplen.
 
 **tablita de ejemplo para entender el or
 
-A	B		Out
-0	0		0
-0	1		1
-1	0		1
-1	1		1
-
+A B  Out
+0 0  0
+0 1  1
+1 0  1
+1 1  1
 
 Not se utiliza para cambiar la lógica. Es una manera de hacer lo contrario. A veces va a haber que negar algunas condiciones. Not básicamente es una contradicción.
 
 **tablita de ejemplo para entender el not
 
-A	 Out
-0	1
-1	0
+A  Out
+0 1
+1 0
 **
 
 ## Investigar
+
 Nand
 Nor
 Xor
 
-
 Hay que evitar que se repita demasiado un codigo. Lo mejor es establecer que quiero que haga y cuantas veces quiero que lo haga.
-
-
 
 ```
 //iterar
@@ -308,11 +294,10 @@ i < veces significa que “si esto es verdad, entonces vuelvo a hacerlo”
 
 Se puede utilizar la j para hacer otra iteración.
 
-
-
 Serial.println() sirve para hacer enter.
 
 **ejemplo iteradores mi primer for**
+
 ```
 int numEstudiantes = 29;
 
@@ -336,6 +321,7 @@ void loop() {
 ```
 
 **iteradores con if y !=**
+
 ```
 int numEstudiantes = 29;
 
@@ -373,6 +359,7 @@ void loop() {
 ```
 
 **test de division**
+
 ```
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -448,9 +435,8 @@ __
 El 1 sería lo que sobra dentro de la division que le hicimos al 7.
 El resultado que no es modulo es la division de enteros.
 
-
-
 **detectar si un numero es par o impar con %**
+
 ```
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -490,6 +476,7 @@ void loop() {
 ```
 
 **hacer que el led interno se apague en los segundos pares y se prenda en los segundos impares**
+
 ```
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -530,9 +517,7 @@ void loop() {
 }
 ```
 
-
 Finalmente, este codigo no alcanzamos a terminarlo en clases y no funcionó con lo que teniamos. De todas maneras, es importante fallar y arreglar para poder aprender.
-
 
 De martes a viernes: Repasar if, else, for, and, or, not
 hacer cositas con esto
