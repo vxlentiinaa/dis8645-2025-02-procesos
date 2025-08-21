@@ -35,4 +35,4 @@
   
   Cosas que sé y me gusta realizar: Modelado 3D, Fabricación Digital y Diseño de mobiliario. 
 
-  ![imagen de prueba jiji](C:\Users\millaray\Downloads\png-transparent-love-black-and-white-rubber-stamp-postmark-postage-stamps-printing-line-art-natural-rubber-text-thumbnail.png)
+
