@@ -2,7 +2,7 @@
 
 * transferir $5.000 a Aarón
 
-### proyecto 01
+## proyecto 01
 
 trabajo grupal 3-4 personas
 
@@ -10,9 +10,9 @@ código, fundamentos, procesos
 
 ## apuntes clase
 
-condicionales (if) 
+condicionales (if)
 
-if (una condición) then (haz estas cosas) 
+if (una condición) then (haz estas cosas)
 
 ### ejemplo 1
 
@@ -24,7 +24,7 @@ hacer sopaipillas();
 
 else {
 
-salir a andar en bici(); 
+salir a andar en bici();
 
 ### ejemplo 2
 
@@ -72,7 +72,7 @@ dartePermisoConducir();
 
 else{
 
-// no puedo no mas 
+// no puedo no mas
 
 ### ejemplo 6
 
@@ -90,7 +90,7 @@ continuamosTransmisionesNormales();
 
 ## vuelta de break 11 AM
 
-### operadores lógicos 
+### operadores lógicos
 
 y / AND / &&, o / OR / ||, no / NOT / !
 
@@ -100,12 +100,11 @@ tablas de verdad
 
 * investigar NAND, NOR y XOR
 
-
 ## iterar
 
 int veces;
 
-for (parto; termino; que hago cada paso) 
+for (parto; termino; que hago cada paso)
 {
 
 hazEsto();
@@ -135,10 +134,3 @@ for(int i=0; domingo; dia = dia + 1)
 hazEsto();
 
 }
-
-
-
-
-
-
-
