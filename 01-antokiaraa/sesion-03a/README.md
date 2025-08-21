@@ -1,5 +1,7 @@
 # sesion-03a
+
 ## anotaciones: condicionales, iteradores, Serial.read(), protoboard
+
 ```ccp
 If (Boolean condition) Then
    (consequent)
@@ -7,7 +9,9 @@ Else
    (alternative)
 End If
 ```
-// diagramas de flujo 
+
+// diagramas de flujo
+
 ```cpp
 If (estaLloviendo == true) {
   hacer sopaipillas();
@@ -28,14 +32,18 @@ else {
 noPuedoNoMas();
 }
 ```
+
 ## OPERADORES LÓGICOS
+
 ```ccp
 y / and  -  o / or  -  no / not
 la compuerta "and" solo es 1 si ambas variables son 1, en cualquier otro caso es 0 (&&)
 la compuerta "or" si alguna de las entradas es si; la respuesta es si. si ambas es no, la respuesta es no (independiente) (||)
 la compuerta "not" lo que sea que haga la entrada, la salida hace lo contrario
 ```
-#### INVESTIGAR "NAND" "NOR" "XOR"
+
+## INVESTIGAR "NAND" "NOR" "XOR"
+
 ```ccp
 iterar
 int veces;
@@ -52,7 +60,9 @@ hazEsto();
 for (lunes; domingo; dia = dia +1)
 for (int i = 0; i < veces; i = i + 1)
 ```
+
 ## prueba ejemplo en arduino
+
 ```ccp
 int numEstudiantes = 29;
 
@@ -74,5 +84,5 @@ void loop() {
 
 }
 ```
-### repasar if, else, for, int
 
+### repasar if, else, for, int
