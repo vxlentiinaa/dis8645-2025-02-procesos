@@ -1,14 +1,17 @@
 # sesion-02a
+
 martes 12 de agosto
 
 - el serial.begin(9600);
-    - el 9600 signicifa **BAUDIOS**
-        - **BAUD RATE** --> velocidad de comunicación
-        - *"Uno le dice al arduino 'te voy a hablar a 9600'"* ~Misa
+  - el 9600 signicifa **BAUDIOS**
+    - **BAUD RATE** --> velocidad de comunicación
+    - *"Uno le dice al arduino 'te voy a hablar a 9600'"* ~Misa
 - El monitor serial es un ojo "el begin le dice -'ábrete', +'cuándo', -'a 9600' +'ya'" ~Aarón
+>
 > - U --> universal = estándar - *"funciona pa mi y pa Marte"* ~Misa
 > - S --> Serial = *"Te voy a decir datos, unos tras otro"* ~Aarón - Tiene ritmo
 > - B --> Bus = transporte
+>
 - Presencia visual - fenómeno que te hace pensar que la luz está encendida constantemente, pero en realidad está parpadeando
 - <https://untref.edu.ar/> pregrado y postgrado de arte electrónico - Jazmin Adler - Valentina Montero
 - .xyz dominio barato - [dominios](https://domains.squarespace.com/domain-search?channel=pbr&subchannel=go&campaign=pbr-go-row_other-en-core_category-e&subcampaign=(domains-en_squarespace-domains_e)&gad_campaignid=19107610987)
@@ -17,14 +20,14 @@ martes 12 de agosto
 - Digital Being - Nicholas Negroponte "un señor que estudió en suiza y piensa que es clase media" ~Aarón
 - Yuk Hui
 - <http://cajanegraeditora.com.ar/> editorial que traduce libros muy bacanes
-    - Realismo especulativo
-    - Incierto y sinuoso
+  - Realismo especulativo
+  - Incierto y sinuoso
 
 -----
 
 - <https://stackoverflow.com/questions> "tuve un atao, ayúdenme" ~Aarón
-    - problemas y soluciones con arduino
-    - Siempre hay que citarlo
+  - problemas y soluciones con arduino
+  - Siempre hay que citarlo
 
 ## GitHub
 
@@ -46,16 +49,16 @@ Para Arduino es importante tener una carpeta con el mismo nombre del archivo. Se
 
 - Sampler
 - <https://teenage.engineering/> sintetizadores portátiles
-    - Diseño industrial
-    - Diseño gráfico
-    - Diseño de usuario
+  - Diseño industrial
+  - Diseño gráfico
+  - Diseño de usuario
 - <https://www.gatech.edu/> "Si quieren hacecr un sintetizador, postulen a esto" ~Aarón
 - <https://www.nationalsawdust.org/>
 - Gordon Matta-Clark
-     - Anarquitecto
+  - Anarquitecto
 - Juan Downey
-    - Artista visual
-- https://github.com/misaaaaaa/strangeTrigger
+  - Artista visual
+- <https://github.com/misaaaaaa/strangeTrigger>
 - caja hammond
 - <https://andycavatorta.com/>
 - <https://cdm.link/>
