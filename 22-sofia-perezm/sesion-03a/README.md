@@ -11,7 +11,7 @@ IMPORTANTE:
 - originalidad con el ponteciometro para controlar la pantalla
 
 ## condicionales 
-![condicionales](sesion-03a/imagenes/condicionales-if.svg)
+![condicionales](./imagenes/condicionales-if.svg)
 
 if --> es una condicion y tendrá una consecuente, sirve para hacer o no un codigo y se puede expandir con nomenclatura 
 
