@@ -3,6 +3,7 @@
 # Clase 4
 
 ## Proyecto N°1
+
 - usar potenciómetro para controlar pantalla.
 - navegadores de poemas. (INGENIO).
 - entrega a fines de agosto.
@@ -10,34 +11,39 @@
 - proceso obligatorio.
 
 ## CONDICIONALES E ITERADORES
+
 - condición booleana.
 - para que una condición pase debe tener un **if**
 - condición **binaria** o **bifurcación**.
 - todo lo que se condensa en {} es *sí* o *no*.
 
-##### **TABLA DE VERDAD**
-hay dos variables y un resultado, 
+### TABLA DE VERDAD
+
+hay dos variables y un resultado,
+
 - cuando las dos son verdad, son verdad.
 - cuando hay una verdadera y la otra falsa, es falso.
 
 **DOCUMENTACIÓN DE ARDUINO**
 [https://docs.arduino.cc/language-reference]
 
- ### **operadores lógicos** 
+### **operadores lógicos**
+
  Se usan para combinar o modificar condiciones, dando como resultado *true* or *false*
 
  **AND (&&)**
  Se deben cumplir todas las condiciones para que ocurra algo.
- 
+
  **OR (||)**
  Al menos una condición debe cumplirse para que ocurra algo.
- - si alguna de las entradas es sí, es verdadero.
+
+- si alguna de las entradas es sí, es verdadero.
 
  **NOT (!)**
  Invierte el resultado lógico.
- - Lo que sea que se haga, se hace lo contrario.
- - queremos detectar la ausencia de esa variable.
- 
+
+- Lo que sea que se haga, se hace lo contrario.
+- queremos detectar la ausencia de esa variable.
 
 ```cpp
   **If** (boolean condition) **Then**
@@ -54,8 +60,9 @@ if (condición) {
     // Acción cuando es falso
 }
 ```
-  - si esto es verdad, esto pasa. Y si es falso, esto pasa.
-  - Una cosa es la condición (va entre paréntesis) y se cumplirán ciertas condiciones para que pase algo.
+
+- si esto es verdad, esto pasa. Y si es falso, esto pasa.
+- Una cosa es la condición (va entre paréntesis) y se cumplirán ciertas condiciones para que pase algo.
 
 ### Ejemplos... (para cualquier lenguaje de programción)
 
@@ -86,7 +93,8 @@ else{
 }
 ```
 
-### EJEMPLOS CLASE CON ARDUINO Y CONDICIONALES 
+### EJEMPLOS CLASE CON ARDUINO Y CONDICIONALES
+
 ```cpp
 //variable booleana
 // la inicializamos falsa
@@ -123,6 +131,7 @@ void loop() {
 ```
 
 ### **ITERACIONES**
+
 Es cuantas veces se repite algo pero no en un loop, ejemplo, todos los días son iguales, pero dentro del día cambian las cosas que voy haciendo.
 
 ```cpp
@@ -141,6 +150,7 @@ hazEsto();
 ```
 
 ### **EJEMPLOS ARDUINO CON ITERACIONES**
+
 ```cpp
 int numEstudiantes = 29;
 
@@ -161,6 +171,7 @@ void loop() {
 ```
 
 ### SEGUNDO EJEMPLO | iteradores con con if y !=
+
 ```cpp
 int numEstudiantes = 29;
 
@@ -226,6 +237,7 @@ Serial.println (segundos);
 ```
 
 ### TEST DE DIVION CON ARDUINO
+
 ```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -252,8 +264,10 @@ void loop() {
 }
 ```
 
-### MÓDULO CON ARDUINO 
+### MÓDULO CON ARDUINO
+
 %: devuelve el resto de la división cuando se dividen numero enteros.
+
 ```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -291,6 +305,7 @@ void loop() {
 ```
 
 ### DETECTAR SI UN NUMERO ES PAR O IMPAR CON %
+
 ```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -326,6 +341,7 @@ void loop() {
   delay(500);
 }
 ```
+
 ### HACER QUE EL LED INTERNO DEL ARDUINO SE APAGUE EN LOS SEGUNDOS PARES Y SE PRENDA EN LOS SEGUNDOS IMPARES
 
 ```cpp
@@ -369,6 +385,7 @@ void loop() {
 ```
 
 ### EJEMPLO QUE NO FUNCIONÓ
+
 ```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
@@ -398,8 +415,8 @@ void loop() {
 }
 ```
 
+# Apuntes extra
 
-# Apuntes extra 
 - millis() cuenta el tiempo desde que se encendió el arduino.
 - lo primero que hay que hacer es un *Pseudocódigo*, es decir, qué es lo que va a pasar paso a paso, explicando cada variable, que pasa si esto pasa? y si esto no pasa? **CLARIDAD SIEMPRE**
 - Semiótica: el estudio de los signos.
@@ -409,7 +426,3 @@ void loop() {
 - %: significa, réstalo pero no me des el resultado con el resto.
 - usar codigos ya hechos para complementar y llegar a mejores resultados.
   
-
-
-
- 
