@@ -29,8 +29,6 @@
 *Operación que ocurre un cambio mediante el tiempo.*
 
 *El tiempo rs el sustrato de la energía.*
-  
-**ZKM:**
 
 **HCI:** Interfaz Humano Computador.
 
