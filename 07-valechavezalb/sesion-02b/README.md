@@ -415,7 +415,7 @@ void loop() {
 }
 ```
 
-# Apuntes extra
+## Apuntes extra
 
 - millis() cuenta el tiempo desde que se encendió el arduino.
 - lo primero que hay que hacer es un *Pseudocódigo*, es decir, qué es lo que va a pasar paso a paso, explicando cada variable, que pasa si esto pasa? y si esto no pasa? **CLARIDAD SIEMPRE**
