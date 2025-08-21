@@ -2,7 +2,7 @@
 
 ## Condicionales
 
-```
+```cpp
 if (Boolean condition) Then
     (consequent)
 
@@ -40,7 +40,7 @@ continuamosTransmicionesNormales
 
 ### ejemplo Aaron
 
-```
+```cpp
 // variable booleana
 // la inicializamos falsa
 bool prender = false;
