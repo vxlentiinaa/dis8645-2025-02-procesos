@@ -66,7 +66,7 @@ else {
 | `\|\|`     | OR     | Verdadero si **al menos una** condición es verdadera |
 | `!`      | NOT    | Invierte el valor lógico (`true → false`, `false → true`) |
 
-### Ejemplo
+### Ejemplo teletón
 
 ```cpp
 if (diciembre && donFrancisco == true && !godzilla && !elecciones) {
