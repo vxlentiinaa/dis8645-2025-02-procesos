@@ -74,7 +74,9 @@ Continuando con el análisis se pueden encontrar funciones tales como:
 
 - digitalWrite(número del pin [valor], currentState[HIGH O LOW]); (4)
 
-- currentState[currentHighLed]   = LOW;
+- currentState[currentHighLed]  = LOW; (línea usada para identificar en qué estado se encuentra el led)
+
+-  if es una condición que se cumple solo si existen requisitos previamente declarados (5)
   
 Links de consulta: [1. Aprender a programar](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=899:tipos-de-datos-en-c-declarar-variables-enteras-int-long-o-decimal-float-double-char-inicializacion-cu00510f&catid=82&Itemid=210)
 
@@ -84,13 +86,59 @@ Links de consulta: [1. Aprender a programar](https://www.aprenderaprogramar.com/
 
 [4. Programar fácil](https://programarfacil.com/blog/arduino-blog/pines-digitales-de-arduino/)
 
+[5. Programar fácil](https://programarfacil.com/blog/arduino-blog/if-else-arduino/)
+
+Tras haber entendido de forma superficial la información entregada previamente, pues me dispuse a modificar los valores mostrados, dado que el circuito con el que trabajé usaba 3 leds en lugar de 5, debiendo alterar las variables del inicio y sus aplicaciones. Esto fue un proceso de prueba y error, en el que dependía de observar los cambios aplicandolos directamente al arduino y al circuito en cuestión. Ello me dio a entender de mejor manera el cómo funciona la estructura del código, los valores y como ello se traduce en el circuito. Errores comunes: la luz verde brila menos (se cambió por una blanca), sólo se encienden 2 luces.
+
+El código final quedó así.
+
+```cpp
+
+int ledCount = 3;
+int leds[] = {11, 10, 9};
+int currentState[]   = {HIGH, LOW, LOW};
+int currentHighLed = 0;
+
+void setup() {
+for   (int i = 0; i < ledCount; i++) {
+pinMode(leds[i], OUTPUT);
+}
+}
+
+void   loop() {
+
+for (int i = 0; i < ledCount; i++) {
+digitalWrite(leds[i], currentState[i]);
+}
+currentState[currentHighLed]   = LOW;
+currentHighLed++;
+if (currentHighLed >= 3) {
+currentHighLed = 0;
+}
+currentState[currentHighLed]   = HIGH;
+delay(250);
+}
+
+
+
+```
+
+![imagen](./imagenes/arduino-montado.jpeg)
+
+▼ Fotografía del mini circuito armado. Obtenido de: recurso propio.
+
+
+![imagen](./imagenes/arduino-trabajando.gif)
+
+▼ Gif del circuito funcionando (en bucle). Obtenido de: recurso propio.
+
 ***
 
 ### Estudio de un código olvidado
 
 Para poder volver a entender sobre como codificar en arduino es que decidí analizar un código que tenía guardado hace 2 años, para poder entenderlo y descubrir qué fue lo que programé, el cómo lo hice y qué significa cada línea.
 
-En un comienzo quise probar si funcionaba armando un pequeño circuito con una protoboard, un [display de 28 x 64 px](https://mcielectronics.cl/shop/product/display-oled-de-128-x-64-pixeles-controlable-por-i2c-29546/) y cables dupont.
+En un comienzo quise probar si funcionaba armando un pequeño circuito con una protoboard, un [display de 128 x 64 px](https://mcielectronics.cl/shop/product/display-oled-de-128-x-64-pixeles-controlable-por-i2c-29546/) y cables dupont.
 
 Al parecer alguna de las piezas estaban dañadas (conclusión), por lo que terminé usando un simulador online: [WOKWI](https://wokwi.com/projects/439087666921849857)
 

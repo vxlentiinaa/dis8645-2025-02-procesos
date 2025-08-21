@@ -1,100 +1,96 @@
-# Sesion-02a
+# Sesión-02a
 
 ## Trabajo en clase / Martes 12 de agosto, 2025
 
 ### Cosas que hablamos en la mañana
 
-Daniel, empresa vive de instalaciones, de montajes 
+Se puede vivir realizando montajes y exposiciones de cosas experimentales, si eso es lo que nos interesa.
 
-Untref hacen un postragdos de arte electronico <https://untref.edu.ar/>
+[Untref](https://untref.edu.ar/) hace un posgrado de arte electrónico.
 
-Nicolas Negroponte being digital, la base de los 90s
+Nicholas Negroponte, libro "Being Digital" sentó las bases en los 90 en el área digital.
 
-Jazmin Adler, Señales hipermateriales <https://jazminadler.com.ar/>
+[Jazmin Adler](https://jazminadler.com.ar/) y su libro "Señales hipermateriales: horizontes económicos de la condición algorítmica".
 
-jcrover
+[Jorge Crowe](https://www.jcrowe.xyz/) Tiene un montón de proyectos interesantes de arte electrónico. En algunos proyectos ha trabajado con cassettes y PCBs.
 
-Yaeltex, hacen microprocesadores <https://yaeltex.com/>
+[Yaeltex](https://yaeltex.com/), producen todo lo que tiene que ver con el hardware de cajas de ritmos, samplers, sintetizadores, etc. Además, creen en un sistema de producción en el que ya no exista la obsolescencia programada ni la irreparabilidad.
 
-Yuk Hui ¿que es objeto digital? estudio ingeneria electronica y filosofia, y estudio en la bauhause. wau gracias por este referente misa
+[Yuk Hui](https://es.wikipedia.org/wiki/Yuk_Hui) ¿Qué es un objeto digital? La digitalización y su impacto en la sociedad. Él estudió Ingeniería Informática en la Universidad de Hong Kong y Filosofía en el Goldsmiths College de Londres. Wau gracias por este referente Misa.
 
-Caja negra, editorial argentina que traduce libros <https://cajanegraeditora.com.ar/>
+[Caja negra]( https://cajanegraeditora.com.ar/), editorial argentina que traduce libros de filosofía.
 
-Encontre esta tienda donde venden libros de esta editoria el Chile <https://lakomuna.cl/brand/caja-negra-editora/>
+Encontré esta tienda que se llama [Lakomuna](https://lakomuna.cl/brand/caja-negra-editora/), donde venden libros de la editorial Caja Negra, en Chile.
 
-hablamos de la existencias dominios en internet, dominio es un terreno y hosting es la casa xd
+Hablamos de las existencias de dominios en Internet. Dominio es un terreno y hosting es la casa. XD
 
-IOT the internet of things
+IoT: the Internet of Things
 
-Stack Overflow, lugar para preguntar de progamacion <https://stackoverflow.com/questions>
+[Stack Overflow](https://stackoverflow.com/questions), es un sitio como un foro para hacer preguntas sobre programación.
 
-Tener cuidado con las licencias, y con la ia porque toma de referencia otros codigos sin dar creditos.
+Tener cuidado con las licencias y con la IA, porque toma de referencia otros códigos sin dar créditos.
 
-Jonh Cage
+[John Cage](https://es.wikipedia.org/wiki/John_Cage), fue un compositor, teórico musical, artista y filósofo estadounidense. Pionero de la música aleatoria, de la música electrónica y del uso no estándar de instrumentos musicales.
 
-Github
+### GitHub
 
-Explicaron como funciona github para utilizarlo en el taller maquinas computacionales, 
+- Explicaron cómo funciona GitHub para utilizarlo en el taller Máquinas Computacionales. También aprendimos cómo hacer carpetas y cómo subir fotos.
 
-### sokio
+- Misa me estuvo ayudando a comprender cómo funciona GitHub Desktop. Aunque, la verdad, puede ser muy útil para cambiar nombres de carpetas, ordenarlas y subir archivos, él lo utiliza desde la terminal. Sin embargo, creo que es muy complejo estar actualizando para trabajar en un repositorio con más de un fork.
+
+### Sokio
 
 <https://sokio.studio/>
 
-new latin wabe 
+Sokio partió en la electrónica utilizando un computador Sinclair y un sampler Akai S2000. Le gustaba desarmar computadores para cambiar los sólidos de los chips en BASIC.
 
-sincali
+El sampler era un instrumento para dar muestras de sonido y secuenciarlos, además de procesar voces con efectos.
 
-s2000 akai
+Comenzó a estudiar teatro y a componer música para las obras. Con tanta música hecha para obras cortas, se le ocurrió hacer una ópera.
 
-le gustaba desarmar computadores para cambiar los solidos de los chips en basic, lenguaje
+Encontraba que las óperas eran fomes. Hizo una ópera con cantantes líricos, voces procesadas y computadores. Fue catalogada como la mejor ópera en 10 años en Chile: Ópera Patria.
 
-estudiar teatro, musica para las obras
+Inauguró el teatro Matucana 100. Compuso música para cine y óperas que trataban el tema de la emigración.
 
-hacer una opera
+Incorporó instrumentos reales que procesaba en tiempo real. Podría ser el intermedio entre una persona tocando un instrumento y una máquina reproduciendo ese instrumento.
 
-operas fomes, sampler instrumento para dar muestras de sonido y secuenciarlos
+Sokio es una especie de embajador de [Teenage Engineering](https://teenage.engineering/). Es una tienda de diseño que produce sintetizadores y objetos electrónicos, además de varias cosas más, con un diseño y una intención muy impresionantes. Por ejemplo, tenemos al [OP-1](https://teenage.engineering/products/op-1), que es prácticamente como tener muchos instrumentos en uno. Teenage Engineering diseñaba sus propios muebles para la oficina, y luego comenzaron a venderlos.
 
-procesar voces con efectos
+[Georgia Tech](https://www.gatech.edu/)
 
-catalogada como la mejor opera en 10 años de chile, opera patria
+[Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
 
-cantantes liricos, voces procesadas, y computadores
+#### Splitting / Absence 
 
-inaguro el teatro matucana 100
+Desarrollando una ópera para [New Latin Wave](https://newlatinwave.com/).
 
-musica para cine
+Basada en la vida de Gordon Matta-Clark, anarquitecto y artista visual, trabaja con la ciudad y realiza un análisis de los objetos y de nosotros mismos.
 
-opera sobre enmigracion
+La obra narra el impacto de Gordon Matta-Clark en el arte contemporáneo y el urbanismo.
 
-incorporo instrumentos reales que procesaba a tiempor real
+[Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
 
-antes postular a fondart era muy complejo, siempre se lo ganaban los mismos.
+El ojo pensante.
 
-teenage engineering <https://teenage.engineering/>
+Explicaron un poco el trabajo que, junto a Aarón Montoya, Matías Serrano y Francisco Stephens, tuvimos que realizar para Sokio. El cual consistía en crear un robot que moviera un solenoide con MIDI.
 
-op-1 es como tener muchos instrumentos
+Ahí le entregamos el producto de la máquina y el solenoide con su carcasa. Lo probaron, todo funcionaba súper bien, y luego nos tomamos una foto, la cual sacamos con su celular, así que no la tengo.
 
-teenage engineering, diseñaban sus muebles para la oficina, luego los comenzaron a vender 
+Fue una experiencia muy bonita. Personalmente fue mi primer trabajo y quedé súper emocionada de tener la oportunidad de involucrarme en esta área de la electrónica, el arte y la música.
 
-georgia tech
+La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de Santiago. Va a presentarse en Santiago, Nueva York, París y Chicago.
 
-se hace la opera en el national sawdust, brooklyn, NY
+### Palabras importantes
 
-SPLITTING ABSECENCE
+[IoT:](https://en.wikipedia.org/wiki/Internet_of_things) the Internet of Things, o el Internet de las cosas, describe dispositivos con sensores, capacidad de procesamiento, software y otras tecnologías que conectan e intercambian datos con otros dispositivos y sistemas a través de Internet u otras redes de comunicación.
 
-basada en la vida de  Gordon Matta-Clark
+FALTA ESTO*
 
-anarquitecto, artista visual, trabaja con la ciudad, analisis de los objetos y de nosotros mismod
+terminal
 
-juan downey
+basic lenguaje de progamacion
 
-el ojo pensante
-
-crear un rotot que mueva un solenoide con un midi
-
-Santiago, Nueva York, Paris y Chicago
-
-GAM de Santiago y Nueva York
+midi
 
 dada machines
 
