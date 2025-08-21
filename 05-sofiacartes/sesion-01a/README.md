@@ -59,3 +59,15 @@ Esto empieza de querer resolver todos los problemas matemáticos que pueden expr
 
 ### Ada Lovelace
 
+Matemática y escritora inglesa, la primera programadora informática de la historia.
+Nacida en 1815. Fue educada por tutores y de forma autodidacta. Al conocer a  Charles Babbage, se interesó en el concepto de los dipositivos mecánicos, el cual servía para calcular valores de funciones.
+
+Ella fue la primera en reconocer que la máquina tenía aplicaciones más allá del cálculo puro y que también podía manipular símbolos. Además, publicó el primer algoritmo destinado a ser llevado a cabo por tal aparato. 
+
+fuentes utilizadas:
+* <https://psicologiaymente.com/cultura/maquina-de-turing>
+* <https://www.lavanguardia.com/historiayvida/historia-contemporanea/20180627/47312986353/que-aporto-ciencia-alan-turing.html>
+* <https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352>
+* <https://ebac.mx/blog/ada-lovelace>
+* <https://www.nationalgeographicla.com/ciencia/2023/10/fue-la-primera-programadora-de-la-historia-y-predijo-la-existencia-de-la-inteligencia-artificial>
+* <https://www.fundacionaquae.org/wiki/ada-lovelace-madre-de-la-programacion/>
