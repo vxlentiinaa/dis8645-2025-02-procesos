@@ -4,12 +4,12 @@ PRUEBA DE GUARDADO 02
 
 ## Horario
 
-08:30 - 09:00   Llegada
+1. 08:30 - 09:00   Llegada
 
-09:00 - 10:30   Trabajar
+2. 09:00 - 10:30   Trabajar
 
-10:30 - 11:00   Descanso
+3. 10:30 - 11:00   Descanso
 
-11:00 - 12:30   Trabajar
+4. 11:00 - 12:30   Trabajar
 
-12:30 - 12:50   Ordenar
+5. 12:30 - 12:50   Ordenar
