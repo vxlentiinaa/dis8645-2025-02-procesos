@@ -63,7 +63,7 @@ Los operadores lógicos evalúan la expresión lógica y devuelven un resultado.
 El resultado siempre es un valor booleano. Un valor booleano determina si la expresión es verdadera true o falsa false.
 Hay tres operadores lógicos en la programación en C: el AND lógico (&&), el OR lógico (||) y el NOT lógico (!).
 
-```
+```cpp
 //si no hay arana
 //reacciono tranqui
 if (!hayArana) {
@@ -77,8 +77,7 @@ chillar(infinito);
 }
 ```
 
-```
-
+```cpp
 if (edad >= 18 OR tengoPituto) {
 dartePermisoConducir();
 
@@ -92,7 +91,9 @@ else {
 
 bool: puede ser 0 o 1, verdadero o falso
 
-**ejemplo ordinario**
+## ejemplo ordinario
+
+```cpp
 // variable booleana
 // la inicializamos falsa
 bool prender = false;
@@ -119,14 +120,15 @@ void loop() {
   digitalWrite(LED_BUILTIN, prender);
   
 }
+```
 
 millis() cuenta el tiempo desde que se prendió el arduino. no es infinito<https://docs.arduino.cc/language-reference/en/functions/time/millis/>
 
 no se trabaja con int cuando se usa millis porque no cabe el número. se utiliza ```unsigned long```
 
-**codigo que usamos con if**
+## código que usamos con if
 
-```
+```cpp
 // variable booleana
 // la inicializamos falsa
 bool prendido = false;
@@ -168,9 +170,9 @@ void loop() {
 
 int es para uso de números cotidianamente. se utiliza long para usar números más grandes.
 
-**con la maña de misa de usar la variable segundos y hacerse cargo muy responsablemente de usar unsigned long**
+con la maña de misa de usar la variable segundos y hacerse cargo muy responsablemente de usar unsigned long
 
-```
+```cpp
 // variable booleana
 // la inicializamos falsa
 bool prendido = false;
@@ -269,7 +271,7 @@ Xor
 
 Hay que evitar que se repita demasiado un codigo. Lo mejor es establecer que quiero que haga y cuantas veces quiero que lo haga.
 
-```
+```cpp
 //iterar
 
 int veces = 100;
@@ -296,9 +298,9 @@ Se puede utilizar la j para hacer otra iteración.
 
 Serial.println() sirve para hacer enter.
 
-**ejemplo iteradores mi primer for**
+## ejemplo iteradores mi primer for
 
-```
+```cpp
 int numEstudiantes = 29;
 
 void setup() {
@@ -320,9 +322,9 @@ void loop() {
 }
 ```
 
-**iteradores con if y !=**
+## iteradores con if y !=
 
-```
+```cpp
 int numEstudiantes = 29;
 
 void setup() {
@@ -358,9 +360,9 @@ void loop() {
 
 ```
 
-**test de division**
+## test de division
 
-```
+```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
 //CADA CUANTO TIEMPO PARPADEE EL LED
@@ -388,7 +390,7 @@ void loop() {
 
 El modulo (%) es SOLAMENTE para numeros enteros. No existe con numeros decimales.
 
-```
+```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
 //CADA CUANTO TIEMPO PARPADEE EL LED
@@ -422,7 +424,6 @@ void loop() {
   numero1++;
   delay(500);
 }
-
 ```
 
 Restos
@@ -435,9 +436,9 @@ __
 El 1 sería lo que sobra dentro de la division que le hicimos al 7.
 El resultado que no es modulo es la division de enteros.
 
-**detectar si un numero es par o impar con %**
+## detectar si un numero es par o impar con %
 
-```
+```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
 //CADA CUANTO TIEMPO PARPADEE EL LED
@@ -475,9 +476,9 @@ void loop() {
 }
 ```
 
-**hacer que el led interno se apague en los segundos pares y se prenda en los segundos impares**
+## hacer que el led interno se apague en los segundos pares y se prenda en los segundos impares
 
-```
+```cpp
 //QUIERO PODER DECIRLE A ARDUINO
 //EN EL MONITOR SERIAL
 //CADA CUANTO TIEMPO PARPADEE EL LED
