@@ -41,8 +41,6 @@ SIEMPRE ES EN EL ORIGINAL
 
 Para Arduino es importante tener una carpeta con el mismo nombre del archivo. Se puede tener más de un archivo, pero el principal debe tener el mismo nombre de la carpeta, los otros son anexos y pueden tener otros nombres
 
-----
-
 ## Sokio [sokio.studio](https://sokio.studio/)
 
 [Con ópera experimental ’Paraíso’ en Nueva York el artista chileno Sokio retornó al género tras 20 años](https://www.biobiochile.cl/noticias/artes-y-cultura/musica/2023/06/28/con-opera-experimental-paraiso-en-nueva-york-el-artista-chileno-sokio-retorno-al-genero-tras-20-anos.shtml)

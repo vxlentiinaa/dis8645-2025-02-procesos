@@ -1,27 +1,30 @@
 # sesion-02b // Clase 04 // 19.08.2025
 
-### Condicionales
+## Condicionales
 
-If (Boolean condition) Then 
+```
+if (Boolean condition) Then
     (consequent)
 
-Else 
+else {
    (alternative)
+}
+```
 
+![diagrama](./imagenes/diagrama.png)
 
-<img width="278" height="352" alt="Diagrama" src="https://github.com/user-attachments/assets/fee37e6b-e005-4189-9eb8-9c4322ce7d5c" />
+### ejemplo
 
-### ejemplo:
-
+```cpp
 if(Cola-cola == False){
  ComproJugoNaranja();
+```
 
- ### ELSE llega cuyando la condicion fue mentira
+### ELSE llega cuyando la condicion fue mentira
 
- ### ! bank (variale, negación o opuesto)
+### ! bang (negación u opuesto)
 
-
-
+```cpp
 if(diciembre AND donFrancisco == true
 
 AND !godZilla AND !elecciones){
@@ -33,9 +36,11 @@ teleton();
 else{
 
 continuamosTransmicionesNormales
+```
 
-### ejemplo Aaron 
+### ejemplo Aaron
 
+```
 // variable booleana
 // la inicializamos falsa
 bool prender = false;
@@ -56,18 +61,18 @@ void loop() {
   digitalWrite(LED_BUILTIN, prender);
 
 }
+```
 
+### operadores lógicos
 
-### operadores logicos 
+operacion que solo aparecen cuando quiero combinar es su estado logico
 
-operacion que solo aparecen cuando quiero combinar es su estado logico 
+### Iterar
 
-
-
-### Iterar 
-
+```cpp
 hazEsto();
 
 int veces;
 
 for(parto,termino; que hago cada paso)
+```
