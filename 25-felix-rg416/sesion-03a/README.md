@@ -131,23 +131,29 @@ void loop() {
 
 ### AND
 
-| A | B | OUT|
+![Compuerta AND](./imagenes/compuertaAND.jpg)
+
+|A|B|OUT|
 |-|-|-|
-| 0 | 0 | 0|
-| 0| 1| 0|
+|0|0|0|
+|0|1|0|
 |1|0|0|
-|1|1|1|
+|1|1|**1**|
 
 ### OR
 
-| A | B | OUT|
-|--|--|--|
-| 0 | 0 | 0|
-| 0| 1| 1|
-|1|0|1|
-|1|1|1|
+![Compuerta OR](./imagenes/compuertaOR.jpg)
+
+|A|B|OUT|
+|-|-|-|
+|0|0|0|
+|0|1|**1**|
+|1|0|**1**|
+|1|1|**1**|
 
 ### NOT
+
+![Compuerta NOT](./imagenes/compuertaNOT.jpg)
 
 |A|B|
 |-|-|
@@ -320,9 +326,47 @@ void loop() {
 
 ## Encargo
 
+Investigar compuertas:
 - NAND
 - NOR
 - XOR
+
+### Compuerta NAND
+
+![Compuerta NAND](./imagenes/compuertaNAND.jpg)
+
+|A|B|OUT|
+|-|-|-|
+|0|0|**1**|
+|0|1|**1**|
+|1|0|**1**|
+|1|1|0|
+
+### Compuerta NOR
+
+![Compuerta NOR](./imagenes/compuertaNOR.jpg)
+
+|A|B|OUT|
+|-|-|-|
+|0|0|**1**|
+|0|1|0|
+|1|0|0|
+|1|1|0|
+
+### Compuerta XOR
+
+![Compuerta XOR](./imagenes/compuertaXOR.jpg)
+
+|A|B|OUT|
+|-|-|-|
+|0|0|0|
+|0|1|**1**|
+|1|0|**1**|
+|1|1|0|
+
+> imágenes sacadas de:
+> - <https://mielectronicafacil.com/category/sistemas-digtales/>
+> - <https://compraco.com.br/es/blogs/tecnologia-e-desenvolvimento/simbolo-de-xor-desvendando-os-segredos-do-or-exclusivo>
 
 ----
 
