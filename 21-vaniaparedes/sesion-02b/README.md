@@ -2,7 +2,7 @@
 
 ## Condicionales
 
-If (boolean condicion) 
+If (boolean condicion)
 (consequent)
 Else (alternative)
 End if
@@ -14,9 +14,10 @@ End if
 print(ln) = imprime y enter para la proxima vez que imprima
 "%" Módulo, para saber el resto (7%2=1)
 
->https://docs.arduino.cc/language-reference/<
+><https://docs.arduino.cc/language-reference/><
 
-#### Examples:
+## Examples
+
 if (itIsRaining == true) {
 makeSopaipillas();
 }
@@ -36,39 +37,42 @@ _______________________________
 if (edad >= 18 AND edad <= 80) {
 permisoConducir();
 }
-_____
+
 if (edad >= 18 AND !(edad == 81) {
 permisoConducir();
 }
-_______________________________
-#### !
+
 id (december AND donFrancisco == true AND !godZilla AND !elecciones) {
 teleton();
 }
 else {
 normalTransmision();
 }
-________________________________
 digitalWrite(#LED_BUILTON#, #prender#);
 Mayuscula = variable
 Minuscula = constante
 
-#### millis() (positivos (+0))
+millis() (positivos (+0))
+
 unsigned long
-_________________________________
+
 ## Operadores logicos
+
 Computativas, el orden no cambia el resultado
 
 * Compuertas
+
   ### AND &
+
   mutuamente dependiente
-  A B | out     
+  A B | out
   0 0 | 0
   0 1 | 0
   1 0 | 0
   1 1 | *1*
 
   ### OR ||
+
 Si alguna de las entradas es si, la respuesta es si
 Independiente
   A B | out  
@@ -77,7 +81,8 @@ Independiente
   1 0 | 1
   1 1 | 1
 
-  ### NOT !
+### NOT
+
   Tenemos una variable y queremos detectar la ausencia de esta
   A | out  
   0 | 1
@@ -88,7 +93,10 @@ Independiente
   NOR
   XOR
   _______________________________
- ### Iterar
+
+### Iterar
+
+```cpp
  // cuantas veces itero (variable i)
  int veces;
 
@@ -99,7 +107,7 @@ Independiente
  // 3 actualización
  // y entre {} lo que quiero iterar
  // for (parto; termino; que hago cada paso)
- 
+
  for (int i = 0; i<veces; i = i + 1)
 
  {
@@ -110,3 +118,4 @@ Independiente
  for (int j = 0; j<alto; j = j +1)
  dibujarPixel(i,j);
  }
+```
