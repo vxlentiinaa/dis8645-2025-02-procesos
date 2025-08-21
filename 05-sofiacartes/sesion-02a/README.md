@@ -47,3 +47,7 @@ son obras claiedoscopal. juega con los cortes de paredes, el cual hace distintas
 * hammond box
 * cdm
 * bricolo
+
+## Encargo 02
+
+Completar nuestras bitácoras.
