@@ -1,6 +1,6 @@
 # sesion-02a
 
-## 12-agosto-2025 - clase 2
+## 12-agosto-2025 - clase 3
 
 ### conceptos
 
