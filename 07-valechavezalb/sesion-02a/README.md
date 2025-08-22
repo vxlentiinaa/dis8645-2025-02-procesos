@@ -57,7 +57,7 @@ void flash (int duracion)
 
 ### Reloj que muestra horas, minutos y segundos
 
-``` cpp
+```cpp
 void setup() {
 
   unsigned long tiempoAnterior = 0;

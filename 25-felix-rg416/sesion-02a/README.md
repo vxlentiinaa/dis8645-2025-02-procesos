@@ -1,5 +1,7 @@
 # sesion-02a
 
+martes 12 de agosto
+
 - el serial.begin(9600);
   - el 9600 signicifa **BAUDIOS**
     - **BAUD RATE** --> velocidad de comunicación
@@ -11,7 +13,6 @@
 > - B --> Bus = transporte
 >
 - Presencia visual - fenómeno que te hace pensar que la luz está encendida constantemente, pero en realidad está parpadeando
-
 - <https://untref.edu.ar/> pregrado y postgrado de arte electrónico - Jazmin Adler - Valentina Montero
 - .xyz dominio barato - [dominios](https://domains.squarespace.com/domain-search?channel=pbr&subchannel=go&campaign=pbr-go-row_other-en-core_category-e&subcampaign=(domains-en_squarespace-domains_e)&gad_campaignid=19107610987)
 - <https://yaeltex.com/>
@@ -49,14 +50,12 @@ Para Arduino es importante tener una carpeta con el mismo nombre del archivo. Se
   - Diseño industrial
   - Diseño gráfico
   - Diseño de usuario
-
 - <https://www.gatech.edu/> "Si quieren hacecr un sintetizador, postulen a esto" ~Aarón
 - <https://www.nationalsawdust.org/>
 - Gordon Matta-Clark
   - Anarquitecto
 - Juan Downey
   - Artista visual
-
 - <https://github.com/misaaaaaa/strangeTrigger>
 - caja hammond
 - <https://andycavatorta.com/>

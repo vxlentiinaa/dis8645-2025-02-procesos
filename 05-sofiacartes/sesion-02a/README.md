@@ -2,17 +2,21 @@
 
 ## Apuntes clase
 
-* **Serial begin:** sirve para sostener la comunicación.
+* **Serial monitor:**
 
-* **Serial begin:** 9600 --> baudios: significa a qué velocidad va un baudio, velocidad de comunicación, a qué velocidad lo estoy viendo.
-  
-* **Baudio** (Bd) cantidad de símbolos o cambios de señal por segundo en una comunicación.
+* **Serial begin:** Sirve para sostener la comunicación.
+
+* **Serial begin:** 9600. Cantidad en **baudios** -> significa a qué velocidad va un baudio, velocidad de comunicación, a qué velocidad lo estoy viendo.
+
+* **Baudio** (Bd) Cantidad de símbolos o cambios de señal por segundo en una comunicación.
+
+También vimos como utilizar github.
 
 ## Sokio diaz-gallardo
 
- Mauricio Díaz Gallardo.
+Mauricio Díaz Gallardo.
  
- Sokio, tiene una organización que se llama new latin wave, hace música, hizo una opera experimental el cual fue un éxito, trabaja con *teenage engineering*
+Sokio, tiene una organización que se llama new latin wave, hace música, hizo una opera experimental el cual fue un éxito, trabaja con *teenage engineering*
  
 * Su carrera comenzó en 1990, componiendo música para teatro.
 * Soundpler  instrumento dedicado para obtener muestras de sonido .
@@ -43,3 +47,7 @@ son obras claiedoscopal. juega con los cortes de paredes, el cual hace distintas
 * hammond box
 * cdm
 * bricolo
+
+## Encargo 02
+
+Completar nuestras bitácoras.
