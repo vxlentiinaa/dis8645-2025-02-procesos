@@ -12,9 +12,11 @@ Este día me costó levantarme, principalmente por mi desorden del descanso y ho
 
 ### Escaneo de bitácora y apuntes escritos del día
 
-![imagen](./imagenes/.)
+![imagen](./imagenes/01.jpg)
 
-▼ Descripción de la imagen. Obtenido de: cita
+![imagen](./imagenes/02.jpg)
+
+▼ Escaner de la bitácora. Obtenido de: recurso propio.
 
 ![imagen](./imagenes/03.jpeg)
 
@@ -59,7 +61,6 @@ JLCPBC
 - Dev board ([video explicativo en inglés](https://www.youtube.com/watch?v=JrO2LziLXtM&ab_channel=UTSOURCE))
 - [Raspberry pi RP2040](https://raspberrypi.cl/producto/raspberry-pi-rp2040/)
 
-
 ### _Personas_
 
 - [Roberto Bolaño](https://es.wikipedia.org/wiki/Roberto_Bola%C3%B1o) (escritor) ["Estrella distante"](https://es.wikipedia.org/wiki/Estrella_distante).
@@ -83,25 +84,34 @@ JLCPBC
 
 #### 1. Ada Lovelace
 
-Es considerada la primera programadora de la historia
+Matemática de nacionalidad británica. Es considerada la primera programadora de la historia, puesto que sentó la base para la creación de las computadoras.
+Desde pequeña, y gracias a su posición social, pudo acceder a una educación académica privada centrada en las matemáticas (principal área de interés de su madre), ciencias, música y en lengua francesa.
 
-*Información recuperdada de:*
-1) https://ebac.mx/blog/ada-lovelace
-2) 
+Pese a su mala salud, esta no le limitó en cuanto al desarrollo de su aprendizaje y curiosidad por sus temas de interés, como las máquinas.
+Ya de mayor puso establecer un vínculo amistoso con el matemático Charles Babbage, quien es considerado como el padre de las computadoras modernas. Este le mostró su taller a Ada, un espacio en el que se encontraba su “computadora analítica”, una máquina que permitía programarse para poder realizar cálculos matemáticos y que contaba con una unidad de procesamiento y otra para la memoria.
+
+Al hacer paralelismos con el telar de seda de Joseph Marie Jacquard, máquina que destacó en su época, pudo identificar similitudes con la computadora analítica: ambos poseían placas con perforaciones (información). Ello genero la idea de que la invención de no sólo podía ser utilizada para cálculos, sino que se podía “programar” para cumplir con otras tareas.
+Dicha información sobre estas reflexiones en torno a las posibilidades de la máquina fue publicada en una traducción al inglés de un artículo centrado en este mismo mecanismo, escrito y desarrollado por el matemático italiano Luigi Menabrea. El texto fue traducido y complementado con anotaciones de Lovelace, en conjunto con una teoría para poder hacer que la máquina pueda calcular “números de Bernoulli”, además de plantear las capacidades de que la máquina siga ordenes y permita crear cualquier contenido representado de forma simbólica, cambiando la forma de ver este tipo de maquinaria.
+
+_Información recuperdada de:_
+
+1) <https://ebac.mx/blog/ada-lovelace>
+2) <https://lemelson.mit.edu/resources/ada-lovelace>
 
 #### 2. Alan Turing
 
-Matemático, informático teórico de origen británico. 
+Matemático, informático teórico de origen británico.
 Es uno de los precursores de las computadoras y de la informática. A temprana edad se interesó por la relación entre mente y materia, involucrándose con la física y mecánica cuántica. En la universidad "King's College Cambridge" se destacó en lógica y matemática. Más tarde (1936) hizo un doctorado en criptología en la Universidad de Princeton, ideando el funcionamiento de una máquina que pudiera resolver problemas traducido a operaciones matemáticas y cuyo resultado constara en una serie de operaciones lógicas en código binario (si y no, 1 y 0, etc).
 
 Uno de sus hitos más grandes sería en la Segunda Guerra Mundial, fecha en la cual los alemanes utilizaban la máquina "Enigma" para encriptar sus mensajes (con más de 150 billones de combinaciones posibles). A partir de ello, Turing crearía en Bletchley Park (1939) una máquina llamada "Bombe", la precursora de los computadores programables, la que se encargaba de descifrar dichos mensajes y recuperar información valiosa para adelantarse a las estrategias del enemigo.
 
-Otra de sus hazañas fue ser el primer científico en cuestionarse sobre la capacidad de las máquinas para poder pensar, haciendo alusión al termino actual de “Inteligencia artificial”. Haciendo paralelismos con la biología del cerebro, se cree que este órgano funciona similar a una computadora en cuanto a la capacidad de retención y procesamiento de datos. Frente a esta situación es que surge el “Test de Turing”, un examen dedicado a analizar la capacidad de una máquina para hacerse pasar por un ser humano a través de una conversación. 
+Otra de sus hazañas fue ser el primer científico en cuestionarse sobre la capacidad de las máquinas para poder pensar, haciendo alusión al termino actual de “Inteligencia artificial”. Haciendo paralelismos con la biología del cerebro, se cree que este órgano funciona similar a una computadora en cuanto a la capacidad de retención y procesamiento de datos. Frente a esta situación es que surge el “Test de Turing”, un examen dedicado a analizar la capacidad de una máquina para hacerse pasar por un ser humano a través de una conversación.
 
-*Información recuperdada de:*
-1) https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/
-2) https://es.wikipedia.org/wiki/Enigma_(m%C3%A1quina)
-3) https://es.wikipedia.org/wiki/Bombe
+_Información recuperdada de:_
+
+1) <https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/>
+2) <https://es.wikipedia.org/wiki/Enigma_(m%C3%A1quina)>
+3) <https://es.wikipedia.org/wiki/Bombe>
 
 ***
 

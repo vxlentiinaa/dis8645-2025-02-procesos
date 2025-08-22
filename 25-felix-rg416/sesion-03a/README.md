@@ -59,7 +59,7 @@ if (diciembre AND donFrancisco AND !godZilla AND !lecciones){
 - El ``else``es opcional
 - = es para asiganr un valor
 - == comparación - Es una pregunta ¿lo de la izquierda es igual a la derecha?
-    - el else es si la respuesta a la pregunta anterior es NO
+  - el else es si la respuesta a la pregunta anterior es NO
 
 > "mientras más escribas más riego de equivocarme" ~Aarón
 
@@ -87,8 +87,8 @@ Serial.println(millis() / 1000)
 ```
 
 - long es para números muy grandes
-    - unsigned long --> es para que parte desde el 0
-    - si crean variables con `millis()`, que sean declaradas con  `` unsigned long``
+  - unsigned long --> es para que parte desde el 0
+  - si crean variables con `millis()`, que sean declaradas con  ``unsigned long``
 
 ```cpp
 // variable booleana
@@ -166,7 +166,7 @@ void loop() {
 
 se itera con ``for``, se pone entre paréntesis 3 cosas: ``1° partida`` ; ``2° termino``; ``3° cambio entre iteraciones``
 
-entre murciélagos lo que quiero itear 
+entre murciélagos lo que quiero itear
 
 se podría decir que es como un índice
 
@@ -179,7 +179,7 @@ for (parto; termino; qué hago cada paso)
 }
 ```
 
-Ejemplo: 
+Ejemplo:
 
 ```cpp
 // int i--> se avbrevia iterar
@@ -266,7 +266,7 @@ void loop() {
 
 ``7/2=3`` con el ``/`` me entrega el resultado
 
-``7%2=1`` con el ``%`` me entrega el sobrante 
+``7%2=1`` con el ``%`` me entrega el sobrante
 
 ```cpp
 // PARTE 02.2 ~ MISA
@@ -327,6 +327,7 @@ void loop() {
 ## Encargo
 
 Investigar compuertas:
+
 - NAND
 - NOR
 - XOR
@@ -365,6 +366,7 @@ Investigar compuertas:
 |1|1|0|
 
 > imágenes sacadas de:
+>
 > - <https://mielectronicafacil.com/category/sistemas-digtales/>
 > - <https://compraco.com.br/es/blogs/tecnologia-e-desenvolvimento/simbolo-de-xor-desvendando-os-segredos-do-or-exclusivo>
 
