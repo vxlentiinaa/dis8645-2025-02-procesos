@@ -299,3 +299,9 @@ void loop() {
 ### extras
 
 -[escándalo sokal](https://es.wikipedia.org/wiki/Escándalo_Sokal)
+
+### idea proyecto 1 
+
+tipo agar.io, las palabras van flotando en el espacio, y tienes q ir recolectando las palabras en orden
+
+quizas una brújula te guía hacia qué palabra te toca
