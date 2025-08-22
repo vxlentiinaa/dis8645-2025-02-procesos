@@ -69,13 +69,6 @@ numeros exadecimales, es mucho mas facil aprender primero binario
 hablamos un poco de como convertir binario a exadecimal
 
 
-
-## referentes 
-
-https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
-
-https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1
-
 es importante fallar y poner anotaciones,
 
 display, la pantalla tiene cuatro parametros, latura, alncho y dos cosas mas.
@@ -83,6 +76,14 @@ display, la pantalla tiene cuatro parametros, latura, alncho y dos cosas mas.
 nuestro computador es nuestro taller, para utilizar las bibliotecas, es importante descargarlas en una parte especifica, poruqe al utilizar el codigo busca la direccion, busca donde la guardaste, si la mueves de lugar es probable que no lo encuentre, y por tanto no funcione el codigo, eso te lo va a indicar el programa
 
 es dificial hacer uqe funcionen los codigos es nuestros computadores, pero es aun mas dificil hacer que nuestros codigos funcionen en otros computadores
+
+## referentes 
+
+https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
+
+https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1
+
+https://www.instagram.com/nrmbnt/?hl=es tesis de flores en pantallas que se mueven
 
 ## Encargo
 
