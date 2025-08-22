@@ -8,6 +8,8 @@ usaremos pantallas, compramos 29 de estas, 1 por cada estudiante
 
 <https://afel.cl/products/pantalla-lcd-oled-azul-y-amarillo-0-96>
 
+![pantalla LCD oled](./imagenes/pantallaLCD.png)
+
 también 29 protoboards chiquitas, 1 por cada estudiante
 
 <https://afel.cl/products/mini-protoboard-170-puntos>
