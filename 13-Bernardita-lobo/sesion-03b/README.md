@@ -66,6 +66,10 @@ aaron nos estaba mostrando un codigo en wokwi, pero no funciono, a la vuelta de 
 
 numeros exadecimales, es mucho mas facil aprender primero binario
 
+hablamos un poco de como convertir binario a exadecimal
+
+
+
 ## referentes 
 
 https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
