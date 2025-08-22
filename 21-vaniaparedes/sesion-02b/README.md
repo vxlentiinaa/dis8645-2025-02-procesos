@@ -136,3 +136,4 @@ Producto de Sumas (maxitérminos): Expresión booleana que reúne las variables 
 Suma de Productos (minitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un uno lógico.
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5cfd3a4b-3ec7-4bb2-a427-cafbb40ca84f" />
 
+Fuente: https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/
