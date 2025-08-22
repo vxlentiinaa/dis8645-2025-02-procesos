@@ -16,13 +16,7 @@ En el caso del Arduino IDE, este programa facilita el trabajo con varios microco
 
 ### Elementos del Código
 
-Comentarios:  display.clearDisplay();                // Borrar pantalla
-  display.setTextSize(1);                // Tamaño del texto
-  display.setTextColor(SSD1306_WHITE);   // Color del texto
-  display.setCursor(0, 10);              // Posición del texto
-  display.println(F("¡Hola Mundo!"));   // Texto a mostrar
-  display.display();
-
+**Comentarios**:  <!--subtitulo-->
 Texto humano dirigido al humano que está viendo el código, utilizado para explicar lo que hace cierta línea de código, cómo modificarla, entre otras cosas.
 
 ```cpp
@@ -31,17 +25,12 @@ pinMode(text, example); # comentario python
 pinMode(text, example); <!-- comentario markdown -->
 ```
 
-setup():
-
-Función que ejecuta las líneas de código desde arriba a abajo una sola vez, es decir, sin repetirlas.
+${\color{orange}setup}$(): </br> <!--subtitulo-->
+**Función** que ejecuta las líneas de código desde arriba a abajo **una sola vez**, es decir, sin repetirlas.
 
 Es lo primero que se ejecuta al resetar o darle poder a un microprocesador
-````
-${\color{orange}setup}$(): <br/> **Función** que ejecuta las líneas de código desde arriba a abajo **una sola vez**, es decir, sin repetirlas. <br/> Es lo primero que se ejecuta al resetar o darle poder a un microprocesador
 
 Se utiliza para configurar el comportamiento inicial del programa, como designar si los pines **GPIO** (**G**eneral **P**urpose **I**nput/**O**utput) son **INPUT** o **OUTPUT**, iniciar la comunicación serial por **USB** (**U**niversal **S**erial **B**us), etc.
-````
-Se utiliza para designar el comportamiento de los pines GPIO (General Purpose Input Output), si son input o output, hacer que se conecte mediante USB serial (Universal Serial Bus), etc.
 
 ```cpp
 void setup () {
@@ -53,8 +42,7 @@ void setup () {
 }
 ```
 
-loop():
-
+${\color{orange}loop}$(): </br> <!--subtitulo-->
 Funcion similar a setup, pero como su nombre indica, corre las líneas de código y al llegar al final vuelve a comenzar a correrlas de nuevo.
 
 ```cpp
@@ -66,8 +54,7 @@ void loop () {
 
 ### Comandos de arduino
 
-pinMode:
-
+${\color{orange}pinMode}$(): </br> <!--subtitulo-->
 determina si un pin GPIO es input o output
 
 ```cpp
@@ -75,8 +62,7 @@ pinMode(13, OUTPUT); // pin 13 emite voltaje
 pinmode(12, INPUT); // pin 12 recibe voltaje
 ```
 
-digitalWrite:
-
+${\color{orange}digitalWrite}$(): </br> <!--subtitulo-->
 Hace que un pin definido como OUTPUT emita o no una señal (voltaje) cuando le indiquemos
 
 ```cpp
@@ -84,9 +70,8 @@ digitalWrite(13, HIGH); // pin 13 emite voltaje
 digitalWrite(11, LOW); // pin 11 no emite voltaje
 ```
 
-delay:
 
-${\color{orange}delay}$(): <br/>
+${\color{orange}delay}$(): </br> <!--subtitulo-->
 El código va corriendo a **miles de líneas por segundo**, el comando delay() actúa como un lomo de toro, **frenando** por un tiempo determinado la ejecución del código en una **línea específica**.
 si el código va corriendo a 1000 lineas por segundo, por poner un ejemplo, el comando delay actúa como un lomo de toro, frenando por un tiempo determinado de tiempo la ejecución del código en una línea específica
 
@@ -101,8 +86,7 @@ void loop () {
 }
 ```
 
-int:
-
+${\color{cyan}int}$: </br> <!--subtitulo-->
 Variable, una palabra corresponde a un valor
 
 ```cpp
@@ -116,28 +100,27 @@ void loop () {
     delay(tiempoApagado); // LED se mantiene apagado por 5 segundos
 }
 ```
-````
 
-${\color{cyan}float}$: <br/>
+${\color{cyan}float}$: <br/> <!--subtitulo-->
 Se usa para variables que almacenarán **números con decimales**.
 ````
 float numeroDecimal = 6.9;
 ````
 
-${\color{cyan}bool}$: <br/>
+${\color{cyan}bool}$: <br/> <!--subtitulo-->
 Almacena un valor booleano: **TRUE** o **FALSE**.
 ````
 bool notFalse = true;
 bool truen't = false;
 ````
 
-${\color{cyan}char}$: <br/>
+${\color{cyan}char}$: <br/> <!--subtitulo-->
 Almacena un **único carácter** (character). Se escribe entre comillas simples.
 ````
 char letra = 'A';
 ````
 
-**String**: <br/>
+**String**: <br/> <!--subtitulo-->
 Almacena una **secuencia de caracteres o texto**. Se escribe entre comillas dobles.
 ````
 String mensaje = "Lorem ipsum dolor sit amet...";
@@ -195,12 +178,6 @@ etc() // función ya definida
 > Es posible transferir este código máquina de un microcontrolador a otro (si son idénticos), pero es prácticamente **imposible recuperar el código original** partir de él.
 
 -----------------------------------------------------------------------------------------------------------
-
 ## Encargo XX <!-- TEXT -->
+### Errores de Arduino
 
-## Encargo XX <!-- documentar intentos de código -->
-### TITULO
-
------------------------------------------------------------------------------------------------------------
-
-## Encargo YY <!-- TEXT -->
