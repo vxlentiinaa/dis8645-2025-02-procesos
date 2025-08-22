@@ -33,7 +33,7 @@ else{
 continuarConMiVida();
 }
 _______________________________
-*Más de una pregunta*
+//Más de una pregunta
 if (edad >= 18 AND edad <= 80) {
 permisoConducir();
 }
@@ -49,7 +49,7 @@ else {
 normalTransmision();
 }
 ```
-digitalWrite(#LED_BUILTON#, #prender#);
+digitalWrite(*LED_BUILTON*, *prender*);
 Mayuscula = variable
 Minuscula = constante
 
