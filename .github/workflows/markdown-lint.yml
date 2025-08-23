@@ -10,7 +10,7 @@ on:
       - main
     paths:
       - '**'
-      - '!28-FranUDP/
+      - '!28-FranUDP/'
 
 # Un workflow se compone de uno o mas jobs que pueden correr en serie o paralelo
 jobs:
