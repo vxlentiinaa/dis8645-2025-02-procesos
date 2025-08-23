@@ -1,14 +1,14 @@
 # sesion-03a
 
-## Clase 4: 19/08 MÁQUINAS COMPUTACIONALES ##
+## Clase 4: 19/08 MÁQUINAS COMPUTACIONALES
 
-### Apuntes ### 
+### Apuntes
 
-## Como hacer condicionales e iteradores 
+## Como hacer condicionales e iteradores
 
 Proyecto 01-> En grupo de 3 o 4 personas
 
-**Nota grupal**
+Nota grupal
 
 - Ordenado
   
@@ -16,7 +16,7 @@ Proyecto 01-> En grupo de 3 o 4 personas
   
 - Que funcione
   
-**Nota individual**
+Nota individual
 
 - Individual
   
@@ -30,19 +30,19 @@ Proyecto 01-> En grupo de 3 o 4 personas
 
 **else** (es una condición; alternativa)
 
-**end if**
+end if
 
-**else if**
+else if
 
-**Ejemplo** -> if (voyAlCerro = true){
+Ejemplo -> if (voyAlCerro = true){
 
 else
 
 }
 
-Describir primero con acciones 
+Describir primero con acciones
 
-**PALABRAS CLAVES**
+## PALABRAS CLAVES
 
 diagrama de flujo
 
@@ -50,5 +50,4 @@ diagrama de flujo
 
 int-> Número pequeño
 
-
-**Encargo 04: Investigar a NXND, NOR, XOR**
+## Encargo 04: Investigar a NAND, NOR, XOR**
