@@ -14,9 +14,10 @@ End if
 print(ln) = imprime y enter para la proxima vez que imprima
 "%" Módulo, para saber el resto (7%2=1)
 
-><https://docs.arduino.cc/language-reference/><
+<https://docs.arduino.cc/language-reference/>
 
 ## Examples
+
 ```cpp
 if (itIsRaining == true) {
 makeSopaipillas();
@@ -49,6 +50,7 @@ else {
 normalTransmision();
 }
 ```
+
 digitalWrite(*LED_BUILTON*, *prender*);
 Mayuscula = variable
 Minuscula = constante
@@ -120,8 +122,10 @@ Independiente
  dibujarPixel(i,j);
  }
 ```
-# Encargo
-####  NAND, NOR y XOR
+
+## Encargo
+
+### NAND, NOR y XOR
 
 Una compuerta lógica es un dispositivo digital que realiza operaciones binarias con uno o dos estados lógicos (0,1) en la entrada y obteniendo resultados booleanos (0,1) en la salida del sistema. Se pueden combinar entre si para obtener nuevas funciones.
 
@@ -136,4 +140,4 @@ Producto de Sumas (maxitérminos): Expresión booleana que reúne las variables 
 Suma de Productos (minitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un uno lógico.
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5cfd3a4b-3ec7-4bb2-a427-cafbb40ca84f" />
 
-Fuente: https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/
+Fuente: <https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/>
