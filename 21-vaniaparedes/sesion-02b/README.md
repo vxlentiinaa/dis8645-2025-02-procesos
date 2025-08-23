@@ -134,6 +134,6 @@ Dependiendo los resultados que la operación nos arroje se pueden clasificar los
 
 Producto de Sumas (maxitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un cero lógico.
 Suma de Productos (minitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un uno lógico.
-![ANDNORXOR](./imagenes/ANDNORXORComp.png)
+![ANDNORXOR](./imagenes/ANDNORXORComp..png)
 
 Fuente: https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/
