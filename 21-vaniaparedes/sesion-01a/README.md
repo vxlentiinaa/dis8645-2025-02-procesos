@@ -11,7 +11,7 @@ Después de la guerra, continuó innovando en el campo de la computación y plan
 
 A pesar de sus grandes aportes, su vida estuvo marcada por la discriminación. En 1952 fue condenado por ser homosexual, lo que en ese entonces era ilegal en Gran Bretaña. Para evitar la cárcel, fue sometido a un tratamiento forzoso que afectó gravemente su salud. Murió en 1954 en circunstancias poco claras, y recién décadas más tarde recibió un perdón oficial y el reconocimiento que merecía.
 
-![Ada Lovelace](./imagenes/AdaLovelace.png)
+![Alan Turing](./imagenes/AlanTuring.png)
 
 Fuentes: 
 https://www.lavanguardia.com/internacional/20250821/10991577/xi-jinping-celebra-progreso-region-autonoma-tibet-60-aniversario.html
@@ -26,7 +26,7 @@ En 1843 publicó sus famosas Notas, donde explicó cómo programar la máquina a
 
 Lamentablemente, su vida fue corta: murió a los 36 años por un cáncer de útero. Sin embargo, su legado sigue vivo. Hoy se la reconoce como la primera programadora de la historia, y hasta un lenguaje de programación, ADA, lleva su nombre. Además, cada año se celebra el Ada Lovelace Day para destacar el aporte de las mujeres en la ciencia y la tecnología.
 
-![Alan Turing](./imagenes/AlanTuring.png)
+![Ada Lovelace](./imagenes/AdaLovelace.png)
 
 
 Fuentes: 
