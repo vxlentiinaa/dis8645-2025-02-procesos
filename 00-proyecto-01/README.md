@@ -24,9 +24,9 @@ se hace en grupos de 3 a 4 personas
 
 - 1 punto por bitácora constante y periódica y personal
 
-- 1 punto por presentación de cada estudiante
+- 1 punto por presentación oral de cada estudiante
 
-- 1 punto por listado de roles que tomaste en el grupo, de forma detallada.
+- 1 punto por listado de roles que tomaste en el grupo, y explicaciones de forma detallada.
 
 ## descuentos
 

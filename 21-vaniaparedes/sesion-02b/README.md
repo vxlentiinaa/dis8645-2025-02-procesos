@@ -17,12 +17,12 @@ print(ln) = imprime y enter para la proxima vez que imprima
 ><https://docs.arduino.cc/language-reference/><
 
 ## Examples
-
+```cpp
 if (itIsRaining == true) {
 makeSopaipillas();
 }
 _______________________________
-*Se puede escribir una condición dentro de otra.
+//Se puede escribir una condición dentro de otra.
 if (see == false) {
 useGlasses();
 }
@@ -33,7 +33,7 @@ else{
 continuarConMiVida();
 }
 _______________________________
-*Más de una pregunta*
+//Más de una pregunta
 if (edad >= 18 AND edad <= 80) {
 permisoConducir();
 }
@@ -48,7 +48,8 @@ teleton();
 else {
 normalTransmision();
 }
-digitalWrite(#LED_BUILTON#, #prender#);
+```
+digitalWrite(*LED_BUILTON*, *prender*);
 Mayuscula = variable
 Minuscula = constante
 
@@ -96,7 +97,6 @@ Independiente
 
 ### Iterar
 
-```cpp
  // cuantas veces itero (variable i)
  int veces;
 
@@ -108,6 +108,7 @@ Independiente
  // y entre {} lo que quiero iterar
  // for (parto; termino; que hago cada paso)
 
+```cpp
  for (int i = 0; i<veces; i = i + 1)
 
  {
@@ -119,3 +120,20 @@ Independiente
  dibujarPixel(i,j);
  }
 ```
+# Encargo
+####  NAND, NOR y XOR
+
+Una compuerta lógica es un dispositivo digital que realiza operaciones binarias con uno o dos estados lógicos (0,1) en la entrada y obteniendo resultados booleanos (0,1) en la salida del sistema. Se pueden combinar entre si para obtener nuevas funciones.
+
+Las compuertas básicas son tres AND, OR y NOT, y sus compuertas complementarias son NAND, NOR. También existe una compuerta suplementaria XOR y su compuerta complementaria XNOR.
+Cada compuerta está asociada a un símbolo, una tabla de verdad y una operación booleana; que expresa el estado de su salida para cada combinación posible de las entradas.
+
+<img width="600" height="1024" alt="image" src="https://github.com/user-attachments/assets/c62ae479-6a78-49a1-8d8e-0d216af61bb2" />
+
+Dependiendo los resultados que la operación nos arroje se pueden clasificar los resultados en:
+
+Producto de Sumas (maxitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un cero lógico.
+Suma de Productos (minitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un uno lógico.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5cfd3a4b-3ec7-4bb2-a427-cafbb40ca84f" />
+
+Fuente: https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/
