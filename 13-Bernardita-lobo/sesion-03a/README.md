@@ -10,7 +10,7 @@ si eso ocurre entonces hace ciertas cosas
 
 algebra booleana
 
-las condiciones existen en todo tipo de lenguaje de progamacion, la condicion va entreparentecis 
+las condiciones existen en todo tipo de lenguaje de progamacion, la condicion va entreparentecis
 
 if (ver == false){
 
@@ -48,29 +48,28 @@ las compuertas de y son dependientes
 
 #### Tabla de verdad AND
 
-| A 	| B 	| OUT 	|
-|---	|---	|-----	|
-| 0 	| 0 	| 0   	|
-| 0 	| 1 	| 0   	|
-| 1 	| 0 	| 0   	|
-| 1 	| 1 	| 1   	|
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 0    |
+| 1  | 0  | 0    |
+| 1  | 1  | 1    |
 
 #### Tabla de verdad OR
 
-| A 	| B 	| OUT 	|
-|---	|---	|-----	|
-| 0 	| 0 	| 0   	|
-| 0 	| 1 	| 1   	|
-| 1 	| 0 	| 1   	|
-| 1 	| 1 	| 1   	|
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 1    |
 
 #### Tabla de verdad NOT
 
-| A 	| OUT 	|
-|---	|-----	|
-| 0 	| 1   	|
-| 1 	| 0   	|
-
+| A  | OUT  |
+|--- |----- |
+| 0  | 1    |
+| 1  | 0    |
 
 sofistas
 
