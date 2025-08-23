@@ -42,5 +42,5 @@ ListaEncargos::ListaEncargos()
         Encargo(
             6,
             "03b",
-            "documentar aprendizajes y dificultades del trabajo con pantallas y displas SSD1306 con simulador Wokwi"));
+            "documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi"));
 }
