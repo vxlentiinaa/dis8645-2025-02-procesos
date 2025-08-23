@@ -1,19 +1,21 @@
 # sesion-03a
 
-### Pantallas y pixeles
+## Pantallas y pixeles
+
 Nos importa la resolucion, el tamaño y el chip.
 
 Referentes:
->https://www.artesmediales.uchile.cl/academico/daniel-cruz/
->https://arteymedios.org/daniel-cruz/
-Charla: >https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/
+><https://www.artesmediales.uchile.cl/academico/daniel-cruz/>
+><https://arteymedios.org/daniel-cruz/>
+Charla: ><https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
 
 ### Encargo
+
 Navegador de poemas
 Si ocupo un codigo base de ejemplo, documentar en encargo y separar lo que es del ejemplo y que hice yo.
 Robar, modificar y citar.
 
-Plataforma: ≤https://www.tinkercad.com/
+Plataforma: ≤<https://www.tinkercad.com/>
 
 *Protocolo I2c* (4 puntos de conexión)
 Nos permite con menos hardware conectar distintos dispositivos en paralelo.
@@ -30,8 +32,8 @@ Pantalla no resive información, la emite.
 Si queremos queremos expandir nuestroa rduino: Libraries
 <img width="1089" height="779" alt="image" src="https://github.com/user-attachments/assets/d14b8563-77fe-4062-9a68-a93b6f125fc3" />
 
-Entrevista: 
->https://github.com/readme/stories/limor-fried
+Entrevista:
+><https://github.com/readme/stories/limor-fried>
 
 Esos números son hexadecimales que significan otras cosas en binario
 0x3C = 0111100
@@ -39,10 +41,10 @@ Esos números son hexadecimales que significan otras cosas en binario
 Solamente un elemento por dirección.
 
 Cuestionarse y entender limites materiales.
->https://www.wolframalpha.com/
+><https://www.wolframalpha.com/>
 
 Para poner imagenes:
->https://javl.github.io/image2cpp/
+><https://javl.github.io/image2cpp/>
 Transformar a bytes, importante la resolución.
 pegar en codigo, antes de setup
 cons unsigned char (name) [] PROQNEM = {
@@ -54,7 +56,7 @@ dentro de setup:
 linea(nº)= que dice
 
 [] para decir el lugar
-ejemplo: https://docs.arduino.cc/language-reference/en/variables/data-types/string/
+ejemplo: <https://docs.arduino.cc/language-reference/en/variables/data-types/string/>
 
 array: arreglo - Arreglo pared, variable ladrillos.
 For: Para secuencia.
