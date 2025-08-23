@@ -1,12 +1,14 @@
 # sesion-01b
+
 ## Clase 2: 08/08 MAQUINAS COMPUTACIONALES
+
 ### Apuntes 
 
 ## ARDUINO IDE: Softwere->
 
 **Paso 1**: Abrir arduino
 
-***Paso 2**: Select other board(arduino uno R4 minima COM3)
+**Paso 2**: Select other board (arduino uno R4 minima COM3)
 
 **Paso 3**: File-> Example-> Basics-> Blink
 
@@ -22,13 +24,13 @@
 
 **//:** Comentarios
 
-***/:** Termino
+***/:** Terminó
 
 **\*:** Inicio
 
-**M:** Mayúscula(signo de problemas)
+**M:** Mayúscula (signo de problemas)
 
-**m:** minusculas
+**m:** minúsculas
 
 **;:** Termino de un comando
 
@@ -42,17 +44,17 @@
 
 **delay:** Es el nivel de tiempo congelado (no es recomendable usar)
 
-**int:** son variables
+**int:** Son variables
 
 **chart:** Solo una letra o un caracter 
 
-**bool:** sí/no
+**bool:** Sí/no
 
 **and:** Debí
 
 **or:**
 
-**for:** iteración
+**for:** Iteración
 
 **crtl+t:** Ordena todo
 
@@ -64,10 +66,12 @@
 
 int x cosa = 100 (Parametros);
 
-**✔️ VERIFY:** se puede verificar un codigo incluso aun asi no estes con el arduino a mano
+**✔️ VERIFY:** Se puede verificar un codigo incluso aún asi no estes con el arduino a mano
 
 **-> UPLOOP:** Con este se puede mandar directamente con/sin verificar al arduino, este se utiliza con el puerto USB
 
 **ARDUINO/MICROCONTROLADOR**
 Lo bueno y bello es que si se sube un codigo mal hecho por mas que lo intentes no te lo acepta, ademas cuenta con una alta protección para no quemarse.
 *Se puede hacer lo mismo de diferentes maneras en la computación*
+
+**Encargo 02: Crear codigos en arduino mínimo 3 máximo 5 (registrar las fallas)**
