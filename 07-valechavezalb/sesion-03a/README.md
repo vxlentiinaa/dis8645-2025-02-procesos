@@ -1,16 +1,19 @@
-#### viernes 22 de agosto de 2025
+# Clase 5
 
-# Clase 5 
+viernes 22 de agosto de 2025
 
-### Apuntes clases 
+## Apuntes clases
+
 - Daniel Cruz, artista electrónico.
 - Tesis explicar por qué hiciste algo escuchar y leer oara saber más.
 - Hackeria, Christian Oyarzún.
 - Protocolo síncrono.
 - Adafruit, Limor Fried.
 
-#### Prefijos Métrico
+## Prefijos Métrico
+
 Son el tamaño de las tecnologías que estamos usando.
+
 - centi
 - milli
 - micro
@@ -19,22 +22,23 @@ Son el tamaño de las tecnologías que estamos usando.
 - femto
 - atto ...etc.
 
-#### WOKWI
+## WOKWI
+
 Wokwi es un simulador de electrónicos en línea, donde se pueden diseñar y programar proyectos en arduino, raspberry pi pico, ESP32, etc.
-- GND. 
+
+- GND.
 - VCC (tierra) de donde vamos a empezar a contar el voltaje 5v, que es lo que necesita la pantalla para funcionar.
 - para conecatr la pantalla se debe conectar desde powe
 r en el arduino.
 - unit16t es un entero de 16 bits 0000 0000 0000 0000 = 2¹⁶ "2 elevado a la cantidad de número de bits".
   255 0 0, todo rojo, nada verde, nada azul (RGB).
 
+## CONEXIONES CON ARDUINO
 
-### CONEXIONES CON ARDUINO
- 
   *insertar imagen de las conexiones de arduino
 
+## CÓDIGOS BASE UTILIZADO
 
-### CÓDIGOS BASE UTILIZADO
 ```cpp
 /**************************************************************************
  This is an example for our Monochrome OLEDs based on SSD1306 drivers
@@ -140,6 +144,7 @@ void setup() {
 ```
 
 ### CÓDIGO CON LA IMAGEN
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -439,6 +444,7 @@ void loop() {
 ```
 
 ### FUNCIÓN SCROLL MODIFICADA PARA QUE RECIBA UN PARÁMETRO STRING
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -518,39 +524,26 @@ void loop() {
 ```
 
 #### BIBLIOTECAS
+
 ¿Cómo setear las bibliotecas en arduino?
 En la parte de las bibliotecas de arduino buscar: ssd1306 y adafruit gfx, algunas tienen dependencias, es por eso que al instalar las librerías se tienen que instalar las dependencias para que funcionen.
 
 #### ¿Qué es i2c?
+
 I²C significa Inter-Integrated Circuit. Que es un **protocolo de comuniación**, usado en electrónica y microcontroladores. Sirve para que varios dispositivos electrónicos como sensores, pantallas, etc., **se comuníquen con un microcontrolador usando solo 2 cables**.
 
-### Para el encargo...
+### Para el encargo
+
 - Se pueden usar "plantillas de código" pero siempre decir de dónde saqué el código, qué es lo que hice, lo que modifiqué, etc. **Citar**.
 - Contador.
 - Comando "pantallita.display" es muy importante para que funcione la pantalla. Y que después se pueda dibujar y mostrar lo que quiero mostrar.
 - Para los poemas se pueden poner tipografías en la pantalla, cortarlo, escribirlo, etc.
 
-# ¿Cómo incluyo imágenes en la pantallita?
+## ¿Cómo incluyo imágenes en la pantallita?
+
 1. se escoge una imagen.
 2. [https://javl.github.io/image2cpp/] se ingresa a este linj y se ajusta la resolución. Se puede escalar segun las proporciones, etc. Y también se puede ver el preview.
 3. Se genera el código
 4. Luego en el código se escribe en
 
-
 (**tener en cuenta que mucha resolución puede afectar el procesamiento del arduino**)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
