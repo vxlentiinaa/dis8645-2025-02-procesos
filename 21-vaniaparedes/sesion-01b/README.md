@@ -30,23 +30,23 @@ Variables: así = 7;
 
 ## Encargo
 
-<img width="915" height="613" alt="Screen Shot 2025-08-23 at 10 32 08" src="https://github.com/user-attachments/assets/80f92bf1-0389-46a9-8d97-b9deb42f8fa5" />
+![error1](./imagenes/error1.png)
 
 No declaré "seconds"
 
-<img width="910" height="616" alt="Screen Shot 2025-08-23 at 10 52 18" src="https://github.com/user-attachments/assets/635b1f72-f41d-427e-a6b8-2afb1e9431ce" />
+![error2](./imagenes/error2.png)
 
 Escribí mal "unsigned long" entonces no le lo leyó bien
 
-<img width="918" height="616" alt="Screen Shot 2025-08-23 at 10 56 52" src="https://github.com/user-attachments/assets/1a317ff2-8bc2-4c17-a98f-b7f001287069" />
+![error3](./imagenes/error3.png)
 
 Olvidé poner ";" en "Serial.begin(9600)"
 
-<img width="920" height="613" alt="Screen Shot 2025-08-23 at 10 57 26" src="https://github.com/user-attachments/assets/e50c54df-e6b5-492e-9cb3-340d33fcdf6c" />
+![error4](./imagenes/error4.png)
 
 No supe ocupar realmente el AND
 
-<img width="946" height="600" alt="Screen Shot 2025-08-23 at 11 33 45" src="https://github.com/user-attachments/assets/d495cb32-a35e-4d24-895c-795a26519e46" />
+![Solución de error](./imagenes/solucionado.png)
 
 Arregladoo! :
 
