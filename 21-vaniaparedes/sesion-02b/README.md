@@ -132,12 +132,12 @@ Una compuerta lógica es un dispositivo digital que realiza operaciones binarias
 Las compuertas básicas son tres AND, OR y NOT, y sus compuertas complementarias son NAND, NOR. También existe una compuerta suplementaria XOR y su compuerta complementaria XNOR.
 Cada compuerta está asociada a un símbolo, una tabla de verdad y una operación booleana; que expresa el estado de su salida para cada combinación posible de las entradas.
 
-<img width="600" height="1024" alt="image" src="https://github.com/user-attachments/assets/c62ae479-6a78-49a1-8d8e-0d216af61bb2" />
+![ANDNORXOR](./imagenes/ANDNORXOR.png)
 
 Dependiendo los resultados que la operación nos arroje se pueden clasificar los resultados en:
 
 Producto de Sumas (maxitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un cero lógico.
 Suma de Productos (minitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un uno lógico.
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5cfd3a4b-3ec7-4bb2-a427-cafbb40ca84f" />
+![ANDNORXOR](./imagenes/ANDNORXORComp..png)
 
 Fuente: <https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/>
