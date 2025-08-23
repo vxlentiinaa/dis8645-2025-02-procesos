@@ -1,11 +1,12 @@
 # sesion-03a
--19-08-2025
-## Apuntes 
-**CONDICIONES**
 
+-19-08-2025
+
+## Apuntes
+
+CONDICIONES
 
 <https://docs.arduino.cc/language-reference/en/structure/control-structure/if)>
-
 
 <https://docs.arduino.cc/language-reference/en/structure/control-structure/else>
 
@@ -17,6 +18,7 @@ else
 ```
 
 -Ejemplo 1
+
 ```cpp
 if (estaLloviendo == true) {
     hacerSopaipillas();
@@ -27,6 +29,7 @@ else {
 ```
 
 -Ejemplo 2
+
 ```cpp
 // Si no hay araña, reacciono tranqui
 
@@ -39,6 +42,7 @@ else {
 ```
 
 -Ejemplo 3
+
 ```cpp
 // si mi edad es igual o mayor a 18
 // y es menor a 80
@@ -50,7 +54,8 @@ if (edad >= 18 AND edad < 80){
 
 -Ejemplo 4
 
-*! = Variable = negacion,opuesto 
+*! = Variable = negacion,opuesto
+
 ```cpp
 // !
 if (diciembre AND donFrancisco AND !godZilla AND !lecciones){
@@ -58,17 +63,18 @@ if (diciembre AND donFrancisco AND !godZilla AND !lecciones){
 }
 ```
 
-**ITERADORES**
+ITERADORES
 
 <https://docs.arduino.cc/language-reference/en/variables/data-types/int>
-
 
 <https://docs.arduino.cc/language-reference/en/structure/control-structure/for>
 
 Iterar
+
 * int i = partida
 * i<veces = termino
-* i = i+1 = que hace despues de actualizar 
+* i = i+1 = que hace despues de actualizar
+
 ```cpp
 for (int i ; i<veces; i = i+1)
 
@@ -77,6 +83,7 @@ for (int i ; i<veces; i = i+1)
 -Ejemplo 1
 
 *i+1 = i++
+
 ```cpp
 int numEstudiantes = 29;
 
@@ -109,10 +116,10 @@ void setup() ;
   }
 }
 ```
+
 -Ejemplo 2
 
 *7/2 = (3) divicion
-
 
 *7%2 = (1) modulo
 
@@ -172,12 +179,12 @@ void loop() {
 }
 
 ```
-**operadres lógicos**
 
+operadres lógicos
 
 ### AND
 
-```
+```txt
 A | B | OUT
 --+---+----
 0 | 0 | 0
@@ -188,7 +195,7 @@ A | B | OUT
 
 ### OR
 
-```
+```txt
 A | B | OUT
 --+---+----
 0 | 0 | 0
@@ -199,7 +206,7 @@ A | B | OUT
 
 ### NOT
 
-```
+```txt
 A | OUT
 --+----
 0 | 1
@@ -208,7 +215,7 @@ A | OUT
 
 ### NAND
 
-```
+```txt
 A | B | OUT
 --+---+----
 0 | 0 | 1
@@ -219,7 +226,7 @@ A | B | OUT
 
 ### NOR
 
-```
+```txt
 A | B | OUT
 --+---+----
 0 | 0 | 1
@@ -230,7 +237,7 @@ A | B | OUT
 
 ### XOR
 
-```
+```txt
 A | B | OUT
 --+---+----
 0 | 0 | 0
@@ -238,8 +245,8 @@ A | B | OUT
 1 | 0 | 1
 1 | 1 | 0
 ```
-### Ejercicio 
 
+### Ejercicio
 
 ```cpp
 // Ejercicio 1, Onda en el bucle
@@ -272,32 +279,5 @@ Serial.println();
 delay(300);
 }
 ```
+
 realizado con ayuda de [@adrianalessandro](https://github.com/adrianalessandro) para algunas correcciones del codigo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
