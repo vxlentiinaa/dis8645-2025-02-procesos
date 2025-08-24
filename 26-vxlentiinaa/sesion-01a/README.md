@@ -74,10 +74,12 @@ PCB SMT: PCB Pick and Place
  
 Nació el 10 de diciembre de 1815 y falleció el 27 de noviembre de 1852. Fue una matemática y escritora británica. Quién hizo un trabajo acerca de la computadora mecánica de uso general de Charles Babbage llamada máquina analítica (máquina analítica: máquina que tenía aplicaciones más allá del cálculo puro). Fue considerada como la primera programadora de ordenadores y estudiante de la matemática. Ada se refería a sí misma como una científica poetisa y analista (y metafísica).
 
+![Ada Lovelace](./imagenes/AdaLovelace.jpeg)
+
 ## Alan Turing
 
 [Alan Turing](https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352)
 
 Nació el 23 de junio de 1912 y falleció el 7 de junio de 1954. Fue un matemático, lógico, informático teórico, criptógrafo, filósofo y biólogo teórico británico. Es considerado como uno de los pioneros de la ciencia de la computación y precursor de la informática moderna. En 1935, Turing inventó la "Máquina de Turing", un dispositivo de computación que identificaba símbolos sobre una tira de cinta de acuerdo con una tabla de reglas y era capaz de alterar su algoritmo. Alan descifró los códigos que los nazis enviaban con su máquina Enigma. Aunque gracias a su descubrimiento se salvaron millones de personas, Turing tuvo que hacer frente a la intransigencia de su época, que lo convirtió en un paria y acabó con su vida. 
 
-
+![Alan Turing](./imagenes/AlanTuring.jpg)
