@@ -29,7 +29,7 @@ Para esta clase trabajamos en el simulador Wokwi <https://wokwi.com/>, otro simu
 
 A la hora de trabajar debemos preocuparnos de revisar la alimentación que necesita, en este caso, con la pantalla y el arduino r4 minima es de 3.3 v.
 
-Referencias:
+### Referencias:
 
 
 * [I²C](https://en.wikipedia.org/wiki/I²C) protocolo que nos simplifica conectar 2 dispositivos entre sí.
