@@ -3,6 +3,7 @@
 ## Apuntes clase
 
 **Operadores lógicos**
+
 AND: inputs mutuamente dependientes -> **&&**
 
 OR: inputs independientes -> **| |**
