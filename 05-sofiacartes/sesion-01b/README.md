@@ -18,7 +18,7 @@
 
 ¿Qué es arduino?
  
-Es un dialecto,
+Es un dialecto, se llama código abierto, lo quee nos permite crear proyectos electrónicos que podemos conservar en este y al conectarlo ya esté.
 
 * **Arduino IDE** -> de entorno de desarrollo integrado. Es la interfaz gráfica, tiene varios software que conviven entre si.
   
