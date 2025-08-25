@@ -4,23 +4,23 @@
 
 ### Apuntes
 
-(Esta clase falte por temas personales, mia apuntes son de las grabaciones)
+(Esta clase falté por temas personales, mis apuntes son de las grabaciones)
 
 ## Github
 
-**Fork->** Crear uno nuevo para aparecer en el github
+**Fork->** Crear uno nuevo para aparecer en el Github
 
 **Sync Fork->** Sincronización
 
-- Tiene que aparecer la rama sola, eso significa que esta bien hecho, ademas en el link original no se trabaja, siempre en el propio el /yamna-bit
+- Tiene que aparecer la rama sola, eso significa que está bien hecho, además en el link original no se trabaja, siempre en el propio el /yamna-bit
 
-**Cambio->** Se hace commit chages para hacer la petición de actualización
+**Cambio->** Se hace *commit changes* para hacer la petición de actualización
 
-*Es como un drive (nube)
+*Es como un drive (nube)*
 
-- Para subir apuntes, archivos o fotos, lo primero es entrar a la carpeta personal y verificar si estas en tu usuario /yamna-bit, darle a editar y se puede escrbir e ir visualizando a la vez.
+- Para subir apuntes, archivos o fotos, lo primero es entrar a la carpeta personal y verificar si estás en tu usuario /yamna-bit, darle a editar y se puede escribir e ir visualizando a la vez.
 
-COMANDOS
+### COMANDOS
 
 `#` : Es título
 
@@ -28,7 +28,7 @@ COMANDOS
 
 `###` : Es sub-subtítulo
 
-LO QUE ESTA ENTRE ASTERISCOS QUEDA *EN CURSIVA*
+LO QUE ESTÁ ENTRE ASTERISCOS QUEDA *EN CURSIVA*
 
 ESTO ES **BOLD**
 
@@ -36,12 +36,12 @@ ESTO ES **BOLD**
 
 **New issues** -> Ayuda en tareas
 
-Culutura electronica
+Cultura electrónica
 
-BOTON ROJO ES UN NO ROTUNDO
+BOTÓN ROJO ES UN NO ROTUNDO
 
-Desde guardar en arduino se sube el archivo no solo el codigo, sino la carpeta completa se arrastra a github
+Desde guardar en Arduino se sube el archivo, no solo el código, sino la carpeta completa se arrastra a Github.
 
-- Cuenta con un limite de vida
+- Cuenta con un límite de vida
 
-## Encargo 03: Subir apuntes a github
+Encargo 03: Subir apuntes a Github
