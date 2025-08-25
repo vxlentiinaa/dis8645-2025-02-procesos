@@ -79,7 +79,7 @@ Nuestro computador es nuestro taller. Para utilizar las bibliotecas, es importan
 
 Es difícil hacer que funcionen los códigos en nuestros computadores, pero es aún más difícil hacer que nuestros códigos funcionen en otros computadores.
 
-## Referentes 
+### Referentes 
 
 https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
 
