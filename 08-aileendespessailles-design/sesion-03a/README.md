@@ -21,11 +21,13 @@ digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(1000/10);                   // wait for a second partido en 10
 
-se puede cambiar igual el tiempo, designando antes de setup
+//se puede cambiar igual el tiempo, designando antes de setup
 
 ##### EJEMPLO
 int tiempoPrendido = 100;
+
 int tiempoApagado = 300;
+
   // the loop function runs over and over again forever
 void loop() {
   // prende
@@ -42,7 +44,7 @@ void loop() {
 - String poema es el mensaje que manda, como agregar mas texto a un mensaje 
 - La cosas verdes existen en c++, como void loop int
 - C++ es un ejemplo de lenguaje de programación compilado, multiparadigma, principalmente de tipo imperativo y orientado a objetos
-In C++, there are different types of variables (defined with different keywords), for example:
+- In C++, there are different types of variables (defined with different keywords), for example:
 int - stores integers (whole numbers), without decimals, such as 123 or -123
 ######double - stores floating point numbers, with decimals, such as 19.99 or -19.99
 ######char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
