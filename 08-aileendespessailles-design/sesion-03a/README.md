@@ -1,6 +1,6 @@
 # sesion-03a
 
-##Condicionales 
+## Condicionales 
 
 - If ( boolean condition) Then (consecuense) Else (alternative) End if
 - // comentar
@@ -11,14 +11,14 @@
 - bool prender 
 - unsinged log
   
-###EJEMPLO: 
+### EJEMPLO: 
 if(diciembre AND donFrancisco==true){
 teleton();
 {
 else{
 continuamosTransmisionesNormales ();
 
-##Operadores lógicos 
+## Operadores lógicos 
 - compuerta and Y/and solo si ambas variantes se cumplen es si: &
 - compuerta O/or si una variable se cumple la respuesta es si: ||
 - compuerta no/not hace lo contrario de la otra variante ( inversor) : !
@@ -34,13 +34,13 @@ continuamosTransmisionesNormales ();
 //3 actulizacio
 //y ente {} lo que quiero iterar
 
-####ejemplo: 
+#### ejemplo: 
 for(lunes;domingo; dia=dia+1)
 {
 hazEsto(); 
 }
 
-####ejemplo: 
+#### ejemplo: 
 for(int i =0;i<veces; 1=1+1)
 {
 hazEsto(); 
