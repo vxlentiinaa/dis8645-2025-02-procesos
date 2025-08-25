@@ -130,7 +130,9 @@ También se quería realizar que el pin13 solo se prenda 15 veces y después se 
 
 **Se puso la información en void loop en vez de void setup**
 
-![imagen del código 02 mal](./imagenes/código02.png)
+*En sí, el código no está mal, pero no hizo lo que yo quiero que realice*
+
+![imagen del código 02 mal](./imagenes/código03.png)
 
 ### Código_03 arreglado 
 
@@ -147,7 +149,6 @@ delay(500);
 digitalWrite(13,LOW);
 delay(500);
 }
-
 
 }
 void loop() {
