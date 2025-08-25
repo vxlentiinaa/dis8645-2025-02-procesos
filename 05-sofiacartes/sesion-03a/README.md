@@ -113,4 +113,39 @@ unsigned long segundos = millis() / 1000;
 
 ## Encargo 03
 
-Investigar NAND, NOR, XOR, XNOR
+Investigar NAND, NOR, XOR, XNOR.
+
+**¿Qué es una copuerta lógica?**
+
+Es un circuito electrónico que opera con una o más señales para obtener un output.
+
+* Compuerta **NAND**: Tiene dos o más entradas y una salida. Es complementaria  a la función AND.
+  
+| | |output|
+|-|-|-|
+|0|0|1|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+* Compuerta **NOR**: Tiene dos o más entradas y sólo una salida. Es el complemento de la función OR.
+  
+| | |output|
+|-|-|-|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|0|
+
+* Compuerta **XOR**: Tiene de salida 1 verdadero, cuando ambas entradas son opuestas es verdadero o 1. Si ambas entradas son iguales es falso o 0.
+  
+  | | |output|
+|-|-|-|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+* Compuerta **XNOR**: Tiene de 
+
+
