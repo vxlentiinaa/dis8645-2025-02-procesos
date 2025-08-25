@@ -1,1 +1,2 @@
-# sesion-02b
+# sesion-02b ୨ৎ
+FERIADO 𐔌՞꜆. ̫.꜀՞𐦯 
