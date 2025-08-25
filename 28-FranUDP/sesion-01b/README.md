@@ -28,7 +28,7 @@ pinMode(text, example); <!-- comentario markdown -->
 ${\color{orange}setup}$( ): </br> <!--subtitulo-->
 **Función** que ejecuta las líneas de código desde arriba a abajo **una sola vez**, es decir, sin repetirlas.
 
-Es lo primero que se ejecuta al resetar o darle poder a un microprocesador
+Es lo primero que se ejecuta al resetar o darle poder a un microprocesador.
 
 Se utiliza para configurar el comportamiento inicial del programa, como designar si los pines **GPIO** (**G**eneral **P**urpose **I**nput/**O**utput) son **INPUT** o **OUTPUT**, iniciar la comunicación serial por **USB** (**U**niversal **S**erial **B**us), etc.
 
@@ -55,7 +55,7 @@ void loop () {
 ### Comandos de arduino
 
 ${\color{orange}pinMode}$( ): </br> <!--subtitulo-->
-determina si un pin GPIO es input o output
+determina si un pin GPIO es INPUT o OUTPUT.
 
 ```cpp
 pinMode(13, OUTPUT); // pin 13 emite voltaje
@@ -63,7 +63,7 @@ pinmode(12, INPUT); // pin 12 recibe voltaje
 ```
 
 ${\color{orange}digitalWrite}$( ): </br> <!--subtitulo-->
-Hace que un pin definido como OUTPUT emita o no una señal (voltaje) cuando le indiquemos
+Hace que un pin definido como OUTPUT emita o no una señal (voltaje) cuando le indiquemos.
 
 ```cpp
 digitalWrite(13, HIGH); // pin 13 emite voltaje
@@ -73,7 +73,7 @@ digitalWrite(11, LOW); // pin 11 no emite voltaje
 
 ${\color{orange}delay}$( ): </br> <!--subtitulo-->
 El código va corriendo a **miles de líneas por segundo**, el comando delay() actúa como un lomo de toro, **frenando** por un tiempo determinado la ejecución del código en una **línea específica**.
-si el código va corriendo a 1000 lineas por segundo, por poner un ejemplo, el comando delay actúa como un lomo de toro, frenando por un tiempo determinado de tiempo la ejecución del código en una línea específica
+si el código va corriendo a 1000 lineas por segundo, por poner un ejemplo, el comando delay actúa como un lomo de toro, frenando por un tiempo determinado de tiempo la ejecución del código en una línea específica.
 
 El tiempo se especifica en **milisegundos** (1000 milisegundos = 1 segundo).
 
@@ -87,7 +87,7 @@ void loop () {
 ```
 
 ${\color{cyan}int}$: </br> <!--subtitulo-->
-Variable, una palabra corresponde a un valor
+Variable, una palabra corresponde a un valor.
 
 ```cpp
 int tiempoEncendido = 1000; // variable
@@ -149,14 +149,10 @@ void loop () {
 
 
 ### Other things: <!-- Things to organize + random stuff -->
->
-> ### Funciones
->
-> definidas como una palabra seguida de un parentesis, es similar a una variable en que usa algo que fue definido por una palabra, pero en lugar de llamar un valor, llama un código ya escrito en otra parte, cómo una librería descargada.
 > ### Funciones:
 > Una función es un bloque de código reutilizable que realiza una tarea específica. Se la identifica por un ${\color{orange}nombre}$ seguido de **paréntesis ()**. En lugar de llamar a un valor (como una variable), se "llama" a un **bloque de código** para que se ejecute.
 >
-> dentro del parentesis van el o los parámetros que definen cómo se va a comportar la función
+> Dentro del parentesis van el o los parámetros que definen cómo se va a comportar la función.
 
 ```cpp
 void loop() {
@@ -210,7 +206,7 @@ Quería hacer que el tiempo que se mantiene **encendido** el **LED** del **pin 1
 
 Sin embargo, el comportamiento del **LED** no es el que esperaba, **se mantiene encendido y no se apaga**.
 
-Pensé que el operador ${\color{yellow}!}$ haría que el valor de la variable ${\color{cyan}time}$ fuese el **opuesto**, mas, según mi modelo de IA preferido para codificar, el operador ${\color{yellow}!}$ se usa para ${\color{cyan}booleanos}$, por lo que al ser ${\color{cyan}time}$ un valor superior a **0**, o en términos booleanos, **verdadero**, al poner el operador ${\color{yellow}!}$ frente a la variable ${\color{cyan}time}$, obtenemos siempre un **output** **falso**, por lo que el **LED** se apaga por un total de **0 milisegundos**.
+Pensé que el operador ${\color{yellow}!}$ haría que el valor de la variable ${\color{cyan}time}$ fuese el **opuesto**, mas, según mi modelo de IA preferido para codificar, el operador ${\color{yellow}!}$ se usa para ${\color{cyan}booleanos}$, por lo que al ser ${\color{cyan}time}$ un valor superior a **0**, o en términos booleanos, **verdadero**, al poner el operador ${\color{yellow}!}$ frente a la variable ${\color{cyan}time}$, obtenemos siempre un **OUTPUT** **FALSO**, por lo que el **LED** se apaga por un total de **0 milisegundos**.
 
 ### V2
 ````cpp
