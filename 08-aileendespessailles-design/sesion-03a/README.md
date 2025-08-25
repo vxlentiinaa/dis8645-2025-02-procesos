@@ -1,9 +1,9 @@
 # sesion-03a
 
--void setup, instruccion de inicio 
--loop setup, despues se repite en loop todo lo que esta escrito ahi 
--check, lo manda al arduino
--veryfy, revisa si hay problemas en el code
+- void setup, instruccion de inicio 
+- loop setup, despues se repite en loop todo lo que esta escrito ahi 
+- check, lo manda al arduino
+- veryfy, revisa si hay problemas en el code
 #### Ejemplos de programaciones dentro de arduino 
 Files -> exampples 
 ##### Ejemplo codigo que parpadea 
