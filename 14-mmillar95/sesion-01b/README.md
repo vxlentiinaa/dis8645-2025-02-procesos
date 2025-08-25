@@ -59,4 +59,4 @@ void loop() {
 
 **error no finalizar con ;**
 
-![imagen del código mal](./imagenes)
+![imagen del código mal](./imagenes/código01.png)
