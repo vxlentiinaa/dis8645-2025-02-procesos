@@ -45,7 +45,7 @@ void loop() {
 }
 ```
 
-### Encargo 
+## Encargo 
 
 #### Realizar y documentar 3 códigos como mínimo, los cuales deben tener error y solucionarlos (intentar) 
 #### Generar codigos, solo con la placa de arduino
@@ -91,3 +91,81 @@ delay(1000);
 }
 ```
 
+### Código_02
+
+Al igual que en el codigo anterir se utilizara el pin 13 que esta en el ardiono, y este led cambiuara de intendiad (alta/baja). 
+
+Con delay(500) y delay(1000).
+
+**Error al poner : en vez de poner ;** *(línea 9)*
+
+![imagen del código 02 mal](./imagenes/código02.png)
+
+### Código_02 arreglado 
+
+```cpp
+void setup() {
+  // put your setup code here, to run once:
+pinMode(13,OUTPUT);  //declaramos que pin se utilizara
+}
+
+void loop() {  //función de forma repetitiva 
+  // put your main code here, to run repeatedly:
+analogWrite (13,10); // el segundo digito indica la intencidad del pin (intensidad baja)
+delay(500); //
+
+analogWrite(13,255); // el segundo digito indica la intencidad del pin (intensidad alta)
+delay(1000);
+
+}
+```
+
+### Código_03
+
+Para este código quería probar otras variantes como el for. 
+
+También se quería realizar que el pin13 solo se prenda 15 veces y después se apague.
+
+**Error el pin13 se prendía constantemente**
+
+**Se puso la información en void loop en vez de void setup**
+
+*En sí, el código no está mal, pero no hizo lo que yo quiero que realice*
+
+![imagen del código 02 mal](./imagenes/código03.png)
+
+### Código_03 arreglado 
+
+```cpp
+void setup() {
+  // put your setup code here, to run once:
+pinMode(13,OUTPUT);
+  // put your main code here, to run repeatedly:
+for(int i = 0; i<15; i++){  //    int i = 0   es el pin que estare utilizando INICIO / PARTIDA
+                            //   i<15 es la cantidad que recorre              CONDICION / TERMINO
+                            //   i++   es i 1+1                               CRECIMIENTO / ACTUALIZACIÓN 
+digitalWrite(13,HIGH);
+delay(500);
+digitalWrite(13,LOW);
+delay(500);
+}
+
+}
+void loop() {
+
+}
+```
+
+## Material de apoyo
+
+video referencial que ayuda a entender los componentes de la placa arduino y su funcionamiento
+
+[I'm an inline-style link](https://www.youtube.com/watch?v=EEKMPT_YcTI&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB&index=3)
+
+video referencial for arduino
+
+[I'm an inline-style link](https://www.youtube.com/watch?v=e8CEpAQ4otU )
+
+libro de kit arduino, descripción de componentes y proyectos para realizar
+
+Libro de proyectos Arduino (kit arduino)
