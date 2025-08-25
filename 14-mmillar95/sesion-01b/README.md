@@ -45,7 +45,7 @@ void loop() {
 }
 ```
 
-### Encargo 
+## Encargo 
 
 #### Realizar y documentar 3 códigos como mínimo, los cuales deben tener error y solucionarlos (intentar) 
 #### Generar codigos, solo con la placa de arduino
@@ -155,3 +155,17 @@ void loop() {
 
 }
 ```
+
+## Material de apoyo
+
+video referencial que ayuda a entender los componentes de la placa arduino y su funcionamiento
+
+[I'm an inline-style link](https://www.youtube.com/watch?v=EEKMPT_YcTI&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB&index=3)
+
+video referencial for arduino
+
+[I'm an inline-style link](https://www.youtube.com/watch?v=e8CEpAQ4otU )
+
+libro de kit arduino, descripción de componentes y proyectos para realizar
+
+Libro de proyectos Arduino (kit arduino)
