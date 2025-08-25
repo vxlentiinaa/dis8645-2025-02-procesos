@@ -18,15 +18,12 @@ Me gustaría aprender a imaginar cómo funciona la programación, persistir en e
 
 ### Horarios
 
-08:30 - 09:00 Llegar
-
-09:00 - 10:30 Trabajar
-
-10:30 - 11:00 Descansar
-
-11:00 - 12:30 Trabajar
-
-12:30 - 12:50 Ordenar
+| 08:30 - 09:00 	| Llegar    	|
+|---------------	|-----------	|
+| 09:00 - 10:30 	| Trabajar  	|
+| 10:30 - 11:00 	| Descansar 	|
+| 11:00 - 12:30 	| Trabajar  	|
+| 12:30 - 12:50 	| Ordenar   	|
 
 ### Introducción de contenidos  
 
