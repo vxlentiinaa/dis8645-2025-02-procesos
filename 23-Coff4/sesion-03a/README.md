@@ -1,4 +1,5 @@
 # sesion-03a
+
 ## Otro dia aprendiendo a programar de 0 (=･ x ･=)
 
 Para la clase del mismo martes...
@@ -34,7 +35,6 @@ Por lo tanto buscare expandir por mi cuenta esto y volvere para complementar con
 
 - return: sirve para terminar todo y cerrar
 
-
 ---
 
 Ahora por la noche esta lloviendo y hay nieve...es agradable aun teniendo fuertes dolores de cabeza.
@@ -45,7 +45,7 @@ al menos las clases seran online (＿ ＿*)
 
 ## Actualizacion de contenido
 
-*Con la clase ya en mi posesion actualizare este documento con la nueva informacion como prometi*
+Con la clase ya en mi posesion actualizare este documento con la nueva informacion como prometi
 
 - =: con este se asigna un valor
 
@@ -70,7 +70,7 @@ verelnuevocap
 ``
 
 ahora para entenderlo es simple.
-condicional: puede que haya un nuevo capitulo, pero si la afirmacion es falsa tengo que hacer tarea. 
+condicional: puede que haya un nuevo capitulo, pero si la afirmacion es falsa tengo que hacer tarea.
 aunque puede que falte tiempo para que se transmita y por ello se puede esperar.
 
 por otro lado puede que salga y lo vea inmediatamente.
