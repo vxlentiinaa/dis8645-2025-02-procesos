@@ -56,8 +56,8 @@ if(saldo>250){
 }else{
  Serial.println("SALDO INSUFICIENTE")
 }
+
 ```
-}
 
 **Ejemplos vistos en clases**
 
@@ -146,6 +146,12 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 |1|0|1|
 |1|1|0|
 
-* Compuerta **XNOR**: Tiene de 
-
+* Compuerta **XNOR**: Produce 1/verdadero solo cuando el voltaje de las dos entradas es el mismo. Las entradas opuestas tienen salida 0/falso.
+  
+  | | |output|
+|-|-|-|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
 
