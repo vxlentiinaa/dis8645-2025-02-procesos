@@ -86,7 +86,7 @@ La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de 
 
 FALTA ESTO*
 
-terminal
+[Terminal:](https://www.lenovo.com/es/es/glossary/terminal/) Un terminal es esencialmente una interfaz de usuario basada en texto para interactuar con los ordenadores. Permite a los usuarios ejecutar comandos y ver los resultados, así como controlar las aplicaciones que se ejecutan en el ordenador. 
 
 basic lenguaje de progamacion
 

@@ -1,83 +1,85 @@
-# sesion-03
+# Sesión-03
 
 ## Trabajo en clase / Viernes 22 de agosto , 2025
 
 ### Cosas que hablamos en la mañana
 
-hablamos de las pantallas, y la cantidad depixeles qie tieneen, y como eso influye es la resoluciomn y como Hay que programar
-el arduino puede enviar datos a las
+Hablamos de las pantallas y la cantidad de pixeles que tienen, y cómo eso influye en la resolución y en cómo hay que programar.
 
-display menos pixeles con segmentos, por ejemplo el de 7 segmentos que estuidamos el semestre pasado
+El Arduino puede enviar datos a las displays.
 
-nos mostraron unejemplo de un diseñadors que utiliza esas pantallas pero tienen unos codos diferentes
+Displays con menos píxeles, con segmentos, por ejemplo el de 7 segmentos que estudiamos el semestre pasado.
 
-matriz led 8x8 display de puntos, se utiliza con un chip max7219
+Nos mostraron un ejemplo de un diseñador que utiliza esas pantallas, pero tienen unos códigos diferentes.
 
-daniel cruz, artista que utilizo una pantalla, y la contecto a lesd dentro de botellas
+Matriz LED 8x8, display de puntos, se utiliza con un chip MAX7219.
+
+Daniel Cruz, artista que utilizó una pantalla y la conectó a LEDs dentro de botellas.
 
 https://www.artesmediales.uchile.cl/academico/daniel-cruz/
 
-https://github.com/gelstudios/gitfiti
+Hace monitos con los registros de actividad de GitHub.
 
-hace monitos por el registro de actividad de github
+https://github.com/gelstudios/gitfiti
 
 https://web.archive.org/web/20160208093950/http://www.masivo.cl/
 
 Coloquio Posthumanamente hablando II https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/
 
-va haber una charla de 27 y 28 de agosto, MAC Parque Forestal 10:30 a 13:00 hrs | 15:00 a 17:30 hrs
+Va a haber una charla el 27 y 28 de agosto en el MAC Parque Forestal, de 10:30 a 13:00 hrs y de 15:00 a 17:30 hrs.
 
-hablamos de unidades de pedida, nano
+Hablamos de unidades de medida, Nano.
 
+Iniciamos sesión en Tinkercad.
 
-iniciamos sesion en tinkercad
+Wokwi, aquí comenzamos a ver cómo podríamos controlar nuestro Arduino con una pantalla.
 
-wokwi, aqui comenzamos a ver como podriamos controlar nuestro arduino a una pantalla
+Chip 1306.
 
-chip 1306
+I2C simplifica la manera de conectar dispositivos; Arduino es capaz de comunicarse.
 
-i2c simplifica la menera de conectar dispositivos, arduino es capaz de hablar
+Board SSD1306 Reference, cuenta con cuatro salidas.
 
-board-ssd1306 Reference, cuenta con cuatro salidas 
+#### Pin names Board SSD1306
 
-- GND, son todos el mismo gng, se puede ocupar cualquira
+| Name | Description    | Arduino Uno pin |
+| ---- | -------------- | --------------- |
+| GND  | Ground         | GND             |
+| VCC  | Supply voltage | 5V              |
+| SCL  | I2C clock line | A5              |
+| SDA  | I2C data line  | A4              |
 
-- VCC a veces dice el voltaje
-
-- SCL, signal clock line
-
-- SDA, signal data line
+Saqué la tabla de [aquí](https://github.com/wokwi/wokwi-docs/blob/main/docs/parts/board-ssd1306.md?plain=1)
 
 https://www.youtube.com/watch?v=j25tkxg5Vws
 
 ### bibliotecas de codigo
 
-ada fruit library https://github.com/adafruit/Adafruit-GFX-Library
+Ada fruit library https://github.com/adafruit/Adafruit-GFX-Library
 
-ladyada, limon fried, tessis de proteccion de los espacios tecnologicos https://dspace.mit.edu/handle/1721.1/33151
+Ladyada, Limon Fried, tesis de protección de los espacios tecnológicos. https://dspace.mit.edu/handle/1721.1/33151
 
-gfx
+GFX
 
-ssd1306, el resto es la resolucion 128x64, 
+SSD1306, el resto es la resolución 128x64.
 
-hay lugares donde dibujas a mano los pixeles y los exportan a codigo
+Hay lugares donde dibujas a mano los píxeles y los exportan a código.
 
-aaron nos estaba mostrando un codigo en wokwi, pero no funciono, a la vuelta de receso se dieron cuenta que algo estaba mal escrito
+Aaron nos estaba mostrando un código en Wokwi, pero no funcionó. A la vuelta del receso se dieron cuenta de que algo estaba mal escrito.
 
-numeros exadecimales, es mucho mas facil aprender primero binario
+Números hexadecimales: es mucho más fácil aprender primero binario.
 
-hablamos un poco de como convertir binario a exadecimal
+Hablamos un poco de cómo convertir binario a hexadecimal.
 
+Es importante fallar y poner anotaciones.
 
-es importante fallar y poner anotaciones,
+Display, la pantalla tiene cuatro parámetros: altura, ancho y dos cosas más.
 
-display, la pantalla tiene cuatro parametros, latura, alncho y dos cosas mas.
+Nuestro computador es nuestro taller. Para utilizar las bibliotecas, es importante descargarlas en una parte específica, porque al utilizar el código busca la dirección donde las guardaste. Si las mueves de lugar, es probable que no las encuentre y, por tanto, que el código no funcione. Eso te lo va a indicar el programa.
 
-nuestro computador es nuestro taller, para utilizar las bibliotecas, es importante descargarlas en una parte especifica, poruqe al utilizar el codigo busca la direccion, busca donde la guardaste, si la mueves de lugar es probable que no lo encuentre, y por tanto no funcione el codigo, eso te lo va a indicar el programa
+Es difícil hacer que funcionen los códigos en nuestros computadores, pero es aún más difícil hacer que nuestros códigos funcionen en otros computadores.
 
-es dificial hacer uqe funcionen los codigos es nuestros computadores, pero es aun mas dificil hacer que nuestros codigos funcionen en otros computadores
-
-## referentes 
+## Referentes 
 
 https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
 
@@ -87,5 +89,4 @@ https://www.instagram.com/nrmbnt/?hl=es tesis de flores en pantallas que se muev
 
 ## Encargo
 
-estudiar numeros decimales (tarea impuesta por mi)
-
+Estudiar números decimales (tarea impuesta por mí).
