@@ -1,6 +1,6 @@
 # sesion-03b
 
-## Finalmente pude entender de que trata el encargo 	☆(>ᴗ•)
+## Finalmente pude entender de que trata el encargo ☆(>ᴗ•)
 
 ---
 
@@ -90,14 +90,13 @@ Un poco filosofico.
 
 Como tal si funciona y lo muestra, pero viendo que el espacio es limitado es mejor no arriesgarse por esta opcion
 
-
 ---
 
 ## Segundo intento
 
 Video de youtube con codigo incluido ¿que puede salir mal?
 
-(https://www.youtube.com/watch?v=EFmrIceBkAs)
+<https://www.youtube.com/watch?v=EFmrIceBkAs>
 
 ```cpp
 //With Scroll
@@ -176,6 +175,7 @@ void loop() {
   // Nothing needed here for this example
 }
 ```
+
 Jaja
 
 ![imagen del error garrafal](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-03b/imagenes/error1.png)
@@ -187,16 +187,15 @@ Pero entre todo eso, descubri que hay una manera de hacer scroll con estos 2 com
 - autoscroll(): para hacer autoscroll al texto
 - noAutoscroll(): para detenerlo
 
-Actualizacion: estos errores pueden deberse (ya que estuve leyendo la pagina web que lo explica) a que la pantalla no es compatible,
-ya que se utiliza otro modelo de pantalla
+Actualizacion: estos errores pueden deberse (ya que estuve leyendo la pagina web que lo explica) a que la pantalla no es compatible, ya que se utiliza otro modelo de pantalla
 
-(https://docs.arduino.cc/learn/electronics/lcd-displays/)
+<https://docs.arduino.cc/learn/electronics/lcd-displays/>
 
 ---
 
 ## La tercera es la vencida ⊂(･ω･*⊂)
 
-(https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8)
+<https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -244,7 +243,6 @@ Modifique el codigo para que solo vaya para abajo y le cambie las frases.
 Y claro, funciona pero...podria ser mucho mejor.
 Lo llevare a la clase por si la opcion de usar el codigo que dio el profe no funciona o no convence
 
-
 ![imagen de intento](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-03b/imagenes/intento3.png)
 
 La idea es que el poema se vea...como un poema (￢ ￢) cof cof
@@ -252,5 +250,3 @@ La idea es que el poema se vea...como un poema (￢ ￢) cof cof
 ---
 
 Mañana vere si utilizo el codigo que dio el profesor y le dare una manita de gato. (Por lo tanto esto no es lo ultimo de mi)
-
-
