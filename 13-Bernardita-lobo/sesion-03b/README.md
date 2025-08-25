@@ -89,4 +89,13 @@ https://www.instagram.com/nrmbnt/?hl=es tesis de flores en pantallas que se muev
 
 ## Encargo
 
+Avanzar con el proyecto-01
+
+grupo 05 ARRAY
+
+- Aileen D'Espesailles
+- Bernardita Lobo
+- Carla Pino
+- Félix Rodríguez
+
 Estudiar números decimales (tarea impuesta por mí).
