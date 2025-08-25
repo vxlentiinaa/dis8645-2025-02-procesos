@@ -24,6 +24,8 @@ El nombre de la carpeta debe ser el mismo del archivo al guardar.
 - Tiene una organización que se llama [New Latín Wave](https://newlatinwave.com/team)
 - Spitting/Abscence:
 
+![Sokio](./imagenes/sokioImagen.png)
+
 ## [Gordon Matta-Clark Artista](https://es.wikipedia.org/wiki/Gordon_Matta-Clark)
 
 - Fue un artista estadounidense con ascendencia chilena que exploró diferentes modos de intervención arquitectónica, en el que le llaman *buildings cuts* o *cortes de edificios*.
@@ -31,6 +33,8 @@ El nombre de la carpeta debe ser el mismo del archivo al guardar.
 - Sus padres son Roberto Matta, pintor surrealista chileno y su madre, Anna Clark que fue pintora estadounidense.
 
 <https://www.archdaily.cl/cl/768903/en-perspectiva-gordon-matta-clark>
+
+![Gordon Matta Clark](./imagenes/gordonMattaClark.jpg)
 
 > Apuntes
 
