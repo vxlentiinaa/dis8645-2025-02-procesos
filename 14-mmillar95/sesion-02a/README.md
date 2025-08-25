@@ -28,3 +28,7 @@ cdm  blog de musica
 >[Fuente: Setra.com](https://www.setra.com/blog/what-is-baud-rate-and-what-cable-length-is-required-1#:~:text=En%20el%20contexto%20del%20puerto,reducir%20la%20longitud%20del%20cable.)
 
 mouse: 9600
+
+## Invitado 
+<https://sokio.studio/>
+
