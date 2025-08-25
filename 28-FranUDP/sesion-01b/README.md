@@ -7,7 +7,8 @@
 ### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$
 
 ### [Arduino IDE (Integrated Development Environment)](https://aws.amazon.com/what-is/ide/)
-<img align="left" src="./imagenes/arduinoLogo.png" width=200> 
+
+<img align="left" src="./imagenes/arduinoLogo.png" width=200>
 Un IDE (Entorno de Desarrollo Integrado) es una aplicación que hace el desarrollo de software más eficiente, al integrar funciones como edición de código, compilación, pruebas y empaquetado en un único entorno.
 
 En el caso del Arduino IDE, este programa facilita el trabajo con varios microcontroladores, no solo con placas Arduino, al integrar un lenguaje de programación simple (basado en ${\color{lightblue}C/C++}$), compatibilidad con múltiples chips, un gestor de librerías que se conectan directamente con repositorios como GitHub, herramientas de depuración, códigos de ejemplo, etc.
@@ -70,7 +71,6 @@ digitalWrite(13, HIGH); // pin 13 emite voltaje
 digitalWrite(11, LOW); // pin 11 no emite voltaje
 ```
 
-
 ${\color{orange}delay}$(): </br> <!--subtitulo-->
 El código va corriendo a **miles de líneas por segundo**, el comando delay() actúa como un lomo de toro, **frenando** por un tiempo determinado la ejecución del código en una **línea específica**.
 si el código va corriendo a 1000 lineas por segundo, por poner un ejemplo, el comando delay actúa como un lomo de toro, frenando por un tiempo determinado de tiempo la ejecución del código en una línea específica
@@ -103,34 +103,40 @@ void loop () {
 
 ${\color{cyan}float}$: <br/> <!--subtitulo-->
 Se usa para variables que almacenarán **números con decimales**.
-````
+
+````cpp
 float numeroDecimal = 6.9;
 ````
 
 ${\color{cyan}bool}$: <br/> <!--subtitulo-->
 Almacena un valor booleano: **TRUE** o **FALSE**.
-````
+
+````cpp
 bool notFalse = true;
 bool truen't = false;
 ````
 
 ${\color{cyan}char}$: <br/> <!--subtitulo-->
 Almacena un **único carácter** (character). Se escribe entre comillas simples.
-````
+
+````cpp
 char letra = 'A';
 ````
 
 **String**: <br/> <!--subtitulo-->
 Almacena una **secuencia de caracteres o texto**. Se escribe entre comillas dobles.
-````
+
+````cpp
 String mensaje = "Lorem ipsum dolor sit amet...";
 ````
 
 <br/>
 
 ### Comunicación serial
+
 El Arduino (o el microcontrolador de preferencia) se **comunica con nuestro PC** a través del cable USB. Esto nos permite ver los valores que lee un sensor, hacer debugging, darle instrucciones, etc.
-````
+
+```cpp
 void setup () {
     // Iniciar comunicación serial y definir la velocidad (baud rate).
     Serial.begin (9600);
@@ -140,15 +146,14 @@ void loop () {
     // Envía un mensaje al Monitor Serial del PC.
     Serial.print(mensaje que se enviará al monitor serial);
 }
-````
-
+```
 
 ### Other things: <!-- Things to organize + random stuff -->
 >
 > ### Funciones
 >
 > definidas como una palabra seguida de un parentesis, es similar a una variable en que usa algo que fue definido por una palabra, pero en lugar de llamar un valor, llama un código ya escrito en otra parte, cómo una librería descargada.
-> ### Funciones:
+>
 > Una función es un bloque de código reutilizable que realiza una tarea específica. Se la identifica por un ${\color{orange}nombre}$ seguido de **paréntesis ()**. En lugar de llamar a un valor (como una variable), se "llama" a un **bloque de código** para que se ejecute.
 >
 > dentro del parentesis van el o los parámetros que definen cómo se va a comportar la función
@@ -164,7 +169,8 @@ etc() // no es una funcion real .... aún
 ```
 >
 > La palabra ${\color{cyan}void}$ antes del nombre de una ${\color{orange}función}$ indica que esta no devuelve ningún valor al finalizar. El código que pertenece a la función se escribe entre **llaves {}**.
-````
+
+````cpp
 void etc() {
     linea 1; // función "etc()" es definida por el
     linea 2; // código que está dentro de los "{ }"
@@ -172,12 +178,15 @@ void etc() {
 
 etc() // función ya definida
 ````
-> ### Niveles de abstracción:
+
+> ### Niveles de abstracción
+>
 > Las líneas de código que escribimos **no son leídas directamente por el microcontrolador**. El IDE las compila, es decir, las procesa y **convierte en código máquina** (una serie de 1s y 0s) que el chip sí puede entender. Este archivo compilado es el que se envía al microcontrolador.
 >
 > Es posible transferir este código máquina de un microcontrolador a otro (si son idénticos), pero es prácticamente **imposible recuperar el código original** partir de él.
 
 -----------------------------------------------------------------------------------------------------------
-## Encargo XX <!-- TEXT -->
-### Errores de Arduino
 
+## Encargo XX <!-- TEXT -->
+
+### Errores de Arduino

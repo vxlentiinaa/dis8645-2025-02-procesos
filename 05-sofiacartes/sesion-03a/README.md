@@ -2,7 +2,7 @@
 
 ## Apuntes clase
 
-**Operadores lógicos**
+Operadores lógicos
 
 AND: inputs mutuamente dependientes -> **&&**
 
@@ -10,7 +10,7 @@ OR: inputs independientes -> **| |**
 
 NOT: es un inversor -> **!**
 
-**Apuntes más sus funciones**
+Apuntes más sus funciones
 
 - **AND**: Debe cumplir todas.
 - **OR**: Debe cumplir alguna.
@@ -22,9 +22,9 @@ NOT: es un inversor -> **!**
 - **else**:
 - **módulo o %**: Cuantas veces entra el número en ese. *El módulo es solo para números enteros*
   
-Ejemplos: 
+Ejemplos:
 
-3 en 6:2 
+3 en 6:2
 
 3 en 3:1
 

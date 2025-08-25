@@ -72,6 +72,8 @@ La obra narra el impacto de Gordon Matta-Clark en el arte contemporáneo y el ur
 
 El ojo pensante.
 
+Mada Machines.
+
 Explicaron un poco el trabajo que, junto a Aarón Montoya, Matías Serrano y Francisco Stephens, tuvimos que realizar para Sokio. El cual consistía en crear un robot que moviera un solenoide con MIDI.
 
 Ahí le entregamos el producto de la máquina y el solenoide con su carcasa. Lo probaron, todo funcionaba súper bien, y luego nos tomamos una foto, la cual sacamos con su celular, así que no la tengo.
@@ -84,12 +86,8 @@ La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de 
 
 [IoT:](https://en.wikipedia.org/wiki/Internet_of_things) the Internet of Things, o el Internet de las cosas, describe dispositivos con sensores, capacidad de procesamiento, software y otras tecnologías que conectan e intercambian datos con otros dispositivos y sistemas a través de Internet u otras redes de comunicación.
 
-FALTA ESTO*
+[Terminal:](https://www.lenovo.com/es/es/glossary/terminal) Un terminal es esencialmente una interfaz de usuario basada en texto para interactuar con los ordenadores. Permite a los usuarios ejecutar comandos y ver los resultados, así como controlar las aplicaciones que se ejecutan en el ordenador. 
 
-terminal
+[BASIC:](https://www.techtarget.com/whatis/definition/BASIC-Beginners-All-purpose-Symbolic-Instruction-Code) abreviatura de Código de Instrucciones Simbólicas Multiuso para Principiantes, es un lenguaje de programación inicial diseñado para ayudar a usuarios y estudiantes sin conocimientos técnicos a resolver problemas sencillos con una computadora. Con sus comandos sencillos y su sintaxis intuitiva, BASIC sigue siendo uno de los lenguajes de programación más sencillos desarrollados en la era informática.
 
-basic lenguaje de progamacion
-
-midi
-
-dada machines
+[MIDI:](https://es.wikipedia.org/wiki/MIDI) siglas de Musical Instrument Digital Interface o en español «Interfaz Digital de Instrumentos Musicales» es un estándar tecnológico que describe un protocolo, una interfaz digital y conectores que permiten que varios instrumentos musicales electrónicos, ordenadores y otros dispositivos relacionados se conecten y comuniquen entre sí.
