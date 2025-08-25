@@ -14,3 +14,23 @@ y anexos con nombres distintos)=es un proyecto.
 estoy en carpeta y no en un archivo.
 07. ADD FILE → UPLOAD FILE → Arrastrar la carpeta desde el escritorio !!!!
 08. Apretar COMMIT CHANGES.
+---------
+☆Lo que esta dentro de parentesis indica parámetros.
+VOID LOOP SETUP() {
+☆Que todo sea secuencial (orden)
+LOOP, SETUP, AVISARQUETODOOK: ej de declaraciones.
+☆Lo que va ahí es lo que el computador aprende, no lo que va a ocurrir, se le enseña primero.
+
+☆int: número entero
+      X no palabra
+      X no decimal (FLOAT)
+BOOL: sí o no
+char: 1 letra ('a') comillas simples
+String: colección de caracteres uno tras otro "ksks"
+
+String poema = "te regalare un abismo";
+☆ el "=" aqui no es conmutativo, significa que el lugar en la memoria que esta a la izquierda
+tiene el valor que está a la derecha.
+
+☆Seria.begin(9600);
+☆"\n" : espacio.
