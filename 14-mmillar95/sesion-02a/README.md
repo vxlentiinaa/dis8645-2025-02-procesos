@@ -2,25 +2,42 @@
 
 ## Contenido 
 
+### USB
+
 - U : universal = estandar
 - S: serial
 - B: bus
+
+### Personajes 
+
+- () paréntesis
+- {} murciélagos
+- [] corchetes
+
 
 Tipo de comunicación por transporte
 
 Intercambio de comunicación binaria
 
 
-stack overflow >> pagina web que ayuda cuando no me sale un codigo
+### Stack overflow 
+
+pagina web que ayuda cuando no me sale un codigo
+
+<https://stackoverflow.com/questions>
 
 
 
-cdm  blog de musica
+### CDM  
 
-**utilizar fuentes originales // no las de inteligencia artificial**
+blog de musica
 
-> ¿Qué son los Baudios?
-> 
+<https://cdm.link/>
+
+*utilizar fuentes originales // no las de inteligencia artificial*
+
+### ¿Qué son los Baudios?
+
 > En el contexto del puerto serial, "9600 baudios" significa que el puerto serial es capaz
 >
 > de transferir un máximo de 9600 bits por segundo.
