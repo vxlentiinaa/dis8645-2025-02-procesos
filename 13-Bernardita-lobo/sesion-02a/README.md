@@ -82,6 +82,10 @@ Fue una experiencia muy bonita. Personalmente fue mi primer trabajo y quedé sú
 
 La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de Santiago. Va a presentarse en Santiago, Nueva York, París y Chicago.
 
+![foto de la entrega de producto](./imagenes/tmc-sesion02a-foto01.jpeg)
+
+![foto de la entrega de producto](./imagenes/tmc-sesion02a-foto02.jpeg)
+
 ### Palabras importantes
 
 [IoT:](https://en.wikipedia.org/wiki/Internet_of_things) the Internet of Things, o el Internet de las cosas, describe dispositivos con sensores, capacidad de procesamiento, software y otras tecnologías que conectan e intercambian datos con otros dispositivos y sistemas a través de Internet u otras redes de comunicación.
