@@ -26,13 +26,7 @@ Conceptos clave
 
 ## Alan Turing
 
-Alan Turing fue un matemático británico nacido en 1912. Desde corta edad se interesó por las matemáticas como disciplina, lo
-que lo llevó a adentrarse en el mundo de los números y posteriormente estudiar en la Universidad de Cambridge, lo cual
-representó un gran paso en su formación. Actualmente es reconocido por lograr descifrar la máquina Enigma con la ayuda de una
-máquina creada por él, conocida como "La máquina de Turing" o "BOMBE", que logra automatizar procesos y trabajaba más rápido
-que la mente humana para realizar cálculos de forma eficiente. Turing fue de gran ayuda durante la Segunda Guerra Mundial, ya
-que gracias a descifrar mensajes encriptados logró salvar muchas vidas en esa época. Es considerado actualmente como el padre
-de las ciencias de la computación. siendo unos de los primeros en plantear la inteligencia artificial como concepto.  asi mismo existen diferentes peliculas, articulos que reconocer a Turing como un gran aporte para la computación creandose premios en su honor.
+Alan Turing fue un matemático británico nacido en 1912. Desde corta edad se interesó por las matemáticas como disciplina, lo que lo llevó a adentrarse en el mundo de los números y posteriormente estudiar en la Universidad de Cambridge, lo cual representó un gran paso en su formación. Actualmente es reconocido por lograr descifrar la máquina Enigma con la ayuda de una máquina creada por él, conocida como "La máquina de Turing" o "BOMBE", que logra automatizar procesos y trabajaba más rápido que la mente humana para realizar cálculos de forma eficiente. Turing fue de gran ayuda durante la Segunda Guerra Mundial, ya que gracias a descifrar mensajes encriptados logró salvar muchas vidas en esa época. Es considerado actualmente como el padre de las ciencias de la computación. siendo unos de los primeros en plantear la inteligencia artificial como concepto.  asi mismo existen diferentes peliculas, articulos que reconocer a Turing como un gran aporte para la computación creandose premios en su honor.
 
 Fuentes utilizadas:
 
