@@ -1,58 +1,57 @@
 # sesion-03a
 
-- void setup, instruccion de inicio 
-- loop setup, despues se repite en loop todo lo que esta escrito ahi 
-- check, lo manda al arduino
-- veryfy, revisa si hay problemas en el code
-#### Ejemplos de programaciones dentro de arduino 
-Files -> exampples 
-##### Ejemplo codigo que parpadea 
-BLINK: 
+##Condicionales 
 
-digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
+- If ( boolean condition) Then (consecuense) Else (alternative) End if
+- // comentar
+- =  asigna un valor a lo que está escrito a la izquierda 
+- ==condición 
+- ! lo contrario de algo
+- \n enter linea espacio hacia abajo 
+- bool prender 
+- unsinged log
+  
+###EJEMPLO: 
+if(diciembre AND donFrancisco==true){
+teleton();
+{
+else{
+continuamosTransmisionesNormales ();
 
-LED BUILTIN, conectado a digital 13 (torre)
+##Operadores lógicos 
+- compuerta and Y/and solo si ambas variantes se cumplen es si: &
+- compuerta O/or si una variable se cumple la respuesta es si: ||
+- compuerta no/not hace lo contrario de la otra variante ( inversor) : !
 
-digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000/10);                   // wait for a secondpartido en 10
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000/10);                   // wait for a second partido en 10
+*invertigar nand, nor, xor.
 
-//se puede cambiar igual el tiempo, designando antes de setup
+- Iterar, repetir las cosas:
+  
+//se itera con for
+// se pone entre paréntesis 3 cosas
+//1 partida
+//2 termino
+//3 actulizacio
+//y ente {} lo que quiero iterar
 
-##### EJEMPLO
-int tiempoPrendido = 100;
-
-int tiempoApagado = 300;
-
-  // the loop function runs over and over again forever
-void loop() {
-  // prende
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(tiempoPrendido);                      // wait for a second
-  //apaga
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(tiempoApagado);                      // wait for a second
+####ejemplo: 
+for(lunes;domingo; dia=dia+1)
+{
+hazEsto(); 
 }
 
-- funciones, (naranja)
-- Al poner en void algo que no es del sistema operativo, se convierte en una función, que el sistema reconoce, y operará la función que erste escrita dentro de los {}
-- Serial.begin();  abre un puerto que deja mandar mensajes entre el arduino y el computador o a lo que este conectado, el mensaje se puede ver en seria monitor en la barra de abajo.
-- String poema es el mensaje que manda, como agregar mas texto a un mensaje 
-- La cosas verdes existen en c++, como void loop int
-- C++ es un ejemplo de lenguaje de programación compilado, multiparadigma, principalmente de tipo imperativo y orientado a objetos
-- In C++, there are different types of variables (defined with different keywords), for example:
-##### int - stores integers (whole numbers), without decimals, such as 123 or -123
+####ejemplo: 
+for(int i =0;i<veces; 1=1+1)
+{
+hazEsto(); 
+}
 
-##### double - stores floating point numbers, with decimals, such as 19.99 or -19.99
+- ctrlT ordena los codigos es arduino
+- resto=modulo, es solo para numeros enteros
+  
+- int se utiliza para declarar variables que almacenarán valores numéricos enteros. Por ejemplo, en C, C++ o Java, puedes declarar una variable int así: int edad = 30;
 
-##### char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
-
-##### string - stores text, such as "Hello World". String values are surrounded by double quotes
-
-##### bool - stores values with two states: true or false
-
-- guia de comandos: https://docs.arduino.cc/language-reference/
+int veces; 
+for(parto;termino; que hago cada paso)
+{
+hazEsto(); 
