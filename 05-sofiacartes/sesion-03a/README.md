@@ -10,7 +10,8 @@ OR: inputs independientes -> **| |**
 
 NOT: es un inversor -> **!**
 
-![operadoreslogicoa](./imagenes/OR-AND-XOR-NOR-NAND-XNOR-NOT.png)
+![operadores logicos](./imagenes/OR-AND-XOR-NOR-NAND-XNOR-NOT.png)
+
 Apuntes más sus funciones
 
 - **AND**: Debe cumplir todas.
@@ -48,7 +49,7 @@ Ejemplos:
   }
 ```
 
-**Ejemplo:**
+## Ejemplo
 
 ```cpp
 if(saldo>250){
@@ -59,7 +60,7 @@ if(saldo>250){
 
 ```
 
-**Ejemplos vistos en clases**
+## Ejemplos vistos en clases
 
 ![ejemploclase03a](./imagenes/ejemploclase03a.jpg)
 
@@ -110,7 +111,6 @@ unsigned long segundos = millis() / 1000;
 }
 ```
 
-
 ## Encargo 03
 
 Investigar NAND, NOR, XOR, XNOR.
@@ -119,7 +119,7 @@ Investigar NAND, NOR, XOR, XNOR.
 
 Es un circuito electrónico que opera con una o más señales para obtener un output.
 
-* Compuerta **NAND**: Tiene dos o más entradas y una salida. Es complementaria  a la función AND.
+- Compuerta **NAND**: Tiene dos o más entradas y una salida. Es complementaria  a la función AND.
   
 | | |output|
 |-|-|-|
@@ -128,7 +128,7 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 |1|0|1|
 |1|1|0|
 
-* Compuerta **NOR**: Tiene dos o más entradas y sólo una salida. Es el complemento de la función OR.
+- Compuerta **NOR**: Tiene dos o más entradas y sólo una salida. Es el complemento de la función OR.
   
 |entrada A|entrada B|output|
 |-|-|-|
@@ -137,7 +137,7 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 |1|0|0|
 |1|1|0|
 
-* Compuerta **XOR**: Tiene de salida 1 verdadero, cuando ambas entradas son opuestas es verdadero o 1. Si ambas entradas son iguales es falso o 0.
+- Compuerta **XOR**: Tiene de salida 1 verdadero, cuando ambas entradas son opuestas es verdadero o 1. Si ambas entradas son iguales es falso o 0.
   
 |entrada A|entrada B|output|
 |-|-|-|
@@ -146,7 +146,7 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 |1|0|1|
 |1|1|0|
 
-* Compuerta **XNOR**: Produce 1/verdadero solo cuando el voltaje de las dos entradas es el mismo. Las entradas opuestas tienen salida 0/falso.
+- Compuerta **XNOR**: Produce 1/verdadero solo cuando el voltaje de las dos entradas es el mismo. Las entradas opuestas tienen salida 0/falso.
   
 |entrada A|entrada B|output|
 |-|-|-|
@@ -154,4 +154,3 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 |0|1|0|
 |1|0|0|
 |1|1|1|
-
