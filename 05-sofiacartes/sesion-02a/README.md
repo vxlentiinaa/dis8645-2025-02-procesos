@@ -14,6 +14,10 @@ También vimos como utilizar github.
 
 ## Sokio diaz-gallardo
 
+![Foto-Sokio](./imagenes/Foto-Sokio.jpg)
+
+imágen sacada de: <https://pueblonuevo.cl/bios/sokio/>
+
 Mauricio Díaz Gallardo.
  
 Sokio, tiene una organización que se llama new latin wave, hace música, hizo una opera experimental el cual fue un éxito, trabaja con *teenage engineering*
@@ -37,6 +41,10 @@ Sokio, tiene una organización que se llama new latin wave, hace música, hizo u
 Splitting/Absence 
 
 ### Gordon Matta-Clark artista 
+
+![GordonMatta-Clark](./imagenes/GordonMatta-Clark.jpg)
+
+Imágen sacada de: <https://artishockrevista.com/2017/12/19/gordon-matta-clark-anarchitect/>
 
 "pierdes la nocion del espacio" -Sokio
 
