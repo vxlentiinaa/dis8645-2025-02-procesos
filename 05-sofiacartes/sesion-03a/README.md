@@ -10,6 +10,7 @@ OR: inputs independientes -> **| |**
 
 NOT: es un inversor -> **!**
 
+![operadoreslogicoa](./imagenes/OR-AND-XOR-NOR-NAND-XNOR-NOT.png)
 Apuntes más sus funciones
 
 - **AND**: Debe cumplir todas.
@@ -56,6 +57,15 @@ if(saldo>250){
  Serial.println("SALDO INSUFICIENTE")
 }
 ```
+}
+
+**Ejemplos vistos en clases**
+
+![ejemploclase03a](./imagenes/ejemploclase03a.jpg)
+
+![ejemplo2clase03a](./imagenes/ejemplo2clase03a.jpg)
+
+![ejemplo3clase03a](./imagenes/ejemplo3clase03a.jpg)
 
 **Trabajo  de códigos en clases, en conjunto:**
 
@@ -99,6 +109,7 @@ unsigned long segundos = millis() / 1000;
   digitalWrite(LED_BUILTIN, prendido);
 }
 ```
+
 
 ## Encargo 03
 
