@@ -103,26 +103,30 @@ void loop () {
 
 ${\color{cyan}float}$: <br/> <!--subtitulo-->
 Se usa para variables que almacenarán **números con decimales**.
-````
+
+````cpp
 float numeroDecimal = 6.9;
 ````
 
 ${\color{cyan}bool}$: <br/> <!--subtitulo-->
 Almacena un valor booleano: **TRUE** o **FALSE**.
-````
+
+````cpp
 bool notFalse = true;
 bool truen't = false;
 ````
 
 ${\color{cyan}char}$: <br/> <!--subtitulo-->
 Almacena un **único carácter** (character). Se escribe entre comillas simples.
-````
+
+````cpp
 char letra = 'A';
 ````
 
 **String**: <br/> <!--subtitulo-->
 Almacena una **secuencia de caracteres o texto**. Se escribe entre comillas dobles.
-````
+
+````cpp
 String mensaje = "Lorem ipsum dolor sit amet...";
 ````
 
@@ -130,7 +134,8 @@ String mensaje = "Lorem ipsum dolor sit amet...";
 
 ### Comunicación serial
 El Arduino (o el microcontrolador de preferencia) se **comunica con nuestro PC** a través del cable USB. Esto nos permite ver los valores que lee un sensor, hacer debugging, darle instrucciones, etc.
-````
+
+````cpp
 void setup () {
     // Iniciar comunicación serial y definir la velocidad (baud rate).
     Serial.begin (9600);
