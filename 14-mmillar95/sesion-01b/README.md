@@ -2,6 +2,8 @@
 
 ## Arduino R4 minima 
 
+![arduino R4 minima imagen referencia](./imagenes/arduinoR4.png)
+
 ### Componentes 
 
 - Microcontrolador (MCU)
