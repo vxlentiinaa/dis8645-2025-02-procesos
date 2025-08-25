@@ -16,7 +16,7 @@
 
 **Cambio->** Se hace *commit changes* para hacer la petición de actualización
 
-*Es como un drive (nube)*
+Es como un drive (nube)
 
 - Para subir apuntes, archivos o fotos, lo primero es entrar a la carpeta personal y verificar si estás en tu usuario /yamna-bit, darle a editar y se puede escribir e ir visualizando a la vez.
 
