@@ -106,6 +106,8 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 ### programar y equivocarse 5 veces
 
+![foto de mi escritorio](./imagenes/tmc-sesion01b-foto.jpeg)
+
 Agregué esto y me arrojaba error.
 
 Int tiempoPrendido = 100
