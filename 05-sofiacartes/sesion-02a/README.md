@@ -14,6 +14,10 @@ También vimos como utilizar github.
 
 ## Sokio diaz-gallardo
 
+![Foto-Sokio](./imagenes/Foto-Sokio.jpg)
+
+imágen sacada de <https://pueblonuevo.cl/bios/sokio/>
+
 Mauricio Díaz Gallardo.
  
 Sokio, tiene una organización que se llama new latin wave, hace música, hizo una opera experimental el cual fue un éxito, trabaja con *teenage engineering*
