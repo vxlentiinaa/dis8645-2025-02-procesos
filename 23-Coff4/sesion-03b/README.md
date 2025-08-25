@@ -84,8 +84,7 @@ En mi caso logre ampliar el codigo uno más para mostrar otra frase
 
 ---
 
-![imagen del ejercicio]()
-//despues debo subir las imagenes a la carpeta
+![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-03b/imagenes/filosofico.png)
 
 Un poco filosofico.
 
@@ -179,7 +178,7 @@ void loop() {
 ```
 Jaja
 
-![imagen del error garrafal]()
+![imagen del error garrafal](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-03b/imagenes/error1.png)
 
 Tal vez no fue algo bueno, pero fallar es humano.
 
@@ -246,6 +245,12 @@ Y claro, funciona pero...podria ser mucho mejor.
 Lo llevare a la clase por si la opcion de usar el codigo que dio el profe no funciona o no convence
 
 
-![imagen de intento]()
+![imagen de intento](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-03b/imagenes/intento3.png)
+
+La idea es que el poema se vea...como un poema (￢ ￢) cof cof
+
+---
+
+Mañana vere si utilizo el codigo que dio el profesor y le dare una manita de gato. (Por lo tanto esto no es lo ultimo de mi)
 
 
