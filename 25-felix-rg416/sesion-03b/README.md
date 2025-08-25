@@ -5,11 +5,11 @@ viernes 22 de agosto
 Está lloviendo demasiado, se cancelaron las clases presenciales. Así que estamos por zoom.
 
 - En teoría ibamos a usar pantallas con arduino
-    - Usaremos pantalla OLED y/o TFT
-        - La diferencia es la resulución y brillo en la pantalla
-    - También existen las pantallas DISPLAY que son para los números
-    - Hay algunas pantallas con las que sólo se pueden programar los caracteres, no los pixeles
-    - Hay otra pantalla display de 64 puntos, ese necesita un chip MAX7219
+  - Usaremos pantalla OLED y/o TFT
+    - La diferencia es la resulución y brillo en la pantalla
+  - También existen las pantallas DISPLAY que son para los números
+  - Hay algunas pantallas con las que sólo se pueden programar los caracteres, no los pixeles
+  - Hay otra pantalla display de 64 puntos, ese necesita un chip MAX7219
 - [Dando la hora](https://www.dandolahora.cl/collections/los-mas-vendidos) una tienda de relojes. Uno de esos es, el [UNO](https://www.dandolahora.cl/products/prototipo-el-numero-uno-el-primer-reloj-digital-en-la-historia-de-chile?_pos=1&_psq=primer&_ss=e&_v=1.0) , tiene una cuenta regresiva para el 18 de septiembre.
 - Daniel Cruz - [Masivo.cl](https://web.archive.org/web/20160208093950/http://www.masivo.cl/) [Video](https://www.youtube.com/watch?v=YIiusyVejX4&t=1s)  
 - Hacer pixel arte en github <https://github.com/gelstudios/gitfiti>
@@ -29,7 +29,7 @@ Vamos a usar la pantalla OLED ssd1306. La cual usa un protocolo [I2C](https://en
 
 ![Pantalla OLED ssd1306](./imagenes/pantallaOLEDssd1306.png)
 
-Siempre se debe alimentar la pantalla primero. En el pin GND y VCC. Los otros dos pines son SLC "En honor a Santiago de Chile" -Aarón- y el otro es SDA "En honor a la Sandía" -Aarón- 
+Siempre se debe alimentar la pantalla primero. En el pin GND y VCC. Los otros dos pines son SLC "En honor a Santiago de Chile" -Aarón- y el otro es SDA "En honor a la Sandía" -Aarón-
 
 Hoy vamos a preder 128x64 leds
 
@@ -44,6 +44,7 @@ Se pueden buscas bibliotecas.
 ![Library Manager](./imagenes/library-manager.png)
 
 Estas vez usaremos:
+
 - [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 - [Adafruit-GFX](https://github.com/adafruit/Adafruit_SSD1306)
 
@@ -59,7 +60,7 @@ Si aparece que necesita otras bibliotecas, hay que instalarlas
 
 Luego, para ponerlo en Arduino:
 
-![](./imagenes/ponerBiblioteca.png)
+![pantallazo](./imagenes/ponerBiblioteca.png)
 
 ## Volviendo a Wokwi
 
@@ -133,11 +134,9 @@ void loop() {
   // CON UN TIEMPO DE UN SEGUNDO
   delay(1000);
 }
-````
+```
 
-Se puede momostrar una imagen, para transformarla hay que entrar acá <https://javl.github.io/image2cpp/)> - hay que fijarte en 
-
-
+Se puede momostrar una imagen, para transformarla hay que entrar acá <https://javl.github.io/image2cpp/)> - hay que fijarte en
 
 ```cpp
 #include <Wire.h>
@@ -219,8 +218,8 @@ void loop() {
 }
 ```
 
-Los array 
-----
+Los array
 
+----
 
 Si usamos ejemplos para nuestro encargo, tiene que estar acreditado, citado, mencionado, tenemos que poner qué parte está robado, mixeado y/o editado
