@@ -78,7 +78,7 @@ void testdrawstyles2(void)
 ```
 obviamente presenta un error que despues es corregido por otro usuario. el problema de este, ademas de que son textos muy pequeños. 
 
-*es la cantidad de lineas de codigo para hacer un poema entero*
+es la cantidad de lineas de codigo para hacer un poema entero
 
 En mi caso logre ampliar el codigo uno más para mostrar otra frase
 
