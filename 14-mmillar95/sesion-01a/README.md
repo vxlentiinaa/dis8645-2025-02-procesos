@@ -35,5 +35,7 @@
   
   Cosas que sé y me gusta realizar: Modelado 3D, Fabricación Digital y Diseño de mobiliario. 
 
-![diple mobiliario](./imagenes/diple.png)
+![diple mobiliario](./imagenes/diple01.png) 
+![hudson parlante](./imagenes/hudson.png) 
+
 
