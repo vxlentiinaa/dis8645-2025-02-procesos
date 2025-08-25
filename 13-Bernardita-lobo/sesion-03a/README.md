@@ -4,47 +4,47 @@
 
 ### Condicionales e Iteradores
 
-if, una condicion
+if, una condición.
 
-si eso ocurre entonces hace ciertas cosas
+Si eso ocurre, entonces hace ciertas cosas.
 
-algebra booleana
+Álgebra booleana.
 
-las condiciones existen en todo tipo de lenguaje de progamacion, la condicion va entreparentecis 
+Las condiciones existen en todo tipo de lenguaje de programación. La condición va entre paréntesis.
 
-if (ver == false){
+> if (ver == false){
+> 
+> ponermeLentes():
+> 
+> }else{
+> 
+> continuarConMiVida():
 
-ponermeLentes():
+Se pueden poner más ejemplos.
 
-}else{
+Si pones un ! (signo de exclamación), se le llama bang, se usa para decir lo contrario.
 
-continuarConMiVida():
+También puedes hacer que la condición tenga otra condición.
 
-se pueden poner mas ejemplos
+or es un operador lógico.
 
-si poner un ! signo de explamacion, se le llama bang, se usa para decnir lo contrario
+> if (edad >18 18 OR tengoPituto){
+> 
+> dartePermisoDeConducir():
+> 
+> }
+> 
+> else{
+> 
+> // noPuedoNomas
 
-tambien puedes hacer que la condicion tenga otra condicion
+Operadores lógicos: and, or, not.
 
-or es un operador logico
+Compuertas AND, OR, NOT.
 
-if (edad >18 18 OR tengoPituto){
+Tabla de verdad.
 
-dartePermisoDeConducir():
-
-}
-
-else{
-
-// noPuedoNomas
-
-operadores logicos: are, or, not
-
-compuerta and, or, not
-
-tabla de verdad
-
-las compuertas de y son dependientes
+Las compuertas AND son dependientes.
 
 #### Tabla de verdad AND
 
@@ -72,8 +72,8 @@ las compuertas de y son dependientes
 | 1 	| 0   	|
 
 
-sofistas
+Sofistas
 
-con control t ordena las cosas en arduino
+Con Control + T se ordenan las cosas en Arduino.
 
-VARIABLES, FUNCIONES, FOR, IF, ARE
+Variables, funciones, for, if, and.
