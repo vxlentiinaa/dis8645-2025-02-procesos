@@ -8,7 +8,7 @@ Ok, poniendo los pies sobre el suelo. La idea es que una pequeña pantalla logre
 
 en mi busqueda de codigos que puedan ayudarme, encontre algunos foros.
 
-(https://arduino.stackexchange.com/questions/71121/how-to-get-text-to-flash-on-ssd1306-i2c-screen)
+<https://arduino.stackexchange.com/questions/71121/how-to-get-text-to-flash-on-ssd1306-i2c-screen>
 
 ```cpp
 #include <SPI.h>

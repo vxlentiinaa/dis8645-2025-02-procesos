@@ -5,12 +5,14 @@
 ## Apuntes
 
 Operadores lógicos
- - AND: representado como &&. Devuelve un resultado verdadero solo si todas sus entradas son verdaderas; de lo contrario, devuelve falso.
- - OR: representado como ||. Devuelve true (verdadero) si al menos uno de sus operandos es verdadero, y false (falso) en caso contrario. Es decir, la operación OR solo necesita una entrada verdadera para que el resultado sea verdadero.
- - NOT: representado con !. Invierte el valor booleano, es decir, su función es negar una condición: si la expresión es verdadera, NOT la convierte en falsa; si es falsa, la convierte en verdadera.
+
+- AND: representado como &&. Devuelve un resultado verdadero solo si todas sus entradas son verdaderas; de lo contrario, devuelve falso.
+
+- OR: representado como ||. Devuelve true (verdadero) si al menos uno de sus operandos es verdadero, y false (falso) en caso contrario. Es decir, la operación OR solo necesita una entrada verdadera para que el resultado sea verdadero.
+
+- NOT: representado con !. Invierte el valor booleano, es decir, su función es negar una condición: si la expresión es verdadera, NOT la convierte en falsa; si es falsa, la convierte en verdadera.
 
 > Plataforma juce = para hacer audios o mejorar los audios.
-
 > RTC = real time clock
 
 - ! bank: operador que significa lo contrario
@@ -24,17 +26,19 @@ Operadores lógicos
 - La condición debe ser compuesta (+ de una)
 - condición binaria o bifurcación.
 
- = asignar (x=1 ; x vale 1)
- 
- == condición, una pregunta, se compara (x==1 ; ¿vale 1?
+= asignar (x=1 ; x vale 1)
+
+== condición, una pregunta, se compara (x==1 ; ¿vale 1?
 
 - Not: Se usa para la ausencia de una variable
 - For: Es la iteración. Se usa para ejecutar un bloque de código un número específico de veces
 
 // se itera con for, se pone entre paréntesis 3 cosas
-  1. partida
-  2. término
-  3. actualización
+
+1. partida
+2. término
+3. actualización
+
 y entre murciélagos {} lo que queremos iterar
 
 Ejemplo de google
@@ -83,11 +87,12 @@ Ejemplo: 3 en 6 = 2 | 3 en 3 = 1
 - los millis() cuenta el tiempo desde que se encendió el arduino, solo suben.
 - Semiótica: el estudio de los signos.
 - iterar: es hazlo, repetir
-  - for: es la iteración 
+  - for: es la iteración
 
 ### Proyecto 01
 
 Crear un código para arduino para que se logre ver en la pantalla, debe ser en base a un poema, también se puede "renderear" imagenes.
+
 - código legible (con comentarios)
 - tiene que tener un proceso (importante)
 
@@ -141,23 +146,27 @@ unsigned long segundos = millis() / 1000;
   digitalWrite(LED_BUILTIN, prendido);
 }
 ```
+
 ### Encargo 04
 
 - Investigar sobre NAND, NOR, XOR
 
 - Repasar if, for, print, etc.
 
-${\color{pink}NAND}$: </br>
-Una puerta NAND produce una salida de 1 (verdadero) a menos que todas sus entradas sean 1. En ese caso específico (todas las entradas en 1), la salida es 0 (falso). 
-Se refiere tanto al operador lógico en el código de programación, que invierte el resultado de una operación AND, como a las puertas lógicas NAND que se usan en la construcción de circuitos digitales. La puerta NAND es una puerta lógica universal que, junto con las puertas NOR, permite construir cualquier otro circuito lógico digital. 
+### NAND
 
-${\color{pink}NOR}$: </br>
+Una puerta NAND produce una salida de 1 (verdadero) a menos que todas sus entradas sean 1. En ese caso específico (todas las entradas en 1), la salida es 0 (falso). 
+Se refiere tanto al operador lógico en el código de programación, que invierte el resultado de una operación AND, como a las puertas lógicas NAND que se usan en la construcción de circuitos digitales. La puerta NAND es una puerta lógica universal que, junto con las puertas NOR, permite construir cualquier otro circuito lógico digital.
+
+### NOR
+
 Es una combinación de las compuertas OR y NOT, es la versión inversa de la compuerta OR. Al tener sus entradas en estado inactivo “0” su salida estará en un estado activo “1”, pero si alguna de las entradas pasa a un estado binario “1” su salida tendrá un estado inactivo “0”.
 
-${\color{pink}XOR}$: </br>
+### XOR
+
 Es un operador bit a bit representado por el símbolo "^", que compara los bits de dos números
 
-El operador XOR compara los bits de dos números de forma individual. 
+El operador XOR compara los bits de dos números de forma individual.
 
 Si un bit es 1 y el otro es 0, el resultado es 1.
 
@@ -165,7 +174,7 @@ Si ambos bits son iguales (ambos 1 o ambos 0), el resultado es 0.
 
 Ejemplo de google
 
-Imagina que quieres intercambiar los valores de dos variables, a y b, sin usar una tercera variable. 
+Imagina que quieres intercambiar los valores de dos variables, a y b, sin usar una tercera variable.
 
 ```cpp
 int a = 5;  // Binario: 0101
@@ -176,6 +185,6 @@ b = a ^ b; // b ahora vale (1111 ^ 1010) = 0101 (5, el valor original de a)
 a = a ^ b; // a ahora vale (1111 ^ 0101) = 1010 (10, el valor original de b)
 ```
 
-${\color{pink}XNOR}$: </br>
-Es un componente lógico digital que es una puerta XOR pero con la lógica invertida, produce una salida alta (1 lógico) solo cuando ambas entradas son iguales (ambas altas o ambas bajas). Por lo tanto, si las entradas son diferentes (una alta y otra baja), la salida de la puerta XNOR será baja (0 lógico). 
+### XNOR
 
+Es un componente lógico digital que es una puerta XOR pero con la lógica invertida, produce una salida alta (1 lógico) solo cuando ambas entradas son iguales (ambas altas o ambas bajas). Por lo tanto, si las entradas son diferentes (una alta y otra baja), la salida de la puerta XNOR será baja (0 lógico).
