@@ -18,7 +18,7 @@
 
 ¿Qué es arduino?
  
-Es un dialecto,
+Es un dialecto, se llama código abierto, lo quee nos permite crear proyectos electrónicos que podemos conservar en este y al conectarlo ya esté.
 
 * **Arduino IDE** -> de entorno de desarrollo integrado. Es la interfaz gráfica, tiene varios software que conviven entre si.
   
@@ -70,7 +70,89 @@ IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el ID
 - **else**:
 - **Serial.being()**: Es una función y lo que esta en el paréntesis es el valos que se le asigna.
 
-  
+## Códigos vistos en clase
 
+```cpp
+/*
+  Blink
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+
+  https://docs.arduino.cc/built-in-examples/basics/Blink/
+*/
+
+int onTime;
+int offTime;
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(n°, INPUT);
+
+  onTime = 200;
+  offTime = 3000;
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(onTime);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(offTime);      
+  
+  confeti();                // wait for a second
+}
+
+void confeti(){
+  Serial.print('wujuuu!');
+}
+```
+
+```cpp
+/*
+  Blink
+  Turns an LED on for one second, then off for one second, repeatedly.
+  https://docs.arduino.cc/built-in-examples/basics/Blink/
+*/
+
+int onTime;
+int offTime;
+
+String poema;
+
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(n°, INPUT);
+
+  Serial.begin(9600);
+
+  onTime = 200;
+  offTime = 3000;
+
+poema = "poemaaaaaaaaaaaaaaaaa \n";
+poema = poema + "sigue poema \n";
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(onTime);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(offTime);
+  confeti();                // wait for a second
+}
+
+void confeti(){
+ Serial.print(poema);
+ //Serial.print("\n");
+}
+```
 ## Encargo 02
+
+Documentar 3 códigos que no funcionaron, pueden ser más. Sin ia. También, si nos ayudamos de algún lugar citar.
 

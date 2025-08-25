@@ -8,6 +8,60 @@ se entrega a fines de agosto
 
 se hace en grupos de 3 a 4 personas
 
+## grupos
+
+- grupo 01 maincraf 
+
+  - Camila Delgado
+  - Camila Parada
+  - Braulio Figueroa
+  - Santiago Gaete
+
+- grupo 02 Gatolate 
+
+  - Antonella Aguilar
+  - Javiera Moraga, 
+  - Pía Orellana
+
+- grupo 03 waos
+
+  - Sebastian Saez
+  - Morgan Aravena
+  - Angela O'Ryan
+  - Miguel Vera
+
+- grupo 04 los vengadores mish
+
+  - jose morales
+  - francisco stephens
+  - josefa quape
+  - milla millar
+
+- grupo 05 ARRAY
+
+  - Aileen D'Espesailles 
+  - Bernardita Lobo 
+  - Carla Pino 
+  - Félix Rodríguez
+
+- grupo 06 brainrot
+
+  - valentina ruz
+  - sofía cartes
+  - antonia fuentealba
+  - sofía pérez
+
+- grupo 07 Soundi
+  - Catalina Catalan
+  - Nicolas Miranda
+  - Yamna Carrión
+
+- grupo 08
+
+  - antonia améstica
+  - valentina chávez
+  - vania paredes
+
 ## pauta
 
 - 1 punto base
@@ -24,9 +78,9 @@ se hace en grupos de 3 a 4 personas
 
 - 1 punto por bitácora constante y periódica y personal
 
-- 1 punto por presentación de cada estudiante
+- 1 punto por presentación oral de cada estudiante
 
-- 1 punto por listado de roles que tomaste en el grupo, de forma detallada.
+- 1 punto por listado de roles que tomaste en el grupo, y explicaciones de forma detallada.
 
 ## descuentos
 

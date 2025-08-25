@@ -4,14 +4,12 @@
 #include <string>
 #include <vector>
 
-class ListaEstudiantes {
-    
-    public:
-      ListaEstudiantes();
-      std::vector<std::string> listaEstudiantes;
+class ListaEstudiantes
+{
 
+public:
+  ListaEstudiantes();
+  std::vector<std::string> lista;
 };
-
-
 
 #endif

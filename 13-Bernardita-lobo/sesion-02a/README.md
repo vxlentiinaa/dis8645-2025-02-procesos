@@ -60,7 +60,7 @@ Sokio es una especie de embajador de [Teenage Engineering](https://teenage.engin
 
 [Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
 
-#### Splitting / Absence 
+#### Splitting / Absence
 
 Desarrollando una ópera para [New Latin Wave](https://newlatinwave.com/).
 

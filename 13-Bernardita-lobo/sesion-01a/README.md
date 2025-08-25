@@ -73,7 +73,7 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 ## Encargos
 
-###  Alan Turing
+### Alan Turing
 
 En 1936, diez años antes de que se construyera la primera computadora, Alan Turing la creó en su mente. El estudió en el King's College, un colegio de Cambridge, una de las universidades más prestigiosas.
 
