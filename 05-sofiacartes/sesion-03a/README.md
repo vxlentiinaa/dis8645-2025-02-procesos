@@ -130,7 +130,7 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 
 * Compuerta **NOR**: Tiene dos o más entradas y sólo una salida. Es el complemento de la función OR.
   
-| | |output|
+|entrada A|entrada B|output|
 |-|-|-|
 |0|0|1|
 |0|1|0|
@@ -139,7 +139,7 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 
 * Compuerta **XOR**: Tiene de salida 1 verdadero, cuando ambas entradas son opuestas es verdadero o 1. Si ambas entradas son iguales es falso o 0.
   
-  | | |output|
+|entrada A|entrada B|output|
 |-|-|-|
 |0|0|0|
 |0|1|1|
@@ -148,7 +148,7 @@ Es un circuito electrónico que opera con una o más señales para obtener un ou
 
 * Compuerta **XNOR**: Produce 1/verdadero solo cuando el voltaje de las dos entradas es el mismo. Las entradas opuestas tienen salida 0/falso.
   
-  | | |output|
+|entrada A|entrada B|output|
 |-|-|-|
 |0|0|1|
 |0|1|0|
