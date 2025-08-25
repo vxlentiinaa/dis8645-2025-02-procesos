@@ -106,7 +106,7 @@ Serial.begin(9600);
 
 Por loco que suene no se que esta mal. el programa advierte sobre esto. Voy a ver como subir una imagen
 
-![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/error%201.png)
+![imagen del error](./imagenes/error%201.png)
 
  //demonios lo logre despues de 10 minutos
 
@@ -136,7 +136,7 @@ delay(500)
 Posiblemente puse las cosas en desorden, como recien declarar a final que random puede ir de 0 a 900.
 aunque el programa lanzo incluso mas cosas que ya no llegue a comprender
 
-![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/error%202.png)
+![imagen del error](./imagenes/error%202.png)
 
 ---
 
@@ -144,7 +144,7 @@ Y termine. tal vez parezca que es poco pero aprender a programar de 0 y ser lanz
 
 Estuve motivada al hacer estos ejercicios aunque no funcionaran (solo lo hizo uno)
 
-![imagen del error](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-02a/imagenes/casi%20error.png)
+![imagen del error](./imagenes/casi%20error.png)
 
 Lo se. dice que hay error, pero sacando aquel experimento de la letra, funciona perfectamente (pero parece que no le saque captura al intento bueno)
 
