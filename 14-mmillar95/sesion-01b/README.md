@@ -48,8 +48,19 @@ void loop() {
 ### Encargo 
 
 #### Realizar y documentar 3 códigos como mínimo, los cuales deben tener error y solucionarlos (intentar) 
+#### Generar codigos, solo con la placa de arduino
+
+Fallar muchas veces
+
+> sin chat gpt
+> 
+> sin componentes
+> 
+> analizar la falla
 
 ### Código_01
+
+Para mi primer código de arduino, quiero realizar analizar los componentes y conceptos de la placa 
 
 - pinMode
 - delay
