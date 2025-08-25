@@ -44,3 +44,19 @@ void loop() {
   }
 }
 ```
+
+### Encargo 
+
+#### Realizar y documentar 3 códigos como mínimo, los cuales deben tener error y solucionarlos (intentar) 
+
+### Código_01
+
+- pinMode
+- delay
+- digitalWrite
+
+**error placa no encontrada** 
+
+**error no finalizar con ;**
+
+![imagen del código mal](./imagenes)
