@@ -60,7 +60,9 @@ Fallar muchas veces
 
 ### Código_01
 
-Para mi primer código de arduino, quiero realizar analizar los componentes y conceptos de la placa 
+Para mi primer código de arduino, quiero realizar analizar los componentes y conceptos de la placa.
+
+El led del Pin13 enciende y apaga con un delay(100).
 
 - pinMode
 - delay
@@ -71,3 +73,21 @@ Para mi primer código de arduino, quiero realizar analizar los componentes y co
 **error no finalizar con ;**
 
 ![imagen del código mal](./imagenes/código01.png)
+
+### Código_01 arreglado
+
+```cpp
+void setup() {
+  // put your setup code here, to run once:
+pinMode (13,OUTPUT); //pinMode me indica que pin ocupare
+} // si no me funciona el codigo revisar que esten los murcielagos 
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(1000);
+}
+```
+
