@@ -87,6 +87,8 @@ https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1
 
 https://www.instagram.com/nrmbnt/?hl=es tesis de flores en pantallas que se mueven
 
+### Palabras importantes
+
 ## Encargo
 
 Avanzar con el proyecto-01
