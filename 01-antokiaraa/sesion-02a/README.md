@@ -41,7 +41,7 @@ delay(2000); //tiempo de espera entre cada patron
 
 el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrandóla) al github.
 
-# intentos
+## intentos
 
 ```cpp
 void setup() {
@@ -111,7 +111,7 @@ exit status 1
 Compilation error: expected primary-expression before '}' token
 ```
 
-**se me había colado un "+", eso era**
+se me había colado un "+", eso era
 
 ```cpp
 void setup() {
@@ -129,7 +129,7 @@ void loop() {
 }
 ```
 
-### error 3:
+### error 3
 
 // ya está, pero no me funciona en el serial monitor c:
 
