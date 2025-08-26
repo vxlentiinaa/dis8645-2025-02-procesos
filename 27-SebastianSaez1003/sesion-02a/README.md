@@ -4,9 +4,9 @@ USB: Universal Serial Bus
 
 Serial.begin(9600); es la velocidad de transferencia.
 
-Baudios es la velocidad de comunicación. 
+Baudios es la velocidad de comunicación.
 
-9600 es un número muy extraño… 
+9600 es un número muy extraño…
 
 MP4Museum es una herramienta para poder reproducir un video infinitamente.
 
@@ -16,7 +16,7 @@ IoT es lo que está viendo Sergio en el seminario de título, servicio web entre
 
 Literalmente, nos movemos en el mundo de las ideas, pero en este curso pasaremos de estas ideas a lo computacional.
 
-Yuk Hui tiene un libro que se titula “¿Qué es un objeto digital?”, por si nos gusta la filosofía y la ingeniería informática. 
+Yuk Hui tiene un libro que se titula “¿Qué es un objeto digital?”, por si nos gusta la filosofía y la ingeniería informática.
 
 Caja negra editoriales
 
@@ -28,7 +28,7 @@ Empezamos a hablar sobre la documentación de GitHub.
 
 Nos vino visitar Sokio.
 
-Neurotic wave 
+New Latin Wave
 
 Por el año 86 se dedicaba a abrir computadores para poder cambiar los sonidos de los chips.
 
@@ -36,9 +36,9 @@ Lenguaje BASIC
 
 Sampler es el instrumento dedicado para poder ver muestras de sonido y usarlas con un teclado o secuenciales con un software.
 
-La Ópera Patria fue categorizada como una de las mejores óperas de los últimos 10 años. 
+La Ópera Patria fue categorizada como una de las mejores óperas de los últimos 10 años.
 
-Inauguró el Teatro Maturana 100
+Inauguró el Teatro Matucana 100
 
 En el año 2023 volvió con una ópera que se llama Paraíso en Nueva York, donde por primera vez integró instrumentos reales. 
 
@@ -56,7 +56,7 @@ Sokio.studio
 
 National Sawdust es uno de los mejores lugares para 
 
-Parlantes Constellation que también tienen la función de micrófono al mismo tiempo. 
+Parlantes Constellation que también tienen la función de micrófono al mismo tiempo.
 
 Se viene la ópera Splitting/Absence, que es sobre la vida y obra de Roberto Matta-Clark, uno de los expositores más importantes del surrealismo, el último surrealista.
 
@@ -66,7 +66,7 @@ Hace cortes en edificios, pierdes la noción del espacio con su obra, una obra c
 
 La música electrónica le debe todo a los artistas con los que él trabajó.
 
-Juan Downey fue uno de los primeros en realizar videoarte. 
+Juan Downey fue uno de los primeros en realizar videoarte.
 
 Con el uso de un solenoide se logra hacer algo que no entendí muy bien, así que voy a tener que investigar.
 
@@ -74,7 +74,6 @@ Caja Hammond es una caja estandarizada que normalmente se ocupa como carcasa par
 
 Vamos a aprender cómo subir código a Arduino; primero deberíamos tener el tic de hacer Ctrl+S para poder grabar nuestro archivo.
 
-La extensión del archivo es .ino; necesitamos que exista una carpeta con el mismo nombre que el archivo; si no, Arduino se marea. Subir la carpeta. 
+La extensión del archivo es .ino; necesitamos que exista una carpeta con el mismo nombre que el archivo; si no, Arduino se marea. Subir la carpeta.
 
-Debería arrastrar la carpeta de mi archivo de Arduino a subir. 
-
+Debería arrastrar la carpeta de mi archivo de Arduino a subir.
