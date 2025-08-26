@@ -14,7 +14,7 @@ GND - Ground
 SIG - Output, connect to an analog input pin
 VCC - Supply voltage
 
-###Idea proyecto 1: 
+### Ideas proyecto 1: 
 - que el texto suba o baje 
 - que el potenciómetro cambie la velocidad a la que el texto se mueve 
 - que el potenciómetro cambie la dirección en la que va el texto, derecha baja, izquierda sube 
