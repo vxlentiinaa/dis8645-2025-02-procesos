@@ -19,3 +19,9 @@ pagina que cita en apa https://www.bibguru.com/es/
 idea 01 que con un potencimetro suba o baje el texto
 
 idea 02 
+
+
+### digital vs analogo
+
+lo digital es discreto, simula la realidad en vez de tiempo son horas, poe ejemplo el minecraft es una referencial a la realidad, a una realidad analoga, al igual que los pixeles de la fotos. hacen un montaje de una foto, pero son pequeños pedacitos que se difuminan, en cambio a las fotos analogas que no tienen pixeles porque son colores continuios, que varia de forma organica.
+
