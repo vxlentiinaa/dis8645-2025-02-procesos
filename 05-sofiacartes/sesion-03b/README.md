@@ -5,7 +5,7 @@
 **Pantallas:** la importancia para elegir la pantalla que necesitamos se debe ver la resolución, cantidad y la densidad de los pixeles. Ya que, el úmeri de pixeles individuales son capaces de verse en una dimensión.
 
 * Una pantalla son muchos LEDS ordenados.
-* Panel display, pantallad de siete segmentos. 8x8 64 pixeles. **matriz LED**
+* Panel display, pantallas de siete segmentos. 8x8 64 pixeles. **matriz LED**
 * Existen pantallas que solo hacen carácteres.
 
 
