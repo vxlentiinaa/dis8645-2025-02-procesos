@@ -37,7 +37,7 @@ copiar código a Wokwi
 
 modificación en el código // FIX la dirección era otra
 
-```ccp
+```cpp
 // #define SCREEN_ADDRESS 0x3D ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
 #define SCREEN_ADDRESS 0x3C
 ```
@@ -51,7 +51,7 @@ los nombres modificables ojalá darle un nombre a elección en español
 
 ### ejemplo utilizado en Wokwi
 
-```ccp
+```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -100,7 +100,7 @@ void loop() {
 probé colocar una imagen en la pantallita
 
 código: 
-```ccp
+```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -220,7 +220,7 @@ resultado:
 
 última parte clase
 
-```ccp
+```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
