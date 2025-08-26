@@ -96,6 +96,8 @@ Después de declararlo, puedo usarlo.
 
 C++ W3Schools
 
+## encargo 3 y 4 "programar y equivocarse 3 veces, documentar textualmente"
+
 Primero quiero lograr que con los digitos de mi computador, el LED del arduino brille la cantidad de veces que corresponda al dígito ingresado
 
 basandome en el ejemplo de blink y el print de la poesía que hicimos en clase, intente crearme una base para poder trabajar en este código
@@ -319,6 +321,107 @@ void showNewData() {
 
 ```
 
-La tarea de hoy es romperlo de maneras raras, crear variables, documentar errores. 
+como otro código, quise programar un dado de 20 caras, que por ejemplo, podría ser usado  para un juego de D&D ocupare la función random de esta página: 
 
-Fallar con al menos 5 códigos que no nos funcionen.
+https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/
+
+Hay que resaltar que con esta función genera números enteros de por si, entre el mínimo y el máximo que se establezca (min,max) o entre 0 y el número establecido como máximo (max), solo siendo necesario el escribir mas codigo si es que deseara conseguir números decimales.
+
+
+long randNumber;
+char tiraDado;
+boolean resultadoDado = false;
+
+void setup() {
+ //empezar comunicación con el monitor Serial
+  Serial.begin(9600);
+// empezar el “randomizador”
+  randomSeed(analogRead(0));
+}
+
+void loop() {
+ recievetiraDado()
+  showresultadoDado()
+}
+
+void recievetiraDado() {
+ if (Serial.available() > 0) {
+      // lo ingresado sera catalogado como la variable cifra
+        tiraDado = Serial.read();     
+}
+
+void showresultadoDado() {
+if (tiraDado == ‘d’ ) {
+// mostrar en la consola el mensaje de "Has tirado el dado" para que a continuacion se demuestre que caracter fue enviado
+        Serial.print("¡Has tirado el dado! /n");
+// para crear tension, se demora en darte el resultado
+delay(2000)
+        Serial.print("Veamos que te sale… /n");
+delay(2000)
+   // esto hará print en el monitor serial con un número entre 1 y 20
+  randNumber = random(1, 20);
+  Serial.println(randNumber);
+  delay(500);
+    }
+if (randNumber == ‘1’) {
+ Serial.print (“¡Fallo critico!”)
+  }
+if (randNumber == “20”) {
+ Serial.print (“¡Exito critico!”)
+  }
+}
+
+como no funciono, volvi a ocupar las variables que deje en el código anterior, no estoy seguro de la razón exactamente del porque no me funcionaban las que escribí yo
+
+```c++
+// para jugar con este dado escribe la letra (d) en el monitor serial
+
+long randNumber;
+char tiraDado;
+bool newData = false;
+//nuevaData
+
+void setup(){
+    //empezar comunicación con el monitor Serial
+     Serial.begin(9600);
+    //empezar el “randomizador”
+     randomSeed(analogRead(0));
+    }
+
+void loop(){
+  recvOneChar();
+    showNewData();
+}
+
+void recvOneChar(){
+   if (Serial.available() > 0) {
+      // lo ingresado sera catalogado como la variable cifra
+      tiraDado = Serial.read();     
+    }
+}
+
+void showNewData(){
+    if (tiraDado == 'd' ) {
+      // mostrar en la consola el mensaje de "Has tirado el dado" para que a continuacion se demuestre que caracter fue enviado
+      Serial.print("¡Has tirado el dado!\n");
+        // para crear tension, se demora en darte el resultado
+        delay(2000);
+          Serial.print("Veamos que te sale…\n");
+          delay(2000);
+        //esto hará print en el monitor serial con un número entre 1 y 20
+        randNumber = random(1,20);
+          Serial.println(randNumber);
+          delay(500);
+    }
+
+  if (randNumber == '1') {
+    Serial.print ("¡Fallo critico!");
+     }
+
+  if (randNumber == '20') {
+    Serial.print ("¡Exito critico!");
+     }
+}
+
+
+```
