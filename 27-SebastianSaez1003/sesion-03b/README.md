@@ -14,6 +14,8 @@ Vamos a subir la librería de adafruit gfx, esta librería se ocupa mucho para h
 
 Aprendimos a añadir librerías a nuestra app de arduino
 
+## módulo despues del break
+
 A la vuelta del break, Aaron nos explico la razón del porqué es importante el revisar que tengamos de manera organizada nuestras carpetas, para el funcionamiento correcto de nuestro código
 
 Now demostraron las maneras que se podían ocupar estas librerías, para hacer dibujos, animaciones, cargar imágenes, texto, etc, de una manera tan brutal que personalmente no alcance a escribir debido a la gran cantidad de informacion, pero si logre comprender, donde se deberian usar las distintas funciones asignadas por la misma librería para poder hacer cada acción designada.
