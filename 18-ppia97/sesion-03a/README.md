@@ -112,7 +112,7 @@ NOR es una compuerta lógica combinación de las compuertas OR y NOT, también e
 Tiene sus entradas inactivas, por lo que la salida estará en estado activo.
 Si alguna de las entradas se activa "1", la salida pasará a estar inactiva "0".
 ```
-
+![NOR](./imagenes/NOR1.jpg)
 ### XOR
 
 [Link de donde saqué la información](https://www.mecatronicalatam.com/es/tutoriales/electronica/compuertas-logicas/compuerta-xor/)
