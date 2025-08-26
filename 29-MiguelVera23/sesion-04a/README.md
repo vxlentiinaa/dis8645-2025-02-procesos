@@ -2,23 +2,23 @@
 
 Probando texto que alterna imagen
 
-En este caso hice a Danny DeVitto comiendo doritos lo que abre la puerta a hacer lo que quiera y tenerlo en display de fondo. 
+En este caso hice a Danny DeVitto comiendo doritos, lo que abre la puerta a hacer lo que quiera y tenerlo en display de fondo. 
 
 Con más ram me gustaría hacer animaciones.
 
-```opp
+```cpp
 #include <Wire.h>
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX.h> //"usa las bibliotecas ya instaladas"
 #include <Adafruit_SSD1306.h>
 
-#define SCREEN_WIDTH 128
+#define SCREEN_WIDTH 128    //parámetros de pantalla
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);  //"que es pantallita"
 
-int contador = 0;
+int contador = 0;   //inicia en 0
 
-// 'story-behind-this-picture-v0-b90o0o7vy24d1', 128x64px
+// 'story-behind-this-picture-v0-b90o0o7vy24d1', 128x64px //nombre imagen/dimensiones
 const unsigned char deVitto [] PROGMEM = {
 	0xff, 0xff, 0xff, 0xf8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1f, 0xff, 0xff, 0xff, 
 	0xff, 0xff, 0xff, 0xf8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1f, 0xff, 0xff, 0xff, 
@@ -90,33 +90,17 @@ const unsigned char deVitto [] PROGMEM = {
 
 
 void setup() {
-  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    Serial.println(F("No se encontró la pantalla SSD1306"));
-    for(;;);
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {     //si no inicia actividad
+    Serial.println(F("No se encontró la pantalla SSD1306"));  //en caso de que no funcione
+    for(;;); 
   }
   pantallita.clearDisplay();
   pantallita.setTextColor(SSD1306_WHITE);
 }
 
 void loop() {
-  pantallita.clearDisplay(); // Limpiamos toda la pantalla
-  // pantallita.setTextSize(1); // Tamaño de texto más grande
-  // String mensaje = "Contador muy grande matias recomienda j:";
-  // int16_t x1, y1;
-  // uint16_t w, h;
-  
-  // // Medimos el ancho del texto para centrarlo horizontalmente
-  // pantallita.getTextBounds(mensaje, 0, 0, &x1, &y1, &w, &h);
-  // pantallita.setCursor((SCREEN_WIDTH - w)/2, 0);
-  // pantallita.println(mensaje);
-
-  // // Mostramos el número centrado
-  // String numero = String(contador);
-  // pantallita.getTextBounds(numero, 0, 0, &x1, &y1, &w, &h);
-  // pantallita.setCursor((SCREEN_WIDTH - w)/2, 30); // 30 píxeles hacia abajo
-  // pantallita.println(numero);
-
-  pantallita.drawBitmap(0, 0, deVitto, 128, 64, WHITE);
+  pantallita.clearDisplay(); // Borra la pantalla
+  pantallita.drawBitmap(0, 0, deVitto, 128, 64, WHITE); //dibuja en bitmap/desde arriba a la izquierda/la imagen específica/ancho/alto/en color blanco
 
   pantallita.display(); // Actualiza la pantalla
   contador++;
@@ -124,14 +108,14 @@ void loop() {
   pantallita.clearDisplay();
 
   pantallita.setTextSize(2);    //reproducción de más texto pero en loop
-  pantallita.setTextColor(WHITE); 
-  pantallita.setCursor(0, 0);
-  pantallita.println("mmmmmm");
-  pantallita.println("Doritos");
+  pantallita.setTextColor(WHITE);  //color
+  pantallita.setCursor(0, 0);   //ubicación
+  pantallita.println("mmmmmm");  //texto
+  pantallita.println("Doritos");  //salta una línea
 
-  pantallita.display();
-  delay(1300);
-  pantallita.clearDisplay();
+  pantallita.display();   //muestra lo que es pantallita
+  delay(1300);    //1.3 segundos
+  pantallita.clearDisplay();   //borra pantalla
 }
 ```
 
@@ -139,8 +123,8 @@ PD: Logré hacer las mañanitas.
 
 Aquí está la versión en donde mejoro el ritmo y varío el tamaño de fuente. Lo siguiente podría ser añadir scroll.
 
-```opp
-Mananitas
+```cpp
+//Mananitas
 
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
