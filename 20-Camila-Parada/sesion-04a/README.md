@@ -18,7 +18,7 @@ Para comenzar quise indagar sobre videos explicativos donde presenten el circuit
 
 Tras sentirme disconforme comencé a buscar información más precisa sobre como hacer la interface física del montaje de los circuitos ["Connect Multiple OLED Displays With Arduino Nano (or any other board)"](https://www.youtube.com/watch?v=MO6hbQcX8fE&t=12s&ab_channel=TechWithRita). Este proyecto trabaja con 4 pantallas, por lo que me sirve de referencia para las conexiones. Al indagar destaco la importancia de un circuito integrado de tipo "Tca9548a", . Ello me dejó la duda de la necesidad de utilizar dicho módulo, por lo que continué investigando más sobre para entender cómo es que funciona esta la comunicación del I2C en el arduino.
 
-
+Al consultar el sitio web de ["Programar fácil"](https://programarfacil.com/blog/arduino-blog/comunicacion-i2c-con-arduino/) pude comprender que esta tecnología es un estandar actual dentro de la industria, la cual involucra un "Controlador" (Master, quienes incian y coordinan la comunicación con las otras piezas) y una serie de "Componentes perifericos" (Slave, aquellos componentes que requieren de una señal para actuar, usualmente siendo sensores, actuadores o hasta microcontroladores).
 
 
 ![imagen](./archivos/.)
