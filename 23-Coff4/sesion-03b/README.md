@@ -250,3 +250,88 @@ La idea es que el poema se vea...como un poema (￢ ￢) cof cof
 ---
 
 Mañana vere si utilizo el codigo que dio el profesor y le dare una manita de gato. (Por lo tanto esto no es lo ultimo de mi)
+
+## Actualización
+
+Encontre otro codigo con el cual se puede mostrar de diferentes maneras el texto, lo cual es perfecto para darle una mejor visualidad al poema.
+
+(https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/)
+
+```cpp
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+ 
+// Definir constantes
+#define ANCHO_PANTALLA 128 // ancho pantalla OLED
+#define ALTO_PANTALLA 64 // alto pantalla OLED
+ 
+// Objeto de la clase Adafruit_SSD1306
+Adafruit_SSD1306 display(ANCHO_PANTALLA, ALTO_PANTALLA, &Wire, -1);
+ 
+void setup() {
+#ifdef __DEBUG__
+  Serial.begin(9600);
+  delay(100);
+  Serial.println("Iniciando pantalla OLED");
+#endif
+ 
+  // Iniciar pantalla OLED en la dirección 0x3C
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+#ifdef __DEBUG__
+    Serial.println("No se encuentra la pantalla OLED");
+#endif
+    while (true);
+  }
+ 
+  // Limpir buffer
+  display.clearDisplay();
+ 
+  // Tamaño del texto
+  display.setTextSize(1);
+  // Color del texto
+  display.setTextColor(SSD1306_WHITE);
+  // Posición del texto
+  display.setCursor(10, 32);
+  //Activar página de código 437
+  display.cp437(true);
+  // Escribir el carácter ¡ dos veces
+  display.write(173);
+  display.write(173);
+  // Escribir texto
+  display.println("En Santiago");
+  display.println("de Chile");
+
+  
+  
+  // Enviar a pantalla
+  display.display();
+  delay(2000);
+ 
+  // Mover texto de izquierda a derecha
+  display.startscrollright(0x00, 0x0F);
+  delay(5000);
+  display.stopscroll();
+  
+  // Mover texto de derecha a izquierda
+  display.startscrollleft(0x00, 0x0F);
+  delay(5000);
+  display.stopscroll();
+ 
+  // Mover texto en diagonal hacia la derecha
+  display.startscrolldiagright(0x00, 0x07);
+  delay(5000);
+  display.stopscroll();
+ 
+  // Mover texto en diagonal hacia la izquierda
+  display.startscrolldiagleft(0x00, 0x07);
+  delay(5000);
+  display.stopscroll();
+}
+ 
+void loop() {}
+```
+
+Con estas lineas de codigo se puede mover el texto a diferentes posiciones. No es largo y seria capaz de conversar con otras lineas mas complejas 
+sin mandar a error todo el proceso.

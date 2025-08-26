@@ -61,8 +61,7 @@ void loop() {
 ## documentación errores:
 
 ### error 1:
-
-```ccp
+```cpp
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino:10:26: error: stray '\303' in program
    Serial,println(esto sería el siguiente texto?);
                           ^
@@ -100,7 +99,7 @@ Compilation error: stray '\303' in program
 
 ### error 2:
 
-```ccp
+```cpp
 
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino: In function 'void setup()':
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino:4:1: error: expected primary-expression before '}' token

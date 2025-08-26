@@ -12,7 +12,7 @@ seleccionar puerto y Arduino r4 minima
 
 ejemplo con Blink:
 
-```ccp
+```cpp
 /*
   Blink
 
