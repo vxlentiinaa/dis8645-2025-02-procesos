@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 03b - Título ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 03b - Pantallas y simuladores ♡⊹˚₊⋆
 
 Viernes 22 Agosto 2025
 
@@ -10,7 +10,17 @@ Esta clase fue online, puesto que el jueves enviaron un comunicado que por la si
 
 ***
 
-### Escaneo de bitácora y apuntes escritos del día
+### Escaneo de bitácora y apuntes escritos de la grabación
+
+La clase comenzó hablando forma teórica sobre los elementos con los cuales vamos a comenzar a trabajar para el encargo 1. Partiendo por la protoboard y las pantallas de 128 x 64 pixeles, que cuentan con tecnología OLED ([Organic Light-Emitting Diode](https://sensorkit.arduino.cc/sensorkit/module/lessons/lesson/10-the-oled-screen) o Diodo orgánico emisor de luz, es una tecnología que consta de usar materia orgánica a base de carbón para emitir luz una vez que se le aplica corriente). A la par expusieron una [pantalla curiosa de tipo redondo con tecnología TFT](https://es.aliexpress.com/item/1005004481969638.html), la cual proponen como un desafío de usar al poseer más entradas de información. Estas poseen distinta "resolución", es decir, mayor cantidad de pixeles en el espacio físico. En cuanto al termino "display" hace mención a distintos tipos de pantallas, entre las que se encuentran las de 7 segmentos, las oled, las matrices de leds, etc.
+
+Además se mencionó la existencia de simuladores en línea: [Tinkercad](https://www.tinkercad.com/) y [Wokwi](https://wokwi.com/) (mi preferido).
+
+Un referente que se mencionó fue [Dando la hora y sus relojes digitales](https://www.dandolahora.cl/products/prototipo-el-numero-uno-el-primer-reloj-digital-en-la-historia-de-chile).
+
+
+
+
 
 ![imagen](./archivos/.)
 

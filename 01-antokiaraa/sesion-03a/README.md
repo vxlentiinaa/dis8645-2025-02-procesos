@@ -2,7 +2,7 @@
 
 ## anotaciones: condicionales, iteradores, Serial.read(), protoboard
 
-```ccp
+```cpp
 If (Boolean condition) Then
    (consequent)
 Else
@@ -35,7 +35,7 @@ noPuedoNoMas();
 
 ## OPERADORES LÓGICOS
 
-```ccp
+```cpp
 y / and  -  o / or  -  no / not
 la compuerta "and" solo es 1 si ambas variables son 1, en cualquier otro caso es 0 (&&)
 la compuerta "or" si alguna de las entradas es si; la respuesta es si. si ambas es no, la respuesta es no (independiente) (||)
@@ -44,7 +44,7 @@ la compuerta "not" lo que sea que haga la entrada, la salida hace lo contrario
 
 ## INVESTIGAR "NAND" "NOR" "XOR"
 
-```ccp
+```cpp
 iterar
 int veces;
 for(parto; termino; que hago cada paso)
@@ -63,7 +63,7 @@ for (int i = 0; i < veces; i = i + 1)
 
 ## prueba ejemplo en arduino
 
-```ccp
+```cpp
 int numEstudiantes = 29;
 
 void setup() {
@@ -87,7 +87,7 @@ void loop() {
 
 ### repasar if, else, for, int
 
-```ccp
+```cpp
 NAND: es la negación de la puerta AND, su salida es 0 solo si todas sus entradas son 1, en cualquier otro caso la salida es 1.
 NOR: es la negación de la puerta NOR, su salida es  1 solo si todas sus entradas son 0, en cualquier otro caso es 0.
 XOR: la salida es 1 si las entradas son diferentes, y la salida es 0 si las entradas son iguales.
