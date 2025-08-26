@@ -1,6 +1,6 @@
 # sesion-03a
 
-Hablamos sobre la solemne n1 que será el viernes de la próxima semana, pero como llegue tarde solo escuche la mitad
+Hablamos sobre la primera evaluacion que será el viernes de la próxima semana, pero como llegue tarde solo escuche la mitad
 
 Para introducir un siguiente elemento a la programación que podremos darle a nuestro Arduino, Aaron nos enseñó acerca de las condiciones, específicamente al “if” y el “else”, donde:
 
@@ -45,3 +45,7 @@ el arduino lo está truncando, no aproximando si es que por ejemplo estamos haci
 repasar if, else, if else, for, and, or
 
 no vamos a programar la pantalla desde 0, vamos a ocupar librerías de otros
+
+## encargo 6 "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"
+
+Me puse al dia con los encargos que aún no había puesto de buena manera en github y los apuntes de clases que aún no estaban subidos
