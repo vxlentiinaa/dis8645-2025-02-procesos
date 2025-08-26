@@ -4,7 +4,7 @@
 
 ### Proyecto-01
 
-#### Pauta
+### Pauta
 
 - 1 punto base
 
@@ -14,13 +14,13 @@
 - 1 punto por calidad de comentarios del código
 - 1 punto por factura, funcionalidad y originalidad
 
-### Parte individual
+#### Parte individual
 
 - 1 punto por bitácora constante y periódica y personal
 - 1 punto por presentación oral de cada estudiante
 - 1 punto por listado de roles que tomaste en el grupo, y explicaciones de forma detallada.
 
-## Descuentos
+#### Descuentos
 
 - 3 puntos por no cumplir con los plazos establecidos
 - 3 puntos menos por no presentar sin justificativo médico

@@ -1,6 +1,6 @@
 # sesion-01b
 ## APUNTES
-```ccp
+```cpp
 Issue (original): pedir cosas por si hay problemas.
 Mi fork.
 Para subir un arduinos al Github:
