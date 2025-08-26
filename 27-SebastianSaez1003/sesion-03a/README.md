@@ -22,7 +22,6 @@ Serial.println() es para que lo que sea enviado en la consola Serial aparezca ca
 
 int (integer) sirve para almacenar números ENTEROS, de esta manera podríamos ahorrarnos por ejemplo segundos de esta manera: int segundos = millis() / 1000;
 
-
 ## módulo despues del break
 
 Vamos a hablar de los operadores lógicos en más detalle, como ejemplo Misaa para enseñarnos de una manera un poco más visual nos enseñó el como usar estos operadores en una situación de una viaje hasta una casa.
