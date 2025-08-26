@@ -9,6 +9,14 @@ Taller de diseño de máquinas computacionales, segundo semestre 2025
 * Janis Sepúlveda <https://github.com/janisepulveda>: ayudante
 * Mateo Arce <https://github.com/matbutom/>: ayudante
 
+## Enlaces importantes dentro del repositorio
+
+En la carpeta [00-docentes](./00-docentes) se encuentran los materiales usados de las sesiones.
+
+En la carpeta [00-metaclases](./00-metaclases) se encuentran archivos sobre nuestras clases, programados en C++.
+
+El archivo [00-metaclases/listaEncargos.cpp](./00-metaclases/ListaEncargos.cpp) es muy importante, ya que es donde se definen, enumeran y detallan los encargos del curso.
+
 ## Unidades
 
 Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. Las entregas grupales se hacen en grupos de 3 a 4 estudiantes.

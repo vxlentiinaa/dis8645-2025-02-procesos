@@ -2,78 +2,109 @@
 
 ## Trabajo en clase / Martes 19 de agosto, 2025
 
+### Proyecto-01
+
+#### Pauta
+
+- 1 punto base
+
+#### Parte grupal
+
+- 1 punto por documentación textual en README.md de todo el proyecto
+- 1 punto por calidad de comentarios del código
+- 1 punto por factura, funcionalidad y originalidad
+
+### Parte individual
+
+- 1 punto por bitácora constante y periódica y personal
+- 1 punto por presentación oral de cada estudiante
+- 1 punto por listado de roles que tomaste en el grupo, y explicaciones de forma detallada.
+
+## Descuentos
+
+- 3 puntos por no cumplir con los plazos establecidos
+- 3 puntos menos por no presentar sin justificativo médico
+- 5 puntos menos por no escribir comentarios en el código
+- 6 puntos menos por hacer un "drop": no tener proceso sostenido en el tiempo ni en código, ni en desarrollo, ni en documentación.
+- 3 puntos menos por usar directamente los datos del potenciómetro y no procesarlos con originalidad para controlar la pantalla.
+
 ### Condicionales e Iteradores
 
-if, una condicion
+if, una condición.
 
-si eso ocurre entonces hace ciertas cosas
+Si eso ocurre, entonces hace ciertas cosas.
 
-algebra booleana
+Álgebra booleana.
 
-las condiciones existen en todo tipo de lenguaje de progamacion, la condicion va entreparentecis 
+Las condiciones existen en todo tipo de lenguaje de programación. La condición va entre paréntesis.
 
-if (ver == false){
+> if (ver == false){
+>
+> ponermeLentes():
+>
+> }else{
+>
+> continuarConMiVida():
 
-ponermeLentes():
+Se pueden poner más ejemplos.
 
-}else{
+Si pones un ! (signo de exclamación), se le llama bang, se usa para decir lo contrario.
 
-continuarConMiVida():
+También puedes hacer que la condición tenga otra condición.
 
-se pueden poner mas ejemplos
+or es un operador lógico.
 
-si poner un ! signo de explamacion, se le llama bang, se usa para decnir lo contrario
+> if (edad >18 18 OR tengoPituto){
+>
+> dartePermisoDeConducir():
+>
+> }
+>
+> else{
+>
+> // noPuedoNomas
 
-tambien puedes hacer que la condicion tenga otra condicion
+Operadores lógicos: and, or, not.
 
-or es un operador logico
+Compuertas AND, OR, NOT.
 
-if (edad >18 18 OR tengoPituto){
+Tabla de verdad.
 
-dartePermisoDeConducir():
-
-}
-
-else{
-
-// noPuedoNomas
-
-operadores logicos: are, or, not
-
-compuerta and, or, not
-
-tabla de verdad
-
-las compuertas de y son dependientes
+Las compuertas AND son dependientes.
 
 #### Tabla de verdad AND
 
-| A 	| B 	| OUT 	|
-|---	|---	|-----	|
-| 0 	| 0 	| 0   	|
-| 0 	| 1 	| 0   	|
-| 1 	| 0 	| 0   	|
-| 1 	| 1 	| 1   	|
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 0    |
+| 1  | 0  | 0    |
+| 1  | 1  | 1    |
 
 #### Tabla de verdad OR
 
-| A 	| B 	| OUT 	|
-|---	|---	|-----	|
-| 0 	| 0 	| 0   	|
-| 0 	| 1 	| 1   	|
-| 1 	| 0 	| 1   	|
-| 1 	| 1 	| 1   	|
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 1    |
 
 #### Tabla de verdad NOT
 
-| A 	| OUT 	|
-|---	|-----	|
-| 0 	| 1   	|
-| 1 	| 0   	|
+| A | OUT |
+| - | --- |
+| 0 | 1   |
+| 1 | 0   |
 
+Sofistas
 
-sofistas
+Con Control + T se ordenan las cosas en Arduino.
 
-con control t ordena las cosas en arduino
+Variables, funciones, for, if, and.
 
-VARIABLES, FUNCIONES, FOR, IF, ARE
+### Referentes 
+
+### Palabras importantes
+
+## Encargo
