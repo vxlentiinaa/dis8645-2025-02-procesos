@@ -46,7 +46,7 @@ void setup() {
 void loop() {
   pantallita.clearDisplay();
 
-  pantallita.setTextSize(1);  // Draw 2X-scale text
+  pantallita.setTextSize(2);  // Draw 2X-scale text
   pantallita.setTextColor(SSD1306_WHITE);
 
   //en que parte del display se dibuja el texto
@@ -65,7 +65,7 @@ void loop() {
     // read the incoming byte:
     datoRecibido = Serial.read();
 
-    //tecla '1' = 1 segundo, tecla '2' = 2 segundos, etc.
+    //con la tecla 1 alternas entre las opciones de verso1. así para las teclas 1, 2, 3 y 4.
     if (datoRecibido == '1') {
       index1++;
     } else if (datoRecibido == '2') {
