@@ -16,7 +16,7 @@ ENCARGO
 
 -Mínimo 3 códigos
 
-Para poder introducirme en la programación y el uso de código me puse metas "alcanzables" como programar un dado, usar morse o recibir texto. 
+Para poder introducirme en la programación y el uso de código me puse metas "alcanzables" como programar un dado, usar morse o recibir texto.
 
 Me costó saber por dónde empezar asi que empecé a buscar soluciones específicas y ejemplos del uso de la nomenclatura.
 
@@ -45,9 +45,9 @@ Uso de if
 <https://programarfacil.com/blog/arduino-blog/if-else-arduino/#:~:text=Las%20sentencias%20condicionales%20if%20con,indefinidamente%20dentro%20de%20nuestro%20programa.>
 
 ```cpp
-SOS en morse
+// SOS en morse
 
-...---...
+// ...---...
 
 void setup() {
 
@@ -140,12 +140,11 @@ delay(2000);                       //delay de 2 segundos para que no se confunda
 
 ```
 
-Este código funcionó pero debe haber una manera más fácil de optimizarlo. A continuación hay intentos fallidos que me ayudaron a familiarizarme con la nomenclatura pero aún me es muy dificil encontrar la lógica detras de programar. 
-
+Este código funcionó pero debe haber una manera más fácil de optimizarlo. A continuación hay intentos fallidos que me ayudaron a familiarizarme con la nomenclatura pero aún me es muy dificil encontrar la lógica detras de programar.
 
 ```cpp
 
-LAS MAÑANITAS
+// LAS MAÑANITAS
 
 void setup() {
   // put your setup code here, to run once:
@@ -181,7 +180,7 @@ canción = canción + "Cantaron los Ruiseñores\n";
 Intenté enseñarle las mañanitas pero hay errores que aunque sean simples aún no puedo percibir.
 
 ```cpp
-DADO 30
+// DADO 30
 
 void setup() {
   // put your setup code here, to run once:
@@ -199,6 +198,7 @@ long randomNumber1 = random(30);    //dado 30
 void randomNumber1
 }
 ```
+
 Me interesé por usar la aleatoriedad y busqué ejemplos.
 
 ```cpp
@@ -219,6 +219,7 @@ String readString
 readString="";
 }
 ```
+
 de este ejemplo <https://forum.arduino.cc/t/receive-string-from-serial-monitor/643266>
 
 ```cpp
@@ -240,5 +241,5 @@ void loop() {
 
 }
 ```
-display de texto vertical y horizontal
 
+display de texto vertical y horizontal

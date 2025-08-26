@@ -103,6 +103,7 @@ En su tabla de verdad, el resultado siempre será 1 excepto cuando ambas entrada
 ```
 
 <img width="263" height="251" alt="image" src="https://github.com/user-attachments/assets/d0b116b2-d507-4c0e-ba15-5c09ca81985c" />
+
 <img width="238" height="167" alt="image" src="https://github.com/user-attachments/assets/f198e809-8aa2-4390-90b0-89ac5170ab54" />
 
 ### NOR
@@ -116,6 +117,7 @@ Si alguna de las entradas se activa "1", la salida pasará a estar inactiva "0".
 ```
 
 <img width="241" height="236" alt="image" src="https://github.com/user-attachments/assets/911c990e-15dc-4035-b6a0-f7dff130fdb3" />
+
 <img width="215" height="168" alt="image" src="https://github.com/user-attachments/assets/8a429af5-06ef-4d0e-b325-d529a99d1346" />
 
 ### XOR

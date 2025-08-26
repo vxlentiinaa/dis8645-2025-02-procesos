@@ -2,7 +2,7 @@
 
 Hablamos sobre la solemne n1 que será el viernes de la próxima semana, pero como llegue tarde solo escuche la mitad
 
-Para introducir un siguiente elemento a la programación que podremos darle a nuestro Arduino, Aaron nos enseñó acerca de las condiciones, específicamente al “if” y el “else”, donde: 
+Para introducir un siguiente elemento a la programación que podremos darle a nuestro Arduino, Aaron nos enseñó acerca de las condiciones, específicamente al “if” y el “else”, donde:
 
 - “if” se usa para definir su condición la cual deba de ser cumlida para que lo qu este escrito en {} se lleve a cabo
   
@@ -22,7 +22,6 @@ Serial.println() es para que lo que sea enviado en la consola Serial aparezca ca
 
 int (integer) sirve para almacenar números ENTEROS, de esta manera podríamos ahorrarnos por ejemplo segundos de esta manera: int segundos = millis() / 1000;
 
-
 ## módulo despues del break
 
 Vamos a hablar de los operadores lógicos en más detalle, como ejemplo Misaa para enseñarnos de una manera un poco más visual nos enseñó el como usar estos operadores en una situación de una viaje hasta una casa.
@@ -38,11 +37,11 @@ El orden de los operadores lógicos no cambian el resultado
 i++ es igual a poner i = i+1 (un atajo)
 
 Módulos es solo para números enteros
- 
+
 control+t te ordena el texto de arduino
 
-el arduino lo está truncando, no aproximando si es que por ejemplo estamos haciendo una división que daria un numero decimal, donde el modulo nos daria el resto, que va a ser de esta manera numero1 % numero2 
+el arduino lo está truncando, no aproximando si es que por ejemplo estamos haciendo una división que daria un numero decimal, donde el modulo nos daria el resto, que va a ser de esta manera numero1 % numero2
 
 repasar if, else, if else, for, and, or
 
-no vamos a programar la pantalla desde 0, vamos a ocupar librerías de otros 
+no vamos a programar la pantalla desde 0, vamos a ocupar librerías de otros
