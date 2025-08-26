@@ -57,6 +57,7 @@ void loop() {
   pantallita.println(linea2[index2]);
   pantallita.println(linea3[index3]);
 
+
   pantallita.display();  // Show initial text
   delay(100);
 
