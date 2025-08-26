@@ -12,7 +12,7 @@ else {
 }
 ```
 
-![diagrama](./imagenes/diagrama.png)
+![diagrama if](./imagenes/diagrama.png)
 
 ### Operadores de comparación
 
@@ -30,9 +30,8 @@ if(Cola-cola == False){
  ComproJugoNaranja();
 ```
 
-### ELSE llega cuyando la condicion fue mentira
+#### ELSE llega cuando la condición fue mentira
 
-### ! bang (negación u opuesto)
 
 ```cpp
 if(diciembre AND donFrancisco == true
