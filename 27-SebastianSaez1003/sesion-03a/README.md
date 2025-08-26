@@ -45,3 +45,7 @@ el arduino lo está truncando, no aproximando si es que por ejemplo estamos haci
 repasar if, else, if else, for, and, or
 
 no vamos a programar la pantalla desde 0, vamos a ocupar librerías de otros
+
+## encargo 6 "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"
+
+Me puse al dia con los encargos que aún no había puesto de buena manera en github y los apuntes de clases que aún no estaban subidos
