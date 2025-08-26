@@ -4,7 +4,8 @@ Viernes 08, Agosto - 2025
 
 Nota del día: no fui a la clase porque estaba enferma, así que ando algo perdida con la materia.
 
-## ARDUINO IDE**Consideraciones del programa**
+## ARDUINO IDE
+>**Consideraciones del programa**
 
 - "Interfaz grafica, tiene varios software que conviven entre si"
   

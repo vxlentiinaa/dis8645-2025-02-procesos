@@ -16,17 +16,16 @@ Nos presentamos y hablamos un poco sobre por qué decidimos volver a tomar un ta
 
 Me gustaría aprender a imaginar cómo funciona la programación, persistir en esta bella área del diseño y encontrar mi propio enfoque o pasión dentro de la carrera.
 
+![foto](./imagenes/tmc-sesion01a.jpeg)
+
 ### Horarios
 
-08:30 - 09:00 Llegar
-
-09:00 - 10:30 Trabajar
-
-10:30 - 11:00 Descansar
-
-11:00 - 12:30 Trabajar
-
-12:30 - 12:50 Ordenar
+| 08:30 - 09:00 	| Llegar    	|
+|---------------	|-----------	|
+| 09:00 - 10:30 	| Trabajar  	|
+| 10:30 - 11:00 	| Descansar 	|
+| 11:00 - 12:30 	| Trabajar  	|
+| 12:30 - 12:50 	| Ordenar   	|
 
 ### Introducción de contenidos  
 
@@ -76,7 +75,7 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 ## Encargos
 
-###  Alan Turing
+### Alan Turing
 
 En 1936, diez años antes de que se construyera la primera computadora, Alan Turing la creó en su mente. El estudió en el King's College, un colegio de Cambridge, una de las universidades más prestigiosas.
 

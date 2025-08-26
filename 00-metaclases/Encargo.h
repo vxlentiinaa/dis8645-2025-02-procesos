@@ -7,14 +7,10 @@ class Encargo
 {
 public:
     // constructor
-    Encargo();
+    Encargo(int numero, std::string sesion, std::string texto);
 
     // destructor
     ~Encargo();
-
-    void asignarNumero(int numero);
-    void asignarFecha(std::string sesion);
-    void asignarTexto(std::string texto);
 };
 
 #endif
