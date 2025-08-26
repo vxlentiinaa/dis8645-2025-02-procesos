@@ -15,7 +15,10 @@ Está lloviendo demasiado, se cancelaron las clases presenciales. Así que estam
 - Hacer pixel arte en github <https://github.com/gelstudios/gitfiti>
 - Una página súper fea para bucar componenentes [MOUSER](https://www.mouser.cl/?gad_campaignid=194752936)
 - Una página más bonita y fácil <https://www.adafruit.com/>
-- Ladyhada [tesis](https://dspace.mit.edu/handle/1721.1/33151) - vamos a usar su biblioteca para la pantalla - tienen la fábrica en Nueva York
+- **Ladyhada**
+  - [tesis](https://dspace.mit.edu/handle/1721.1/33151)
+  - vamos a usar su biblioteca para la pantalla 
+  - tienen la fábrica en Nueva York
 - Calculadora [WolframAlpha](https://www.wolframalpha.com/)
 
 ## Clase
@@ -155,7 +158,6 @@ String linea0;
 String linea1;
 String linea2;
 
-
 void setup() {
   if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("No se encontró la pantalla SSD1306"));
@@ -178,7 +180,6 @@ void loop() {
   testscrolltext(linea2);
   
   pantallita.display(); // Actualiza la pantalla
-
 }
 
 // void testscrolltext(void) {
@@ -219,8 +220,185 @@ void loop() {
 }
 ```
 
-Los array 
+Fue una clase demasiado dura.
+Me costó harto seguir el hilo a Aarón.
+Se me ahce dificil cachar en qué parte del código se hacen los cambios.
+
 ----
 
-
 Si usamos ejemplos para nuestro encargo, tiene que estar acreditado, citado, mencionado, tenemos que poner qué parte está robado, mixeado y/o editado
+
+## Avance entrega viernes 29
+
+Para poder usar la pantalla OLED SSD1306 hay que instalar bibliotecas 
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+```
+
+### Información importante sobre el potenciómetro
+
+Está un poco enredado el tema del potenciómetro.
+En [Wokwi](https://docs.wokwi.com/parts/wokwi-potentiometer) hay información de cómo usarlo. Igualmente me cuasta entenderlo.
+
+|PINES||
+|--|--|
+|**NOMBRE**|**DESCRIPCIÓN**|
+|GND| ground |
+|SIG| output, se conecta a un "analog input pin" (A0, A1...)|
+|VCC| voltaje|
+
+```cpp
+// define al pin A0 como salida
+  pinMode(A0, INPUT)
+
+// pone el nombre "POTENTIOMETER" al pin A0
+#define POTENTIOMETER A0
+```
+---
+
+#### Referencia-01
+
+Vi un video que enseñaba a mostrar el valor del potenciómetro en la pantalla OLED, creo que es importante. También usa las bibliotecas de Adatfruit [Ver aquí](https://www.youtube.com/watch?v=l_2vnl5MOpo)
+
+[Ver en Wokwi](https://www.youtube.com/watch?v=l_2vnl5MOpo)
+
+![Imagen de la pantalla y potenciómetro](./imagenes/valorPoteEnPantalla.png)
+
+```cpp
+// ESTE ES EL CÓDIGO
+#include <Wire.h>			
+#include <Adafruit_GFX.h>		
+#include <Adafruit_SSD1306.h>		
+
+#define ANCHO 128			
+#define ALTO 64				
+
+int valor;
+
+#define OLED_RESET 4			
+Adafruit_SSD1306 oled(ANCHO, ALTO, &Wire, OLED_RESET);	
+
+void setup() {
+  Wire.begin();					
+  oled.begin(SSD1306_SWITCHCAPVCC, 0x3C);	
+}
+ 
+void loop() {
+  oled.clearDisplay();			
+  oled.setTextColor(WHITE);		
+  oled.setCursor(0, 0);			
+  oled.setTextSize(1);			
+  oled.print("Electro. por el Mundo Video tutorial OLED "); 	
+  oled.setCursor (38, 30);		
+  oled.setTextSize(2);		
+  valor = analogRead(A3);
+  oled.print(valor);	
+  oled.display();			
+}
+```
+
+----
+
+#### Referencia-02
+
+Encontré también una página donde explica usos para el potenciómetro con Arduino
+
+[Enciendiendo LEDs con un potenciómetro](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/#Encendiendo_LEDs_con_un_potenciometro)
+
+En este caso se usa el potenciómetro para encender LEDs. Dependiendo de dónde está el potenciómetro, se enciende un LED u otro.
+
+Aquí se usa el `if` para determinar en qué rango de valores del potenciómetro se enciende cada LED.
+
+Para sacar los rangos se divide el valor máximo del potenciómetro `1023` en la cantidad de LEDs que se usarán `4`
+
+"Los rangos de valores que tenemos son los siguientes:
+- De 0 a 255, encender LED 1
+- De 256 a 511, encender LED 2
+- De 512 a 767, encender LED 3
+- De 768 a 1023, encender LED 4"
+
+```cpp
+//Variable donde almacenaremos el valor del potenciometro
+long valor;
+
+//Declaramos los pins de los LEDs
+int LED_1 = 2;
+int LED_2 = 3;
+int LED_3 = 4;
+int LED_4 = 5;
+
+void setup() {
+  //Inicializamos la comunicación serial
+  Serial.begin(9600);
+  
+  //Escribimos por el monitor serie mensaje de inicio
+  Serial.println("Inicio de sketch - valores del potenciometro");
+
+  pinMode(LED_1, OUTPUT);
+  pinMode(LED_2, OUTPUT);
+  pinMode(LED_3, OUTPUT);
+  pinMode(LED_4, OUTPUT);
+}
+
+void loop() {
+  // leemos del pin A0 valor
+  valor = analogRead(A0);
+
+  //Imprimimos por el monitor serie
+  Serial.print("El valor es = ");
+  Serial.println(valor);
+
+// EN ESTE RANGO
+// SÓLO EL LED 1 SE ENCIENDE
+  if(valor >= 0 && valor <=255)
+  {
+      digitalWrite(LED_1, HIGH);
+      digitalWrite(LED_2, LOW);
+      digitalWrite(LED_3, LOW);
+      digitalWrite(LED_4, LOW);
+  } 
+  
+  // EN ESTE RANGO
+  // SÓLO EL LED 2 SE ENCIENDE
+  if (valor >= 256 && valor <=511)
+  {
+      digitalWrite(LED_1, LOW);
+      digitalWrite(LED_2, HIGH);
+      digitalWrite(LED_3, LOW);
+      digitalWrite(LED_4, LOW);
+  }
+
+  // EN ESTE RANGO
+  // SÓLO EL LED 3 SE ENCIENDE
+  if (valor >= 512 && valor <=767)
+  {
+      digitalWrite(LED_1, LOW);
+      digitalWrite(LED_2, LOW);
+      digitalWrite(LED_3, HIGH);
+      digitalWrite(LED_4, LOW);
+    }
+
+  // EN ESTE RANGO
+  // SÓLO EL LED 4 SE ENCIENDE
+  if (valor >= 768 && valor <=1023)
+  {
+      digitalWrite(LED_1, LOW);
+      digitalWrite(LED_2, LOW);
+      digitalWrite(LED_3, LOW);
+      digitalWrite(LED_4, HIGH);
+   }
+}
+```
+
+Con este código podemos mostrar un verso del poema por rango del potenciómetro.
+
+  
+
+#### Referencia-03
+
+Esta página web muestra el control de un servomotor con un potenciómetro
+
+<https://www.mechatronicstore.cl/servomotor-controlado-por-potenciometro-y-valores-visualizados-en-display-pantalla-oled-128x32-0-91/>
