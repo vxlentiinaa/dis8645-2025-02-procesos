@@ -1,4 +1,4 @@
-# sesión-04a
+# Sesión-04a
 
 ## Trabajo en clase / Martes 26 de agosto, 2025
 
@@ -8,7 +8,7 @@ primero nos entregaron las pantallas oled ssd y nuesras cajitas para los compone
 
 hablamos un poco sobre la ducumentacion subida a hithub, ya que recien la comenzaron a evaluar, 
 
-### proyecto-01
+### Proyecto-01
 
 todas las cosas del proyecto-01 se iran subiendo en la carpeta y se va a mostrar el readme con os poemas
 
