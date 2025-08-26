@@ -2,14 +2,13 @@
 
 ## Acerca del proyecto
 
-- Grupo: 0X
-- Nombre de grupo: TODO
+- Grupo: 05
+- Nombre de grupo: ARRAY
 - Integrantes:
-  - TODO
-  - TODO
-  - TODO
-  - TODO
-
+  - Aileen D'Espesailles 
+  - Bernardita Lobo 
+  - Carla Pino 
+  - Félix Rodríguez
 ## Presentación textual
 
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
