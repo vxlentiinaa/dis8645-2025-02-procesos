@@ -91,3 +91,43 @@ Referencias:
 - https://www.nationalgeographic.com/history/history-magazine/article/this-countess-of-computing-wrote-the-first-computer-program  
 - https://hub.laboratoria.la/el-dia-de-ada-lovelace-y-por-que-es-importante-reconocer-el-rol-de-las-mujeres-en-tecnologia  
 
+
+## encargo 2 "investigar sobre alan turing"
+
+Nació el 23 de Junio del 1912 en Londres, Gran bretaña
+
+Desde temprana edad Turing estaba fascinado por las matemáticas, cosa que no era muy estimada en la escuela pública en la cual estudió.
+
+En 1934 se licenció en matemáticas en la Universidad de Cambridge, tan solo 2 años después escribió un artículo donde se empezó a hablar de los algoritmos, y su futura “Máquina Universal”.
+
+En 1939 fue contratado como criptólogo con el ejército britanico, ya que Gran Bretaña había entrado en guerra con Alemania.
+
+La tarea de Turing y los demás criptólogos era el descifrar mensajes enviados por los nazis, en los que estaban presentes complejos sistemas de cifrado en los que, diariamente a las 12 de la noche, cambiaban los sistemas de cifrado por la máquina llamada “Enigma”.
+
+Los criptógrafos ingleses tenían dos réplicas de la máquina enigma las cuales fueron entregadas a ellos los Polacos, donde Turing investigó y examinó de manera precisa el funcionamiento de la máquina, y por esta razón, decidió que era necesario el uso de una máquina para poder luchar en contra de este abrumante problema.
+
+En el año 1940 Turing desarrolló la máquina “The bombe” junto al matemático Gordon Welchman, esta máquina era capaz de simular 36 máquinas enigmas simultáneamente,con las cual se logró descifrar los mensajes que estaban siendo emitidos por el enemigo.
+
+Luego, al demostrar el funcionamiento exitoso de esta máquina, se producirían en masa durante los tiempos de la guerra, pero manteniéndose en secreto absoluto.
+
+“Bombe” era una máquina que funcionaba a partir de deducciones lógicas para poder descifrar las distintas combinaciones que podría contener el mensaje, esto fue un hallazgo de tal magnitud que se estima que el mero hecho de la existencia de esta máquina logró disminuir el tiempo que duró la guerra al interceptar más de 40.000 mensajes.
+
+Esta fue la primera vez donde una máquina sobrepasó la inteligencia humana al llevar a cabo una tarea.
+
+Luego del termino de la guerra contra la alemania nazi, multiples maquinas “bombe” fueron dejadas atras donde los rusos las recolectaron y las usaron para codificar mensajes propios.
+
+Turing no fue tratado como un héroe ni nada similar, incluso con sus siguientes investigaciones, donde podría haber creado uno de los primeros computadores si es que hubiese sido tomado en cuenta, u el código de uno de los primeros programas de computador.
+
+Pese a su gran aporte a su país por saber sobre tantos temas delicados como tambien por ser homosexual, fue ignorado y evitado, en el año 1952 fue acusado por un delito de indecencia grave,pero no acabó en la cárcel debido a una castración química.
+
+En el año 1954 Alan Turing sería descubierto muerto, con una mañana cubierta con cianuro cerca suyo, donde fue declarado suicidio, aunque segun distintas teorias, la verdadera causa podria haber sido un asesinato, donde Turin podiaser demasiado peligroso para mantener vivo.
+
+En 2013 la reina de Inglaterra le atribuyó un indulto póstumo, 59 años después de su muerte.
+
+Referencias:  
+
+- https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352#google_vignette  
+
+- https://www.youtube.com/watch?v=-YC71lE9O2k  
+ 
+
