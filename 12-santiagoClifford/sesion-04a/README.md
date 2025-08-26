@@ -45,3 +45,20 @@ se le escapan los enanos del bosque
 ta mal pelao el xanxo
 
 y a vo quien te pateó la jaula
+
+
+### recursos
+
+[2 displays](https://www.youtube.com/watch?v=j6B47reye80)
+
+[fonts](https://www.youtube.com/watch?v=WIAcy5FXuAA)
+
+### repartición
+
+cami: dibujar 4 ilustraciones que convivan, 1 por refrán
+
+braulio: scroll por línea
+
+cami parada: convivencia entre displays
+
+stgo: código
