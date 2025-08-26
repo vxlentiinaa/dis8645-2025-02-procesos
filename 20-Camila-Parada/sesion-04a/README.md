@@ -23,7 +23,7 @@ Al consultar el sitio web de ["Programar fácil"](https://programarfacil.com/blo
 Pese a los antecedentes, seguía sin poder entender e imaginarme la posibilidad de trabajar sin el adaptador "Tca9548a". Al consultar por el grupo del curso, el profesor Aarón me envió un link a un [foro de Arduino](https://forum.arduino.cc/t/arduino-uno-with-multiple-oled-displays/1207184/1) en donde explican más sobre como funcionan las pantallas que estamos usando.
 
 
-![imagen](./archivos/.)
+![imagen](./imagenes/a1.png)
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
