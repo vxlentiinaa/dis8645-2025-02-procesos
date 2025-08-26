@@ -119,20 +119,21 @@ void loop() {
 ```
 
 Mientras tanto mis compañeras estaban visualizando el poema en la pantalla OLED.
-Con mi compañera Sofía estuvimos conectando la pantalla redonda al arduino para ocuparlo en el poema pero no nos funciono, sin embargo no hemos descartado usar esa pantalla para la entrega del proximo viernes
+Con mi compañera Sofía estuvimos conectando la pantalla redonda al arduino para ocuparlo en el poema pero no nos funciono, sin embargo no hemos descartado usar esa pantalla para la entrega del proximo viernes.
 
 ## Proyecto
 Con mis compañeras acordamos mostrar el poema “Casi cruzo la barrera” de Enrique Lihn en la pantalla OLED.
 La idea es que después de cada verso aparezca una animación que represente visualmente la línea recién mostrada. Además, queremos que los versos se proyecten en forma de espiral.
 
-Animaciones planeadas:
-"Casi cruzo la barrera (Barrera o cerca abriéndose).
-del espejo para ver (espejo con destellos pequeños, como cuando se refleja la luz)
-lo que no se puede ver (ojo abierto que se cierra)
-el mundo como seria (planeta tierra girando)
-si la realidad copiara (2 personas haciendo la misma acción, como un espejo)
-y no al reves, el espejo (se tiene pensado repetir el espejo)
-llena, porfin, de su nada." (un vaso que contiene algo en su interior y despues desaprece el contenido)
+### Animaciones planeadas:  
+
+"Casi cruzo la barrera (Barrera o cerca abriéndose)    
+del espejo para ver (espejo con destellos pequeños, como cuando se refleja la luz)  
+lo que no se puede ver (ojo abierto que se cierra)  
+el mundo como seria (planeta tierra girando)  
+si la realidad copiara (2 personas haciendo la misma acción, como un espejo)  
+y no al reves, el espejo (se tiene pensado repetir el espejo)  
+llena, porfin, de su nada." (un vaso que contiene algo en su interior y despues desaprece el contenido).    
 
 ### Tip Técnico
 
