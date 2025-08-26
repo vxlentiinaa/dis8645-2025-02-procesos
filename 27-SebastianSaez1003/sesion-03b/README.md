@@ -233,3 +233,20 @@ void loop() {
 Ahora iba mejor el camino, pero me surgio otra duda, porque no estoy seguro de porqué el “waos” que tenía escrito como mi primera línea de texto era la que salía cortada esta vez
 
 
+///////////////////////////////////////
+
+Como herramienta de interacción desde mi código hacia el Arduino, lo que más me llamaba la atención era el uso de un potenciómetro, ya que no tenía idea cómo el cambio de la cantidad de resistencia interna del potenciómetro podía ser leído como datos para el arduino
+
+Buscando en la página de documentación de arduino encontré la siguiente página, donde explican de una manera excelente que era un potenciómetro, con ejemplos de cómo poder usarlo:
+
+https://docs.arduino.cc/learn/electronics/potentiometer-basics/
+
+He de dejar claro el hecho de que los ejemplos que proveía la página de las básicas del potenciómetro contenían ejemplos, que almenos yo consideraba más haya de la evaluación, donde se ocupaba con múltiples otros componentes, y que al menos yo consideraba como el uso tradicional del potenciómetro dentro de un circuito, pero en esa misma página había una redirección a una página donde se usa el potenciómetro de una manera en la que se pudiesen leer datos, justo lo que quería aprender a usar:
+
+https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
+
+En esta página se presenta el cómo pasar un input del mundo físico y táctil hacia el mundo de los datos dentro del arduino a partir de la lectura de el input análogo
+
+También explica que el arduino nativamente tiene un convertidor de  análogo-a-digital de 10 bits, osea 2^(10) que equivale a 1024, donde existen 1024 parámetros que si es que lo necesitara, podría ocupar todo este rango, o dividirlo en la cantidad que deseara 
+
+
