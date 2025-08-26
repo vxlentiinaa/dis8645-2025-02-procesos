@@ -9,3 +9,15 @@
   
 
 **Día de producir**
+
+## Contenido
+
+Potenciómetro 0v 5v
+
+Digital: Minecraft / discreto
+
+Analógico: la realidad entre dos momentos / continuo
+
+Protoboard
+mandar los 5v a la protoboard y de ahí sacar más cable
+
