@@ -125,3 +125,4 @@ que puede ser verdadero o falso.)
 Su salida será 0 en caso de que sus entradas tengan el mismo valor: "1"+"1" o "0"+"0",
 y tendrá salida 1 en caso de que las entradas sean distintas.
 ```
+![XOR](./imagenes/XOR1.jpg)
