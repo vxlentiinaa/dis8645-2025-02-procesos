@@ -14,6 +14,8 @@ todas las cosas del proyecto-01 se iran subiendo en la carpeta y se va a mostrar
 
 que significa poema, proyesis que viene de crear
 
+pagina que cita en apa https://www.bibguru.com/es/
+
 idea 01 que con un potencimetro suba o baje el texto
 
 idea 02 
