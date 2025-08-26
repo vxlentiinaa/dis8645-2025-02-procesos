@@ -169,4 +169,67 @@ void loop() {
 
 
 ```
-Donde funcionó, la carga de la tipografía, pero quedaba de un tamaño muy grande, lo cual en un principio no entendí, ya que había seteado que el tamaño del texto fuese 1, pero al leer el nombre del archivo, me di cuenta del hecho de que contenía esto “24pt” que al menos a mi me sonaba a puntos, la medida que se ocupa para la tipografía, puede ser posible que esta tipografía que intente cargar estuviese solo disponible en este tamaño 
+Donde funcionó, la carga de la tipografía, pero quedaba de un tamaño muy grande, lo cual en un principio no entendí, ya que había seteado que el tamaño del texto fuese 1, pero al leer el nombre del archivo, me di cuenta del hecho de que contenía esto “24pt” que al menos a mi me sonaba a puntos, la medida que se ocupa para la tipografía, puede ser posible que esta tipografía que intente cargar estuviese solo disponible en este tamaño
+
+probe cambiarlo a un archivo de tipografía que tuviese un número menor antes del pt y efectivamente, era ese el problema donde me quedo de esta manera:
+
+(/imagenes/sesion-03b-wokwi2)
+
+``` c++
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Fonts/FreeSerifBoldItalic12pt7b.h>
+// definir el ancho de la pantalla
+#define SCREEN_WIDTH 128
+// definir el alto de la pantalla
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+// definir que la pantalla adafruit tendra: ese ancho especificamente
+// ese alto, que funcione con wire y que se resetee
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+String linea0;
+String linea1;
+String linea2;
+
+// si es que no esta conectada la pantalla se mandara un mensaje al Serial Monitor
+void setup() {
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    for(;;);
+  }
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+  
+
+  linea0 = "WAOS";
+  linea1 = "PROBEMOS";
+  linea2 = "TIPOGRAFIAS";
+}
+
+void loop() {
+  pantallita.clearDisplay(); // Limpiamos toda la pantalla
+  //seteo el tamano de la tipografia
+  pantallita.setTextSize(1);
+  // dejo el color que quiero que sea mi texto
+  pantallita.setTextColor(SSD1306_WHITE);
+  // donde empezaria el texto, para probar lo pondre al medio de la pantalla
+  pantallita.setCursor(SCREEN_WIDTH/2, 0);
+  // la tipografia la cual previamente carge, sera llamada a 
+  // funcionar dentro del display del arduino
+  pantallita.setFont(&FreeSerifBoldItalic12pt7b);
+
+  // hacer que cada linea de texto empiece en una linea distinta
+  pantallita.println(linea0);
+  pantallita.println(linea1);
+  pantallita.println(linea2);
+ 
+  pantallita.display(); // Actualiza la pantalla
+
+}
+
+```
+Ahora iba mejor el camino, pero me surgio otra duda, porque no estoy seguro de porqué el “waos” que tenía escrito como mi primera línea de texto era la que salía cortada esta vez
+
+
