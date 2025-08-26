@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 03b - Título ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 03b - Pantallas y simuladores ♡⊹˚₊⋆
 
 Viernes 22 Agosto 2025
 
