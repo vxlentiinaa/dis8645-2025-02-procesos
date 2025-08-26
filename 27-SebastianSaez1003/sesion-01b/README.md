@@ -1,4 +1,5 @@
 # sesion-01b
+
 ## Módulo de la mañana
 
 Alias es un nombre, el cual le colocamos a una colección de datos.
@@ -11,7 +12,7 @@ Vamos a instalar Arduino IDE desde la página arduino.cc, un lugar donde nos qui
 
 IDE es Integrated Development Environment.
 
- Control+coma es para abrir las preferencias.
+Control+coma es para abrir las preferencias.
 
 Las cosas open source son aquellas que pueden ir más allá de la compañía, debido a que personas que leen absolutamente todo el código, y si llega a existir algún peligro de seguridad, se puede hacer saber al desarrollador para mejorar la seguridad y/o funcionamiento.
 
@@ -31,9 +32,9 @@ En la esquina superior izquierda hay 2 botones; un check es donde verifica si el
 
 Cada vez que presiono el botón de reset, vuelve a su estado original, de la misma manera en la que funcionaría si es que el cable fuese conectado y desconectado.
 
-Si presiono dos veces rápidamente el botón reset, se va a un estado… 
+Si presiono dos veces rápidamente el botón reset, se va a un estado…
 
-Todo Arduino es C, todo C no es Arduino… 
+Todo Arduino es C, todo C no es Arduino…
 
 /* es para indicar que todo es un comentario hasta que se encuentre el */ al menos Aarón Montoya prefiere escribir cada línea individualmente, que sería con //.
 
@@ -45,7 +46,7 @@ color(255,132,201)
 
 Muy importante documentar, para no tener que pelear en contra de nuestra propia memoria…
 
-El digitalWrite nos permite emitir un voltaje donde nosotros queramos de manera binaria; serían HIGH y LOW (1,0). 
+El digitalWrite nos permite emitir un voltaje donde nosotros queramos de manera binaria; serían HIGH y LOW (1,0).
 
 Usar delay es una muy mala práctica; hay que usar unas 20 líneas de código para que quede elegante.
 
@@ -55,7 +56,7 @@ Las palabras que son seguidas por un paréntesis son funciones.
 
 Las funciones son palabras que agarran código que esté en otra parte.
 
-Los parámetros que van dentro de las funciones se separan de cada uno con una coma. 
+Los parámetros que van dentro de las funciones se separan de cada uno con una coma.
 
 ## Módulo después del break
 
@@ -81,7 +82,7 @@ Nuestras variables no deberían partir de un número, no deberían tener un espa
 
 Serial es muy importante, donde se pueden encontrar muchas cosas distintas; entre esas, Serial.begin(9600) haría que al momento de pasar 9600 milisegundos se abra el Serial, donde se pueden transmitir mensajes.
 
-Serial.print(poema); 
+Serial.print(poema);
 
 “\n” es una nueva línea de texto en la consola.
 
@@ -93,8 +94,7 @@ Para tener una variable o una función, primero debo declararla una vez; ese nom
 
 Después de declararlo, puedo usarlo.
 
-C++ W3Schools 
-
+C++ W3Schools
 
 Primero quiero lograr que con los digitos de mi computador, el LED del arduino brille la cantidad de veces que corresponda al dígito ingresado
 
@@ -167,7 +167,7 @@ void loop() {
 
 como realmente no tenía idea de como comunicarme con el arduino busque en internet una manera en la que el arduino podía entender mis inputs, llegando al siguiente link:
 
-https://forum.arduino.cc/t/serial-input-basics-updated/382007
+<https://forum.arduino.cc/t/serial-input-basics-updated/382007>
 
 específicamente el ejemplo n1 para “recibir” un carácter, que incorporé a mi código para poder observar cuando mi arduino estaba recibiendo estos caracteres, lo cual funcionó bastante bien.
 
@@ -177,17 +177,17 @@ pensé que cambiando: “if (Serial.available() > 0) {“ a algo como “if (Ser
 
 al buscar si tal vez un if statement podía servir encontré lo siguiente:
 
-https://docs.arduino.cc/built-in-examples/strings/CharacterAnalysis/
+<https://docs.arduino.cc/built-in-examples/strings/CharacterAnalysis/>
 
 esto mostraba unas maneras de usar los If statements para diferenciar distintos datos, con lo que use  if (cifra == '1') {  servía como condición para identificar mi dato especifico, lo cual funciono, de esta manera empecé a escribir, como con el ejemplo de blick, la cantidad de veces que quería que se prendiese el led según cada cifra enviada al arduino.
 
 esto estaba funcionando genial, pero me empecé a dar cuenta que si quería legar a que se prendiera y se apagará el LED multiples veces, el código se empezaria a ver desordenado o sobresaturado, por lo que busque si habia una manera de lograr hacer loops de alguna cantidad específica que yo deseara, donde encontré la siguiente página:
 
-https://docs.arduino.cc/language-reference/en/structure/control-structure/for/
+<ttps://docs.arduino.cc/language-reference/en/structure/control-structure/for/>
 
 dónde “for” es un argumento en el que puedo repetir un bloque de código que está contenido entre [murciélagos}, con esto ya optimice el código a un punto que me agrado.
 
-``` c++
+```cpp
 // Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
 
 // el character que voy a obtener se guardara con el alias cifra
@@ -319,8 +319,6 @@ void showNewData() {
 
 ```
 
-
 La tarea de hoy es romperlo de maneras raras, crear variables, documentar errores. 
 
 Fallar con al menos 5 códigos que no nos funcionen.
-

@@ -12,29 +12,27 @@ repasar
 
 bitácora
 
-
 Ciclo For <https://www.youtube.com/watch?v=e8CEpAQ4otU&ab_channel=ChepeCarlos>
 
 Sirve para "contar" y por consecuencia automatizar y reducir código. En el caso revisado hay 12 leds que requieren activación.
 
-Para empezar a reducir se declaran 2 variables: int CantidadLed = 10 y int LedInicial 3 (en que número empieza a contar.
+Para empezar a reducir se declaran 2 variables: int CantidadLed = 10 y int LedInicial 3 en que número empieza a contar.
 
-Ejemplo: for (int i = 0 ; i < 5; i = i++).
+Ejemplo: `for (int i = 0 ; i < 5; i = i++)`
 
 Iniciará cuando i sea igual a 0, mientras sea menor que 5 y a medida que se ejecuta se aumentará el valor de la variante (i++).
 
-Serial.prinln(i); toma la variable exclusiva de for y la hace visible en el monitor serial a medida que cambia.
+`Serial.prinln(i);` toma la variable i de for y la hace visible en el monitor serial a medida que cambia.
 
 Al ser menor que 5 imprime hasta 4. La impresión de los números se rige por la función for.
 
 Para hacer conteo regresivo se usa i--
 
-//Todo lo anterior va en setup
+// Todo lo anterior va en setup
 
 Para reducir la cantidad de líneas se usan los int establecidos al principio y pinMode(i, OUTPUT); en vez de 10 pinMode distintos.
 
-
-```opp
+```cpp
 for (int i = LedInicial ; i < CantidadLed + LedInicial ; i++) {
 pinMode(i, OUTPUT);
 
@@ -55,14 +53,11 @@ digitalWrite(i, LOW);  //apagar led
 }
 ```
 
-
 Variables te simplifican la vida cuando se usa un mismo valor en varias partes y no quieres cambiarlos uno a uno.
 
 En vez de delay(500); es mejor int Esperar = 200; y delay(Esperar);
 
 Hardcoding(?)
-
-
 
 Uso de if/else <https://www.wexterhome.com/curso-arduino/sentencia-if-else/>
 
@@ -71,7 +66,6 @@ Si no se cumple if ocurre else if, y si este no ocurre ocurre else.
 if anidado: es una condición co-dependiente de otra para que se realize la acción. Si el primer if se cumple y el segundo no, no ocurre
 
 nada o se pasa a la siguiente condición o else.
-
 
 <https://ai.thestempedia.com/docs/evive/evive-arduino-ide-tutorials/arduino-ide-conditionalif-else-if-statements/>
 
@@ -83,7 +77,7 @@ char almacena un caracter que en este caso es la nota.
 
 Ejemplo en el sitio:
 
-```opp 
+```cpp
 int Marks = 95; //nota variable
 char Grade;     //simplificación del resultado para impresión con iteración variable
 

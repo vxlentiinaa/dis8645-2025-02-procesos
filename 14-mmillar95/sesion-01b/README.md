@@ -1,20 +1,20 @@
 # sesion-01b / Clase 02 / 08.08.2025
 
-## Arduino R4 minima 
+## Arduino R4 minima
 
 ![arduino R4 minima imagen referencia](./imagenes/arduinoR4.png)
 
-### Componentes 
+### Componentes
 
 - Microcontrolador (MCU)
 - Alimentación: Puerto USB-C
 - Indicadores visuales
-- Botón Reset 
+- Botón Reset
 - Conectividad de pines
 - Entradas analógicas
 - 14 pines digitales (D0 a D13)
 
-### Conceptos 
+### Conceptos
 
 - void setup  *// Lo que se ejecuta solo una vez*
 - void Loop *// Lo que se genera continuamente (bucle)*
@@ -45,20 +45,18 @@ void loop() {
 }
 ```
 
-## Encargo 
+## Encargo
 
-#### Realizar y documentar 3 códigos como mínimo, los cuales deben tener error y solucionarlos (intentar) 
-#### Generar codigos, solo con la placa de arduino
+Realizar y documentar 3 códigos como mínimo, los cuales deben tener error y solucionarlos (intentar)
 
-Fallar muchas veces
+Generar codigos, solo con la placa de arduino
 
-> sin chat gpt
-> 
-> sin componentes
-> 
-> analizar la falla
+- Fallar muchas veces
+- sin chat gpt
+- sin componentes
+- analizar la falla
 
-### Código_01
+### codigo_01
 
 Para mi primer código de arduino, quiero realizar analizar los componentes y conceptos de la placa.
 
@@ -68,13 +66,13 @@ El led del Pin13 enciende y apaga con un delay(100).
 - delay
 - digitalWrite
 
-**error placa no encontrada** 
+error placa no encontrada
 
-**error no finalizar con ;**
+error no finalizar con ;
 
 ![imagen del código mal](./imagenes/código01.png)
 
-### Código_01 arreglado
+### codigo_01 arreglado
 
 ```cpp
 void setup() {
@@ -91,9 +89,9 @@ delay(1000);
 }
 ```
 
-### Código_02
+### codigo_02
 
-Al igual que en el codigo anterir se utilizara el pin 13 que esta en el ardiono, y este led cambiuara de intendiad (alta/baja). 
+Al igual que en el codigo anterir se utilizara el pin 13 que esta en el ardiono, y este led cambiuara de intendiad (alta/baja).
 
 Con delay(500) y delay(1000).
 
@@ -101,7 +99,7 @@ Con delay(500) y delay(1000).
 
 ![imagen del código 02 mal](./imagenes/código02.png)
 
-### Código_02 arreglado 
+### codigo_02 arreglado
 
 ```cpp
 void setup() {
@@ -120,21 +118,21 @@ delay(1000);
 }
 ```
 
-### Código_03
+### c0digo_03
 
 Para este código quería probar otras variantes como el for. 
 
 También se quería realizar que el pin13 solo se prenda 15 veces y después se apague.
 
-**Error el pin13 se prendía constantemente**
+Error el pin13 se prendía constantemente
 
-**Se puso la información en void loop en vez de void setup**
+Se puso la información en void loop en vez de void setup
 
-*En sí, el código no está mal, pero no hizo lo que yo quiero que realice*
+En sí, el código no está mal, pero no hizo lo que yo quiero que realice
 
 ![imagen del código 02 mal](./imagenes/código03.png)
 
-### Código_03 arreglado 
+### codigo_03 arreglado
 
 ```cpp
 void setup() {

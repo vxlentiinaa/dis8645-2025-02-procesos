@@ -6,9 +6,9 @@
 
 ### subsubtítulo
 
-*esto está entre asteriscos y quedó cursiva*
+esto está entre asteriscos y quedó *cursiva*
 
-**esto es bold**
+esto es **bold**
 
 código para generar patrones aleatorios en base a 5 símbolos, sólo lo utilice para tratar de comprender cómo funciona y q significa cada línea, lo entendí más o menos.
 
@@ -39,9 +39,9 @@ delay(2000); //tiempo de espera entre cada patron
 }
 ```
 
-. el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrandóla) al github.
+el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrandóla) al github.
 
-# intentos
+## intentos
 
 ```cpp
 void setup() {
@@ -61,6 +61,7 @@ void loop() {
 ## documentación errores:
 
 ### error 1:
+
 ```ccp
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino:10:26: error: stray '\303' in program
    Serial,println(esto sería el siguiente texto?);
@@ -110,7 +111,7 @@ exit status 1
 Compilation error: expected primary-expression before '}' token
 ```
 
-**se me había colado un "+", eso era**
+se me había colado un "+", eso era
 
 ```cpp
 void setup() {
@@ -128,7 +129,7 @@ void loop() {
 }
 ```
 
-### error 3:
+### error 3
 
 // ya está, pero no me funciona en el serial monitor c:
 

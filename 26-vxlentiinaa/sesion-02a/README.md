@@ -14,6 +14,10 @@
     2. upload
     3. sostener la comunicación 
 
+![Foto función de cable](./imagenes/cableImagen.jpg)
+
+Me quedó muy pequeña la imagen:(
+
 > Nombre de carpeta en Arudino IDE
 
 El nombre de la carpeta debe ser el mismo del archivo al guardar. 
@@ -25,6 +29,10 @@ El nombre de la carpeta debe ser el mismo del archivo al guardar.
 - Spitting/Abscence:
 
 ![Sokio](./imagenes/sokioImagen.png)
+
+![Proyecto de Sokio](./imagenes/proyectoSokio.MOV)
+
+![Proyecto de Sokio](./imagenes/proyectoSokio2.MOV)
 
 ## [Gordon Matta-Clark Artista](https://es.wikipedia.org/wiki/Gordon_Matta-Clark)
 

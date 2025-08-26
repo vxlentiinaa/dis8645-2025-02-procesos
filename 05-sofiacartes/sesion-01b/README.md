@@ -26,7 +26,8 @@ Es un dialecto, se llama código abierto, lo quee nos permite crear proyectos el
 
 IDE Software -> Para descargar, en el caso del arduino 4 minima se utiliza el IDE2.(  )
 
-(imágen) R4 ese descargar al ya tener el software en el computador.
+![arduinodescarga](./imagenes/arduinoejemplodescarga.png) 
+R4 ese descargar al ya tener el software en el computador.
 
 1. File
 2. Examples
