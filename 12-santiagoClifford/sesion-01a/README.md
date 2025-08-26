@@ -2,7 +2,7 @@
 
 ## 05-agosto-2025 - clase 1
 
-## ¿qué es una máquina?
+### ¿qué es una máquina?
 
 objeto físico, capacidad de ejecutar procesos, tiene in & out, requiere energía, tiene un objetivo específico, facilita una tarea.
 
