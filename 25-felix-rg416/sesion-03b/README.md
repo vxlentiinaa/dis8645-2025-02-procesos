@@ -82,6 +82,8 @@ Luego usamos un código que Misa sacó de ChatGPT
 
 (./sesion-03-02.zip)
 
+### Código MISA
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -140,6 +142,10 @@ void loop() {
 ```
 
 Se puede momostrar una imagen, para transformarla hay que entrar acá <https://javl.github.io/image2cpp/)> - hay que fijarte en
+
+### Scroll text
+
+[Wokwi](https://wokwi.com/projects/440317833580419073)
 
 ```cpp
 #include <Wire.h>
@@ -518,3 +524,13 @@ void loop() {
   delay(1000);
 }
 ```
+
+### IDEAS
+
+#### 01
+
+Dependiendo de la dirección del potenciómetro, el poema va hacia abajo o hacia arriba
+
+#### 02
+
+Que el potenciómetro regule la velocidad a la que sube o baja el poema
