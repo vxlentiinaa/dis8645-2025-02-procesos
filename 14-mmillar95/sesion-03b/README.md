@@ -1,18 +1,18 @@
 # sesion-03b / Clase 06 / 22.08.2025
 
-### Investigacion Proyecto_01
+### Investigación Proyecto_01
 
 ## Contexto 
 
 ### Haiku
-Poesia japonesa breve
+Poesía japonesa breve
 
-Se comopone generalmente de 5 7 5 silabas
+Se compone generalmente de 5 7 5 sílabas
 
 A menudo se inspiran en la naturaleza y las estaciones del año. 
 
 ### Matsuo Bashō:
-Ejeplo de poema 
+Ejemplo de poema 
 > Un viejo estanque.
 > 
 > ¡Salta una rana!
@@ -28,11 +28,11 @@ OLED ya encendido
 
 Cerebro fundido
 
-## Distribuicion tareas
+## Distribución de tareas
 
-- Fran: funcion traduccion binario
-- Milla: dubujo y potenciometro
-- Jota: imagen en codigo y acroll
+- Fran: función de traducción binaria
+- Milla: dibujo y potenciómetro
+- Jota: imagen en código y acroll
 - Josefa: buzzer 
 
 ## Componentes:
