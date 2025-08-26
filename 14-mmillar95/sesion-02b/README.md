@@ -2,6 +2,7 @@
 
 ## Condicionales
 
+
 ```cpp
 if (Boolean condition) Then
     (consequent)
@@ -12,6 +13,15 @@ else {
 ```
 
 ![diagrama](./imagenes/diagrama.png)
+
+### Operadores de comparación
+
+- (>) mayor que
+- (<) menor que
+- (>=) mayor o igual que
+- (<=) menor o igual que
+- (==) igual a
+- (!) diferente
 
 ### ejemplo
 
