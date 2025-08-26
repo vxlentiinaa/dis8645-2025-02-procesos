@@ -11,7 +11,7 @@ En carpeta proyecto 1, se condensa toda la información a presentar el viernes a
 Hice una prueba con este código que encontré en este link para poder ver el poema dentro de la pantalla. Al principio lo probé con const char, pero la verdad se veía mucho mejor utilizando string.
 <https://forum.arduino.cc/t/arduino-nano-i2c-oled-display-0-96-inches-128x64-pixels/935544>
 
-```
+```cpp
 /* this program shows how to write long text messages on LCD by scrolling*/
 
 
@@ -74,7 +74,7 @@ Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire);
 Probé tambien este código para hacerle scroll al texto. No me estaba dando ningun error al momento de verificar, pero en el monitor no se mostraba. No conseguí que este código funcionara. Voy a probar tambien con otros códigos utilizados en el mismo foro.
 <https://forum.arduino.cc/t/lcd-scroll-text/210755/7>
 
-```
+```cpp
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(8,9,4,5,6,7);
 
@@ -126,7 +126,7 @@ void loop()
 ```
 
 Utilicé uno de los últimos códigos dentro del mismo foro. Le cambié el tipo de pantalla y los tamaños pensando que era eso el por qué no se mostraba nada. Aún así no logré que funcionara. No cambié el texto a mostrar, dejé el mismo texto que venía en el código. Tambien lo probé en Wokwi y tampoco funcionó. Creo que quizás la persona que lo escribió pudo haberse equivocado en alguna parte.
-```
+```cpp
 #include <LiquidCrystal_I2C.h> // include lib according to your lcd type
 
 
@@ -329,7 +329,7 @@ void loop() {
 ```
 
 Le cambié el poema anterior por el de Minecraft, y noté que algúnas palabras se cortaban. Utilicé algo que aprendimos anteriormente en clases, que es para crear una nueva línea. Funcionó perfecto para evitar que se corten ciertas palabras.
-```
+```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -424,7 +424,7 @@ void loop() {
 ```
 
 Probé cambiando la tipografía, pero al parecer necesito convertir la tipografía que quiero usar a un formato que pueda leer arduino.
-
+```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -559,7 +559,7 @@ void loop() {
   delay(pausa);
 }
 
-
+```
 Estuve investigando como hacer scrolling vertical, y encontré un foro que explica el por qué no se puede en esta pantalla. Básicamente, solo se puede horizontal o en diagonal.
 
 <https://forum.arduino.cc/t/ssd1306-adafruit-scrolling-text-vertical-solved/574566>
