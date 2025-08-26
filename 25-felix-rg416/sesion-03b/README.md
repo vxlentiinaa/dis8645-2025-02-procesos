@@ -319,6 +319,8 @@ Para sacar los rangos se divide el valor máximo del potenciómetro `1023` en la
 - De 512 a 767, encender LED 3
 - De 768 a 1023, encender LED 4"
 
+[Ver en Wokwi](https://wokwi.com/projects/440315014921013249)
+
 ```cpp
 //Variable donde almacenaremos el valor del potenciometro
 long valor;
@@ -394,10 +396,125 @@ void loop() {
 
 Con este código podemos mostrar un verso del poema por rango del potenciómetro.
 
-  
-
 #### Referencia-03
 
 Esta página web muestra el control de un servomotor con un potenciómetro
 
 <https://www.mechatronicstore.cl/servomotor-controlado-por-potenciometro-y-valores-visualizados-en-display-pantalla-oled-128x32-0-91/>
+
+### Avance 00
+
+[Wokwi](https://wokwi.com/projects/440317589620701185)
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+String linea0;
+String linea1;
+String linea2;
+String linea3;
+String linea4;
+String linea5;
+
+void setup() {
+    if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    for(;;);
+  }
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+
+  linea0 = "En Santiago de Chile";
+  linea1 = "Los";
+  linea2 = "dias"; 
+  linea3 = "son";
+  linea4 = "interminablemente";
+  linea5 = "largos";
+
+  pantallita.setTextSize(1); // Draw 2X-scale text
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(0, 10);
+}
+
+void loop() {
+
+// LINEA 0 **************
+// lipiar toda al pantalla
+  pantallita.clearDisplay();
+
+// pantallita, imprime la linea 0
+  pantallita.println(linea0);
+
+// actualiza la pantalla
+  pantallita.display();
+// tiempo que se muestra
+  delay(1000);
+
+// LINEA 1 *****************
+// lipiar toda al pantalla
+  // pantallita.clearDisplay();
+
+// pantallita, imprime la linea 0
+  pantallita.println(linea1);
+
+// actualiza la pantalla
+  pantallita.display();
+// tiempo que se muestra
+  delay(1000);
+
+// LINEA 2 ***************
+  // lipiar toda al pantalla
+  // pantallita.clearDisplay();
+
+// pantallita, imprime la linea 0
+  pantallita.println(linea2);
+
+// actualiza la pantalla
+  pantallita.display();
+// tiempo que se muestra
+  delay(1000);
+
+// LINEA 3 **************
+// lipiar toda al pantalla
+  // pantallita.clearDisplay();
+
+// pantallita, imprime la linea 0
+  pantallita.println(linea3);
+
+// actualiza la pantalla
+  pantallita.display();
+// tiempo que se muestra
+  delay(1000);
+
+// LINEA 4 **************
+// lipiar toda al pantalla
+  // pantallita.clearDisplay();
+
+// pantallita, imprime la linea 0
+  pantallita.println(linea4);
+
+// actualiza la pantalla
+  pantallita.display();
+// tiempo que se muestra
+  delay(1000);
+
+// LINEA 5 **************
+// lipiar toda al pantalla
+  // pantallita.clearDisplay();
+
+// pantallita, imprime la linea 0
+  pantallita.println(linea5);
+
+// actualiza la pantalla
+  pantallita.display();
+// tiempo que se muestra
+  delay(1000);
+}
+```
