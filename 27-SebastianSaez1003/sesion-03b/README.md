@@ -113,6 +113,9 @@ void loop() {
 
 donde había una cantidad de texto menor a las 400 que tenía el ejemplo de Adafruit, donde elimine las líneas del código en las que se aplicaba el scroll, solo dejándome con display del texto si, para poder probar el cargar la tipografía que yo quería a parte de comentar la mayoria de cosas que si entendía
 
+![foto con letras gigantes, solo se lee "AOS"](./imagenes/sesion-03b-wokwi1.png)
+
+
 ``` c++
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -173,7 +176,7 @@ Donde funcionó, la carga de la tipografía, pero quedaba de un tamaño muy gran
 
 probe cambiarlo a un archivo de tipografía que tuviese un número menor antes del pt y efectivamente, era ese el problema donde me quedo de esta manera:
 
-(/imagenes/sesion-03b-wokwi2)
+![foto donde las letras se ven un poco mejor](./imagenes/sesion-03b-wokwi2.png)
 
 ``` c++
 #include <Wire.h>
