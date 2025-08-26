@@ -537,4 +537,69 @@ Charla<https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
 <https://github.com/adafruit/Adafruit-GFX-Library>
 <https://www.wolframalpha.com/>
 
-< >
+
+## Un poco de investigación para el proyecto y algunas ideitas
+
+Encontré esta página muy completa para entender como funciona conectar una pantalla al arduino. 
+<https://newbiely.com/tutorials/arduino-uno-r4/arduino-uno-r4-oled-128x64?utm_source=chatgpt.com>
+
+Estuvimos conversando acerca de lo que podiamos hacer con la pantalla. Moss sugirió utilizar el poema que sale en los creditos de Minecraft al derrotar al ender dragon. Me pareció una muy buena idea. Es gigante así que dejaré el link del poema aquí.
+<https://minecraft.fandom.com/es/wiki/Poema_del_End>
+
+Quizas podríamos programarlo de forma que podamos pasar por el poema con las flechas del teclado.
+
+Encontré en los foros de arduino una persona intentando hacer algo similar, por lo que veré que sale de esto.
+<https://forum.arduino.cc/t/help-for-showing-multi-text-via-botton-in-ssd1306-display/907859?utm_source=chatgpt.com>
+
+El código de la persona:
+```
+#include <Adafruit_GFX.h>
+#include <gfxfont.h>
+
+
+#include <Adafruit_SSD1306.h>
+
+const byte buttonpin = 8;
+
+const byte OLED_RESET = 4; // not used / nicht genutzt bei diesem Display
+Adafruit_SSD1306 display(OLED_RESET);
+
+void setup()   
+{
+  pinMode(13, OUTPUT);
+
+  pinMode(buttonpin, INPUT_PULLUP);
+  // initialize with the I2C addr 0x3C / mit I2C-Adresse 0x3c initialisieren
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3c);
+
+  Serial.begin(9600);
+  display.clearDisplay();
+  display.display();
+  delay(2000);
+  display.clearDisplay();
+
+  display.setTextColor(INVERSE);
+}
+
+void loop()
+{
+     if (digitalRead(buttonpin) == LOW)
+     {
+       display.clearDisplay();
+       display.setCursor(41,20);
+       display.setTextSize(1);
+       display.print("");
+       display.setCursor(32,20);
+       display.setTextSize(0);
+       display.print("HOW ARE YOU TODAY");
+     }
+     else
+     {
+       display.clearDisplay();
+     }
+       
+     display.display();
+}
+```
+Alguien dentro de ese foro mencionó que para que se reconozca que botones se pueden presionar, se utiliza el ejemplo de StateChangeDetection en IDE. 
+
