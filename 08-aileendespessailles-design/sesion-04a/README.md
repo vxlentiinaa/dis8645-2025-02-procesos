@@ -8,11 +8,11 @@ poema, es una obra literaria escrita generalmente en verso, que usa el lenguaje 
 - display.display() es el comando final que envía el contenido preparado (por ejemplo, texto o imágenes dibujadas por comandos anteriores) a la pantalla física del dispositivo.
 
 ### potenciometro 
-Pin names
-Name	Description
-GND - Ground
-SIG - Output, connect to an analog input pin
-VCC - Supply voltage
+Pin names: 
+Name - Description
+- GND - Ground
+- SIG - Output, connect to an analog input pin
+- VCC - Supply voltage
 
 ### Ideas proyecto 1: 
 - que el texto suba o baje 
