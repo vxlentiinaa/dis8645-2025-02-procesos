@@ -1,6 +1,6 @@
 # sesion-01b
 
-## Clase 2: 08/08 MÁQUINAS COMPUTACIONALES
+## Clase 1b: 08/08 MÁQUINAS COMPUTACIONALES
 
 ### Apuntes
 
