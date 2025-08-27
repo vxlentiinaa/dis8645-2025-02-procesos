@@ -45,5 +45,22 @@ Cerebro fundido
 
 ## Tareas asignadas
 ### Dibujos 
-En la pantalla OLED se quiere mostrar una serie de dibujos que tienen relacion con el poema inventado, para esto ocupe la aplicacion Procreate para ajustar una hoja a los pixeles correspondietes y tener con mayor claridad de como seria el resultado final mostrado en la pantalla OLED. 
-![arduino uno r4 dibujo](./imagenes.UnoR4.png)
+
+En la pantalla OLED se quiere mostrar una serie de dibujos que tienen relación con el poema inventado. Para esto, ocupé la aplicación Procreate para ajustar una hoja a los píxeles correspondientes y tener con mayor claridad de cómo sería el resultado final mostrado en la pantalla OLED. 
+
+![arduino uno r4 dibujo](./imagenes/UnoR4.PNG)
+![arduino uno r4 dibujo](./imagenes/Pantalla.PNG)
+![arduino uno r4 dibujo](./imagenes/Fundido.PNG)
+
+Código Arduino
+
+OLED ya encendido 
+
+Cerebro fundido 
+
+### Potenciómetro 
+
+> En la placa Arduino UNO tenemos 6 pines analógicos, desde A0 hasta A5 y su uso común es la lectura de datos de dispositivos analógicos como es el caso del potenciómetro. Tienen una resolución de 10 bits lo que implica que tenemos 1024 valores diferentes, es decir, podemos leer un rango de tensiones desde 0V hasta 5V detectando cambios de voltaje de 0.004V (5/1024). Por lo que los valores que obtendremos irán desde 0 hasta 1023.
+> 
+> [Fuente](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/)
+
