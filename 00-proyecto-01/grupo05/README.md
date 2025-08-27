@@ -4,6 +4,8 @@
 
 - Grupo: 05
 - Nombre de grupo: ARRAY
+- Grupo: 05
+- Nombre de grupo: ARRAY
 - Integrantes:
   - Aileen D'Espesailles 
   - Bernardita Lobo 
@@ -18,6 +20,7 @@ Plantea aquí el problema de diseño que abordaste. Menciona el texto de referen
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
 Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
+Se interactúa con el diseño al mover la perilla del potenciómetro, la cual regula la velocidad que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
 
 ## Bocetos de planificación
 
@@ -61,3 +64,12 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
+
+https://docs.arduino.cc/language-reference/en/functions/math/map/ // cómo usar map(). Define los valores del potenciómetro en velocidades
+
+https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
+
+https://www.poemas-del-alma.com/nicanor-parra-cronos.htm // poemas que estamos usando
+
+https://www.youtube.com/watch?v=l_2vnl5MOpo video como usar potenciómetro 
