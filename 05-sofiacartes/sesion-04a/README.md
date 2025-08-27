@@ -20,7 +20,7 @@ cambiar a:
 
 * <https://animator.wokwi.com/>
   
-**Código modificado**
+Código modificado
   
 ```cpp
 #include <Adafruit_GFX.h>
