@@ -1,12 +1,14 @@
 # sesion-01a
-## Encargo 01: Investigar sobre Ada Lovelace.
+
+## Encargo 01: Investigar sobre Ada Lovelace
 
 Ada Lovelace (1815–1852) es reconocida como la primera programadora de la historia. Su contribución se basa en la creación del primer algoritmo destinado a ser procesado por una máquina, anticipando conceptos de la programación informática moderna más de un siglo antes de que existieran las computadoras electrónicas.
 
 ### Contexto
+
 Durante el siglo XIX, la Revolución Industrial impulsó avances tecnológicos significativos. En este entorno, el matemático Charles Babbage desarrolló la Máquina Analítica, un dispositivo mecánico diseñado para realizar cálculos complejos. Aunque nunca se construyó completamente, el diseño sentó las bases de la informática.
 
-###  Aportaciones de Ada Lovelace
+### Aportaciones de Ada Lovelace
 
 - En 1833 conoció a Babbage y quedó fascinada con su idea de una máquina que pudiera manipular números siguiendo instrucciones.
 
@@ -16,17 +18,20 @@ Durante el siglo XIX, la Revolución Industrial impulsó avances tecnológicos s
 
 - Lovelace propuso que estas máquinas podrían ir más allá de los cálculos, generando música, gráficos o texto, anticipando la informática creativa y el concepto de software.
 
-###  Importancia y Legado
+### Importancia y Legado de Ada Lovelace
+
 El trabajo de Ada Lovelace representa el nacimiento de la programación informática. Su visión no solo abarcó el diseño de algoritmos, sino también la noción de que las máquinas podían operar con cualquier tipo de información simbólica.
 
-### Resumen
+### Resumen de Ada Lovelace
+
 Ada Lovelace no construyó computadoras, pero sentó las bases conceptuales para su funcionamiento y aplicación. Su algoritmo y sus notas visionarias justifican que se le reconozca como la primera programadora de la historia, un título que ha influido en la ciencia de la computación hasta la actualidad.
 
-## Encargo 02: Investigar sobre alan turing.
+## Encargo 02: Investigar sobre Alan Turing
 
 Alan Turing (1912–1954) es considerado uno de los padres de la ciencia de la computación. Sus aportes incluyeron la creación de un modelo matemático capaz de describir cualquier proceso de cálculo, además de avances significativos en criptografía y los inicios de la inteligencia artificial.
 
-### Contexto
+### Contexto de Alan Turing
+
 A comienzos del siglo XX, la matemática formal buscaba definir los límites de lo que podía ser calculado. En este marco, Turing propuso un dispositivo teórico —la Máquina de Turing— que serviría para comprender la naturaleza del cómputo y la resolución de problemas mediante algoritmos. Su trabajo se desarrolló en paralelo con la Segunda Guerra Mundial, donde su labor en descifrado de códigos resultó crucial para los Aliados.
 
 ### Aportaciones de Alan Turing
@@ -37,16 +42,11 @@ A comienzos del siglo XX, la matemática formal buscaba definir los límites de 
 
 - En 1950 propuso el Test de Turing, una prueba destinada a evaluar si una máquina puede exhibir comportamiento inteligente indistinguible del de un ser humano.
 
-### Importancia y Legado
+### Importancia y Legado de Alan Turing
+
 Las investigaciones de Turing definieron los principios de la computación moderna y establecieron las bases de la inteligencia artificial. Su trabajo combinó matemáticas, ingeniería y filosofía, transformando la manera en que entendemos las máquinas y su potencial para procesar información.
 
-### Resumen
+### Resumen de Alan Turing
+
 El legado de Alan Turing ha perdurado como pilar fundamental de la informática. Desde su modelo teórico de computación hasta sus contribuciones en criptografía e inteligencia artificial, su obra sentó las bases para el desarrollo tecnológico contemporáneo y marcó el inicio de una nueva era en la ciencia y la tecnología.
-
-
-
-
-
-
-
-
+s
