@@ -6,16 +6,20 @@
 
 (Tuvimos clases online, debido al clima)
 
-## Github
+## PROTOBOARD - LED 
 
-**SCL->** (Serial clock) Es una señal que marca el ritmo de la comunicación
+Tabajaremos con un emulador 
 
-**SDA->** (Serial data) línea por donde van los datos
+<https://wokwi.com/> 
 
-- Para trabajar de manera ordenada, es primordial otorgarle colores, para definir funciones.
+**SCL->** (Serial Clock) Es una señal que marca el ritmo de la comunicación
 
-- Para trabajar con la pantalla led se necesita instalar biblioteca para que no tire a error
+**SDA->** (Serial Data) línea por donde viajan los datos
 
+- Para trabajar de manera ordenada, es primordial asignar colores, para definir funciones.
+
+- Para trabajar con la pantalla LED se necesita instalar una biblioteca para evitar errores
+  
 - Una recomendación que contiene una biblioteca digital extensa muy útil  es "ADA FRUIT" 
 
 Pasos a seguir
@@ -26,12 +30,14 @@ Pasos a seguir
    
 3. Buscar y descargar: Adafruit GFX library - SSD1306 (la más reciente) -
 
+Palabras clave
+
 `GEX`-> Son gráficas
 
-`SCRIP` -> Automatización 
+`SCRIPT` -> Automatización 
 
-`BIX` -> 225 (Cuestionarse porque ese número, ya que puede variar)
+`BIX` -> 225 (Cuestionarse por qué ese número, ya que puede variar)
 
 `GET` -> Se utiliza para "obtener" recursos o información de algún servidor
 
-(NOTA: Sigo pasando en limpio mis apuntes)
+(Nota: Sigo pasando en limpio mis apuntes)
