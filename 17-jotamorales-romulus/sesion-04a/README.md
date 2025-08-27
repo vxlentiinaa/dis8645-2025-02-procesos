@@ -194,7 +194,10 @@ void loop() {
   pantallita.display(); // Actualiza la pantalla
 
   `````
-
+modifique la imagen para que no apareciera la linea amarilla arriba de la pantalla.
 
 
 }
+
+modifique la imagen para que no apareciera la linea amarilla arriba de la pantalla.
+

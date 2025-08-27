@@ -5,7 +5,7 @@
 
 //datos propios del ejemplo
 #define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
+#define SCREEN_HEIGHT 80
 #define OLED_RESET -1
 Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
@@ -18,6 +18,7 @@ int index0 = 0;
 int index1 = 0;
 int index2 = 0;
 int index3 = 0;
+int index4 = 0;
 
 //arrays de mis opciones de versos <https://docs.arduino.cc/language-reference/en/variables/data-types/string>
 char *linea0[] = { "verso1A", "verso1B", "verso1C", "verso1D" };
@@ -28,6 +29,7 @@ char *linea2[] = { "verso3A", "verso3B", "verso3C", "verso3D" };
 
 char *linea3[] = { "verso4A", "verso4B", "verso4C", "verso4D" };
 
+//char *linea4[] = { "verso5A", "verso5B", "verso5C", "verso5D" };
 
 void setup() {
   //if para casos de error
@@ -56,6 +58,8 @@ void loop() {
   pantallita.println(linea1[index1]);
   pantallita.println(linea2[index2]);
   pantallita.println(linea3[index3]);
+  //pantallita.println(linea4[index4]);
+
 
   pantallita.display();  // Show initial text
   delay(100);
@@ -85,7 +89,46 @@ void loop() {
         index3++;
       if (index3 > 3) {
         index3 = 0;
-      }
-    }
-  }
+      }}}
+testscrolltext();
 }
+
+void testscrolltext(){ 
+  pantallita.startscrollright(0x00, 0x0F);
+  delay(2000);
+  pantallita.stopscroll();
+  delay(1000);
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(2000);
+}
+
+/*
+testscrolltext();
+}
+void testscrolltext(void) {
+  pantallita.clearDisplay();
+
+  pantallita.setTextSize(2); // Draw 2X-scale text
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(10, 0);
+  pantallita.println(F("scroll"));
+  pantallita.display();      // Show initial text
+  delay(100);
+
+  // Scroll in various directions, pausing in-between:
+  pantallita.startscrollright(0x00, 0x0F);
+  delay(2000);
+  pantallita.stopscroll();
+  delay(1000);
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(2000);
+  pantallita.stopscroll();
+  delay(1000);
+  pantallita.startscrolldiagright(0x00, 0x07);
+  delay(2000);
+  pantallita.startscrolldiagleft(0x00, 0x07);
+  delay(2000);
+  pantallita.stopscroll();
+  delay(1000);
+}*/
+
