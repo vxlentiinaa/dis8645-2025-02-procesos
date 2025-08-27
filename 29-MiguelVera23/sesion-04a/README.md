@@ -119,6 +119,8 @@ void loop() {
 }
 ```
 
+![foto de Danny DeVitto en pantalla OLED](./imagenes/DeVitto1.jpeg)
+
 PD: Logré hacer las mañanitas.
 
 Aquí está la versión en donde mejoro el ritmo y varío el tamaño de fuente. Lo siguiente podría ser añadir scroll.
