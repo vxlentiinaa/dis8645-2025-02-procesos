@@ -1,22 +1,30 @@
-# sesion-04a
+# sesion-04a 27/08
 
-En clases se trabajó en grupo en el código, logramos encender la pantalla oled y colocar animaciones de wokwi
+## Apuntes clase 
 
-<https://animator.wokwi.com/>
+En clases se trabajó en grupo en el código, logramos encender la pantalla oled y colocar animaciones de wokwi. Por otra parte, logramos avanzar en el código y en nuestra elección de poema. 
 
-En el cuál, uno elige una de las animaciones que tiene y te entrega el código, para que nos funcionara tuvimos que cambiar en el código 3D a **3C**.
+Por ejemplo: Encontramos esta pagina de wokwi que nos da códigos de animaciones,para que nos funcionara tuvimos que cambiar en el código.
 
-Por ejemplo:
+```cpp
+#define SCREEN_I2C_ADDR 0x3D
+```
+cambiar a:
 
+```cpp
+#define SCREEN_I2C_ADDR 0x3C
+```
 ![WokwiMakes](./imagenes/WokwiMakes.png)
 
+* <https://animator.wokwi.com/>
+  
 **Código modificado**
   
 ```cpp
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-#define SCREEN_I2C_ADDR 0x3D // or 0x3C
+#define SCREEN_I2C_ADDR 0x3C // or 0x3C
 #define SCREEN_WIDTH 128     // OLED display width, in pixels
 #define SCREEN_HEIGHT 64     // OLED display height, in pixels
 #define OLED_RST_PIN -1      // Reset pin (-1 if not available)
@@ -72,5 +80,75 @@ void loop() {
   display.display();
   frame = (frame + 1) % FRAME_COUNT;
   delay(FRAME_DELAY);
+}
+```
+
+## Potenciómetro
+
+¿Cómo colocarlo y que funcione en el arduino con la pantalla oled?
+
+*El menor valor que puede hacer es 0 y el máximo es 1023.
+
+* Se escribe en digital y se lee en analógico.
+  
+```cpp
+// declarar valor
+// inicializar 0
+
+int valorPot;
+
+void setup() {
+    Serial.begin(9600);
+}
+
+void loop() {
+    // leer el valor analógico
+    valorPot = analogRead(A0);
+
+}
+```
+
+### Codigo visto en clases para el potenciómetro
+
+![Wokwipotenciometro](./imagenes/wokwipotenciometro.png)
+```cpp
+// declarar valor
+// inicializar 0
+int valorPot = 0;
+
+String verso0;
+String verso1;
+String verso2;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+
+  verso0 = "ventilador";
+  verso1 = "techo";
+  verso2 = "lampara";
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  
+  // leer el valor
+  valorPot = analogRead(A0);
+
+  if (valorPot < 300) {
+    // aca esta entre 0 y 300-1
+    Serial.println(verso0);
+  }
+  else if (valorPot < 600) {
+    // aca esta entre 300 y 600
+    Serial.println(verso1);
+  } else {
+    // aca esta mayor que 600
+    Serial.println(verso2);
+  }
+
+  
+  // Serial.println(valorPot);
 }
 ```
