@@ -1,4 +1,4 @@
-# sesion-04a
+# sesión-04a
 **26 Agosto 2025**
 
 Empezamos por conversar acerca de la entrega del encargo. No vamos a hacer una lámina impresa, sino que vamos a hacer una digital.
@@ -71,7 +71,7 @@ Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire);
   }
 ```
 
-Probé tambien este código para hacerle scroll al texto. No me estaba dando ningun error al momento de verificar, pero en el monitor no se mostraba. No conseguí que este código funcionara. Voy a probar tambien con otros códigos utilizados en el mismo foro.
+Probé también este código para hacerle scroll al texto. No me estaba dando ningún error al momento de verificar, pero en el monitor no se mostraba. No conseguí que este código funcionara. Voy a probar también con otros códigos utilizados en el mismo foro.
 <https://forum.arduino.cc/t/lcd-scroll-text/210755/7>
 
 ```cpp
@@ -125,7 +125,7 @@ void loop()
 }
 ```
 
-Utilicé uno de los últimos códigos dentro del mismo foro. Le cambié el tipo de pantalla y los tamaños pensando que era eso el por qué no se mostraba nada. Aún así no logré que funcionara. No cambié el texto a mostrar, dejé el mismo texto que venía en el código. Tambien lo probé en Wokwi y tampoco funcionó. Creo que quizás la persona que lo escribió pudo haberse equivocado en alguna parte.
+Utilicé uno de los últimos códigos dentro del mismo foro. Le cambié el tipo de pantalla y los tamaños pensando que era eso el por qué no se mostraba nada. Aun así no logré que funcionara. No cambié el texto a mostrar, dejé el mismo texto que venía en el código. También lo probé en Wokwi y tampoco funcionó. Creo que quizás la persona que lo escribió pudo haberse equivocado en alguna parte.
 ```cpp
 #include <LiquidCrystal_I2C.h> // include lib according to your lcd type
 
@@ -244,11 +244,9 @@ void flashCharSubstring(const char *str, char *buf, int inf, int sup) {
 }
 ```
 
+Me haré la vida más fácil y voy a utilizar el código utilizado por Aarón en la clase 3b para hacerle scroll al texto.
 
-Me haré la vida más facil y voy a utilizar el código utilizado por Aarón en la clase 3b para hacerle scroll al texto. 
-
-
-funcion con parametro adicional de int para las pausas
+función con parametro adicional de int para las pausas
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -327,8 +325,7 @@ void loop() {
   delay(pausa);
 }
 ```
-
-Le cambié el poema anterior por el de Minecraft, y noté que algúnas palabras se cortaban. Utilicé algo que aprendimos anteriormente en clases, que es para crear una nueva línea. Funcionó perfecto para evitar que se corten ciertas palabras.
+Le cambié el poema anterior por el de Minecraft, y noté que algunas palabras se cortaban. Utilicé algo que aprendimos anteriormente en clases, que es para crear una nueva línea. Funcionó perfecto para evitar que se corten ciertas palabras.
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -562,7 +559,7 @@ void loop() {
 ```
 Estuve investigando como hacer scrolling vertical, y encontré un foro que explica el por qué no se puede en esta pantalla. Básicamente, solo se puede horizontal o en diagonal.
 
-<https://forum.arduino.cc/t/ssd1306-adafruit-scrolling-text-vertical-solved/574566>
+
 
 ### Conversación
 Nos empezamos a poner de acuerdo después de probar varias cosas. Decidimos que queremos poder comunicarnos con el arduino, y que a cierto punto responda con el poema que elegimos.
@@ -585,7 +582,7 @@ Tienen tres patitas, o terminales.
 
 Protoboards tienen un rio. Divide cada hemisferio y no se crea una conexión entre hemisferios. Se conectan los componentes de manera paralela al río.
 
-Para conectar el potenciometro, se conecta en un hemisferio, y se alinea un cable hacia el otro hemisferio para conectarlo a la pantalla conectada al otro lado.
+Para conectar el potenciómetro, se conecta en un hemisferio, y se alinea un cable hacia el otro hemisferio para conectarlo a la pantalla conectada al otro lado.
 
-*Diferencia entre analogo y dígital*
-En pocas palabras, analogo es fluido, y dígital es estatico.
+*Diferencia entre análogo y digital*
+En pocas palabras, análogo es fluido, y digital es estático.
