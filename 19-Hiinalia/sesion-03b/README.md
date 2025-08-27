@@ -1,4 +1,4 @@
-# sesion-03b
+# sesión-03b
 **22 Agosto 2025**
 
 
@@ -17,7 +17,7 @@ Prefijos métricos: Abreviaciones para el tamaño de las tecnologías
 
 Vamos a conectar una pantalla y hacer que pasen cosas en la pantalla.
 La pantalla tiene 4 “patitas” Hay otras que requieren más conexiones para que funcionen.
-i2c: protocolo de comunicación serial. Requie
+i2c: protocolo de comunicación serial.
 GND: ground - todos los circuitos requieren de ground. 
 VCC: voltaje de alimentación - a veces las cosas están calibradas para un voltaje en específico. Es importante saber cuanto voltaje requiere para evitar quemar o romper las cosas. En caso de requerir saber cuanto voltaje requiere, se busca una referencia.
 SCL: Signal clock, señal de reloj. Protocolo síncrono. (Siempre el más grande)
@@ -38,7 +38,7 @@ Adafruit: empresa open-source por Limor Fried.
 
 ### Código utilizado como ejemplo para una pantalla
 
-```
+```cpp
 /**************************************************************************
  This is an example for our Monochrome OLEDs based on SSD1306 drivers
 
@@ -541,18 +541,17 @@ Charla<https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
 ## Un poco de investigación para el proyecto y algunas ideitas
 
 Encontré esta página muy completa para entender como funciona conectar una pantalla al arduino. 
-<https://newbiely.com/tutorials/arduino-uno-r4/arduino-uno-r4-oled-128x64?utm_source=chatgpt.com>
 
-Estuvimos conversando acerca de lo que podiamos hacer con la pantalla. Moss sugirió utilizar el poema que sale en los creditos de Minecraft al derrotar al ender dragon. Me pareció una muy buena idea. Es gigante así que dejaré el link del poema aquí.
-<https://minecraft.fandom.com/es/wiki/Poema_del_End>
 
-Quizas podríamos programarlo de forma que podamos pasar por el poema con las flechas del teclado.
+Estuvimos conversando acerca de lo que podiamos hacer con la pantalla. Moss sugirió utilizar el poema que sale en los créditos de Minecraft al derrotar al ender dragon. Me pareció una muy buena idea. Es gigante así que dejaré el link del poema aquí.
+
+
+Quizás podríamos programarlo de forma que podamos pasar por el poema con las flechas del teclado.
 
 Encontré en los foros de arduino una persona intentando hacer algo similar, por lo que veré que sale de esto.
-<https://forum.arduino.cc/t/help-for-showing-multi-text-via-botton-in-ssd1306-display/907859?utm_source=chatgpt.com>
 
 El código de la persona:
-```
+```cpp
 #include <Adafruit_GFX.h>
 #include <gfxfont.h>
 
@@ -602,11 +601,11 @@ void loop()
 }
 ```
 Alguien dentro de ese foro mencionó que para que se reconozca que botones se pueden presionar, se utiliza el ejemplo de StateChangeDetection en IDE. 
-Noté que en realidad este ejemplo sirve cuando conectas un botón externo al arduino. Quizas podriamos conseguirnos uno de alguna forma.
+Noté que en realidad este ejemplo sirve cuando conectas un botón externo al arduino. Quizás podríamos conseguirnos uno de alguna forma.
 
 Aquí está el ejemplo de IDE:
 
-```
+```cpp
 /*
   State change detection (edge detection)
 
@@ -691,7 +690,7 @@ void loop() {
 ```
 Le agregué el poema que queremos usar:
 
-```
+```cpp
 // this constant won't change:
 const int buttonPin = 2;  // the pin that the pushbutton is attached to
 const int ledPin = 13;    // the pin that the LED is attached to

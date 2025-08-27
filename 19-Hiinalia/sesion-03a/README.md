@@ -1,4 +1,4 @@
-# sesion-03a
+# sesión-03a
 
 19 Agosto 2025
 
@@ -13,79 +13,98 @@ Presentación de proyecto 1
 ```Else (alternativa)```
 ```End if (alternativa)```
 
-si se cumple la condición, entonces se cumple el “then”
+Si se cumple la condición, entonces se cumple el “then”
 también existe el else, para otra alternativa en el caso de que no se cumpla el if.
 
-Else es opcional. La unica manera en que funcione else es que el if sea falso.
+Else es opcional. La única manera en que funcione else es que el if sea falso.
 
 Entre if y else pueden existir infinitos if y else.
 
 Existen diagramas de flujo que representan estas condicionales.
 
-Mapa de flujo condicionales <https://en.wikipedia.org/wiki/Conditional_(computer_programming)#/media/File:IF-THEN-ELSE-END_flowchart.svg>
+Mapa de flujo condicionales 
 
 Ejemplo:
 
 if (estaLloviendo == true) {
+
 hacer sopaipillas();
+
 }
 else {
+
 salirAAndarEnBici();
+
 }
 
 Con 2 iguales == es para comparar. Se dice si o no.
 
-Se puede tambien escribir una condicion dentro de otra
+Se puede también escribir una condición dentro de otra
 
 Ejemplo:
 
 ```cpp
 if (ver == false) {
+
 ponermeLentes();
 
 if (suciedad == true) {
+
 limpiar lentes();
+
 }
 else {
+
 seguirConMiVida();
+
 }
 ```
 
-Operadores lógicos <https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/boolean-logical-operators>
-<https://www.freecodecamp.org/espanol/news/operador-c-operadores-logicos-de-programacion-en-c/#:~:text=¿Cuál%20es%20el%20papel%20de,uno%20en%20las%20siguientes%20secciones.>
+Operadores lógicos 
+
 
 ### ¿Cuál es el papel de los Operadores Lógicos en la Programación en C?
 
-<https://www.freecodecamp.org/espanol/news/operador-c-operadores-logicos-de-programacion-en-c/#:~:text=¿Cuál%20es%20el%20papel%20de,uno%20en%20las%20siguientes%20secciones.>
+
 Los operadores lógicos se utilizan comúnmente en declaraciones condicionales (como las declaraciones if..else), ya que ayudan en la toma de decisiones: determinan qué acción debe tener lugar y qué código debe ejecutarse a continuación según las condiciones que establezcas.
 Combina los operadores lógicos con una o múltiples condiciones para crear una expresión lógica.
 Los operadores lógicos evalúan la expresión lógica y devuelven un resultado.
-El resultado siempre es un valor booleano. Un valor booleano determina si la expresión es verdadera true o falsa false.
+El resultado siempre es un valor booleano. Un valor booleano determina si la expresión es verdadera, true o falsa false.
 Hay tres operadores lógicos en la programación en C: el AND lógico (&&), el OR lógico (||) y el NOT lógico (!).
 
 ```cpp
 //si no hay arana
 //reacciono tranqui
 if (!hayArana) {
+
 reaccionarTranqui();
 
 if (suciedad == true) {
+
 limpiar lentes();
+
 }
 else {
+
 chillar(infinito);
+
 }
 ```
 
 ```cpp
-if (edad >= 18 OR tengoPituto) {
+if (edad = 18 OR tengoPituto) {
+
 dartePermisoConducir();
 
 if (suciedad == true) {
+
 limpiar lentes();
+
 }
 else {
+
 (tomo metro);
+
 }
 ```
 
@@ -102,6 +121,7 @@ bool prender = false;
 // el led se apague
 
 void setup() {
+
   // put your setup code here, to run once:
 
   // hacer que una patita sea output, salida
@@ -112,6 +132,7 @@ void setup() {
 }
 
 void loop() {
+
   // put your main code here, to run repeatedly:
 
   digitalWrite(LED_BUILTIN, prender);
@@ -122,9 +143,9 @@ void loop() {
 }
 ```
 
-millis() cuenta el tiempo desde que se prendió el arduino. no es infinito<https://docs.arduino.cc/language-reference/en/functions/time/millis/>
+millis() cuenta el tiempo desde que se prendió el arduino. No es infinito
 
-no se trabaja con int cuando se usa millis porque no cabe el número. se utiliza ```unsigned long```
+No se trabaja con int cuando se usa millis porque no cabe el número. se utiliza ```unsigned long```
 
 ## código que usamos con if
 
@@ -137,6 +158,7 @@ bool prendido = false;
 // el led se apague
 
 void setup() {
+
   // put your setup code here, to run once:
 
   // abrir puerto serial
@@ -151,15 +173,18 @@ void setup() {
 }
 
 void loop() {
+
   // put your main code here, to run repeatedly:
 
 
   // que solamente este prendido
   // en los primeros 3 segundos
-  if (millis() < 3000) {
+  if (millis()  3000) {
+
     prendido = true;
   }
   else {
+
    prendido = false;
   }
 
@@ -168,9 +193,9 @@ void loop() {
   Serial.println(millis() / 1000 );
 ```
 
-int es para uso de números cotidianamente. se utiliza long para usar números más grandes.
+int es para uso de números cotidianamente. Se utiliza long para usar números más grandes.
 
-con la maña de misa de usar la variable segundos y hacerse cargo muy responsablemente de usar unsigned long
+Con la maña de misa de usar la variable segundos y hacerse cargo muy responsablemente de usar unsigned long
 
 ```cpp
 // variable booleana
@@ -181,6 +206,7 @@ bool prendido = false;
 // el led se apague
 
 void setup() {
+
   // put your setup code here, to run once:
 
   // abrir puerto serial
@@ -191,9 +217,11 @@ void setup() {
   // usamos la constante incluida en Arduino
   // LED_BUILTIN, porque sabe donde esta el LED interno
   pinMode(LED_BUILTIN, OUTPUT);
+
 }
 
 void loop() {
+
   // put your main code here, to run repeatedly:
 
 
@@ -202,28 +230,32 @@ void loop() {
 
   unsigned long segundos = millis() / 1000;
   
-  if (segundos < 3  ) {
+  if (segundos  3  ) {
+
     prendido = true;
-  } else if ( segundos > 10) {
+  } else if ( segundos  10) {
+
     prendido = true;
   } else {
+
     prendido = false;
   }
 
   digitalWrite(LED_BUILTIN, prendido);
 
   Serial.println(millis() / 1000);
+
 }
 ```
 
 Referencia: Arduino.cc
 Siempre utilizar la documentación oficial.
-<https://docs.arduino.cc/programming/>
-<https://docs.arduino.cc/language-reference/>
+
+
 
 ## Operadores Lógicos
 
-tabla de simbolos de operadores lógicos <https://panamahitek.com/wp-content/uploads/2014/02/compuertas-logicas.png>
+tabla de símbolos de operadores lógicos 
 
 Existen 3 operadores lógicos.
 
@@ -244,7 +276,7 @@ A B  Out
 1 0  0
 1 1  1**
 
-Para or, si alguna de las condiciones se cumple, si funciona, ya que es uno o lo otro. Tambien va a funcionar si es que los dos se cumplen.
+Para or, si alguna de las condiciones se cumple, si funciona, ya que es uno o lo otro. También va a funcionar si es que los dos se cumplen.
 
 **tablita de ejemplo para entender el or
 
@@ -269,7 +301,7 @@ Nand
 Nor
 Xor
 
-Hay que evitar que se repita demasiado un codigo. Lo mejor es establecer que quiero que haga y cuantas veces quiero que lo haga.
+Hay que evitar que se repita demasiado un código. Lo mejor es establecer que quiero que haga y cuantas veces quiero que lo haga.
 
 ```cpp
 //iterar
@@ -285,14 +317,16 @@ int veces = 100;
 for (parto; termino; que hago cada paso)
 
 // int se utiliza solo para iterar
-for (int i = 0; i < veces; dia = dia + 1)
+for (int i = 0; i  veces; dia = dia + 1)
 {
+
 hazEsto();
+
 }
 ```
 
-La i se tiende a usar para iterar. La i parte siendo 0 desde el principio de los tiempos. Despues este i se borra.
-i < veces significa que “si esto es verdad, entonces vuelvo a hacerlo”
+La i se tiende a usar para iterar. La i parte siendo 0 desde el principio de los tiempos. Después este i se borra.
+i  veces significa que “si esto es verdad, entonces vuelvo a hacerlo”
 
 Se puede utilizar la j para hacer otra iteración.
 
@@ -304,17 +338,20 @@ Serial.println() sirve para hacer enter.
 int numEstudiantes = 29;
 
 void setup() {
+
   // put your setup code here, to run once:
 
   Serial.begin(9600);
 
-  for (int i = 0; i < numEstudiantes; i++) {
+  for (int i = 0; i  numEstudiantes; i++) {
+
     Serial.println(i);
   }
 
 }
 
 void loop() {
+
   // put your main code here, to run repeatedly:
 
 
@@ -328,20 +365,24 @@ void loop() {
 int numEstudiantes = 29;
 
 void setup() {
+
   // put your setup code here, to run once:
 
   Serial.begin(9600);
 
-  for (int i = 0; i < numEstudiantes; i++) {
+  for (int i = 0; i  numEstudiantes; i++) {
+
     Serial.print("estudiante:");
     Serial.print(" ");
 
-   if (i < 10) {
+   if (i  10) {
+
     Serial.print(" ");
    }
     
 
     if (i != 13) {
+
     Serial.print(i);
     }
 
@@ -352,6 +393,7 @@ void setup() {
 }
 
 void loop() {
+
   // put your main code here, to run repeatedly:
 
 
@@ -360,7 +402,7 @@ void loop() {
 
 ```
 
-## test de division
+## test de división
 
 ```cpp
 //QUIERO PODER DECIRLE A ARDUINO
@@ -369,11 +411,14 @@ void loop() {
 bool estadoLed = 0;
 
 void setup() {
+
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
+
 }
 
 void loop() {
+
   unsigned long segundos = millis() / 1000;
 
   int numero1 = 5;
@@ -385,6 +430,7 @@ void loop() {
   division = numero1 / numero2;
   //EL RESULTADO VA A SER "2", NO "2.5"
   Serial.println(division);
+
 }
 ```
 
@@ -398,11 +444,14 @@ bool estadoLed = 0;
 int numero1 = 6;
 
 void setup() {
+
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
+
 }
 
 void loop() {
+
   unsigned long segundos = millis() / 1000;
 
   
@@ -423,6 +472,7 @@ void loop() {
   //voy a incrementar numero1 de 1 en 1
   numero1++;
   delay(500);
+
 }
 ```
 
@@ -433,10 +483,10 @@ Restos
 __
 1
 
-El 1 sería lo que sobra dentro de la division que le hicimos al 7.
-El resultado que no es modulo es la division de enteros.
+El 1 sería lo que sobra dentro de la división que le hicimos al 7.
+El resultado que no es módulo es la división de enteros.
 
-## detectar si un numero es par o impar con %
+## detectar si un número es par o impar con %
 
 ```cpp
 //QUIERO PODER DECIRLE A ARDUINO
@@ -446,11 +496,14 @@ bool estadoLed = 0;
 int numero1 = 6;
 
 void setup() {
+
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
+
 }
 
 void loop() {
+
   unsigned long segundos = millis() / 1000;
 
   
@@ -473,6 +526,7 @@ void loop() {
   //voy a incrementar numero1 de 1 en 1
   numero1++;
   delay(500);
+
 }
 ```
 
@@ -486,11 +540,14 @@ bool estadoLed = 0;
 int numero1 = 6;
 
 void setup() {
+
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
+
 }
 
 void loop() {
+
   unsigned long segundos = millis() / 1000;
 
   int numero2 = 2;
@@ -511,15 +568,17 @@ void loop() {
   if (segundos%2 == 0){ //si es un segundo par
     estadoLed = false;
   } else {
+
     estadoLed = true; ////si es un segundo impar
   }
 
   digitalWrite(LED_BUILTIN,estadoLed);
+
 }
 ```
 
-Finalmente, este codigo no alcanzamos a terminarlo en clases y no funcionó con lo que teniamos. De todas maneras, es importante fallar y arreglar para poder aprender.
+Finalmente, este código no alcanzamos a terminarlo en clases y no funcionó con lo que teníamos. De todas maneras, es importante fallar y arreglar para poder aprender.
 
 De martes a viernes: Repasar if, else, for, and, or, not
 hacer cositas con esto
-documentar proceso de investigacion dentro de la bitacora.
+documentar proceso de investigación dentro de la bitácora.
