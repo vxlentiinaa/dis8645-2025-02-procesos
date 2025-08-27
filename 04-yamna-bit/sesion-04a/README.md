@@ -1,6 +1,6 @@
 # sesion-04a
 
-# Clase 4a: 26/08 MÁQUINAS COMPUTACIONALES
+Clase 4a: 26/08 MÁQUINAS COMPUTACIONALES
 
 ## Apuntes
 
@@ -19,13 +19,13 @@ Potenciómetro
 Análogo (*analog*)
 
 - Características: **fluido, continuo, real, infinito**
-    
+
 - **Ejemplos:** Tiempo, el mundo real
 
 digital (*digital*)
 
 - Características: **discreto, por pasos, en píxeles**
-    
+
 - **Ejemplos:** Hora digital, *Minecraft*, píxel de una foto
 
 (FALTA REGISTRO DE FALLAS Y LOGROS)
@@ -38,5 +38,4 @@ digital (*digital*)
 
 - En el original se revisa los comentarios personales
 
-(Nota: entrar a canvas para ver la retroalimentación especifica) 
-
+(Nota: entrar a canvas para ver la retroalimentación especifica)
