@@ -182,6 +182,54 @@ void testscrolltext(){
 }
 ```
 
+mateo me ayudó con este código, me envió este:
+
+```cpp
+include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Wire.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET    -1
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+String texto = "Hola! Esto es un scroll vertical en Arduino :)";
+int16_t y = -8; // Comenzamos fuera de la pantalla
+
+void setup() {
+  if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { 
+    Serial.println(F("Error al iniciar la pantalla SSD1306"));
+    for(;;);
+  }
+
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+}
+
+void loop() {
+  display.clearDisplay();
+
+  display.setCursor(0, y);
+  display.print(texto);
+  display.display();
+
+  y++;  // Mueve el texto hacia abajo
+
+  // Si el texto saliÃ³ completamente de la pantalla, reinicia desde arriba
+  int16_t textHeight = 8; // Altura de la fuente 1
+  if (y > SCREEN_HEIGHT) {
+    y = -textHeight;
+  }
+
+  delay(50); // Ajusta la velocidad del scroll
+}
+```
+comparando los código pude a llegar a las siguientes conclusiones.
+
+- en el [ejemplo de adafruit](https://github.com/adafruit/Adafruit_SSD1306/blob/master/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino), hay una función display.startscrollright(0x00, 0x0F);. Esto me hizo pensar que para scrollear hacia abajo habría una función similar. Comparando los códigos me di cuenta de una manera sencilla de resolverlo, y es ir aumentado en 1 la "y" de display.setCursor(x,y); 
+
 ### proyecto-01 v2
 
 conversando con el grupo, y gracias al feed back de mateo el proyecto evolucionó de la siguiente manera:
