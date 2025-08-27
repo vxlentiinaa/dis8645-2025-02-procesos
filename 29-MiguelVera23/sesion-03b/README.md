@@ -1,10 +1,10 @@
 # sesion-03b
+
  Primer reloj digital hecho en Chile (UNO)
 
 Matriz LED 8x8 (puntillismo)
 
 Daniel Cruz/Museo de arte contemporánea/
-
 
 Próxima semana: Navegador de poemas.(c/ pantalla)
 
@@ -12,16 +12,15 @@ Wokwi
 
 Tinkercad
 
-
 Pantalla SSD1306 OLED display 128x64 I2C
 
-GND: Cable a tierra verde. 
+GND: Cable a tierra verde.
 
 VCC: De ahí partimos contando. Cuanto voltaje necesita (5 volts).
 
 Power alimenta la pantalla (hacerlo primero)
 
-SCL: Signal clock (unión A5). Da el tiempo/ritmo. 
+SCL: Signal clock (unión A5). Da el tiempo/ritmo.
 
 SDA: Datos (unión A4).
 
@@ -31,7 +30,6 @@ Adafruit GFX
 
 Software de imagen a binario
 
-
 Usar if! para avisar si no empieza algo
 
 for(;;); no seguir loopeando
@@ -40,19 +38,15 @@ nombres obligatorios: inglés
 
 nombres variables: español (pantallita)
 
-
 Para encargo copiar, basar y robar pero citando correctamente.
 
-https://javl.github.io/image2cpp/
+<https://javl.github.io/image2cpp/>
 
 arduino string/char array
 
-
-
-
  Ejemplo de clases (pantallita)
 
-```opp
+```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -132,12 +126,11 @@ void loop() {
 }
 ```
 
-
 <https://www.elithecomputerguy.com/2019/07/print-text-to-oled-screen-on-arduino/>
 
 Desglose de ejemplo
 
-```opp
+```cpp
 #include <Wire.h>   //incluye biblioteca (viene por defecto)
 #include <Adafruit_SSD1306.h>  //incluye bibliotecas adafruit que necesitan ser instaladas
 #include <Adafruit_GFX.h>
@@ -192,7 +185,6 @@ void loop() {
 }
 ```
 
-
 A parte del setup de las bibliotecas necesarias y las especificaciones técnicas de la pantalla, el display de texto se reduce a 3 elementos por función:
 
 display.setTextSize(2); (Tamaño)
@@ -205,7 +197,7 @@ display.println("Welcome"); (Contenido)
 
 *Consultar porque wokwi toma tanto tiempo en procesar
 
-##Intento 1 las mañanitas
+## Intento 1 las mañanitas
 
 Traté de añadir unos versos de las mañanitas variando su tamaño y tiempo entre aparición y desaparición para darle un ritmo.
 
@@ -215,7 +207,7 @@ Me basé en el link anterior pero creo que malinterpreté algunos roles de códi
 
 También ambas palabras iniciales son muy largas por lo que se cortaron.
 
-```opp
+```cpp
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
@@ -286,11 +278,12 @@ void loop() {
   delay(5000);
 }
 ```
-##Intento 2 las mañanitas
+
+## Intento 2 las mañanitas
 
 Separé correctamente los roles y arreglé la ñ. Funciona correctamente pero el ritmo se puede mejorar
 
-y podría añadir movimiento o una transición mas interesante. Probaré transcribir toda la canción 
+y podría añadir movimiento o una transición mas interesante. Probaré transcribir toda la canción
 
 considerando el tiempo que demora leerla para que sea más fluida.
 
@@ -355,5 +348,3 @@ void loop() {
   delay(1000);
 }
 ```
-```
-

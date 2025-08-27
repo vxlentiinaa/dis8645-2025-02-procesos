@@ -54,6 +54,8 @@ void loop() {
   delay(1000);
 }
 ```
+![contador](./imagenes/contador.jpeg)
+
 ### Codigo chanchito alcancia 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -117,10 +119,12 @@ void loop() {
   delay(FRAME_DELAY);
 }
 ```
+![chanchito](./imagenes/chanchito.jpeg)
 
 Mientras tanto mis compañeras estaban visualizando el poema en la pantalla OLED.
 Con mi compañera Sofía estuvimos conectando la pantalla redonda al arduino para ocuparlo en el poema pero no nos funciono, sin embargo no hemos descartado usar esa pantalla para la entrega del proximo viernes.
-
+![pantalla_redonda](./imagenes/pantalla_redonda.jpeg)
+![arduino_conectado_a_pantalla_redonda](./imagenes/arduino_conectado_a_pantalla_redonda.jpeg)
 ## Proyecto
 Con mis compañeras acordamos mostrar el poema “Casi cruzo la barrera” de Enrique Lihn en la pantalla OLED.
 La idea es que después de cada verso aparezca una animación que represente visualmente la línea recién mostrada. Además, queremos que los versos se proyecten en forma de espiral.

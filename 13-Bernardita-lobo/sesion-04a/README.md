@@ -16,10 +16,22 @@ que significa poema, proyesis que viene de crear
 
 pagina que cita en apa https://www.bibguru.com/es/
 
-idea 01 que con un potencimetro suba o baje el texto
 
-idea 02 
+#### Propuestas
 
+Idea 01: Potenciómetro controla si el texto sube o baja.
+
+Idea 02: Potenciómetro ajusta la velocidad del texto.
+
+Idea 03: Potenciómetro cambia la dirección del texto: derecha baja, izquierda sube.
+
+Idea 04: Botón cambia la dirección del texto al hacer clic.
+
+Idea 05: Botón enciende o apaga una imagen.
+
+#### pixel art
+
+pagina para pasar una foto a codigo https://javl.github.io/image2cpp/
 
 ### digital vs analogo
 

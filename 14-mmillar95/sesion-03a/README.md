@@ -2,7 +2,6 @@
 
 ## Condicionales
 
-
 ```cpp
 if (Boolean condition) Then
     (consequent)
@@ -29,8 +28,8 @@ else {
 if(Cola-cola == False){
  ComproJugoNaranja();
 ```
-**ELSE llega cuando la condición fue mentira**
 
+ELSE llega cuando la condición fue mentira
 
 ```cpp
 if(diciembre AND donFrancisco == true
@@ -71,9 +70,9 @@ void loop() {
 }
 ```
 
-**Operadores lógicos**
+Operadores lógicos
 
-**Las operaciones que solo aparecen cuando quiero combinar  su estado lógico**
+Las operaciones que solo aparecen cuando quiero combinar  su estado lógico
 
 ## Iterar
 

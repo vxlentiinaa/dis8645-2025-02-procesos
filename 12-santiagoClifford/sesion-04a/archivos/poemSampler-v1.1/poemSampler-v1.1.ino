@@ -38,15 +38,18 @@ void setup() {
     for (;;)
       ;
   }
+ 
+}
+
+void loop() {
   //seteo del display
   pantallita.clearDisplay();
   pantallita.setTextColor(SSD1306_WHITE);
   Serial.begin(9600);
   Serial.println("alexis");
-}
+  ///////////////////////////////////////////////////
 
-void loop() {
-  pantallita.clearDisplay();
+   pantallita.clearDisplay();
 
   pantallita.setTextSize(2);  // Draw 2X-scale text
   pantallita.setTextColor(SSD1306_WHITE);

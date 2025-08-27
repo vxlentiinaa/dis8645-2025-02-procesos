@@ -5,9 +5,9 @@
 - Grupo: 08
 - Nombre de grupo: TODO
 - Integrantes:
-  - Valentina Chávez 
+  - Valentina Chávez
   - Vania Paredes
-    
+
 ## Presentación textual
 
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
@@ -18,8 +18,7 @@ Las etapas son:
 1. **El Encuentro:** "Si me miras, yo me vuel vo hermosa". Gabriela Mistral, Vergüenza.
 2. **El amor:** "Quiero hacer algo contigo lo que la primavera hace con los cerezos". Pablo Neruda
 
-
-La idea es que con el potenciómetro se vayan cambiando 
+La idea es que con el potenciómetro se vayan cambiando
 
 ## Inputs y outputs
 
@@ -37,10 +36,12 @@ Segmenta las secciones de tu código y explícalas
 
 ## Roles del equipo
 
-**Vania**:
-- Código de los poemas. 
+### Vania
 
-**Valentina**
+- Código de los poemas.
+
+### Valentina
+
 - Códigos de las imágenes que acompañan al poema.
 
 ## Fotografías y videos del proyecto funcionado
