@@ -26,6 +26,21 @@ De tu luz y de mi sombra". (César Vallejo, Poemas humanos).
 - Se pueden usar dos botones para que hacer que vaya hacia atrás y hacia adelante.
 - el potenciómetro se puede usar para ir pasando las imágenes.
 
+#### Imágenes a usar 
+
+
+#### const unsigned char ojos[] PROGMEM = { ... };
+Para poner las imágenes como bitmap (bytes), 
+Luego se dibuja con **drawBitmap (0, 0, ojos, 128, 64, WHITE);** (posición X=0, Y=0, ancho=128, alto=64.
+
+
+
+
+
+
+
+
+
 
 
 ### USO DE POTENCIÓMETRO Y BOTÓN EN ARDUINO
@@ -36,7 +51,10 @@ Potenciómetro:
 - cuando el potenciómetro va a tanto, es la velocidad del poema.
 - si el valor del potenciómetro es menor que trescientos, se mostrará el verso uno. Y así ir asignando valores para cada verso o cada poema de los moementos d
 
-- la función debe ir en un rango
+- la función debe ir en un rango 
+
+
+
 
 
 
