@@ -199,3 +199,5 @@ muestra imágenes/animaciones que surgen a partir de los refranes.
 con el potenciómetro se selecciona refrán, el cual es mostrado en una pantalla. Al pulsar un botón, en la pantalla2, se prende un dibujo referente al refrán seleccionado.
 
 El usuarix puede combinar varios dibujos para crear su propio escenario.
+
+
