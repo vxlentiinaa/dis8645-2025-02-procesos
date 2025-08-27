@@ -590,6 +590,10 @@ Protoboards tienen un rio. Divide cada hemisferio y no se crea una conexión ent
 Para conectar el potenciómetro, se conecta en un hemisferio, y se alinea un cable hacia el otro hemisferio para conectarlo a la pantalla conectada al otro lado.
 
 
+*Diferencia entre análogo y digital*
+En pocas palabras, análogo es fluido, y digital es estático.
+
+
 ## Trabajo en sala de interacción para proyecto 1
 
 Nos pusimos bien de acuerdo para entender que es a lo que queremos llegar. 
@@ -640,7 +644,3 @@ void loop() {
 
 
 ```
-
-
-*Diferencia entre análogo y digital*
-En pocas palabras, análogo es fluido, y digital es estático.
