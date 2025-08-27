@@ -1,19 +1,21 @@
 # sesion-04a 27/08
 
-## Apuntes clase 
+## Apuntes clase
 
-En clases se trabajó en grupo en el código, logramos encender la pantalla oled y colocar animaciones de wokwi. Por otra parte, logramos avanzar en el código y en nuestra elección de poema. 
+En clases se trabajó en grupo en el código, logramos encender la pantalla oled y colocar animaciones de wokwi. Por otra parte, logramos avanzar en el código y en nuestra elección de poema.
 
 Por ejemplo: Encontramos esta pagina de wokwi que nos da códigos de animaciones,para que nos funcionara tuvimos que cambiar en el código.
 
 ```cpp
 #define SCREEN_I2C_ADDR 0x3D
 ```
+
 cambiar a:
 
 ```cpp
 #define SCREEN_I2C_ADDR 0x3C
 ```
+
 ![WokwiMakes](./imagenes/WokwiMakes.png)
 
 * <https://animator.wokwi.com/>
@@ -111,6 +113,7 @@ void loop() {
 ### Codigo visto en clases para el potenciómetro
 
 ![Wokwipotenciometro](./imagenes/wokwipotenciometro.png)
+
 ```cpp
 // declarar valor
 // inicializar 0
