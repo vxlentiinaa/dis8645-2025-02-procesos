@@ -1,6 +1,6 @@
 # sesion-03a
 
-## Clase 3a: 19/08 MÁQUINAS COMPUTACIONALES
+## Clase 03a: 19/08 MÁQUINAS COMPUTACIONALES
 
 ### Apuntes
 
