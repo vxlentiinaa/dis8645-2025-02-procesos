@@ -42,3 +42,8 @@ Cerebro fundido
 - Protoboard
 - Pantalla OLED
 - Potenciómetro
+
+## Tareas asignadas
+### Dibujos 
+En la pantalla OLED se quiere mostrar una serie de dibujos que tienen relacion con el poema inventado, para esto ocupe la aplicacion Procreate para ajustar una hoja a los pixeles correspondietes y tener con mayor claridad de como seria el resultado final mostrado en la pantalla OLED. 
+![arduino uno r4 dibujo](./imagenes.UnoR4.png)
