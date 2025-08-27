@@ -1,4 +1,4 @@
-# sesion-01a
+# sesión-01a
 
 **5 Agosto 2025**
 
@@ -13,30 +13,34 @@
 
 **Ordenar** 12:30 - 12:50 
 
-## ¿Que es una maquina?
+## ¿Qué es una máquina?
 - Objeto físico
-- Capacidad de **REALIZAR** procesor. (Puede ser humano)
+- Capacidad de **REALIZAR** procesos. (Puede ser humano)
 - Tiene entrada y salida
-- Piezas moviles
-- Componentes electronicos (componentes en general)
+- Piezas móviles
+- Componentes electrónicos (componentes en general)
 - Requiere energía para funcionar
-- Tiempo -> transformacion
+- Tiempo -> transformación
 - Objetivo definido (varios o indefinido)
 - Compuesto por más de un elemento
 - Intención
 - Facilita procesos
-- Maquina -> Machina origen de la palabra (griego mekhana, artificio, ingenio, medio)
+- Máquina -> Machina origen de la palabra (griego mekhana, artificio, ingenio, medio)
 - Invención
 
 ## ¿Que es computacional?
-- Objeto fisico
+- Objeto físico
 - Lenguaje
-- Orden lógico (combinación, sequencial)
-- Computo -> número
+- Orden lógico (combinación, secuencial)
+- Cómputo -> número
 - Procesamiento de datos/cálculo
 - Interfaz -> HCI
 - Información
 
+  Energía -> tiempo -> transformación
+  No hay transformación si el tiempo está congelado porque no tiene energía, no se mueve.
+  Algo quieto no es una máquina
+  La información y los datos son los que se transforman
   HCI: Interfaz humano computador
   STS: Science, technology, and society
 
