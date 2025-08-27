@@ -1,10 +1,11 @@
 # sesión-03b
-**22 Agosto 2025**
 
+22 Agosto 2025
 
 ## Protoboard y pantalla
+
 Nos vamos a salir del cable USB del arduino
-Protoboard: Se usa para conectar cositas. 
+Protoboard: Se usa para conectar cositas.
 
 La tecnología tft es más barata que la oled.
 Las pantallas funcionan con resolución (la cantidad de pixeles)
@@ -18,7 +19,7 @@ Prefijos métricos: Abreviaciones para el tamaño de las tecnologías
 Vamos a conectar una pantalla y hacer que pasen cosas en la pantalla.
 La pantalla tiene 4 “patitas” Hay otras que requieren más conexiones para que funcionen.
 i2c: protocolo de comunicación serial.
-GND: ground - todos los circuitos requieren de ground. 
+GND: ground - todos los circuitos requieren de ground.
 VCC: voltaje de alimentación - a veces las cosas están calibradas para un voltaje en específico. Es importante saber cuanto voltaje requiere para evitar quemar o romper las cosas. En caso de requerir saber cuanto voltaje requiere, se busca una referencia.
 SCL: Signal clock, señal de reloj. Protocolo síncrono. (Siempre el más grande)
 SDA: Signal data, señal de datos
@@ -28,13 +29,13 @@ El USB es un tipo de protocolo.
 
 Es mucho trabajo programar una pantalla a mano. Para expandir el uso de un arduino, puedo usar las bibliotecas, o “libraries”.
 
-Generalmente, en código no se hacen las cosas de cero. Se unen cosas que ya existen para crear una nueva. Hay que fijarse en las versiones y la fecha para asegurarse de que realmente funcione y que no tengan errores. No siempre están perfectas, pero las personas que trabajan en eso se aseguran de mantenerlo. Las bibliotecas usualmente son lugares que se mantienen de manera pública. 
+Generalmente, en código no se hacen las cosas de cero. Se unen cosas que ya existen para crear una nueva. Hay que fijarse en las versiones y la fecha para asegurarse de que realmente funcione y que no tengan errores. No siempre están perfectas, pero las personas que trabajan en eso se aseguran de mantenerlo. Las bibliotecas usualmente son lugares que se mantienen de manera pública.
 
 Adafruit: empresa open-source por Limor Fried.
 
-#define : Son constantes en C++. Se define al principio para que se defina en todas partes del código. 
+* define : Son constantes en C++. Se define al principio para que se defina en todas partes del código
 
-#include : es para llamar a bibliotecas instaladas.
+* include : es para llamar a bibliotecas instaladas
 
 ### Código utilizado como ejemplo para una pantalla
 
@@ -458,13 +459,9 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 }
 ```
 
-
-
 Lo que estaba mal en la simulación es que no estaba correcta la dirección. i2c ocupa 0x3c.
 
-
 0x3C y 0x3D: Números hexadecimales. Direcciones donde “viven” los dispositivos que vamos a utilizar.
-
 
 Código de Misa:
 
@@ -519,13 +516,15 @@ void loop() {
 Para el encargo del viernes, usar texto crudo.
 
 ## Referentes
+
 Daniel Cruz<https://www.artesmediales.uchile.cl/academico/daniel-cruz/>
 Charla<https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
 Limor Fried (ladyada)
 Norma Victoria Benet
 
 ## Links
-http://afel.cl
+
+<http://afel.cl>
 Reloj digital hecho en Chile <http://dandolahora.cl>
 <https://www.dandolahora.cl/products/prototipo-el-numero-uno-el-primer-reloj-digital-en-la-historia-de-chile?_pos=1&_psq=primer&_ss=e&_v=1.0>
 archivador de páginas web antiguas<https://archive.org/>
@@ -537,20 +536,18 @@ Charla<https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
 <https://github.com/adafruit/Adafruit-GFX-Library>
 <https://www.wolframalpha.com/>
 
-
 ## Un poco de investigación para el proyecto y algunas ideitas
 
-Encontré esta página muy completa para entender como funciona conectar una pantalla al arduino. 
-
+Encontré esta página muy completa para entender como funciona conectar una pantalla al arduino.
 
 Estuvimos conversando acerca de lo que podiamos hacer con la pantalla. Moss sugirió utilizar el poema que sale en los créditos de Minecraft al derrotar al ender dragon. Me pareció una muy buena idea. Es gigante así que dejaré el link del poema aquí.
-
 
 Quizás podríamos programarlo de forma que podamos pasar por el poema con las flechas del teclado.
 
 Encontré en los foros de arduino una persona intentando hacer algo similar, por lo que veré que sale de esto.
 
 El código de la persona:
+
 ```cpp
 #include <Adafruit_GFX.h>
 #include <gfxfont.h>
@@ -600,7 +597,8 @@ void loop()
      display.display();
 }
 ```
-Alguien dentro de ese foro mencionó que para que se reconozca que botones se pueden presionar, se utiliza el ejemplo de StateChangeDetection en IDE. 
+
+Alguien dentro de ese foro mencionó que para que se reconozca que botones se pueden presionar, se utiliza el ejemplo de StateChangeDetection en IDE.
 Noté que en realidad este ejemplo sirve cuando conectas un botón externo al arduino. Quizás podríamos conseguirnos uno de alguna forma.
 
 Aquí está el ejemplo de IDE:
@@ -688,6 +686,7 @@ void loop() {
 }
 
 ```
+
 Le agregué el poema que queremos usar:
 
 ```cpp

@@ -1,12 +1,12 @@
 # sesión-04a
-**26 Agosto 2025**
+
+26 Agosto 2025
 
 Empezamos por conversar acerca de la entrega del encargo. No vamos a hacer una lámina impresa, sino que vamos a hacer una digital.
 
-En carpeta proyecto 1, se condensa toda la información a presentar el viernes acerca del encargo. 
+En carpeta proyecto 1, se condensa toda la información a presentar el viernes acerca del encargo.
 
 ## documentación de proyecto 1
-
 
 Hice una prueba con este código que encontré en este link para poder ver el poema dentro de la pantalla. Al principio lo probé con const char, pero la verdad se veía mucho mejor utilizando string.
 <https://forum.arduino.cc/t/arduino-nano-i2c-oled-display-0-96-inches-128x64-pixels/935544>
@@ -126,6 +126,7 @@ void loop()
 ```
 
 Utilicé uno de los últimos códigos dentro del mismo foro. Le cambié el tipo de pantalla y los tamaños pensando que era eso el por qué no se mostraba nada. Aun así no logré que funcionara. No cambié el texto a mostrar, dejé el mismo texto que venía en el código. También lo probé en Wokwi y tampoco funcionó. Creo que quizás la persona que lo escribió pudo haberse equivocado en alguna parte.
+
 ```cpp
 #include <LiquidCrystal_I2C.h> // include lib according to your lcd type
 
@@ -247,6 +248,7 @@ void flashCharSubstring(const char *str, char *buf, int inf, int sup) {
 Me haré la vida más fácil y voy a utilizar el código utilizado por Aarón en la clase 3b para hacerle scroll al texto.
 
 función con parametro adicional de int para las pausas
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -325,7 +327,9 @@ void loop() {
   delay(pausa);
 }
 ```
+
 Le cambié el poema anterior por el de Minecraft, y noté que algunas palabras se cortaban. Utilicé algo que aprendimos anteriormente en clases, que es para crear una nueva línea. Funcionó perfecto para evitar que se corten ciertas palabras.
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -421,6 +425,7 @@ void loop() {
 ```
 
 Probé cambiando la tipografía, pero al parecer necesito convertir la tipografía que quiero usar a un formato que pueda leer arduino.
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -557,15 +562,14 @@ void loop() {
 }
 
 ```
+
 Estuve investigando como hacer scrolling vertical, y encontré un foro que explica el por qué no se puede en esta pantalla. Básicamente, solo se puede horizontal o en diagonal.
 
-
-
 ### Conversación
+
 Nos empezamos a poner de acuerdo después de probar varias cosas. Decidimos que queremos poder comunicarnos con el arduino, y que a cierto punto responda con el poema que elegimos.
 
 Pensamos que sería bueno aplicar el humor(silly) como concepto al proyecto.
-
 
 ### Roles
 
@@ -575,10 +579,11 @@ Pensamos que sería bueno aplicar el humor(silly) como concepto al proyecto.
 **Programación** Seba, Angie, Miguel
 
 ## Materia de clases
+
 ### Simulación de arduino
 
 **Como leer un potenciómetro**
-Tienen tres patitas, o terminales. 
+Tienen tres patitas, o terminales.
 
 Protoboards tienen un rio. Divide cada hemisferio y no se crea una conexión entre hemisferios. Se conectan los componentes de manera paralela al río.
 
