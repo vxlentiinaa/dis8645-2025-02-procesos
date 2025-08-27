@@ -4,7 +4,7 @@
 
 ### proyecto-01
 
-tener 2 pantallas. 
+tener 2 pantallas.
 
 #### pantalla-01
 
@@ -45,7 +45,6 @@ se le escapan los enanos del bosque
 ta mal pelao el xanxo
 
 y a vo quien te pateó la jaula
-
 
 ### recursos
 
@@ -226,23 +225,24 @@ void loop() {
   delay(50); // Ajusta la velocidad del scroll
 }
 ```
+
 comparando los código pude a llegar a las siguientes conclusiones.
 
-- en el [ejemplo de adafruit](https://github.com/adafruit/Adafruit_SSD1306/blob/master/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino), hay una función display.startscrollright(0x00, 0x0F);. Esto me hizo pensar que para scrollear hacia abajo habría una función similar. Comparando los códigos me di cuenta de una manera sencilla de resolverlo, y es ir aumentado en 1 la "y" de display.setCursor(x,y); 
+- en el [ejemplo de adafruit](https://github.com/adafruit/Adafruit_SSD1306/blob/master/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino), hay una función display.startscrollright(0x00, 0x0F);. Esto me hizo pensar que para scrollear hacia abajo habría una función similar. Comparando los códigos me di cuenta de una manera sencilla de resolverlo, y es ir aumentado en 1 la "y" de display.setCursor(x,y);
 
 ### proyecto-01 v2
 
 conversando con el grupo, y gracias al feed back de mateo el proyecto evolucionó de la siguiente manera:
 
-#### pantalla-01
+#### pantalla-01 nueva versión
 
 muestra 1 refrán a la vez. con un potenciómetro puedes ir scrolleando entre refranes.
 
-#### pantalla-02
+#### pantalla-02 nueva versión
 
 muestra imágenes/animaciones que surgen a partir de los refranes.
 
-#### interacción
+#### interacción nueva versión
 
 con el potenciómetro se selecciona refrán, el cual es mostrado en una pantalla. Al pulsar un botón, en la pantalla2, se prende un dibujo referente al refrán seleccionado.
 
