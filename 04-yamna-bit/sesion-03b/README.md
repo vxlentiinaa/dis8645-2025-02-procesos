@@ -41,3 +41,13 @@ Palabras clave
 `GET` -> Se utiliza para "obtener" recursos o información de algún servidor
 
 (Nota: Sigo pasando en limpio mis apuntes)
+
+Definir grupos de trabajo 
+
+## Grupo: SOUNDI
+
+| Integrante        | Rol                                   |
+|-------------------|---------------------------------------|
+| Yamna Carrión   | Investigadora y verificadora de códigos |
+| Catalina Catalán| Generadora de imágenes en píxeles (fotogramas) |
+| Nicolás Miranda| Encargado de la base de los códigos     |
