@@ -8,7 +8,7 @@
 
 Probamos y elegimos lo que haríamos como grupo según los roles acordados la clase pasada
 
-### Protoboard -> Lugar donde se pueden realizar **conexiones**.
+## Protoboard -> Lugar donde se pueden realizar conexiones
 
 Potenciómetro
 
