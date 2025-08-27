@@ -280,18 +280,52 @@ los poemas por su extensión podríamos usar párrafos específicos.
 <https://circulodepoesia.com/2021/08/poemas-de-julio-cortazar/> <https://psicologiaymente.com/cultura/poemas-julio-cortazar>
 Elegimos a Julio Cortazar para revisar sus obras reconociendo temas específicos para emparejarlos con las preguntas. A continuación hay algunos de ellos:
 
-Encargo-Amor, culpa y castigo
+1.Encargo-Amor, culpa y castigo
 
-Para leer en forma interrogativa-Introspección y duda
+2.Para leer en forma interrogativa-Introspección y duda
 
-Le Dôme-realidad, desamor y desencanto
+3.Le Dôme-realidad, desamor y desencanto
 
-La edad del amor-amor e intensidad
+4.La edad del amor-amor e intensidad
 
-Cartel-extrospección y admiración
+5.Cartel-extrospección y admiración
 
-Después de las fiestas-amor e intimidad
+6.Después de las fiestas-amor e intimidad
 
 Después de esta breve recopilación y análisis es posible emparejar los poemas. Hay 2 maneras de abordarlo: opuestos o variables. Tomando como ejemplo los
 poemas que tratan el amor podemos definir caminos distintos según el tipo de amor del que hablan o oponerlo a un poema con desamor. ¿Podría ser ambas opciones?
 En caso de tener estas 3 opciones sería un poco más dificil polarizar los caminos pero se podría aprovechar de mejor manera el potenciador.
+
+## RECORRIDO (inicial)
+La interacción inicia haciendo una pregunta a través de la pantalla y dando 10 segundos para responderla por medio del potenciómetro. La elección entre una de las 2 opciones 
+llevará al usuario a otra pregunta distinta y dependiente de la pregunta anterior. Al responder esta 2da pregunta se reproducirá un poema variable y pertinente a la respuesta recibida.
+En total habrán 3 preguntas, 6 respuestas y 2 poemas ya que ambas preguntas secundarias ofrecerán el mismo par de poemas como resultado.
+
+## RE_PLANTEAMIENTO
+A medida que avanzamos en la planificación del proyecto nos dimos cuenta de dificultades que podríamos encontrar en el camino. La ramificación de las preguntas y respuestas
+se puede simplificar a una distribución lineal para evitar errores y mantener el efecto deseado. Consideramos la opción de tener más preguntas y almacenar las respuestas
+para devolver un poema. De esta manera se puede interactuar más con el mínimo sacrificio de los "caminos" según respuesta.
+
+## MÁS OPCIONES 
+<http://amediavoz.com/cortazar.htm#A%20UNA%20MUJER> <https://www.revistaaltazor.cl/julio-cortazar/> <https://www.poemas-del-alma.com/julio-cortazar-te-amo-por-ceja.htm>
+
+7.Los amantes-Amor, inclemencia y cotidianeidad
+
+8.La mas querida-Amor, amargura
+
+9.Siempre empezó a llover…-Desamor, fallo y desgracia
+
+10.Una carta de amor-Enamoramiento, apreciación
+
+11.Te amo por ceja-Amor, devoción y expectativa
+
+12.Tala-Amor, añoranza y entrega
+
+13.El futuro-Remembranza, nostalgia
+
+14.Happy New year-Amor, conquista 
+
+
+Nuestro proyecto busca satisfacer la necesidad de conexión humana de manera indirecta pero genuina. Por eso el tema principal de los poemas es el amor y los aspectos que lo acompañan. Para poder unirlos todos los poemas serán del mismo autor, ofreciendo tonos de dulzura, amargura y desamor provenientes de la misma persona. Después de esta recopilación será necesario formular las preguntas, definir respuestas de una palabra y seleccionar los versos por usar.
+
+
