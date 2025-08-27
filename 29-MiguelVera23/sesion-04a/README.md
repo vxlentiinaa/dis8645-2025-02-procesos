@@ -224,3 +224,74 @@ void loop() {
   display.clearDisplay();
 }
 ```
+
+## IDEAS ENTREGA POEMA
+
+El plan es tener una conversación con arduino usando la pantalla, el monitor serial y el potenciómetro. Se mostrarán preguntas o planteamientos
+que instarán al usuario a tomar una decisión mediante el movimiento de la perilla. Según el sentido al que esta apunte se tomará uno de 2 (o más) caminos
+revelando un poema pertinente. Buscamos un tono cómico pero reflexivo. También consideramos el uso de imágenes para dar un ritmo y separar los textos en pantalla.
+
+## PREGUNTAS Y RESPUESTAS
+
+Las preguntas deben ser introspectivas y capaces de generar una resonancia con los poemas que se mostratán en el resultado. Las respuestas por otra parte deberán ser cortas,
+rápidas y polarizadas para poder hacer una distinción más evidente. No habrán respuestas correctas, eso lo dejaremos a discreción del usuario. Ademas de la retroalimentación
+en forma de poema se mostrará una imagen en la pantalla OLED que "reaccione" a la respuesta y refuerce el tono de dicho poema.
+
+## HUMORÍSTICAS
+
+¿Qué le echas primero al completo?
+
+¿Prefieres perros o gatos?
+
+¿Prefieres tener paz o tener la razón?
+
+¿Te mueve más la curiosidad o la costumbre?
+
+¿El huevo o la gallina?
+
+
+## DE CARÁCTER
+
+¿Qué te hace sentir más vivo?
+
+¿Cuándo fuiste hipócrita? Hoy/ayer/mañana
+
+¿Qué parte de ti se miente? Autopercepción
+
+¿Tu defecto favorito?
+
+¿Qué valoras por encima de todo?
+
+¿Qué atesoras?
+
+¿Qué te haría sentir completo?
+
+¿Qué sientes cuando nadie te ve?
+
+¿Qué te hace diferente?
+
+## POEMAS
+Los poemas deben ser breves hasta cierto punto y tratar un tema en específico, aunque de manera no literal. Deben hacer que el usuario les encuentre sentido.
+Idealmente tienen un elemento característico que se pueda graficar y lo una con las preguntas y respuestas. Otra opción es hacer una secuencia de poemas del mismo autor
+para darle valor agregado y elevar el proyecto a un cuestionario. Otra razón para la brevedad de los poemas es el limitado espacio. Para no tener que discriminar
+los poemas por su extensión podríamos usar párrafos específicos.
+
+## OPCIONES 
+<https://circulodepoesia.com/2021/08/poemas-de-julio-cortazar/> <https://psicologiaymente.com/cultura/poemas-julio-cortazar>
+Elegimos a Julio Cortazar para revisar sus obras reconociendo temas específicos para emparejarlos con las preguntas. A continuación hay algunos de ellos:
+
+Encargo-Amor, culpa y castigo
+
+Para leer en forma interrogativa-Introspección y duda
+
+Le Dôme-realidad, desamor y desencanto
+
+La edad del amor-amor e intensidad
+
+Cartel-extrospección y admiración
+
+Después de las fiestas-amor e intimidad
+
+Después de esta breve recopilación y análisis es posible emparejar los poemas. Hay 2 maneras de abordarlo: opuestos o variables. Tomando como ejemplo los
+poemas que tratan el amor podemos definir caminos distintos según el tipo de amor del que hablan o oponerlo a un poema con desamor. ¿Podría ser ambas opciones?
+En caso de tener estas 3 opciones sería un poco más dificil polarizar los caminos pero se podría aprovechar de mejor manera el potenciador.
