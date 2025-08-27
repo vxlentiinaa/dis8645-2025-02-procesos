@@ -181,3 +181,21 @@ void testscrolltext(){
   delay(2000);
 }
 ```
+
+### proyecto-01 v2
+
+conversando con el grupo, y gracias al feed back de mateo el proyecto evolucionó de la siguiente manera:
+
+#### pantalla-01
+
+muestra 1 refrán a la vez. con un potenciómetro puedes ir scrolleando entre refranes.
+
+#### pantalla-02
+
+muestra imágenes/animaciones que surgen a partir de los refranes.
+
+#### interacción
+
+con el potenciómetro se selecciona refrán, el cual es mostrado en una pantalla. Al pulsar un botón, en la pantalla2, se prende un dibujo referente al refrán seleccionado.
+
+El usuarix puede combinar varios dibujos para crear su propio escenario.
