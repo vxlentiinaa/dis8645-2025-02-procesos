@@ -314,3 +314,94 @@ poteValue = map(poteValue, 0, 1023, 0, 64); //Map value 0-1023 to 0-255 (PWM)
   //delay(50); // Ajusta la velocidad del scroll
 }
 ```
+### actualización 27-agosto
+Hoydía estuvimos con camila parada y braulio en el lab trabajando. Estuvimos revisando el código de poemSampler-v1.1 línea por línea, con el fin de entender más sobre las variables y funciones nativas de arduino IDE.
+
+## proyecto-01 v3
+
+camila parada fue la encargada de investugar sobre la viabilidad de usar 2 pantallas que puedieran comunicarse. Camila llegó a la conclusión de que debido a las limitaciones técninas y temporales, lo mas apropiado sería pasar a que funciones con 1 display, en vez de 2
+
+la propuesta consiste en una pantalla la cual muestra una seria de refranes chilenos, los cuales puedes ir scrolleando con un potenciómetro.
+
+Nuestro equipo define 1 ilustración para cada refrán. Al presionar el botón, se ve en pantalla la ilustración asociada al poema presente en pantalla en el momento en que se presionó el boton.
+
+el intercambio de los modos de la pantalla(textoMode, ilustracionMode), está determinado por 2 componentes. El potenciómetro y el botón, respectivamente. Siempre que se presione el botón a continuación se visualizará ilustracionMode, y siempre que se gire el potenciómetro, a continuación se activará el textMode.
+
+Las ilustraciones de los distintos refranes son compatibles, es decir, puede haber más de una en pantalla simultáneamente.
+
+código que llevamos. sigo trabajando en base a las versiones anteriores de poemSampler
+
+```cpp
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Wire.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+int potPin = A0;
+
+int poteValue=0;
+
+
+String refranEnano = "se le escapan los enanos del bosque";
+String refranGallina = "dale con que las gallinas mean";
+String refranMono = "quedar como chaleco 'e mono";
+String refranWawa = "wawa que no llora no mama";
+
+int16_t y = -8;  // Comenzamos fuera de la pantalla
+
+void setup() {
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("Error al iniciar la pantalla SSD1306"));
+    for (;;)
+      ;
+  }
+
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+}
+
+void loop() {
+
+  poteValue = analogRead(potPin);
+  poteValue = map(poteValue, 0, 1023, 400,0);  //map value 0-1023 to 0-255 (PWM)
+
+  display.clearDisplay();
+
+  display.setCursor(0, poteValue);
+
+
+  display.println(refranEnano);
+  display.print("\n");
+  // display.print("\n");
+  // display.print("\n");
+  // display.print("\n");
+  display.println(refranGallina);
+  // display.print("\n");
+  // display.print("\n");
+  // display.print("\n");
+  display.print("\n");
+  display.println(refranMono);
+  // display.print("\n");
+  // display.print("\n");
+  // display.print("\n");
+  display.print("\n");
+  display.println(refranWawa);
+
+  display.display();
+
+  //y++;  // Mueve el texto hacia abajo
+
+  // Si el texto saliÃ³ completamente de la pantalla, reinicia desde arriba
+  //int16_t textHeight = 8;  // Altura de la fuente 1
+                           // if (y > SCREEN_HEIGHT) {
+                           //   y = -textHeight;
+                           // }
+
+  //delay(50); // Ajusta la velocidad del scroll
+}
+```

@@ -392,6 +392,10 @@ quizas una brújula te guía hacia qué palabra te toca
 
 desde un inicio pensé en una interfaz que muestre distintos pedazos de un poema, y permita al usuario ordenar estos fragmentos para crear su propia versión del poema. En un inicio la idea era unir palabras, pero por limitaciones técnicas poemSampler v1.0, troza los poemas por verso.
 
+estuve probando varias cosas en wokwi. Si bien es una herramienta muy útil para probar componentes sin tenerlos físicamente, su mayor limitación es que el tiempo de procesado del código depende en gran medida de la cantidad de flujo que hay en la página. 
+
+Debido a este obstáculo, pedí ayuda a camila parada, ya que tenía los componentes necesarios a la mano. Le mandé mi código, y me respondió con video donde se veía el código corriendo y funcionando como yo lo había planeado
+
 ```cpp
 //librerias incluidas
 #include <Wire.h>
