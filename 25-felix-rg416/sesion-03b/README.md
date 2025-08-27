@@ -17,7 +17,7 @@ Está lloviendo demasiado, se cancelaron las clases presenciales. Así que estam
 - Una página más bonita y fácil <https://www.adafruit.com/>
 - **Ladyhada**
   - [tesis](https://dspace.mit.edu/handle/1721.1/33151)
-  - vamos a usar su biblioteca para la pantalla 
+  - vamos a usar su biblioteca para la pantalla
   - tienen la fábrica en Nueva York
 - Calculadora [WolframAlpha](https://www.wolframalpha.com/)
 
@@ -235,7 +235,7 @@ Si usamos ejemplos para nuestro encargo, tiene que estar acreditado, citado, men
 
 ## Avance entrega viernes 29
 
-Para poder usar la pantalla OLED SSD1306 hay que instalar bibliotecas 
+Para poder usar la pantalla OLED SSD1306 hay que instalar bibliotecas
 
 ```cpp
 #include <Wire.h>
@@ -262,7 +262,8 @@ En [Wokwi](https://docs.wokwi.com/parts/wokwi-potentiometer) hay información de
 // pone el nombre "POTENTIOMETER" al pin A0
 #define POTENTIOMETER A0
 ```
----
+
+----
 
 #### Referencia-01
 
@@ -274,34 +275,34 @@ Vi un video que enseñaba a mostrar el valor del potenciómetro en la pantalla O
 
 ```cpp
 // ESTE ES EL CÓDIGO
-#include <Wire.h>			
-#include <Adafruit_GFX.h>		
-#include <Adafruit_SSD1306.h>		
+#include <Wire.h>   
+#include <Adafruit_GFX.h>  
+#include <Adafruit_SSD1306.h>  
 
-#define ANCHO 128			
-#define ALTO 64				
+#define ANCHO 128   
+#define ALTO 64    
 
 int valor;
 
-#define OLED_RESET 4			
-Adafruit_SSD1306 oled(ANCHO, ALTO, &Wire, OLED_RESET);	
+#define OLED_RESET 4   
+Adafruit_SSD1306 oled(ANCHO, ALTO, &Wire, OLED_RESET); 
 
 void setup() {
-  Wire.begin();					
-  oled.begin(SSD1306_SWITCHCAPVCC, 0x3C);	
+  Wire.begin();     
+  oled.begin(SSD1306_SWITCHCAPVCC, 0x3C); 
 }
  
 void loop() {
-  oled.clearDisplay();			
-  oled.setTextColor(WHITE);		
-  oled.setCursor(0, 0);			
-  oled.setTextSize(1);			
-  oled.print("Electro. por el Mundo Video tutorial OLED "); 	
-  oled.setCursor (38, 30);		
-  oled.setTextSize(2);		
+  oled.clearDisplay();   
+  oled.setTextColor(WHITE);  
+  oled.setCursor(0, 0);   
+  oled.setTextSize(1);   
+  oled.print("Electro. por el Mundo Video tutorial OLED ");  
+  oled.setCursor (38, 30);  
+  oled.setTextSize(2);  
   valor = analogRead(A3);
-  oled.print(valor);	
-  oled.display();			
+  oled.print(valor); 
+  oled.display();   
 }
 ```
 
@@ -320,6 +321,7 @@ Aquí se usa el `if` para determinar en qué rango de valores del potenciómetro
 Para sacar los rangos se divide el valor máximo del potenciómetro `1023` en la cantidad de LEDs que se usarán `4`
 
 "Los rangos de valores que tenemos son los siguientes:
+
 - De 0 a 255, encender LED 1
 - De 256 a 511, encender LED 2
 - De 512 a 767, encender LED 3

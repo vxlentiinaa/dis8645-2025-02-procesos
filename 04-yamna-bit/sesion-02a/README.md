@@ -1,6 +1,6 @@
 # sesion-02a
 
-## Clase 3: 12/08 MÁQUINAS COMPUTACIONALES
+## Clase 2a: 12/08 MÁQUINAS COMPUTACIONALES
 
 ### Apuntes
 
