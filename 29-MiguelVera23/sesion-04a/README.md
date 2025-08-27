@@ -224,3 +224,49 @@ void loop() {
   display.clearDisplay();
 }
 ```
+
+## IDEAS ENTREGA POEMA
+
+El plan es tener una conversación con arduino usando la pantalla, el monitor serial y el potenciómetro. Se mostrarán preguntas o planteamientos
+que instarán al usuario a tomar una decisión mediante el movimiento de la perilla. Según el sentido al que esta apunte se tomará uno de 2 (o más) caminos
+revelando un poema pertinente. Buscamos un tono cómico pero reflexivo. También consideramos el uso de imágenes para dar un ritmo y separar los textos en pantalla.
+
+## PREGUNTAS Y RESPUESTAS
+
+Las preguntas deben ser introspectivas y capaces de generar una resonancia con los poemas que se mostratán en el resultado. Las respuestas por otra parte deberán 
+ser cortas,
+rápidas y polarizadas para poder hacer una distinción más evidente. No habrán respuestas correctas, eso lo dejaremos a discreción del usuario. Ademas de la retroalimentación
+en forma de poema se mostrará una imagen en la pantalla OLED que "reaccione" a la respuesta y refuerce el tono de dicho poema.
+
+## HUMORÍSTICAS
+
+¿Qué le echas primero al completo?
+
+¿Prefieres perros o gatos?
+
+¿Prefieres tener paz o tener la razón?
+
+¿Te mueve más la curiosidad o la costumbre?
+
+¿El huevo o la gallina?
+
+
+## DE CARÁCTER
+
+¿Qué te hace sentir más vivo?
+
+¿Cuándo fuiste hipócrita? Hoy/ayer/mañana
+
+¿Qué parte de ti se miente? Autopercepción
+
+¿Tu defecto favorito?
+
+¿Qué valoras por encima de todo?
+
+¿Qué atesoras?
+
+¿Qué te haría sentir completo?
+
+¿Qué sientes cuando nadie te ve?
+
+¿Qué te hace diferente?
