@@ -62,5 +62,38 @@ Cerebro fundido
 
 > En la placa Arduino UNO tenemos 6 pines analógicos, desde A0 hasta A5 y su uso común es la lectura de datos de dispositivos analógicos como es el caso del potenciómetro. Tienen una resolución de 10 bits lo que implica que tenemos 1024 valores diferentes, es decir, podemos leer un rango de tensiones desde 0V hasta 5V detectando cambios de voltaje de 0.004V (5/1024). Por lo que los valores que obtendremos irán desde 0 hasta 1023.
 > 
-> [Fuente](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/)
+> [Fuente: Programar facíl](https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/)
+
+### Ejemplo 
+sacado de pagina web Programar facíl
+
+``` cpp
+
+//Variable donde almacenaremos el valor del potenciometro
+long valor;
+
+void setup() {
+  //Inicializamos la comunicación serial
+  Serial.begin(9600);
+  
+  //Escribimos por el monitor serie mensaje de inicio
+  Serial.println("Inicio de sketch - valores del potenciometro");
+
+}
+
+void loop() {
+  // leemos del pin A0 valor
+  valor = analogRead(A0);
+
+  //Imprimimos por el monitor serie
+  Serial.print("El valor es = ");
+  Serial.println(valor);
+  delay(1000);
+
+}
+
+```
+
+![arduino uno r4 dibujo](./imagenes/Fundido.PNG)
+
 
