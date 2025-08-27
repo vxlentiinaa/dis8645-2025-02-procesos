@@ -130,5 +130,9 @@ void loop() {
 ### Imágenes del avance ⋆. 𐙚 ̊
 
 
+![imagenes](imagenes/taller01.jpeg)
 
+![imagenes](imagenes/taller02.jpeg)
+
+![imagenes](imagenes/taller03.jpeg)
 
