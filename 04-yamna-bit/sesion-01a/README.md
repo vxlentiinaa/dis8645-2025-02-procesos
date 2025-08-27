@@ -1,6 +1,6 @@
 # sesion-01a
 
-## Clase 1: 05/08 MÁQUINAS COMPUTACIONALES
+## Clase 1a: 05/08 MÁQUINAS COMPUTACIONALES
 
 ### Apuntes
 
