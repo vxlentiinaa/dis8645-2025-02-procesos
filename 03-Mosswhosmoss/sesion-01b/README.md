@@ -2,13 +2,13 @@
 
 ## Vocabulario
 
- **Cc**
+### Cc
 “significa copia”
 
- **Bcc**
+### Bcc
 “Le llega a un grupo de personas pero no saben a quien más le llego”
 
- **IDE**
+### IDE
 “Integrated Development Environment”
 
 ## Arduino
