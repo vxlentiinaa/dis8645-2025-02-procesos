@@ -31,6 +31,8 @@ Antes de mandarme un error que no pueda remediar decidí consultar cómo se real
 
 ![imagen](./imagenes/a2.png)
 
+▼ Descripción de la imagen. Obtenido de: cita 
+
 ***
 
 ### Posdata
