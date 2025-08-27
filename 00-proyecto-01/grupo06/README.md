@@ -2,13 +2,13 @@
 
 ## Acerca del proyecto
 
-- Grupo: 0X
-- Nombre de grupo: TODO
+- Grupo: 06
+- Nombre de grupo: brainrot
 - Integrantes:
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+  - Sofía Cartes
+  - Antonia Fuentealba
+  - Sofía Perez
+  - Valentina Ruz
 
 ## Presentación textual
 
