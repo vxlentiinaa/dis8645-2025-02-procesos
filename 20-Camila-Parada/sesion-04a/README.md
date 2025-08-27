@@ -27,6 +27,8 @@ Pese a los antecedentes, seguía sin poder entender e imaginarme la posibilidad 
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
+Antes de mandarme un error que no pueda remediar (para saber como cambiar la dirección del I2C de cada pantalla) decidí consultar cómo se realiza este procedimiento para dicho tipo de pantallas (considerando que requieren de un SSD1306). Terminé pillando este [foro](https://forum.arduino.cc/t/change-i2c-address-oled/991780/2 ) para seguir indagando,
+
 ***
 
 ### Posdata
