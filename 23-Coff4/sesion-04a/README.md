@@ -4,7 +4,7 @@
 
 ----
 
-*Relatare como fueron sucediendo las cosas en orden*
+Relataré como fueron sucediendo las cosas en orden
 
 ### Fin de semana
 
@@ -18,7 +18,7 @@ Después todos comenzamos a investigar sobre como queriamos la visualidad del po
 
 Por mi lado fui investigando diferentes paginas webs (Mirar la carpeta del encargo anterior) hasta dar con una que fue fundamental
 
-(<https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>)
+<https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
 En esta se explicaba como hacer que el texto bajara y subiera. un gran punto para mi  ┐(￣∀￣)┌
 
@@ -86,7 +86,7 @@ Esto seria una explicación de como funciona el codigo base (con un muy pequeño
 
 Después evoluciono en este otro codigo que es similar y que mostré en la carpeta pasada con un diferente poema
 
-![imagen del ejercicio](./imagenes/filosofico.png)
+`![imagen del ejercicio](./imagenes/filosofico.png)`
 
 ```cpp
 #include <Adafruit_GFX.h>
