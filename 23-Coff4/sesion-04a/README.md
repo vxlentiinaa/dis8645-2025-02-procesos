@@ -1,10 +1,12 @@
 # sesion-04a
+
 ## FULL ENCARGO! ᕕ( ᐛ )ᕗ
 
----
+----
+
 *Relatare como fueron sucediendo las cosas en orden*
 
-### Fin de semana.
+### Fin de semana
 
 Primero vimos cual poema ibamos a usar.
 
@@ -16,18 +18,18 @@ Después todos comenzamos a investigar sobre como queriamos la visualidad del po
 
 Por mi lado fui investigando diferentes paginas webs (Mirar la carpeta del encargo anterior) hasta dar con una que fue fundamental
 
-(https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8)
+(<https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>)
 
-En esta se explicaba como hacer que el texto bajara y subiera. un gran punto para mi 	┐(￣∀￣)┌
+En esta se explicaba como hacer que el texto bajara y subiera. un gran punto para mi  ┐(￣∀￣)┌
 
-(https://www.youtube.com/watch?v=l_2vnl5MOpo)
+(<https://www.youtube.com/watch?v=l_2vnl5MOpo>)
 
-El Felix termino encontrando un tutorial para mostrar la frecuencia del potenciometro junto a un texto. 
+El Felix termino encontrando un tutorial para mostrar la frecuencia del potenciometro junto a un texto.
 Así que podriamos comenzar a probar.
 
-En mi caso intente usar el codigo que encontre 
+En mi caso intente usar el codigo que encontre
 
-![imagen del ejercicio](./imagenes/filosofico.png)
+`![imagen del ejercicio](./imagenes/filosofico.png)`
 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -53,7 +55,7 @@ void setup () {
 void loop() {
 //j cambia de valor al comenzar el loop, donde estan las variables True or False, esto se utiliza para subir o bajar el texto
   j = !j; // + = down, - = up
-//Esto es complicado, pero el profe Misa me ayudo 	(/▿＼ )
+//Esto es complicado, pero el profe Misa me ayudo  (/▿＼ )
 //i es igual a 0 y cada vez que se sube se suman 2 pixeles y esto se repite hasta alcanzar la maxima altura de la pantalla
 // que en este caso es 64
   for (int i = 0; i < SCREEN_HEIGHT; i += 2) {
@@ -122,12 +124,11 @@ void loop() {
   }
 }
 ```
+
 Como se observa la idea era separar las lineas, pero quedaban juntas igualmente ya que esta no era la manera de hacerlo
 
----
+----
 
 - *Lo se, soy un poco desordenada pero intentare hacer lo posible para que se entienda en esta carpeta (⁄ ⁄•⁄ω⁄•⁄ ⁄)*
 
-## Dia Lunes.
-
-
+## Dia Lunes
