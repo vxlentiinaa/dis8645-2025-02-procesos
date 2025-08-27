@@ -2,9 +2,10 @@
 
 Grupo::Grupo()
 {
+    
 }
 
-Grupo::agregarEstudiante(Estudiante agregade);
+Grupo::agregarEstudiante(Estudiante agregade)
 {
     estudiantes.push_back(agregade);
 }
