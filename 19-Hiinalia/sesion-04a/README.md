@@ -589,5 +589,58 @@ Protoboards tienen un rio. Divide cada hemisferio y no se crea una conexión ent
 
 Para conectar el potenciómetro, se conecta en un hemisferio, y se alinea un cable hacia el otro hemisferio para conectarlo a la pantalla conectada al otro lado.
 
+
+## Trabajo en sala de interacción para proyecto 1
+
+Nos pusimos bien de acuerdo para entender que es a lo que queremos llegar. 
+Con el seba estamos trabajando en conjunto para crear el código.
+
+Se nos ocurrió que para llevar a cabo las distintas conversaciones dentro del código, consideramos que si no teníamos cuidado, dentro de una de las conversaciones se podía a ir a una conversación incorrecta. Las funciones ```if``` son parte fundamental dentro de esto, además de las variables booleanas.
+
+
+Está considerado como un árbol de respuestas.
+Dejamos listas las variables booleanas que vamos a usar
+
+teníamos una buena idea de cómo debíamos llevarlo a cabo, la mayoría de las cosas las escribimos por pensamiento lógico de cómo me hacía sentido el posible funcionamiento de las cosas, pero al probar la compilación nos mandaron unos cuantos problemas, el código que escribimos es el siguiente:
+
+```cpp
+
+
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+//a la izquierda, menor el número
+bool conversa1 = true
+bool potevalor = true
+
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+bool conversa2 = false
+bool conversa3 = false
+bool conversa4 = false
+bool conversa5 = false
+
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+ 
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+
+}
+
+
+
+```
+
+
 *Diferencia entre análogo y digital*
 En pocas palabras, análogo es fluido, y digital es estático.
