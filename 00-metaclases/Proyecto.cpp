@@ -5,12 +5,14 @@ Proyecto::Proyecto(int numero)
     Proyecto::numero = numero;
 }
 
-Proyecto::agregarGrupos()
+Proyecto::~Proyecto()
+{
+}
+
+void Proyecto::agregarGrupos()
 {
     Grupo nuevo;
     grupos.push_back(nuevo);
 }
 
-Proyecto::~Proyecto()
-{
-}
+

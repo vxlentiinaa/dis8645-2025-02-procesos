@@ -11,10 +11,10 @@ class Grupo
 
 public:
     Grupo();
-    agregarEstudiante(Estudiante agregade);
+    void agregarEstudiante(Estudiante agregade);
 
 private:
-    std::vector<std::string> estudiantes;
+    std::vector<Estudiante> estudiantes;
 };
 
 #endif

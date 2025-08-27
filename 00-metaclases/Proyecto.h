@@ -13,7 +13,7 @@ public:
     // constructor
     Proyecto(int numero);
 
-    agregarGrupos();
+    void agregarGrupos();
 
 private:
     // destructor
