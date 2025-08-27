@@ -8,7 +8,9 @@ En el cuál, uno elige una de las animaciones que tiene y te entrega el código,
 
 Por ejemplo:
 
-* Código modificado
+![WokwiMakes](./imagenes/WokwiMakes.png)
+
+**Código modificado**
   
 ```cpp
 #include <Adafruit_GFX.h>
