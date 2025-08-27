@@ -31,22 +31,22 @@ Segmenta las secciones de tu código y explícalas
 
 Menciona y desarrolla los roles que ejerció cada integrante
 
-#### Aileen D'Espessailles
+### Aileen D'Espessailles
 
 Uso como referencia y base para empezar a programar (https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8), link que investigo Carla. 
 Luego, a partir de este ejemplo, cambió los comandos de acuerdo a lo que deseaba el grupo ( que el texto subiera por la pantalla ). También realizó la investigación del código que controla un servomotor con un potenciómetro y lo unió, junto a Félix, al código para regular la velocidad del poema. Además hizo un registro fotográfico del circuito.
 
 https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
 
-#### Bernardita Lobo
+### Bernardita Lobo
 Diseñó y transformó la imagen para el código de acuerdo al poema, investigó sobre el dibujo en pixel art y también desarrolló los registros del proyecto.
 
-#### Carla Pino
+### Carla Pino
 
 Investigó sobre la forma de hacer aparecer una imagen luego del poema y lo unió al código principal
 Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
 
-#### Félix Rodríguez
+### Félix Rodríguez
 
 Realizó la investigación sobre cómo usar el potenciómetro como regulador de velocidad y lo unió, junto a Aileen, al código del servo motor.
 
