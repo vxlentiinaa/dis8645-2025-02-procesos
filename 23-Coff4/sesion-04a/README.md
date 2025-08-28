@@ -1245,7 +1245,7 @@ Y lo increible... es que eso tendria incluso mas sentido, por como esta construi
 
 Se menciona santiago y debajo la imagen de santiago
 
-*Que perfecto*
+Que perfecto
 
 *ODIO GITHUB! estoy de lo lindo haciendo mi documento con el fork actualizado y al quedarme haciendo mi documentacion por harto tiempo,
 despues dice que esta desactualizado GRRRRR (‡▼益▼)*
