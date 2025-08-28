@@ -14,6 +14,9 @@
 // incluir las imagenes
 #include "imagenes.h"
 
+#include "traductorBinario.h"
+
+
 // definir parametros
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -29,7 +32,6 @@ const int paddingX = 0;
 
 // parrafo 1
 
-#include "traductorBinario.h"
 String haiku0 = binario1; // traduccion de linea 1, vacio al inicio
 ;
 
@@ -75,6 +77,8 @@ void setup() {
 
 
 void loop() {
+
+	loopBinario();
 
 	// crear variables locales
 	// inicializar en 0
