@@ -7,7 +7,8 @@
 - Comenzamos a utilizar arduino.
 - Instalamos Arduino IDE 
 
-A modo de intruccion en el como comunicarse a la gente nueva del curso se les mostro como hacer envio de correo de una manera correcta 
+A modo de intruccion en el como comunicarse a la gente nueva del curso, se les mostró como hacer envio de correo de una manera correcta. 
+
 ## encargo
 
 Crear variables y fallar. 3 codigos que no funciones y registrarlos. 
