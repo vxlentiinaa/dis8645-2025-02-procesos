@@ -66,8 +66,6 @@ idea del dibujo
 
 ![imagen](./imagenes/registro01.jpeg)
 
-![imagen](./imagenes/registro02.jpeg)
-
 ### Pixel art
 
 Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidimos hacer una pequeña representación de Santiago.
@@ -87,6 +85,12 @@ Segmenta las secciones de tu código y explícalas
 EXPLICAR ERRORES Y COMENTARIOS
 
 ### Imagen
+
+Esta fue una de las primeras pruebas que hicimos con una imagen. 
+
+Se logró ver bien, aunque en este caso la imagen no se distribuía por toda la pantalla.
+
+![imagen](./imagenes/registro02.jpeg)
 
 Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta nos permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
 
