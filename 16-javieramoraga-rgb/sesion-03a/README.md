@@ -2,7 +2,7 @@
 
 ## Conceptos básicos de programación  
 
-### Condicionales 
+### Condicionales
 
 Los condicionales permiten que un programa **tome decisiones** en función de ciertas condiciones (verdadero o falso).  
 
@@ -38,7 +38,6 @@ continuarConMiVida();
 
 ╰┈➤ También se pueden anidar condiciones dentro de otras:
 
-
 > *📌 Traducción: “¿Es ver falso? → si sí, ponerme lentes. Si además están sucios, limpiarlos. Si no, seguir con la vida normal”.*
 
 ```cpp
@@ -53,6 +52,7 @@ else {
 chillar(infinito);
 }
 ```
+
 ```cpp
 
 if (edad >= 18 AND edad <=80 ) {
@@ -63,7 +63,7 @@ noPuedoNoMas();
 }
 ```
 
-### ⋆ Operadores lógicos 
+### ⋆ Operadores lógicos
 
 + Los operadores lógicos permiten formular preguntas de sí/no y combinar condiciones.
   
@@ -87,15 +87,17 @@ El orden de los operadores lógicos no cambia el resultado (son conmutativos)
 
 ────୨ৎ────
 
-##Compilado de compuertas lógicas ｡𖦹°‧
+## Compilado de compuertas lógicas ｡𖦹°‧
 
 + **NAND → Combinación de AND y NOT.**
 
 → Resultado = 1 en todos los casos, excepto cuando ambas entradas son 1 (resultado = 0).
-- NOR → Combinación de OR y NOT.
+
++ NOR → Combinación de OR y NOT.
 
 → Solo será 1 cuando todas las entradas sean 0.
-- XOR (OR exclusiva)
+
++ XOR (OR exclusiva)
 
 → Devuelve 1 únicamente cuando las entradas son diferentes.
 
