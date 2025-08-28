@@ -30,11 +30,11 @@ a continuación adjunto los dibujos generados para cada refrán
 
 2. "se le escapan los enanitos al bosque"
 
-![selescapanlosenanitosalbosque](./imagenes/selescapanlosenanitosalbosque.png)
+![selescapanlosenanitosalbosque](./imagenes/slosenanitos1.png)
 
 3. "quedar como chaleco de mono"
 
-![quedarcomochalecodemono](./imagenes/quedarcomochalecodemono.png)
+![quedarcomochalecodemono](./imagenes/chalecodemono1.png)
 
 4. "pasar gato por liebre"
 
@@ -42,7 +42,7 @@ a continuación adjunto los dibujos generados para cada refrán
 
 5. "cría cuervos y te sacarán los ojos"
 
-![criacuervos](./imagenes/criacuervos.png)
+![criacuervos](./imagenes/criacuervos1.png)
 
 ### primer código "perro que ladra no muerde"
 
