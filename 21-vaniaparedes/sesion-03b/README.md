@@ -73,7 +73,7 @@ void loop() {
  pantallita.println(poema);
 ```
 
-Idea de poetario que gire alrededor del poema de Pablo Neruda; "Tal corto el amor y tan largo el olvido" que teniamos en mente al principio, con la idea de contar una historia con los poemas.
+Idea de poetario que gire alrededor del poema: "Es tan corto el amor y tan largo el olvido" que teniamos en mente al principio, con la idea de contar una historia con los poemas.
 
 Etapas del poetario:
 
@@ -92,21 +92,16 @@ lo que la primavera hace con los cerezos.”
 
 ## El Quiebre
 
-“Se rompió mi voz
-cuando más tuya era.”
-— Dulce María Loynaz, Poemas sin nombre (1953).
+"Mi alma no se contenta con haberla perdido"
+— Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 20.
+<https://www.archivochile.com/Homenajes/neruda/de_neruda/homenajepneruda0007.pdf>
 
 ## El Olvido
 
 “Es tan corto el amor,
 y tan largo el olvido.”
-— Pablo Neruda, Veinte poemas de amor y una canción desesperada (1924).
-
-## La Huella
-
-“De todo quedó un poco.
-De tu luz y de mi sombra.”
-— César Vallejo, Poemas humanos (1939, póstumo).
+— Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 20.
+<https://www.archivochile.com/Homenajes/neruda/de_neruda/homenajepneruda0007.pdf>
 
 Después de jugar mucho con las diferentes variables, decidí separar los diferentes versos del poema
 para darle a cada verso una posición, duración y movimiento distinto.
