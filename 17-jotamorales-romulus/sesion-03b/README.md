@@ -10,16 +10,16 @@ Debido a las lluvias, la clase se realizó vía Zoom. Me metí tarde y tuve que 
 
 - Wokwi es una página para trabajar proyectos de Arduino en el compu. Sirve para simular circuito sin tener las piezas de verdad.
 
-![wokwi](./imagenes/1.png) 
+![wokwi](./imagenes/1.png)
 
 - La pantalla OLED que vamos a usar tiene cuatro pines principales. GND (tierra), VCC (energía) 5v. SCL y SDA, para la comunicación con el Arduino usando I²C.
 
 - Instalar bibliotecas Adafruit GFX Library y Adafruit SSD1306
 
-![wokwi](./imagenes/2.png) 
+![wokwi](./imagenes/2.png)
 
 - Se mostró cómo poner imágenes en la pantalla usando un conversor de imágenes a código.
- 
+
 - Imagen a codigo [image2cpp](https://javl.github.io/image2cpp)
 
 ````CPP
@@ -202,7 +202,7 @@ void loop() {
 
 ## Documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi
 
-![wokwi](./imagenes/3.png) 
+![wokwi](./imagenes/3.png)
 
 ````CPP
 // experimentacion basada en proyectos de p5js 
@@ -260,9 +260,9 @@ void loop() {
 }
 ````
 
+### Avance PROYECTO 01
 
-### Avance PROYECTO 01.
-1. Haiku a binario
+### 1. Haiku a binario
 
 - Convertir un haiku a binario.
 
@@ -270,14 +270,13 @@ void loop() {
 
 - Binario: 01000011 01000101 01010010 01000101 01000010 01010010 01001111 00100000 01000110 01010101 01001110 01000100 01001001 01000100 01001111 
 
-2. Imagen en Arduino
+#### 2. Imagen en Arduino
 
 - Mostrar una imagen o patrón en pantalla OLED, diseño relacionado con el haiku.
 
-3. Haiku en binario y representación visual en píxeles. Primero el poema en binario y, a continuación, imagen representativa.
+#### 3. Haiku en binario y representación visual en píxeles. Primero el poema en binario y, a continuación, imagen representativa.
 
-
-4. Buzzer que “lee” el binario. Reproduce cada bit con un sonido:
+#### 4. Buzzer que “lee” el binario. Reproduce cada bit con un sonido:
 
 - 1 → tono alto
 
@@ -285,7 +284,7 @@ void loop() {
 
 - Mostrar simultáneamente el binario en pantalla.
 
-5. Haiku binario + visual + traducción con botón
+#### 5. Haiku binario + visual + traducción con botón
 
 - Pantalla OLED muestra el haiku en binario y cambia a una imagen con potenciometro
 
