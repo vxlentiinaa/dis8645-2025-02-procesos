@@ -396,6 +396,8 @@ void loop() {
 }
 ```
 
+![Elemplo milla](./imagenes/ejemploMilla.png)
+
 ## Investigación Proyecto_01
 
 ### Haiku
