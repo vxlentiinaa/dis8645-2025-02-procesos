@@ -18,7 +18,7 @@ Plantea aquí el problema de diseño que abordaste. Menciona el texto de referen
 
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
-Se interactúa al mover la perilla del potenciómetro, el cual nos da tres posibilidades de ver en la pantalla. 
+Se interactúa al mover la perilla del potenciómetro, el cual nos da tres posibilidades de ver en la pantalla.
 
 Las siguientes opciones:
 
@@ -38,14 +38,13 @@ Segmenta las secciones de tu código y explícalas
 
 Menciona y desarrolla los roles que ejerció cada integrante
 
-**Sofía Cartes**
+### Sofía Cartes
 
-**Antonia Fuentealba**
+### Antonia Fuentealba
 
-**Sofía Perez**
+### Sofía Perez
 
-**Valentina Ruz**
-
+### Valentina Ruz
 
 ## Fotografías y videos del proyecto funcionado
 
