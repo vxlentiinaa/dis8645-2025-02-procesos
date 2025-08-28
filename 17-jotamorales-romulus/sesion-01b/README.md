@@ -32,8 +32,6 @@ void loop() {
 
 ### Comandos y funciones comunes
 
--digitalWrite(pin, HIGH/LOW) → envía voltaje binario
-- Evitar delay() → mala práctica; usar lógica con temporizadores
 - Serial.begin(9600) → inicia comunicación serial
 - Serial.print(variable) → muestra datos en consola
 - \n → nueva línea en consola. FRANUDP ME AYUDO CON ESTO
