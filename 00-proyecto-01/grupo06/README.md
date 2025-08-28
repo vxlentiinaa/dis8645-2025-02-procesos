@@ -42,15 +42,15 @@ Kajin Aioigaki [1898-1985]
 
 <https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
 
-- Bajo el sol…
+- Acostumbrándome
+  
+  a la soledad, y también al frío,
+  
+  día a día.
+ 
+ Teiko Inahata [1934-2022]
 
-  Tal vez desconocido
-
-  ese mundo solitario.
-
-Hitomi Okamoto [1928-2018]
-
-<https://www.instagram.com/p/C2IJAUYO9TQ/?igsh=YzJjNTJnZ2ZsbzI4>
+<https://www.instagram.com/p/C-QEvooOwGW/?img_index=1>
 
 - Noche de otoño…
   
