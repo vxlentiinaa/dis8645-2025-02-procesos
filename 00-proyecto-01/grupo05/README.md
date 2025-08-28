@@ -27,11 +27,48 @@ Fotografías y dibujos de maquetas y pruebas
 
 diagrama de flujo
 
-poema
+### Poema
+
+>En Santiago de Chile
+>
+>Los
+>
+>días
+>
+>son
+>
+>interminablemente
+>
+>largos:
+>
+>
+>Varias eternidades en un día.
+>
+>
+>Nos desplazamos a lomo de luma
+>
+>Como los vendedores de cochayuyo:
+>
+>Se bosteza. Se vuelve a bostezar.
+>
+>
+>Sin embargo las semanas son cortas
+>
+>Los meses pasan a toda carrera
+>
+>Ylosañosparecequevolaran.
 
 idea del dibujo
 
-![imagen](./imagenes/.png)
+### Pixel art
+
+Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidí hacer una pequeña representación de Santiago.
+
+![imagen](./imagenes/pixelart.jpeg)
+
+![imagen](./imagenes/registro01.jpeg)
+
+![imagen](./imagenes/registro02.jpeg)
 
 ## Etapas del código
 
@@ -39,7 +76,13 @@ Segmenta las secciones de tu código y explícalas
 
 explicar errores, comentarios
 
-poner codigo del dibujo y imagen
+### Imagen
+
+Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta me permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
+
+![imagen](./imagenes/dibujo.png)
+
+poner codigo del dibujo
 
 ## Actividades y roles del equipo
 
