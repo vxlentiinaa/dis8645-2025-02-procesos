@@ -27,9 +27,9 @@ Segmenta las secciones de tu código y explícalas
 
 ## Roles del equipo
 
-★ Antonella Aguilar:
-★ Javiera Moraga:
-★ Pía Orellana: 
+- Antonella Aguilar:
+- Javiera Moraga:
+- Pía Orellana: 
 
 ## Fotografías y videos del proyecto funcionado
 
