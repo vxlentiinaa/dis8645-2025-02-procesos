@@ -179,5 +179,343 @@ if(conversa1 == true && potevalor == true && !respCon2Der == true && !respCon2Iz
 ```
 lo que está queriendo decir este encadenamiento de los if statements es, una vez la conversa1 sea haya sido cargada, el valor del potenciómetro está en la dirección derecha, osea en su estado true, **y no ha recibido ni la respuesta izquierda del pote, ni la respuesta derecha del pote** podrá continuar a la conversa4, que tambien solo avanzara cuando reciba la siguiente respuesta correspondiente
 
-Ahora, con un entendimiento de cómo confiamos del funcionamiento del encadenamiento de las acciones, pasaremos a incluir nuestra pantalla OLED y el potenciómetro para poder confirmar que el funcionamiento sea el correcto, así que incluimos las librerías de Adafruit, con una base de el ejemplo de la [sesion-03b](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01) donde tomaremos los datos de el setup de la pantalla, para no complicarnos haciendolo desde 0, la posicion de donde aparecera el texto y el tamaño del texto, donde quedaria de la manera siguiente con 7 distintas opciones de conversaciones, al identificar lo confuso que era el hecho de hacer que cada conversación tuviese una opcion izquierda o derecha, creamos una variable que fuese la respuesta de esa opcion, donde quedo el codigo de la siguiente forma:
+Ahora, con un entendimiento de cómo confiamos en el encadenamiento de las acciones, pasaremos a incluir nuestra pantalla OLED y el potenciómetro para poder confirmar que el funcionamiento sea el correcto, así que incluimos las librerías de Adafruit, con una base de el ejemplo de la [sesion-03b](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01) donde tomaremos los datos de el setup de la pantalla, para no complicarnos haciendolo desde 0, la posicion de donde aparecera el texto y el tamaño del texto, donde quedaria de la manera siguiente con 7 distintas opciones de conversaciones, al identificar lo confuso que era el hecho de hacer que cada conversación tuviese una opcion izquierda o derecha, creamos una variable que fuese la respuesta de esa opcion, donde quedo el codigo de la siguiente forma:
+
+```cpp
+// librerias para funcionamiento de pantallita
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// denifir el ancho de la pantalla
+#define SCREEN_WIDTH 128
+// definir el alto d ela pantalla
+#define SCREEN_HEIGHT 64
+// que se resetee REVISAR REVISAR REVISAR REVISAR REVISAR
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+// a la izquierda, menor el número
+// donde false es 512 o menos y true es 513 o más
+bool potevalor = true;
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+//para que las respuestas sean almacenadas y no causen problemas retroactivamente en conversas despues
+bool respCon2 = false;
+
+bool respCon3 = false;
+
+bool respCon4 = false;
+
+bool respCon5 = false;
+
+bool respCon6 = false;
+
+bool respCon7 = false;
+
+void setup() {
+  // para que sea posible la comunicación
+  // entre arduino y potenciometro
+ Serial.begin(9600);
+
+ if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    for(;;);
+  }
+
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+}
+
+void loop() {
+
+// conversacion que envia el arduino al usuario
+String conversa1 = "waos1";
+
+String conversa2 = "waos2";
+
+String conversa3 = "waos3";
+
+String conversa4 = "waos4";
+
+String conversa5 = "waos5";
+
+String conversa6 = "waos6";
+
+String conversa7 = "waos7";
+
+
+  // Limpiamos toda la pantalla
+  pantallita.clearDisplay(); 
+
+  //tamaño del texto
+  pantallita.setTextSize(1); 
+  
+  // punto de donde aparece el texto
+  int16_t x1, y1;
+  // REVISAR REVISAR REVISAR
+  uint16_t w, h;
+
+
+pantallita.display();
+
+  pantallita.println(conversa1);
+
+  delay(3000);
+
+
+ // cuando la conversa1 es verdadera
+  // y el potenciometro está apuntando a la izq
+  // y ninguna de las dos respuestas de la conversa2 es verdadera
+  // se podrá llevar a cabo este if statement
+  if(potevalor == false && !respCon2 == true && !respCon3 == true){
+    // se despliega el texto de la conversa2
+    pantallita.println(conversa2);
+
+    // esperamos 5 segundos para la siguiente conversa
+    delay(5000);
+
+    // ra respuesta sera almacenada para que no se puedan causar problemas
+    respCon2 = true;
+
+    // revisar si es necesario REVISAR REVISAR REVISAR REVISAR
+    //pantallita.display();
+
+          if(respCon2 == true && potevalor == false && !respCon4 == true && !respCon5 == true){
+              pantallita.println(conversa3);
+              respCon4 = true;
+              delay(5000);
+             }
+
+          if(respCon2 == true && potevalor == true && !respCon4== true && !respCon5 == true){
+              pantallita.println(conversa4);
+              respCon5 = true;
+              delay(5000);
+             }
+      }
+
+    else if(potevalor == true && !respCon2 == true && !respCon3 == true){
+      // se despliega el texto de la conversa2
+      pantallita.println(conversa3);
+
+      // esperamos 5 segundos para la siguiente conversa
+      delay(5000);
+
+      // ra respuesta sera almacenada para que no se puedan causar problemas
+      respCon3 = true;
+
+          if(respCon3 == true && potevalor == true && !respCon6 == true && !respCon7 == true){
+                  pantallita.println(conversa6);
+                  respCon6 = true;
+                  delay(5000);
+                }
+
+          if(respCon3 == true && potevalor == true && !respCon6 == true && !respCon7 == true){
+              pantallita.println(conversa7);
+              respCon7 = true;
+              delay(5000);
+             }
+         }
+
+}
+
+```
+
+Tambien añadiremos el Analog Read del potenciometro, como nos enseñaron en la sesion-04a a través de la coneccion a partir de una protoboard:
+
+```cpp
+// librerias para funcionamiento de pantallita
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+
+// denifir el ancho de la pantalla
+#define SCREEN_WIDTH 128
+// definir el alto d ela pantalla
+#define SCREEN_HEIGHT 64
+// que se resetee REVISAR REVISAR REVISAR REVISAR REVISAR
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+// a la izquierda, menor el número
+// donde false es 512 o menos y true es 513 o más
+bool poteValor = true;
+
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+//para que las respuestas sean almacenadas y no causen problemas retroactivamente en conversas despues
+bool respCon2 = false;
+
+
+bool respCon3 = false;
+
+
+bool respCon4 = false;
+
+
+bool respCon5 = false;
+
+
+bool respCon6 = false;
+
+
+bool respCon7 = false;
+
+
+void setup() {
+  // para que sea posible la comunicación
+  // entre arduino y potenciometro
+ Serial.begin(9600);
+
+
+ if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    for(;;);
+  }
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+}
+
+
+void loop() {
+pantallita.clearDisplay();
+
+
+//tamaño del texto
+  pantallita.setTextSize(3);
+
+
+// el angulo del potenciometro sera leido
+//en el pin A0 del Analog In
+int anguloDelPote = analogRead(A0);
+delay(1);
+
+
+// cuando
+if (anguloDelPote < 512){
+  poteValor = true;
+}
+
+
+else if (anguloDelPote > 512){
+  poteValor = false;
+}
+
+
+// conversacion que envia el arduino al usuario
+String conversa1 = "waos1";
+
+
+String conversa2 = "waos2";
+
+
+String conversa3 = "waos3";
+
+
+String conversa4 = "waos4";
+
+
+String conversa5 = "waos5";
+
+
+String conversa6 = "waos6";
+
+
+String conversa7 = "waos7";
+ 
+  // punto de donde aparece el texto
+  int16_t x1, y1;
+  // REVISAR REVISAR REVISAR
+  uint16_t w, h;
+
+
+    pantallita.println(conversa1);
+
+
+  delay(3000);
+
+
+
+
+
+
+ // cuando la conversa1 es verdadera
+  // y el potenciometro está apuntando a la izq
+  // y ninguna de las dos respuestas de la conversa2 es verdadera
+  // se podrá llevar a cabo este if statement
+  if(poteValor == false && !respCon2 == true && !respCon3 == true){
+    // se despliega el texto de la conversa2
+    pantallita.println(conversa2);
+
+
+    // esperamos 5 segundos para la siguiente conversa
+    delay(5000);
+
+
+    // ra respuesta sera almacenada para que no se puedan causar problemas
+    respCon2 = true;
+
+
+    // revisar si es necesario REVISAR REVISAR REVISAR REVISAR
+    //pantallita.display();
+
+
+          if(respCon2 == true && poteValor == false && !respCon4 == true && !respCon5 == true){
+              pantallita.println(conversa3);
+              respCon4 = true;
+              delay(5000);
+             }
+
+
+          if(respCon2 == true && poteValor == true && !respCon4== true && !respCon5 == true){
+              pantallita.println(conversa4);
+              respCon5 = true;
+              delay(5000);
+             }
+      }
+
+
+    else if(poteValor == true && !respCon2 == true && !respCon3 == true){
+      // se despliega el texto de la conversa2
+      pantallita.println(conversa3);
+
+
+      // esperamos 5 segundos para la siguiente conversa
+      delay(5000);
+
+
+      // ra respuesta sera almacenada para que no se puedan causar problemas
+      respCon3 = true;
+
+
+          if(respCon3 == true && poteValor == true && !respCon6 == true && !respCon7 == true){
+                  pantallita.println(conversa6);
+                  respCon6 = true;
+                  delay(5000);
+                }
+
+
+          if(respCon3 == true && poteValor == true && !respCon6 == true && !respCon7 == true){
+              pantallita.println(conversa7);
+              respCon7 = true;
+              delay(5000);
+             }
+         }
+  pantallita.display();
+}
+
+```
+Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que se quieren observar, así que tenemos que hacer una revisión de cuál sería la razón del porque pasa esto, donde solo aparece el mensaje de waos1, waos3 y waos 6.
 
