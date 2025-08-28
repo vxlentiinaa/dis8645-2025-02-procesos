@@ -9,28 +9,95 @@
   - Vania Paredes
 
 ## Presentación textual
-
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
 
-Para este proyecto, se hizo un carrusel de poemas, donde se ceunta una historia con poemas de poetas chilenos que tiene 5 momentos y que cada verso tiene una conexión entre ellos.
-Las etapas son:
+El problema de diseño que abordamos fue cómo crear una experiencia poética interactiva. La idea fue crear un “carrusel poético” en pantallas OLED, donde se cuentan distintas etapas de una historia usando versos de poetas chilenos como Gabriela Mistral y Pablo Neruda. La intención es que no fuera solo leer un texto fijo, sino que la persona pudiera ver cómo los poemas van apareciendo y conectándose entre sí.
 
-1. **El Encuentro:** "Si me miras, yo me vuel vo hermosa". Gabriela Mistral, Vergüenza.
-2. **El amor:** "Quiero hacer algo contigo lo que la primavera hace con los cerezos". Pablo Neruda
+El poetario está dividido en cuatro momentos principales que reflejan un recorrido:
 
-La idea es que con el potenciómetro se vayan cambiando
+1. **El Encuentro**
+
+“Si me miras, yo me vuelvo hermosa.”
+— Gabriela Mistral, Vergüenza.
+
+2. **El Amor**
+
+“Quiero hacer contigo
+lo que la primavera hace con los cerezos.”
+— Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 14.
+
+3. **El Quiebre**
+
+"Mi alma no se contenta con haberla perdido"
+— Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 20.
+
+4. **El Olvido**
+
+“Es tan corto el amor,
+y tan largo el olvido.”
+— Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 20.
+
+Para hacer de la interacción mejor, el poema Nº2 se conecta a un potenciómetro: según el valor detectado, la pantalla despliega diferentes versos, permitiendo que el lector interactúe con el texto y sienta que lo “despliega” él mismo. Se escogió el poema Nº2 porque es el mas largo, y como la pantalla es pequeña y no queriamos hacerlo con el texto tan pequeño, preferimos separarlo en varios versos que caigan en la pantalla y poder controlar su velocidad con el potenciómetro.
+
+En cambio, los otros poemas se controlan directamente desde el código. Se usaron funciones de scroll, permitiendo que el poema se sienta más dinámico y no solo estático en pantalla.
+
+Al mismo tiempo, en la segunda pantalla se van mostrando imágenes en forma de carrusel, también controladas con el potenciómetro. Estas imágenes funcionan como un apoyo visual a los poemas, reforzando el ambiente de cada etapa.
 
 ## Inputs y outputs
-
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
+
+**Código poetario:**
+*Inputs:*
+
+Potenciómetro: Se gira y así cambia el valor analógico que lee el Arduino (de 0 a 1023)
+Código del poema: Arduino interpreta ese valor (del potenciómetro) y decide qué parte del poema (Poema 2) mostrar. 
+
+*Outputs:*
+
+Pantalla OLED: Muestra el texto dividido en frases del poema. Según el rango del potenciómetro, aparece una frase distinta.
+
+La interacción entonces es girar el potenciómetro y como respuesta ofrece versos en la pantalla, uno por uno, como un carrusel de texto.
+
+**Código carrusel de imágenes:**
 
 ## Bocetos de planificación
 
 Fotografías y dibujos de maquetas y pruebas
 
-## Etapas del código
+## Problemas, desafíos y errores
 
-Para la imágenes se usó la página: [https://javl.github.io/image2cpp/] para que se tradujera en código y así poder visualizarlas en la pantalla.
+El primer problema al que nos enfrentamos fué el de colocar la primera imagen, no lograbamos hacerlo, finalmente el error era una palabra mal escrita y el código de la imagen fué descargado en bytes no en código de arduino, se solucionó. :)
+
+El desafío más grande fué el de conectar el potenciómetro con nuestra idea de carrusel de poemas e imágenes, gracias a nuestra compañera carla, en nuestro intercambio de dudas y asiertos, nos ayudó mostrándonos como lo hizo su grupo, junto con el ejercicio en clases, tuvimos la idea de recorrer los versos de uno de nuestros poemas con el potenciómetro. Para esto usamos el código de "if" "else if" y "else". 
+hicimos este código: 
+```cpp
+c if (valorPot < 146) {             // 0 - 145
+    pantallita.println(verso0);
+  } 
+  else if (valorPot < 292) {        // 146 - 291
+    pantallita.println(verso1);
+  } 
+  else if (valorPot < 438) {        // 292 - 437
+    pantallita.println(verso2);
+  } 
+  else if (valorPot < 584) {        // 438 - 583
+    pantallita.println(verso3);     
+  } 
+  else if (valorPot < 730) {        // 584 - 729
+    pantallita.println(verso4);     
+  } 
+  else if (valorPot < 876) {        // 730 - 875
+    pantallita.println(verso5);
+  } 
+  else {                            // 876 - 1023
+    pantallita.println(verso6);
+  }
+```
+El desafío fué que el poema que funcionaba con potenciomtro era el segundo. El primero y el resto funcionaban con scroll y código solamente, por lo que hubo un error y al momento de acabar el primer poema y tener que girar el potenciometro, este solo mostraba una palabra y volvia a repetirse el poema 1.
+Pensamos que esto ocurria ya que por estar el poema 1 en "loop" este se repetía e interrumpía el segundo poema, por lo que nuestra solución fue subir el poema 1 en setup para que se mostrara solo una vez y luego dejar en loop el poema 2.
+Luego para poder seguir con los siguientes poemas la idea es darle la instrucción a arduino que una vez el potenciómetro llega a 1023 espere unos segundos y comience con los siguientes poemas.
+
+## Etapas del código
 
 Segmenta las secciones de tu código y explícalas
 
@@ -38,11 +105,11 @@ Segmenta las secciones de tu código y explícalas
 
 ### Vania
 
-- Código de los poemas.
+- Código Poetario.
 
 ### Valentina
 
-- Códigos de las imágenes que acompañan al poema.
+- Código Carrusel de imágenes.
 
 ## Fotografías y videos del proyecto funcionado
 
@@ -51,5 +118,14 @@ Subir fotos y videos
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
 ## Bibliografía
-
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+
+Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
+Javl. (s. f.). Herramienta para convertir imágenes a código. <https://javl.github.io/image2cpp/>
+Pereira, E. (2020, 20 de marzo). Cómo usar Arduino, Tutorial. YouTube. <https://www.youtube.com/watch?v=EEKMPT_YcTI>
+ElectroTV. (2021, 15 de mayo). Cómo usar For, tutorial. YouTube. <https://www.youtube.com/watch?v=e8CEpAQ4otU&t=332s>
+Maker Channel. (2019, 8 de octubre). Cómo usar el potenciómetro, tutorial. YouTube. <https://www.youtube.com/watch?v=UUncn39odKM>
+Universidad de Chile. (s. f.). Vergüenza, en Desolación de Gabriela Mistral.<http://www.gabrielamistral.uchile.cl/poesia/desolacion/dolor/verguenza.html>
+Archivo Chile. (s. f.). Poemas de Pablo Neruda. <https://www.archivochile.com/Homenajes/neruda/de_neruda/homenajepneruda0007.pdf>
+Ejemplos de clase proporcionados por el profesor.
+Ejemplos de la librería Adafruit_GFX en Arduino IDE.
