@@ -9,29 +9,30 @@
   - Vania Paredes
 
 ## Presentación textual
+
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
 
 El problema de diseño que abordamos fue cómo crear una experiencia poética interactiva. La idea fue crear un “carrusel poético” en pantallas OLED, donde se cuentan distintas etapas de una historia usando versos de poetas chilenos como Gabriela Mistral y Pablo Neruda. La intención es que no fuera solo leer un texto fijo, sino que la persona pudiera ver cómo los poemas van apareciendo y conectándose entre sí.
 
 El poetario está dividido en cuatro momentos principales que reflejan un recorrido:
 
-1. **El Encuentro**
+## 1. **El Encuentro**
 
 “Si me miras, yo me vuelvo hermosa.”
 — Gabriela Mistral, Vergüenza.
 
-2. **El Amor**
+## 2 **El Amor**
 
 “Quiero hacer contigo
 lo que la primavera hace con los cerezos.”
 — Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 14.
 
-3. **El Quiebre**
+## 3. **El Quiebre**
 
 "Mi alma no se contenta con haberla perdido"
 — Pablo Neruda, Veinte poemas de amor y una canción desesperada, Poema 20.
 
-4. **El Olvido**
+## 4. **El Olvido**
 
 “Es tan corto el amor,
 y tan largo el olvido.”
@@ -44,6 +45,7 @@ En cambio, los otros poemas se controlan directamente desde el código. Se usaro
 Al mismo tiempo, en la segunda pantalla se van mostrando imágenes en forma de carrusel, también controladas con el potenciómetro. Estas imágenes funcionan como un apoyo visual a los poemas, reforzando el ambiente de cada etapa.
 
 ## Inputs y outputs
+
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
 **Código poetario:**
@@ -68,8 +70,9 @@ Fotografías y dibujos de maquetas y pruebas
 
 El primer problema al que nos enfrentamos fué el de colocar la primera imagen, no lograbamos hacerlo, finalmente el error era una palabra mal escrita y el código de la imagen fué descargado en bytes no en código de arduino, se solucionó. :)
 
-El desafío más grande fué el de conectar el potenciómetro con nuestra idea de carrusel de poemas e imágenes, gracias a nuestra compañera carla, en nuestro intercambio de dudas y asiertos, nos ayudó mostrándonos como lo hizo su grupo, junto con el ejercicio en clases, tuvimos la idea de recorrer los versos de uno de nuestros poemas con el potenciómetro. Para esto usamos el código de "if" "else if" y "else". 
-hicimos este código: 
+El desafío más grande fué el de conectar el potenciómetro con nuestra idea de carrusel de poemas e imágenes, gracias a nuestra compañera carla, en nuestro intercambio de dudas y asiertos, nos ayudó mostrándonos como lo hizo su grupo, junto con el ejercicio en clases, tuvimos la idea de recorrer los versos de uno de nuestros poemas con el potenciómetro. Para esto usamos el código de "if" "else if" y "else".
+hicimos este código:
+
 ```cpp
 c if (valorPot < 146) {             // 0 - 145
     pantallita.println(verso0);
@@ -93,11 +96,13 @@ c if (valorPot < 146) {             // 0 - 145
     pantallita.println(verso6);
   }
 ```
+
 El desafío fué que el poema que funcionaba con potenciomtro era el segundo. El primero y el resto funcionaban con scroll y código solamente, por lo que hubo un error y al momento de acabar el primer poema y tener que girar el potenciometro, este solo mostraba una palabra y volvia a repetirse el poema 1.
 Pensamos que esto ocurria ya que por estar el poema 1 en "loop" este se repetía e interrumpía el segundo poema, por lo que nuestra solución fue subir el poema 1 en setup para que se mostrara solo una vez y luego dejar en loop el poema 2.
 Luego para poder seguir con los siguientes poemas la idea es darle la instrucción a arduino que una vez el potenciómetro llega a 1023 espere unos segundos y comience con los siguientes poemas.
 
 Código con el error:
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -296,7 +301,9 @@ void loop() {
 
 };
 ```
+
 **Código solucionado subiendo el primer poema a setup
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -495,7 +502,9 @@ void loop() {
 
 };
 ```
+
 Otro problema fué que poner tiempo al final del poema2 no era suficiente para acabar con el loop, por lo que al intentarlo el poema 2 se repetia infinitamente. Para agegarle el tiempo se le cambió así el código al verso 6 del poema 2:
+
 ```cpp
 else if (valorPot < 876) {        // 730 - 875
     pantallita.println(verso5);
@@ -507,6 +516,7 @@ else if (valorPot < 876) {        // 730 - 875
       
       // limpiar y avanzar al siguiente poema
 ```
+
 Para arreglarlo se usó una variable booleana de true or false, llamando al poema2 terminado, Por lo que se usa la variable if nuevamente al principio del código en loop (antes del poema2) usando: if (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demas.
 
 Quería que el loop de poemas parara despues del último y no sabía como, busqué en inetrnet y ocupé finalmente exit(0) parar parar el loop.
@@ -534,6 +544,7 @@ Subir fotos y videos
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
 ## Bibliografía
+
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
 
 Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
