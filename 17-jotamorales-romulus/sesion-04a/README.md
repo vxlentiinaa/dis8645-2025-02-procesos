@@ -1,20 +1,33 @@
 # sesion-04a
 ## PREPARACION PROYECTO 1
 
-continuamos trabajando en el proyecto ya con las tareas designadas 
+Continuamos trabajando en el proyecto ya con las tareas designadas. llegue un poco tarde por problemas en Metro San Pablo. Intentar salir más temprano. 
 
- fran: función traducción binario
+- Fran: función traducción binario
 
-- milla: dibujo y potenciómetro
+- Milla: Dibujo y potenciómetro
 
-- j: imagen en código y registro
+- J: imagen en código y scroll vertical.
 
-- josefa: buzzer
+- Josefa: buzzer
 
-de momento tenemos el codigo separado por funciones. 
-- con millarai estamos viendo el mostrar las imagenes del arduino en la pantalla oled de 128 x 64. Ordenamos el codigo ya que usamos una plantilla vista en clases. En este codigo aparecian dos iamgenes en pantalla
+### Trabajo en clases
+
+- De momento tenemos el código separado por funciones.
+  
+- Con Millarai estuvimos viendo cómo mostrar las imágenes del Arduino en la pantalla OLED de 128 × 64. Ordenamos el código usando una plantilla que vimos en clases. En este código aparecían dos imágenes en la pantalla.
+  
+- Durante la clase, Misaa pasó por nuestra zona de trabajo y nos recomendó centralizar el proyecto: quizá no hacer tanto y enfocarnos en algo que realmente funcione.
+  
+- Tenemos de momento listo un codigo el cual puede mostrar las 3 iamgenes del haiku que hicimos, de modo que elpotenciometro al girarse va cambiando las iamgenes
+  
+- input es el potenciómetro, que le dice al Arduino en qué posición está girado. El Arduino lee ese valor y decide qué imagen mostrar. El output es la pantalla OLED, donde se muestran las imágenes según la posición del potenciómetro. Así, al girar el potenciómetro, el Arduino recibe la señal y cambia la imagen que aparece en la pantalla.
+  
+- Durante la clase, se nos recomendó ajustar lo que se muestra en pantalla para que la parte superior no aparezca amarilla. Por ello, modificamos el tamaño de las imágenes directamente en Paint y luego las subimos a [image2cpp](https://javl.github.io/image2cpp), bajando un poco las imágenes para evitar la aparición de la línea amarilla en la parte superior."
+
 
 ````cpp
+
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
