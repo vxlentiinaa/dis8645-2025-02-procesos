@@ -405,3 +405,14 @@ void loop() {
   //delay(50); // Ajusta la velocidad del scroll
 }
 ```
+
+## proyecto-01 v4
+
+camila delgado fue la encargada de preparar las imágenes que usaríamos para representar cada refrán. Camila llegó a la conclusión que la resolución de la pantall(128x64) no era suficiente para mostrar más de 1 imagen a la vez. Debido a esa limitación técnica, decidimos evolucionar el proyecto.
+
+poemSampler-v4 consta de una pantalla, un potenciómetro y un botón.
+
+Existen 2 modos de navegar el programa. el modo para texto(textoMode) y el modo para las ilustraciones(fotoMode). Ambos modos muestran una serie de elementos ordenados en fila, verticalmente.
+
+El potenciómetro permite scrollear en el eje Y. Mientras que el botón permite cambiar de modo. De manera que, el botón siempre "apaga" el modo activo, y "enciende" el modo inactivo.
+
