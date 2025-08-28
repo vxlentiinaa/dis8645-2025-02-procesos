@@ -25,11 +25,21 @@ Se interactúa con el diseño al mover la perilla del potenciómetro, la cual re
 
 Fotografías y dibujos de maquetas y pruebas
 
+diagrama de flujo
+
+poema
+
+idea del dibujo
+
 ![imagen](./imagenes/.png)
 
 ## Etapas del código
 
 Segmenta las secciones de tu código y explícalas
+
+explicar errores, comentarios
+
+poner codigo del dibujo y imagen
 
 ## Roles del equipo
 
