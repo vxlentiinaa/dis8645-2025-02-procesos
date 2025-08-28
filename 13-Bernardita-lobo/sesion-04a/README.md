@@ -33,6 +33,10 @@ Idea 05: Botón enciende o apaga una imagen.
 
 pagina para pasar una foto a codigo https://javl.github.io/image2cpp/
 
+[CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
+
+[CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
+
 ### digital vs analogo
 
 lo digital es discreto, simula la realidad en vez de tiempo son horas, poe ejemplo el minecraft es una referencial a la realidad, a una realidad analoga, al igual que los pixeles de la fotos. hacen un montaje de una foto, pero son pequeños pedacitos que se difuminan, en cambio a las fotos analogas que no tienen pixeles porque son colores continuios, que varia de forma organica.
