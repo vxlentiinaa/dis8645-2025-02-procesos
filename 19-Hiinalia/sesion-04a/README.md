@@ -589,5 +589,206 @@ Protoboards tienen un rio. Divide cada hemisferio y no se crea una conexión ent
 
 Para conectar el potenciómetro, se conecta en un hemisferio, y se alinea un cable hacia el otro hemisferio para conectarlo a la pantalla conectada al otro lado.
 
+
 *Diferencia entre análogo y digital*
 En pocas palabras, análogo es fluido, y digital es estático.
+
+
+## Trabajo en sala de interacción para proyecto 1
+
+Nos pusimos bien de acuerdo para entender que es a lo que queremos llegar. 
+Con el seba estamos trabajando en conjunto para crear el código.
+
+Se nos ocurrió que para llevar a cabo las distintas conversaciones dentro del código, consideramos que si no teníamos cuidado, dentro de una de las conversaciones se podía a ir a una conversación incorrecta. Las funciones ```if``` son parte fundamental dentro de esto, además de las variables booleanas.
+
+
+Está considerado como un árbol de respuestas.
+Dejamos listas las variables booleanas que vamos a usar
+
+teníamos una buena idea de cómo debíamos llevarlo a cabo, la mayoría de las cosas las escribimos por pensamiento lógico de cómo me hacía sentido el posible funcionamiento de las cosas, pero al probar la compilación nos mandaron unos cuantos problemas, el código que escribimos es el siguiente:
+
+```cpp
+
+
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+//a la izquierda, menor el número
+bool conversa1 = true
+bool potevalor = true
+
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+bool conversa2 = false
+bool conversa3 = false
+bool conversa4 = false
+bool conversa5 = false
+
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+ 
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+
+}
+
+
+
+```
+
+```cpp
+
+
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+//a la izquierda, menor el número
+bool conversa1 = true;
+// se le aplica al angulo del potenciometro
+// donde false es 512 o menos y true es 513 o más
+bool potevalor = true;
+
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+bool conversa2 = false;
+//para que las respuestas sean almacenadas y no causen problemas retroactivamente en conversas despues
+bool respCon2Izq = false;
+bool respCon2Der = false;
+bool conversa3 = false;
+bool respCon3Izq = false;
+bool respCon3Der = false;
+bool conversa4 = false;
+bool respCon4Izq = false;
+bool respCon4Der = false;
+bool conversa5 = false;
+bool respCon5Izq = false;
+bool respCon5Der = false;
+
+
+
+
+void setup() {
+  // para que sea posible la comunicación
+  // entre arduino y potenciometro
+ Serial.begin(9600);
+ String conversa2 = "waos";
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ // cuando la conversa1 es verdadera
+  // y el potenciometro está apuntando a la izq
+  // y ninguna de las dos respuestas de la conversa2 es verdadera
+  // se podrá llevar a cabo este if statement
+  if(conversa1 == true AND potevalor == true AND !respCon2Der == true AND !respCon2Izq == true){
+    // se despliega el texto de la conversa2
+    String(conversa2);
+    // esperamos 5 segundos para la siguiente conversa
+    delay(5000);
+    // ra respuesta sera almacenada para que no se puedan causar problemas
+    respCon2Der = true;
+  }
+    if(respCon2Der == true AND potevalor == true AND !respCon3Der == true AND !respCon3Izq == true){
+      String(conversa4);
+      conversa4 = true;
+      delay(5000);
+      }
+    }
+  }
+}
+
+
+```
+Nos dimos cuenta de cuál era el error al leer la pestaña de output de los errores, el uso de AND al parecer no era el correcto, así que los cambiamos por los ampersands (&&). Una vez lo cambiamos, empezó a funcionar.
+
+```cpp
+if(conversa1 == true && potevalor == true && !respCon2Der == true && !respCon2Izq == true){
+
+
+```
+
+También eliminamos varios caracteres que estaban extra y no eran necesarios
+
+Este código no presenta ningún error al momento de verificarlo. La lógica es correcta, y tenemos el esqueleto de nuestro proyecto.
+
+```cpp
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+//a la izquierda, menor el número
+bool conversa1 = true;
+// se le aplica al angulo del potenciometro
+// donde false es 512 o menos y true es 513 o más
+bool potevalor = true;
+
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+bool conversa2 = false;
+//para que las respuestas sean almacenadas y no causen problemas retroactivamente en conversas despues
+bool respCon2Izq = false;
+bool respCon2Der = false;
+bool conversa3 = false;
+bool respCon3Izq = false;
+bool respCon3Der = false;
+bool conversa4 = false;
+bool respCon4Izq = false;
+bool respCon4Der = false;
+bool conversa5 = false;
+bool respCon5Izq = false;
+bool respCon5Der = false;
+
+
+
+
+void setup() {
+  // para que sea posible la comunicación
+  // entre arduino y potenciometro
+ Serial.begin(9600);
+ String conversa2 = "waos";
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ // cuando la conversa1 es verdadera
+  // y el potenciometro está apuntando a la izq
+  // y ninguna de las dos respuestas de la conversa2 es verdadera
+  // se podrá llevar a cabo este if statement
+  if(conversa1 == true && potevalor == true && !respCon2Der == true && !respCon2Izq == true){
+    // se despliega el texto de la conversa2
+    String(conversa2);
+    // esperamos 5 segundos para la siguiente conversa
+    delay(5000);
+    // ra respuesta sera almacenada para que no se puedan causar problemas
+    respCon2Der = true;
+  }
+    if(respCon2Der == true && potevalor == true && !respCon3Der == true && !respCon3Izq == true){
+      String(conversa4);
+     
+      respCon4Izq = false;
+
+
+      delay(5000);
+      }
+    }
+
+
+```
+Ahora solo nos faltaría solo probar que funcione con el potenciómetro y con la pantalla integrada, así que vamos a integrar las librerías de adafruit y otras variables. Nos basamos a partir de el ejemplo de
+[sesion-03b/ejemploPantallita01](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01)
+
+
