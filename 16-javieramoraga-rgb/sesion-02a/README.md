@@ -1,8 +1,10 @@
 # sesion-02a .☘︎ ݁˖
+
 ## Comunicación Serial  
 
-- **9600** → Significa **baudios (BAUD RATE)**.  
-- **BAUD RATE** → Velocidad de comunicación.  
++ **9600** → Significa **baudios (BAUD RATE)**.
+
++ **BAUD RATE** → Velocidad de comunicación.  
 
 > "Uno le dice al Arduino: te voy a hablar a 9600" 
 > "El monitor serial es un ojo. El `begin` le dice:  
@@ -14,20 +16,27 @@
 
 ## USB  
 
-- **U → Universal** → Estándar → *"funciona pa' mí y pa' Marte"* ~ Misa  
-- **S → Serial** → *"Te voy a decir datos, uno tras otro"* ~ Aarón → Tiene ritmo.  
-- **B → Bus** → Transporte.  
++ **U → Universal** → Estándar → *"funciona pa' mí y pa' Marte"* 
+
++ **S → Serial** → *"Te voy a decir datos, uno tras otro"* ~ Aarón → Tiene ritmo.
+
++ **B → Bus** → Transporte.  
 
 ────୨ৎ────
 
 ## Conceptos clave ₊˚⊹ᰔ 
 
-- **Presencia visual** → Fenómeno que te hace pensar que la luz está encendida constantemente, pero en realidad está parpadeando.  
-- **IoT (Internet of Things)** → Red de objetos físicos conectados a internet, que recopilan e intercambian datos.  
-- **Digital Being (Nicholas Negroponte)** → *"Un señor que estudió en Suiza y piensa que es clase media"* ~ Aarón  
-- **Yuk Hui** → Filosofía de la tecnología.  
-- **Realismo especulativo** → Corriente filosófica contemporánea.  
-- **Incierto y sinuoso** → Sokio → [sokio.studio](http://sokio.studio)  
++ **Presencia visual** → Fenómeno que te hace pensar que la luz está encendida constantemente, pero en realidad está parpadeando.
+  
++  **IoT (Internet of Things)** → Red de objetos físicos conectados a internet, que recopilan e intercambian datos.
+  
++**Digital Being (Nicholas Negroponte)** → *"Un señor que estudió en Suiza y piensa que es clase media"* 
+
++ **Yuk Hui** → Filosofía de la tecnología.
+  
++ **Realismo especulativo** → Corriente filosófica contemporánea.
+    
++ **Incierto y sinuoso** → Sokio → [sokio.studio](http://sokio.studio)  
 
 > Con ópera experimental *Paraíso en Nueva York*, el artista chileno Sokio retornó al género tras 20 años.  
 
@@ -35,35 +44,37 @@
 
 ### Recursos y referencias  
 
-- **UNTREF** - Pregrado y posgrado de arte electrónico  
++ **UNTREF** - Pregrado y posgrado de arte electrónico  
   → Jazmín Adler, Valentina Montero.  
 
-- **Yaeltex**  
++ **Yaeltex**  
   → Controladores y hardware musical.  
 
-- **.xyz**  
++ **.xyz**  
   → Dominios baratos.  
 
-- **Caja Negra Editora**  
++ **Caja Negra Editora**  
   → Editorial que traduce libros bacanes.  
 
 ── .✦
 
 ### Sampler y síntesis sonora  
 
-- **Teenage Engineering**  
++ **Teenage Engineering**  
   → Sintetizadores portátiles.  
 
 ── .✦
 
 ### Diseño  
 
-- **Diseño industrial**  
-- **Diseño gráfico**  
-- **Diseño de usuario**  
++ **Diseño industrial**
+   
++ **Diseño gráfico**
 
-- **Georgia Tech**  
-  → *"Si quieren hacer un sintetizador, postulen a esto"* ~ Aarón  
++ **Diseño de usuario**  
+
++ **Georgia Tech**  
+  → *"Si quieren hacer un sintetizador, postulen a esto"*  
 
 - **National Sawdust**  
 
@@ -71,18 +82,26 @@
 
 ### Artistas y proyectos  
 
-- **Gordon Matta-Clark** → *Anarquitecto*.  
-- **Juan Downey** → Artista visual.  
-- **Strange Trigger** → repo de Misa.  
-- **Caja Hammond**.  
-- **Andy Cavatorta**.  
-- **CDM - Create Digital Music**.  
-- **NY Soundworks - Bricolo**.  
-- **Tutupá - Missa**.  
++ **Gordon Matta-Clark** → *Anarquitecto*.
+  
++ **Juan Downey** → Artista visual.
+  
++ **Strange Trigger** → repo de Misa.
+  
++ **Caja Hammond**.
+  
++ **Andy Cavatorta**.
+  
++ **CDM - Create Digital Music**.
+   
++ **NY Soundworks - Bricolo**.
+  
++ **Tutupá** 
 
 ## Entrga de codigos clase 12/Agosto ᝰ.ᐟ
 
 ### CODIGO 01
+
 ```cpp
 void setup() {
 // declarar pinMode
@@ -101,6 +120,7 @@ void loop() {
 ```
 
 ### CODIGO 02
+
 ```cpp
 void setup() {
 //declarar pin a usar
@@ -120,6 +140,7 @@ void loop() {
 ```
 
 ### CODIGO 03
+
 ```cpp
 void setup() {
 // declarar pinMode

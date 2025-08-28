@@ -2,7 +2,8 @@
 
 ## Proyecto 1
 
-Se explico que ibamos a hacer en el proyecto 1, fijado para el viernes 26-08-2025. 
+Se explico que ibamos a hacer en el proyecto 1, fijado para el viernes 26-08-2025.
+
 - En grupos de 3 a 4 personas.
 - Haremos uso de lo que vayamos aprendiendo, experimentando y investigado en arduino.
 - Hacer un poema interactivo en arduino con una pantalla de 128 x 64.
@@ -15,10 +16,9 @@ Se explico que ibamos a hacer en el proyecto 1, fijado para el viernes 26-08-202
 
 ------------
 
-
 ### If / Else
 
-El if es como decir “si pasa esto, hago tal cosa”. El else siempre es lo que pasa “en caso contrario”. 
+El if es como decir “si pasa esto, hago tal cosa”. El else siempre es lo que pasa “en caso contrario”.
 
 Ejemplo llevado a la vida real:
 
@@ -35,7 +35,6 @@ if (arañan == true) {
 - Si no hay una araña → sigue viviendo mi vida.
 
 - El == true significa que estamos revisando si la condición de que “araña" es real o no.
-
 
 ### Ñ en araña
 
@@ -65,6 +64,4 @@ if (arañas == true || alarmaSonando == true) {
 
 - Se usa OR (||): basta que una de las condiciones sea verdadera para que se cumpla el if.
 
--------
-
-### ARDUINO
+----AÑADIR APUNTES FALTANTES LIBRETA----

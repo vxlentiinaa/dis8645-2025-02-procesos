@@ -2,23 +2,23 @@
 
 Probando texto que alterna imagen
 
-En este caso hice a Danny DeVitto comiendo doritos lo que abre la puerta a hacer lo que quiera y tenerlo en display de fondo. 
+En este caso hice a Danny DeVitto comiendo doritos, lo que abre la puerta a hacer lo que quiera y tenerlo en display de fondo. 
 
 Con más ram me gustaría hacer animaciones.
 
-```opp
+```cpp
 #include <Wire.h>
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX.h> //"usa las bibliotecas ya instaladas"
 #include <Adafruit_SSD1306.h>
 
-#define SCREEN_WIDTH 128
+#define SCREEN_WIDTH 128    //parámetros de pantalla
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);  //"que es pantallita"
 
-int contador = 0;
+int contador = 0;   //inicia en 0
 
-// 'story-behind-this-picture-v0-b90o0o7vy24d1', 128x64px
+// 'story-behind-this-picture-v0-b90o0o7vy24d1', 128x64px //nombre imagen/dimensiones
 const unsigned char deVitto [] PROGMEM = {
 	0xff, 0xff, 0xff, 0xf8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1f, 0xff, 0xff, 0xff, 
 	0xff, 0xff, 0xff, 0xf8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1f, 0xff, 0xff, 0xff, 
@@ -90,33 +90,17 @@ const unsigned char deVitto [] PROGMEM = {
 
 
 void setup() {
-  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    Serial.println(F("No se encontró la pantalla SSD1306"));
-    for(;;);
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {     //si no inicia actividad
+    Serial.println(F("No se encontró la pantalla SSD1306"));  //en caso de que no funcione
+    for(;;); 
   }
   pantallita.clearDisplay();
   pantallita.setTextColor(SSD1306_WHITE);
 }
 
 void loop() {
-  pantallita.clearDisplay(); // Limpiamos toda la pantalla
-  // pantallita.setTextSize(1); // Tamaño de texto más grande
-  // String mensaje = "Contador muy grande matias recomienda j:";
-  // int16_t x1, y1;
-  // uint16_t w, h;
-  
-  // // Medimos el ancho del texto para centrarlo horizontalmente
-  // pantallita.getTextBounds(mensaje, 0, 0, &x1, &y1, &w, &h);
-  // pantallita.setCursor((SCREEN_WIDTH - w)/2, 0);
-  // pantallita.println(mensaje);
-
-  // // Mostramos el número centrado
-  // String numero = String(contador);
-  // pantallita.getTextBounds(numero, 0, 0, &x1, &y1, &w, &h);
-  // pantallita.setCursor((SCREEN_WIDTH - w)/2, 30); // 30 píxeles hacia abajo
-  // pantallita.println(numero);
-
-  pantallita.drawBitmap(0, 0, deVitto, 128, 64, WHITE);
+  pantallita.clearDisplay(); // Borra la pantalla
+  pantallita.drawBitmap(0, 0, deVitto, 128, 64, WHITE); //dibuja en bitmap/desde arriba a la izquierda/la imagen específica/ancho/alto/en color blanco
 
   pantallita.display(); // Actualiza la pantalla
   contador++;
@@ -124,23 +108,25 @@ void loop() {
   pantallita.clearDisplay();
 
   pantallita.setTextSize(2);    //reproducción de más texto pero en loop
-  pantallita.setTextColor(WHITE); 
-  pantallita.setCursor(0, 0);
-  pantallita.println("mmmmmm");
-  pantallita.println("Doritos");
+  pantallita.setTextColor(WHITE);  //color
+  pantallita.setCursor(0, 0);   //ubicación
+  pantallita.println("mmmmmm");  //texto
+  pantallita.println("Doritos");  //salta una línea
 
-  pantallita.display();
-  delay(1300);
-  pantallita.clearDisplay();
+  pantallita.display();   //muestra lo que es pantallita
+  delay(1300);    //1.3 segundos
+  pantallita.clearDisplay();   //borra pantalla
 }
 ```
+
+![foto de Danny DeVitto en pantalla OLED](./imagenes/DeVitto1.jpeg)
 
 PD: Logré hacer las mañanitas.
 
 Aquí está la versión en donde mejoro el ritmo y varío el tamaño de fuente. Lo siguiente podría ser añadir scroll.
 
-```opp
-Mananitas
+```cpp
+//Mananitas
 
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
@@ -240,3 +226,108 @@ void loop() {
   display.clearDisplay();
 }
 ```
+
+## IDEAS ENTREGA POEMA
+
+El plan es tener una conversación con arduino usando la pantalla, el monitor serial y el potenciómetro. Se mostrarán preguntas o planteamientos
+que instarán al usuario a tomar una decisión mediante el movimiento de la perilla. Según el sentido al que esta apunte se tomará uno de 2 (o más) caminos
+revelando un poema pertinente. Buscamos un tono cómico pero reflexivo. También consideramos el uso de imágenes para dar un ritmo y separar los textos en pantalla.
+
+## PREGUNTAS Y RESPUESTAS
+
+Las preguntas deben ser introspectivas y capaces de generar una resonancia con los poemas que se mostratán en el resultado. Las respuestas por otra parte deberán ser cortas,
+rápidas y polarizadas para poder hacer una distinción más evidente. No habrán respuestas correctas, eso lo dejaremos a discreción del usuario. Ademas de la retroalimentación
+en forma de poema se mostrará una imagen en la pantalla OLED que "reaccione" a la respuesta y refuerce el tono de dicho poema.
+
+## HUMORÍSTICAS
+
+¿Qué le echas primero al completo?
+
+¿Prefieres perros o gatos?
+
+¿Prefieres tener paz o tener la razón?
+
+¿Te mueve más la curiosidad o la costumbre?
+
+¿El huevo o la gallina?
+
+
+## DE CARÁCTER
+
+¿Qué te hace sentir más vivo?
+
+¿Cuándo fuiste hipócrita? Hoy/ayer/mañana
+
+¿Qué parte de ti se miente? Autopercepción
+
+¿Tu defecto favorito?
+
+¿Qué valoras por encima de todo?
+
+¿Qué atesoras?
+
+¿Qué te haría sentir completo?
+
+¿Qué sientes cuando nadie te ve?
+
+¿Qué te hace diferente?
+
+## POEMAS
+Los poemas deben ser breves hasta cierto punto y tratar un tema en específico, aunque de manera no literal. Deben hacer que el usuario les encuentre sentido.
+Idealmente tienen un elemento característico que se pueda graficar y lo una con las preguntas y respuestas. Otra opción es hacer una secuencia de poemas del mismo autor
+para darle valor agregado y elevar el proyecto a un cuestionario. Otra razón para la brevedad de los poemas es el limitado espacio. Para no tener que discriminar
+los poemas por su extensión podríamos usar párrafos específicos.
+
+## OPCIONES 
+<https://circulodepoesia.com/2021/08/poemas-de-julio-cortazar/> <https://psicologiaymente.com/cultura/poemas-julio-cortazar>
+Elegimos a Julio Cortazar para revisar sus obras reconociendo temas específicos para emparejarlos con las preguntas. A continuación hay algunos de ellos:
+
+1.Encargo-Amor, culpa y castigo
+
+2.Para leer en forma interrogativa-Introspección y duda
+
+3.Le Dôme-realidad, desamor y desencanto
+
+4.La edad del amor-amor e intensidad
+
+5.Cartel-extrospección y admiración
+
+6.Después de las fiestas-amor e intimidad
+
+Después de esta breve recopilación y análisis es posible emparejar los poemas. Hay 2 maneras de abordarlo: opuestos o variables. Tomando como ejemplo los
+poemas que tratan el amor podemos definir caminos distintos según el tipo de amor del que hablan o oponerlo a un poema con desamor. ¿Podría ser ambas opciones?
+En caso de tener estas 3 opciones sería un poco más dificil polarizar los caminos pero se podría aprovechar de mejor manera el potenciador.
+
+## RECORRIDO (inicial)
+La interacción inicia haciendo una pregunta a través de la pantalla y dando 10 segundos para responderla por medio del potenciómetro. La elección entre una de las 2 opciones 
+llevará al usuario a otra pregunta distinta y dependiente de la pregunta anterior. Al responder esta 2da pregunta se reproducirá un poema variable y pertinente a la respuesta recibida.
+En total habrán 3 preguntas, 6 respuestas y 2 poemas ya que ambas preguntas secundarias ofrecerán el mismo par de poemas como resultado.
+
+## RE_PLANTEAMIENTO
+A medida que avanzamos en la planificación del proyecto nos dimos cuenta de dificultades que podríamos encontrar en el camino. La ramificación de las preguntas y respuestas
+se puede simplificar a una distribución lineal para evitar errores y mantener el efecto deseado. Consideramos la opción de tener más preguntas y almacenar las respuestas
+para devolver un poema. De esta manera se puede interactuar más con el mínimo sacrificio de los "caminos" según respuesta.
+
+## MÁS OPCIONES 
+<http://amediavoz.com/cortazar.htm#A%20UNA%20MUJER> <https://www.revistaaltazor.cl/julio-cortazar/> <https://www.poemas-del-alma.com/julio-cortazar-te-amo-por-ceja.htm>
+
+7.Los amantes-Amor, inclemencia y cotidianeidad
+
+8.La mas querida-Amor, amargura
+
+9.Siempre empezó a llover…-Desamor, fallo y desgracia
+
+10.Una carta de amor-Enamoramiento, apreciación
+
+11.Te amo por ceja-Amor, devoción y expectativa
+
+12.Tala-Amor, añoranza y entrega
+
+13.El futuro-Remembranza, nostalgia
+
+14.Happy New year-Amor, conquista 
+
+
+Nuestro proyecto busca satisfacer la necesidad de conexión humana de manera indirecta pero genuina. Por eso el tema principal de los poemas es el amor y los aspectos que lo acompañan. Para poder unirlos todos los poemas serán del mismo autor, ofreciendo tonos de dulzura, amargura y desamor provenientes de la misma persona. Después de esta recopilación será necesario formular las preguntas, definir respuestas de una palabra y seleccionar los versos por usar.
+
+

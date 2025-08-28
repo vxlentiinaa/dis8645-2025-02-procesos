@@ -1,6 +1,6 @@
 # sesion-01a
 
-## Clase 1: 05/08 MÁQUINAS COMPUTACIONALES
+## Clase 1a: 05/08 MÁQUINAS COMPUTACIONALES
 
 ### Apuntes
 
@@ -14,7 +14,7 @@ Conceptos clave
 
 **PCBA:** Es un sistema de soldadura impresa
 
-**¿Qué es una máquina?**
+¿Qué es una máquina?
 
 - Es algo que necesita energía
 
@@ -22,7 +22,7 @@ Conceptos clave
 
 - Cuenta con un límite de vida
   
-***Encargo 01: Investigar sobre Ada Lovelace y Alan Turing***
+Encargo 01: Investigar sobre Ada Lovelace y Alan Turing
 
 ## Alan Turing
 

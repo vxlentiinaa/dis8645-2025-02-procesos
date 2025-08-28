@@ -2,65 +2,63 @@
 
 [juce](https://juce.com) IDE
 
-## **Contenidos**
-
-- condicionales
-- iteradores
+## Contenidos
+- Condicionales
+- Iteradores
 - Serial.read()
-- protoboard
+- Protoboard
 
-[ejemplo condicionales](https://isitchristmas.com)
+[Ejemplo de condicionales](https://isitchristmas.com)
+
 RTC = Real Time Clock
 
 ## Condicionales e iteradores
 
 ### Condicionales
 
-Las condicionales son estructuras de control de flujo
+Las condicionales son estructuras de control de flujo.
 
-if = si esto ocurre haz...
+if = si esto ocurre, haz...
 
-else = si no ocurrio lo otro haz...
+else = si no ocurrió lo otro, haz...
 
-**variables**
+### variables
+
 = asigna un valor a la variable
-== verifica si dos valores son iguales entre si
+
+== verifica si dos valores son iguales entre sí
+
 ! lo opuesto a
 
-Ejemplos:
+#### Ejemplos:
 
 ```cpp
 if(tengoSueño == true){
- dormir();
+dormir();
 }
 else(){
- seguirDespierto();
+seguirDespierto();
 }
 ```
-
 ```cpp
 if(edad >= 18 AND edad <= 80){
 darPermisoDeConducir();
 }
 ```
-
 ```cpp
 if(!hayArana){
- reaccionoTranquilo();
+reaccionoTranquilo();
 else{
 chillar(volumen = infinito);
 }
 }
 ```
-
-### Operador Lógico
-
-Combinan valores booleanos para producir un resultado tambien booleano
-
-- Y / AND = Mutuamente dependiente de sus elementos
-- O / OR =  Independiente de sus elementos
+### Operador lógico
+Combinan valores booleanos para producir un resultado también booleano.
+- Y / AND = Mutuamente dependiente de sus elementos.
+- O / OR = Independiente de sus elementos
 - NO / NOT = Inversor de sus elementos
-  
+
 Tabla de verdad
 
 AND
@@ -91,17 +89,16 @@ NOT
 ### Iterar
 
 Es el proceso de repetir un conjunto de instrucciones o pasos varias veces.
+int i = variable de tipo int llamada "i".
 
-int i = variable tipo int llamada "i".
+for es para iterar.
 
-for es para iterar
-
-Dentro del for entre parentesis, se colocan 3 cosas:
-
+Dentro del for entre paréntesis, se colocan 3 cosas:
 1. partida
-2. termino
-3. actualizacion
-Entre murcielagos {} lo que quiero iterar
+2. término
+3. actualización
+
+Entre murciélagos {} lo que quiero iterar.
 
 ```cpp
 for(int i = 0; i < veces; i = i + 1)
@@ -109,3 +106,4 @@ for(int i = 0; i < veces; i = i + 1)
 hazEsto();
 }
 ```
+

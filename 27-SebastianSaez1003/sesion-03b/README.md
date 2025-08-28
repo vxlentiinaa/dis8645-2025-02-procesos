@@ -16,7 +16,7 @@ Aprendimos a añadir librerías a nuestra app de arduino
 
 ## módulo despues del break
 
-A la vuelta del break, Aaron nos explico la razón del porqué es importante el revisar que tengamos de manera organizada nuestras carpetas, para el funcionamiento correcto de nuestro código
+A la vuelta del break, Aarón Montoya nos explico la razón del porqué es importante el revisar que tengamos de manera organizada nuestras carpetas, para el funcionamiento correcto de nuestro código
 
 Now demostraron las maneras que se podían ocupar estas librerías, para hacer dibujos, animaciones, cargar imágenes, texto, etc, de una manera tan brutal que personalmente no alcance a escribir debido a la gran cantidad de informacion, pero si logre comprender, donde se deberian usar las distintas funciones asignadas por la misma librería para poder hacer cada acción designada.
 
@@ -113,6 +113,9 @@ void loop() {
 
 donde había una cantidad de texto menor a las 400 que tenía el ejemplo de Adafruit, donde elimine las líneas del código en las que se aplicaba el scroll, solo dejándome con display del texto si, para poder probar el cargar la tipografía que yo quería a parte de comentar la mayoria de cosas que si entendía
 
+![foto con letras gigantes, solo se lee "AOS"](./imagenes/sesion-03b-wokwi1.png)
+
+
 ``` c++
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -173,7 +176,7 @@ Donde funcionó, la carga de la tipografía, pero quedaba de un tamaño muy gran
 
 probe cambiarlo a un archivo de tipografía que tuviese un número menor antes del pt y efectivamente, era ese el problema donde me quedo de esta manera:
 
-(/imagenes/sesion-03b-wokwi2)
+![foto donde las letras se ven un poco mejor](./imagenes/sesion-03b-wokwi2.png)
 
 ``` c++
 #include <Wire.h>

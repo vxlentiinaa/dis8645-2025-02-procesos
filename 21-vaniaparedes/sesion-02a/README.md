@@ -1,25 +1,25 @@
 # sesion-02a
 
-## Apuntes video Github
+## Apuntes video GitHub
 
-Crear Folk y mantenerlo actualizado
-Apuntes y encargos por carpeta (sesión)
+Crear Fork y mantenerlo actualizado  
+Apuntes y encargos por carpeta (sesión)  
 
-camelCase
-Subir Proyecto de Arduino a Github
-Cmd + S = Guardar
-*Solamente una aplicación de arduino funciona si la carpeta y el archivo (principal) tienen el mismo nombre.
-*Carpeta puede contener otros archivos con otro nombre pero serán anexos.
+camelCase  
+Subir proyecto de Arduino a GitHub  
+Cmd + S = Guardar  
+*Solamente una aplicación de Arduino funciona si la carpeta y el archivo (principal) tienen el mismo nombre.*  
+*La carpeta puede contener otros archivos con otro nombre, pero serán anexos.*  
 
-Ir a carpeta, add file, upload, arrastrar carpeta (subir carpeta, no archivo)
+Ir a carpeta, Add file, Upload, arrastrar carpeta (subir carpeta, no archivo)  
 
-No sincronizar folk si mi estado es ahead y behind.
+No sincronizar fork si mi estado es ahead y behind.  
 
-## Subtitulo
+## Subtítulo
 
-### Subsubtitulo
+### Sub-subtítulo
 
-*Cursiva*
-**Bold**
+*Cursiva*  
+**Negrita**
 
 <https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet>
