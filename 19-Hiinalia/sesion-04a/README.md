@@ -791,4 +791,35 @@ void loop() {
 Ahora solo nos faltaría solo probar que funcione con el potenciómetro y con la pantalla integrada, así que vamos a integrar las librerías de adafruit y otras variables. Nos basamos a partir de el ejemplo de
 [sesion-03b/ejemploPantallita01](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01)
 
+## Investigación para corrección
+
+Mi pantallita dejó de funcionar, así que estaré utilizando la plataforma Wokwi para hacer cualquier prueba de código. No moví absolutamente nada de mi arduino, así que no sé cuál pudo haber sido el problema. Cuando lo encendí, la pantalla se encendió por completo y después dejó de funcionar. Pero bueno, cosas que pasan.
+
+Actualmente estoy investigando en lo último que hizo seba. Donde solo se muestra waos1, waos3, y waos6.
+Revisando el código, me dí cuenta que el seba puso al revés el ángulo del potenciómetro, a pesar de que habíamos llegado a una cierta lógica con eso.
+
+Lo que hizo el seba:
+
+```cpp
+if (anguloDelPote < 512){
+  poteValor = true;
+}
+
+
+else if (anguloDelPote > 512){
+  poteValor = false;
+}
+```
+
+Lo cambié a:
+```cpp
+if (anguloDelPote > 512){
+  poteValor = true;
+}
+
+
+else if (anguloDelPote < 512){
+  poteValor = false;
+}
+```
 
