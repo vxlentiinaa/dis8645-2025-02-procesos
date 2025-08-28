@@ -2,17 +2,17 @@
 
 ## Condicionales
 
-If (boolean condicion)
-(consequent)
-Else (alternative)
-End if
+If (boolean condición)  
+(consequent)  
+Else (alternative)  
+End if  
 
-"=" se usa para asignar un valor
-"==" comparar (¿Son lo mismo?)
-"!" lo contrario
-"++" = que decir x = x+x
-print(ln) = imprime y enter para la proxima vez que imprima
-"%" Módulo, para saber el resto (7%2=1)
+"=" se usa para asignar un valor  
+"==" comparar (¿Son lo mismo?)  
+"!" lo contrario  
+"++" = decir x = x + x  
+print(ln) = imprime y hace enter para la próxima vez que imprima  
+"%" Módulo, para saber el resto (7%2 = 1)  
 
 <https://docs.arduino.cc/language-reference/>
 
@@ -20,82 +20,80 @@ print(ln) = imprime y enter para la proxima vez que imprima
 
 ```cpp
 if (itIsRaining == true) {
-makeSopaipillas();
+  makeSopaipillas();
 }
 _______________________________
-//Se puede escribir una condición dentro de otra.
+// Se puede escribir una condición dentro de otra.
 if (see == false) {
-useGlasses();
+  useGlasses();
 }
 if (dirty == true) {
-cleanGlasses();
-}
-else{
-continuarConMiVida();
-}
-_______________________________
-//Más de una pregunta
-if (edad >= 18 AND edad <= 80) {
-permisoConducir();
-}
-
-if (edad >= 18 AND !(edad == 81) {
-permisoConducir();
-}
-
-id (december AND donFrancisco == true AND !godZilla AND !elecciones) {
-teleton();
+  cleanGlasses();
 }
 else {
-normalTransmision();
+  continuarConMiVida();
+}
+_______________________________
+// Más de una pregunta
+if (edad >= 18 AND edad <= 80) {
+  permisoConducir();
+}
+
+if (edad >= 18 AND !(edad == 81)) {
+  permisoConducir();
+}
+
+if (december AND donFrancisco == true AND !godZilla AND !elecciones) {
+  teleton();
+}
+else {
+  normalTransmision();
 }
 ```
-
-digitalWrite(*LED_BUILTON*, *prender*);
-Mayuscula = variable
-Minuscula = constante
+digitalWrite(LED_BUILTIN, prender);
+Mayúscula = variable
+Minúscula = constante
 
 millis() (positivos (+0))
 
 unsigned long
 
-## Operadores logicos
+Operadores lógicos
 
-Computativas, el orden no cambia el resultado
+Conmutativas, el orden no cambia el resultado
 
-* Compuertas
+Compuertas
 
-  ### AND &
+AND &
 
-  mutuamente dependiente
-  A B | out
-  0 0 | 0
-  0 1 | 0
-  1 0 | 0
-  1 1 | *1*
+Mutuamente dependiente
+A B | out
+0 0 | 0
+0 1 | 0
+1 0 | 0
+1 1 | 1
 
-  ### OR ||
+OR ||
 
-Si alguna de las entradas es si, la respuesta es si
+Si alguna de las entradas es sí, la respuesta es sí.
 Independiente
-  A B | out  
-  0 0 | 0
-  0 1 | 1
-  1 0 | 1
-  1 1 | 1
+A B | out
+0 0 | 0
+0 1 | 1
+1 0 | 1
+1 1 | 1
 
-### NOT
+NOT
 
-  Tenemos una variable y queremos detectar la ausencia de esta
-  A | out  
-  0 | 1
-  1 | 0
-  _______________________________
- *Investigar*
-  NAND
-  NOR
-  XOR
-  _______________________________
+Tenemos una variable y queremos detectar la ausencia de esta
+A | out
+0 | 1
+1 | 0
+
+Investigar
+NAND
+NOR
+XOR
 
 ### Iterar
 
