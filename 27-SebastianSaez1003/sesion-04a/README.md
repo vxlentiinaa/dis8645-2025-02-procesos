@@ -82,3 +82,15 @@ void loop() {
     }
 
 ```
+
+Lo primero que queríamos hacer era el tener múltiples conversaciones o preguntas con nuestro Arduino, así que tenemos que asignar un nombre para cada una de ellas, las cuales serían conversa1, conversa2, etc. Sucesivamente, hasta que llegáramos al número de conversaciones específicas que queríamos, o si es el caso de que la memoria de nuestro Arduino acabara ocupada al máximo de lo que pueda almacenar.
+
+Como esto fue hecho a memoria, para poder equivocarnos, pero también para demostrar lo que nos hacía sentido en el minuto, estas fueron escritas al principio del código como variables booleanas, ya que en un principio pensábamos que eso sería lo único necesario para poder “almacenar” la respuesta de cada pregunta y pasar a la siguiente, lo cual incluso en este código podemos observar que ya pensamos más allá, así que en la siguiente iteración del código serán borradas como booleanas, tan solo siendo asignadas como sus strings específicas en void setup().
+
+```cpp
+// booleana innescesaria
+bool conversa1 = true;
+
+// se ocuparan com strings para almacenar las conversaciones
+ String conversa2 = "waos";
+```
