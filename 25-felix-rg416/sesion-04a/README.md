@@ -6,7 +6,7 @@ Avanzamos muchísimo en el código para el proyecto
 
 Con el equipo investigamos sobre cómo hacer que el texto se mueva en la pantallita.
 
-### comando `map()`
+## comando `map()`
 
 <https://docs.arduino.cc/language-reference/en/functions/math/map/>
 
@@ -29,12 +29,13 @@ Se escribe en digital y se lee en analógico
 ![imagen](./imagenes/analogANDdigitalSignals.jpg)
 
 Los comandos para escribir o leer en analóco y digital:
+
 - **Leer**
-    - analógico --> `analogRead(pin que leerá)`
-    - digital -->`digitalRead()`
+  - analógico --> `analogRead(pin que leerá)`
+  - digital -->`digitalRead()`
 - **escribir**
-    - analógico --> `analogWrite()`
-    - digital --> `digitalWrite()`
+  - analógico --> `analogWrite()`
+  - digital --> `digitalWrite()`
 
 ### Código
 
@@ -54,7 +55,7 @@ void loop() {
 }
 ```
 
-## ENLACES:
+## ENLACES
 
 - [`map()`](https://docs.arduino.cc/language-reference/en/functions/math/map/)
 - [Controlar un servo con un potenciómetro](https://wokwi.com/projects/344892191015961170)
