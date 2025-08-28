@@ -11,6 +11,31 @@ Continuamos trabajando en el proyecto ya con las tareas designadas. llegue un po
 
 - Josefa: buzzer
 
+
+----------
+
+
+### Proyecto
+
+Nuestra idea es crear un haiku que se pueda leer en una pantalla OLED de 128 × 64 y mostrarlo en dos Arduinos. En el primero, se mostrará el haiku en código binario junto con imágenes representativas de cada verso (tres en total), de manera que se pueda leer el poema de arriba hacia abajo.
+
+El segundo Arduino mostrará una versión más sencilla del primero, en la que el poema se muestra en texto normal, y al igual que en el primero, se podrá ir leyendo de arriba hacia abajo usando el potenciómetro.
+
+Como extra, tenemos pensado hacer que un buzzer reproduzca el poema.
+
+### Haiku
+
+El haiku es un poema de origen japonés. Es breve, de tres líneas. Hay distintas reglas de escritura; la que elegimos cuenta con tres versos: la primera línea tiene 5 sílabas, la segunda 7 y la tercera 5. Normalmente habla de la naturaleza o de un sentimiento, y busca transmitir mucho con pocas palabras. En nuestro caso, quisimos alejarnos un poco de eso y hacerlo relacionado con lo que estamos haciendo y bien sencillito.
+
+Poema
+````cpp
+Codigo Arduino
+OLED ya encendido
+Cerebro fundido
+````
+
+![dibujoenpantalla](./imagenes/1.jpg) 
+
 ### Trabajo en clases
 
 - De momento tenemos el código separado por funciones.
@@ -176,9 +201,6 @@ const unsigned char akrilla [] PROGMEM = {
 0xff, 0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x7f, 0xff, 0xff, 0xff, 0xf8, 0x0f, 0xff, 0xff, 0xff
 };
 
-
-
-
 void setup() {
   if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("No se encontró la pantalla SSD1306"));
@@ -207,7 +229,8 @@ void loop() {
   pantallita.display(); // Actualiza la pantalla
 
   `````
-modifique la imagen para que no apareciera la linea amarilla arriba de la pantalla.
+
+
 
 
 }
