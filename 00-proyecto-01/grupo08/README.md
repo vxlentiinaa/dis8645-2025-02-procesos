@@ -97,6 +97,206 @@ El desafío fué que el poema que funcionaba con potenciomtro era el segundo. El
 Pensamos que esto ocurria ya que por estar el poema 1 en "loop" este se repetía e interrumpía el segundo poema, por lo que nuestra solución fue subir el poema 1 en setup para que se mostrara solo una vez y luego dejar en loop el poema 2.
 Luego para poder seguir con los siguientes poemas la idea es darle la instrucción a arduino que una vez el potenciómetro llega a 1023 espere unos segundos y comience con los siguientes poemas.
 
+Código con el error:
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+//Configuración de la pantalla
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+ //Potenciómetro
+ int valorPot = 0; // valor leído desde el potenciómetro se comienza con 0
+
+// VERSOS DEL POEMA2 Etapa: "El Amor"
+ String verso0 = "Quiero";
+ String verso1 = "hacer";
+ String verso2 = "contigo";
+ String verso3 = "lo que\nla";     // "lo que" enter "la" abajo
+ String verso4 = "primavera\nhace"; // "primavera" enter "hace" abajo
+ String verso5 = "con los";
+ String verso6 = "cerezos.";
+
+//Referencia ejemplo AdaFruit
+
+  // Iniciar la pantalla OLED
+void setup() {
+  Serial.begin(9600);
+  // Dirección I2C 0x3C
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontrÃ³ la pantalla SSD1306"));
+    for(;;); // Bucle infinito si no detecta la pantalla para que no se muera
+  }
+  // Limpiamos toda la pantalla
+  pantallita.clearDisplay();
+  // Color de texto en pantalla
+  pantallita.setTextColor(SSD1306_WHITE);
+
+};
+
+void loop() {
+
+  //PRIMER MOMENTO, ETAPA1: "EL ENCUENTRO"
+  pantallita.clearDisplay(); 
+  
+  pantallita.display(); // Actualiza la pantalla
+
+  //Tamaño del texto
+  pantallita.setTextSize(2); 
+  pantallita.setTextColor(SSD1306_WHITE);
+  //Coordenadas del texto
+  //Título etapa1
+  pantallita.setCursor(50, 00);
+  pantallita.println(F("El"));
+  pantallita.setCursor(10, 20);
+  pantallita.println(F("Encuentro"));
+
+  //Pantallita pantallea
+  pantallita.display();    
+  // 3 segundos con el título
+  delay(3000);
+  pantallita.clearDisplay();
+
+  //Poema 1
+  //Frase1
+  // Scroll en varias direcciones
+  pantallita.setTextSize(2); 
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(20, 00);
+  pantallita.println(F("Si me"));
+
+  pantallita.display();      
+  delay(10);
+
+  pantallita.startscrollright(0x20, 0x0F);
+  //scroll 2seg
+  delay(2000);
+  pantallita.stopscroll();
+
+  //Frase2 
+  //Conectada con frase 1
+  pantallita.setTextSize(2); 
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(20, 20);
+  pantallita.println(F("miras"));
+
+  pantallita.display();      
+  delay(10);
+
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(2000);
+  pantallita.stopscroll();
+
+  pantallita.clearDisplay();
+
+  //Frase3
+  //bajando el texto con las coordenadas
+  pantallita.setTextSize(2); 
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(40, 20);
+  pantallita.println(F("yo me"));
+
+  pantallita.display();      
+  delay(10);
+
+  pantallita.startscrollright(0x20, 0x0F);
+  delay(1500);
+  pantallita.stopscroll();
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(1500);
+  pantallita.stopscroll();
+
+  //Frase4
+  //Conectada con frase 3
+  pantallita.setTextSize(2); 
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(40, 40);
+  pantallita.println(F("vuelvo"));
+
+  pantallita.display();      
+  delay(10);
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(2000);
+  pantallita.stopscroll();
+ 
+  pantallita.clearDisplay();
+  
+  //Frase5
+  //Sola al medio de la pantalla
+  pantallita.setTextSize(2);
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(10, 20);
+  pantallita.println(F("HERMOSA"));
+
+  pantallita.display();      
+  delay(100);
+
+  pantallita.startscrollright(0x20, 0x0F);
+  delay(2000);
+  pantallita.stopscroll();
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(3000);
+  pantallita.stopscroll();
+  pantallita.clearDisplay();
+
+  //SEGUNDO MOMENTO, ETAPA2: "EL AMOR"
+  //Tamaño del texto
+  pantallita.setTextSize(2); 
+  pantallita.setTextColor(SSD1306_WHITE);
+  //Coordenadas del texto
+  //Título etapa2
+  pantallita.setCursor(50, 00);
+  pantallita.println(F("El"));
+  pantallita.setCursor(40, 20);
+  pantallita.println(F("Amor"));
+
+    //Pantallita pantallea
+  pantallita.display();    
+  // 3 segundos con el título
+  delay(3000);
+  pantallita.clearDisplay();
+
+  //Referencia ejercicio en clases
+  valorPot = analogRead(A0); // leer valor entre 0 y 1023
+  Serial.println(valorPot);  // para ver en Serial Monitor
+
+  pantallita.clearDisplay(); // limpiar
+  pantallita.setTextSize(2);
+  pantallita.setCursor(0, 20);
+
+  // Mostrar frase según rango en valorpot
+  if (valorPot < 146) {             // 0 - 145
+    pantallita.println(verso0);
+  } 
+  else if (valorPot < 292) {        // 146 - 291
+    pantallita.println(verso1);
+  } 
+  else if (valorPot < 438) {        // 292 - 437
+    pantallita.println(verso2);
+  } 
+  else if (valorPot < 584) {        // 438 - 583
+    pantallita.println(verso3);     
+  } 
+  else if (valorPot < 730) {        // 584 - 729
+    pantallita.println(verso4);     
+  } 
+  else if (valorPot < 876) {        // 730 - 875
+    pantallita.println(verso5);
+  } 
+  else {                            // 876 - 1023
+    pantallita.println(verso6);
+  }
+
+  pantallita.display(); // mostrar en pantalla
+  delay(150);            
+
+};
+```
+
 ## Etapas del código
 
 Segmenta las secciones de tu código y explícalas
