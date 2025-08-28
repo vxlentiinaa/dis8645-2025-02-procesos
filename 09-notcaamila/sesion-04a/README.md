@@ -30,7 +30,7 @@ a continuación adjunto los dibujos generados para cada refrán
 
 2. "se le escapan los enanitos al bosque"
 
-![selescapanlosenanitosalbosque](./imagenes/slosenanitos1.png)
+![selescapanlosenanitosalbosque](./imagenes/losenanitos1.png)
 
 3. "quedar como chaleco de mono"
 
