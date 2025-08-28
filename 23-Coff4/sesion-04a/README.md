@@ -29,6 +29,8 @@ Así que podriamos comenzar a probar.
 
 En mi caso intente usar el codigo que encontre
 
+(https://wokwi.com/projects/440544147539910657) 
+
 ![Primer acercamiento](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Bajo.png)
 
 ```cpp
@@ -431,6 +433,8 @@ delay(velocidad);
 ```
 ...Estatica aun
 
+(https://wokwi.com/projects/440544372635658241)
+
 ![Rafita arriba y a medias](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/MedioRafita1.png)
 
 Aun debe estar pasando algo con las coordenadas y la posicion del codigo 	___〆(・∀・)
@@ -438,6 +442,8 @@ Aun debe estar pasando algo con las coordenadas y la posicion del codigo 	___〆
 Esta vez necesite de ayuda para entender que pasaba y como solucionar esto de una vez por todas.
 
 *Aqui le doy credito a los profes, muchas gracias*
+
+(https://wokwi.com/projects/440544283098786817)
 
 ```cpp
     display.display();
@@ -502,6 +508,8 @@ void loop() {
   delay(50);
 }
 ```
+(https://wokwi.com/projects/440544224180345857)
+
 ![imagen del Botón](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Boton.png)
 
 Esto seria el comienzo para despues modificarlo, pero viendo que aun teniamos que ajustar el codigo principal y ver el tema de la imagen.
@@ -696,9 +704,153 @@ Aqui si se pueden notar cambios en el codigo y todo fue solucionado...finalmente
 
 ![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Santiago.jpg)
 
-*Pd: se ve mal, pero creanme que la imagen si es buena*
+*Pd: se ve mal, pero creanme que la imagen si es buena* 
+*Pd2: la cambiare una vez llegue a casa*
 
 ---
+
+## Entre Martes y Miercoles
+
+Mi equipo termino de hacer 4 versiones del codigo, ajustado el poema y alargandolo.
+
+Esta es la version 2 (ya que la primera fue puesta mas arriba)
+
+```cpp
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+#define potenciometro A3
+
+
+Adafruit_SSD1306 display (SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+int velocidad; // se crea variable velocidad
+
+
+void setup () {
+  // inicia la pantalla OLED
+  display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+  // limpia la pantalla antes de dibujar.
+  display.clearDisplay();
+  // define el tamaño del texto.
+  display.setTextSize(1);
+  // define el color del texto.
+  display.setTextColor(WHITE);
+}
+
+
+void loop() {
+  // la variable velocidad lee el potenciometro.
+  velocidad = analogRead(potenciometro);
+  // se determina con map que los valores de potenciometro sean adaptados a la velociadad que se mueve el texto.
+  velocidad = map(velocidad, 0, 1023, 0, 100);
+  // variable i, determina que el texto va subiendo desde abajo hacia arriba.
+ for (int i = 0; i < SCREEN_HEIGHT *3; i += 2) {
+    display.clearDisplay();
+    // La pantalla se divide en 3 partes, el texto se ubica en la parte de abajo (la tercera parte) en donde se va sumando de 2 en 2 “i”, por lo tanto en la siguiente línea se va restando este valor para que la pantalla suba
+    display.setCursor(0, SCREEN_HEIGHT - i); 
+    display.println(F("En Santiago de Chile"));
+    display.println(F(""));
+    display.println(F("los dias son"));
+    display.println(F(""));
+    display.println(F("interminablemente"));
+    display.println(F(""));
+    display.println(F("largos"));
+    display.println(F(""));
+    display.println(F("interminablemente"));
+    display.println(F(""));
+    display.println(F("largos"));
+    //
+    display.display();
+    // ajusta el retraso de velocidad del scroll segun designado en for.
+    delay(velocidad);
+  }
+}
+```
+
+Y esta es la version 4
+
+```cpp
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+#define potenciometro A3
+
+
+Adafruit_SSD1306 display (SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+// se crea la variable volocidad
+int velocidad;
+
+
+void setup () {
+  // inicia la pantalla OLED
+  display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+  // limpia la pantalla antes de dibujar.
+  display.clearDisplay();
+  // define el tamaño del texto.
+  display.setTextSize(1);
+  // define el color del texto.
+  display.setTextColor(WHITE);
+}
+
+
+void loop() {
+  // la variable velocidad lee el potenciometro.
+  velocidad = analogRead(potenciometro);
+  // se determina con map que los valores de potenciometro sean adaptados a la velocidad que se mueve el texto.
+  velocidad = map(velocidad, 0, 1023, 0, 100);
+  // variable i, determina que el texto va subiendo desde abajo hacia arriba.
+ for (int i = 0; i < SCREEN_HEIGHT *4; i += 2) {
+    display.clearDisplay();
+    // se determina que el texto vaya subiendo
+    display.setCursor(0, SCREEN_HEIGHT - i);
+    display.println(F("En Santiago de Chile"));
+    display.println(F(""));
+    display.println(F("los dias son"));
+    display.println(F(""));
+    display.println(F("interminablemente."));
+    display.println(F(""));
+    display.println(F("largos."));
+    display.println(F(""));
+    display.println(F("Varias eternidades"));
+    display.println(F(""));
+    display.println(F("en un dia."));
+    display.println(F(""));
+    display.println(F("Nos desplazamos"));
+    display.println(F(""));
+    display.println(F("a lomo de luma"));
+    display.println(F(""));
+    display.println(F("Como los vendedores"));
+    display.println(F(""));
+    display.println(F("de cochayuyo:"));
+    display.println(F(""));
+    display.println(F("Se bosteza."));
+    display.println(F(""));
+    display.println(F("Se vuelve a bostezar."));
+    // envía el contenido preparado, texto, a la pantalla.
+    display.display();
+    // ajusta el retraso de velocidad del scroll segun designado en for.
+    delay(velocidad);
+  }
+}
+```
+Inlcuso teniendo su version simulada en Wokwi
+(https://wokwi.com/projects/440319400562495489)
+
+---
+
+Ahora solo queda mezclar el codigo de la imagen y el codigo de los poemas
+*voy a intentar probar mientras tengo un descanso en mi clase de Serigrafia*
+
 
 *ODIO GITHUB! estoy de lo lindo haciendo mi documento con el fork actualizado y al quedarme haciendo mi documentacion por harto tiempo,
 despues dice que esta desactualizado GRRRRR (‡▼益▼)*
