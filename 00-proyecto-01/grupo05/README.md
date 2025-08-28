@@ -1,13 +1,12 @@
-# proyecto-01
+# Proyecto-01
 
 ## Acerca del proyecto
 
-- Grupo: 05
-- Nombre de grupo: ARRAY
+- Grupo: 05 / ARRAY
 - Integrantes:
   - [Aileen D'Espesailles](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design)
   - [Bernardita Lobo](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos)
-  - [Carla Pino](
+  - [Carla Pino](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/23-Coff4)
   - [Félix Rodríguez](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/25-felix-rg416)
 
 ## Presentación textual
@@ -72,6 +71,12 @@ idea del dibujo
 ### Pixel art
 
 Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidimos hacer una pequeña representación de Santiago.
+
+Bernardita estuvo investigando algunas herramientas gratuitas para hacer pixel art, ya que nunca había hecho un dibujo de este estilo y no tenía mucha experiencia en lo gráfico. Realizó el dibujo finalmente en Paint, ya que con las herramientas que tenía era suficiente.
+
+Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
+
+Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
 
 ![imagen](./imagenes/pixelart.jpeg)
 
