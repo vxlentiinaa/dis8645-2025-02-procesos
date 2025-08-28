@@ -42,7 +42,7 @@ para poder escribir codigos en lenguaje C++
 
 [Arduino Documentation](https://docs.arduino.cc)
 
-**Impirtante**
+Importante
 
 - ✔ :Para verificar código.Para enviar código.
 - -> :Para enviar código.
@@ -53,6 +53,7 @@ para poder escribir codigos en lenguaje C++
 ### código vistos en clases
 
 -Examples/basics/Blink/
+
 ```cpp
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -104,4 +105,3 @@ void confeti(){
   Serial.print('wujuuu!');
 }
 ```
-
