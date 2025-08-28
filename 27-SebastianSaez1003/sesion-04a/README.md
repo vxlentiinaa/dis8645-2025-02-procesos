@@ -13,7 +13,7 @@ El valor que tenga mi potenciómetro no importa, debido a que es proporcional al
 
 Como ya tenía mencionado en mi investigación sobre cómo funcionaban los potenciómetros para su uso con Arduino en la tarea de la sesión 03b, no repetiré lo mismo.
 
-## progreso para el encargo 1
+## progreso para el proyecto 1
 
 Como idea de cómo podíamos llevar a cabo nuestra idea de las distintas conversaciones del usuario con nuestro Arduino, sabíamos que la parte más esencial del codigo seria los “if” statements, para poder diferenciar los caminos tomados por el usuario, según las opciones elegidas después de cada pregunta dada por el Arduino, donde dependiendo de la distinta respuesta que dé el usuario, saldrian distintas preguntas, osea que no todas las personas tendrían la misma experiencia al momento de tener la conversación con nuestro Arduino.
 
