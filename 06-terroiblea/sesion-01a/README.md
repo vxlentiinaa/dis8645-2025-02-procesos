@@ -60,8 +60,9 @@ Martes y Viernes 08:30 a 12:50
 - Cuenta cono una intención.
 - Facilitar.
 
-*MACHINE -> MEKHANE*
-- artificio, ingenio y medio. 
+MACHINE -> MEKHANE
+
+- artificio, ingenio y medio.
 
 ### Computacional
 
