@@ -36,6 +36,7 @@ se intento poniendo una resistencia de 1k entre vcc y res
 también con el siguiente código:
 
   ´´´cpp
+  
   // This example draws an animated dial with a rotating needle.
 
 // The dial is a jpeg image, the needle is created using a rotated
@@ -254,7 +255,7 @@ void plotNeedle(int16_t angle, uint16_t ms_delay)
 
   no muestra lo que debería. en cambio muestra un tipo de "glitch" en la pantalla 
   
-  ![glitch_pucha](./imagenes/glitch.jpeg)
+  ![glitch](./imagenes/glitch.jpeg)
   
   ![glitch](./imagenes/glitch.gif)
 
