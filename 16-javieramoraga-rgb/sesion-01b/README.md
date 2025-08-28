@@ -2,19 +2,23 @@
 
 ## Herramientas
 
-+ **Discord**
-+ **GitHub**
-+ **Arduino IDE 2**
-+ **VS Tools – PU**
+* Discord
+* GitHub
+* Arduino IDE 2
+* VS Tools – PU
+
+***
 
 ────୨ৎ────
 
 ## Apuntes sobre Funciones en Programación ⊹ ࣪ ˖
 
-## Conceptos Básicos
+### Conceptos Básicos
 
-+ **Para que algo ocurra, primero debe ser creado.**  
++ Para que algo ocurra, primero debe ser creado.
 + No se puede usar algo que no existe.
+
+***
   
 ## Función `()`
 
@@ -25,5 +29,7 @@
 
 ### Ejemplo en C/Arduino
 
-```c
-funcion(arg1, arg2, arg3); 
+ ```cpp
+function(arg1, arg2, arg3);
+
+```
