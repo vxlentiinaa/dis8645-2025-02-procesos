@@ -5,10 +5,10 @@
 - Grupo: 06
 - Nombre de grupo: brainrot
 - Integrantes:
-  - Sofía Cartes
-  - Antonia Fuentealba
-  - Sofía Perez
-  - Valentina Ruz
+  - Sofía Cartes / [sofiacartes](https://github.com/sofiacartes)
+  - Antonia Fuentealba / [AntFuentealba](https://github.com/AntFuentealba)
+  - Sofía Perez / [sofia-perezm](https://github.com/sofia-perezm)
+  - Valentina Ruz / [vxlentiinaa](https://github.com/vxlentiinaa)
 
 ## Presentación textual
 
@@ -220,3 +220,7 @@ Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas,
 <https://www.instagram.com/p/CoKJIqsuMHv/?img_index=1>
 
 <https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
+
+<https://wokwi.com/projects/440360994230097921>
+
+<https://fudemaka57.exblog.jp/>
