@@ -443,7 +443,7 @@ Aun debe estar pasando algo con las coordenadas y la posicion del codigo  ___〆
 
 Esta vez necesite de ayuda para entender que pasaba y como solucionar esto de una vez por todas.
 
-*Aqui le doy credito a los profes, muchas gracias*
+Aqui le doy credito a los profes, muchas gracias
 
 (<https://wokwi.com/projects/440544283098786817>)
 
