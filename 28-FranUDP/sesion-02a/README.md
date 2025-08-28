@@ -22,18 +22,28 @@ En la clase le hicimos entrega de una [maquina percutora](https://www.instagram.
 
 <br>
 
-### [Clases y objetos]()
+### [Clases y objetos](https://www.youtube.com/watch?v=_8H2n0nDfd4)
 
+Una clase permite definir las características de multiples objetos, por ejemplo, todos los autos tienen un motor, manubrio, ruedas, cinturón de seguridad, etc.
 
+en lugar de definir estas caracteísticas para cada tipo de auto, se define una clase y se asignan objetos a esa clase.
 
-### Other things: <!-- Things to organize + random stuff -->
-> ### SUB_SUBTITULO
+### [Anexar archivos de arduino](https://youtu.be/HtYlQXt14zU?si=D9nGCln6XQFocKOa&t=143)
+
+Para evitar tener un solo archivo super largo y dificil de leer, se separan distintas partes del código en distintos archivos que trabajan en conjunto.
+
+ por ejemplo, en un proyecto donde se utiliza sensores, un algoritmo y un modulo para comunicación inalábrica, se pondrían en distintos archivos el codigo que trabaja con los sensores, el algoritmo y la comunicación inalámbrica.
+
+ De esa forma el codigo es modular y si se quiere alterar, revisar o reutilizar componentes es mucho más facil.
+
+ para que los distintos codigos funcionen en conjunto hay que decirle al archivo principal que los incluya
+
+ ````cpp
+#include <library.h>
+ ````
+
+ Esto es lo mismo que se hace con librerías y otras piezas de código que otra gente ha hecho, ahorrandonos el tiempo de escribir el código cada vez que queramos usarlo.
 
 -----------------------------------------------------------------------------------------------------------
-## Encargo XX <!-- TEXT -->
-### TITULO
-
-
------------------------------------------------------------------------------------------------------------
-## Encargo YY <!-- TEXT -->
-### TITULO
+## Subir el archivo del código anterior <!-- TEXT -->
+### [Código LED pulsante]()
