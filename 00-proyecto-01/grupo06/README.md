@@ -5,10 +5,10 @@
 - Grupo: 06
 - Nombre de grupo: brainrot
 - Integrantes:
-  - Sofía Cartes
-  - Antonia Fuentealba
-  - Sofía Perez
-  - Valentina Ruz
+  - Sofía Cartes / [sofiacartes](https://github.com/sofiacartes)
+  - Antonia Fuentealba / [AntFuentealba](https://github.com/AntFuentealba)
+  - Sofía Perez / [sofia-perezm](https://github.com/sofia-perezm)
+  - Valentina Ruz / [vxlentiinaa](https://github.com/vxlentiinaa)
 
 ## Presentación textual
 
@@ -30,8 +30,6 @@ Cada uno de los 4 integrantes del equipo diseñó su propio poema y dibujo, comp
 
 Ikeda Sumiko [1936. - ]
 
-<https://www.instagram.com/p/DKa0Ut-uD2x/?img_index=1>
-
 - Cerezo invernal
 
   Lo vi tan desolado
@@ -40,17 +38,13 @@ Ikeda Sumiko [1936. - ]
 
 Kajin Aioigaki [1898-1985]
 
-<https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
-
-- Acostumbrándome
+- Florece el cosmos
   
-  a la soledad, y también al frío,
+  al amanecer…
   
-  día a día.
- 
- Teiko Inahata [1934-2022]
-
-<https://www.instagram.com/p/C-QEvooOwGW/?img_index=1>
+  Soledad.
+  
+Aya Shōbu [1924-2005]
 
 - Noche de otoño…
   
@@ -59,8 +53,6 @@ Kajin Aioigaki [1898-1985]
   un espejo en la mano.
   
   Tōshi Akao [1925-1981]
-
-<https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
 
 ## Inputs y outputs
 
@@ -80,7 +72,7 @@ Las siguientes opciones:
 
 El poema, el autor y un símbolo relacionado a este.
 
-Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilidad a estos poemas, incorporamos 3 códigos distintos, para que en 3 pantallas vieran distintos poemas y símbolos.
+Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilidad a estos poemas, incorporamos 4 códigos distintos, para que en 4 pantallas vieran distintos poemas y símbolos.
 
 ## Bocetos de planificación
 
@@ -218,3 +210,17 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+
+<https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
+
+<https://www.instagram.com/p/DKa0Ut-uD2x/?img_index=1>
+
+<https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
+
+<https://www.instagram.com/p/CoKJIqsuMHv/?img_index=1>
+
+<https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
+
+<https://wokwi.com/projects/440360994230097921>
+
+<https://fudemaka57.exblog.jp/>
