@@ -72,7 +72,7 @@ Las siguientes opciones:
 
 El poema, el autor y un símbolo relacionado a este.
 
-Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilidad a estos poemas, incorporamos 3 códigos distintos, para que en 3 pantallas vieran distintos poemas y símbolos.
+Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilidad a estos poemas, incorporamos 4 códigos distintos, para que en 4 pantallas vieran distintos poemas y símbolos.
 
 ## Bocetos de planificación
 
