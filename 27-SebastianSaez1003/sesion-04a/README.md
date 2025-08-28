@@ -94,3 +94,22 @@ bool conversa1 = true;
 // se ocuparan com strings para almacenar las conversaciones
  String conversa2 = "waos";
 ```
+
+Para la siguiente variable, que en este caso sí tiene sentido que sea booleana, fue escrita como tal ya que vamos a querer solo 2 formas de su uso, las cuales son atribuidas a true o false, donde dividiremos en una funcion que sera escrita, que el potenciometro que tenemos está apuntando hacia la izquierda o hacia la derecha donde la opción izquierda seria su valor del Analog Read desde 0 a 511 y la opción derecha sería desde 512 hasta 1023, esta decisión fue pensada para que los “if” statements que serán ocupados para las conversaciones no tuviesen que estar escritos múltiples veces, sino que acortarlo a true o false, donde un if statement, donde estará definido el “lado izquierdo” del potenciómetro, el potevalor sea true, mientras que el “else if” statement será que el pote valor sea falso, debido a que estará en el rango de la posición de la derecha del potenciómetro
+
+```cpp
+// para poder definir que este valor de pote necesitamos que sea tan solo 2 valores, si o no
+bool potevalor = true;
+
+// si es que la medida del puerto Analogo es menor que 512
+// potevalor no se cumplira
+if (analogRead(A0) < 512){
+potevalor = false
+}
+// si es que la medida del puerto Analogo es mayor que 512
+// potevalor si  se cumplira
+else if (analogRead(A0) > 511){
+potevalor = true
+}
+```
+
