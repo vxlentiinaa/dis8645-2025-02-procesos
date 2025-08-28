@@ -113,3 +113,47 @@ potevalor = true
 }
 ```
 
+Las siguientes variables booleanas que fueron declaradas fueron respuestas específicas para cada una de las conversaciones, donde cada conversación tendrá 2 distintas respuestas, que seria la izquierda o la derecha, estas variables existen con la intención de hacer que nuestros “if” statements no puedan causar problemas con el código en su funcionamiento.
+
+Con lo que nos referimos con esto es el hecho de que si no tuviéramos estas respuestas guardadas, digamos que estamos en la conversación 3, que se llegaba al elegir la respuesta derecha en la conversación número 1, ¿que es lo que previene el hecho de cambiar el estado del potenciómetro a la izquierda, mientras que se está realizando la 3ra conversación, y de esta manera cambiase el estado y se fuese a la conversación 2? de la manera hipotética siguiente:
+
+```cpp
+void loop() {
+// que se cargue la conversacion 1
+string (conversa1)
+	// cuando el pote este hacia la derecha
+if (valorpote == true){
+
+// cargaremos la conversacion 2
+string (conversa2)
+
+	// cuando este el potenciometro a la derecha
+if (valorpote == true){
+
+// la conversacion 4 sera cargada
+	 string (conversa4)
+}
+
+// la conversacion 5 sera cargada
+if (valorpote == false){
+	 string (conversa5)
+}
+
+}
+
+// cuando este el potenciometro a la izquierda
+else if (valorpote == false){
+string (conversa3)
+}
+
+}
+```
+
+La respuesta sería nada, o alumnos que se nos ocurra que impida este problema por sí mismo, sería un mundo de cambios constantes que el arduino procesaría de una manera que no comprendemos, el cual igual dejamos como ejemplo de prueba, pero con el monitor serial, para verlo de una manera más precisa con tiempo específico de cada acción:
+
+```cpp
+// carga del codigo sin almacenamiento de respuestas
+// y su problema de funcionamiento
+
+```
+
