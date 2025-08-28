@@ -17,11 +17,13 @@ cronograma de la clase
 ### ¿Qué es una máquina?
 
 ¨machina - Mekhane¨
+
 - artificio
 - ingenio
 - medio
 
-**Máquina**
+Máquina
+
 - Objeto físico
 - Capacidad de ejecutar correr procesos
 - Tiene IN & OUT
@@ -37,7 +39,8 @@ cronograma de la clase
 
 ---
 
-### ¿Qué es computacionales?
+¿Qué es computacionales?
+
 - Objeto físico
 - Lenguaje - signos y símbolos
 - Orden --> lógico --> secuencial / Combinacional
@@ -60,7 +63,7 @@ Vamos a usara Arduino R4 Minima
 
 ---
 
-### Referentes 
+### Referentes
 
 [ZKM](https://zkm.de/en)
 

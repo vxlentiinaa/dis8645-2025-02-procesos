@@ -10,17 +10,17 @@ se hace en grupos de 3 a 4 personas
 
 ## grupos
 
-- grupo 01 maincraf 
+- grupo 01 maincraf
 
   - Camila Delgado
   - Camila Parada
   - Braulio Figueroa
   - Santiago Gaete
 
-- grupo 02 Gatolate 
+- grupo 02 Gatolate
 
   - Antonella Aguilar
-  - Javiera Moraga, 
+  - Javiera Moraga
   - Pía Orellana
 
 - grupo 03 waos
@@ -39,9 +39,9 @@ se hace en grupos de 3 a 4 personas
 
 - grupo 05 ARRAY
 
-  - Aileen D'Espesailles 
-  - Bernardita Lobo 
-  - Carla Pino 
+  - Aileen D'Espesailles
+  - Bernardita Lobo
+  - Carla Pino
   - Félix Rodríguez
 
 - grupo 06 brainrot

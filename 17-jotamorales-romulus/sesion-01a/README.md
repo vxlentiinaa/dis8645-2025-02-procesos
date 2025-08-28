@@ -31,7 +31,7 @@ Al final de la clase se nos hizo entrega del Arduino Uno R4 Mínima el cual es u
 
 ***
 
-### Encargo 1
+## Encargo 1
 
 ***
 

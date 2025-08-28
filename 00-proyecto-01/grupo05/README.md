@@ -4,13 +4,12 @@
 
 - Grupo: 05
 - Nombre de grupo: ARRAY
-- Grupo: 05
-- Nombre de grupo: ARRAY
 - Integrantes:
-  - Aileen D'Espesailles 
-  - Bernardita Lobo 
-  - Carla Pino 
-  - Félix Rodríguez
+  - [Aileen D'Espesailles](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design)
+  - [Bernardita Lobo](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos)
+  - [Carla Pino](
+  - [Félix Rodríguez](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/25-felix-rg416)
+
 ## Presentación textual
 
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
@@ -26,34 +25,92 @@ Se interactúa con el diseño al mover la perilla del potenciómetro, la cual re
 
 Fotografías y dibujos de maquetas y pruebas
 
+diagrama de flujo
+
+### Poema
+
+>En Santiago de Chile
+>
+>Los
+>
+>días
+>
+>son
+>
+>interminablemente
+>
+>largos:
+>
+>
+>Varias eternidades en un día.
+>
+>
+>Nos desplazamos a lomo de luma
+>
+>Como los vendedores de cochayuyo:
+>
+>Se bosteza. Se vuelve a bostezar.
+>
+>
+>Sin embargo las semanas son cortas
+>
+>Los meses pasan a toda carrera
+>
+>Ylosañosparecequevolaran.
+
+idea del dibujo
+
+### Pixel art
+
+Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidimos hacer una pequeña representación de Santiago.
+
+![imagen](./imagenes/pixelart.jpeg)
+
+![imagen](./imagenes/registro01.jpeg)
+
+![imagen](./imagenes/registro02.jpeg)
+
 ## Etapas del código
 
 Segmenta las secciones de tu código y explícalas
 
-## Roles del equipo
+explicar errores, comentarios
 
-Menciona y desarrolla los roles que ejerció cada integrante
+### Imagen
 
-### Aileen D'Espessailles
+Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta nos permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
 
-Uso como referencia y base para empezar a programar (https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8), link que investigo Carla. 
-Luego, a partir de este ejemplo, cambió los comandos de acuerdo a lo que deseaba el grupo ( que el texto subiera por la pantalla ). También realizó la investigación del código que controla un servomotor con un potenciómetro y lo unió, junto a Félix, al código para regular la velocidad del poema. Además hizo un registro fotográfico del circuito.
+![imagen](./imagenes/dibujo.png)
 
-https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
+poner codigo del dibujo
 
-### Bernardita Lobo
-Diseñó y transformó la imagen para el código de acuerdo al poema, investigó sobre el dibujo en pixel art y también desarrolló los registros del proyecto.
+## Actividades y roles del equipo
 
-### Carla Pino
+### Investigación sobre proyectos y código
 
-Investigó sobre la forma de hacer aparecer una imagen luego del poema y lo unió al código principal
-Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
+- Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: todos participaron investigando códigos, referencias y recursos para el desarrollo del proyecto.
 
-### Félix Rodríguez
+### Programación base / adaptación de código
 
-Realizó la investigación sobre cómo usar el potenciómetro como regulador de velocidad y lo unió, junto a Aileen, al código del servo motor.
+- Aileen D'Espessailles: adaptó código de referencia para que el texto subiera en la pantalla.
 
-<https://docs.arduino.cc/language-reference/en/functions/math/map/ // cómo usar map(). Define los valores del potenciómetro en velocidades>
+### Integración del control del con potenciómetro y regulación de velocidad
+
+- Aileen D'Espessailles y Félix Rodríguez: investigaron cómo usar el potenciómetro para controlar la velocidad y lo unieron al código del servo motor.
+
+### Investigación de aparición de imágenes tras el poema
+
+- Carla Pino: buscó y unió recursos para que las imágenes aparecieran al finalizar el poema.
+
+- Bernardita Lobo: investigó sobre las imágenes y cómo integrarlas al proyecto.
+
+### Diseño visual
+
+- Bernardita Lobo: diseñó una imagen en pixel art.
+
+### Registro fotográfico del proceso
+
+- Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: todos tomaron fotografías del proceso de desarrollo del proyecto.
 
 ## Fotografías y videos del proyecto funcionado
 

@@ -4,7 +4,7 @@
 
 ### Apuntes
 
-## ARDUINO IDE: Software->
+ARDUINO IDE: Software->
 
 **Paso 1**: Abrir Arduino
 
@@ -18,59 +18,59 @@
 
 **Para programar es importante los diferentes tipos de paréntesis:**
 
-**():** Paréntesis
+`()`: Paréntesis
 
-**{}**: Murciélagos
+`{}`: Murciélagos
 
-**//:** Comentarios
+`//`: Comentarios
 
-***/:** Término
+`/`: Término
 
-**\*:** Inicio
+`\`: Inicio
 
-**M:** Mayúscula (signo de problemas)
+`M`: Mayúscula (signo de problemas)
 
-**m:** minúsculas
+`m`: minúsculas
 
-**;:** Término de un comando
+`;`: Término de un comando
 
-**void loop** (){}: Acción
+`void loop`(){}: Acción
 
-**setup:** Ocurre solo una vez / como despertar en la mañana
+`setup`: Ocurre solo una vez / como despertar en la mañana
 
-**loop:** Ocurre una y otra vez todo el tiempo
+`loop`: Ocurre una y otra vez todo el tiempo
 
-**digitalWrite:** Arriba (*HIGH*) Abajo (*LOW*)
+`digitalWrite`: Arriba (*HIGH*) Abajo (*LOW*)
 
-**delay:** Es el nivel de tiempo congelado (no es recomendable usar)
+`delay`: Es el nivel de tiempo congelado (no es recomendable usar)
 
-**int:** Son variables
+`int`: Son variables
 
-**chart:** Solo una letra o un carácter
+`chart`: Solo una letra o un carácter
 
-**bool:** Sí/No
+`bool`: Sí/No
 
-**and:** 
+`and`: 
 
-**or:**
+`or`:
 
-**for:** Iteración
+`for`: Iteración
 
-**ctrl+t:** Ordena todo
+`ctrl+t`: Ordena todo
 
-**Serial.println**: Imprime en otra línea
+`Serial.println`: Imprime en otra línea
 
-**Serial.print:** Imprime en la misma línea
+`Serial.print`: Imprime en la misma línea
 
-**Serial.begin():** Es una función y el entre paréntesis es el valor asignado
+`Serial.begin()`: Es una función y el entre paréntesis es el valor asignado
 
 int x_cosa = 100 (Parámetros);
 
-**✔️ VERIFY:** Se puede verificar un código incluso aun así no estés con el Arduino a mano
+`✔️ VERIFY`: Se puede verificar un código incluso aun así no estés con el Arduino a mano
 
-**-> UPLOAD:** Con este se puede mandar directamente con/sin verificar al Arduino, este se utiliza con el puerto USB
+`-> UPLOAD`: Con este se puede mandar directamente con/sin verificar al Arduino, este se utiliza con el puerto USB
 
-**ARDUINO/MICROCONTROLADOR**  
+`ARDUINO/MICROCONTROLADOR`  
 Lo bueno y bello es que si se sube un código mal hecho por más que lo intentes no te lo acepta, además cuenta con una alta protección para no quemarse.  
 *Se puede hacer lo mismo de diferentes maneras en la computación*
 

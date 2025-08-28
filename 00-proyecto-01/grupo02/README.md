@@ -2,13 +2,12 @@
 
 ## Acerca del proyecto
 
-- Grupo: 0X
-- Nombre de grupo: TODO
+- Grupo: 02
+- Nombre de grupo: Gatolate
 - Integrantes:
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+  - Antonella Aguilar
+  - Javiera Moraga
+  - Pía Orellana
 
 ## Presentación textual
 
