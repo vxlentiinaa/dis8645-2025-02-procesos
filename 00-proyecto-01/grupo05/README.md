@@ -4,13 +4,12 @@
 
 - Grupo: 05
 - Nombre de grupo: ARRAY
-- Grupo: 05
-- Nombre de grupo: ARRAY
 - Integrantes:
-  - Aileen D'Espesailles 
-  - Bernardita Lobo 
-  - Carla Pino 
-  - Félix Rodríguez
+  - [Aileen D'Espesailles](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design)
+  - [Bernardita Lobo](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos)
+  - [Carla Pino](
+  - [Félix Rodríguez](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/25-felix-rg416)
+
 ## Presentación textual
 
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
@@ -25,6 +24,8 @@ Se interactúa con el diseño al mover la perilla del potenciómetro, la cual re
 ## Bocetos de planificación
 
 Fotografías y dibujos de maquetas y pruebas
+
+![imagen](./imagenes/.png)
 
 ## Etapas del código
 
