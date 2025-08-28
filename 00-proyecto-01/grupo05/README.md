@@ -21,6 +21,7 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
+```txt
 *En Santiago de Chile*
 
 *Los*
@@ -46,6 +47,7 @@ Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https:/
 *Los meses pasan a toda carrera*
 
 *Ylosañosparecequevolaran.*
+```
 
 ## Inputs y outputs
 
@@ -163,12 +165,12 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
-Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
+Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
-https://docs.arduino.cc/language-reference/en/functions/math/map/ // cómo usar map(). Define los valores del potenciómetro en velocidades
+<https://docs.arduino.cc/language-reference/en/functions/math/map/> // cómo usar map(). Define los valores del potenciómetro en velocidades
 
-https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
+<https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
 
-https://www.poemas-del-alma.com/nicanor-parra-cronos.htm // poemas que estamos usando
+<https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> // poemas que estamos usando
 
-https://www.youtube.com/watch?v=l_2vnl5MOpo video como usar potenciómetro 
+<https://www.youtube.com/watch?v=l_2vnl5MOpo> video como usar potenciómetro 
