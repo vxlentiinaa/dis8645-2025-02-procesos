@@ -2,12 +2,16 @@
 
 ## APUNTES RAPIDOS
 
+- USB significa Universal Serial Bus (Bus Serial Universal).
+- Algunos usb no sirven para el arduino ya que podria ser solo para dar energía al y no para entregar energia y datos.
 - Se repasó e introdujo GitHub tanto a gente del semestre pasado como nueva en el curso.
 - Se vio cómo escribir en Markdown.
 - Cómo hacer un issue.
+- Tengo algun problemas = breve mensaje por issue a Aaron, etiquetándolo.
 - Dominio vs Hosting: Dominio = terreno - Hosting = casa.
 - Tipos de dominios: .com, .art, .life, etc.
-- Nos visitó Sokio. Profes y compañeros del curso hicieron entrega de proyecto.
+- Nos visitó Sokio. Profes y compañeros del curso hicieron entrega de proyecto. [@sokio en Instagram](https://www.instagram.com/sokio/?hl=es)
+- Revisar sus trabajos.
 
 -----------------------------------
 
