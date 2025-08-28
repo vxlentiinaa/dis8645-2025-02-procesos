@@ -495,6 +495,23 @@ void loop() {
 
 };
 ```
+Otro problema fué que poner tiempo al final del poema2 no era suficiente para acabar con el loop, por lo que al intentarlo el poema 2 se repetia infinitamente. Para agegarle el tiempo se le cambió así el código al verso 6 del poema 2:
+```cpp
+else if (valorPot < 876) {        // 730 - 875
+    pantallita.println(verso5);
+  } 
+  else {  // cuando llega al rango máximo (876–1023)
+      pantallita.println(verso6);
+      pantallita.display();
+      delay(3000);  // esperar 3 segundos en "cerezos."
+      
+      // limpiar y avanzar al siguiente poema
+```
+Para arreglarlo se usó una variable booleana de true or false, llamando al poema2 terminado, Por lo que se usa la variable if nuevamente al principio del código en loop (antes del poema2) usando: if (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demas.
+
+Quería que el loop de poemas parara despues del último y no sabía como, busqué en inetrnet y ocupé finalmente exit(0) parar parar el loop.
+
+Otro problema fue que olvidé poner pantallita.display(); luego de los títulos, así que no los mostraba, si no que se saltaba directo a los versos del poema.
 
 ## Etapas del código
 
@@ -526,5 +543,6 @@ ElectroTV. (2021, 15 de mayo). Cómo usar For, tutorial. YouTube. <https://www.y
 Maker Channel. (2019, 8 de octubre). Cómo usar el potenciómetro, tutorial. YouTube. <https://www.youtube.com/watch?v=UUncn39odKM>
 Universidad de Chile. (s. f.). Vergüenza, en Desolación de Gabriela Mistral.<http://www.gabrielamistral.uchile.cl/poesia/desolacion/dolor/verguenza.html>
 Archivo Chile. (s. f.). Poemas de Pablo Neruda. <https://www.archivochile.com/Homenajes/neruda/de_neruda/homenajepneruda0007.pdf>
+https://www.youtube.com/watch?v=MP1292hpn54
 Ejemplos de clase proporcionados por el profesor.
 Ejemplos de la librería Adafruit_GFX en Arduino IDE.
