@@ -1,8 +1,8 @@
 # sesion-04a
 
-Clase 4a: 26/08 MÁQUINAS COMPUTACIONALES
+## Clase 4a: 26/08 MÁQUINAS COMPUTACIONALES
 
-## Apuntes
+### Apuntes
 
 (Iniciamos la clase de trabajo en grupo, para entrega del viernes)
 
