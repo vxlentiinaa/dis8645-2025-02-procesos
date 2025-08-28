@@ -96,7 +96,7 @@ Después de declararlo, puedo usarlo.
 
 C++ W3Schools
 
-## encargo 3 y 4 "programar y equivocarse 3 veces, documentar textualmente"
+## encargo 3 "programar y equivocarse 3 veces, documentar textualmente"
 
 Primero quiero lograr que con los digitos de mi computador, el LED del arduino brille la cantidad de veces que corresponda al dígito ingresado
 
@@ -422,6 +422,6 @@ void showNewData(){
     Serial.print ("¡Exito critico!");
      }
 }
-
-
 ```
+
+## encargo 4 "programar y equivocarse 3 veces, documentar visualmente" 
