@@ -46,4 +46,4 @@ Para evitar tener un solo archivo super largo y dificil de leer, se separan dist
 
 -----------------------------------------------------------------------------------------------------------
 ## Subir el archivo del código anterior <!-- TEXT -->
-### [Código LED pulsante]()
+### [Código LED pulsante](./arduino/LED_Pulse/)
