@@ -3,9 +3,9 @@
 Administrador::Administrador()
 {
     // constructor
-    for (int i = 0; i < Administrador::lista.listaEstudiantes.size(); i++)
+    for (int i = 0; i < Administrador::lista.lista.size(); i++)
     {
-        Estudiante nuevoEstudiante(Administrador::lista.listaEstudiantes[i], i);
+        Estudiante nuevoEstudiante(Administrador::lista.lista[i], i);
         Administrador::estudiantes.push_back(nuevoEstudiante);
     }
 }
