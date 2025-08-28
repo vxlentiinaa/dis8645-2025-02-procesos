@@ -1,7 +1,7 @@
 
 # Clase 6
 
-Martes 26 de agosto sw 2025
+Martes 26 de agosto de 2025
 
 ## Avances del proyecto número 1
 
