@@ -30,8 +30,6 @@ Cada uno de los 4 integrantes del equipo diseñó su propio poema y dibujo, comp
 
 Ikeda Sumiko [1936. - ]
 
-<https://www.instagram.com/p/DKa0Ut-uD2x/?img_index=1>
-
 - Cerezo invernal
 
   Lo vi tan desolado
@@ -39,8 +37,6 @@ Ikeda Sumiko [1936. - ]
   y me detuve.
 
 Kajin Aioigaki [1898-1985]
-
-<https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
 
 - Florece el cosmos
   
@@ -50,8 +46,6 @@ Kajin Aioigaki [1898-1985]
   
 Aya Shōbu [1924-2005]
 
-<https://www.instagram.com/p/CoKJIqsuMHv/?img_index=1>
-
 - Noche de otoño…
   
   Se marchita el corazón,
@@ -59,8 +53,6 @@ Aya Shōbu [1924-2005]
   un espejo en la mano.
   
   Tōshi Akao [1925-1981]
-
-<https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
 
 ## Inputs y outputs
 
@@ -218,3 +210,13 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+
+<https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
+
+<https://www.instagram.com/p/DKa0Ut-uD2x/?img_index=1>
+
+<https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
+
+<https://www.instagram.com/p/CoKJIqsuMHv/?img_index=1>
+
+<https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
