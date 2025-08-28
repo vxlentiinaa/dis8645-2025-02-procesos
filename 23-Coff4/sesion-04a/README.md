@@ -540,16 +540,19 @@ delay(velocidad);
 
 Estuvo tan loco (El Wokwi no dejaba subir codigo) que lo puse en el arduino y le saque una foto.
 
-![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/RafitaCompleto.jpg)
+![Completito](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/RafitaCompleto.jpg)
 
 Una vez todo listo, solo necesitaba la imagen que haria mi compañera Bernardita (eso y mezclar mi codigo con el codigo principal)
 Era esta:
 
-![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Blanco.jpg)
+![Santiago en 128x64](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/ejemplo%20(1).jpg)
 
 ¿Y que pasó?
 
 Se veia blancooooooooooooooooooooooo ( ╥ω╥ )
+
+![Blanco](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Blanco.jpg)
+
 
 La pagina (https://javl.github.io/image2cpp/) fue utilizada y nope, todo blanco
 Aunque era facil saber porque salia blanca
