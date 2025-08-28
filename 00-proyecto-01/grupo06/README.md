@@ -130,7 +130,7 @@ String poema = "Noche de otoño… Se marchita el corazón, un espejo en la mano
 String mensaje = "--- Tōshi Akao";
 ```
 
-**4. Animación/dibujo representativo**
+### 4. Animación/dibujo representativo**
 
 - Uso de arrays de bits (drawBitmap) para mostrar imágenes o secuencias de frames.
 
