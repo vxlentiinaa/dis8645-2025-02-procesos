@@ -21,43 +21,43 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
-*En Santiago de Chile*
+`En Santiago de Chile`
 
-*Los*
+`Los`
 
-*días*
+`días`
 
-*son*
+`son`
 
-*interminablemente*
+`interminablemente`
 
-*largos:*
+`largos:`
 
-*Varias eternidades en un día.*
+`Varias eternidades en un día.`
 
-*Nos desplazamos a lomo de luma*
+`Nos desplazamos a lomo de luma`
 
-*Como los vendedores de cochayuyo:*
+`Como los vendedores de cochayuyo:`
 
-*Se bosteza. Se vuelve a bostezar.*
+`Se bosteza. Se vuelve a bostezar.`
 
-*Sin embargo las semanas son cortas*
+`Sin embargo las semanas son cortas`
 
-*Los meses pasan a toda carrera*
+`Los meses pasan a toda carrera`
 
-*Ylosañosparecequevolaran.*
+`Ylosañosparecequevolaran.`
 
 ## Inputs y outputs
 
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
-Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
+Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática.
 
-### Interacción (input):
+### Interacción (input)
 
 El usuario mueve la perilla del potenciómetro.
 
-### Salida de la máquina (output):
+### Salida de la máquina (output)
 
 - El texto del poema se desplaza en la pantalla OLED desde abajo hacia arriba.
 - La velocidad del desplazamiento depende de la posición del potenciómetro.
@@ -163,12 +163,12 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
-Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
+Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
-https://docs.arduino.cc/language-reference/en/functions/math/map/ // cómo usar map(). Define los valores del potenciómetro en velocidades
+<https://docs.arduino.cc/language-reference/en/functions/math/map/> // cómo usar map(). Define los valores del potenciómetro en velocidades
 
-https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
+<https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
 
-https://www.poemas-del-alma.com/nicanor-parra-cronos.htm // poemas que estamos usando
+<https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> // poemas que estamos usando
 
-https://www.youtube.com/watch?v=l_2vnl5MOpo video como usar potenciómetro 
+<https://www.youtube.com/watch?v=l_2vnl5MOpo> video como usar potenciómetro
