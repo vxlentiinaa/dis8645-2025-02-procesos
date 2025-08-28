@@ -1,7 +1,11 @@
 # sesion-01b
-CLASE 1 B 
-- Arduino es una plataforma de hardware y software de código abierto compuesta por una placa de desarrollo con un microcontrolador y un entorno de desarrollo integrado (IDE) que permite programarla para crear dispositivos electrónicos interactivos.
-- Instalar bibliotecas en arduino, barra lateral → library manager → buscar las biblioteca para que el programa pueda entender son el lenguaje de programación que usamos
+
+CLASE 1 B
+
+Arduino es una plataforma de hardware y software de código abierto compuesta por una placa de desarrollo con un microcontrolador y un entorno de desarrollo integrado (IDE) que permite programarla para crear dispositivos electrónicos interactivos.
+
+Instalar bibliotecas en arduino, barra lateral → library manager → buscar las biblioteca para que el programa pueda entender son el lenguaje de programación que usamos
+
 - { } murciélagos [ ]  corchetes
 - check, lo manda al arduino
 - verify, revisa si hay problemas en el code
@@ -40,7 +44,8 @@ void loop() {
   delay(tiempoApagado);                      // wait for a second
 }
 
-### Funciones, (naranja)
+## Funciones, (naranja)
+
 Al poner en void algo que no es del sistema operativo, se convierte en una función, que el sistema reconoce, y operará la función que erste escrita dentro de los ( )
 
 Serial.begin();  abre un puerto que deja mandar mensajes entre el arduino y el computador o a lo que este conectado, el mensaje se puede ver en seria monitor en la barra de abajo
@@ -53,11 +58,12 @@ Las palabras  verdes existen en c++, como void loop int.
 
 C++ es un ejemplo de lenguaje de programación compilado, multiparadigma, principalmente de tipo imperativo y orientado a objetos
 In C++, there are different types of variables (defined with different keywords), for example:
+
 - int - stores integers (whole numbers), without decimals, such as 123 or -123, se pueden crear variables con una palabra x con int
 - double - stores floating point numbers, with decimals, such as 19.99 or -19.99
 - char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 - string - stores text, such as "Hello World". String values are surrounded by double quotes
 - bool - stores values with two states: true or false
 - float - es un tipo de dato que representa números con punto flotante, es decir, números que pueden tener una parte decimal.
-- 
+
 guia de comandos <https://docs.arduino.cc/language-reference/>
