@@ -1,9 +1,6 @@
 # sesion-01b
 
---- TRASPASAR APUNTES BITACORA____
-
-
-
+## Apuntes
 ## encargo
 
 Crear variables y fallar. 3 codigos que no funciones y registrarlos. 
