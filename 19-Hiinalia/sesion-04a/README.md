@@ -1253,3 +1253,13 @@ String conversa7 = "waos7";
 ```
 Y esto fue lo que se mostró en el simulador:
 ![Resultado corrección](./imagenes/solo_aparece_waos1.jpeg)
+
+Mientras buscaba qué más podía hacer, también le pedí a mi señor padre, que es programador también, su opinion al respecto. Me dijo que el problema que veía era dentro de las condicionales. waos1 probablemente funciona bien porque es el único sin una condicional. Por lo que definitivamente las condiciones eran el problema.
+Dijo que como ejemplo;
+```cpp
+if(respCon3 == true && poteValor == true && !respCon6 == true && !respCon7 == true)
+```
+Se quiere llamar a respCon3, pero dijo que no era necesario comparar las variables booleanas. Simplemente con usar if(respCon3) debería funcionar. Estuve buscando alguna referencia para poder confirmar bien todo esto y también entender mejor.
+Encontré este link <https://www.reddit.com/r/javascript/comments/2ec0bz/should_i_say_boolean_truefalse_in_an_if_statement>
+Hablan de que hacer una comparación así es mala práctica ya que es redundante y puede llegar a confundir la lógica que se está estableciendo dentro del programa. Además de hacer el código más ordenado.
+
