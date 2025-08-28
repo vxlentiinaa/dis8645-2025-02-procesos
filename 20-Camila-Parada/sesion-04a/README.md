@@ -25,7 +25,13 @@ Pese a los antecedentes, seguía sin poder entender e imaginarme la posibilidad 
 
 ![imagen](./imagenes/a1.png)
 
-▼ Descripción de la imagen. Obtenido de: cita
+▼ Descripción de la imagen. Obtenido de: cita 
+
+Antes de mandarme un error que no pueda remediar decidí consultar cómo se realiza este procedimiento para dicho tipo de pantallas (considerando que son del tipo SSD1306). Terminé pillando este [otro foro de arduino](https://forum.arduino.cc/t/change-i2c-address-oled/991780/2) para seguir indagando sobre cómo cambiar la dirección del I2C de las pantallas entregadas. En dicho espacio virtual no llegué a una conclusión precisa dado que realizaban paralelismos un proyecto de un teclado. Más tarde, [Matías](https://github.com/misaaaaaa) me respondió, llevando a cabo una intervención del circuito de la pantalla.
+
+![imagen](./imagenes/a2.png)
+
+▼ Descripción de la imagen. Obtenido de: cita 
 
 ***
 
