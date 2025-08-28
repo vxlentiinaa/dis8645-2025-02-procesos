@@ -29,11 +29,12 @@ Cada uno de los 4 integrantes del equipo diseñó su propio poema y dibujo, comp
 
 ## Inputs y outputs
 
-### Input: 
+### Input
 
 Movimiento del potenciómetro, que determina el avance entre las fases de visualización.
 
-### Output:
+### Output
+
 - Poema en espiral en la pantalla OLED.
 - Nombre del autor.
 - Animación o imagen que simboliza el contenido del poema.
@@ -52,33 +53,30 @@ Fotografías y dibujos de maquetas y pruebas
 
 ## Etapas del código
 
-1. Inicialización del hardware
+### 1. Inicialización del hardware
 
 - Inclusión de librerías de la pantalla OLED.
 
 - Configuración del potenciómetro y variables de control.
 
-2. Dibujo del poema en espiral
+### 2. Dibujo del poema en espiral
 
 - Función que coloca cada palabra o verso en coordenadas calculadas para formar la espiral.
 
-3. Visualización del nombre del autor
+### 3. Visualización del nombre del autor
 
 - Texto centrado o en movimiento para destacarlo.
 
-4. Animación/dibujo representativo
+### 4. Animación/dibujo representativo
 
 - Uso de arrays de bits (drawBitmap) para mostrar imágenes o secuencias de frames.
 
-5. Control por potenciómetro
+
+### 5. Control por potenciómetro
 
 - Lectura del valor analógico y cambio de etapa según la posición.
 
 ## Roles del equipo
-- Sofía Cartes:
-- Antonia Fuentealba:
-- Sofía Perez:
-- Valentina Ruz:
 
 
 ### Sofía Cartes
