@@ -14,9 +14,11 @@ idea de proyecto:
 Nuestro proyecto consiste (hasta el momento), en un poema visualizado en una pantalla oled circular, este poema estará en forma de espiral y contará con un potenciometro que permita ordenar y desordenar las letras y frases para su lectura, este poema será traducido en distintos pictogramas que interpreten fácilmente lo que representa cada verso.
 
 ## experimentación
+
 experimentamos el enviar distintas animaciones a las pantallas para saber como funcionaba
 
 aquí hay documentación de este ejercicio
+
 ![gatito](./imagenes/gatito.gif)
 
 ![galope](./imagenes/prueba_galope.gif)
