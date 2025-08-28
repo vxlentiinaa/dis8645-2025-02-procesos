@@ -1,51 +1,81 @@
 # sesion-03b ᯓ★
+
 ## Clase Online ┆ 22 de Agosto  . ݁₊ ⊹ . ݁˖ . ݁
 
 ### Pantallas con Arduino  
-- En teoría íbamos a trabajar con pantallas.  
-- **Tipos de pantallas a usar:**  
-  - **OLED** y/o **TFT** → Diferencia principal: **resolución y brillo**.  
-  - **Displays numéricos** (sólo muestran números o caracteres).  
-  - **Displays programables por caracteres** → no se pueden manipular píxeles directamente.  
-  - **Display de 64 puntos** → requiere chip **MAX7219**.  
+
++ En teoría íbamos a trabajar con pantallas.
+   
++ **Tipos de pantallas a usar:**
+  
+  + **OLED** y/o **TFT** → Diferencia principal: **resolución y brillo**.
+    
+  + **Displays numéricos** (sólo muestran números o caracteres).
+    
+  + **Displays programables por caracteres** → no se pueden manipular píxeles directamente.
+    
+  + **Display de 64 puntos** → requiere chip **MAX7219**.  
 
 ### Recursos y referencias  
-- Video recomendado: **Daniel Cruz – Masivo.cl**  
-- Pixel art en GitHub: [Gitfiti](https://github.com/gelstudios/gitfiti)  
-- Sitios para componentes electrónicos:  
-  - [Mouser](https://www.mouser.com/) → muy completo, pero poco amigable.  
-  - [Adafruit](https://www.adafruit.com/) → más amigable, creada por **Ladyada** (tiene biblioteca para pantallas y fábrica en Nueva York).  
-- Herramienta de cálculo: **WolframAlpha**  
+
++ Video recomendado: **Daniel Cruz – Masivo.cl**
+  
++ Pixel art en GitHub: [Gitfiti](https://github.com/gelstudios/gitfiti)
+  
++ Sitios para componentes electrónicos:
+  
+  + [Mouser](https://www.mouser.com/) → muy completo, pero poco amigable.
+    
+  + [Adafruit](https://www.adafruit.com/) → más amigable, creada por **Ladyada** (tiene biblioteca para pantallas y fábrica en Nueva York).
+     
++ Herramienta de cálculo: **WolframAlpha**  
 
 ### Programas de simulación  
-- **Wokwi**  
-- **Tinkercad**  
 
-### Pantalla OLED SSD1306  
++ **Wokwi**
+  
++ **Tinkercad**  
+
+### Pantalla OLED SSD1306 
+
 Usaremos la **pantalla OLED SSD1306**, que funciona con el protocolo **I2C**, utilizando sólo **4 cables**:  
 
-- **GND** → Tierra  
-- **VCC** → Alimentación (5V)  
-- **SCL** → Clock  
-- **SDA** → Data  
++ **GND** → Tierra
+  
++ **VCC** → Alimentación (5V)
+
++ **SCL** → Clock
+  
++ **SDA** → Data  
 
 ⚠️ **Importante**: siempre alimentar la pantalla primero (**GND y VCC**).  
 
 ### Bibliotecas necesarias  .𖥔 ݁ ˖
-- `Adafruit_SSD1306`  
-- `Adafruit-GFX`  
+
++ `Adafruit_SSD1306`
+   
++ `Adafruit-GFX`  
 
 .☘︎ ݁˖ Notas:  
-- No siempre las bibliotecas van a funcionar a la primera.  
-- Algunas dependen de otras → es posible que debas instalarlas en un orden específico.  
-- En **Arduino IDE** también existen estas bibliotecas disponibles.  
+
++ No siempre las bibliotecas van a funcionar a la primera.
+  
++ Algunas dependen de otras → es posible que debas instalarlas en un orden específico.
+  
++ En **Arduino IDE** también existen estas bibliotecas disponibles.
+  
 
 ### Consideraciones para proyectos  
-- Si usamos ejemplos de internet, debemos **acreditarlos**:  
-  - Citar la fuente.  
-  - Especificar qué parte fue tomada, mezclada o editada.  
+
++ Si usamos ejemplos de internet, debemos **acreditarlos**:
+  
+  + Citar la fuente.
+    
+  + Especificar qué parte fue tomada, mezclada o editada.
+    
 
 ### CODIGOS DE CLASE ⋆✴︎˚｡⋆
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -102,6 +132,8 @@ void loop() {
   delay(1000);
 }
 ```
+
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>

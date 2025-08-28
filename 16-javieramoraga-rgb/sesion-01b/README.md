@@ -1,5 +1,6 @@
 # sesion-01b ✮⋆˙
 
+
 ## Herramientas
 
 + **Discord**
@@ -8,6 +9,7 @@
 + **VS Tools – PU**
 
 ────୨ৎ────
+
 
 ## Apuntes sobre Funciones en Programación ⊹ ࣪ ˖
 
@@ -23,6 +25,7 @@
 + Se **separan con coma ( , )**.
 
 ### Ejemplo en C/Arduino
+
 
 ```c
 funcion(arg1, arg2, arg3); 
