@@ -157,3 +157,26 @@ La respuesta sería nada, o alumnos que se nos ocurra que impida este problema p
 
 ```
 
+con las variables booleanas de cada respuesta para cada conversación, podemos hacer que cada pregunta sólo se pueda reproducir si es que ciertas condiciones son cumplidas, entre estas, que una respuesta de de misma pregunta NO ha sido recibida, osea que una vez se dé la respuesta de digamos la conversa3, la conversa 3 no se podrá a volver a repetir ya que es un requisito el no tener una respuesta activa, solo puede seguir adelante con el código y el siguiente “if” statement, como se puede ver en el código de “base” que escribimos para nuestro proyecto:
+
+```cpp
+if(conversa1 == true && potevalor == true && !respCon2Der == true && !respCon2Izq == true){
+    // se despliega el texto de la conversa2
+    String(conversa2);
+    // esperamos 5 segundos para la siguiente conversa
+    delay(5000);
+    // ra respuesta sera almacenada para que no se puedan causar problemas
+    respCon2Der = true;
+  }
+    if(respCon2Der == true && potevalor == true && !respCon4Der == true && !respCon4Izq == true){
+      String(conversa4);
+      respCon4Izq = false;
+      delay(5000);
+      respCon4Der = true;
+      }
+    }
+
+```
+lo que está queriendo decir este encadenamiento de los if statements es, una vez la conversa1 sea haya sido cargada, el valor del potenciómetro está en la dirección derecha, osea en su estado true, **y no ha recibido ni la respuesta izquierda del pote, ni la respuesta derecha del pote** podrá continuar a la conversa4, que tambien solo avanzara cuando reciba la siguiente respuesta correspondiente
+
+
