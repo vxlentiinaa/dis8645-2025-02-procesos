@@ -64,4 +64,4 @@ if (arañas == true || alarmaSonando == true) {
 
 - Se usa OR (||): basta que una de las condiciones sea verdadera para que se cumpla el if.
 
-### ARDUINO
+----AÑADIR APUNTES FALTANTES LIBRETA----
