@@ -34,6 +34,7 @@ DIN y CLK es lo mismo que SDA y SCL
 se intento poniendo una resistencia de 1k entre vcc y res
 
 también con el siguiente código:
+
   ´´´cpp
   // This example draws an animated dial with a rotating needle.
 
@@ -249,8 +250,7 @@ void plotNeedle(int16_t angle, uint16_t ms_delay)
   }
 }
 
-// =======================================================================================
-  ´´´
+´´´
 
   no muestra lo que debería. en cambio muestra un tipo de "glitch" en la pantalla 
   
