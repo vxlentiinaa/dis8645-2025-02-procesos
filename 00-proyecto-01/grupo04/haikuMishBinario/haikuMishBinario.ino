@@ -16,7 +16,6 @@
 
 #include "traductorBinario.h"
 
-
 // definir parametros
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -32,14 +31,14 @@ const int paddingX = 0;
 
 // parrafo 1
 
-String haiku0 = binario1; // traduccion de linea 1, vacio al inicio
-;
+String haiku0 = binario0; // traduccion de linea 1, vacio al inicio
+
 
 // parrafo 2
-String haiku1 = binario2;
+String haiku1 = binario1;
 
 // parrafo 3
-String haiku2 = binario3;
+String haiku2 = binario2;
 
 // Constantes para calcular el tamaño del lienzo
 
@@ -47,6 +46,7 @@ String haiku2 = binario3;
 const int PADDING = 10;
 // Altura estimada para el texto
 const int TEXT_HEIGHT = 10;
+const int TEXT_BINARY_HEIGHT = 8 * TEXT_HEIGHT;
 // Altura de la imagen
 const int IMAGE_HEIGHT = 64;
 
@@ -74,11 +74,13 @@ void setup() {
 	pantallita.setTextSize(1);
 }
 
-
-
 void loop() {
 
 	loopBinario();
+
+	haiku0 = binario0;
+	haiku1 = binario1;
+	haiku2 = binario2;
 
 	// crear variables locales
 	// inicializar en 0
@@ -100,7 +102,7 @@ void loop() {
 
 	pantallita.setCursor(paddingX, y - yScroll);
 	pantallita.print(haiku0);
-	y += TEXT_HEIGHT + PADDING;
+	y += TEXT_BINARY_HEIGHT + PADDING;
 
 	pantallita.setCursor(paddingX, y - yScroll);
 	pantallita.drawBitmap(paddingX, y - yScroll, imagen0, 128, 64, SSD1306_WHITE);
@@ -108,7 +110,7 @@ void loop() {
 
 	pantallita.setCursor(paddingX, y - yScroll);
 	pantallita.print(haiku1);
-	y += TEXT_HEIGHT + PADDING;
+	y += TEXT_BINARY_HEIGHT + PADDING;
 
 	pantallita.setCursor(paddingX, y - yScroll);
 	pantallita.drawBitmap(paddingX, y - yScroll, imagen1, 128, 64, SSD1306_WHITE);
@@ -116,7 +118,7 @@ void loop() {
 
 	pantallita.setCursor(paddingX, y - yScroll);
 	pantallita.print(haiku2);
-	y += TEXT_HEIGHT + PADDING;
+	y += TEXT_BINARY_HEIGHT + PADDING;
 
 	pantallita.setCursor(paddingX, y - yScroll);
 	pantallita.drawBitmap(paddingX, y - yScroll, imagen2, 128, 64, SSD1306_WHITE);
