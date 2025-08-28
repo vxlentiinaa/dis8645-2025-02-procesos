@@ -1,10 +1,13 @@
 # sesion-02a
-### Github
-- crear una nuevo fork
+
+## Github
+
+ crear una nuevo fork
+
 - #titulo
 - ##subtitulo
 - ###subsubtulo
-- * * cursiva
+- `* *`  cursiva
 - < > para links
 - siempre poner comit
 - no editar cosas en el fork original
