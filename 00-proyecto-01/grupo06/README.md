@@ -42,15 +42,15 @@ Kajin Aioigaki [1898-1985]
 
 <https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
 
-- Acostumbrándome
+- Florece el cosmos
   
-  a la soledad, y también al frío,
+  al amanecer…
   
-  día a día.
- 
- Teiko Inahata [1934-2022]
+  Soledad.
+  
+Aya Shōbu [1924-2005]
 
-<https://www.instagram.com/p/C-QEvooOwGW/?img_index=1>
+<https://www.instagram.com/p/CoKJIqsuMHv/?img_index=1>
 
 - Noche de otoño…
   
