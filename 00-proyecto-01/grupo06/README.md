@@ -44,28 +44,61 @@ Fotografías y dibujos de maquetas y pruebas
 
 ## Etapas del código
 
-1. Inicialización del hardware
+**1. Inicialización del hardware**
 
 - Inclusión de librerías de la pantalla OLED.
-
 - Configuración del potenciómetro y variables de control.
+```cpp
+// Wire.h sirve para que el arduino se comunique con otros aparatos
+// Adafruit_GFX sirve para dibujar, como lineas, circulos y letras
+// Adafruit_SSD1306 sirve para manejar mejor las pantallas pequeñas
+// math.h sirve para hacer los espirales, utilizando cos() y sin()
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <math.h>
 
-2. Dibujo del poema en espiral
+// Acá definimos las medidas de la pantalla
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+int potPin = A0; // Pin del potenciómetro
+```
+
+**2. Dibujo del poema en espiral**
 
 - Función que coloca cada palabra o verso en coordenadas calculadas para formar la espiral.
+```cpp
+// Poema en espiral
+String poema = "Noche de otoño… Se marchita el corazón, un espejo en la mano.";
+```
 
-3. Visualización del nombre del autor
+**3. Visualización del nombre del autor**
 
 - Texto centrado o en movimiento para destacarlo.
-
-4. Animación/dibujo representativo
+```cpp
+// Nombre autor
+String mensaje = "--- Tōshi Akao";
+```
+**4. Animación/dibujo representativo**
 
 - Uso de arrays de bits (drawBitmap) para mostrar imágenes o secuencias de frames.
+```cpp
+const unsigned char hojassecas [] PROGMEM = {
 
-5. Control por potenciómetro
+// Este codigo lo obtuvimos de image2cpp
+
+ 	0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+```
+En esta parte va la respectiva imagen de cada integrante del grupo
+**5. Control por potenciómetro**
 
 - Lectura del valor analógico y cambio de etapa según la posición.
+```cpp
 
+```
 ## Roles del equipo
 - Sofía Cartes:
 - Antonia Fuentealba:
