@@ -201,3 +201,5 @@ modifique la imagen para que no apareciera la linea amarilla arriba de la pantal
 
 modifique la imagen para que no apareciera la linea amarilla arriba de la pantalla.
 
+
+
