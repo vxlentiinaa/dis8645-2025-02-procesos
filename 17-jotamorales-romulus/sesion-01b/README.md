@@ -3,11 +3,40 @@
 ## Apuntes
 
 ### Arduino
-
+- A modo de intruccion en el como comunicarse a la gente nueva del curso, se les mostró como hacer envio de correo de una manera correcta. 
 - Comenzamos a utilizar arduino.
-- Instalamos Arduino IDE 
+- Instalamos Arduino IDE
+- Instalar el Board Manager de placa R4.
+- Conectar cable usb tipo c y seleccionar dispositivo en barra superior.
+- En FILE se pueden encontrar examples como Blink.
 
-A modo de intruccion en el como comunicarse a la gente nueva del curso, se les mostró como hacer envio de correo de una manera correcta. 
+````CPP
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+````
+- Comentarios //linea 
+// línea individual
+- setup() se hace solo 1 vez al encender.
+- loop() repite siempre lo que quieres que pase todo el tiempo.
+
+### Comandos y funciones comunes
+
+-digitalWrite(pin, HIGH/LOW) → envía voltaje binario
+- Evitar delay() → mala práctica; usar lógica con temporizadores
+- Serial.begin(9600) → inicia comunicación serial
+- Serial.print(variable) → muestra datos en consola
+- \n → nueva línea en consola. FRANUDP ME AYUDO CON ESTO
 
 ## encargo
 
