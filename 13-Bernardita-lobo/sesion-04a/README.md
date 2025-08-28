@@ -65,7 +65,7 @@ Idea 05: Botón enciende o apaga una imagen.
 
 Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidí hacer una pequeña representación de Santiago.
 
-Estuve investigando algunas herramientas gratuitas para hacer pixel art, ya que nunca había hecho un dibujo de este estilo y no tengo mucha experiencia en lo gráfico. Vi algunos videos para entender cómo guardar correctamente los archivos y cómo dibujar para que la imagen se vea y se entienda mejor.
+Estuve investigando algunas herramientas gratuitas para hacer pixel art, ya que nunca había hecho un dibujo de este estilo y no tengo mucha experiencia en lo gráfico. Realicé el dibujo finalmente en Paint, ya que con las herramientas que tenía era suficiente. Vi algunos videos para entender cómo guardar correctamente los archivos y cómo dibujar para que la imagen se vea y se entienda mejor.
 
 Sin embargo, la pantalla que utilizamos tiene ciertas limitaciones, ya que solo permite mostrar imágenes en blanco y negro, o en un solo color y su contraste. Esto hizo que el diseño tuviera que adaptarse a esa restricción.
 
