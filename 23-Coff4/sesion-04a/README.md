@@ -29,7 +29,7 @@ Así que podriamos comenzar a probar.
 
 En mi caso intente usar el codigo que encontre
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![Primer acercamiento](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Bajo.png)
 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -86,7 +86,7 @@ Esto seria una explicación de como funciona el codigo base (con un muy pequeño
 
 Después evoluciono en este otro codigo que es similar y que mostré en la carpeta pasada con un diferente poema
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![imagen del anterior ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/1.png)
 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -187,7 +187,7 @@ void loop() {
 }
 ```
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![imagen Poema listo](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Poema.png)
 
 *Uno podria decir que ya finalizo todo...eso seria demasiado rapido ¿no?*
 
@@ -286,7 +286,7 @@ void loop() {
 ```
 y el resultado? (*μ_μ)
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![Happy Face](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Carita%20feliz.png)
 
 Osea, hay una cara feliz...eso es algo por donde empezar.
 
@@ -431,7 +431,7 @@ delay(velocidad);
 ```
 ...Estatica aun
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![Rafita arriba y a medias](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/MedioRafita1.png)
 
 Aun debe estar pasando algo con las coordenadas y la posicion del codigo 	___〆(・∀・)
 
@@ -461,13 +461,13 @@ delay(velocidad);
 ```
 - Esta vez pondre la parte del codigo que se modifico (si el profe lo requiere puedo subir todo el codigo pero todo es igual hasta este punto)
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![Down Doggy](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Rafita%20abajo.png)
 
 Como se puede observar la imagen ahora si baja con lo demas del texto, pero ahora me percato que no sale completo el rafita 	(ᓀ ᓀ)
 
 Otra vez le pregunte a los profes y se me dijo algo sabio:
 
-"Es tu oportunidad de saber que hace cada linea de codigo"
+*"Es tu oportunidad de saber que hace cada linea de codigo"*
 
 ---
 
@@ -502,7 +502,7 @@ void loop() {
   delay(50);
 }
 ```
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![imagen del Botón](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Boton.png)
 
 Esto seria el comienzo para despues modificarlo, pero viendo que aun teniamos que ajustar el codigo principal y ver el tema de la imagen.
 Lo descartamos
@@ -540,12 +540,12 @@ delay(velocidad);
 
 Estuvo tan loco (El Wokwi no dejaba subir codigo) que lo puse en el arduino y le saque una foto.
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/RafitaCompleto.jpg)
 
 Una vez todo listo, solo necesitaba la imagen que haria mi compañera Bernardita (eso y mezclar mi codigo con el codigo principal)
 Era esta:
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Blanco.jpg)
 
 ¿Y que pasó?
 
@@ -691,7 +691,9 @@ No habia ni un misero cambio, solo 0s. Por lo tanto tocando botoncitos lo conseg
 
 Aqui si se pueden notar cambios en el codigo y todo fue solucionado...finalmente
 
-`![imagen del ejercicio](./imagenes/filosofico.png)`
+![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Santiago.jpg)
+
+*Pd: se ve mal, pero creanme que la imagen si es buena*
 
 ---
 
