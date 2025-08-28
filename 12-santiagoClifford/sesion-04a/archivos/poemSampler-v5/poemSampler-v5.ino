@@ -34,10 +34,19 @@ delay(200);
 //https://github.com/clifford1one/voluntadGuiada/blob/main/code/interact.js
   if (botoncomputo % 2 == 0) {
     // Si el número es par → modoA
-    modoA();
+    modoPoeta();
   } else {
     // Si el número es impar → modoB
-    modoB();
+    modoHd();
   }
+}
+
+
+void modoPoeta(){
+
+}
+
+void modoHd(){
+
 }
 }
