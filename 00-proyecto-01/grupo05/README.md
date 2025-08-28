@@ -62,7 +62,7 @@ idea del dibujo
 
 ### Pixel art
 
-Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidí hacer una pequeña representación de Santiago.
+Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidimos hacer una pequeña representación de Santiago.
 
 ![imagen](./imagenes/pixelart.jpeg)
 
@@ -78,7 +78,7 @@ explicar errores, comentarios
 
 ### Imagen
 
-Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta me permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
+Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta nos permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
 
 ![imagen](./imagenes/dibujo.png)
 
