@@ -1252,4 +1252,4 @@ String conversa7 = "waos7";
 }
 ```
 Y esto fue lo que se mostró en el simulador:
-[Resultado corrección](19-Hiinalia/sesion-04a/imagenes/solo_aparece_waos1.jpeg)
+![Resultado corrección](./imagenes/solo_aparece_waos1.jpeg)
