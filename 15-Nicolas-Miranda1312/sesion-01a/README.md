@@ -67,5 +67,3 @@ Vamos a usara Arduino R4 Minima
 [John Maeda](https://www.artfutura.org/02/maeda.html)
 
 [Tom Igoe](https://wiki.yowu.dev/es/Knowledge-base/Dictionary/Person/tom-igoe-arduino-creator)
-
-
