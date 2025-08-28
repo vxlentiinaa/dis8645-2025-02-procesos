@@ -22,10 +22,45 @@ El proyecto consiste en un dispositivo interactivo desarrollado con Arduino UNO 
 
 Cada uno de los 4 integrantes del equipo diseñó su propio poema y dibujo, compartiendo la misma estructura de código pero con variaciones en el contenido textual y gráfico. Los poemas son:
 
-- poema 1
-- poema 2
-- poema 3
-- poema 4
+- Tras una gran
+  
+  bocanada de aire…
+ 
+  Un llanto desconsolado.
+
+Ikeda Sumiko [1936. - ]
+
+<https://www.instagram.com/p/DKa0Ut-uD2x/?img_index=1>
+
+- Cerezo invernal
+
+  Lo vi tan desolado
+
+  y me detuve.
+
+Kajin Aioigaki [1898-1985]
+
+<https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
+
+- Acostumbrándome
+  
+  a la soledad, y también al frío,
+  
+  día a día.
+ 
+ Teiko Inahata [1934-2022]
+
+<https://www.instagram.com/p/C-QEvooOwGW/?img_index=1>
+
+- Noche de otoño…
+  
+  Se marchita el corazón,
+  
+  un espejo en la mano.
+  
+  Tōshi Akao [1925-1981]
+
+<https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
 
 ## Inputs y outputs
 
