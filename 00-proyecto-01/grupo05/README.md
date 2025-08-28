@@ -78,11 +78,33 @@ Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Us
 
 ![imagen](./imagenes/pixelart.jpeg)
 
-## Etapas del código
+## Etapas del código y errores
 
 Segmenta las secciones de tu código y explícalas
 
 EXPLICAR ERRORES Y COMENTARIOS
+
+![imagen](./imagenes/wokwi01.png)
+
+![imagen](./imagenes/wokwi02.png)
+
+![imagen](./imagenes/wokwi03.png)
+
+![imagen](./imagenes/wokwi04.png)
+
+![imagen](./imagenes/wokwi05.png)
+
+![imagen](./imagenes/wokwi06.png)
+
+![imagen](./imagenes/registro03.jpg)
+
+![imagen](./imagenes/registro04.jpg)
+
+![imagen](./imagenes/registro05.jpg)
+
+![imagen](./imagenes/wokwi01.png)
+
+![imagen](./imagenes/wokwi07.png)
 
 ### Imagen
 
