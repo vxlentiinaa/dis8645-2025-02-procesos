@@ -92,6 +92,7 @@ Fotografías y dibujos de maquetas y pruebas
 
 - Inclusión de librerías de la pantalla OLED.
 - Configuración del potenciómetro y variables de control.
+
 ```cpp
 // Wire.h sirve para que el arduino se comunique con otros aparatos
 // Adafruit_GFX sirve para dibujar, como lineas, circulos y letras
@@ -111,9 +112,10 @@ Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 int potPin = A0; // Pin del potenciómetro
 ```
 
-**2. Dibujo del poema en espiral**
+## 2. Dibujo del poema en espiral
 
 - Función que coloca cada palabra o verso en coordenadas calculadas para formar la espiral.
+
 ```cpp
 // Poema en espiral
 String poema = "Noche de otoño… Se marchita el corazón, un espejo en la mano.";
@@ -122,13 +124,16 @@ String poema = "Noche de otoño… Se marchita el corazón, un espejo en la mano
 ### 3. Visualización del nombre del autor
 
 - Texto centrado o en movimiento para destacarlo.
+
 ```cpp
 // Nombre autor
 String mensaje = "--- Tōshi Akao";
 ```
+
 **4. Animación/dibujo representativo**
 
 - Uso de arrays de bits (drawBitmap) para mostrar imágenes o secuencias de frames.
+
 ```cpp
 const unsigned char hojassecas [] PROGMEM = {
 
@@ -136,14 +141,17 @@ const unsigned char hojassecas [] PROGMEM = {
 
  	0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 ```
+
 En esta parte va la respectiva imagen de cada integrante del grupo
 
-**5. Control por potenciómetro**
+### 5. Control por potenciómetro
 
 - Lectura del valor analógico y cambio de etapa según la posición.
+
 ```cpp
 int valor = analogRead(potPin);
 ```
+
 ```cpp
 if(valor <= 341){
     // float sirve para declarar numeros decimales, estos numeros hace que el poema este en espiral
@@ -190,8 +198,8 @@ if(valor <= 341){
   }
 }
 ```
-## Roles del equipo
 
+## Roles del equipo
 
 ### Sofía Cartes
 
