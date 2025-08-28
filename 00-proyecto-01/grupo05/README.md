@@ -100,8 +100,6 @@ EXPLICAR ERRORES Y COMENTARIOS
 
 ![imagen](./imagenes/registro04.jpg)
 
-![imagen](./imagenes/registro05.jpg)
-
 ![imagen](./imagenes/wokwi01.png)
 
 ![imagen](./imagenes/wokwi07.png)
@@ -119,6 +117,8 @@ Utilizamos una página web que convierte dibujos en código, transformándolos e
 ![imagen](./imagenes/dibujo.png)
 
 PONER CODIGO DEL DIBUJO
+
+![imagen](./imagenes/registro05.jpg)
 
 ## Actividades y roles del equipo
 
