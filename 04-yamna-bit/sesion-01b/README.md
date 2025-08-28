@@ -4,7 +4,7 @@
 
 ### Apuntes
 
-## ARDUINO IDE: Software->
+ARDUINO IDE: Software->
 
 **Paso 1**: Abrir Arduino
 
