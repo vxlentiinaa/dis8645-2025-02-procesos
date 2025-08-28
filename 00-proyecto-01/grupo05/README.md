@@ -43,29 +43,29 @@ poner codigo del dibujo y imagen
 
 ## Actividades y roles del equipo
 
-#### Investigación sobre proyectos y código
+### Investigación sobre proyectos y código
 
 - Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: todos participaron investigando códigos, referencias y recursos para el desarrollo del proyecto.
 
-#### Programación base / adaptación de código
+### Programación base / adaptación de código
 
 - Aileen D'Espessailles: adaptó código de referencia para que el texto subiera en la pantalla.
 
-#### Integración del control del con potenciómetro y regulación de velocidad
+### Integración del control del con potenciómetro y regulación de velocidad
 
 - Aileen D'Espessailles y Félix Rodríguez: investigaron cómo usar el potenciómetro para controlar la velocidad y lo unieron al código del servo motor.
 
-#### Investigación de aparición de imágenes tras el poema
+### Investigación de aparición de imágenes tras el poema
 
 - Carla Pino: buscó y unió recursos para que las imágenes aparecieran al finalizar el poema.
 
 - Bernardita Lobo: investigó sobre las imágenes y cómo integrarlas al proyecto.
 
-#### Diseño visual
+### Diseño visual
 
 - Bernardita Lobo: diseñó una imagen en pixel art.
 
-#### Registro fotográfico del proceso
+### Registro fotográfico del proceso
 
 - Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: todos tomaron fotografías del proceso de desarrollo del proyecto.
 
