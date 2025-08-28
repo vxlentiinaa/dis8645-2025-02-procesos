@@ -1,12 +1,21 @@
 # proyecto-01
 
-usar potenciómetro para controlar pantalla
-
 navegadores de poemas
 
-se entrega a fines de agosto
-
 se hace en grupos de 3 a 4 personas
+
+## cronograma
+
+08:30am - 09:00am: montaje
+09:00am - 09:20am: grupo 01
+09:20am - 09:40am: grupo 02
+09:40am - 10:00am: grupo 03
+pausa
+10:40am - 11:00am: grupo 04
+11:00am - 11:20am: grupo 05
+11:20am - 11:40am: grupo 06
+11:40am - 12:00am: grupo 07
+12:00am - 12:20am: grupo 08
 
 ## grupos
 
