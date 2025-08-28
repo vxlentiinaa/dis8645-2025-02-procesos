@@ -41,30 +41,33 @@ explicar errores, comentarios
 
 poner codigo del dibujo y imagen
 
-## Roles del equipo
+## Actividades y roles del equipo
 
-Menciona y desarrolla los roles que ejerció cada integrante
+#### Investigación sobre proyectos y código
 
-### Aileen D'Espessailles
+- Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: todos participaron investigando códigos, referencias y recursos para el desarrollo del proyecto.
 
-Uso como referencia y base para empezar a programar (https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8), link que investigo Carla. 
-Luego, a partir de este ejemplo, cambió los comandos de acuerdo a lo que deseaba el grupo ( que el texto subiera por la pantalla ). También realizó la investigación del código que controla un servomotor con un potenciómetro y lo unió, junto a Félix, al código para regular la velocidad del poema. Además hizo un registro fotográfico del circuito.
+#### Programación base / adaptación de código
 
-https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
+- Aileen D'Espessailles: adaptó código de referencia para que el texto subiera en la pantalla.
 
-### Bernardita Lobo
-Diseñó y transformó la imagen para el código de acuerdo al poema, investigó sobre el dibujo en pixel art y también desarrolló los registros del proyecto.
+#### Integración del control del con potenciómetro y regulación de velocidad
 
-### Carla Pino
+- Aileen D'Espessailles y Félix Rodríguez: investigaron cómo usar el potenciómetro para controlar la velocidad y lo unieron al código del servo motor.
 
-Investigó sobre la forma de hacer aparecer una imagen luego del poema y lo unió al código principal
-Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
+#### Investigación de aparición de imágenes tras el poema
 
-### Félix Rodríguez
+- Carla Pino: buscó y unió recursos para que las imágenes aparecieran al finalizar el poema.
 
-Realizó la investigación sobre cómo usar el potenciómetro como regulador de velocidad y lo unió, junto a Aileen, al código del servo motor.
+- Bernardita Lobo: investigó sobre las imágenes y cómo integrarlas al proyecto.
 
-<https://docs.arduino.cc/language-reference/en/functions/math/map/ // cómo usar map(). Define los valores del potenciómetro en velocidades>
+#### Diseño visual
+
+- Bernardita Lobo: diseñó una imagen en pixel art.
+
+#### Registro fotográfico del proceso
+
+- Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: todos tomaron fotografías del proceso de desarrollo del proyecto.
 
 ## Fotografías y videos del proyecto funcionado
 
