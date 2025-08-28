@@ -1,1 +1,39 @@
 # sesion-02a
+
+## Apuntes
+###### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$ <br/>
+###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
+
+### [Sokio](https://pueblonuevo.cl/bios/sokio/)
+Artista chileno experimental, con una amplia trayectoria, desde musica de teatro a electrónica, cine, opera, maquinas y computación. 
+
+En la clase le hicimos entrega de una [maquina percutora](https://www.instagram.com/piruetas.xyz/p/DNPBPs8v-Ra/) que toma input MIDI y acciona un solenoide. 
+<img src="./imagenes/entregaSokio.jpg" alt="Entrega de la maquina percutora a Sokio">
+
+<img align="left" src="./imagenes/sokio1.jpg" alt="Maquina percutora" width=240>
+
+<img align="left" src="./imagenes/sokio2.jpg" alt="Maquina percutora" width=220>
+
+<img align="left" src="./imagenes/sokio3.jpg" alt="CAD solenoide" width=240>
+
+<img align="left" src="./imagenes/sokio4.jpg" alt="Solenoide" width=240>
+
+<img align="left" src="./imagenes/sokio5.jpg" alt="Solenoide" width=240>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+### clases (de objetos)
+
+
+
+### Other things: <!-- Things to organize + random stuff -->
+> ### SUB_SUBTITULO
+
+-----------------------------------------------------------------------------------------------------------
+## Encargo XX <!-- TEXT -->
+### TITULO
+
+
+-----------------------------------------------------------------------------------------------------------
+## Encargo YY <!-- TEXT -->
+### TITULO
