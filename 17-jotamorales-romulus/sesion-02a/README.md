@@ -1,19 +1,21 @@
 # sesion-02a
---- TRASPASAR APUNTES FALTANTES  BITACORA ---
+
 ## APUNTES RAPIDOS
-- Se repaso y introdujo github tanto gente vieja y nueva del curso
-- Se vio como escribir en markdown
-- Como hacer un issue
-- Dominio vs Hosting: Dominio = terreno - Hosting = casa
-- Tipos de dominios: .com, .art, .life, etc
-- Nos visitó Sokio, entrega de proyecto profes y compañeros del curso
---- TRASPASAR APUNTES FALTANTES  BITACORA ---
-  
+
+- Se repasó e introdujo GitHub tanto a gente del semestre pasado como nueva en el curso.
+- Se vio cómo escribir en Markdown.
+- Cómo hacer un issue.
+- Dominio vs Hosting: Dominio = terreno - Hosting = casa.
+- Tipos de dominios: .com, .art, .life, etc.
+- Nos visitó Sokio. Profes y compañeros del curso hicieron entrega de proyecto.
+
 -----------------------------------
 
-### .cpp
-.cpp → extensión de archivos con código C++.
+### ````CPP
+cpp → extensión de archivos con código C++.
+
 De forma mas sencilla, esto utilizarlo para colorear el código de una forma especial, ordenada y clara. 
+
 Ejemplo de código C++:
 ```CPP
   Blink
@@ -32,6 +34,6 @@ void loop() {
   delay(1000);                      // wait for a second
 }
 ```
-Esto se puede hacer en discord tambien
 
---- TRASPASAR APUNTES BITACORA ---
+Esto se puede hacer en Discord también a modo de resaltar el código.
+
