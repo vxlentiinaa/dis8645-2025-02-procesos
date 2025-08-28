@@ -1,11 +1,13 @@
 # sesion-01b ✮⋆˙
 
-## Herramientas
+### Herramientas
 
-+ **Discord**
-+ **GitHub**
-+ **Arduino IDE 2**
-+ **VS Tools – PU**
+* Discord
+* GitHub
+* Arduino IDE 2
+* VS Tools – PU
+
+***
 
 ────୨ৎ────
 

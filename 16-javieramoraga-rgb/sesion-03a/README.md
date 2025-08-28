@@ -65,13 +65,16 @@ noPuedoNoMas();
 
 ### ⋆ Operadores lógicos
 
-+ Los operadores lógicos permiten formular preguntas de sí/no y combinar condiciones.
+* Los operadores lógicos permiten formular preguntas de sí/no y combinar condiciones.
   
-+ AND (&& / y) → Verdadero solo cuando ambas condiciones son verdaderas.
+* AND (&& / y) → Verdadero solo cuando ambas condiciones son verdaderas.
   
-+ OR (|| / o) → Verdadero cuando al menos una condición es verdadera.
+* OR (|| / o) → Verdadero cuando al menos una condición es verdadera.
   
-+ NOT (! / no) → Devuelve lo contrario a la condición.
+* NOT (! / no) → Devuelve lo contrario a la condición.
+
+***
+
 
 ```cpp
 
@@ -89,19 +92,21 @@ El orden de los operadores lógicos no cambia el resultado (son conmutativos)
 
 ## Compilado de compuertas lógicas ｡𖦹°‧
 
-+ **NAND → Combinación de AND y NOT.**
+* NAND → Combinación de AND y NOT.
 
 → Resultado = 1 en todos los casos, excepto cuando ambas entradas son 1 (resultado = 0).
 
-+ NOR → Combinación de OR y NOT.
+* NOR → Combinación de OR y NOT.
 
 → Solo será 1 cuando todas las entradas sean 0.
 
-+ XOR (OR exclusiva)
+* XOR (OR exclusiva)
 
 → Devuelve 1 únicamente cuando las entradas son diferentes.
 
 → Si ambas son iguales (0 + 0 o 1 + 1), devuelve 0.
+
+***
 
   ────୨ৎ────
 
@@ -129,10 +134,12 @@ for (int i = 0; i < veces; i = i + 1) {
 
 ### Funciones útiles ｡𖦹°‧
 
-+ Serial.read() → Permite leer datos enviados al Arduino por el puerto serial.
+* Serial.read() → Permite leer datos enviados al Arduino por el puerto serial.
 
-+ millis() → Cuenta el tiempo en milisegundos desde que el Arduino fue encendido.
+* millis() → Cuenta el tiempo en milisegundos desde que el Arduino fue encendido.
 
-+ ⚠️ Si se usan variables con millis(), deben declararse como unsigned long para evitar errores por desbordamiento.
+* ⚠️ Si se usan variables con millis(), deben declararse como unsigned long para evitar errores por desbordamiento.
   
-+ Protoboard → Herramienta de conexión rápida para circuitos sin necesidad de soldar.
+* Protoboard → Herramienta de conexión rápida para circuitos sin necesidad de soldar.
+
+***

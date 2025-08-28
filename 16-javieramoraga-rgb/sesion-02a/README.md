@@ -3,7 +3,7 @@
 ## Comunicación Serial  
 
 + **9600** → Significa **baudios (BAUD RATE)**.
-+ 
+
 + **BAUD RATE** → Velocidad de comunicación.  
 
 > "Uno le dice al Arduino: te voy a hablar a 9600" 
@@ -74,7 +74,7 @@
 + **Diseño de usuario**  
 
 + **Georgia Tech**  
-  → *"Si quieren hacer un sintetizador, postulen a esto"* ~ Aarón  
+  → *"Si quieren hacer un sintetizador, postulen a esto"*  
 
 - **National Sawdust**  
 
