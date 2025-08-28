@@ -866,7 +866,7 @@ https://wokwi.com/projects/440546331476540417
 
 Al intentar integrar el codigo de la imagen, con el del poema definitivo...pasaron cositas
 
-![imagen del ejercicio]()
+![imagen del ejercicio](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Otravezalmedio.png)
 
 ```cpp
 #define OLED_RESET -1
@@ -1069,13 +1069,13 @@ delay(velocidad);
 }
 
 ```
-![imagen del ejercicio]()
+![Void](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Negro.png)
 
 En este intento la imagen desaparecio por completo, por lo tanto volvimos sobre nuestros pasos.
 
 - Tercer link: Como retrocedimos, sacamos al rafita y pusimos la imagen que hizo nuestra compañera
 - 
-![imagen del ejercicio]()
+![Santiago a medias](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/meh.png)
 
 ---
 
@@ -1083,7 +1083,7 @@ En este intento la imagen desaparecio por completo, por lo tanto volvimos sobre 
 
 (https://wokwi.com/projects/440548344446009345)
 
-![imagen del ejercicio]()
+![Vistazo final](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Final.png)
 
 ```cpp
 #include <Adafruit_GFX.h>
