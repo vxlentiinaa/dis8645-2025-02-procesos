@@ -3,7 +3,7 @@
 ## Acerca del proyecto
 
 - Grupo: 04 Los Vengadores mish
-- Nombre de grupo: TODO
+
 - Integrantes:
   - Josefa Quape
   - Milla Millar
