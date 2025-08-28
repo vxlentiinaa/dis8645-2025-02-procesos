@@ -2,13 +2,13 @@
 
 ## Acerca del proyecto
 
-- Grupo: 0X
-- Nombre de grupo: TODO
+- Grupo: 04 Los Vengadores mish
+
 - Integrantes:
-  - TODO
-  - TODO
-  - TODO
-  - TODO
+  - Josefa Quape
+  - Milla Millar
+  - Jose Morales
+  - Francisco Stephens
 
 ## Presentación textual
 
