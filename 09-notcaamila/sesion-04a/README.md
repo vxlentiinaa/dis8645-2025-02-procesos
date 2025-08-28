@@ -16,9 +16,19 @@ selección de 4 refranes chilenos
 
 ### generación de dibujos para cada refrán
 
-la idea es lograr, mediante la creación de un código, que en la pantalla OLED se lean los refranes y que utilzando botones o un potenciómetro el usuario logre interactuar y ver los dibujos aliusivos a los refranes 
+para cada refrán se generarán uno o más dibujos representativos de estos mismos, esto lo haré con IA
+
+el usuario podrá interactuar mediante un potenciómetro o un botón entre el texto de los refranes y los dibujos que los representan
+
+a continuación adjunto los dibujos generados para cada refrán
+
+1. "perro que ladra no muerde"
+
+2. "se le escapan los enanitos al bosque"
 
 ### primer código "perro que ladra no muerde"
+
+con ayuda del ejemplo visto en clases para la imagen de Akriila, subí el dibujo del perro ladrando a la pantalla OLED mediante el siguiente código
 
 ```cpp
 
@@ -113,21 +123,6 @@ void setup() {
 
 void loop() {
   pantallita.clearDisplay(); // Limpiamos toda la pantalla
-  // pantallita.setTextSize(1); // Tamaño de texto más grande
-  // String mensaje = "Contador muy grande matias recomienda j:";
-  // int16_t x1, y1;
-  // uint16_t w, h;
-  
-  // // Medimos el ancho del texto para centrarlo horizontalmente
-  // pantallita.getTextBounds(mensaje, 0, 0, &x1, &y1, &w, &h);
-  // pantallita.setCursor((SCREEN_WIDTH - w)/2, 0);
-  // pantallita.println(mensaje);
-
-  // // Mostramos el número centrado
-  // String numero = String(contador);
-  // pantallita.getTextBounds(numero, 0, 0, &x1, &y1, &w, &h);
-  // pantallita.setCursor((SCREEN_WIDTH - w)/2, 30); // 30 píxeles hacia abajo
-  // pantallita.println(numero);
 
   pantallita.drawBitmap(0, 0, perroqueladranomuerde, 128, 64, WHITE);
 
@@ -136,5 +131,4 @@ void loop() {
   delay(1000);
 }
 ```
-
 
