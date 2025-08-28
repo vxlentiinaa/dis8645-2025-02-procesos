@@ -24,23 +24,23 @@ el usuario podrá interactuar mediante un potenciómetro o un botón entre el te
 
 a continuación adjunto los dibujos generados para cada refrán
 
-1. "perro que ladra no muerde"
+1: "perro que ladra no muerde"
 
 `![perroqueladranomuerde](./imagenes/perroqueladranomuerde.png)`
 
-2. "se le escapan los enanitos al bosque"
+2: "se le escapan los enanitos al bosque"
 
 ![selescapanlosenanitosalbosque](./imagenes/losenanitos1.png)
 
-3. "quedar como chaleco de mono"
+3: "quedar como chaleco de mono"
 
 ![quedarcomochalecodemono](./imagenes/chalecodemono1.png)
 
-4. "pasar gato por liebre"
+4: "pasar gato por liebre"
 
 ![pasargatoporliebre](./imagenes/pasargatoporliebre.png)
 
-5. "cría cuervos y te sacarán los ojos"
+5: "cría cuervos y te sacarán los ojos"
 
 ![criacuervos](./imagenes/criacuervos1.png)
 
