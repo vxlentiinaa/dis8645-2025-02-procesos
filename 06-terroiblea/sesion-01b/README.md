@@ -327,8 +327,8 @@ void setup() {
 
 En base al mismo código hice variaciones en relación a dibujar cosas, los dibujos los saque de distintas páginas como: 
 
-- https://www.textarts.shop/2021/04/dibujos-hechos-con-el-teclado.html
-- https://www.messletters.com/es/text-art/
+- <https://www.textarts.shop/2021/04/dibujos-hechos-con-el-teclado.html>
+- <https://www.messletters.com/es/text-art/>
 
 ```cpp
 void setup() {
