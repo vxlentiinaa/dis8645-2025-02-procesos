@@ -1,20 +1,20 @@
-# sesion-03b
+# sesion-03b // viernes 22 de agosto ⋆ 𐙚 ̊.
 
-Por hacer:
+- Por hacer:
 
-Encargo 7
+**Encargo 7**
 
 "03b"
 
-"documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi"
+- documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi
 
-pendiente volver a repasar videos de la clase
+- pendiente volver a repasar videos de la clase
 
-## repaso
+## Repaso
 
-pantalla OLED 128x64 y mini protoboard
+> pantalla OLED 128x64 y mini protoboard
 
-tinkercad / wokwi
+> tinkercad / wokwi
 
 4 cables:
 
@@ -33,7 +33,7 @@ File < Examples < Adafruit SSD1306 < ssd1306_128x64_i2c
 
 copiar código a Wokwi
 
-navegar y entender para la entrega texto que hace scroll (testscrolltext();    // Draw scrolling text)
+- navegar y entender para la entrega texto que hace scroll (testscrolltext();    // Draw scrolling text)
 
 modificación en el código // FIX la dirección era otra
 
@@ -48,9 +48,9 @@ los nombres modificables ojalá darle un nombre a elección en español
 
 <https://www.wolframalpha.com/>
 
-para el encargo los comentarios/citas son muy importantes, mencionar que la base del código fue sacado de tal ejemplo (si se utiliza un código existente como base), separar lo que nosotros contribuimos, lo que remixeamos, podemos robar mientras sea acreditado
+- para el encargo los comentarios/citas son muy importantes, mencionar que la base del código fue sacado de tal ejemplo (si se utiliza un código existente como base), separar lo que nosotros contribuimos, lo que remixeamos, podemos robar mientras sea acreditado
 
-### ejemplo utilizado en Wokwi
+### Ejemplo utilizado en Wokwi
 
 ```cpp
 #include <Wire.h>
@@ -99,9 +99,9 @@ void loop() {
 
 <https://javl.github.io/image2cpp/>
 
-probé colocar una imagen en la pantallita
+- probé colocar una imagen en la pantallita
 
-código:
+Código:
 
 ```cpp
 #include <Wire.h>
@@ -218,11 +218,11 @@ void loop() {
 }
 ```
 
-resultado:
+Resultado:
 
 ![resultado](./imagenes/resultado.png)
 
-última parte clase
+- Última parte clase
 
 ```cpp
 #include <Wire.h>
