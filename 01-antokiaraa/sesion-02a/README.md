@@ -1,4 +1,4 @@
-# sesion-02a // martes 12 de agosto ⋆ 𐙚 ̊.
+# sesion-02a // martes 12 de agosto ⋆ 𐙚 ̊
 
 (el de arriba es título)
 
@@ -58,9 +58,11 @@ void loop() {
 
 }
 ```
-## Documentación errores:
 
-### Error 1:
+## Documentación errores
+
+### Error 1
+
 ```cpp
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino:10:26: error: stray '\303' in program
    Serial,println(esto sería el siguiente texto?);
@@ -96,10 +98,9 @@ Compilation error: stray '\303' in program
 ```
 
 > por lo que entendí después es que en vez de un punto puse una coma sin querer, y que el texto debe ir en comillas.
-
 > lo modifiqué y me volvió a dar error, porque el murciélago está mal(?)
 
-### Error 2:
+### Error 2
 
 ```cpp
 
@@ -133,5 +134,4 @@ void loop() {
 ### Error 3
 
 > ya está, pero no me funciona en el serial monitor c:
-
 > era el puerto usb, ya funcionó.
