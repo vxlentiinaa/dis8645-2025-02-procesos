@@ -11,7 +11,7 @@
 
 ## Presentación textual
 
-Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
+El proyecto nació como un primer acercamiento a Arduino, con la idea de aprender a usar la placa y sus componentes básicos. Para esto usamos una pantalla OLED y un potenciómetro. La propuesta fue mostrar un poema navegable, en este caso un fragmento de "Táctica y estrategia" de Mario Benedetti, donde el usuario pudiera recorrer los versos moviendo el potenciómetro, generando así una pequeña interacción con el texto y una imagen final.
 
 ## Inputs y outputs
 
