@@ -233,8 +233,21 @@ void loop() {
   delay(200);                      // wait for a second
 }
 ```
+![ejemplo](./imagenes/ejemploEnClases.png)
 
 ### Encargo 02
 
 Hacer variables que no funcionen, mínimo 3. Ejemplo: código morse, números aleatorios, calculadora, dado, etc.
+
+- Traté de realizar un corazón mediante puntos, primero no me funcionó, la verdad no sabría explicar porqué
+
+![variable](./imagenes/variableUno.png)
+
+![variable](./imagenes/variableUno-2.png)
+
+![variable](./imagenes/variableUno-1.png)
+
+![variable](./imagenes/variableDos.png)
+
+![variable](./imagenes/variableDos-1.png)
 
