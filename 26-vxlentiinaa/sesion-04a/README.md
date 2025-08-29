@@ -271,7 +271,7 @@ void loop() {
 ```
 agregar foto proceso uno
 
-- Segundo código de proceso, donde comenzamos a trabajar con el espiral, entiendo como iban los parámetros de la fórmula aplicada y ver en que podíamos ajustarla
+- Segundo código de proceso, donde comenzamos a trabajar con el espiral, entiendo como iban los parámetros de la fórmula aplicada y ver en que podíamos ajustarla; ajustar las letras era lo más complicado porque se veían dispersas en la pantalla 
 
 ```cpp
 #include <Wire.h>
@@ -364,7 +364,7 @@ void mostrarPoemaEspiral(String texto) {
   float dtheta = 0.4;   // cuánto avanza el ángulo por letra
 ```
 
-- Al hacer el código anterior, preguntamos a un estudiante de informática y nos dió este código
+- Tercer código de proceso. Al hacer el código anterior, preguntamos a un estudiante de informática y nos dió este código, donde agregó una función que hacía que dibujara el espiral como un agujero negro, es decir, que generaba el espiral del poema completo y luego iba desapareciendo desde el centro, pero aún así las letras estaban dispersas y no se veían bien 
 
 ```cpp
 #include <Wire.h>
@@ -474,5 +474,62 @@ void mostrarPoemaEspiral(String texto) {
     theta += dtheta;
     r += dr * dtheta / (2 * 3.1416);
   }
+}
+```
+
+agregar foto proceso 3
+
+agregar foto proceso 3.1
+
+- Cuarto código de proceso. En este código cambiamos la función ${\color{blue}void, int, fin}$(): por un ${\color{blue}loop}$(): </br> donde utilizamos un ${\color{blue}float}$(): </br> donde le dimos un espacio a los números décimales, agregando una fórmula de ángulo y radio.
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <math.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+// Texto del poema
+String poema = "Casi cruzo la barrera del espejo para ver lo que no se puede ver el mundo como seria si la realidad copiara y no al reves, el espejo llena, porfin, de su nada.";
+
+void setup() {
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    for(;;); // No encontró la pantalla
+  }
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setTextSize(1);
+}
+
+void loop() {
+  pantallita.clearDisplay();
+
+  float centroX = SCREEN_WIDTH / 2;
+  float centroY = SCREEN_HEIGHT / 2;
+  float angulo = 0;
+  float radio = 5;    // radio inicial
+  float pasoAngulo = 0.35; // qué tan apretada la espiral
+  float pasoRadio = 0.8;   // cuánto aumenta el radio cada letra
+
+  for (int i = 0; i < poema.length(); i++) {
+    char c = poema.charAt(i);
+
+    int x = centroX + radio * cos(angulo);
+    int y = centroY + radio * sin(angulo);
+
+    pantallita.setCursor(x, y);
+    pantallita.write(c);
+
+    angulo += pasoAngulo;
+    radio += pasoRadio;
+  }
+
+  pantallita.display();
+  delay(5000); // mostrar 5 seg antes de repetir
 }
 ```
