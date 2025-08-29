@@ -37,4 +37,14 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 
 ## Bibliografía
 
-Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
++ Arduino. (2025). *Arduino language reference*. Arduino Documentation.
+Recuperado en Agosto del 2025 en https://docs.arduino.cc/language-reference/
+
++ Adafruit. (2025). *Adafruit SSD1306 library*. GitHub. 
+Recuperado en Agosto del 2025 en https://github.com/adafruit/Adafruit_SSD1306
+
++ Adafruit. (2024). *Adafruit GFX graphics library*. Adafruit Learning System.
+Recuperado en Agosto del 2025 en https://learn.adafruit.com/adafruit-gfx-graphics-library
+
++ Santos, R. (2018). *Guide for OLED display with Arduino*. Random Nerd Tutorials.
+Recuperado en Agosto del 2025 en https://randomnerdtutorials.com/guide-for-oled-display-with-arduino
