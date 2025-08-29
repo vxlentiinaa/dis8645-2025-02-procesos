@@ -176,7 +176,7 @@ Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.ardui
 
 Video como usar potenciómetro [ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino](https://www.youtube.com/watch?v=l_2vnl5MOpo)
 
-Video de referencia introductoria al pixel art. CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.
+Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
 
-Video de referencia sobre el trazado en el pixel art. CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)
+Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
 
