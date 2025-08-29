@@ -25,10 +25,10 @@ Cada uno de los 4 integrantes del equipo diseñó su propio poema y dibujo, comp
 - Tras una gran
   
   bocanada de aire…
- 
+
   Un llanto desconsolado.
 
-Ikeda Sumiko [1936. - ]
+Ikeda Sumiko (1936. - )
 
 - Cerezo invernal
 
@@ -36,23 +36,23 @@ Ikeda Sumiko [1936. - ]
 
   y me detuve.
 
-Kajin Aioigaki [1898-1985]
+Kajin Aioigaki (1898-1985)
 
 - Florece el cosmos
   
   al amanecer…
   
   Soledad.
-  
-Aya Shōbu [1924-2005]
+
+Aya Shōbu (1924-2005)
 
 - Noche de otoño…
   
   Se marchita el corazón,
   
   un espejo en la mano.
-  
-  Tōshi Akao [1925-1981]
+
+Tōshi Akao (1925-1981)
 
 ## Inputs y outputs
 
@@ -77,6 +77,14 @@ Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilid
 ## Bocetos de planificación
 
 Fotografías y dibujos de maquetas y pruebas
+
+### Fórmula del espiral
+
+La sacamos de una fórmula matemática llamada espiral logarítmica, donde un estudiante de informática nos ayudó a resolverla e implementarla en el código para entenderla mejor.
+
+(r=a∙b⁰) donde "r" es la distancia desde el centro al origen.
+
+[Espiral logarítmica](https://www.edificacion.upm.es/geometria/JPA/EspLog.html)
 
 ## Etapas del código
 
@@ -104,44 +112,13 @@ Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 int potPin = A0; // Pin del potenciómetro
 ```
 
-## 2. Dibujo del poema en espiral
+### 2. Dibujo del poema en espiral
 
 - Función que coloca cada palabra o verso en coordenadas calculadas para formar la espiral.
 
 ```cpp
 // Poema en espiral
 String poema = "Noche de otoño… Se marchita el corazón, un espejo en la mano.";
-```
-
-### 3. Visualización del nombre del autor
-
-- Texto centrado o en movimiento para destacarlo.
-
-```cpp
-// Nombre autor
-String mensaje = "--- Tōshi Akao";
-```
-
-### 4. Animación/dibujo representativo**
-
-- Uso de arrays de bits (drawBitmap) para mostrar imágenes o secuencias de frames.
-
-```cpp
-const unsigned char hojassecas [] PROGMEM = {
-
-// Este codigo lo obtuvimos de image2cpp
-
- 	0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
-```
-
-En esta parte va la respectiva imagen de cada integrante del grupo
-
-### 5. Control por potenciómetro
-
-- Lectura del valor analógico y cambio de etapa según la posición.
-
-```cpp
-int valor = analogRead(potPin);
 ```
 
 ```cpp
@@ -169,7 +146,40 @@ if(valor <= 341){
       radio += pasoRadio;
       delay(80); // es el tiempo en que van apareciendo las letras
     }
+```
 
+### 3. Visualización del nombre del autor
+
+- Texto centrado o en movimiento para destacarlo.
+
+```cpp
+// Nombre autor
+String mensaje = "--- Tōshi Akao";
+```
+
+### 4. Animación/dibujo representativo**
+
+- Uso de arrays de bits (drawBitmap) para mostrar imágenes o secuencias de frames.
+
+```cpp
+const unsigned char hojassecas [] PROGMEM = {
+
+// Este codigo lo obtuvimos de image2cpp
+
+  0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+```
+
+En esta parte va la respectiva imagen de cada integrante del grupo
+
+### 5. Control por potenciómetro
+
+- Lectura del valor analógico y cambio de etapa según la posición.
+
+```cpp
+int valor = analogRead(potPin);
+```
+
+```cpp
   // else sirve para ejecutar una condición, si if cumple, se ejecutara else
   // es decir, que si el valor del potenciometro es menor a 682 mostrara el texto en espiral
   }
@@ -193,13 +203,20 @@ if(valor <= 341){
 
 ## Roles del equipo
 
-### Sofía Cartes
+### Sofía Cartes y Valentina Ruz
 
-### Antonia Fuentealba
+- Encargadas de modificar el código de referencia e implementar el potenciómetro; también buscar las fórmulas para que aparezca el texto en espiral.
+- Investigar sobre tipos de códigos y fórmulas.
+- Redacción de GitHub.
+- Registro fotográfico del proceso.
+  
+### Antonia Fuentealba y Sofía Perez
 
-### Sofía Perez
-
-### Valentina Ruz
+- Investigación de poemas y sus tipos.
+- Investigación de imágenes con vectores que calzaran con los poemas.
+- Redacción de GitHub.
+- investigación de pantalla TFT.
+- Registro fotográfico del proceso.
 
 ## Fotografías y videos del proyecto funcionado
 
@@ -207,12 +224,39 @@ Subir fotos y videos
 
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
+### poema 1
+
+### poema 2
+
+### poema 3
+
+![imagenpoema3](./imagenes/imagenpoema3.1.jpg)
+
+![imagenpoema3](./imagenes/imagenpoema3.2.jpg)
+
+![imagenpoema3](./imagenes/imagenpoema3.jpg)
+
+### poema 4
+
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
 
-* 575筆まか勢 (Fudemaka57). (s.f.). 575筆まか勢 (Blog). Recuperado el 28 de agosto de 2025, de <https://fudemaka57.exblog.jp/>
+- 575筆まか勢 (Fudemaka57). (s.f.). 575筆まか勢 (Blog). Recuperado el 28 de agosto de 2025, de <https://fudemaka57.exblog.jp/>
+- Del Valle Hernández, L.(s.f.). Texto en movimiento en un LCD con Arduino. Programarfacil. Recuperado el 28 de agosto de 2025, de <https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/>
+- El proyecto (Project 440360994230097921) Wokwi ESP32, STM32, Arduino Simulator. (26 de agosto, 2025). Wokwi. Recuperado el 28 de agosto de 2025, de <https://wokwi.com/projects/440360994230097921>
+- Evans, B.W.(2007). Manual de programación Arduino(PDF). Traducido y adaptado por J. M. Ruiz Gutiérrez. PBworks. <https://arduinobot.pbworks.com/f/Manual+Programacion+Arduino.pdf>
+- Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
+- Pardo Martín, C. F.(2025). Dibujar una espiral. Picuino. <https://www.picuino.com/es/scratch-espiral.html>
+- Universidad Politécnica de Madrid.(s.f.). Espiral logarítmica. Escuela Técnica Superior de Edificación. Recuperado el 28 de agosto de 2025, de <https://www.edificacion.upm.es/geometria/JPA/EspLog.html>
+- Waveshare.(s.f.).1.28inch LCD Module. Recuperado el 28 de agosto de 2025, de <https://www.waveshare.com/wiki/1.28inch_LCD_Module>
+- Wokwi.(s.f.). Wokwi OLED Animation Maker for Arduino. <https://animator.wokwi.com/>
 
-* Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
+### Repositorios
 
-* El proyecto (Project 440360994230097921) Wokwi ESP32, STM32, Arduino Simulator. (26 de agosto, 2025). Wokwi. Recuperado el 28 de agosto de 2025, de <https://wokwi.com/projects/440360994230097921>
+- Adafruit Industries. (s.f.). Adafruit. GitHub. <https://github.com/adafruit>
+
+- AntFuentealba.(s.f.). 11-AntFuentealba Carpeta dentro del repositorio dis8645‑2025‑02‑procesos. GitHub <https://github.com/dis8645-2025-02-procesos/tree/main/11-AntFuentealba>
+- sofiacartes.(s.f.). 05-sofiacartes Carpeta dentro del repositorio dis8645-2025-02-proceso. GitHub. <https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes>
+- sofiaperezm.(s.f.). 22-sofia-perezm Carpeta dentro del repositorio dis8645‑2025‑02‑procesos. GitHub. <https://github.com/dis8645-2025-02-procesos/tree/main/22-sofia-perezm>
+- vxlentiinaa. (s.f.). 26-vxlentiinaa Carpeta dentro del repositorio dis8645‑2025‑02‑procesos. GitHub. <https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa>
