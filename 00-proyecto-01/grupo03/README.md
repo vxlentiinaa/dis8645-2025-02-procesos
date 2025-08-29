@@ -18,6 +18,9 @@ Pero este no es el único lado de la inteligencia artificial, ya que existen mú
 
 Queremos ofrecer una interacción ética, genuina y que entregue respuestas personalizadas e introspectivas al usuario, dándole así un toque humano que la IA no tiene.
 
+Los poemas que serán presentados son todos  por Julio Cortazar
+
+
 ## Inputs y outputs
 
 El input para entre proyecto es realizada a partir de un potenciómetro montado sobre una protoboard, donde el ángulo en el que se encuentre el potenciómetro, se le permitirá al usuario elegir entre 2 opciones que se le entregarán, una siendo hacia la izquierda y la otra hacia la derecha.
@@ -1914,6 +1917,8 @@ final8 = false;
 [pruebaConversacionConArduino-03](https://youtube.com/shorts/efIljK3--vE?si=xo1tBEY-9E5ByfOI)
 
 ## Bibliografía
+
+Julio Cortazar, de: https://circulodepoesia.com/2021/08/poemas-de-julio-cortazar/ y https://psicologiaymente.com/cultura/poemas-julio-cortazar
 
 (S/f). Adafruit.com. Recuperado el 29 de agosto de 2025, de https://forums.adafruit.com/viewtopic.php?t=107808#top
 
