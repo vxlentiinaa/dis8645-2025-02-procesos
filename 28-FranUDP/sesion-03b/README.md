@@ -60,12 +60,12 @@ Nos reunimos el fin de semana para definir ideas, objetivos y roles.
 
 Tras varios minutos intentando hacer poemas, nos decidimos por el siguiente haiku:
 
-<img align="left" src="./imagenes/haiku.jpg" alt="haiku final" height=135> <br><br><br><br><br><br><br>
+<img align="left" src="./imagenes/haiku.jpg" alt="haiku final" height=145> <br><br><br><br><br>
 
 También estuvimos viendo ideas de imágenes y viendo cómo quedaban en la pantalla.
 
-<img align="left" src="./imagenes/brain.jpg" alt="chip frito en la pantalla" height=200> 
+<img align="left" src="./imagenes/brain.jpg" alt="chip frito en la pantalla" height=225> 
 
-<img align="right" src="./imagenes/pantalla.jpg" alt="chip frito en la pantalla" height=200> <br><br><br><br><br><br><br><br>
+<img align="left" src="./imagenes/pantalla.jpg" alt="chip frito en la pantalla" height=225>
 
-<img align="left" src="./imagenes/ded.jpg" alt="pantalla frita" height=230> 
+<img align="left" src="./imagenes/ded.jpg" alt="pantalla frita" height=250> 
