@@ -211,16 +211,8 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
 
-<https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
+* 575筆まか勢 (Fudemaka57). (s.f.). 575筆まか勢 (Blog). Recuperado el 28 de agosto de 2025, de <https://fudemaka57.exblog.jp/>
 
-<https://www.instagram.com/p/DKa0Ut-uD2x/?img_index=1>
+* Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
 
-<https://www.instagram.com/p/DMa2oTdOuQJ/?igsh=ZGd4ZGkwdDI1MzY2>
-
-<https://www.instagram.com/p/CoKJIqsuMHv/?img_index=1>
-
-<https://www.instagram.com/p/DHwxmnzOpxe/?img_index=1>
-
-<https://wokwi.com/projects/440360994230097921>
-
-<https://fudemaka57.exblog.jp/>
+* El proyecto (Project 440360994230097921) Wokwi ESP32, STM32, Arduino Simulator. (26 de agosto, 2025). Wokwi. Recuperado el 28 de agosto de 2025, de <https://wokwi.com/projects/440360994230097921>

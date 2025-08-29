@@ -14,57 +14,65 @@
 > Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
 
 El problema de diseño que abordamos fue cómo mostrar un poema de manera dinámica en una pantalla OLED, controlando su velocidad de desplazamiento vertical con una interfaz física simple e intuitiva: un potenciómetro.
+
 El objetivo es generar una experiencia poética interactiva, donde el espectador pueda decidir el ritmo de la lectura.
 
 ### Poema Cronos
 
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
->En Santiago de Chile
->
->Los
->
->días
->
->son
->
->interminablemente
->
->largos:
->
->
->Varias eternidades en un día.
->
->
->Nos desplazamos a lomo de luma
->
->Como los vendedores de cochayuyo:
->
->Se bosteza. Se vuelve a bostezar.
->
->
->Sin embargo las semanas son cortas
->
->Los meses pasan a toda carrera
->
->Ylosañosparecequevolaran.
+```txt
+*En Santiago de Chile*
+
+*Los*
+
+*días*
+
+*son*
+
+*interminablemente*
+
+*largos:*
+
+*Varias eternidades en un día.*
+
+*Nos desplazamos a lomo de luma*
+
+*Como los vendedores de cochayuyo:*
+
+*Se bosteza. Se vuelve a bostezar.*
+
+*Sin embargo las semanas son cortas*
+
+*Los meses pasan a toda carrera*
+
+*Ylosañosparecequevolaran.*
+```
 
 ## Inputs y outputs
 
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
-Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
-Se interactúa con el diseño al mover la perilla del potenciómetro, la cual regula la velocidad que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
+Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
+
+### Interacción (input):
+
+El usuario mueve la perilla del potenciómetro.
+
+### Salida de la máquina (output):
+
+- El texto del poema se desplaza en la pantalla OLED desde abajo hacia arriba.
+- La velocidad del desplazamiento depende de la posición del potenciómetro.
+
+De este modo, se ofrece una exhibición del poema que responde en tiempo real a la acción del usuario.
 
 ## Bocetos de planificación
 
-Fotografías y dibujos de maquetas y pruebas
+>Fotografías y dibujos de maquetas y pruebas
 
-diagrama de flujo
+### Diagrama de flujo
 
-idea del dibujo
-
-![imagen](./imagenes/registro01.jpeg)
+![imagen](./imagenes/diagrama-flujo.png)
 
 ### Pixel art
 
@@ -80,9 +88,9 @@ Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Us
 
 ## Etapas del código y errores
 
-Segmenta las secciones de tu código y explícalas
-
-EXPLICAR ERRORES Y COMENTARIOS
+>Segmenta las secciones de tu código y explícalas
+>
+>EXPLICAR ERRORES Y COMENTARIOS
 
 ![imagen](./imagenes/wokwi01.png)
 
@@ -100,8 +108,6 @@ EXPLICAR ERRORES Y COMENTARIOS
 
 ![imagen](./imagenes/registro04.jpg)
 
-![imagen](./imagenes/wokwi01.png)
-
 ![imagen](./imagenes/wokwi07.png)
 
 ### Imagen
@@ -116,7 +122,7 @@ Utilizamos una página web que convierte dibujos en código, transformándolos e
 
 ![imagen](./imagenes/dibujo.png)
 
-PONER CODIGO DEL DIBUJO
+>PONER CODIGO DEL DIBUJO
 
 ![imagen](./imagenes/registro05.jpg)
 
@@ -150,19 +156,28 @@ PONER CODIGO DEL DIBUJO
 
 ## Fotografías y videos del proyecto funcionado
 
-Subir fotos y videos
+>Subir fotos y videos
+>
+>El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
-El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+![imagen](./imagenes/registro01.jpeg)
 
 ## Bibliografía
 
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
-Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8
 
-https://docs.arduino.cc/language-reference/en/functions/math/map/ // cómo usar map(). Define los valores del potenciómetro en velocidades
+Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
-https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
+<https://docs.arduino.cc/language-reference/en/functions/math/map/> // cómo usar map(). Define los valores del potenciómetro en velocidades
 
-https://www.poemas-del-alma.com/nicanor-parra-cronos.htm // poemas que estamos usando
+<https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
 
-https://www.youtube.com/watch?v=l_2vnl5MOpo video como usar potenciómetro 
+- CRONOS. (s/f). Poemas-del-alma.com. Recuperado el 29 de agosto de 2025, de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> 
+
+- Electrónicos Por, E. M. [@ElectronicosporelMundo]. (s/f). ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino [[Object Object]]. Youtube. Recuperado el 29 de agosto de 2025, de <https://www.youtube.com/watch?v=l_2vnl5MOpo>
+
+- YouTube. (s/f-b). CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos. Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/YyC2i91EwNw?si=ATsIx5gcO_lLDh3E>
+
+- YouTube. (s/f). CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies). Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ>
+
+- Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
