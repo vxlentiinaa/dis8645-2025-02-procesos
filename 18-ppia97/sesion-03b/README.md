@@ -11,3 +11,8 @@ Pantalla OLED Y TFT
 
 ⋆ WOKWI Y TINKERCAD: para simulaciones.
 ![1](./imagenes/1.png)
+⋆ Bibliotecas: 
+ - Adafruit_SSD1306
+ - Adafruit-GFX
+
+⋆ https://javl.github.io/image2cpp/
