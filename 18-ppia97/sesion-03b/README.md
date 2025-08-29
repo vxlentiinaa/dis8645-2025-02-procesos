@@ -10,3 +10,4 @@ Pantalla OLED Y TFT
 4 cables
 
 ⋆ WOKWI Y TINKERCAD: para simulaciones.
+![1](./imagenes/1.png)
