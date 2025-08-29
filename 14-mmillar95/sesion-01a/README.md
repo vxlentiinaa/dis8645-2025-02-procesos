@@ -75,6 +75,19 @@ A un mes de su nacimiento, su madre abandona el hogar debido a las infidelidades
 
 Con sus **ideas visionarias** Ada logra imaginar que las maquinas podrian ir mas alla del calculo matematico y trabajar con simbolos, lo cual anticipa el concepto de computadoras programables. 
 
+### Alan Turing
+
+Alan Turing nació el 23 de junio de 1912 en Londres, en una familia de clase media alta, siendo el segundo hijo de Julius y Sara.
+
+Debido a la muerte de un amigo que conoció en la escuela Sherborne, se comenzó a interesar en el estudio de la mente humana a través de la física y mecánica cuántica, buscando soluciones mente-materia.
+
+Comenzó a trabajar para el servicio oficial británico de cifrado a los 26 años.
+
+Enigma era una máquina alemana que encriptaba mensajes durante la Segunda Guerra Mundial.
+
+>Pero un hombre llamado Alan Turing, nacido el 23 de junio de 1912, lograría lo inimaginable: este genio británico de la lógica y de las matemáticas se convertiría en un héroe que salvaría millones de vidas al lograr descifrar el código para desencriptar los mensajes enviados por los nazis.
+>[Fuente: National Geographic](https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352)
+
 
 
 

@@ -21,8 +21,7 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
-```txt
-*En Santiago de Chile*
+*"En Santiago de Chile*
 
 *Los*
 
@@ -46,8 +45,7 @@ Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https:/
 
 *Los meses pasan a toda carrera*
 
-*Ylosañosparecequevolaran.*
-```
+*Ylosañosparecequevolaran."*
 
 ## Inputs y outputs
 
@@ -66,10 +64,6 @@ El usuario mueve la perilla del potenciómetro.
 
 De este modo, se ofrece una exhibición del poema que responde en tiempo real a la acción del usuario.
 
-## Bocetos de planificación
-
->Fotografías y dibujos de maquetas y pruebas
-
 ### Diagrama de flujo
 
 ![imagen](./imagenes/diagrama-flujo.png)
@@ -84,93 +78,185 @@ Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía co
 
 Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
 
+Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta nos permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
+
 ![imagen](./imagenes/pixelart.jpeg)
 
 ## Etapas del código y errores
 
->Segmenta las secciones de tu código y explícalas
->
->EXPLICAR ERRORES Y COMENTARIOS
+### Poema
 
-![imagen](./imagenes/wokwi01.png)
+En la primera parte del código probamos cómo poner una parte del poema para que aparezca en la pantalla. Intentamos varias formas para ver cómo quedaría mejor:
+- `display.println(F("En Santiago de Chile\los dias son\interminablemente\largos"));` esta forma no sirve para que los versos en líneas separadas
+- `display.println(F("En Santiago de Chile" "los dias son" "interminablemente" "largos"));` de esta manera, al igual que la anterior, los versos no aparecen en líneas separadas.
+- `display.println(F("En Santiago de Chile"));` para escribir el verso y `display.println(F(""));` para separar el verso del siguiente
 
-![imagen](./imagenes/wokwi02.png)
+![imagen](./imagenes/etapa01.png)
 
-![imagen](./imagenes/wokwi03.png)
-
-![imagen](./imagenes/wokwi04.png)
+Luego, probamos cómo poner la imagen en la pantalla, vimos que aparecía sobre el texto. Vimos que se debía cambiar las coordenadas desde donde inicia la imagen: `display.drawBitmap(0, SCREEN_HEIGHT - i + SCREEN_HEIGHT ... );`
 
 ![imagen](./imagenes/wokwi05.png)
 
-![imagen](./imagenes/wokwi06.png)
+Luego de modificar también el tamaño de la imagen en `display.drawBitmap( ... 128, 64, ...);` y ver que sí funcionaba con el perrito de @rafita.studio, pusimos nuestra imagen hecha por Bernardita.
 
 ![imagen](./imagenes/registro03.jpg)
 
-![imagen](./imagenes/registro04.jpg)
-
-![imagen](./imagenes/wokwi07.png)
-
-### Imagen
-
-Esta fue una de las primeras pruebas que hicimos con una imagen. 
-
-Se logró ver bien, aunque en este caso la imagen no se distribuía por toda la pantalla.
-
-![imagen](./imagenes/registro02.jpeg)
-
-Utilizamos una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta nos permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
-
-![imagen](./imagenes/dibujo.png)
-
->PONER CODIGO DEL DIBUJO
-
 ![imagen](./imagenes/registro05.jpg)
+
+### Codigo
+
+#### Etapa Adafruit
+
+```cpp
+// bibliotecas que se usarán en el código
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+```
+
+En esta sección se expresa que el código usará las bibliotecas `Adafruit_GFX.h` y `Adafruit_SSD1306.h` que deben ser instaladas previamente.
+
+#### Etapa: #define, variables y constantes
+
+Esta etapa es la que define las partes más impotantes del código. Les pone nombre y define las variables y constantes.
+
+```cpp
+// se define el tamaño de la pantalla
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+// se define el pin de RESET de la pantalla
+// en este caso el -1 significa que no hay botón RESET
+#define OLED_RESET -1
+// se define que 0x3C es la dirección de la pantalla
+#define SCREEN_ADDRESS 0x3C
+// se define que A3 es el potenciometro
+#define potenciometro A3
+// se crea y se inicia la pantalla OLED
+Adafruit_SSD1306 display (SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+// se declara la variable "velocidad" para que pueda ser usada más adelante
+int velocidad; 
+// se crea el array de bites que contiene la imagen
+const unsigned char PROGMEM santiagoChile[] = {
+// imagen en bits
+0xff, 0xff, 0xff, 0xff, 0xff, 0xff ...
+}
+```
+
+#### Etapa void setup
+
+Esta parte es donde se prepara el código antes de empezar loop. Sólo se corre una vez cuando se enciende o se reinicia la placa Arduino
+
+```cpp
+void setup () {
+  // inicia la pantalla OLED
+  display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS); 
+  // limpia la pantalla antes de dibujar
+  display.clearDisplay();
+  // define el tamaño del texto
+  display.setTextSize(1); 
+  // define el color del texto
+  display.setTextColor(WHITE); 
+}
+```
+
+#### Etapa: void loop
+
+Aquí se inicia lo que se hará en el loop, lo que se reproducirá una y otra vez hasta que se apague o se reinicie la placa Arduino.
+
+```cpp
+  // da comienzo al loop
+void loop() {
+  // se dice que la variable "velocidad" leera el "potenciometro"
+  velocidad = analogRead(potenciometro);
+  // se determina con map que los valores de "potenciometro" 
+  // sean adaptados a la velociaad que se mueve el texto
+  // el "0, 1013" definen el rango del potenciometro (input)
+  // y se conviertetn a "0, 100" que será la velocidad (output) 
+  velocidad = map(velocidad, 0, 1023, 0, 100);
+```
+
+##### Etapa: poema
+
+En esta etapa se empieza a correr el poema con los valores previamente establecidos.
+
+```cpp
+  // "i = 0", se crea la variable i que empieza contando desde 0
+  // "i < SCREEN_HEIGHT *5" el ciclo sigue mientras "i" sea menor a "SCREEN_HEIGHT por (*) 5"
+  // " i += 2" cada vuelta "i" aumenta de 2 en 2
+ for (int i = 0; i < SCREEN_HEIGHT *5; i += 2) {
+  // se limpia la pantalla
+   display.clearDisplay();
+    // se determina que el texto vaya suiendo
+    // "0" define el valor del eje X
+    // "SCREEN_HEIGHT - i" define el valor del eje Y
+    // que en este caso es el tamano de la pantalla
+    // menos la variable "i" que va cambiando el el tiempo
+    // lo cual genera que el texto inicie abajo y vaya subiendo
+    display.setCursor(0, SCREEN_HEIGHT - i);
+    // la pantalla imprime el primer verso del poema
+    // la "F" le dice a Arduino que guarde el verso en el programa,
+    // no en su memoria interna
+    display.println(F("En Santiago de Chile"));
+    display.println(F(""));
+||||...
+    // ajusta el retraso de velocidad del scroll segun fue designado en el for
+    delay(velocidad);
+```
+
+##### Etapa: imagen
+
+En esta parte se mostrará la imagen en la pantalla OLED. Se define qué imgen será, dónde aparecerá, el tamaño que tendrá y de qué color será.
+
+```cpp
+  // "0" define la posición en el eje X desde donde aparecerá
+  // "SCREEN_HEIGHT - i + SCREEN_HEIGHT" define la posición en el eje Y
+  // al inicio la imagen está fuera de la pantalla, mientras "i" aumenta,
+  // la imagen va subiendo a la pantalla haciendo un efecto de scroll
+  // "santiagoChile" llama al array de la imagen
+  // "128, 64" define el ancho y el alto de la imagen
+  // "WHITE" define el color de la imagen
+  display.drawBitmap(0, SCREEN_HEIGHT - i + SCREEN_HEIGHT, santiagoChile, 128, 64, WHITE);
+  // se llama a la pantalla para que muestre lo que se menciono
+display.display();
+  // establece la velocidad a la que aparecera la imagen
+delay(velocidad);
+```
 
 ## Actividades y roles del equipo
 
 ### Investigación sobre proyectos y código
 
-- Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: Todos participaron investigando códigos, referencias y recursos para el desarrollo del proyecto.
+Todos participamos en la investigación de códigos, referencias y recursos para el desarrollo del proyecto.
 
 ### Programación base / adaptación de código
 
-- Aileen D'Espessailles: Adaptó código de referencia para que el texto subiera en la pantalla.
+Aileen adaptó el código de referencia para que el texto subiera en la pantalla.
 
-### Integración del control del con potenciómetro y regulación de velocidad
+### Integración del potenciómetro y regulación de velocidad
 
-- Aileen D'Espessailles y Félix Rodríguez: Investigaron cómo usar el potenciómetro para controlar la velocidad y lo unieron al código del servo motor.
+Aileen y Félix investigaron cómo usar el potenciómetro para controlar la velocidad y usando de base un código que servía para manejar un servomotor con un potenciómetro.
 
-### Investigación de aparición de imágenes tras el poema
+### Investigación respecto a la imagen
 
-- Carla Pino: Buscó y unió recursos para que las imágenes aparecieran al finalizar el poema.
+- Carla buscó y unió recursos sobre cómo hacer qu las imágenes aparecieran al finalizar el poema.
 
-- Bernardita Lobo: Investigó sobre las imágenes y cómo integrarlas al proyecto.
+- Bernardita investigó sobre las imágenes y cómo integrarlas al proyecto. Además, diseñó la imagen en pixel art y organizó la redacción del proyecto en GitHub.
 
-### Diseño visual
+### Registro y proceso
 
-- Bernardita Lobo: Diseñó una imagen en pixel art y organizó la redacción del proyecto en GitHub.
+- Todos tomamos fotografías y tomamos registro escrito del proceso de desarrollo del proyecto.
+- Bernardita y Félix organizaron y redactaron el proyecto dentro de GitHub.
 
-### Registro fotográfico del proceso
-
-- Aileen D'Espessailles, Bernardita Lobo, Carla Pino, Félix Rodríguez: Todos tomaron fotografías del proceso de desarrollo del proyecto.
-
-## Fotografías y videos del proyecto funcionado
-
->Subir fotos y videos
->
->El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+## Fotografías y videos
 
 ![imagen](./imagenes/registro01.jpeg)
 
 ## Bibliografía
 
-Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+- Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
-Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
+- <https://docs.arduino.cc/language-reference/en/functions/math/map/> // cómo usar map(). Define los valores del potenciómetro en velocidades
 
-<https://docs.arduino.cc/language-reference/en/functions/math/map/> // cómo usar map(). Define los valores del potenciómetro en velocidades
-
-<https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
+- <https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
 
 - CRONOS. (s/f). Poemas-del-alma.com. Recuperado el 29 de agosto de 2025, de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> 
 

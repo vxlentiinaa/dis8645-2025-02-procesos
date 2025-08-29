@@ -14,7 +14,7 @@ Pantallas: Para elegir una pantalla, necesitamos tener en cuenta, la resolución
   - Utilizaremos la pantalla SSD1306 OLED, que utiliza el chip 1306, esta pantalla solo recibe información, no entrega.
 - i2C: comunicación synchronous, protocolo que permite conectar las cosas entre si, permite conectar dos cosas entre si
 
- insertar imagen de la pantalla
+![Pantalla](./imagenes/pantallaSSD1306.jpg)
 
 Tenemos el PIN
   - VCC: carga positiva 
@@ -260,6 +260,14 @@ void loop() {
 }
 ```
 
+![ejemplo 1](./imagenes/ejemploContador.png)
+
+![ejemplo 2](./imagenes/ejemploContador-2.png)
+
+![ejemplo rafita](./imagenes/ejemploRafita.png)
+
+![ejemplo estrellas](./imagenes/ejemploEstrellasCayendo.png)
+
 ### Apuntes varios
 
 - Mouser.cl
@@ -283,5 +291,6 @@ void loop() {
 
 I2c: hay que corrobar la dirección
 
-- Se puede usar el mismo código pero hay que editarlo
-
+- Se puede usar el mismo código pero hay que citarlo
+- Image2cpp
+- Próximo viernes: Podemos hacer texto, renderear fotos, poema, número
