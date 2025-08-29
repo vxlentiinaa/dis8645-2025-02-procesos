@@ -239,15 +239,15 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
 
 * 575筆まか勢 (Fudemaka57). (s.f.). 575筆まか勢 (Blog). Recuperado el 28 de agosto de 2025, de <https://fudemaka57.exblog.jp/>
-* Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
 * El proyecto (Project 440360994230097921) Wokwi ESP32, STM32, Arduino Simulator. (26 de agosto, 2025). Wokwi. Recuperado el 28 de agosto de 2025, de <https://wokwi.com/projects/440360994230097921>
-* Wokwi.(s.f.). Wokwi OLED Animation Maker for Arduino. <https://animator.wokwi.com/>
-* Pardo Martín, C. F.(2025). Dibujar una espiral. Picuino. <https://www.picuino.com/es/scratch-espiral.html>
 * Evans, B.W.(2007). Manual de programación Arduino(PDF). Traducido y adaptado por J. M. Ruiz Gutiérrez. PBworks. <https://arduinobot.pbworks.com/f/Manual+Programacion+Arduino.pdf>
-  
+* Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
+* Pardo Martín, C. F.(2025). Dibujar una espiral. Picuino. <https://www.picuino.com/es/scratch-espiral.html>
+* Universidad Politécnica de Madrid.(s.f.). Espiral logarítmica. Escuela Técnica Superior de Edificación. Recuperado el 28 de agosto de 2025, de <https://www.edificacion.upm.es/geometria/JPA/EspLog.html>
+* Wokwi.(s.f.). Wokwi OLED Animation Maker for Arduino. <https://animator.wokwi.com/>
 ### Repositorios
 * Adafruit Industries. (s.f.). Adafruit. GitHub. <https://github.com/adafruit>
-* sofiacartes.(s.f.). 05-sofiacartes [Carpeta dentro del repositorio dis8645-2025-02-proceso]. GitHub. <https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes>
 * AntFuentealba.(s.f.). 11-AntFuentealba [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub <https://github.com/dis8645-2025-02-procesos/tree/main/11-AntFuentealba>
+* sofiacartes.(s.f.). 05-sofiacartes [Carpeta dentro del repositorio dis8645-2025-02-proceso]. GitHub. <https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes>
 * sofiaperezm.(s.f.). 22-sofia-perezm [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub. <https://github.com/dis8645-2025-02-procesos/tree/main/22-sofia-perezm>
 * vxlentiinaa. (s.f.). 26-vxlentiinaa [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub. <https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa>
