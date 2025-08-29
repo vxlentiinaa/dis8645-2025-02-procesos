@@ -637,7 +637,7 @@ Además se agregaron nuevas imágenes siguiendo la misma lógica, pero la pantal
 
 Y no pude encontrar el error.
 
-### CÓDIGO CARRUSEL DE IMÁGENES
+### CÓDIGO CARRUSEL DE IMÁGENES siguiente
 
 *Videos de esos errores enviados por wetransfer.*
 
