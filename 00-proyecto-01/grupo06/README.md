@@ -84,10 +84,6 @@ Fotografías y dibujos de maquetas y pruebas
 
 ![boceto-poema-otono](./imagenes/boceto-poema-otono.jpeg)
 
-![bocetos-poema-2](./imagenes/bocetos-poema-2.jpeg)
-
-![bocetos-poema](./imagenes/bocetos-poema.jpeg)
-
 ![bocetos-poema-anterior](./imagenes/bocetos-poema-anterior.jpeg)
 
 ![bocetos-poema-anterior-2](./imagenes/bocetos-poema-anterior-2.jpeg)
@@ -108,13 +104,15 @@ Fotografías y dibujos de maquetas y pruebas
 
 ![pantallaTFT](./imagenes/pantallaTFT.jpeg)
 
-### Más procesos de códigos y fotografías en Github de Valentina
+### Más procesos de códigos y fotografías en Github
 
 [REPOSITORIO DE VALENTINA RUZ](https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa/sesion-04a)
 
 [REPOSITORIO DE SOFÍA PÉREZ](https://github.com/sofia-perezm/dis8645-2025-02-procesos/tree/main/22-sofia-perezm/sesion-04a)
 
 [REPOSITORIO DE SOFÍA CARTES](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes/sesion-04a)
+
+[REPOSITORIO DE ANTONIA FUENTEALBA](https://github.com/AntFuentealba/dis8645-2025-02-procesos)
 
 ### Fórmula del espiral
 
