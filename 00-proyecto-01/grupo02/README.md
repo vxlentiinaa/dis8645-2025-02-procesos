@@ -19,7 +19,10 @@ El proyecto nació como un primer acercamiento a Arduino, con la idea de aprende
 
 ## Bocetos de planificación
 
-Fotografías y dibujos de maquetas y pruebas
+![Boceto 1](./imagenes/BOCETO1.jpeg)
+![Boceto 2](./imagenes/BOCETO2.jpeg)
+![Boceto 3](./imagenes/BOCETO3.jpeg)
+![Boceto 4](./imagenes/BOCETO4.jpeg)
 
 ## Etapas del código
 
