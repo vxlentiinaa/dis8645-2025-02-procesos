@@ -5,7 +5,7 @@
 - Grupo: 04 Los Vengadores mish
 
 - Integrantes:
-  - Josefa Quape
+  - Josefa Quape / [joquape](https://github.com/Joquape)
   - Milla Millar / [mmillar95](https://github.com/mmillar95)
   - José Morales / [jotamorales-romulus](https://github.com/jotamorales-romulus)
   - Francisco Stephens
@@ -40,6 +40,11 @@ Fotografías y dibujos de maquetas y pruebas
   
 ![traductor binario](./imagenes/traductorBinario.png)
 
+- Tambien se investigo el funciomaniento del Buzzer con un codigo simple
+![imagen buzzer](./imagenes/buzzer2.jpg)
+
+- Y como se podria imcorporar un buzzer al codigo
+![buzzer implementado](./imagenes/buzzer3.png)
 
 ## Etapas del código
 
