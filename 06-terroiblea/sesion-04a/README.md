@@ -1276,8 +1276,9 @@ else {
 
 ![distribución_texto](./imagenes/distribución_texto.png)
 
-4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho.
-5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento.
+### 4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho
+
+### 5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento
 
 ![distribución pajaros](./imagenes/distribución_pajaros.png)
 
@@ -1285,31 +1286,35 @@ else {
 
 ![resultado_illustrator](./imagenes/resultado_illustrator.png)
 
-7. Descargar imágenes.
+### 7. Descargar imágenes
 
 ![imagenes_descargadas](./imagenes/imagenes_descargadas.png)
 
-8. Pasar imágenes a image2cpp.
+### 8. Pasar imágenes a image2cpp
 
 ![pasar_a_image2cpp](./imagenes/pasar_a_image2cpp.png)
 
-9. Copiar códigos y pasarlos a WOKWI para probarlos.
+### 9. Copiar códigos y pasarlos a WOKWI para probarlos
 
 ![prueba_wikwok](./imagenes/prueba_wikwok.png)
 
-10. Mandar evidencia al grupo para ver errores y opiniones.
-11. Corregir errores en el illustrator y descargar las nuevas versiones.
-12. Utilizar flexclip para ver una referencia del resultado tipo animado.
+### 10. Mandar evidencia al grupo para ver errores y opiniones
+
+### 11. Corregir errores en el illustrator y descargar las nuevas versiones
+
+### 12. Utilizar flexclip para ver una referencia del resultado tipo animado
 
 ![verificar_gift](./imagenes/verificar_gift.png)
 
-13. Mandar evidencia al grupo para ver errores y opiniones.
-14. Una vez autorizado todo pasar nuevas imágenes a image2cpp.
+### 13. Mandar evidencia al grupo para ver errores y opiniones
+
+### 14. Una vez autorizado todo pasar nuevas imágenes a image2cpp
 
 ![image2cpp_final](./imagenes/image2cpp_final.png)
 
-15. Copiar nuevo código y probarlo en Wokwi.
-16. Al ver que funciona mandar a grupo de trabajo.
+### 15. Copiar nuevo código y probarlo en Wokwi
+
+### 16. Al ver que funciona mandar a grupo de trabajo
 
 Extras:
 
