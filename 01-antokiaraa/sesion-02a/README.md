@@ -10,7 +10,7 @@ esto está entre asteriscos y quedó *cursiva*
 
 esto es **bold**
 
-- código para generar patrones aleatorios en base a 5 símbolos, sólo lo utilice para tratar de comprender cómo funciona y q significa cada línea, lo entendí más o menos.
+- código para generar patrones aleatorios en base a 5 símbolos, sólo lo utilice para tratar de comprender cómo funciona y que significa cada línea, lo entendí más o menos.
 
 ```cpp
 void setup() {
@@ -95,7 +95,9 @@ exit status 1
 Compilation error: stray '\303' in program
 ```
 
-> por lo que entendí despues es que en vez de un punto puse una coma sin querer y q el texto debe ir en comillas,,,,, lo modifiqué y me volvió a dar error porq el murciélago está mal(?)
+> por lo que entendí después es que en vez de un punto puse una coma sin querer, y que el texto debe ir en comillas.
+
+> lo modifiqué y me volvió a dar error, porque el murciélago está mal(?)
 
 ### Error 2:
 
