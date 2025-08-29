@@ -45,6 +45,20 @@ Fotografías y dibujos de maquetas y pruebas
 
 ### Pantalla 
 
+Establecemos la pantalla OLED de 128 x 64 que vamos a utilizar para mostrar la información en pantalla.
+
+```cpp
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+```
+
+Creamos “pantallita” la cual contiene los parámetros necesarios para controlar la pantalla. Es darle un apodo a nuestra pantalla. Cada vez que la controlemos, se deberá usar este apodo.
+
+```cpp
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+```
+
 
 
 
