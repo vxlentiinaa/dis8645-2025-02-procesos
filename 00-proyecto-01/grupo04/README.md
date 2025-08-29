@@ -7,7 +7,7 @@
 - Integrantes:
   - Josefa Quape
   - Milla Millar
-  - Jose Morales
+  - Jose Morales [jotamorales]([https://github.com/sofiacartes](https://github.com/jotamorales-romulus))
   - Francisco Stephens
 
 ## Presentación textual
