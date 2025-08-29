@@ -1,21 +1,23 @@
 # sesion-04a
+
 ( entrega de cajas , pantalla , cables,breadboard, buzzer)
 
 Protoboard : o breadboard es una herramienta para facilitar la conexión de componentes gracias que las columnas están interconectas , es decir que si conecto algo en la columna 6 todo lo que se conecte en el resto de los espacios de esta se conectaran  
 
-Potenciómetros  un componente que puede interpretar datos análogos para el Arduino 
+Potenciómetros  un componente que puede interpretar datos análogos para el Arduino
 
 diferencia entre digital  y análogo
- Digital: discreto , pixeles , hora 
+ Digital: discreto , pixeles , hora
  Análogos: continuo, colores gradientes, tiempo
 
-Ejemplo de como ocupar un potenciómetro 
- imagen de como se conecta 
-![ejemplo](./imagenes/wokwi1.png) 
+Ejemplo de como ocupar un potenciómetro
+ imagen de como se conecta
+![ejemplo](./imagenes/wokwi1.png)
 
-## Avance 
+## Avance
 
 ### Buzzer
+
 Buzzer Activo vs. Pasivo:
 Los buzzers activos solo necesitan una señal para sonar, mientras que los buzzers pasivos requieren una señal de frecuencia para producir el sonido.
 Función tone():
@@ -25,7 +27,8 @@ Para buzzers que funcionan con PWM (la mayoría de los módulos de 3 pines), se 
 Pines PWM:
 Algunos pines en la placa Arduino tienen capacidad PWM (marcados con un ~), pero la función tone() puede interferir con el PWM en los pines 3 y 11 de algunas placas, como el Arduino Uno.
 
-**codigo buzzer**
+#### codigo buzzer
+
 ```cpp
 int buzzPin = 8;
 int potVal;
@@ -59,6 +62,6 @@ if (potVal <= 1000){
 
 <https://www.youtube.com/watch?v=PfXZ3ptiGVA>
 
-* ver como se utiliza el buzzer con un potenciómetro , estidiar ejemplo del video , para agregar el buzzer al codigo del encargo . Tratar de que el buzzer suene cuando hay un cambio en la pantalla 
+* ver como se utiliza el buzzer con un potenciómetro , estidiar ejemplo del video , para agregar el buzzer al codigo del encargo . Tratar de que el buzzer suene cuando hay un cambio en la pantalla
 
 ![3](./imagenes/buzzer3.png)
