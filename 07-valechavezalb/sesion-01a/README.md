@@ -1,6 +1,6 @@
 # CLASE 1
 
-# 5 de agoato de 2025
+5 de agoato de 2025
 
 TALLER DE DISEÑO DE MAQUINAS COMPUTACIONALES
 
