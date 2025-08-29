@@ -673,6 +673,8 @@ Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que
 
 (S/f). Adafruit.com. Recuperado el 29 de agosto de 2025, de https://forums.adafruit.com/viewtopic.php?t=107808#top
 
+(S/f-b). Reddit.com. Recuperado el 28 de agosto de 2025, de https://www.reddit.com/r/javascript/comments/2ec0bz/should_i_say_boolean_truefalse_in_an_if_statement
+
 colaboradores de Wikipedia. (2025, 3 julio). Poema. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Poema#:~:text=Un%20poema%20(del%20lat%C3%ADn%20poema,extensi%C3%B3n%20bastante%20grande%27%27). 
 
 disenoUDP. (s. f.). dis8645-2025-02-procesos/00-docentes/sesion-03b/ejemploPantallita01 at main · disenoUDP/dis8645-2025-02-procesos. GitHub. https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01
