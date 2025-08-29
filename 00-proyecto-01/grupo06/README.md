@@ -84,10 +84,6 @@ Fotografías y dibujos de maquetas y pruebas
 
 ![boceto-poema-otono](./imagenes/boceto-poema-otono.jpeg)
 
-![bocetos-poema-2](./imagenes/bocetos-poema-2.jpeg)
-
-![bocetos-poema](./imagenes/bocetos-poema.jpeg)
-
 ![bocetos-poema-anterior](./imagenes/bocetos-poema-anterior.jpeg)
 
 ![bocetos-poema-anterior-2](./imagenes/bocetos-poema-anterior-2.jpeg)
