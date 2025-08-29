@@ -16,6 +16,14 @@ Nota del día: disfrute mucho la clase, me encanto poder ver el resultado que hi
   - W -> A0 (entrada analógica)
 El código con analogRead(A0) convierte el voltaje de 0V a 5V en un valor digital de 0 a 1023.
 
+![conexion_potenciometro_prueba](./imagenes/conexion_potenciometro_prueba.jpg)
+
+![potenciómetro](./imagenes/potenciómetro.png)
+
+En esta imagén se muestra un error que cometimos como grupo al momento de conectar el potenciómetro al arduino:
+
+![conexión_pótenciometro_mala](./imagenes/conexión_pótenciometro_mala.jpg)
+
 Se vio como el potenciómetro modifica valores en el código (entrada analógica) y cómo podemos usarlo para controlar la pantalla.
 
 Ejemplo visto en clase:
@@ -108,6 +116,8 @@ cubierto de escarcha.
 1. Nos entregaron el protoboard, la pantalla OLED y los potenciómetros.
 2. Pudimos probar nuestros primeros códigos de pruebas (echos antes de la clase) en la pantalla para verificar que estos funcionaran correctamente.
 3. En base a las distintas pruebas llegamos al acuerdo de que ibamos a realizar para abordar el poema: fotogramas que generan una especie de animación que puede ser contralada con el potenciómetro.
+
+![registro_1](./imagenes/registro_1.jpg)
 
 ### Código probado en primera fase
 
@@ -1263,18 +1273,43 @@ else {
    - fotograma 14: *LA VIDA ES*
    - fotograma 15: *COMO UN CAMPO YERMO*
    - fotograma 16: *CUBIERTO DE ESCARCHA*
+
+![distribución_texto](./imagenes/distribución_texto.png)
+
 4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho.
 5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento.
-6. Descargar imágenes.
-7. Pasar imágenes a image2cpp.
-8. Copiar códigos y pasarlos a WOKWI para probarlos.
-9. Mandar evidencia al grupo para ver errores y opiniones.
-10. Corregir errores en el illustrator y descargar las nuevas versiones.
-11. Utilizar flexclip para ver una referencia del resultado tipo animado.
-12. Mandar evidencia al grupo para ver errores y opiniones.
-13. Una vez autorizado todo pasar nuevas imágenes a image2cpp.
-14. Copiar nuevo código y probarlo en Wokwi.
-15. Al ver que funciona mandar a grupo de trabajo.
+
+![distribución pajaros](./imagenes/distribución_pajaros.png)
+
+![proceso_ordenar](./imagenes/proceso_ordenar.png)
+
+![resultado_illustrator](./imagenes/resultado_illustrator.png)
+
+7. Descargar imágenes.
+
+![imagenes_descargadas](./imagenes/imagenes_descargadas.png)
+
+8. Pasar imágenes a image2cpp.
+
+![pasar_a_image2cpp](./imagenes/pasar_a_image2cpp.png)
+
+9. Copiar códigos y pasarlos a WOKWI para probarlos.
+
+![prueba_wikwok](./imagenes/prueba_wikwok.png)
+
+10. Mandar evidencia al grupo para ver errores y opiniones.
+11. Corregir errores en el illustrator y descargar las nuevas versiones.
+12. Utilizar flexclip para ver una referencia del resultado tipo animado.
+
+![verificar_gift](./imagenes/verificar_gift.png)
+
+13. Mandar evidencia al grupo para ver errores y opiniones.
+14. Una vez autorizado todo pasar nuevas imágenes a image2cpp.
+
+![image2cpp_final](./imagenes/image2cpp_final.png)
+
+15. Copiar nuevo código y probarlo en Wokwi.
+16. Al ver que funciona mandar a grupo de trabajo.
 
 Extras:
 
