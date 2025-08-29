@@ -32,11 +32,11 @@ int botonPin = 2;
 int potePin = A0;
 
 //<https://docs.arduino.cc/language-reference/en/variables/data-types/string>
-char* refranes[] = { "perro ke ladra no muerde",
-                     "se le escapan lo' enanito' del bosqe",
-                     "kear como xaleca 'e mono",
+char* refranes[] = { "perro ke ladra       no muerde",
+                     "se le escapan lo'    enanito' pa'l bosqe",
+                     "kear como            xaleca 'e mono",
                      "pasar gato x liebre",
-                     "cria cuervo' y te sacaran lo' ojo'" };
+                     "cria cuervo' y te    sacaran lo' ojo'" };
 
 // //<https://www.w3schools.com/cpp/cpp_arrays_loop.asp>
 
