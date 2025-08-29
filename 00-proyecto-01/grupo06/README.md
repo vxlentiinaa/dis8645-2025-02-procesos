@@ -215,6 +215,7 @@ int valor = analogRead(potPin);
 - Investigación de poemas y sus tipos.
 - Investigación de imágenes con vectores que calzaran con los poemas.
 - Redacción de GitHub.
+- investigación de pantalla TFT.
 - Registro fotográfico del proceso.
 
 ## Fotografías y videos del proyecto funcionado
@@ -239,12 +240,15 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
 
 * 575筆まか勢 (Fudemaka57). (s.f.). 575筆まか勢 (Blog). Recuperado el 28 de agosto de 2025, de <https://fudemaka57.exblog.jp/>
+* Del Valle Hernández, L.(s.f.). Texto en movimiento en un LCD con Arduino. Programarfacil. Recuperado el 28 de agosto de 2025, de <https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/>
 * El proyecto (Project 440360994230097921) Wokwi ESP32, STM32, Arduino Simulator. (26 de agosto, 2025). Wokwi. Recuperado el 28 de agosto de 2025, de <https://wokwi.com/projects/440360994230097921>
 * Evans, B.W.(2007). Manual de programación Arduino(PDF). Traducido y adaptado por J. M. Ruiz Gutiérrez. PBworks. <https://arduinobot.pbworks.com/f/Manual+Programacion+Arduino.pdf>
 * Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
 * Pardo Martín, C. F.(2025). Dibujar una espiral. Picuino. <https://www.picuino.com/es/scratch-espiral.html>
 * Universidad Politécnica de Madrid.(s.f.). Espiral logarítmica. Escuela Técnica Superior de Edificación. Recuperado el 28 de agosto de 2025, de <https://www.edificacion.upm.es/geometria/JPA/EspLog.html>
+* Waveshare.(s.f.).1.28inch LCD Module. Recuperado el 28 de agosto de 2025, de <https://www.waveshare.com/wiki/1.28inch_LCD_Module>
 * Wokwi.(s.f.). Wokwi OLED Animation Maker for Arduino. <https://animator.wokwi.com/>
+
 ### Repositorios
 * Adafruit Industries. (s.f.). Adafruit. GitHub. <https://github.com/adafruit>
 * AntFuentealba.(s.f.). 11-AntFuentealba [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub <https://github.com/dis8645-2025-02-procesos/tree/main/11-AntFuentealba>
