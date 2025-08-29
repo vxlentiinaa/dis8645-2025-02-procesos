@@ -7,7 +7,7 @@
 - Integrantes:
   - Sofía Cartes / [sofiacartes](https://github.com/sofiacartes)
   - Antonia Fuentealba / [AntFuentealba](https://github.com/AntFuentealba)
-  - Sofía Perez / [sofia-perezm](https://github.com/sofia-perezm)
+  - Sofía Pérez / [sofia-perezm](https://github.com/sofia-perezm)
   - Valentina Ruz / [vxlentiinaa](https://github.com/vxlentiinaa)
 
 ## Presentación textual
@@ -244,7 +244,7 @@ int valor = analogRead(potPin);
 - Redacción de GitHub.
 - Registro fotográfico del proceso.
   
-### Antonia Fuentealba y Sofía Perez
+### Antonia Fuentealba y Sofía Pérez
 
 - Investigación de poemas y sus tipos.
 - Investigación de imágenes con vectores que calzaran con los poemas.
