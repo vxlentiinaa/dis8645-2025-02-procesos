@@ -12,7 +12,7 @@
 
 ## Presentación textual
 
-La existencia de la inteligencia artificial hoy en día ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. (Tal vez mencionar un texto de estudio de la dependencia emocional con la inteligencia artificial hoy en día).
+La existencia de la inteligencia artificial hoy en día ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. 
 
 Pero este no es el único lado de la inteligencia artificial, ya que existen múltiples problemas éticos, como la gran cantidad de energía y agua que son necesarias para el funcionamiento constante de los servidores, la gran cantidad de desinformación que distribuye de manera masiva, entre múltiples otras cosas.
 
