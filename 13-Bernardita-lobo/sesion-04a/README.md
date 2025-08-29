@@ -148,7 +148,7 @@ const unsigned char PROGMEM smiley_bmp[] = {
 };
 ```
 
-tambien  realice un diagrama de flujo para el proyecto-01
+Realicé un diagrama de flujo para el proyecto-01.
 
 ![imagen](./imagenes/diagrama-flujo.png)
 
