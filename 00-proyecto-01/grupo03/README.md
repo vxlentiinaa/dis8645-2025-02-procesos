@@ -26,7 +26,9 @@ El output es observado en la pantalla OLED, donde el usuario leerá la conversac
 
 ## Bocetos de planificación
 
-Fotografías y dibujos de maquetas y pruebas
+![primerPensamiento](./primerPensamiento.jpeg)
+
+
 
 ## Etapas del código
 
