@@ -93,9 +93,7 @@ void loop() {
 
 ### Potenciómetro ¿Cómo colocar un potenciómetro al arduino?
 
-![Potenciometro en Wokwi](./imagenes/potenciometroWokwi.png)
-
-![Potenciometro en Wokwi](./imagenes/potenciometroWokwi-2.png)
+![potenciómetro](./imagenes/analogVSdigital.jpg)
 
 -El menor valor que puede hacer es 0 y el máximo es 1023.
   -Se escribe en digital y se lee en analógico.
@@ -174,6 +172,371 @@ void loop() {
 }
 ```
 
-insertar imagenes de wokwi
+![Potenciometro en Wokwi](./imagenes/potenciometroWokwi.png)
+
+![Potenciometro en Wokwi](./imagenes/potenciometroWokwi-2.png)
+
+### Imágenes de proceso en clases y en casa
+
+- Primer código de proceso, este código es el ejemplo que utilizamos en clases, solo que le agregamos más ${\color{blue}String}$(): </br> para poder visualizar nuestro poema en el arduino. Utilizamos este ejemplo para entender como funcionaba el tema de los ${\color{blue}String}$(): </br> y así poder agregar más frases al código.
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+int contador = 0;
+
+String linea0;
+String linea1;
+String linea2;
+String linea3;
+String linea4;
+String linea5;
+String linea6;
+
+void setup() {
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    for(;;);
+  }
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+
+  linea0 = "Casi cruzo la barrera";
+  linea1 = "del espejo para ver";
+  linea2 = "lo que no se puede ver";
+  linea3 = "el mundo como seria";
+  linea4 = "si la realidad copiara";
+  linea5 = "y no al reves, el espejo";
+  linea6 = "llena, porfin, de su nada.";
+}
+
+void loop() {
+  pantallita.clearDisplay(); // Limpiamos toda la pantalla
+  
+  testscrolltext(linea0, 300);
+  testscrolltext(linea1, 300);
+  testscrolltext(linea2, 600);
+  testscrolltext(linea3, 600);
+  testscrolltext(linea4, 600);
+  testscrolltext(linea5, 600);
+  testscrolltext(linea6, 600);
+  
+  pantallita.display(); // Actualiza la pantalla
 
 
+}
+
+
+// void testscrolltext(void) {
+  // cambiar la linea anterior
+  // para agregar parametro String
+  // de input
+  // y tambien int para delays
+  void testscrolltext(String texto, int pausa) {
+  pantallita.clearDisplay();
+
+  pantallita.setTextSize(2); // Draw 2X-scale text
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setCursor(10, 0);
+  // pantallita.println(F("scroll"));
+  // mod que le hice yo
+  pantallita.println(texto);
+
+  pantallita.display();      // Show initial text
+  delay(100);
+
+  // Scroll in various directions, pausing in-between:
+  pantallita.startscrollright(0x00, 0x0F);
+  delay(pausa);
+  pantallita.stopscroll();
+  delay(pausa);
+  pantallita.startscrollleft(0x00, 0x0F);
+  delay(pausa);
+  pantallita.stopscroll();
+  delay(pausa);
+  pantallita.startscrolldiagright(0x00, 0x07);
+  delay(pausa);
+  pantallita.startscrolldiagleft(0x00, 0x07);
+  delay(pausa);
+  pantallita.stopscroll();
+  delay(pausa);
+}
+```
+agregar foto proceso uno
+
+- Segundo código de proceso, donde comenzamos a trabajar con el espiral, entiendo como iban los parámetros de la fórmula aplicada y ver en que podíamos ajustarla; ajustar las letras era lo más complicado porque se veían dispersas en la pantalla 
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+String lineas[7];
+
+int cx = SCREEN_WIDTH / 2;   // centro de la pantalla en X
+int cy = SCREEN_HEIGHT / 2;  // centro en Y
+
+void setup() {
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    for(;;); // si no detecta la pantalla, se queda aquí
+  }
+
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setTextSize(1);
+
+  // Poema escrito en varias lineas
+  lineas[0] = "Casi cruzo la barrera";
+  lineas[1] = "del espejo para ver";
+  lineas[2] = "lo que no se puede ver";
+  lineas[3] = "el mundo como seria";
+  lineas[4] = "si la realidad copiara";
+  lineas[5] = "y no al reves, el espejo";
+  lineas[6] = "llena, porfin, de su nada.";
+}
+
+void loop() {
+  pantallita.clearDisplay();
+
+  // aca se une todas las lineas en un solo string largo
+  String poema = "";
+  for (int i = 0; i < 7; i++) {
+    poema += lineas[i] + " ";
+  }
+
+  mostrarPoemaEspiral(poema);
+
+  delay(5000); // aca es donde se espera para volver a reiniciar el codigo
+}
+
+// función que escribe el poema en espiral
+void mostrarPoemaEspiral(String texto) {
+  float r = 5;          // radio inicial
+  float dr = 2;         // aumento de radio
+  float theta = 0;      // ángulo inicial
+  float dtheta = 0.4;   // cuánto avanza el ángulo por letra
+
+  for (int i = 0; i < texto.length(); i++) {
+    int x = cx + r * cos(theta);
+    int y = cy + r * sin(theta);
+
+    // asegurar que no se salga de la pantalla
+    if (x >= 0 && x < SCREEN_WIDTH - 6 && y >= 0 && y < SCREEN_HEIGHT - 8) {
+      pantallita.setCursor(x, y);
+      pantallita.write(texto[i]);
+      pantallita.display();
+    }
+
+    delay(120);   // velocidad en la que aparece el espiral
+
+    theta += dtheta;
+    r += dr * dtheta / (2 * PI);
+  }
+}
+```
+
+agregar foto proceso dos
+
+Acá cambiamos estos parámetros para editar el espiral 
+
+agregar foto proceso 2.1
+
+agregar foto proceso 2.2
+
+```cpp
+ // función que escribe el poema en espiral
+void mostrarPoemaEspiral(String texto) {
+  float r = 5;          // radio inicial
+  float dr = 2;         // aumento de radio
+  float theta = 0;      // ángulo inicial
+  float dtheta = 0.4;   // cuánto avanza el ángulo por letra
+```
+
+- Tercer código de proceso. Al hacer el código anterior, preguntamos a un estudiante de informática y nos dió este código, donde agregó una función que hacía que dibujara el espiral como un agujero negro, es decir, que generaba el espiral del poema completo y luego iba desapareciendo desde el centro, pero aún así las letras estaban dispersas y no se veían bien. Además no lo utilizamos porque no entendíamos la función del "buffer".
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+// Líneas del poema
+String linea0;
+String linea1;
+String linea2;
+String linea3;
+String linea4;
+String linea5;
+String linea6;
+
+// Centro de la pantalla
+int cx = SCREEN_WIDTH / 2;
+int cy = SCREEN_HEIGHT / 2;
+
+// Parámetros de la espiral
+float r = 5;          // radio inicial
+float dr = 3.5;       // incremento de radio
+float theta = 0;      // ángulo inicial
+float dtheta = 0.7;   // incremento angular
+
+// Buffer de letras para efecto "agujero negro"
+struct Letra {
+  char c;
+  int x;
+  int y;
+};
+const int maxLetras = 100; // máximo de letras visibles
+Letra espiral[maxLetras];
+int inicio = 0;
+int fin = 0;
+
+void setup() {
+  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    for(;;);
+  }
+  pantallita.clearDisplay();
+  pantallita.setTextColor(SSD1306_WHITE);
+  pantallita.setTextSize(1);
+
+  // Inicializamos el poema
+  linea0 = "Casi cruzo la barrera";
+  linea1 = "del espejo para ver";
+  linea2 = "lo que no se puede ver";
+  linea3 = "el mundo como seria";
+  linea4 = "si la realidad copiara";
+  linea5 = "y no al reves, el espejo";
+  linea6 = "llena, porfin, de su nada.";
+}
+
+void loop() {
+  // Unir todas las líneas en un solo texto
+  String poema = "";
+  poema += linea0 + " ";
+  poema += linea1 + " ";
+  poema += linea2 + " ";
+  poema += linea3 + " ";
+  poema += linea4 + " ";
+  poema += linea5 + " ";
+  poema += linea6 + " ";
+
+  mostrarPoemaEspiral(poema);
+
+  delay(3000); // espera antes de repetir la animación
+}
+
+// Función que dibuja la espiral con efecto "agujero negro"
+void mostrarPoemaEspiral(String texto) {
+  for (int i = 0; i < texto.length(); i++) {
+    int x = cx + r * cos(theta);
+    int y = cy + r * sin(theta);
+
+    // Guardar la letra en el buffer
+    espiral[fin] = {texto[i], x, y};
+    fin = (fin + 1) % maxLetras;
+
+    // Si el buffer se llena, mover inicio para borrar la letra más antigua
+    if (fin == inicio) {
+      inicio = (inicio + 1) % maxLetras;
+    }
+
+    // Limpiar pantalla
+    pantallita.clearDisplay();
+
+    // aca se muestra todas las letras a medida que avanza el espiral 
+    int idx = inicio;
+    while (idx != fin) {
+      pantallita.setCursor(espiral[idx].x, espiral[idx].y);
+      pantallita.write(espiral[idx].c);
+      idx = (idx + 1) % maxLetras;
+    }
+
+    pantallita.display();
+    delay(100); 
+
+    // a cuanto se actualiza el espiral
+    theta += dtheta;
+    r += dr * dtheta / (2 * 3.1416);
+  }
+}
+```
+
+agregar foto proceso 3
+
+agregar foto proceso 3.1
+
+- Cuarto código de proceso. En este código cambiamos la función ${\color{blue}void, int, fin}$(): por un ${\color{blue}loop}$(): </br> donde utilizamos un ${\color{blue}float}$(): </br> donde le dimos un espacio a los números décimales, agregando una fórmula de ángulo y radio. Pero se nos olvidó colocar la función para que girara, así que solo se ve el espiral, no se mueve.
+
+```cpp
+void loop() {
+  pantallita.clearDisplay();
+
+  float centroX = SCREEN_WIDTH / 2;
+  float centroY = SCREEN_HEIGHT / 2;
+  float angulo = 0;
+  float radio = 5;    // radio inicial
+  float pasoAngulo = 0.35; // qué tan apretado la espiral
+  float pasoRadio = 0.8;   // cuánto aumenta el radio en cada letra
+```
+
+insertar foto proceso 4
+
+- Quinto código proceso. Acá ya le agregamos la función donde se mueve el espiral
+
+```cpp
+void loop() {
+  pantallita.clearDisplay();
+
+  float centroX = SCREEN_WIDTH / 2;
+  float centroY = SCREEN_HEIGHT / 2;
+  float angulo = 0;
+  float radio = 4;          // radio inicial
+  float pasoAngulo = 0.35;  // qué tan apretada la espiral
+  float pasoRadio = 0.25;   // a cuanto crece va creciendo el espiral
+
+  for (int i = 0; i < poema.length(); i++) {
+    char c = poema.charAt(i);
+
+    int x = centroX + radio * cos(angulo);
+    int y = centroY + radio * sin(angulo);
+
+    pantallita.setCursor(x, y);
+    pantallita.write(c);
+    pantallita.display();
+
+    // Avanzamos en la espiral
+    angulo += pasoAngulo;
+    radio += pasoRadio;
+```
+insertar imagen proceso 5
+
+- Sexto código de proceso. Aquí ya ibamos jugando con los números del ángulo, radio y texto para ver como es que se veía mejor.
+
+```cpp
+void loop() {
+  pantallita.clearDisplay();
+
+  float centroX = SCREEN_WIDTH / 2;
+  float centroY = SCREEN_HEIGHT / 2;
+  float angulo = 0;
+  float radio = 10;         // radio inicial
+  float pasoAngulo = 0.35;  // aumento de angulo
+  float pasoRadio = 0.35;   // este hace que crezca un poco más rápido
+```
+insertar imagen proceso 6

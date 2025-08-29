@@ -7,7 +7,7 @@
 - Integrantes:
   - Josefa Quape
   - Milla Millar
-  - Jose Morales [jotamorales]([https://github.com/sofiacartes](https://github.com/jotamorales-romulus))
+  - José Morales / [jotamorales-romulus](https://github.com/jotamorales-romulus)
   - Francisco Stephens
 
 ## Presentación textual
@@ -24,7 +24,80 @@ Fotografías y dibujos de maquetas y pruebas
 
 ## Etapas del código
 
-Segmenta las secciones de tu código y explícalas
+### Pantalla 
+
+
+
+
+
+
+
+
+
+
+
+
+### potenciometro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Scroll 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Binario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Roles del equipo
 
