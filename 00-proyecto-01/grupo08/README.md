@@ -45,6 +45,7 @@ En cambio, los otros poemas se controlan directamente desde el código. Se usaro
 Al mismo tiempo, en la segunda pantalla se van mostrando imágenes en forma de carrusel, también controladas con el potenciómetro. Estas imágenes funcionan como un apoyo visual a los poemas, reforzando el ambiente de cada etapa.
 
 ## Inputs y outputs
+
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
 **Código poetario:**
@@ -1281,7 +1282,7 @@ void loop() {
 };
 ```
 
-**Código solucionado subiendo el primer poema a setup**
+Código solucionado subiendo el primer poema a setup
 
 ```cpp
 #include <Wire.h>
