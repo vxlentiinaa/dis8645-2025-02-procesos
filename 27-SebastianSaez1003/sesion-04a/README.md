@@ -532,3 +532,22 @@ if(poteValor == false && respCon2 == !true && respCon3 == !true){}
 if(respCon2 && !poteValor && !respCon4 && !respCon5){}
 
 ```
+
+También fueron eliminadas las montoneras de if statements, ya que necesito identificar el problema de funcionamiento de porque salen todos las conversaciones directamente al mandarlo a mi arduino como se pudo observar en la foto de antes
+
+Lo que personalmente más me molestaba era el hecho de que el texto apareciera uno al lado de otro unas veces, otras veces abajo, (aunque si sabia que estas eran causadas por el hecho de haber escrito pantallita.println();) asi que busque, que era lo que me estaba faltando así que me puse a revisar el ejemplo que hicieron los profesores, previamente mencionado, buscando en google cada una de las líneas que no comprendía, para ver si justo era lo que me faltaba, hasta encontrarme con esto:
+
+https://forums.adafruit.com/viewtopic.php?t=107808#top
+
+lo que me faltaba era la función .setCursor, que hará que cada una de las cargas en el display sean a partir de un punto que yo pondré, donde es primero la coordenada de izquierda a derecha, y después desde arriba hacia abajo, así que poniéndola antes de cada texto este se posiciona a la esquina superior izquierda cuando le ponga el valor de (0,0)
+
+```cpp
+
+// donde pantallita es mi display estara arriba a la izquierda
+pantallita.setCursor(0,0)
+
+// donde pantallita  es mi display, este se encontrara en la 
+// mitad horizontal del display de 128 pixeles
+pantallita.setCursor(64,0)
+
+```
