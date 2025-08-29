@@ -172,11 +172,12 @@ Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.ardui
 
 <https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
 
-<https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> // poemas que estamos usando
+- CRONOS. (s/f). Poemas-del-alma.com. Recuperado el 29 de agosto de 2025, de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> 
 
-Video como usar potenciómetro [ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino](https://www.youtube.com/watch?v=l_2vnl5MOpo)
+- Electrónicos Por, E. M. [@ElectronicosporelMundo]. (s/f). ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino [[Object Object]]. Youtube. Recuperado el 29 de agosto de 2025, de <https://www.youtube.com/watch?v=l_2vnl5MOpo>
 
-Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
+- YouTube. (s/f-b). CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos. Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/YyC2i91EwNw?si=ATsIx5gcO_lLDh3E>
 
-Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
+- YouTube. (s/f). CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies). Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ>
 
+- Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
