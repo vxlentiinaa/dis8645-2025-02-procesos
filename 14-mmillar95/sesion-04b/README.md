@@ -8,6 +8,8 @@ Al llegar, el Grupo 03  estaba presentando
 
 10:10 - 10:40 receso
 
+Invitado especial:
+
 ## Presentación Los Vengadores Mish
 
 ### Factores a destacar
@@ -20,5 +22,14 @@ Al llegar, el Grupo 03  estaba presentando
 
 - Ordenar los cables en Wokwi
 - Faltan comentarios
-- Faltas de ortografía en el código 
+- Faltas de ortografía en el código
+  
+### Fotografías 
+
+- fotografías tomadas al final de la presentación
+- Feedback de Martin 
+
+![usoArduino](./imagenes/arduinoPlaca2.png)
+
+![usoArduino](./imagenes/arduinoPlaca.png)
 
