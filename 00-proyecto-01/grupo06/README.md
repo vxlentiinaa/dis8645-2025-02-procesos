@@ -80,15 +80,10 @@ Fotografías y dibujos de maquetas y pruebas
 
 ![arduino-conectado-a-pantalla-redonda](./imagenes/arduino-conectado-a-pantalla-redonda.jpeg)
 
-![espiral-anto](./imagenes/espiral-anto.jpeg)
-
 ![falla-imagen-de-hoja](./imagenes/falla-imagen-de-hoja.jpeg)
-
-![hoja](./imagenes/hoja.jpeg)
 
 ![pantalla-redonda](./imagenes/pantalla-redonda.jpeg)
 
-![toshi-akao](./imagenes/toshi-akao.jpeg)
 
 ### Fórmula del espiral
 
@@ -249,6 +244,12 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 ![imagenpoema3](./imagenes/imagenpoema3.jpg)
 
 ### poema 4
+
+![espiral-anto](./imagenes/espiral-anto.jpeg)
+
+![toshi-akao](./imagenes/toshi-akao.jpeg)
+
+![hoja](./imagenes/hoja.jpeg)
 
 ## Bibliografía
 
