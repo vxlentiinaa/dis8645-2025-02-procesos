@@ -14,7 +14,7 @@
 
 Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
 
-La existencia de la inteligencia artificial hoy en dia ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. (Tal vez mencionar un texto de estudio de la dependencia emocional con la inteligencia artificial hoy en día).
+La existencia de la inteligencia artificial hoy en día ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. (Tal vez mencionar un texto de estudio de la dependencia emocional con la inteligencia artificial hoy en día).
 
 Pero este no es el único lado de la inteligencia artificial, ya que existen múltiples problemas éticos, como la gran cantidad de energía y agua que son necesarias para el funcionamiento constante de los servidores, la gran cantidad de desinformación que distribuye de manera masiva, entre múltiples otras cosas.
 
@@ -22,15 +22,9 @@ Queremos ofrecer una interacción ética, genuina y que entregue respuestas pers
 
 ## Inputs y outputs
 
-¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
+El input para entre proyecto es realizada a partir de un potenciómetro montado sobre una protoboard, donde el ángulo en el que se encuentre el potenciómetro, se le permitirá al usuario elegir entre 2 opciones que se le entregarán, una siendo hacia la izquierda y la otra hacia la derecha.
 
-***¿Tal vez hacer un diagrama de flujo?***  
-
-Sebastian Saez no quiere 
-
-Nuestro plan inicial fue tener una conversación con arduino usando la pantalla, el monitor serial y el potenciómetro. Se mostrarian preguntas o planteamientos
-que instarán al usuario a tomar una decisión mediante el movimiento de la perilla. Según el sentido al que esta apunte se tomará uno de 2 (o más) caminos
-revelando un poema pertinente.
+El output es observado en la pantalla OLED, donde el usuario leerá la conversación que se está llevando a cabo con el arduino, las opciones que se le serán presentadas, como también los poemas finales, una vez lleguen al final de la conversación.
 
 ## Bocetos de planificación
 
