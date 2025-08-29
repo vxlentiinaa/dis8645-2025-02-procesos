@@ -6,7 +6,7 @@ poema, es una obra literaria escrita generalmente en verso, que usa el lenguaje 
 
 - breadboard o protoboard es una placa con agujeros interconectados internamente que permite construir y probar circuitos electrónicos temporalmente y sin soldar.
 - diagrama de flujo (o flujograma) es una representación visual y secuencial de un proceso o flujo de trabajo, utilizando símbolos y flechas estandarizados para mostrar los pasos, decisiones y la conexión entre ellos.
-- map hace que una función que tome otra función como argumento y la aplica a cada ítem de una secuencia (como una lista). ( toma los valores de lo que esta conectados y los adaptando a lo que se pone después. ej: velocidad = map(velocidad, 0, 1023, 0, 100); 0, 1023, (valor potenciómetro) 0, 100, (valor que se le re asigna.
+- map hace que una función que tome otra función como argumento y la aplica a cada ítem de una secuencia (como una lista). toma los valores de lo que esta conectados y los adaptando a lo que se pone después. ej: velocidad = map(velocidad, 0, 1023, 0, 100); 0, 1023, (valor potenciómetro) 0, 100, valor que se le re asigna.
 - Display, se refiere a un componente que muestra información visual, como la pantalla de un celular o un televisor, o a una forma de publicidad online (banners) y física (expositores en tiendas).
 - display.display() es el comando final que envía el contenido preparado (por ejemplo, texto o imágenes dibujadas por comandos anteriores) a la pantalla física del dispositivo.
 
@@ -30,15 +30,17 @@ Name - Description
 
 Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidimos hacer una pequeña representación de Santiago.
 
-Use como referencia y base para empezar a programar <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>, link que investigo Carla. 
-Luego, a partir de este ejemplo, cambió los comandos de acuerdo a lo que deseaba el grupo ( que el texto subiera por la pantalla ). 
-Surgio, el problema de que el texto no subia comletamente y esto fue resolvido junto al profe durante clases cambiando en el comando for el tamaño de la pantalla. https://wokwi.com/projects/344892191015961170 ejemplo pontenciometro + servo. Sacado de https://docs.wokwi.com/parts/wokwi-potentiometer
-También realice la investigación del código que controla un servomotor con un potenciómetro y lo uní, junto a Félix, al código para regular la velocidad del poema. 
+Use como referencia y base para empezar a programar <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>, link que investigo Carla.
+Luego, a partir de este ejemplo, cambió los comandos de acuerdo a lo que deseaba el grupo ( que el texto subiera por la pantalla ).
+Surgio, el problema de que el texto no subia comletamente y esto fue resolvido junto al profe durante clases cambiando en el comando for el tamaño de la pantalla. <https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
+También realice la investigación del código que controla un servomotor con un potenciómetro y lo uní, junto a Félix, al código para regular la velocidad del poema.
 Además hice un registro fotográfico del circuito.
-Junto con Carla resolvimos los preblemas que surgieron al poner la imagen en en el codigo, yaque salia pestañandi y por en ecima del poema, esto era por que teniamos escritro display.display dos veces en el textoñ. Tambien resolvimos el problema de la imagen sobre el texto poniendo espacios en blanco entre el poema y que así solo se viera la imagen. 
+Junto con Carla resolvimos los preblemas que surgieron al poner la imagen en en el codigo, yaque salia pestañandi y por en ecima del poema, esto era por que teniamos escritro display.display dos veces en el textoñ. Tambien resolvimos el problema de la imagen sobre el texto poniendo espacios en blanco entre el poema y que así solo se viera la imagen.
 
-#### Primera parte del codigo proyecto trabajado con Felix. 
-código versión 01: solo poema el texto se reinicia al tocar la parte superio de la pantalla. 
+#### Primera parte del codigo proyecto trabajado con Felix
+
+código versión 01: solo poema el texto se reinicia al tocar la parte superio de la pantalla.
+
 ```cpp
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -87,7 +89,9 @@ void loop() {
   }
 }
 ```
+
 código versión 02: solo poema pasa sin problema hacia arriba
+
 ```cpp
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -141,10 +145,8 @@ void loop() {
 }
 ```
 
-
 código versión 03: velocidad del poema controlado con el potenciometro
 <https://wokwi.com/projects/440319400562495489>
-
 
 ```cpp
 #include <Adafruit_GFX.h>
@@ -215,11 +217,13 @@ void loop() {
   }
 }
 ```
-#### Segunda parte del codigo proyecto trabajado con Carla. 
-intento 1: imagen que parpadea y esta al medio 
+
+#### Segunda parte del codigo proyecto trabajado con Carla
+
+intento 1: imagen que parpadea y esta al medio
 <https://wokwi.com/projects/440546331476540417>
 
-intento 2: intentamos resolver y no resolvimos 
+intento 2: intentamos resolver y no resolvimos
 <https://wokwi.com/projects/440564452291708929>
 
 intento 3: agregamos la foto de santiago
@@ -228,5 +232,5 @@ intento 3: agregamos la foto de santiago
 intento 4: casi listo, pero no mostraba la ultima linea del poema
 <https://wokwi.com/projects/440548344446009345>
 
-intento 5: version final, sin corregir comentarios y modales 
+intento 5: version final, sin corregir comentarios y modales
 <https://wokwi.com/projects/440548344446009345>
