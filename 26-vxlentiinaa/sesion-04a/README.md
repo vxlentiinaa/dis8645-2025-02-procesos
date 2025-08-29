@@ -75,7 +75,13 @@ void loop() {
 
 ### Imágenes de los primeros poemas
 
-Insertar imagenes
+![poema 1](./imagenes/poema-1.PNG)
+
+![poema 2](./imagenes/poema-2.JPEG)
+
+![poema 3](./imagenes/poema-3.JPG)
+
+Utilizamos estos tres poemas primero pero eran muy largos y no cabían en la pantalla del arduino, por lo que decidimos utilizar unos poemas cortos japoneses llamados Haikus.
 
 // declarar valor
 // inicializar 0
@@ -93,8 +99,6 @@ void loop() {
 
 ### Potenciómetro ¿Cómo colocar un potenciómetro al arduino?
 
-![potenciómetro](./imagenes/analogVSdigital.jpg)
-
 -El menor valor que puede hacer es 0 y el máximo es 1023.
   -Se escribe en digital y se lee en analógico.
   -Los comandos para escribir o leer en analóco y digital:
@@ -109,7 +113,7 @@ void loop() {
 |Analógico|analogWrite()|
 |digital|digitalWrite()|
 
-insertar imagenes de digital y analoga
+![analoga vs digital](./imagenes/analogVSdigital.jpg)
 
 ```cpp
 // declarar valor
@@ -269,7 +273,8 @@ void loop() {
   delay(pausa);
 }
 ```
-agregar foto proceso uno
+
+![proceso 1](./imagenes/procesos/proceso-1.jpg)
 
 - Segundo código de proceso, donde comenzamos a trabajar con el espiral, entiendo como iban los parámetros de la fórmula aplicada y ver en que podíamos ajustarla; ajustar las letras era lo más complicado porque se veían dispersas en la pantalla 
 
@@ -347,13 +352,13 @@ void mostrarPoemaEspiral(String texto) {
 }
 ```
 
-agregar foto proceso dos
+![proceso 2](./imagenes/procesos/proceso-2.png)
 
 Acá cambiamos estos parámetros para editar el espiral 
 
-agregar foto proceso 2.1
+![proceso 2.1](./imagenes/procesos/proceso-2.1.png)
 
-agregar foto proceso 2.2
+![proceso 2.2](./imagenes/procesos/proceso-2.2.png)
 
 ```cpp
  // función que escribe el poema en espiral
@@ -363,6 +368,10 @@ void mostrarPoemaEspiral(String texto) {
   float theta = 0;      // ángulo inicial
   float dtheta = 0.4;   // cuánto avanza el ángulo por letra
 ```
+
+![proceso 2.3](./imagenes/procesos/proceso-2.3.png)
+
+![proceso 2.4](./imagenes/procesos/proceso-2.4.png)
 
 - Tercer código de proceso. Al hacer el código anterior, preguntamos a un estudiante de informática y nos dió este código, donde agregó una función que hacía que dibujara el espiral como un agujero negro, es decir, que generaba el espiral del poema completo y luego iba desapareciendo desde el centro, pero aún así las letras estaban dispersas y no se veían bien. Además no lo utilizamos porque no entendíamos la función del "buffer".
 
@@ -477,9 +486,9 @@ void mostrarPoemaEspiral(String texto) {
 }
 ```
 
-agregar foto proceso 3
+![proceso 3](./imagenes/procesos/proceso-3.png)
 
-agregar foto proceso 3.1
+![proceso 3.1](./imagenes/procesos/proceso-3.1.png)
 
 - Cuarto código de proceso. En este código cambiamos la función ${\color{blue}void, int, fin}$(): por un ${\color{blue}loop}$(): </br> donde utilizamos un ${\color{blue}float}$(): </br> donde le dimos un espacio a los números décimales, agregando una fórmula de ángulo y radio. Pero se nos olvidó colocar la función para que girara, así que solo se ve el espiral, no se mueve.
 
@@ -495,7 +504,7 @@ void loop() {
   float pasoRadio = 0.8;   // cuánto aumenta el radio en cada letra
 ```
 
-insertar foto proceso 4
+![proceso 4](./imagenes/procesos/proceso-4.png)
 
 - Quinto código proceso. Acá ya le agregamos la función donde se mueve el espiral
 
@@ -524,7 +533,7 @@ void loop() {
     angulo += pasoAngulo;
     radio += pasoRadio;
 ```
-insertar imagen proceso 5
+![proceso 5](./imagenes/procesos/proceso-5.png)
 
 - Sexto código de proceso. Aquí ya ibamos jugando con los números del ángulo, radio y texto para ver como es que se veía mejor.
 
@@ -540,7 +549,7 @@ void loop() {
   float pasoRadio = 0.35;   // este hace que crezca un poco más rápido
 ```
 
-insertar imagen proceso 6
+![proceso 6](./imagenes/procesos/proceso-6.png)
 
 - Séptimo código de proceso. Acá incorporamos la función para que aparezca la imagen, moviendo la perilla del potenciómetro
 
@@ -619,7 +628,7 @@ void loop() {
 }
 ```
 
-insertar foto proceso 7
+![proceso 7](./imagenes/procesos/proceso-7.png)
 
 - Cambiamos algunas cosas más hasta llegar a nuestro código final. Agregamos un ${\color{blue}String}$(): </br> después del poema y antes de la imagen para mostrar el nombre del autor en la pantalla.
 
@@ -778,4 +787,8 @@ void loop() {
 }
 ```
 
-insertar foto proceso final
+![proceso final 1](./imagenes/procesos/proceso-final-1.png)
+
+![proceso final 2](./imagenes/procesos/proceso-final-2.png)
+
+![proceso final 3](./imagenes/procesos/proceso-final-3.png)
