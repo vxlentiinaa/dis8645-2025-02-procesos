@@ -78,6 +78,14 @@ Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilid
 
 Fotografías y dibujos de maquetas y pruebas
 
+### Fórmula del espiral
+
+La sacamos de una fórmula matemática llamada espiral logarítmica, donde un estudiante de informática nos ayudó a resolverla e implementarla en el código para entenderla mejor.
+
+(r=a∙b⁰) donde "r" es la distancia desde el centro al origen.
+
+[Espiral logarítmica](https://www.edificacion.upm.es/geometria/JPA/EspLog.html)
+
 ## Etapas del código
 
 ### 1. Inicialización del hardware
@@ -104,13 +112,40 @@ Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 int potPin = A0; // Pin del potenciómetro
 ```
 
-## 2. Dibujo del poema en espiral
+### 2. Dibujo del poema en espiral
 
 - Función que coloca cada palabra o verso en coordenadas calculadas para formar la espiral.
 
 ```cpp
 // Poema en espiral
 String poema = "Noche de otoño… Se marchita el corazón, un espejo en la mano.";
+```
+
+```cpp
+if(valor <= 341){
+    // float sirve para declarar numeros decimales, estos numeros hace que el poema este en espiral
+    float centroX = SCREEN_WIDTH / 2; // este sirve para calcular la mitad de la pantalla
+    float centroY = SCREEN_HEIGHT / 2; // este sirve para calcular la mitad de la pantalla
+    float angulo = 0;
+    float radio = 8; // Radio inicial del espiral
+    float pasoAngulo = 0.4; // Separacion del angulo, cuanto avanza en cada letra
+    float pasoRadio = 0.6; // Cuanto se aleja del centro cada vez mas
+
+// for es la iteracion, es decir que en este caso recorre letra por letra para que aparezca en la pantalla
+    for (int i = 0; i < poema.length(); i++) {
+      char c = poema.charAt(i);
+      int x = centroX + radio * cos(angulo); // aqui se calcula en que posicion del espiral va cada letra
+      int y = centroY + radio * sin(angulo);
+
+      pantallita.setCursor(x, y);
+      pantallita.write(c);
+      pantallita.display(); // sirve para mostrar el "calculo" del espiral en la pantalla
+
+// cuanto avanza en el espiral, es decir, que el angulo 0 va aumentando 0.4 cada vez que avanza y lo mismo con el radio
+      angulo += pasoAngulo;
+      radio += pasoRadio;
+      delay(80); // es el tiempo en que van apareciendo las letras
+    }
 ```
 
 ### 3. Visualización del nombre del autor
@@ -145,31 +180,6 @@ int valor = analogRead(potPin);
 ```
 
 ```cpp
-if(valor <= 341){
-    // float sirve para declarar numeros decimales, estos numeros hace que el poema este en espiral
-    float centroX = SCREEN_WIDTH / 2; // este sirve para calcular la mitad de la pantalla
-    float centroY = SCREEN_HEIGHT / 2; // este sirve para calcular la mitad de la pantalla
-    float angulo = 0;
-    float radio = 8; // Radio inicial del espiral
-    float pasoAngulo = 0.4; // Separacion del angulo, cuanto avanza en cada letra
-    float pasoRadio = 0.6; // Cuanto se aleja del centro cada vez mas
-
-// for es la iteracion, es decir que en este caso recorre letra por letra para que aparezca en la pantalla
-    for (int i = 0; i < poema.length(); i++) {
-      char c = poema.charAt(i);
-      int x = centroX + radio * cos(angulo); // aqui se calcula en que posicion del espiral va cada letra
-      int y = centroY + radio * sin(angulo);
-
-      pantallita.setCursor(x, y);
-      pantallita.write(c);
-      pantallita.display(); // sirve para mostrar el "calculo" del espiral en la pantalla
-
-// cuanto avanza en el espiral, es decir, que el angulo 0 va aumentando 0.4 cada vez que avanza y lo mismo con el radio
-      angulo += pasoAngulo;
-      radio += pasoRadio;
-      delay(80); // es el tiempo en que van apareciendo las letras
-    }
-
   // else sirve para ejecutar una condición, si if cumple, se ejecutara else
   // es decir, que si el valor del potenciometro es menor a 682 mostrara el texto en espiral
   }
@@ -193,13 +203,19 @@ if(valor <= 341){
 
 ## Roles del equipo
 
-### Sofía Cartes
+### Sofía Cartes y Valentina Ruz
 
-### Antonia Fuentealba
+- Encargadas de modificar el código de referencia e implementar el potenciómetro; también buscar las fórmulas para que aparezca el texto en espiral.
+- Investigar sobre tipos de códigos y fórmulas.
+- Redacción de GitHub.
+- Registro fotográfico del proceso.
+  
+### Antonia Fuentealba y Sofía Perez
 
-### Sofía Perez
-
-### Valentina Ruz
+- Investigación de poemas y sus tipos.
+- Investigación de imágenes con vectores que calzaran con los poemas.
+- Redacción de GitHub.
+- Registro fotográfico del proceso.
 
 ## Fotografías y videos del proyecto funcionado
 
@@ -215,6 +231,9 @@ Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas,
 * Kramer, L. (17 de abril, 2025). A guide to haiku: Definition, structure, and examples. Grammarly. Recuperado de <https://www.grammarly.com/blog/creative-writing/how-to-write-haiku/>
 * El proyecto (Project 440360994230097921) Wokwi ESP32, STM32, Arduino Simulator. (26 de agosto, 2025). Wokwi. Recuperado el 28 de agosto de 2025, de <https://wokwi.com/projects/440360994230097921>
 * Wokwi.(s.f.). Wokwi OLED Animation Maker for Arduino. <https://animator.wokwi.com/>
+* Pardo Martín, C. F.(2025). Dibujar una espiral. Picuino. <https://www.picuino.com/es/scratch-espiral.html>
+* Evans, B.W.(2007). Manual de programación Arduino(PDF). Traducido y adaptado por J. M. Ruiz Gutiérrez. PBworks. <https://arduinobot.pbworks.com/f/Manual+Programacion+Arduino.pdf>
+  
 ### Repositorios
 * Adafruit Industries. (s.f.). Adafruit. GitHub. <https://github.com/adafruit>
 * sofiacartes.(s.f.). 05-sofiacartes [Carpeta dentro del repositorio dis8645-2025-02-proceso]. GitHub. <https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes>
