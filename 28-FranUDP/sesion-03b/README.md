@@ -54,7 +54,7 @@ Similar a la pantalla anterior, pero cada pixel es un LED. En lugar de usar I2C,
 -----------------------------------------------------------------------------------------------------------
 ## Proyecto 01 <!-- Avance -->
 ### Reunión en Discord
-Nos reunimos el fin de semana para definir ideas, objetivos y roles.
+Nos reunimos los 4 el fin de semana para definir ideas, objetivos y roles.
 
 <img align="left" src="./imagenes/ideas.jpg" alt="lista de ideas" height=170> <br><br><br><br><br><br><br>
 
