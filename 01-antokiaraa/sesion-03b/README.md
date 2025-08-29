@@ -1,8 +1,8 @@
-# sesion-03b // viernes 22 de agosto ⋆ 𐙚 ̊.
+# sesion-03b // viernes 22 de agosto ⋆ 𐙚 ̊
 
 - Por hacer:
 
-**Encargo 7**
+Encargo 7
 
 "03b"
 
@@ -13,7 +13,6 @@
 ## Repaso
 
 > pantalla OLED 128x64 y mini protoboard
-
 > tinkercad / wokwi
 
 4 cables:
