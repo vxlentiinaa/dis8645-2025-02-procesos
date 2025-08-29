@@ -123,6 +123,8 @@ void loop() {
 1. Programar y equivocarse 3 veces, documentar textualmente
 2. Programar y equivocarse 3 veces, documentar visualmente
 
-![TMC 1B 3](https://github.com/user-attachments/assets/382a0abf-280f-437a-afbf-d5fed011dfc2)
-![TMC 1B 4](https://github.com/user-attachments/assets/60d87eb7-f1d2-4289-bfc2-68f3a0089670)
-![TMC 1B 5](https://github.com/user-attachments/assets/10f31a63-9731-4e27-90d8-27e4986b544a)
+![imagen 1](./imagenes/TMC_1B_3.jpeg)
+![imagen 2](./imagenes/TMC_1B_4.jpeg)
+![imagen 3](./imagenes/TMC_1B_5.jpeg)
+
+

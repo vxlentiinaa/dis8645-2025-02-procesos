@@ -24,7 +24,80 @@ Fotografías y dibujos de maquetas y pruebas
 
 ## Etapas del código
 
-Segmenta las secciones de tu código y explícalas
+### Pantalla 
+
+
+
+
+
+
+
+
+
+
+
+
+### potenciometro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Scroll 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Binario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Roles del equipo
 
