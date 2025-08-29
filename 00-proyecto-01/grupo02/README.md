@@ -48,6 +48,13 @@ Recuperado en Agosto del 2025 en https://github.com/adafruit/Adafruit_SSD1306
 + Adafruit. (2024). *Adafruit GFX graphics library*. Adafruit Learning System.
 Recuperado en Agosto del 2025 en https://learn.adafruit.com/adafruit-gfx-graphics-library
 
++ Benedetti, M. (2009). *Táctica y estrategia.*
+Recuperado en agosto de 2025, de https://www.poemas-del-alma.com/tactica-y-estrategia.htm
+
++ Javl. (2025). *Image2cpp.*
+Recuperado en agosto de 2025, de https://javl.github.io/image2cpp/
+
 + Santos, R. (2018). *Guide for OLED display with Arduino*. Random Nerd Tutorials.
 Recuperado en Agosto del 2025 en https://randomnerdtutorials.com/guide-for-oled-display-with-arduino
+
 
