@@ -38,6 +38,13 @@ Frente a esta situación tuvimos que replantearnos nuestra idea inicial, dado qu
 En dicho caso me quise centrar en crear la interface para poder mostrar las piezas gráficas que diseñó mi compañera Camila. Antes de dar un paso tuve que seguir consultando para saber que hacer dado que me costó entender de si tendríamos animaciones o imágenes estáticas. Terminé optando por indagar sobre como poder mostrar contenido gráfico en movimiento. 
 Tas averiguar y probar propuestas de varias páginas terminé dando con un video llamado ["https://www.youtube.com/watch?v=DPL4tOYMl44&ab_channel=KingKodes"](https://www.youtube.com/watch?v=DPL4tOYMl44&ab_channel=KingKodes).
 
+### Links de consulta
+
+- https://animator.wokwi.com/
+- https://www.instructables.com/Create-Animation-on-OLED-Display-Controlled-by-Ard/
+- https://www.youtube.com/watch?v=DPL4tOYMl44
+- https://www.youtube.com/watch?v=o3PhC_VJdXo&t=394s
+
 ***
 
 ### Posdata
