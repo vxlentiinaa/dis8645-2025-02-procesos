@@ -1,5 +1,62 @@
 # sesion-01a
 
+## ¿Qué es una máquina?
+- Objeto físico con capacidad de ejecutar procesos.
+- Tiene input y output.
+- Requiere energía y funciona en el tiempo (sustrato de la energía).
+- Implica intención y tiene un objetivo definido.
+- Compuesta por más de un elemento.
+- Puede incluir piezas móviles y componentes electrónicos.
+- Facilita tareas y permite transformaciones.
+- Algo estático no es una máquina.
+
+### Etimología
+- Máquina: del latín machina, del griego mekhane → artificio, ingenio, medio.
+- Tecnología: del griego tekhné → arte, oficio, destreza.
+- Computación: del latín computare → contar, calcular.
+
+
+
+## Máquinas Computacionales
+- Objeto físico que procesa información.
+- Utiliza lenguaje (signos y símbolos).
+- Orden lógico: combinacional y secuencial.
+- Realiza cómputo (números, cálculos, datos).
+- Tiene interfaz:
+  - HCI: Human-Computer Interface.
+- Requiere energía y funciona en el tiempo para transformar información.
+
+### Conceptos relacionados
+- STS: Science, Technology, Sociality.
+- PCBA: Printed Circuit Board Assembly.
+- PCB SMT: Pick and Place (montaje superficial).
+
+
+
+## Microcontroladores
+- Circuito integrado programable.
+- Puede realizar distintas tareas según el código cargado.
+- Ejemplo: Arduino (usaremos Arduino Uno R4 Minima).
+
+
+
+## Personas Relevantes
+- **Muriel Cooper** – Pionera del diseño digital y MIT Press.
+- **John Maeda** – Convergencia entre diseño y tecnología.
+- **Casey Reas** – Co-creador de *Processing*, arte con software.
+- **Hernando Barragán** – Creador de *Wiring* (precursor de Arduino).
+- **Tom Igoe** – Desarrollador de la plataforma Arduino.
+- **Ada Lovelace** – Primera programadora de la historia.
+- **Alan Turing** – Padre de la informática teórica.
+- **Mar Hicks** – Historiadora sobre mujeres en informática.
+
+
+
+## Referencias y Herramientas
+- Rafael Benguria – Charlas TED sobre arte y tecnología.
+- Processing – Software para programación visual y arte computacional.
+- Utadeo.com – Fuente de información sobre diseño y tecnología.
+---
 ## Encargo 01: Investigar sobre Ada Lovelace
 
 Ada Lovelace (1815–1852) es reconocida como la primera programadora de la historia. Su contribución se basa en la creación del primer algoritmo destinado a ser procesado por una máquina, anticipando conceptos de la programación informática moderna más de un siglo antes de que existieran las computadoras electrónicas.
@@ -49,4 +106,3 @@ Las investigaciones de Turing definieron los principios de la computación moder
 ### Resumen de Alan Turing
 
 El legado de Alan Turing ha perdurado como pilar fundamental de la informática. Desde su modelo teórico de computación hasta sus contribuciones en criptografía e inteligencia artificial, su obra sentó las bases para el desarrollo tecnológico contemporáneo y marcó el inicio de una nueva era en la ciencia y la tecnología.
-s
