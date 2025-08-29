@@ -62,6 +62,10 @@ Pantalla OLED: Muestra el texto dividido en frases del poema. Según el rango de
 La interacción entonces es girar el potenciómetro y como respuesta ofrece versos en la pantalla, uno por uno, como un carrusel de texto.
 
 **Código carrusel de imágenes:**
+*Inputs:*
+Se gira el potenciómétro y cada valor de este corresponde a una imágen que acompaña al poema. Estas imágenes también tienen relación entre sí con el poema.
+*Outputs:*
+En la pantalla se visualiza las imágenes que se accionan con el potenciómetro.
 
 ## Bocetos de planificación
 
