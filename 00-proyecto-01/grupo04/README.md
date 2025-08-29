@@ -16,7 +16,7 @@ El proyecto arduinoMishBinarioV2 busca explorar la relación entre texto (binari
 
 El problema de diseño es la traducción de un poema tipo haiku a código binario y la representación del mensaje en una pantalla OLED, con la condición de que se pueda deslizar verticalmente la información por medio del potenciómetro.
 
-El poema que hicimos es el siguiente:
+- El poema que hicimos es el siguiente:
 
 Código Arduino 
 
@@ -287,8 +287,13 @@ Luego almacena cada retorno dentro de la variable binario y añade una separaci�
 ```
 
 ## Roles del equipo
+- Josefa Quape: Investigación buzzer y pruebas en Arduino. Conceptualización del proyecto.
 
-Menciona y desarrolla los roles que ejerció cada integrante
+- Millaray Millar: Dibujo haiku. Función potenciómetro. Conceptualización del proyecto.
+
+- José Morales: Imágenes a código C++. Scroll imágenes a código. Conceptualización del proyecto.
+
+- Francisco Stephens: Función traducción binario. Conceptualización del proyecto.
 
 ## Fotografías y videos del proyecto funcionado
 
@@ -297,5 +302,16 @@ Subir fotos y videos
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
 ## Bibliografía
+- Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+Johann Perez E. (2021, 4 marzo). 💡 Cómo conectar un Zumbador Pasivo a Arduino (Passive Buzzer)  【 2021】 - Capítulo #24🔋 [Vídeo]. https://www.youtube.com/watch?v=PfXZ3ptiGVA
 
-Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+- Correct syntax for draw.Bitmap. (2021, 28 mayo). Arduino Forum.Correct syntax for draw.Bitmap - Other Hardware / Displays - Arduino Forum 
+
+- Del Valle Hernández, L. (2022, 13 enero). Sentencia if con Arduino, controla la ejecución de tu código. Programarfacil Arduino y Home Assistant.Sentencia if con Arduino, controla la ejecución de tu código 
+
+- Instructables. (2020, 19 diciembre). How to Display Images on OLED Using Arduino. Instructables.How to Display Images on OLED Using Arduino : 6 Steps (with Pictures) - Instructables 
+
+- Mission Critical. (2020, 19 diciembre). how to display images on 0.96" oled using arduino [Vídeo]. YouTube.how to display images on 0.96" oled using arduino - YouTube 
+
+- Código scrollVertical basado en ejemplo de @matbutom [matbutom ](https://github.com/matbutom)
+
