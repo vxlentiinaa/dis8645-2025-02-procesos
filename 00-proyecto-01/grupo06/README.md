@@ -112,6 +112,10 @@ Fotografías y dibujos de maquetas y pruebas
 
 [REPOSITORIO DE VALENTINA RUZ](https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa/sesion-04a)
 
+[REPOSITORIO DE SOFÍA PÉREZ](https://github.com/sofia-perezm/dis8645-2025-02-procesos/tree/main/22-sofia-perezm/sesion-04a)
+
+[REPOSITORIO DE SOFÍA CARTES](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes/sesion-04a)
+
 ### Fórmula del espiral
 
 La sacamos de una fórmula matemática llamada espiral logarítmica, donde un estudiante de informática nos ayudó a resolverla e implementarla en el código para entenderla mejor.
@@ -257,6 +261,12 @@ int valor = analogRead(potPin);
 Subir fotos y videos
 
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+
+[Video de código + Arduino FINAL](https://youtu.be/zmPsnglpT_A)
+
+[Videos de procesos](https://www.youtube.com/playlist?list=PL3fzND9R5FHDpqDSguDgBiuKhA3gDYYar)
+
+No alcanzamos a subir todos los videos porque Youtube no nos deja, dice que hay que esperar 24 horas :(
 
 ### Poema 1
 
