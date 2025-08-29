@@ -283,5 +283,6 @@ void loop() {
 
 I2c: hay que corrobar la dirección
 
-- Se puede usar el mismo código pero hay que editarlo
-
+- Se puede usar el mismo código pero hay que citarlo
+- Image2cpp
+- Próximo viernes: Podemos hacer texto, renderear fotos, poema, número
