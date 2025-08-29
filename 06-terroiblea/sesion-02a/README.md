@@ -25,7 +25,7 @@ Nota del día: soy muy mala en ortografía, perdón de antemano si faltan alguna
 
 Se usa dentro de void setup()
 
-*Serial begin: 9600*
+`Serial begin: 9600`
 
 - **baudios:** significa a qué velocidad va un baudio, velocidad de comunicación, a qué velocidad lo estoy viendo.
 - (Bd) **Baud Rate:** cantidad de símbolos o cambios de señal por segundo en una comunicación.
