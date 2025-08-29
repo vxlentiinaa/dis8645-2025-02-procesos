@@ -32,11 +32,12 @@ Segmenta las secciones de tu código y explícalas
 - Pía Orellana: 
 
 ## Fotografías y videos del proyecto funcionando
+
+[Video del proyecto en Youtube](https://youtube.com/shorts/5r9miV74v34)
+
 ![Foto 1](./imagenes/FUNCIONANDO1.jpeg)
 ![Foto 2](./imagenes/FUNCIONANDO2.jpeg)
-Subir fotos y videos
 
-El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
 ## Bibliografía
 
