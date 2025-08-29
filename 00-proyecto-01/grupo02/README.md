@@ -31,7 +31,7 @@ Segmenta las secciones de tu código y explícalas
 - Javiera Moraga:
 - Pía Orellana: 
 
-## Fotografías y videos del proyecto funcionado
+## Fotografías y videos del proyecto funcionando
 ![Foto 1](./imagenes/FUNCIONANDO1.jpeg)
 ![Foto 2](./imagenes/FUNCIONANDO2.jpeg)
 Subir fotos y videos
