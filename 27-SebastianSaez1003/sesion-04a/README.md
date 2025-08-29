@@ -519,3 +519,16 @@ String conversa7 = "waos7";
 ```
 Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que se quieren observar, así que tenemos que hacer una revisión de cuál sería la razón del porque pasa esto, donde solo aparece el mensaje de waos1, waos3 y waos 6.
 
+Este código está increíblemente desordenado, al punto donde ni siquiera entendía que eran las variables que tenia que cambiar, no cambiar, realmente era un desastre, así que para empezar busque en internet a alguien que tenía un problema similar al mio, mi búsqueda específica fue la siguiente: “in if statements is it necessary to put == true for a boolean for c++”, lo cual me llevó a esta respuesta en un foro:
+
+https://stackoverflow.com/a/8844632
+
+donde aprendí que, al menos con las variables booleanas dentro de los if statements, no es necesario el escribir == true, o == false, sino que el mero hecho de mencionar la variable como !waos, donde eso significa waos == false, ahorrando un poco de dolor de cabeza de asegurarme que todo esté perfectamente escrito, y hace un poco más agradable a la vista cada If statement
+
+```cpp
+// de esto, desordenado
+if(poteValor == false && respCon2 == !true && respCon3 == !true){}
+// a esto un poco más ordenado
+if(respCon2 && !poteValor && !respCon4 && !respCon5){}
+
+```
