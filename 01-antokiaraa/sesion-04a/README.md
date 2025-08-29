@@ -1,6 +1,6 @@
-# sesion-04a - martes 26 de agosto ⋆ 𐙚 ̊.
+# sesion-04a - martes 26 de agosto ⋆ 𐙚 ̊
 
-## Uso de pantalla y protoboard 
+## Uso de pantalla y protoboard
 
 Simulación potenciómetro en wokwi:
 
@@ -29,7 +29,6 @@ void loop() {
 ### Pruebas en pantalla
 
 ![pantalla1](./imagenes/pantalla1.jpg)
-
 
 ![pantalla2](./imagenes/pantalla2.jpg)
 
@@ -84,17 +83,17 @@ void loop() {
  delay(500); // pausa de medio segundo para leer bien los número
 }
 ```
+
 - todo funcionando correctamente:
   
 ![displaypot](./imagenes/displaypot.png)
 
 ### Prueba con Strings y Scrolltext
+
 - errores:
   
 > faltó agregar la función map() para converitr los valores del potenciómetro para controlar el scroll.
-
 > "int pausa = map(valorPot, 0, 1023, 50, 600);"
-
 > en el "for" modificar a 4 Strings (el código base que estaba utilizando tenia 6 Strings).
 
 ![error1](./imagenes/error1.png)
@@ -102,7 +101,6 @@ void loop() {
 - código funcionando, el texto aumenta o reduce la velocidad según el valor del potenciómetro, a su vez con el scrolltext se mueve más o menos rápido!
   
 > colocar textos sin tildes ya que no se ven.
-
 
 ```cpp
 #include <Wire.h>
@@ -186,7 +184,7 @@ void loop() {
   delay(pausa);
 }
 ```
+
 - resultado prueba en físico
 
-![resultadoprueba](./imagenes/pruebafisico.jpg) 
-
+![resultadoprueba](./imagenes/pruebafisico.jpg)
