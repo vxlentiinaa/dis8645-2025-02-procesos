@@ -8,7 +8,7 @@
 
 ## encargo 1, investigar sobre Ada Lovelace y Alan Turing
 
-- ### Ada Lovelace
+ ### Ada Lovelace
 
 Augusta Ada King, condesa de Lovelace, nació el 10 de diciembre de 1815.De niña Ada Lovelace sufrió varias enfermedades, incluyendo el sarampión que la dejó temporalmente paralítica. A pesar de las dificultades físicas, nunca perdió su entusiasmo por aprender.
 
