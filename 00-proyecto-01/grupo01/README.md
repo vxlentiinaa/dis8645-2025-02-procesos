@@ -26,7 +26,7 @@ El usuario puede navegar entre los refranes usando el potenciómetro, ya sea de 
 
 ## Inputs y outputs
 
-La interacción que diseñamos para nuestro proyecto permite al usuario navegar a través de una selección de 5 refranes chilenos y 5 dibujos representativos para cada uno de ellos. 
+La interacción que diseñamos para nuestro proyecto permite al usuario navegar a través de una selección de 5 refranes chilenos y 5 dibujos representativos para cada uno de ellos.
 
 El usuario podrá leer los refranes en la pantalla OLED de 128x64 pixeles que se conecta al Arduino Uno R4 Minima. Para pasar de un refrán a otro, el usuario debe manipular un potenciómetro que también se encuentra conectado al circuito. Asimismo, quien interactúe con el proyecto podrá alternar entre el apartado con imágenes y el de texto, pulsando el botón que forma parte del circuito.
 
@@ -37,13 +37,16 @@ Y así sucesivamente hasta leer todos los refranes.
 El usuario puede experimentar otros caminos posibles de interacción, por ejemplo, al navegar únicamente a través de los refranes textuales al manipular solo el potenciómetro. O utilizar el "modo fiesta", manteniendo el botón presionado mientras se usa el potenciómetro.
 
 ## Bocetos de planificación
+
 ![croquis ideas individuales](./imagenes/boceto-v1.jpg)
+
 - Primer boceto para organizar las ideas. Se observa una idea de navegación de un compositor(mezclador) de texto. Obtenido de: creación personal.
 
 ![croquis poemSampler-v1](./imagenes/boceto-v2.jpg)
+
 - Segundo boceto. Se mezclan las ideas propuestas sobre el proyecto. Obtenido de: creación personal.
 
-![Diagrama estructura](./imagenes/croquis-focus.jpeg) 
+![Diagrama estructura](./imagenes/croquis-focus.jpeg)
 Tercer boceto. Esquema conceptual sobre el funcionamiento y la interface. Obtenido de: creación personal.
 
 ![pseudo flujo](./imagenes/pseudoFlujo.png)
@@ -51,7 +54,8 @@ Diagrama de flujo del funcionamiento. Obtenido de: creación personal.
 
 ## Etapas del código
 
-1. Inclusión de librerías y creación de variables con los parámetros visuales.
+### 1. Inclusión de librerías y creación de variables con los parámetros visuales
+
 ```cpp
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -63,7 +67,8 @@ Diagrama de flujo del funcionamiento. Obtenido de: creación personal.
 Adafruit_SSD1306 display(screenW, screenH, &Wire, oledReset);
 ```
 
-2. Variables específicas del código: botón y potenciometro.
+### 2. Variables específicas del código: botón y potenciometro
+
 ```cpp
 //variable que lleva la cuenta de cuántas veces se ha presionado el botón
 int botonComputo = 0;
@@ -73,7 +78,7 @@ int botonPin = 2;
 int potePin = A0;
 ```
 
-3. Listado del contenido textual: refranes chilenos.
+### 3. Listado del contenido textual: refranes chilenos
 
 ```cpp
 char* refranes[] = { "perro ke ladra no muerde",
@@ -82,7 +87,9 @@ char* refranes[] = { "perro ke ladra no muerde",
                      "pasar gato x liebre",
                      "cria cuervo' y te sacaran lo' ojo'"};
 ```
-4. bitmaps: códigos hexadecimales de las imágenes a usar(contenido interno borrado para hacer este documento más legible).
+
+### 4. bitmaps: códigos hexadecimales de las imágenes a usar(contenido interno borrado para hacer este documento más legible)
+
 ```cpp
 const unsigned char bitmapPerro[] PROGMEM = {
 };
@@ -95,14 +102,17 @@ const unsigned char bitmapGato[] PROGMEM = {
 const unsigned char bitmapCuervo[] PROGMEM = {
 };
 ```
-5. listado que contiene los bitmaps.
+
+### 5. listado que contiene los bitmaps
+
 ```cpp
 const int bitmapArrayLength = 5;
 const unsigned char* bitmapArray[5] = {
   bitmapPerro, bitmapEnano, bitmapMono, bitmapGato, bitmapCuervo
 };
 ```
-6- "void setup": seteo del programa.
+
+### 6. "void setup": seteo del programa
 
 ```cpp
 void setup() {
@@ -124,7 +134,8 @@ void setup() {
   display.display();
 }
 ```
-7. void loop: bucle. La variable votoComputo lleva la cuenta de cuántas veces fue presionado el botón. En los números pares está en modoPoeta(), en los números impares en modoHd().
+
+### 7. void loop: bucle. La variable votoComputo lleva la cuenta de cuántas veces fue presionado el botón. En los números pares está en modoPoeta(), en los números impares en modoHd()
 
 ```cpp
 void loop() {
@@ -144,7 +155,9 @@ void loop() {
   }
 }
 ```
-8. void modoPoeta: función que contiene los refranes textuales.
+
+### 8. void modoPoeta: función que contiene los refranes textuales
+
 ```cpp
 //el modo donde se leen los refranes
 void modoPoeta() {
@@ -163,7 +176,9 @@ void modoPoeta() {
   display.display();
 }
 ```
+
 - void modoHd(): función que contiene las imágenes basadas en los refranes
+
 ```cpp
 
 void modoHd() {
@@ -194,51 +209,52 @@ void modoHd() {
 [![Video del proyecto funcionando](https://img.youtube.com/vi/1rk3vENQUHw/0.jpg)](https://www.youtube.com/watch?v=1rk3vENQUHw)
 
 ## Bibliografía
+
 1- Consulta de información
 
-Arduino cc (2012, September 12). counting button presses. Arduino Forum. https://forum.arduino.cc/t/counting-button-presses/119881/4
+Arduino cc (2012, September 12). counting button presses. Arduino Forum. <https://forum.arduino.cc/t/counting-button-presses/119881/4>
 
-Arduino cc (2024, January 4). Arduino uno with multiple oled displays. Arduino Forum. https://forum.arduino.cc/t/arduino-uno-with-multiple-oled-displays/1207184
+Arduino cc (2024, January 4). Arduino uno with multiple oled displays. Arduino Forum. <https://forum.arduino.cc/t/arduino-uno-with-multiple-oled-displays/1207184>
 
-Arduino Docs (n.d.). How to Wire and Program a Button. Docs.arduino.cc. https://docs.arduino.cc/built-in-examples/digital/Button/‌
+Arduino Docs (n.d.). How to Wire and Program a Button. Docs.arduino.cc. <https://docs.arduino.cc/built-in-examples/digital/Button/‌>
 
-Arduino docs (2024). #define .Arduino.cc. https://docs.arduino.cc/language-reference/en/structure/further-syntax/define/
+Arduino docs (2024). #define .Arduino.cc. <https://docs.arduino.cc/language-reference/en/structure/further-syntax/define/>
 
-Arduino docs (2024). string, Arduino.cc. https://docs.arduino.cc/language-reference/en/variables/data-types/string/
+Arduino docs (2024). string, Arduino.cc. <https://docs.arduino.cc/language-reference/en/variables/data-types/string/>
 
-Arduino docs (2024). Serial.begin(). Arduino.cc. https://docs.arduino.cc/language-reference/en/functions/communication/Serial/begin/
+Arduino docs (2024). Serial.begin(). Arduino.cc. <https://docs.arduino.cc/language-reference/en/functions/communication/Serial/begin/>
 
-Arduino docs (2025). % (remainder). Arduino.cc. https://docs.arduino.cc/language-reference/en/structure/arithmetic-operators/remainder
+Arduino docs (2025). % (remainder). Arduino.cc. <https://docs.arduino.cc/language-reference/en/structure/arithmetic-operators/remainder>
 
-Arduino docs (2025). constrain(). Arduino.cc. https://docs.arduino.cc/language-reference/en/functions/math/constrain
+Arduino docs (2025). constrain(). Arduino.cc. <https://docs.arduino.cc/language-reference/en/functions/math/constrain>
 
-Arduino docs (2024). Digital Input Pull-Up Resistor. Arduino.cc. https://docs.arduino.cc/tutorials/generic/digital-input-pullup/
+Arduino docs (2024). Digital Input Pull-Up Resistor. Arduino.cc. <https://docs.arduino.cc/tutorials/generic/digital-input-pullup/>
 
-Carter, C. (2025, January 27). Cómo usar el multiplexor TCA9548A I2C con Arduino. 38-3D. https://38-3d.co.uk/es/blogs/blog-38-3d/como-usar-el-multiplexor-tca9548a-i2c-con-arduino
+Carter, C. (2025, January 27). Cómo usar el multiplexor TCA9548A I2C con Arduino. 38-3D. <https://38-3d.co.uk/es/blogs/blog-38-3d/como-usar-el-multiplexor-tca9548a-i2c-con-arduino>
 
-Guerra, J. (n.d.). Comunicación I2C con Arduino lo mejor de 2 mundos. Programarfacil.com. https://programarfacil.com/blog/arduino-blog/comunicacion-i2c-con-arduino/
+Guerra, J. (n.d.). Comunicación I2C con Arduino lo mejor de 2 mundos. Programarfacil.com. <https://programarfacil.com/blog/arduino-blog/comunicacion-i2c-con-arduino/>
 
-MusicalCreeper01. (2016). GitHub - MusicalCreeper01/OLED-Icons-: A library of icons for Sparkfun’s OLED displays. GitHub. https://github.com/MusicalCreeper01/OLED-Icons-
+MusicalCreeper01. (2016). GitHub - MusicalCreeper01/OLED-Icons-: A library of icons for Sparkfun’s OLED displays. GitHub. <https://github.com/MusicalCreeper01/OLED-Icons->
 
-W3schools (n.d.). C++ Loop Through an Array. Www.w3schools.com. https://www.w3schools.com/cpp/cpp_arrays_loop.asp ‌ 2- Videos
+W3schools (n.d.). C++ Loop Through an Array. <Www.w3schools.com>. <https://www.w3schools.com/cpp/cpp_arrays_loop.asp> ‌ 2- Videos
 
-Robotics Back-End. (2021, March 21). Arduino - How to Split a Program Into Different Files. YouTube. https://www.youtube.com/watch?v=BdstuZP6l5E
+Robotics Back-End. (2021, March 21). Arduino - How to Split a Program Into Different Files. YouTube. <https://www.youtube.com/watch?v=BdstuZP6l5E>
 
-TechWithRita (2022, June 18). Connect Multiple OLED Displays With Arduino Nano (or any other board). YouTube. https://www.youtube.com/watch?v=MO6hbQcX8fE
+TechWithRita (2022, June 18). Connect Multiple OLED Displays With Arduino Nano (or any other board). YouTube. <https://www.youtube.com/watch?v=MO6hbQcX8fE>
 
-TheGeekPub Extras. (2021, October 26). Arduino: Use a Button to Toggle an LED. YouTube. https://www.youtube.com/watch?v=VdB4GWeVkvY
+TheGeekPub Extras. (2021, October 26). Arduino: Use a Button to Toggle an LED. YouTube. <https://www.youtube.com/watch?v=VdB4GWeVkvY>
 
-upir (2024, February 6). Arduino OLED Animations -- tutorial for beginners, Arduino UNO, u8g2, Adafruit GFX, SSD1306, SSD1309. Www.youtube.com. https://www.youtube.com/watch?v=o3PhC_VJdXo
+upir (2024, February 6). Arduino OLED Animations -- tutorial for beginners, Arduino UNO, u8g2, Adafruit GFX, SSD1306, SSD1309. <Www.youtube.com>. <https://www.youtube.com/watch?v=o3PhC_VJdXo>
 
 3- Inspiración
 
-Adafruit. (2025). Adafruit_SSD1306/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino. GitHub. https://github.com/adafruit/Adafruit_SSD1306/blob/master/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino
-The Coding Train (2025). 7.2: Arrays and Loops - p5.js Tutorial. Youtu.be. https://youtu.be/RXWO3mFuW-I?si=1Iiri9lDNYRLTjQS
-Wokwi (2019). arduino_oled_animation__upir. Wokwi.com. https://wokwi.com/projects/374294166215201793
+Adafruit. (2025). Adafruit_SSD1306/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino. GitHub. <https://github.com/adafruit/Adafruit_SSD1306/blob/master/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino>
+The Coding Train (2025). 7.2: Arrays and Loops - p5.js Tutorial. Youtu.be. <https://youtu.be/RXWO3mFuW-I?si=1Iiri9lDNYRLTjQS>
+Wokwi (2019). arduino_oled_animation__upir. Wokwi.com. <https://wokwi.com/projects/374294166215201793>
 4- Recursos
 
-Adafruit (2020, January 11). adafruit/Adafruit_SSD1306. GitHub. https://github.com/adafruit/Adafruit_SSD1306
-Adafruit (2021, October 14). Adafruit GFX Library. GitHub. https://github.com/adafruit/Adafruit-GFX-Library
-Arduino docs (2024). Wire. Arduino.cc. https://docs.arduino.cc/language-reference/en/functions/communication/wire/
-Clifford1one (2025). voluntadGuiada/code/interact.js. GitHub. https://github.com/clifford1one/voluntadGuiada/blob/main/code/interact.js
-image2cpp (n.d.). Javl.github.io. https://javl.github.io/image2cpp/
+Adafruit (2020, January 11). adafruit/Adafruit_SSD1306. GitHub. <https://github.com/adafruit/Adafruit_SSD1306>
+Adafruit (2021, October 14). Adafruit GFX Library. GitHub. <https://github.com/adafruit/Adafruit-GFX-Library>
+Arduino docs (2024). Wire. Arduino.cc. <https://docs.arduino.cc/language-reference/en/functions/communication/wire/>
+Clifford1one (2025). voluntadGuiada/code/interact.js. GitHub. <https://github.com/clifford1one/voluntadGuiada/blob/main/code/interact.js>
+image2cpp (n.d.). Javl.github.io. <https://javl.github.io/image2cpp/>
