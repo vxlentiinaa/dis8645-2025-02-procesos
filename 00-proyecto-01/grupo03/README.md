@@ -661,9 +661,13 @@ Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que
 
 ## Fotografías y videos del proyecto funcionado
 
-Subir fotos y videos
+[pruebaConversacionConArduino-00](https://youtube.com/shorts/KdK3RFVv7po?si=xzqtc6b-C9rdamtQ)
 
-El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+[pruebaConversacionConArduino-01](https://youtube.com/shorts/JfK6-7urSqY?si=Lp1Ad8GMK_MX7eY9)
+
+[pruebaConversacionConArduino-02](https://youtube.com/shorts/g-0_mOg6dUA?si=sFpwlo84kwIh85vB)
+
+[pruebaConversacionConArduino-03](https://youtube.com/shorts/efIljK3--vE?si=xo1tBEY-9E5ByfOI)
 
 ## Bibliografía
 
