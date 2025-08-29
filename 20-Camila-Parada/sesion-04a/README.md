@@ -25,13 +25,25 @@ Pese a los antecedentes, seguía sin poder entender e imaginarme la posibilidad 
 
 ![imagen](./imagenes/a1.png)
 
-▼ Descripción de la imagen. Obtenido de: cita 
+▼ Captura de una parte del blog de arduino entregado por Aarón. Obtenido de: creación personal. 
 
 Antes de mandarme un error que no pueda remediar decidí consultar cómo se realiza este procedimiento para dicho tipo de pantallas (considerando que son del tipo SSD1306). Terminé pillando este [otro foro de arduino](https://forum.arduino.cc/t/change-i2c-address-oled/991780/2) para seguir indagando sobre cómo cambiar la dirección del I2C de las pantallas entregadas. En dicho espacio virtual no llegué a una conclusión precisa dado que realizaban paralelismos un proyecto de un teclado. Más tarde, [Matías](https://github.com/misaaaaaa) me respondió, llevando a cabo una intervención del circuito de la pantalla.
 
 ![imagen](./imagenes/a2.png)
 
-▼ Descripción de la imagen. Obtenido de: cita 
+▼ Captura al chat de discord. Obtenido de: creación personal.
+
+Frente a esta situación tuvimos que replantearnos nuestra idea inicial, dado que al no poder tener dos pantallas conectadas solo teníamos la opción de usar 2 arduinos o tener 1 pantalla con el proyecto final. Terminamos por elegir la última de estas. 
+
+En dicho caso me quise centrar en crear la interface para poder mostrar las piezas gráficas que diseñó mi compañera Camila. Antes de dar un paso tuve que seguir consultando para saber que hacer dado que me costó entender de si tendríamos animaciones o imágenes estáticas. Terminé optando por indagar sobre como poder mostrar contenido gráfico en movimiento. 
+Tas averiguar y probar propuestas de varias páginas terminé dando con un video llamado ["https://www.youtube.com/watch?v=DPL4tOYMl44&ab_channel=KingKodes"](https://www.youtube.com/watch?v=DPL4tOYMl44&ab_channel=KingKodes).
+
+### Links de consulta
+
+- https://animator.wokwi.com/
+- https://www.instructables.com/Create-Animation-on-OLED-Display-Controlled-by-Ard/
+- https://www.youtube.com/watch?v=DPL4tOYMl44
+- https://www.youtube.com/watch?v=o3PhC_VJdXo&t=394s
 
 ***
 

@@ -1280,6 +1280,8 @@ Extras:
 
 - Todo lo que fue registrado durante el proceso igual fue mandado al grupo de trabajo.
 
+Video proceso: <https://youtu.be/apL3aa1PRMo>
+
 ### Fotogramas
 
 ### Código
