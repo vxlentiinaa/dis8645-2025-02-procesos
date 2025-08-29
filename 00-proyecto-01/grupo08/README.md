@@ -705,8 +705,10 @@ Luego, se muestra la etapa 1: “El Encuentro”, esta parte usando el ejemplo d
 
 };
 ```
+
 Después de la primera etapa, se muestra el título para la segunda etapa.
 Preparando la pantalla para mostrar los versos del poema según la posición del potenciómetro.
+
 ```cpp
 void loop() {
 
@@ -750,7 +752,8 @@ void loop() {
     delay(1000);  
 
     } else {
-    ```
+```
+
 En esta parte, el potenciómetro controla qué verso se muestra. Dependiendo del rango de valorPot, se elige uno de los versos (verso0 a verso6).
 Una vez que se llega al último verso (verso6), se espera 3 segundos y se marca poema2Terminado = true para pasar al siguiente poema.
 Esto permite controlar el poema con el potenciómetro, dando al lector la posibilidad de explorar cada verso antes de avanzar.
@@ -827,13 +830,12 @@ Y usando la variante booleana para que Arduino entienda que el poema 2 terminó 
     pantallita.clearDisplay();
     pantallita.display(); 
     delay(2000);
-  ```
-Una vez terminado el poema 2, el programa pasa a mostrar los siguientes poemas:
-Etapa 3: “El Quiebre” → texto con scroll.
-Etapa 4: “El Olvido” → texto final con scroll.
+```
+Una vez terminado el poema 2, el programa pasa a mostrar los poemas 3 y 4, mostrándose con scroll como el primer poema.
 
 Se usan comandos como pantallita.clearDisplay(), pantallita.println(), pantallita.startscrollright() y pantallita.startscrollleft() para mostrar cada línea.
 Después de cada poema se pone un delay de 1 segundo para dejar la pantalla en blanco antes del siguiente.
+
 ```cpp
 
     //salir del loop
