@@ -37,7 +37,7 @@ También realice la investigación del código que controla un servomotor con un
 Además hice un registro fotográfico del circuito.
 Junto con Carla resolvimos los preblemas que surgieron al poner la imagen en en el codigo, yaque salia pestañandi y por en ecima del poema, esto era por que teniamos escritro display.display dos veces en el textoñ. Tambien resolvimos el problema de la imagen sobre el texto poniendo espacios en blanco entre el poema y que así solo se viera la imagen.
 
-#### Primera parte del codigo proyecto trabajado con Felix
+## Primera parte del codigo proyecto trabajado con Felix
 
 código versión 01: solo poema el texto se reinicia al tocar la parte superio de la pantalla.
 
