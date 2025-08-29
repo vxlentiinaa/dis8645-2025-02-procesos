@@ -7,7 +7,7 @@
 - Integrantes:
   - Sofía Cartes / [sofiacartes](https://github.com/sofiacartes)
   - Antonia Fuentealba / [AntFuentealba](https://github.com/AntFuentealba)
-  - Sofía Perez / [sofia-perezm](https://github.com/sofia-perezm)
+  - Sofía Pérez / [sofia-perezm](https://github.com/sofia-perezm)
   - Valentina Ruz / [vxlentiinaa](https://github.com/vxlentiinaa)
 
 ## Presentación textual
@@ -111,6 +111,10 @@ Fotografías y dibujos de maquetas y pruebas
 ### Más procesos de códigos y fotografías en Github de Valentina
 
 [REPOSITORIO DE VALENTINA RUZ](https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa/sesion-04a)
+
+[REPOSITORIO DE SOFÍA PÉREZ](https://github.com/sofia-perezm/dis8645-2025-02-procesos/tree/main/22-sofia-perezm/sesion-04a)
+
+[REPOSITORIO DE SOFÍA CARTES](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes/sesion-04a)
 
 ### Fórmula del espiral
 
@@ -257,6 +261,10 @@ int valor = analogRead(potPin);
 Subir fotos y videos
 
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+
+[Video de código + Arduino FINAL](https://youtu.be/zmPsnglpT_A)
+
+[Videos de procesos]()
 
 ### Poema 1
 
