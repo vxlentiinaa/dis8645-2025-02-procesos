@@ -43,4 +43,11 @@ ListaEncargos::ListaEncargos()
             7,
             "03b",
             "documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi"));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            8,
+            "4a",
+            "investigar la poesía y el trabajo de las poetas computacionales Allison Parrish y Nick Montfort"));
+    "));
 }
