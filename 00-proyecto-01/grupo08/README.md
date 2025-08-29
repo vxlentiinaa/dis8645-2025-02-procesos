@@ -38,7 +38,7 @@ y tan largo el olvido.”
 
 ### La interacción
 
-Para hacer de la interacción mejor, el poema Nº2 se conecta a un potenciómetro: según el valor detectado, la pantalla despliega diferentes versos, permitiendo que el lector interactúe con el texto y sienta que lo “despliega” él mismo. Se escogió el poema Nº2 porque es el mas largo, y como la pantalla es pequeña y no queriamos hacerlo con el texto tan pequeño, preferimos separarlo en varios versos que caigan en la pantalla y poder controlar su velocidad con el potenciómetro.
+Para hacer de la interacción mejor, el poema Nº2 se conecta a un potenciómetro: según el valor detectado, la pantalla despliega diferentes versos, permitiendo que el lector interactúe con el texto y sienta que lo “despliega” él mismo. Se escogió el poema Nº2 porque es el más largo, y como la pantalla es pequeña y no queríamos hacerlo con el texto tan pequeño, preferimos separarlo en varios versos que vayan llenando la pantalla y poder controlar su velocidad con el potenciómetro.
 
 En cambio, los otros poemas se controlan directamente desde el código. Se usaron funciones de scroll, permitiendo que el poema se sienta más dinámico y no solo estático en pantalla.
 
@@ -49,9 +49,10 @@ Al mismo tiempo, en la segunda pantalla se van mostrando imágenes en forma de c
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
 **Código poetario:**
+
 *Inputs:*
 
-Potenciómetro: Se gira y así cambia el valor analógico que lee el Arduino (de 0 a 1023)
+Potenciómetro: Se gira y así cambia el valor analógico que lee el Arduino (de 0 a 1023).
 Código del poema: Arduino interpreta ese valor (del potenciómetro) y decide qué parte del poema (Poema 2) mostrar.
 
 *Outputs:*
@@ -62,6 +63,7 @@ La interacción entonces es girar el potenciómetro y como respuesta ofrece vers
 
 **Código carrusel de imágenes:**
 *Inputs:*
+
 Potenciómetro: mientras se gira, van pasando las imágenes de acuerdo al poema, también cuentan una historia en función del los versos de cada uno.
 
 *Outputs:*
@@ -69,7 +71,7 @@ Pantalla OLED que visualiza estas imágenes.
 
 ## Bocetos de planificación
 
-Fotografías y dibujos de maquetas y pruebas
+
 ## Poemas en la pantalla
 
 ## Imágenes de la pantalla
@@ -94,10 +96,10 @@ Fotografías y dibujos de maquetas y pruebas
 
 ### CÓDIGO POETARIO
 
-El primer problema al que nos enfrentamos fué el de colocar la primera imagen, no lograbamos hacerlo, finalmente el error era una palabra mal escrita y el código de la imagen fué descargado en bytes no en código de arduino, se solucionó. :)
+El primer problema al que nos enfrentamos fue el de colocar la primera imagen, no lograbamos hacerlo, finalmente el error era una palabra mal escrita y el código de la imagen fue descargado en bytes no en código de arduino, se solucionó. :)
 
-El desafío más grande fué el de conectar el potenciómetro con nuestra idea de carrusel de poemas e imágenes, gracias a nuestra compañera carla, en nuestro intercambio de dudas y asiertos, nos ayudó mostrándonos como lo hizo su grupo, junto con el ejercicio en clases, tuvimos la idea de recorrer los versos de uno de nuestros poemas con el potenciómetro. Para esto usamos el código de "if" "else if" y "else".
-hicimos este código:
+El desafío más grande fué el de conectar el potenciómetro con nuestra idea de carrusel de poemas e imágenes, gracias a nuestra compañera Carla, en nuestro intercambio de dudas y aciertos, nos ayudó mostrándonos cómo lo hizo su grupo, junto con el ejercicio en clases, tuvimos la idea de recorrer los versos de uno de nuestros poemas con el potenciómetro. Para esto usamos el código de "if" "else if" y "else".
+Pars esto hicimos el siguiente código:
 
 ```cpp
 c if (valorPot < 146) {             // 0 - 145
@@ -123,11 +125,11 @@ c if (valorPot < 146) {             // 0 - 145
   }
 ```
 
-El desafío fué que el poema que funcionaba con potenciomtro era el segundo. El primero y el resto funcionaban con scroll y código solamente, por lo que hubo un error y al momento de acabar el primer poema y tener que girar el potenciometro, este solo mostraba una palabra y volvia a repetirse el poema 1.
-Pensamos que esto ocurria ya que por estar el poema 1 en "loop" este se repetía e interrumpía el segundo poema, por lo que nuestra solución fue subir el poema 1 en setup para que se mostrara solo una vez y luego dejar en loop el poema 2.
-Luego para poder seguir con los siguientes poemas la idea es darle la instrucción a arduino que una vez el potenciómetro llega a 1023 espere unos segundos y comience con los siguientes poemas.
+El desafío fue que el poema que funcionaba con potenciómetro, era el segundo. El primero y el resto funcionaban con scroll y código solamente, por lo que hubo un error y al momento de acabar el primer poema y tener que girar el potenciómetro, este sólo mostraba una palabra y volvia a repetirse el poema 1.
+Pensamos que esto ocurría ya que por estar el poema 1 en "loop" este se repetía e interrumpía el segundo poema, por lo que nuestra solución fue subir el poema 1 en setup para que se mostrara sólo una vez y luego dejar en loop el poema 2.
+Luego para poder seguir con los siguientes poemas la idea es darle la instrucción a arduino, que una vez el potenciómetro llega a 1023 espere unos segundos y comience con los siguientes poemas.
 
-Código con el error:
+**Código con el error:**
 
 ```cpp
 #include <Wire.h>
@@ -529,7 +531,7 @@ void loop() {
 };
 ```
 
-Otro problema fué que poner tiempo al final del poema2 no era suficiente para acabar con el loop, por lo que al intentarlo el poema 2 se repetía infinitamente. Para agregarle el tiempo se le cambió así el código al verso 6 del poema 2:
+Otro problema fué que poner tiempo al final del poema 2 no era suficiente para acabar con el loop, por lo que al intentarlo el poema 2 se repetía infinitamente. Para agregarle el tiempo se le cambió así el código al verso 6 del poema 2:
 
 ```cpp
 else if (valorPot < 876) {        // 730 - 875
@@ -543,9 +545,9 @@ else if (valorPot < 876) {        // 730 - 875
       // limpiar y avanzar al siguiente poema
 ```
 
-Para arreglarlo se usó una variable booleana de true or false, llamando al poema2 terminado, Por lo que se usa la variable if nuevamente al principio del código en loop (antes del poema2) usando: if (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demás.
+Para arreglarlo se usó una variable booleana de *true* or *false*, llamando al poema 2 terminado, Por lo que se usa la variable *if* nuevamente al principio del código en loop (antes del poema 2) usando: *if* (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado, que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demás.
 
-Quería que el loop de poemas parara despues del último y no sabía como, busqué en internet y ocupé finalmente exit(0) parar parar el loop.
+Quería que el loop de poemas para después del último y no sabía como, busqué en internet y ocupé finalmente exit(0) parar parar el loop.
 
 Otro problema fue que olvidé poner pantallita.display(); luego de los títulos, así que no los mostraba, si no que se saltaba directo a los versos del poema.
 *Videos de esos errores enviados por wetransfer.*
