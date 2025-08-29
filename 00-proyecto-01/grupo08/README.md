@@ -63,8 +63,12 @@ La interacción entonces es girar el potenciómetro y como respuesta ofrece vers
 **Código carrusel de imágenes:**
 
 ## Bocetos de planificación
-
 Fotografías y dibujos de maquetas y pruebas
+
+![MapaMental](./imagenes/MapaMental.jpeg)
+Mapita mental para organizar la idea de la propuesta.
+
+![conexion](./imagenes/ConexiónEnClase.jpeg)
 
 ## Problemas, desafíos y errores
 
@@ -522,11 +526,21 @@ Para arreglarlo se usó una variable booleana de true or false, llamando al poem
 Quería que el loop de poemas parara despues del último y no sabía como, busqué en inetrnet y ocupé finalmente exit(0) parar parar el loop.
 
 Otro problema fue que olvidé poner pantallita.display(); luego de los títulos, así que no los mostraba, si no que se saltaba directo a los versos del poema.
+*Videos de esos errores enviados por wetransfer.*
+
+Algunos otros errores que documenté:
+![Comillas](./imagenes/Comillas.png)
+Intenté poner los títulos de cada momento/Etapa entre comillas en la pantallita pero me mandaba error así que no lo hice.
+
+![Falta](./imagenes/Falta;.png)
+![Falta2](./imagenes/Falta.png)
+Seguido olvidaba poner ; al final o los borraba accidentalmente.
+
 
 ## Etapas del código
 Segmenta las secciones de tu código y explícalas
 
-**Código poetario**
+### Código poetario
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -846,7 +860,7 @@ Después de cada poema se pone un delay de 1 segundo para dejar la pantalla en b
 ```
 Al terminar todas las etapas, se sale del loop con exit(0) para que el programa no siga repitiendo los poemas.
 
-**Código carrusel de imágenes**
+### Código carrusel de imágenes
 
 
 ## Roles del equipo
