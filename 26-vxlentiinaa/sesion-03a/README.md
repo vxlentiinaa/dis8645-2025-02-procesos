@@ -188,3 +188,5 @@ a = a ^ b; // a ahora vale (1111 ^ 0101) = 1010 (10, el valor original de b)
 ### XNOR
 
 Es un componente lógico digital que es una puerta XOR pero con la lógica invertida, produce una salida alta (1 lógico) solo cuando ambas entradas son iguales (ambas altas o ambas bajas). Por lo tanto, si las entradas son diferentes (una alta y otra baja), la salida de la puerta XNOR será baja (0 lógico).
+
+![compuertas](./imagenes/tiposCompuertas.jpg)
