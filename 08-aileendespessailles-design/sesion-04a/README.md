@@ -26,7 +26,7 @@ Name - Description
 - que el potenciómetro cambie la dirección en la que va el texto, derecha baja, izquierda sube
 - que un botón cambie la dirección en la que va el texto al hacer click
   
-## Desarrolo del proceso del proyecto
+## Desarrollo del proceso del proyecto
 
 Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidimos hacer una pequeña representación de Santiago.
 
@@ -215,7 +215,7 @@ void loop() {
   }
 }
 ```
-####Segunda parte del codigo proyecto trabajado con Carla. 
+#### Segunda parte del codigo proyecto trabajado con Carla. 
 intento 1: imagen que parpadea y esta al medio 
 <https://wokwi.com/projects/440546331476540417>
 
