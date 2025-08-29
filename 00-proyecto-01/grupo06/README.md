@@ -78,21 +78,39 @@ Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilid
 
 Fotografías y dibujos de maquetas y pruebas
 
-![arduino-conectado-a-pantalla-redonda](./imagenes/arduino-conectado-a-pantalla-redonda.jpeg)
+![boceto-poema-cerezo-bocanada](./imagenes/boceto-poema-cerezo-bocanada.jpeg)
 
-![falla-imagen-de-hoja](./imagenes/falla-imagen-de-hoja.jpeg)
+![boceto-poema-cosmos](./imagenes/boceto-poema-cosmos.jpeg)
 
-![pantalla-redonda](./imagenes/pantalla-redonda.jpeg)
+![boceto-poema-otono](./imagenes/boceto-poema-otono.jpeg)
+
+![bocetos-poema-2](./imagenes/bocetos-poema-2.jpeg)
+
+![bocetos-poema](./imagenes/bocetos-poema.jpeg)
 
 ![bocetos-poema-anterior](./imagenes/bocetos-poema-anterior.jpeg)
 
 ![bocetos-poema-anterior-2](./imagenes/bocetos-poema-anterior-2.jpeg)
 
-![boceto-poema-otono](./imagenes/boceto-poema-otono.jpeg)
+![falla-imagen-de-hoja](./imagenes/falla-imagen-de-hoja.jpeg)
 
-![boceto-poema-cerezo-bocanada](./imagenes/boceto-poema-cerezo-bocanada.jpeg)
+![arduino-conectado-a-pantalla-redonda](./imagenes/arduino-conectado-a-pantalla-redonda.jpeg)
 
-![boceto-poema-cosmos](./imagenes/boceto-poema-cosmos.jpeg)
+![pantalla-redonda](./imagenes/pantalla-redonda.jpeg)
+
+![pruebapictograma](./imagenes/pruebapictograma.jpeg)
+
+![pruebapotenciometro](./imagenes/pruebapotenciometro.jpeg)
+
+![pruebasimagenes](./imagenes/pruebasimagenes.jpeg)
+
+![pruebaTFT](./imagenes/pruebaTFT.jpeg)
+
+![pantallaTFT](./imagenes/pantallaTFT.jpeg)
+
+### Más procesos de códigos y fotografías en Github de Valentina
+
+[REPOSITORIO DE VALENTINA RUZ](https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa/sesion-04a)
 
 ### Fórmula del espiral
 
@@ -242,7 +260,19 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 
 ### Poema 1
 
+![poema-sofe-1](./imagenes/poema-sofe-1.png)
+
+![poema-sofe-2](./imagenes/poema-sofe-2.png)
+
+![poema-sofe-3](./imagenes/poema-sofe-3.png)
+
 ### Poema 2
+
+![poema 1](./imagenes/proceso-final-1.png)
+
+![poema 2](./imagenes/proceso-final-2.png)
+
+![poema 3](./imagenes/proceso-final-3.png)
 
 ### Poema 3
 
