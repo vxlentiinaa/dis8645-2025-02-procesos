@@ -6,7 +6,7 @@
 
 - Integrantes:
   - Josefa Quape
-  - Milla Millar
+  - Milla Millar / [mmillar95](https://github.com/mmillar95)
   - José Morales / [jotamorales-romulus](https://github.com/jotamorales-romulus)
   - Francisco Stephens
 
@@ -21,6 +21,25 @@ Plantea aquí el problema de diseño que abordaste. Menciona el texto de referen
 ## Bocetos de planificación
 
 Fotografías y dibujos de maquetas y pruebas
+
+- Trabajo en la aplicación Procreate para realizar los 3 dibujos que se utilizarán
+- Luego, con las imágenes generadas se pasaron a image2cpp
+  
+![dibujo procreate a image2cpp](./imagenes/imagenCodigo.png)
+
+- Al no tener la pantalla OLED físicamente, se trabajó con Wokwi
+  
+![trabajo en wokwi](./imagenes/wokwi.png)
+
+- Se realizó un código simple con el potenciómetro para conocer cómo funciona
+- Al mismo tiempo, se trabaja con la pantalla OLED
+  
+![potenciómetro y pantalla OLED](./imagenes/pantallaPotenciometro.png)
+
+- Al mismo tiempo se estaba desarrollando el código traductor binario
+  
+![traductor binario](./imagenes/traductorBinario.png)
+
 
 ## Etapas del código
 
