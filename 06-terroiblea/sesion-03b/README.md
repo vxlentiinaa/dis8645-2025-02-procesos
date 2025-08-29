@@ -35,6 +35,8 @@ Conexiones pantalla al ARDUINO:
 
 A la hora de trabajar debemos preocuparnos de revisar la alimentación que se necesita; con la pantalla y el arduino r4 minima es de 3.3 v.
 
+![conexiones](./imagenes/conexiones.png)
+
 ### información general
  
 i2C: comunicación synchronous, protocolo que permite conectar las cosas entre si, permite conectar dos cosas entre si
@@ -50,6 +52,8 @@ i2C: comunicación synchronous, protocolo que permite conectar las cosas entre s
 - I2C es la resolución que estamos usando
 - 0x3C: default value
 - I2c: hay que corrobar la dirección
+
+![librerias](./imagenes/librerias.png)
 
 ## Códigos visto en clase
 
@@ -1232,3 +1236,7 @@ void loop() {
 
 }
 ```
+
+![usopp](./imagenes/usopp.png)
+
+![jimbe](./imagenes/jimbe.png)
