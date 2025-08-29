@@ -260,6 +260,9 @@ Subir fotos y videos
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
 ### Poema 1
+![poema-sofe-1](./imagenes/poema-sofe-1.jpg)
+![poema-sofe-2](./imagenes/poema-sofe-2.jpg)
+![poema-sofe-3](./imagenes/poema-sofe-3.jpg)
 
 ### Poema 2
 
