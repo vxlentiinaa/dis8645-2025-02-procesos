@@ -22,31 +22,31 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
 ```txt
-*"En Santiago de Chile*
+"En Santiago de Chile
 
-*Los*
+Los
 
-*días*
+días
 
-*son*
+son
 
-*interminablemente*
+interminablemente
 
-*largos:*
+largos:
 
-*Varias eternidades en un día.*
+Varias eternidades en un día.
 
-*Nos desplazamos a lomo de luma*
+Nos desplazamos a lomo de luma
 
-*Como los vendedores de cochayuyo:*
+Como los vendedores de cochayuyo:
 
-*Se bosteza. Se vuelve a bostezar.*
+Se bosteza. Se vuelve a bostezar.
 
-*Sin embargo las semanas son cortas*
+Sin embargo las semanas son cortas
 
-*Los meses pasan a toda carrera*
+Los meses pasan a toda carrera
 
-*Ylosañosparecequevolaran."*
+Ylosañosparecequevolaran."
 ```
 
 ## Inputs y outputs
