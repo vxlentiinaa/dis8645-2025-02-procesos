@@ -24,7 +24,9 @@ El usuario podrá navegar entre cada refrán y su respectiva animación en un or
 
 ## Bocetos de planificación
 
-Fotografías y dibujos de maquetas y pruebas
+* BORRAR AL ÚLTIMO LA INDICACIÓN * Fotografías y dibujos de maquetas y pruebas
+
+![DiagramaSantiago](./imagenes/DiagramaSantiago.png) 
 
 ## Etapas del código
 
