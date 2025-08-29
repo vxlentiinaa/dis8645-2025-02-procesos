@@ -8,7 +8,7 @@ tener 2 pantallas.
 
 #### pantalla-01
 
-texto. scroll automático. Akgunas palabras se ven destacadas en amarillo.
+texto. scroll automático. Algunas palabras se ven destacadas en amarillo.
 
 #### pantalla-02
 
