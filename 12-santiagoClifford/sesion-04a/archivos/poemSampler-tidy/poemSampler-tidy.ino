@@ -1,3 +1,13 @@
+/*
+este código es la versión 6 de poemSampler.
+El proyecto pasó por varias etapas, en las cuales el proyecto fue iterando y
+evolucionando según distintas circunstancias y limtaciones.
+El codigo tiene una estrucutra que se basa en la cantidad de veces que se ha presionado el botón. 
+Con el botón se cambia entre los modos modoPoeta() y modoHd()
+Paralelamente, el potenciómetro está seteado de manera en que tiene 5 estados.
+ 
+*/
+
 //librerías
 //<https://github.com/adafruit/Adafruit-GFX-Library>
 #include <Adafruit_GFX.h>
