@@ -28,7 +28,7 @@ El output es observado en la pantalla OLED, donde el usuario leerá la conversac
 
 ![primerPensamiento](imagenes/primerPensamiento.jpeg)
 
-
+![estructuraFinal](imagenes/estructuraFinal.jpeg)
 
 ## Etapas del código
 
