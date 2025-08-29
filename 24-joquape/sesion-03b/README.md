@@ -12,3 +12,5 @@ protocolo i2c : simplifica las formas conectar entre si
 
 <https://wokwi.com/> = simulador oline para provar codigo en arduino
 Adafruit = inventora de bibloteca que utilizaremos para trabajar en encargo 
+**encargo**
+juntarse por discor para avanzar con el trajabo , se hizo una lluvia de idea de decidio por un haiku y diferentes maneras en las que podriamos confujurar el codigo ya sea con codigo binario , imagenes , y texto apareciendp en la pantalla . El haiku se desarrollo de forma original relacionandolo con los temas de la clase 
