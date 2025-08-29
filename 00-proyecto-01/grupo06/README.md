@@ -78,12 +78,31 @@ Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilid
 
 Fotografías y dibujos de maquetas y pruebas
 
+![boceto-poema-cerezo-bocanada](./imagenes/boceto-poema-cerezo-bocanada.jpeg)
+
+![boceto-poema-cosmos](./imagenes/boceto-poema-cosmos.jpeg)
+
+![boceto-poema-otono](./imagenes/boceto-poema-otono.jpeg)
+
+![bocetos-poema-2](./imagenes/bocetos-poema-2.jpeg)
+
+![bocetos-poema](./imagenes/bocetos-poema.jpeg)
+
 ![arduino-conectado-a-pantalla-redonda](./imagenes/arduino-conectado-a-pantalla-redonda.jpeg)
 
 ![falla-imagen-de-hoja](./imagenes/falla-imagen-de-hoja.jpeg)
 
 ![pantalla-redonda](./imagenes/pantalla-redonda.jpeg)
 
+![pruebapictograma](./imagenes/pruebapictograma)
+
+![pruebapotenciometro](./imagenes/pruebapotenciometro.jpeg)
+
+![pruebasimagenes](./imagenes/pruebasimagenes.jpeg)
+
+![pruebaTFT](./imagenes/pruebaTFT.jpeg)
+
+![pantallaTFT](./imagenes/pantallaTFT.jpeg)
 
 ### Fórmula del espiral
 
