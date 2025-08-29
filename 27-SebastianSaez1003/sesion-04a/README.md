@@ -573,5 +573,190 @@ if(respCon2 && !poteValor && !respCon4 && !respCon5){
 
 ```
 
+Ahora por fin, llegue a un código, que aunque relativamente simple, lograba llegar a los parámetros que nos imaginamos, después de muchas neuronas cansadas, que sería el siguiente:
+
+```cpp
+// librerias para funcionamiento de pantallita
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// denifir el ancho de la pantalla
+#define SCREEN_WIDTH 128
+// definir el alto d ela pantalla
+#define SCREEN_HEIGHT 64
+// que se resetee REVISAR REVISAR REVISAR REVISAR REVISAR
+#define OLED_RESET -1
+Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+// potenciometro a la derecha es true
+// potenciometro a la izquierda es false
+// a la derecha, mayor el número
+// a la izquierda, menor el número
+// donde false es 512 o menos y true es 513 o más
+bool poteValor = true;
+
+// hasta que no se cumpla la primera
+// y el valor que queremos que se cumpla
+// no se activarían sus valores inscritos
+//para que las respuestas sean almacenadas y no causen problemas retroactivamente en conversas despues
+bool respCon2 = false;
+
+bool respCon3 = false;
+
+bool respCon4 = false;
+
+bool respCon5 = false;
+
+bool respCon6 = false;
+
+bool respCon7 = false;
+
+bool eleccion1 = false;
+
+bool comenzarConversa = false;
+
+// si se quieren crear mas conversaciones no van aqui, sino que por strings en void loop()
+
+
+void setup() {
+  // para que sea posible la comunicación
+  // entre arduino y potenciometro
+ Serial.begin(9600);
+
+// mensaje de error en caso de que la pantalla no estuviese conectada correctamente
+ if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("No se encontró la pantalla SSD1306"));
+    // que se repitiera indefinidamente
+    for(;;);
+  }
+}
+
+void loop() {
+      // que se borre cualquier cosa que quede en el display
+      pantallita.clearDisplay();
+      // que las letras esten en el color "blaco" del OLEd, que en nuestro caso seria azul/amarillo
+      pantallita.setTextColor(SSD1306_WHITE);
+      // para poder setear las coordenadas de donde sale el texto
+      pantallita.setCursor(0, 0);
+      //tamano del texto
+      pantallita.setTextSize(1); 
+
+    // el angulo del potenciometro sera leido
+    //en el pin A0 del Analog In
+    int anguloDelPote = analogRead(A0);
+
+    // cuando el valor del potenciometro esta a la izquierda, poteValor sera true
+    if (anguloDelPote < 512){
+      poteValor = true;
+    }
+    // cuando el valor del potenciometro esta a la derecha, poteValor sera false
+      else {
+      poteValor = false;
+    }
+
+// conversacion que envia el arduino al usuario
+// aqui estaran todas los poemas y conversaciones que el arduino tendra
+// con el usuario, debido  que son mas largas que 1 caracter
+// estas deben estar delcaradas como String
+// conde el texto entre comillas "" es lo que sera mostrado en el display
+String conversa1 = "waos1";
+String conversa2 = "waos2";
+String conversa3 = "waos3";
+String conversa4 = "waos4";
+String conversa5 = "waos5";
+String conversa6 = "waos6";
+String conversa7 = "waos7";
+  
+
+delay (5000);
+  // cambio la variable comenzarConversa apenas el arduino tiene el codigo
+  // para realizar el encadenamiento de statements despues
+  comenzarConversa = true;
+
+    // cuando comenzarConversa es verdadero
+    if (comenzarConversa){
+        // se obtendra el dato la string de nombre conversa1
+        pantallita.print(conversa1);
+        // esto permite que aparezca la conversa1 en el display OLED
+        pantallita.display();
+      // esperamos un acantidad de tiempo para que se pueda leer el mensaje de conversa1
+      delay(1000);
+      // pasara a la eleccion1 donde el valor del potenciometro sera relevante
+      eleccion1 = true;
+      // para que no siga el display constantemente apareciendo, la variable sera falsa
+      comenzarConversa = false;
+      // el setear las respuestas a falso, permitira que una vez terminen todos los if statements
+      // este pueda hacer otro ciclo
+      respCon2 = false;
+      respCon3 = false;
+      // esto borrara l display de conversa1, para que no aparezca en siguientes conversaciones
+      pantallita.clearDisplay();
+    }
+
+
+  // cuando la eleccion1 es verdadera
+  // y el potenciometro está apuntando a la izq
+  // y ninguna de las dos respuestas de la eleccion es verdadera
+  // esto se hace para que una vez se obtenga una respuesta, esa misma 
+  // respuesta bloquee el que se vuelva a cumplir este if statement
+  if(eleccion1 && !poteValor && !respCon2 && !respCon3){
+        // para que no quede en el aire el texto
+        // con la posicion proporcional al texto de la conversa1
+        // esto se tendra que repetir en cada una de las strings
+        pantallita.setCursor(0, 0);
+        // se despliega el texto de la conversa2
+        pantallita.print(conversa2);
+        // esto tambien hay que volver a hacerlo, ya que borramos
+        // el display de la conversa anterior
+        pantallita.display();
+        // esperamos 3 segundos para la siguiente conversa
+        delay(3000);
+        // la respuesta sera almacenada, donde esta repsuesta
+        // elige el camino que se tomara a continuacion
+        respCon2 = true;
+  }
+
+    // esto es lo mismo que el if statement anterior
+    // pero si es que el potenciometro estara en la direccion opuesta
+    if(eleccion1 && poteValor && !respCon2 && !respCon3){
+          pantallita.setCursor(0, 0);
+          // se despliega el texto de la conversa2
+          pantallita.println(conversa3);
+          pantallita.display();
+          // esperamos 3 segundos para la siguiente conversa
+          delay(3000);
+          // la respuesta sera almacenada para que no se puedan causar problemas
+          respCon3 = true;
+    }
+
+          if(respCon2 && !poteValor && !respCon4 && !respCon5){
+              pantallita.setCursor(0, 0);
+          // se despliega el texto de la conversa2
+          pantallita.println(conversa4);
+          pantallita.display();
+          // esperamos 5 segundos para la siguiente conversa
+          delay(3000);
+          // la respuesta sera almacenada para que no se puedan causar problemas
+          respCon4 = true;
+             }
+
+          if(respCon3 && !poteValor && !respCon4 && !respCon5){
+              pantallita.setCursor(0, 0);
+          // se despliega el texto de la conversa2
+          pantallita.println(conversa5);
+          pantallita.display();
+          // esperamos 3 segundos para la siguiente conversa
+          delay(3000);
+          // la respuesta sera almacenada para que no se puedan causar problemas
+          respCon5 = true;
+             }
+
+}
+
+
+```
+
+
 
 
