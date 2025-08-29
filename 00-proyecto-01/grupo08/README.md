@@ -62,15 +62,32 @@ Pantalla OLED: Muestra el texto dividido en frases del poema. Según el rango de
 La interacción entonces es girar el potenciómetro y como respuesta ofrece versos en la pantalla, uno por uno, como un carrusel de texto.
 
 **Código carrusel de imágenes:**
+*Inputs:*
+
+Potenciómetro: mientras se gira, van pasando las imágenes de acuerdo al poema, también cuentan una historia en función del los versos de cada uno.
+
+*Outputs:*
+Pantalla OLED que visualiza estas imágenes.
 
 ## Bocetos de planificación
 
-Fotografías y dibujos de maquetas y pruebas
+## Poemas en la pantalla
 
-Videos de pruebas enviados.
+## Imágenes de la pantalla
 
-![Conexion](./imagenes/ConexionEnClase.jpeg)
+**Ojos**
+![imagen1](./imagenes/imagen1.png)
 
+**Flor de cerezo**
+![imagen2](./imagenes/imagen2.png)
+
+**Árbol sin hojas**
+![imagen3](./imagenes/imagen3.png)
+
+**Pareja mirando el atardecer**
+![imagen4](./imagenes/imagen4.png)
+
+**Mapita mental para organizar la idea de la propuesta**
 ![MapaMental](./imagenes/MapaMental.jpeg)
 
 ## Problemas, desafíos y errores
@@ -106,7 +123,9 @@ c if (valorPot < 146) {             // 0 - 145
   }
 ```
 
-El desafío fue que el poema que funcionaba con el potenciómetro era el segundo. El primero y el resto funcionaban con scroll y código solamente, por lo que hubo un error: al acabar el primer poema y tener que girar el potenciómetro, este solo mostraba una palabra y volvía a repetirse el poema 1. Pensamos que esto ocurría porque, al estar el poema 1 en "loop", se repetía e interrumpía el segundo poema. Nuestra solución fue mostrar el poema 1 en setup para que se ejecutara solo una vez y luego dejar en loop el poema 2. Después, para poder seguir con los siguientes poemas, la idea es darle la instrucción a Arduino de que, una vez que el potenciómetro llega a 1023, espere unos segundos y comience con los poemas siguientes.
+El desafío fue que el poema que funcionaba con potenciómetro, era el segundo. El primero y el resto funcionaban con scroll y código solamente, por lo que hubo un error y al momento de acabar el primer poema y tener que girar el potenciómetro, este sólo mostraba una palabra y volvia a repetirse el poema 1.
+Pensamos que esto ocurría ya que por estar el poema 1 en "loop" este se repetía e interrumpía el segundo poema, por lo que nuestra solución fue subir el poema 1 en setup para que se mostrara sólo una vez y luego dejar en loop el poema 2.
+Luego para poder seguir con los siguientes poemas la idea es darle la instrucción a arduino, que una vez el potenciómetro llega a 1023 espere unos segundos y comience con los siguientes poemas.
 
 **Código con el error:**
 
@@ -309,7 +328,7 @@ void loop() {
 };
 ```
 
-Código solucionado subiendo el primer poema a setup.
+Código solucionado subiendo el primer poema a setup
 
 ```cpp
 #include <Wire.h>
@@ -524,20 +543,20 @@ else if (valorPot < 876) {        // 730 - 875
       // limpiar y avanzar al siguiente poema
 ```
 
-Para arreglarlo, se utilizó una variable booleana (true o false) llamada poema2Terminado. Al inicio del loop, se hace la verificación con: if (!poema2Terminado), lo que indica que si el poema 2 no ha terminado, se ejecuta el poema 2. Una vez que finaliza, se asigna poema2Terminado = true; para que el código continúe con los demás poemas.
+Para arreglarlo se usó una variable booleana de *true* or *false*, llamando al poema 2 terminado, Por lo que se usa la variable *if* nuevamente al principio del código en loop (antes del poema 2) usando: *if* (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado, que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demás.
 
-Quería que el loop de poemas se detuviera después del último, pero no sabía cómo. Busqué en internet y finalmente usé exit(0) para parar el loop.
+Quería que el loop de poemas para después del último y no sabía como, busqué en internet y ocupé finalmente exit(0) parar parar el loop.
 
-Otro problema fue que olvidé colocar pantallita.display(); después de los títulos, por lo que no se mostraban y el programa saltaba directamente a los versos del poema.
+Otro problema fue que olvidé poner pantallita.display(); luego de los títulos, así que no los mostraba, si no que se saltaba directo a los versos del poema.
 *Videos de esos errores enviados por wetransfer.*
 
 Algunos otros errores que documenté:
 ![Comillas](./imagenes/Comillas.png)
-Intenté poner los títulos de cada momento/etapa entre comillas en la pantallita pero me mandaba error así que no lo hice.
+Intenté poner los títulos de cada momento/Etapa entre comillas en la pantallita pero me mandaba error así que no lo hice.
 
 ![Falta](./imagenes/Falta;.png)
 ![Falta2](./imagenes/Falta.png)
-Seguido olvidaba poner ";"  al final o los borraba accidentalmente.
+Seguido olvidaba poner ; al final o los borraba accidentalmente.
 
 #### CÓDIGO CARRUSEL DE IMÁGENES
 
@@ -637,7 +656,7 @@ Además se agregaron nuevas imágenes siguiendo la misma lógica, pero la pantal
 
 Y no pude encontrar el error.
 
-### CÓDIGO CARRUSEL DE IMÁGENES siguiente
+### nuevo CÓDIGO CARRUSEL DE IMÁGENES
 
 *Videos de esos errores enviados por wetransfer.*
 
@@ -650,8 +669,6 @@ Intenté poner los títulos de cada momento/Etapa entre comillas en la pantallit
 Seguido olvidaba poner ; al final o los borraba accidentalmente.
 
 ## Etapas del código
-
-Segmenta las secciones de tu código y explícalas
 
 ### Código poetario
 
@@ -1484,12 +1501,7 @@ void loop() {
 
 ### Vania
 
--Programación de los poemas
-Me encargué de escribir el código que muestra los versos en la pantalla, asegurando que cada poema apareciera correctamente y en el orden planeado.
--Integración del potenciómetro
-Programé el control del segundo poema para que el potenciómetro permitiera recorrer los distintos versos según su posición.
--Documentación y explicación del proyecto
-Participé en la redacción de la documentación del proyecto, explicando cómo funciona el código y cómo interactúan los poemas con el potenciómetro y las imágenes.
+- Código Poetario.
 
 ### Valentina
 
@@ -1503,13 +1515,12 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 
 ## Bibliografía
 
-Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+**Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.**
 
-Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
-Javl. (s. f.). Herramienta para convertir imágenes a código. <https://javl.github.io/image2cpp/>
-Pereira, E. (2020, 20 de marzo). Cómo PROGRAMAR arduino UNO desde CERO. YouTube. <https://www.youtube.com/watch?v=EEKMPT_YcTI>
+- Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
+- Javl. (s. f.). Herramienta para convertir imágenes a código. <https://javl.github.io/image2cpp/>
+- Pereira, E. (2020, 20 de marzo). Cómo PROGRAMAR arduino UNO desde CERO. YouTube. <https://www.youtube.com/watch?v=EEKMPT_YcTI>
 **Tutorial sobre básicos de Arduino para practicar**
-
 - ElectroTV. (2021, 15 de mayo). ¿Qué es el FOR en Arduino?. YouTube. <https://www.youtube.com/watch?v=e8CEpAQ4otU&t=332s>
 **Tutorial para entender y practicar el uso de for**
 - Maker Channel. (2019, 8 de octubre). Control de Potenciómetro con analogRead - Curso Básico de Arduino UNO. YouTube. <https://www.youtube.com/watch?v=UUncn39odKM> **Tutorial de ayuda para usar el potenciómetro**
