@@ -539,7 +539,8 @@ Segmenta las secciones de tu código y explícalas
 Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 ```
 Aquí importamos las librerías necesarias para controlar la pantalla OLED. Después definimos el tamaño de la pantalla y creamos a pantallita que manejará todo lo que se muestra.
-´´´cpp
+
+```cpp
  //Potenciómetro
  int valorPot = 0; // valor leído desde el potenciómetro se comienza con 0
 
@@ -557,6 +558,7 @@ Aquí importamos las librerías necesarias para controlar la pantalla OLED. Desp
 Definimos las variables que usarán los poemas y el potenciómetro. ValorPot lee la posición (0 a 1023) del potenciómetro
 verso0 a verso6 contienen las líneas del segundo poema, “El Amor”.
 booleana de "poema2Terminado" nos sirve para saber cuándo pasar al siguiente poema luego de usar el potenciómetro.
+
 ```cpp
   // Iniciar la pantalla OLED
 void setup() {
