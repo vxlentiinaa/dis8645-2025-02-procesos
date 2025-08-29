@@ -52,7 +52,7 @@ Aya Shōbu [1924-2005]
   
   un espejo en la mano.
   
-  Tōshi Akao [1925-1981]
+Tōshi Akao [1925-1981]
 
 ## Inputs y outputs
 
@@ -217,7 +217,7 @@ Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas,
 * Wokwi.(s.f.). Wokwi OLED Animation Maker for Arduino. <https://animator.wokwi.com/>
 ### Repositorios
 * Adafruit Industries. (s.f.). Adafruit. GitHub. <https://github.com/adafruit>
-* sofiacartes.(s.f.). 05-sofiacartes [Carpeta dentro del repositorio dis8645-2025-02-proceso]. GitHub. <https://github.com/dis8645-2025-02-procesos/tree/main/05-sofiacartes>
+* sofiacartes.(s.f.). 05-sofiacartes [Carpeta dentro del repositorio dis8645-2025-02-proceso]. GitHub. <https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/05-sofiacartes>
 * AntFuentealba.(s.f.). 11-AntFuentealba [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub <https://github.com/dis8645-2025-02-procesos/tree/main/11-AntFuentealba>
 * sofiaperezm.(s.f.). 22-sofia-perezm [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub. <https://github.com/dis8645-2025-02-procesos/tree/main/22-sofia-perezm>
-* vxlentiinaa. (s.f.). 26-vxlentiinaa [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub. <https://github.com/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa>
+* vxlentiinaa. (s.f.). 26-vxlentiinaa [Carpeta dentro del repositorio dis8645‑2025‑02‑procesos]. GitHub. <https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa>
