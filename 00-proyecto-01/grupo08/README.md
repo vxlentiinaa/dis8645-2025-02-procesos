@@ -44,7 +44,6 @@ En cambio, los otros poemas se controlan directamente desde el código. Se usaro
 Al mismo tiempo, en la segunda pantalla se van mostrando imágenes en forma de carrusel, también controladas con el potenciómetro. Estas imágenes funcionan como un apoyo visual a los poemas, reforzando el ambiente de cada etapa.
 
 ## Inputs y outputs
-
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
 **Código poetario:**
@@ -1034,11 +1033,6 @@ void loop() {
 ## Bocetos de planificación
 Fotografías y dibujos de maquetas y pruebas
 
-#### Imágenes de la pantalla
-
-#### Poemas en la pantalla
-
-
 ![MapaMental](./imagenes/MapaMental.jpeg)
 Mapita mental para organizar la idea de la propuesta.
 
@@ -1279,7 +1273,7 @@ void loop() {
 };
 ```
 
-**Código solucionado subiendo el primer poema a setup
+**Código solucionado subiendo el primer poema a setup**
 
 ```cpp
 #include <Wire.h>
@@ -1480,7 +1474,7 @@ void loop() {
 };
 ```
 
-Otro problema fué que poner tiempo al final del poema2 no era suficiente para acabar con el loop, por lo que al intentarlo el poema 2 se repetia infinitamente. Para agegarle el tiempo se le cambió así el código al verso 6 del poema 2:
+Otro problema fué que poner tiempo al final del poema2 no era suficiente para acabar con el loop, por lo que al intentarlo el poema 2 se repetía infinitamente. Para agregarle el tiempo se le cambió así el código al verso 6 del poema 2:
 
 ```cpp
 else if (valorPot < 876) {        // 730 - 875
@@ -1494,111 +1488,11 @@ else if (valorPot < 876) {        // 730 - 875
       // limpiar y avanzar al siguiente poema
 ```
 
-Para arreglarlo se usó una variable booleana de true or false, llamando al poema2 terminado, Por lo que se usa la variable if nuevamente al principio del código en loop (antes del poema2) usando: if (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demas.
+Para arreglarlo se usó una variable booleana de true or false, llamando al poema2 terminado, Por lo que se usa la variable if nuevamente al principio del código en loop (antes del poema2) usando: if (!poema2Terminado), esto haciendo un llamado de que si el poema 2 NO ha terminado que ocurra el poema 2, si este ha terminado "poema2Terminado = true;" que pase lo demás.
 
-Quería que el loop de poemas parara despues del último y no sabía como, busqué en inetrnet y ocupé finalmente exit(0) parar parar el loop.
+Quería que el loop de poemas parara despues del último y no sabía como, busqué en internet y ocupé finalmente exit(0) parar parar el loop.
 
 Otro problema fue que olvidé poner pantallita.display(); luego de los títulos, así que no los mostraba, si no que se saltaba directo a los versos del poema.
-
-#### CÓDIGO CARRUSEL DE IMÁGENES
-Al cargar los bitmap de cada imagen y querer que se vieran en la pantalla, había puesto mal los nombres de las variables tales como:
-```cpp
-if (valorPot < 146) {               // 0 - 145
-    const unsigned char(ojos);
-  } 
-  else if (valorPot < 292) {        // 146 - 291
-    const unsigned char(florDeCerezo);
-  } 
-  else if (valorPot < 438) {        // 292 - 437
-    const unsigned char(corazonRoto);
-  } 
-  else if (valorPot < 584) {        // 438 - 583
-    const unsigned char(arbolSinHojas);     
-  } 
-	else if (valorPot < 584) {        // 584 - 729
-		const unsigned char(reloj);
-	}
-	else if (valorPot < 730) {        // 730 - 875
-		const unsigned char(atardecer);
-	}
-
-```
-
-Y la imagen jamás se iba a imprimir en la pantalla, porque la variable estaba incorrecta, es por eso que se usó **showBitmap(img)**
-
-```cpp
-
-if (valorPot < 146) {               // 0 - 145
-    showBitmap(ojos);
-  } 
-  else if (valorPot < 292) {        // 146 - 291
-    showBitmap(florDeCerezo);
-  } 
-  else if (valorPot < 438) {        // 292 - 437
-    showBitmap(corazonRoto);
-  } 
-  else if (valorPot < 584) {        // 438 - 583
-    showBitmap(arbolSinHojas);     
-  } 
-	else if (valorPot < 584) {        // 584 - 729
-		showBitmap(reloj);
-	}
-	else if (valorPot < 730) {        // 730 - 875
-		showBitmap(atardecer);
-	}
-```
-Con este arreglo si iba a funcionar y si se iba a visualizar en la pantalla.
-
-
-#### CÓDIGO CARRUSEL DE IMÁGENES
-Al cargar los bitmap de cada imagen y querer que se vieran en la pantalla, había puesto mal los nombres de las variables tales como:
-```cpp
-if (valorPot < 146) {               // 0 - 145
-    const unsigned char(ojos);
-  } 
-  else if (valorPot < 292) {        // 146 - 291
-    const unsigned char(florDeCerezo);
-  } 
-  else if (valorPot < 438) {        // 292 - 437
-    const unsigned char(corazonRoto);
-  } 
-  else if (valorPot < 584) {        // 438 - 583
-    const unsigned char(arbolSinHojas);     
-  } 
-	else if (valorPot < 584) {        // 584 - 729
-		const unsigned char(reloj);
-	}
-	else if (valorPot < 730) {        // 730 - 875
-		const unsigned char(atardecer);
-	}
-
-```
-
-Y la imagen jamás se iba a imprimir en la pantalla, porque la variable estaba incorrecta, es por eso que se usó **showBitmap(img)**
-
-```cpp
-
-if (valorPot < 146) {               // 0 - 145
-    showBitmap(ojos);
-  } 
-  else if (valorPot < 292) {        // 146 - 291
-    showBitmap(florDeCerezo);
-  } 
-  else if (valorPot < 438) {        // 292 - 437
-    showBitmap(corazonRoto);
-  } 
-  else if (valorPot < 584) {        // 438 - 583
-    showBitmap(arbolSinHojas);     
-  } 
-	else if (valorPot < 584) {        // 584 - 729
-		showBitmap(reloj);
-	}
-	else if (valorPot < 730) {        // 730 - 875
-		showBitmap(atardecer);
-	}
-```
-Con este arreglo si iba a funcionar y si se iba a visualizar en la pantalla.
-
 *Videos de esos errores enviados por wetransfer.*
 
 Algunos otros errores que documenté:
@@ -1608,6 +1502,105 @@ Intenté poner los títulos de cada momento/Etapa entre comillas en la pantallit
 ![Falta](./imagenes/Falta;.png)
 ![Falta2](./imagenes/Falta.png)
 Seguido olvidaba poner ; al final o los borraba accidentalmente.
+
+#### CÓDIGO CARRUSEL DE IMÁGENES
+Al cargar los bitmap de cada imagen y querer que se vieran en la pantalla, había puesto mal los nombres de las variables tales como:
+```cpp
+if (valorPot < 146) {               // 0 - 145
+    const unsigned char(ojos);
+  } 
+  else if (valorPot < 292) {        // 146 - 291
+    const unsigned char(florDeCerezo);
+  } 
+  else if (valorPot < 438) {        // 292 - 437
+    const unsigned char(corazonRoto);
+  } 
+  else if (valorPot < 584) {        // 438 - 583
+    const unsigned char(arbolSinHojas);     
+  } 
+	else if (valorPot < 584) {        // 584 - 729
+		const unsigned char(reloj);
+	}
+	else if (valorPot < 730) {        // 730 - 875
+		const unsigned char(atardecer);
+	}
+
+```
+
+Y la imagen jamás se iba a imprimir en la pantalla, porque la variable estaba incorrecta, es por eso que se usó **showBitmap(img)**
+
+```cpp
+
+if (valorPot < 146) {               // 0 - 145
+    showBitmap(ojos);
+  } 
+  else if (valorPot < 292) {        // 146 - 291
+    showBitmap(florDeCerezo);
+  } 
+  else if (valorPot < 438) {        // 292 - 437
+    showBitmap(corazonRoto);
+  } 
+  else if (valorPot < 584) {        // 438 - 583
+    showBitmap(arbolSinHojas);     
+  } 
+	else if (valorPot < 584) {        // 584 - 729
+		showBitmap(reloj);
+	}
+	else if (valorPot < 730) {        // 730 - 875
+		showBitmap(atardecer);
+	}
+```
+Con este arreglo si iba a funcionar y si se iba a visualizar en la pantalla.
+
+
+#### CÓDIGO CARRUSEL DE IMÁGENES
+Al cargar los bitmap de cada imagen y querer que se vieran en la pantalla, había puesto mal los nombres de las variables tales como:
+```cpp
+if (valorPot < 146) {               // 0 - 145
+    const unsigned char(ojos);
+  } 
+  else if (valorPot < 292) {        // 146 - 291
+    const unsigned char(florDeCerezo);
+  } 
+  else if (valorPot < 438) {        // 292 - 437
+    const unsigned char(corazonRoto);
+  } 
+  else if (valorPot < 584) {        // 438 - 583
+    const unsigned char(arbolSinHojas);     
+  } 
+	else if (valorPot < 584) {        // 584 - 729
+		const unsigned char(reloj);
+	}
+	else if (valorPot < 730) {        // 730 - 875
+		const unsigned char(atardecer);
+	}
+
+```
+
+Y la imagen jamás se iba a imprimir en la pantalla, porque la variable estaba incorrecta, es por eso que se usó **showBitmap(img)**
+
+```cpp
+
+if (valorPot < 146) {               // 0 - 145
+    showBitmap(ojos);
+  } 
+  else if (valorPot < 292) {        // 146 - 291
+    showBitmap(florDeCerezo);
+  } 
+  else if (valorPot < 438) {        // 292 - 437
+    showBitmap(corazonRoto);
+  } 
+  else if (valorPot < 584) {        // 438 - 583
+    showBitmap(arbolSinHojas);     
+  } 
+	else if (valorPot < 584) {        // 584 - 729
+		showBitmap(reloj);
+	}
+	else if (valorPot < 730) {        // 730 - 875
+		showBitmap(atardecer);
+	}
+```
+Con este arreglo si iba a funcionar y si se iba a visualizar en la pantalla.
 
 
 ## Etapas del código
