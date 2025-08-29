@@ -1042,8 +1042,6 @@ Fotografías y dibujos de maquetas y pruebas
 ![MapaMental](./imagenes/MapaMental.jpeg)
 Mapita mental para organizar la idea de la propuesta.
 
-![conexion](./imagenes/ConexiónEnClase.jpeg)
-
 ## Problemas, desafíos y errores
 
 #### CÓDIGO POETARIO
