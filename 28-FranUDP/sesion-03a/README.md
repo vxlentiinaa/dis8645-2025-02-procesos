@@ -5,24 +5,24 @@
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
 ### [Juice (Software)](https://juce.com/#:~:text=JUCE%20is%20the%20most%20widely%20used%20framework%20for,VST%2C%20VST3%2C%20AU%2C%20AUv3%2C%20AAX%20and%20LV2%20plug-ins.)
-Framework open source para el desarrollo de aplicaciones de audio
+Framework open source para el desarrollo de aplicaciones de audio.
 
 ### Proyecto 01
-Tendremos que hacer un proyecto, que hace uso de un display y un potenciómetro, que además deberá tener alguna relación con poemas
+Tendremos que hacer un proyecto que hace uso de un display y un potenciómetro, que además deberá tener alguna relación con poemas.
 
-Hay que documentar procesos. Se entrega la sesión 04b
+Hay que documentar procesos. Se entrega la sesión 04b.
 
 ### [Condicionales](https://www.youtube.com/watch?v=cHrd2lWT2hI) 
 Nos permiten cambiar el comportamiento del código, haciendo que reaccione a situaciones y variables.
 
 ${\color{9E34EB}if}$: <br> <!-- subtitulo -->
-Si X condición es verdadera entonces rorre este código.
+Si la condición X es verdadera, entonces corre este código.
 
 ````cpp
 if (condicion) {comandos;}
 ````
 
-Por ejemplo, si queremos que el arduino encienda un LED si un switch es presionado
+Por ejemplo, si queremos que el Arduino encienda un LED si un switch es presionado:
 
 ````cpp
 if (switchPulsado == true) { // Si el valor de la izquierda coincide con el de la derecha...
@@ -30,17 +30,17 @@ if (switchPulsado == true) { // Si el valor de la izquierda coincide con el de l
 }
 ````
 
-Importante recordar que el operador = asigna un valor, mientras que == compara si el valor de la izquierda coincide con el de la derecha
+Importante recordar que el operador ${\color{yellow}=}$ asigna un valor, mientras que ${\color{yellow}==}$ compara si el valor de la izquierda coincide con el de la derecha.
 
 ${\color{9E34EB}else}$: <br> <!-- subtitulo -->
-En caso que la condición no se cumpla, haz esta otra cosa.
+En caso de que la condición no se cumpla, haz esta otra cosa.
 
 ````cpp
 if (condicion) {comandos;}
 else {comandos;}
 ````
 
-Por ejemplo, en caso que el botón no esté siendo pulsado, exigele al humano que lo pulse.
+Por ejemplo, en caso de que el botón no esté siendo pulsado, exígele al humano que lo pulse.
 
 ````cpp
 if (switchPulsado == true) { // Si el valor de la izquierda coincide con el de la derecha...
@@ -51,12 +51,12 @@ if (switchPulsado == true) { // Si el valor de la izquierda coincide con el de l
 ````
 
 ${\color{9E34EB}else \ if}$: <br> <!-- subtitulo -->
-en caso de que el primer if no se cumpla, se ejecuta otro ${\color{9E34EB}if}$.
+En caso de que el primer ${\color{9E34EB}if}$ no se cumpla, se ejecuta otro ${\color{9E34EB}if}$.
 
-Por ejemplo, si uno abre la llave del agua, sale agua, en caso de que salga agua, dependiendo de si la giramos a la derecha o izquierda saldrá caliente o fria.
+Por ejemplo, si uno abre la llave del agua, sale agua; en caso de que salga agua, dependiendo de si la giramos a la derecha o izquierda, saldrá caliente o fría.
 
 ````cpp
-if (LlaveDeAguaCerrada == true) { // Si la llave esta cerrada....
+if (LlaveDeAguaCerrada == true) { // Si la llave está cerrada...
     noHacerNada(); // ejecuta la funcion "noHacerNada"
 } else if (llaveGiradaDerecha == true) { // si la llave NO esta cerrada, ve si la llave esta girada a la derecha
     aguaCaliente(); // si está girada a la decha, sale agua caliente
@@ -73,7 +73,7 @@ Ej: <br>
 ${\color{yellow}!}$ hay = no hay
 
 ### millis( ):
-Cuenta los milisegundos que pasann desde que el arduino comienza a correr el sketch.
+Cuenta los milisegundos que pasan desde que el Arduino comienza a correr el sketch.
 
 ````cpp
 Serial.println(millis()) // muestra en el monitor serial el tiempo transcurrido
@@ -84,7 +84,7 @@ Serial.println(millis()) // muestra en el monitor serial el tiempo transcurrido
 ${\color{cyan}long}$: <br>
 Similar a ${\color{cyan}int}$, pero almacena un valor de hasta 4 bytes (mucho más grande).
 
-Guarda información en el rango de -2bytes a 2bytes.
+Guarda información en el rango de -2 bytes a 2 bytes.
 
 ${\color{cyan}unigned \ long}$: <br>
 Almacena la misma cantidad de información que ${\color{cyan}long}$, pero guarda información desde el 0, lo que le permite almacenar el doble de información (4 bytes) que ${\color{cyan}long}$.
@@ -94,9 +94,9 @@ Almacena la misma cantidad de información que ${\color{cyan}long}$, pero guarda
 Se utilizan dentro de las declaraciones ${\color{9E34EB}if}$
 
 ${\color{yellow}AND}$: <br> <!-- subtitulo -->
-Si condición1 y condición2 son verdaderas, entonces la declaración ${\color{9E34EB}if}$ se cumple.
+Si la condición1 y la condición2 son verdaderas, entonces la declaración ${\color{9E34EB}if}$ se cumple.
 
-Por ejemplo, si yo enchufo una lámpara ${\color{yellow}Y}$ apreto su botón de encendido, esta se enciende, pero si no hago alguna de estas 2 cosas no se va a encender. 
+Por ejemplo, si yo enchufo una lámpara ${\color{yellow}Y}$ aprieto su botón de encendido, esta se enciende, pero si no hago alguna de estas 2 cosas no se va a encender.
 
 Se utiliza **&&** en el código para usar el operador.
 
