@@ -1,16 +1,16 @@
 #### 5 de agoato de 2025
 
-## CLASE 1
+###CLASE 1
 
 # TALLER DE DISEÑO DE MAQUINAS COMPUTACIONALES
 
-#### Profesores y Ayudantes
+### Profesores y Ayudantes
 - Aarón Montoya.
 - Matías Serrano.
 - Janis.
 - Mateo.
 
-### Siglas
+### Definiciones
 - **HCI:** Interfaz humano-computador.
 - **PCB:** Placa de circuito impreso.
 - **THT:** Tecnología de montaje.
