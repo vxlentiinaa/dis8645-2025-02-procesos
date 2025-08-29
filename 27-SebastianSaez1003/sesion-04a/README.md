@@ -519,3 +519,59 @@ String conversa7 = "waos7";
 ```
 Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que se quieren observar, así que tenemos que hacer una revisión de cuál sería la razón del porque pasa esto, donde solo aparece el mensaje de waos1, waos3 y waos 6.
 
+Este código está increíblemente desordenado, al punto donde ni siquiera entendía que eran las variables que tenia que cambiar, no cambiar, realmente era un desastre, así que para empezar busque en internet a alguien que tenía un problema similar al mio, mi búsqueda específica fue la siguiente: “in if statements is it necessary to put == true for a boolean for c++”, lo cual me llevó a esta respuesta en un foro:
+
+https://stackoverflow.com/a/8844632
+
+donde aprendí que, al menos con las variables booleanas dentro de los if statements, no es necesario el escribir == true, o == false, sino que el mero hecho de mencionar la variable como !waos, donde eso significa waos == false, ahorrando un poco de dolor de cabeza de asegurarme que todo esté perfectamente escrito, y hace un poco más agradable a la vista cada If statement
+
+```cpp
+// de esto, desordenado
+if(poteValor == false && respCon2 == !true && respCon3 == !true){}
+// a esto un poco más ordenado
+if(respCon2 && !poteValor && !respCon4 && !respCon5){}
+
+```
+
+También fueron eliminadas las montoneras de if statements, ya que necesito identificar el problema de funcionamiento de porque salen todos las conversaciones directamente al mandarlo a mi arduino como se pudo observar en la foto de antes
+
+Lo que personalmente más me molestaba era el hecho de que el texto apareciera uno al lado de otro unas veces, otras veces abajo, (aunque si sabia que estas eran causadas por el hecho de haber escrito pantallita.println();) asi que busque, que era lo que me estaba faltando así que me puse a revisar el ejemplo que hicieron los profesores, previamente mencionado, buscando en google cada una de las líneas que no comprendía, para ver si justo era lo que me faltaba, hasta encontrarme con esto:
+
+https://forums.adafruit.com/viewtopic.php?t=107808#top
+
+lo que me faltaba era la función .setCursor, que hará que cada una de las cargas en el display sean a partir de un punto que yo pondré, donde es primero la coordenada de izquierda a derecha, y después desde arriba hacia abajo, así que poniéndola antes de cada texto este se posiciona a la esquina superior izquierda cuando le ponga el valor de (0,0)
+
+```cpp
+
+// donde pantallita es mi display estara arriba a la izquierda
+pantallita.setCursor(0,0)
+
+// donde pantallita  es mi display, este se encontrara en la 
+// mitad horizontal del display de 128 pixeles
+pantallita.setCursor(64,0)
+
+```
+Ahora el siguiente problema era que quedaba cargado la conversación anterior en, el display de la pantalla OLED, con los ejemplos me imaginaba que pantallita.clearDisplay() podía ayudar, pero solo era en parte, debido  que una vez ponia eso, nada más volvió a salir, pero me di cuenta de la existencia de pantallita.display(); en el código de los profes que tenía el siguiente comentario // Actualiza la pantalla
+
+de esta manera intente aplicar que una vez todo lo del momento ha hecho display, le pondré un .clearDisplay, y en el siguiente if statement pondré un pantallita.display(); que funciona justo como yo quería
+
+
+```cpp
+
+if(respCon2 && !poteValor && !respCon4 && !respCon5){
+          pantallita.setCursor(0, 0);
+          pantallita.println(conversa4);
+
+// permite que el mensaje sea observado en la pantalla
+          pantallita.display();
+          delay(3000);
+          respCon4 = true;
+// borra el mensaje, ya que llego al final de su funcionamiento
+          pantallita.clearDisplay();
+
+             }
+
+```
+
+
+
