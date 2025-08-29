@@ -50,3 +50,4 @@ Recuperado en Agosto del 2025 en https://learn.adafruit.com/adafruit-gfx-graphic
 
 + Santos, R. (2018). *Guide for OLED display with Arduino*. Random Nerd Tutorials.
 Recuperado en Agosto del 2025 en https://randomnerdtutorials.com/guide-for-oled-display-with-arduino
+
