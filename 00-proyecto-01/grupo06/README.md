@@ -244,7 +244,7 @@ int valor = analogRead(potPin);
 - Redacción de GitHub.
 - Registro fotográfico del proceso.
   
-### Antonia Fuentealba y Sofía Perez
+### Antonia Fuentealba y Sofía Pérez
 
 - Investigación de poemas y sus tipos.
 - Investigación de imágenes con vectores que calzaran con los poemas.
