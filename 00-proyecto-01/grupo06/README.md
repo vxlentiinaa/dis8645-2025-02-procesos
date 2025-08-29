@@ -78,6 +78,18 @@ Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilid
 
 Fotografías y dibujos de maquetas y pruebas
 
+![arduino-conectado-a-pantalla-redonda](./imagenes/arduino-conectado-a-pantalla-redonda.jpeg)
+
+![espiral-anto](./imagenes/espiral-anto.jpeg)
+
+![falla-imagen-de-hoja](./imagenes/falla-imagen-de-hoja.jpeg)
+
+![hoja](./imagenes/hoja.jpeg)
+
+![pantalla-redonda](./imagenes/pantalla-redonda.jpeg)
+
+![toshi-akao](./imagenes/toshi-akao.jpeg)
+
 ### Fórmula del espiral
 
 La sacamos de una fórmula matemática llamada espiral logarítmica, donde un estudiante de informática nos ayudó a resolverla e implementarla en el código para entenderla mejor.
