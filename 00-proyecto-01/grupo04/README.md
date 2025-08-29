@@ -28,13 +28,74 @@ Fotografías y dibujos de maquetas y pruebas
 
 
 
+
+
+
+
+
+
+
+
+
 ### potenciometro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Scroll 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Binario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
