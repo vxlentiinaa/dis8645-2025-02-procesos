@@ -330,4 +330,71 @@ para devolver un poema. De esta manera se puede interactuar más con el mínimo 
 
 Nuestro proyecto busca satisfacer la necesidad de conexión humana de manera indirecta pero genuina. Por eso el tema principal de los poemas es el amor y los aspectos que lo acompañan. Para poder unirlos todos los poemas serán del mismo autor, ofreciendo tonos de dulzura, amargura y desamor provenientes de la misma persona. Después de esta recopilación será necesario formular las preguntas, definir respuestas de una palabra y seleccionar los versos por usar.
 
+Para hacer display de las respuestas mostraremos una imagen mitad blanco/mitad negro con ambas opciones. Cada opción será de una palabra y serán idealmente opuestas entre si.
 
+
+## 3 PREGUNTAS
+Deben ser sobre el amor (tema principal de los poemas) e ir aumentando gradualmente en intensidad. Idealmente la primera es general o humorística para relajar al usuario, la segunda es más intensa 
+y la tercera indaga sobre temas personales. Lo complicado de las preguntas es que deben generar perfiles distintos usando todas las variables posibles (2x2x2=8 pero usaremos 7) 
+asi que deben estar muy en sintonía con los poemas.
+
+1ra
+- 
+-¿Prefieres tener paz o tener la razón?
+-¿Prefieres pedir perdón o permiso?
+-¿Tangananica o Tanganana?
+
+
+2da
+- 
+-¿Qué te haría sentir completo? propósito/amor
+-¿Te sientes culpable?
+-¿Te has enamorado?
+
+3ra
+- 
+-¿Crees en las almas gemelas?
+-¿Que te llama más la atención de estar en pareja? compañía/seguridad
+-¿Qué te quita el sueño? miedo/incertidumbre
+
+
+## 7 POEMAS
+
+1.La edad del amor/ Pasión 
+-
+Si los leones fueran rojos
+si en mitad del pecho se les viera latiendo un corazón de ágata
+sería un poco lo que entre mis brazos
+nace de tu violenta pesadilla.
+
+2.Cartel/ Tranquilidad solitaria
+- 
+Veo el mundo como un caos y en el centro una rosa
+veo la rosa como el ojo feliz de la hermosura y en su centro el gusano
+veo el gusano como un fragmento de la inmensa vida y en su centro la muerte
+
+3.Happy New Year/ Añoranza y búsqueda de amor
+- 
+Mira, no pido mucho, solamente tu mano, 
+tenerla como un sapito que duerme así contento. 
+Necesito esa puerta que me dabas para entrar a tu mundo, e
+se trocito de azúcar verde, de redondo alegre.
+
+4.Después de las fiestas/ Certeza
+- 
+eras la que no se iba porque una misma almohada 
+y una misma tibieza iba a llamarnos otra vez a despertar al nuevo día,
+ juntos, riendo, despeinados.
+
+5.La lenta máquina del desamor/ Desamor
+- 
+de pie ante el espejo interrogándose cada uno a sí mismo, 
+ya no mirándose entre ellos, 
+ya no desnudos para el otro, 
+ya no te amo, mi amor.
+
+7.After such pleasures/ Vacío
+- 
+Solo en mi casa abierta sobre el puerto otra vez empezar a quererte, 
+otra vez encontrarte en el café de la mañana 
+sin que tanta cosa irrenunciable hubiera sucedido.
