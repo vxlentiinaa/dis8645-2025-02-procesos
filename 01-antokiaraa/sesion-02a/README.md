@@ -1,4 +1,4 @@
-# sesion-02a
+# sesion-02a // martes 12 de agosto ⋆ 𐙚 ̊.
 
 (el de arriba es título)
 
@@ -10,7 +10,7 @@ esto está entre asteriscos y quedó *cursiva*
 
 esto es **bold**
 
-código para generar patrones aleatorios en base a 5 símbolos, sólo lo utilice para tratar de comprender cómo funciona y q significa cada línea, lo entendí más o menos.
+- código para generar patrones aleatorios en base a 5 símbolos, sólo lo utilice para tratar de comprender cómo funciona y q significa cada línea, lo entendí más o menos.
 
 ```cpp
 void setup() {
@@ -39,9 +39,9 @@ delay(2000); //tiempo de espera entre cada patron
 }
 ```
 
-el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrandóla) al github.
+- el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrandóla) al github.
 
-## intentos
+## Intentos
 
 ```cpp
 void setup() {
@@ -58,9 +58,9 @@ void loop() {
 
 }
 ```
-## documentación errores:
+## Documentación errores:
 
-### error 1:
+### Error 1:
 ```cpp
 C:\Users\anton\AppData\Local\Temp\.arduinoIDE-unsaved2025719-9844-7ui50n.qhxme\sketch_aug19a\sketch_aug19a.ino:10:26: error: stray '\303' in program
    Serial,println(esto sería el siguiente texto?);
@@ -95,9 +95,9 @@ exit status 1
 Compilation error: stray '\303' in program
 ```
 
-// por lo que entendí despues es que en vez de un punto puse una coma sin querer y q el texto debe ir en comillas,,,,, lo modifiqué y me volvió a dar error porq el murciélago está mal(?)
+> por lo que entendí despues es que en vez de un punto puse una coma sin querer y q el texto debe ir en comillas,,,,, lo modifiqué y me volvió a dar error porq el murciélago está mal(?)
 
-### error 2:
+### Error 2:
 
 ```cpp
 
@@ -110,7 +110,7 @@ exit status 1
 Compilation error: expected primary-expression before '}' token
 ```
 
-se me había colado un "+", eso era
+> se me había colado un "+", eso era
 
 ```cpp
 void setup() {
@@ -128,8 +128,8 @@ void loop() {
 }
 ```
 
-### error 3
+### Error 3
 
-// ya está, pero no me funciona en el serial monitor c:
+> ya está, pero no me funciona en el serial monitor c:
 
-**era el puerto usb, ya funcionó.**
+> era el puerto usb, ya funcionó.
