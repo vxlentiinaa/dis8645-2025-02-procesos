@@ -398,3 +398,20 @@ ya no te amo, mi amor.
 Solo en mi casa abierta sobre el puerto otra vez empezar a quererte, 
 otra vez encontrarte en el café de la mañana 
 sin que tanta cosa irrenunciable hubiera sucedido.
+
+
+## ESTRUCTURA TEXTO
+Buscando mantener la simpleza optamos por preguntas generales con respuestas sencillas de entre las opciones anteriores. Aunque parcen muy parecidas, la falta o adición de una de las 3 variables hacen la diferencia. Por ejemplo: si dicen que se han enamorado pero no creen en almas gemelas, es posible que les toque el poema que trata el desamor. Al ser imágenes de texto optamos por añadir una respuesta con íconos para reforzar el tema del amor.
+
+1-¿Te has enamorado?
+
+![foto de respuesta con corazones en pantalla OLED](./imagenes/amor.jpg)
+
+2-¿Qué te haría sentir completo? propósito/amor
+
+![foto de respuesta propósito vs amor en pantalla OLED](./imagenes/proposito.jpg)
+
+3-¿Crees en las almas gemelas?
+
+![foto de respuesta si vs no en pantalla OLED](./imagenes/siNo.jpg)
+
