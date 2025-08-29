@@ -71,9 +71,17 @@ Agregamos más fotogramas hasta alcanzar un total de 16, que es la cantidad que 
 
 - [proceso-5](/00-proyecto-01/grupo07/poema-proceso/proceso-5/proceso-5.ino)
 
-Finalmente, probamos un código que nos proporcionó nuestra compañera Catalina, el cual funcionó correctamente y permitió que el proyecto avanzara.
+Luego probamos un código que nos proporcionó nuestra compañera Catalina, el cual funcionó correctamente y permitió que el proyecto avanzara.
 
-## Etapas del código
+- proceso-6
+
+Creación de fotogramas: primero los pasamos por Illustrator, tanto los escritos como las imágenes.
+  
+- proceso-7
+
+Finalmente, unimos todos los códigos, dando como resultado nuestra visualización final. 
+
+  ## Etapas del código
 
 ```cpp
 //Librerías
@@ -1305,25 +1313,27 @@ void loop() {
 
 Fotos
 
-- [foto-proceso-1](/imagenes/foto-proceso-1.jpg)
+- ![foto-proceso-1](/imagenes/foto-proceso-1.jpg)
   
-- [foto-proceso-2](/imagenes/foto-proceso-2.jpg)
+- ![foto-proceso-2](/imagenes/foto-proceso-2.jpg)
   
-- [foto-proceso-3](/imagenes/foto-proceso-3.jpg)
+- ![foto-proceso-3](/imagenes/foto-proceso-3.jpg)
   
-- [foto-proceso-4](/imagenes/foto-proceso-4.jpg)
+- ![foto-proceso-4](/imagenes/foto-proceso-4.jpg)
   
-- [foto-proceso-5](/imagenes/foto-proceso-5.jpg)
+- ![foto-proceso-5](/imagenes/foto-proceso-5.jpg)
 
 Videos
 
-<>
+<https://youtube.com/shorts/S3kj9cHH_Oc>
 
-<>
+<https://youtu.be/_c7rWq3Rkxc>
 
-<>
+<https://youtu.be/AQlyXXPR3ow>
 
-<>
+Resultado final
+
+<https://youtube.com/shorts/prP_wWswPBg >
 
 ## Bibliografía
 
