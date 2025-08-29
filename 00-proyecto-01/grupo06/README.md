@@ -78,6 +78,22 @@ Con este resultado decidimos hacer una serie de Haikus, para dar mayor visibilid
 
 Fotografías y dibujos de maquetas y pruebas
 
+![arduino-conectado-a-pantalla-redonda](./imagenes/arduino-conectado-a-pantalla-redonda.jpeg)
+
+![falla-imagen-de-hoja](./imagenes/falla-imagen-de-hoja.jpeg)
+
+![pantalla-redonda](./imagenes/pantalla-redonda.jpeg)
+
+![bocetos-poema-anterior](./imagenes/bocetos-poema-anterior.jpeg)
+
+![bocetos-poema-anterior-2](./imagenes/bocetos-poema-anterior-2.jpeg)
+
+![boceto-poema-otono](./imagenes/boceto-poema-otono.jpeg)
+
+![boceto-poema-cerezo-bocanada](./imagenes/boceto-poema-cerezo-bocanada.jpeg)
+
+![boceto-poema-cosmos](./imagenes/boceto-poema-cosmos.jpeg)
+
 ### Fórmula del espiral
 
 La sacamos de una fórmula matemática llamada espiral logarítmica, donde un estudiante de informática nos ayudó a resolverla e implementarla en el código para entenderla mejor.
@@ -224,11 +240,11 @@ Subir fotos y videos
 
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
 
-### poema 1
+### Poema 1
 
-### poema 2
+### Poema 2
 
-### poema 3
+### Poema 3
 
 ![imagenpoema3](./imagenes/imagenpoema3.1.jpg)
 
@@ -236,7 +252,13 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 
 ![imagenpoema3](./imagenes/imagenpoema3.jpg)
 
-### poema 4
+### Poema 4
+
+![espiral-anto](./imagenes/espiral-anto.jpeg)
+
+![toshi-akao](./imagenes/toshi-akao.jpeg)
+
+![hoja](./imagenes/hoja.jpeg)
 
 ## Bibliografía
 

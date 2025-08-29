@@ -12,8 +12,6 @@
 
 ## Presentación textual
 
-Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
-
 La existencia de la inteligencia artificial hoy en día ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. (Tal vez mencionar un texto de estudio de la dependencia emocional con la inteligencia artificial hoy en día).
 
 Pero este no es el único lado de la inteligencia artificial, ya que existen múltiples problemas éticos, como la gran cantidad de energía y agua que son necesarias para el funcionamiento constante de los servidores, la gran cantidad de desinformación que distribuye de manera masiva, entre múltiples otras cosas.
@@ -663,10 +661,24 @@ Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que
 
 ## Fotografías y videos del proyecto funcionado
 
-Subir fotos y videos
+[pruebaConversacionConArduino-00](https://youtube.com/shorts/KdK3RFVv7po?si=xzqtc6b-C9rdamtQ)
 
-El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+[pruebaConversacionConArduino-01](https://youtube.com/shorts/JfK6-7urSqY?si=Lp1Ad8GMK_MX7eY9)
+
+[pruebaConversacionConArduino-02](https://youtube.com/shorts/g-0_mOg6dUA?si=sFpwlo84kwIh85vB)
+
+[pruebaConversacionConArduino-03](https://youtube.com/shorts/efIljK3--vE?si=xo1tBEY-9E5ByfOI)
 
 ## Bibliografía
 
-Citas en APA de repositorios y enlaces de los cuales se inspiraron. Bibliotecas, tutoriales, etc.
+(S/f). Adafruit.com. Recuperado el 29 de agosto de 2025, de https://forums.adafruit.com/viewtopic.php?t=107808#top
+
+colaboradores de Wikipedia. (2025, 3 julio). Poema. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Poema#:~:text=Un%20poema%20(del%20lat%C3%ADn%20poema,extensi%C3%B3n%20bastante%20grande%27%27). 
+
+disenoUDP. (s. f.). dis8645-2025-02-procesos/00-docentes/sesion-03b/ejemploPantallita01 at main · disenoUDP/dis8645-2025-02-procesos. GitHub. https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01
+
+Handling Bool Value With an If Statement. (s. f.). Stack Overflow. https://stackoverflow.com/a/8844632 Santos, S., & Santos, S. (2023, 23 abril). 
+
+Guide for I2C OLED Display with Arduino | Random Nerd Tutorials. Random Nerd Tutorials. https://randomnerdtutorials.com/guide-for-oled-display-with-arduino 
+
+Wikipedia contributors. (2025, 21 agosto). Visual novel. Wikipedia. https://en.m.wikipedia.org/wiki/Visual_novel
