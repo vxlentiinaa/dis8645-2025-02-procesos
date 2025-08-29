@@ -12,7 +12,7 @@
 
 ## Presentación textual
 
-La existencia de la inteligencia artificial hoy en día ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. (Tal vez mencionar un texto de estudio de la dependencia emocional con la inteligencia artificial hoy en día).
+La existencia de la inteligencia artificial hoy en día ha creado en algunas personas la dependencia de estos algoritmos, que realmente solo son unas fórmulas matemáticas estratégicamente diseñadas para dar la respuesta que sea la más probablemente correcta. En un mundo en el que se crean diálogos con estas "inteligencias" no sólo para solucionar problemas, sino que también para poder ocuparlas para llenar un vacío y sentir que están siendo escuchados por otra persona. 
 
 Pero este no es el único lado de la inteligencia artificial, ya que existen múltiples problemas éticos, como la gran cantidad de energía y agua que son necesarias para el funcionamiento constante de los servidores, la gran cantidad de desinformación que distribuye de manera masiva, entre múltiples otras cosas.
 
@@ -661,13 +661,16 @@ para llegar al codigo final que seria el siguiente:
 
 // denifir el ancho de la pantalla
 #define SCREEN_WIDTH 128
-// definir el alto d ela pantalla
+// definir la altura de la pantalla
 #define SCREEN_HEIGHT 64
-// que se resetee REVISAR REVISAR REVISAR REVISAR REVISAR
 #define OLED_RESET -1
 Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-// tangananica y tanganana
+
+
+// a continuación se cargaran imagenes que fueron pasadas a byte arrays
+
+// imagen de opcion entre tangananica y tanganana
 const unsigned char respuestasImg1 [] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -803,7 +806,7 @@ const unsigned char respuestasImg2 [] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff
 };
 
-// imagen de SI o NO
+// imagen conas las opciones de SI o NO
 const unsigned char respuestasImg3 [] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -1143,17 +1146,20 @@ const unsigned char respuestasImg7 [] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff
 };
 
-// potenciometro a la derecha es true
-// potenciometro a la izquierda es false
-// a la derecha, mayor el número
-// a la izquierda, menor el número
+// potenciómetro a la derecha es true
+// potenciómetro a la izquierda es false
+// a la derecha, mayor el valor
+// a la izquierda, menor el valor
 // donde false es 512 o menos y true es 513 o más
-bool poteValor = true;
 
-	// hasta que no se cumpla la primera
-	// y el valor que queremos que se cumpla
-	// no se activarían sus valores inscritos
-	//para que las respuestas sean almacenadas y no causen problemas retroactivamente en conversas despues
+// esta variable es booleana ya que solo necesitamos esos 2 estados
+// que sea o a la izquierda, o a la derecha
+bool poteValor = true;
+ 
+
+// se definen variables booleanas con el propósito de usarlas como switch
+// donde una vez se cumplan las condiciones para la respuesta
+// esta quedara activada, dejando que continue el flujo del codigo
 	bool respCon1 = false;
 
 	bool respCon2 = false;
@@ -1171,7 +1177,8 @@ bool poteValor = true;
 	bool comenzarConversa = false;
 
 
-		// booleanas para saber que llegue a un final especifico, donde se mostrara un poema distinto por cada final
+		// booleanas para saber que llegue a un final específico, donde se 
+		// mostrara un poema distinto por cada final
 		bool final1 = false;
 
 		bool final2 = false;
@@ -1191,45 +1198,50 @@ bool poteValor = true;
 
  void setup() {
 			// para que sea posible la comunicación
-			// entre arduino y potenciometro
+			// entre arduino y potenciómetro activamos la
+			 // comunicación serial
 			Serial.begin(9600);
-
-		// mensaje de error en caso de que la pantalla no estuviese conectada correctamente
-		if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-				Serial.println(F("No se encontró la pantalla SSD1306"));
-				// que se repitiera indefinidamente
-				for(;;);
 		  	}
 		}
 
 void loop() {
+
       // que se borre cualquier cosa que quede en el display
+      // una vez se haga el loop
       pantallita.clearDisplay();
+
       // que las letras esten en el color "blaco" del OLEd, que en nuestro caso seria azul/amarillo
+      // dependiendo de la ubicación de estos pixeles
       pantallita.setTextColor(SSD1306_WHITE);
-      // para poder setear las coordenadas de donde sale el texto
+
+      // se escribe .setCursor para especificar cual es la coordenada
+      // donde se empieza a escribir los textos que pondremos
+      // en este caso estara en 0,0, osea que en la esquina superior izquierda
       pantallita.setCursor(0, 0);
-      //tamano del texto
+
+      //tamaño del texto
       pantallita.setTextSize(1); 
 
-    // el angulo del potenciometro sera leido
-    //en el pin A0 del Analog In
+    // el ángulo del potenciómetro será leído
+    // a partir dell pin A0 del Analog In
     int anguloDelPote = analogRead(A0);
 
-    // cuando el valor del potenciometro esta a la izquierda, poteValor sera true
+    // cuando el valor del potenciómetro está a la izquierda, poteValor será true
     if (anguloDelPote < 512){
       poteValor = true;
     }
-    // cuando el valor del potenciometro esta a la derecha, poteValor sera false
+    // cuando el valor del potenciómetro está a la derecha, poteValor será false
       else {
       poteValor = false;
     }
 
-// conversacion que envia el arduino al usuario
-// aqui estaran todas los poemas y conversaciones que el arduino tendra
-// con el usuario, debido  que son mas largas que 1 caracter
-// estas deben estar delcaradas como String
-// conde el texto entre comillas "" es lo que sera mostrado en el display
+// a continuación se especifican las conversaciones que envia el arduino al usuario
+// aqui estaran todas las frases y respuestas 
+// qué el arduino obtiene al “aprender del usuario”
+
+// debido a que las conversaciones son más largas que 1 carácter
+// estas deben estar declaradas como String
+// donde el texto entre comillas "" es lo que será mostrado en el display
 
 String conversa1 = "Hola, buen dia \n Yo soy un Arduino \n Si es que \n no te molesta \n puedo hacerte \n algunas preguntas?";                                    
 //Pasión- ocurre con respuesta der-izq-izq
@@ -1249,126 +1261,158 @@ String conversa8parte1 = "Ahora que te conozco \n me gustaria \n dedicarte un po
 String conversa8parte2 = "Espero te haya \n  gustado hablar \n conmigo \n vuelve cuando \n quieras te esperare \n para conversar \n una vez mas";
 
 
-// enamorado
+// lo siguiente serán las preguntas en sí que el arduino
+// le hará al usuario con \n para poder pasar a una nueva línea
+// de texto y que no se corten las palabras a medio camino
 String pregunta1 = "Una pregunta \n muy filosofica \n tangananica \n o \n tanganana";                                    
-// completo
-String pregunta2 = "El dinero \n es la fuente \n de la felicidad?";   
-//almas gemelas
-String pregunta3 = "Crees en las \n almas gemelas?";                         
-//Compania
-String pregunta4 = "Que te llama \n mas la atencion \n de estar \n en pareja?";    
-//Paz
-String pregunta5 = "Prefieres tener paz o tener la razon?";                                            
-//Perdon
-String pregunta6 = "Prefieres pedir perdon o permiso?";                                  
-//Sobrepienso
-String pregunta7 = "Que te quita el sueno?";                             
-//Vacío- ocurre con respuesta izq-izq-der
 
-String poema1 = "Si los leones fueran rojos \n si en mitad del pecho se les viera latiendo un corazon de agata \n seria un poco lo que entre mis brazos \n nace de tu violenta pesadilla.";                                    
-//Pasión- ocurre con respuesta der-izq-izq
+String pregunta2 = "El dinero \n es la fuente \n de la felicidad?";   
+
+String pregunta3 = "Crees en las \n almas gemelas?";                         
+
+String pregunta4 = "Que te llama \n mas la atencion \n de estar \n en pareja?";    
+
+String pregunta5 = "Prefieres tener paz o tener la razon?";                                            
+
+String pregunta6 = "Prefieres pedir perdon o permiso?";                                  
+
+String pregunta7 = "Que te quita el sueno?";                             
+
+//aquí se establecen los poemas, que el usuario puede
+//  recibir cuando termina su interacción con el Arduino
+
+String poema1 = "Si los leones fueran rojos \n si en mitad del pecho se les viera latiendo un corazon de agata \n seria un poco lo que entre mis brazos \n nace de tu violenta pesadilla.";                             
+       
 String poema2 = "Veo el mundo como un caos y en el centro una rosa \n veo la rosa como el ojo feliz de la hermosura y en su centro \n el gusano como un fragmento de la inmensa \n vida y en su centro la muerte";   
-//Tranquilidad solitaria- ocurre con respuesta der-izq-der
+
 String poema3 = "Mira, no pido mucho, solamente tu mano, \n tenerla como un sapito que duerme asi contento. \n Necesito esa puerta que me dabas para entrar a tu mundo, \n e se trocito de azucar verde, de redondo alegre.";                         
-//Añoranza y búsqueda de amor- ocurre con respuesta der-der-izq
+
 String poema4 = "eras la que no se iba porque una misma almohada \n y una misma tibieza iba a llamarnos otra vez a despertar \n al nuevo dia juntos, riendo, despeinados.";    
-//Certeza- ocurre con respuesta izq-der-izq
+
 String poema5 = "de pie ante el espejo interrogandose cada uno a si mismo, \n ya no mirandose entre ellos, ya no desnudos \n para el otro, ya no te amo, mi amor ";                                            
-//Desamor- ocurre con respuesta izq-der-der
+
 String poema6 = "Creo que nada vale contra esta caricia abrasadora que sube por la piel \n Ni el silencio, ese desatador de suenos \n Vivir oh imagen para un ojo cortado boca arriba perpetuo";                                  
-//Entrega al amor- ocurre con respuesta izq-izq-izq
+
 String poema7 = "Solo en mi casa abierta sobre el puerto otra \n vez empezar a quererte, otra vez encontrarte en el cafe \n de la manana sin que tanta cosa \n irrenunciable hubiera sucedido.";                             
-//sobrepienso
+
 String poema8 = "Mira de que sustancias vivo, pero no \n me tengas lastima, yendote asi todavia mas.";
 
-delay (5000);
-		// cambio la variable comenzarConversa apenas el arduino tiene el codigo
-		// para realizar el encadenamiento de statements despues
+		// cambio la variable comenzar Conversa apenas el arduino obtiene el código
+		// para realizar el encadenamiento de statements después
 		comenzarConversa = true;
+
     // cuando comenzarConversa es verdadero
     if (comenzarConversa){
         // se obtendra el dato la string de nombre conversa1
         pantallita.print(conversa1);
+
         // esto permite que aparezca la conversa1 en el display OLED
         pantallita.display();
-						// esperamos un acantidad de tiempo para que se pueda leer el mensaje de conversa1
-						delay(5000);
-								//se borra la conversa
-								pantallita.clearDisplay();
-								// esto se tendra que repetir en cada una de las strings
-								pantallita.setCursor(0, 0);
-								//cargar la pregunta
-								pantallita.print(pregunta1);
-								// esto permite que aparezca la conversa1 en el display OLED
-       				  pantallita.display();
-								// cargar la 1ra imagen
-								delay(8000);
-								//se borra la pregunta
-								pantallita.clearDisplay();
-								//se carga la imagen con las opciones
-								pantallita.drawBitmap(0, 0, respuestasImg1, 128, 64, WHITE);  
-								// esto permite que aparezca la conversa1 en el display OLED
-       				  pantallita.display();
-								//espera 5 segundos y desaparece
-								delay(5000); 
-								// pasara a la respCon1 donde el valor del potenciometro sera relevante
-								respCon1 = true;
-								// para que no siga el display constantemente apareciendo, la variable sera falsa
-								comenzarConversa = false;
-								// el setear las respuestas a falso, permitira que una vez terminen todos los if statements
-								// este pueda hacer otro ciclo
-							respCon2 = false;
-							respCon3 = false;
-							respCon4 = false;
-							respCon5 = false;
-							respCon6 = false;
-							respCon7 = false;
-						// esto borrara el display de conversa1, para que no aparezca en siguientes conversaciones
-						pantallita.clearDisplay();
-   			 }
+
+// esperamos 5 segundos para que el usuario pueda leer el mensaje de conversa1
+delay(5000);
+			//se borra la conversa1, para que no este presente cuando se haga
+			// dispkay del siguiente texto
+			pantallita.clearDisplay();
+
+			// .set cursor específica donde quiero que parta el texto, así que
+			// se tendra que poner en 0,0
+			// esto se tendrá que repetir en cada una de las strings
+			pantallita.setCursor(0, 0);
+
+			// llamar a la pregunta1 para tener dispoble su contenido
+			pantallita.print(pregunta1);
+
+			// pantallita.display es lo opuesto al .clearDisplay
+			// esto permite que aparezca la conversa1 en el display OLED
+       			pantallita.display();
+
+			// se deja un tiempo de 8 segundos para leer lo que dice el display
+			delay(8000);
+
+			//se borra la pregunta1 establecida previamente
+			pantallita.clearDisplay();
+
+			//se carga la imagen1, en ls coordenada 0,0, teniendo en cuenta un
+			// borde lateral de 128 pixeles y un borde vertical de 54 pixeles
+			//imprimiendolo en el color blanco, que srria correspondiente al amarillo
+			// y azul que tiene nuestro display
+			pantallita.drawBitmap(0, 0, respuestasImg1, 128, 64, WHITE);  
+
+
+			// esto permite que aparezca la imagen 1  en el display OLED
+       			  pantallita.display();
+
+			//espera 5 segundos y desaparece
+			delay(5000); 
+
+			// la variable respCon1 pasará a true, que causara una reacción
+			// encadenada de los próximos if statements dependiendo del 
+			// valor del potenciómetro
+			respCon1 = true;
+
+			// para que no siga el display constantemente 
+			// apareciendo, la variable que permite esta 1ra
+			// pantalla ahora sera sera false
+			comenzarConversa = false;
+
+			// el setear las respuestas a falso, permitira que
+			//  una vez terminen todos los if statements
+			// este pueda hacer otro ciclo
+			respCon2 = false;
+			respCon3 = false;
+			respCon4 = false;
+			respCon5 = false;
+			respCon6 = false;
+			respCon7 = false;
+
+			// esto borra el display de conversa1, para que no aparezca 
+			// algo que se repetira multiples veces en siguientes conversaciones
+			pantallita.clearDisplay();
+   		 }
 
 
 			// cuando la respCon1 es verdadera
-			// y el potenciometro está apuntando a la izq
-			// y ninguna de las dos respuestas de la eleccion es verdadera
-			// esto se hace para que una vez se obtenga una respuesta, esa misma 
-			// respuesta bloquee el que se vuelva a cumplir este if statement
-			if(respCon1 && !poteValor && !respCon2 && !respCon3){
-								// para que no quede en el aire el texto
-								// con la posicion proporcional al texto de la conversa1
-								// esto se tendra que repetir en cada una de las strings
-								pantallita.setCursor(0, 0);
-								 // se obtendra el dato la string de nombre conversa1
-										pantallita.print(conversa2);
-										// esto permite que aparezca la conversa1 en el display OLED
-										pantallita.display();
-												// esperamos un acantidad de tiempo para que se pueda leer el mensaje de conversa1
-												delay(5000);
-														//se borra la conversa
-														pantallita.clearDisplay();
-														// esto se tendra que repetir en cada una de las strings
-														pantallita.setCursor(0, 0);
-														//cargar la pregunta
-														pantallita.print(pregunta2);
-														// esto permite que aparezca la conversa1 en el display OLED
-														pantallita.display();
-														// cargar la 1ra imagen
-														delay(8000);
-														//se borra la pregunta
-														pantallita.clearDisplay();
-														//se carga la imagen con las opciones
-														pantallita.drawBitmap(0, 0, respuestasImg3, 128, 64, WHITE);  
-														// esto permite que aparezca la conversa1 en el display OLED
-														pantallita.display();
-														//espera 5 segundos y desaparece
-														delay(6000); 
-														// la respuesta sera almacenada, donde esta repsuesta
-														// elige el camino que se tomara a continuacion
-														respCon2 = true;
-												pantallita.clearDisplay();
-			}
+			// y el potenciómetro está apuntando a la izquierda
+			// y ninguna de las dos respuestas  posibles de esta  elección es verdadera
+			// este if statement se llevará a cabo
 
-						if(respCon1 && poteValor && !respCon2 && !respCon3){
+			// este es es resultado de tomar la opción izquierda
+			if(respCon1 && !poteValor && !respCon2 && !respCon3){
+			// para que no quede en el aire el texto										// con la posicion proporcional al texto de la conversa1
+			// esto se tendra que repetir en cada una de las strings
+			pantallita.setCursor(0, 0);
+
+			 // se obtendra el dato la string de nombre conversa2
+			pantallita.print(conversa2);
+
+			// esto permite que aparezca la conversa2 en el display OLED
+			pantallita.display();
+
+			// esperamos una cantidad de tiempo para que se pueda leer el mensaje de conversa1					delay(5000);
+														//se borra la conversa											pantallita.clearDisplay();
+														// esto se tendra que repetir en cada una de las strings								pantallita.setCursor(0, 0);
+														//cargar la pregunta												pantallita.print(pregunta2);
+														// esto permite que aparezca la conversa1 en el display OLED							pantallita.display();
+														// cargar la 1ra imagen
+	delay(8000);
+														//se borra la pregunta											pantallita.clearDisplay();
+														//se carga la imagen con las opciones
+	pantallita.drawBitmap(0, 0, respuestasImg3, 128, 64, WHITE);  
+														// esto permite que aparezca la conversa1 en el display OLED
+	pantallita.display();
+														//espera 5 segundos y desaparece										delay(5000); 
+														// la respuesta sera almacenada, donde esta respuesta								// elige el camino que se tomara a continuacion									respCon2 = true;
+														pantallita.clearDisplay()
+}
+
+// Ya que se explicaron las bases de los comandos que se 
+// ocupan constantemente, no se cambiarán los comentarios a menos de que sea relevante
+// su mención
+
+
+//  se obtiene al seleccionar la opcion derecha en la primera pregunta
+if(respCon1 && poteValor && !respCon2 && !respCon3){
 								// para que no quede en el aire el texto
 								// con la posicion proporcional al texto de la conversa1
 								// esto se tendra que repetir en cada una de las strings
@@ -1398,14 +1442,13 @@ delay (5000);
        				  pantallita.display();
 								//espera 5 segundos y desaparece
 								delay(5000); 
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								respCon3 = true;
 						pantallita.clearDisplay();
 			}
 
-						// lo mismo que la anterior pero con el potenciometro
-						// en la otra direcion
+						// se obtiene al seleccionar la opcion izquierda primero, despues la izquierda
 						if(respCon2 && !poteValor && !respCon4 && !respCon5){
 								// para que no quede en el aire el texto
 								// con la posicion proporcional al texto de la conversa1
@@ -1435,11 +1478,13 @@ delay (5000);
        				  pantallita.display();
 								//espera 5 segundos y desaparece
 								delay(5000); 
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								respCon4 = true;
 						pantallita.clearDisplay();
 			}
+
+						// se obtiene al seleccionar la opcion izquierda primero, despues la derecha
 
 						if(respCon2 && poteValor && !respCon4 && !respCon5){
 								// para que no quede en el aire el texto
@@ -1470,12 +1515,13 @@ delay (5000);
        				  pantallita.display();
 								//espera 5 segundos y desaparece
 								delay(5000); 
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								respCon5 = true;
 						pantallita.clearDisplay();
 			}
 
+						// se obtiene al seleccionar la opcion derecha primero, despues la izquierda
 
 						if(respCon3 && !poteValor && !respCon6 && !respCon7){
 								// para que no quede en el aire el texto
@@ -1506,12 +1552,13 @@ delay (5000);
        				  pantallita.display();
 								//espera 5 segundos y desaparece
 								delay(5000); 
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								respCon6 = true;
 						pantallita.clearDisplay();
 			}
 
+	// se obtiene al seleccionar la opcion derecha primero, despues la derecha
 						if(respCon3 && poteValor && !respCon6 && !respCon7){
 								// para que no quede en el aire el texto
 								// con la posicion proporcional al texto de la conversa1
@@ -1541,12 +1588,12 @@ delay (5000);
        				  pantallita.display();
 								//espera 5 segundos y desaparece
 								delay(5000); 
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								respCon7 = true;
 						pantallita.clearDisplay();
 			}
-
+	// se obtiene al seleccionar la opcion derecha primero, despues la izquierda, y otra izquierda
 						if(respCon4 && !poteValor){
 								// para que no quede en el aire el texto
 								// con la posicion proporcional al texto de la conversa1
@@ -1559,12 +1606,13 @@ delay (5000);
 								pantallita.display();
 										 //espera 5 segundos y desaparece
 										delay(5000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final1 = true;
 						pantallita.clearDisplay();
 			}
 
+// se obtiene al seleccionar la opcion izquierda primero, despues la izquierda, y otra derecha
 
 						if(respCon4 && poteValor){
 								// para que no quede en el aire el texto
@@ -1582,12 +1630,12 @@ delay (5000);
 										delay(3000);
 										//se borra la pregunta
 										pantallita.clearDisplay();
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final2 = true;
 						pantallita.clearDisplay();
 			}
-
+// se obtiene al seleccionar la opcion izquierda primero, despues la derecha, y otra izquierda
 						if(respCon5 && poteValor){
 								// para que no quede en el aire el texto
 								// con la posicion proporcional al texto de la conversa1
@@ -1600,14 +1648,15 @@ delay (5000);
 								pantallita.display();
 										 //espera 5 segundos y desaparece
 										delay(5000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final3 = true;
 						pantallita.clearDisplay();
 			}
 
 
-						if(respCon5 && !poteValor){
+		// se obtiene al seleccionar la opcion izquierda primero, despues la derecha, y otra derecha
+ if(respCon5 && !poteValor){
 								// para que no quede en el aire el texto
 								// con la posicion proporcional al texto de la conversa1
 								// esto se tendra que repetir en cada una de las strings
@@ -1619,11 +1668,13 @@ delay (5000);
 								pantallita.display();
 										// esperamos 3 segundos para la siguiente conversa
 										delay(3000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final4 = true;
 						pantallita.clearDisplay();
 			}
+
+// se obtiene al seleccionar la opcion derecha primero, despues la izquierda, y otra izquierda
 
 						if(respCon6 && poteValor){
 								// para que no quede en el aire el texto
@@ -1637,11 +1688,13 @@ delay (5000);
 								pantallita.display();
 										 //espera 5 segundos y desaparece
 										delay(5000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final5 = true;
 						pantallita.clearDisplay();
 			}
+
+// se obtiene al seleccionar la opcion derecha primero, despues la izquierda, y otra derecha
 
 						if(respCon6 && !poteValor){
 								// para que no quede en el aire el texto
@@ -1655,12 +1708,13 @@ delay (5000);
 								pantallita.display();
 										//espera 5 segundos y desaparece
 										delay(5000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final6 = true;
 						pantallita.clearDisplay();
 			}
 
+// se obtiene al seleccionar la opcion derecha primero, despues la derecha, y otra izquierda
 
 						if(respCon7 && poteValor){
 								// para que no quede en el aire el texto
@@ -1674,11 +1728,13 @@ delay (5000);
 								pantallita.display();
 										//espera 5 segundos y desaparece
 										delay(5000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final7 = true;
 						pantallita.clearDisplay();
 			}
+
+// se obtiene al seleccionar la opcion derecha primero, después la derecha, y otra derecha
 
 						if(respCon7 && !poteValor){
 								// para que no quede en el aire el texto
@@ -1692,7 +1748,7 @@ delay (5000);
 								pantallita.display();
 										 //espera 5 segundos y desaparece
 										delay(5000);
-								// la respuesta sera almacenada, donde esta repsuesta
+								// la respuesta sera almacenada, donde esta respuesta
 								// elige el camino que se tomara a continuacion
 								final8 = true;
 						pantallita.clearDisplay();
@@ -1831,6 +1887,8 @@ final8 = false;
 
 
 }
+
+
 ```
 
 
