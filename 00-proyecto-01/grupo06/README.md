@@ -264,7 +264,9 @@ El video debe estar subido a youtube y mencionado en un enlace para ahorrar espa
 
 [Video de código + Arduino FINAL](https://youtu.be/zmPsnglpT_A)
 
-[Videos de procesos]()
+[Videos de procesos](https://www.youtube.com/playlist?list=PL3fzND9R5FHDpqDSguDgBiuKhA3gDYYar)
+
+No alcanzamos a subir todos los videos porque Youtube no nos deja, dice que hay que esperar 24 horas :(
 
 ### Poema 1
 
