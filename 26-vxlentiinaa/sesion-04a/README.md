@@ -364,7 +364,7 @@ void mostrarPoemaEspiral(String texto) {
   float dtheta = 0.4;   // cuánto avanza el ángulo por letra
 ```
 
-- Tercer código de proceso. Al hacer el código anterior, preguntamos a un estudiante de informática y nos dió este código, donde agregó una función que hacía que dibujara el espiral como un agujero negro, es decir, que generaba el espiral del poema completo y luego iba desapareciendo desde el centro, pero aún así las letras estaban dispersas y no se veían bien 
+- Tercer código de proceso. Al hacer el código anterior, preguntamos a un estudiante de informática y nos dió este código, donde agregó una función que hacía que dibujara el espiral como un agujero negro, es decir, que generaba el espiral del poema completo y luego iba desapareciendo desde el centro, pero aún así las letras estaban dispersas y no se veían bien. Además no lo utilizamos porque no entendíamos la función del "buffer".
 
 ```cpp
 #include <Wire.h>
@@ -459,7 +459,7 @@ void mostrarPoemaEspiral(String texto) {
     // Limpiar pantalla
     pantallita.clearDisplay();
 
-    // Dibujar todas las letras visibles
+    // aca se muestra todas las letras a medida que avanza el espiral 
     int idx = inicio;
     while (idx != fin) {
       pantallita.setCursor(espiral[idx].x, espiral[idx].y);
@@ -468,9 +468,9 @@ void mostrarPoemaEspiral(String texto) {
     }
 
     pantallita.display();
-    delay(100); // velocidad de animación
+    delay(100); 
 
-    // Actualizar espiral
+    // a cuanto se actualiza el espiral
     theta += dtheta;
     r += dr * dtheta / (2 * 3.1416);
   }
@@ -481,31 +481,9 @@ agregar foto proceso 3
 
 agregar foto proceso 3.1
 
-- Cuarto código de proceso. En este código cambiamos la función ${\color{blue}void, int, fin}$(): por un ${\color{blue}loop}$(): </br> donde utilizamos un ${\color{blue}float}$(): </br> donde le dimos un espacio a los números décimales, agregando una fórmula de ángulo y radio.
+- Cuarto código de proceso. En este código cambiamos la función ${\color{blue}void, int, fin}$(): por un ${\color{blue}loop}$(): </br> donde utilizamos un ${\color{blue}float}$(): </br> donde le dimos un espacio a los números décimales, agregando una fórmula de ángulo y radio. Pero se nos olvidó colocar la función para que girara, así que solo se ve el espiral, no se mueve.
 
 ```cpp
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
-#include <math.h>
-
-#define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
-#define OLED_RESET -1
-Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
-
-// Texto del poema
-String poema = "Casi cruzo la barrera del espejo para ver lo que no se puede ver el mundo como seria si la realidad copiara y no al reves, el espejo llena, porfin, de su nada.";
-
-void setup() {
-  if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    for(;;); // No encontró la pantalla
-  }
-  pantallita.clearDisplay();
-  pantallita.setTextColor(SSD1306_WHITE);
-  pantallita.setTextSize(1);
-}
-
 void loop() {
   pantallita.clearDisplay();
 
@@ -513,8 +491,24 @@ void loop() {
   float centroY = SCREEN_HEIGHT / 2;
   float angulo = 0;
   float radio = 5;    // radio inicial
-  float pasoAngulo = 0.35; // qué tan apretada la espiral
-  float pasoRadio = 0.8;   // cuánto aumenta el radio cada letra
+  float pasoAngulo = 0.35; // qué tan apretado la espiral
+  float pasoRadio = 0.8;   // cuánto aumenta el radio en cada letra
+```
+
+insertar foto proceso 4
+
+- Quinto código proceso. Acá ya le agregamos la función donde se mueve el espiral
+
+```cpp
+void loop() {
+  pantallita.clearDisplay();
+
+  float centroX = SCREEN_WIDTH / 2;
+  float centroY = SCREEN_HEIGHT / 2;
+  float angulo = 0;
+  float radio = 4;          // radio inicial
+  float pasoAngulo = 0.35;  // qué tan apretada la espiral
+  float pasoRadio = 0.25;   // a cuanto crece va creciendo el espiral
 
   for (int i = 0; i < poema.length(); i++) {
     char c = poema.charAt(i);
@@ -524,12 +518,25 @@ void loop() {
 
     pantallita.setCursor(x, y);
     pantallita.write(c);
+    pantallita.display();
 
+    // Avanzamos en la espiral
     angulo += pasoAngulo;
     radio += pasoRadio;
-  }
-
-  pantallita.display();
-  delay(5000); // mostrar 5 seg antes de repetir
-}
 ```
+insertar imagen proceso 5
+
+- Sexto código de proceso. Aquí ya ibamos jugando con los números del ángulo, radio y texto para ver como es que se veía mejor.
+
+```cpp
+void loop() {
+  pantallita.clearDisplay();
+
+  float centroX = SCREEN_WIDTH / 2;
+  float centroY = SCREEN_HEIGHT / 2;
+  float angulo = 0;
+  float radio = 10;         // radio inicial
+  float pasoAngulo = 0.35;  // aumento de angulo
+  float pasoRadio = 0.35;   // este hace que crezca un poco más rápido
+```
+insertar imagen proceso 6
