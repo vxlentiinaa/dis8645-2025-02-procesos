@@ -48,6 +48,6 @@ ListaEncargos::ListaEncargos()
         Encargo(
             8,
             "4a",
-            "investigar la poesía y el trabajo de las poetas computacionales Allison Parrish y Nick Montfort"));
+            "investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins"));
     "));
 }
