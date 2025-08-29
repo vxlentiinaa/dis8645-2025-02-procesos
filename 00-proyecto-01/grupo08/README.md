@@ -68,8 +68,6 @@ Fotografías y dibujos de maquetas y pruebas
 ![MapaMental](./imagenes/MapaMental.jpeg)
 Mapita mental para organizar la idea de la propuesta.
 
-![conexion](./imagenes/ConexiónEnClase.jpeg)
-
 ## Problemas, desafíos y errores
 
 El primer problema al que nos enfrentamos fué el de colocar la primera imagen, no lograbamos hacerlo, finalmente el error era una palabra mal escrita y el código de la imagen fué descargado en bytes no en código de arduino, se solucionó. :)
