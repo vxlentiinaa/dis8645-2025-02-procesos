@@ -222,6 +222,17 @@ int valor = analogRead(potPin);
 Subir fotos y videos
 
 El video debe estar subido a youtube y mencionado en un enlace para ahorrar espacio en el repositorio
+### poema 1:
+### poema 2:
+### poema 3:
+
+![imagenpoema3](./imagenes/imagenpoema3.1.jpg)
+
+![imagenpoema3](./imagenes/imagenpoema3.2.jpg)
+
+![imagenpoema3](./imagenes/imagenpoema3.jpg)
+
+### poema 4:
 
 ## Bibliografía
 
