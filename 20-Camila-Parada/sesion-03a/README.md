@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 03a - Título ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 03a - Condicionales e iteraciones ♡⊹˚₊⋆
 
 Martes 19 Agosto 2025
 

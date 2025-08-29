@@ -11,8 +11,6 @@
 
 ## Presentación textual
 
-> Plantea aquí el problema de diseño que abordaste. Menciona el texto de referencia.
-
 El problema de diseño que abordamos fue cómo mostrar un poema de manera dinámica en una pantalla OLED, controlando su velocidad de desplazamiento vertical con una interfaz física simple e intuitiva: un potenciómetro.
 
 El objetivo es generar una experiencia poética interactiva, donde el espectador pueda decidir el ritmo de la lectura.
@@ -22,31 +20,31 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
 ```txt
-*"En Santiago de Chile*
+"En Santiago de Chile
 
-*Los*
+Los
 
-*días*
+días
 
-*son*
+son
 
-*interminablemente*
+interminablemente
 
-*largos:*
+largos:
 
-*Varias eternidades en un día.*
+Varias eternidades en un día.
 
-*Nos desplazamos a lomo de luma*
+Nos desplazamos a lomo de luma
 
-*Como los vendedores de cochayuyo:*
+Como los vendedores de cochayuyo:
 
-*Se bosteza. Se vuelve a bostezar.*
+Se bosteza. Se vuelve a bostezar.
 
-*Sin embargo las semanas son cortas*
+Sin embargo las semanas son cortas
 
-*Los meses pasan a toda carrera*
+Los meses pasan a toda carrera
 
-*Ylosañosparecequevolaran."*
+Ylosañosparecequevolaran."
 ```
 
 ## Inputs y outputs
@@ -251,22 +249,29 @@ Aileen y Félix investigaron cómo usar el potenciómetro para controlar la velo
 
 ## Fotografías y videos
 
+Parte de las fotografías y videos fueron enviados mediante WeTransfer.
+
 ![imagen](./imagenes/registro01.jpeg)
 
 ## Bibliografía
 
-- Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
+- Scrolling a OLED DOWN ?.(2025, agosto 20) Arduino Forum. Recuperado de <https://forum.arduino.cc/t/scrolling-a-oled-down/1403417/8>
 
-- <https://docs.arduino.cc/language-reference/en/functions/math/map/> // cómo usar map(). Define los valores del potenciómetro en velocidades
 
-- <https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
+- Arduino Documentation. (s.f.) map() – función de mapeo. Recuperado de <https://docs.arduino.cc/language-reference/en/functions/math/map/>
 
-- CRONOS. (s/f). Poemas-del-alma.com. Recuperado el 29 de agosto de 2025, de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
-- Electrónicos Por, E. M. @ElectronicosporelMundo. (s/f). ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino. Youtube. Recuperado el 29 de agosto de 2025, de <https://www.youtube.com/watch?v=l_2vnl5MOpo>
+- Wokwi. (s.f.) Ejemplo de potenciómetro + servo. Recuperado de <https://wokwi.com/projects/344892191015961170>
 
-- YouTube. (s/f-b). CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos. Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/YyC2i91EwNw?si=ATsIx5gcO_lLDh3E>
 
-- YouTube. (s/f). CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies). Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ>
+- Poemas del Alma. (s.f.) “Cronos” – Nicanor Parra. Recuperado de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
-- Adafruit. (s. f.). Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
+- Electrónicos Por, E. M. @ElectronicosporelMundo. (s.f.) ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino. Recuperado de <https://www.youtube.com/watch?v=l_2vnl5MOpo>
+
+
+- YouTube. (s.f.) CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos. Recuperado de <https://youtu.be/YyC2i91EwNw?si=ATsIx5gcO_lLDh3E>
+
+- YouTube. (s.f.) CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies). Recuperado de <https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ>
+
+- Adafruit. (s. f.) Librería SSD1306. <https://adafruit.github.io/Adafruit_SSD1306/html/>
+
