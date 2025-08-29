@@ -295,7 +295,7 @@ Luego almacena cada retorno dentro de la variable binario y añade una separaci�
 
 - Francisco Stephens: Función traducción binario. Conceptualización del proyecto.
 
-## Fotografías y videos del proyecto funcionado
+## Fotografías y videos del proyecto funcionando
 
 Subir fotos y videos
 
