@@ -112,7 +112,7 @@ void loop() {
 
 Mi parte del trabajo es el código para que se vea el poema en la pantalla.
 
-#### primer código
+### primer código
 
 Queríamos que los fotogramas se vieran el la pantalla pero no resulto
 
@@ -2837,7 +2837,7 @@ void loop() {
 }
 ```
 
-#### tercer código
+#### tercer código con comentarios
 
 código final ordenado con comentarios
 
@@ -4055,4 +4055,4 @@ pantallita.display();
 //salida a casa 10fps
 delay(100); 
 }
-``` 
+```
