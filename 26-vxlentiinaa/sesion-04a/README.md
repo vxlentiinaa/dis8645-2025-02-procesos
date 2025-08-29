@@ -21,7 +21,7 @@ Usar el ejemplo del contador para que se vea las cosas en la pantalla
 
 En esta clase avanzamos en nuestro proyecto, donde buscamos diferentes tipos de referentes para poder realizar un código. Primero nos guíamos del código visto en clases, para luego hacer ciertas modificaciones y lograr que se vea algo en la pantalla. Por otro lado, colocabamos imagenes ya hechas de [Wokwi Animator](https://animator.wokwi.com/) para entender un poco el movimiento y el código de la imagen. Acá cambiamos algunos parámetros, como:
 
-```
+```cpp
 #define SCREEN_I2C_ADDR 0x3D
 ```
 Se cambió a 
@@ -30,13 +30,13 @@ Se cambió a
 #define SCREEN_I2C_ADDR 0x3C
 ```
 
-insertar imagen de wokwi
+![Wokwi](./imagenes/wokwiAnimator.png)
 
 También empezamos a definir que era lo que queríamos hacer en nuestro proyecto, mis compañeras Sofía y Anto buscaron distintos tipos de poemas, comenzaron a realizar bocetos y buscar información. Sofia Cartes y yo comenzamos a intervenir el código principal para lograr distintas cosas y también buscamos información sobre algunos códigos de arduino.
 
 - Código modificado:
 
-```
+```cpp
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
@@ -93,7 +93,9 @@ void loop() {
 
 ### Potenciómetro ¿Cómo colocar un potenciómetro al arduino?
 
-insertar imagen de potenciómetro
+![Potenciometro en Wokwi](./imagenes/potenciometroWokwi.png)
+
+![Potenciometro en Wokwi](./imagenes/potenciometroWokwi-2.png)
 
 -El menor valor que puede hacer es 0 y el máximo es 1023.
   -Se escribe en digital y se lee en analógico.
@@ -130,7 +132,7 @@ void loop() {
 
 Código hecho en [Wokwi](https://wokwi.com/projects/440360994230097921)
 
-```
+```cpp
 // declarar valor
 // inicializar 0
 int valorPot = 0;
