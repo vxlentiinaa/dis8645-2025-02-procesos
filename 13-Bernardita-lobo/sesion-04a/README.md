@@ -16,38 +16,37 @@ Todas las cosas del Proyecto-01 se irán subiendo a la carpeta, y se mostrará e
 
 ¿Qué significa “poema”? pro-yein que significa “lanzar hacia adelante” o “proyectar” 
 
-pagina que cita en apa https://www.bibguru.com/es/
+página que cita en apa <https://www.bibguru.com/es/>
 
-El poema que escogimos para el proyecto-01 “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
+Poemas del Alma. (s.f.) “Cronos” – Nicanor Parra. Recuperado de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
->En Santiago de Chile
->
->Los
->
->días
->
->son
->
->interminablemente
->
->largos:
->
->
->Varias eternidades en un día.
->
->
->Nos desplazamos a lomo de luma
->
->Como los vendedores de cochayuyo:
->
->Se bosteza. Se vuelve a bostezar.
->
->
->Sin embargo las semanas son cortas
->
->Los meses pasan a toda carrera
->
->Ylosañosparecequevolaran.
+```txt
+"En Santiago de Chile
+
+Los
+
+días
+
+son
+
+interminablemente
+
+largos:
+
+Varias eternidades en un día.
+
+Nos desplazamos a lomo de luma
+
+Como los vendedores de cochayuyo:
+
+Se bosteza. Se vuelve a bostezar.
+
+Sin embargo las semanas son cortas
+
+Los meses pasan a toda carrera
+
+Ylosañosparecequevolaran."
+```
 
 #### Propuestas
 
@@ -65,15 +64,23 @@ Idea 05: Botón enciende o apaga una imagen.
 
 Para nuestro proyecto decidimos agregar una imagen que se reproduzca en la pantalla. Optamos por crear un pixel art y, para que tenga más relación con el poema, decidí hacer una pequeña representación de Santiago.
 
+![imagen](./imagenes/pixelart.jpeg)
+
 Estuve investigando algunas herramientas gratuitas para hacer pixel art, ya que nunca había hecho un dibujo de este estilo y no tengo mucha experiencia en lo gráfico. Realicé el dibujo finalmente en Paint, ya que con las herramientas que tenía era suficiente. Vi algunos videos para entender cómo guardar correctamente los archivos y cómo dibujar para que la imagen se vea y se entienda mejor.
 
 Sin embargo, la pantalla que utilizamos tiene ciertas limitaciones, ya que solo permite mostrar imágenes en blanco y negro, o en un solo color y su contraste. Esto hizo que el diseño tuviera que adaptarse a esa restricción.
+
+![imagen](./imagenes/dibujo.png)
 
 Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
 
 Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
 
 Luego, utilicé una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta me permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
+
+tambien  realice un diagrama de flujo para el proyecto-01
+
+![imagen](./imagenes/diagrama-flujo.png)
 
 ### Digital vs Analógico
 
