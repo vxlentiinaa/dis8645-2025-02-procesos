@@ -21,43 +21,45 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
-`En Santiago de Chile`
+```txt
+*En Santiago de Chile*
 
-`Los`
+*Los*
 
-`días`
+*días*
 
-`son`
+*son*
 
-`interminablemente`
+*interminablemente*
 
-`largos:`
+*largos:*
 
-`Varias eternidades en un día.`
+*Varias eternidades en un día.*
 
-`Nos desplazamos a lomo de luma`
+*Nos desplazamos a lomo de luma*
 
-`Como los vendedores de cochayuyo:`
+*Como los vendedores de cochayuyo:*
 
-`Se bosteza. Se vuelve a bostezar.`
+*Se bosteza. Se vuelve a bostezar.*
 
-`Sin embargo las semanas son cortas`
+*Sin embargo las semanas son cortas*
 
-`Los meses pasan a toda carrera`
+*Los meses pasan a toda carrera*
 
-`Ylosañosparecequevolaran.`
+*Ylosañosparecequevolaran.*
+```
 
 ## Inputs y outputs
 
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
-Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática.
+Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
 
-### Interacción (input)
+### Interacción (input):
 
 El usuario mueve la perilla del potenciómetro.
 
-### Salida de la máquina (output)
+### Salida de la máquina (output):
 
 - El texto del poema se desplaza en la pantalla OLED desde abajo hacia arriba.
 - La velocidad del desplazamiento depende de la posición del potenciómetro.
@@ -171,4 +173,4 @@ Scrolling a OLED DOWN ? (2025, agosto 20). Arduino Forum. <https://forum.ardui
 
 <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> // poemas que estamos usando
 
-<https://www.youtube.com/watch?v=l_2vnl5MOpo> video como usar potenciómetro
+<https://www.youtube.com/watch?v=l_2vnl5MOpo> video como usar potenciómetro 
