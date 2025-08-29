@@ -218,7 +218,7 @@ void loop() {
 }
 ```
 
-#### Segunda parte del codigo proyecto trabajado con Carla
+### Segunda parte del codigo proyecto trabajado con Carla
 
 intento 1: imagen que parpadea y esta al medio
 <https://wokwi.com/projects/440546331476540417>
