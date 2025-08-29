@@ -1612,18 +1612,7 @@ if (valorPot < 146) {               // 0 - 145
 
 Con este arreglo si iba a funcionar y si se iba a visualizar en la pantalla.
 
-*Videos de esos errores enviados por wetransfer.*
-
-Algunos otros errores que documenté:
-![Comillas](./imagenes/Comillas.png)
-Intenté poner los títulos de cada momento/Etapa entre comillas en la pantallita pero me mandaba error así que no lo hice.
-
-![Falta](./imagenes/Falta;.png)
-![Falta2](./imagenes/Falta.png)
-Seguido olvidaba poner ; al final o los borraba accidentalmente.
-
 ## Etapas del código
-
 Segmenta las secciones de tu código y explícalas
 
 ### Código poetario
