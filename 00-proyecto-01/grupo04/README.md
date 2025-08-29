@@ -26,7 +26,7 @@ Cerebro fundido
 
 ## Inputs y outputs
 
-Input: Usuario manipulando la perilla del potenciómetro (conectado al pin analogo A0)
+Input: Usuario manipulando la perilla del potenciómetro (conectado al pin análogo A0)
 
 Output: Haiku en pantalla OLED (refleja la información texto, dibujo, traductor)
 
@@ -314,4 +314,3 @@ Johann Perez E. (2021, 4 marzo). 💡 Cómo conectar un Zumbador Pasivo a Arduin
 - Mission Critical. (2020, 19 diciembre). how to display images on 0.96" oled using arduino. YouTube. [how to display images on 0.96" oled using arduino - YouTube](https://www.youtube.com/watch?v=kSRytu8Q0Vo&t=202s)
 
 - Código scrollVertical basado en ejemplo de @matbutom [matbutom ](https://github.com/matbutom)
-
