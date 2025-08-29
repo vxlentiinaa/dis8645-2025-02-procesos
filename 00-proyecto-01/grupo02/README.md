@@ -27,7 +27,9 @@ Segmenta las secciones de tu código y explícalas
 
 ## Roles del equipo
 
-Menciona y desarrolla los roles que ejerció cada integrante
+- Antonella Aguilar:
+- Javiera Moraga:
+- Pía Orellana: 
 
 ## Fotografías y videos del proyecto funcionado
 

@@ -4,21 +4,37 @@ Martes 12, Agosto - 2025
 
 Nota del día: soy muy mala en ortografía, perdón de antemano si faltan algunas tildes (estoy mejorando de a poco).
 
-## Referentes de la clase
+## Referentes (y otras cosas)
 
-- caja negra editora  <https://cajanegraeditora.com.ar/>
+- caja negra editora (editorial de filosofía contemporánea) <https://cajanegraeditora.com.ar/>
 - CDM  <https://cdm.link/>
 - synthopia  <https://www.synthtopia.com/>
 - bricolo (robot música)
-- Roberto Matta
-- Juan Downey
+- Roberto Matta (arquitecto y pintor chileno)
+- Juan Downey (artista chileno)
 - Taller dinamo <https://www.instagram.com/tallerdinamo?igsh=djd2N3Exc2g1Z3l3>
+- Design System International
+- MIT Media Lab
+- teenage engineering
+- MOMAGuthman Musical Instrument Competition
+- NATIONAL SAWDUST
 
 ## Qué aprendí hoy
->
->**Como usar github**
 
-- consideraciones de la página/programa:
+- **Serial begin:** Sirve para sostener la comunicación, es decir, inicializar y configurar el puerto de comunicación serial entre la placa Arduino y un ordenador u otro dispositivo, estableciendo la velocidad de transmisión de datos (en baudios) necesaria para que puedan entenderse mutuamente.
+
+Se usa dentro de void setup()
+
+`Serial begin: 9600`
+
+- **baudios:** significa a qué velocidad va un baudio, velocidad de comunicación, a qué velocidad lo estoy viendo.
+- (Bd) **Baud Rate:** cantidad de símbolos o cambios de señal por segundo en una comunicación.
+- **Serial monitor:** Sirve para la comunicación bidireccional entre tu placa Arduino y el ordenador
+- Un cable usb tiene 4 conexiones. Al conectar el arduino (sin código cargado) se usa los cables GND / VCC. Al cargar un código, la información pasa por D+ y D-
+
+### Como usar github
+
+#### consideraciones de la página/programa:
 
 1. Siempre modificar los archivos desde el repositorio del orginal (personal - forked from).
 2. "BRANCH" siempre debe mantenerse en 1.
@@ -31,11 +47,11 @@ Nota del día: soy muy mala en ortografía, perdón de antemano si faltan alguna
 
 - markdown: ejemplos rapidos de como poner el texto los encuentras desde este link (funciones).
 
-<https://markdownguide.offshoot.io/cheat-sheet/>*
+<https://markdownguide.offshoot.io/cheat-sheet/>
 
 ## Charla + invitados
->
->**Sokio - Díaz Gallardo**
+
+### Sokio - Díaz Gallardo
 
 *Artista chileno con una carrera internacional en música electrónica, performances y ópera.*
 

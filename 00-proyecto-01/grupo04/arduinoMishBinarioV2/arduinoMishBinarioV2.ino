@@ -43,12 +43,14 @@ String haiku2 = binario2;
 // Constantes para calcular el tamaño del lienzo
 
 // Espacio vertical entre cada objeto en pantalla
-const int PADDING = 10;
+// modificar esto para epaciado texto e imagen
+const int PADDING = 40;
+
 // Altura estimada para el texto
-const int TEXT_HEIGHT = 10;
-const int TEXT_BINARY_HEIGHT = 8 * TEXT_HEIGHT;
+const int TEXT_HEIGHT = 5;
+const int TEXT_BINARY_HEIGHT = 5 * TEXT_HEIGHT;
 // Altura de la imagen
-const int IMAGE_HEIGHT = 64;
+const int IMAGE_HEIGHT = 125;
 
 // altura total = 3 * texto + 3 imágenes + 4 separaciones
 const int TOTAL_CONTENT_HEIGHT = (3 * TEXT_HEIGHT) + (3 * IMAGE_HEIGHT) + (5 * PADDING);
