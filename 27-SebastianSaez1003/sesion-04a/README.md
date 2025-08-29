@@ -551,3 +551,27 @@ pantallita.setCursor(0,0)
 pantallita.setCursor(64,0)
 
 ```
+Ahora el siguiente problema era que quedaba cargado la conversación anterior en, el display de la pantalla OLED, con los ejemplos me imaginaba que pantallita.clearDisplay() podía ayudar, pero solo era en parte, debido  que una vez ponia eso, nada más volvió a salir, pero me di cuenta de la existencia de pantallita.display(); en el código de los profes que tenía el siguiente comentario // Actualiza la pantalla
+
+de esta manera intente aplicar que una vez todo lo del momento ha hecho display, le pondré un .clearDisplay, y en el siguiente if statement pondré un pantallita.display(); que funciona justo como yo quería
+
+
+```cpp
+
+if(respCon2 && !poteValor && !respCon4 && !respCon5){
+          pantallita.setCursor(0, 0);
+          pantallita.println(conversa4);
+
+// permite que el mensaje sea observado en la pantalla
+          pantallita.display();
+          delay(3000);
+          respCon4 = true;
+// borra el mensaje, ya que llego al final de su funcionamiento
+          pantallita.clearDisplay();
+
+             }
+
+```
+
+
+
