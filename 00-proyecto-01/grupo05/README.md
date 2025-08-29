@@ -21,6 +21,7 @@ El objetivo es generar una experiencia poética interactiva, donde el espectador
 
 Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
+```txt
 *"En Santiago de Chile*
 
 *Los*
@@ -46,18 +47,19 @@ Texto de referencia: Poema “Cronos” de Nicanor Parra, extraído de: <https:/
 *Los meses pasan a toda carrera*
 
 *Ylosañosparecequevolaran."*
+```
 
 ## Inputs y outputs
 
 ¿Cuál es la interacción? ¿Qué ofrece la máquina de vuelta?
 
-Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática. 
+Se interactúa al mover la perilla del potenciómetro, la cual regula la velocidad a la que se muestra el poema y la imagen en la pantalla. Esto nos ofrece una exhibición de un poema que se desplaza a lo largo de la pantalla de manera automática.
 
-### Interacción (input):
+### Interacción (input)
 
 El usuario mueve la perilla del potenciómetro.
 
-### Salida de la máquina (output):
+### Salida de la máquina (output)
 
 - El texto del poema se desplaza en la pantalla OLED desde abajo hacia arriba.
 - La velocidad del desplazamiento depende de la posición del potenciómetro.
@@ -87,6 +89,7 @@ Utilizamos una página web que convierte dibujos en código, transformándolos e
 ### Poema
 
 En la primera parte del código probamos cómo poner una parte del poema para que aparezca en la pantalla. Intentamos varias formas para ver cómo quedaría mejor:
+
 - `display.println(F("En Santiago de Chile\los dias son\interminablemente\largos"));` esta forma no sirve para que los versos en líneas separadas
 - `display.println(F("En Santiago de Chile" "los dias son" "interminablemente" "largos"));` de esta manera, al igual que la anterior, los versos no aparecen en líneas separadas.
 - `display.println(F("En Santiago de Chile"));` para escribir el verso y `display.println(F(""));` para separar el verso del siguiente
@@ -258,9 +261,9 @@ Aileen y Félix investigaron cómo usar el potenciómetro para controlar la velo
 
 - <https://wokwi.com/projects/344892191015961170> ejemplo pontenciometro + servo. Sacado de <https://docs.wokwi.com/parts/wokwi-potentiometer>
 
-- CRONOS. (s/f). Poemas-del-alma.com. Recuperado el 29 de agosto de 2025, de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm> 
+- CRONOS. (s/f). Poemas-del-alma.com. Recuperado el 29 de agosto de 2025, de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
-- Electrónicos Por, E. M. [@ElectronicosporelMundo]. (s/f). ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino [[Object Object]]. Youtube. Recuperado el 29 de agosto de 2025, de <https://www.youtube.com/watch?v=l_2vnl5MOpo>
+- Electrónicos Por, E. M. @ElectronicosporelMundo. (s/f). ARDUINO - Como Mostrar el Valor del Potenciómetro en Pantalla OLED 128x64 con Arduino. Youtube. Recuperado el 29 de agosto de 2025, de <https://www.youtube.com/watch?v=l_2vnl5MOpo>
 
 - YouTube. (s/f-b). CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos. Youtu.Be. Recuperado el 29 de agosto de 2025, de <https://youtu.be/YyC2i91EwNw?si=ATsIx5gcO_lLDh3E>
 
