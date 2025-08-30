@@ -1,6 +1,7 @@
 # sesion-01a
 
 ## ¿Qué es una máquina?
+
 - Objeto físico con capacidad de ejecutar procesos.
 - Tiene input y output.
 - Requiere energía y funciona en el tiempo (sustrato de la energía).
@@ -11,13 +12,13 @@
 - Algo estático no es una máquina.
 
 ### Etimología
+
 - Máquina: del latín machina, del griego mekhane → artificio, ingenio, medio.
 - Tecnología: del griego tekhné → arte, oficio, destreza.
 - Computación: del latín computare → contar, calcular.
 
-
-
 ## Máquinas Computacionales
+
 - Objeto físico que procesa información.
 - Utiliza lenguaje (signos y símbolos).
 - Orden lógico: combinacional y secuencial.
@@ -27,20 +28,19 @@
 - Requiere energía y funciona en el tiempo para transformar información.
 
 ### Conceptos relacionados
+
 - STS: Science, Technology, Sociality.
 - PCBA: Printed Circuit Board Assembly.
 - PCB SMT: Pick and Place (montaje superficial).
 
-
-
 ## Microcontroladores
+
 - Circuito integrado programable.
 - Puede realizar distintas tareas según el código cargado.
 - Ejemplo: Arduino (usaremos Arduino Uno R4 Minima).
 
-
-
 ## Personas Relevantes
+
 - **Muriel Cooper** – Pionera del diseño digital y MIT Press.
 - **John Maeda** – Convergencia entre diseño y tecnología.
 - **Casey Reas** – Co-creador de *Processing*, arte con software.
@@ -50,14 +50,15 @@
 - **Alan Turing** – Padre de la informática teórica.
 - **Mar Hicks** – Historiadora sobre mujeres en informática.
 
-
-
 ## Referencias y Herramientas
+
 - Rafael Benguria – Charlas TED sobre arte y tecnología.
 - Processing – Software para programación visual y arte computacional.
 - Utadeo.com – Fuente de información sobre diseño y tecnología.
+
 ---
-## Encargo 01: Investigar sobre Ada Lovelace
+
+## encargo 01: Investigar sobre Ada Lovelace
 
 Ada Lovelace (1815–1852) es reconocida como la primera programadora de la historia. Su contribución se basa en la creación del primer algoritmo destinado a ser procesado por una máquina, anticipando conceptos de la programación informática moderna más de un siglo antes de que existieran las computadoras electrónicas.
 
@@ -83,7 +84,7 @@ El trabajo de Ada Lovelace representa el nacimiento de la programación informá
 
 Ada Lovelace no construyó computadoras, pero sentó las bases conceptuales para su funcionamiento y aplicación. Su algoritmo y sus notas visionarias justifican que se le reconozca como la primera programadora de la historia, un título que ha influido en la ciencia de la computación hasta la actualidad.
 
-## Encargo 02: Investigar sobre Alan Turing
+## encargo-02: Investigar sobre Alan Turing
 
 Alan Turing (1912–1954) es considerado uno de los padres de la ciencia de la computación. Sus aportes incluyeron la creación de un modelo matemático capaz de describir cualquier proceso de cálculo, además de avances significativos en criptografía y los inicios de la inteligencia artificial.
 

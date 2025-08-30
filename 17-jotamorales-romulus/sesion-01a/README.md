@@ -1,4 +1,5 @@
 # sesion-01a
+
 Martes 5 de Agosto 2025
 
 ## Un nuevo comienzo
@@ -6,11 +7,12 @@ Martes 5 de Agosto 2025
 Otro semestre tomando un curso con Aarón Montoya y Matías Serrano. Quise elegir una asignatura que fuera una continuación de lo que vimos en el ramo de máquinas electrónicas del primer semestre de 2025. En el curso había un ambiente que me pareció muy agradable y que me ayudó bastante a mejorar como persona. Clase a clase, los profesores te iban enseñando cosas que muchas veces no se hablan mucho.
 
 ***
+
 ### ¿Qué es una máquina?
 
 Un objeto que tiene una entrada y una salida - Un dispositivo que interactúa y responde - Algo que hace funcionar un proceso automáticamente.
 
-### ¿Y la computación?? 
+### ¿Y la computación??
 
 Una máquina que, usando un lenguaje o datos, produce resultados - La capacidad de una máquina para calcular y tomar decisiones.
 
@@ -19,23 +21,24 @@ Una máquina que, usando un lenguaje o datos, produce resultados - La capacidad 
 Un sistema que recibe datos o lenguaje, los procesa mediante instrucciones o programas, y produce resultados o salidas?
 
 ***
+
 ### Que haremos?
 
-Este semestre dejaremos de lado el uso de PCB para dar paso al trabajo con PCBA. En lugar de montar los circuitos físicamente, diseñaremos las placas desde el computador, y estas serán fabricadas y ensambladas en su totalidad en China. Es decir, las placas vendrán ya con todos los componentes soldados, listas para ser utilizadas. Esto nos permitirá enfocarnos en el diseño y funcionamiento del sistema, sin necesidad de realizar el ensamblaje manual. 
+Este semestre dejaremos de lado el uso de PCB para dar paso al trabajo con PCBA. En lugar de montar los circuitos físicamente, diseñaremos las placas desde el computador, y estas serán fabricadas y ensambladas en su totalidad en China. Es decir, las placas vendrán ya con todos los componentes soldados, listas para ser utilizadas. Esto nos permitirá enfocarnos en el diseño y funcionamiento del sistema, sin necesidad de realizar el ensamblaje manual.
 
 ***
 
 ### Materiales
 
-Al final de la clase se nos hizo entrega del Arduino Uno R4 Mínima el cual es una versión más simple del Arduino Uno. Debemos llevar un cable tipo C a usb para utilizarlo el viernes durante la clase. 
+Al final de la clase se nos hizo entrega del Arduino Uno R4 Mínima el cual es una versión más simple del Arduino Uno. Debemos llevar un cable tipo C a usb para utilizarlo el viernes durante la clase.
 
 ***
 
-## Encargo 1
+## encargo-01
 
 ***
 
-### Alan Turing 
+### Alan Turing
 
 Mi papá siempre me habla de Alan Turing y me dice que es la persona que realmente sentó las bases para todo lo que hoy conocemos como computación. Pero nunca me contó toda la historia completa, y cuando la supe, me pareció muy triste.
 
@@ -51,7 +54,7 @@ Es muy importante recordar a Turing no solo como un genio de la ciencia, sino ta
 
 ***
 
-### Ada lovelace 
+### encargo-02: Ada lovelace
 
 Recuerdo que fue nombrada en algunas clases de matemáticas durante el colegio, pero esas clases nunca fueron mi fuerte. Además, ha pasado bastante tiempo desde entonces, por lo que nunca tuve mucho interés en ella y tuve que aprender sobre Ada Lovelace desde cero. Fue una mujer muy adelantada a su tiempo y una pionera en la historia de la computación.
 
@@ -65,8 +68,7 @@ A pesar de su genio, Ada tuvo una vida difícil. Su salud empeoró con problemas
 
 El legado que dejó Ada Lovelace es enorme: es reconocida como la primera programadora de la historia y su trabajo sentó las bases para la informática moderna. Su visión de que las máquinas podrían hacer mucho más que cálculos abrió el camino a la programación y a la tecnología que usamos hoy.
 
+### Fuentes utilizadas
 
-### Fuentes utilizadas 
 * <https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864>
 * <https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352>
-

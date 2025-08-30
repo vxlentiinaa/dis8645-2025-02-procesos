@@ -35,7 +35,7 @@
 
 **STS:** Science Technology Sociality.
   
-**PCBA:** La A es de assamble.
+**PCBA:** La A es de assembly.
 
 **Micro controlador:** circuito integrado programable.
 
