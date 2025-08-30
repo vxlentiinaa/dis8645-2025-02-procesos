@@ -1,4 +1,5 @@
 # sesion-04a
+
 Como contenido de clase, los profes nos enseñaron cómo colocar un potenciómetro hacia nuestra protoboard, y de esa manera estar interconectada hacia nuestra pantalla y nuestro Arduino.
 
 También nos enseñaron la función interna de la protoboard, donde cada columna numerada tendrá la misma conexión, como si fuese un cable continuo.
@@ -17,7 +18,7 @@ Como ya tenía mencionado en mi investigación sobre cómo funcionaban los poten
 
 Como idea de cómo podíamos llevar a cabo nuestra idea de las distintas conversaciones del usuario con nuestro Arduino, sabíamos que la parte más esencial del codigo seria los “if” statements, para poder diferenciar los caminos tomados por el usuario, según las opciones elegidas después de cada pregunta dada por el Arduino, donde dependiendo de la distinta respuesta que dé el usuario, saldrian distintas preguntas, osea que no todas las personas tendrían la misma experiencia al momento de tener la conversación con nuestro Arduino.
 
-A partir de los conocimientos que tenemos actualmente con las clases que nos han sido impartidas, los ejemplos de los profesores, y ciertos conocimientos previos, hicimos un pequeño código de prueba para ver si es que, como concepto podría funcionar, el cual fue el siguiente, que también puede ser encontrado con más detalle en el repositorio de Angela O’Ryan @hiinalia donde dejamos todo con mayores detalles del paso a paso, que yo explicare algunas de las razones de las decisiones del porqué tomamos cada opción del este “esqueleto” que está presentado a continuación: 
+A partir de los conocimientos que tenemos actualmente con las clases que nos han sido impartidas, los ejemplos de los profesores, y ciertos conocimientos previos, hicimos un pequeño código de prueba para ver si es que, como concepto podría funcionar, el cual fue el siguiente, que también puede ser encontrado con más detalle en el repositorio de Angela O’Ryan @hiinalia donde dejamos todo con mayores detalles del paso a paso, que yo explicare algunas de las razones de las decisiones del porqué tomamos cada opción del este “esqueleto” que está presentado a continuación:
 
 ```cpp
 // a la derecha, mayor el número
@@ -121,22 +122,22 @@ Con lo que nos referimos con esto es el hecho de que si no tuviéramos estas res
 void loop() {
 // que se cargue la conversacion 1
 string (conversa1)
-	// cuando el pote este hacia la derecha
+ // cuando el pote este hacia la derecha
 if (valorpote == true){
 
 // cargaremos la conversacion 2
 string (conversa2)
 
-	// cuando este el potenciometro a la derecha
+ // cuando este el potenciometro a la derecha
 if (valorpote == true){
 
 // la conversacion 4 sera cargada
-	 string (conversa4)
+  string (conversa4)
 }
 
 // la conversacion 5 sera cargada
 if (valorpote == false){
-	 string (conversa5)
+  string (conversa5)
 }
 
 }
@@ -177,6 +178,7 @@ if(conversa1 == true && potevalor == true && !respCon2Der == true && !respCon2Iz
     }
 
 ```
+
 lo que está queriendo decir este encadenamiento de los if statements es, una vez la conversa1 sea haya sido cargada, el valor del potenciómetro está en la dirección derecha, osea en su estado true, **y no ha recibido ni la respuesta izquierda del pote, ni la respuesta derecha del pote** podrá continuar a la conversa4, que tambien solo avanzara cuando reciba la siguiente respuesta correspondiente
 
 Ahora, con un entendimiento de cómo confiamos en el encadenamiento de las acciones, pasaremos a incluir nuestra pantalla OLED y el potenciómetro para poder confirmar que el funcionamiento sea el correcto, así que incluimos las librerías de Adafruit, con una base de el ejemplo de la [sesion-03b](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01) donde tomaremos los datos de el setup de la pantalla, para no complicarnos haciendolo desde 0, la posicion de donde aparecera el texto y el tamaño del texto, donde quedaria de la manera siguiente con 7 distintas opciones de conversaciones, al identificar lo confuso que era el hecho de hacer que cada conversación tuviese una opcion izquierda o derecha, creamos una variable que fuese la respuesta de esa opcion, donde quedo el codigo de la siguiente forma:
@@ -517,11 +519,12 @@ String conversa7 = "waos7";
 }
 
 ```
+
 Pero ocurrió un pequeño problema, donde sólo aparece una de las pantallas que se quieren observar, así que tenemos que hacer una revisión de cuál sería la razón del porque pasa esto, donde solo aparece el mensaje de waos1, waos3 y waos 6.
 
 Este código está increíblemente desordenado, al punto donde ni siquiera entendía que eran las variables que tenia que cambiar, no cambiar, realmente era un desastre, así que para empezar busque en internet a alguien que tenía un problema similar al mio, mi búsqueda específica fue la siguiente: “in if statements is it necessary to put == true for a boolean for c++”, lo cual me llevó a esta respuesta en un foro:
 
-https://stackoverflow.com/a/8844632
+<https://stackoverflow.com/a/8844632>
 
 donde aprendí que, al menos con las variables booleanas dentro de los if statements, no es necesario el escribir == true, o == false, sino que el mero hecho de mencionar la variable como !waos, donde eso significa waos == false, ahorrando un poco de dolor de cabeza de asegurarme que todo esté perfectamente escrito, y hace un poco más agradable a la vista cada If statement
 
@@ -537,7 +540,7 @@ También fueron eliminadas las montoneras de if statements, ya que necesito iden
 
 Lo que personalmente más me molestaba era el hecho de que el texto apareciera uno al lado de otro unas veces, otras veces abajo, (aunque si sabia que estas eran causadas por el hecho de haber escrito pantallita.println();) asi que busque, que era lo que me estaba faltando así que me puse a revisar el ejemplo que hicieron los profesores, previamente mencionado, buscando en google cada una de las líneas que no comprendía, para ver si justo era lo que me faltaba, hasta encontrarme con esto:
 
-https://forums.adafruit.com/viewtopic.php?t=107808#top
+<https://forums.adafruit.com/viewtopic.php?t=107808#top>
 
 lo que me faltaba era la función .setCursor, que hará que cada una de las cargas en el display sean a partir de un punto que yo pondré, donde es primero la coordenada de izquierda a derecha, y después desde arriba hacia abajo, así que poniéndola antes de cada texto este se posiciona a la esquina superior izquierda cuando le ponga el valor de (0,0)
 
@@ -551,10 +554,10 @@ pantallita.setCursor(0,0)
 pantallita.setCursor(64,0)
 
 ```
+
 Ahora el siguiente problema era que quedaba cargado la conversación anterior en, el display de la pantalla OLED, con los ejemplos me imaginaba que pantallita.clearDisplay() podía ayudar, pero solo era en parte, debido  que una vez ponia eso, nada más volvió a salir, pero me di cuenta de la existencia de pantallita.display(); en el código de los profes que tenía el siguiente comentario // Actualiza la pantalla
 
 de esta manera intente aplicar que una vez todo lo del momento ha hecho display, le pondré un .clearDisplay, y en el siguiente if statement pondré un pantallita.display(); que funciona justo como yo quería
-
 
 ```cpp
 
@@ -575,7 +578,6 @@ if(respCon2 && !poteValor && !respCon4 && !respCon5){
 
 Ahora por fin, llegue a un código, que aunque relativamente simple, lograba llegar a los parámetros que nos imaginamos, después de muchas neuronas cansadas, que sería el siguiente:
 
-
 ```cpp
 
 // donde pantallita es mi display estara arriba a la izquierda
@@ -590,7 +592,6 @@ pantallita.setCursor(64,0)
 Ahora el siguiente problema era que quedaba cargado la conversación anterior en, el display de la pantalla OLED, con los ejemplos me imaginaba que pantallita.clearDisplay() podía ayudar, pero solo era en parte, debido  que una vez ponia eso, nada más volvió a salir, pero me di cuenta de la existencia de pantallita.display(); en el código de los profes que tenía el siguiente comentario // Actualiza la pantalla
 
 de esta manera intente aplicar que una vez todo lo del momento ha hecho display, le pondré un .clearDisplay, y en el siguiente if statement pondré un pantallita.display(); que funciona justo como yo quería
-
 
 ```cpp
 
@@ -792,8 +793,3 @@ delay (5000);
 
 
 ```
-
-
-
-
-
