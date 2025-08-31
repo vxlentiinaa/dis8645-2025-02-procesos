@@ -26,7 +26,7 @@ if (dia == martes || dia == viernes)
 - [UTADEO](https://www.utadeo.edu.co/es/continuada/educacion-continua/53376/catedra-en-diseno-arte-y-ciencia)
 - Ada Lovelace inventora de la computación 1852
 - Alan Turing
-- MArk Hicks - historiadora de la computación
+- Mar Hicks - historiadora de la computación
 
 ## Qué es una "máquina"
 
@@ -38,7 +38,7 @@ if (dia == martes || dia == viernes)
 - Componentes electrónicos
 - Require **energía**
 - **tiempo** - "sustrato de la energía" - Misa - no se puede cambiar algo sin el tiempo
-- Obvetivo definido
+- Objetivo definido
 - **Compuesta** por más de un elemento
 - Intención
 - Facilitar
@@ -66,4 +66,4 @@ if (dia == martes || dia == viernes)
 
 Circuito integrado programable
 
-Vamos a usara Arduino R4 Minima
+Vamos a usar Arduino R4 Minima

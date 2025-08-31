@@ -1,7 +1,8 @@
 # sesion-01a
+
 Mermaid, de texto a diagrama
 
-Mechanic.design 
+Mechanic.design
 
 Tiny Trainable Instruments: la tesis de Aarón Montoya
 
@@ -13,7 +14,7 @@ La computación tiene que ver con el lenguaje, el orden lógico, para ver de qu�
 
 HCI, interacción humana-computador; vamos a hacerlas en un punto…
 
-Estas máquinas tienden a procesar información. 
+Estas máquinas tienden a procesar información.
 
 STS Science Technology and Society
 
@@ -51,7 +52,7 @@ Mar Hicks y cómo se borró a las mujeres de la computación y la historia
 
 La computación es superhomosexual y feministasuper homosexual y feminista
 
-## encargo 1 "investigar sobre ada lovelace"
+## encargo-01: investigar sobre ada lovelace
 
 Hija del poeta George Gordon Byron (Lord Byron) y Anne Isabella Milbanke nacida el 10 de diciembre del año 1815 en Londres, Inglaterra.
 
@@ -79,20 +80,20 @@ Luego, Ada Lovelace empezó a hacer apuestas, las cuales posiblemente podrían s
 
 Como un último deseo, pidió que la enterraran junto a su padre, donde con ella, su contribución a la ciencia sería enterrada, ya que no se llevó a cabo la construcción de ninguna de las grandes máquinas de las cuales soñó en algún momento.
 
-Lovelace murió debido a un cáncer uterino en 1852 a sus 36 años, la misma edad en la cual su padre había muerto. 
+Lovelace murió debido a un cáncer uterino en 1852 a sus 36 años, la misma edad en la cual su padre había muerto.
 
 Tomó un centenario para que fuese re descubierta la gran sabiduría de Ada donde en medio de la 2da guerra mundial una máquina, nombre en código “the bombe” respondería una de sus plegarias por una máquina la cual pudiese ver y reconocer data.
 
 Fue tan importante que existe un día dedicado a recordarla el cual se conmemora desde el año 2009, el segundo martes de cada octubre, en este dia se visibiliza el trabajo que han hecho las mujeres por la ciencia y la tecnología
 
 Referencias:  
-- https://www.youtube.com/watch?v=QgUVrzkQgds  
-- https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864  
-- https://www.nationalgeographic.com/history/history-magazine/article/this-countess-of-computing-wrote-the-first-computer-program  
-- https://hub.laboratoria.la/el-dia-de-ada-lovelace-y-por-que-es-importante-reconocer-el-rol-de-las-mujeres-en-tecnologia  
 
+- <https://www.youtube.com/watch?v=QgUVrzkQgds>  
+- <https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864>  
+- <https://www.nationalgeographic.com/history/history-magazine/article/this-countess-of-computing-wrote-the-first-computer-program>  
+- <https://hub.laboratoria.la/el-dia-de-ada-lovelace-y-por-que-es-importante-reconocer-el-rol-de-las-mujeres-en-tecnologia>  
 
-## encargo 2 "investigar sobre alan turing"
+## encargo-02: investigar sobre alan turing
 
 Nació el 23 de Junio del 1912 en Londres, Gran bretaña
 
@@ -126,8 +127,6 @@ En 2013 la reina de Inglaterra le atribuyó un indulto póstumo, 59 años despu�
 
 Referencias:  
 
-- https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352#google_vignette  
+- <https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352#google_vignette>  
 
-- https://www.youtube.com/watch?v=-YC71lE9O2k  
- 
-
+- <https://www.youtube.com/watch?v=-YC71lE9O2k>  
