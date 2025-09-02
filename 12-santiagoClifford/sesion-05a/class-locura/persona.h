@@ -1,11 +1,12 @@
 #ifndef PESONA_H
 #define PERSONA_H
 
+#include <Arduino.h>
+
 //clases
 class Persona {
 
 public:
-
   //métodos
   //son funciones dentro de una clase
 
@@ -26,8 +27,15 @@ public:
   // funcion int
   int getEdad();
 
+
+  String getRut();
+
+  void setRut(String nuevoRut);
+
+
   bool vidaState;
-  int edad; 
+  int edad=-1;
+  String rut;
 };
 
 #endif
