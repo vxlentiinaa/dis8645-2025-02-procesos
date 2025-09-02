@@ -8,10 +8,9 @@ Teloneo
 
 - Todo tiene cualidades.
 - La materia y su forma > filosofía de Aristóteles, la materia es lo que una cosa está hecha, mientras que la forma es la escencia o estructura que determina esa materia.
-
 - [OOO](https://en.wikipedia.org/wiki/Object-oriented_ontology): Ontología Orientada a Objetos. Corriente filosófica asociada al realismo especulativo que propone que los objetos (físicos, ideales, conceptuales) son entidades primordiales de la realidad
 - Fenomenología > el estudio de las cosas como aparecen
-- Programación orientada a objeto
+- [POO](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos) Programación orientada a objeto
 - 10 categorías aristotélicas
 - lenguaje [c++](https://es.wikipedia.org/wiki/C%2B%2B)
 - Bjarne stroustrup
