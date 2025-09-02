@@ -352,7 +352,7 @@ void recievetiraDado() {
 }
 
 void showresultadoDado() {
-if (tiraDado == ‘d’ ) {
+if (tiraDado == "d" ) {
 // Mostrar en la consola el mensaje de "Has tirado el dado" para que a continuación se demuestre qué carácter fue enviado.
         Serial.print("¡Has tirado el dado! /n");
 // Para crear tensión, se demora en darte el resultado
@@ -365,7 +365,7 @@ delay(2000)
   delay(500);
 
     }
-if (randNumber == ‘1’) {
+if (randNumber == "1") {
  Serial.print (“¡Fallo critico!”)
   }
 
