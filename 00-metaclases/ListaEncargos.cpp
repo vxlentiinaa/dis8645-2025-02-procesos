@@ -47,7 +47,7 @@ ListaEncargos::ListaEncargos()
     ListaEncargos::lista.push_back(
         Encargo(
             8,
-            "4a",
+            "4b",
             "investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins"));
     "));
 }
