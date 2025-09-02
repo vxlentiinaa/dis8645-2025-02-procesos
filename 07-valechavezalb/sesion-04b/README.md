@@ -59,9 +59,56 @@ Publicado por Naranja Publicaciones, se trata de poesía visual y conceptual, do
 4. Proyecto de Mnemotecnia (2017)
 Publicado en España es un trabajo híbrido entre poesía, memoria y experimentación visual, que explora el concepto de mnemotecnia (técnias para recordar), usando palabras, imágenes y estructuras gráficas que funcionan como "dispositivos de memoria". El texto se convierte en una surte de archivo o constelación de recuerdos en tensión.
 
+
+# Clase de hoy
+
+## ¿Qué son las clases?
+- Es un concepto relacionada a la **programación orientada a objetos (POO)**, se puede entender como un molde o plantilla que define cómo serán los objetos que se creen a partir de ella.
+- Una clase se compone de dos cosas:
+
+1. Atributos (propiedades o varibales)
+2. Métodos (funciones o comportamientos
+
+Detro de las clases hay muchas opciones como public: 
+
+**archivo.h**
+archivo en donde se crean clases para definir algo. Ejemplo se crea la clase de Persona, y dentro de estas hay constructores, que son los parámetros que necesito para que sea una persona, por ejemplo: si usa lentes o no, etc. (ejemplo de la clase)
+
+
+
+
+### Lenguaje C
+- Sus archivos terminan en .c o .h
+**C++**
+- es o mismo que cpp (c plus plus en inglés)
+
+
+ARDUINO
+Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí ambos archivos.
        
 
-  
 
+
+
+
+
+
+  
+*Otros apuntes interesantes...*
+**Categorías de Aristóteles**
+1. Sustancia
+2. Cantidad
+3. Cualidad
+4. Relación
+5. Lugar
+6. Tiempo
+7. Posición (o Situación)
+8. Posesión (o Hábito)
+9. Acción
+10. Pasión
+
+- [https://openframeworks.cc/] para programar una aplicación.
+- Para programar cosas en IOS se usa Swift, para crear aplicaciones.
+- NORM computador que funciona con el lenguaje SuperCollider y también utiliza Lua.
 
   
