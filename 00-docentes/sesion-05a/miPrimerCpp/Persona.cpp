@@ -18,6 +18,11 @@ int Persona::getEdad() {
   return Persona::edad;
 }
 
+// get y set de rut
+String Persona::getRut(){
+  return Persona::rut;
+}
 
-
-
+void Persona::setRut(String nuevoRut){
+  Persona::rut = nuevoRut;
+}
