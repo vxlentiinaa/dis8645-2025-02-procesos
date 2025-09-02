@@ -87,10 +87,10 @@ archivo en donde se crean clases para definir algo. Ejemplo se crea la clase de 
 **ARDUINO**
 Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí ambos archivos.
 
-Para las proximas entregas, tendremos un sensor.h o ptenciometro.h
+- **Para las proximas entregas, tendremos un sensor.h o ptenciometro.h**
 
 # Ejercicios clase
-- Las clases se hacen con .h y .cpp + el archivo arduino .ino
+- Las clases de los archivos se hacen con **.h** y **.cpp **+ el archivo arduino **.ino**
 
 **ARCHIVO INO**
 ```cpp
@@ -194,14 +194,83 @@ int Persona::getEdad() {
 }
 ```
 
+## Ejercicio para usar sensores análogos 
 
+**SensorAnalogo.h**
+```cpp
+#ifndef SENSOR_ANALOGO_H
+#define SENSOR_ANALOGO_H
 
+#include <Arduino.h>
 
+class SensorAnalogo {
 
+public:
+  // constructor
+  SensorAnalogo(int nuevaPatita);
 
+    // destructor
+  ~SensorAnalogo();
 
+  void definirRangoUtil(int nuevoMin, int nuevoMax);
 
+  void definirRangoMapeo(int nuevoMin, int nuevoMax);
+
+  void leerValor();
   
+
+  int patita;
+
+  int valorActual;
+  int valorMinimo;
+  int valorMaximo;
+
+  int valorMapeado;
+  int rangoMapeadoMin;
+  int rangoMapeadoMax;
+
+  String nombre;
+
+};
+
+#endif
+```
+
+**SensorAnalogo.h**
+```cpp
+#include "SensorAnalogo.h"
+
+
+  // constructor
+  SensorAnalogo::SensorAnalogo(int nuevaPatita){
+    SensorAnalogo::patita = nuevaPatita;
+  }
+
+    // destructor
+  SensorAnalogo::~SensorAnalogo(){}
+
+  void SensorAnalogo::definirRangoUtil(int nuevoMin, int nuevoMax){
+    SensorAnalogo::valorMinimo = nuevoMin;
+    SensorAnalogo::valorMaximo = nuevoMax;
+  }
+
+  void SensorAnalogo::definirRangoMapeo(int nuevoMin, int nuevoMax){
+    SensorAnalogo::rangoMapeadoMin = nuevoMin;
+    SensorAnalogo::rangoMapeadoMax = nuevoMax;
+  }
+
+  void SensorAnalogo::leerValor() {
+    // leer el valor con analogRead
+    SensorAnalogo::valorActual = analogRead(SensorAnalogo::patita);
+
+    SensorAnalog::valorMapeado = map(SensorAnalogo::valorActual, 
+    SensorAnalogo::valorMinimo, SensorAnalogo::valorMaximo,
+    SensorAnalogo::rangoMapeadoMin, SensorAnalogo::rangoMapeadoMax 
+    );
+
+  }
+```
+ 
 *Otros apuntes interesantes...*
 **Categorías de Aristóteles**
 1. Sustancia
