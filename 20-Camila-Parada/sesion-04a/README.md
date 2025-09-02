@@ -35,10 +35,6 @@ TPara crear un lenguaje es necesario sabe un lenguaje de programación.
 
 Turing complete
 
-Creación de carpetas o vinculos:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e874dd1-23b2-49ed-88ea-8334b9b38e86" />
-Multiple ino files.
-
 constantes.h (tipo de archivo c++). no sabe que son vecinos.
 
 ```cpp
