@@ -433,3 +433,21 @@ void showNewData(){
 ```
 
 ## encargo 4 "programar y equivocarse 3 veces, documentar visualmente" 
+
+Aquí se puede observar el error de mi prueba de escritura de código que yo me imaginé, el cual ni siquiera logra pasar la parte de comprobar el funcionamiento.
+
+![Foto de prueba del proyecto de LEDs](./imagenes/sesion-01b-LEDmalo.png)
+
+A continuación, un video de su funcionamiento correcto, una vez corregí y adapté el código que investigué.
+
+![Placeholder para video del su funcionamiento correcto](youtube)
+
+Aquí muestro los mensajes de error con mis primeros códigos, los cuales más que todo están erróneos por la falta del uso de ";" en múltiples partes.
+
+![foto foto](./imagenes/sesion-01b-DadoMalo.png)
+
+![foto foto](./imagenes/sesion-01b-DadoMalo2.png)
+
+Pero, una vez que logro hacer funcionar, se pueden observar los resultados de mi dado, con la "tensión" que le programé antes de entregar los resultados, esta siendo visible gracias al timestamp de la parte de la izquierda del monitor serial.
+
+![foto foto](./imagenes/sesion-01b-DadoFuncional.png)
