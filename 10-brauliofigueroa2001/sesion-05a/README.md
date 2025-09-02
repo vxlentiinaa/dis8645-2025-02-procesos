@@ -63,7 +63,7 @@
 -   si no hay void antes de la función, siempre debe tener un retorno
 -   una clase es unconstructo computacional que engloba dentro de el variables y funciones
 -   Serial.println(aristoteles.getEdad()); significa, aristóteles dime cuánto es tu edad, esto retorna un número entero
--  **en esta parte me perdí, desde las 11:10 aprox**
+-  **en esta parte me perdí, desde las 11:10 aprox, repasar completamente antes del break y concepto de class y todo eso**
 -
 -
 -   <arduino.> significa, donde sea que esté, en alguna parte del computador
