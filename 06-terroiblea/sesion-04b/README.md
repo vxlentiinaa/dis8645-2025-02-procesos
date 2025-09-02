@@ -2,11 +2,11 @@
 
 Viernes 29 de Agosto, 2025
 
-Nota del día: Fue día de presentación de proyectos así que realmente no anote nada de clase en general ya que estaba algo nerviosa por mi presentación, pero si me gustaron mucho los proyectos de todos, especialmente el del grupo 06 (texto en espiral). 
+Nota del día: Fue día de presentación de proyectos así que realmente no anote nada de clase en general ya que estaba algo nerviosa por mi presentación, pero si me gustaron mucho los proyectos de todos, especialmente el del grupo 06 (texto en espiral).
 
 ## Encargo
 
-Investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins. 
+Investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins.
 
 ### Allison Parrish (EEUU)
 
@@ -26,7 +26,7 @@ Es considerada una de las voces más influyentes en la poesía digital contempor
 2. **Articulations** (2018) – colección de poesía generada con código que explora la fonética y la sonoridad.
 3. Proyectos en línea como **Poetry Bots** en Twitter, que publicaban poemas generados automáticamente.
 
-fragmento "compasses": 
+fragmento "compasses":
 
 ```cpp
 west west north  
@@ -98,7 +98,7 @@ Es una de las voces más importantes de la poesía experimental en Chile y Amér
 
 - Poemas y obras destacadas
 
-1. **Poemas encontrados y otros pre-textos** (2009) - Es una colección donde Gubbins toma fragmentos de textos, signos gráficos y juegos tipográficos, para transformarlos en poemas visuales. Su propuesta cuestiona qué es un poema: ¿es solo el significado de las palabras o también su forma, su disposición en la página, su sonido?; Ejemplo: uno de sus poemas visuales se compone de repeticiones de palabras que forman figuras en la página. 
+1. **Poemas encontrados y otros pre-textos** (2009) - Es una colección donde Gubbins toma fragmentos de textos, signos gráficos y juegos tipográficos, para transformarlos en poemas visuales. Su propuesta cuestiona qué es un poema: ¿es solo el significado de las palabras o también su forma, su disposición en la página, su sonido?; Ejemplo: uno de sus poemas visuales se compone de repeticiones de palabras que forman figuras en la página.
 2. **Notas al margen** (2014) - Combina texto y anotaciones gráficas, creando una lectura fragmentada y experimental.
 3. Performances de poesía sonora en festivales internacionales (España, Alemania, Chile).
 

@@ -1254,65 +1254,68 @@ else {
 
 ### Proceso del trabajo
 
-1. Dividir el poema, en este caso lo dividimos en 16 partes lo que hace que sean 16 fotogramas.
-2. En illustrator crear 16 mesas de trabajo con las medidas establecidas (128 x 64 px)
-3. Escribir y acomodar el poema divido. (La división es para que se pueda entender mejor el texto y asi mismo caiga bien el dibujo en cada fotograma)
-   - fotograma 1: *AFÉRRATE*
-   - fotograma 2: *A TUS SUEÑOS*
-   - fotograma 3: *PORQUE*
-   - fotograma 4: *SI LOS SUEÑOS MUEREN*
-   - fotograma 5: *LA VIDA ES*
-   - fotograma 6: *COMO UN PÁJARO*
-   - fotograma 7: *DE ALAS ROTAS*
-   - fotograma 8: *INCAPAZ DE VOLAR*
-   - fotograma 9: *AFÉRRATE*
-   - fotograma 10: *A TUS SUEÑOS*
-   - fotograma 11: *PORQUE*
-   - fotograma 12: *SI LOS SUEÑOS*
-   - fotograma 13: *SE MARCHAN*
-   - fotograma 14: *LA VIDA ES*
-   - fotograma 15: *COMO UN CAMPO YERMO*
-   - fotograma 16: *CUBIERTO DE ESCARCHA*
+#### 1. Dividir el poema, en este caso lo dividimos en 16 partes lo que hace que sean 16 fotogramas
+
+#### 2. En illustrator crear 16 mesas de trabajo con las medidas establecidas (128 x 64 px)
+
+#### 3. Escribir y acomodar el poema divido. (La división es para que se pueda entender mejor el texto y asi mismo caiga bien el dibujo en cada fotograma)
+
+- fotograma 1: *AFÉRRATE*
+- fotograma 2: *A TUS SUEÑOS*
+- fotograma 3: *PORQUE*
+- fotograma 4: *SI LOS SUEÑOS MUEREN*
+- fotograma 5: *LA VIDA ES*
+- fotograma 6: *COMO UN PÁJARO*
+- fotograma 7: *DE ALAS ROTAS*
+- fotograma 8: *INCAPAZ DE VOLAR*
+- fotograma 9: *AFÉRRATE*
+- fotograma 10: *A TUS SUEÑOS*
+- fotograma 11: *PORQUE*
+- fotograma 12: *SI LOS SUEÑOS*
+- fotograma 13: *SE MARCHAN*
+- fotograma 14: *LA VIDA ES*
+- fotograma 15: *COMO UN CAMPO YERMO*
+- fotograma 16: *CUBIERTO DE ESCARCHA*
 
 ![distribución_texto](./imagenes/distribución_texto.png)
 
-4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho.
+#### 4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho
 
-5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento.
+#### 5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento
 
 ![proceso_ordenar](./imagenes/proceso_ordenar.png)
 
 ![resultado_illustrator](./imagenes/resultado_illustrator.png)
 
-6. Descargar imágenes.
+#### 6. Descargar imágenes
 
 ![imagenes_descargadas](./imagenes/imagenes_descargadas.png)
 
-7. Pasar imágenes a image2cpp.
+#### 7. Pasar imágenes a image2cpp
 
 ![pasar_a_image2cpp](./imagenes/pasar_a_image2cpp.png)
 
-8. Copiar códigos y pasarlos a WOKWI para probarlos.
+#### 8. Copiar códigos y pasarlos a WOKWI para probarlos
 
 ![prueba_wikwok](./imagenes/prueba_wikwok.png)
 
-9. Mandar evidencia al grupo para ver errores y opiniones.
+#### 9. Mandar evidencia al grupo para ver errores y opiniones
 
-10. Corregir errores en el illustrator y descargar las nuevas versiones.
+#### 10. Corregir errores en el illustrator y descargar las nuevas versiones
 
-11. Utilizar flexclip para ver una referencia del resultado tipo animado.
+#### 11. Utilizar flexclip para ver una referencia del resultado tipo animado
 
 ![verificar_gift](./imagenes/verificar_gift.png)
 
-12. Mandar evidencia al grupo para ver errores y opiniones.
+#### 12. Mandar evidencia al grupo para ver errores y opiniones
 
-13. Una vez autorizado todo pasar nuevas imágenes a image2cpp.
+#### 13. Una vez autorizado todo pasar nuevas imágenes a image2cpp
 
 ![image2cpp_final](./imagenes/image2cpp_final.png)
 
-14. Copiar nuevo código y probarlo en Wokwi.
+#### 14. Copiar nuevo código y probarlo en Wokwi
 
-15. Al ver que funciona mandar a grupo de trabajo.
+#### 15. Al ver que funciona mandar a grupo de trabajo
 
 Extras:
 
@@ -1324,6 +1327,7 @@ Video proceso: <https://youtu.be/apL3aa1PRMo>
 
 Se utilizo para verificar si los códigos por fotogramas funcionaban y como prueba para ver el formato utilizado en las imágenes.
 ⠀⠀⠀⠀
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
