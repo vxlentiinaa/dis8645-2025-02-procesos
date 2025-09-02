@@ -98,16 +98,16 @@ C++ W3Schools
 
 ## encargo 3 "programar y equivocarse 3 veces, documentar textualmente"
 
-Primero quiero lograr que con los digitos de mi computador, el LED del arduino brille la cantidad de veces que corresponda al dígito ingresado
+Primero quiero lograr que, con los dígitos de mi computador, el LED del Arduino brille la cantidad de veces que corresponda al dígito ingresado.
 
-basandome en el ejemplo de blink y el print de la poesía que hicimos en clase, intente crearme una base para poder trabajar en este código
+Basándome en el ejemplo de Blink y el print de la poesía que hicimos en clase, intenté crearme una base para poder trabajar en este código.
 
-con ciertos conocimientos previos llegue a lo siguiente:
+Con ciertos conocimientos previos, llegué a lo siguiente:
 
 ``` c++
-// Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
+// Pasar de dígitos en mi compu a brillos en el LED de prueba en el pin 13.
 
-// dejar escrito los caracteres que quiero que existan
+// Dejar escrito los caracteres que quiero que existan.
 char UNO;
 char DOS;
 char TRES;
@@ -119,10 +119,10 @@ char OCHO;
 char NUEVE;
 
 void setup() {
-  // escribo que el LEd que quiero usar es el que esta montado en el mismo Arduino
+ // Escribo que el LED que quiero usar es el que está montado en el mismo Arduino.
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
-  // declaro que cada una de estas palabras equivale a la cifra que esta escrita entre ''
+  // Declaro que cada una de estas palabras equivale a la cifra que está escrita entre ''
   UNO = '1';
   DOS = '2';
   TRES = '3';
@@ -137,13 +137,13 @@ void setup() {
 
 
 void loop() {
-// no se como funcionan los (if) statements en este lenguaje de programacion, pero quiero intentar usarlos
-// si es que el character inscrito equivale a, por ejemplo UNO, DOS, ect
+// No sé cómo funcionan los (if) statements en este lenguaje de programación, pero quiero intentar usarlos.
+// Sí es que el carácter inscrito equivale a, por ejemplo, UNO, DOS, etc.
  if char = UNO{
-  // para que se pueda diferenciar la cantidad de veces que sera prendida, una vez termine el ciclo, existira
-  // una pausa donde la LED estara apagada por mayor tiempo
+  // Para que se pueda diferenciar la cantidad de veces que será prendida, una vez termine el ciclo, existirá.
+  // una pausa donde la LED estará apagada por mayor tiempo.
   digitalWrite(LED_BUILTIN, HIGH);
-    // en clase se dijo que no se ocupara delay, pero para esta primera version, no se que ocupar como reemplazo
+    // En clase se dijo que no se ocupara delay, pero para esta primera versión, no sé qué ocupar como reemplazo.
     delay(500);    
   digitalWrite(LED_BUILTIN, LOW);
     delay(5000)
@@ -151,15 +151,15 @@ void loop() {
 
 
  if (char = DOS){
-  //debido a que esta vez seran 2 veces en la que se prende el LED
+  // Debido a que esta vez serán 2 veces en las que se prende el LED.
   digitalWrite(LED_BUILTIN, HIGH);
     delay(500);    
-  // este apagado tiene el mismo tiempo que el prendido
+  // Este apagado tiene el mismo tiempo que el prendido.
   digitalWrite(LED_BUILTIN, LOW);
     delay(500)
     digitalWrite(LED_BUILTIN, HIGH);
     delay(500);    
-  // con este, siendo el de apagado de mayor duracion para referenciar el reinicio del ciclo
+  // con este, siendo el de apagado de mayor duración para referenciar el reinicio del ciclo.
   digitalWrite(LED_BUILTIN, LOW);
     delay(5000)
   }
@@ -167,76 +167,76 @@ void loop() {
 
 ```
 
-como realmente no tenía idea de como comunicarme con el arduino busque en internet una manera en la que el arduino podía entender mis inputs, llegando al siguiente link:
+Ya que realmente no tenía idea de cómo comunicarme con el Arduino, busqué en internet una manera en la que el Arduino podía entender mis inputs, llegando al siguiente link:
 
 <https://forum.arduino.cc/t/serial-input-basics-updated/382007>
 
-específicamente el ejemplo n1 para “recibir” un carácter, que incorporé a mi código para poder observar cuando mi arduino estaba recibiendo estos caracteres, lo cual funcionó bastante bien.
+Específicamente, el ejemplo n.° 1 para “recibir” un carácter, que incorporé a mi código para poder observar cuando mi Arduino estaba recibiendo estos caracteres, lo cual funcionó bastante bien.
 
-Ahora existía un problema, el cual era que cualquier carácter recibido causaba que se activará este display de que un carácter había sido recibido, por esta razón busqué alguna manera en la que se pudiese identificar específicamente los dígitos que yo quiero.
+Ahora existía un problema, el cual era que cualquier carácter recibido causaba que se activara este display de que un carácter había sido recibido, por esta razón busqué alguna manera en la que se pudiese identificar específicamente los dígitos que yo quiero.
 
-pensé que cambiando: “if (Serial.available() > 0) {“ a algo como “if (Serial.available() = 1) {“   significando que el número disponible fuese 1, pero no funcionó tal cual, asumo que esto puede tener que ver con el [ASCII](https://www.w3schools.com/charsets/ref_html_ascii.asp), que es un modo de codificación de datos, pero no puedo confirmar mi hipótesis, debido a que encontré otro modo en el que podía hacer funcionar el código
+Pensé que cambiando “if (Serial.available() > 0) {” a algo como “if (Serial.available() = 1) {”, significando que el número disponible fuese 1, pero no funcionó tal cual, asumo que esto puede tener que ver con el [ASCII](https://www.w3schools.com/charsets/ref_html_ascii.asp), que es un modo de codificación de datos, pero no puedo confirmar mi hipótesis, debido a que encontré otro modo en el que podía hacer funcionar el código.
 
-al buscar si tal vez un if statement podía servir encontré lo siguiente:
+al buscar si tal vez un if statement podía servir, encontré lo siguiente:
 
 <https://docs.arduino.cc/built-in-examples/strings/CharacterAnalysis/>
 
-esto mostraba unas maneras de usar los If statements para diferenciar distintos datos, con lo que use  if (cifra == '1') {  servía como condición para identificar mi dato especifico, lo cual funciono, de esta manera empecé a escribir, como con el ejemplo de blick, la cantidad de veces que quería que se prendiese el led según cada cifra enviada al arduino.
+Esto mostraba unas maneras de usar los if statements para diferenciar distintos datos, con lo que usé if (cifra == '1') {; servía como condición para identificar mi dato específico, lo cual funcionó. De esta manera empecé a escribir, como con el ejemplo de Blink, la cantidad de veces que quería que se prendiese el LED según cada cifra enviada al Arduino.
 
-esto estaba funcionando genial, pero me empecé a dar cuenta que si quería legar a que se prendiera y se apagará el LED multiples veces, el código se empezaria a ver desordenado o sobresaturado, por lo que busque si habia una manera de lograr hacer loops de alguna cantidad específica que yo deseara, donde encontré la siguiente página:
+Esto estaba funcionando genial, pero me empecé a dar cuenta de que si quería llegar a que se prendiera y se apagara el LED múltiples veces, el código se empezaría a ver desordenado o sobresaturado, por lo que busqué si había una manera de lograr hacer loops de alguna cantidad específica que yo deseara, donde encontré la siguiente página:
 
 <ttps://docs.arduino.cc/language-reference/en/structure/control-structure/for/>
 
-dónde “for” es un argumento en el que puedo repetir un bloque de código que está contenido entre [murciélagos}, con esto ya optimice el código a un punto que me agrado.
+donde “for” es un argumento en el que puedo repetir un bloque de código que está contenido entre [murciélagos}, con esto ya optimicé el código a un punto que me agradó.
 
 ```cpp
-// Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
+// Pasar de dígitos en mi compu a brillos en el LED de prueba en el pin13
 
-// el character que voy a obtener se guardara con el alias cifra
+// El carácter que voy a obtener se guardará con el alias cifra
 char cifra;
 
-// se crea una boolean para
+// No estoy seguro de por qué se usa una bool
 boolean newData = false;
 
 void setup() {
-  // escribo que el LEd que quiero usar es el que esta montado en el mismo Arduino
+  // Escribo que el LED que quiero usar es el que está montado en el mismo Arduino
   pinMode(LED_BUILTIN, OUTPUT);
-  // para poder comunicarme con arduino a partir del Serial Monitor
+  // Para poder comunicarme con Arduino a partir del Serial Monitor
   Serial.begin(9600);
 }
 
 void loop() {
-  // obtener el caracter que sea ingresado eventualmente
+  // Obtener el carácter que sea ingresado eventualmente
   recvOneChar();
     showNewData();
   }
 
 void recvOneChar() {
-  // detecta si el monitor Serial esta recibiendo algo
+  // Detecta si el monitor serial está recibiendo algo
     if (Serial.available() > 0) {
-      // lo ingresado sera catalogado como la variable cifra
+      // Lo ingresado será catalogado como la variable cifra
         cifra = Serial.read();
-        // mostrar en la consola el mensaje de "Acabas de enviarme un " para que
-        // a continuacion se demuestre que caracter fue enviado
+        // Mostrar en la consola el mensaje de "Acabas de enviarme un " para que
+        // a continuación se demuestre qué carácter fue enviado.
         Serial.print("Acabas de enviarme un ");      
         Serial.println(cifra);
     }
 }
 
 void showNewData() {
-  // cuando la viariable cifra equivale a 1
+  // Cuando la variable cifra equivale a 1
     if (cifra == '1') {
-    // se encendera el LED que esta en el pin13 del Arduino
+    // Se encenderá el LED que está en el pin13 del Arduino
     digitalWrite(LED_BUILTIN, HIGH);
-    // en clase se dijo que no se ocupara delay, pero para esta primera version, no se que ocupar como reemplazo
+    // En clase se dijo que no se ocupara delay, pero para esta primera versión, no sé qué ocupar como reemplazo
     delay(500);    
-        // despues de que pase el tiempo, se apagara el LED
+        // Después de que pase el tiempo, se apagará el LED
         digitalWrite(LED_BUILTIN, LOW);
         delay(500);
     }
        
     if (cifra == '2') {
-      //debido a esta cifra es 2, esta vez seran 2 veces en la que se prende y apaga el LED
+      // Debido a que esta cifra es 2, esta vez serán 2 veces en las que se prende y apaga el LED
       digitalWrite(LED_BUILTIN, HIGH);
       delay(500);    
         digitalWrite(LED_BUILTIN, LOW);
@@ -247,7 +247,7 @@ void showNewData() {
               delay(500);
        }
     if (cifra == '3') {
-      //debido a que esta vez seran 3 veces en la que se prende el LED lo repito 3 veces
+      // Debido a que esta vez serán 3 veces en las que se prende el LED, lo repito 3 veces
       digitalWrite(LED_BUILTIN, HIGH);
       delay(500);    
         digitalWrite(LED_BUILTIN, LOW);
@@ -263,8 +263,8 @@ void showNewData() {
        }
 
       if (cifra == '4') {
-      // cuando la cifra 4 sea enviada al Arduino, este "x" se repetira hasta que sea mayor que el numero indicado
-      // cada vez que se repite este bloque de codigo aumenta el "contador" gracias a x++
+      // Cuando la cifra 4 sea enviada al Arduino, este "x" se repetirá hasta que sea mayor que el número indicado
+      // Cada vez que se repite este bloque de código, aumenta el "contador" gracias a x++
       for ( int x = 0; x < 4; x++ ) {
           digitalWrite(LED_BUILTIN, HIGH);
           delay(500);    
@@ -321,19 +321,20 @@ void showNewData() {
 
 ```
 
-como otro código, quise programar un dado de 20 caras, que por ejemplo, podría ser usado  para un juego de D&D ocupare la función random de esta página: 
+Como otro código, quise programar un dado de 20 caras, que, por ejemplo, podría ser usado para un juego de D&D, ocupare la función random de esta página: 
 
 https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/
 
-Hay que resaltar que con esta función genera números enteros de por si, entre el mínimo y el máximo que se establezca (min,max) o entre 0 y el número establecido como máximo (max), solo siendo necesario el escribir mas codigo si es que deseara conseguir números decimales.
+Hay que resaltar que con esta función genera números enteros de por sí, entre el mínimo y el máximo que se establezca (min, max) o entre 0 y el número establecido como máximo (max), solo siendo necesario el escribir más código si es que deseara conseguir números decimales.
 
+```c++
 
 long randNumber;
 char tiraDado;
 boolean resultadoDado = false;
 
 void setup() {
- //empezar comunicación con el monitor Serial
+ // Empezar comunicación con el monitor Serial
   Serial.begin(9600);
 // empezar el “randomizador”
   randomSeed(analogRead(0));
@@ -346,35 +347,42 @@ void loop() {
 
 void recievetiraDado() {
  if (Serial.available() > 0) {
-      // lo ingresado sera catalogado como la variable cifra
+      // lo ingresado será catalogado como la variable cifra
         tiraDado = Serial.read();     
 }
 
 void showresultadoDado() {
-if (tiraDado == ‘d’ ) {
-// mostrar en la consola el mensaje de "Has tirado el dado" para que a continuacion se demuestre que caracter fue enviado
+if (tiraDado == "d" ) {
+// Mostrar en la consola el mensaje de "Has tirado el dado" para que a continuación se demuestre qué carácter fue enviado.
         Serial.print("¡Has tirado el dado! /n");
-// para crear tension, se demora en darte el resultado
+// Para crear tensión, se demora en darte el resultado
 delay(2000)
         Serial.print("Veamos que te sale… /n");
 delay(2000)
-   // esto hará print en el monitor serial con un número entre 1 y 20
+   // Esto hará print en el monitor serial con un número entre 1 y 20
   randNumber = random(1, 20);
   Serial.println(randNumber);
   delay(500);
+
     }
-if (randNumber == ‘1’) {
+if (randNumber == "1") {
  Serial.print (“¡Fallo critico!”)
   }
+
 if (randNumber == “20”) {
  Serial.print (“¡Exito critico!”)
   }
 }
 
+```
+
 como no funciono, volvi a ocupar las variables que deje en el código anterior, no estoy seguro de la razón exactamente del porque no me funcionaban las que escribí yo
 
 ```c++
-// para jugar con este dado escribe la letra (d) en el monitor serial
+// Para jugar con este dado, introduce la letra (d) en el monitor serial.
+
+
+
 
 long randNumber;
 char tiraDado;
@@ -382,7 +390,7 @@ bool newData = false;
 //nuevaData
 
 void setup(){
-    //empezar comunicación con el monitor Serial
+    // Empezar comunicación con el monitor Serial
      Serial.begin(9600);
     //empezar el “randomizador”
      randomSeed(analogRead(0));
@@ -395,29 +403,29 @@ void loop(){
 
 void recvOneChar(){
    if (Serial.available() > 0) {
-      // lo ingresado sera catalogado como la variable cifra
+      // Lo ingresado será catalogado como la variable cifra
       tiraDado = Serial.read();     
     }
 }
 
 void showNewData(){
     if (tiraDado == 'd' ) {
-      // mostrar en la consola el mensaje de "Has tirado el dado" para que a continuacion se demuestre que caracter fue enviado
+      // Mostrar en la consola el mensaje de "Has tirado el dado" para que a continuación se demuestre qué carácter fue enviado.
       Serial.print("¡Has tirado el dado!\n");
-        // para crear tension, se demora en darte el resultado
+        // Para crear tensión, se demora en darte el resultado
         delay(2000);
           Serial.print("Veamos que te sale…\n");
           delay(2000);
-        //esto hará print en el monitor serial con un número entre 1 y 20
+        //Esto hará print en el monitor serial con un número entre 1 y 20
         randNumber = random(1,20);
           Serial.println(randNumber);
           delay(500);
     }
-
+// Si es que te sale un 1, te fue muy mal, así que te lo transmitirá diciendo "fallo crítico"
   if (randNumber == '1') {
     Serial.print ("¡Fallo critico!");
      }
-
+// Si es que te sale un 20, te fue muy bien, así que te lo transmitirá diciendo "Éxito crítico"
   if (randNumber == '20') {
     Serial.print ("¡Exito critico!");
      }
@@ -425,3 +433,21 @@ void showNewData(){
 ```
 
 ## encargo 4 "programar y equivocarse 3 veces, documentar visualmente" 
+
+Aquí se puede observar el error de mi prueba de escritura de código que yo me imaginé, el cual ni siquiera logra pasar la parte de comprobar el funcionamiento.
+
+![Foto de prueba del proyecto de LEDs](./imagenes/sesion-01b-LEDmalo.png)
+
+A continuación, un video de su funcionamiento correcto, una vez corregí y adapté el código que investigué.
+
+[![Placeholder para video del su funcionamiento correcto](https://img.youtube.com/vi/iKaVBx8y00U/0.jpg)](https://youtu.be/iKaVBx8y00U)
+
+Aquí muestro los mensajes de error con mis primeros códigos, los cuales más que todo están erróneos por la falta del uso de ";" en múltiples partes.
+
+![foto foto](./imagenes/sesion-01b-DadoMalo.png)
+
+![foto foto](./imagenes/sesion-01b-DadoMalo2.png)
+
+Pero, una vez que logro hacer funcionar, se pueden observar los resultados de mi dado, con la "tensión" que le programé antes de entregar los resultados, esta siendo visible gracias al timestamp de la parte de la izquierda del monitor serial.
+
+![foto foto](./imagenes/sesion-01b-DadoFuncional.png)
