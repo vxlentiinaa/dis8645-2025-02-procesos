@@ -41,7 +41,7 @@
 -  include significa, anda para allá, cópialo todo y vuelve
 -  lo que hace ifndef y endif lo que hacen es encerrar todo en constantes_h
 -  si escribo abajo del endif, me dará error porque no estará contenido dentro de ifndef y endif
--  
+  
 -  **crearemos otro tab llamado Persona**
 -  adentro de las class(clases) hay:
 -  public: cuando veamos public es porque estará dentro de un class
@@ -55,7 +55,21 @@
 -  como existe un constructor también existe un destructor
 -  esto me permite decir: olvidate de todo lo de esa persona
 -  hay funciones de seteo, void setEdad(int edad); esto define la edad de la persona
--  voidsetEdad (int nuevaEdad); el int nuevaEdad es un parámetro de voidsetEdad
+-  voidsetEdad (int nuevaEdad); el int nuevaEdad es un parámetro de voidsetEdad, ejemplo: javieraMena.setEdad(42)
+## break
+
+### segunda parte
+-  las funciones pueden retornar algo, siempre tenemos que decirle a la función qué es lo que queremos que retorne
+-   si no hay void antes de la función, siempre debe tener un retorno
+-   una clase es unconstructo computacional que engloba dentro de el variables y funciones
+-   Serial.println(aristoteles.getEdad()); significa, aristóteles dime cuánto es tu edad, esto retorna un número entero
+-  **en esta parte me perdí, desde las 11:10 aprox**
+-
+-
+-   <arduino.> significa, donde sea que esté, en alguna parte del computador
+-  
+
+-  para qué sirve el : : ?
 -
 - void no devuelve nada
 
