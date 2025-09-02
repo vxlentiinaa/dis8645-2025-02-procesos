@@ -440,7 +440,7 @@ Aquí se puede observar el error de mi prueba de escritura de código que yo me 
 
 A continuación, un video de su funcionamiento correcto, una vez corregí y adapté el código que investigué.
 
-![Placeholder para video del su funcionamiento correcto](youtube)
+[![Placeholder para video del su funcionamiento correcto](https://img.youtube.com/vi/iKaVBx8y00U/0.jpg)](https://youtu.be/iKaVBx8y00U)
 
 Aquí muestro los mensajes de error con mis primeros códigos, los cuales más que todo están erróneos por la falta del uso de ";" en múltiples partes.
 
