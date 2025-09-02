@@ -81,6 +81,7 @@ archivo en donde se crean clases para definir algo. Ejemplo se crea la clase de 
 - Sus archivos terminan en .c o .h
 **C++**
 - es o mismo que cpp (c plus plus en inglés)
+- variable, set variable, get variable
 
 
 ARDUINO
