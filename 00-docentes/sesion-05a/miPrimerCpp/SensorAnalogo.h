@@ -1,13 +1,13 @@
-#ifndef SENSOR_H
-#define SENSOR_H
+#ifndef SENSOR_ANALOGO_H
+#define SENSOR_ANALOGO_H
 
 #include <Arduino.h>
 
-class Sensor {
+class SensorAnalogo {
 
 public:
   // constructor
-  Sensor();
+  SensorAnalogo();
 
 
   int patita;
