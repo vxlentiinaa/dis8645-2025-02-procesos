@@ -10,7 +10,7 @@ Ontología orientada a objetos, Graham:
 
 Para qué está hecho y para qué sirve
 
-**Definición clases**
+Definición clases
 
 "Todo en C++/CPP está asociado a clases y objetos, junto con sus atributos y métodos. Por ejemplo, en la vida real, un coche es un objeto . El coche tiene atributos , como el peso y el color, y métodos , como la tracción y el freno.
 
