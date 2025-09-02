@@ -24,18 +24,18 @@ El propone que cada ente/objeto en el universo tiene 10 categorías
 .c y .h
 It´s not C++ nor C#
 
--C++ = Le damos toda la información posible al computador para que trabaje menos.
+- C++ = Le damos toda la información posible al computador para que trabaje menos.
 
 **Bjarne Stroustrup***
 **Computador nors**
 
 ### Lenguajes
-Openframewoks: Programa de programacion para videojuegos C++.
-SuperCollider: Language que se usa para modelar sintetizadores, generar patrones sonoros, procesar audio, y construir interfaces gráficas para interactuar con el sonido. 
-Lua: Fácil de escribir
-Chuck: Audio Programming, highly timed.
+- Openframewoks: Programa de programacion para videojuegos C++.
+- SuperCollider: Language que se usa para modelar sintetizadores, generar patrones sonoros, procesar audio, y construir interfaces gráficas para interactuar con el sonido. 
+- Lua: Fácil de escribir
+- Chuck: Audio Programming, highly timed.
 
-Turing complete: Un lenguaje que puede hacer tdoo lo que un computador puede hacer.
+- Turing complete: Un lenguaje que puede hacer tdoo lo que un computador puede hacer.
 
 ### Mi primer cpp
 const = para constantes
@@ -59,25 +59,25 @@ define it" : #define
 - Precauciones para que no hayan errores terribles. ;)
 
 ### Clase
--public: DEntro de una clase
+- public: DEntro de una clase
 
-1.-Archivo.h : Nuevo archivo en cpp
-2.-Vermas: ifndef y define
-3.-Crear clase: Cada clase debe etener al menos un constructor que se llame igual que la clase
+1.- Archivo.h : Nuevo archivo en cpp
+2.- Vermas: ifndef y define
+3.- Crear clase: Cada clase debe etener al menos un constructor que se llame igual que la clase
 
--El primer archivo es para definir (h)
--El segundo archivo es para definir como se hace o como se comporta (cpp)
+- El primer archivo es para definir (h)
+- El segundo archivo es para definir como se hace o como se comporta (cpp)
 
 - void definirEdad(int edad):; En clase hay una función que mempermite definir su edad e int me permite saber que edad tiene.
 - Si hay () es función.
 
 ## Después del break
 
--Clases con Mayúsculas al principio
--Variables con minúscula
--"::" Vale para todes (los del mismo tipo)
--String con "S" Mayúscula solo tiene sentido en arduino
--"" aqui mismo
--<> Dónde sea que esté
+- Clases con Mayúsculas al principio
+- Variables con minúscula
+- "::" Vale para todes (los del mismo tipo)
+- String con "S" Mayúscula solo tiene sentido en arduino
+- "" aqui mismo
+- <> Dónde sea que esté
 
--Las clases nos permiten que con esa infraestructura podamos hacer lo que nosotros queramos.
+- Las clases nos permiten que con esa infraestructura podamos hacer lo que nosotros queramos.
