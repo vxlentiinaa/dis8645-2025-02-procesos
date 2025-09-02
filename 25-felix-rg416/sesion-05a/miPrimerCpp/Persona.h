@@ -5,6 +5,7 @@
 #ifndef PERSONA_H
 #define PERSONA_H
 
+#include <Arduino.h>
 // se crea la clase "Persona"
 // con mayúscula porque es importante
 class Persona {
@@ -29,15 +30,20 @@ public:
   // funcion "void"
   // que define "edad"
   // necesita parametro "int"
-  void definirEdad(int nuevaEdad);
+  void setEdad(int nuevaEdad);
 
   // funcion "int"
   // dice que edad tiene - devueleve la edad
   int getEdad();
 
+  // get y set de rut
+  String getRut();
+
+  void setRut(String nuevoRut);
+
   bool estaViva;
   int edad;
-
+  String rut;
 // ESTO PERMITE INCLUIRLO EN "miPrimerCpp.ino"
 
   // sólo cuando se hace una clase
