@@ -33,13 +33,13 @@ Un fanzine de poemas generados por una computadora que recibió una mención hon
 - Sus obras combinan teoría crítica con creación artística, explorando cómo los lenguajes naturales y los lenguajes de la programación, se combinan con la poesía y la narrativa.
 
 ## Obras destacadas
-1. *Racing the Beam: The Atari Video Computer System* (2009)
+1. **Racing the Beam**: The Atari Video Computer System* (2009)
 Junto a Ian Bogost, hicieron un estudio sobre cómo las limitaciones técnicas de la Atari 2600 moldearon los videojuegos y su estética.
-2. *Taroko Gorge* (2009)
+2. **Taroko Gorge** (2009)
 Un poema generativo que combina programación y poesía. Ha inspirado numerosos "remixes" de su obra con versiones modificadas, convirtiéndose en un clásico de poesía digital.
-3. *#!(Shebang)* (2014)
+3. **#!(Shebang)** (2014)
 Poemas generativos escritos en varios lenguajes de programación como Python, Perl, Ruby, entre otros más; que ponen en primer plano la materialidad del código como poesía.
-4. *Exploratory Programming for the Arts and Humanities (2016)*
+4. **Exploratory Programming for the Arts and Humanities (2016)**
 Consiste en un manual práctico que enseña a usar Python para la programación creativa, muy utilizado en universidades.
 
 # Martín Gubbins 
@@ -50,13 +50,13 @@ Consiste en un manual práctico que enseña a usar Python para la programación 
 - En 2003 fundó junto a otros poetas y artistas, el Foro de Escritores, inspirado en modelos como el Writer Forum de Reino Unido, promoviendo la experimentación colectiva, más allá del ego individual.
 
 ## Obras destacadas
-1. *Álbum* (2005)
+1. **Álbum** (2005)
 Es una de sus obras más citas y se trata de libro que reúne piezas de poesía visual y experimental, donde juega con la disposición tipográfica, el espacio en la página y el cruce entre palabra e imagen. Más que narrar, propone experiencias de **lectura visual** donde el signo gráfico adquiere tanto valor como el significado lingüistico.
-2. *Escalas* (2011)
+2. **Escalas** (2011)
 Se trata de un trabajo de repetición y variación de signos, letras y patrones visuales. Que se centra en la idea idea de gradación y cambio progresivo, explorando como la palabra y el símbolo se transforman a medida que se reescriben o se deforman gráficamente.
-3. Cuaderno de Composición (2014)
+3. **Cuaderno de Composición** (2014)
 Publicado por Naranja Publicaciones, se trata de poesía visual y conceptual, donde se reproduce el formato de los clásicos cuadernos escolares de calirafía, pero en lugar de enseñar a escribir lo altera con juegos gráficos, letras distorsionadas, tachaduras y composiciones que desafían la legibilidad.
-4. Proyecto de Mnemotecnia (2017)
+4. **Proyecto de Mnemotecnia** (2017)
 Publicado en España es un trabajo híbrido entre poesía, memoria y experimentación visual, que explora el concepto de mnemotecnia (técnias para recordar), usando palabras, imágenes y estructuras gráficas que funcionan como "dispositivos de memoria". El texto se convierte en una surte de archivo o constelación de recuerdos en tensión.
 
 
