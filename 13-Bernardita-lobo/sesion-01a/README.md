@@ -1,10 +1,10 @@
-# Sesion-01a
+# sesion-01a
 
 ## Trabajo en clase / Martes 05 de agosto, 2025
 
 ### Taller de diseño de maquinas computacionales DIS 8645
 
-> Proferore: Aarón Montoya
+> Profesore: Aarón Montoya
 >
 > Profesor adjunto: Matias Serrano
 >
@@ -20,12 +20,12 @@ Me gustaría aprender a imaginar cómo funciona la programación, persistir en e
 
 ### Horarios
 
-| 08:30 - 09:00 	| Llegar    	|
-|---------------	|-----------	|
-| 09:00 - 10:30 	| Trabajar  	|
-| 10:30 - 11:00 	| Descansar 	|
-| 11:00 - 12:30 	| Trabajar  	|
-| 12:30 - 12:50 	| Ordenar   	|
+| 08:30 - 09:00  | Llegar     |
+|--------------- |----------- |
+| 09:00 - 10:30  | Trabajar   |
+| 10:30 - 11:00  | Descansar  |
+| 11:00 - 12:30  | Trabajar   |
+| 12:30 - 12:50  | Ordenar    |
 
 ### Introducción de contenidos  
 
@@ -53,7 +53,7 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 - Casey Reas <https://reas.com/>
 
-- Cristian Oyarzún: ramo de especialización, Cuerpo, Movimiento y Código
+- Christian Oyarzún: ramo de especialización, Cuerpo, Movimiento y Código
 
 - Hernando Barragán: Desarrolló el concepto de computación física <https://people.interactionivrea.org/proxy-body.html?src=h.barragan%2Findex.html>
 
@@ -73,9 +73,7 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 [STS:](https://gsas.harvard.edu/policy/science-technology-and-society#:~:text=Cimientos,/about/whatissts.html%20.) La Ciencia, Tecnología y Sociedad o en inglés science technology and society, emplean diversos métodos de las humanidades y las ciencias sociales para examinar cómo la ciencia y la tecnología influyen y se ven influidas por sus contextos sociales, culturales y materiales.
 
-## Encargos
-
-### Alan Turing
+## encargo-01: Alan Turing
 
 En 1936, diez años antes de que se construyera la primera computadora, Alan Turing la creó en su mente. El estudió en el King's College, un colegio de Cambridge, una de las universidades más prestigiosas.
 
@@ -103,7 +101,7 @@ Alan Turing fue un genio increíblemente creativo. Es realmente terrible cómo l
 >
 > Video de referencia ["La historia de Alan Turing, el hombre que inventó las computadoras"](https://youtu.be/H1ZE9CGO4js?si=yM7Q5HFvov5P2o_H)
 
-### Ada Lovelace
+## encargo-02: Ada Lovelace
 
 La primera computadora, el ENIAC, fue creada en 1946, y el primer lenguaje de programación, Fortran, apareció en 1955. Eso significa que la carrera de programación tiene menos de un siglo de vida, y aun así ha transformado profundamente el mundo. Lo sorprendente es que el concepto de una máquina universal fue imaginado por una persona 102 años antes de que existiera el primer lenguaje de programación.
 

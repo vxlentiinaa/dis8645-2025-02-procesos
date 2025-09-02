@@ -1,8 +1,7 @@
 # sesion-01a
 
-## Encargo
+## encargo-01: Alan Turing
 
-### Alan Turing
 Alan Turing fue un genio que marcó un antes y un después en la historia. Desde muy joven mostró un talento increíble para las matemáticas y la ciencia; a los 16 años ya entendía y cuestionaba teorías de Einstein. En la universidad desarrolló ideas que se adelantaron a su tiempo, como la Máquina de Turing, que sentó las bases de la computación moderna.
 
 Su mayor aporte llegó durante la Segunda Guerra Mundial, cuando trabajó en Bletchley Park para descifrar los códigos de la máquina Enigma utilizada por los nazis. Gracias a su trabajo y al de su equipo, se logró reducir la duración de la guerra y salvar millones de vidas. Ese logro convirtió a Turing en un héroe, aunque durante mucho tiempo no se le reconoció como tal.
@@ -13,11 +12,12 @@ A pesar de sus grandes aportes, su vida estuvo marcada por la discriminación. E
 
 ![Alan Turing](./imagenes/AlanTuring.png)
 
-Fuentes: 
-https://www.lavanguardia.com/internacional/20250821/10991577/xi-jinping-celebra-progreso-region-autonoma-tibet-60-aniversario.html
-https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352
+Fuentes:
+<https://www.lavanguardia.com/internacional/20250821/10991577/xi-jinping-celebra-progreso-region-autonoma-tibet-60-aniversario.html>
+<https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352>
 
-### Ada Lovelace
+## encargo-02: Ada Lovelace
+
 Ada Lovelace fue una mujer adelantada a su época y es recordada como la primera persona en crear un algoritmo para una máquina. Nació en 1815, hija del poeta Lord Byron, pero su vida tomó un rumbo totalmente distinto: desde chica se interesó por las matemáticas y la ciencia.
 
 Cuando conoció a Charles Babbage, se fascinó con sus ideas sobre máquinas de cálculo. Lo impresionante es que Ada no solo entendió esos proyectos, sino que fue más allá: imaginó que esas máquinas podían trabajar con símbolos y no solo con números. Esa visión es lo que la convierte en pionera de la computación.
@@ -28,7 +28,6 @@ Lamentablemente, su vida fue corta: murió a los 36 años por un cáncer de úte
 
 ![Ada Lovelace](./imagenes/AdaLovelace.png)
 
-
-Fuentes: 
-https://www.britannica.com/biography/Ada-Lovelace
-https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864
+Fuentes:
+<https://www.britannica.com/biography/Ada-Lovelace>
+<https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864>

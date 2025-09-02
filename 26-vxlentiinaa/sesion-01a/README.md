@@ -64,11 +64,7 @@ PCB SMT: PCB Pick and Place
 - Utadeo.com
 - Procesing
 
-## Encargo 01
-
-¿Quién es Alan Turing y Ada Lovelace?
-
-### Ada Lovelace
+## encargo-01: Ada Lovelace
 
  [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace)
 
@@ -76,7 +72,7 @@ Nació el 10 de diciembre de 1815 y falleció el 27 de noviembre de 1852. Fue un
 
 ![Ada Lovelace](./imagenes/AdaLovelace.jpeg)
 
-### Alan Turing
+## encargo-02: Alan Turing
 
 [Alan Turing](https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352)
 

@@ -286,6 +286,7 @@ void loop() {
   delay(1000);
 }
 ```
+
 Ahora puse un un fragmento de **Pink pony club de Chappell Roan**, mi intención es que cada frase saliera a la par en la que sonaba en la canción original, no documente los cambios pero la versión final respeta todos los tiempos.
 
 En este caso especifico los cambios son solo relacionados al tiempo por lo que no es que hubieran variaciones en el código general.
@@ -325,6 +326,8 @@ void setup() {
     }
 ```
 
+![pink_pony_club](./imagenes/pink_pony_club.png)
+
 En base al mismo código hice variaciones en relación a dibujar cosas, los dibujos los saque de distintas páginas como: 
 
 - <https://www.textarts.shop/2021/04/dibujos-hechos-con-el-teclado.html>
@@ -349,6 +352,8 @@ void setup() {
     }
 ```
 
+![love](./imagenes/love.png)
+
 ```cpp
 void setup() {
       Serial.begin(9600); 
@@ -372,8 +377,20 @@ void setup() {
     }
 ```
 
+![casita](./imagenes/casita.png)
+
+![casita_02](./imagenes/casita_02.png)
+
 Los errores o fallas más comunes que cometí fueron: 
 
 - olvidar poner ";" al final de cada ()
 - olvidar poner los codigos adentro de los murciélagos.
 - algo que no afecta en el código pero igual es importante es que me falto poner comentarios (//)
+
+![error_01](./imagenes/error_01.png)
+
+![error_02](./imagenes/error_02.png)
+
+![error_03](./imagenes/error_03.png)
+
+![pantallazo](./imagenes/pantallazo.png)

@@ -14,7 +14,7 @@ delay=malo
 
 setup: inicio de arduino
 
-/* comentarios */
+/*comentarios*/
 
 //comentarios
 
@@ -50,7 +50,7 @@ int: número entero (no decimal)
 
 float: decimal
 
-bool: binario (si/no) 
+bool: binario (si/no)
 
 char: carácter (1)
 
@@ -66,7 +66,6 @@ String: colección de carácteres secuenciales
 
 Serial.
 
-
 int tiempoPrendido = 100;
 
 int tiempoApagado = 300;
@@ -78,7 +77,6 @@ Serial.begin(9600);
 Serial.print(poema);
 
 Serial.print("/n");
-
 
 NO (en setup
 
@@ -101,7 +99,6 @@ decimas = decimas + "me brilla en el pensamiento/n";
 decimas = decimas + "para contar este cuento/n";
 
 decimas = decimas + "pañuelo de mis amores/n";
-
 
 En vez de borrar comentar //
 

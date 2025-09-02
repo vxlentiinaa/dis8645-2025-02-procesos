@@ -30,7 +30,7 @@ Vamos a hablar de los operadores lógicos en más detalle, como ejemplo Misaa pa
 (||)OR si alguna de las variables es verdadero, funciona, es algo independiente de todos los elementos
 (!)NOT si una variable no es verdadera funciona, si es verdadera, no funciona
 
-El orden de los operadores lógicos no cambian el resultado 
+El orden de los operadores lógicos no cambian el resultado
 
 “for” permite repetir una acción una cantidad repetida de veces según lo que se le asigne
 
