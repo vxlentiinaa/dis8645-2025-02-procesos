@@ -39,3 +39,17 @@ Los archivos solo se conocen a sí mismos, no tienen por qué “conocer” al d
 El resto de los tabs de mi proyecto debería tener la sintaxis .h. 
 
 Podemos tener archivos que tengan código auxiliar para aportar al archivo principal.
+
+Lo siguiente es **MUY IMPORTANTE**, ya que esto protege al código de un error de compilación, donde puede estar definido algo múltiples veces.
+
+#ifndef  // Si es que no está definido algo, aquí pondría el nombre del tab en mayúsculas, ejemplo WAOS_H.
+
+#define // definirlo, o sea que escribiría el WAOS_H
+
+#endif  // termina el llamar a este archivo, para que no sea llamado 2 veces
+
+Porque crearon C++ y por qué no se quedaron con C, es porque tiene clases, entre otras cosas.
+
+Solo cuando definamos class, tendrá un punto y coma justo después del murciélago final };
+
+Dentro de las clases hay muchas opciones, y uno parte de las opciones.
