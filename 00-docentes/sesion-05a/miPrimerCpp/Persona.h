@@ -1,6 +1,8 @@
 #ifndef PERSONA_H
 #define PERSONA_H
 
+#include <Arduino.h>
+
 class Persona {
 
 public:
@@ -28,10 +30,15 @@ public:
   // devuelve la edad
   int getEdad();
 
+
+  // get y set de rut
+  String getRut();
+
+  void setRut(String nuevoRut);
+
   bool estaViva;
-  int edad;
-
-
+  int edad = -1;
+  String rut;
 };
 
 
