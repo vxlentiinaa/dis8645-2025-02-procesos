@@ -34,3 +34,6 @@ arduino
 
 archivo .h
 
+.ino es arduino
+.h es c++
+
