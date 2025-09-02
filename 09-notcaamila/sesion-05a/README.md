@@ -2,7 +2,7 @@
 
 ## martes 02 de septiembre
 
-distintos lenguejaes de programación: lua, chuck, phyton, c++
+distintos lenguajes de programación: lua, chuck, phyton, c++
 
 libro: computers that made the world
 
