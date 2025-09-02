@@ -88,4 +88,4 @@ En Chile, para ser persona, tiene que tener WhatsApp y RUT.
 
 Es de buenos modales que mi clase esté en un archivo separado. 
 
-
+Nos mostraron todos estos ejemplos, no con la intención de que entendamos y seamos capos como para comprenderlo de una, sino para poder construir una base o un “jig”, como se usa en carpintería, donde podamos comprender el gran poder que contienen estas clases que nos acaban de enseñar, para que podamos copiarlas en nuestros proyectos, para poder no solo ahorrar tiempo, sino energía, para ser eficientes y que todo funcione de manera bella.
