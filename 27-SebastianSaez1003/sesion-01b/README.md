@@ -98,16 +98,16 @@ C++ W3Schools
 
 ## encargo 3 "programar y equivocarse 3 veces, documentar textualmente"
 
-Primero quiero lograr que con los digitos de mi computador, el LED del arduino brille la cantidad de veces que corresponda al dígito ingresado
+Primero quiero lograr que, con los dígitos de mi computador, el LED del Arduino brille la cantidad de veces que corresponda al dígito ingresado.
 
-basandome en el ejemplo de blink y el print de la poesía que hicimos en clase, intente crearme una base para poder trabajar en este código
+Basándome en el ejemplo de Blink y el print de la poesía que hicimos en clase, intenté crearme una base para poder trabajar en este código.
 
-con ciertos conocimientos previos llegue a lo siguiente:
+Con ciertos conocimientos previos, llegué a lo siguiente:
 
 ``` c++
-// Pasar de digitos en mi compu a brillos en el LED de prueba en el pin13
+// Pasar de dígitos en mi compu a brillos en el LED de prueba en el pin 13.
 
-// dejar escrito los caracteres que quiero que existan
+// Dejar escrito los caracteres que quiero que existan.
 char UNO;
 char DOS;
 char TRES;
@@ -119,10 +119,10 @@ char OCHO;
 char NUEVE;
 
 void setup() {
-  // escribo que el LEd que quiero usar es el que esta montado en el mismo Arduino
+ // Escribo que el LED que quiero usar es el que está montado en el mismo Arduino.
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
-  // declaro que cada una de estas palabras equivale a la cifra que esta escrita entre ''
+  // Declaro que cada una de estas palabras equivale a la cifra que está escrita entre ''
   UNO = '1';
   DOS = '2';
   TRES = '3';
@@ -137,13 +137,13 @@ void setup() {
 
 
 void loop() {
-// no se como funcionan los (if) statements en este lenguaje de programacion, pero quiero intentar usarlos
-// si es que el character inscrito equivale a, por ejemplo UNO, DOS, ect
+// No sé cómo funcionan los (if) statements en este lenguaje de programación, pero quiero intentar usarlos.
+// Sí es que el carácter inscrito equivale a, por ejemplo, UNO, DOS, etc.
  if char = UNO{
-  // para que se pueda diferenciar la cantidad de veces que sera prendida, una vez termine el ciclo, existira
-  // una pausa donde la LED estara apagada por mayor tiempo
+  // Para que se pueda diferenciar la cantidad de veces que será prendida, una vez termine el ciclo, existirá.
+  // una pausa donde la LED estará apagada por mayor tiempo.
   digitalWrite(LED_BUILTIN, HIGH);
-    // en clase se dijo que no se ocupara delay, pero para esta primera version, no se que ocupar como reemplazo
+    // En clase se dijo que no se ocupara delay, pero para esta primera versión, no sé qué ocupar como reemplazo.
     delay(500);    
   digitalWrite(LED_BUILTIN, LOW);
     delay(5000)
@@ -151,15 +151,15 @@ void loop() {
 
 
  if (char = DOS){
-  //debido a que esta vez seran 2 veces en la que se prende el LED
+  // Debido a que esta vez serán 2 veces en las que se prende el LED.
   digitalWrite(LED_BUILTIN, HIGH);
     delay(500);    
-  // este apagado tiene el mismo tiempo que el prendido
+  // Este apagado tiene el mismo tiempo que el prendido.
   digitalWrite(LED_BUILTIN, LOW);
     delay(500)
     digitalWrite(LED_BUILTIN, HIGH);
     delay(500);    
-  // con este, siendo el de apagado de mayor duracion para referenciar el reinicio del ciclo
+  // con este, siendo el de apagado de mayor duración para referenciar el reinicio del ciclo.
   digitalWrite(LED_BUILTIN, LOW);
     delay(5000)
   }
@@ -167,15 +167,17 @@ void loop() {
 
 ```
 
-como realmente no tenía idea de como comunicarme con el arduino busque en internet una manera en la que el arduino podía entender mis inputs, llegando al siguiente link:
+Ya que realmente no tenía idea de cómo comunicarme con el Arduino, busqué en internet una manera en la que el Arduino podía entender mis inputs, llegando al siguiente link:
 
 <https://forum.arduino.cc/t/serial-input-basics-updated/382007>
 
-específicamente el ejemplo n1 para “recibir” un carácter, que incorporé a mi código para poder observar cuando mi arduino estaba recibiendo estos caracteres, lo cual funcionó bastante bien.
+Específicamente, el ejemplo n.° 1 para “recibir” un carácter, que incorporé a mi código para poder observar cuando mi Arduino estaba recibiendo estos caracteres, lo cual funcionó bastante bien.
 
-Ahora existía un problema, el cual era que cualquier carácter recibido causaba que se activará este display de que un carácter había sido recibido, por esta razón busqué alguna manera en la que se pudiese identificar específicamente los dígitos que yo quiero.
+Ahora existía un problema, el cual era que cualquier carácter recibido causaba que se activara este display de que un carácter había sido recibido, por esta razón busqué alguna manera en la que se pudiese identificar específicamente los dígitos que yo quiero.
 
-pensé que cambiando: “if (Serial.available() > 0) {“ a algo como “if (Serial.available() = 1) {“   significando que el número disponible fuese 1, pero no funcionó tal cual, asumo que esto puede tener que ver con el [ASCII](https://www.w3schools.com/charsets/ref_html_ascii.asp), que es un modo de codificación de datos, pero no puedo confirmar mi hipótesis, debido a que encontré otro modo en el que podía hacer funcionar el código
+Pensé que cambiando “if (Serial.available() > 0) {” a algo como “if (Serial.available() = 1) {”, significando que el número disponible fuese 1, pero no funcionó tal cual, asumo que esto puede tener que ver con el [ASCII](https://www.w3schools.com/charsets/ref_html_ascii.asp), que es un modo de codificación de datos, pero no puedo confirmar mi hipótesis, debido a que encontré otro modo en el que podía hacer funcionar el código.
+
+
 
 al buscar si tal vez un if statement podía servir encontré lo siguiente:
 
