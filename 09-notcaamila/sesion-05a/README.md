@@ -14,7 +14,7 @@ turing-complete: aquel lenguaje que tiene el mismo poder computacional que una m
 
 ## abrimos ARDUINO IDE
 
-1. trabajando con otras tabs, cómo incluirlas
+### 1. trabajando con otras tabs, cómo incluirlas
 
 usar otros archivos en un archivo
 
@@ -36,16 +36,13 @@ Serial.println(numEstudiantes);
 }
 ```
 
-2. cosas en mayúscula: atención, ojito
-   
+### 2. cosas en mayúscula: atención, ojito
+
 ```cpp
 #ifndef CONSTANTES_H
 #define CONSTANTES_H
 
 const int numEstudiantes = 29
 
-#endi
+#endif
 ```
-
-
-
