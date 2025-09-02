@@ -16,7 +16,7 @@ OpenFrameworks es un entorno de programación que se hace en C++, que es una her
 
 Hay un computador que se llama “Norns”, le gusta mucho a Aaron, que tiene de sistema operativo Linux, que dentro corre un lenguaje llamado SuperCollider, que es super latero de escribir, son muchas líneas, tiene hartas comas, es bien later. Todos los parámetros u “objetos” que son necesarios para que corra se pueden hacer más fáciles con “Lua”, un lenguaje que constantemente conversa con SuperCollider.
 
-Balatro está hecho en LUA, ¡increíbleeee! 
+Balatro está hecho en "Lua", ¡increíbleeee! 
 
 Chuck fue creado como respuesta a los otros lenguajes para crear música que tienen otros paradigmas. Aarón mencionó que le gusta mucho la tesis que corresponde a este lenguaje, donde el tiempo es lo más importante, donde puedes improvisar. 
 
@@ -30,3 +30,12 @@ Ahora pasamos a programar en C++.
 
 ¿Qué hicimos? Abrimos un sketch de Arduino.
 
+El nombre del proyecto es el mismo nombre de la carpeta del archivo.
+
+En la esquina superior derecha puedo crear una nueva tab, para crear nuevos archivos .ino. Cuando el código sea muy grande, puedes segmentarlo. Con el ejemplo que nos dieron, siendo el grupo de la semana pasada que hizo la animación con el pajarito, podría estar todo el código de las imágenes en una nueva TAB.
+
+Los archivos solo se conocen a sí mismos, no tienen por qué “conocer” al de al lado, deberíamos escribir #include “nombreDeLaOtraTab.h”.
+
+El resto de los tabs de mi proyecto debería tener la sintaxis .h. 
+
+Podemos tener archivos que tengan código auxiliar para aportar al archivo principal.
