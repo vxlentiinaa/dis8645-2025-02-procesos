@@ -1,5 +1,5 @@
 # sesion-05a
-# sesion-04a
+
 ## Ontología aplicada
 EL estudio de las cosas como aparecen
 ¿Cómo describirías una mesa sin decir de qué está hecha y para qué sirve?
