@@ -156,3 +156,6 @@ Allison Parrish es una poeta, programadora, diseñadora de juegos y profesora as
 [Sobre EVERYWORD](https://www.decontextualize.com/2014/06/task-complete/)
 
 [Su portafolio](https://portfolio.decontextualize.com/)
+
+𔓘 **Nick Montfort**
+𔓘 **Martín Gubbins**
