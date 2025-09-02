@@ -10,6 +10,8 @@ Investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort 
 
 ### Allison Parrish (EEUU)
 
+![allison](./imagenes/allison.jpeg)
+
 - Trabajo general
 
 Allison Parrish es poeta, programadora y artista digital estadounidense. Su obra se centra en la poesía generativa, es decir, poemas creados mediante algoritmos, programación y procesos computacionales. Ha sido profesora en el NYU ITP (Interactive Telecommunications Program), donde ha impulsado el cruce entre lingüística, literatura y programación.
@@ -32,6 +34,8 @@ east west north north
 south west east
 ```
 
+![compass](./imagenes/compass.png)
+
 > "*Allison was named "Best Maker of Poetry Bots" by the Village Voice in 2016, and her zine of computer-generated poems called "Compasses" received an honorary mention in the 2021 Prix Ars Electronica. Allison is the co-creator of the board game Rewordable (Clarkson Potter, 2017) and author of several books, including @Everyword: The Book (Instar, 2015) and Articulations (Counterpath, 2018). Her poetry has recently appeared in BOMB Magazine and Strange Horizons.*" - <https://tisch.nyu.edu/about/directory/itp/853082171.html>
 
 - Dónde buscar su trabajo:
@@ -43,6 +47,8 @@ github: <https://github.com/aparrish>
 <https://portfolio.decontextualize.com/>
 
 ### Nick Montfort (EEUU)
+
+![Nick_Montfort_(4631588405)_(cropped).jpg](./imagenes/Nick_Montfort_(4631588405)_(cropped).jpg)
 
 - Trabajo general
 
@@ -68,6 +74,8 @@ boulders frame
 stream rushes
 ```
 
+![taroko_gorge](./imagenes/taroko_gorge.png)
+
 > "*A frequent collaborator at the intersection of digital media and literature, Montfort often creates and works within generative constraints and computational forms. Computer-based poetry generators are “usually very elaborate and large systems,” Montfort stated in a 2010 interview with Stephen McLaughlin for Jacket2, describing his own efforts as “trying to resist that and create something very small, [which] I find interesting because it brings me up against the question of what it is about a poem that makes it recognizable as a poem to someone. What makes it play in an interesting way with traditions of poetry, with concepts, with expression?”*" - <https://www.poetryfoundation.org/poets/nick-montfort>
 
 - Dónde buscar su trabajo:
@@ -77,6 +85,8 @@ stream rushes
 <https://cmsw.mit.edu/profile/nick-montfort/>
 
 ### Martín Gubbins (Chile)
+
+![martin](./imagenes/martin.png)
 
 - Trabajo general
 
@@ -91,6 +101,16 @@ Es una de las voces más importantes de la poesía experimental en Chile y Amér
 1. **Poemas encontrados y otros pre-textos** (2009) - Es una colección donde Gubbins toma fragmentos de textos, signos gráficos y juegos tipográficos, para transformarlos en poemas visuales. Su propuesta cuestiona qué es un poema: ¿es solo el significado de las palabras o también su forma, su disposición en la página, su sonido?; Ejemplo: uno de sus poemas visuales se compone de repeticiones de palabras que forman figuras en la página. 
 2. **Notas al margen** (2014) - Combina texto y anotaciones gráficas, creando una lectura fragmentada y experimental.
 3. Performances de poesía sonora en festivales internacionales (España, Alemania, Chile).
+
+fragmento "poemas encontrados y otros pre-textos"
+
+```cpp
+eco eco eco  
+eco eco eco  
+eco eco eco  
+```
+
+![poemas](./imagenes/poemas.jpg)
 
 > "*Es una figura destacada de la escena literaria de vanguardia en Latinoamérica. En diversos países ha publicado libros de poesía y poesía visual y ha grabado poesía sonora solo y con otros artistas. Su obra aparece en decenas de antologías y ha participado en exposiciones individuales y colectivas, instalaciones, lecturas, conciertos, performances y festivales en varias partes del mundo. Practica la poesía como una exploración multifacética, deteniéndose frecuentemente en intersticios donde lo significante emerge de lo no-significante.*" (sobre Martin por <https://afagaleria.cl/artistas/martin-gubbins/?v=5bc574a47246>)
 
