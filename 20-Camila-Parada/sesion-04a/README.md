@@ -70,7 +70,15 @@ Se crea una carpeta con el mismo nombre pero en formato "cpp", en el que muestra
 
 int Persona:: getEdad() {}
 
-return
+return Persona::edad; //termina con un retorno, un valor entero.
+
+#include <Arduino.h> //Entre comillas (ahí mismito), con signo <> es que está al lado. Implica todas las cosas con las que se maneja arduino (librerias y recursos).
+Buscar diferencia entre "string" y "String"
+Persona:: //declarar la clase
+
+Es de buena educación el tener una clase como un archivo extra o separado del original, puesto que este tipo de contenidos son reutilizados muchas veces. (Por ejemplo las bilbiotecas)
+
+El archivo .ino no se puede abrir en otro proyecto, no como otro tipo. 
 
 ### Apuntes escritos del día
 
