@@ -42,11 +42,19 @@ Podemos tener archivos que tengan código auxiliar para aportar al archivo princ
 
 Lo siguiente es **MUY IMPORTANTE**, ya que esto protege al código de un error de compilación, donde puede estar definido algo múltiples veces.
 
-#ifndef  // Si es que no está definido algo, aquí pondría el nombre del tab en mayúsculas, ejemplo WAOS_H.
+```cpp
 
-#define // definirlo, o sea que escribiría el WAOS_H
+// Si es que no está definido algo, aquí pondría el nombre del tab en mayúsculas, ejemplo WAOS_H.
+#ifndef WAOS_H
 
-#endif  // termina el llamar a este archivo, para que no sea llamado 2 veces
+// definirlo, o sea que escribiría el WAOS_H
+#define WAOS_H
+
+// termina el llamar a este archivo, para que no sea llamado 2 veces
+// Esto debe estar al final del archivo.
+#endif
+
+```
 
 Porque crearon C++ y por qué no se quedaron con C, es porque tiene clases, entre otras cosas.
 
@@ -61,5 +69,23 @@ Necesitamos una que se llame exactamente como el nombre de la clase, esto es un 
 Dentro de esta clase definiremos la existencia de la persona. El constructor dice: "Que necesito sí o sí para empezar a funcionar". 
 
 Así como existe el constructor, existe el destructor, que dice que elimine la existencia de esa persona, donde tendría que escribir el nombre del constructor con una virgulilla (~) antes del nombre del constructor.
+
+Las definiciones dentro de las clases terminan en ;
+
+Luego vamos a crear un archivo que esté anexado como .cpp, donde vamos a traer todas nuestras funciones definidas del .h para poder “echarnos” los “;” para cambiarlos por murciélagos {} y de esta manera definir todo lo que representa cada una de estas funciones. 
+
+## Módulo después del break
+
+Las funciones pueden retornar algo, cuando no queremos que retornen nada, esto será un void.
+
+Una clase es un constructo computacional que agrupa variables. 
+
+Hay una diferencia sutil entre «» y “”, donde las comillas están aquí mismo, mientras que <> significa que lo busque donde quiera que esté del computador. 
+
+La gracia del .cpp, entre otras cosas, es que el orden no importa.
+
+En Chile, para ser persona, tiene que tener WhatsApp y RUT.
+
+Es de buenos modales que mi clase esté en un archivo separado. 
 
 
