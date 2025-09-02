@@ -201,3 +201,14 @@ Si ambos bits son iguales (ambos 1 o ambos 0), el resultado es 0.
 Las entradas opuestas tienen salida 0/falso. 
 
 Es un componente lógico digital que es una puerta XOR pero con la lógica invertida, produce una salida alta (1 lógico) solo cuando ambas entradas son iguales (ambas altas o ambas bajas). Por lo tanto, si las entradas son diferentes (una alta y otra baja), la salida de la puerta XNOR será baja (0 lógico).
+
+![logicas01](./imagenes/logicas01.png)
+
+![logicas02](./imagenes/logicas02.jpg)
+
+### Bibliografía
+
+Descubre Arduino. (2020, 9 de diciembre). Puertas lógicas. Descubre Arduino. <https://descubrearduino.com/puertas-logicas/>
+
+TechTarget. (s.f.). Logic gate: AND, OR, XOR, NOT, NAND, NOR and XNOR. TechTarget. <https://www.techtarget.com/whatis/definition/logic-gate-AND-OR-XOR-NOT-NAND-NOR-and-XNOR>
+

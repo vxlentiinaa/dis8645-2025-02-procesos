@@ -22,7 +22,7 @@ El código con analogRead(A0) convierte el voltaje de 0V a 5V en un valor digita
 
 En esta imagén se muestra un error que cometimos como grupo al momento de conectar el potenciómetro al arduino:
 
-![conexión_pótenciometro_mala](./imagenes/conexión_pótenciometro_mala.jpg)
+![conexión_pótenciometro_mala](./imagenes/çonexión_pótenciometro_mala.jpg)
 
 Se vio como el potenciómetro modifica valores en el código (entrada analógica) y cómo podemos usarlo para controlar la pantalla.
 
@@ -1247,10 +1247,10 @@ else {
 
 ### Herramientas y programas utilizados
 
-- Illustrator. (escribir poema y dibujar con formas/herramienta pluma un pájaro en movimiento, fuente utilizada para el poema: Lemon Milk)
-- image2cpp. (pasar los fotogramas a código)
-- Wokwi (revisar códigos de fotograma)
-- FlexClip (revisar fotogramas y que cumplan con la sensación de un gift animado con el pajaro en movimiento)
+- **Illustrator** (escribir poema y dibujar con formas/herramienta pluma un pájaro en movimiento, fuente utilizada para el poema: Lemon Milk)
+- **image2cpp** (pasar los fotogramas a código)
+- **Wokwi** (revisar códigos de fotograma)
+- **FlexClip** (revisar fotogramas y que cumplan con la sensación de un gift animado con el pajaro en movimiento)
 
 ### Proceso del trabajo
 
@@ -1276,45 +1276,43 @@ else {
 
 ![distribución_texto](./imagenes/distribución_texto.png)
 
-### 4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho
+4. Dibujar con herramienta pluma contorno de pájaro en movimiento (16 veces para generar sensación de movimiento real tipo GIFT) y rellenar. Hacer solo silueta sin tanto detalle sino no sé apreciaría mucho.
 
-### 5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento
-
-![distribución pajaros](./imagenes/distribución_pajaros.png)
+5. Ordenar todo por mesa de trabajo, poner en posición correcta cada pájaro manteniendo una linea imaginaria para generar movimiento.
 
 ![proceso_ordenar](./imagenes/proceso_ordenar.png)
 
 ![resultado_illustrator](./imagenes/resultado_illustrator.png)
 
-### 7. Descargar imágenes
+6. Descargar imágenes.
 
 ![imagenes_descargadas](./imagenes/imagenes_descargadas.png)
 
-### 8. Pasar imágenes a image2cpp
+7. Pasar imágenes a image2cpp.
 
 ![pasar_a_image2cpp](./imagenes/pasar_a_image2cpp.png)
 
-### 9. Copiar códigos y pasarlos a WOKWI para probarlos
+8. Copiar códigos y pasarlos a WOKWI para probarlos.
 
 ![prueba_wikwok](./imagenes/prueba_wikwok.png)
 
-### 10. Mandar evidencia al grupo para ver errores y opiniones
+9. Mandar evidencia al grupo para ver errores y opiniones.
 
-### 11. Corregir errores en el illustrator y descargar las nuevas versiones
+10. Corregir errores en el illustrator y descargar las nuevas versiones.
 
-### 12. Utilizar flexclip para ver una referencia del resultado tipo animado
+11. Utilizar flexclip para ver una referencia del resultado tipo animado.
 
 ![verificar_gift](./imagenes/verificar_gift.png)
 
-### 13. Mandar evidencia al grupo para ver errores y opiniones
+12. Mandar evidencia al grupo para ver errores y opiniones.
 
-### 14. Una vez autorizado todo pasar nuevas imágenes a image2cpp
+13. Una vez autorizado todo pasar nuevas imágenes a image2cpp.
 
 ![image2cpp_final](./imagenes/image2cpp_final.png)
 
-### 15. Copiar nuevo código y probarlo en Wokwi
+14. Copiar nuevo código y probarlo en Wokwi.
 
-### 16. Al ver que funciona mandar a grupo de trabajo
+15. Al ver que funciona mandar a grupo de trabajo.
 
 Extras:
 
@@ -1322,15 +1320,10 @@ Extras:
 
 Video proceso: <https://youtu.be/apL3aa1PRMo>
 
-### Fotogramas
-
-### Código
-
-#### Primer código de prueba
+### Primer código de prueba
 
 Se utilizo para verificar si los códigos por fotogramas funcionaban y como prueba para ver el formato utilizado en las imágenes.
 ⠀⠀⠀⠀
-
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -2558,7 +2551,7 @@ void loop() {
 }
 ```
 
-#### Segundo código
+### Segundo código
 
 Sirvió para ver si funcionaban los códigos actualizados de los nuevos fotogramas y ver si estos cumplian con el sentido de ir cambiando a medida que el poema avanza (que se vea la animación del pajaro en movimiento).⠀
 
