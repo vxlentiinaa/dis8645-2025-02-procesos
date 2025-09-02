@@ -40,18 +40,16 @@
 - Interfaz -> HCI
 - Información
 
-  Energía -> tiempo -> transformación
-  No hay transformación si el tiempo está congelado porque no tiene energía, no se mueve.
-  Algo quieto no es una máquina
-  La información y los datos son los que se transforman
-  HCI: Interfaz humano computador
-  STS: Science, technology, and society
+Energía -> tiempo -> transformación
+No hay transformación si el tiempo está congelado porque no tiene energía, no se mueve.
+Algo quieto no es una máquina
+La información y los datos son los que se transforman
+HCI: Interfaz humano computador
+STS: Science, technology, and society
 
-  Tecnología Techne, Arte, Oficio, Destreza
+Tecnología Techne, Arte, Oficio, Destreza
 
-  ## Investigación Alan Turing y Ada Lovelace
-
-### Alan Turing
+## encargo-02: Alan Turing
 
 “pionero en el desarrollo de la inteligencia artificial y la computación moderna.”
 Su meta era reconstruir el cerebro de su amigo fallecido en su adolescencia.
@@ -76,9 +74,10 @@ La máquina de Turing es lo que permitió la computación de hoy en día ser lo 
 
 “A pesar de la trascendencia de su trabajo, a modo de anécdota sobre su personalidad, baste mencionar que durante este periodo Alan se desplazaba diariamente desde su residencia en su vieja bicicleta, siendo numerosas las ocasiones en las que aparecía embadurnado de grasa al tener que colocar la cadena de la bicicleta debido a un problema que finalmente logró solucionar él mismo.”
 
-### Ada Lovelace
+## encargo-01 Ada Lovelace
+
 Escritora del primer algoritmo informático. Gracias a que su madre se separó de su padre al poco tiempo de nacer, tuvo un tipo de educación muy distinta a las demás mujeres. Se le enseñó matemáticas y ciencia desde muy pequeña.
-Era amiga cercana de Charles Babbage, un matemático e inventor que quedó impresionado con su conocimiento. 
+Era amiga cercana de Charles Babbage, un matemático e inventor que quedó impresionado con su conocimiento.
 
 “Además de estas aportaciones, Ada Lovelace tomó como referencia los número de Bernoulli para desarrollar lo que hoy conocemos como algoritmo informático. Sin embargo uno de los grandes avances que desarrolló fue la introducción de este algoritmo en la máquina de Babbage. Este hecho le permitió definir lo que actualmente en informática se conoce como «bucle»: ejecutar una serie de acciones de forma repetida.”
 
@@ -90,11 +89,9 @@ Hay un lenguaje de programación con su nombre en su honor, el cual se utiliza e
 Le gustaba apostar en las carreras de caballos, e intentó crear un algoritmo para poder saber cuál sería el ganador cada vez. Pero en vez de ganar dinero, se endeudó.
 
 ### Referencias
+
 <https://www.nationalgeographicla.com/ciencia/2023/06/quien-fue-alan-turing-pionero-en-el-desarrollo-de-la-inteligencia-artificial-y-la-computacion-moderna>
 <https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352>
-https://www.fundacionaquae.org/wiki/ada-lovelace-madre-de-la-programacion
+<https://www.fundacionaquae.org/wiki/ada-lovelace-madre-de-la-programacion>
 <https://www.infobae.com/tecno/2017/02/12/7-datos-curiosos-sobre-ada-lovelace-la-primera-programadora-de-la-historia>
 <https://programacion.net/articulo/9-datos-muy-interesantes-sobre-la-primera-programadora-del-mundo--ada-lovelace_1191>
-
-
-

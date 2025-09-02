@@ -54,7 +54,7 @@ Martes y Viernes 08:30 a 12:50
 - Piezas móviles.
 - Componentes electrónicos.
 - Require **energía**.
-- **Tiempo** (durabilidad) - "sustrato de la energía" 
+- **Tiempo** (durabilidad) - "sustrato de la energía"
 - Objetivo definido.
 - **Compuesto** por más de un elemento.
 - Cuenta cono una intención.
@@ -81,14 +81,14 @@ COMPUTACIÓN -> COMPÚTARE
 
 ### Máquinas Computacionales
 
-- procesar información - llegar a un resultado. 
+- procesar información - llegar a un resultado.
 - automatizar cálculos y operaciones lógicas
 
 ## Conceptos y proyectos/programas
 
 - **HCI:** Interfaz Humano Computador.
-- **STS:** *Science Technology Sociality*.
-- **PCBA:** La A signfica *"assamble"* - Printed Circuit Board Assembly.
+- **STS:** *Science Technology Society*.
+- **PCBA:** La A signfica *"assembly"* - Printed Circuit Board Assembly.
 - **Microcontrolador:** circuito integrado programable.
 - **Tiny Machine Learning:** (TinyML) - campo de IA que se centra en ejecutar modelos de aprendizaje automático en dispositivos pequeños y de bajo consumo, como microcontroladores y dispositivos IoT.
 - **PCB:** Circuit Printed Board.
@@ -96,7 +96,7 @@ COMPUTACIÓN -> COMPÚTARE
 - **THT:** Trough Hole Technology.
 - **SMD:** Surface Mount Device.
 - **Arduino:** es una placa con un microcontrolador integrado.
-- **Wiring:** (Fernando Baragán) - *marco de programación de código abierto para microcontroladores, Wiring permite desarrollar software multiplataforma para controlar dispositivos conectados a una amplia gama de placas de microcontroladores y crear todo tipo de código creativo, objetos interactivos, espacios o experiencias físicas*. 
+- **Wiring:** (Hernando Baragán) - *marco de programación de código abierto para microcontroladores, Wiring permite desarrollar software multiplataforma para controlar dispositivos conectados a una amplia gama de placas de microcontroladores y crear todo tipo de código creativo, objetos interactivos, espacios o experiencias físicas*.
 - **Procesing:** herramienta/entorno de programación encofado a la parte visual - *lenguaje de programación y entorno de desarrollo integrado de código abierto basado en Java, de fácil utilización, y que sirve como medio para la enseñanza y producción de proyectos multimedia e interactivos de diseño digital.*)
 - **STS:** *science, tecnology and society* - estudia dinamica, interacción, ciencia, tecnologia y sociedad.
 
@@ -104,16 +104,16 @@ COMPUTACIÓN -> COMPÚTARE
 
 Investigar sobre Ada Lovelace y Alan Turing.
 
-### Ada Lovelace (1815 - 1852)
+### encargo-01: Ada Lovelace (1815 - 1852)
 
 Augusta Ada King, condesa de Lovelace, conocida como Ada Lovelace, fue una matemática y escritora inglesa considerada la primera programadora de la historia.
 
 Trabajó junto a Charles Babbage en la "Máquina Analítica", un diseño de computador mecánico del siglo XIX. Su aporte más destacado fue la creación del primer algoritmo destinado a ser ejecutado por una máquina (un método para calcular los números de Bernoulli).
-Además, fue visionaria al anticipar que las máquinas computacionales podían ir más allá del cálculo numérico y servir para procesar símbolos, música o texto, adelantándose a la idea moderna de los computadores como sistemas universales. Su aporte pasó desapercibido durante mucho tiempo, pero en el siglo XX fue revalorizada y hoy es una figura central en la historia de la informática. 
+Además, fue visionaria al anticipar que las máquinas computacionales podían ir más allá del cálculo numérico y servir para procesar símbolos, música o texto, adelantándose a la idea moderna de los computadores como sistemas universales. Su aporte pasó desapercibido durante mucho tiempo, pero en el siglo XX fue revalorizada y hoy es una figura central en la historia de la informática.
 
 - **Importancia**: Su trabajo le dio el título de pionera en la programación informática, inspirando la ciencia computacional contemporánea. Inspiró a generaciones de científicas y programadoras. Incluso, el lenguaje de programación ADA, creado por el Departamento de Defensa de Estados Unidos en 1980, lleva su nombre.
 
-### Alan Turing (1912 - 1954)
+### encargo-02: Alan Turing (1912 - 1954)
 
 Alan Mathison Turing fue un matemático, lógico y criptógrafo británico considerado el padre de la computación moderna y de la inteligencia artificial.
 

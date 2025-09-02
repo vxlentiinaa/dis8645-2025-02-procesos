@@ -1,6 +1,9 @@
 # sesion-01a
+
 ## APUNTES 1° CLASE
+
 ### TALLER || Diseño de máquinas computacionales
+
 ```cpp
 HORARIO || Martes y viernes
 08:30 - 09:00 → llegar

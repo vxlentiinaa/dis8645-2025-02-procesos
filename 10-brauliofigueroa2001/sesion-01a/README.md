@@ -6,9 +6,9 @@
 
 - lo que sí hice fue el encargo que designaron sobre investigar a Ada Lovelace y Alan Turing
 
-## encargo 1, investigar sobre Ada Lovelace y Alan Turing
+## encargo-01: investigar sobre Ada Lovelace
 
- ### Ada Lovelace
+### Ada Lovelace
 
 Augusta Ada King, condesa de Lovelace, nació el 10 de diciembre de 1815.De niña Ada Lovelace sufrió varias enfermedades, incluyendo el sarampión que la dejó temporalmente paralítica. A pesar de las dificultades físicas, nunca perdió su entusiasmo por aprender.
 
@@ -28,12 +28,13 @@ Además de estas aportaciones, Ada Lovelace tomó como referencia los número de
 
 A su vez, Ada Lovelace diseñó la idea de una máquina que fuera capaz de programarse y reprogramarse para ejecutar funciones que le llevarán a la realización de una serie de tareas que fueran mas allá de llevar a cabo simples cálculos y que quedarán expresadas mediante símbolos.
 
+## encargo-02: investigar sobre Alan Turing
 
-### Alan Turing 
+### Alan Turing
 
 Alan Mathison Turing nació el 23 de junio de 1912 en el barrio de Paddington, Londres. Su familia era de clase media alta. Fue el segundo hijo de Julius y Sara, que permanecieron en la India durante varios años, por lo que pasó la infancia con su hermano mayor John.
 
-En 1928, en la escuela Sherborne conoce a su amigo Christopher Morcom, quien falleció dos años después.  Por este motivo es que Turing se interesa por el estudio de la mente humana a través de la física y la mecánica cuántica, buscando la solución a la relación entre mente y materia. 
+En 1928, en la escuela Sherborne conoce a su amigo Christopher Morcom, quien falleció dos años después.  Por este motivo es que Turing se interesa por el estudio de la mente humana a través de la física y la mecánica cuántica, buscando la solución a la relación entre mente y materia.
 
 Un año después en Cambridge, en Kings College, encontró un método de estudio que permitía ideas más abiertas, aquí consiguió ser distinguido en lógica y matemática.
 
@@ -63,7 +64,8 @@ Turing contribuyó además a la biología matemática. Publicó un artículo en 
 
 me quedo con la siguiente frase que encontré de Alan Turing, **"Un hombre provisto de papel, lápiz y goma, y sujeto a estricta disciplina, es en efecto una máquina universal".**
 
-fuentes utilizadas: 
+fuentes utilizadas:
+
 - [**https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/\#:\~:text=Fue%20famoso%20por%20descifrar%20el,108%20a%C3%B1os%20de%20su%20nacimiento**](https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/#:~:text=Fue%20famoso%20por%20descifrar%20el,108%20a%C3%B1os%20de%20su%20nacimiento)**.**
 
 - [**https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados\_16352**](https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352)
@@ -71,5 +73,3 @@ fuentes utilizadas:
 - [https://www.fundacionaquae.org/wiki/ada-lovelace-madre-de-la-programacion/](https://www.fundacionaquae.org/wiki/ada-lovelace-madre-de-la-programacion/)
 
 - [https://ebac.mx/blog/ada-lovelace](https://ebac.mx/blog/ada-lovelace)
-
-

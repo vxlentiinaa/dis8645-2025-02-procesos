@@ -52,7 +52,7 @@ una máquina requiere energía, para que la energáa circule necesita tiempo.
 
 Una máquina implica tiempo. Algo estático no es una máquina.
 
-### encargo
+### encargo-01 y encargo-02
 
 Investigar:
 
@@ -156,17 +156,15 @@ Investigar:
 
 - [Wiring](https://en.wikipedia.org/wiki/Wiring_(software)) - Fernando Baragán
 
-## encargos
-
-### Ada Lovelace
+## encargo-01: Ada Lovelace
 
 ![Imagen investigación previa](./imagenes/adaLovelace-pcm.png)
 
 Esta es una pequeña investigación que hice en el marco del curso de profundización Programación Creativa Multimedia.
 
-## Alan Turing
+## encargo-02: Alan Turing
 
-Alan Turing fue un matemático, criptógrafo, entre otros. Nacido en 1912 en Londres, falleció en 1954. Se dice que se suicidó debido a las grandes prresiones y ostigamientos que recibió debido a su orientación sexual.
+Alan Turing fue un matemático, criptógrafo, entre otros. Nacido en 1912 en Londres, falleció en 1954. Se dice que se suicidó debido a las grandes presiones y hostigamientos que recibió debido a su orientación sexual.
 
 Alan Turing entre otras cosas, es recordado  por sus aportes tecnológicos durante la 2da guerra mundial, su creación ["Bombe"](https://www.codesandciphers.org.uk/virtualbp/tbombe/bombesc.htm) se estima acortó la guerra entre 2 y 4 años. Además se le considera el padre teóirico de la IA, debido a su invención el ["test de Turing"](https://turingtest.live). Este test se puede considerar como "el referente" usado para crear los CAPTCHA.
 

@@ -80,9 +80,7 @@ JLCPBC
 
 ***
 
-### Tarea 01: ¿Quiénes son?
-
-#### 1. Ada Lovelace
+## encargo-01: Ada Lovelace
 
 Matemática de nacionalidad británica. Es considerada la primera programadora de la historia, puesto que sentó la base para la creación de las computadoras.
 Desde pequeña, y gracias a su posición social, pudo acceder a una educación académica privada centrada en las matemáticas (principal área de interés de su madre), ciencias, música y en lengua francesa.
@@ -98,7 +96,7 @@ _Información recuperdada de:_
 1) <https://ebac.mx/blog/ada-lovelace>
 2) <https://lemelson.mit.edu/resources/ada-lovelace>
 
-#### 2. Alan Turing
+### encargo-02: Alan Turing
 
 Matemático, informático teórico de origen británico.
 Es uno de los precursores de las computadoras y de la informática. A temprana edad se interesó por la relación entre mente y materia, involucrándose con la física y mecánica cuántica. En la universidad "King's College Cambridge" se destacó en lógica y matemática. Más tarde (1936) hizo un doctorado en criptología en la Universidad de Princeton, ideando el funcionamiento de una máquina que pudiera resolver problemas traducido a operaciones matemáticas y cuyo resultado constara en una serie de operaciones lógicas en código binario (si y no, 1 y 0, etc).
@@ -107,7 +105,7 @@ Uno de sus hitos más grandes sería en la Segunda Guerra Mundial, fecha en la c
 
 Otra de sus hazañas fue ser el primer científico en cuestionarse sobre la capacidad de las máquinas para poder pensar, haciendo alusión al termino actual de “Inteligencia artificial”. Haciendo paralelismos con la biología del cerebro, se cree que este órgano funciona similar a una computadora en cuanto a la capacidad de retención y procesamiento de datos. Frente a esta situación es que surge el “Test de Turing”, un examen dedicado a analizar la capacidad de una máquina para hacerse pasar por un ser humano a través de una conversación.
 
-_Información recuperdada de:_
+_Información recuperada de:_
 
 1) <https://www.cultura.gob.ar/alan-turing-el-padre-de-la-inteligencia-artificial-9162/>
 2) <https://es.wikipedia.org/wiki/Enigma_(m%C3%A1quina)>
