@@ -53,3 +53,13 @@ Porque crearon C++ y por qué no se quedaron con C, es porque tiene clases, entr
 Solo cuando definamos class, tendrá un punto y coma justo después del murciélago final };
 
 Dentro de las clases hay muchas opciones, y uno parte de las opciones.
+
+Dentro de la industria se utiliza public, para estas clases vamos a hacer todo public. Aquí vamos a escribir funciones, no están llamadas funciones para no confundir a las personas, se llaman métodos, pero son funciones.
+
+Necesitamos una que se llame exactamente como el nombre de la clase, esto es un constructor, sirve para crear nuevas instancias, esto es como el molde de una galleta.
+
+Dentro de esta clase definiremos la existencia de la persona. El constructor dice: "Que necesito sí o sí para empezar a funcionar". 
+
+Así como existe el constructor, existe el destructor, que dice que elimine la existencia de esa persona, donde tendría que escribir el nombre del constructor con una virgulilla (~) antes del nombre del constructor.
+
+
