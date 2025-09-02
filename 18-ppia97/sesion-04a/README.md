@@ -141,3 +141,10 @@ void loop() {
 ###### ── Pruebas con pantalla y potenciómetro.
 ![Pantalla 3](./imagenes/PA3.jpeg)
 
+##### ── ENCARGO POESÍA Y TRABAJO
+
+𔓘 **Allison Parrish**  
+Allison Parrish es una poeta, programadora, diseñadora de juegos y profesora asistente de Artes en la Universidad de Nueva York ITP/IMA (programa de artes de medios interactivos de la Tisch School of the Arts de Nueva York NYU), lo que consiste en un programa de pregrado para explorar la tecnologia e interactividad de forma creativa en medios que van emergiendo. Es originaria de West Bountiful, Utah y actualmente vive en Brooklyn. Sus proyectos estan muy relacionados al lenguaje y cómo se organiza y es utilizado en el contexto computacional y de internet, además de dar clases de programación, computación creatividad y cultura, análisis de textos y tutoriales o talleres públicos que posteriormente publica en GitHub.
+
+[Información de ella sacada de aquí](https://www.decontextualize.com/)
+[Información sobre ITP/IMA](https://tisch.nyu.edu/itp#:~:text=Artes%20de%20Medios%20Interactivos%20(IMA%20%E2%80%93%20licenciatura),1%20de%20agosto%20de%202025.)
