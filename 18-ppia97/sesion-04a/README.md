@@ -149,3 +149,8 @@ Allison Parrish es una poeta, programadora, diseñadora de juegos y profesora as
 [Información de ella sacada de aquí](https://www.decontextualize.com/)
 
 [Información sobre ITP/IMA](https://tisch.nyu.edu/itp#:~:text=Artes%20de%20Medios%20Interactivos%20(IMA%20%E2%80%93%20licenciatura),1%20de%20agosto%20de%202025.)
+
+[EVERYWORD](https://x.com/everyword)
+[Sobre EVERYWORD](https://www.decontextualize.com/2014/06/task-complete/)
+
+[Su portafolio](https://portfolio.decontextualize.com/)
