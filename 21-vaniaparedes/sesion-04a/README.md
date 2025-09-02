@@ -70,5 +70,9 @@ define it" : #define
 - void definirEdad(int edad):; En clase hay una función que mempermite definir su edad e int me permite saber que edad tiene.
 - Si hay () es función.
 
+## Después del break
+
+Clases con Mayúsculas al principio
+Variables con minúscula
 
 
