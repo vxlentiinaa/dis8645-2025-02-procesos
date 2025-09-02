@@ -1,9 +1,11 @@
-
 #include "constantes.h"
 #include "Persona.h"
+#include "SensorAnalogo.h";
 
 Persona aristoteles(false);
 Persona javieraMena(true);
+
+SensorAnalogo potenciometroIzquierda(A0);
 
 void setup() {
   // put your setup code here, to run once:
@@ -15,6 +17,9 @@ void setup() {
 
   aristoteles.setRut("1-0");
   javieraMena.setRut("11.111.111-1");
+
+  potenciometroIzquierda.definirRangoUtil(0, 1023);
+  potenciometroIzquierda.definirRangoMapeo(0, 10);
 }
 
 void loop() {
@@ -29,4 +34,6 @@ void loop() {
 
   Serial.print("Javiera Mena tiene RUT ");
   Serial.println(javieraMena.getRut());
+
+  potenciometroIzquierda.leerValor();
 }

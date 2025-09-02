@@ -7,8 +7,17 @@ class SensorAnalogo {
 
 public:
   // constructor
-  SensorAnalogo();
+  SensorAnalogo(int nuevaPatita);
 
+    // destructor
+  ~SensorAnalogo();
+
+  void definirRangoUtil(int nuevoMin, int nuevoMax);
+
+  void definirRangoMapeo(int nuevoMin, int nuevoMax);
+
+  void leerValor();
+  
 
   int patita;
 
@@ -21,11 +30,6 @@ public:
   int rangoMapeadoMax;
 
   String nombre;
-
-
-
-
-
 
 };
 
