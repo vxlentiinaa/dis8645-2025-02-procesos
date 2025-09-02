@@ -2,8 +2,6 @@
 #include "constantes.h"
 #include "Persona.h"
 
-
-
 Persona aristoteles(false);
 Persona javieraMena(true);
 
