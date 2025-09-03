@@ -1,14 +1,14 @@
 # sesion-04b
 
-## 2 de septiembre de 2025
+## viernes 29 de agosto de 2025
 
-Encargo clase
+**Encargo clase**
 
 Investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martin Gubbins
 
-## Allison Parrish
+# Allison Parrish
 
-Mini Biografía
+*Mini Biografía*
 
 - Poeta estadounidense, ingeniera en software, programadora creativa y diseñadora de juegos.
 - Reconocida por la fusión entre el lenguaje y la poesía.
@@ -29,9 +29,9 @@ Un juego de mesa diseñado junto a Adam Simon y Tim Sztela, publicado por Clarks
 4. **Compasses**
 Un fanzine de poemas generados por una computadora que recibió una mención honorífica en los Premios Prix Ars Electrónica 2021, señalando su relevancia en el campo de la poesía computacional.
 
-## Nick Montfort
+# Nick Montfort
 
-Mini biografía
+*Mini biografía*
 
 - Nacido en 1967 es un escritor, poeta, crítico literario y profesor universitario conocido por su trabajo pionero en **literatura electrónica**, **poesía generativa** y **narrativa interactiva**.
 - Actualmente es profesor de Artes Digitales y Medios Comparativos en el MIT (Massachusetts Institute of Technology).
@@ -49,9 +49,9 @@ Poemas generativos escritos en varios lenguajes de programación como Python, Pe
 4. **Exploratory Programming for the Arts and Humanities (2016)**
 Consiste en un manual práctico que enseña a usar Python para la programación creativa, muy utilizado en universidades.
 
-## Martín Gubbins
+# Martín Gubbins
 
-Mini biografía
+**Mini biografía**
 
 - Nacido en Santiago en 1971, es un poeta, abogado, artista visual, sonoro, editor y curador chileno.
 - Su trabajo se despliega en poesía escrita, visual y sonora, y ha sido parte de numerosas antologías, exposiciones individuales y colectivas, instalaciones, performances y festivales en diversos países.
@@ -69,15 +69,15 @@ Publicado por Naranja Publicaciones, se trata de poesía visual y conceptual, do
 4. **Proyecto de Mnemotecnia** (2017)
 Publicado en España es un trabajo híbrido entre poesía, memoria y experimentación visual, que explora el concepto de mnemotecnia (técnias para recordar), usando palabras, imágenes y estructuras gráficas que funcionan como "dispositivos de memoria". El texto se convierte en una surte de archivo o constelación de recuerdos en tensión.
 
-## Clase de hoy
+# Clase de hoy
 
 ## ¿Qué son las clases?
 
 - Es un concepto relacionada a la **programación orientada a objetos (POO)**, se puede entender como un molde o plantilla que define cómo serán los objetos que se creen a partir de ella.
 - Una clase se compone de dos cosas:
 
-1. Atributos (propiedades o varibales)
-2. Métodos (funciones o comportamientos
+1. **Atributos (propiedades o varibales):** son las características que describen las variables.
+2. **Métodos (funciones o comportamientos):** son las acciones que el objeto puede realizar.
 
 Detro de las clases hay muchas opciones como public:
 
@@ -96,11 +96,11 @@ Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí 
 
 - **Para las proximas entregas, tendremos un sensor.h o ptenciometro.h**
 
-## Ejercicios clase
+# Ejercicios clase
 
 - Las clases de los archivos se hacen con **.h** y **.cpp**+ el archivo arduino **.ino**
 
-ARCHIVO INO
+**ARCHIVO INO**
 
 ```cpp
 //programacion orientada a objetos
@@ -132,7 +132,7 @@ void loop() {
 
 ```
 
-ARCHIVO .h
+**ARCHIVO .h**
 
 ```cpp
 //cualquier codigo que incluya este archivo, tendra la informacion de este archivo solo escribiendo #include en el archivo principal
@@ -173,7 +173,7 @@ int edad;
 #endif
 ```
 
-ARCHIVO .cpp
+**ARCHIVO .cpp**
 
 ```cpp
 #include "Persona.h"
