@@ -1,7 +1,6 @@
 # sesion-05a
-## Martes 2 de septiembre
 
-# Clase de hoy
+Martes 2 de septiembre
 
 ## ¿Qué son las clases?
 
@@ -28,11 +27,11 @@ Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí 
 
 - **Para las proximas entregas, tendremos un sensor.h o ptenciometro.h**
 
-# Ejercicios clase
+## Ejercicios clase
 
 - Las clases de los archivos se hacen con **.h** y **.cpp**+ el archivo arduino **.ino**
 
-**ARCHIVO INO**
+ARCHIVO INO
 
 ```cpp
 //programacion orientada a objetos
@@ -64,7 +63,7 @@ void loop() {
 
 ```
 
-**ARCHIVO .h**
+ARCHIVO .h
 
 ```cpp
 //cualquier codigo que incluya este archivo, tendra la informacion de este archivo solo escribiendo #include en el archivo principal
@@ -105,7 +104,7 @@ int edad;
 #endif
 ```
 
-**ARCHIVO .cpp**
+ARCHIVO .cpp
 
 ```cpp
 #include "Persona.h"
@@ -139,7 +138,7 @@ int Persona::getEdad() {
 
 ## Ejercicio para usar sensores análogos
 
-**SensorAnalogo.h**
+SensorAnalogo.h
 
 ```cpp
 #ifndef SENSOR_ANALOGO_H
@@ -180,7 +179,7 @@ public:
 #endif
 ```
 
-**SensorAnalogo.cpp**
+SensorAnalogo.cpp
 
 ```cpp
 #include "SensorAnalogo.h"
@@ -233,4 +232,3 @@ public:
 - <https://openframeworks.cc/> para programar una aplicación.
 - Para programar cosas en IOS se usa Swift, para crear aplicaciones.
 - NORM computador que funciona con el lenguaje SuperCollider y también utiliza Lua.
-
