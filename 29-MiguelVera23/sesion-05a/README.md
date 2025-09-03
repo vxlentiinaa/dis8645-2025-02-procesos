@@ -6,7 +6,6 @@ Paradigmas o clases
 
 cpp=c++
 
-
 p5 menos tecleo
 
 no se especifica String, char, int, etc.
@@ -17,14 +16,11 @@ C++ haces más pero computador tiene menos dudas.
 
 swift: lenguaje para programar en iOS
 
-
 *openFrameworks: toolkit para programar en C++.
 
 *norn
 
-
 Usando tabs (nombre.h) y agregándolas al código base con #include "", se pueden usar sus variables aunque no estén presentes.
-
 
 Para crear archivos que usaremos en otros archivos
 
@@ -36,10 +32,10 @@ const int numeroEstudiantes = 24
 
 #endif
 ```
+
 Esto permite resistir el error de repetir #include en el código principal (la lectura del código).
 
 Mayúscula=atención
-
 
 Clases (moldes de galletas)
 
@@ -48,7 +44,6 @@ Funciones
 public
 
 private
-
 
 //metodos
   //funciones dentro de una clase
@@ -61,10 +56,9 @@ private
 
 *archivo original en docentes00/5a para revisar
 
-#include <Arduino.h>
+`#include <Arduino.h>`
 
 hace que la nomenclatura de arduino (String) funcione aquí
-
 
 "" aqui mismito
 
