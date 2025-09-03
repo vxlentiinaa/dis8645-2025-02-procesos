@@ -2,13 +2,15 @@
 
 ## viernes 29 de agosto de 2025
 
-**Encargo clase**
+Encargo clase
+
+## encargo-08
 
 Investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martin Gubbins
 
-# Allison Parrish
+## Allison Parrish
 
-*Mini Biografía*
+Mini Biografía
 
 - Poeta estadounidense, ingeniera en software, programadora creativa y diseñadora de juegos.
 - Reconocida por la fusión entre el lenguaje y la poesía.
@@ -29,9 +31,9 @@ Un juego de mesa diseñado junto a Adam Simon y Tim Sztela, publicado por Clarks
 4. **Compasses**
 Un fanzine de poemas generados por una computadora que recibió una mención honorífica en los Premios Prix Ars Electrónica 2021, señalando su relevancia en el campo de la poesía computacional.
 
-# Nick Montfort
+## Nick Montfort
 
-*Mini biografía*
+Mini biografía
 
 - Nacido en 1967 es un escritor, poeta, crítico literario y profesor universitario conocido por su trabajo pionero en **literatura electrónica**, **poesía generativa** y **narrativa interactiva**.
 - Actualmente es profesor de Artes Digitales y Medios Comparativos en el MIT (Massachusetts Institute of Technology).
@@ -49,16 +51,16 @@ Poemas generativos escritos en varios lenguajes de programación como Python, Pe
 4. **Exploratory Programming for the Arts and Humanities (2016)**
 Consiste en un manual práctico que enseña a usar Python para la programación creativa, muy utilizado en universidades.
 
-# Martín Gubbins
+## Martín Gubbins
 
-**Mini biografía**
+Mini biografía
 
 - Nacido en Santiago en 1971, es un poeta, abogado, artista visual, sonoro, editor y curador chileno.
 - Su trabajo se despliega en poesía escrita, visual y sonora, y ha sido parte de numerosas antologías, exposiciones individuales y colectivas, instalaciones, performances y festivales en diversos países.
 - Se caracteriza por una práctica poética multifacética, que explora intersticios donde lo significante emerge desde lo insignificante.
 - En 2003 fundó junto a otros poetas y artistas, el Foro de Escritores, inspirado en modelos como el Writer Forum de Reino Unido, promoviendo la experimentación colectiva, más allá del ego individual.
 
-## Obras destacadas
+## Obras destacadas de Martín Gubbins
 
 1. **Álbum** (2005)
 Es una de sus obras más citas y se trata de libro que reúne piezas de poesía visual y experimental, donde juega con la disposición tipográfica, el espacio en la página y el cruce entre palabra e imagen. Más que narrar, propone experiencias de **lectura visual** donde el signo gráfico adquiere tanto valor como el significado lingüistico.
