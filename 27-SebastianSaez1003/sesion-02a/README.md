@@ -80,6 +80,9 @@ Debería arrastrar la carpeta de mi archivo de Arduino a subir.
 
 ## encargo 5 "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"
 
-debido a que la mayoría de cosas que pienso hacer en github, las aprendí el semestre pasado, lo que estoy haciendo es dejar todas mis sesiones con un mismo formato, y de esta manera que mis bitácoras sean un poco más fáciles de leer y comprender
+Debido a que la mayoría de cosas que pienso hacer en GitHub las aprendí el semestre pasado, lo que estoy haciendo es dejar todas mis sesiones con un mismo formato, y de esta manera que mis bitácoras sean un poco más fáciles de leer y comprender.
 
-La mayoria de cosas las cuales quiero hacer al menos con el formato markdown de github las saco del siguiente link: https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks 
+La mayoría de cosas que quiero hacer, al menos con el formato Markdown de GitHub, las saco del siguiente link:
+
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks 
+
