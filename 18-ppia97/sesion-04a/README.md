@@ -144,6 +144,7 @@ void loop() {
 ##### ── ENCARGO POESÍA Y TRABAJO
 
 𔓘 **Allison Parrish**  
+
 Allison Parrish es una poeta, programadora, diseñadora de juegos y profesora asistente de Artes en la Universidad de Nueva York ITP/IMA (programa de artes de medios interactivos de la Tisch School of the Arts de Nueva York NYU), lo que consiste en un programa de pregrado para explorar la tecnologia e interactividad de forma creativa en medios que van emergiendo. Es originaria de West Bountiful, Utah y actualmente vive en Brooklyn. Sus proyectos estan muy relacionados al lenguaje y cómo se organiza y es utilizado en el contexto computacional y de internet, además de dar clases de programación, computación creatividad y cultura, análisis de textos y tutoriales o talleres públicos que posteriormente publica en GitHub.
 
 ![Allison](./imagenes/Allison.jpeg)
@@ -158,6 +159,7 @@ Allison Parrish es una poeta, programadora, diseñadora de juegos y profesora as
 [Su portafolio](https://portfolio.decontextualize.com/)
 
 𔓘 **Nick Montfort**
+
 Nick Montfort es profesor de medios digitales en MIT, investigador principal en el Centro de Narrativa Digital en la Universidad de Bergen, Noruega, además de desarrollar poesía computacional y arte de forma colaborativa. Posee un estudio llamado "The Trope Tank", también estudia informática creativa para permitir el aprendizaje de muchas maneras. Además, se dedica al arte computacional y medios como organizador de eventos, curador y editor. En su carrera como poeta y artista, utiliza la computación para involucrar el lenguaje, la cognición y la literatura. Sus proyectos incluyen generadores de poesía a muy pequeña escala como los de ppg256 y Perl de hormigón junto con docenas de programas COMmodore 64 en lenguaje BASIC y ensamblador y muchos para el navegador web moderno. También cofundó el blog del grupo Gran texto automático y participó en él durante los seis años que duró ese proyecto. Sus primeros proyectos también incluyen programación y escritura.
 
 ![Nick](./imagenes/Nick.jpg)
@@ -170,4 +172,9 @@ Nick Montfort es profesor de medios digitales en MIT, investigador principal en 
 
 𔓘 **Martín Gubbins**
 
+Martín Gubbins es un poeta visual y sonoro chileno. A publicado libros de poesía y poesía visual y ha grabado poesía sonora solo y con otros artistas y ha participado en exposiciones individuales y colectivas, instalaciones, lecturas, conciertos, performances y festivales en varias partes del mundo.
+
 ![Martín](./imagenes/Martin.jpg)
+
+[Su página con toda la información](https://martingubbins.cl/)
+
