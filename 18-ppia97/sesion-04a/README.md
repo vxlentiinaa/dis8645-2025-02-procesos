@@ -169,3 +169,5 @@ Nick Montfort es profesor de medios digitales en MIT, investigador principal en 
 [Blog](https://nickm.com/post/)
 
 𔓘 **Martín Gubbins**
+
+![Martín](./imagenes/Martin.jpg)
