@@ -67,9 +67,12 @@ se hace en grupos de 3 a 4 personas
 
 * grupo 08
 
-  * antonia améstica
   * valentina chávez
   * vania paredes
+
+* grupo 09
+
+  * antonia améstica
 
 ## pauta
 
