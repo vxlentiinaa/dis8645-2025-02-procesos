@@ -124,22 +124,22 @@ Donde había una cantidad de líneas de código menor a las 400 que tenía el ej
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-// dentro de la libreria, especificamente incluir esta tipografia y sus parametros
+// Dentro de la librería, específicamente incluir esta tipografía y sus parámetros.
 #include <Fonts/FreeSerifBoldItalic24pt7b.h>
-// definir el ancho de la pantalla
+// Definir el ancho de la pantalla
 #define SCREEN_WIDTH 128
-// definir el alto de la pantalla
+// Definir el alto de la pantalla
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-// definir que la pantalla adafruit tendra: ese ancho especificamente
-// ese alto, que funcione con wire y que se resetee
+// Definir que la pantalla Adafruit tendrá ese ancho específicamente
+// Ese alto, que funcione con wire y que se resetee
 Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 String linea0;
 String linea1;
 String linea2;
 
-// si es que no esta conectada la pantalla se mandara un mensaje al Serial Monitor
+// Si es que no está conectada la pantalla, se mandará un mensaje al Serial Monitor.
 void setup() {
   if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("No se encontró la pantalla SSD1306"));
@@ -156,22 +156,23 @@ void setup() {
 
 void loop() {
   pantallita.clearDisplay(); // Limpiamos toda la pantalla
-  //seteo el tamano de la tipografia
+  // Seteo el tamaño de la tipografía
   pantallita.setTextSize(1);
-  // dejo el color que quiero que sea mi texto
+  // Dejo el color que quiero que sea mi texto
   pantallita.setTextColor(SSD1306_WHITE);
-  // donde empezaria el texto, para probar lo pondre al medio de la pantalla
+  // ¿Dónde empezaría el texto? Para probar, lo pondré al medio de la pantalla
   pantallita.setCursor(SCREEN_WIDTH/2, 0);
-  // la tipografia la cual previamente carge, sera llamada a 
-  // funcionar dentro del display del arduino
+  // La tipografía que previamente cargué será llamada a 
+  // funcionar dentro del display del Arduino
   pantallita.setFont(&FreeSerifBoldItalic24pt7b);
 
-  // hacer que cada linea de texto empiece en una linea distinta
+  // Hacer que cada línea de texto empiece en una línea distinta
   pantallita.println(linea0);
   pantallita.println(linea1);
   pantallita.println(linea2);
- 
-  pantallita.display(); // Actualiza la pantalla
+
+// Actualiza la pantalla
+  pantallita.display(); 
 }
 
 
@@ -188,12 +189,12 @@ Pude cambiarlo a un archivo de tipografía que tuviese un número menor antes de
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Fonts/FreeSerifBoldItalic12pt7b.h>
-// definir el ancho de la pantalla
+// Definir el ancho de la pantalla
 #define SCREEN_WIDTH 128
-// definir el alto de la pantalla
+// Definir el alto de la pantalla
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-// definir que la pantalla adafruit tendra: ese ancho especificamente
+// Definir que la pantalla OLED tendrá ese ancho específicamente
 // ese alto, que funcione con wire y que se resetee
 Adafruit_SSD1306 pantallita(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
@@ -201,7 +202,7 @@ String linea0;
 String linea1;
 String linea2;
 
-// si es que no esta conectada la pantalla se mandara un mensaje al Serial Monitor
+// Si es que no está conectada la pantalla, se mandará un mensaje al Serial Monitor
 void setup() {
   if(!pantallita.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("No se encontró la pantalla SSD1306"));
@@ -218,22 +219,23 @@ void setup() {
 
 void loop() {
   pantallita.clearDisplay(); // Limpiamos toda la pantalla
-  //seteo el tamano de la tipografia
+  // Seteo el tamaño de la tipografía
   pantallita.setTextSize(1);
-  // dejo el color que quiero que sea mi texto
+  // Dejo el color que quiero que sea mi texto
   pantallita.setTextColor(SSD1306_WHITE);
-  // donde empezaria el texto, para probar lo pondre al medio de la pantalla
+  // ¿Dónde empezaría el texto? Para probar, lo pondré al medio de la pantalla
   pantallita.setCursor(SCREEN_WIDTH/2, 0);
-  // la tipografia la cual previamente carge, sera llamada a 
-  // funcionar dentro del display del arduino
+  // La tipografía que previamente cargué será llamada a 
+  // funcionar dentro del display del Arduino.
   pantallita.setFont(&FreeSerifBoldItalic12pt7b);
 
-  // hacer que cada linea de texto empiece en una linea distinta
+  // Hacer que cada línea de texto empiece en una línea distinta.
   pantallita.println(linea0);
   pantallita.println(linea1);
   pantallita.println(linea2);
- 
-  pantallita.display(); // Actualiza la pantalla
+
+// Actualiza la pantalla
+  pantallita.display(); 
 
 }
 
