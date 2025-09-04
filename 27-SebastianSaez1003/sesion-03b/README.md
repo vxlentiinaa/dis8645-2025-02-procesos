@@ -177,9 +177,9 @@ void loop() {
 
 ```
 
-Donde funcionó, la carga de la tipografía, pero quedaba de un tamaño muy grande, lo cual en un principio no entendí, ya que había seteado que el tamaño del texto fuese 1, pero al leer el nombre del archivo, me di cuenta del hecho de que contenía esto “24pt” que al menos a mi me sonaba a puntos, la medida que se ocupa para la tipografía, puede ser posible que esta tipografía que intente cargar estuviese solo disponible en este tamaño
+Donde funcionó la carga de la tipografía, pero quedaba de un tamaño muy grande, lo cual en un principio no entendí, ya que había seteado que el tamaño del texto fuese 1, pero al leer el nombre del archivo, me di cuenta del hecho de que contenía esto “24pt”, que al menos a mí me sonaba a puntos, la medida que se ocupa para la tipografía. ¿Puede ser posible que esta tipografía que intenté cargar estuviese solo disponible en este tamaño?
 
-probe cambiarlo a un archivo de tipografía que tuviese un número menor antes del pt y efectivamente, era ese el problema donde me quedo de esta manera:
+Pude cambiarlo a un archivo de tipografía que tuviese un número menor antes del pt y, efectivamente, era ese el problema, donde me quedo de esta manera:
 
 ![foto donde las letras se ven un poco mejor](./imagenes/sesion-03b-wokwi2.png)
 
