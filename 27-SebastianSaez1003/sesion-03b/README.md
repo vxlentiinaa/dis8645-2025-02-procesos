@@ -14,7 +14,7 @@ Vamos a subir la librería de adafruit gfx, esta librería se ocupa mucho para h
 
 Aprendimos a añadir librerías a nuestra app de arduino
 
-## módulo despues del break
+## módulo después del break
 
 A la vuelta del break, Aarón Montoya nos explico la razón del porqué es importante el revisar que tengamos de manera organizada nuestras carpetas, para el funcionamiento correcto de nuestro código
 
