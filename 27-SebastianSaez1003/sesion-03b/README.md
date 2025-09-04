@@ -1,20 +1,26 @@
 # sesion-03b
 
-Hablamos de distintos componentes y de la manera que acabaríamos usandolos eventualmente
+Hablamos de distintos componentes y de la manera en que acabaríamos usándolos eventualmente.
 
-Nos mencionaron tinkercad, wokwi, simuladores para distintos circuitos y componentes que tal vez no tuviéramos, y de esta manera podemos probar componentes sin la necesidad de comprarlos y “gastar” plata.
+Nos mencionaron Tinkercad, Wokwi, simuladores para distintos circuitos y componentes que tal vez no tuviéramos, y de esta manera podemos probar componentes sin la necesidad de comprarlos y “gastar” plata.
 
-Para esta clase usaremos Wowki debido a que tiene un arduino y pantalla similares a las que ocuparemos en el plano físico la siguiente clase
+Para esta clase usaremos Wowki debido a que tiene un Arduino y pantalla similares a los que ocuparemos en el plano físico la siguiente clase.
 
 La pantalla que ocuparemos tiene 4 conexiones:
-Ground que es tierra, que deberia tener un cable de color frio
-Vcc es la energía, donde los componentes están calibrados a cierto voltaje, qu ees necesario para funcionar
 
-Vamos a subir la librería de adafruit gfx, esta librería se ocupa mucho para hacer graficas
+- **Ground**  que es tierra, que debería tener un cable de color frío.
 
-Aprendimos a añadir librerías a nuestra app de arduino
+- **VCC** es la energía, donde los componentes están calibrados a cierto voltaje, que es necesario para funcionar.
 
-## módulo después del break
+- **SCL** Serial Clock Pin
+
+- **SDA** Serial Data
+
+Vamos a subir la librería de Adafruit GFX; esta librería se ocupa mucho para hacer gráficas.
+
+Aprendimos a añadir librerías a nuestra app de Arduino.
+
+## Módulo después del break
 
 A la vuelta del break, Aarón Montoya nos explico la razón del porqué es importante el revisar que tengamos de manera organizada nuestras carpetas, para el funcionamiento correcto de nuestro código
 
