@@ -160,7 +160,12 @@ Allison Parrish es una poeta, programadora, diseñadora de juegos y profesora as
 𔓘 **Nick Montfort**
 Nick Montfort es profesor de medios digitales en MIT, investigador principal en el Centro de Narrativa Digital en la Universidad de Bergen, Noruega, además de desarrollar poesía computacional y arte de forma colaborativa. Posee un estudio llamado "The Trope Tank", también estudia informática creativa para permitir el aprendizaje de muchas maneras. Además, se dedica al arte computacional y medios como organizador de eventos, curador y editor. En su carrera como poeta y artista, utiliza la computación para involucrar el lenguaje, la cognición y la literatura. Sus proyectos incluyen generadores de poesía a muy pequeña escala como los de ppg256 y Perl de hormigón junto con docenas de programas COMmodore 64 en lenguaje BASIC y ensamblador y muchos para el navegador web moderno. También cofundó el blog del grupo Gran texto automático y participó en él durante los seis años que duró ese proyecto. Sus primeros proyectos también incluyen programación y escritura.
 
+![Nick](./imagenes/Nick.jpg)
+
 [Información sobre él](https://nickm.com/me.html)
+
 [Poemas](https://nickm.com/poems/)
+
 [Blog](https://nickm.com/post/)
+
 𔓘 **Martín Gubbins**
