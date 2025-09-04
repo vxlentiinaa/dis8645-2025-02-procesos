@@ -17,3 +17,16 @@ El grupo 7 dijo que querían crear una experiencia visual para dar la ilusión d
 Nos dejaron de tarea ver el significado de hermenéutica; según Google, es: interpretación de los textos, originalmente los sagrados.
 
 El grupo 8, “Las dos”, porque son ellas 2, hicieron un poemario. 
+
+Encargo 8 "investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins"
+
+Allison Parrish
+
+
+
+Nick Montfort
+
+
+
+Martín Gubbins
+
