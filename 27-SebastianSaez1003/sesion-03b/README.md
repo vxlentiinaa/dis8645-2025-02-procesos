@@ -30,17 +30,17 @@ Tenemos que explorar y dar atribuciones de donde saquemos todo el código del cu
 
 ## encargo 7 "documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi"
 
-Para trabajar con la pantalla SSD1306 en wowki, como se explico en clase tendré que cargar las librerías de adafruit
+Para trabajar con la pantalla SSD1306 en Wowki, como se explicó en clase, tendré que cargar las librerías de Adafruit.
 
-Para no partir de 0 ocupare uno de los ejemplos los cuales se entregan al tener la librería de adafruit en mi dispositivo
+Para no partir de 0, ocuparé uno de los ejemplos, los cuales se entregan al tener la librería de Adafruit en mi dispositivo.
 
-Cargando el ejemplo de 128x64, con el protocolo de comunicación que vamos a usar el i2c
+Cargando el ejemplo de 128x64, con el protocolo de comunicación que vamos a usar, el I2C.
 
-Uno de los elementos que podemos usar para hacer más interesante nuestro poema son las tipografías que están incluidas, con la ayuda de la pagina learn adafruit, empecé a leer para conocer cómo era posible que cargara estas tipografías:
+Uno de los elementos que podemos usar para hacer más interesante nuestro poema son las tipografías que están incluidas. Con la ayuda de la página Learn Adafruit, empecé a leer para conocer cómo era posible que cargara estas tipografías:
 
 <https://learn.adafruit.com/adafruit-gfx-graphics-library/using-fonts>
 
-Tomando un ejemplo que Aarón había dejado en la clase donde el texto hacia scroll por si mismo, que sería el siguiente:
+Tomando un ejemplo que Aarón había dejado en la clase donde el texto hacía scroll por sí mismo, que sería el siguiente:
 
 ``` c++
 #include <Wire.h>
@@ -116,7 +116,7 @@ void loop() {
 }
 ```
 
-donde había una cantidad de texto menor a las 400 que tenía el ejemplo de Adafruit, donde elimine las líneas del código en las que se aplicaba el scroll, solo dejándome con display del texto si, para poder probar el cargar la tipografía que yo quería a parte de comentar la mayoria de cosas que si entendía
+Donde había una cantidad de líneas de código menor a las 400 que tenía el ejemplo de Adafruit, donde eliminé las líneas del código en las que se aplicaba el scroll, solo dejándome con el display del texto, sí, para poder probar el cargar la tipografía que yo quería, aparte de comentar la mayoría de cosas que sí entendía.
 
 ![foto con letras gigantes, solo se lee "AOS"](./imagenes/sesion-03b-wokwi1.png)
 
