@@ -13,11 +13,9 @@ class PoemaParra : public Poema
 
   // destructor
   ~PoemaParra();
-
-tipografia = "Dramatic Sans";
   
 };
 
 #endif
 ```
-solamente los poemas se escribiran con esa tipografía, no los textos
+
