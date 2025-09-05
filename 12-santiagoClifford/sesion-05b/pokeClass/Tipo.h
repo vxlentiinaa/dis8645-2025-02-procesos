@@ -1,0 +1,3 @@
+class Tipo{
+String elementalType;
+};
