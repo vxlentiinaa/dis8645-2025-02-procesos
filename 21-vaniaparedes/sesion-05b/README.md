@@ -86,7 +86,7 @@ Si quiero tener la complejidad de darle mas detalles, info y funciones a mis car
     
 ### Ejercicio en clases "dibujar y escribir clases y subclases"
 
-![clases](./imagenes/EjercicioClases.jpg)
+![clases](./imagenes/EjercicioClasess.jpg)
 
 
   
