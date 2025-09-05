@@ -9,3 +9,7 @@ Hay que entender bien que la programación no es solo programar, sino que todo e
 
 El #include significa “anda al computador y busca donde sea que exista.”
 
+Existen archivos .cpp y .h
+En el .h dice que cosas puedo hacer con la pantallita. Es corto. Este archivo **promete**.
+El .cpp hace que las cosas ocurran. Es largo. Este archivo **cumple**.
+
