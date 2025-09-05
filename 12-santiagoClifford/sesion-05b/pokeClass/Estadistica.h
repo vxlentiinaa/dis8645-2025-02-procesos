@@ -1,6 +1,6 @@
-class Estadistica{
-int healthPoint;
-int attack;
-int defense;
-int speed;
-};
+  class Estadistica{
+  int healthPoint;
+  int attack;
+  int defense;
+  int speed;
+  };
