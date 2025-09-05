@@ -3,7 +3,6 @@ Programación orientada a objetos
 → Está hecho de algo
 → Sirve para algo. → graham harman
 → Ontología orientada a objetos.
-→ Marcos Gabriel.
 
 → Fenomenología.
 → 10 categorías de Aristóteles. / se pueden aplicar a
