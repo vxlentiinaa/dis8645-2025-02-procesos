@@ -59,5 +59,5 @@ textos son poemas
 1 clase que herede de pixel art, que sea una colección de imágenes
 relacionada, un array
 ``` 
-```cpp
 
+> ⋆ Puedo crear conductos de otros tipos gracias a las clases.
