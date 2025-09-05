@@ -27,4 +27,13 @@ class Completo_Italiano : public Completo {{
 ```
 Significa que todos los completos son parte de un completo italiano
 
+Una clase es un tipo de data definido por el usuario. 
+
 w3schools tienen tutoriales buenos para hacer código web, pero también tiene unos buenos para C++.
+
+La herencia le permite a una clase reutilizar un atributo y métodos de otra clase. 
+Toda la parte de clases es para abordar proyectos más complejos que requieren más archivos.
+
+Las clases se usan para crear estructuras de datos cuando no nos cabe en los lenguajes de programación que ya tenemos. Cuando no nos sirven las variables booleanas, los integers, etc, podemos usar las clases. Esto es como hacer una subestructura.
+
+
