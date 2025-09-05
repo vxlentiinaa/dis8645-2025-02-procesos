@@ -13,7 +13,9 @@ class PoemaParra : public Poema
 
   // destructor
   ~PoemaParra();
-  
+
+  tipografia = "Parriana";
+    nota = 7.0;
 };
 
 #endif
