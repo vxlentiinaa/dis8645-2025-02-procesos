@@ -29,6 +29,7 @@ Además de ello se escribió otro tipo de clases centrada en la parte gráfica, 
 Texto (tipo)(tinta)(autoría)
 
 
+
 ***
 
 ### Posdata
