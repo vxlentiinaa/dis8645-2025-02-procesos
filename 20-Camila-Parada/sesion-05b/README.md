@@ -20,6 +20,11 @@ Se va a volver a enseñar los conocimientos de la clase previa, a través de la 
 Tras ello fuimos a w3schools, a la sección [C++ Inheritance](https://www.w3schools.com/cpp/cpp_inheritance.asp), un tipo de "clase" (class).
 Las clases son "Estructuras de datos" que no caben en los codigos de información. (No son solo enteros, ni decimales, ni palabras solas, etc).
 
+Tras haber leído esas sección se puso en practica el montar una serie de archivos de tipo clase que contubieran otras clases insertas:
+Texto ( Poema (PoemaParra)).
+Además de ello se escribió otro tipo de clases centrada en la parte gráfica, quedando como:
+Texto (tipo)(tinta)(autoría)
+
 
 ***
 
