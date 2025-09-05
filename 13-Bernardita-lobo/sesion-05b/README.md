@@ -24,6 +24,16 @@ una clase de texto
 
 Las clases se usan cuando queremos utilizar estructura de datos, es como una especie de carpeta, en donde esta la informacion
 
+```cpp
+class Texto 
+{
+public;
+// constructor
+Texto();
 
+// destructor
+~Texto();
+};
+```
 
 ### encargo 
