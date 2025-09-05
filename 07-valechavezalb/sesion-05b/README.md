@@ -70,7 +70,7 @@ numeroCuerdas = 6;
 
 # Ejercicio "Paquete"
 
-![esquema] (imagenes/ejemplo_paquete.png) 
+![esquema](imagenes/ejemplo_paquete.png) 
 
 **Paquete.h**
 
