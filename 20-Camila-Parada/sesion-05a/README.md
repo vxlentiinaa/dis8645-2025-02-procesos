@@ -13,7 +13,7 @@ Ontología orientada a juegos.
 
 Aristoteles -> las cosas poseen 10 categorías.
 
-Libro: Preguntas - Aristoteles.
+Libro: [Problemas - Aristoteles](<https://josefranciscoescribanomaenza.wordpress.com/wp-content/uploads/2017/03/problemas-aristoteles.pdf>)
 
 - Language
 <https://es.wikipedia.org/wiki/Bjarne_Stroustrup>
