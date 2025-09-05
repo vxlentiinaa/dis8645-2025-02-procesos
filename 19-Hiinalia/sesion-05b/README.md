@@ -36,4 +36,38 @@ Toda la parte de clases es para abordar proyectos más complejos que requieren m
 
 Las clases se usan para crear estructuras de datos cuando no nos cabe en los lenguajes de programación que ya tenemos. Cuando no nos sirven las variables booleanas, los integers, etc, podemos usar las clases. Esto es como hacer una subestructura.
 
+Volviendo a la parte de archivos .h y .cpp, vimos que es bueno crear esqueletos crudos de código para entenderlos. Vimos un esqueleto para texto.
+
+```cpp
+#ifndef TEXTO_H
+#define TEXTO_H
+
+class Poema : public Texto
+  {
+  public:
+// constructor
+Poema()
+
+// destructor
+~Poema();
+
+// definiendo que es un texto
+Tipo tipografia;
+
+// la dirección en el cual se va a leer el texto
+bool izquierdaADerecha = true;
+
+// algunas otras cosas que incluye un texto
+// Tinta es el tipo y tinta es el nombre de la variable
+Tinta tinta;
+Autoria autora;
+};
+
+#endif
+
+```
+
+No relacionado, pero no tan no relacionado, hoy es el cumpleaños de Nicanor Parra (yipee)
+
+En contexto de C++, se usa true o false para variables booleanas. Dentro del contexto de arduino se utiliza high y low.
 
