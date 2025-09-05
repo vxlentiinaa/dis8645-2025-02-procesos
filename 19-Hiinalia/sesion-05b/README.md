@@ -13,3 +13,12 @@ Existen archivos .cpp y .h
 En el .h dice que cosas puedo hacer con la pantallita. Es corto. Este archivo **promete**.
 El .cpp hace que las cosas ocurran. Es largo. Este archivo **cumple**.
 
+El #ifndef evita que haya problemas al llamar a un archivo más de una vez.
+
+<https://www.reddit.com/r/cpp_questions/comments/j7wfef/what_is_the_need_for_ifndef_define_endif_inside/?tl=es-419>
+Aquí hay una página para entenderlo mejor. Además de proteger, también es útil para la compilación condicional.
+
+El arduino R4 Minima funciona con arm
+
+Recordatorio que GFX significa efectos gráficos.
+
