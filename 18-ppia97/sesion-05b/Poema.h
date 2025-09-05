@@ -14,7 +14,7 @@ class Poema : public Texto
   ~Poema();
 
 tipografia = "Dramatic Sans";
-  
+  nota = 4.0;
 };
 
 #endif
