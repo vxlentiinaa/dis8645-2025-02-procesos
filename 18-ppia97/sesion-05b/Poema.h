@@ -3,7 +3,10 @@
 #ifndef POEMA_H
 #define POEMA_H
 
-class Poema {
+#include "Texto.h"
+
+class Poema : public Texto
+{
   // constructor
   Poema();
 
