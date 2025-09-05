@@ -1,6 +1,6 @@
 # Sesión-05b
 
-## Trabajo en clase / Viernes 05 de septiembre
+## Trabajo en clase / Viernes 05 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
@@ -19,6 +19,10 @@ el codigo tiene que tener comentarios y la documentacion tiene que estar ordenan
 adafruit_SSD1306 depende de adafruit_GFX, class es tambien es parte de public
 
 class completo_italiano : public completo
+
+una clase de texto 
+
+Las clases se usan cuando queremos utilizar estructura de datos, es como una especie de carpeta, en donde esta la informacion
 
 
 
