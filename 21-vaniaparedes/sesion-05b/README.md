@@ -78,7 +78,11 @@ Si quiero tener la complejidad de darle mas detalles, info y funciones a mis car
    
     + En el contexto de cpp se usa solo _true or false_
       
-
++ Planificar Clases!
+  Conjunto
+  subconjunto
+  que valores tiene
+  etc.
     
   
 
