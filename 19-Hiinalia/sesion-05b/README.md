@@ -71,3 +71,12 @@ No relacionado, pero no tan no relacionado, hoy es el cumpleaños de Nicanor Par
 
 En contexto de C++, se usa true o false para variables booleanas. Dentro del contexto de arduino se utiliza high y low.
 
+Puedo hacer dos archivos .h
+Aarón hizo dos que se llaman Poema.h y PoemaParra.h
+Se pueden crear algoritmos distintos.
+
+Este código: class Poema : public Texto
+Está llamando a Texto.h
+
+Vamos a hacer una tareita de dibujo en la sala de interacción.
+
