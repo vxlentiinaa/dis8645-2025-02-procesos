@@ -12,8 +12,11 @@ class Poema : public Texto
 
   // destructor
   ~Poema();
-    
+
+tipografia = "Dramatic Sans";
+  
 };
 
 #endif
 ```
+solamente los poemas se escribiran con esa tipografía, no los textos
