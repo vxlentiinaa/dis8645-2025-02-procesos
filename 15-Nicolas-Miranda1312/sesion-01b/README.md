@@ -36,7 +36,7 @@ para poder escribir codigos en lenguaje C++
 - Serial.print: Imprime en la misma línea.
 - for: Iteración - repite un bloque de instrucciones un número concreto de veces, dependiendo de la condición indicada.
 - if: Sirven para que tu programa haga una cosa u otra dependiendo de cada situación.
-- else: si-no Siempre va unido a una sentencia condicional if de Arduino, nunca puede ir sólo. Por lo tanto if else se traduciría como si se cumple la 
+- else: si-no Siempre va unido a una sentencia condicional if de Arduino, nunca puede ir sólo. Por lo tanto if else se traduciría como si se cumple la
  condición ejecuta el código, si no ejecuta este otro código.
 - Serial.being(): Es una función y lo que esta en el paréntesis es el valos que se le asigna.
 

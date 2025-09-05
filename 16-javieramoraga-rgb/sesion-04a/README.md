@@ -10,9 +10,7 @@
 
 ────୨ৎ────
 
-
 ## Observación en clases ᯓ★
-
 
 .☘︎ ݁˖ En esta sesión trabajamos con un código al que integramos un fragmento del poema de Mario Benedetti *“Táctica y estrategia”*.  
 
@@ -28,13 +26,11 @@ El objetivo era lograr que, mediante el uso de un **potenciómetro**, pudiéramo
 
 Finalmente, logramos resolver los problemas y alcanzamos el resultado esperado. Como grupo, cada integrante ha investigado qué hacer y qué códigos usar para trabajar con imágenes y texto, siempre manteniendo una dinámica de conversación y retroalimentación constante. Esto nos ha permitido avanzar de manera sólida en equipo.
 
-
 **｡𖦹°‧ Fragmento del poema utilizado:**  
 
 <https://www.poemas-del-alma.com/tactica-y-estrategia.htm>
 
 ────୨ৎ────
-
 
 ### Código utilizado en clase
 
@@ -54,7 +50,8 @@ void loop() {
 
 }
 ```
-### Código hecho por nosotras 
+
+### Código hecho por nosotras
 
 ```cpp
 #include <Wire.h>
@@ -129,10 +126,8 @@ void loop() {
 
 ### Imágenes del avance ⋆. 𐙚 ̊
 
-
 ![imagenes](imagenes/taller01.jpeg)
 
 ![imagenes](imagenes/taller02.jpeg)
 
 ![imagenes](imagenes/taller03.jpeg)
-

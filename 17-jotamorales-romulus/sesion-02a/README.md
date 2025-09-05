@@ -16,12 +16,14 @@
 -----------------------------------
 
 ### ````CPP
+
 cpp → extensión de archivos con código C++.
 
-De forma mas sencilla, esto utilizarlo para colorear el código de una forma especial, ordenada y clara. 
+De forma mas sencilla, esto utilizarlo para colorear el código de una forma especial, ordenada y clara.
 
 Ejemplo de código C++:
-```CPP
+
+```cpp
   Blink
 
 // the setup function runs once when you press reset or power the board
@@ -40,4 +42,3 @@ void loop() {
 ```
 
 Esto se puede hacer en Discord también a modo de resaltar el código.
-

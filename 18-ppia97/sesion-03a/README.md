@@ -101,6 +101,7 @@ for (int i = 0; i < veces; i = i + 1)
 NAND es una compuerta lógica, que combina la compuerta AND Y NOT y en su representación tiene un círculo en la salida.
 En su tabla de verdad, el resultado siempre será 1 excepto cuando ambas entradas sean 1, en ese caso es 0.
 ```
+
 ![NAND](./imagenes/NAND1.jpg)
 
 ### NOR
@@ -112,7 +113,9 @@ NOR es una compuerta lógica combinación de las compuertas OR y NOT, también e
 Tiene sus entradas inactivas, por lo que la salida estará en estado activo.
 Si alguna de las entradas se activa "1", la salida pasará a estar inactiva "0".
 ```
+
 ![NOR](./imagenes/NOR1.jpg)
+
 ### XOR
 
 [Link de donde saqué la información](https://www.mecatronicalatam.com/es/tutoriales/electronica/compuertas-logicas/compuerta-xor/)
@@ -125,4 +128,5 @@ que puede ser verdadero o falso.)
 Su salida será 0 en caso de que sus entradas tengan el mismo valor: "1"+"1" o "0"+"0",
 y tendrá salida 1 en caso de que las entradas sean distintas.
 ```
+
 ![XOR](./imagenes/XOR1.jpg)

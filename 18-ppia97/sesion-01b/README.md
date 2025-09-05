@@ -1,5 +1,7 @@
 # sesion-01b
+
 ## APUNTES
+
 ```cpp
 Issue (original): pedir cosas por si hay problemas.
 Mi fork.
@@ -34,3 +36,4 @@ tiene el valor que está a la derecha.
 
 ☆Seria.begin(9600);
 ☆"\n" : espacio.
+```
