@@ -88,5 +88,11 @@ Si quiero tener la complejidad de darle mas detalles, info y funciones a mis car
 
 ![clases](./imagenes/EjercicioClasess.png)
 
+## Encargo
++ Escuchar primer disco de banda primus
++ ver alguna charla de Mitsh Resnick: Comentarios de él.
+
+
+
 
   
