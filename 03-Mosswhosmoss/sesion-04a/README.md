@@ -2,11 +2,11 @@
 
 ## Lo que queremos hacer
 
-Tenemos presentes dos ideas posibles hasta el momento. La primera sería utilizar el poema del "end", que es un poema que aparece en el juego "Minecraft" cuando el jugador mata al dragón del end y termina el juego; la otra idea era que la persona interactuara con la serial de Arduino a través de un potenciómetro y tuviese una "conversación" con el Arduino. 
+Tenemos presentes dos ideas posibles hasta el momento. La primera sería utilizar el poema del "end", que es un poema que aparece en el juego "Minecraft" cuando el jugador mata al dragón del end y termina el juego; la otra idea era que la persona interactuara con la serial de Arduino a través de un potenciómetro y tuviese una "conversación" con el Arduino.
 
 ### Conceptualización
 
-Una conversación con el Arduino, queremos que sea gracioso/silly. 
+Una conversación con el Arduino, queremos que sea gracioso/silly.
 
 Queremos simular lo que sería una novela visual; el principal enfoque sería el texto, pero si nos sobra la memoria RAM del Arduino, agregaremos imágenes. Dependiendo de los resultados de cada pregunta, contestados a través del potenciómetro, va a terminar con un final diferente.
 
@@ -32,6 +32,6 @@ Una novela visual (NV) es una forma de ficción interactiva digital. Las novelas
 
 ## Bibliografía
 
-- colaboradores de Wikipedia. (2025, 3 julio). Poema. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Poema#:~:text=Un%20poema%20(del%20lat%C3%ADn%20poema,extensi%C3%B3n%20bastante%20grande%27%27). 
-- Santos, S., & Santos, S. (2023, 23 abril). Guide for I2C OLED Display with Arduino | Random Nerd Tutorials. Random Nerd Tutorials. https://randomnerdtutorials.com/guide-for-oled-display-with-arduino Wikipedia contributors. (2025, 21 agosto). 
-- Visual novel. Wikipedia. https://en.m.wikipedia.org/wiki/Visual_novel
+- colaboradores de Wikipedia. (2025, 3 julio). Poema. Wikipedia, la Enciclopedia Libre. <https://es.wikipedia.org/wiki/Poema#:~:text=Un%20poema%20(del%20lat%C3%ADn%20poema,extensi%C3%B3n%20bastante%20grande%27%27)>.
+- Santos, S., & Santos, S. (2023, 23 abril). Guide for I2C OLED Display with Arduino | Random Nerd Tutorials. Random Nerd Tutorials. <https://randomnerdtutorials.com/guide-for-oled-display-with-arduino> Wikipedia contributors. (2025, 21 agosto).
+- Visual novel. Wikipedia. <https://en.m.wikipedia.org/wiki/Visual_novel>

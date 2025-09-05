@@ -34,8 +34,8 @@ digital (*digital*)
 
 - Aceptar y leer la bandeja de entrada
 
-- Hacer FORK antes de hacer commit siempre sino puede haber error
+- Hacer SYNC antes de hacer commit siempre sino puede haber error
 
 - En el original se revisa los comentarios personales
 
-(Nota: entrar a canvas para ver la retroalimentación especifica)
+(Nota: entrar a google docs para ver la retroalimentación especifica)

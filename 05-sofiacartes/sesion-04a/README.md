@@ -4,7 +4,7 @@
 
 En clases se trabajó en grupo en el código, logramos encender la pantalla oled y colocar animaciones de wokwi. Por otra parte, logramos avanzar en el código y en nuestra elección de poema.
 
-Por ejemplo: Encontramos esta pagina de wokwi que nos da códigos de animaciones,para que nos funcionara tuvimos que cambiar en el código.
+Por ejemplo: Encontramos esta pagina de wokwi que nos da códigos de animaciones, para que nos funcionara tuvimos que cambiar en el código.
 
 ```cpp
 #define SCREEN_I2C_ADDR 0x3D
@@ -110,7 +110,7 @@ void loop() {
 }
 ```
 
-### Codigo visto en clases para el potenciómetro
+### Código visto en clases para el potenciómetro
 
 ![Wokwipotenciometro](./imagenes/wokwipotenciometro.png)
 

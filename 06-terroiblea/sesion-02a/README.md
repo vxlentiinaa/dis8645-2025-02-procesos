@@ -34,7 +34,7 @@ Se usa dentro de void setup()
 
 ### Como usar github
 
-#### consideraciones de la página/programa:
+#### consideraciones de la página/programa
 
 1. Siempre modificar los archivos desde el repositorio del orginal (personal - forked from).
 2. "BRANCH" siempre debe mantenerse en 1.
