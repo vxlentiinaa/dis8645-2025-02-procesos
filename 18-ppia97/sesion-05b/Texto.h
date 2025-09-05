@@ -1,15 +1,16 @@
 ```cpp
 
-#ifndef TEXTO_H
-#define TEXTO_H
+#ifndef POEMA_H
+#define POEMA_H
 
-class Texto {
+class Poema {
   // constructor
-  Texto();
+  Poema();
 
   // destructor
-  ~Texto();
+  ~Poema();
     
 };
 
 #endif
+```
