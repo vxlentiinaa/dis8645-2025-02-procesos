@@ -6,6 +6,10 @@ Martes 2 Septiembre 2025
 
 ## Observaciones
 
+***
+
+### Apuntes escritos del día
+
 (<https://www.w3schools.com/cpp/cpp_classes.asp>)
 Todo objeto tiene cualidades.
 Programación orientada a objetos: su materia y su forma. (de qué es y como se usa)
@@ -13,7 +17,7 @@ Ontología orientada a juegos.
 
 Aristoteles -> las cosas poseen 10 categorías.
 
-Libro: Preguntas - Aristoteles.
+Libro: [Problemas - Aristoteles](<https://josefranciscoescribanomaenza.wordpress.com/wp-content/uploads/2017/03/problemas-aristoteles.pdf>)
 
 - Language
 <https://es.wikipedia.org/wiki/Bjarne_Stroustrup>
@@ -86,9 +90,6 @@ Es de buena educación el tener una clase como un archivo extra o separado del o
 
 El archivo .ino no se puede abrir en otro proyecto, no como otro tipo.
 
-### Apuntes escritos del día
-
-Tras hablar en equipo llegamos al consenso de que crearíamos un circuito que trabajara con dos pantallas oled, en la cuál una se mostraría una interface con texto y otra con imagen. Para ello decidí encargarme de averiguar sobre las conexiones necesarias para poder hacer ambas pantallas puedan funcionar conectadas al arduino y que procesen información distinta pero en paralelo.
 
 ***
 
