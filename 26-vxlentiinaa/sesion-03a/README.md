@@ -77,7 +77,7 @@ Ejemplo en clases
  }
 ```
 
-módulo --> solo para números enteros 
+módulo --> solo para números enteros
   > cuantas veces entra el número en ese.
 
 Ejemplo: 3 en 6 = 2 | 3 en 3 = 1
@@ -155,7 +155,7 @@ unsigned long segundos = millis() / 1000;
 
 ### NAND
 
-Una puerta NAND produce una salida de 1 (verdadero) a menos que todas sus entradas sean 1. En ese caso específico (todas las entradas en 1), la salida es 0 (falso). 
+Una puerta NAND produce una salida de 1 (verdadero) a menos que todas sus entradas sean 1. En ese caso específico (todas las entradas en 1), la salida es 0 (falso).
 Se refiere tanto al operador lógico en el código de programación, que invierte el resultado de una operación AND, como a las puertas lógicas NAND que se usan en la construcción de circuitos digitales. La puerta NAND es una puerta lógica universal que, junto con las puertas NOR, permite construir cualquier otro circuito lógico digital.
 
 ### NOR

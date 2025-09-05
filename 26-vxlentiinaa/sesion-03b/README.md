@@ -2,7 +2,7 @@
 
 22-08-2025
 
-## Apuntes 
+## Apuntes
 
 Clases online
 
@@ -17,10 +17,11 @@ Pantallas: Para elegir una pantalla, necesitamos tener en cuenta, la resolución
 ![Pantalla](./imagenes/pantallaSSD1306.jpg)
 
 Tenemos el PIN
-  - VCC: carga positiva 
-  - GND: carga negativa o tierra
-  - SCL: signal clock, clock line, determina el pulso del tiempo
-  - SDA: signal data, data line
+
+- VCC: carga positiva
+- GND: carga negativa o tierra
+- SCL: signal clock, clock line, determina el pulso del tiempo
+- SDA: signal data, data line
 
 A la hora de trabajar debemos preocuparnos de revisar la alimentación que se necesita; con la pantalla y el arduino r4 minima es de 3.3 v.
 
@@ -30,7 +31,7 @@ GFX son gráficas
 
 Trabajamos en esta clase con el simulador [WOKWI](https://wokwi.com/) , igual se puede utilizar [TINKERCAD](https://www.tinkercad.com/)
 
-### Códigos vistos en clases 
+### Códigos vistos en clases
 
 ```cpp
 #include <Wire.h>
@@ -278,10 +279,11 @@ void loop() {
 - descargar bibliotecas
 
 1. Instalar SSD1306 en la app Arduino
-2. +
+2. -
 3. Adafruit GFX library
 
 ¿Cómo descargar biblioteca en arduino?
+
 - Buscar en el buscador de bibliotecas, GFX adafruit GFX library
   - SSD1306 (lo más reciente)
   - 128 x 64_I2C.ino

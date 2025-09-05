@@ -76,7 +76,8 @@ void testdrawstyles2(void)
   delay(500);
 }
 ```
-obviamente presenta un error que despues es corregido por otro usuario. el problema de este, ademas de que son textos muy pequeños. 
+
+obviamente presenta un error que despues es corregido por otro usuario. el problema de este, ademas de que son textos muy pequeños.
 
 es la cantidad de lineas de codigo para hacer un poema entero
 
@@ -255,7 +256,7 @@ Mañana vere si utilizo el codigo que dio el profesor y le dare una manita de ga
 
 Encontre otro codigo con el cual se puede mostrar de diferentes maneras el texto, lo cual es perfecto para darle una mejor visualidad al poema.
 
-(https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/)
+(<https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/>)
 
 ```cpp
 #include <SPI.h>
@@ -333,5 +334,5 @@ void setup() {
 void loop() {}
 ```
 
-Con estas lineas de codigo se puede mover el texto a diferentes posiciones. No es largo y seria capaz de conversar con otras lineas mas complejas 
+Con estas lineas de codigo se puede mover el texto a diferentes posiciones. No es largo y seria capaz de conversar con otras lineas mas complejas
 sin mandar a error todo el proceso.

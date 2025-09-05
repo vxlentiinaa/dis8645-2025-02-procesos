@@ -36,7 +36,7 @@ Si presiono dos veces rápidamente el botón reset, se va a un estado…
 
 Todo Arduino es C, todo C no es Arduino…
 
-/* es para indicar que todo es un comentario hasta que se encuentre el */ al menos Aarón Montoya prefiere escribir cada línea individualmente, que sería con //.
+/*es para indicar que todo es un comentario hasta que se encuentre el*/ al menos Aarón Montoya prefiere escribir cada línea individualmente, que sería con //.
 
 El comentario, como buen modal, debería ir una línea anterior a donde iría a pasar, por ejemplo:
 
@@ -96,7 +96,7 @@ Después de declararlo, puedo usarlo.
 
 C++ W3Schools
 
-## encargo 3 "programar y equivocarse 3 veces, documentar textualmente"
+## encargo-03 "programar y equivocarse 3 veces, documentar textualmente"
 
 Primero quiero lograr que, con los dígitos de mi computador, el LED del Arduino brille la cantidad de veces que corresponda al dígito ingresado.
 
@@ -321,9 +321,9 @@ void showNewData() {
 
 ```
 
-Como otro código, quise programar un dado de 20 caras, que, por ejemplo, podría ser usado para un juego de D&D, ocupare la función random de esta página: 
+Como otro código, quise programar un dado de 20 caras, que, por ejemplo, podría ser usado para un juego de D&D, ocupare la función random de esta página:
 
-https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/
+<https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/>
 
 Hay que resaltar que con esta función genera números enteros de por sí, entre el mínimo y el máximo que se establezca (min, max) o entre 0 y el número establecido como máximo (max), solo siendo necesario el escribir más código si es que deseara conseguir números decimales.
 
@@ -432,7 +432,7 @@ void showNewData(){
 }
 ```
 
-## encargo 4 "programar y equivocarse 3 veces, documentar visualmente" 
+## encargo 4 "programar y equivocarse 3 veces, documentar visualmente"
 
 Aquí se puede observar el error de mi prueba de escritura de código que yo me imaginé, el cual ni siquiera logra pasar la parte de comprobar el funcionamiento.
 

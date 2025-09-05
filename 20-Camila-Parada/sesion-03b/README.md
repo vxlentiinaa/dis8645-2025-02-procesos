@@ -18,20 +18,16 @@ Además se mencionó la existencia de simuladores en línea: [Tinkercad](https:/
 
 Un referente que se mencionó fue [Dando la hora y sus relojes digitales](https://www.dandolahora.cl/products/prototipo-el-numero-uno-el-primer-reloj-digital-en-la-historia-de-chile).
 
-
-
-
-
 ![imagen](./archivos/.)
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
 ***
 
-### Avances para el encargo 01.
+### Avances para el encargo 01
 
 Con mi equipo de trabajo decidimos comenzar por hacer una lluvia de ideas, en las que cada uno iría a proponer qué le gustaría hacer. Ante ello nos surgió la duda de cómo se debe trabajar, por lo que al indagar con el equipo docente se nos informó que era a libre interpretación.
-Siguiendo con el plan, cada integrante va a generar una serie de sugerencias que giren en torno al proyecto. 
+Siguiendo con el plan, cada integrante va a generar una serie de sugerencias que giren en torno al proyecto.
 
 Por mi parte quise centrarme en trabajar con el aspecto más visual que puede permitir el Arduino, manejando el texto y la imagen que se ve alterada por el uso de sensores.
 

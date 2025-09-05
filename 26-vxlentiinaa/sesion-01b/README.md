@@ -15,7 +15,6 @@
 - Trabajamos con datos que viven en la memoria
 - En las funciones, al terminar, va un paréntesis
 
-
 Para que no se me olvide enlazar imagen...
 
 ```cpp
@@ -24,7 +23,7 @@ Para que no se me olvide enlazar imagen...
 
 ### Arduino
 
-¿Qué es un Arduino? 
+¿Qué es un Arduino?
 
 Es una plataforma de hardware y software de código abierto que facilita la creación de proyectos electrónicos interactivos. Consiste en una placa programable (microcontrolador) y un entorno de desarrollo integrado IDE que se usa para escribir y cargar el código.
 
@@ -32,7 +31,7 @@ Es una plataforma de hardware y software de código abierto que facilita la crea
 
 ### Lenguaje de Arduino
 
-- **Serial monitor**: Todo lo que tenga serial pasa por aquí. 
+- **Serial monitor**: Todo lo que tenga serial pasa por aquí.
 - **( )** : Parentesis.
 - **[  ]** : Corchete.
 - **{ }** : Murciélago.
@@ -45,7 +44,7 @@ Es una plataforma de hardware y software de código abierto que facilita la crea
 - ***/** : Cerrar un comentario.
 - **;** : La línea terminó.
 - **=** : Dentro de la izquierda vive el valor de la derecha. Asignar valor.
-- **==** : Se compara. Condición.   
+- **==** : Se compara. Condición.
 - **HIGH**: Lo que está en 1
 - **LOW**: Lo que está en 0
 - **delay**: Significa que el arduino manda la señal y se queda ahí por un segunso, se vita que se queme. *Le dice al arduino congelado.*
@@ -63,7 +62,7 @@ Es una plataforma de hardware y software de código abierto que facilita la crea
 - **for**: Iteración.
 - **if:** Si pasa algo funciona. Es como si tuviera mas opciones. Para hacer o no hacer cualquier código.
 - **else**:
-- **Serial.being()**: Es una función y lo que esta en el paréntesis es el valos que se le asigna.
+- **Serial.begin()**: Es una función y lo que esta en el paréntesis es el valos que se le asigna.
 
 ### Elementos y comandos del código en arduino
 
@@ -75,7 +74,7 @@ pinMode( text, example); // comentario arduino
 ```
 
 ${\color{greenyellow}voidSetup}$(): </br>
-Se utiliza para toda aquella acción que necesita ser realizada una única vez, justo después de encender o reiniciar la placa Arduino. 
+Se utiliza para toda aquella acción que necesita ser realizada una única vez, justo después de encender o reiniciar la placa Arduino.
 
 ```cpp
 void setup() {
@@ -95,7 +94,8 @@ void loop () {
 ```
 
 ${\color{greenyellow}pinMode}$(): </br>
-Se utiliza para configurar cada pin digital, si queremos que sea un input o un output. 
+Se utiliza para configurar cada pin digital, si queremos que sea un input o un output.
+
 - Pin: el número del pin que deseas configurar.
 - Mode: el modo de operación, puede ser:
   - Input: configura el pin como entrada.
@@ -140,9 +140,10 @@ Se usa para declarar una variable, la variable puede guardar números enteros (1
 Ejemplo de google
 
 Donde:
- - int: es el tipo de dato (entero).
- - contador: es el nombre de la variable.
- - 0 es el valor inicial.
+
+- int: es el tipo de dato (entero).
+- contador: es el nombre de la variable.
+- 0 es el valor inicial.
 
 ```cpp
 void setup() {
@@ -202,14 +203,14 @@ char letra = 'V';
 ${\color{greenyellow}string}$(): </br>
 Se utiliza para almacenar una secuencia de caracteres o texto. Se escribe con comillas dobles
 
-Ejemplo de google 
+Ejemplo de google
 
 ```cpp
 String mensaje = "¡Hola, Mundo!";
 Serial.println(mensaje);
 ```
 
-## Códigos vistos en clases 
+## Códigos vistos en clases
 
 ```cpp
 String poema = "te regalare un abismo";
@@ -233,9 +234,10 @@ void loop() {
   delay(200);                      // wait for a second
 }
 ```
+
 ![ejemplo](./imagenes/ejemploEnClases.png)
 
-### Encargo 02
+### encargo-03
 
 Hacer variables que no funcionen, mínimo 3. Ejemplo: código morse, números aleatorios, calculadora, dado, etc.
 
@@ -250,4 +252,3 @@ Hacer variables que no funcionen, mínimo 3. Ejemplo: código morse, números al
 ![variable](./imagenes/variableDos.png)
 
 ![variable](./imagenes/variableDos-1.png)
-

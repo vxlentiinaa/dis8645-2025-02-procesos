@@ -12,10 +12,9 @@ Hoy llegué un poco atrasada por un problema en la frecuencia del metro. Cuando 
 
 ### Escaneo de bitácora y apuntes escritos del día
 
-![imagen](./archivos/.)
+`![imagen](./archivos/.)`
 
 ▼ Descripción de la imagen. Obtenido de: cita
-
 
 ***
 
@@ -45,7 +44,7 @@ Condiciones dependiente.
 
 ***
 
-https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/
+<https://programarfacil.com/blog/arduino-blog/el-potenciometro-y-arduino/>
 
 ### Posdata
 

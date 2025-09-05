@@ -14,7 +14,7 @@ Matemática inglesa fue la primera programadora de la historia. Colaboró con Ch
 
 En 1980, el Departamento de Defensa de EE. UU. creó el lenguaje de programación **ADA** en su honor. Diseñado para sistemas críticos como aviación, satélites y defensa, se caracteriza por su seguridad y confiabilidad, manteniendo vigente el legado de Ada Lovelace en la informática.
 
-Hemmendinger, & David. (1998, 20 julio). Computer programming language | Types & Examples. <Encyclopedia Britannica.<https://www.britannica.com/technology/computer-programming-language/SQL#ref849835>>
+Hemmendinger, & David. (1998, 20 julio). Computer programming language | Types & Examples. Encyclopedia Britannica.<https://www.britannica.com/technology/computer-programming-language/SQL#ref849835>
 
 ## encargo-02: Alan Turing
 

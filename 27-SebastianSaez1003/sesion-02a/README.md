@@ -40,7 +40,7 @@ La Ópera Patria fue categorizada como una de las mejores óperas de los último
 
 Inauguró el Teatro Matucana 100
 
-En el año 2023 volvió con una ópera que se llama Paraíso en Nueva York, donde por primera vez integró instrumentos reales. 
+En el año 2023 volvió con una ópera que se llama Paraíso en Nueva York, donde por primera vez integró instrumentos reales.
 
 Akai S2000, con 8 MBB, lograba tocar una ópera.
 
@@ -54,7 +54,7 @@ Importa mucho el lenguaje con el que presentamos nuestros productos; le da conte
 
 Sokio.studio
 
-National Sawdust es uno de los mejores lugares para 
+National Sawdust es uno de los mejores lugares para
 
 Parlantes Constellation que también tienen la función de micrófono al mismo tiempo.
 
@@ -78,11 +78,10 @@ La extensión del archivo es .ino; necesitamos que exista una carpeta con el mis
 
 Debería arrastrar la carpeta de mi archivo de Arduino a subir.
 
-## encargo 5 "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"
+## encargo-05 "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"
 
 Debido a que la mayoría de cosas que pienso hacer en GitHub las aprendí el semestre pasado, lo que estoy haciendo es dejar todas mis sesiones con un mismo formato, y de esta manera que mis bitácoras sean un poco más fáciles de leer y comprender.
 
 La mayoría de cosas que quiero hacer, al menos con el formato Markdown de GitHub, las saco del siguiente link:
 
-https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks 
-
+<https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks>

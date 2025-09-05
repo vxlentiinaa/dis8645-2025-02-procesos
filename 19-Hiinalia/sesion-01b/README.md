@@ -17,7 +17,7 @@ El “para” es para la persona a la que le va a llegar el correo
 “Cc” significa “con copia”.
 “Bcc” Le llega a la persona pero está oculto.
 
-##Arduino
+## Arduino
 
 Arduino IDE: integrated development environment (IDE) software de desarrollo
 
@@ -46,7 +46,7 @@ Si desconecto el arduino del pc, y cierro arduino ide, una vez que lo conecte de
 En general, un arduino es muy resistente cuando el código falla. La única razón por la que se rompería es si lo atropellan.
 
 /* (significa que hay comentario hasta cierta línea) (a Aarón no le gusta un párrafo gigante al principio de comentarios)
-// (comentario de una línea) significa que lo que viene a continuación, es un comentario (no es bueno usar un comentario al lado de un código porque se pierde el orden visual.
+// (comentario de una línea) significa que lo que viene a continuación, es un comentario (no es bueno usar un comentario al lado de un código porque se pierde el orden visual).
 
 Después de cada comentario se hace el código para poder tener un orden para saber qué hace cada cosa.
 

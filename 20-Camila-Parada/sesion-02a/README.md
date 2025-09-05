@@ -14,8 +14,8 @@ Para poder complementar la información de la clase estaré observando algunas d
 
 ### Escaneo de bitácora y apuntes escritos del día
 
-![imagen](./archivos/.)
-![imagen](./archivos/.)
+`![imagen](./archivos/.)`
+`![imagen](./archivos/.)`
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
