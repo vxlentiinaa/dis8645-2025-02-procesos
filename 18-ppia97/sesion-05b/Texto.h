@@ -10,6 +10,8 @@ class Texto {
   // destructor
   ~Texto();
     
+    Tipo tipografia;
+    bool izquierdaADerecha = true;
 };
 
 #endif
