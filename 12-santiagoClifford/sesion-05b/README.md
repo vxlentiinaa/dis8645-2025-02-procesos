@@ -10,3 +10,25 @@ atributos se les llama a las variables cuandoe stán dentro de una clase.
 
 métodos se les llama a las funciones cuando están dentro de una clase.
 
+```cpp
+class Pokemon{
+int nivel;
+
+//constructor
+Pokemon();
+
+//destructor
+~Pokemon();
+
+Tipo0 elementalType;
+Tipo1 elementalType;
+
+Habilidad hability;
+Estadisticas[] stats;
+
+};
+```
+
+```cpp
+class Estadisticas:
+```
