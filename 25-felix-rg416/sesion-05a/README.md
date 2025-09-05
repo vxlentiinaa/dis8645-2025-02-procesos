@@ -2,7 +2,7 @@
 martes 02 de septiembre
 
 - programación orientada objetos
-- ontologia orientada a objetos - Graham Harman
+- ontología orientada a objetos - Graham Harman
 - Markus Gabriel - "no podemos acceder a los objetos, los obejtos se manifiestan ante noosostros" ~Misa
 - **10 categorías de Aristóteles** - Sustancia, Cantidad, Cualidad, Relación, Lugar, Tiempo, Posición (o Situación), Posesión (o Hábito), Acción y Pasión- Libro *Problemas*
 - Mnomer Norms
@@ -18,23 +18,24 @@ martes 02 de septiembre
 - Swift lenguage - programar cositas en IOS
 - Lua
 - Chuck - tesis <https://chuck.stanford.edu/>
-- Turing complete significa "es un leguaje que puede haer todo lo que un coputador puede hacer" ~Aarón
+- Turing complete significa "es un leguaje que puede hacer todo lo que un coputador puede hacer" ~Aarón
 
 ## CLASES
 
 <https://www.w3schools.com/cpp/cpp_classes.asp>
 
-Sirven para que el código principal se vea más limpio y con menos líneas
+Sirven para que el código principal se vea más limpio y con menos líneas.
 
-Es mejor poner las imágenes en otra clase .h para no cargar el código principal
+Es mejor poner las imágenes en otra clase .h para no cargar el código principal.
 
-Según Aarón "es un model de galleetas para hacer galletas" 
+Según Aarón "es un model de galleetas para hacer galletas".
 
-Crear nuevos Tab (pestañas) dentro de la carpeta de 
+Crear nuevos Tab (pestañas)
+
 ![](./imagenes/newTap.png)
 ![cerditos](./imagenes/newFileCerditos.png)
 
-Lo que hace Aarón es crear una sintaxis con .h
+Lo que hace Aarón es crear una sintaxis con .h.
 ![Constanes .h](./imagenes/constantesH.png)
 
 "nos protege de problemas cunado creamos nuevos archivos"
@@ -73,7 +74,7 @@ void loop() {
 
 - Abrir Arduino IDE y crear un nuevo sketch
 
-### Paso 01
+### Paso 01 - archivo .h
 
 Crear un nuevo archivo tipo **.h** para poder **definir** los nombres para las constantes y comandos
 - El archivo debe tener la inicial con mayúscula para saber que es importante `Persona.h`
@@ -91,10 +92,10 @@ Se crea un perámetro "constructor"
 #endif
 ```
 
-### Paso 01.1
+#### Paso 01.1 - constructor y destructor
 - Se crea el metodo constructor, sirve para crear instancias
 - También se crea el destroctor con `~` el cual dice "olvidate de esta persona, que deje de existir" para ahorrar memoria 
-
+- En este archivo todas las funciones terminan en `;`
 
 
 ```cpp
@@ -113,15 +114,34 @@ Persona(bool vida);
 };
 ```
 
-## Paso 02
+## Paso 02 - archivo .cpp
 - Crear un archivo tipo `.cpp` donde decimos a las funciones lo que tinen que hacer.
-- Para que este **archivo** sepa que necesita el archivo `Persona.h` se debe llamar con `#include "Persona.h"`
+- Para que este **archivo** sepa que necesita el archivo `Persona.h` se debe llamar con `#include "Persona.h"`.
 - Además, para que las **funciones** sepan a qué clase pertenecen, se les agrega `Persona::` antes de cada función.
+- Como se designan las funciones, todas terminan con `{}`.
 
 ```cpp
-
 #include "Personas.h"
 
+// constructor
+Persona::Perdona(bool vida) { 
+  Persona::estaViva = vida;
+}
+
+// destructor
+Persona::~Persona() {}
+```
+
+### Paso 03 - archivo .ino
+- En el archivo `.ino` se debe incluir los demás archivos `.h`.
+
+```cpp
+#include "constantes.h"
+#include "Persona.h"
+#include "SensorAnalogo.h"
+
+// aristoteles no esta vivo
+Persona aristoteles(false)
 ```
 
 ## bibliografía y referentes
