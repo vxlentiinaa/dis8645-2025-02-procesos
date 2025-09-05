@@ -25,8 +25,61 @@ Si quiero tener la complejidad de darle mas detalles, info y funciones a mis car
   ## Planificación
   1 clase de texto en general
   1 clase que herede de texto, que sea poema
+  
   + todos los poemas son textos pero no todos los textos son poemas
+    
   1 clase que contenga un pixel  art en magen
-  1 clase que herede de pixel art, que sea una colección de imágenes relacionadas, un array
+  1 clase que herede de pixel art, que sea una colección de imágenes relacionadas, un array.
+
+  + EL _Constructor_ y el _Destructor_ se llama exactamente igual que la clase.
+    
+ 
+  + Esqueleto para Archivo.h
+    
+    ```cpp
+    #ifndef TEXTO_H
+    #define TEXTO_H
+    
+    class Texto {
+    
+    //Constructor
+    Texto();
+
+    //Destructor
+    ~Texto();
+    
+    };
+    #endif
+    ```
+  + Esqueleto para otro Archivo.h
+  
+    ```cpp
+    #ifndef POEMAPARRA_H
+    #define POEMAPARRA_H
+
+    #include "texto.h"
+    
+    class PoemaParra : public Poema
+    {
+    public:
+    //Constructor
+    PoemaParra();
+
+    //Destructor
+    ~PoemaParra();
+
+    };
+    #endif
+    ```
+    + TODOS LOS TEXTOS TIENEN UN _TIPO_ - topografía
+    + Pueden tener una _dirección_ - bool
+    + Puede usar _tinta_ - tinta
+    + Tendrán una autoría - autora
+   
+    + En el contexto de cpp se usa solo _true or false_
+      
+
+    
+  
 
   
