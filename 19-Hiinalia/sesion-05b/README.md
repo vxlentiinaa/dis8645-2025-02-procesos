@@ -22,3 +22,9 @@ El arduino R4 Minima funciona con arm
 
 Recordatorio que GFX significa efectos gráficos.
 
+```cpp
+class Completo_Italiano : public Completo {{
+```
+Significa que todos los completos son parte de un completo italiano
+
+w3schools tienen tutoriales buenos para hacer código web, pero también tiene unos buenos para C++.
