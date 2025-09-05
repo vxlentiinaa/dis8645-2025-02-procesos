@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 05b - "Clases" (class) en C++ (cpp) ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 05b - Meta "clases" y más "clases" ♡⊹˚₊⋆
 
 Viernes 5 Septiembre 2025
 
