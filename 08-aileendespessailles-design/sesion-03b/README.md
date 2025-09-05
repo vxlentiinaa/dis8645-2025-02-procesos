@@ -15,7 +15,7 @@ Arduino Uno pin ENTRADAS:
 - SCL -> I2C clock line -> A5
 - SDA -> I2C data line -> A4
 
-*lo primero que se hace es alimentar la pantalla desde el arduino en la torre power en la patita GND a GND de la pantalla 
+*lo primero que se hace es alimentar la pantalla desde el arduino en la torre power en la patita GND a GND de la pantalla
 *después se conecta 5v a 5v
 *A5 - SCL
 *A4 - SDA

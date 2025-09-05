@@ -30,13 +30,13 @@ ListaEncargos::ListaEncargos()
         Encargo(
             5,
             "02a",
-            "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"));
+            "ponerse al día con sus apuntes en github"));
 
     ListaEncargos::lista.push_back(
         Encargo(
             6,
             "03a",
-            "ponerse al día con sus apuntes en github y documentar aprendizajes y dudas"));
+            "documentar aprendizajes y dudas"));
 
     ListaEncargos::lista.push_back(
         Encargo(
