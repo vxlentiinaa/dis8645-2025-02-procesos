@@ -11,4 +11,4 @@ pendiente anotar procesos del grupo e individuales
 - el potenciómetro tiene entre 0 y 5 volts, puedo transitar entre estos valores
 - char es para carácter
 - si quiero buscar algo, saber qué significa, puedo anotarlo: wire.begin, qué es
-- 
+-

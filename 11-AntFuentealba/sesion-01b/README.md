@@ -126,5 +126,3 @@ void loop() {
 ![imagen 1](./imagenes/TMC_1B_3.jpeg)
 ![imagen 2](./imagenes/TMC_1B_4.jpeg)
 ![imagen 3](./imagenes/TMC_1B_5.jpeg)
-
-

@@ -232,7 +232,7 @@ comparando los código pude a llegar a las siguientes conclusiones.
 
 ### proyecto-01 v2
 
-conversando con el grupo, y gracias al feed back de mateo el proyecto evolucionó de la siguiente manera:
+conversando con el grupo, y gracias al feedback de mateo el proyecto evolucionó de la siguiente manera:
 
 #### pantalla-01 nueva versión
 
@@ -314,7 +314,9 @@ poteValue = map(poteValue, 0, 1023, 0, 64); //Map value 0-1023 to 0-255 (PWM)
   //delay(50); // Ajusta la velocidad del scroll
 }
 ```
+
 ### actualización 27-agosto
+
 Hoydía estuvimos con camila parada y braulio en el lab trabajando. Estuvimos revisando el código de poemSampler-v1.1 línea por línea, con el fin de entender más sobre las variables y funciones nativas de arduino IDE.
 
 ## proyecto-01 v3

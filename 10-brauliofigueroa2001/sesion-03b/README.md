@@ -13,7 +13,7 @@ constelación
 - ssd1306-128x64, este ejemplo usaremos de la biblioteca de adafruitssd1306, ya que nuestra pantalla es de esa cantidad de pixeles
 - screenwidth-> es el ancho de pantalla
 - screenheight-> es el alto de pantalla
--  **define screen_width 128**
+- **define screen_width 128**
 - ¿qué es define? ¿son constantes?
 - significan: computador, te diré muchas veces esta palabra, cuando la veas reemplázala por este número
 - si lo hacemos al principio, se propaga el cambio en todos los lugares necesarios

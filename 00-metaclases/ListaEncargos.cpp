@@ -36,7 +36,7 @@ ListaEncargos::ListaEncargos()
         Encargo(
             6,
             "03a",
-            "documentar aprendizajes y dudas"));
+            "investigar nand, nor, xor y xnor"));
 
     ListaEncargos::lista.push_back(
         Encargo(

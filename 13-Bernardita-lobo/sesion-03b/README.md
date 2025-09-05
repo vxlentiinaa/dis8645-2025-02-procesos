@@ -16,15 +16,15 @@ Matriz LED 8x8, display de puntos, se utiliza con un chip MAX7219.
 
 Daniel Cruz, artista que utilizó una pantalla y la conectó a LEDs dentro de botellas.
 
-https://www.artesmediales.uchile.cl/academico/daniel-cruz/
+<https://www.artesmediales.uchile.cl/academico/daniel-cruz/>
 
 Hace monitos con los registros de actividad de GitHub.
 
-https://github.com/gelstudios/gitfiti
+<https://github.com/gelstudios/gitfiti>
 
-https://web.archive.org/web/20160208093950/http://www.masivo.cl/
+<https://web.archive.org/web/20160208093950/http://www.masivo.cl/>
 
-Coloquio Posthumanamente hablando II https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/
+Coloquio Posthumanamente hablando II <https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
 
 Va a haber una charla el 27 y 28 de agosto en el MAC Parque Forestal, de 10:30 a 13:00 hrs y de 15:00 a 17:30 hrs.
 
@@ -51,13 +51,13 @@ Board SSD1306 Reference, cuenta con cuatro salidas.
 
 Saqué la tabla de [aquí](https://github.com/wokwi/wokwi-docs/blob/main/docs/parts/board-ssd1306.md?plain=1)
 
-https://www.youtube.com/watch?v=j25tkxg5Vws
+<https://www.youtube.com/watch?v=j25tkxg5Vws>
 
 ### bibliotecas de codigo
 
-Ada fruit library https://github.com/adafruit/Adafruit-GFX-Library
+Ada fruit library <https://github.com/adafruit/Adafruit-GFX-Library>
 
-Ladyada, Limon Fried, tesis de protección de los espacios tecnológicos. https://dspace.mit.edu/handle/1721.1/33151
+Ladyada, Limon Fried, tesis de protección de los espacios tecnológicos. <https://dspace.mit.edu/handle/1721.1/33151>
 
 GFX
 
@@ -79,13 +79,13 @@ Nuestro computador es nuestro taller. Para utilizar las bibliotecas, es importan
 
 Es difícil hacer que funcionen los códigos en nuestros computadores, pero es aún más difícil hacer que nuestros códigos funcionen en otros computadores.
 
-### Referentes 
+### Referentes
 
-https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
+<https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal>
 
-https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1
+<https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1>
 
-https://www.instagram.com/nrmbnt/?hl=es tesis de flores en pantallas que se mueven
+<https://www.instagram.com/nrmbnt/?hl=es> tesis de flores en pantallas que se mueven
 
 ### Palabras importantes
 

@@ -12,7 +12,7 @@
 
 - [IEEE](https://webstore.ansi.org/sdo/IEEE)
 
-- [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus) Universal Serial Bus. Se lama bus, porque se envía grupos de información contenida en "paquetes" 
+- [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus) Universal Serial Bus. Se lama bus, porque se envía grupos de información contenida en "paquetes"
 
 un cable usb por lo general tiene 4 conexiones, al conectar el arduino(sin ningún código cargado), se está haciendfo uso de los 2 cables de GND y VCC, al cargar el código activo la comunicación PC-> Arduino, y si en el código, tiene un Serial.begin();, activo la comunicación Arduino -> PC.
 

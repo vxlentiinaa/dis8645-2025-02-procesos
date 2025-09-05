@@ -1,15 +1,20 @@
 # sesion-04a
+
 ## Clase pre-entrega
+
 Hoy trabajamos con el Arduino y una pantalla OLED para visualizar animaciones.
 Para que funcionara correctamente fue necesario instalar las bibliotecas:
+
 - Wire.h
 - Adafruit_GFX.h
 - Adafruit_SSD1306.h
 
 Al principio la pantalla no encendía y, además, sentí un ligero olor a quemado. Después de consultar con mis docentes y compañeres descubrí que había conectado VCC y GND de forma invertida.
+
 Una vez corregido, la pantalla funcionó bien. Primero probé el contador de la clase pasada y luego una animación de alcancía en forma de chanchito.
 
-### Codigo contador 
+### Codigo contador
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -54,9 +59,11 @@ void loop() {
   delay(1000);
 }
 ```
+
 ![contador](./imagenes/contador.jpeg)
 
-### Codigo chanchito alcancia 
+### Codigo chanchito alcancia
+
 ```cpp
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -119,25 +126,28 @@ void loop() {
   delay(FRAME_DELAY);
 }
 ```
+
 ![chanchito](./imagenes/chanchito.jpeg)
 
 Mientras tanto mis compañeras estaban visualizando el poema en la pantalla OLED.
 Con mi compañera Sofía estuvimos conectando la pantalla redonda al arduino para ocuparlo en el poema pero no nos funciono, sin embargo no hemos descartado usar esa pantalla para la entrega del proximo viernes.
 ![pantalla_redonda](./imagenes/pantalla_redonda.jpeg)
 ![arduino_conectado_a_pantalla_redonda](./imagenes/arduino_conectado_a_pantalla_redonda.jpeg)
+
 ## Proyecto
+
 Con mis compañeras acordamos mostrar el poema “Casi cruzo la barrera” de Enrique Lihn en la pantalla OLED.
 La idea es que después de cada verso aparezca una animación que represente visualmente la línea recién mostrada. Además, queremos que los versos se proyecten en forma de espiral.
 
-### Animaciones planeadas:  
+### Animaciones planeadas  
 
-"Casi cruzo la barrera (Barrera o cerca abriéndose)    
+"Casi cruzo la barrera (Barrera o cerca abriéndose)
 del espejo para ver (espejo con destellos pequeños, como cuando se refleja la luz)  
 lo que no se puede ver (ojo abierto que se cierra)  
 el mundo como seria (planeta tierra girando)  
 si la realidad copiara (2 personas haciendo la misma acción, como un espejo)  
 y no al reves, el espejo (se tiene pensado repetir el espejo)  
-llena, porfin, de su nada." (un vaso que contiene algo en su interior y despues desaprece el contenido).    
+llena, porfin, de su nada." (un vaso que contiene algo en su interior y despues desaprece el contenido).
 
 ### Tip Técnico
 
@@ -147,5 +157,6 @@ es necesario cambiar la dirección I2C en el código:
 ```cpp
 display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
 ```
+
 A veces aparece como `0x3D`, pero debe cambiarse a `0x3C`
 para la mayoría de pantallas OLED de 128x64.
