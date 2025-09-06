@@ -54,4 +54,22 @@ insertar foto*
 
 ### Referentes
 
-## Encargo 
+## Encargo-06: Mitch Resnick
+
+El conocimiento no es suficiente, todo se basa ahora en pensar y actuar creativamente. En las escuelas, hasta los mejores alumnos no saben cómo enfrentarse a los problemas. Las nuevas tecnologías han provocado que las cosas cambien muy rápido, pero también pueden utilizarse para desarrollar la creatividad en esta nueva sociedad.
+
+En conjunto con un grupo de investigación del Laboratorio de Medios del Instituto Tecnológico de Massachusetts (MIT Media Lab), se crearon dos tecnologías: Crickets y Scratch, diseñadas específicamente para promover lo que llaman la espiral del pensamiento creativo.
+
+El espiral del pensamiento creativo consiste en imaginar lo que se quiere hacer, crear un proyecto basado en ideas y motivaciones personales, jugar con esas ideas y creaciones, compartirlas con los compañeros y reflexionar sobre los resultados y experiencias. Según Mitch Resnick, este proceso promueve volver a imaginar y repetir el espiral.
+
+a
+
+Un Cricket es como un bloque programable diseñado para que los niños puedan entender cómo funcionan los sistemas electrónicos. Mitchel Resnick, su creador, sostiene que vivimos en una era donde existen muchos objetos sensibles que actúan de forma autónoma, pero sin que sepamos realmente cómo lo hacen. Para resolver esta desconexión, desarrolló estos bloques programables que permiten a los niños conectar sensores y motores, experimentar con sus propias creaciones y comprender el funcionamiento interno de la tecnología que los rodea.
+
+a diferencia de los legos Mindstorms que estan hechos para crear robots, los Crickets estan hechos para realizar creaciones artisticas con intencion, utilizando luces, sonido y movimiento. ademas los kids vienen diversos materiales para estimular la imaginación.
+
+SCRATCH esta diseñado para crear y controlar cosas en linea, es para realizar programacion creativa muy variada, puede ser de video juegos, animaciones o presentaciones dinamicas, tambien comentan que se ha incorporado en algunas escuelas en donde estudiantes murmuran, se plantean objetivos y colaboran entre ellos, proponiendo ideas para fallos de sus diseños, y compartiendo sus resultados.
+
+en scratch programan utilizando bloques graficos en ves de lenguajes conplejos de programacion, hacuendo mucho mas amena y accesible la interfaz, aprenden conseptos matematicos basicos en un espacio estimulante. comenta que un estudiante le preunto a un profesor de algebra de octabo grado como podia crear el puntaje final para un juego que estba desarrollando  y el profesor lo ayudo enseñandole variables, el estudiante estaba muy entusiasmado, lo cual claramente denota que la enseñanza se estan haciendo diferentes y dinamico, ya que comenta que es dificil hacer que un estudiante se entuciame tanto con aprender variables.
+
+Citando a Mitch Resnick "Para tener éxito en la actual sociedad de la Creatividad, deben aprender a pensar de manera creativa, planear sistemáticamente, analizar críticamente, trabajar colaborativamente, comunicarse claramente, diseñar iterativamente y aprender continuamente." 
