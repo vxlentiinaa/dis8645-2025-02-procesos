@@ -106,8 +106,6 @@ Para resumir un poco, tenemos a las compuertas lógicas AND, NOT, OR, NAND, NOR 
 
 La compuerta AND representa una multiplicación lógica. Si multiplicas cualquier entrada por 0, el resultado será 0. En cambio, si ambas entradas son 1, el resultado será 1.
 
-#### Tabla de verdad AND
-
 | A  | B  | OUT  |
 |--- |--- |----- |
 | 0  | 0  | 0    |
@@ -130,8 +128,6 @@ La compuerta NAND representa una multiplicación lógica negada. Si multiplicas 
 
 La compuerta OR representa una suma lógica. Si sumas cualquier entrada por 1, el resultado será 1. Si sumas 1 más 1, el resultado será mayor, por tanto será 1. En cambio, si sumas 0 más 0, será 0.
 
-#### Tabla de verdad OR
-
 | A  | B  | OUT  |
 |--- |--- |----- |
 | 0  | 0  | 0    |
@@ -153,8 +149,6 @@ La compuerta NOR representa una suma lógica negada. Si sumas cualquier entrada 
 ### Compuerta NOT
 
 La compuerta NOT es un inversor lógico. Solo tiene una entrada y una salida. Si tenemos un 1 en la entrada, en la salida lo negará, por tanto quedará en 0. Y si tenemos un 0 en la entrada, en la salida tendremos un 1.
-
-#### Tabla de verdad NOT
 
 | A | OUT |
 | - | --- |
