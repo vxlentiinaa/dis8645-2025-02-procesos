@@ -1,7 +1,7 @@
 # sesion-05b 
 ## 05.09.24
 
-+ Buscar nuestro rango en todo.
+"Buscar nuestro rango en todo" <3
 
 + #include "<>" Búscalo en el computador donde sea que exista.
 + Archivo ".h" Se especifican las posibilidades que hay. ¿Qué es lo que existe?/Prometo
@@ -12,6 +12,12 @@
 
 **C++ Tutorial**
 <https://www.w3schools.com/cpp/default.asp>
+
++ C++ es un lenguaje de programación popular.
+
++ C++ se utiliza para crear programas de computadora y es uno de los lenguajes más utilizados en el desarrollo de juegos.
+
++ C++ se desarrolló como una extensión de C y ambos lenguajes tienen casi la misma sintaxis.
 
 ### En clases
 
