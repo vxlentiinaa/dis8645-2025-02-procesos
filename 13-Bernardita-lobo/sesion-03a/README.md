@@ -133,6 +133,28 @@ La compuerta NAND representa una multiplicación lógica negada. Si multiplicas 
 | 1  | 0  | 1    |
 | 1  | 1  | 0    |
 
+### Compuerta OR y NOR
 
+La compuerta OR representa una suma lógica. Si sumas cualquier entrada por 1, el resultado será 1. Si sumas 1 más 1, el resultado será mayor, por tanto será 1. En cambio, si sumas 0 más 0, será 0.
+
+#### Tabla de verdad OR
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 1    |
+
+La compuerta NOR representa una suma lógica negada. Si sumas cualquier entrada por 1, el resultado será 1 y al negarlo dará 0. Si sumas 1 más 1, el resultado será mayor, por tanto será 1, y negado será 0. En cambio, si sumas 0 más 0, el resultado será 0 y al negarlo será 1. Es lo contrario a la compuerta OR.
+
+#### Tabla de verdad NOR
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 1    |
+| 0  | 1  | 0    |
+| 1  | 0  | 0    |
+| 1  | 1  | 0    |
 
 
