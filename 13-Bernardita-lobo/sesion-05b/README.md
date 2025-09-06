@@ -50,4 +50,8 @@ Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se que
 
 insertar foto*
 
+### Palabras importantes
+
+### Referentes
+
 ## Encargo 
