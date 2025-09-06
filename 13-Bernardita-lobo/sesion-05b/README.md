@@ -56,6 +56,8 @@ insertar foto*
 
 ## Encargo-06: Mitch Resnick
 
+Me leí el artículo “Sembrando las semillas para una sociedad más creativa” de Mitch Resnick el cual fue traducido por Eduteka https://eduteka.icesi.edu.co/articulos/ScratchResnickCreatividad
+
 El conocimiento no es suficiente, todo se basa ahora en pensar y actuar creativamente. En las escuelas, hasta los mejores alumnos no saben cómo enfrentarse a los problemas. Las nuevas tecnologías han provocado que las cosas cambien muy rápido, pero también pueden utilizarse para desarrollar la creatividad en esta nueva sociedad.
 
 En conjunto con un grupo de investigación del Laboratorio de Medios del Instituto Tecnológico de Massachusetts (MIT Media Lab), se crearon dos tecnologías: Crickets y Scratch, diseñadas específicamente para promover lo que llaman la espiral del pensamiento creativo.
