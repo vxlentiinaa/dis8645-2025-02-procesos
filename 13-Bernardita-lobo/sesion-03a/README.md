@@ -34,13 +34,12 @@ if, una condición. Si eso ocurre, entonces hace ciertas cosas.
 
 Las condiciones existen en todo tipo de lenguaje de programación. La condición va entre paréntesis.
 
-> if (ver == false){
->
-> ponermeLentes():
->
-> }else{
->
-> continuarConMiVida():
+```cpp
+if (ver == false){
+ponermeLentes():
+}else{
+continuarConMiVida():
+```
 
 Se pueden poner más ejemplos.
 
@@ -50,19 +49,15 @@ También puedes hacer que la condición tenga otra condición.
 
 or es un operador lógico.
 
-> if (edad >18 18 OR tengoPituto){
->
-> dartePermisoDeConducir():
->
-> }
->
-> else{
->
-> // noPuedoNomas
+```cpp
+if (edad >18 18 OR tengoPituto){
+dartePermisoDeConducir():
+ }
+else{
+// noPuedoNomas
+```
 
-Operadores lógicos: and, or, not.
-
-Compuertas AND, OR, NOT.
+Compuertas / Operadores lógicos: AND, NOT, OR, NAND, NOR, XOR
 
 Tabla de verdad.
 
@@ -105,7 +100,7 @@ Variables, funciones, for, if, and.
 
 ## Encargo-04: Investigar NAND, NOR, XOR
 
-Para resumir un poco, tenemos a las compuertas lógicas AND, OR, NOT, NAND, XOR y NOR; estos son compuertas utilizadas en la electrónica. Nos permiten hacer operaciones lógicas básicas en los circuitos o programación. Solo podemos trabajar con dos números: 0 o 1, o arriba o abajo.
+Para resumir un poco, tenemos a las compuertas lógicas AND, NOT, OR, NAND, NOR y XOR; estos son compuertas utilizadas en la electrónica. Nos permiten hacer operaciones lógicas básicas en los circuitos o programación. Solo podemos trabajar con dos números: 0 o 1, o arriba o abajo.
 
 ### Compuerta AND Y NAND
 
