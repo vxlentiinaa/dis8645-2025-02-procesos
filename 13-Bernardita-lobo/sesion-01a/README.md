@@ -67,11 +67,11 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 
 [Curaduría:](https://dle.rae.es/curadur%C3%ADa) Conservación y supervisión de bienes artísticos o culturales, especialmente para su eventual exhibición.
 
-[Semiótica:](https://dotlib.com/es/blog/semiotica-definicion-fundamentos-y-aplicaciones#:~:text=%C2%BFQu%C3%A9%20es%20la%20semi%C3%B3tica%3F,signo'%20o%20'se%C3%B1al'.) Es el estudio de los sistemas de signos y los procesos de significación.
+[Semiótica:](https://dotlib.com/es/blog/semiotica-definicion-fundamentos-y-aplicaciones) Es el estudio de los sistemas de signos y los procesos de significación.
 
 [HCI:](https://albertolacalle.com/hci.htm) La Interacción Persona-Ordenador o en inglés Human Computer Interaction, es una disciplina relacionada con el diseño, evaluación, desarrollo y estudio de los fenómenos que rodean los sistemas informáticos para uso humano.
 
-[STS:](https://gsas.harvard.edu/policy/science-technology-and-society#:~:text=Cimientos,/about/whatissts.html%20.) La Ciencia, Tecnología y Sociedad o en inglés science technology and society, emplean diversos métodos de las humanidades y las ciencias sociales para examinar cómo la ciencia y la tecnología influyen y se ven influidas por sus contextos sociales, culturales y materiales.
+[STS:](https://gsas.harvard.edu/policy/science-technology-and-society) La Ciencia, Tecnología y Sociedad o en inglés science technology and society, emplean diversos métodos de las humanidades y las ciencias sociales para examinar cómo la ciencia y la tecnología influyen y se ven influidas por sus contextos sociales, culturales y materiales.
 
 ## Encargo-01: Alan Turing
 
@@ -97,7 +97,7 @@ Alan Turing fue un genio increíblemente creativo. Es realmente terrible cómo l
 
 > ▼ Figura 01. Fotografía. Fuente <https://teachinglondoncomputing.org/wp-content/uploads/2019/02/29-alan-turing-from-rs-.jpg>
 >
-> ▼ Figura 02. Fotografía. Fuente <https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f3c32e7bc6bd007054065ad/mediaLibrary/photo/9baedef8-29e5-423c-b38e-b860712b7bb8-extra-large-standard-q100.webp?v=1688084008>
+> ▼ Figura 02. Fotografía. Fuente <https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f3c32e7bc6bd007054065ad/mediaLibrary/photo/9baedef8-29e5-423c-b38e-b860712b7bb8-extra-large-standard-q100.webp?>
 >
 > Video de referencia ["La historia de Alan Turing, el hombre que inventó las computadoras"](https://youtu.be/H1ZE9CGO4js?si=yM7Q5HFvov5P2o_H)
 
