@@ -38,7 +38,8 @@ Texto();
 
 A los atributos se les llama variables, y a los métodos se les llama funciones.
 
-### ejercicio de crear nuestra propia clase
+### Ejercicio de crear nuestra propia clase
 
+insertar foto*
 
-### encargo 
+## Encargo 
