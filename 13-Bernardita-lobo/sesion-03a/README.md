@@ -107,4 +107,32 @@ Variables, funciones, for, if, and.
 
 ## Encargo-04: Investigar NAND, NOR, XOR
 
+Para resumir un poco, tenemos a las compuertas lógicas AND, OR, NOT, NAND, XOR y NOR; estos son compuertas utilizadas en la electrónica. Nos permiten hacer operaciones lógicas básicas en los circuitos o programación. Solo podemos trabajar con dos números: 0 o 1, o arriba o abajo.
+
+### Compuerta AND Y NAND
+
+La compuerta AND representa una multiplicación lógica. Si multiplicas cualquier entrada por 0, el resultado será 0. En cambio, si ambas entradas son 1, el resultado será 1.
+
+#### Tabla de verdad AND
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 0    |
+| 1  | 0  | 0    |
+| 1  | 1  | 1    |
+
+La compuerta NAND representa una multiplicación lógica negada. Si multiplicas cualquier entrada por 0, el resultado será 1. En cambio, si ambas entradas son 1, el resultado será 0. Es lo contrario a la compuerta AND.
+
+#### Tabla de verdad NAND
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 1    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 0    |
+
+
+
 
