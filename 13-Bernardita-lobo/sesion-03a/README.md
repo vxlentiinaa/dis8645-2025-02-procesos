@@ -28,9 +28,7 @@
 
 ### Condicionales e Iteradores
 
-if, una condición.
-
-Si eso ocurre, entonces hace ciertas cosas.
+if, una condición. Si eso ocurre, entonces hace ciertas cosas.
 
 Álgebra booleana.
 
