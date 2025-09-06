@@ -1,70 +1,141 @@
 # sesion-03a
 
-## Cómo poner imágenes en github
+## Condicionales
 
-![Nombre](./CarpetaDondeSeEncuentra/NombreDelArchivo)
+If (boolean condición)  
+(consequent)  
+Else (alternative)  
+End if  
 
-## Pantallas y píxeles
+"=" se usa para asignar un valor  
+"==" comparar (¿Son lo mismo?)  
+"!" lo contrario  
+"++" = decir x = x + x  
+print(ln) = imprime y hace enter para la próxima vez que imprima  
+"%" Módulo, para saber el resto (7%2 = 1)  
 
-Nos importa la resolución, el tamaño y el chip.
+<https://docs.arduino.cc/language-reference/>
 
-Referentes:  
-<https://www.artesmediales.uchile.cl/academico/daniel-cruz/>  
-<https://arteymedios.org/daniel-cruz/>  
-Charla: <https://www.nucleofair.org/agenda/coloquio-posthumanamente-hablando-ii/>
-
-### Encargo
-
-Navegador de poemas  
-Si ocupo un código base de ejemplo, documentar en el encargo y separar lo que es del ejemplo y lo que hice yo.  
-Robar, modificar y citar.  
-
-Plataforma: <https://www.tinkercad.com/>
-
-*Protocolo I2C* (4 puntos de conexión)  
-Nos permite, con menos hardware, conectar distintos dispositivos en paralelo.  
-Comunicación síncrona.  
-Nos simplifica las formas de conectar las cosas entre sí.  
-
-*4 cables*:  
-* gnd: El de tierra (verde), 0 volts, de acá comenzamos a contar los voltajes.  
-* vcc: Voltaje de alimentación. 5V  
-* scl: Clock — señal de reloj  
-* sda: Datos  
-
-La pantalla no recibe información, la emite.  
-
-*unsigned (u)*  
-
-Si queremos expandir nuestro Arduino: **Libraries**  
-![ArduinoUno](./imagenes/ArduinoUno.png)  
-
-Entrevista:  
-<https://github.com/readme/stories/limor-fried>  
-
-Esos números son hexadecimales que significan otras cosas en binario:  
-0x3C = 0111100  
-0x3D = 0111101  
-Solamente un elemento por dirección.  
-
-Cuestionarse y entender límites materiales.  
-<https://www.wolframalpha.com/>  
-
-Para poner imágenes:  
-<https://javl.github.io/image2cpp/>  
-Transformar a bytes, importante la resolución.  
-Pegar en código, antes de setup:  
+## Examples
 
 ```cpp
-const unsigned char (name)[] PROGMEM = {
+if (itIsRaining == true) {
+  makeSopaipillas();
+}
+_______________________________
+// Se puede escribir una condición dentro de otra.
+if (see == false) {
+  useGlasses();
+}
+if (dirty == true) {
+  cleanGlasses();
+}
+else {
+  continuarConMiVida();
+}
+_______________________________
+// Más de una pregunta
+if (edad >= 18 AND edad <= 80) {
+  permisoConducir();
+}
+
+if (edad >= 18 AND !(edad == 81)) {
+  permisoConducir();
+}
+
+if (december AND donFrancisco == true AND !godZilla AND !elecciones) {
+  teleton();
+}
+else {
+  normalTransmision();
+}
 ```
-String linea(nº)
-dentro de setup:
-linea(nº)= que dice
+digitalWrite(LED_BUILTIN, prender);
+Mayúscula = variable
+Minúscula = constante
 
-[] para decir el lugar
+millis() (positivos (+0))
 
-ejemplo: <https://docs.arduino.cc/language-reference/en/variables/data-types/string/>
+unsigned long
 
-array: arreglo - Arreglo pared, variable ladrillos.
-For: Para secuencia.
+Operadores lógicos
+
+Conmutativas, el orden no cambia el resultado
+
+Compuertas
+
+AND &
+
+Mutuamente dependiente
+A B | out
+0 0 | 0
+0 1 | 0
+1 0 | 0
+1 1 | 1
+
+OR ||
+
+Si alguna de las entradas es sí, la respuesta es sí.
+Independiente
+A B | out
+0 0 | 0
+0 1 | 1
+1 0 | 1
+1 1 | 1
+
+NOT
+
+Tenemos una variable y queremos detectar la ausencia de esta
+A | out
+0 | 1
+1 | 0
+
+Investigar
+NAND
+NOR
+XOR
+
+### Iterar
+
+ // cuantas veces itero (variable i)
+ int veces;
+
+ // se itera con for
+ // se pone entre p() 3 cosas
+ // 1 partida
+ // 2 termino
+ // 3 actualización
+ // y entre {} lo que quiero iterar
+ // for (parto; termino; que hago cada paso)
+
+```cpp
+ for (int i = 0; i<veces; i = i + 1)
+
+ {
+ hazEsto();
+ }
+
+ Example:
+ for (int j = 0; j<alto; j = j +1)
+ dibujarPixel(i,j);
+ }
+```
+
+## Encargo
+
+### NAND, NOR y XOR
+
+Una compuerta lógica es un dispositivo digital que realiza operaciones binarias con uno o dos estados lógicos (0,1) en la entrada y obteniendo resultados booleanos (0,1) en la salida del sistema. Se pueden combinar entre si para obtener nuevas funciones.
+
+Las compuertas básicas son tres AND, OR y NOT, y sus compuertas complementarias son NAND, NOR. También existe una compuerta suplementaria XOR y su compuerta complementaria XNOR.
+Cada compuerta está asociada a un símbolo, una tabla de verdad y una operación booleana; que expresa el estado de su salida para cada combinación posible de las entradas.
+
+![ANDNORXOR](./imagenes/ANDNORXOR.png)
+
+Dependiendo los resultados que la operación nos arroje se pueden clasificar los resultados en:
+
+Producto de Sumas (maxitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un cero lógico.
+Suma de Productos (minitérminos): Expresión booleana que reúne las variables de entrada que a su salida tengan un uno lógico.
+![ANDNORXOR](./imagenes/ANDNORXORComp..png)
+
+Fuente: <https://blog.uelectronics.com/electronica/circuitos-integrados-compuertas-logicas-and-or-nand-xor-y-not/>
