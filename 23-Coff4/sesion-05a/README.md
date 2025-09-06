@@ -1,6 +1,5 @@
 # sesion-05a
 
-
 Por temas de solemnes y demás, no creo que pueda actualizar para este día. El viernes me pondré las pilas (o incluso ver si avanzo mañana).
 
 Solo quiero entender de qué tratan las "Clases" ....φ(・∀・*)
@@ -12,7 +11,7 @@ Por lo que recuerdo, son carpetas que tienen instrucciones fijas, con las cuales
 
 Actualización demoníaca
 
-*ME ENFERMÉ de nuevo (˘▽˘)*
+`*ME ENFERMÉ de nuevo (˘▽˘)*`
 
 Esta vez me perdonarán por escribir un poco menos de lo habitual.
 
@@ -54,7 +53,7 @@ En palabras del profe: Aquí hacemos la promesa de que existen cosas, pero que n
 
 - cpp: Aquí se viene la parte de la programación, en donde esas promesas se cumplen (se debe importar .h a este archivo).
 
-Esto, al ser parte de C++, no entiende el lenguaje de Arduino, por lo tanto debe ser importado con <<include>> y no con "include".
+Esto, al ser parte de C++, no entiende el lenguaje de Arduino, por lo tanto debe ser importado con `#include` y no con "include".
 
 ... O sea que <<>> hace que no se vea el texto, pero espero se entienda.
 
@@ -67,6 +66,7 @@ Ya estando en la página, crearemos las categorías de estas personas:
 edad + rut
 
 Tenemos la promesa lista:
+
 ```cpp
 #ifndef PERSONA_H // si no se encuentra "PERSONA_H" se busca
 #define PERSONA_H // al encontrarlo se define y se acopla al documento
@@ -124,4 +124,3 @@ Pero con las clases podemos designar los RUTs y los años, y cambiarlos las vece
 ¡OTRA VEZ TUVE QUE BORRAR TODO POR TUS SINCRONIZACIONES, GRRRRR!
 
 ¿Una chica no puede demorarse más de 20 minutos (...creo que he estado más de 20) en actualizar su bitácora?
-
