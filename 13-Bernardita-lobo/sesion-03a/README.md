@@ -107,4 +107,4 @@ Variables, funciones, for, if, and.
 
 ### Palabras importantes
 
-## Encargo
+## Encargo-05: INVESTIGAR: NAND, NOR, XOR
