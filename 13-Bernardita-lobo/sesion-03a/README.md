@@ -157,4 +157,26 @@ La compuerta NOR representa una suma lógica negada. Si sumas cualquier entrada 
 | 1  | 0  | 0    |
 | 1  | 1  | 0    |
 
+### Compuerta NOT
 
+La compuerta NOT es un inversor lógico. Solo tiene una entrada y una salida. Si tenemos un 1 en la entrada, en la salida lo negará, por tanto quedará en 0. Y si tenemos un 0 en la entrada, en la salida tendremos un 1.
+
+#### Tabla de verdad NOT
+
+| A | OUT |
+| - | --- |
+| 0 | 1   |
+| 1 | 0   |
+
+### Compuerta XOR
+
+La compuerta XOR representa una función booleana de desigualdad. Si tenemos entradas diferentes, la salida será 1. En cambio, si las entradas son iguales, la salida será 0.
+
+#### Tabla de verdad XOR
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 0    |
