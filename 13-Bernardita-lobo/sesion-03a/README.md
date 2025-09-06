@@ -2,9 +2,7 @@
 
 ## Trabajo en clase / Martes 19 de agosto, 2025
 
-### Proyecto-01
-
-### Pauta
+### Pauta Proyecto-01
 
 - 1 punto base
 
@@ -107,4 +105,6 @@ Variables, funciones, for, if, and.
 
 ### Palabras importantes
 
-## Encargo-05: INVESTIGAR: NAND, NOR, XOR
+## Encargo-04: Investigar NAND, NOR, XOR
+
+
