@@ -181,5 +181,4 @@ La compuerta XOR representa una función booleana de desigualdad. Si tenemos ent
 | 1  | 0  | 1    |
 | 1  | 1  | 0    |
 
-Compuertas Lógicas; AND, OR, NOT, NAND, NOR, XOR, XNOR (FUNCIONAMIENTO) | Electrónica Digital
-https://youtu.be/M4PQfNjTiOE?si=iQrq-_dp2BdO56GW
+>Video de referencia ["Compuertas Lógicas; AND, OR, NOT, NAND, NOR, XOR, XNOR (FUNCIONAMIENTO) | Electrónica Digital"](https://youtu.be/M4PQfNjTiOE?si=iQrq-_dp2BdO56GW)
