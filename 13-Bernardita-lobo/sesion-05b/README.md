@@ -4,25 +4,25 @@
 
 ### Cosas que hablamos en la mañana
 
-Hablamos un poco de nuestras solemnes de los ramos teoricos, y revisamos nuestras notas y comentarios del Proyecto-01, 
+Hablamos un poco de nuestras solemnes de los ramos teóricos, y revisamos nuestras notas y comentarios del Proyecto-01. 
 
-tambien hablamos de las notas, de los promedios de las notas y nuestra manera de persivirlas, la universidad es para errar, aprender y corregir, aunque en definitava es algo socialmente complejo, en especial en una carrera donde muchas veces los proyectos son super personales y el ego puede ser algo dificil de gestionar, pero es algo que se trabaja.
+También hablamos de las notas, de los promedios de las notas y de nuestra manera de percibirlas. La universidad es para errar, aprender y corregir, aunque en definitiva es algo socialmente complejo, en especial en una carrera donde muchas veces los proyectos son súper personales y el ego puede ser algo difícil de gestionar. Pero es algo que se trabaja.
 
-### 
+### Clases
 
 En el archivo .h prometo
 
 En el archivo .cpp me hago cargo, responsabilidad afectiva xd
 
-el codigo tiene que tener comentarios y la documentacion tiene que estar ordenana para que lo entienda un otro. estamos utilizando estandares mundiales, en codigo lo que hacemos aca, tambien se trabaja en otras partes del mundo. 
+El código tiene que tener comentarios, y la documentación debe estar ordenada para que otra persona pueda entenderlo. Estamos utilizando estándares globales, lo que hacemos acá, también se trabaja en otras partes del mundo.
 
-adafruit_SSD1306 depende de adafruit_GFX, class es tambien es parte de public
+Adafruit_SSD1306 depende de Adafruit_GFX. La class también es parte de public.
 
+```cpp
 class completo_italiano : public completo
+```
 
-una clase de texto 
-
-Las clases se usan cuando queremos utilizar estructura de datos, es como una especie de carpeta, en donde esta la informacion
+Las clases se utilizan cuando queremos organizar información en forma de estructuras de datos. Son como una especie de carpeta que contiene tanto los datos como las funciones que permiten manipularlos.
 
 ```cpp
 class Texto 
@@ -35,5 +35,10 @@ Texto();
 ~Texto();
 };
 ```
+
+A los atributos se les llama variables, y a los métodos se les llama funciones.
+
+### ejercicio de crear nuestra propia clase
+
 
 ### encargo 
