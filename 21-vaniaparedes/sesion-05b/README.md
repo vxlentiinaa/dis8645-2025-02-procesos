@@ -4,7 +4,7 @@
 + Buscar nuestro rango en todo.
 
 + #include "<>" Búscalo en el computador donde sea que exista.
-+ Archivo ".h" Se espicifican las posibilidades que hay. ¿Qué es lo que existe?/Prometo
++ Archivo ".h" Se especifican las posibilidades que hay. ¿Qué es lo que existe?/Prometo
 + Archivo ".cpp" donde nos encargamos que las cosas ocurran. ¿Cómo se hace?/Me hago cargo
 
 + "_arm_" Computadores chiquitos (celulares, etc)
