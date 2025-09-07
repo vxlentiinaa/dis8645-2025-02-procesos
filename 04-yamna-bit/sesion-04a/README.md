@@ -28,6 +28,22 @@ digital (*digital*)
 
 - **Ejemplos:** Hora digital, *Minecraft*, píxel de una foto
 
+Mientras nos poniamos de acuerdo de lo que queriamos hacer, comence a buscar opciones de poemas que conectara con cada uno de nosotros para darle un sentido mas propio al proyecto 01
+
+![POEMAS].(/imagen/POEMAS.jpg)  
+
+  
+Videos de proceso en clases:
+
+<https://youtube.com/shorts/prP_wWswPBg>
+
+<https://youtu.be/AQlyXXPR3ow>
+
+<https://youtu.be/_c7rWq3Rkxc>
+
+<https://youtube.com/shorts/S3kj9cHH_Oc>
+
+
 (FALTA REGISTRO DE FALLAS Y LOGROS)
 
 ## GITHUB
