@@ -44,6 +44,10 @@ Creamos varios archivos: `Texto.h` - `Poema.h` - `PoemaParra.h` - `Texto.cpp` - 
 
 ## Actividad
 
+Ejemplo de Aarón:
+
+![Ejemplo de Aarón en la pizarra](./imagenes/ejemploAaron.jpg)
+
 Existe un archivo principal llamado "GuiasScout", que tiene varios archivos que serían las unidades: **Manada - Compañia - Tropa - Avanzada - Clan - Dirigentes**. Dentro de **Manada** está incluida una clase **Seisena**. Dentro de **Compañia y Tropa** se incluye la clase **Patrulla**
 
 Una persona está dentro de una seisena --> que está dentro de una unidad manada ---> que está dentro de un grupo
