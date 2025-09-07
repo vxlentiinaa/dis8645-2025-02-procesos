@@ -218,7 +218,7 @@ void loop() {
 }
 ```
 
-### Segunda parte del codigo proyecto trabajado con Carla
+### Segunda parte del código proyecto trabajado con Carla
 
 intento 1: imagen que parpadea y esta al medio
 <https://wokwi.com/projects/440546331476540417>
@@ -232,5 +232,5 @@ intento 3: agregamos la foto de santiago
 intento 4: casi listo, pero no mostraba la ultima linea del poema
 <https://wokwi.com/projects/440548344446009345>
 
-intento 5: version final, sin corregir comentarios y modales
+intento 5: versión final, sin corregir comentarios y modales
 <https://wokwi.com/projects/440548344446009345>

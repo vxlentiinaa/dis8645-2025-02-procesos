@@ -2,9 +2,7 @@
 
 ## Trabajo en clase / Martes 19 de agosto, 2025
 
-### Proyecto-01
-
-### Pauta
+### Pauta Proyecto-01
 
 - 1 punto base
 
@@ -30,21 +28,18 @@
 
 ### Condicionales e Iteradores
 
-if, una condición.
-
-Si eso ocurre, entonces hace ciertas cosas.
+if, una condición. Si eso ocurre, entonces hace ciertas cosas.
 
 Álgebra booleana.
 
 Las condiciones existen en todo tipo de lenguaje de programación. La condición va entre paréntesis.
 
-> if (ver == false){
->
-> ponermeLentes():
->
-> }else{
->
-> continuarConMiVida():
+```cpp
+if (ver == false){
+ponermeLentes():
+}else{
+continuarConMiVida():
+```
 
 Se pueden poner más ejemplos.
 
@@ -54,19 +49,15 @@ También puedes hacer que la condición tenga otra condición.
 
 or es un operador lógico.
 
-> if (edad >18 18 OR tengoPituto){
->
-> dartePermisoDeConducir():
->
-> }
->
-> else{
->
-> // noPuedoNomas
+```cpp
+if (edad >18 18 OR tengoPituto){
+dartePermisoDeConducir():
+ }
+else{
+// noPuedoNomas
+```
 
-Operadores lógicos: and, or, not.
-
-Compuertas AND, OR, NOT.
+Compuertas / Operadores lógicos: AND, NOT, OR, NAND, NOR, XOR
 
 Tabla de verdad.
 
@@ -107,4 +98,74 @@ Variables, funciones, for, if, and.
 
 ### Palabras importantes
 
-## Encargo
+## Encargo-04: Investigar NAND, NOR, XOR
+
+Para resumir un poco, tenemos a las compuertas lógicas AND, NOT, OR, NAND, NOR y XOR; estos son compuertas utilizadas en la electrónica. Nos permiten hacer operaciones lógicas básicas en los circuitos o programación. Solo podemos trabajar con dos números: 0 o 1, o arriba o abajo.
+
+### Compuerta AND Y NAND
+
+La compuerta AND representa una multiplicación lógica. Si multiplicas cualquier entrada por 0, el resultado será 0. En cambio, si ambas entradas son 1, el resultado será 1.
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 0    |
+| 1  | 0  | 0    |
+| 1  | 1  | 1    |
+
+La compuerta NAND representa una multiplicación lógica negada. Si multiplicas cualquier entrada por 0, el resultado será 1. En cambio, si ambas entradas son 1, el resultado será 0. Es lo contrario a la compuerta AND.
+
+#### Tabla de verdad NAND
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 1    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 0    |
+
+### Compuerta OR y NOR
+
+La compuerta OR representa una suma lógica. Si sumas cualquier entrada por 1, el resultado será 1. Si sumas 1 más 1, el resultado será mayor, por tanto será 1. En cambio, si sumas 0 más 0, será 0.
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 1    |
+
+La compuerta NOR representa una suma lógica negada. Si sumas cualquier entrada por 1, el resultado será 1 y al negarlo dará 0. Si sumas 1 más 1, el resultado será mayor, por tanto será 1, y negado será 0. En cambio, si sumas 0 más 0, el resultado será 0 y al negarlo será 1. Es lo contrario a la compuerta OR.
+
+#### Tabla de verdad NOR
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 1    |
+| 0  | 1  | 0    |
+| 1  | 0  | 0    |
+| 1  | 1  | 0    |
+
+### Compuerta NOT
+
+La compuerta NOT es un inversor lógico. Solo tiene una entrada y una salida. Si tenemos un 1 en la entrada, en la salida lo negará, por tanto quedará en 0. Y si tenemos un 0 en la entrada, en la salida tendremos un 1.
+
+| A | OUT |
+| - | --- |
+| 0 | 1   |
+| 1 | 0   |
+
+### Compuerta XOR
+
+La compuerta XOR representa una función booleana de desigualdad. Si tenemos entradas diferentes, la salida será 1. En cambio, si las entradas son iguales, la salida será 0.
+
+#### Tabla de verdad XOR
+
+| A  | B  | OUT  |
+|--- |--- |----- |
+| 0  | 0  | 0    |
+| 0  | 1  | 1    |
+| 1  | 0  | 1    |
+| 1  | 1  | 0    |
+
+>Video de referencia ["Compuertas Lógicas; AND, OR, NOT, NAND, NOR, XOR, XNOR (FUNCIONAMIENTO) | Electrónica Digital"](https://youtu.be/M4PQfNjTiOE?si=iQrq-_dp2BdO56GW)

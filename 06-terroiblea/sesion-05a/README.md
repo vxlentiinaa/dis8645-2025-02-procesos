@@ -91,7 +91,7 @@ class Persona {
 
 ```
 
-ejemplo en el archivo INO: 
+otro ejemplo: 
 
 ``` cpp
 #ifndef "CONSTANTES_H" 
