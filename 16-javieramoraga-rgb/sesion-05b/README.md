@@ -103,7 +103,7 @@ https://www.w3schools.com/cpp/cpp_inheritance.asp
 
 ✩₊˚.⋆☾⋆⁺₊✧
 
-### Ejemplos de clases hehcos por mi: estrellas ⋆˙⟡
+### Ejemplos de clases echo por mi: estrellas ⋆˙⟡
 
 + ✶⋆.˚ Estrella.h
 
