@@ -61,8 +61,10 @@ https://www.w3schools.com/cpp/cpp_inheritance.asp
 
 + **⋆˙⟡ Ejemplo de jerarquías:**
 
-*1. Una clase general: `Texto`
-*2. Una clase que herede de `Texto`: `Poema`  
+1. Una clase general: `Texto`
+   
+2. Una clase que herede de `Texto`: `Poema`
+   
    + Todos los poemas son textos, pero no todos los textos son poemas.
 
 ***
