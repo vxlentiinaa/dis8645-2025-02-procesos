@@ -92,7 +92,7 @@ Resultado:
 
 <https://tutorialmarkdown.com/consejos/cambiar-color-texto>
 
-## Encargo-00
+## encargo-03
 
 Hacer al menos 3 códigos para correr en la placa Arduino. La idea es fallar muchas veces.
 

@@ -10,7 +10,7 @@ También nos explicaron cómo enviar correos a muchas personas usando un alias q
 
 Hay que tener en cuenta los estados de las máquinas electrónicas. Por ejemplo, hablamos de los botones de los ascensores y cómo a veces, por no saber bien cómo funcionan las cosas, terminamos haciendo acciones cotidianas de forma poco eficiente.
 
-### Preguntas de de hithub
+### Preguntas de github
 
 - ¿Cómo se cambia el nombre de una carpeta?
 
@@ -84,7 +84,7 @@ El botón de check ( Verificar) sirve para comprobar si el código funciona corr
 
 La flecha ( Upload ) se utiliza para enviar el código al Arduino a través del cable. Cuando haces upload, el programa primero verifica el código y luego lo sube. Por lo tanto, no es necesario verificar manualmente antes de subirlo.
 
-Si escribes /* todas las líneas que sigan serán consideradas comentarios hasta que pongas */
+Si escribes /*todas las líneas que sigan serán consideradas comentarios hasta que pongas*/
 
 Si quieres comentar línea por línea, debes usar // al comienzo de cada una.
 
@@ -100,7 +100,7 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 [Variables:](https://www.flexbot.es/variables-y-constantes-en-arduino/) Una variable es la manera que tenemos de guardar valores. Las variables tienen nombre y son de un solo tipo. Estas variables se pueden usar para muchas cosas: comprobaciones, operaciones matemáticas. Una variable puede ser declarada al inicio del programa, antes del setup(), dentro de otras funciones o dentro de un control de flujo.
 
-[Hardware:](https://www.lenovo.com/cl/es/glosario/hardware/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor3Gt7B6Y6xNSJNojEyvhr_MUmAUAT3oOphR7g2wk_2xoFBj4NQ) El hardware se refiere a los componentes físicos de un sistema informático que puedes ver y tocar. Esto incluye dispositivos como la unidad central de procesamiento (CPU), módulos de memoria, discos duros, teclados, mouse, monitores y otros periféricos. 
+[Hardware:](https://www.lenovo.com/cl/es/glosario/hardware/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor3Gt7B6Y6xNSJNojEyvhr_MUmAUAT3oOphR7g2wk_2xoFBj4NQ) El hardware se refiere a los componentes físicos de un sistema informático que puedes ver y tocar. Esto incluye dispositivos como la unidad central de procesamiento (CPU), módulos de memoria, discos duros, teclados, mouse, monitores y otros periféricos.
 
 ## Encargo
 

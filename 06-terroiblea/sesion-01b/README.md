@@ -8,7 +8,7 @@ Nota del día: no fui a la clase porque estaba enferma, así que ando algo perdi
 
 ### ARDUINO IDE
 
-#### Consideraciones del programa 
+#### Consideraciones del programa
 
 - "Interfaz grafica, tiene varios software que conviven entre si"
 - Plataforma de hardware y software de código abierto que permite construir proyectos electrónicos interactivos.
@@ -25,7 +25,8 @@ Nota del día: no fui a la clase porque estaba enferma, así que ando algo perdi
 
 Si se aprieta se resetea, se apaga y se vuelve a prender. Si se aprieta 2 veces el botón se olvida de todo lo que se haya transmitido anteriormente.
 
-#### Nomenclatura 
+#### Nomenclatura
+
 - () - parentesis
 - [] - corchetes
 - {} - corchetes/"Murciélagos"
@@ -80,10 +81,10 @@ el "." te da posibilidades dentro del programa (tipo menu, desgloce de opciones 
 
 ## Ejemplificación de como usar ARDUINO
 
- > nota: $ { \ color {ponercoloreningles} poner palabra que quiero que vaya en ese color} $ () : </br> -> poner todo junto para que funcione, sin espacios; lo aprendi de la vale! 
+ > nota: $ { \ color {ponercoloreningles} poner palabra que quiero que vaya en ese color} $ () : </br> -> poner todo junto para que funcione, sin espacios; lo aprendi de la vale!
 
 ${\color{red}voidSetup}$(): </br>
-Se utiliza para toda aquella acción que necesita ser realizada una única vez, justo después de encender o reiniciar la placa Arduino. 
+Se utiliza para toda aquella acción que necesita ser realizada una única vez, justo después de encender o reiniciar la placa Arduino.
 
 ```cpp
 void setup() {
@@ -92,7 +93,7 @@ void setup() {
 ```
 
 ${\color{red}voidLoop}$(): </br>
-Se utiliza para toda aquella acción que necesita ser realizada constantemete en repetición. 
+Se utiliza para toda aquella acción que necesita ser realizada constantemete en repetición.
 
 ```cpp
 void loop() {
@@ -153,7 +154,8 @@ void loop() {
   delay(1);  // delay in between reads for stability
 }
 ```
-si se editan ciertos valores la luz parpadea más rapido o más lento. 
+
+si se editan ciertos valores la luz parpadea más rapido o más lento.
 
 ```cpp
 // variable booleana
@@ -199,14 +201,13 @@ void loop() {
 }
 ```
 
-## Encargo 02
+## encargo-03
 
 - códigos e intentos: Hacer al menos 3 códigos para correr en la placa Arduino. La idea es fallar muchas veces.
 
-
 S.O.S con luces en código morse: (sacado de google)
 
-```cpp 
+```cpp
 int led = 13;
 
 void setup() {
@@ -287,7 +288,7 @@ void loop() {
 }
 ```
 
-Ahora puse un un fragmento de **Pink pony club de Chappell Roan**, mi intención es que cada frase saliera a la par en la que sonaba en la canción original, no documente los cambios pero la versión final respeta todos los tiempos.
+Ahora puse un un fragmento de **Pink pony club de Chappell Roan**, mi intención es que cada frase saliera a la par en la que sonaba en la canción original, no documenté los cambios pero la versión final respeta todos los tiempos.
 
 En este caso especifico los cambios son solo relacionados al tiempo por lo que no es que hubieran variaciones en el código general.
 
@@ -328,7 +329,7 @@ void setup() {
 
 ![pink_pony_club](./imagenes/pink_pony_club.png)
 
-En base al mismo código hice variaciones en relación a dibujar cosas, los dibujos los saque de distintas páginas como: 
+En base al mismo código hice variaciones en relación a dibujar cosas, los dibujos los saque de distintas páginas como:
 
 - <https://www.textarts.shop/2021/04/dibujos-hechos-con-el-teclado.html>
 - <https://www.messletters.com/es/text-art/>
@@ -381,7 +382,7 @@ void setup() {
 
 ![casita_02](./imagenes/casita_02.png)
 
-Los errores o fallas más comunes que cometí fueron: 
+Los errores o fallas más comunes que cometí fueron:
 
 - olvidar poner ";" al final de cada ()
 - olvidar poner los codigos adentro de los murciélagos.

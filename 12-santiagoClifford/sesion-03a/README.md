@@ -26,7 +26,6 @@
 - 6 puntos menos si se presenta sin documentación del proceso
 - 3 puntos menos por hacer el mínimo esfuerzo respecto a la capacidad/características de los componentes
 
-
 ### clase
 
 hoy veremos condicionales.
@@ -35,7 +34,7 @@ el if sirve para correr ciertas partes del codigo siempre que se cumplan ciertas
 
 con else y else if podemos expandir las posibilidades,
 
-#### ejemplo: 
+#### ejemplo
 
 ```cpp
 if(saldo>250){
@@ -47,7 +46,7 @@ if(saldo>250){
 
 ### links
 
-- [if( )](https://docs.arduino.cc/language-reference/en/structure/control-structure/if) 
+- [if( )](https://docs.arduino.cc/language-reference/en/structure/control-structure/if)
 
 - [else{ }](https://docs.arduino.cc/language-reference/en/structure/control-structure/else)
 
@@ -55,7 +54,7 @@ if(saldo>250){
 
 - [||](https://docs.arduino.cc/language-reference/en/structure/boolean-operators/logicalOr)
 
-### extras 
+### extras
 
 - [David Hume](https://es.wikipedia.org/wiki/David_Hume)
 
@@ -114,7 +113,6 @@ unsigned long segundos = millis() / 1000;
 
 ![compuertas lógicas](./imagenes/compuertas-logicas.jpg)
 
-
 ## for( )
 
 ```cpp
@@ -122,6 +120,7 @@ for(x,y,z){
  hacer();
 }
 ```
+
 en es codigo, **z** solo se le una vez ya corrió lo que está dentro de los murciélagos. **x** define el valor inicial, y **y** define cuando se terminará de loopear el for
 
 ```cpp
@@ -144,7 +143,7 @@ en este caso el módulo siempre será (n - 1)
 
 cuando uno hace una división de enteros hay 2 resultados importantes, la división y el resto(módulo).
 
-- si escribo **7 / 2**, me entrega la división 
+- si escribo **7 / 2**, me entrega la división
 - si escribo **7 % 2** me entrega el módulo
 
 con el siguiente código, con ayuda del módulo podemos hacer el led parpadear el led

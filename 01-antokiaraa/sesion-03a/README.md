@@ -1,4 +1,4 @@
-# sesion-03a // martes 19 de agosto ⋆ 𐙚 ̊.
+# sesion-03a // martes 19 de agosto ⋆ 𐙚 ̊
 
 ## Anotaciones: condicionales, iteradores, Serial.read(), protoboard
 
@@ -89,7 +89,7 @@ void loop() {
 
 ```cpp
 NAND: es la negación de la puerta AND, su salida es 0 solo si todas sus entradas son 1, en cualquier otro caso la salida es 1.
-NOR: es la negación de la puerta NOR, su salida es  1 solo si todas sus entradas son 0, en cualquier otro caso es 0.
+NOR: es la negación de la puerta OR, su salida es  1 solo si todas sus entradas son 0, en cualquier otro caso es 0.
 XOR: la salida es 1 si las entradas son diferentes, y la salida es 0 si las entradas son iguales.
 ```
 

@@ -108,14 +108,14 @@ void loop() {
 
 ## Charla de Sokio, Mauricio Días Gallardo
 
-[https://sokio.studio/]
+<https://sokio.studio/>
 
 - Compositor chileno.
 - New Latin Wave.
 - Desarrollo de ópera experimental.
 - Hizo la ópera Patria en base a un sampler (instrumento electrónico que permite grabar, almacenar y reproducir fragmentos de sonido).
 - Con 8 megabytes hizo una opera.
-- Teenage engineering empresa de diseño que programa instrumentos musicales. [https://teenage.engineering]
+- Teenage engineering empresa de diseño que programa instrumentos musicales. <https://teenage.engineering>
 - National Sawdust. Brooklyn, NY. Sistema de audio espacial.
 - Splitting/ Absence, obra dedicada a Roberto Matta, Gordon Matta-Clark.
 - Gordon Matta-Clark, Arquitecto (anarquitecto). Sus obras consistían en cortes en cono, permitiendo la perdida de visión del espacio. Obra caleidoscopal.

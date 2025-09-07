@@ -1,4 +1,4 @@
-# sesion-01b // viernes 8 de agosto ⋆ 𐙚 ̊.
+# sesion-01b // viernes 8 de agosto ⋆ 𐙚 ̊
 
 ## Traspaso apuntes
 
@@ -53,5 +53,7 @@ void loop() {
   delay(1000);                      // wait for a second
 }
 ```
-### Encargo próxima clase: 
+
+### Encargo próxima clase
+
 - Fallar y documentar fallos en 3 códigos.

@@ -542,7 +542,7 @@ I²C significa Inter-Integrated Circuit. Que es un **protocolo de comuniación**
 ## ¿Cómo incluyo imágenes en la pantallita?
 
 1. se escoge una imagen.
-2. [https://javl.github.io/image2cpp/] se ingresa a este linj y se ajusta la resolución. Se puede escalar segun las proporciones, etc. Y también se puede ver el preview.
+2. <https://javl.github.io/image2cpp/> se ingresa a este linj y se ajusta la resolución. Se puede escalar segun las proporciones, etc. Y también se puede ver el preview.
 3. Se genera el código
 4. Luego en el código se escribe en
 

@@ -7,7 +7,7 @@ llegué "tarde" a las 9 en punto porque me quedé dormido
 ### primera parte
 
 - MP4Museum v6
-- Daniel Pirau o Pirao no entendí bien el apellido, trabaja haciendo instalaciones interactivas en museos
+- Daniel Tirado no entendí bien el apellido, trabaja haciendo instalaciones interactivas en museos
 - hay posgrados de untref en arte electrónico
 - Jazmín Adler
 - Jorge Crowe, monstruo midi en instagram
@@ -22,7 +22,7 @@ llegué "tarde" a las 9 en punto porque me quedé dormido
 
 - ### **revisión de encargo y errores**
 
-- stack oveerflow es un lugar donde la gente dice tuve un problema, ayúdenme
+- stack overflow es un lugar donde la gente dice tuve un problema, ayúdenme
 - si buscamos stack overflow arduino serial, encontraremos personas que pidieron ayuda con códigos que programaron y no les funcionron
 - los problemas que vamos a tener son muy específicos, la idea no es usar inteligencia artificial para estas cosas porque es "mulear" de otras personas y no es la fuente original, necesitamos usar las fuentes originales y la buena información
 

@@ -14,6 +14,7 @@ Presentación de proyecto 1
 ```End if (alternativa)```
 
 Si se cumple la condición, entonces se cumple el “then”
+
 también existe el else, para otra alternativa en el caso de que no se cumpla el if.
 
 Else es opcional. La única manera en que funcione else es que el if sea falso.
@@ -22,7 +23,7 @@ Entre if y else pueden existir infinitos if y else.
 
 Existen diagramas de flujo que representan estas condicionales.
 
-Mapa de flujo condicionales 
+Mapa de flujo condicionales
 
 Ejemplo:
 
@@ -60,16 +61,18 @@ seguirConMiVida();
 }
 ```
 
-Operadores lógicos 
-
+Operadores lógicos
 
 ### ¿Cuál es el papel de los Operadores Lógicos en la Programación en C?
 
-
 Los operadores lógicos se utilizan comúnmente en declaraciones condicionales (como las declaraciones if..else), ya que ayudan en la toma de decisiones: determinan qué acción debe tener lugar y qué código debe ejecutarse a continuación según las condiciones que establezcas.
+
 Combina los operadores lógicos con una o múltiples condiciones para crear una expresión lógica.
+
 Los operadores lógicos evalúan la expresión lógica y devuelven un resultado.
+
 El resultado siempre es un valor booleano. Un valor booleano determina si la expresión es verdadera, true o falsa false.
+
 Hay tres operadores lógicos en la programación en C: el AND lógico (&&), el OR lógico (||) y el NOT lógico (!).
 
 ```cpp
@@ -251,11 +254,9 @@ void loop() {
 Referencia: Arduino.cc
 Siempre utilizar la documentación oficial.
 
-
-
 ## Operadores Lógicos
 
-tabla de símbolos de operadores lógicos 
+tabla de símbolos de operadores lógicos
 
 Existen 3 operadores lógicos.
 

@@ -1,9 +1,11 @@
 # sesion-04a
+
 26-06-2025
 
 Trabajar en los proyectos en grupo
 
-Grupo brainrot: 
+Grupo brainrot:
+
 - sofía cartes
 - valentina ruz
 - antonia fuentealba
@@ -23,7 +25,7 @@ aquí hay documentación de este ejercicio
 
 ![galope](./imagenes/prueba_galope.gif)
 
-errores: 
+errores:
 
 tuvimos un problema en el cual no nos prendia la pantalla, consultamos con janis y nos indicó que algunos pines estaban conectados de forma erronea, además yo tuve un problema donde mi arduino no conectaba, la solución fue resetear el arduino, apretando dos veces el botón de reset.
 
@@ -251,7 +253,7 @@ void plotNeedle(int16_t angle, uint16_t ms_delay)
 }
  ```
 
-  no muestra lo que debería. en cambio muestra un tipo de "glitch" en la pantalla 
+  no muestra lo que debería. en cambio muestra un tipo de "glitch" en la pantalla
   
   ![glitch](./imagenes/glitch.jpeg)
   

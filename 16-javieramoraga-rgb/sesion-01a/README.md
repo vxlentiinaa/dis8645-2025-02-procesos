@@ -10,7 +10,7 @@
 
 ### ⋆ Leer sobre: Alan Turing y Ada Lovelce
 
-## 1. Ada Lovelace (1815–1852)
+## encargo-01. Ada Lovelace (1815–1852)
 
 ### ★ Biografía breve
 
@@ -46,7 +46,7 @@
 
 ────୨ৎ────
 
-## 2. Alan Turing (1912–1954)
+## encargo-02. Alan Turing (1912–1954)
 
 ### ★ Biografía breve de Turing
 

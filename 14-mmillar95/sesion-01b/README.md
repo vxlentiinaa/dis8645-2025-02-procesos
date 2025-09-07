@@ -120,7 +120,7 @@ delay(1000);
 
 ### c0digo_03
 
-Para este código quería probar otras variantes como el for. 
+Para este código quería probar otras variantes como el for.
 
 También se quería realizar que el pin13 solo se prenda 15 veces y después se apague.
 

@@ -1,5 +1,7 @@
 # sesion-03b
+
 ## Materiales para la sesión 04a
+
 ### Componentes
 
 - Mini protoboard de 170 puntos
@@ -50,18 +52,23 @@ Se debía usar 0x3C en lugar de 0x3D.
 0x3D = 0111101 (binario)
 
 En C++ el signo ! significa “lo contrario” o “negación lógica”:
+
 ```cpp
 if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) { 
 ```
+
 ### Funciones utilizadas
 
 Ejemplos de funciones para la pantalla:
+
 ```cpp
 pantallita.clearDisplay(); // Limpia toda la pantalla
 pantallita.setTextSize(2); // Ajusta tamaño del texto
 pantallita.setTextColor(SSD1306_WHITE); // Establece color
 ```
+
 ### Código de ejemplo
+
 ```cpp
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -106,6 +113,7 @@ void loop() {
   delay(1000);
 }
 ```
+
 ### Incluir imágenes en la pantalla OLED
 
 Para mostrar gráficos se deben convertir a formato de bits.

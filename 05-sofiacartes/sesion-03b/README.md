@@ -1,6 +1,6 @@
-# sesion-03b 22/08 
+# sesion-03b 22/08
 
-## Apuntes de la clase, online.
+## Apuntes de la clase, online
 
 **Pantallas:** la importancia para elegir la pantalla que necesitamos se debe ver la resolución, cantidad y la densidad de los pixeles. Ya que, el úmeri de pixeles individuales son capaces de verse en una dimensión.
 
@@ -8,10 +8,9 @@
 * Panel display, pantallas de siete segmentos. 8x8 64 pixeles. **matriz LED**
 * Existen pantallas que solo hacen carácteres.
 
+Para nuestro proyecto 01 utilizaremos pantallas oled, la cual es más lumínica. Además, utiliza el chip 1306.
 
-Para nuestro proyecto 01 utilizaremos pantallas oled, la cual es más lumínica. Además, utiliza el chip 1306. 
-
-También se compró la pantalla TFT, tiene forma redonda. esta pantalla es menos lumínica. 
+También se compró la pantalla TFT, tiene forma redonda. esta pantalla es menos lumínica.
 
 Es importante saber que el arduino no tiene tanta capacidad de tantos pixeles (la info y el refresco de esta) **la capacidad de alimentarlo**
 
@@ -838,6 +837,7 @@ void loop() {
   delay(pausa);
 }
 ```
+
 funcion con parametro adicional de int para las pausas.
 
  **Referencias:**
@@ -850,4 +850,4 @@ funcion con parametro adicional de int para las pausas.
 
 ## Encargo 04
 
-Trabajar en el proyecto 01 y mandar nuestro grupo dor discord. Ver las ideas de cada integrante.
+Trabajar en el proyecto 01 y mandar nuestro grupo por discord. Ver las ideas de cada integrante.

@@ -27,6 +27,7 @@ Comunicación síncrona.
 Nos simplifica las formas de conectar las cosas entre sí.  
 
 *4 cables*:  
+
 * gnd: El de tierra (verde), 0 volts, de acá comenzamos a contar los voltajes.  
 * vcc: Voltaje de alimentación. 5V  
 * scl: Clock — señal de reloj  
@@ -58,6 +59,7 @@ Pegar en código, antes de setup:
 ```cpp
 const unsigned char (name)[] PROGMEM = {
 ```
+
 String linea(nº)
 dentro de setup:
 linea(nº)= que dice
