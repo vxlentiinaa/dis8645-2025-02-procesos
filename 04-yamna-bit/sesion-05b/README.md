@@ -18,6 +18,6 @@ Conceptos clave
 
 Despues del break, tuvimos una actividad en la cual consistía en crear clases con subcategorias, la condición inicial fue primero escribirlo tipo boceto a mano antes de programarlo
 
-![].(/imagenes//jpj)
+![CLASES_EJEMPLOS](./imagenes/CLASES_EJEMPLOS.jpg) 
 
 Encargo 07: Investigar a Primus y Mitch Resnick
