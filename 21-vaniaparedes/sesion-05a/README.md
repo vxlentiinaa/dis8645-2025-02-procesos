@@ -41,6 +41,7 @@ El propone que cada ente/objeto en el universo tiene 10 categorías
 
 **Bjarne Stroustrup**
 Según engineering.columbia: Es el diseñador e implementador original de C++, así como el autor de The C++ Programming Language (4.ª edición) y A Tour of C++ (3.ª edición), Programming: Principles and Practice using C++ (3.ª edición) y muchas publicaciones populares y académicas.
+![Bjarne](./imagenes/bjarne.jpg)
 
 ### Lenguajes de programación
 
