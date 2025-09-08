@@ -44,7 +44,7 @@ Para entender de manera conceptual lo de las clases, cada uno tuvo que dibujar y
 
 Yo hice el ejercicio de consolas de Nintendo. Primero las clasifiqué en tres grupos nuevos: consolas de sobremesa, consolas híbridas y consolas portátiles. Después distribuí todas las consolas de Nintendo de acuerdo a su clasificación, y finalmente subdividí las consolas que tenían otro tipo de ediciones, como por ejemplo la versión Pocket, Light, Color, Advance, SP, Micro.
 
-insertar foto*
+![foto laboratorio](imagenes/tmc-sesion05b-clase.jpeg)
 
 Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se quedó trabajando en la sala, y el otro fue al Laboratorio de Interacción Digital (LID). Este momento sirvió para conocer ese espacio y apropiarse de él. Yo me quedé en la sala porque ya conozco el LID. Creo que es un espacio muy genial; me siento súper cómoda y acompañada trabajando ahí.
 
@@ -56,7 +56,7 @@ Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se que
 
 ## Encargo-06: Mitch Resnick
 
-Me leí el artículo “Sembrando las semillas para una sociedad más creativa” de Mitch Resnick el cual fue traducido por Eduteka https://eduteka.icesi.edu.co/articulos/ScratchResnickCreatividad
+Me leí el artículo [“Sembrando las semillas para una sociedad más creativa”](https://eduteka.icesi.edu.co/articulos/ScratchResnickCreativida) de Mitch Resnick, el cual fue traducido por Eduteka. 
 
 El conocimiento no es suficiente, todo se basa ahora en pensar y actuar creativamente. En las escuelas, hasta los mejores alumnos no saben cómo enfrentarse a los problemas. Las nuevas tecnologías han provocado que las cosas cambien muy rápido, pero también pueden utilizarse para desarrollar la creatividad en esta nueva sociedad.
 
