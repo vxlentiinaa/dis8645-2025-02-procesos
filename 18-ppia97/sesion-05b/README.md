@@ -153,12 +153,8 @@ relacionada, un array
 
 ❀Habla sobre la educación tradicional, diciendo que esta centrada en memorizar, repetir y cumplir instrucciones, mientras que él cree que se debe fomentar la exploración, el juego, la curiosidad y la pasión por crear.
 
-❀Proyectos:aprender haciendo cosas que tengan un significado personal.
+> "No enseñamos a escribir solo para formar escritores"
 
-❀Colaboración: aprender junto al resto y de los demás.
-
-❀Pasión: trabajar en algo que motive.
-
-❀Jugar: experimentar jugando, probar, equivocarte y aprender de los errores.
+4P's: proyectos, pares, pasión, juego
 
 ❀En el mundo actual y digital, no basta solo con consumir apps y la tecnología, sino que debemos ser creadores activos, programar es una herramienta para nuestro presente y nuestro futuro.
