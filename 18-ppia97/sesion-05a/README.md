@@ -79,3 +79,7 @@ const int numEstudiantes = 29;
 #endif
 
 ```
+
+✿ Esos # protegen de que si yo en MiPrimerCpp.ino, pongo dos veces #include "constantes.h" #include "constantes.h", no lance error.
+
+✿ El _h es porque no se puede colocar .h en el código, asi que lo sustituye.
