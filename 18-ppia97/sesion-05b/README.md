@@ -138,3 +138,27 @@ relacionada, un array
 
   > TAREA: VER ALGUNA CHARLA DE MITCH RESNICK.
 
+**"Let's teach kids to code" (2012)**
+[Link de la charla](https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code?subtitle=es)
+
+❀ Mitch Resnick: investigador del MIT Media Lab, conocido por crear Scratch y por su enfoque en el aprendizaje creativo.
+
+> Se dice que programar no es solo para ingenieros, sino que es una forma de expresarse, como escribir o dibujar.
+
+❀ Sobre Scratch: es una plataforma gratuita y visual, los niños allí crean juegos, animaciones e historias interactivas. También tiene una comunidad online en donde se comparten proyectos, colaboraciones, etc.
+
+❀ Programar es una nueva forma de alfabetización que sirve como un lenguaje de expresión y creatividad en el mundo digital, comparable a lo que es leer y escribir.
+
+❀Al programar se desarrollan diversas habilidades, como la creatividad ya que diseñas tus propias ideas desde cero, el pensamiento lógico y crítico al estructurar, organizar y mejorar; la resolución de problemas al enfrentarse a errores y buscarles solución, y también la colaboración al trabajar con pares y aprender de ellos.
+
+❀Habla sobre la educación tradicional, diciendo que esta centrada en memorizar, repetir y cumplir instrucciones, mientras que él cree que se debe fomentar la exploración, el juego, la curiosidad y la pasión por crear.
+
+❀Proyectos:aprender haciendo cosas que tengan un significado personal.
+
+❀Colaboración: aprender junto al resto y de los demás.
+
+❀Pasión: trabajar en algo que motive.
+
+❀Jugar: experimentar jugando, probar, equivocarte y aprender de los errores.
+
+❀En el mundo actual y digital, no basta solo con consumir apps y la tecnología, sino que debemos ser creadores activos, programar es una herramienta para nuestro presente y nuestro futuro.
