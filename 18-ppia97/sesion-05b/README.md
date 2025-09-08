@@ -61,3 +61,80 @@ relacionada, un array
 ``` 
 
 > ⋆ Puedo crear conductos de otros tipos gracias a las clases.
+
+#### EJEMPLOS DE CATEGORIZACIONES HECHAS EN CLASE (EN MI CUADERNO)
+── (música) **BANDAS QUE ME GUSTAN**
+* Género:
+  
+  -Rock: MCR; Metallica.
+  
+  -Reggaeton: Hector & Tito; Zion y Lennox.
+  
+  -Pop: ABBA; The Bee Gees.
+  
+  -Metal: Limp Bizkit; SOAD.
+  
+* Estado de ánimo:
+
+  -Tranquilo: The Neighbourhood; Journey.
+
+  -Estresado: Pierce The Veil; Rammstein.
+
+  -Romántico: Wave To Earth; La Noche.
+
+  -Eufórico: Plan B, Chico Trujillo.
+
+* Nacionalidad:
+
+  -Estadounidense: Alice in Chains; Deftones.
+
+  -Inglesas: The Beatles; Black Sabbath.
+
+  -Coreanas: BTS; Monsta X.
+
+  .Chilenas: Los Tres; Los Bunkers.
+
+* Estética:
+
+  -Glam: Kiss.
+
+  -Nu Metal: Korn.
+
+  -Emo: Fall Out Boy.
+
+  -Visual Key: Malice Mizer.
+  
+
+── **ANIMALES** (habitat)
+
+* Terrestres: Arácnidos; felinos; reptiles; roedores; cánidos.
+* Acuáticos: Peces; ballenas; delfines; moluscos; sirenios.
+* Acuático-Terrestre: Pingüinos; ranas, tortugas; nutrias; cocodrilos.
+* Aero-Terrestre: Búhos; abejas; colibríes; mariposas; libélulas.
+
+── **TATUAJES**
+
+* Ténica:
+
+  -Introducción de tinta: perforación; handpoke; corte.
+
+  -Aplicación de tinta: delineado; sombreado; puntillismo; superposición de colores.
+  
+* Estilo
+
+  -Realismo.
+
+  -Tradicional.
+
+  -Neotradicional.
+
+  -Japones.
+
+  -Tribal.
+
+  -BlackWork.
+
+  -Dotwork.
+
+  > TAREA: VER ALGUNA CHARLA DE MITCH RESNICK.
+
