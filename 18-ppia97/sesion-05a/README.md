@@ -42,3 +42,40 @@ const int numEstudiantes = 29;
 
 ✿ Explicación constructos de arriba (los tres): 
 si es que no existe algo que se llame CONSTANTES_H (debe ir todo en mayúsculas, muy importantes) entonces, definelo y al final fin de if (equivalente a }). Esto asegura que nunca se pueda llamar a ese archivo 2 veces.
+
+Quedaría: 
+
+MiPrimerCpp.ino
+
+```cpp
+
+#include "constantes.h"
+
+
+void setup() {
+  // put your setup code here, to run once:
+
+Serial.begin(9600);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+ Serial.printIn(numEstudiantes);
+
+}
+
+```
+
+Constantes.h
+
+```cpp
+#ifndef CONSTANTES_H
+#define CONSTANTES_H
+
+const int numEstudiantes = 29;
+
+#endif
+
+```
