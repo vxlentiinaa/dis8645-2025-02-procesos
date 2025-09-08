@@ -34,7 +34,8 @@ Según Aarón "es un model de galleetas para hacer galletas".
 Crear nuevos Tab (pestañas)
 Según Aarón "es un model de galleetas para hacer galletas"
 
-![](./imagenes/newTap.png)
+![newTap](./imagenes/newTap.png)
+
 Crear nuevos Tab (pestañas) dentro de la carpeta de `![](./imagenes/newTap.png)`
 ![cerditos](./imagenes/newFileCerditos.png)
 
@@ -98,10 +99,10 @@ Se crea un perámetro "constructor"
 ```
 
 #### Paso 01.1 - constructor y destructor
-- Se crea el metodo constructor, sirve para crear instancias
-- También se crea el destroctor con `~` el cual dice "olvidate de esta persona, que deje de existir" para ahorrar memoria 
-- En este archivo todas las funciones terminan en `;`
 
+- Se crea el metodo constructor, sirve para crear instancias
+- También se crea el destroctor con `~` el cual dice "olvidate de esta persona, que deje de existir" para ahorrar memoria
+- En este archivo todas las funciones terminan en `;`
 
 ```cpp
 // "esta es la clase 'Persona'"
@@ -139,6 +140,7 @@ Persona::~Persona() {}
 ```
 
 ### Paso 03 - archivo .ino
+
 - En el archivo `.ino` se debe incluir los demás archivos `.h`.
 
 ```cpp

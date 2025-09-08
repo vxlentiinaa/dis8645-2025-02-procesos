@@ -98,7 +98,18 @@ Si quiero tener la complejidad de darle mas detalles, info y funciones a mis car
 + Escuchar primer disco de banda primus
 + ver alguna charla de Mitsh Resnick: Comentarios de él.
 
++ Según Wikipedia **Suck on This** es un álbum en vivo de la banda de rock estadounidense Primus, publicado en 1989.​ Este álbum, junto al disco debut de la banda Jane's Addiction, son reconocidos como pioneros del metal alternativo y como fuertes influencias para el nacimiento del nu metal.​
++ jajaj la verdad pensé que lo odiaría porque no me gusta en general éste género de música, la verdad es que no lo odié tanto, era bastante entretenido, algunas me gustaronmas que otras, me gusta lo alternativos que son.
 
++ **¿Quién es Mitch Resnick?**
++ Mitchel Resnick, profesor en el MIT Media Lab y líder del grupo Lifelong Kindergarten, desarrolla tecnologías y actividades para fomentar el aprendizaje creativo, especialmente en niños. Su grupo creó el software Scratch y colaboró con LEGO en Mindstorms. También cofundó Computer Clubhouse, una red internacional de centros para jóvenes de bajos recursos.
++ <https://www.media.mit.edu/people/mres/overview/>
+
+Formado en física en Princeton y con maestría y doctorado en informática en el MIT, también trabajó como periodista científico. Es autor de varios libros, entre ellos Lifelong Kindergarten (premio PROSE 2018). Ha recibido múltiples reconocimientos, como el Premio McGraw en Educación (2011), el Premio LEGO (2021) y el Premio SIGCSE (2025) por su contribución a la educación en informática.
+
+![mitch](./imagenes/mitchel.jpg)
+
++ Me vi la charla **"Let's teach kids to code"** <https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code?subtitle=en> donde Mitchel presenta su software "scratch" <https://scratch.mit.edu/>, que es una página para que las personas desde los 8 años comiencen a programar de una manera en verdad súper amistosa. Él hace referencia continuamente a la similitud entre leer y escribir con programar, cómo aprender estas cosas te habre las puertas a aprender muchas más, y una frase que me gustó mucho fué "So when u learn through coding, and coding to learn, you are learning it in a meaningful context, and that is the best way of learning things", esto desde mi perspectiva hace referencia a que si aprendes cosas sabiendo para qué y como las usarás, aprendes mejor porque aprendes con ganas! Me encantó la página para codificar, que entretenido hubiera sido aprender los primeros acercamientos a este mundo desde ahí, creo que su charla fué súper motivante hasta para los que no les guta codificar.
 
 
   

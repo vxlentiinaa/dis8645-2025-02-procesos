@@ -6,38 +6,43 @@ El estudio de las cosas como aparecen
 ¿Cómo describirías una mesa sin decir de qué está hecha y para qué sirve?
 
 ### POO
-Según gemini: La programación orientada a objetos (POO) es un paradigma de programación que organiza el software alrededor de objetos, que son entidades que combinan datos (atributos) y el comportamiento asociado (métodos). Las clases actúan como plantillas para crear estos objetos, permitiendo la reutilización de código, el desarrollo de sistemas complejos y el mantenimiento del software. Sus pilares son la abstracción, el encapsulamiento, la herencia y el polimorfismo, que ayudan a gestionar la complejidad y a crear soluciones más robustas y eficientes. 
 
-**Conceptos Clave**
+Según gemini: La programación orientada a objetos (POO) es un paradigma de programación que organiza el software alrededor de objetos, que son entidades que combinan datos (atributos) y el comportamiento asociado (métodos). Las clases actúan como plantillas para crear estos objetos, permitiendo la reutilización de código, el desarrollo de sistemas complejos y el mantenimiento del software. Sus pilares son la abstracción, el encapsulamiento, la herencia y el polimorfismo, que ayudan a gestionar la complejidad y a crear soluciones más robustas y eficientes.
+
+Conceptos Clave
+
 + **Objeto:**
-Es una instancia de una clase que tiene un estado (sus atributos), un comportamiento (sus métodos) y una identidad propia que lo distingue de otros objetos. 
+Es una instancia de una clase que tiene un estado (sus atributos), un comportamiento (sus métodos) y una identidad propia que lo distingue de otros objetos.
 + **Clase:**
-Es un plano o plantilla que define la estructura y el comportamiento de los objetos. Por ejemplo, una clase "Coche" define que todos los coches tienen atributos como color o marca y métodos como "acelerar". 
+Es un plano o plantilla que define la estructura y el comportamiento de los objetos. Por ejemplo, una clase "Coche" define que todos los coches tienen atributos como color o marca y métodos como "acelerar".
 + **Atributos (o propiedades):**
-Son los datos que describen el estado de un objeto. Siguiendo el ejemplo de "Coche", serían el color, la marca, etc. 
+Son los datos que describen el estado de un objeto. Siguiendo el ejemplo de "Coche", serían el color, la marca, etc.
 + **Métodos:**
-Son las funciones o comportamientos que un objeto puede realizar. En la clase "Coche", "acelerar" y "frenar" serían métodos. 
+Son las funciones o comportamientos que un objeto puede realizar. En la clase "Coche", "acelerar" y "frenar" serían métodos.
 
 ### Las 10 categorías de Aristóteles
+
 El propone que cada ente/objeto en el universo tiene 10 categorías
 
-- Sustancia
-- Cantidad
-- Cualidad
-- Relación
-- Lugar
-- Tiempo
-- Posición
-- Posesión (Hábito)
-- Acción
-- Pasión
++ Sustancia
++ Cantidad
++ Cualidad
++ Relación
++ Lugar
++ Tiempo
++ Posición
++ Posesión (Hábito)
++ Acción
++ Pasión
 
 ### C programming language
-- C++ = Cpp
-- 1972
-- .c y .h
-- It´s not C++ nor C#
-- C++ = Le damos toda la información posible al computador para que trabaje menos.
+
++ C++ = Cpp
+
++ 1972
++ .c y .h
++ It´s not C++ nor C#
++ C++ = Le damos toda la información posible al computador para que trabaje menos.
 
 **Bjarne Stroustrup**
 Según engineering.columbia: Es el diseñador e implementador original de C++, así como el autor de The C++ Programming Language (4.ª edición) y A Tour of C++ (3.ª edición), Programming: Principles and Practice using C++ (3.ª edición) y muchas publicaciones populares y académicas.
@@ -45,24 +50,26 @@ Según engineering.columbia: Es el diseñador e implementador original de C++, a
 
 ### Lenguajes de programación
 
-- **Openframewoks:** Programa de programacion para videojuegos C++.
-- **SuperCollider:** Language que se usa para modelar sintetizadores, generar patrones sonoros, procesar audio, y construir interfaces gráficas para interactuar con el sonido.
-- **Lua:** Fácil de escribir
-- **Chuck:** Audio Programming, highly timed.
-- **Turing complete:** Un lenguaje que puede hacer tdoo lo que un computador puede hacer.
++ **Openframewoks:** Programa de programacion para videojuegos C++.
++ **SuperCollider:** Language que se usa para modelar sintetizadores, generar patrones sonoros, procesar audio, y construir interfaces gráficas para interactuar con el sonido.
++ **Lua:** Fácil de escribir
++ **Chuck:** Audio Programming, highly timed.
++ **Turing complete:** Un lenguaje que puede hacer tdoo lo que un computador puede hacer.
 
 ## Clases
+
 Las clases nos permiten que con su infraestructura podamos hacer lo que nosotros queramos.
 
 ### Diferentes files en Arduino
 
 Para distribuir información entre arvichos de arduino y el código no se haga tan largo/confuso o ahorrarnos tiempo, en un archivo de Arduino se agrega un nuevo file guardándolo como "archivo.h" y un "archivo.cpp" de este mismo, luego en el código inicial (.ino) poner: #include "archivo.h" para incluir la info de esos otros files a este código.
-- El primer archivo es para definir (.h) "promete"
-- El segundo archivo es para definir como se hace o como se comporta (cpp) "hazte cargo"
+
++ El primer archivo es para definir (.h) "promete"
++ El segundo archivo es para definir como se hace o como se comporta (cpp) "hazte cargo"
   
 ### Mi primer cpp
 
-- Esqueleto de un archivo.h:
++ Esqueleto de un archivo.h:
 
 ```cpp
 #ifndef CONSTANTES_H // mayúsculas xq es muy importante
@@ -81,14 +88,14 @@ const int numEstudiantes = 29;
 + Vermas: ifndef y define
 + Crear clase: Cada clase debe etener al menos un constructor que se llame igual que la clase
 
-- public: Dentro de una clase
-- Si hay () es función.
-- Clases con Mayúsculas al principio
-- Variables con minúscula
-- "::" Vale para todes (los del mismo tipo)
-- String con "S" Mayúscula solo tiene sentido en arduino
-- "" aqui mismo
-- <> Dónde sea que esté
++ public: Dentro de una clase
++ Si hay () es función.
++ Clases con Mayúsculas al principio
++ Variables con minúscula
++ "::" Vale para todes (los del mismo tipo)
++ String con "S" Mayúscula solo tiene sentido en arduino
++ "" aqui mismo
++ <> Dónde sea que esté
 
   ### Ejemplo Clase
 
@@ -136,6 +143,7 @@ void loop() {
   potenciometroIzquierda.leerValor();
 }
 ```
+
 **PRIMER ARCHIVO.H**
 En este se define, en este caso "persona"
 Este contiene un constructor y un destructor(~) que tienen el mimo nombre del archivo.
@@ -185,6 +193,7 @@ public:
 };
 #endif
 ```
+
 **PRIMER ARCHIVO.CPP**
 ¿Cómo se comporta? Se incluye el archivo (.h)
 
@@ -218,7 +227,8 @@ void Persona::setRut(String nuevoRut){
   Persona::rut = nuevoRut;
 }
 ```
-**SEGUNDO ARCHIVO.H**
+
+#### SEGUNDO ARCHIVO.H
 
 ```cpp
 #ifndef SENSOR_ANALOGO_H
@@ -258,7 +268,9 @@ public:
 
 #endif
 ```
-**SEGUNDO ARCHIVO.CPP**
+
+#### SEGUNDO ARCHIVO.CPP
+
 Archivo cpp del archivo SensorAnalogo.h, este se incluye en el primcipio
 
 ```cpp
@@ -294,5 +306,3 @@ Archivo cpp del archivo SensorAnalogo.h, este se incluye en el primcipio
 
   }
   ```
-
-
