@@ -42,7 +42,7 @@ A los atributos se les llama variables, y a los métodos se les llama funciones.
 
 Para entender de manera conceptual lo de las clases, cada uno tuvo que dibujar y organizar su propia clase, a partir de cualquier conjunto de cosas. Casi todos hicimos nuestras clases de acuerdo a nuestras aficiones.
 
-Yo hice el ejercicio de consolas de Nintendo. Primero las clasifiqué en tres grupos nuevos: consolas de sobremesa, consolas híbridas y consolas portátiles. Después distribuí todas las consolas de Nintendo de acuerdo a su clasificación, y finalmente subdividí las consolas que tenían otro tipo de ediciones, como por ejemplo la versión Pocket, Light, Color, Advance, SP, Micro.
+Yo hice el ejercicio de consolas de Nintendo. Primero las clasifiqué en tres grupos nuevos: consolas de sobremesa, consolas híbridas y consolas portátiles. Después distribuí todas las consolas de Nintendo de acuerdo a su clasificación, y finalmente subdividí las consolas que tenían otro tipo de ediciones, como por ejemplo la versión Pocket, Light, Color, Advance, SP, Micro, de la Nintendo Game Boy.
 
 ![foto laboratorio](imagenes/tmc-sesion05b-clase.jpeg)
 
@@ -51,6 +51,12 @@ Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se que
 ![foto laboratorio](imagenes/tmc-sesion05b-lid.jpeg)
 
 ### Palabras importantes
+
+Clases
+
+Atributos
+
+Métodos
 
 ### Referentes
 
