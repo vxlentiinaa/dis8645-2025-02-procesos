@@ -14,7 +14,7 @@ Persona javieraMena(true);
 SensorAnalogo potenciometroIzquierda(A0);
 
 void setup() {
-  // inicio la comunicación con el monitor seria
+  // inicio la comunicación con el monitor serial
   Serial.begin(9600);
 
   // definimos las edades
