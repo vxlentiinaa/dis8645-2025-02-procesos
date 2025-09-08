@@ -20,5 +20,16 @@ es como decir el tipo de completo
 class Completo_italiano : public Completo {}
  ```
 
+Inheritance: te permite que una clase rehuse metodos y atributos de otras clases, dentro de una clase
+
+**las clases se usan cuando queremos crear estructuras de datos; cuando no nos cabe en el lenguaje de programación**
+
+ ```cpp
+#ifndef POEMA_PARRA_H
+#define POEMA_PARRA_H
+
+class Texto {}
+ ```
+
 <https://www.w3schools.com/cpp/cpp_inheritance.asp>
 
