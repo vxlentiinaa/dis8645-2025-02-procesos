@@ -83,3 +83,17 @@ const int numEstudiantes = 29;
 ✿ Esos # protegen de que si yo en MiPrimerCpp.ino, pongo dos veces #include "constantes.h" #include "constantes.h", no lance error.
 
 ✿ El _h es porque no se puede colocar .h en el código, asi que lo sustituye.
+
+✿ Lo que esta en mayúsculas es porque es HORRIBLEMENTE IMPORTANTE.
+
+> Arduino es Chileno, C++ es español a secas.
+> No todo lo C++ lo puedes hacer en Ino.
+
+
+✿ Clases: es un molde de galletas para hacer galletas, entonces definimos una persona para hacer varias personas (en el ejemplo de arduino). Persona va con Mayúscula al inicio porque es una clase. **Solo cuando definamos las clases el murcielago termina en ;.**
+
+✿ Adentro de las claseas hay muchas opciones, uno parte por las opciones. Ejemplo de opciones: public, private; estas son ciertas seguridades como los #. Nosotros por ahora haremos todo PUBLIC.
+
+✿ Luego de public vamos a escribir funciones, que son las que vienen con los paréntesis. **A las funciones se les llama métodos.**
+
+> ¿Qué es un método? Es una función pero dentro de una clase.
