@@ -72,9 +72,9 @@ Sin embargo, la pantalla que utilizamos tiene ciertas limitaciones, ya que solo 
 
 ![imagen](./imagenes/dibujo.png)
 
-Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
-
-Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
+>Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
+>
+>Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
 
 Luego, utilicé una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta me permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
 
