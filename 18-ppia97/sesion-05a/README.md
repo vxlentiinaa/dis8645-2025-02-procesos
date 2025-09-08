@@ -97,3 +97,9 @@ const int numEstudiantes = 29;
 ✿ Luego de public vamos a escribir funciones, que son las que vienen con los paréntesis. **A las funciones se les llama métodos.**
 
 > ¿Qué es un método? Es una función pero dentro de una clase.
+
+✿ La primera función se debe llamar igual que la clase, en este caso Persona();
+Esta es el método constructor, el que dice sacate una persona, y sale una persona. Sirve para crear nuevas instancias.
+
+> clase Persona es un molde de galleta. metodo Persona() nos permite hacer la galleta.
+
