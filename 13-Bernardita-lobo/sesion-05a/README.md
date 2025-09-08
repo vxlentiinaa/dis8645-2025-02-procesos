@@ -1,36 +1,32 @@
 # Sesión-05a
 
-## Trabajo en clase
+## Trabajo en clase / Martes 2 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
+Las 10 categorías de Aristóteles: Sustancia, Cantidad, Cualidad, Relación, Lugar, Tiempo, Posición, Hábito, Acción, Padecimiento.
 
+El lenguaje de programación C es un lenguaje antiguo, del 72.
 
-las 10 categorias de aristoteles
+C++ o C# son diferentes.
 
-ustancia, calidad, cualidad, relacion, 
+Los paradigmas son los estilos con los que se puede programar.
 
-el lenguaje de programacion c es un lenguaje antiguo, del 72
+Bjarne Stroustrup
 
-c++ o c# son diferentes
+Mientras más resumida esté la programación, como en p5, más esfuerzo tiene que hacer el computador; por eso utilizamos lenguaje C.
 
-paradigmas son los estilos que se pueden programar.
+OpenFrameworks está en C++, entorno de programación para hacer apps.
 
-bjane ne
+Swift es para programar en iOS.
 
-mientras mas resumida este la programacion, como en p5, mas esfurzo tiene que hacer el computador, por eso utilizamos lenguaje c
+Norns, sistema operativo Linux; por dentro hay un lenguaje: SuperCollider.
 
-openflamewoks, esta en c++, entorno de programacion para hacer aps
+Lenguaje ChucK, lenguaje para la música con otros paradigmas, el tiempo era importante y se puede improvisar.
 
-swift es para programar en ios.
+Esolang: esoteric programming language.
 
-norns, sistema operativo linux, por dentro hay un lenguaje, supercollider
-
-lunguaje chuck, lenguaje para la musica con otros paragmas, el tiempo era importante, y se puede improvisar.
-
-esolang, exoteric programming language.
-
-arduino
+### Arduino
 
 archivo .h
 
@@ -39,3 +35,6 @@ archivo .h
 
 wood jig
 
+### Referentes 
+
+- [Bjarne Stroustrup](https://es.wikipedia.org/wiki/Bjarne_Stroustrup)
