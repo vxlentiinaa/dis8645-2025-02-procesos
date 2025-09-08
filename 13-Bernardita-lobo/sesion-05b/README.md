@@ -48,7 +48,7 @@ insertar foto*
 
 Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se quedó trabajando en la sala, y el otro fue al Laboratorio de Interacción Digital (LID). Este momento sirvió para conocer ese espacio y apropiarse de él. Yo me quedé en la sala porque ya conozco el LID. Creo que es un espacio muy genial; me siento súper cómoda y acompañada trabajando ahí.
 
-insertar foto*
+![foto laboratorio](imagenes/tmc-sesion05b-lid.jpeg)
 
 ### Palabras importantes
 
