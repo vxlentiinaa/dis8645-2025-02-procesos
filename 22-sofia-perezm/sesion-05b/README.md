@@ -153,7 +153,7 @@ class Cualidad public Cualidad{
 
 ```
 
-### investigar Mitchel Resnick
+### Mitchel Resnick
 ![mitchel_resnick](./imagenes/Mitchel-Resnick.jpg)
 
 Es un destacado investigador estadounidense en el campo de la educación y la informática, especialmente enfocado en el aprendizaje creativo.
@@ -173,14 +173,14 @@ trata sobre cómo podemos fomentar la creatividad y el aprendizaje significativo
 
 Resnick sostiene que la educación debería parecerse más a un jardín infantil (“kindergarten”) y menos a un sistema rígido de memorización y exámenes. En el jardín infantil, los niños aprenden explorando, construyendo, jugando y compartiendo: un enfoque que él cree que debería acompañar a las personas toda la vida.
 
-### escuchar primero albums de Primus
+### Primus
 Primus banda de rock experimental caracterizada por su estilo único que fusiona funk, metal, rock progresivo y humor surrealista.
 
 ![primus](./imagenes/primus.jpg)
 
 Su música desafía categorías, mezclando funk, metal alternativo, rock progresivo y elementos experimentales. Aunque suelen etiquetarlos como "funk metal", ellos rechazan esa clasificación. Letras excéntricas, animaciones en stop-motion y un CD muy personalizable son parte de su identidad cultural.
 
-Primeros álbumes de primus:
+#### Primeros álbumes de primus
 
 - Suck on This (1989): Destaca por romper con el rol tradicional del bajo, convirtiendolo el protagonista. Este albúm se caracterizó por tener un sonido crudo, cercano al punk, y un humor surrealista en las letras.
 
