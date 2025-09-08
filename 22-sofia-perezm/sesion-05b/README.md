@@ -154,7 +154,7 @@ class Cualidad public Cualidad{
 ```
 
 ### investigar Mitchel Resnick
-![mitchel_resnick](.imagenes/Mitchel-Resnick.jpg)
+![mitchel_resnick](./imagenes/Mitchel-Resnick.jpg)
 
 Es un destacado investigador estadounidense en el campo de la educación y la informática, especialmente enfocado en el aprendizaje creativo.
 
@@ -188,7 +188,7 @@ Primeros álbumes de primus:
 
 - Frizzle Fry (1990): Destaca por sus letras extrañas y personajes únicos y caracteristicos de la banda. Además de incorporar una técnica en el bajo con slap y tapping, lo que fue una gran innovación.
 
-![frizzle_fry](.imagenes/Primus-Frizzle_Fry.jpg)
+![frizzle_fry](./imagenes/Primus-Frizzle_Fry.jpg)
 
 - Sailing the Seas of Cheese (1991): Este es el disco que los lleva a la fama y destaca por tener letras sátiricas y surrealistas.
   
