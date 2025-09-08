@@ -92,14 +92,23 @@ const int numEstudiantes = 29;
 
 ✿ Clases: es un molde de galletas para hacer galletas, entonces definimos una persona para hacer varias personas (en el ejemplo de arduino). Persona va con Mayúscula al inicio porque es una clase. **Solo cuando definamos las clases el murcielago termina en ;.**
 
-✿ Adentro de las claseas hay muchas opciones, uno parte por las opciones. Ejemplo de opciones: public, private; estas son ciertas seguridades como los #. Nosotros por ahora haremos todo PUBLIC.
+✿ Adentro de las clases hay muchas opciones, uno parte por las opciones. Ejemplo de opciones: public, private; estas son ciertas seguridades como los #. Nosotros por ahora haremos todo PUBLIC.
 
 ✿ Luego de public vamos a escribir funciones, que son las que vienen con los paréntesis. **A las funciones se les llama métodos.**
 
 > ¿Qué es un método? Es una función pero dentro de una clase.
 
 ✿ La primera función se debe llamar igual que la clase, en este caso Persona();
-Esta es el método constructor, el que dice sacate una persona, y sale una persona. Sirve para crear nuevas instancias.
+Esta es el método constructor, el que dice sacate una persona, y sale una persona. Sirve para crear nuevas instancias. En este caso, parametro del constructor es un boolean lentes, true si usa lentes, false si no usa lentes.
 
 > clase Persona es un molde de galleta. metodo Persona() nos permite hacer la galleta.
 
+✿ Esa clase nos va a permitir definir qué es una persona.
+
+✿ Luego existe el destructor, que le dice olvidate de esa persona, que deje de existir, se ocupa ~Persona();, porque la memoria es finita, debemos destruirla en algún momento. Todo esto va dentro de la clase public:
+
+✿ función de tipo void: void definirEdad(int edad); : a las personas les podemos definir edad, para eso debemos darle una edad, y eso cuando lo hace no hace nada después, ocurre nomás. También pueden aparecer como void setEdad(int edad); 
+
+✿ Otra función puede ser con int, ejemplo: int getEdad(); , esa solo devuelve la edad.
+
+✿También se pueden definir cosas que no sean funciones, que sean valores. Ejemplo: boolEstaViva; aqui estoy diciendo que las personas dentro de ellas, dentro de la clase, tienen un booleano que dice si esta viva o no y tiene un entero que dice su edad int edad;
