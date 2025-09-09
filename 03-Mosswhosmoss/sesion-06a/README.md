@@ -12,3 +12,10 @@ YAML = formato de serialización de datos legible por humanos inspirado en lengu
 - [x] Activar "actions".
 
 Próximo encargo/proyecto se descuentan 3 puntos si no se activa "actions" y un mayor descuento si se presenta con errores de linting.
+
+## Proyecto 02 
+
+Grupos de entre cuatro y cinco personas, el grupo no pude ser comformado como el grupo anterior (se puede con solo una persona del grupo pasado).
+
+El proyecto va a ser una maquina saludadora, inspirada en el programa de enseñanza de programación "Hello World" 
+![muestra](imagenes/)
