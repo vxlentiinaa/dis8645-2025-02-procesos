@@ -1,19 +1,29 @@
-# sesion-06a
+# Sesión-06a
 
+Martes 09 de septiembre, 2025
 
+## Trabajo en clase
 
-Puredata(https://puredata.info/) PD, para realizar sonidos, programacion  del estado de los objetos, programado en c++
+### Cosas que hablamos en la mañana
 
-[Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) creo el sofwer max 9, puredata es como la nueva version de max 9 
+[Puredata](https://puredata.info/) PD, para realizar sonidos, programación  del estado de los objetos, programado en c++
 
-sergio mora dias, sofwer touchdesigning
+[Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) creo el sofwer max 9, puredata es como la nueva versión de Max 9 
+
+Sergio Mora Diaz, software touchdesigning
 
 vvvv
 
-isadora
+Isadora
 
-Referentes 
+### Estilos de escritura de github y Actions
+
+### Palabras importantes
+
+### Referentes 
 
 - [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette)
 
 - [Sergio Mora Diaz](https://www.sergiomoradiaz.com/)
+
+## Engargo
