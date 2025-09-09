@@ -49,5 +49,21 @@ ListaEncargos::ListaEncargos()
             8,
             "4b",
             "investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins"));
-    "));
+    ListaEncargos::lista.push_back(
+        Encargo(
+            9,
+            "5b",
+            "escuchar y comentar uno de los tres primeros discos de la banda Primus"));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            10,
+            "5b",
+            "investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente"));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            11,
+            "6a",
+            "investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar"));
 }
