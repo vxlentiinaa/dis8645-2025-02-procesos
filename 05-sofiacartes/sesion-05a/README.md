@@ -10,7 +10,7 @@ Ontología orientada a objetos, Graham:
 
 Para qué está hecho y para qué sirve
 
-Definición clases
+### Definición clases
 
 "Todo en C++/CPP está asociado a clases y objetos, junto con sus atributos y métodos. Por ejemplo, en la vida real, un coche es un objeto . El coche tiene atributos , como el peso y el color, y métodos , como la tracción y el freno.
 
@@ -24,6 +24,13 @@ sacado de: <https://www.w3schools.com/cpp/cpp_classes.asp>
 - c se utiliza para  y h se  utiliza para
 - Bjarne desarrolló del lenguaje de programación C++.
 - se utiliza para programación de biomarcadores.
-  desarrollo del lenguaje de programación C++
+  desarrollo del lenguaje de programación C++.
+- Processing: Es un software flexible y un lenguaje para aprender a programar.
 
 Balatros lua
+
+## Arduino ide
+
+Tres puntitos -> new tab- > nueva pestaña, para tener otra pestaña en el mismo documento.
+
+Documento.h -> tipo de archivo de c++
