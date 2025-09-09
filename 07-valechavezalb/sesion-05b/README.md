@@ -79,7 +79,7 @@ numeroCuerdas = 6;
 
 ![esquema](imagenes/ejemplo_paquete.png)
 
-**Paquete.h**
+Paquete.h
 
 ```cpp
 #indef PAQUETE_H
