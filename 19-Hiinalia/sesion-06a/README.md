@@ -15,13 +15,9 @@ Es importante encapsular estas complejidades y generar una interfaz para el usua
 
 ## Scratch y Pure Data
 
-### Scratch
-
 Nos mostraron la página web Scratch para programar. Comenzó como un proyecto universitario.
 <https://scratch.mit.edu/>
 Se podía usar Scratch para programar en Arduino. Se programa en bloques.
-
-### Pure Data
 
 **Pure Data:** Lenguaje de programación open source creado por Miller Puckette.
 **Max Msp:** Software de desarrollo modular y gráfico. Generalmente utilizado por diseñadores, artistas, y músicos.
