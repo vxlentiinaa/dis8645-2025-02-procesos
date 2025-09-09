@@ -86,6 +86,26 @@ La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de 
 
 ![foto de la entrega de producto](./imagenes/tmc-sesion02a-foto02.jpeg)
 
+### Referentes
+
+- [Nicholas Negroponte](https://es.wikipedia.org/wiki/Nicholas_Negroponte)
+
+- [Jazmin Adler](https://jazminadler.com.ar/)
+
+- [Jorge Crowe](https://www.jcrowe.xyz/)
+
+- [Yuk Hui](https://es.wikipedia.org/wiki/Yuk_Hui)
+
+- [John Cage](https://es.wikipedia.org/wiki/John_Cage)
+
+- [Sokio](https://sokio.studio/)
+
+- [Georgia Tech](https://www.gatech.edu/)
+
+- [Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
+
+- [Gordon Matta-Clark](https://proyectoidis.org/gordon-matta-clark/)
+
 ### Palabras importantes
 
 [IoT:](https://en.wikipedia.org/wiki/Internet_of_things) the Internet of Things, o el Internet de las cosas, describe dispositivos con sensores, capacidad de procesamiento, software y otras tecnologías que conectan e intercambian datos con otros dispositivos y sistemas a través de Internet u otras redes de comunicación.

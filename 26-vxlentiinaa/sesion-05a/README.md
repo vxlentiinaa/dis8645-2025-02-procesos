@@ -12,10 +12,17 @@ Teloneo
 - Fenomenología > el estudio de las cosas como aparecen
 - [POO](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos) Programación orientada a objeto
 - 10 categorías aristotélicas
-- lenguaje [c++](https://es.wikipedia.org/wiki/C%2B%2B)
-- Bjarne stroustrup
+- lenguaje [C++](https://es.wikipedia.org/wiki/C%2B%2B)
+
+### Bjarne stroustrup
+
+Es un científico de la computación y catedrático de Ciencias de la computación en la Universidad A&M de Texas. Es conocido por ser desarrollador del lenguaje de programación [C++](https://es.wikipedia.org/wiki/C%2B%2B)
   
-<https://processing.org/>
+insertar imagen de bjarne
+
+[Processing](https://processing.org/): Es un software flexible y un lenguaje para aprender a programar
+
+---
 
 programamos el arduino en c++ y no en javascript porque tiene compresión 
 

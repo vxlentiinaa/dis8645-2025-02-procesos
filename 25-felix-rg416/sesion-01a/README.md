@@ -67,3 +67,7 @@ if (dia == martes || dia == viernes)
 Circuito integrado programable
 
 Vamos a usar Arduino R4 Minima
+
+## Encargo
+
+Investigar sobre Ada Lovelace y Alan Turing

@@ -1,4 +1,4 @@
-# Sesion-01b
+# Sesión-01b
 
 ## Trabajo en clase / Viernes 08 de agosto, 2025
 
@@ -102,9 +102,9 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 [Hardware:](https://www.lenovo.com/cl/es/glosario/hardware/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor3Gt7B6Y6xNSJNojEyvhr_MUmAUAT3oOphR7g2wk_2xoFBj4NQ) El hardware se refiere a los componentes físicos de un sistema informático que puedes ver y tocar. Esto incluye dispositivos como la unidad central de procesamiento (CPU), módulos de memoria, discos duros, teclados, mouse, monitores y otros periféricos.
 
-## Encargo
+## Encargo-03: Programar y equivocarse 5 veces
 
-### programar y equivocarse 5 veces
+Estos errores me surgieron realizando los ejemplos vistos en esta misma clase. La idea era agregar un poema al código.
 
 ![foto de mi escritorio](./imagenes/tmc-sesion01b-foto.jpeg)
 
