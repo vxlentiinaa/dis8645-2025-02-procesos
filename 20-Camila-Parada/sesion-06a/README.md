@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 06a - Meta "clases" y más "clases" ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 06a - Pelusas ♡⊹˚₊⋆
 
 Martes 9 Septiembre 2025
 
@@ -15,7 +15,7 @@ A la par comenzamos a revisar la carpeta "Actions" dentro de la copia personal d
 
 ![imagen](./imagenes/a1.png)
 
-- Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
+▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
 
 
 
