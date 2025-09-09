@@ -2,7 +2,7 @@
 
 ## Apuntes
 
-el archivo .h
+el archivo .h promete y en el .cpp cumple
 
 categoría grande con varias variables, encierra otras cosas con características especificas, 4 o 5 categorías de las clases
 
@@ -10,24 +10,29 @@ categoría grande con varias variables, encierra otras cosas con característica
 
 - Dulces:
 
-  - Gomitas
-  - Caramelos
-  - Chocolates
-  - Alfajores
+  - Gomitas - Sabores
+  - Caramelos - Marcas
+  - Chocolates - Rellenos
+  - Alfajores - Chilenos, Argentinos
 
  - Maquillaje:
 
-   - Base
-   - Iluminador
-   - Rubor
-   - Labial
+   - Base - Marca - Consistencia
+   - Iluminador - Marca - Colores
+   - Rubor - Marca - Crema, polvo
+   - Labial -Marca - Gloss, matte
 
  - Muñecas:
 
-   - Monster High
-   - Barbie
-   - Rainbow High
-   - Ever after high
-   - Bratz
+   - Monster High - Personajes 
+   - Barbie - Personajes
+   - Rainbow High - Personajes
+   - Ever after high - Personajes
+   - Bratz - Personajes
+  
+  ### Encargo
+
+  - Mitch 
+
   
 
