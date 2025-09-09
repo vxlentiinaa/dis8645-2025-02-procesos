@@ -1,6 +1,6 @@
 # sesion-06a
 
-## Scratch
+## Scratch y Pure Data
 
 Nos mostraron la página web Scratch para programar. Comenzó como un proyecto universitario.
 <https://scratch.mit.edu/>
