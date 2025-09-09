@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 06a - Pelusas ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 06a - Lint hacker (Pelusas) ♡⊹˚₊⋆
 
 Martes 9 Septiembre 2025
 
