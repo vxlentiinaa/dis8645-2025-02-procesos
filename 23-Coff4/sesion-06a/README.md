@@ -12,3 +12,4 @@ En este encargo se deben de buscar referentes, cotizar y dar ideas para nuestra 
 3. En un vaso de agua, exista un sensor, que dependiendo de que tan lleno o vacio este, denotara más tristeza (gotas como lagrimas)
 4. Con una manivela, dependiendo que tan rapido se de movimiento, se dará una estimación de la energia positiva del momento.
 5. Al usar un sensor que vea proximidad, segun se acerque a la persona, se prendan diferentes led para demostrar "felicidad" a la hora de saludar.
+6. Si se puede, con un sensor de color, identificar diferentes colores para comunicar estados de animo diferentes.
