@@ -21,7 +21,7 @@ Es un científico de la computación y catedrático de Ciencias de la computaci�
 - "Todo en C++/CPP está asociado a clases y objetos, junto con sus atributos y métodos."
 - Los atributos y métodos son básicamente variables y funciones que pertenecen a la clase
 
-insertar imagen de bjarne
+![Bjarne Stroustrup](./imagenes/bjarneStroustrup.jpg)
 
 [Processing](https://processing.org/): Es un software flexible y un lenguaje para aprender a programar
 
@@ -47,13 +47,15 @@ Arduino ide: Plataforma de software y hardware para programar un arduino
 - Las clases sirven para que el código principal se vea más limpio
 - Tres puntitos > new tab > nueva pestaña (para tener otra pestaña en el mismo documento)
 
-insertar imagen de new tab
+![New tab](./imagenes/nuevaClase.png)
 
 Le asignamos un título al nuevo archivo, donde incorporamos .cpp / .h
 
 documento.h > tipo de archivo de c++
 
-insertar imagen
+![New Name 1](./imagenes/newNameh.png)
+
+![New Name 2](./imagenes/newNamecpp.png)
 
 ### Ejercicio en clases
 
