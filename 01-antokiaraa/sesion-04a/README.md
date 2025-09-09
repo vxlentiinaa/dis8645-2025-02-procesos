@@ -93,7 +93,9 @@ void loop() {
 - errores:
   
 > faltó agregar la función map() para converitr los valores del potenciómetro para controlar el scroll.
+> 
 > "int pausa = map(valorPot, 0, 1023, 50, 600);"
+> 
 > en el "for" modificar a 4 Strings (el código base que estaba utilizando tenia 6 Strings).
 
 ![error1](./imagenes/error1.png)
