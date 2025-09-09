@@ -59,16 +59,16 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 | [04b](./00-docentes/sesion-04b/) | 08-29 vier  | entrega de proyecto-01                               |
 | [05a](./00-docentes/sesion-05a/) | 09-02 mar   | intro a clases / solemnes 1, no hay ev. taller       |
 | [05b](./00-docentes/sesion-05b/) | 09-05 vier  | intro a clases / solemnes 1, no hay ev. taller       |
-| [06a](./00-docentes/sesion-06a/) | 09-09 mar   |                                 |
-| [06b](./00-docentes/sesion-06b/) | 09-12 vier  |                                 |
-| semana libre                     | 09-15/19    | receso fiestas patrias          |
-| [07a](./00-docentes/sesion-07a/) | 09-23 mar   |                                 |
-| [07b](./00-docentes/sesion-07b/) | 09-26 vier  |                                 |
-| [08a](./00-docentes/sesion-08a/) | 09-30 mar   |                                 |
-| [08b](./00-docentes/sesion-08b/) | 10-03 vier  |                                 |
-| [09a](./00-docentes/sesion-09a/) | 10-07 mar   |                                 |
-| [09b](./00-docentes/sesion-09b/) | 10-10 vier  |                                 |
-| [10a](./00-docentes/sesion-10a/) | 10-14 mar   |                                 |
+| [06a](./00-docentes/sesion-06a/) | 09-09 mar   | orden en github actions, sensores                    |
+| [06b](./00-docentes/sesion-06b/) | 09-12 vier  | bibliotecas de arduino                               |
+| semana libre                     | 09-15/19    | receso fiestas patrias                               |
+| [07a](./00-docentes/sesion-07a/) | 09-23 mar   |                                                      |
+| [07b](./00-docentes/sesion-07b/) | 09-26 vier  |                                                      |
+| [08a](./00-docentes/sesion-08a/) | 09-30 mar   |                                                      |
+| [08b](./00-docentes/sesion-08b/) | 10-03 vier  |                                                      |
+| [09a](./00-docentes/sesion-09a/) | 10-07 mar   | trabajo en proyecto-02          |
+| [09b](./00-docentes/sesion-09b/) | 10-10 vier  | trabajo en proyecto-02          |
+| [10a](./00-docentes/sesion-10a/) | 10-14 mar   | trabajo en proyecto-02          |
 | [10b](./00-docentes/sesion-10b/) | 10-17 vier  | entrega de proyecto-02          |
 | [11a](./00-docentes/sesion-11a/) | 10-21 mar   | / solemnes 2, no hay ev. taller |
 | [11b](./00-docentes/sesion-11b/) | 10-24 vier  | / solemnes 2, no hay ev. taller |
@@ -78,8 +78,8 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 | [13b](./00-docentes/sesion-13b/) | 11-07 vier  |                                 |
 | [14a](./00-docentes/sesion-14a/) | 11-11 mar   |                                 |
 | [14b](./00-docentes/sesion-14b/) | 11-14 vier  |                                 |
-| [15a](./00-docentes/sesion-15a/) | 11-18 mar   |                                 |
-| [15b](./00-docentes/sesion-15b/) | 11-21 vier  |                                 |
+| [15a](./00-docentes/sesion-15a/) | 11-18 mar   | trabajo en proyecto-03          |
+| [15b](./00-docentes/sesion-15b/) | 11-21 vier  | entrega de proyecto-03          |
 | [16a](./00-docentes/sesion-16a/) | 11-25 mar   | / exámenes, no hay ev. taller   |
 | [16b](./00-docentes/sesion-16b/) | 11-28 vier  | / exámenes, no hay ev. taller   |
 | [17a](./00-docentes/sesion-17a/) | 12-02 mar   | / semana talleres               |
