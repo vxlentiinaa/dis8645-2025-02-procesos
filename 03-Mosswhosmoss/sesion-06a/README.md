@@ -18,4 +18,4 @@ Próximo encargo/proyecto se descuentan 3 puntos si no se activa "actions" y un 
 Grupos de entre cuatro y cinco personas, el grupo no pude ser comformado como el grupo anterior (se puede con solo una persona del grupo pasado).
 
 El proyecto va a ser una maquina saludadora, inspirada en el programa de enseñanza de programación "Hello World" 
-![muestra](imagenes/)
+![muestra](imagenes/001-Agile-Hello-World.png)
