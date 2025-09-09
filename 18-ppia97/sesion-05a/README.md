@@ -11,9 +11,10 @@
 
 ✿ .h es un tipo de archivo de c++
 
-**EJEMPLO**
+### EJEMPLO
 
-**MiPrimerCpp.ino**
+#### MiPrimerCpp.ino
+
 ```cpp
 //incluir #include "constantes.h" para que funcione.
 
@@ -30,10 +31,12 @@ void loop() {
 
 }
 ```
-**constantes.h**
+##### constantes.h
+
 ```cpp
 const int numEstudiantes = 29;
 ```
+
 ✿ El archivo .h no aparece en el Cpp original a pesar de que aparezcan uno al lado del otro, no saben que son vecinos (tira error). Hay que poner en el Cpp #include "constantes.h"
 
 ✿ Podemos crear archivos donde podemos definir constantes o codigo auxiliar que sirvan para el archivo principal con archivo.h. Archivo peligroso sin ver +, asi que hay que ponerle #ifndef CONSTANTES_H ; #define CONSTANTES_H ; y al final de todo #endif.
