@@ -27,4 +27,8 @@ La carpeta workflow en el Github contiene un archivo markdown-lint. Lint es un p
 
 **YAML:** Es un tipo de lenguaje para decir “que las cosas son así”. Se parece mucho a Python. Serialización de datos. 
 
+Las acciones son acumulativas. Se muestra el historial de todas las cosas que han pasado.
+
+LaTeX es un software para programar tipografía. Overleaf es un LaTeX en la nube.
+Existe un lenguaje de programación en Quechua. 
 
