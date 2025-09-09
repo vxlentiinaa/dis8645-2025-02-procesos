@@ -16,30 +16,30 @@ esto es **bold**
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600); 
-randomSeed(analogRead(0)); //inicio numeros aleatorios
+randomSeed(analogRead(0)); //inicio números aleatorios
 }
 
 void loop() {
-int filas = 3; //cantidad de filas del patron
-int columnas = 5;  // cantidad de columnas del patron
-char simbolos[] = {'#', '@', '*', '-'}; // simbolos a usar
+int filas = 3; //cantidad de filas del patrón
+int columnas = 5;  // cantidad de columnas del patrón
+char simbolos[] = {'#', '@', '*', '-'}; // símbolos a usar
 int cantidadSimbolos = 5;
 for (int f = 0; f < filas; f++) { //recorre cada fila
   for (int c = 0; c < columnas; c++) { //recorre cada columna
-    int indice = random(0, cantidadSimbolos); //elige indice aleatorio
-    Serial.print(simbolos[indice]); //imprime los simbolos sin salto
+    int indice = random(0, cantidadSimbolos); //elige índice aleatorio
+    Serial.print(simbolos[indice]); //imprime los símbolos sin salto
     Serial.print(' '); // espacio
 }
-Serial.println(); //salto de linea
+Serial.println(); //salto de línea
 
 }
-Serial.println(); //linea extra para separar un patron de otro
-delay(2000); //tiempo de espera entre cada patron
+Serial.println(); //línea extra para separar un patrón de otro
+delay(2000); //tiempo de espera entre cada patrón
 
 }
 ```
 
-- el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrandóla) al github.
+- el código debe vivir en una carpeta del mismo nombre, y subir la carpeta (arrastrándola) al github.
 
 ## Intentos
 
@@ -98,6 +98,7 @@ Compilation error: stray '\303' in program
 ```
 
 > por lo que entendí después es que en vez de un punto puse una coma sin querer, y que el texto debe ir en comillas.
+> 
 > lo modifiqué y me volvió a dar error, porque el murciélago está mal(?)
 
 ### Error 2
@@ -134,4 +135,5 @@ void loop() {
 ### Error 3
 
 > ya está, pero no me funciona en el serial monitor c:
+> 
 > era el puerto usb, ya funcionó.
