@@ -5,7 +5,7 @@
  ejemplo
 #ifndef TEXTO_H
 #define TEXTO_H
-
+### error actions
 class texto
 {
   public:
