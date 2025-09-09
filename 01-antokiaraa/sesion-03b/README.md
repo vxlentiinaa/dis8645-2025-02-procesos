@@ -1,6 +1,6 @@
 # sesion-03b // viernes 22 de agosto ⋆ 𐙚 ̊
 
-- Por hacer:
+## Por hacer:
 
 Encargo 7
 
@@ -10,9 +10,10 @@ Encargo 7
 
 - pendiente volver a repasar videos de la clase
 
-## Repaso
+### Repaso
 
 > pantalla OLED 128x64 y mini protoboard
+> 
 > tinkercad / wokwi
 
 4 cables:
@@ -221,7 +222,7 @@ Resultado:
 
 ![resultado](./imagenes/resultado.png)
 
-- Última parte clase
+### Última parte clase
 
 ```cpp
 #include <Wire.h>
