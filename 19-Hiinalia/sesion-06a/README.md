@@ -43,13 +43,20 @@ Nos mostraron en la página de Afel algunos de los sensores que podemos consegui
 
 ### Disponible en el taller
 
-Sensores disponibles:
 Ultrasónico: Se utiliza para medir distancias sin contacto utilizando ondas de sonido que son imperceptibles por el oído humano. Un poco impreciso pero se puede usar para cosas más básicas.
+
 Temperatura y humedad (DHT11): Mide la temperatura y humedad del ambiente. Se utiliza mucho en cultivo indoor automatizado.
+
 Gas: Detecta gases en el ambiente.
+
 Encoder rotatorio: No tiene límite, a diferencia de un potenciómetro. Se pueden hacer muchas más cosas con este sensor. Algunos tienen un click al presionar.
+
 Humedad: Mide la humedad, sirve mucho para poner en las plantas para saber cuándo hay que regarlas.
+
 Lluvia: Detecta gotas de agua.
+
 Joystick: Tiene dos potenciómetros internamente. Uno hacia una dirección, y el segundo hacia la otra dirección. También tiene botón.
+
 Fotodiodo: Convierte luz en corriente, y se utiliza como sensor para detectar la luz.
+
 Sonido: Ocupa micrófono. Se puede utilizar para cosas como detectar aplausos.
