@@ -17,6 +17,9 @@ A la par comenzamos a revisar la carpeta "Actions" dentro de la copia personal d
 
 ▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
 
+![imagen](./imagenes/a2.png)
+
+▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/actions/runs/17583174461/job/49944243470
 
 
 ***
