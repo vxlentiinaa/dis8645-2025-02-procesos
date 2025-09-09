@@ -29,7 +29,17 @@ Lint: pelusa, archivo para sacar las pelusas.
 - De temperatura y humedad: detecta temperatura y humedad (para ambiente)
 - De gas:
 - Encoder rotatorio: gira sin límite (diferente al potenciómetro), puede girar y clickearse, como para elegir opciones y presionar (ej: cosito de la lavadora)
-- De humedad: se usan para plantas, se puede saber si la planta esta seca y cuando hay que regar
+
+![Encoder](./imagenes/encoder1.jpg)
+
+![Encoder](./imagenes/encoder2.jpg)
+
+- De humedad: se usan para plantas, se puede saber si la planta esta seca y cuando hay que regar.
+
+![humedad](./imagenes/humedad1.jpg)
+
+![humedad](./imagenes/humedad2.jpg)
+
 - De lluvia: detecta gotitas de agua (es una resistencia experimental), sea lo que sea que caiga en la plaquita (incluso si toco con mi dedo) lo detecta. Sensor pasivo.
 - Joystick: incluye potenciometros dentro, tene un botón también, es como los de mandos de juego.
 - fotodio:
