@@ -19,3 +19,5 @@ Grupos de entre cuatro y cinco personas, el grupo no pude ser comformado como el
 
 El proyecto va a ser una maquina saludadora, inspirada en el programa de enseñanza de programación "Hello World" 
 ![muestra](imagenes/001-Agile-Hello-World.png)
+
+
