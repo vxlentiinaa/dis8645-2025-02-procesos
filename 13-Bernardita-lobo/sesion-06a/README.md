@@ -58,6 +58,8 @@ Over engineer, una burla a la tecnologia, tecnologia de sobra.
 
 p5, 
 
+data login
+
 #### Ideas
 
 idea una maquina que de auerdo a la distancia las preguntas intimas (personales) que te hace, tu escojes que tan cercana quieres la interaccion.
@@ -68,7 +70,7 @@ una maquina que necesites estar muy cerca para que te cuente sus secretos.
 
 una maquina que reclame cuando lo muevan de su espacio, de su eje.
 
-data login
+una maquina que cuando es levantada de su espacio, a traves de un sensor de movimiento lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
 
 ### Palabras importantes
 
