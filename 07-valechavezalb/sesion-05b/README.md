@@ -2,7 +2,7 @@
 
 Viernes 5 de septiembre de 2025
 
-## Sintáxis
+## Sintaxis
 
 Variables vistas la clase anterior
 
@@ -22,7 +22,7 @@ Variables vistas la clase anterior
 ### Clases
 
 - Primero se escribe un .h, luego el .cpp y todo esto se incluye en el .ino (arduino).
-- Si yo creo una clase, debe estar icluida en el archivo .h
+- Si yo creo una clase, debe estar incluida en el archivo .h
 - Tipo de clase -- nombre de la variable, ejemplo: Tipo (clase) tipografía (variable).
 
 ## Ejercicio clase
