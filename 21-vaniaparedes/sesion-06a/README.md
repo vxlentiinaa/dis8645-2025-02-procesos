@@ -7,7 +7,7 @@ SCRATCH
   
 ### Miller Pucket
 + trabaja generalmente en San Diego, vintage 1959, profesor del centro de investigación de computación y las artes.
-+ Según wiwkipedia: Pofesor de música en la Universidad de California, San Diego , donde ha estado desde 1994. Puckette es conocido por ser el autor de Max , un entorno de desarrollo gráfico para música y síntesis multimedia , que desarrolló mientras trabajaba en IRCAM a fines de la década de 1980. También es el autor de **Pure Data** (Pd), una plataforma de ejecución en tiempo real para audio, video y lenguaje de programación gráfica para la creación de música informática interactiva y obras multimedia, escrita en la década de 1990 con aportes de muchos otros en las comunidades de música informática y software libre.
++ Según wikipedia: Pofesor de música en la Universidad de California, San Diego , donde ha estado desde 1994. Puckette es conocido por ser el autor de Max , un entorno de desarrollo gráfico para música y síntesis multimedia , que desarrolló mientras trabajaba en IRCAM a fines de la década de 1980. También es el autor de **Pure Data** (Pd), una plataforma de ejecución en tiempo real para audio, video y lenguaje de programación gráfica para la creación de música informática interactiva y obras multimedia, escrita en la década de 1990 con aportes de muchos otros en las comunidades de música informática y software libre.
 
 ### Softwares de programación
 + **PURE DATA** Programado en C++, usa clases. Según wikipedia: Pure Data (o Pd) es un lenguaje de programación visual desarrollado por Miller Puckette durante los años 90 para la creación de música por ordenador interactiva y obras multimedia. Aunque Puckette es el principal autor del software, Pd es un proyecto de código abierto y tiene una gran base de desarrolladores trabajando en nuevas extensiones al programa. Está publicado bajo una licencia similar a la licencia BSD.
@@ -84,7 +84,85 @@ SCRATCH
 + REVISA TODOS LOS ARCHIVOS MARKDOWN Y COLECTA TODOS LOS ERRORES QUE ENCUENTRE
   
 + **Arduino en Github.** Si usamos bibliotecas que arduino no tiene, le decimos "cada vez que corras esto baja temporalmente esta biblioteca"
-+ Proxima entrega: acercamiento a estos mensajes  y automatizaciones.
++ Proxima entrega: acercamiento a estos mensajes  y automatizaciones. <https://github.com/Arduino>
 + "utf8" Usar "ñ" y tíldes.
 
 + **Creative Inquiry** La "investigación creativa" es un proceso de exploración intelectual y artística que se enfoca en la generación de nuevo conocimiento a través de la curiosidad, el cuestionamiento y la colaboración interdisciplinaria, en lugar de la mera reproducción de información existente.
+
+#### Entrega proyecto 02 - 17.10.23
++ La máquina que saluda, si está lejos invitarte y cuando te acercas cambia su comportamiento.
++ ¿Cómo se detecta la presencia humana?
++ Por ejemplo usamos un sensor que lanza un az de luz y luego vuelve
++ "si la persona está a "x" distancia haz "x"
++ Hecho con clase - Máquina saludadora.
++ NADA PUEDE ESTAR AL AZAR.
+
++ <https://afel.cl/?utm_term=&utm_campaign=%40+Campa%C3%B1a+Inteligente+Display&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=11192697983&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21510966891&gbraid=0AAAAADBMsFTqaXFnAaRCBzwNfYDPlDfVI&gclid=Cj0KCQjwoP_FBhDFARIsANPG24NEQwG6zEmLpiTT2WY7xQBcPjUeFlB3YhZzInqOnQmm-mXgQvpcXI4aAkJSEALw_wcB>
+
++ **Caja negra** Tiene una entrada y una salida, Máquinas que recibirán un imput (sensor) y responderán de alguna manera (output)(actuador: Luz, movimiento y sonido).
++ **Leer** capítulo 3 <https://monoskop.org/images/8/8d/Flusser_Vilem_Hacia_una_filosofia_de_la_fotografia.pdf>.
+
+#### Sensores disponibles
++ **Ultrasónico:** Emitiendo un sonido ultrasónico y detecta cuanto se demora en volver, esto detecta la distancia. Sonido: 350 mtrs x seg.
++ **Temperatura y humedad:** Mejor para ambiente.
++ **Dióxido de carbono**
++ **Encoder rotatorio**:Parecido al potenciómetro pero no tiene límite. Tiene click.
++ **Sensores de humedad**
++ **Sensor de lluvia**: Detecta gotitas de agua. Sensor pasivo que no requiere energía interna.
++ **Joystik**
++ **Luz**: Fotodiodo (Según gemini: Un fotodiodo funciona captando fotones de luz y convirtiéndolos en una corriente eléctrica, basándose en el efecto fotoeléctrico)
++ **Sonido**: Micrófono, para medir intensidad de sonido.
+
+#### Encargo proyecto 02
++ Descubriendo el sensor de sonido (micrófono)
++ Lo conecté de esta manera a ARDUINO:
++ GND - GND
++ VCC - 5V
++ SIG - A0
+  ![sensor](./imagenes/sensor1.HEIC)
+
++ Ocupé esta página: <https://www.murkyrobot.com/guias/sensores/ky-038> para mi primer acercamiento
++ Esta me sirvió para entender como conectarlo y como funciona.
+
++ Para probarlo ocupé este código:
++ Éste lo daba la página y el propósito era prender el LED si el sensor de micrófono detectaba un sonido y apagarlo en caso contrario.
+  
+  ```cpp
+  const int pinLED = 13;
+  const int pinMicrophone = 9;
+ 
+  void setup ()
+  {
+  pinMode (pinLED, OUTPUT);
+  pinMode (pinMicrophone, INPUT);
+  }
+ 
+  void loop ()
+  {
+  bool soundDetected = digitalRead(pinMicrophone);
+  if (soundDetected)
+  {
+    digitalWrite (pinLED, HIGH);
+    delay(1000);
+  }
+  else
+  {
+    digitalWrite (pinLED, LOW);
+    delay(10);
+  }
+  }
+  ```
+  Este código hizo que el led prendiera pero no estoy segura si funcionaba con el sonido ya que no podia dejar la sala en completo silencio.
+
+  + Otra página útil: <https://cursos.mcielectronics.cl/2022/12/27/interfaz-del-sensor-de-sonido-con-arduino-y-dispositivos-de-control-con-una-palmada/>
+
+     ![diafragma](./imagenes/diafragma.gif)
+
+    + Otro sitio de referente: <https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/>
+
+#### Cotizaciones
++ **Sensor de Sonido Analógico Digital** $2.300 en Afel <https://afel.cl/products/sensor-de-sonido-analogico-digital>
++ **Sensor analogo de sonido con microfono KY-037** $2.290 en mechatronicstore: <https://www.mechatronicstore.cl/sensor-analogo-de-sonido-con-microfono/?srsltid=AfmBOor_qucrqVArqHFluwswkUemWlc_1tw-Rij8wEx2tZD8tsL0c0o0>
++ **Sensor Analógico Sonido/Audio MAX9812 (SKU 614H1)** $3.790 en hubot: <https://hubot.cl/producto/sensor-analogico-audio-max9812-sku-614/?srsltid=AfmBOooGo97YTbkAtHRv7iFzCkwWLnrnDwqungPrliHZF_dnLwOTs1UD>
+
+  
