@@ -24,13 +24,47 @@ latex es el lenguaje de programacion de Overleaf
 
 universidad delf
 
+### Codigo en tejido
+
 codigo decolonial de aranda , direntor de media lab de mexico
 
 lenguaje de programacion en quechua, llankana
 
 gameboy sewing machine
 
+### Proyecto-02
+
+grupos nuevos, mas complejidad, mas comentarios en el codio, subir  el codigo, no solo citar.
+
+maquina saludaradora, si esta lejos llama la atencion, si estas cerca te saluda. interactue.
+
+maywa denkintoys
+
+greeting machine arduino
+
+afel
+
+metafora de la caja negra, input y ouput
+
+hacia una filosofia de la fotografia, capitulo 3
+
+sensor y actuador, el sensor es como los sentidos del arduino, lo usamos como entrada, y lo que hace es el actuador, luz, movimiento sonido.
+
+logger app para mostrar sensores que tiene el telefono.
+
+over engineer, una burla a la tecnologia, tecnologia de sobra.
+
+#### ideas
+
+idea una maquina que de auerdo a la distancia las preguntas intimas (personales) que te hace, tu escojes que tan cercana quieres la interaccion.
+
+o al reves, mientras mas te acercas mas sincera se vuelve nuestra maquina.
+
+una maquina que necesites estar muy cerca para que te cuente sus secretos.
+
 ### Palabras importantes
+
+over engineer
 
 ### Referentes 
 
