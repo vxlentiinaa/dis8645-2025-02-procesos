@@ -41,4 +41,9 @@ Un (sensor de metal)(https://www.metaldetector.com/pages/como-funcionan-los-dete
 
 Por lo general detectan [metales ferrosos](https://www.reliance-foundry.com/blog/metales-ferrosos-no-ferrosos-es?srsltid=AfmBOorg503x94-nMNNN4M3dX9CEbEhPSOxZnXi_0ox21Z2fF5Ta1kxo), es decir, aquellos que contienen acero, por lo que metales como el oro, zinc, cobre, titanio, entre otros, suelen no ser detectados.
 
+#### sensor de vibración
 
+para medir vibraciones, se necesita saber:
+
+- frecuencia
+- intensidad
