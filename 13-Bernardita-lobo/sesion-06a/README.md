@@ -72,6 +72,8 @@ una maquina que reclame cuando lo muevan de su espacio, de su eje.
 
 una maquina que cuando es levantada de su espacio, a traves de un sensor de movimiento lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
 
+sensor de si esta temblado me prenda todas las luces (me da miedon los temblores, quiero estar lista para escapar si ocurre uno en la noche)
+
 ### Palabras importantes
 
 over engineer
@@ -84,8 +86,8 @@ over engineer
 
 - [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth)
 
-## Engargo-06: sensor ultrasonico HC-SR04
+## Engargo-06: Sensor ultrasonico HC-SR04
 
 investigar, cotizar y buscar referentes del sensor escogido
 
-
+[Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
