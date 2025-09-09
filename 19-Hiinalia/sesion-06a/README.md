@@ -60,3 +60,39 @@ Joystick: Tiene dos potenciómetros internamente. Uno hacia una dirección, y el
 Fotodiodo: Convierte luz en corriente, y se utiliza como sensor para detectar la luz.
 
 Sonido: Ocupa micrófono. Se puede utilizar para cosas como detectar aplausos.
+
+
+## Tarea en clases
+
+### Temperatura y humedad
+
+<https://programarfacil.com/blog/arduino-blog/sensor-dht11-temperatura-humedad-arduino>
+Según esta página web, este sensor no solo mide la temperatura y humedad, sino que también es digital. Se puede usar en proyectos en donde otros sensores dependen de estos factores para tomar medidas.
+
+Encontré un proyecto en Github que utiliza este sensor para controlar temperaturas dentro de un hogar o un invernadero. <https://github.com/FerminOrtega/DHT11Arduino>
+Utiliza una pantalla LCD para monitorear la temperatura y humedad.
+Hasta ahora, la mayoría de los proyectos que utilizan este tipo de sensor son lo mismo. Se despliega la temperatura y la humedad en la pantallita. La verdad aún no tengo ideas de cómo podría hacer algo distinto.
+
+Según esta página <https://www.luisllamas.es/arduino-dht11-dht22> este sensor puede llegar a ser muy limitado. Me imagino que es por esto que no hay variedad de proyectos.
+
+Esta persona utiliza este sensor como acercamiento a una automatización de pasar la lista clase a clase. Monitorea constantemente el ambiente de la sala de clases para tener las mejores condiciones de aprendizaje. <https://projecthub.arduino.cc/anaferraz/automatic-attendance-and-classroom-environmental-monitoring-39ec1a>
+
+Aquí hay un proyecto un poco más distinto, que es un sistema automatizado de irrigación de plantas. <https://projecthub.arduino.cc/lakshyajhalani56/smart-irrigation-system-using-arduino-dht11-moisture-781740>
+
+### Costos
+
+En <https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?srsltid=AfmBOooM96R0i6rV2rfvmBgdktUaPolgyVnfAN5Rbm3CvlQIrhd2CJXm> Cuesta 2300 clp (el mismo que tenemos en el taller)
+
+En <https://mcielectronics.cl/shop/product/sensor-de-humedad-y-temperatura-dht11/?srsltid=AfmBOop5JD0T4lOuYOt9OTsXe_i0_T1BziGHu-OucHPfbh4TrQIu1io1> está a 3490 clp, un poco más caro que en afel.
+
+En MercadoLibre también hay varias opciones de vendedores, están entre 3000 y 4000 clp.
+
+
+### Incorporación a máquina que saluda
+
+Una manera que se me ocurre es que sea un sistema automático de irrigación de una planta, en el cual cada vez que se riega, la planta saluda para agradecer el agua.
+
+Otra idea que se conecta a la anterior es utilizar junto con el sensor de temperatura y humedad, un actuador de sonido. Alguna bocina lo suficientemente fuerte como para llamar la atención de todos los que viven en un espacio, y que salude para llamar la atención para que la planta sea irrigada.
+
+La última idea que se me ocurre es utilizar el sensor para desplegar la temperatura y humedad en una pantalla LCD. Una vez que la temperatura y la humedad lleguen a cierto rango que asegure que va a llover, en la pantalla LCD aparecerá un mensaje que te diga que entres la ropa del tendedero para que no se te moje, y va a saludar para llamar tu atención.
+
