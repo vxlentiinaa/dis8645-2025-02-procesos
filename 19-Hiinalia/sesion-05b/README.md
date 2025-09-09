@@ -82,3 +82,16 @@ Vamos a hacer una tareita de dibujo en la sala de interacción.
 
 ![clase sopitas](./imagenes/clase_sopitas.png)
 
+## Encargo charla Mitchel Resnick
+
+Para el encargo, vi esta charla de aqui <https://youtu.be/42_30Rgf6F0?si=IllIg0C5UpVzMyKP>
+
+A pesar de ser una charla de hace ya doce años, encuentro que sus palabras siguen siendo una muy buena lección.
+Siendo el creador de Scratch, le dio una muy buena oportunidad a gente que hasta ahora solo ha sido “consumidor”, a poder entender cuál es el proceso detrás de cada objeto que utilizan.
+Al principio mencionaba que las generaciones de esa época parecían ser “nativos de la tecnología”, ósea que nacieron con tanta cercanía a la tecnología que saben manejarla al 100%. Y después hacía a su público entender que en realidad no es el caso. Sino que esa generación sólo sabe cómo usar lo que ya fue creado, y no saben cómo involucrarse en el proceso de creación. Pero si que hay más y más personas interesadas en adentrarse en todo el mundo de la programación.
+
+Se podría decir que esa realidad de hace doce años sigue siendo la misma de ahora. No todos saben cómo programar, solo consumen. Pero cada vez hay más personas dispuestas a aprender más.
+
+En algún punto de la charla, mencionó algo muy interesante que me hizo recordar algo que dijo Aarón. Que la programación es todo un estilo de vida.
+Mitchel Resnick mencionó que la programación, aunque uno no se vuelva realmente un profesional en el área, también nos ayuda en otras cosas. Como por ejemplo, a entender procesos, o desarrollar mejor nuestro pensamiento crítico. Valoro completamente estas palabras. Quizás no tenga mucho interés en volverme una profesional en el tema, pero lo que nada me va a quitar es que todo conocimiento es útil y en mi día a día puedo aplicar ciertas cosas que he aprendido.
+
