@@ -28,6 +28,8 @@ universidad delf
 
 codigo decolonial de aranda , direntor de media lab de mexico
 
+
+
 lenguaje de programacion en quechua, llankana
 
 gameboy sewing machine
@@ -65,6 +67,8 @@ o al reves, mientras mas te acercas mas sincera se vuelve nuestra maquina.
 una maquina que necesites estar muy cerca para que te cuente sus secretos.
 
 una maquina que reclame cuando lo muevan de su espacio, de su eje.
+
+data login
 
 ### Palabras importantes
 
