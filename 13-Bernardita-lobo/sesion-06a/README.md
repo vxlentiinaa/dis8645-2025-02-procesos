@@ -84,4 +84,8 @@ over engineer
 
 - [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth)
 
-## Engargo
+## Engargo-06: sensor ultrasonico HC-SR04
+
+investigar, cotizar y buscar referentes del sensor escogido
+
+
