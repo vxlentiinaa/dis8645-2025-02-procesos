@@ -1,4 +1,6 @@
 # sesion-05b
+ejemplo de erores que voy a cambiar 
+
 ## error actions
 <https://www.w3schools.com/> 
  ejemplo
