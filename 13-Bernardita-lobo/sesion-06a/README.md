@@ -70,7 +70,7 @@ una maquina que necesites estar muy cerca para que te cuente sus secretos.
 
 una maquina que reclame cuando lo muevan de su espacio, de su eje.
 
-una maquina que cuando es levantada de su espacio, a traves de un sensor de movimiento lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
+una maquina que cuando es levantada de su espacio, a traves de un nfc y un lector de nfc que lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
 
 sensor de si esta temblado me prenda todas las luces (me da miedon los temblores, quiero estar lista para escapar si ocurre uno en la noche)
 
