@@ -28,3 +28,13 @@
 - [smiling sensor, etc:](https://get-lauren.net/Tools-for-Improved-Social-Interacting) Lauren Mccarthy
 - [Data logger](https://afel.cl/products/shield-data-logger-para-arduino-uno-mega?srsltid=AfmBOop7esYibYfSipYRTRewb52xjSsL7bf8eYBiqX9eZQqemmDC0RTp)
 - [detector de machismos](https://vimeo.com/215600031?fl=pl&fe=sh)
+
+### investigación de sensores
+
+Campo eléctrico es la región del espacio donde interactúa la fuerza eléctrica. Campo magnético se genera por la interacción entre objetos con propiedades magnéticas.
+
+Campo electromagnético es una combinación entre campos eléctricos y magnéticos. Es la región en la cual se experimentan fuerzas electromagnéticas.
+
+Un sensor de metal, una bovina genera un campo electromagnético, el cual es sensado por una segunda bovina, y lee cuándo es interrumpida la onda electromagnética.
+
+Por lo general detectan metales ferrosos, es decir, aquellos que contienen acero, por lo que metales como el oro, zinc, cobre, titanio, entre otros, suelen no ser detectados.
