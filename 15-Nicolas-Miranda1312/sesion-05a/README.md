@@ -1,13 +1,14 @@
 # sesion-05a
 
--02-09-2025 
- 
+-02-09-2025
+
 ## Primera parte de la clase: Cómo definimos algo
-1. Ontología Orientada a Objetos (OOO) – Graham Harman
+
+### 1. Ontología Orientada a Objetos (OOO) – Graham Harman
 
 La OOO sostiene que todos los objetos existen de manera autónoma, sin depender de la mente humana ni de su utilidad. Cada objeto tiene una parte de su ser siempre oculta o retirada, que nunca se agota en cómo lo percibimos o usamos.
 
-2. Las 10 categorías de Aristóteles
+### 2. Las 10 categorías de Aristóteles
 
 Aristóteles propuso estas categorías como formas fundamentales de predicar y comprender lo que existe, es decir, los modos en que se puede hablar de un ente o cosa:
 
@@ -41,7 +42,8 @@ Aristóteles propuso estas categorías como formas fundamentales de predicar y c
 - Pasión = Lo que recibe o padece.
  Ejemplo: la mesa es rayada por un niño.
 
-### Lenguajes de programación
+## Lenguajes de programación
+
 - C
 
 Año: 1972
@@ -115,6 +117,7 @@ Plataforma basada en scripting (Lua) para música generativa y live coding
 ---
 
 ## Clases
+
 Clases en programación
 
 Una clase es un modelo o plantilla que define cómo se estructura un tipo de objeto en un programa. Piensa en ella como un plano de un objeto: describe qué características tiene (atributos) y qué puede hacer (métodos o funciones).
@@ -130,6 +133,7 @@ Una clase es un modelo o plantilla que define cómo se estructura un tipo de obj
 - Modularidad: Facilitan mantener y actualizar el código, porque cada clase funciona como un módulo independiente.
 
 ### EN ARDUINO
+
 1. Abre el archivo .ino.
 
 2. Haz clic en los tres puntitos (⋯) y selecciona “Nueva pestaña” (o Ctrl + Shift + N).
@@ -148,7 +152,7 @@ const int numEstudiantes = 28;
 #endif // fin de la definción
 ```
 
-### Ejemplo 
+### Ejemplo
 
 Archivo .h
 
@@ -242,6 +246,7 @@ Es el archivo principal del proyecto.
 Une los distintos archivos del proyecto, como .h y .cpp.
 
 Contiene la configuración (setup()) y el bucle principal (loop()) del programa.
+
 ```cpp
 #include "constantes.h"
 #include "Persona.h"
