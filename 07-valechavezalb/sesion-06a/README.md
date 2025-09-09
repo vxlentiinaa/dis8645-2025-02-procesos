@@ -1,5 +1,5 @@
 # sesion-06a
-*Martes 9 de septiembre de 2025*
+Martes 9 de septiembre de 2025
 
 ## Apuntes de clases
 - Scratch: programación para niños, mediante metáforas para que aprendan a progamar.
@@ -15,6 +15,8 @@
 - Llamk'ana: lenguaje de programación en quechua. Traduce las variables al lenguaje quechua.
 - Weaving to Code, Coding to Wave: mezcla proyectos de tejido con programación.
 - PEmbroider: se sube un código que se programa y eso después hace un tejido como producto final. (https://www.youtube.com/watch?v=BDE2Tx6HHLc)
+- **La caja negra**: no sabemos como funciona pero tiene una **entrada** y una **salida**.
+
 
 ### Github y Lint
 - Sirve para corregir errores de markdown y "quitar pelusas"
@@ -27,3 +29,49 @@
 - Las *actions* son acumulativas, se pueden borrar.
 - Hay que ir corrigiendo, la de más arriba es la más nueva.
 - Próximos encargos se va automatizar cosas para simplificar procesos.
+
+# La máquina saludadora
+
+**21 de octubre proyecto 2**
+
+**La máquina saludadora**, te saluda desde lejos, si te acercas ocurre algo y si te vas, también. Se puede usar un sensor de movimiento, y se puede usar luces. También se puede usar con una cámara pero es un poco más complejo pero no abordable. Puede tener audio o micrófono. **(INPUTS/OUTPUTS)**
+- Ir buscando arduino sensores y para qué funcionan.
+- Creación de clases.
+- La factura es MUY importante. Si es necesario impresión de carcasas 3D, plástico, pintar, etc. *Que se vea bonito*.
+- Proyectos más complejos. Grupos de 4 a 5 personas.
+- Bitácoras ordenadas.
+- Más imágenes.
+- Más orden.
+- Computadores más complejos.
+- Debe estar justificado el proyecto. Proyecto antifuna.
+- Se puede usar un manual para explicar como funciona el computador, por si no es intuitivo. Pero debe estar justificado.
+
+## SENSORES Y ACTUADORES 
+- Sensores son entradas, son los sentidos del arduino. Sensor de temperatura y humedad (DHT 11), de movimiento, de distancia, barómetro, potenciómetro, ultrasónico, encoder rotatorio (gira sin fin), de sonido, entre muchos más.
+- Foto diodo: si a un led le aplico luz, genera voltaje. 
+
+- Actuador: son salidas, como luz, movimiento, sonido. Pantalla, movimiento, motor.
+
+**AFEL** (https://afel.cl/): tienda de insumos de electrónica. Sensor de color, sensor de temperatura, sensor de reconocimiento, acelerómetro para detectar la rotación.
+
+**Sensor Logger**, es una aplicación que muestra explícitamente los sensores del teléfono.
+
+**creando elementos para la realidad que queremos vivir**
+
+**Data Logger**: se  utilizan sensores para detectar ciertos comportamientos y se dejan en algún lugar y el sensor va recolectando cierta información.
+Shield Data Logger, es un DLC, una coraza que permite saber hora exacta del mundo, una tarjeta SD y se puede programar para que cada 10 segundos mida algo. Ejemplo, cada 10 segundos mide el gas. Cada 10 minutos mide tal cosa. 
+Entrega una tabla de excel con los datos. Estos datos de pueden analizar, hacer una visualización de datos, etc. Para descubrir cosas interesantes.
+
+### Sensores 
+**Joystick Palanca de Mando**
+<img src="imagenes/joystick.png" alt="joystick" width="200">
+
+Es un sen
+
+**Sensor Color RGB TCS34725**
+
+# Ideas para el protecto 2
+- Usar un sensor de color para identificar un color de algo, y según el color asignarle una cualidad, acción, etc.
+
+
+
