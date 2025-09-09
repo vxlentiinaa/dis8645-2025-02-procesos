@@ -31,10 +31,14 @@
 
 ### investigación de sensores
 
-Campo eléctrico es la región del espacio donde interactúa la fuerza eléctrica. Campo magnético se genera por la interacción entre objetos con propiedades magnéticas.
+#### detector de metales 
 
-Campo electromagnético es una combinación entre campos eléctricos y magnéticos. Es la región en la cual se experimentan fuerzas electromagnéticas.
+[Campo eléctrico](https://es.wikipedia.org/wiki/Campo_eléctrico) es la región del espacio donde interactúa la fuerza eléctrica. [Campo magnético](https://es.wikipedia.org/wiki/Campo_magnético) se genera por la interacción entre objetos con propiedades magnéticas.
 
-Un sensor de metal, una bovina genera un campo electromagnético, el cual es sensado por una segunda bovina, y lee cuándo es interrumpida la onda electromagnética.
+[Campo electromagnético](https://es.wikipedia.org/wiki/Campo_electromagnético) es una combinación entre campos eléctricos y magnéticos. Es la región en la cual se experimentan fuerzas electromagnéticas.
 
-Por lo general detectan metales ferrosos, es decir, aquellos que contienen acero, por lo que metales como el oro, zinc, cobre, titanio, entre otros, suelen no ser detectados.
+Un (sensor de metal)(https://www.metaldetector.com/pages/como-funcionan-los-detectores-de-metales-ciencia-historia-y-busqueda-de-oro), una bovina genera un campo electromagnético, el cual es sensado por una segunda bovina, y lee cuándo es interrumpida la onda electromagnética. Ver [electromagnetismo.](https://es.wikipedia.org/wiki/Electromagnetismo)
+
+Por lo general detectan [metales ferrosos](https://www.reliance-foundry.com/blog/metales-ferrosos-no-ferrosos-es?srsltid=AfmBOorg503x94-nMNNN4M3dX9CEbEhPSOxZnXi_0ox21Z2fF5Ta1kxo), es decir, aquellos que contienen acero, por lo que metales como el oro, zinc, cobre, titanio, entre otros, suelen no ser detectados.
+
+
