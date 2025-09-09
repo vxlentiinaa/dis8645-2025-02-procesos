@@ -21,3 +21,9 @@ Durante la Segunda Guerra Mundial descifró el código Enigma, ayudando a acorta
 Murió en 1954 por envenenamiento con cianuro. Oficialmente se consideró un suicidio, aunque todavía hay debate sobre si fue accidental. Su muerte estuvo marcada por el contexto: en esa época en el Reino Unido la homosexualidad era ilegal, y Turing había sido condenado un par de años antes.
 
 Fue sometido a un tratamiento hormonal forzado, lo que afectó mucho su vida personal y profesional.
+
+### Referencias
+
+- Pérez, M. (2021, 10 de abril). *Ada Lovelace, visionaria hija de Lord Byron*. National Geographic España. [URL](https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864)
+- Museo Nacional de Ciencias Naturales. (s. f.). *Biografía de Ada Lovelace*. CSIC. [URL](https://www.mncn.csic.es/es/visita-el-mncn/biografia-de-ada-lovelace)
+- Redacción National Geographic. (2023, 23 de junio). *¿Quién fue Alan Turing?, pionero en el desarrollo de la Inteligencia Artificial y la computación moderna*. National Geographic Latinoamérica. [URL](https://www.nationalgeographicla.com/ciencia/2023/06/quien-fue-alan-turing-pionero-en-el-desarrollo-de-la-inteligencia-artificial-y-la-computacion-moderna)
