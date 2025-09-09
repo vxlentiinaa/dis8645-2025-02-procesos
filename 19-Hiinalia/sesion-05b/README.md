@@ -80,3 +80,5 @@ Está llamando a Texto.h
 
 Vamos a hacer una tareita de dibujo en la sala de interacción.
 
+![clase sopitas](./imagenes/clase_sopitas.png)
+
