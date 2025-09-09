@@ -36,6 +36,9 @@ Lint: pelusa, archivo para sacar las pelusas.
 
 - De humedad: se usan para plantas, se puede saber si la planta esta seca y cuando hay que regar. Sensor Humedad Suelo Higrometro. $2300 por unidad.
 [Sensor Humedad](https://afel.cl/products/sensor-humedad-suelo-higrometro)
+ideas: una mascota interactiva utilizando una plantita de base, si la planta tiene sed, o esta sobrehidratada, o se encuentra bien, la mascota puede mostrar el estado, quizas con luces de algún tipo de color, sonidos, o una pantalla en donde se vean "expresiones", que sonría, que llore, o que hable diciendo que tiene sed y cuando se encuentra bien. Puede ayudar a personas que cuidan plantitas o para aquellas que quieren aprender y se les dificulta.
+[Ejemplo de idea ya realizada 1 ](https://www.instructables.com/Interactive-Plant-Plant-Mood-Detector/)
+
 
 ![humedad](./imagenes/humedad1.jpg)
 
@@ -45,3 +48,4 @@ Lint: pelusa, archivo para sacar las pelusas.
 - Joystick: incluye potenciometros dentro, tene un botón también, es como los de mandos de juego.
 - fotodio:
 - De sonido: usan micrófono, se usan para medir intensidad de sonido o detectar si se emitió un sonido. (ejemplos: detectos de aplausos, de portazos, cada 4 aplausos quiero que mi robot salude)
+idea: un robot que te juzgue
