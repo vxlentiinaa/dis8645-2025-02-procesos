@@ -28,13 +28,14 @@ Lint: pelusa, archivo para sacar las pelusas.
 - Ultrasónico: emite un sonido y cuenta cuanto se demora en volver (es bien impreciso). Medir distancias
 - De temperatura y humedad: detecta temperatura y humedad (para ambiente)
 - De gas:
-- Encoder rotatorio: gira sin límite (diferente al potenciómetro), puede girar y clickearse, como para elegir opciones y presionar (ej: cosito de la lavadora)
+- Encoder rotatorio: gira sin límite (diferente al potenciómetro), puede girar y clickearse, como para elegir opciones y presionar (ej: cosito de la lavadora). Encoder rotatorio KY-040 360 grados. $2000 por unidad. [encoder](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados)
 
 ![Encoder](./imagenes/encoder1.jpg)
 
 ![Encoder](./imagenes/encoder2.jpg)
 
-- De humedad: se usan para plantas, se puede saber si la planta esta seca y cuando hay que regar.
+- De humedad: se usan para plantas, se puede saber si la planta esta seca y cuando hay que regar. Sensor Humedad Suelo Higrometro. $2300 por unidad.
+[Sensor Humedad](https://afel.cl/products/sensor-humedad-suelo-higrometro)
 
 ![humedad](./imagenes/humedad1.jpg)
 
