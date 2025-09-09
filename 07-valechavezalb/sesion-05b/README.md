@@ -125,4 +125,4 @@ Paquete.ino (falta)
 ## Otros apuntes
 
 - **Arm** es una arquitectura de procesadores que contiene un conjunto de instrucciones reducidos diseñadas para la eficiencia energética y alto rendimiento. Generalmente la usan los teléfonos, arduinos, etc.
-- **W 3 Schools:** tutoriales de c++, sintáxis, variables, etc.
+- **W 3 Schools:** tutoriales de c++, sintaxis, variables, etc.
