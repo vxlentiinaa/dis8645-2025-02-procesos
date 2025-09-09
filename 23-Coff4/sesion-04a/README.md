@@ -861,7 +861,7 @@ voy a intentar probar mientras tengo un descanso en mi clase de Serigrafia
 ## Actualizacion de errores
 
 No todo podia ser bonito ¿verdad?
-https://wokwi.com/projects/440546331476540417
+<https://wokwi.com/projects/440546331476540417>
 
 Al intentar integrar el codigo de la imagen, con el del poema definitivo...pasaron cositas
 
@@ -1077,14 +1077,15 @@ delay(velocidad);
 En este intento la imagen desaparecio por completo, por lo tanto volvimos sobre nuestros pasos.
 
 - Tercer link: Como retrocedimos, sacamos al rafita y pusimos la imagen que hizo nuestra compañera
-- 
+-
+
 ![Santiago a medias](./imagenes/meh.png)
 
 ----
 
 ## Podemos terminar ya?
 
-(https://wokwi.com/projects/440548344446009345)
+(<https://wokwi.com/projects/440548344446009345>)
 
 ![Vistazo final](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-04a/imagenes/Final.png)
 

@@ -6,11 +6,11 @@
 
 (Tuvimos clases online, debido al clima)
 
-## PROTOBOARD - LED 
+## PROTOBOARD - LED
 
-Tabajaremos con un emulador 
+Tabajaremos con un emulador
 
-<https://wokwi.com/> 
+<https://wokwi.com/>
 
 **SCL->** (Serial Clock) Es una señal que marca el ritmo de la comunicación
 
@@ -20,21 +20,21 @@ Tabajaremos con un emulador
 
 - Para trabajar con la pantalla LED se necesita instalar una biblioteca para evitar errores
   
-- Una recomendación que contiene una biblioteca digital extensa muy útil  es "ADA FRUIT" 
+- Una recomendación que contiene una biblioteca digital extensa muy útil  es "ADAFRUIT"
 
 Pasos a seguir
 
 1. Abrir Arduino
-   
+
 2. Opción "*library*"
-   
+
 3. Buscar y descargar: Adafruit GFX library - SSD1306 (la más reciente) -
 
 Palabras clave
 
-`GEX`-> Son gráficas
+`GFX`-> Son gráficas
 
-`SCRIPT` -> Automatización 
+`SCRIPT` -> Automatización
 
 `BIX` -> 225 (Cuestionarse por qué ese número, ya que puede variar)
 
@@ -42,7 +42,7 @@ Palabras clave
 
 (Nota: Sigo pasando en limpio mis apuntes)
 
-Definir grupos de trabajo 
+Definir grupos de trabajo
 
 ## Grupo: SOUNDI
 

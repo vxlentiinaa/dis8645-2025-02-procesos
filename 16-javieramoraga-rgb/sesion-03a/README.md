@@ -75,7 +75,6 @@ noPuedoNoMas();
 
 ***
 
-
 ```cpp
 
   OPERADORES LÓGICOS

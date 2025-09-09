@@ -1,16 +1,17 @@
 # sesion-03b
+
 22-08-25
 
 presentacion de materiales que utilizaremos en la sesion 04a :
 
 - mini protoboard 170 puntos
- 
+
    ![mini proto](./imagenes/mini-protoboard.jpg)
   
 - pantalla oled
- 
- ![pantalla oled](./imagenes/pantalla_oled.webp) 
- 
+
+ ![pantalla oled](./imagenes/pantalla_oled.webp)
+
 display resolution: numero de pixeles en cada dimensión que pueden mostrarse.
 
 daniel cruz --> artista visual que trabaja con pantallas led
@@ -41,9 +42,9 @@ SDA --> datos
 
 ![pinout diagrama](./imagenes/pinoutdiagram.webp)
 
-library --> biblioteca de codigos 
+library --> biblioteca de codigos
 
-usamos la biblioteca de adafruit 
+usamos la biblioteca de adafruit
 
 adafruit, creada por ladyada
 
@@ -60,6 +61,7 @@ esos números son hexadecimales que significan otras cosas en binario
 if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) { // ! quiere decir "lo contrario"
 
 ## funciones
+
 ejemplos de funciones:
 
 pantallita.clearDisplay(); // Limpiamos toda la pantalla
@@ -120,11 +122,11 @@ void loop() {
   delay(1000);
 }
 ```
+
 podemos incluir imagenes conviertiendolas a bit.
 
 lo podemos hacer con la siguiente página:
 
-https://javl.github.io/image2cpp/
+<https://javl.github.io/image2cpp/>
 
 fijarse bien en el tamaño de la imagen y en la resolución.
-

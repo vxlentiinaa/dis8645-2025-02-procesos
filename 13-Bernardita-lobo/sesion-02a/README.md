@@ -86,11 +86,31 @@ La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de 
 
 ![foto de la entrega de producto](./imagenes/tmc-sesion02a-foto02.jpeg)
 
+### Referentes
+
+- [Nicholas Negroponte](https://es.wikipedia.org/wiki/Nicholas_Negroponte)
+
+- [Jazmin Adler](https://jazminadler.com.ar/)
+
+- [Jorge Crowe](https://www.jcrowe.xyz/)
+
+- [Yuk Hui](https://es.wikipedia.org/wiki/Yuk_Hui)
+
+- [John Cage](https://es.wikipedia.org/wiki/John_Cage)
+
+- [Sokio](https://sokio.studio/)
+
+- [Georgia Tech](https://www.gatech.edu/)
+
+- [Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
+
+- [Gordon Matta-Clark](https://proyectoidis.org/gordon-matta-clark/)
+
 ### Palabras importantes
 
 [IoT:](https://en.wikipedia.org/wiki/Internet_of_things) the Internet of Things, o el Internet de las cosas, describe dispositivos con sensores, capacidad de procesamiento, software y otras tecnologías que conectan e intercambian datos con otros dispositivos y sistemas a través de Internet u otras redes de comunicación.
 
-[Terminal:](https://www.lenovo.com/es/es/glossary/terminal) Un terminal es esencialmente una interfaz de usuario basada en texto para interactuar con los ordenadores. Permite a los usuarios ejecutar comandos y ver los resultados, así como controlar las aplicaciones que se ejecutan en el ordenador. 
+[Terminal:](https://www.lenovo.com/es/es/glossary/terminal) Un terminal es esencialmente una interfaz de usuario basada en texto para interactuar con los ordenadores. Permite a los usuarios ejecutar comandos y ver los resultados, así como controlar las aplicaciones que se ejecutan en el ordenador.
 
 [BASIC:](https://www.techtarget.com/whatis/definition/BASIC-Beginners-All-purpose-Symbolic-Instruction-Code) abreviatura de Código de Instrucciones Simbólicas Multiuso para Principiantes, es un lenguaje de programación inicial diseñado para ayudar a usuarios y estudiantes sin conocimientos técnicos a resolver problemas sencillos con una computadora. Con sus comandos sencillos y su sintaxis intuitiva, BASIC sigue siendo uno de los lenguajes de programación más sencillos desarrollados en la era informática.
 

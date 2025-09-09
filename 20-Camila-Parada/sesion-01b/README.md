@@ -12,7 +12,7 @@ Tuve inconvenientes para llegar a la hora, dado que se les ocurrió romper una c
 
 ### Apuntes escritos de la grabación
 
-![imagen](./archivos/.)
+`![imagen](./archivos/.)`
 
 ▼ Descripción de la imagen. Obtenido de: cita
 
@@ -76,7 +76,7 @@ Continuando con el análisis se pueden encontrar funciones tales como:
 
 - currentState[currentHighLed]  = LOW; (línea usada para identificar en qué estado se encuentra el led)
 
--  if es una condición que se cumple solo si existen requisitos previamente declarados (5)
+- if es una condición que se cumple solo si existen requisitos previamente declarados (5)
   
 Links de consulta: [1. Aprender a programar](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=899:tipos-de-datos-en-c-declarar-variables-enteras-int-long-o-decimal-float-double-char-inicializacion-cu00510f&catid=82&Itemid=210)
 
@@ -126,7 +126,6 @@ delay(250);
 ![imagen](./imagenes/arduino-montado.jpeg)
 
 ▼ Fotografía del mini circuito armado. Obtenido de: recurso propio.
-
 
 ![imagen](./imagenes/arduino-trabajando.gif)
 

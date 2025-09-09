@@ -24,8 +24,7 @@ hay dos variables y un resultado,
 - cuando las dos son verdad, son verdad.
 - cuando hay una verdadera y la otra falsa, es falso.
 
-**DOCUMENTACIÓN DE ARDUINO**
-[https://docs.arduino.cc/language-reference]
+**DOCUMENTACIÓN DE ARDUINO** <https://docs.arduino.cc/language-reference>
 
 ### **operadores lógicos**
 
@@ -64,7 +63,7 @@ if (condición) {
 - si esto es verdad, esto pasa. Y si es falso, esto pasa.
 - Una cosa es la condición (va entre paréntesis) y se cumplirán ciertas condiciones para que pase algo.
 
-### Ejemplos... (para cualquier lenguaje de programción)
+### Ejemplos... (para cualquier lenguaje de programación)
 
 ```cpp
 if (ver == false) {

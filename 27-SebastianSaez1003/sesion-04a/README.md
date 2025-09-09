@@ -4,7 +4,7 @@ Como contenido de clase, los profes nos enseñaron cómo colocar un potenciómet
 
 También nos enseñaron la función interna de la protoboard, donde cada columna numerada tendrá la misma conexión, como si fuese un cable continuo.
 
-Si existe una entrada análoga, debería solo recibir una sola señal, es de super malos modales el conectar más de una cosa.
+Si existe una entrada análoga, debería solo recibir una sola señal; es de malos modales el conectar más de una cosa.
 
 “Las cosas que son reales son análogas”. Aarón Montoya 2025
 

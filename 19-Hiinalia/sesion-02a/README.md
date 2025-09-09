@@ -17,7 +17,7 @@ El USB solo tiene una velocidad específica para comunicarse, por lo cual se uti
 
 Persistencia visual: Te hace percibir cosas fluidas con imágenes estáticas.
 
-Buena página web para buscar referencias de código 
+Buena página web para buscar referencias de código
 
 ## Clase Github
 
@@ -55,9 +55,9 @@ Siempre subir a Github carpetas completas con los archivos. Nunca subir solo el 
 Sokio compositor y productor
 Organización new latin wave
 
-instagram de Sokio 
-Sokio Studio 
-Opera Paraíso 
+instagram de Sokio
+Sokio Studio
+Opera Paraíso
 
 Hizo una ópera usando samplers.
 Samplers: Instrumento dedicado a dar muestras de sonido y usarlo en un teclado para secuenciar en un software musical.
@@ -66,7 +66,7 @@ Voz procesada, cantante lírico, modificación de la música hasta encontrar su 
 Inauguración teatro Matucana 100
 2023 opera experimental sobre inmigración a EEUU llamada **paraíso** (con instrumentos reales)
 
-Sinclair: Computador de los años 80 
+Sinclair: Computador de los años 80
 Akai S2000: Sintetizador utilizado por Sokio
 Con 8MB creo una ópera utilizando el Akai S2000.
 
@@ -74,7 +74,7 @@ Hoy en día, trabaja con teenage.engineering (), lideres dentro del diseño indu
 
 Hay algunos artistas que solo utilizan sintetizadores en vez de otros instrumentos porque son capaces de emular todos los instrumentos que podrían llegar a necesitar.
 
-Sintetizador más vendido 
+Sintetizador más vendido
 
 Sokio actual:
 

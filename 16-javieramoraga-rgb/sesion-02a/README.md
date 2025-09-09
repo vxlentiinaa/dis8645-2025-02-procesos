@@ -6,7 +6,7 @@
 
 + **BAUD RATE** → Velocidad de comunicación.  
 
-> "Uno le dice al Arduino: te voy a hablar a 9600" 
+> "Uno le dice al Arduino: te voy a hablar a 9600"
 > "El monitor serial es un ojo. El `begin` le dice:  
 > 'ábrete'  
 > 'cuándo'  
@@ -16,7 +16,7 @@
 
 ## USB  
 
-+ **U → Universal** → Estándar → *"funciona pa' mí y pa' Marte"* 
++ **U → Universal** → Estándar → *"funciona pa' mí y pa' Marte"*
 
 + **S → Serial** → *"Te voy a decir datos, uno tras otro"* ~ Aarón → Tiene ritmo.
 
@@ -24,18 +24,18 @@
 
 ────୨ৎ────
 
-## Conceptos clave ₊˚⊹ᰔ 
+## Conceptos clave ₊˚⊹ᰔ
 
 + **Presencia visual** → Fenómeno que te hace pensar que la luz está encendida constantemente, pero en realidad está parpadeando.
   
-+  **IoT (Internet of Things)** → Red de objetos físicos conectados a internet, que recopilan e intercambian datos.
++ **IoT (Internet of Things)** → Red de objetos físicos conectados a internet, que recopilan e intercambian datos.
   
-+**Digital Being (Nicholas Negroponte)** → *"Un señor que estudió en Suiza y piensa que es clase media"* 
++**Digital Being (Nicholas Negroponte)** → *"Un señor que estudió en Suiza y piensa que es clase media"*
 
 + **Yuk Hui** → Filosofía de la tecnología.
   
 + **Realismo especulativo** → Corriente filosófica contemporánea.
-    
+
 + **Incierto y sinuoso** → Sokio → [sokio.studio](http://sokio.studio)  
 
 > Con ópera experimental *Paraíso en Nueva York*, el artista chileno Sokio retornó al género tras 20 años.  
@@ -68,7 +68,7 @@
 ### Diseño  
 
 + **Diseño industrial**
-   
+
 + **Diseño gráfico**
 
 + **Diseño de usuario**  
@@ -76,7 +76,7 @@
 + **Georgia Tech**  
   → *"Si quieren hacer un sintetizador, postulen a esto"*  
 
-- **National Sawdust**  
++ **National Sawdust**  
 
 ── .✦
 
@@ -93,10 +93,10 @@
 + **Andy Cavatorta**.
   
 + **CDM - Create Digital Music**.
-   
+
 + **NY Soundworks - Bricolo**.
   
-+ **Tutupá** 
++ **Tutupá**
 
 ## Entrga de codigos clase 12/Agosto ᝰ.ᐟ
 

@@ -1,6 +1,9 @@
 # sesion-03a
+
 19/08/25
-## primera nota 
+
+## primera nota
+
 trabajo grupal, la nota será una parte individual y otra grupal
 
 IMPORTANTE:
@@ -10,10 +13,11 @@ IMPORTANTE:
 - tener proceso, documentación y justificación
 - originalidad con el ponteciometro para controlar la pantalla
 
-## condicionales 
+## condicionales
+
 ![condicionales](./imagenes/condicionales-if.svg)
 
-if --> es una condicion y tendrá una consecuente, sirve para hacer o no un codigo y se puede expandir con nomenclatura 
+if --> es una condicion y tendrá una consecuente, sirve para hacer o no un codigo y se puede expandir con nomenclatura
 
 ```cpp
 If (Boolean condition) Then
@@ -38,10 +42,10 @@ is(suciedad == true){
  continuarConMiVida();
 }
 ```
+
 ## Otros operadores de comparación/desigualdad
 
-
-Además de "==", existen otros operadores de comparación como "!=" (desigualdad), ">" (mayor que), "<" (menor que), ">=" (mayor o igual que), y "<=" (menor o igual que). 
+Además de "==", existen otros operadores de comparación como "!=" (desigualdad), ">" (mayor que), "<" (menor que), ">=" (mayor o igual que), y "<=" (menor o igual que).
 
 ```cpp
 // si no hay arana
@@ -65,7 +69,7 @@ else{
 
  ! --> lo contrario
  AND --> devuelve verdadero (o true) solo si ambos operandos o condiciones son verdaderos. Si al menos uno de los operandos es falso, el resultado de la operación AND será falso.
- 
+
  ```cpp
 if(diciembre AND donFrancisco == true AND !godzilla AND !elecciones){
  teleton();
@@ -99,6 +103,7 @@ void loop() {
 
 }
 ```
+
 millis() cuenta el tiempo desde que se prendió el arduino
 
 ### codigo que usamos con if
@@ -144,16 +149,18 @@ void loop() {
 
 }
 ```
+
 poner comentarios poner comentarios poner comentarios poner comentarios poner comentarios poner comentarios
 
-## operadores logicos 
-AND --> y , se deben cumplir todas las condiciones para que sea true 
+## operadores logicos
 
-si + si == si 
+AND --> y , se deben cumplir todas las condiciones para que sea true
+
+si + si == si
 
 OR --> o , si alguna de las entradas es si, la respuesta es si/ true
 
-NOT --> no , es lo contrario, o un inversor, si esta en 1 == 0, si esta en 0 == 1, es indepentiende y le sirve cualquier variable 
+NOT --> no , es lo contrario, o un inversor, si esta en 1 == 0, si esta en 0 == 1, es indepentiende y le sirve cualquier variable
 
 el orden de los operadores logicos no cambia el resultado
 
@@ -161,7 +168,7 @@ investigar:
 
 - NAND --> produce un resultado falso solo si ambas entradas son verdaderas.
 - NOR --> su salida es 1 solo cuando todas sus entradas son 0.
-- XOR --> salida verdadera (1) solo cuando una y solo una de sus entradas es verdadera. 
+- XOR --> salida verdadera (1) solo cuando una y solo una de sus entradas es verdadera.
 
 para iterar ocupamos: i
 
@@ -185,8 +192,9 @@ hazEsto();
 
 }
 ```
+
 command + t --> para ordenar el codigo
 
 modulo es solo para numeros enteros, me da directamente el resto
 
-repasar y experimentar if, else , for, not 
+repasar y experimentar if, else , for, not

@@ -10,8 +10,8 @@ Nota del día: soy muy mala en ortografía, perdón de antemano si faltan alguna
 - CDM  <https://cdm.link/>
 - synthopia  <https://www.synthtopia.com/>
 - bricolo (robot música)
-- Roberto Matta (arquitecto y pintor chileno)
-- Juan Downey (artista chileno)
+- **Roberto Matta** (arquitecto y pintor chileno)
+- **Juan Downey** (artista chileno)
 - Taller dinamo <https://www.instagram.com/tallerdinamo?igsh=djd2N3Exc2g1Z3l3>
 - Design System International
 - MIT Media Lab
@@ -34,7 +34,7 @@ Se usa dentro de void setup()
 
 ### Como usar github
 
-#### consideraciones de la página/programa:
+#### consideraciones de la página/programa
 
 1. Siempre modificar los archivos desde el repositorio del orginal (personal - forked from).
 2. "BRANCH" siempre debe mantenerse en 1.

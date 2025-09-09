@@ -1,6 +1,9 @@
 # sesion-02a
+
 ## Entrega de intentos de códigos
+
 ### CÓDIGO 1 (con error)
+
 ```cpp
 //declarar palabra y caracter a utilizar
 string palabra = "XOXO";
@@ -24,7 +27,9 @@ delay(tiempoApagado);
 }
 
 ```
+
 ### CÓDIGO 1 (sin error)
+
 ```cpp
 //declarar palabra y caracter a utilizar
 String palabra = "XOXO";
@@ -47,9 +52,11 @@ delay(tiempoPrendido);
 delay(tiempoApagado);
 }
 ```
+
 ![intento de código con error](./imagenes/intentoArduinos1.png) (no se cómo colocarlo bien, ya que no me lleva a la foto)
 
-### CÓDIGO 2 
+### CÓDIGO 2
+
 Quería realizar un código en donde al apretar la tecla 1 de mi computador, la luz Led se prendiera una vez, y al apretar la tecla 2, la luz se prendiera dos veces, pero no supe como realizarlo.
 
 ```cpp
@@ -72,8 +79,11 @@ if (tecla == '1') {
   digitalWrite(LUZLED, LOW);
 }
 ```
+
 ![intento de código 2](./imagenes/intentoArduinos2.png)
-### CÓDIGO 3 
+
+### CÓDIGO 3
+
 Quería que la frase "tengo sueño" se tradujera en código morse a través de la luz led.
 No se si de verdad se traduce como debe ser en morse.
 

@@ -6,11 +6,12 @@ Clases por **Zoom**, ya que nos cancelaron las clases presenciales.
 
 ---
 
-## Apuntes  
+## Apuntes
 
 Usamos [Wokwi](https://wokwi.com) ya que no pudimos utilizar las pantallas que íbamos a trabajar en clases presenciales.  
 
 ### Conexión de la pantalla OLED SSD1306 al Arduino UNO  
+
 Esta pantalla utiliza el protocolo **I2C**, el cual funciona solo con 4 cables:  
 
 ![OLED](./imagenes/image.png)
@@ -42,6 +43,7 @@ En Arduino IDE también hay que instalar las librerías:
 ### Ejemplo 1  
 
 Un **contador digital** en la pantalla OLED:  
+
 - Muestra un mensaje fijo en la parte superior.  
 - Muestra un número grande en la parte inferior que va aumentando cada segundo.  
 
@@ -105,7 +107,7 @@ void loop() {
 
 ### Ejemplo 2
 
-Usamos **javl.github.io** que es una pagina que tranforma imajenes en pixeles 
+Usamos **javl.github.io** que es una pagina que tranforma imajenes en pixeles
 
 <https://javl.github.io/image2cpp>
 
@@ -290,7 +292,7 @@ void loop() {
 }
 ```
 
-#### Mis Ejercicios 
+#### Mis Ejercicios
 
 Mi codigo hace que tres párrafos van apareciendo y desapareciendo en distintas posiciones, repitiéndose en un bucle continuo.
 
@@ -460,11 +462,6 @@ void loop() {
   pantallita.display(); // Actualiza la pantalla
 
   pantallita.clearDisplay(); // Limpiamos toda la pantalla
-
-  
-
-  
-
 
 }
 ```

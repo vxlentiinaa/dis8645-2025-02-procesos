@@ -16,7 +16,7 @@ Nos sirvió mucho un código que servía para [controlar un servomotor con el po
 
 Carla y Bernardita se encargaron de hacer que una la imagen aparezca como queríamos
 
-![imagen del pixelart](./imagenes/pixelart.jpeg) 
+![imagen del pixelart](./imagenes/pixelart.jpeg)
 
 ## POTENCIÓMETRO
 

@@ -1,5 +1,7 @@
 # sesion-01a
 
 hola
-no se que hicieron en esta clase porque no tenia este ramo inscrito
-adios.
+
+no sé que hicieron en esta clase porque no tenía este ramo inscrito
+
+adiós.

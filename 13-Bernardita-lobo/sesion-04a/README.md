@@ -14,11 +14,11 @@ Hablamos un poco sobre la documentación subida a GitHub, ya que recién comenza
 
 Todas las cosas del Proyecto-01 se irán subiendo a la carpeta, y se mostrará el README con los poemas.
 
-¿Qué significa “poema”? pro-yein que significa “lanzar hacia adelante” o “proyectar” 
+¿Qué significa “poema”? pro-yein que significa “lanzar hacia adelante” o “proyectar”
 
 página que cita en apa <https://www.bibguru.com/es/>
 
-Poemas del Alma. (s.f.) “Cronos” – Nicanor Parra. Recuperado de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
+>Poemas del Alma. (s.f.) “Cronos” – Nicanor Parra. Recuperado de <https://www.poemas-del-alma.com/nicanor-parra-cronos.htm>
 
 ```txt
 "En Santiago de Chile
@@ -72,12 +72,11 @@ Sin embargo, la pantalla que utilizamos tiene ciertas limitaciones, ya que solo 
 
 ![imagen](./imagenes/dibujo.png)
 
-Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
-
-Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
+>Video de referencia introductoria al pixel art. [CÓMO HACER PIXEL ART: Guía completa para principiantes ||Conceptos básicos, trucos y consejos.](https://youtu.be/YyC2i91EwNw?si=XXv2mYEYJoBRogo8)
+>
+>Video de referencia sobre el trazado en el pixel art. [CÓMO HACER PIXEL ART: Uso de Líneas y errores comunes (Doubles y Jaggies)](https://youtu.be/sGLBMKD7eDc?si=nGjneOnJ1f0_kIvZ)
 
 Luego, utilicé una página web que convierte dibujos en código, transformándolos en ceros y unos. Esta herramienta me permitió llevar el pixel art a la pantalla de manera más sencilla. <https://javl.github.io/image2cpp/>
-
 
 ```cpp
 const unsigned char PROGMEM smiley_bmp[] = {

@@ -42,7 +42,7 @@ continuamosTransmisionesNormales ();
 
 for(lunes;domingo; dia=dia+1)
 {
-hazEsto(); 
+hazEsto();
 }
 
 ### ejemplo funcion

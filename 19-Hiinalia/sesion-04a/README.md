@@ -589,18 +589,16 @@ Protoboards tienen un rio. Divide cada hemisferio y no se crea una conexión ent
 
 Para conectar el potenciómetro, se conecta en un hemisferio, y se alinea un cable hacia el otro hemisferio para conectarlo a la pantalla conectada al otro lado.
 
-
 *Diferencia entre análogo y digital*
 En pocas palabras, análogo es fluido, y digital es estático.
 
-
 ## Trabajo en sala de interacción para proyecto 1
 
-Nos pusimos bien de acuerdo para entender que es a lo que queremos llegar. 
+Nos pusimos bien de acuerdo para entender que es a lo que queremos llegar.
+
 Con el seba estamos trabajando en conjunto para crear el código.
 
 Se nos ocurrió que para llevar a cabo las distintas conversaciones dentro del código, consideramos que si no teníamos cuidado, dentro de una de las conversaciones se podía a ir a una conversación incorrecta. Las funciones ```if``` son parte fundamental dentro de esto, además de las variables booleanas.
-
 
 Está considerado como un árbol de respuestas.
 Dejamos listas las variables booleanas que vamos a usar
@@ -711,6 +709,7 @@ void loop() {
 
 
 ```
+
 Nos dimos cuenta de cuál era el error al leer la pestaña de output de los errores, el uso de AND al parecer no era el correcto, así que los cambiamos por los ampersands (&&). Una vez lo cambiamos, empezó a funcionar.
 
 ```cpp
@@ -788,6 +787,7 @@ void loop() {
 
 
 ```
+
 Ahora solo nos faltaría solo probar que funcione con el potenciómetro y con la pantalla integrada, así que vamos a integrar las librerías de adafruit y otras variables. Nos basamos a partir de el ejemplo de
 [sesion-03b/ejemploPantallita01](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-03b/ejemploPantallita01)
 
@@ -796,6 +796,7 @@ Ahora solo nos faltaría solo probar que funcione con el potenciómetro y con la
 Mi pantallita dejó de funcionar, así que estaré utilizando la plataforma Wokwi para hacer cualquier prueba de código. No moví absolutamente nada de mi arduino, así que no sé cuál pudo haber sido el problema. Cuando lo encendí, la pantalla se encendió por completo y después dejó de funcionar. Pero bueno, cosas que pasan.
 
 Actualmente estoy investigando en lo último que hizo seba. Donde solo se muestra waos1, waos3, y waos6.
+
 Revisando el código, me dí cuenta que el seba puso al revés el ángulo del potenciómetro, a pesar de que habíamos llegado a una cierta lógica con eso.
 
 Lo que hizo el seba:
@@ -812,6 +813,7 @@ else if (anguloDelPote > 512){
 ```
 
 Lo cambié a:
+
 ```cpp
 if (anguloDelPote > 512){
   poteValor = true;
@@ -824,6 +826,7 @@ else if (anguloDelPote < 512){
 ```
 
 Ahora el código quedo así, aunque aún falta solucionar el problema principal:
+
 ```cpp
 // librerias para funcionamiento de pantallita
 #include <Wire.h>
@@ -1251,15 +1254,17 @@ String conversa7 = "waos7";
   pantallita.display();
 }
 ```
+
 Y esto fue lo que se mostró en el simulador:
 ![Resultado corrección](./imagenes/solo_aparece_waos1.jpeg)
 
 Mientras buscaba qué más podía hacer, también le pedí a mi señor padre, que es programador también, su opinion al respecto. Me dijo que el problema que veía era dentro de las condicionales. waos1 probablemente funciona bien porque es el único sin una condicional. Por lo que definitivamente las condiciones eran el problema.
 Dijo que como ejemplo;
+
 ```cpp
 if(respCon3 == true && poteValor == true && !respCon6 == true && !respCon7 == true)
 ```
+
 Se quiere llamar a respCon3, pero dijo que no era necesario comparar las variables booleanas. Simplemente con usar if(respCon3) debería funcionar. Estuve buscando alguna referencia para poder confirmar bien todo esto y también entender mejor.
 Encontré este link <https://www.reddit.com/r/javascript/comments/2ec0bz/should_i_say_boolean_truefalse_in_an_if_statement>
 Hablan de que hacer una comparación así es mala práctica ya que es redundante y puede llegar a confundir la lógica que se está estableciendo dentro del programa. Además de hacer el código más ordenado.
-

@@ -3,14 +3,15 @@
 ## Apuntes
 
 ### Arduino
-- A modo de intruccion en el como comunicarse a la gente nueva del curso, se les mostró como hacer envio de correo de una manera correcta. 
+
+- A modo de intruccion en el como comunicarse a la gente nueva del curso, se les mostró como hacer envio de correo de una manera correcta.
 - Comenzamos a utilizar arduino.
 - Instalamos Arduino IDE
 - Instalar el Board Manager de placa R4.
 - Conectar cable usb tipo c y seleccionar dispositivo en barra superior.
 - En FILE se pueden encontrar examples como Blink.
 
-````CPP
+```cpp
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -24,8 +25,9 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);                      // wait for a second
 }
-````
-- Comentarios //linea 
+```
+
+- Comentarios //linea
 // línea individual
 - setup() se hace solo 1 vez al encender.
 - loop() repite siempre lo que quieres que pase todo el tiempo.
@@ -36,10 +38,9 @@ void loop() {
 - Serial.print(variable) → muestra datos en consola
 - \n → nueva línea en consola. FRANUDP ME AYUDO CON ESTO
 
-## encargo
+## encargo-03
 
-Crear variables y fallar. 3 codigos que no funciones y registrarlos. 
-
+Crear variables y fallar. 3 codigos que no funciones y registrarlos.
 
 ### Error 1
 
@@ -58,11 +59,13 @@ void loop() {
   delay(1000); // Espera 1 segundo antes de volver a imprimir
 }
 ```
+
 ![imagen de primero error](./imagenes/error1.png)
 
-### Error 2 
+### Error 2
 
 Modifique el codigo de ejemplo de [Serial.readString()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/readString), el cual lee las palabras que se envían a través del puerto serial y los guarda como un string.
+
 ```cpp
 //https://docs.arduino.cc/language-reference/en/functions/communication/serial/readString
 //Quiero crear una conversacion con distintas respuestas en el serial monitor
@@ -85,9 +88,10 @@ void loop() {
   }
 }
 ```
+
 ![imagen de primero error](./imagenes/error2.png)
 
-### Error 3 
+### Error 3
 
 Esto no es tanto un error, pero igual es algo que, para mí, genera un conflicto leve. Pido perdón por esto, pero no se me ocurría qué más hacer, así que simplemente fui jugando con un ejemplo y viendo qué pasaba. Al modificar el ejemplo Blink y cambiar el high-low a high-high, ocurría que:
 
@@ -98,6 +102,7 @@ Esto no es tanto un error, pero igual es algo que, para mí, genera un conflicto
   delay(1000);                      // wait for a second
 }
 ```
+
 [![Registro Error ???](https://img.youtube.com/vi/3wDIDZGPhik/0.jpg)](https://youtu.be/3wDIDZGPhik)
 
 La primera línea digitalWrite(LED_BUILTIN, HIGH) enciende el LED, mientras que la segunda línea digitalWrite(LED_BUILTIN, HIGH) intenta encender el LED de nuevo, pero como ya estaba encendido, no hay un cambio. Resultando en que El resultado es que el LED se enciende al principio y nunca vuelve a recibir la instrucción de apagarse.

@@ -58,7 +58,7 @@ Investigar:
 
 - Ada Lovelace
 
-- Alan Turig
+- Alan Turing
 
 ## información relevante
 

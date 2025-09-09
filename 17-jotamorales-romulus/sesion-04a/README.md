@@ -1,7 +1,8 @@
 # sesion-04a
+
 ## PREPARACION PROYECTO 1
 
-Continuamos trabajando en el proyecto ya con las tareas designadas. llegue un poco tarde por problemas en Metro San Pablo. Intentar salir más temprano. 
+Continuamos trabajando en el proyecto ya con las tareas designadas. llegue un poco tarde por problemas en Metro San Pablo. Intentar salir más temprano.
 
 - Fran: función traducción binario
 
@@ -11,9 +12,7 @@ Continuamos trabajando en el proyecto ya con las tareas designadas. llegue un po
 
 - Josefa: buzzer
 
-
 ----------
-
 
 ### Proyecto HAIKU
 
@@ -23,7 +22,6 @@ Nuestra idea es crear un haiku que se pueda leer en una pantalla OLED de 128 × 
 
 El haiku es un poema de origen japonés. Es breve, de tres líneas. Hay distintas reglas de escritura; la que elegimos cuenta con tres versos: la primera línea tiene 5 sílabas, la segunda 7 y la tercera 5. Normalmente habla de la naturaleza o de un sentimiento, y busca transmitir mucho con pocas palabras. En nuestro caso, quisimos alejarnos un poco de eso y hacerlo relacionado con lo que estamos haciendo y bien sencillito.
 
-
 ````cpp
 Poema
 - Codigo Arduino
@@ -31,8 +29,7 @@ Poema
 - Cerebro fundido
 ````
 
-
-![dibujoenpantalla](./imagenes/1.jpg) 
+![dibujoenpantalla](./imagenes/1.jpg)
 
 ### Trabajo en clases
 
@@ -48,9 +45,7 @@ Poema
   
 - Durante la clase, se nos recomendó ajustar lo que se muestra en pantalla para que la parte superior no aparezca amarilla. Por ello, modificamos el tamaño de las imágenes directamente en Paint y luego las subimos a [image2cpp](https://javl.github.io/image2cpp), bajando un poco las imágenes para evitar la aparición de la línea amarilla en la parte superior."
 
-
-![dibujoenpantalla](./imagenes/2.png) 
-
+![dibujoenpantalla](./imagenes/2.png)
 
 ````cpp
 
@@ -239,13 +234,12 @@ void loop() {
 
 - Aproveché la tarde para ver como mostrar texto en pantalla y probar un buzzer en el arduino.
 
-
-![textoenpantalla](./imagenes/3.jpg) 
+![textoenpantalla](./imagenes/3.jpg)
 
 ![buzzer](./imagenes/4.jpg)
 
-
 Prueba en texto en pantalla
+
 ````CPP
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
@@ -275,9 +269,8 @@ void loop() {
 }
 ````
 
-
-
 BUZZER
+
 ````CPP
 \\https://github.com/johannpereze/cursoArduinoJohannPerezE/blob/main/Clase%2023/Active_Buzzer_Clase_23/Active_Buzzer_Clase.ino
 //int buzzPin = 8;
@@ -337,6 +330,7 @@ void loop() {
 - Durante la tarde, franUDP logró terminar el código binario, pudiendo traducir de texto normal a binario. Durante el jueves, tenemos que intentar juntar los códigos.
 
 ### SCROLL
+
 - Mateo nos entrego este recurso para el scroll vertical. El código hace que un texto wse mueva por la pantalla OLED y, cuando llega al final, vuelve a aparecer desde arriba. El delay controla la velocidad del movimiento.
 
 ````CPP
@@ -381,6 +375,7 @@ void loop() {
   delay(50); // Ajusta la velocidad del scroll
 }
 ````
+
 [avance proyecto](https://youtu.be/8UDNwfuX83s)
 
 Scroll vertical con potenciometro
@@ -505,8 +500,3 @@ void loop() {
   delay(10);
 }
 ````
-
-
-
-
-
