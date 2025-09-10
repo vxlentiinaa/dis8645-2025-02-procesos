@@ -27,8 +27,6 @@ Es un software para programar audios.
 - touchdesinger
 - isadora software
 - programación en estado de objetos
-- [Studio for Creative inquiry](https://studioforcreativeinquiry.org/) investigación creativa - [libro](https://drive.google.com/file/d/1nINNHaT2K8J4e0vC1CEPemVNpAJVJPi5/view?usp=drive_link)
-- [Hacia una filosofía de la fotografía - capítulo 3](https://monoskop.org/images/8/8d/Flusser_Vilem_Hacia_una_filosofia_de_la_fotografia.pdf)
 - [lauren lee mccarthy tools for improved social interacting](https://get-lauren.net/Tools-for-Improved-Social-Interacting)
 - [renata gaui hysterical wearable](https://vimeo.com/215600031?fl=pl&fe=sh)
   
@@ -78,3 +76,40 @@ Tienen mic
 ## Encargo
 
 Investigar sensor elegido en clases y buscar tres ideas de cómo utilizarlo.
+
+### Sensor de proximidad HC­-SR04
+
+![sensores](./imagenes/sensor.jpg)
+
+![sensores1](./imagenes//sensor1.jpg)
+
+- Capazdedetectar objetos y calcular ladistanciaalaque se encuentra en un rangode 2 a 450cm.
+
+- El sensor posee dos transductores, un emisor y un receptor, piezoeléctricos.
+  
+- El funcionamiento de este es porque el emisor, piezoeléctrico, emite 8 pulsos de ultrasonido.
+Luego, de recibir la orden en el pin TRIG, las ondas de sonido viajan en el aire y rebotan al encontrar un objeto, el sonido de rebote es detectado por el receptor piezoeléctrico.
+Después,el pin ECHO cambia a Alto por un tiempo igual al que demoró la onda, desde que fue emitida hasta que fuedetectada.
+
+---
+
+- VCC -> +5V DC
+- TRIG -> Disparo del ultrasonido
+- ECHO -> Recepción del ultrasonido
+- GND -> 0V
+
+---
+
+- En el pdf de "**ULTRASONIC-HC-SR04** sensor de distancia ULTRASONICOHC-SR04" sale un ejemplo de cómo conectarlo al arduino y programarlo.
+
+![ejemplosensor](./imagenes/ejemplosensor.png)
+
+![programacionejemplo](./imagenes/programacioejemplo.png)
+
+### Referentes
+
+- <https://www.alldatasheet.com/view.jsp?Searchword=Hcsr04&gad_source=1&gad_campaignid=1434060638&gbraid=0AAAAADcdDU_3WQz4u0DzpZeXNn-3MtZrJ&gclid=Cj0KCQjww4TGBhCKARIsAFLXndTs1R1fS00TREmq_0RvPVZ1qDk8mfWRS0penD4mX2Y5jNh88lqOTgaAmVzEALw_wcB>
+- <https://agelectronica.lat/pdfs/textos/U/ULTRASONIC-HC-SR04.PDF>
+- <https://proyectosinteresantes.com/10-proyectos-de-arduino-con-el-sensor-ultrasonico-hc-sr04/>
+
+### Ideas de cómo utilizarlo
