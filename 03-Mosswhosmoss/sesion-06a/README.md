@@ -20,4 +20,19 @@ Grupos de entre cuatro y cinco personas, el grupo no pude ser comformado como el
 El proyecto va a ser una maquina saludadora, inspirada en el programa de enseñanza de programación "Hello World" 
 ![muestra](imagenes/001-Agile-Hello-World.png)
 
+## investigación sensor 
+
+### Nombre sensor
+
+Módulo KY-040 o rotary encoder
+
+### ¿Qué es?
+
+Es un codificador incremental con dos salidas levemente desfasadas, gracias a esto, veremos que se puede saber en qué dirección estamos girando el eje.
+
+Un encoder rotativo tiene un número fijo de posiciones por revolución. El KY-40 tiene treinta, estas posiciones son marcadas por clicks conforme se va girando el encoder. Además, posee un pulsador interno.
+
+### ¿Cómo funciona?
+
+
 
