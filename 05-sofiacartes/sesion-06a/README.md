@@ -37,6 +37,8 @@ Es un software para programar audios.
 - yaml: tipo de lenguaje para configurar cosas “para decir las cosas son así”.
 - lo que está un poquito mas adentro, es lo que está adentro.
 
+---
+
 ### Ejemplo:
 
 on
