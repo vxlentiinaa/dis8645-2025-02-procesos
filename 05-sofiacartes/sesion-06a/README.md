@@ -63,9 +63,7 @@ on
   Potenciometro 5 patas encoder rotatorio, no tiene límite.
   
 - Sensores de humedad
-- Sensor de lluvia, resistencia experimental -> Sensores pasivos
-  
-(Hay otro y se ocupa para el nivel del agua)
+- Sensor de lluvia, resistencia experimental -> Sensores pasivos. (Hay otro y se ocupa para el nivel del agua).
 
 - Joistik
 
