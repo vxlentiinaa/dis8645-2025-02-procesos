@@ -32,5 +32,14 @@ las clases se usan cuando queremos crear estructuras de datos; cuando no nos cab
 
 class Texto {}
  ```
+---
+
+### Actividad en clases
+
+## Encargo
+
+Escuchar los dos primeros discos de Primus
+
+#### Referentes
 
 <https://www.w3schools.com/cpp/cpp_inheritance.asp>
