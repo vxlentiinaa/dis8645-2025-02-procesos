@@ -16,13 +16,13 @@ cronograma de la clase
 
 ### ¿Qué es una máquina?
 
-¨machina - Mekhane¨
+#### machina - Mekhane
 
 - artificio
 - ingenio
 - medio
 
-Máquina
+#### Máquina
 
 - Objeto físico
 - Capacidad de ejecutar correr procesos
