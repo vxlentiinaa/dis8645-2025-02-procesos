@@ -69,7 +69,7 @@
 Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saluda.
 ### Cotización de sensores vistos en clase
 
-#### Sensor ultrasónico HC-SR04
+Sensor ultrasónico HC-SR04
 - Función: Emite un pulso ultrasónico y mide el tiempo de retorno para calcular distancia.
 - Rango: 2 cm a 450 cm.
 - Cotización:
@@ -80,7 +80,7 @@ Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
   - [MCI Electronics](https://mcielectronics.cl/shop/product/sensor-de-proximidad-de-ultrasonido-hc-sr04-23582/) – $2.590 CLP
   - [Rebeltronics](https://rebeltronics.cl/shop/product/sensor-de-ultrasonido-hc-sr04-278) – $2.500 CLP
 
-#### Sensor de Temperatura y Humedad  
+Sensor de Temperatura y Humedad  
 - Función: Mide temperatura ambiente y humedad relativa.  
 - Modelos comunes: DHT11 y DHT22.  
 - Cotización:
@@ -88,7 +88,7 @@ Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
   - [Tienda8](https://www.tienda8.cl/s-humedad-y-temperatura/) – $2.900 CLP  
   - [MaxElectrónica (DHT22)](https://maxelectronica.cl/temperatura-y-humedad/892-sensor-de-temperatura-y-humedad-modelo-dht22.html) – $5.990 CLP  
 
-#### Sensor de Gas (MQ)  
+Sensor de Gas (MQ)  
 - Función: Detecta gases específicos según modelo (propano, butano, humo, monóxido, calidad del aire, etc.).  
 - Modelos comunes: MQ-2, MQ-7, MQ-135 y kits múltiples.  
 - Cotización:
@@ -97,7 +97,7 @@ Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
   - [Tienda8 (MQ-7)](https://www.tienda8.cl/sensores-de-gases/) – $3.900 CLP  
   - [Tienda8 (MQ-135)](https://www.tienda8.cl/sensores-de-gases/) – $3.500 CLP
 
-#### Encoder Rotatorio (potenciómetro sin tope)  
+Encoder Rotatorio (potenciómetro sin tope)  
 - Función: Dispositivo giratorio que entrega pulsos para medir posición/rotación sin tope mecánico (similar a potenciómetro infinito).  
 - Cotización:
   - [Electroart (KY-040 / KY-007)](https://www.electroart.cl/2160/encoder-rotatorio-ky-040-o-ky-007/) – $3.278 CLP  
