@@ -40,7 +40,8 @@ En esta sección de la clase se nos presentaron algunos sensores de Arduino con 
 
 Personalmente quise escoger un sensor que mide la “presencia” de agua.
 
-Este se compone de un transistor [J3Y](https://www.alldatasheet.net/datasheet-pdf/view-marking/226239/BILIN/S8050.html), un mini led, una resistencia de 102 y dos resistencias de 101, además de un panel (que presenta varias líneas de un material conductor) que al entrar en contacto con líquidos arroja datos e información que se traduce a señales analógicas al Arduino.
+Este se compone de un transistor NPN ["J3Y"](https://www.alldatasheet.net/datasheet-pdf/view-marking/226239/BILIN/S8050.html), un mini led, una resistencia 102 (1k ohm) y dos resistencias 101 (100 ohm), además de un panel (que presenta varias líneas de un material conductor) que al entrar en contacto con líquidos arroja datos e información que se traduce a señales analógicas al Arduino.
+
 Pese a intentar conseguir el “datasheet” (documento oficial del fabricante con toda la información de la pieza) solo pude recuperar el [manual de uso]( https://curtocircuito.com.br/datasheet/sensor/nivel_de_agua_analogico.pdf). En este se expone información básica como los usos, parámetros específicos e instrucciones para poder testear el producto.
 
 De igual forma llegué a la conclusión de que no existe un documento completo puesto que no tiene un nombre oficial (k-0135, SL067), siendo más conocido como “Water Level Detection Sensor Module”.
@@ -49,7 +50,17 @@ De igual forma llegué a la conclusión de que no existe un documento completo p
 
 ▼ Recuperado de: https://forum.arduino.cc/t/tutorial-sensor-de-fugas-de-agua-con-aviso-a-telegram/594948
 
+![imagen](./imagenes/a4.jpg)
+
+▼ Recuperado de: https://es.aliexpress.com/item/32763218957.html
+
+![imagen](./imagenes/a5.png)
+
+▼ Recuperado de: https://www.adrirobot.it/water_sensor/sensore_livello_circuito/
+
 Tras ello estuve indagando sobre como poder hacer funcionar dicho sensor.
+
+https://lastminuteengineers.com/water-level-sensor-arduino-tutorial/
 
 ***
 
