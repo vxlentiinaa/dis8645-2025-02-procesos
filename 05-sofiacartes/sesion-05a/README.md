@@ -2,13 +2,13 @@
 
 ## Apuntes clase
 
-### Clases
+-Programación orientada a objetos
+- Ontología orientada a objetos, Graham:
+- ¿Cómo definimos un objeto?
+- Para qué está hecho y para qué sirve
+- Mnomer Norms
 
-Ontología orientada a objetos, Graham:
-
-¿Cómo definimos un objeto?
-
-Para qué está hecho y para qué sirve
+---
 
 ### Definición clases
 
@@ -20,17 +20,19 @@ Una clase es un tipo de datos definido por el usuario que podemos usar en nuestr
 
 sacado de: <https://www.w3schools.com/cpp/cpp_classes.asp>
 
-- **.c, .h** -> son para c
-- c se utiliza para  y h se  utiliza para
+- **.C, .h** -> son para C
+- C se utiliza para  el título y h se  utiliza paralos encabezados
 - Bjarne desarrolló del lenguaje de programación C++.
-- se utiliza para programación de biomarcadores.
+- Se utiliza para programación de biomarcadores.
   desarrollo del lenguaje de programación C++.
 - Processing: Es un software flexible y un lenguaje para aprender a programar.
-
-Balatros lua
+- Openfranwors: entorno de programación para hacer apps en C++.
+- Swift lenguage: programar cosas en IOS
+- Balatros lua
+- Turing complete: es un lenguaje que puede hacer todo lo que un computador puede hacer.
 
 ## Arduino ide
 
 Tres puntitos -> new tab- > nueva pestaña, para tener otra pestaña en el mismo documento.
 
-Documento.h -> tipo de archivo de c++
+Documento.h -> tipo de archivo de C++

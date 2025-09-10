@@ -157,7 +157,114 @@ edadMax = 14;
 
 Lo otro es que antes de "Compania" exista una "Unidad" 
 
+---
+
+## Intento 2 - Acctividad
+
+Voy a hacer algo similar a lo que Aarón hizo en la pizarra, lo voy a usar de guía para mi código
+
+### class Grupo
+
+Dentro de un grupo hay personas, luego se define dónde se encuentra esa persona
+
+```cpp
+#ifndef GRUPO_H
+#define GRUPO_H
+
+#include "Persona.h"
+
+class Grupo {
+
+Grupo();
+
+~Grupo();
+
+Persona[]personas;
+
+agregaPersona(Persona agregada);
+}
+
+#endif
+```
+
+### class Persona
+
+```cpp
+#ifndef PERSONA_H
+#define PERSONA_H
+
+#include "Unidad.h"
+
+class Persona {
+
+Persona();
+
+~Persona();
+
+Persona(String nombre);
+
+String nombre "";
+
+Unidad[]unidad;
+
+definirUnidad();
+}
+#endif
+```
+
+### class Unidad
+
+```cpp
+#ifndef UNIDAD_H
+#define UNIDAD_H
+
+class Unidad {
+
+Unidad();
+
+~Unidad();
+
+String nombre;
+
+}
+#endif
+```
+
+### class cada unidad (ejemplo, Tropa)
+
+```cpp
+#ifndef TROPA_H
+#define TROPA_H
+
+#include "Unidad.h"
+
+class Tropa : public Unidad {
+
+Tropa();
+
+~Tropa();
+
+Tropa(String patrulla);
+
+}
+#endif
+```
+
 ## ENCARGO
 
-- escuchar los dos primeros discos de primus
+### Primus
+
+escuchar los dos primeros discos de Primus
+
+Primus es una banda estaunidense de funk metal creada en 1984. El Funk metal es un género de música que mezcla el "Funk" con el "Metal", el Funk está enfocado en la melodía rítmica y repetitiva de percusión y bajo eléctrico. El Metal se caracteriza, principalmente, por sus guitarras fuertes y distorsionadas, ritmos enfáticos, los sonidos del bajo y la batería, sule usar la voz gutural.
+
+Escuché el album "Frizzle Fry" y la primera canción que sonó duró 38 segundos. También escuché "To many Puppies" y varias más del mismo álbum
+
+Referencias:
+- <https://es.wikipedia.org/wiki/Primus>
+- <https://es.wikipedia.org/wiki/Funk_metal>
+- <https://es.wikipedia.org/wiki/Funk>
+- <https://es.wikipedia.org/wiki/Heavy_metal>
+- <>
+ 
 - ver alguna charla de Mitch Resnick

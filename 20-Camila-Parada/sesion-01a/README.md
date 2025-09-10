@@ -96,6 +96,8 @@ _Información recuperdada de:_
 1) <https://ebac.mx/blog/ada-lovelace>
 2) <https://lemelson.mit.edu/resources/ada-lovelace>
 
+***
+
 ### encargo-02: Alan Turing
 
 Matemático, informático teórico de origen británico.

@@ -1,7 +1,5 @@
 # sesion-01b
 
-CLASE 1 B
-
 Arduino es una plataforma de hardware y software de código abierto compuesta por una placa de desarrollo con un microcontrolador y un entorno de desarrollo integrado (IDE) que permite programarla para crear dispositivos electrónicos interactivos.
 
 Instalar bibliotecas en arduino, barra lateral → library manager → buscar las biblioteca para que el programa pueda entender son el lenguaje de programación que usamos
