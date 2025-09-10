@@ -32,11 +32,12 @@ las clases se usan cuando queremos crear estructuras de datos; cuando no nos cab
 
 class Texto {}
  ```
----
 
 ### Actividad en clases
 
 ## Encargo
+
+### Primus
 
 Escuchar los dos primeros discos de Primus
 
