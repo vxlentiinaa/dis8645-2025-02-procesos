@@ -102,6 +102,9 @@ Después,el pin ECHO cambia a Alto por un tiempo igual al que demoró la onda, d
 
 - En el pdf de "**ULTRASONIC-HC-SR04** sensor de distancia ULTRASONICOHC-SR04" sale un ejemplo de cómo conectarlo al arduino y programarlo.
 
+![ejemplosensor](./imagenes/ejemplosensor.png)
+
+![programacionejemplo](./imagenes/programacioejemplo.png)
 
 ### Referentes
 
