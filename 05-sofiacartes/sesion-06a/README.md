@@ -78,3 +78,37 @@ Tienen mic
 ## Encargo
 
 Investigar sensor elegido en clases y buscar tres ideas de cómo utilizarlo.
+
+### Sensor de proximidad HC­-SR04
+
+![sensores](./imagenes/sensor.jpg)
+
+![sensores1](./imagenes//sensor1.jpg)
+
+- Capazdedetectar objetos y calcular ladistanciaalaque se encuentra en un rangode 2 a 450cm.
+
+- El sensor posee dos transductores, un emisor y un receptor, piezoeléctricos.
+  
+- El funcionamiento de este es porque el emisor, piezoeléctrico, emite 8 pulsos de ultrasonido.
+Luego, de recibir la orden en el pin TRIG, las ondas de sonido viajan en el aire y rebotan al encontrar un objeto, el sonido de rebote es detectado por el receptor piezoeléctrico.
+Después,el pin ECHO cambia a Alto por un tiempo igual al que demoró la onda, desde que fue emitida hasta que fuedetectada.
+
+---
+
+- VCC -> +5V DC
+- TRIG -> Disparo del ultrasonido
+- ECHO -> Recepción del ultrasonido
+- GND -> 0V
+
+---
+
+- En el pdf de "**ULTRASONIC-HC-SR04** sensor de distancia ULTRASONICOHC-SR04" sale un ejemplo de cómo conectarlo al arduino y programarlo.
+
+
+### Referentes
+
+- <https://www.alldatasheet.com/view.jsp?Searchword=Hcsr04&gad_source=1&gad_campaignid=1434060638&gbraid=0AAAAADcdDU_3WQz4u0DzpZeXNn-3MtZrJ&gclid=Cj0KCQjww4TGBhCKARIsAFLXndTs1R1fS00TREmq_0RvPVZ1qDk8mfWRS0penD4mX2Y5jNh88lqOTgaAmVzEALw_wcB>
+- <https://agelectronica.lat/pdfs/textos/U/ULTRASONIC-HC-SR04.PDF>
+- <https://proyectosinteresantes.com/10-proyectos-de-arduino-con-el-sensor-ultrasonico-hc-sr04/>
+
+### Ideas de cómo utilizarlo
