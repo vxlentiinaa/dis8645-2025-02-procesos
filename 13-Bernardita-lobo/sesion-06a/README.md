@@ -86,8 +86,16 @@ over engineer
 
 - [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth)
 
-## Engargo-06: Sensor ultrasonico HC-SR04
+## Engargo-11: investigar sensores
 
-investigar, cotizar y buscar referentes del sensor escogido
+### Sensor ultrasonico HC-SR04
+
+Investigar, cotizar y buscar referentes del sensor escogido
 
 [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
+
+investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar
+
+### Sensor NFC
+
+
