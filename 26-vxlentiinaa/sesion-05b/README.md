@@ -149,7 +149,7 @@ Lo mismo para salado, donde se separa en `papas.h` y `suffles.h`
 - En papas, tenemos: papas Lays, papas Mom's y papas Marcopolo
 - Y en suffles, tenemos: Suflé de aros de cebolla, suflé de queso y suflé tutti-frutti
 
-![Fruna](./imagenes/nombreDeLaImagen.extension) 
+![Fruna](./imagenes/frunaBitacora.jpg) 
 
 ### Encargo
 
