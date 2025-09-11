@@ -25,9 +25,12 @@ Lint: pelusa, archivo para sacar las pelusas.
 
 ✰ Sensores:
 
-- Ultrasónico: emite un sonido y cuenta cuanto se demora en volver (es bien impreciso). Medir distancias
-- De temperatura y humedad: detecta temperatura y humedad (para ambiente)
-- De gas:
+- Ultrasonico: emite un sonido y cuenta cuanto se demora en volver (es bien impreciso). Medir distancias. Sensor de Ultrasonico HC-SR04, $1500 por unidad. [ultrasonico](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
+
+- De temperatura y humedad: detecta temperatura y humedad (para ambiente). Sensor de temperatura y humedad DHT11, $2300 por unidad. [temperatura y humedad](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11)
+
+- De gas: adecuado para detectar la presencia de Gas LP, compuesto principalmente por Propano y Butano y Gas Natural (Metano) en el aire. Sensor de Gas LP MQ6, $2300 por unidad. [de gas](https://afel.cl/products/sensor-de-gas-lp-mq6)
+
 - Encoder rotatorio: gira sin límite (diferente al potenciómetro), puede girar y clickearse, como para elegir opciones y presionar (ej: cosito de la lavadora). Encoder rotatorio KY-040 360 grados. $2000 por unidad. [encoder](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados)
 
 ![Encoder](./imagenes/encoder1.jpg)
