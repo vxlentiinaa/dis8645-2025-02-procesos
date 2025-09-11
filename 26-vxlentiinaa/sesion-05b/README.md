@@ -149,7 +149,7 @@ Lo mismo para salado, donde se separa en `papas.h` y `suffles.h`
 - En papas, tenemos: papas Lays, papas Mom's y papas Marcopolo
 - Y en suffles, tenemos: Suflé de aros de cebolla, suflé de queso y suflé tutti-frutti
 
-Insertar imagen de bitacora 
+![Fruna](./imagenes/nombreDeLaImagen.extension) 
 
 ### Encargo
 
@@ -165,7 +165,9 @@ Escuché el primer disco, Frizzle Fry de 1990, albúm debut de la banda. El disc
 
 El segundo disco que escuché fue Sailing the Seas of cheese, creado en 1991, en este albúm tocan distintas melodías, dando la impresión de que son varios bajistas. Es un disco raro, pero te dan ganas de seguir escuchando.
 
-insertar imagenes de los albumes 
+![Primus1](./imagenes/primusFrizzyFry.jpeg)
+
+![Primus2](./imagenes/primusSailingTheSeasofCheese.jpg)
 
 ---
 
