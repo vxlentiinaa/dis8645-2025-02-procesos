@@ -151,6 +151,8 @@ Lo mismo para salado, donde se separa en `papas.h` y `suffles.h`
 
 ![Fruna](./imagenes/frunaBitacora.jpg) 
 
+---
+
 ### Encargo
 
 Escuchar los dos primeros discos de Primus.
