@@ -20,3 +20,23 @@ El archivo lint está en YAML.
 
 YAML es un tipo de lenguaje que es para configurar cosas; se usa mucho para decir que las cosas son así, se parece mucho a Python.
 
+Le podemos colocar cualquier cosa que queramos. 
+
+Aquí no hay indentación, no son necesarios los murciélagos.
+
+// Sacar foto de qué está pasando en la grabación a las 09:42.
+
+Este archivo vive en nuestro repositorio.
+
+Main es el software para que la gente lo use; la branch va a estar presente cuando esté procesando un error o nueva implementación.
+
+Ubuntu es gratis y de fuente abierta.
+
+Si 2 subtítulos se llaman igual, se devolverá un error.
+
+Existen múltiples GitHub Actions, entre estas unas oficiales de Arduino [https://github.com/arduino/arduino-lint-action].
+
+Las acciones son acumulativas; te muestra el historial de las cosas que han pasado.
+
+La próxima entrega será crear nuestras propias clases, donde nos vamos a repartir las tareas.
+
