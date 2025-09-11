@@ -29,7 +29,7 @@ Las imágenes responden en directo a la música a medida que se interpreta, aña
 
 Otro entorno de programación visual/textual es Isadora de Troikatronix.
 
-![isadora](./isadora_troikatronix.jpg)
+![isadora](./imagenes/isadora_troikatronix.jpg)
 
 https://troikatronix.com/
 
