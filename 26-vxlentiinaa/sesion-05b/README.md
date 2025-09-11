@@ -170,8 +170,9 @@ insertar imagenes de los albumes
 ---
 
 Wikipedia. (24 de julio de 2025). Funk. Wikipedia. https://es.wikipedia.org/wiki/Funk
+
 Wikipedia. (4 de febrero de 2025). Funk metal. Wikipedia. https://es.wikipedia.org/wiki/Funk_metal
+
 Wikipedia. (—). Heavy metal. Wikipedia. https://es.wikipedia.org/wiki/Heavy_metal
+
 Wikipedia. (—). Primus. Wikipedia. https://es.wikipedia.org/wiki/Primus
-
-
