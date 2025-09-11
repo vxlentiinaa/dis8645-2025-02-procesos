@@ -163,27 +163,27 @@ SCRATCH
 
 #### Tres ideas
 + **1- El guardia nocturno:** Con sensor de luz.
-+ Cuando hay luz (día): LED verde encendido fijo.
-+ Cuando se apaga la luz (noche): prende un LED rojo intermintente y dice “¿Quién anda ahí?” o cosas por el estilo.
+  + Cuando hay luz (día): LED verde encendido fijo.
+  + Cuando se apaga la luz (noche): prende un LED rojo intermintente y dice “¿Quién anda ahí?” o cosas por el estilo.
 
 + **2- Sueño dramático:** Sensor de luz + pantallita
-+ Si hay mucha luz: en la pantalla LCD aparece “No puedo dormir” y un LED rojo prende.
-+ Si hay penumbra: mensaje “ahora sí, buenas noches" con LED azul.
-+ //O algo parecido pero con un parlante en vez de pantallita, que diga no puedo dormir y luego haga el típico sonido de soñando//
+  + Si hay mucha luz: en la pantalla LCD aparece “No puedo dormir” y un LED rojo prende.
+  + Si hay penumbra: mensaje “ahora sí, buenas noches" con LED azul.
+  + //O algo parecido pero con un parlante en vez de pantallita, que diga no puedo dormir y luego haga el típico sonido de soñando//
 
 + **3- El Arduino indeciso:** Sensor ultrasónico + pantalita.
-+ Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
-+ Cuando la agitas: genera una respuesta y la muestra en la pantallita.
-+ Ejemplos:
-+ “Sí, dale loco.”
-+ “Eri wn o te haci?.”
-+ “igual puede ser…”
-+ "No sé, pregunta más tarde.”
+  + Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
+  + Cuando la agitas: genera una respuesta y la muestra en la pantallita.
+  + Ejemplos:
+    + “Sí, dale loco.”
+    + “Eri wn o te haci?.”
+    + “igual puede ser…”
+    + "No sé, pregunta más tarde.”
 
 + **4- La vela mágica:** Sensor de micrófono + LED.
-+ LED parpadea amarillo como fuego.
-+ Si soplas fuerte en el microfono: LED se apaga.
-+ Si aplaudes dos veces: LED vuelve a encender.
+  + LED parpadea amarillo como fuego.
+  + Si soplas fuerte en el microfono: LED se apaga.
+  + Si aplaudes dos veces: LED vuelve a encender.
 
   #### Referentes
   + <https://www.youtube.com/shorts/IxwlgXyNRds>
