@@ -98,9 +98,13 @@ investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
 
 #### cotizacion 
 
-- afel](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?variant=45125226365080&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=@+Smart+Shopping&utm_source=adwords&utm_medium) $1.500
+- [afel](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04) $1.500
 
-- 
+- [Aliespress](https://www.aliexpress.com/p/tesla-landing/index.html) $1.071
+
+- [MCI electronics](https://mcielectronics.cl/shop/product/sensor-de-proximidad-de-ultrasonido-hc-sr04-23582/) $2.590
+
+[Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio)
 
 ### Sensor NFC
 
