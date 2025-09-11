@@ -4,25 +4,53 @@
 ###### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$ <br/>
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
-### SUBTITULO
+### Breadboard
+<img align="left" src="https://github.com/FranUDP/dis8644-2025-1/blob/main/25-FranUDP/sesion-01b/archivos/protoboard.jpg" alt="Imagen de una breadboard donde se ilustran sus conexiones internas" width=600> <br> 
 
+Es una placa donde se pueden construir fácilmente circuitos, como si de legos se tratase (prototipar) antes de soldar los componentes permanentemente. En la imagen se ve en amarillo cómo se conectan las casillas de la protoboard.
 
-### SUBTITULO
+### [Potenciómetro](https://youtu.be/Xb-MZMoUtcQ?si=y8m1escUjpVgACnh)
 
+<img src="./imagenes/potTypes.jpg" alt="Tipos de potenciómetros" width=450> <br> Fuente: https://mx.pinterest.com/pin/707417053993712985/
+
+Resistencias variables cuyo valor puede ser alterado al rotar una perilla, tornillo o deslizar un *slider*. <br>
+ Su resistencia puede aumentar de forma lineal (B) o logarítmica (A) dependiendo del modelo.
+
+Al conectar el primer pin a voltaje positivo y el último a tierra, se puede utilizar como divisor de voltaje.
+
+#### [Divisor de voltaje:](https://youtu.be/DM9nlukKl1M?si=v-mtDorgQhqWrHjT)
+
+Al tener 2 resistencias conectadas en serie, varía el valor del voltaje a través de cada una, lo que efectivamente nos permite reducir el voltaje de una fuente de poder a cualquier valor desde su máximo a su mínimo (0V).
+
+<img src="./imagenes/voltageDivider.png" alt="Tipos de potenciómetros" width=500> <br> Fuente: https://makeabilitylab.github.io/physcomp/electronics/variable-resistors.html
+
+Un potenciómetro es efectivamente 2 resistencias conectadas en serie, cuyos valores pueden ser alterados de manera proporcional, lo que nos permite variar el voltaje en el pin central.
+
+### [Analog input](https://youtu.be/btgAUdbj85E?si=D2fYeVhIzD7r3K1b)
+
+Si el valor digital varía entre 1 y 0, hay o no hay voltaje, el valor analógico ve qué voltaje hay.
+
+### [I2C](https://youtu.be/CAvawEcxoPU?si=wi7Ee-d5kUJcV1Vi)
+
+<img src="./imagenes/i2c.png" alt="Ejemplo conexión I2C" width=500> <br> Fuente: https://embeddedwala.com/Blogs/DigitalCommunication/Getting-Started-with-I2C:-What-is-Clock-Stretching
+
+Protocolo de comunicación que permite a un dispositivo comunicarse con hasta 112 dispositivos a la vez usando los mismos 2 cables, SDA (Serial Data) y SCL (Serial Clock).
 
 ### Other things: <!-- Things to organize + random stuff -->
-> ### SUB_SUBTITULO
+> ### [Analog computers](https://www.britannica.com/technology/analog-computer)
+>
+> Computadores que en lugar de emplear binario, utilizan valores continuamente variables, como voltajes, rotaciones de engranajes, cantidad de agua, etc.
 
 -----------------------------------------------------------------------------------------------------------
 ## Avance proyecto <!-- TEXT -->
 ### Morse
-Desde la primera clase tenía la idea de hacer un código al que uno le introdujera un String, lo separase en sus distintos caracteres y fuese uno por uno viendo a que secuencia de puntos y rayas corresponde.
+Desde la primera clase tenía la idea de hacer un código al que uno le introdujera un String, lo separara en sus distintos caracteres y fuera uno por uno viendo a qué secuencia de puntos y rayas corresponde.
 
-Yo ya sabiendo que morse es básicamente código binario, supuse que hacer un programa que tome una palabra, procese sus caracteres y haga parpadear el LED del arduino sería más facil que un programa que procesa 3 versos caracter por caracter y luego guardando la traducción final.
+Yo, ya sabiendo que morse es básicamente código binario, supuse que hacer un programa que tome una palabra, procese sus caracteres y haga parpadear el LED del Arduino sería más fácil que un programa que procesa 3 versos carácter por carácter y luego guarda la traducción final.
 
-Comencé con la idea de definir el valor del punto y la raya como variables, para utilizarlas junto a un delay, pero no estaba seguro de si esto funcionaría.
+Comencé con la idea de definir el valor del punto y la raya como variables, para utilizarlas junto a un `delay`, pero no estaba seguro de si esto funcionaría.
 
-Le pregunté a misaaaaaa durante la sesión cómo se podría hacer y me explicó rápidamente que tendría que usar funciones que definan que ocurre con un punto y qué ocurre con una raya, al igual de una función para cada letra del abecedario.
+Le pregunté a misaaaaaa durante la sesión cómo se podría hacer y me explicó rápidamente que tendría que usar funciones que definan qué ocurre con un punto y qué ocurre con una raya, así como una función para cada letra del abecedario.
 
 ````cpp
 const int LED = 13;
@@ -65,16 +93,16 @@ void C() {            // definiendo letra A
 (...)
 ````
 
-Después de corregir algunos errores en este código inicial, me puse a investigar cómo extraer los caracteres del String y sortearlos.
+Después de corregir algunos errores en este código inicial, me puse a investigar cómo extraer los caracteres del String y clasificarlos.
 
-encontré que la función .length( ) arroja la cantidad de caracteres que conforma un String. Esta función se podría utilizar en conjunto con la declaración for para ir letra por letra, hasta que el valor de i fuese igual al de la cantidad de caracteres
+Encontré que la función `.length( )` arroja la cantidad de caracteres que conforma un String. Esta función se podría utilizar en conjunto con la declaración `for` para ir letra por letra, hasta que el valor de `i` fuera igual al de la cantidad de caracteres.
 
 ````cpp
 // for continua hasta que i ya no sea inferior al largo del mensaje (cantidad de caracteres), cada pasada, se agrega 1 al valor de i
 for (int i = 0; i < mensaje.length(); i++) {
 ````
 
-Para determinar que caracter estaba ubicado en la posición equivalente al valor de i, utilizé la función .charAt(i), que hace justo lo que necesitaba.
+Para determinar qué carácter estaba ubicado en la posición equivalente al valor de `i`, utilicé la función `.charAt(i)`, que hace justo lo que necesitaba.
 
 ````cpp
 String mensaje = "abccba";
@@ -132,13 +160,13 @@ void loop() {
 }
 ````
 
-Viendo que el código funcionaba, pues en el monitor serial salian los caracteres del String separados, le di el código a Gemini 2.5 Pro, tras decirle explícitamente que no generara código y se limitase a darme feedback y sugerencias.
+Viendo que el código funcionaba, pues en el monitor serial salían los caracteres del String separados, le di el código a Gemini 2.5 Pro, tras decirle explícitamente que no generara código y se limitase a darme *feedback* y sugerencias.
 
-Tras recivir confirmación que entendía lo que intentaba hacer le pregunté si tendría que hacer una declaración if gigantesca para sortear las letras o si había una forma más facil.
+Tras recibir confirmación de que entendía lo que intentaba hacer, le pregunté si tendría que hacer una declaración `if` gigantesca para ordenar las letras o si había una forma más fácil.
 
-Me sugirió utilizar la declaración switch y explicó que esta declaración compara el caso dado con una lista de casos y al encontrar un match, ejecuta el código correspondiente a ese caso
+Me sugirió utilizar la declaración `switch` y explicó que esta declaración compara el caso dado con una lista de casos y al encontrar una coincidencia, ejecuta el código correspondiente a ese caso.
 
-Tras buscar cómo utilizar switch obtuve esto:
+Tras buscar cómo utilizar `switch` obtuve esto:
 ````cpp
 String mensaje = "abccba";
 
@@ -209,9 +237,9 @@ void traductor(char sorter) {
   }
 }
 ````
-Después de unos minutos intentando ver porqué no funcionaba, me di cuenta que había puesto los casos en mayúsculas.
+Después de unos minutos intentando ver por qué no funcionaba, me di cuenta de que había puesto los casos en mayúsculas.
 
-Tras corregir eso vi que el LED parpadeaba, pero lo hacía sin parar, por lo que añadí una declaración if, para evitar que for corriera tras terminar la primera vez.
+Tras corregir eso vi que el LED parpadeaba, pero lo hacía sin parar, por lo que añadí una declaración `if`, para evitar que `for` corriera tras terminar la primera vez.
 
 ````cpp
 bool messageDone = false; // flag
@@ -232,7 +260,7 @@ void loop() {
 
 ### Traductor binario
 
-Comencé definiendo las variables necesarias para lidiar con 3 Strings que hay que traducir.
+Comencé definiendo las variables necesarias para lidiar con los 3 Strings que hay que traducir.
 
 ````cpp
 String linea1 = "txt1"; // linea 1 del poema
@@ -247,7 +275,7 @@ bool linea2Done = false;
 bool linea3Done = false;
 ````
 
-Seguido por modificar el void loop para ir agregando los valores retornados por la función traductor
+A continuación, modifiqué el `void loop()` para ir agregando los valores retornados por la función `traductor`.
 
 ````cpp
 void loop() {
@@ -265,7 +293,7 @@ void loop() {
 }
 ````
 
-Y comenzando a modificar la función traductor()
+Y comencé a modificar la función `traductor()`
 ````cpp
 void traductor(char sorter) {
   switch (sorter) {
@@ -278,21 +306,20 @@ void traductor(char sorter) {
 (...)
 ````
 
-Le di el código a Gemini para pedirle feedback antes de escribir las 500 lineas de funciones y 500 lineas de casos, para ver si mis alteraciones estaban bien.
+Le di el código a Gemini para pedirle *feedback* antes de escribir las 500 líneas de funciones y 500 líneas de casos, para ver si mis alteraciones estaban bien.
 
 Me sugirió agregar:
 ````cpp
-binario1 = binario1 + " ";
-````
+binario1 = binario1 + " ";````
 justo después de:
 ````cpp
 binario1 = binario1 + binChar1;
 ````
-Para separar los codigos binarios de cala caracter con un espacio, haciéndolo más legible en el monitor serial.
+Para separar los códigos binarios de cada carácter con un espacio, haciéndolo más legible en el monitor serial.
 
-Y que modificara la función traductor(), que al ser void, puede ejecutar una función, pero no puede enviar información, como un String, a una variable en otra función (loop), a diferencia de la función String.
+Y que modificara la función `traductor()`, que al ser `void`, puede ejecutar una función, pero no puede enviar información, como un `String`, a una variable en otra función (`loop`), a diferencia de una función de tipo `String`.
 
-y que debería usar el comando return en lugar de String, para enviar un texto en respuesta.
+Y que debería usar el comando `return` en lugar de `String`, para enviar un texto en respuesta.
 
 ````cpp
 String linea1 = "txt1"; // linea 1 del poema
@@ -338,14 +365,13 @@ String traductor(char sorter) {
 (...)
 ````
 
-Después de recivir feedback de que break; es redundante, ya que return cumple su misma función, copié, pegué el bloque if y le cambié los números, para poder traducir las otras 2 lineas.
+Después de recibir *feedback* de que `break;` es redundante, ya que `return` cumple su misma función, copié y pegué el bloque `if` y le cambié los números para poder traducir las otras 2 líneas.
 
-Tras arreglar errores ocacionados por pegar dentro y fuera de los murcielagos "{}" adecuados y agregar comentarios, envié el código a mi grupo para que lo integrasen
+Tras arreglar errores ocasionados por pegar dentro y fuera de los "murciélagos" `{}` adecuados y agregar comentarios, envié el código a mi grupo para que lo integraran.
 
-![Monitor serial binario](./imagenes/elPoema.jpg)
-![Verificación de traducción](./imagenes/elPoema2.jpg)
+![Monitor serial binario](./imagenes/elPoema.jpg)![Verificación de traducción](./imagenes/elPoema2.jpg)
 
 
 [TraductorBinarioV1](./arduino/traductorBinario/)
 
-Tras agregarlo, Aaron nos ayudó a modificar el código para que funcionara, pues al ser ahora una librería, habian funciones de arduino que habia que darle, como String, problemas al tener múltiples void loops, el programa de la pantalla tomando las variables de la traducción cuando están vacías (antes de realizar la traducción), etc.
+Tras agregarlo, Aaron nos ayudó a modificar el código para que funcionara, pues al ser ahora una librería, había funciones de Arduino que había que pasarle, como `String`, problemas al tener múltiples `void loop`, el programa de la pantalla tomando las variables de la traducción cuando están vacías (antes de realizar la traducción), etc.
