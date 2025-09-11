@@ -57,4 +57,5 @@ idea: un robot que te juzgue.
 
 1. Robot que salude y comente del clima, utilizando el sensor de temperatura y humedad. Suelta frases dependiendo del clima, como "hace calor, bebe agua" o "esta frío, ponte un abrigo", etc.
 2. Robot que se active al acercarse con el sensor de proximidad y lance recordatorios o datos curiosos, preguntando cosas como si ya comiste, te lavaste las manos, bebiste agua o algo sobre la fecha del día, algun dato
-   
+3. Utilizando joystick, botones y/o encoder, el robot te "juzga" dependiendo de qué tanto manipules cada sensor. Si mueves demasiado el joystick o el encoder, que diga algo como "ya basta, no soy un juguete", o si no presionass ninguno y dejas de interactuar con él, que diga algo como "me estas ignorando, como todos", o si presionas mucho un botón, que diga algo como "qure ansioso eres"
+4.una mascota interactiva utilizando una plantita de base, si la planta tiene sed, o esta sobrehidratada, o se encuentra bien, la mascota puede mostrar el estado, quizas con luces de algún tipo de color, sonidos, o una pantalla en donde se vean "expresiones", que sonría, que llore, o que hable diciendo que tiene sed y cuando se encuentra bien. Puede ayudar a personas que cuidan plantitas o para aquellas que quieren aprender y se les dificulta. (muy complejo, dijeron que mejor para última entrega)
