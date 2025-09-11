@@ -51,4 +51,10 @@ ideas: una mascota interactiva utilizando una plantita de base, si la planta tie
 - Joystick: incluye potenciometros dentro, tene un botón también, es como los de mandos de juego.
 - fotodio:
 - De sonido: usan micrófono, se usan para medir intensidad de sonido o detectar si se emitió un sonido. (ejemplos: detectos de aplausos, de portazos, cada 4 aplausos quiero que mi robot salude)
-idea: un robot que te juzgue
+idea: un robot que te juzgue.
+
+##### Otras ideas
+
+1. Robot que salude y comente del clima, utilizando el sensor de temperatura y humedad. Suelta frases dependiendo del clima, como "hace calor, bebe agua" o "esta frío, ponte un abrigo", etc.
+2. Robot que se active al acercarse con el sensor de proximidad y lance recordatorios o datos curiosos, preguntando cosas como si ya comiste, te lavaste las manos, bebiste agua o algo sobre la fecha del día, algun dato
+   
