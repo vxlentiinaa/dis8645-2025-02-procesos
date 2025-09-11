@@ -23,7 +23,7 @@ Lint: pelusa, archivo para sacar las pelusas.
 
 ✰ [AFEL](https://afel.cl/) ------> comprar cosas para Arduino.
 
-✰ Sensores:
+#### SENSORES ── .✦
 
 - Ultrasonico: emite un sonido y cuenta cuanto se demora en volver (es bien impreciso). Medir distancias. Sensor de Ultrasonico HC-SR04, $1500 por unidad. [ultrasonico](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
 
