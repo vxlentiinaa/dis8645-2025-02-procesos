@@ -60,9 +60,11 @@ Métodos
 
 ### Referentes
 
-## Encargo-09: banda Primus
+## Encargo-09: Primus
           
 Escuchar y comentar uno de los tres primeros discos de la banda Primus
+
+Albúm primus desaturating seven
 
 ## Encargo-10: Mitch Resnick
 
