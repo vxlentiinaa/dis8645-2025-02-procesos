@@ -40,5 +40,26 @@ Las acciones son acumulativas; te muestra el historial de las cosas que han pasa
 
 La próxima entrega será crear nuestras propias clases, donde nos vamos a repartir las tareas.
 
+FQBN permite compilar y revisar código de Arduino, donde te dice si existen errores, cuáles errores son y en dónde se encuentran.
 
+LaTeX es muy útil para hacer typesetting; en el lenguaje de cómo yo lo estoy entendiendo, es como usar InDesign, pero del mundo de la programación, para poder tener algo de una manera estandarizada y fácil de cambiar. 
 
+overleaf.com es como LaTeX en la nube, debido a que LaTeX es medio pesado de instalar.
+
+## Módulo después del break
+
+Misaa y Yanis están buscando sensores para que podamos trabajar con el mundo del hardware.
+
+El 17 de octubre será nuestro 2.º proyecto.
+
+Una máquina saludadora, donde te llame la atención y cuando te acerques cambie su comportamiento. 
+
+Aarón no quiere que hagamos cosas tan complejas, que tengan una factura bella.
+
+Vamos a tomar estos sensores áridos y convertirlos en algo bello. 
+
+Código ordenadito con uso de clases.
+
+Nada puede estar al azar, donde la interacción con el usuario tiene que estar pensada. 
+
+No es necesario que sea algo que con solo observar esta máquina se entienda su uso; podría necesitar un manual, pero ese manual debería ser legible y comprensible. 
