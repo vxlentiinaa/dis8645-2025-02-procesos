@@ -34,9 +34,11 @@ Ubuntu es gratis y de fuente abierta.
 
 Si 2 subtítulos se llaman igual, se devolverá un error.
 
-Existen múltiples GitHub Actions, entre estas unas oficiales de Arduino [https://github.com/arduino/arduino-lint-action].
+Existen múltiples GitHub Actions, entre estas unas oficiales de [Arduino](https://github.com/arduino/arduino-lint-action).
 
 Las acciones son acumulativas; te muestra el historial de las cosas que han pasado.
 
 La próxima entrega será crear nuestras propias clases, donde nos vamos a repartir las tareas.
+
+
 
