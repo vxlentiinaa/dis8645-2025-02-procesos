@@ -270,3 +270,38 @@ void loop() {
 > En mi experiencia, he podido ver cómo la experimentación y el error se vuelven parte natural del aprendizaje, algo que me motiva a diseñar proyectos más creativos.  
 > También me hace cuestionar los métodos tradicionales de enseñanza, donde muchas veces se castiga el error en lugar de verlo como una oportunidad para mejorar.  
 > Creo que aplicar los **4P** en proyectos de clase haría el proceso más entretenido, colaborativo y útil para el futuro.
+
+⋆｡‧˚ʚ🍓ɞ˚‧｡⋆
+
+## 🎧 Encargo Comentario de Disco: Primus  ‧₊˚♪ 𝄞₊˚⊹
+
+### 💿 Disco Seleccionado  
+
+**Título:** *Sailing the Seas of Cheese*  
+
+**Artista:** Primus  
+
+**Año:** 1991  
+
+🎧ྀི♪⋆.✮
+
+### Breve Contexto del Disco ╮ (. ❛ ᴗ ❛.) ╭
+
+Este es el segundo álbum de estudio de Primus y uno de los más influyentes en su carrera.  
+El disco mezcla **funk metal**, **rock alternativo** y un humor excéntrico característico de la banda.  
+Es conocido por su sonido único, liderado por el bajo de Les Claypool, y por canciones icónicas como *Jerry Was a Race Car Driver* y *Tommy the Cat*.  
+
+🎧ྀི♪⋆.✮
+
+### Comentario ٩꒰｡•◡•｡꒱۶  
+
+> Escuchar *Sailing the Seas of Cheese* fue una experiencia fuera de lo común.  
+> La música de Primus es caótica y experimental, pero al mismo tiempo muy precisa.  
+> Me llamó mucho la atención cómo el bajo tiene un rol protagónico y marca toda la identidad del disco, algo poco común en otras bandas.  
+> El tono humorístico de las letras y el estilo excéntrico de la banda generan una atmósfera que es divertida pero también extraña, lo que me mantuvo atento durante toda la escucha (me recordo letras de SOD).  
+
+### Fuentes ★
++ [Wikipedia – Sailing the Seas of Cheese](https://en.wikipedia.org/wiki/Sailing_the_Seas_of_Cheese)  
++ [Discogs – Sailing the Seas of Cheese](https://www.discogs.com/master/50227-Primus-Sailing-The-Seas-Of-Cheese)  
++ Escucha personal del álbum en [Spotify](https://open.spotify.com/album/4RnvbUKtYSj8kZL5Z7x4l2)
+
