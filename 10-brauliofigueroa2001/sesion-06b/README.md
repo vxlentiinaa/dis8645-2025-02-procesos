@@ -2,6 +2,7 @@
 
 (rellenar con los apuntes)
 
+cada sonido va ser un archivo, como en animal crossing, un a l o, cada letra tiene un sonido determinado, al unirlo forma la oración?
 
 ejercicio en conjunto con camila parada
 
