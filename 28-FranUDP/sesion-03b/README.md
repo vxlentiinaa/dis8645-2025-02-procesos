@@ -10,7 +10,15 @@
 
 Pantalla de 128x64 pixeles que se controla mediante el protocolo I2C.
 
-<br><br><br>
+<br><br><br><br>
+
+### [Matriz LED + chip (max7219)](https://altronics.cl/modulo-matriz-led-max7219)
+
+<img align="left" src="./imagenes/matriz.jpg" alt="Matriz LED" width=300> <br><br><br><br>
+
+Similar a la pantalla anterior, pero cada pixel es un LED. En lugar de usar I2C, se comunica mediante SPI.
+
+<br><br><br><br><br><br>
 
 ### [Reloj número uno](https://www.dandolahora.cl/products/prototipo-el-numero-uno-el-primer-reloj-digital-en-la-historia-de-chile?srsltid=AfmBOoqnT4P8xS2TiSho_ynCvAzDEW_eCsjVy5_tRNTTmCspOt1bsBS4)
 
@@ -18,36 +26,44 @@ Pantalla de 128x64 pixeles que se controla mediante el protocolo I2C.
 
 El primer reloj digital diseñado y fabricado en Chile
 
-<br><br><br><br><br>
+<br><br><br><br><br><br>
 
-### [Matriz LED + chip (max7219)](https://altronics.cl/modulo-matriz-led-max7219)
+### [Daniel Cruz (artista)](https://arteymedios.org/daniel-cruz/)
 
-<img align="left" src="./imagenes/matriz.jpg" alt="Matriz LED" width=300> <br><br><br><br>
+Artista visual chileno cuyo trabajo se centra en la investigación y creación artística que vincula tecnología, comunicación y crítica social.
 
-Similar a la pantalla anterior, pero cada pixel es un LED. En lugar de usar I2C, se comunica mediante SPI
+### [Tinkercad](https://www.tinkercad.com/) y [Wokwi](https://wokwi.com/)
 
-<br><br><br><br><br>
+<img align="left" src="https://github.com/FranUDP/dis8644-2025-1/blob/main/25-FranUDP/sesion-03a/archivos/Test2b.png" alt="Simulacion de tinkercad que hice el semestre pasado" height=250>
 
-### Daniel Cruz (artista)
+<img align="left" src="./imagenes/wokwi.jpg" alt="Simulacion de wokwi" height=250> <br><br>
 
+Simuladores de circuitos online, incluyen arduinos y otras dev boards que se pueden programar para experimentar.
 
-### Tinkercad y Wokwi
+<br><br><br>
 
+### [Mouser Electronics](https://www.mouser.cl/)
 
-### I2C
+Distribuidor de componentes electrónicos, contiene una cantidad de productos exorbitante y es dificil vitrinear para encontrar algo.
+<br>
 
+### [Adafruit](https://www.adafruit.com/)
 
-### Mouser Electronics
+Distribuidor de componentes electrónicos y kits DIY. Su página y productos están hechos para Makers, hobbyists y gente en general que no son ingenieros eléctricos.
 
+### Limor Fried (aka, LadyAda)
 
-### Adafruit
+<img align="left" src="./imagenes/ladyAda.jpg" alt="Simulacion de tinkercad que hice el semestre pasado. Fuente: https://blog.adafruit.com/2015/08/19/adafruit-industries-limor-fried-on-bootstrapping-a-startup-makerbusiness-businessinsider-makerswomen/" width=150><br><br>
 
+Fundadora de Adafruit Industries y promotora de la cultura hacker, maker, DIY y open source.
+
+<br><br><br><br>
 
 ### Other things: <!-- Things to organize + random stuff -->
 > ### SUB_SUBTITULO
 
 -----------------------------------------------------------------------------------------------------------
-## Encargo <!-- Experimentar con el display -->
+## Encargo 07<!-- Experimentar con el display -->
 ### TITULO
 
 
