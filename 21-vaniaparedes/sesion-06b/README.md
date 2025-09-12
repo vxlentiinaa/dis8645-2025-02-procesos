@@ -18,3 +18,26 @@
 
 + **Dart** Según Gemini: Dart es un lenguaje de programación de propósito general, orientado a objetos y de código abierto desarrollado por Google en 2011, diseñado para ser productivo en el desarrollo multiplataforma de aplicaciones móviles, web y de servidor
 + **Flutter**: Según Gemini: kit de desarrollo de software (SDK) de código abierto de Google para crear aplicaciones para móvil (iOS y Android), web, desktop y sistemas integrados desde una única base de código.
+
+### Encargo
+
+**3- El Arduino indeciso:** Sensor velocímetro + pantalita.
+  + Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
+  + Cuando la agitas: genera una respuesta y la muestra en la pantallita.
+    
+  + Ejemplos de reespuestas según eje:
+  + Eje **X** Respuestas radicales (si o no)
+    + “Sí, dale loco.”
+    + “Eri wn o te haci?.”
+    + "dale weon/a"
+    + " No, tu sabi porqué"
+   
+  + Eje **Y** Respuestas inciertas (te guían a tomar la decisión)
+    + “Si dudas, aún no es el momento”
+    + "Si dejas de forzarlo funcionará”
+    + "Demasiado pronto para saberlo"
+    + "Si ves algo naranja hoy, Si"
+   
+    + **Paso uno:** Pantallita espera diciendo "Dispara tu duda con confianza" Agitar el sensor en dirección eje "y" o eje "x" dependiendo                       la respuesta que quieres.
+    + **Paso dos**: La Pantallita muestra "pensando" y luego de 2seg te una respuesta random dependiendo eje luego espera 5 segundos y se va                     al paso 3.
+    + **Paso tres**: Pantallita espera diciendo otra vez "Dispara tu duda con confianza"
