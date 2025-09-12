@@ -34,17 +34,18 @@ Artista visual chileno cuyo trabajo se centra en la investigación y creación a
 
 ### [Tinkercad](https://www.tinkercad.com/) y [Wokwi](https://wokwi.com/)
 
-<img align="left" src="https://github.com/FranUDP/dis8644-2025-1/blob/main/25-FranUDP/sesion-03a/archivos/Test2b.png" alt="Simulacion de tinkercad que hice el semestre pasado" width=400>
+<img align="left" src="https://github.com/FranUDP/dis8644-2025-1/blob/main/25-FranUDP/sesion-03a/archivos/Test2b.png" alt="Simulacion de tinkercad que hice el semestre pasado" height=250>
 
-<img align="left" src="./imagenes/wokwi.jpg" alt="Simulacion de wokwi" width=400>
+<img align="left" src="./imagenes/wokwi.jpg" alt="Simulacion de wokwi" height=250> <br><br>
 
 Simuladores de circuitos online, incluyen arduinos y otras dev boards que se pueden programar para experimentar.
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 ### [Mouser Electronics](https://www.mouser.cl/)
 
 Distribuidor de componentes electrónicos, contiene una cantidad de productos exorbitante y es dificil vitrinear para encontrar algo.
+<br>
 
 ### [Adafruit](https://www.adafruit.com/)
 
@@ -52,11 +53,11 @@ Distribuidor de componentes electrónicos y kits DIY. Su página y productos est
 
 ### Limor Fried (aka, LadyAda)
 
-<img align="left" src="./imagenes/ladyAda.jpg" alt="Simulacion de tinkercad que hice el semestre pasado. Fuente: https://blog.adafruit.com/2015/08/19/adafruit-industries-limor-fried-on-bootstrapping-a-startup-makerbusiness-businessinsider-makerswomen/" width=150>
+<img align="left" src="./imagenes/ladyAda.jpg" alt="Simulacion de tinkercad que hice el semestre pasado. Fuente: https://blog.adafruit.com/2015/08/19/adafruit-industries-limor-fried-on-bootstrapping-a-startup-makerbusiness-businessinsider-makerswomen/" width=150><br><br>
 
 Fundadora de Adafruit Industries y promotora de la cultura hacker, maker, DIY y open source.
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
 ### Other things: <!-- Things to organize + random stuff -->
 > ### SUB_SUBTITULO
