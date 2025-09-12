@@ -4,10 +4,35 @@
 ###### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$ <br/>
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
-### SUBTITULO
+### Objetos
 
 
-### SUBTITULO
+### Bjarne Stroustrup
+
+
+### Openframeworks
+
+
+### Lenguajes de programación
+>
+> #### Python 
+>
+>
+> #### Java
+>
+>
+> #### Javascript
+>
+>
+> #### Chuck
+
+### Esoteric programming languajes
+
+
+### `# include`
+
+
+### Clases
 
 
 ### Other things: <!-- Things to organize + random stuff -->
