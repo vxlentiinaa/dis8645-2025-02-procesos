@@ -15,13 +15,14 @@ Esta clase no pudo estar el profe Misa dado que está yendo a realizar una charl
 Tras ello el profesor expuso las respuestas del formulario enviado la semana pasada, para poder analizar la situación actual y apreciación de los alumnos sobre el taller.
 
 ***
+
 ## Trabajo en clases en conversación con Braulio
 
 Máquina de saludo para situaciones sensibles.
 Activación mediante lágrimas. No requiere de una situación específica que detone las lágrimas (crisis, pena, rabia).
 La idea es crear una compañía que salude, este presente, y que en el peor de los casos te ponga en contacto con alguien importante. Siempre activo.
 
-**Instructivo**
+### Instructivo
 
 - Paso 1. Sacarlo del bolsillo
 - Paso 2. Tomarlo en la mano
@@ -36,11 +37,7 @@ La idea es crear una compañía que salude, este presente, y que en el peor de l
 - Paso 11. Empieza a sonar una “música instrumental” que genere tranquilidad. (lofi) 
 - Paso 12. En la pantalla se escribe el texto. “Hola, recuerda que estoy aquí para ti”.
 
-  
-![imagen](./imagenes/a1.png)
-
-▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
-
+▼ Recuperado de: <https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml>
 
 ### Posdata
 
