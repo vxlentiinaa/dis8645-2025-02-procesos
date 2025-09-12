@@ -8,13 +8,13 @@
   (funciones, clases, constantes).
 - .cpp (source file) = "Resuelvo": aquí se programa lo que realmente ocurre.
 
-### Organización del código
+## Organización del código
 ---
 - Comentar antes de programar = ayuda a entender qué hará el código.
 - #ifndef ... #define ... #endif 
   evita que un archivo se cargue más de una vez y cause errores.
 
-### Programación orientada a objetos
+## Programación orientada a objetos
 ---
 - Clase = estructura que organiza código grande.
 - Atributos = variables dentro de una clase.
@@ -23,14 +23,14 @@
     class Adafruit_SSD1306 : public Adafruit_GFX
     significa que Adafruit_SSD1306 hereda funciones de Adafruit_GFX.
 
-### Bibliotecas
+## Bibliotecas
 ---
 - Adafruit_GFX = biblioteca general para hacer gráficos.
 - Adafruit_SSD1306 = maneja pantallas OLED, depende de Adafruit_GFX.
-- <biblioteca> = ya viene en el sistema.
+- *biblioteca* = ya viene en el sistema.
 - "biblioteca" = está en la misma carpeta del proyecto.
 
-### Arquitectura ARM
+## Arquitectura ARM
 ---
 - Tipo de procesador para computadores pequeños (microcontroladores).
 - Usa instrucciones simples y eficientes.
@@ -44,7 +44,7 @@
 
 ---
 
-## Encargo
+### Encargo
 - ver alguna charla de Mitch Resnick
 - Escuchar uno de los primeros discos de Primus
 
