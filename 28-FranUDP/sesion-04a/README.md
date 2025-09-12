@@ -5,34 +5,36 @@
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
 ### Breadboard
-<img align="left" src="https://github.com/FranUDP/dis8644-2025-1/blob/main/25-FranUDP/sesion-01b/archivos/protoboard.jpg" alt="Imagen de una breadboard donde se ilustran sus conexiones internas" width=600> <br> 
+<img align="left" src="https://github.com/FranUDP/dis8644-2025-1/blob/main/25-FranUDP/sesion-01b/archivos/protoboard.jpg" alt="Imagen de una breadboard donde se ilustran sus conexiones internas" width=280> <br><br><br><br><br><br>
 
 Es una placa donde se pueden construir fácilmente circuitos, como si de legos se tratase (prototipar) antes de soldar los componentes permanentemente. En la imagen se ve en amarillo cómo se conectan las casillas de la protoboard.
 
+<br><br><br><br><br><br><br>
+
 ### [Potenciómetro](https://youtu.be/Xb-MZMoUtcQ?si=y8m1escUjpVgACnh)
 
-<img src="./imagenes/potTypes.jpg" alt="Tipos de potenciómetros" width=450> <br> Fuente: https://mx.pinterest.com/pin/707417053993712985/
+<img src="./imagenes/potTypes.jpg" alt="Tipos de potenciómetros. Fuente: https://mx.pinterest.com/pin/707417053993712985/" width=620> <br> 
 
 ${\color{#ffe4a8}Resistencias \ variables}$ cuyo valor puede ser alterado al rotar una perilla, tornillo o deslizar un slider. <br>
  Su ${\color{#ffe4a8}resistencia}$ puede aumentar de forma ${\color{#b0e6e6}lineal\ (B)}$ o ${\color{#b0e6e6}logarítmica\ (A)}$ dependiendo del modelo.
 
-Al conectar el primer pin a ${\color{Red}voltaje\ positivo}$ y el último a ${\color{white}tierra}$, se puede utilizar como ${\color{Red}divisor\ de\ voltaje}$.
+Al conectar el primer pin a ${\color{Red}voltaje\ positivo}$ y el último a ${\color{Gray}tierra}$, se puede utilizar como ${\color{Red}divisor\ de\ voltaje}$.
 
 #### [Divisor de voltaje:](https://youtu.be/DM9nlukKl1M?si=v-mtDorgQhqWrHjT)
 
-Al tener 2 ${\color{#ffe4a8}resistencias}$ conectadas en ${\color{#b0e6e6}serie}$, varía el valor del ${\color{Red}voltaje}$ a través de cada una, lo que efectivamente nos permite reducir el ${\color{Red}voltaje}$ de una fuente de poder a cualquier valor desde su máximo a su mínimo (${\color{white}0V}$).
+Al tener 2 ${\color{#ffe4a8}resistencias}$ conectadas en ${\color{#b0e6e6}serie}$, varía el valor del ${\color{Red}voltaje}$ a través de cada una, lo que efectivamente nos permite reducir el ${\color{Red}voltaje}$ de una fuente de poder a cualquier valor desde su máximo a su mínimo (${\color{Gray}0V}$).
 
-<img src="./imagenes/voltageDivider.png" alt="Tipos de potenciómetros" width=500> <br> Fuente: https://makeabilitylab.github.io/physcomp/electronics/variable-resistors.html
+<img src="./imagenes/voltageDivider.png" alt="Tipos de potenciómetros. Fuente: https://makeabilitylab.github.io/physcomp/electronics/variable-resistors.html" width=620> <br> 
 
-Un ${\color{#ffe4a8}potenciómetro}$ es efectivamente 2 ${\color{#ffe4a8}resistencias}$ conectadas en serie, cuyos ${\color{#b0e6e6}valores}$ pueden ser ${\color{#b0e6e6}alterados\ de\ manera\ proporcional}$, lo que nos permite variar el ${\color{red}voltaje}$ en el ${\color{#b0e6e6}pin\ central}$.
+Un ${\color{#ffe4a8}potenciómetro}$ es efectivamente 2 ${\color{#ffe4a8}resistencias}$ conectadas en serie, cuyos ${\color{#b0e6e6}valores}$ pueden ser ${\color{#b0e6e6}alterados\ de\ manera\ proporcional}$, lo que nos permite variar el ${\color{Red}voltaje}$ en el ${\color{#b0e6e6}pin\ central}$.
 
 ### [Analog input](https://youtu.be/btgAUdbj85E?si=D2fYeVhIzD7r3K1b)
 
-Si el ${\color{#b0e6e6}valor\ digital}$ varía entre ${\color{red}1}$ y ${\color{white}0}$, ${\color{red}hay}$ o ${\color{white}no\ hay\ voltaje}$, el ${\color{#b0e6e6}valor\ analógico}$ ve cual es el ${\color{#b0e6e6}valor\ del\ voltaje}$ que tiene.
+Si el ${\color{#b0e6e6}valor\ digital}$ varía entre ${\color{Red}1}$ y ${\color{Gray}0}$, ${\color{Red}hay}$ o ${\color{Gray}no\ hay\ voltaje}$, el ${\color{#b0e6e6}valor\ analógico}$ ve cual es el ${\color{#b0e6e6}valor\ del\ voltaje}$ que tiene.
 
 ### [I2C](https://youtu.be/CAvawEcxoPU?si=wi7Ee-d5kUJcV1Vi)
 
-<img src="./imagenes/i2c.png" alt="Ejemplo conexión I2C" width=500> <br> Fuente: https://embeddedwala.com/Blogs/DigitalCommunication/Getting-Started-with-I2C:-What-is-Clock-Stretching
+<img src="./imagenes/i2c.png" alt="Ejemplo conexión I2C. Fuente: https://embeddedwala.com/Blogs/DigitalCommunication/Getting-Started-with-I2C:-What-is-Clock-Stretching" width=620> <br> 
 
 ${\color{#b0e6e6}Protocolo\ de\ comunicación}$ que permite a un dispositivo comunicarse con hasta ${\color{#b0e6e6}112}$ dispositivos a la vez usando los mismos ${\color{#b0e6e6}2}$ cables, ${\color{#b0e6e6}SDA}$ (Serial Data) y ${\color{#b0e6e6}SCL}$ (Serial Clock).
 
