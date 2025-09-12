@@ -174,6 +174,9 @@ links utilizados:
 [prometec](https://www.prometec.net/sensor-sonido-ky038/)
 
 
+posdata: haciendo este encargo me acordé de cuando trabajé en casaideas el año pasado en noviembre porque había congelado entonces tenía que buscar trabajo. Trabajaba como vendedor en sala y me acuerdo que un día un señor de unos 50 años me preguntó por un robot de juguete que vendíamos (creo que ya no está en stock porque no lo encontré). El señor me preguntó si el robot era reprogramable y yo le respondí que en verdad no tenía idea, me dijo que trabajaba en robótica y que habían robots que uno podía reprogramar, como formatear por así decirlo. Nunca sabré si el robot realmente se podía reprogramar o en qué lenguaje de programación estaba programado
+
+
 
 
 
