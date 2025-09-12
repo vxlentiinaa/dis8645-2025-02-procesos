@@ -5,16 +5,17 @@
 
 ejercicio en conjunto con camila parada
 
- 1. ejemplo mío
 
 bajada de idea 3: la máquina puede seguir una breve conversación identificando cuál palabra repite y cuál te contesta
 
 estado: siempre activo, en una pared
 
-preseteo: la máquina reconoce las palabras hola, cómo estás, bien y tú
-la máquina está habilitada para decir las palabras: hola, cómo estás, bien y tú
+preseteo: la máquina reconoce las palabras aló, cómo estás, bien y tú
+- la máquina está habilitada para decir las palabras: aló, cómo estás, bien y tú
+- la máquina reconoce que debe decir una palabra en consecuencia tras la otra que escuchó pero no debe repetir de forma incoherente
+-¿qué sería incoherente?: 
 
-el saludo, saludar sería: decir aló
+el saludo, saludar sería: decir aló 
 
 modo de activación/paso 1: decir la palabra clave aló
 
