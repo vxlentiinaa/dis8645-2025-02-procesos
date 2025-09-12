@@ -48,7 +48,7 @@ overleaf.com es como LaTeX en la nube, debido a que LaTeX es medio pesado de ins
 
 ## Módulo después del break
 
-Misaa y Yanis están buscando sensores para que podamos trabajar con el mundo del hardware.
+Misaa y Janis están buscando sensores para que podamos trabajar con el mundo del hardware.
 
 El 17 de octubre será nuestro 2.º proyecto.
 
