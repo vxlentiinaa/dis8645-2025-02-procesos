@@ -17,7 +17,7 @@ mia
 
 //un sensor de temperatura y humedad THT11 mide la temperatura ambiente
 
-//dependiendo del valor detectado, la pantalla responde con un mensaje claro
+//dependiendo del valor detectado auna hora determinado, la pantalla responde con un mensaje claro
 
 //Si hace frío intenso, aparece el aviso “¡Está helado!” 
 
