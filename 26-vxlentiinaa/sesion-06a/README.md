@@ -81,15 +81,15 @@ En el pdf de [ULTRASONIC-HC-SR04 sensor de distancia ULTRASONICOHC-SR04](https:/
 
 ### Ideas de uso
 
-1. Semáforo de distancias
+A . Semáforo de distancias
 
 > Cuando un objeto esté cerca un LED rojo se encenderá; si está a una distancia media un LED amarillo se encenderá y si el objeto está a una distancia lejana, un LED verde se encenderá. 
    
-2. Juego de saltos
+B . Juego de saltos
 
 > En esta idea, tenemos el arduino, la pantalla OLED SSD1306 y el sensor. Sería un juego tipo arcade, donde tendremos un monito y obstáculos para saltar; al colocar la mano cerca del sensor, comenzará a avanzar, para saltar estos obstáculos debes quitar la mano, así el monito saltará y para que el juego termine se podría colocar algún botón de reinicio.
 
-3. Dispensador de dulces
+C . Dispensador de dulces
 
 > Cuando se acerque la mano al sensor, estará conectado a un motor que abrirá una puertita o tapa y saldrán dulces de dicha puerta. Sería como un dispensador sin contacto, como por ejemplo, los secadores de mano en el baño público.
 
