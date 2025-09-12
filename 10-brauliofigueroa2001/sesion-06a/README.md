@@ -95,9 +95,37 @@ BREAK
 - traer ideas de cómo queremos que sea nuestro proyecto, ideas de qué hacer, la idea es sacar las ideas malas y dejar las buenas
 
 
-investigación de sensor:
+#### investigación de sensor:
 
 - en clases el día martes no sabía bien cuál sensor elegir porque no sabía bien cómo disponerlos para el proyecto 2, ni una mínima idea en verdad, al principio había agarrado uno de humedad y otro de temperatura pero luego los cambié por uno de luz. Cuando iba en el metro ese día estaba pensando en que quizá me gustaría hacer algo relacionado más al ámbito del sonido que otra cosa, no me traje ningún sensor de sonido en particular pero de los que recuerdo está el sensor de sonido analógico digital así que investigué sobre ese.
+
+####  sensor de sonido analógico digital KY-038
+
+![sensorsonido](./imagenes/sensorsonido.jpg)
+
+fuente, afel
+
+- este sensor lo encontré en la página de afel, no recuerdo bien si estaba en clases dentro de los sensores de sonido que vimos porque solamente recuerdo el que funcionaba para medir distancia y otro que era analógico
+- me llamó la atención que este sensor dice "sonido analógico digital" y que también existen los de "sonido analógico", quería saber si había alguna diferencia entre estos nombres y encontré esto
+
+![sensor](./imagenes/diferenciasensor.jpg)
+
+- otra definición más textual según la IA de google dice esto: La diferencia entre un sensor de sonido análogo y uno digital radica en la naturaleza de la señal que producen. Un sensor analógico genera una señal eléctrica continua que varía de forma gradual y suave con el sonido, permitiendo valores intermedios, mientras que un sensor digital genera una señal discreta y binaria (ceros y unos) a través de un proceso de muestreo que solo registra puntos específicos de la señal sonora.
+- no logro entender bien si al ser analógico digital y no sólo uno de ambas, entiendo que tiene una mezcla de las dos pero no logro entenderlo en verdad
+- la descripción de afel sobre el producto nos dice lo siguiente
+-  este módulo puede detectar la intensidad de sonido que se presenta en el medio ambiente, cuenta con un potenciómetro el cual permite ajustar su sensibilidad, así­, de esta manera solo se detectarí­an ciertos niveles de frecuencia (sonidos). La pequeña board tiene un agujero cerca al conector, este es apropiado para ajustar en cualquier tipo de superficie mediante un tornillo y tuerca adecuados, dependiendo de la aplicación que desempeña el usuario.
+- en otra página llamada murkyrobot que encontré debido a que leí los apuntes de vania paredes y referenciaba esta página la cuál me adentré para ver si tenían información del sensor que buscaba y así fue
+- [guiamurkyrobot](https://www.murkyrobot.com/guias/sensores/ky-038)
+- dentro de este **link dice lo siguiente**:
+- Existen placas como la KY-038 que incorporan un micrófono junto con un comparador LM393, que permite obtener la lectura tanto como un valor analógico como de forma digital.
+- el uso habitual de este tipo de sensores no amplificados es emplear la salida digital para detectar el sonido cuando este supera un cierto umbral, regulado a través de un potenciómetro ubicado en la placa.
+- la salida analógica permite obtener una estimación del volumen registrado. Sin embargo, como hemos comentado, este tipo de módulos con micrófono no resultan adecuados para medir el sonido de forma analógica ya que carecen de amplificación.
+- solo queremos detectar el sonido, y no medirlo, este tipo de sensores son más apropiados ya que únicamente requieren la lectura de una señal digital, sin necesitar realizar más cálculos.
+-este tipo de sensores pueden ser útiles, por ejemplo, para encender un dispositivo cuando se detecte sonido, encender una lámpara con una palmada, o incluso orientar un robot o una torre con servos mediante sonido.
+- la mecánica de regular un umbral mediante un potenciómetro me recuerda a lo que hice para el proyecto de examen del taller de máquinas electrónicas
+- en ese caso también tenía un chip comparador (lm324) y que regulaba el umbral de luz mediante un potenciómetro, igual que en este caso pero acá es el umbral de sonido
+
+
 
 
 
