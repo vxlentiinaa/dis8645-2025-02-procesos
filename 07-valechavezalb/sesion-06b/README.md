@@ -10,7 +10,10 @@ Viernes 12 de septiembre 2025
 - **Flutter**: herramienta para programar herramientas de teléfono, usa el lenguaje Dart para su ejecución. Flutter tiene acceso a **Materials Design de Google**, que es una biblioteca de componentes para crear interfaces, botones, tipografías. Se puede diseñar la interfaz de Figma y luego pasarlo a flutter para llevarlo a su ejecucuión. Para correrlo se necesita un simulador de teléfono, ya sea de Android o IOS. (https://flutter.dev/)
 - Bluetooth de baja energía (BLE): es una conexión interminente, se conecta a veces y no gasta energía.
 
-## 📺🕹️ Trabajo en lsa "Máquinas saludadoras"
+## 📺🕹️ "Máquinas saludadoras"
+
+TRABAJO EN CLASE
+
 **Idea 1**
 Se encuentra un dispositivo que contiene una interfaz pantalla-joystick y que en modo stand by te saluda animosamente (tipo mascota virtual). Para responderle el saludo, con el joystick tendrás que respondrele con ciertos movimientos que indicarán tu respuesta. Esta respuesta tendrá movimientos: arriba, abajo, izquierda, derecha y presionar hacia abajo. Estas respuestas estarán visibles en un lado del dispositivo, cosa de que sea fácil hacer los movimientos con la respuesta elegida. Una vez que saluda, puede seguir la conversación, te pregunta cosas random, a lo que tendrás que responderle con los mismos movimientos del joystick. Las preguntas tendrán respuestas sencillas, como sí, no, tal vez, nunca.
 
