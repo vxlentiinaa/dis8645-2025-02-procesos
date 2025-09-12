@@ -17,7 +17,7 @@ Teloneo
 
 ---
 
-Tesis de Mateo
+Tesis de [Mateo](https://github.com/matbutom/)
 
 - Tipografía en la propaganda política chilena (me sirve para serigrafía jiji).
   - Serif, display y rotulos, sans serif.
@@ -28,7 +28,7 @@ Tesis de Mateo
 
 ---
 
-Tesis de Janis
+Tesis de [Janis](https://github.com/janisepulveda)
 
 - Neuralgía del trigemino, como desde el diseño podemos transformar lo invisible en algo visible.
 - Es un amuleto para ver el tema de las crisis, tener contactos con neurólogos, etc,
@@ -38,6 +38,7 @@ Tesis de Janis
   - BlE: se usa para cosas muy técnicas
 
 ---
+
 
 
 
