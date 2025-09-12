@@ -4,12 +4,12 @@
 
 - Plantita robotcito
 
-   - input: nivel de agua.
+   - input: humedad
    - output: pantallita con mensaje según necesidad.
    - personalidad: sensible 
    - acto: se molesta y te reta si necesita agua, y se pone contenta y te felicita si está hidratada.
  
-     1. Está sensando, detecta el nivel de húmedad
+     1. Está sensando, detecta el nivel de humedad
      2. 
   
  
