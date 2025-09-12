@@ -133,7 +133,7 @@ Se utiliza **%** en el código para usar el operador.
 Se puede utilizar para ver si un número es par o impar.
 
 -----------------------------------------------------------------------------------------------------------
-## Encargo <!-- Investigar NAND, NOR y XOR -->
+## Encargo 06<!-- Investigar NAND, NOR y XOR -->
 ### Logic gates
 ${\color{yellow}NAND}$: <br> <!-- subtitulo -->
 Equivalente a ${\color{yellow}!AND}$.
