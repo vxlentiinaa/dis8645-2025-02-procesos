@@ -12,19 +12,35 @@ mia
    
 **paso a paso**
 //un sensor de temperatura y humedad THT11 mide la temperatura ambiente
+
 //dependiendo del valor detectado, la pantalla responde con un mensaje claro
+
 //Si hace frío intenso, aparece el aviso “¡Está helado!” 
+
   con luz azul
+  
   letras grandes
+  
   marca la temperatura en grados celsius
+  
 //si la temperatura es fresca pero tolerable, la pantalla muestra “¡Está fresco!”
+
   enciende una luz verde
+  
   marca la temperatura en grados celsius
+  
 //si la temperatura cuando este agradable llegue a  decir “¡Piolaa y agradable!” 
+
   con luz amarilla
+
   marca la temperatura en grados celsius
+  
 //si la temperatura muy alta diria “¡Hace calor!” 
+
   con una luz roja
+  
   marca la temperatura en grados celsius
+
 //ayudando a decidir qué ropa usar antes de salir
+
 //además de complementar con la propia temperatura en grados celsius para no solo basarse en frases. 
