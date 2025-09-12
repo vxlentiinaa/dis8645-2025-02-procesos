@@ -113,3 +113,6 @@ Después,el pin ECHO cambia a Alto por un tiempo igual al que demoró la onda, d
 - <https://proyectosinteresantes.com/10-proyectos-de-arduino-con-el-sensor-ultrasonico-hc-sr04/>
 
 ### Ideas de cómo utilizarlo
+1. Al acercarse a distintas distancias haga sonidos distintos mediante un parlante, así poder jugar/crear distintas melodías.
+2. Al detectar a alguien cerca se activa un motor y abre algo.
+3. Que detecte a una persona en algun espacio y si no tiene presencia de nadie que se apaguen las luces.
