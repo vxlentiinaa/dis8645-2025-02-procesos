@@ -76,4 +76,11 @@ Siento que el código y los lenguajes son una forma de pensar, de manejarse en e
 
 ### segunda parte del encargo: escuchar primus
 
+en este encargo Aarón nos pidió que escucháramos a la banda Primus, en clases puso un extracto de una canción pero la verdad es que no alcancé a escuchar absolutamente nada. No me sonaba de ningún lado el nombre de la banda en verdad por lo cuál era completamente desconocido.
+
+Primus es una banda estadounidense de funk metal creada en San Francisco, California, en 1984, y actualmente compuesta por el bajista/vocalista Les Claypool y el guitarrista Larry Ler LaLonde. En cuanto a su discografía, esta se compone 8 álbumes de estudio, 4 EP, 21 sencillos, un álbum en vivo un álbum recopilatorio. Primus originalmente se formó con Les Claypool y un guitarrista llamado Todd Huth, luego se unió Jay Lane, pero Huth y Lane abandonaron la banda en 1988.
+
+Un dato curioso es que Primus fue encargado de grabar la canción original de la serie "South Park"
+
+El álbum en particular que escuché yo fue Sailing The Seas Of Cheese
 
