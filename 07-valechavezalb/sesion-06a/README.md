@@ -2,7 +2,7 @@
 
 Martes 9 de septiembre de 2025
 
-## Apuntes de clases
+## 🌷 Apuntes de clases
 
 - Scratch: programación para niños, mediante metáforas para que aprendan a progamar.
 - Pure Data: programa para audio
@@ -19,7 +19,7 @@ Martes 9 de septiembre de 2025
 - PEmbroider: se sube un código que se programa y eso después hace un tejido como producto final. (<https://www.youtube.com/watch?v=BDE2Tx6HHLc>)
 - **La caja negra**: no sabemos como funciona pero tiene una **entrada** y una **salida**.
 
-### Github y Lint
+### 🎱 Github y Lint
 
 - Sirve para corregir errores de markdown y "quitar pelusas"
 - Este archivo está en mi repositorio y se utilizará todas las veces que haga commit.
@@ -32,7 +32,7 @@ Martes 9 de septiembre de 2025
 - Hay que ir corrigiendo, la de más arriba es la más nueva.
 - Próximos encargos se va automatizar cosas para simplificar procesos.
 
-## La máquina saludadora
+## 👋🏻 La máquina saludadora
 
 21 de octubre proyecto 2
 
@@ -49,7 +49,7 @@ Martes 9 de septiembre de 2025
 - Debe estar justificado el proyecto. Proyecto antifuna.
 - Se puede usar un manual para explicar como funciona el computador, por si no es intuitivo. Pero debe estar justificado.
 
-## SENSORES Y ACTUADORES
+## ♟️ SENSORES Y ACTUADORES
 
 - Sensores son entradas, son los sentidos del arduino. Sensor de temperatura y humedad (DHT 11), de movimiento, de distancia, barómetro, potenciómetro, ultrasónico, encoder rotatorio (gira sin fin), de sonido, entre muchos más.
 - Foto diodo: si a un led le aplico luz, genera voltaje.
@@ -66,7 +66,7 @@ creando elementos para la realidad que queremos vivir
 Shield Data Logger, es un DLC, una coraza que permite saber hora exacta del mundo, una tarjeta SD y se puede programar para que cada 10 segundos mida algo. Ejemplo, cada 10 segundos mide el gas. Cada 10 minutos mide tal cosa.
 Entrega una tabla de excel con los datos. Estos datos de pueden analizar, hacer una visualización de datos, etc. Para descubrir cosas interesantes.
 
-### Sensores (encargo)
+### 🧲 ENCARGO: SENSORES
 
 Joystick Palanca de Mando
 
