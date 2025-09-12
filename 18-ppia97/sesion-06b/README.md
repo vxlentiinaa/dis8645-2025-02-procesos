@@ -30,3 +30,6 @@ crea un codigo que organiza, nombra, da clase y dirección a los carteles en pag
 𓇼 Me gusta la idea de la Belu sobre saludo por aplausos. :)
 
 𓇼Hay que definir tiempos y velocidades en algunos casos.
+𓇼 Parámetros, cuántas veces dirá hola, si quiero que se repitan o sea solo una vez, etc. 
+𓇼 ¿Qué es frío? quizás menos de 15°, yo defino el parámetro.
+
