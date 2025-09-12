@@ -30,6 +30,12 @@ Abre el escenario entre la literatura y la inteligencia artificial.
 
 Reconocida como una de las primeras en mostrar la poesía convertidos en datos.
 
+Links de información
+
+<https://tisch.nyu.edu/about/directory/itp/853082171.html?utm_source>
+
+<https://www.decontextualize.com/?utm_source>
+
 
 ## Nick Montfort 
 
@@ -54,6 +60,12 @@ Figura clave en la consolidación de la literatura electrónica como campo acad�
 Explora el rol de la programación como forma poética y artística.
 
 Ha influido en varias generaciones de artistas digitales y escritores experimentales.
+
+Links de información
+
+<https://nickm.com/me.html>
+
+<https://usesthis.com/interviews/nick.montfort/>
 
 
 ## Martín Gubbins
@@ -80,5 +92,10 @@ Ha contribuido a expandir el campo poético en Chile hacia terrenos poco explora
 
 Integró redes de poetas experimentales en América y Europa.
 
+Links de información
+
+<https://martingubbins.cl/> 
+
+<https://www.faadworkshop.com/martin-gubbins>
 
 Nota: aprendí a poner imagenes al fin :)
