@@ -11,7 +11,7 @@ llegué tarde pero vivo y feliz, importante
 
 - tiende a pasar que el archivo h es cortito, archivo cpp grandes
 - en el h prometo, en el cpp me hago cargo
-- **no hay nada de lo que hagamos que sea de segunda categoría, la dignidad de lo que uno hace, no existe la versión fruna**, esto que dijo Aarón lo encontré muy bello
+- no hay nada de lo que hagamos que sea de segunda categoría, la dignidad de lo que uno hace, no existe la versión fruna, esto que dijo Aarón lo encontré muy bello
 - Adafruit_GFX, eran gráficas
 - GFX es una biblioteca grande para hacer gráficas que creó Adafruit
 - class adafruit_SSD1306 : public Adafruit_GFX, significa que adafruit ssd1306 es también un Adafruit_GFX
@@ -92,5 +92,22 @@ el álbum en particular que escuché yo fue Sailing The Seas Of Cheese
 ![album](./imagenes/primus.jpg)
 
 este álbum fue el segundo que lanzó la banda, fue grabado en enero de 1991 y publicado el 14 de mayo del mismo año bajo la discográfica Interscope, tiene una duración de 45 minutos y 27 segundos y se compone de 13 canciones las cuáles son:
- 
+
+ 1. Seas of Cheese
+ 2. Here Come the Bastards
+ 3. Sgt. Baker
+ 4. American Life
+ 5. Jerry was a Racer Car Drive
+ 6. Eleven
+ 7. Is it Luck?
+ 8. Grandad's Little Ditty
+ 9. Tommy the Cat
+ 10. Sathington Waltz
+ 11. Those Damned Blue-Collar Tweekers
+ 12. Fish on (Fisherman Chronicles, Chapter 2)
+ 13. Los Bastardos
+
+opinión personal 
+
+en primer lugar me llamó la atención la portada del álbum y que muestre que todo es de queso. Musicalmente hablando no fue de mi agrado escucharlo, lo encontré un poco repetitivo en las canciones aunque quizá es de esos álbumes que debo escuchar 2 veces para que me atrape más, este sólo lo escuché una vez. Pese a que no me gustó el álbum igual rescato cosas, noté en la voz del vocalista cierta teatralidad a su voz en algunas canciones, le dan cierto toque humorístico, absurdo, narrativo a los temas y eso es algo a destacar. Otra cosa que noté similitud en algunas canciones es que lo englobaría como "ácido" de escuchar, no sabría cómo definirlo con otras palabras pero me da esa sensación, quizá es por los colores de la portada o por cómo se escuchan las canciones pero lo asimilo a chatarra y óxido, esa es la percepción que me dan los sonidos que utilizan. También me llaman la atención los nombres de las canciones, ya que son como títulos de historias separadas. En realidad no creo que sea un mal disco y pienso que sí o sí debo escucharlo de nuevo para fijarme en cosas más allá de la primera vez que lo escuché.
 
