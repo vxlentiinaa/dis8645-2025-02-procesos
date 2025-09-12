@@ -37,15 +37,15 @@ Primero escribir los comentarios y después programarlo.
   
 ---
 
-#### ejercicio en clases
+### ejercicio en clases
 
-especificar ideas, version iterada de nuestros compañeros.
+#### especificar ideas, version iterada de nuestros compañeros.
 
 Sensor de proximidad 
 
 - Al acercercarse a un metro de distancia, te saluda con código morse, mediante el sonido de un parlante y al alejarse, de esa distancia, no emite el código.
    
-1.  al arduino estará conectado al sensor de proximmidad y un parlante.
+1.  al arduino estará conectado al sensor de proximidad y un parlante.
 2.  el cual si te acercas a un metro de distacia apróx. el parlante por código morse dirá la palabra "hola"
 3. .... /_ _ _  / ._.. /._ //
 4.  en cambio, si te alejas de la distancia predeterminada dejará de emirtir el sonido.
@@ -59,6 +59,35 @@ Sensor de proximidad
 
 - Al sentir la proximidad  de alguien el led se encenderá y la pantalla oled te dará la bienvenida con un "hola".
    
-1. El arduino debe estar coencado a la pantalla oled y al sensor de proximidad.
+1. El arduino debe estar conectado a la pantalla oled y al sensor de proximidad.
 2. El cual a sentir la proximidad de la mano de alguien.
 3. La pantalla oled te dará la bienvenida y un hola. 
+
+#### parte 2 del ejercicio, dividirlo en líneas 
+
+Idea 1
+
+Paso 1: hacer un código.
+Paso 2: definir que a un metro de distancia emita el código morse
+Paso 3: definir el código morse que diga hola. ... /_ _ _  / ._.. /._ //
+Paso 4: colocar el arduino con conexión al parlante.
+Paso 5: probar la distancia y la sensibilidad.
+
+---
+
+Idea 2
+
+Paso 1: hacer un código.
+Paso 2: definir que la cercanía de 30 cm. apróx.
+Paso 3: definir que al tener esta distancia que se bara la cajita.
+Paso 4: tener una cajita y colocarle el motor en una parte cómoda para que se abra la tapa.
+Paso 5: conectar el sensor de proximidad, el motor al arduino.
+paso 6: dibujar, crear un objeto/monito que diga "hola" mediante una gráfica.
+
+---
+
+Idea 3
+
+Paso 1: hacer un código. 
+Paso 2: definir que al pasar la mano cerca delo sensor
+
