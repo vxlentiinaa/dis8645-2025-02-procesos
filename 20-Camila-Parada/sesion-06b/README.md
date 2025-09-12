@@ -21,7 +21,7 @@ Máquina de saludo para situaciones sensibles.
 Activación mediante lágrimas. No requiere de una situación específica que detone las lágrimas (crisis, pena, rabia).
 La idea es crear una compañía que salude, este presente, y que en el peor de los casos te ponga en contacto con alguien importante. Siempre activo.
 
-*Instructivo*
+**Instructivo**
 
 - Paso 1. Sacarlo del bolsillo
 - Paso 2. Tomarlo en la mano
