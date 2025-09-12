@@ -168,6 +168,12 @@ void loop ()
 - desconozco si para alguna de estas 3 ideas necesito otra clase de sensor aparte del KY-038, se me ocurre quizá algo que me pudiera dar una especie de "retorno" "respuesta"
 
 
+links utilizados: 
+[afel](https://afel.cl/products/sensor-de-sonido-analogico-digital)
+[murky](https://www.murkyrobot.com/guias/sensores/ky-038)
+[prometec](https://www.prometec.net/sensor-sonido-ky038/)
+
+
 
 
 
