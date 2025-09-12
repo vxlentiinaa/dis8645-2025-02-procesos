@@ -31,7 +31,7 @@ Ejemplos de proyectos/artistas:
 - Lauren Lee McCarthy → Tools for Improved Social Interacting
 - Renata Gaui → Hysterical Wearable
 
-### Sensores y Actuadores
+## Sensores y Actuadores
 
 - Sensor: entrada a nuestra "caja negra".
 - Actuador: salida.
@@ -99,7 +99,7 @@ Luces que reaccionan a la distancia
   - Usando el sensor HC-SR04, se mide qué tan cerca está un objeto o persona.
   - Mientras más cerca se encuentre, más luces se encienden o más brillantes se vuelven.
 
-#### intento de la Idea 1 
+### intento de la Idea 1 
 
 ```cpp
 const int TRIG_PIN = 9; // Pin TRIG del sensor
@@ -157,7 +157,7 @@ Pantalla OLED interactiva
   - Con el sensor HC-SR04 se detecta la distancia de la persona u objeto.
   - La pantalla OLED muestra mensajes que cambian según la proximidad.
 
-#### intento de la Idea 2
+### intento de la Idea 2
 
 ```cpp
 #include <Wire.h>
@@ -248,7 +248,7 @@ Combinación de luces y pantalla OLED
  - El sensor HC-SR04 controla tanto la intensidad o cantidad de luces como los mensajes en la pantalla OLED.
  - A medida que la persona se acerca, se activan luces y mensajes simultáneamente, creando una experiencia más inmersiva y divertida.
 
-#### intento de la Idea 3
+### intento de la Idea 3
 
 ```cpp
 
