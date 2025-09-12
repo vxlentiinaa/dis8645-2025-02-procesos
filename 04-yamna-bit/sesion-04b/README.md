@@ -13,7 +13,7 @@ Encargo 06: Investigar a los poetas Allison Parrish, Nick Montfort y Martín Gub
 
 ![NICK_MONTFORT](./imagenes/NICK_MONTFORT.jpg)
 
-## Matín Gubbins
+## Martín Gubbins
 
 ![MARTÍN_GUBBINS](./imagenes/MARTÍN_GUBBINS.jpg)
 
