@@ -93,6 +93,10 @@ BREAK
 - investigar a fondo sobre alguno de los sensores que vimos en clases y elegir cuál nos interesa para el proyecto
 - traer ideas de cómo queremos que sea nuestro proyecto, ideas de qué hacer, la idea es sacar las ideas malas y dejar las buenas
 
+Charla Mitch Resnick
+
+vi esta charla de Mitch Resnick [mitchresnick](https://www.youtube.com/watch?v=Ok6LbV6bqaE)
+
 
 
  
