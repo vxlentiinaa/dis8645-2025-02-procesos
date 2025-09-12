@@ -32,7 +32,7 @@ Martes 9 de septiembre de 2025
 - Hay que ir corrigiendo, la de más arriba es la más nueva.
 - Próximos encargos se va automatizar cosas para simplificar procesos.
 
-# La máquina saludadora
+## La máquina saludadora
 
 21 de octubre proyecto 2
 
@@ -89,6 +89,6 @@ Características
 - El tiempo de medición y la ganancia es ajustable por software.
 - Incorpora un LED de 4150k de luz blanca, lo que permite apreciar el color de forma más fácil.
 
-# Ideas para el proyecto 2
+## Ideas para el proyecto 2
 
 - Usar un sensor de color para identificar un color de algo, y según el color asignarle una cualidad, acción, etc.
