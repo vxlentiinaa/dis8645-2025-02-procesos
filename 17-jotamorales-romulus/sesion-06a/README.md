@@ -42,12 +42,24 @@
 
 - Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar.
 
-- [Sensor Color RGB TCS34725](https://afel.cl/products/sensor-color-rgb-tcs34725): Sensor de color que mide RGB y luz total(la cantidad de luz que recibe el sensor sin filtrar), se conecta por I2C, tiene filtro IR, LED propio y permite ajustar medición y ganancia; detecta colores con alta precisión, incluso a través de vidrios. En BMonster Laboratory, encontré este video en el cual se muestran distintos proyectos y como utilizarlo. El que más me llamó la atención fue el [Sensor del color de piezas LEGO](https://www.youtube.com/watch?v=Ey5UhCxlxi). Este detecta el color de las piezas al acercarlas, pudiendo identificar verde, azul o rojo.
+### [Sensor Color RGB TCS34725](https://afel.cl/products/sensor-color-rgb-tcs34725)
+
+- Sensor de color que mide RGB y luz total(la cantidad de luz que recibe el sensor sin filtrar), se conecta por I2C, tiene filtro IR, LED propio y permite ajustar medición y ganancia; detecta colores con alta precisión, incluso a través de vidrios. En BMonster Laboratory, encontré este video en el cual se muestran distintos proyectos y como utilizarlo. El que más me llamó la atención fue el [Sensor del color de piezas LEGO](https://www.youtube.com/watch?v=Ey5UhCxlxi). Este detecta el color de las piezas al acercarlas, pudiendo identificar verde, azul o rojo.
 
 - ![referenteSensorTCS34725](./imagenes/sensorlego.png)
   
-- Se me ocurre la idea de que la máquina utilice el sensor TCS34725 para detectar el color de la ropa de la persona que se acerca y, en función del color identificado, responda con un saludo personalizado. Por ejemplo, si detecta rojo, la máquina podría decir: “¡Hola! Qué color tan llamativo llevas”, transmitiendo un mensaje positivo para empezar el día con buen ánimo. La idea es que cada saludo se adapte al color detectado. Pensando en que la ropa que la gente usa es muy variada, quizá sea conveniente hacer un estimado de los colores de poleras más comunes para cubrir una mayor variedad y poder adaptar los saludos de manera más efectiva.
-
+- Se me ocurre la idea de que la máquina utilice el sensor TCS34725 para detectar el color de la ropa de la persona que se acerca y, en función del color identificado, responda con un saludo personalizado. Por ejemplo, si detecta rojo, la máquina podría decir: “¡Hola! Qué color tan llamativo llevas”.
+  
 - Su valor es de 4.000
 
+### [Sensor de distancia por ToF VL53L0X – Afel](https://afel.cl/products/sensor-de-distancia-por-tof-vl53l0x)
+
+- Un sensor ToF que mide distancias de hasta 2 m.
+  
+- Encontré proyectos que utilizan el sensor de distancia VL53L0X, todos muy parecidos, casi todos son para medir, pero me llamó la atención este [video](https://www.youtube.com/shorts/B3Dj2yVEdvg), donde el Sensor detecta un autito de juguete, donde se muestra cómo el sensor detecta el objeto acercarse, indicando a qué distancia está y cuando está fuera de rango.
+
+- ![referenteSensorVL53L0X](./imagenes/autito.png)
+
+- La idea para el proximo proyecto es colocar el dispositivo a la entrada de una sala para que salude automáticamente a los alumnos cada vez que alguien entre. Si detecta que entran dos personas al mismo tiempo, puede emitir el saludo dos veces o un mensaje especial para ambos. Además, el sistema puede estar acompañado de un altavoz que reproduzca el saludo de manera audible. Sería algo parecido a la escena de la película Jojo Rabbit, donde jojo saluda a cada persona que entra a su casa. Poner variables, que salude de manera disinta, para que no sea tan repetitivo.
+  
 
