@@ -44,8 +44,30 @@ Hay 3 objetos, 1 máquina (receptor) y 2 etiquetas (emisor). Una etiqueta dice "
 
 La máquina es una mano manejada por servomotores, incluye un lector NFC.
 
-1. Una máquina está en modo reposo esperando a detectar un sensor NFC.
+1. Una máquina está en modo reposo, con la mano abajo esperando a detectar un sensor NFC.
 2. La etiqueta "Hola" se acerca a la máquina. La máquina detecta que la etiqueta dice "Hola".
-3. Al recibir la señal de "hola", la mano se mueve lado a lado en un gesto de saludo durante un tiempo determinado.
+3. Al recibir la señal de "hola", la mano se levanta y se mueve lado a lado en un gesto de saludo durante un tiempo y velocidad determinada.
 4. Se acerca la etiqueta "Chao" a la máquina. La máquina detecta que la etiquet dice "Hola".
-5. Al recibir la señal de "Chap", la mano baja como si se apagara en señal de "Chao".
+5. Al recibir la señal de "Chao", la mano baja como si se apagara en señal de "Chao".
+
+- ¿Qué pasa si las dos etiquetas se acercan al mismo tiempo? No es posible que el lector detecte más de una etiqueta a la vez, pporo lo tanto, no pasa nada.
+
+## Bibliografía
+
+- ¿Se puede leer más de una etiqueta NFC a la vez? <https://seritag.com/qa/can-an-nfc-reader-scan-multiple-tags-simultaneously#:~:text=Technically%2C%20an%20NFC%20reader%20only,can%20scan%20the%20netx%20tag.>
+
+## Cosas que quiero y no hacer
+
+La idea es definir mis límites y descartar las cosas que no me gustaría hacer y resaltar las cosas que sí quiero hacer.
+
+### Quiero
+
+- Cosas funcionales.
+- Que tengan futuro y se puedan desarrollar más.
+- Aplicar las CLASES.
+- Usar sensores.
+- Aprender a hacer páginaas web.
+
+### No quiero
+
+- No quisiera hacer algo que no tenga una función específica.
