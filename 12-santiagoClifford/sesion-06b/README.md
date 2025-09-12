@@ -65,7 +65,7 @@ Flujo:
 
 - [Sam Lavigne](https://lav.io)
 
-- [grep](https://en.wikipedia.org/wiki/Grep) global, regular expression re search delimited by slashes, print 
+- [grep](https://en.wikipedia.org/wiki/Grep) global, regular expression re search delimited by slashes, print
 
 - [videogrep](https://lav.io/projects/videogrep)
 
@@ -92,4 +92,3 @@ Flujo:
 - [bluetooth low energy](https://es.wikipedia.org/wiki/Bluetooth_de_baja_energía)
 
 - [proyecto de título de janis](https://github.com/janisepulveda/auna)
-
