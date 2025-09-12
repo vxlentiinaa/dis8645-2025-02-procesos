@@ -86,6 +86,8 @@ Mi canción favorita del disco definitivamente fue “Tommy The Cat” por la va
 
 Screenshot de la banda:
 
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat00.png)
+
 ![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat01.png)
 
 ![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat02.png)
