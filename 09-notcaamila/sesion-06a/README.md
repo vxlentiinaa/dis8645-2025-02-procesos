@@ -20,6 +20,8 @@ una vez creada la máquina, instalarla en la parte superior del marco de la puer
 
 
 
+*anotaciones según corrección*
+
 hacer diagramas de flujo para ver opciones posibles 
 
 agregar perilla para modificar desde qué número de personas se inicia la cuenta
