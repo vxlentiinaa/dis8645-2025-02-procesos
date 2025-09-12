@@ -14,3 +14,7 @@ La transpilación es un caso específico dentro de la compilación.
 
 El proyecto de título de Janis trata sobre neuralgia del trigémino. 
 Amuleto que sea capaz de trackear número de crisis, hora, fecha. También el nivel de dolor. Se puede exportar para que las consultas con neurólogos sean más sencillas.
+
+flutter.dev es para desarrollar aplicaciones, tiene acceso a materiales de google. Tienen componentes o assets de interfaces, para que no sea necesario diseñarlos de cero.
+
+Bluetooth es para transmitir datos. Bluetooth BLE es un bluetooth más eficiente en términos de energía, con menos rango.
