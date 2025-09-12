@@ -66,16 +66,27 @@ creando elementos para la realidad que queremos vivir
 Shield Data Logger, es un DLC, una coraza que permite saber hora exacta del mundo, una tarjeta SD y se puede programar para que cada 10 segundos mida algo. Ejemplo, cada 10 segundos mide el gas. Cada 10 minutos mide tal cosa.
 Entrega una tabla de excel con los datos. Estos datos de pueden analizar, hacer una visualización de datos, etc. Para descubrir cosas interesantes.
 
-### Sensores
+### Sensores (encargo)
 
 Joystick Palanca de Mando
 
 ![joystick](./imagenes/joystick.png)
 
-Es un sen
+**Características**
+- Dispone de dos entradas analógicas, ejes X e Y.
+- Posee tres ejes X, Y y Z (botón).
+- Es preciso. Permite un control sobre objetos en marcha en un espacio bidimensional.
 
 Sensor Color RGB TCS34725
+![sensorcolor](./imagenes/sensor_color.png)
+**Características**
+- Sensor que realiza un tratamiento digital de la medición del color.
+- Ideal para obtener los valores RGB y Clear (medición total sin filtrar).
+- La comunicación con el sensor se realiza por I2C.
+- Tiene un filtro de infrarrojo que mejora su precisión ante el ruido del entorno.
+- El tiempo de medición y la ganancia es ajustable por software.
+- Incorpora un LED de 4150k de luz blanca, lo que permite apreciar el color de forma más fácil.
 
-## Ideas para el protecto 2
+# Ideas para el proyecto 2
 
 - Usar un sensor de color para identificar un color de algo, y según el color asignarle una cualidad, acción, etc.
