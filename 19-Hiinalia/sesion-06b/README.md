@@ -48,7 +48,6 @@ La máquina va a responder con lenguaje coloquial.
 “Wena po’ como tamo. Parece que va a chispear, pariente. Entra la ropita noma’.”
 
 Que sonido se va a emitir en el parlante:
-Música de lavadora LG
-
+Música clasica de dominio público
 Variable booleana para que se active y desactive en 14 segundos para evitar que siga reproduciendo el sonido.
 
