@@ -56,10 +56,10 @@
 
 - Un sensor ToF que mide distancias de hasta 2 m.
   
-- Encontré proyectos que utilizan el sensor de distancia VL53L0X, todos muy parecidos, casi todos son para medir, pero me llamó la atención este [video](https://www.youtube.com/shorts/B3Dj2yVEdvg), donde el sensor detecta un autito de juguete, donde se muestra cómo el sensor detecta el objeto acercarse, indicando a qué distancia está y cuando está fuera de rango.
+- Encontré proyectos que utilizan el sensor de distancia VL53L0X, todos muy parecidos, casi todos son para medir, pero me llamó la atención este [video](https://www.youtube.com/shorts/B3Dj2yVEdvg), donde si bien sigue midiendo, el sensor detecta un "autito de juguete", lo cual encontré tierno. Se muestra cómo el sensor detecta el autito acercarse, indicando a qué distancia está y cuando está fuera de rango.
 
 - ![referenteSensorVL53L0X](./imagenes/autito.png)
 
-- La idea para el proximo proyecto es colocar el dispositivo a la entrada de una sala para que salude automáticamente a los alumnos cada vez que alguien entre. Si detecta que entran dos personas al mismo tiempo, puede emitir el saludo dos veces o un mensaje especial para ambos. Además, el sistema puede estar acompañado de un altavoz que reproduzca el saludo de manera audible. Sería algo parecido a la escena de la película Jojo Rabbit, donde jojo saluda a cada persona que entra a su casa. Poner variables, que salude de manera disinta, para que no sea tan repetitivo.
+- La idea para el próximo proyecto es colocar el dispositivo a la entrada de una sala para que salude automáticamente a los alumnos cada vez que alguien entre. Si detecta que entran dos personas al mismo tiempo, puede emitir el saludo dos veces o un mensaje especial para ambos. Además, el sistema puede estar acompañado de un altavoz que reproduzca el saludo de manera audible. Sería algo parecido a la escena de la película Jojo Rabbit, donde Jojo saluda a cada persona que entra a su casa. Se podrían usar variables para que el saludo sea distinto cada vez, evitando que resulte repetitivo.
   
 
