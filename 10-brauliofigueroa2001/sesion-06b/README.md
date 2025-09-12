@@ -2,13 +2,17 @@
 
 (rellenar con los apuntes)
 
+
 ejercicio en conjunto con camila parada
+
+ 1. ejemplo mío
 
 bajada de idea 3: la máquina puede seguir una breve conversación identificando cuál palabra repite y cuál te contesta
 
 estado: siempre activo, en una pared
 
-preseteo: la máquina reconoce las palabras hola, cómo estás, bien
+preseteo: la máquina reconoce las palabras hola, cómo estás, bien y tú
+la máquina está habilitada para decir las palabras: hola, cómo estás, bien y tú
 
 el saludo, saludar sería: decir aló
 
