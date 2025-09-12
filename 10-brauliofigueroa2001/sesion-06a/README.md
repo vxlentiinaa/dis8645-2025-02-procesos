@@ -126,6 +126,47 @@ fuente, afel
 - en ese caso también tenía un chip comparador (lm324) y que regulaba el umbral de luz mediante un potenciómetro, igual que en este caso pero acá es el umbral de sonido
 - en murkyrobot también nos muestran cómo debemos montar el sensor en el arduino
 
+![montaje](./imagenes/montaje.JPG)
+
+- nos dan un código de ejemplo para que podamos encender y apagar un led al detectar sonido y en el caso de que no haya sonido, se apaga el led
+
+```cpp
+const int pinLED = 13;
+const int pinMicrophone = 9;
+ 
+void setup ()
+{
+  pinMode (pinLED, OUTPUT);
+  pinMode (pinMicrophone, INPUT);
+}
+ 
+void loop ()
+{
+  bool soundDetected = digitalRead(pinMicrophone);
+  if (soundDetected)
+  {
+    digitalWrite (pinLED, HIGH);
+    delay(1000);
+  }
+  else
+  {
+    digitalWrite (pinLED, LOW);
+    delay(10);
+  }
+}
+```
+
+
+#### ideas de aplicación
+
+- una de las ideas que se me ocurre puede ser saludar a la máquina con un hola pero con un volumen determinado que nosotros escojamos, es decir, si decimos un HOLA gritando, la máquina podría responder a ese mismo volumen. En el caso contrario, si decimos un hola más bajo, la máquina nos responde de esa misma forma. En realidad no sé si esta idea se puede llevar a cabo ya que el potenciómetro de umbral lo regulamos para que detecte desde cierto sonido, entonces si queremos que responda a 2 estimulos de volumen distintos, tendríamos que encontrar una forma en la que el potenciómetro se pudiera regular de forma automática y dudo esto sea posible pero esa es una de las ideas
+
+- la segunda idea que se me ocurre es parecida a la anterior pero tiene que ver con la duración del saludo, es más como imitación. En este caso la máquina imitaría la "longitud", "duración" del saludo. Es decir, si digo holaaaaaaa, la máquina respondería con un saludo de esta misma duración y al contrario, si digo hola, la máquina responde con un saludo más corto.
+
+- la última idea que se me ocurre es que la máquina pueda continuar una conversación en base a un reconocimiento de ciertas palabras las cuáles serían [hola,cómo estás, bien] por lo cuál se entiende que al decirle hola a la máquina nos diga hola, luego en consecuencia le preguntamos cómo estas y nos diga bien, lo cuál daría por finalizado el diálogo. No estoy seguro de cómo establecemos el concepto de "máquina saludadora" quizá esto se extiende más allá de un saludo y pasa a ser una conversación, también creo que de las 3 esta posee una complejidad mayor sin entrar aún en lo técnico del código.
+
+- desconozco si para alguna de estas 3 ideas necesito otra clase de sensor aparte del KY-038, se me ocurre quizá algo que me pudiera dar una especie de "retorno" "respuesta"
+
 
 
 
