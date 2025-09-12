@@ -27,17 +27,19 @@
     
   + Ejemplos de reespuestas según eje:
   + Eje **X** Respuestas radicales (si o no)
-    + “Sí, dale loco.”
+    + “Sí, dale nomás.”
     + “Eri wn o te haci?.”
     + "dale weon/a"
-    + " No, tu sabi porqué"
-   
+    + "No, tu sabi porqué"
+    + "Ni cagando"
+      
   + Eje **Y** Respuestas inciertas (te guían a tomar la decisión)
     + “Si dudas, aún no es el momento”
     + "Si dejas de forzarlo funcionará”
     + "Demasiado pronto para saberlo"
-    + "Si ves algo naranja hoy, Si"
+    + “Hoy no, pero mañana quién sabe”
+    + “Si hoy ves tres autos rojos, adelante”
    
-    + **Paso uno:** Pantallita espera diciendo "Dispara tu duda con confianza" Agitar el sensor en dirección eje "y" o eje "x" dependiendo                       la respuesta que quieres.
-    + **Paso dos**: La Pantallita muestra "pensando" y luego de 2seg te una respuesta random dependiendo eje luego espera 5 segundos y se va                     al paso 3.
-    + **Paso tres**: Pantallita espera diciendo otra vez "Dispara tu duda con confianza"
+    + **Paso uno:** Pantallita te invita diciendo "Dispara tu duda con confianza" Agitar el sensor en dirección eje "y" o eje "x".
+    + **Paso dos**: La Pantallita muestra "pensando" y luego de 2seg te da una respuesta random dependiendo eje, luego espera 5 segundos y se va al paso 3.
+    + **Paso tres**: Pantallita espera invitándote otra vez diciendo "Dispara tu duda con confianza".
