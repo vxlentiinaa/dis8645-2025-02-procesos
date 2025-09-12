@@ -24,4 +24,6 @@ Una máquina que, al tener o no tener frío, te saluda agitando un dispositivo q
 
 Sensor ultrasónico para la presencia del usuario
 
-Saludar con la “mano” es tener la mano en una posición neutra, para luego sacudir, de izquierda a derecha múltiples veces para realizar el saludo, y volviendo a la posición neutra para terminar el saludo.
+Saludar con la “mano” es tener la mano en una posición neutra, para luego sacudir, de izquierda a derecha entre los angulos 135 y 45 de una circunferencia múltiples veces, entre 3 y 5, para realizar el saludo, y volviendo a la posición neutra para terminar el saludo.
+
+Los seensores y actuadores que quiero que tenga este proyecto deberian ser un display, servomotor, sensor de temperatura, sensor de presencia
