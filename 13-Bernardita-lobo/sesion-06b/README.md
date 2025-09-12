@@ -15,3 +15,14 @@ the intergo, governamental paner capitalism, busca videos conde hablen de cambio
 lenguaje spacy
 
 encontrar las herramientas que necesitamos para utilizarlas de manera estrategica, partir siempre desde la investigacion desde lo que ya existe. 
+
+complilar, es pasar de un lenguaje legible humano a lenguaje legible maquina
+
+mateo nos mostrosu proyecto de tesis, como organizo y programo un codigo para renombrar los archivos
+
+escribir el esqueleto de nuestras ideas del proyecto, y despues ir comentando y intentando hacer codigo
+
+### Palabras importantes 
+
+complilar
+
