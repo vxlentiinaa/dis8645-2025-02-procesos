@@ -10,8 +10,6 @@ viernes 12 de septiembre
 - Cosa para hacer apps móviles [flutter](https://flutter.dev/?gad_campaignid=13034410696)
 - [Diseños de botones](https://m3.material.io/)
 
-----
-
 ## Proyecto de Mateo
 
 <https://github.com/matbutom/typo-grafica-propagandistica>
@@ -35,8 +33,6 @@ Amuleto para llevar un registro de los ataques de la Neuralgia del trigémino. D
 Estuvimos viendo la encuesta que hicieron la clase pasada. Me gustó mucho que la encuensta se hiciera que al pasar un par de meses en vez de esperar a la encuesta docente. Da un espacio para poder dicirle al equipo docente lo que sentimoos con las clases, creo que es importante dar un feedback para poder hacer que el ambiente sea más bonito.
 
 Nos dió la poosibilidad de pedirle tareas de programación.
-
----
 
 ## Segunda parte de la clase
 
