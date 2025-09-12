@@ -21,22 +21,22 @@ Máquina de saludo para situaciones sensibles.
 Activación mediante lágrimas. No requiere de una situación específica que detone las lágrimas (crisis, pena, rabia).
 La idea es crear una compañía que salude, este presente, y que en el peor de los casos te ponga en contacto con alguien importante. Siempre activo.
 
-Instructivo
-Paso 1. Sacarlo del bolsillo
-Paso 2. Tomarlo en la mano
-Paso 3. Abrir la tapa
-Paso 4. Ponerlo debajo del rostro
-Paso 5. Llorar (hacer que el lagrimal del ojo emita una secreción acuosa o mocos aguados) sobre el sensor.
-Paso 6. Dejar que dicha secreción entre en contacto, derramando 2 gotas de la muestra. 
-Paso 7. Activa una luz que se mantendrá encendida. Indica que inicia a funcionar.
-Paso 8. Una pantalla se enciende.
-Paso 9. En la pantalla indica que se deben poner audífonos.
-Paso 10. Colocarse los audífonos incluidos.
-Paso 11. Empieza a sonar una “música instrumental” que genere tranquilidad. (lofi) 
-Paso 12. En la pantalla se escribe el texto. “Hola, recuerda que estoy aquí para ti”.
+*Instructivo*
 
+- Paso 1. Sacarlo del bolsillo
+- Paso 2. Tomarlo en la mano
+- Paso 3. Abrir la tapa
+- Paso 4. Ponerlo debajo del rostro
+- Paso 5. Llorar (hacer que el lagrimal del ojo emita una secreción acuosa o mocos aguados) sobre el sensor.
+- Paso 6. Dejar que dicha secreción entre en contacto, derramando 2 gotas de la muestra. 
+- Paso 7. Activa una luz que se mantendrá encendida. Indica que inicia a funcionar.
+- Paso 8. Una pantalla se enciende.
+- Paso 9. En la pantalla indica que se deben poner audífonos.
+- Paso 10. Colocarse los audífonos incluidos.
+- Paso 11. Empieza a sonar una “música instrumental” que genere tranquilidad. (lofi) 
+- Paso 12. En la pantalla se escribe el texto. “Hola, recuerda que estoy aquí para ti”.
 
-
+  
 ![imagen](./imagenes/a1.png)
 
 ▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
