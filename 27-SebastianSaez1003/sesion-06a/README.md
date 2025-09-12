@@ -85,3 +85,14 @@ Medir en tiempo real vs. datalogging.
 Datalogging lo ocupan los científicos para poder dejar grabando datos y de esta manera crear un rango de funcionamiento definido.
 
 Existen unos módulos que se llaman shields para el Arduino, como si fueran un DLC.
+
+## Encargo 11 "investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar"
+
+Para la cotización de los sensores y actuadores que iríamos a ocupar en el futuro proyecto 2, los revisé en [Afel](https://afel.cl/).
+
+1. Una máquina que te ofrece darte la mano, pero solo si es que no hace frío, refiriéndose al “frío” por una temperatura menor a 15°C, ya que si la máquina tiene frío, preferirá tener sus “brazos” debajo de una bufanda o algo similar. Esto funcionaría con un servomotor, para que se mueva según los rangos que se le indiquen.  
+
+2. Detector de nerviosismo, donde si le das la mano y siente que estás sudando, te da unas palabras de apoyo.
+
+3. Waos
+
