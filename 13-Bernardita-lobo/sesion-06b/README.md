@@ -13,3 +13,5 @@ slow hot computer, erramienta para que tu computador se caliente
 the intergo, governamental paner capitalism, busca videos conde hablen de cambio climacio y lo remplaza por la palabra capitalismo
 
 lenguaje spacy
+
+encontrar las herramientas que necesitamos para utilizarlas de manera estrategica, partir siempre desde la investigacion desde lo que ya existe. 
