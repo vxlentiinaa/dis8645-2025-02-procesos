@@ -72,7 +72,7 @@ Joystick Palanca de Mando
 
 ![joystick](./imagenes/joystick.png)
 
-**Características**
+Características
 - Dispone de dos entradas analógicas, ejes X e Y.
 - Posee tres ejes X, Y y Z (botón).
 - Es preciso. Permite un control sobre objetos en marcha en un espacio bidimensional.
@@ -81,7 +81,7 @@ Sensor Color RGB TCS34725
 
 ![sensorcolor](./imagenes/sensor_color.png)
 
-**Características**
+Características
 - Sensor que realiza un tratamiento digital de la medición del color.
 - Ideal para obtener los valores RGB y Clear (medición total sin filtrar).
 - La comunicación con el sensor se realiza por I2C.
