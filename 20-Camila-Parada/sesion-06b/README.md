@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 06b - Spacy ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 06b - Exploraciones, cosas raras, Spacy, mucho todo... ♡⊹˚₊⋆
 
 Viernes 11 Septiembre 2025
 
@@ -10,7 +10,11 @@ Este día llegué justa a la sala. Cuando llegé pude ver que estaban viendo pro
 
 A continuación revisamos el trabajo de la tesis de [Janis](https://github.com/janisepulveda/), nombrado ["auna"](https://github.com/janisepulveda/auna), un proyecto centrado en el trabajo con una [Placa ESP32 C3 SuperMini](https://afel.cl/products/placa-esp32-c3-supermini-wifi-y-bluetooth), tecnología [Bluetooth Low Energy](https://es.wikipedia.org/wiki/Bluetooth_de_baja_energ%C3%ADa) y centrado en la enfermedad ["Neuralgia del trigémino"](https://www.mayoclinic.org/es/diseases-conditions/trigeminal-neuralgia/symptoms-causes/syc-20353344). Para ello se está desarrollando una app con [flutter](https://flutter.dev/) que permita activar la placa y el objeto en cuestion.
 
+Esta clase no pudo estar el profe Misa dado que está yendo a realizar una charla en méxico, como parte del colectivo ["Toda la Teoria del Universo"](https://www.instagram.com/_todalateoriadeluniverso?igsh=MXI2bDg0bnM1dG8zbg%3D%3D) para el ["Centro de Cultura Digital de México"](https://www.instagram.com/ccdmx/). (Teoría personal).
 
+Tras ello el profesor expuso las respuestas del formulario enviado la semana pasada, para poder analizar la situación actual y apreciación de los alumnos sobre el taller.
+
+***
 
 
 
