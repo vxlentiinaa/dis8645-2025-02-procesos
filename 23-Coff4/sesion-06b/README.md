@@ -30,10 +30,10 @@ Cuando una persona se acerca, el sensor de proximidad detecta la distancia y enc
 2. Al detectar un ser humano entra en funcionamiento
 3. Esto se sabe ya que la maquina prende un primer Led, con una luz tenue
 4. Al acercarse más, se prende un segundo Led con otro color un poco mas calido y con mas intensidad
-5. Finalmente al acercarse mucho, todos los led brillaran con un patrón
-6. Un pequeño parlante reproducira un "Hola"
+5. Finalmente al acercarse mucho, todos los led brillaran con un patrón por un tiempo definido de 20 segundos
+6. Un pequeño parlante reproducira una selección de diferentes "Hola", diciendolo 3 veces.
 7. Volvera a entrar en suspension cuando la persona deje de estar en el campo de visión
-8. Se despedira con el mismo parlante diciendo "Adios"
+8. Se despedira con el mismo parlante diciendo una selección de diferentes  "Adios", diciendolo una unica vez
 
 Propuesta 2: Aileen
 Primera versión
