@@ -22,6 +22,18 @@ mateo nos mostrosu proyecto de tesis, como organizo y programo un codigo para re
 
 escribir el esqueleto de nuestras ideas del proyecto, y despues ir comentando y intentando hacer codigo
 
+tesis, neuralgia del trigenido, como hace visible lo inviseble, general aumleto
+
+dart
+
+flutter, aplicaciones moviles, accesos a material desing de google
+
+esp32
+
+dos bluetooth, bluetooth low energy, BLE
+
+simulador de telefono en el computados 🩰
+
 ### Palabras importantes 
 
 complilar
