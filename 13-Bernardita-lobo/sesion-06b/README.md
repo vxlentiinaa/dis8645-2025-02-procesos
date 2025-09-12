@@ -32,7 +32,7 @@ esp32
 
 dos bluetooth, bluetooth low energy, BLE
 
-simulador de telefono en el computados 🩰
+simulador de telefono en el computados 💻
 
 ### Palabras importantes 
 
