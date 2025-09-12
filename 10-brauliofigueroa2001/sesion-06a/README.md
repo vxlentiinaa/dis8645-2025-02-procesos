@@ -95,6 +95,13 @@ BREAK
 - traer ideas de cómo queremos que sea nuestro proyecto, ideas de qué hacer, la idea es sacar las ideas malas y dejar las buenas
 
 
+investigación de sensor:
+
+- en clases el día martes no sabía bien cuál sensor elegir porque no sabía bien cómo disponerlos para el proyecto 2, ni una mínima idea en verdad, al principio había agarrado uno de humedad y otro de temperatura pero luego los cambié por uno de luz. Cuando iba en el metro ese día estaba pensando en que quizá me gustaría hacer algo relacionado más al ámbito del sonido que otra cosa, no me traje ningún sensor de sonido en particular pero de los que recuerdo está el sensor de sonido analógico digital así que investigué sobre ese.
+
+
+
+
 
 
 
