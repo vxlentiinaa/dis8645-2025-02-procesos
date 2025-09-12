@@ -26,6 +26,15 @@ Versión actualizada.
 
 Cuando una persona se acerca, el sensor de proximidad detecta la distancia y enciende un primer LED tenue, como una señal de reconocimiento. Al dar unos pasos más, se activa un segundo LED con mayor intensidad y un color más cálido, mostrando entusiasmo. Conforme la persona sigue avanzando, más LEDs se encienden en secuencia, creando una ola luminosa que aumenta en brillo y color. Finalmente, al estar muy cerca, todos los LEDs brillan a la vez, algunos incluso parpadeando, simulando como si el sistema sonriera al saludara y también podría incluir un parlante que saludara cuando la persona esté muy cerca. 
 
+1. La maquina se encuentra en suspensión
+2. Al detectar un ser humano entra en funcionamiento
+3. Esto se sabe ya que la maquina prende un primer Led, con una luz tenue
+4. Al acercarse más, se prende un segundo Led con otro color un poco mas calido y con mas intensidad
+5. Finalmente al acercarse mucho, todos los led brillaran con un patrón
+6. Un pequeño parlante reproducira un "Hola"
+7. Volvera a entrar en suspension cuando la persona deje de estar en el campo de visión
+8. Se despedira con el mismo parlante diciendo "Adios"
+
 Propuesta 2: Aileen
 Primera versión
 - Sensor de temperatura y humedad THT11: detecta y mide la temperatura y la humedad relativa del ambiente circundante, y transmite estos datos de forma digital a un microcontrolador como un Arduino. Utiliza un sensor de humedad capacitivo y un termistor para convertir los cambios físicos del ambiente en una señal digital que puede ser leída por el microcontrolador.
@@ -37,4 +46,7 @@ Aviso de ropa: según la temperatura, pantalla muestra “¡Abrígate!” o “�
 Versión actualizada.
 
 Un sensor mide la temperatura ambiente y, dependiendo del valor detectado, la pantalla responde con un mensaje claro. Si hace frío intenso, aparece el aviso “¡Está helado!” con luz azul, letras grandes y llamativas. En cambio, si la temperatura es fresca pero tolerable, la pantalla muestra “¡Está fresco!” y enciende una luz verde. También cuando la temperatura este agradable llegue a  decir “¡Piolaa y agradable!” con luz amarilla. Finalmente con una temperatura muy alta diria “¡Hace calor!” con una luz roja.  De esta manera, el dispositivo actúa como un recordatorio visual inmediato, ayudando a decidir qué ropa usar antes de salir, además de complementar con la propia temperatura en grados celsius para no solo basarse en frases 
+
+
+
 
