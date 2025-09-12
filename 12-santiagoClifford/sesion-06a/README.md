@@ -47,3 +47,17 @@ para medir vibraciones, se necesita saber:
 
 - frecuencia
 - intensidad
+
+<https://www.epsondevice.com/sensing/en/tech/column/vibration-sensor>
+
+estuve investigando, vienmdo varios artículos y videos, pero no entendí. Comienzo de nuevo:
+
+##### vibración
+
+[la vibración](https://es.wikipedia.org/wiki/Vibración) es un fenómeno que describe la propagación de ondas elásticas que producen deformaciones y tensiones. Se puede pensar en ella como "un movimiento repetitivo alrededor de una posici+on de equilibrio. (siendo el punto de equilibrio, la posición o forma que toma al acabar el movimiento.)
+
+vibración ≠ oscilación
+
+##### elasticidad
+
+[la elasticidad](https://es.wikipedia.org/wiki/Energía_potencial#Energía_potencial_elástica) es una propiedad de ciertos materiales. Considera que una vez estirados, deformados o separados de su posición, pueden recuperar su estado o posición original. La fuerza elástica puede producir [vibraciones]https://es.wikipedia.org/wiki/Vibración) y [oscilaciones](https://es.wikipedia.org/wiki/Oscilación)
