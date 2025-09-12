@@ -63,3 +63,25 @@ Código ordenadito con uso de clases.
 Nada puede estar al azar, donde la interacción con el usuario tiene que estar pensada. 
 
 No es necesario que sea algo que con solo observar esta máquina se entienda su uso; podría necesitar un manual, pero ese manual debería ser legible y comprensible. 
+
+El sensor ultrasónico funciona con sonido, donde uno de estos agujeros emite un sonido que no somos capaces de percibir, mientras que el otro lo recibe una vez haya rebotado. De esta manera se puede medir la distancia, pero no es necesariamente muy preciso.
+
+Temperatura y humedad, como para medir el ambiente, donde se entregan y se pueden medir estos 2 datos por separado, creando interesantes combinaciones.
+
+El medidor de dióxido de carbono, que mide el nivel de dióxido de carbono, probablemente se volvería loco aquí en Santiago.
+
+El encoder rotatorio es similar a un potenciómetro, pero no tiene límites; gira y gira y gira y gira y gira.
+
+Sensor de lluvia, una resistencia experimental compuesta de 2 láminas de cobre; es un sensor pasivo que no necesita energía para su funcionamiento.
+
+Un joystick, un potenciómetro en 2 ejes.
+
+LDR (light-dependent resistor) es un sensor de luminosidad, donde puedo hacer que algo se active o desactive si le llega una cantidad de luz definida, o si está en la oscuridad.
+
+De sonido, un micrófono electret, para medir más que todo si es que existe un sonido.
+
+Medir en tiempo real vs. datalogging.
+
+Datalogging lo ocupan los científicos para poder dejar grabando datos y de esta manera crear un rango de funcionamiento definido.
+
+Existen unos módulos que se llaman shields para el Arduino, como si fueran un DLC.
