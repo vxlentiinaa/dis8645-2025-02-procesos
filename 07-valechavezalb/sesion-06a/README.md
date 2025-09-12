@@ -32,7 +32,7 @@ Martes 9 de septiembre de 2025
 - Hay que ir corrigiendo, la de más arriba es la más nueva.
 - Próximos encargos se va automatizar cosas para simplificar procesos.
 
-## La máquina saludadora
+# La máquina saludadora
 
 21 de octubre proyecto 2
 
@@ -78,7 +78,9 @@ Joystick Palanca de Mando
 - Es preciso. Permite un control sobre objetos en marcha en un espacio bidimensional.
 
 Sensor Color RGB TCS34725
+
 ![sensorcolor](./imagenes/sensor_color.png)
+
 **Características**
 - Sensor que realiza un tratamiento digital de la medición del color.
 - Ideal para obtener los valores RGB y Clear (medición total sin filtrar).
