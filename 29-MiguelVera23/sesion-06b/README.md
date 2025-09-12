@@ -28,7 +28,7 @@ Máquina saluda a gente alta: Sensor de movimiento puesto horizontalmente en el 
 valor original.
 
 Contador de gente: 2 sensores de moviemiento puestos horizontalmente en una puerta almacenan las estadíscas de quienes entran y salen de la sala. 
-Un sensorestá puesto en el exterior de la sala y el otro en el interior. El del exterior suma al total de las personas de la sala y el del interior resta. 
+Un sensor +está puesto en el exterior de la sala y el otro en el interior. El del exterior suma al total de las personas de la sala y el del interior resta. 
 Para no activar ambos a la vez usaremos un if que desactive al sensor que se active último. Usando un parlante reproduciremos un saludo o una despedida 
 dependiendo del sensor que se active primero. Estableceremos un máximo de personas en la sala (alumnos+profes+ayudantes) y cuando los datos almacenados 
 lleguen a ese máximo se reproducirá una celebración porque todos están en la clase. Para evitar que se confundan los datos cuando pasa más de una persona
@@ -56,10 +56,12 @@ a la vez podríamos usar un 3er sensor que se asegure que la persona pasó al in
 
 -Periódo de captar datos dura 1 segundo (o menos)
 
--Parlante reproduce "Pasa, pasa" cuando se activa el sensor entrada
+-Parlante reproduce "Pasa, pasa" 1 vez cuando se activa el sensor entrada
 
--Parlante reproduce "A dónde vay?" cuando se activa el sensor salida
+-Parlante reproduce "A dónde vay?" 1 vez cuando se activa el sensor salida
 
 -Arduino almacena la cantidad de gente en la sala, sumando las entradas y restando las salidas.
 
--Al llegar al máximo de gnete en la sala reproduce "música de victoria"
+-Al llegar al máximo de gnete en la sala reproduce "música de victoria" 1 vez
+
+-Establecer audio "música de victoria"
