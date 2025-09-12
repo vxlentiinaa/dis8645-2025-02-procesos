@@ -55,10 +55,12 @@ Idea mejorada 1: Tenemos el arduino, LEDS, una pantalla OLED y el sensor de prox
 
 Idea mejorada 2: Tenemos el arduino, una pantalla OLED y el sensor de proximidad. Se basa en un juego, donde tendremos un monito que estará "parado". Al colocar la mano a cierta distancia (40 cm) comenzará a correr. Luego cuando el sensor detecte una distancia de 10 cm aprox. El monito saltará y dira "HOLA"
 
-- Paso 1: Tenemos la pantalla OLED SSD1306, donde saldrá un monito "parado"
-- Paso 2: Cuando el sensor detecte cierta distancia (40 cm aprox.)
-- Paso 3: El monito comenzará a correr
-- Paso 4: Cuando el sensor detecté una distancia de 10 cm aprox.
-- Paso 5: El monito saltará y dirá "HOLA"
-- Paso 6: Para terminar, abrá un botón, que al precionarlo, se reiniciará
+La idea viene de Mario Bross
 
+- Paso 1: Tenemos la pantalla OLED SSD1306, donde saldrá un monito que está "parado".
+- Paso 2: Cuando el sensor de promixidad HC-SR04 detecte cierta distancia. (40 cm aprox.)
+- Paso 3: El monito comenzará a correr a 20 segundos (la idea es que no sea tan rápido).
+- Paso 4: Cuando el sensor detecté una distancia de 10 cm aprox.
+- Paso 5: El monito saltará y dirá "HOLAAA, ya po que me estoy cansando" (no saltará de corrido, sino que habrá un tiempo definido).
+- Paso 6: Cuando el sensor vuelva detectar los 40 cm, comenzará a correr
+- Paso 7: Para terminar y que el monito vuelva a estar "parado", se aprieta un botón para volver a reiniciar.
