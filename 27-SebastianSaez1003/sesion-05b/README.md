@@ -50,18 +50,30 @@ Escogí este disco exclusivamente debido a que soy un fan del queso, ya que no c
 
 El tracklist de este disco es el siguiente:    
 
-- "Seas of Cheese"	
+- "Seas of Cheese"
+
 - "Here Come the Bastards"
+
 - "Sgt. Baker"
+
 - "American Life"
+
 - "Jerry Was a Race Car Driver"
+
 - "Eleven"
+
 - "Is It Luck?"
+
 - "Grandad's Little Ditty"
+
 - "Tommy the Cat" 
+
 - "Sathington Waltz"
+
 - "Those Damned Blue-Collar Tweekers"
+
 - "Fish On (Fisherman Chronicles, Chapter II)"
+
 - "Los Bastardos"
 
 Algo que me llama la atención es que yo, con mi poco conocimiento del mundo musical, diría que este estilo musical corresponde a algo como el rock o el metal, ya que pude identificar el uso de guitarras, bajos, baterías y algo más posiblemente, pero la manera en que se toca la música, combinada con la voz, lo hace bastante distinto a lo que he escuchado previamente.
