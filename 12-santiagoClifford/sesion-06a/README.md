@@ -67,3 +67,5 @@ Toda vibración es una oscilación, pero no toda oscilación es una vibración. 
 #### módulo SW-420
 
 El [SW-420](https://afel.cl/products/sensor-de-vibracion-sw-420) es un sensor de vibración análogo, con un potenciómetro integrado que permite calibrar el "estado de activación"
+
+
