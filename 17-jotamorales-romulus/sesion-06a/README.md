@@ -50,7 +50,7 @@
   
 - Se me ocurre la idea de que la máquina utilice el sensor TCS34725 para detectar el color de la ropa de la persona que se acerca y, en función del color identificado, responda con un saludo personalizado. Por ejemplo, si detecta rojo, la máquina podría decir: “¡Hola! Qué color tan llamativo llevas”.
   
-- Su valor es de 4.000
+- Su valor es de $4.000
 
 ### [Sensor de distancia por ToF VL53L0X – Afel](https://afel.cl/products/sensor-de-distancia-por-tof-vl53l0x)
 
@@ -61,5 +61,5 @@
 - ![referenteSensorVL53L0X](./imagenes/autito.png)
 
 - La idea para el próximo proyecto es colocar el dispositivo a la entrada de una sala para que salude automáticamente a los alumnos cada vez que alguien entre. Si detecta que entran dos personas al mismo tiempo, puede emitir el saludo dos veces o un mensaje especial para ambos. Además, el sistema puede estar acompañado de un altavoz que reproduzca el saludo de manera audible. Sería algo parecido a la escena de la película Jojo Rabbit, donde Jojo saluda a cada persona que entra a su casa. Se podrían usar variables para que el saludo sea distinto cada vez, evitando que resulte repetitivo.
-  
 
+- Su valor es de $5.990
