@@ -43,22 +43,22 @@ especificar ideas, version iterada de nuestros compañeros.
 
 Sensor de proximidad 
 
-1. Al acercercarse a un metro de distancia, te saluda con código morse, mediante el sonido de un parlante y al alejarse, de esa distancia, no emite el código.
+- Al acercercarse a un metro de distancia, te saluda con código morse, mediante el sonido de un parlante y al alejarse, de esa distancia, no emite el código.
    
--  al arduino estará conectado al sensor de proximmidad y un parlante.
--  el cual si te acercas a un metro de distacia apróx. el parlante por código morse dirá la palabra "hola"
--  .... /_ _ _  / ._.. /._ //
--  en cambio, si te alejas de la distancia predeterminada dejará de emirtir el sonido.
-  
-2. Al acercarse habrá una cajita cerrada, la cual se abrirá y se mostrará un objeto saludando.
+1.  al arduino estará conectado al sensor de proximmidad y un parlante.
+2.  el cual si te acercas a un metro de distacia apróx. el parlante por código morse dirá la palabra "hola"
+3. .... /_ _ _  / ._.. /._ //
+4.  en cambio, si te alejas de la distancia predeterminada dejará de emirtir el sonido.
 
-- habrá una cajita cerrada con conexiones al arduino, al sensor de proximidad y a un motor.
-- cuándo te acerques a 30 cm. apróx.
-- el motor funcionará hasta cierto punto 90° apróx., para abirla.
-- y habrá un monito/objeto diciendo "hola".
-  
-3. Al sentir la proximidad  de alguien el led se encenderá y la pantalla oled te dará la bienvenida con un "hola".
+- Al acercarse habrá una cajita cerrada, la cual se abrirá y se mostrará un objeto saludando.
+
+1. habrá una cajita cerrada con conexiones al arduino, al sensor de proximidad y a un motor.
+2. cuándo te acerques a 30 cm. apróx.
+3. el motor funcionará hasta cierto punto 90° apróx., para abirla.
+4. y habrá un monito/objeto diciendo "hola".
+
+- Al sentir la proximidad  de alguien el led se encenderá y la pantalla oled te dará la bienvenida con un "hola".
    
-  - El arduino debe estar coencado a la pantalla oled y al sensor de proximidad.
-  - el cual a sentir la proximidad de la mano de alguien.
-  - la pantalla oled te dará la bienvenida y un hola. 
+1. El arduino debe estar coencado a la pantalla oled y al sensor de proximidad.
+2. El cual a sentir la proximidad de la mano de alguien.
+3. La pantalla oled te dará la bienvenida y un hola. 
