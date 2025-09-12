@@ -2,7 +2,7 @@
 
 -12-0-2025
 
-### Proyecto: Sensor de proximidad con reacciones para saludar 
+## Proyecto: Sensor de proximidad con reacciones para saludar 
 
   Descripción:
     El sistema detecta la presencia y distancia de un objeto con un sensor,
