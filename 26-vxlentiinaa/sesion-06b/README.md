@@ -43,12 +43,22 @@ Tesis de [Janis](https://github.com/janisepulveda)
 
 Específicar las ideas de cada una y obtener una versión mejorada o iterada.
 
-Idea mejorada 1: Tenemos el arduino, LEDS, una pantalla OLED y el sensor de proximidad HC-SR04. Cuando mi mano está lejos (aprox. 1 m), una luz roja se encenderá y derivará a la pantalla en donde saldrá el mensaje "No te saludaré, estás muy lejos". Si, mi mano está cerca (aprox. 30 cm) se encenderá una luz verde y en la pantalla OLED saldrá el mensaje "HOLAA" (con una imagen de un monito).
+Un computador me puede saludar así
 
-- A . Si mi mano está lejos, no te saludaré
-- B . Si mi mano está cerca, te saludaré
+Idea mejorada 1: Tenemos el arduino, LEDS, una pantalla OLED y el sensor de proximidad HC-SR04. EN la pantalla OLED habrá un monito que estará durmiendo, cuando el sensor detecte que esté lejos el monito me dirá "NO TE SALUDARÉ" Cuando el sensor detecte que esté cerca, el monito dirá "HOLA"
 
-Idea mejorada 2: Tenemos el arduino, una pantalla OLED y el sensor de proximidad. Se basa en un juego, donde tendremos un monito que "correrá". Al colocar la mano a cierta distancia (20 cm) comenzará a saltar, con un mensaje que diga "HOLA", cuando quites la mano, este seguirá "corriendo"
+- Paso 1: En la pantalla OLED SSD1306, habrá un monito modo "durmiendo"
+- Paso 2: Cuando el sensor detecte que esté lejos
+- Paso 3: Emitirá un mensaje que diga "ESTÁS MUY LEJOS, NO TE SALUDARÉ"
+- Paso 4: Cuando el sensor detecte que esté cerca
+- Paso 5: Emitirá un mensaje que diga "AHORA SI, HOLAA"
 
-- A . Quitar mano del sensor = El monito seguirá corriendo
-- B . Colocar mano cerca del sensor  = El monito saltará y dirá "HOLA"
+Idea mejorada 2: Tenemos el arduino, una pantalla OLED y el sensor de proximidad. Se basa en un juego, donde tendremos un monito que estará "parado". Al colocar la mano a cierta distancia (40 cm) comenzará a correr. Luego cuando el sensor detecte una distancia de 10 cm aprox. El monito saltará y dira "HOLA"
+
+- Paso 1: Tenemos la pantalla OLED SSD1306, donde saldrá un monito "parado"
+- Paso 2: Cuando el sensor detecte cierta distancia (40 cm aprox.)
+- Paso 3: El monito comenzará a correr
+- Paso 4: Cuando el sensor detecté una distancia de 10 cm aprox.
+- Paso 5: El monito saltará y dirá "HOLA"
+- Paso 6: Para terminar, abrá un botón, que al precionarlo, se reiniciará
+
