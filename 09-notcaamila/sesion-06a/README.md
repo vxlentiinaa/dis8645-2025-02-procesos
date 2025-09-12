@@ -10,7 +10,13 @@ una vez creada la máquina, instalarla en la parte superior del marco de la puer
 
 ## indicaciones generales para el funcionamiento de la máquina
 
+.
 
+.
+
+.
+
+. ir rellenando
 
 
 
