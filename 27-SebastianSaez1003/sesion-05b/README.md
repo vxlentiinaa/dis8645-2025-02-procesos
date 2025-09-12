@@ -42,7 +42,7 @@ Las clases se ocupan cuando queremos ocupar estructuras de datos que no nos cabe
 
 Distintos archivos .h pueden ser dependientes unos de los otros, así que debo asegurarme de ponerles el #include, pero no es necesario que ponga, como en el ejemplo de la clase, el #texto para absolutamente todo, no, porque ya está incluido en otro archivo; de esta manera no haré mi código tan enredado.
 
-Encargo 9: "Escuchar y comentar uno de los tres primeros discos de la banda Primus".
+## Encargo 9: "Escuchar y comentar uno de los tres primeros discos de la banda Primus".
 
 El disco que me dediqué a escuchar fue “Sailing The Seas Of Cheese”, que fue el 2.º disco de la banda Primus, que fue lanzado el 14 de mayo de 1991.
 
