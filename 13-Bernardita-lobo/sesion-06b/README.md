@@ -42,4 +42,4 @@ complilar
 
 una maquina que cuando es levantada de su espacio, a traves de un nfc y un lector de nfc que lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
 
-maquina que cuenta secretos, tienes que acercarte mucho
+maquina que cuenta secretos, tienes que acercarte mucho, una maquina que necesites estar muy cerca para que te cuente sus secretos.
