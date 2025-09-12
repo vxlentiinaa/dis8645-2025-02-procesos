@@ -13,33 +13,33 @@ Es una placa donde se pueden construir fácilmente circuitos, como si de legos s
 
 <img src="./imagenes/potTypes.jpg" alt="Tipos de potenciómetros" width=450> <br> Fuente: https://mx.pinterest.com/pin/707417053993712985/
 
-Resistencias variables cuyo valor puede ser alterado al rotar una perilla, tornillo o deslizar un *slider*. <br>
- Su resistencia puede aumentar de forma lineal (B) o logarítmica (A) dependiendo del modelo.
+${\color{#ffe4a8}Resistencias \ variables}$ cuyo valor puede ser alterado al rotar una perilla, tornillo o deslizar un slider. <br>
+ Su ${\color{#ffe4a8}resistencia}$ puede aumentar de forma ${\color{#b0e6e6}lineal\ (B)}$ o ${\color{#b0e6e6}logarítmica\ (A)}$ dependiendo del modelo.
 
-Al conectar el primer pin a voltaje positivo y el último a tierra, se puede utilizar como divisor de voltaje.
+Al conectar el primer pin a ${\color{Red}voltaje\ positivo}$ y el último a ${\color{white}tierra}$, se puede utilizar como ${\color{Red}divisor\ de\ voltaje}$.
 
 #### [Divisor de voltaje:](https://youtu.be/DM9nlukKl1M?si=v-mtDorgQhqWrHjT)
 
-Al tener 2 resistencias conectadas en serie, varía el valor del voltaje a través de cada una, lo que efectivamente nos permite reducir el voltaje de una fuente de poder a cualquier valor desde su máximo a su mínimo (0V).
+Al tener 2 ${\color{#ffe4a8}resistencias}$ conectadas en ${\color{#b0e6e6}serie}$, varía el valor del ${\color{Red}voltaje}$ a través de cada una, lo que efectivamente nos permite reducir el ${\color{Red}voltaje}$ de una fuente de poder a cualquier valor desde su máximo a su mínimo (${\color{white}0V}$).
 
 <img src="./imagenes/voltageDivider.png" alt="Tipos de potenciómetros" width=500> <br> Fuente: https://makeabilitylab.github.io/physcomp/electronics/variable-resistors.html
 
-Un potenciómetro es efectivamente 2 resistencias conectadas en serie, cuyos valores pueden ser alterados de manera proporcional, lo que nos permite variar el voltaje en el pin central.
+Un ${\color{#ffe4a8}potenciómetro}$ es efectivamente 2 ${\color{#ffe4a8}resistencias}$ conectadas en serie, cuyos ${\color{#b0e6e6}valores}$ pueden ser ${\color{#b0e6e6}alterados\ de\ manera\ proporcional}$, lo que nos permite variar el ${\color{red}voltaje}$ en el ${\color{#b0e6e6}pin\ central}$.
 
 ### [Analog input](https://youtu.be/btgAUdbj85E?si=D2fYeVhIzD7r3K1b)
 
-Si el valor digital varía entre 1 y 0, hay o no hay voltaje, el valor analógico ve qué voltaje hay.
+Si el ${\color{#b0e6e6}valor\ digital}$ varía entre ${\color{red}1}$ y ${\color{white}0}$, ${\color{red}hay}$ o ${\color{white}no\ hay\ voltaje}$, el ${\color{#b0e6e6}valor\ analógico}$ ve cual es el ${\color{#b0e6e6}valor\ del\ voltaje}$ que tiene.
 
 ### [I2C](https://youtu.be/CAvawEcxoPU?si=wi7Ee-d5kUJcV1Vi)
 
 <img src="./imagenes/i2c.png" alt="Ejemplo conexión I2C" width=500> <br> Fuente: https://embeddedwala.com/Blogs/DigitalCommunication/Getting-Started-with-I2C:-What-is-Clock-Stretching
 
-Protocolo de comunicación que permite a un dispositivo comunicarse con hasta 112 dispositivos a la vez usando los mismos 2 cables, SDA (Serial Data) y SCL (Serial Clock).
+${\color{#b0e6e6}Protocolo\ de\ comunicación}$ que permite a un dispositivo comunicarse con hasta ${\color{#b0e6e6}112}$ dispositivos a la vez usando los mismos ${\color{#b0e6e6}2}$ cables, ${\color{#b0e6e6}SDA}$ (Serial Data) y ${\color{#b0e6e6}SCL}$ (Serial Clock).
 
 ### Other things: <!-- Things to organize + random stuff -->
 > ### [Analog computers](https://www.britannica.com/technology/analog-computer)
 >
-> Computadores que en lugar de emplear binario, utilizan valores continuamente variables, como voltajes, rotaciones de engranajes, cantidad de agua, etc.
+> Computadores que en lugar de emplear ${\color{#b0e6e6}binario}$, utilizan ${\color{#b0e6e6}valores\ continuamente\ variables}$, como voltajes, rotaciones de engranajes, cantidad de agua, etc.
 
 -----------------------------------------------------------------------------------------------------------
 ## Avance proyecto <!-- TEXT -->
