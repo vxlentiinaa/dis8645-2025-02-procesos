@@ -37,4 +37,3 @@ simulador de telefono en el computados 💻
 ### Palabras importantes 
 
 complilar
-
