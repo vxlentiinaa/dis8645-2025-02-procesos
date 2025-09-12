@@ -39,7 +39,16 @@ Tesis de [Janis](https://github.com/janisepulveda)
 
 ---
 
+### Modos de saludar, trabajo en clases 
 
+Específicar las ideas de cada una y obtener una versión mejorada o iterada.
 
+Idea mejorada 1: Tenemos el arduino, LEDS, una pantalla OLED y el sensor de proximidad HC-SR04. Cuando mi mano está lejos (aprox. 1 m), una luz roja se encenderá y derivará a la pantalla en donde saldrá el mensaje "No te saludaré, estás muy lejos". Si, mi mano está cerca (aprox. 30 cm) se encenderá una luz verde y en la pantalla OLED saldrá el mensaje "HOLAA" (con una imagen de un monito).
 
+- A . Si mi mano está lejos, no te saludaré
+- B . Si mi mano está cerca, te saludaré
 
+Idea mejorada 2: Tenemos el arduino, una pantalla OLED y el sensor de proximidad. Se basa en un juego, donde tendremos un monito que "correrá". Al colocar la mano a cierta distancia (20 cm) comenzará a saltar, con un mensaje que diga "HOLA", cuando quites la mano, este seguirá "corriendo"
+
+- A . Quitar mano del sensor = El monito seguirá corriendo
+- B . Colocar mano cerca del sensor  = El monito saltará y dirá "HOLA"
