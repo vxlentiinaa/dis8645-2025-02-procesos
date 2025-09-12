@@ -51,7 +51,7 @@ on
 
 **Sensor**: entrada a nuestra caja negra.
 
-**Actuador**: salida.
+Actuador: salida.
 
 - obs
 - Ultrasonico : emitir un pulso y detecta el ultrasonido y cuenta en cuanto se demora en devolverse.
