@@ -4,7 +4,7 @@
 
 ### links
 
-- [lav.io](https://lav.io)
+- [Sam Lavigne](https://lav.io)
 
 - [grep](https://en.wikipedia.org/wiki/Grep) global, regular expression re search delimited by slashes, print 
 
