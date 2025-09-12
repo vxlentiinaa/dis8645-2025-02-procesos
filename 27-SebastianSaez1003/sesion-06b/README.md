@@ -4,7 +4,7 @@ El proyecto de título de Mateo es la importancia de la tipografía en la propag
 
 Transpilar es compilar un código que tiene otro lenguaje.
 
-El proyecto de título de la Yanis es un amuleto que puede detectar neuralgia de trigémino desde un ámbito del diseño, donde se pueda registrar el nivel de dolor, entre otras cosas. Están creando un archivo en Dart; dentro de Dart existe Flutter, que es un programa para crear apps de teléfono. Tiene acceso a materiales de Google, que son montones de assets para no necesitar diseñar desde cero.
+El proyecto de título de la Janis es un amuleto que puede detectar neuralgia de trigémino desde un ámbito del diseño, donde se pueda registrar el nivel de dolor, entre otras cosas. Están creando un archivo en Dart; dentro de Dart existe Flutter, que es un programa para crear apps de teléfono. Tiene acceso a materiales de Google, que son montones de assets para no necesitar diseñar desde cero.
 
 BLE (Bluetooth Low Energy) solo se comunica en algunos momentos, usando menos recursos.
 
