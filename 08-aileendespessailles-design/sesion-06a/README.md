@@ -31,7 +31,7 @@ metáfora caja negra: algo entra - funciona - sale
 
 actuadores, parlantes, pantallas
 
-### Ideas proyecto 2 
+## Ideas proyecto 2 
 
 **Sensor Ultrasónico**, HC-SR04  miden la distancia mediante el uso de ondas ultrasónicas. El cabezal emite una onda ultrasónica y recibe la onda reflejada que retorna desde el objeto. Los sensores ultrasónicos miden la distancia al objeto contando el tiempo entre la emisión y la recepción. <https://youtu.be/BAfZWXbKrf0?feature=shared>
 Ideas para usarlo: 
