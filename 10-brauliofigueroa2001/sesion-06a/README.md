@@ -112,7 +112,7 @@ fuente, afel
 
 - otra definición más textual según la IA de google dice esto: La diferencia entre un sensor de sonido análogo y uno digital radica en la naturaleza de la señal que producen. Un sensor analógico genera una señal eléctrica continua que varía de forma gradual y suave con el sonido, permitiendo valores intermedios, mientras que un sensor digital genera una señal discreta y binaria (ceros y unos) a través de un proceso de muestreo que solo registra puntos específicos de la señal sonora.
 - no logro entender bien si al ser analógico digital y no sólo uno de ambas, entiendo que tiene una mezcla de las dos pero no logro entenderlo en verdad
-- la descripción de afel sobre el producto nos dice lo siguiente
+- la descripción de afel sobre el producto nos dice **lo siguiente:**
 -  este módulo puede detectar la intensidad de sonido que se presenta en el medio ambiente, cuenta con un potenciómetro el cual permite ajustar su sensibilidad, así­, de esta manera solo se detectarí­an ciertos niveles de frecuencia (sonidos). La pequeña board tiene un agujero cerca al conector, este es apropiado para ajustar en cualquier tipo de superficie mediante un tornillo y tuerca adecuados, dependiendo de la aplicación que desempeña el usuario.
 - en otra página llamada murkyrobot que encontré debido a que leí los apuntes de vania paredes y referenciaba esta página la cuál me adentré para ver si tenían información del sensor que buscaba y así fue
 - [guiamurkyrobot](https://www.murkyrobot.com/guias/sensores/ky-038)
@@ -124,6 +124,7 @@ fuente, afel
 -este tipo de sensores pueden ser útiles, por ejemplo, para encender un dispositivo cuando se detecte sonido, encender una lámpara con una palmada, o incluso orientar un robot o una torre con servos mediante sonido.
 - la mecánica de regular un umbral mediante un potenciómetro me recuerda a lo que hice para el proyecto de examen del taller de máquinas electrónicas
 - en ese caso también tenía un chip comparador (lm324) y que regulaba el umbral de luz mediante un potenciómetro, igual que en este caso pero acá es el umbral de sonido
+- en murkyrobot también nos muestran cómo debemos montar el sensor en el arduino
 
 
 
