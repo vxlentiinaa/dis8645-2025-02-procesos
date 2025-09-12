@@ -57,13 +57,17 @@ Investigar sobre sensor elegido en clases y buscar 3 ideas para realizar con dic
 
 ---
 
-insertar imagenes de sensor 
+![Sensor ultrasonico 1](./imagenes/sensorUltrasonico1.jpg)
+
+![Sensor ultrasonico 2](./imagenes/sensorUltrasonico2.jpg)
 
 ---
 
 En el pdf de [ULTRASONIC-HC-SR04 sensor de distancia ULTRASONICOHC-SR04](https://agelectronica.lat/pdfs/textos/U/ULTRASONIC-HC-SR04.PDF) sale un ejemplo de cómo conectarlo al arduino y programarlo.
 
-insertar imagenes 
+![Sensor arduino](./imagenes/sensorArduino.png)
+
+![Sensor codigo](./imagenes/sensorCodigo.png)
 
 ### Referentes
 
@@ -92,6 +96,8 @@ insertar imagenes
 ---
 
 También quiero destacar el código que hizo mi compañero [Nicolás Miranda](https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/15-Nicolas-Miranda1312), donde lo probó en Wokwi y funcionaba muy bien. 
+
+![Ejemplo Nico](./imagenes/ejemploNico.png)
 
 ```cpp
 #include <Wire.h>
