@@ -3,8 +3,8 @@
 + Python es más rápido de escribir 
 + Para For i 
 + Llama a los archivos a través de un for y un if en python (para renombrar los archivos y ordenarlos) luego crea clases y subclases para organizar los archivos en distintos tipos de tipografías (serif, sans,etc) crea un código que organiza, nombra, da clase y dirección a los carteles en página web. ;0 
-+ **Dart:** otro lenguaje de programación. Dart 
-+ **Flutter:** sirve para programar apps para el teléfono. Flutter
++ **Dart:** otro lenguaje de programación. [Dart](https://dart.dev/)
++ **Flutter:** sirve para programar apps para el teléfono. [Flutter](https://flutter.dev/?gad_campaignid=13034410696) 
 + Para proyecto 02 seran 3 clases de trabajo en clases (2 semanas) 
 
 ────୨ৎ────
