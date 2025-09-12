@@ -34,7 +34,7 @@ La última idea que se me ocurre es utilizar el sensor para desplegar la tempera
 Funciona de día y de noche, durante todo el año. Este sensor estaría en el exterior. Tiene una alarma o algún parlante que reproduce sonido. dentro del hogar. Está a la sombra para evitar que el sol cambie la temperatura del sensor. Debe estar siempre abajo de un techo, pero en un ambiente abierto.
 
 Rango de temperatura - Cualquier rango de temperatura
-Rango de humedad - Más o menos entre 70% y 80%
+Rango de humedad - Más o menos desde 70% hasta 100%
 
 Componentes a utilizar:
 Sensor de temperatura y humedad
@@ -50,4 +50,6 @@ La máquina va a responder con lenguaje coloquial.
 Que sonido se va a emitir en el parlante:
 Música clasica de dominio público
 Variable booleana para que se active y desactive en 14 segundos para evitar que siga reproduciendo el sonido.
+
+Definir más el usuario.
 
