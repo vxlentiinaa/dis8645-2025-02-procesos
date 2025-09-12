@@ -61,3 +61,5 @@ vibración ≠ oscilación
 ##### elasticidad
 
 [la elasticidad](https://es.wikipedia.org/wiki/Energía_potencial#Energía_potencial_elástica) es una propiedad de ciertos materiales. Considera que una vez estirados, deformados o separados de su posición, pueden recuperar su estado o posición original. La fuerza elástica puede producir [vibraciones]https://es.wikipedia.org/wiki/Vibración) y [oscilaciones](https://es.wikipedia.org/wiki/Oscilación)
+
+Toda vibración es una oscilación, pero no toda oscilación es una vibración. La diferencia radica en la magnitud. Las vibraciones suelen ser a niveles microscópicos, en cuanto al recorrido desde su posición original.
