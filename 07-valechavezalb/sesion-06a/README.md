@@ -92,3 +92,4 @@ Características
 ## Ideas para el proyecto 2
 
 - Usar un sensor de color para identificar un color de algo, y según el color asignarle una cualidad, acción, etc.
+- Usar el sensor de joystick para escribir una palabra mediante un código que indique: arriba, abajo, izquierda, dercha, presionar; tratando de descifrar un código con una leyenda que tiene al lado.
