@@ -56,7 +56,7 @@
 
 - Un sensor ToF que mide distancias de hasta 2 m.
   
-- Encontré proyectos que utilizan el sensor de distancia VL53L0X, todos muy parecidos, casi todos son para medir, pero me llamó la atención este [video](https://www.youtube.com/shorts/B3Dj2yVEdvg), donde el Sensor detecta un autito de juguete, donde se muestra cómo el sensor detecta el objeto acercarse, indicando a qué distancia está y cuando está fuera de rango.
+- Encontré proyectos que utilizan el sensor de distancia VL53L0X, todos muy parecidos, casi todos son para medir, pero me llamó la atención este [video](https://www.youtube.com/shorts/B3Dj2yVEdvg), donde el sensor detecta un autito de juguete, donde se muestra cómo el sensor detecta el objeto acercarse, indicando a qué distancia está y cuando está fuera de rango.
 
 - ![referenteSensorVL53L0X](./imagenes/autito.png)
 
