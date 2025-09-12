@@ -9,12 +9,6 @@
 
 ────୨ৎ────
 
-### 3 Ideas para Proyecto-02 (Máquinas de Saludar) ૮₍˶ᵔ ᵕ ᵔ˶ ₎ა
-Planta Interactiva: si el sensor de humedad detecta que está seca, enciende una luz roja y “pide agua” con un sonido.
-Saludo por Aplausos: usar el sensor de sonido para que un brazo mecánico salude cada vez que detecte 2 aplausos seguidos.
-Radar de Bienvenida: con el ultrasónico, detectar cuando alguien se acerca y que la máquina reproduzca un sonido o mueva una bandera de saludo.
-
-
 ### ¿Qué es saludar? (꩜ ᯅ ꩜;)⁭ ⁭
 + Saludar es un acto social de cortesía que busca reconocer la presencia de otro ser. Puede expresarse de distintas formas:
 Verbal: palabras como "hola" o "buenos días".
