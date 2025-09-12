@@ -84,7 +84,25 @@ Otro factor que encontré curioso eran 2 intermissions muy cortas, una al inicio
 
 Mi canción favorita del disco definitivamente fue “Tommy The Cat” por la variación de cómo se presenta la música con la narración rápida de las letras, como también el video musical, que encontraba muy entretenido, donde se hacía un cambio entre la banda tocando sus instrumentos, como en un video musical típico, una narrativa de un bartender y animación.
 
-!(ImagenesImagenes)[./imagenes/blabla)
+Screenshot de la banda:
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat01.png)
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat02.png)
+
+Screenshots de la narrativa:
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat03.png)
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat04.png)
+
+Screenshots de la animación:
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat05.png)
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat06.png)
+
+![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat07.png)
 
 Referencias:  
 
