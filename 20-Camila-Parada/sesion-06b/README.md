@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 06b - Exploraciones, cosas raras, Spacy, mucho todo... ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 06b - Exploraciones, rarezas, Spacy, mucho todo... ♡⊹˚₊⋆
 
 Viernes 11 Septiembre 2025
 
