@@ -75,6 +75,7 @@ BREAK
 - se entregará el 17 de octube y será una máquina saludadora
 - quizá a esto se le puede meter audio, le pregunte a Aarón y me dijo que sí
 - referentes de lo que es bello: maywa denki toys, greeting machine arduino
+- dejo aquí una charla de maywa denki que encontré, no la he visto aún pero la dejo para que quede aquí por si alguien la ve: [maywadenki](https://www.youtube.com/watch?v=jKPBD3HHU4g)
 - la metáfora de la caja negra
 - ahora haremos máquinas que reciben un estímulo y responden a eso
 - podemos enfocarnos en aprender motor, parlante/sonidos o explorar formas más raras de interactuar con pantallas
