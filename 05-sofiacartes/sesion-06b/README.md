@@ -67,6 +67,8 @@ Sensor de proximidad
 
 Idea 1
 
+DEFINIR TIEMPO  Y VELOCIDAD
+
 Paso 1: hacer un código.
 Paso 2: definir que a un metro de distancia emita el código morse
 Paso 3: definir el código morse que diga hola. ... /_ _ _  / ._.. /._ //
@@ -76,6 +78,8 @@ Paso 5: probar la distancia y la sensibilidad.
 ---
 
 Idea 2
+
+DEFINIR TIEMPO  Y VELOCIDAD
 
 Paso 1: hacer un código.
 Paso 2: definir que la cercanía de 30 cm. apróx.
@@ -87,6 +91,8 @@ paso 6: dibujar, crear un objeto/monito que diga "hola" mediante una gráfica.
 ---
 
 Idea 3
+
+DEFINIR TIEMPO  Y VELOCIDAD
 
 Paso 1: hacer un código. 
 Paso 2: definir que al pasar la mano cerca delo sensor
