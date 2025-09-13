@@ -62,12 +62,16 @@ La idea es definir mis límites y descartar las cosas que no me gustaría hacer 
 
 ### Quiero
 
-- Cosas funcionales.
-- Que tengan futuro y se puedan desarrollar más.
+- Cosas funcionales o de humor.
+- Que tengan futuro y se puedan desarrollar o profundizar más.
 - Aplicar las CLASES.
 - Usar sensores.
-- Aprender a hacer páginaas web.
+- Aprender a hacer páginas web.
+- Me cuesta mucho (a veces me frustra) investigar, pero necesito aprender.
+- Aprender lenguajes de programación nuevos.
+- Aprender a aprender solo.
+- Usar servos.
 
 ### No quiero
 
-- No quisiera hacer algo que no tenga una función específica.
+- Hacer algo que no tenga una o más funciones específicas (no quiero hacer algo porque sí).
