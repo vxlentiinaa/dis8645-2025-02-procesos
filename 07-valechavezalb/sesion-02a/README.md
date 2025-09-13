@@ -53,7 +53,7 @@ void flash (int duracion)
 }
 ```
 
-### Reloj que muestra horas, minutos y segundos
+### ⏰ Reloj que muestra horas, minutos y segundos
 
 ```cpp
 void setup() {
@@ -104,7 +104,7 @@ void loop() {
 
 - Este código también tuvo el mismo error del código anterior, en términos de sintáxis con la misma variable Serial.printIn. Y no supe como solucionarlo.
 
-# Charla de Sokio, Mauricio Días Gallardo
+# 🎙️ Charla de Sokio, Mauricio Días Gallardo
 
 <https://sokio.studio/>
 
