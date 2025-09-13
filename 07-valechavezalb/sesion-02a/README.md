@@ -104,7 +104,7 @@ void loop() {
 
 - Este código también tuvo el mismo error del código anterior, en términos de sintáxis con la misma variable Serial.printIn. Y no supe como solucionarlo.
 
-# 🎙️ Charla de Sokio, Mauricio Días Gallardo
+## 🎙️ Charla de Sokio, Mauricio Días Gallardo
 
 <https://sokio.studio/>
 
