@@ -15,7 +15,7 @@ Hay que documentar procesos. Se entrega la sesión 04b.
 ### [Condicionales](https://www.youtube.com/watch?v=cHrd2lWT2hI) 
 Nos permiten cambiar el comportamiento del código, haciendo que reaccione a situaciones y variables.
 
-${\color{9E34EB}if}$: <br> <!-- subtitulo -->
+${\color{#9E34EB}if}$: <br> <!-- subtitulo -->
 Si la condición X es verdadera, entonces corre este código.
 
 ````cpp
@@ -32,7 +32,7 @@ if (switchPulsado == true) { // Si el valor de la izquierda coincide con el de l
 
 Importante recordar que el operador ${\color{yellow}=}$ asigna un valor, mientras que ${\color{yellow}==}$ compara si el valor de la izquierda coincide con el de la derecha.
 
-${\color{9E34EB}else}$: <br> <!-- subtitulo -->
+${\color{#9E34EB}else}$: <br> <!-- subtitulo -->
 En caso de que la condición no se cumpla, haz esta otra cosa.
 
 ````cpp
@@ -50,8 +50,8 @@ if (switchPulsado == true) { // Si el valor de la izquierda coincide con el de l
 }
 ````
 
-${\color{9E34EB}else \ if}$: <br> <!-- subtitulo -->
-En caso de que el primer ${\color{9E34EB}if}$ no se cumpla, se ejecuta otro ${\color{9E34EB}if}$.
+${\color{#9E34EB}else\ if}$: <br> <!-- subtitulo -->
+En caso de que el primer ${\color{#9E34EB}if}$ no se cumpla, se ejecuta otro ${\color{#9E34EB}if}$.
 
 Por ejemplo, si uno abre la llave del agua, sale agua; en caso de que salga agua, dependiendo de si la giramos a la derecha o izquierda, saldrá caliente o fría.
 
@@ -91,10 +91,10 @@ Almacena la misma cantidad de información que ${\color{cyan}long}$, pero guarda
 
 ### [Operadores lógicos](https://www.w3schools.com/cpp/cpp_operators_logical.asp)
 
-Se utilizan dentro de las declaraciones ${\color{9E34EB}if}$
+Se utilizan dentro de las declaraciones ${\color{#9E34EB}if}$
 
 ${\color{yellow}AND}$: <br> <!-- subtitulo -->
-Si la condición1 y la condición2 son verdaderas, entonces la declaración ${\color{9E34EB}if}$ se cumple.
+Si la condición1 y la condición2 son verdaderas, entonces la declaración ${\color{#9E34EB}if}$ se cumple.
 
 Por ejemplo, si yo enchufo una lámpara ${\color{yellow}Y}$ aprieto su botón de encendido, esta se enciende, pero si no hago alguna de estas 2 cosas no se va a encender.
 
@@ -107,7 +107,7 @@ if (lamparaEnchufada == true && botonEncendido == true) { // Si está enchufada 
 ````
 
 ${\color{yellow}OR}$: <br> <!-- subtitulo -->
-Si alguna de las condiciones es verdadera, entonces la declaración ${\color{9E34EB}if}$ se cumple.
+Si alguna de las condiciones es verdadera, entonces la declaración ${\color{#9E34EB}if}$ se cumple.
 
 Por ejemplo, si tenemos 2 arduinos con el mismo código, mientras uno de ellos funcione, nos sacamos un 7 en la entrega.
 
@@ -133,7 +133,7 @@ Se utiliza **%** en el código para usar el operador.
 Se puede utilizar para ver si un número es par o impar.
 
 -----------------------------------------------------------------------------------------------------------
-## Encargo <!-- Investigar NAND, NOR y XOR -->
+## Encargo 06<!-- Investigar NAND, NOR y XOR -->
 ### Logic gates
 ${\color{yellow}NAND}$: <br> <!-- subtitulo -->
 Equivalente a ${\color{yellow}!AND}$.
