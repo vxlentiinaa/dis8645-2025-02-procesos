@@ -1,23 +1,21 @@
-# Clase 03
+# 🌷 Sesion-02a
 
 Martes 12 de agosto de 2025
 
-## Cultura computacional
+## 📺 Cultura computacional
 
 - Serial.beging: inicializa comunicación serial permitiendo que arduino reciba datos a través de puerto serie.
 - c++ es c pero con clases.
 - Proyectos computacionales programados.
 - camelCase, sintáxis de programación.
 
-### ¿Qué es un baudio?
+### 🎛️ ¿Qué es un baudio?
 
 Un baudio o baud rate es la veocidad de la comunicación de datos. Por ejemplo 9600 se usa para ser más estable.
 
 ## Encargo de la clase de hoy: documentar código, fallos y aciertos con arduino
 
-## **Códigos**
-
-## Luz que parpadea con código morse con la palabra SOS
+### Luz que parpadea con código morse con la palabra SOS
 
 ```cpp
 // luz led incorporada del arduino
@@ -55,7 +53,7 @@ void flash (int duracion)
 }
 ```
 
-### Reloj que muestra horas, minutos y segundos
+### ⏰ Reloj que muestra horas, minutos y segundos
 
 ```cpp
 void setup() {
@@ -89,7 +87,7 @@ void loop() {
 
 - Este tuvo un error que no pude resolverlo, dice que tiene un error de sintaxis pero está bien escrito y no supe resolverlo. Escrbí Serial.printIn y no me lo toma.
 
-#### Elección de número al azar, que se ve en el serial monitor
+### Elección de número al azar, que se ve en el serial monitor
 
 ```cpp
 Serial.begin(9600); // inicia comunicacion serie 9600 --> velocidad a la que los datos se transmitiran entre pc-arduino
@@ -106,7 +104,7 @@ void loop() {
 
 - Este código también tuvo el mismo error del código anterior, en términos de sintáxis con la misma variable Serial.printIn. Y no supe como solucionarlo.
 
-## Charla de Sokio, Mauricio Días Gallardo
+## 🎙️ Charla de Sokio, Mauricio Días Gallardo
 
 <https://sokio.studio/>
 
