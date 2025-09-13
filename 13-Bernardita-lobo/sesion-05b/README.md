@@ -60,7 +60,15 @@ Métodos
 
 ### Referentes
 
-## Encargo-06: Mitch Resnick
+## Encargo-09: Primus
+          
+Escuchar y comentar uno de los tres primeros discos de la banda Primus
+
+Albúm primus desaturating seven
+
+Albúm Pork Soda
+
+## Encargo-10: Mitch Resnick
 
 Me leí el artículo [“Sembrando las semillas para una sociedad más creativa”](https://eduteka.icesi.edu.co/articulos/ScratchResnickCreativida) de Mitch Resnick, el cual fue traducido por Eduteka. 
 
