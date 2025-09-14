@@ -39,7 +39,19 @@ class Texto {}
 
 ### Primus
 
-Escuchar los dos primeros discos de Primus
+Escuchar los uno de los dos primeros discos de Primus.
+
+Es una banda estadounidense de funk metal creada en San Francisco, California, en 1984.
+
+"El funk metal es un género musical que surgió con la fusión de la música de la década de los ochenta incorporando los elementos de funk y heavy metal, este último normalmente alternativo, sobre todo en sus inicios."
+
+<https://es.wikipedia.org/wiki/Funk_metal>
+
+Disco escuchado:
+
+<https://es.wikipedia.org/wiki/Primus>
+
+<https://www.discogs.com/es/release/2783944-Primus-Suck-On-This?srsltid=AfmBOorXEcdf_3X060BtMbRU8LZZVy2OH6ggKQ5k14miEOWXNcvVuIb6>
 
 #### Referentes
 

@@ -185,7 +185,7 @@ etc() // función ya definida
 > Es posible transferir este código máquina de un microcontrolador a otro (si son idénticos), pero es prácticamente **imposible recuperar el código original** partir de él.
 
 -----------------------------------------------------------------------------------------------------------
-## Encargo <!-- TEXT -->
+## Encargo 03<!-- TEXT -->
 ### Errores de Arduino
 ### Pulsando LED V1
 

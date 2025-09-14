@@ -161,9 +161,44 @@ SCRATCH
 
     + Otro sitio de referente: <https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/>
 
+#### Tres ideas
++ **1- El guardia nocturno:** Con sensor de luz.
+  + Cuando hay luz (día): LED verde encendido fijo.
+  + Cuando se apaga la luz (noche): prende un LED rojo intermintente y dice “¿Quién anda ahí?” o cosas por el estilo.
+
++ **2- Sueño dramático:** Sensor de luz + pantallita
+  + Si hay mucha luz: en la pantalla LCD aparece “No puedo dormir” y un LED rojo prende.
+  + Si hay penumbra: mensaje “ahora sí, buenas noches" con LED azul.
+  + //O algo parecido pero con un parlante en vez de pantallita, que diga no puedo dormir y luego haga el típico sonido de soñando//
+
++ **3- El Arduino indeciso:** Sensor ultrasónico + pantalita.
+  + Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
+  + Cuando la agitas: genera una respuesta y la muestra en la pantallita.
+  + Ejemplos:
+    + “Sí, dale loco.”
+    + “Eri wn o te haci?.”
+    + “igual puede ser…”
+    + "No sé, pregunta más tarde.”
+
++ **4- La vela mágica:** Sensor de micrófono + LED.
+  + LED parpadea amarillo como fuego.
+  + Si soplas fuerte en el microfono: LED se apaga.
+  + Si aplaudes dos veces: LED vuelve a encender.
+
+  #### Referentes
+  + <https://www.youtube.com/shorts/IxwlgXyNRds>
+  + <https://www.youtube.com/shorts/pIdMibTZAAEa>
+  + <https://www.youtube.com/shorts/0p1z8Zv7VDg>
+  + <https://www.youtube.com/watch?v=BAfZWXbKrf0>
+  + <https://www.youtube.com/shorts/atLXHi7XUTE>
+  + <https://www.youtube.com/watch?v=l83rTkCTse4>
+  + <https://www.youtube.com/shorts/eC68tESrPsg>
+
 #### Cotizaciones
 + **Sensor de Sonido Analógico Digital** $2.300 en Afel <https://afel.cl/products/sensor-de-sonido-analogico-digital>
++ **Sensor Acelerómetro GY-291 ADXL345 - 3 ejes** $3.800 en Afel <https://afel.cl/products/sensor-acelerometro-gy-291-adxl345-3-ejes>
++ **Modulo Microfono Amplificador MAX4466** $2.990 en Afel <https://afel.cl/products/modulo-microfono-amplificador-max4466>
 + **Sensor analogo de sonido con microfono KY-037** $2.290 en mechatronicstore: <https://www.mechatronicstore.cl/sensor-analogo-de-sonido-con-microfono/?srsltid=AfmBOor_qucrqVArqHFluwswkUemWlc_1tw-Rij8wEx2tZD8tsL0c0o0>
++ **Sensor de Luz Ambiente TEMT6000** $2.300 en Afel <https://afel.cl/products/sensor-de-luz-ambiente-temt6000>
++ **Kit 50 Diodos Leds de 5mm Ultrabrillantes** $2.500 en Afel <https://afel.cl/products/kit-50-diodos-leds-de-5mm-ultrabrillantes>
 + **Sensor Analógico Sonido/Audio MAX9812 (SKU 614H1)** $3.790 en hubot: <https://hubot.cl/producto/sensor-analogico-audio-max9812-sku-614/?srsltid=AfmBOooGo97YTbkAtHRv7iFzCkwWLnrnDwqungPrliHZF_dnLwOTs1UD>
-
-  

@@ -38,7 +38,7 @@ Software enfocado en enseñar a codificar. El programa permite escribir código 
 
 -----------------------------------------------------------------------------------------------------------
 
-## encargo-01: investigar sobre ada lovelace
+## Encargo 01: investigar sobre ada lovelace
 
 ### [Ada Lovelace](https://historia.nationalgeographic.com.es/a/ada-lovelace-visionaria-hija-lord-byron_15864)
 
@@ -46,7 +46,7 @@ Considerada la primera programadora y estudiante de la matemática y astrónoma 
 
 En el artículo, desarrolló conceptos como el de algoritmo informático, el bucle (loop) y la idea de una máquina reprogramable de propósitos múltiples que usaría tarjetas perforadas, de forma similar a los computadores posteriores.
 
-## encargo-02: investigar sobre alan turing
+## Encargo 02: investigar sobre alan turing
 
 ### [Alan Turing](https://www.nationalgeographicla.com/ciencia/2023/06/quien-fue-alan-turing-pionero-en-el-desarrollo-de-la-inteligencia-artificial-y-la-computacion-moderna)
 
