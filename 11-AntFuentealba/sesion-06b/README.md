@@ -72,12 +72,12 @@ En la revisión de los trabajos de tesis de Janis y Mateo se abordaron diversas 
 - Fuente de alimentación (5 V para Arduino y pantalla).
 
 #### Lógica de control:
-1. Estado inicial (reposo)
+Estado inicial (reposo)
 
 - Pantalla OLED muestra ojos cerrados.
 - Microcontrolador lee continuamente la distancia del sensor de proximidad.
 ---
-2. Detección de presencia
+  Detección de presencia
 
    Si el sensor detecta un objeto/persona a ≤30 cm:
 
@@ -85,7 +85,7 @@ En la revisión de los trabajos de tesis de Janis y Mateo se abordaron diversas 
 - Cambiar estado a “activo”.
 - Iniciar temporizador de parpadeo (2 s) y temporizador de guiño (10 s).
 ---
-3. Estado activo (persona detectada)
+Estado activo (persona detectada)
 
 - Parpadeo regular: cada 2 segundos se reproduce la animación de parpadeo (ojos cerrarse y abrirse rápido).
 
@@ -95,7 +95,7 @@ En la revisión de los trabajos de tesis de Janis y Mateo se abordaron diversas 
 
 - Mantener ojos abiertos y seguir parpadeando mientras el sensor detecte la presencia.
 ---
-4. Pérdida de presencia
+Pérdida de presencia
 
    Si el sensor detecta >30 cm durante un lapso breve (por ejemplo 500 ms para evitar falsos positivos):
 
@@ -105,7 +105,7 @@ En la revisión de los trabajos de tesis de Janis y Mateo se abordaron diversas 
 
 - Reiniciar temporizadores.
 ---
-5. Reinicio del ciclo
+Reinicio del ciclo
 
 - El microcontrolador vuelve al paso 1 y espera nueva detección.
 
