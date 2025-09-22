@@ -1,50 +1,50 @@
 # sesion-06a 𐔌՞. .՞𐦯
 
-## Apuntes Clase 6A ⋆˚꩜｡ 
+## Apuntes Clase 6A ⋆˚꩜｡
 
 ### Conceptos Importantes  ⋆˙⟡
 
-**Objetos y Clases**:
+Objetos y Clases
   
 + Se pueden usar de forma intercambiable.
-    
+
 + Programación orientada a objetos → programar objetos que convergen a través de clases.
 
 + "Programar con cajitas".  
 
-**Lint (Linter)**  
+Lint (Linter)
 
-  + Analizador de código estático.
++ Analizador de código estático.
   
-  + Detecta errores, problemas de estilo y construcciones sospechosas antes de ejecutar el código.
++ Detecta errores, problemas de estilo y construcciones sospechosas antes de ejecutar el código.
   
-  + Mejora la calidad, seguridad y rendimiento del proyecto.
++ Mejora la calidad, seguridad y rendimiento del proyecto.
   
-  + En GitHub se configura en `.github/markdown-lint.yml`.  
++ En GitHub se configura en `.github/markdown-lint.yml`.  
 
-**YAML**  
+YAML
 
-  + Lenguaje de serialización de datos.
-    
-  + Se usa para configurar procesos automatizados (por ejemplo, GitHub Actions).  
++ Lenguaje de serialización de datos.
 
- **Automatización**
- 
-  + "El poder de la programación está en repetir y automatizar."
-    
-  + **Action → Workflow:** flujo de trabajo para automatizar procesos dentro del repositorio.
++ Se usa para configurar procesos automatizados (por ejemplo, GitHub Actions).  
+
+Automatización
+
++ "El poder de la programación está en repetir y automatizar."
+
++ **Action → Workflow:** flujo de trabajo para automatizar procesos dentro del repositorio.
 
 **Overleaf y LaTeX**  
 
-  + **Overleaf**: plataforma online para escribir documentos en LaTeX.
-     
-  + **LaTeX**: sistema de composición tipográfica, ideal para tesis y documentos técnicos.
-    
-    + Separa contenido de formato.
-      
-    + Compila comandos para generar PDF de alta calidad.  
++ **Overleaf**: plataforma online para escribir documentos en LaTeX.
 
-- **Dato curioso:** El primer computador fue una máquina de tejido.  
++ **LaTeX**: sistema de composición tipográfica, ideal para tesis y documentos técnicos.
+
+  + Separa contenido de formato.
+
+  + Compila comandos para generar PDF de alta calidad.  
+
++ **Dato curioso:** El primer computador fue una máquina de tejido.  
 
 ────୨ৎ────
 
@@ -53,7 +53,7 @@
 + [Scratch](https://scratch.mit.edu/) – Programación visual.
   
 + [Pure Data](https://puredata.info/) – Programación con nodos/cajas.
-   
+
 + **TouchDesigner** – Programación con cajitas.
   
 + **VVVV** – Software de programación gráfica.
@@ -75,42 +75,40 @@
 + **Encoder Rotatorio (KY-040):**
   
   + Gira sin límite, se puede presionar (como perilla de lavadora).
-    
+
   + **Precio:** $2000 c/u aprox.
-    
+
 + **Sensor de Humedad de Suelo:**
   
   + Detecta humedad en plantas (ideal para riego automático).
-    
+
   + **Precio:** $2300 c/u aprox.
-    
+
   + **Idea:**
-    
+
     + Mascota interactiva con una planta real.
-      
+
     + Si la planta tiene sed → llora.
-      
+
     + Si está bien → sonríe.
-      
+
     + Puede usar luces, sonidos o pantalla para mostrar su "estado".
-      
+
     + Útil para personas que están aprendiendo a cuidar plantas.
-      
+
 + **Sensor de Lluvia:**
   
   + Detecta gotas de agua o cualquier contacto conductor (sensor pasivo).
-    
+
 + **Joystick:**
   
   + Incluye potenciómetros y un botón.
-    
+
   + Similar al de los mandos de videojuegos.
-    
+
 + **Sensor de Sonido:**
   
   + Detecta intensidad de sonido o eventos (aplausos, portazos).
-    
- 
 
 ─── ⋆⋅☆⋅⋆ ──
 
@@ -140,7 +138,6 @@
 
 + **Sensor de Sonido KY-037** → $3.000 (Afel)
 
-
 ### Referentes de uso ⋆˚꩜｡
 
 + **Ultrasónico:** utilizado en robots para evitar obstáculos ([ejemplo Arduino](https://projecthub.arduino.cc/Aswinth/soil-moisture-sensor-with-arduino-91c818))
@@ -151,7 +148,6 @@
 
 + **Sensor de Sonido:** sistemas de control por aplauso o detección de ruidos para automatizar luces.
   
-
 ### 3 Ideas para Proyecto-02 (Máquinas de Saludar) ૮₍˶ᵔ ᵕ ᵔ˶ ₎ა
 
 1. **Planta Interactiva:** si el sensor de humedad detecta que está seca, enciende una luz roja y “pide agua” con un sonido.  

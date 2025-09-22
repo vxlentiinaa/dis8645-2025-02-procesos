@@ -5,18 +5,18 @@
 + **Archivos en C++**
   
   + `.h`: Archivos cortos, donde se **declara** (promesas).
-    
+
   + `.cpp`: Archivos largos, donde se **define** (me hago cargo de las promesas).
   
   + En los `.h` se utiliza:
-    
+
     ```cpp
     #ifndef NOMBRE
     #define NOMBRE
     ...
     #endif
     ```
-    
+
   + *╰┈➤ Esto evita errores al incluir múltiples veces el mismo archivo.*
 
 + **Comentarios en el código**
@@ -40,7 +40,7 @@
 ```
 
  ⋆˚꩜｡Aquí, *Completo_Italiano* hereda de Completo.
- 
+
  ➝ Es una clase que no existe en el vacío, sino que depende de otra.
 
 + **Atributos:** Variables de una clase.
@@ -51,7 +51,7 @@
   
 + W3Schools – Inheritance en C++
   
-https://www.w3schools.com/cpp/cpp_inheritance.asp 
+<https://www.w3schools.com/cpp/cpp_inheritance.asp>
 
 ────୨ৎ────
 
@@ -62,9 +62,9 @@ https://www.w3schools.com/cpp/cpp_inheritance.asp
 + **⋆˙⟡ Ejemplo de jerarquías:**
 
 1. Una clase general: `Texto`
-   
+
 2. Una clase que herede de `Texto`: `Poema`
-   
+
    + Todos los poemas son textos, pero no todos los textos son poemas.
 
 ***
@@ -84,7 +84,7 @@ https://www.w3schools.com/cpp/cpp_inheritance.asp
 + **Jerarquías**: Hay que respetarlas.
   
   + Si modificas algo en `Poema`, esto no afecta automáticamente a `Texto` (y viceversa).
-    
+
 + **Ejemplo de atributos comunes a todos los textos ೀ**:
   
  ```cpp
@@ -98,8 +98,7 @@ https://www.w3schools.com/cpp/cpp_inheritance.asp
 
 + Heredar funciones/atributos:
 
- * Poema hereda la posibilidad de tener una nota de Texto.
-
++ Poema hereda la posibilidad de tener una nota de Texto.
 
 ✩₊˚.⋆☾⋆⁺₊✧
 
@@ -233,11 +232,11 @@ void loop() {
 + **Beneficios de programar:**
   
   + **Creatividad:** diseñar ideas desde cero.
-    
+
   + **Pensamiento lógico y crítico:** estructurar, organizar y mejorar el código.
-    
+
   + **Resolución de problemas:** aprender de los errores y encontrar soluciones.
-    
+
   + **Colaboración:** trabajar con pares y aprender de otros.  
 
 + **Crítica a la educación tradicional:**
@@ -246,23 +245,22 @@ void loop() {
   Él propone fomentar la **exploración, el juego, la curiosidad y la pasión por crear**.  
 
 + **Modelo de los 4P del Aprendizaje Creativo:**
-   
+
   + **Proyectos:** aprender haciendo.
-    
+
   + **Pares:** colaborar con otros.
-    
+
   + **Pasión:** trabajar en lo que nos motiva.
-    
+
   + **Play/Juego:** experimentar y equivocarse como parte del proceso.
 
 + **Ser creadores, no solo consumidores:**
   
   En la era digital no basta con consumir tecnología, hay que **crear** con ella. Programar es una herramienta poderosa para el presente y el futuro.
 
-
 ⁺‧₊˚ ཐི⋆♱⋆ཋྀ ˚₊‧⁺
 
-###  Comentario ٩꒰｡•◡•｡꒱۶
+### Comentario ٩꒰｡•◡•｡꒱۶
 
 > Esta charla me pareció muy inspiradora porque pone a la programación como algo cercano y accesible.  
 > Coincido con Resnick en que no se trata de formar ingenieros, sino de darle a todas las personas una herramienta para expresarse y crear.  
@@ -293,7 +291,7 @@ Es conocido por su sonido único, liderado por el bajo de Les Claypool, y por ca
 
 🎧ྀི♪⋆.✮
 
-### Comentario ٩꒰｡•◡•｡꒱۶  
+### Comentario
 
 > Escuchar *Sailing the Seas of Cheese* fue una experiencia fuera de lo común.  
 > La música de Primus es caótica y experimental, pero al mismo tiempo muy precisa.  
@@ -301,7 +299,7 @@ Es conocido por su sonido único, liderado por el bajo de Les Claypool, y por ca
 > El tono humorístico de las letras y el estilo excéntrico de la banda generan una atmósfera que es divertida pero también extraña, lo que me mantuvo atento durante toda la escucha (me recordo letras de SOD).  
 
 ### Fuentes ★
+
 + [Wikipedia – Sailing the Seas of Cheese](https://en.wikipedia.org/wiki/Sailing_the_Seas_of_Cheese)  
 + [Discogs – Sailing the Seas of Cheese](https://www.discogs.com/master/50227-Primus-Sailing-The-Seas-Of-Cheese)  
 + Escucha personal del álbum en [Spotify](https://open.spotify.com/album/4RnvbUKtYSj8kZL5Z7x4l2)
-
