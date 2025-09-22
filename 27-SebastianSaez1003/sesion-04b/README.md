@@ -18,15 +18,39 @@ Nos dejaron de tarea ver el significado de hermenéutica; según Google, es: int
 
 El grupo 8, “Las dos”, porque son ellas 2, hicieron un poemario. 
 
-Encargo 8 "investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins"
+## Encargo 8 "investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins"
 
-Allison Parrish
+### Allison Parrish
 
+Es una poeta, programadora, diseñadora de videojuegos y actualmente profesora asistente de Arte en la NYU, como ella misma describe en su [página web](https://www.decontextualize.com/): “cuya enseñanza y práctica abordan los fenómenos inusuales que surgen cuando el lenguaje y los computadores se encuentran”. 
 
+Según Wikipedia, es una de las más destacadas creadoras de los primeros bots literarios de Twitter, es licenciada en Lingüística por la Universidad de California en Berkeley y tiene un máster en Estudios Profesionales por el Programa de Telecomunicaciones Interactivas (ITP) de la Universidad de Nueva York. Ha sido escritora residente en el Departamento de Inglés de la Universidad de Fordham entre 2014 y 2016, y profesora adjunta de Artes en el ITP desde 2016.
 
-Nick Montfort
+Un extracto directo de su página web, traducido al español con la herramienta [DeepL](https://www.deepl.com/es/translator) :
 
+“Según Ars Technica, el trabajo de Allison «deleita a todo el mundo». Fue nombrada «Mejor creadora de bots poéticos» por Village Voice en 2016, y su fanzine de poemas generados por ordenador, «Compasses», recibió una mención honorífica en el Prix Ars Electronica 2021. Allison es cocreadora del juego de mesa Rewordable (Clarkson Potter, 2017), y sus libros, chapbooks y colaboraciones han sido publicados por editoriales como Counterpath, Instar, Aleator y Nothing to Say. Su poesía ha aparecido en BOMB Magazine, Strange Horizons, Taper y Ninth Letter, entre otras publicaciones. En 2024, recibió el premio «Maverick» de la Electronic Literature Organization.”
 
+También ha hecho muchas charlas, que están disponibles para poder escuchar desde su página web.
 
-Martín Gubbins
+Desde su portafolio encontré una obra que es del año 2007 titulada [“@everyword”](https://github.com/aparrish/everywordbot ), que tenía la misión de twittear absolutamente todas las palabras del idioma inglés de manera alfabética, donde se demoró aproximadamente 7 años en terminar.
 
+(foto del everyword)
+
+También otra obra que me llamó la atención fue ["A Gutenberg Poetry Corpus / Gutenberg, Dammit”](https://github.com/aparrish/gutenberg-poetry-corpus), primero por el título, que contenía Gutenberg, un nombre muy importante en el ámbito del diseño, refiriéndose a Johannes Gutenberg, uno de los padres de la tipografía, que imprimió la Biblia de 42, que fue el primer libro impreso con tipos móviles, pero no se trataba sobre esto particularmente la obra, sino de la recopilación de 3 millones de líneas de poesía de una corporación con el nombre de “Project Gutenberg”, que es una librería de más de 75.000 ebooks totalmente gratis.
+
+Esta estaba pensada como base para proyectos en los que se quería generar texto computacional de manera creativa, y al menos con cómo está el mundo de la generación computacional hoy en día, asumo que también esta es una manera mucho más ética de desarrollar estos proyectos que con la inteligencia artificial, donde existe muchísimo plagio.
+
+Referencias:  
+- https://www.decontextualize.com/  
+
+- https://en.wikipedia.org/wiki/Allison_Parrish  
+
+- https://portfolio.decontextualize.com/  
+
+### Nick Montfort
+
+ble
+
+### Martín Gubbins
+
+ble
