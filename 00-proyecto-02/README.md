@@ -35,12 +35,12 @@ son 28 estudiantes, distribuidos en 6 grupos:
   * persona04
   * persona05
 
-* grupo 03
-  * persona01
-  * persona02
-  * persona03
-  * persona04
-  * persona05
+* grupo 03 - Chispop
+  * Antonella Aguilar
+  * Javiera Moraga
+  * Pia Orellana
+  * Angela O'Ryan
+  * Josefa Quape
 
 * grupo 04
   * persona01
