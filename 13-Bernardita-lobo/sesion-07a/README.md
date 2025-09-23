@@ -83,3 +83,19 @@ quiero que unos ojos identifique y triangulen la profundidad de dondes estoy, si
 si pones site:cl
 
 busca solo en chile
+
+### palabras importantes
+
+### referentes
+
+## Encargos
+
+buscar ejemplos de : lenguaje, código, materialidad y documentacion.
+
+lenguaje, palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera literaria nuestro proyecto, llevarlo al mundo descroptivo, lenguaje natural, adjetivos, vervos y advervios.
+
+código, do codigos que utilicen sensores parecidos
+
+materialidades en proyectos,  ya sea madera, impresion 3d, metal...
+
+documentación, registro, instrumentos telepaticos.
