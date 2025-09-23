@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 08a - Lint hacker (Pelusas) y sensores ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 08a - Vuelta de clases ♡⊹˚₊⋆
 
 Martes 23 Septiembre 2025
 
