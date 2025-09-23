@@ -26,4 +26,3 @@
 ⟡ Modulo Reproductor: Modulo Reproductor MP3 DFPlayer Mini. $2.990 la unidad en AFEL. [MODULO REPRODUCTOR](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
 
-⟡ Que al llegar el usuario, vea en una pantalla algo como "aplaude para activar"
