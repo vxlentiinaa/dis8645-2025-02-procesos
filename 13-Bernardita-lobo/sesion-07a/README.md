@@ -65,3 +65,13 @@ drivers(?
 - solenoide, golpean, tambien parecidoa estan los actuadores lineales
 
 - motor síncronos, siempre giran a la misma velosidad, los de las descaleras mecanicas.
+
+### leds
+
+demasled
+
+cinta led, que san seguido hay led y cada cuantas se pueden cortar
+
+miercoles con sergio majlub, sabe de leds
+
+el dienro compra tiempo, 
