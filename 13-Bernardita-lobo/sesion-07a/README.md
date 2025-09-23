@@ -19,3 +19,7 @@ museo del hongo
 ### Proyecto-02
 
 va a ser de unas 4 personas
+
+diferentes formas de detectar presencia
+
+buscar proyectos en arduino proyect hob, instructable.com, 
