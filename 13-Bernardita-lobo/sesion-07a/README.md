@@ -22,4 +22,4 @@ va a ser de unas 4 personas
 
 diferentes formas de detectar presencia
 
-buscar proyectos en arduino proyect hob, instructable.com, 
+buscar proyectos en arduino proyect hub, instructable.com
