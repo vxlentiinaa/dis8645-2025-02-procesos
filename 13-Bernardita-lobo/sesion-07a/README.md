@@ -52,14 +52,16 @@ vale mas craro el sonido que el tiempo, el sonido requiere / lleva tiempo
 
 #### tipos de motores
 
-motores de tipo dc, es rapido y no sabe donde esta
+- motores de tipo dc, es rapido y no sabe donde esta, motor dc que vibra, joystic que vribra porque se desiquilibra, meter un ladrillo a mi lavadora xd
 
-motor dc que vibra, joystic que vribra porque se desiquilibra, meter un ladrillo a mi lavadora xd
-
-step motor, motor paso a paso, lento, guria de apoquito, se mueve por grados
+- step motor, motor paso a paso, lento, guria de apoquito, se mueve por grados
 
 torque
 
 drivers(?
 
-mirco servomotor, puede girar 90 grados, sabe donde esta, sabe cuanto tiene que girar, hay una libreria en arduino ya incluida
+- mirco servomotor, puede girar 90 grados, sabe donde esta, sabe cuanto tiene que girar, hay una libreria en arduino ya incluida, viene en 90, 180, 270, 360 ese no sabe donde esta, desde donde parte.
+
+- solenoide, golpean, tambien parecidoa estan los actuadores lineales
+
+- motor síncronos, siempre giran a la misma velosidad, los de las descaleras mecanicas.
