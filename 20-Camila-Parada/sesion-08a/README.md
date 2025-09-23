@@ -35,12 +35,67 @@ Luego se nos mostraron varios referentes:
 * Solenoides: Movimiento líneal (Actuadores lineales). Usan mucha corriente
 * Motor síncrono: Se usa en escaleras mecánicas.
 
+## Proyecto
+
+Una máquina, que te siga con los ojos (mirada) que posea una oreja que al acercarse emita un sonido pregrabado (No definido).
+Se requieren motores, sensores ultrasonicos, micrófono, parlante,
+
+1. La persona ingresa a una habitación.
+2. La máquina se activa (corre la corriente, comienza a activarse el arduino).
+3. La máquina procede a simular el movimiento de unos ojos usando un servomotor que activa un mecanísmo.
+4. Cuando la persona se acerca a una distancia precisa (x cm) la máquina.
+
+***
+
+### Escritos del discord (Por [@FranUDP](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP))
+
+entrada:
+sensores de distancia triangulan posición de usuario.
+Detecta cuando el usuario está a muy corta proximidad.
+
+salida:
+actúa un servomotor y sigue al usuario con la mirada.
+un parlante emite sonido pre-grabado aleatorio
+
+sensores:
+distancia ultrasónico
+
+links de compra:
+https://afel.cl/products/sensor-de-ultrasonico-hc-sr04
+
+https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=10&_sid=9bafdb32f&_ss=r
+https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=0b93ebcb6&_ss=r
+
+https://www.mechatronicstore.cl/altavoz-8-ohm-1w/?srsltid=AfmBOorYd_ZdSsyd2QMst1Va9CZJEafOTb68oafW4jWeQ_nzC1nVphqa
+
+dudas / ataos:
+¿Cómo obtener lecturas estables del sensor ultrasónico? 
+
+salida:
+ Un servomotor mueve unos ojos haciendo que el robot siga al usuario con la mirada.
+al detectar que el usuario está a muy corta proximidad, un parlante emite sonido pre-grabado aleatorio
+
+sensores:
+distancia ultrasónico
+
+links de compra:
+https://afel.cl/products/sensor-de-ultrasonico-hc-sr04
+
+https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=10&_sid=9bafdb32f&_ss=r
+https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=0b93ebcb6&_ss=r
+
+https://www.mechatronicstore.cl/altavoz-8-ohm-1w/?srsltid=AfmBOorYd_ZdSsyd2QMst1Va9CZJEafOTb68oafW4jWeQ_nzC1nVphqa
+
+dudas / ataos:
+¿Cómo obtener lecturas estables del sensor ultrasónico?
+¿Cómo evitar que los ojos se queden fijos en objetos inmoviles (ambiente)?
+
+***
 
 ![imagen](./imagenes/a1.png)
 
 ▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
 
-***
 
 ### Posdata
 
