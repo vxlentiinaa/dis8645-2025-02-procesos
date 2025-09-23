@@ -71,22 +71,45 @@ Grupo `Leonas.ino`
 - Vania Paredes
 - Valentina Ruz 
 
+### Idea 1
+
+Selector de idiomas con joystick 
+
+Entrada: Mediante un joystick, la persona tendrá distintas interacciones (arriba, abajo, izquierda, derecha y presionar el centro, es reset).
+
+Salida: Al interactuar, se reproducirán audios de saludos en distintos idiomas, como: italiano, portugués, japonés y español chileno. Al mismo tiempo, como respuesta, dependiendo el idioma se moverá de manera representativa: japonés = reverencia
+
+- Reproductor de idiomas por joystick 
+- Lenguaje diferencia de dialecto 
+- Joystick y reproducir sonido 
+- Buscar una forma que sea más interactivo
+
 [Modulo Reproductor MP3 DFPlayer Mini](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
 [Servomotor Engranaje Metálico Mg90s](https://afel.cl/products/servomotor-engranaje-metalico-mg90s)
 
 [Joystick Palanca de Mando](https://afel.cl/products/joystick-palanca-de-mando)
 
-selector de idiomas con joystick 
-
 como hablar de una cultura sin faltar el respeto 
 
 lenguaje y dialecto 
 
-Entrada: 
+### Idea 2
 
-Entrada: sueño, lo más especificos posible 
-sensores
- salidas 
+Entrada: Que al estar 
+
+[Modulo Reproductor MP3 DFPlayer Mini](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
+
+[Motor de alta velocidad](https://afel.cl/collections/alta-velocidad)
+
+[Sensor de proximidad]()
+
+MOtor 
+
+
+
+---
 
 Encargo viernes, traer 10 proyectos vistos en github o en arduino.com
+comentar smejanzas, diferencia, etc con otros proyectps 
+cada perosna del grupo tiene que buscar 4 referentes de cada codigos, materialidades similares, 
