@@ -1,4 +1,5 @@
 # sesion-07a
+
 Concepción teoría del universo
 <https://www.instagram.com/_todalateoriadeluniverso/>
 
@@ -20,7 +21,7 @@ La **computación física** consiste en la interacción entre los mundos digital
 - **motor paso a paso** no sabe donde está y es lento ULN.
 - **servo motor SG90** gira a los lados dependiendo de la capacidad que tengo el motor.
 - motor síncrono, siempre va a la misma velocidad independientemente del esfuerzo que tiene que hacer, se usa en escaleras eléctricas.
-- rotating LED display <DIY Rotating LED Display: An Arduino-Powered Time and Weather Display Project. POV Propeller Display> pantalla muy bacan que se lee solo al girar.
+- rotating LED display DIY Rotating LED Display: An Arduino-Powered Time and Weather Display Project. POV Propeller Display pantalla muy bacan que se lee solo al girar.
 
 ## Idea definitiva proyecto 2
 
@@ -34,14 +35,16 @@ Saludar con la “mano” es tener la mano en una posición neutra, para luego s
 
 Los sensores y actuadores que quiero que tenga este proyecto deberían ser un display, servomotor, sensor de temperatura, sensor de presencia.
 
-**Cotización**
+Cotización
+
 - Servomotor: (SG90) $1.990 <https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r>
 - LDR: 5u. x $500 (alternativa) <https://afel.cl/products/pack-5-fotoresistores-gl5528-ldr?_pos=1&_sid=ec4cfaec3&_ss=r>
 - Sensor Ultrasónico: (HC-SR04) $1.500 <https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r>
 - Pantalla led $6.500 <https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules?_pos=2&_sid=5fbaf1454&_ss=r>
 - Sensor de temperatura y humedad DHT11 $2.300 <https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?_pos=1&_sid=13a5a7b0d&_ss=r>
   
-**paso a paso**
+paso a paso
+
 1. Máquina inicia en estado neutro
 2. Si no detecta a nadie se mantiene en este estado, en donde ambas manos estarán en suspensión y en la pantalla no se mostrará nada
 3. Si detecta a una persona, se esperan 3 segundos para actuar según la temperatura medida en el ambiente
@@ -49,4 +52,3 @@ Los sensores y actuadores que quiero que tenga este proyecto deberían ser un di
 5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial.
 6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
 7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
-   
