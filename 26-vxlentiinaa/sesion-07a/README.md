@@ -62,4 +62,31 @@ Luces LED, LED RGB
 
 Proyecto 2, se entrega antes de las solemnes, 17 de octubre. Semana del 9 trabajar solo en el proyecto
 
+Integrantes:
+
+Grupo `Leonas.ino`
+- Yamna Carrión
+- Sofía Cartes
+- Millaray Millar
+- Vania Paredes
+- Valentina Ruz 
+
+[Modulo Reproductor MP3 DFPlayer Mini](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
+
+[Servomotor Engranaje Metálico Mg90s](https://afel.cl/products/servomotor-engranaje-metalico-mg90s)
+
+[Joystick Palanca de Mando](https://afel.cl/products/joystick-palanca-de-mando)
+
+selector de idiomas con joystick 
+
+como hablar de una cultura sin faltar el respeto 
+
+lenguaje y dialecto 
+
+Entrada: 
+
+Entrada: sueño, lo más especificos posible 
+sensores
+ salidas 
+
 Encargo viernes, traer 10 proyectos vistos en github o en arduino.com
