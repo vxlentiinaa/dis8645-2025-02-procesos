@@ -58,6 +58,11 @@ La máquina saludadora, es un dispensador de chicles que contiene diversos color
 - Modulo Reproductor MP3 DFPlayer Mini $2.990 ➜ para que tenga muchos sonidos y se reproduzcan. (https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 - Mini Parlante Altavoz de 3w $3.000 (https://afel.cl/products/mini-parlante-altavoz-de-3w).
 - Chicles de bolita de colores.
+
+## Encargo
+1. Leer las demás bitacoras y encontrar similitudes con mi proyecto.
+2. Buscar lenguaje humano con el que quiero presentar mi proyecto, código, materialidad, documentación. Esto define el éxito o no en el proyecto.
+
    
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
