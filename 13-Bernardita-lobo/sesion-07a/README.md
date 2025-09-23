@@ -1,6 +1,8 @@
-# sesion-07a
+# Sesión-07a
 
 ## Trabajo en clase
+
+### Cosas que hablamos en la mañana
 
 Martes 23 de septiembre, 2025
 
