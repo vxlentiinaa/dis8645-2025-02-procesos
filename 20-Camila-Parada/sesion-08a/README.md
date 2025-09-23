@@ -40,10 +40,10 @@ Luego se nos mostraron varios referentes:
 Una máquina, que te siga con los ojos (mirada) que posea una oreja que al acercarse emita un sonido pregrabado (No definido).
 Se requieren motores, sensores ultrasonicos, micrófono, parlante,
 
-1. La persona ingresa a una habitación.
-2. La máquina se activa (corre la corriente, comienza a activarse el arduino).
-3. La máquina procede a simular el movimiento de unos ojos usando un servomotor que activa un mecanísmo.
-4. Cuando la persona se acerca a una distancia precisa (x cm) la máquina.
+1. La persona ingresa a una habitación (sin muebles).
+2. La máquina se activa (corre la corriente, comienza a activarse el arduino) al detectar presencia.
+3. La máquina procede a simular el movimiento de unos ojos usando un servomotor que activa un mecanísmo que al moverse simule una mirada.
+4. Cuando la persona se acerca a una distancia precisa (x cm) la máquina emite un sonido pregramado de forma aleatoria.
 
 ***
 
