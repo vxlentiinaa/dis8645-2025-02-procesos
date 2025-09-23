@@ -16,7 +16,6 @@ Hoy, a la vuelta comenzaron hablando y mencionando varios referentes. Primero, n
 - Liquen Lab (Magallanes): https://liquenlab.cl/
 - Museo del Hongo: https://www.instagram.com/museodelhongo/?hl=es
 
-
 Encargo para el viernes: Traer 10 proyectos de internet de cosas que se pueden probar, inspirar, usar como herramienta de estudio y bitácora.
 Se puede buscar en páginas como [Instructables](https://www.instructables.com/) o [Projecthub de Arduino](https://projecthub.arduino.cc/) (entregados por Jannis <3).
 
@@ -24,7 +23,11 @@ A la par se mostró un libro que va a servir de referencia y aprendizaje ["Begin
 
 Además, hablamos de sensores y módulos que nos pueden interesar, a ver cómo serán costeados, las oportunidades de negociar.
 
+Luego se nos mostraron varios referentes: 
 
+- https://itp.nyu.edu/physcomp/
+- https://hackaday.com/ (https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
+- https://cwandt.com/
 
 
 
