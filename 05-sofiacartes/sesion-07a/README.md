@@ -12,7 +12,13 @@
 
 ## encargo viernes
 
-en grupo, traer 10 proyectos de internet, arduino.com 
+- Cada persona del  grupo traer 4 referentes de internet
+
+arduino.com 
+
+- Comentar qué proyectos se parecen
+
+---
 
 - los botones y/o perillas son buenos para el backstage
 - Módulo RTC ds1302 real time clock
@@ -29,5 +35,34 @@ en grupo, traer 10 proyectos de internet, arduino.com
 -  tiras led
 -  LED rgb
 -  neopixel
+  
+#### idea 1 
 
+funcionará mediante la interacción con botones, al apretarlo se reproducirá el saludo en algún idioma. Cada botón tiene un idioma y una gestualidad predeterminado
 
+joystik: restet + arriba un idioma+ abajo + derecha + izquierda
+
+parámetro elegir idiomas/cantidad 
+
+Entrada: Mediante un joystick la persona tendrá diversas interacciones (arriba, abajo, derecha, izquierda y presionar el centro, es reset). 
+
+- reproductor de idiomas  por joystick 
+- leguaje diferencia de dialecto
+- joystick y repoducir sonido
+- buscar una forma que sea mas interactivo
+
+Salida: Al interactuar, se reproducirán audios de saludos en distintos idiomas, como: italiano, español chileno, japonés y portugués. Al mismo tiempo, como respuesta, dependiendo el idioma se moverá de manera representativa, como: japonés-reverencia.
+Nos falta como invitar a la persona. 
+
+idea funable, no hacer.
+
+#### idea 2
+
+Entrada: Que al estar lejos te pida acercarse cmediante un movimiento como tiritando, para poder contarte un secreto. 
+
+motor DC , ultrasonico, reproductor, altavoz.
+
+Salida: cuando estes lo suficiente cerca te susurre el secreto. definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?   
+
+- sensor de proximidad que me llame a utilizarlo 
+- según la proximidad de la persona, te salude pero de distinto volumen
