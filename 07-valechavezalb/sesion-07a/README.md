@@ -18,7 +18,7 @@ Martes 23 de Septiembre de 2025
 ### 4 tipo de motores: 
 1. Tipo dc ➜ alta velocidad, corriente directa es rápido y no sabe donde esta. Se usan en drones, ventiladores, en  el vibrador del teélfono, etc.
 2. Paso a Paso ➜ lento, preciso y sabe cuanto se puede mover.
-3. Servomotor: es preciso para hacer movimientos en ciertos ángulos.
+3. Servomotor ➜ es preciso para hacer movimientos en ciertos ángulos.
 4. 
 
 ## 🛠️ ENCARGO: 17 de octubre se entrega.
@@ -26,10 +26,11 @@ Martes 23 de Septiembre de 2025
 - 30/09: módulo daralogger y módulo de sonido.
 - 7/10 - 14/10: trabajo en proyecto 2.
 
-### PROX VIERNES: traer 10 proyectos de internet que sean parecidos a lo que quiero hacer.
+### Proximo viernes ➜ traer 10 proyectos de internet que sean parecidos a lo que quiero hacer.
 Citar bibliografía. 
 
 ## 🖲️ 10 Heurísticas de Usabilidad para el Diseño de Interfaces de Usuario, Jacob Nielsen
+
 1. **Visibilidad del estado del sistema:** el diseño debe mantener siempre informados a los usuarios sobre lo que está sucediendo, mediante una retroalimentación adecuada.
 2. **Correspondencia entre el sistema y el mundo real:** el diseño debe ser familiar para el usuario, el lenguaje y la naturalidad. Debe ser de fácil comprensión.
 3. **Control y libertad del usuario:** los usuarios suelen realizar acciones por error, es por eso que necesitan una "salida de emergencia" marcada para abandonar la acción no deseada sin tener que pasar por un largo proceso. Admite deshacer y rehacer.
