@@ -12,9 +12,10 @@ Martes 23 de Septiembre de 2025
 - Hackaday: (https://hackaday.com/) para revisar proyectos.
 - Nixie Tubes.
 - Módulo grabación-reproducción.
-- Demasled: para cintas led
+- Demasled: para cintas led.
 - MAtriz led, son neo pixeles que sirven para hacer animaciones mediante una pantalla de leds.
 - rotation led display: luces que mediante un motor rotstivo se crea una imagen o texto.
+- **openscad** modelado 3D con código (https://openscad.org/).
 ### 4 tipo de motores: 
 1. Tipo dc ➜ alta velocidad, corriente directa es rápido y no sabe donde esta. Se usan en drones, ventiladores, en  el vibrador del teélfono, etc.
 2. Paso a Paso ➜ lento, preciso y sabe cuanto se puede mover.
@@ -42,5 +43,21 @@ Citar bibliografía.
 9. **Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores:** los mensajes de error deben expresarse en un lenguaje sencillo, indicar con precisión el problemay sugerir de forma constructiva una solución. Además, deben presentarse con tratamientos visuales que ayuden a los usuarios a notarlos y reconocerlos.
 10. **Ayuda y documentación:** lo ideal es que el sistema no requiera explicaciones adicionales, sin embargo podría ser necesario proporcionar documentación para ayudar a los usuarios a comprender sus tareas. Ser conciso y enumerar los pasos concretos que deben seguirse.
 
+## 🔮 Máquina saludadora
+**Ideas**: Se resume en una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
+
+La máquina saludadora, es un dispensador de chicles que contiene diversos colores, cada color contiene un mensaje que al momento de reconocerlo un parlante dice "hola terrícola y la frase que corresponde al color". Este dispensador tiene forma de monstruo, tiene una pantalla circular que muestra su ojo, este puede estar abierto, cerrado, parpadeando, mirando, etc.
+
+**Materiales que necesitamos**
+- Sensor de color Tcs230 - Tcs3200 $5.000 (https://afel.cl/products/sensor-reconocimiento-de-color-tcs230-tcs3200) 
+- Pantalla TFT Circular 1.24 Pulgadas RGB 240x240 $12.000 (https://afel.cl/products/pantalla-tft-circular-1-24-pulgadas-rgb-240x240)
+- Protoboard 
+- Cables de conexión
+- Arduino
+- Módulo Grabación/Reproducción de Audio ISD1820 con Micrófono Integrado $3.000 ➜ sirve para un solo sonido, 20 segundos. (https://afel.cl/products/modulo-grabacion-reproduccion-de-audio-isd1820-con-microfono-integrado)
+- Modulo Reproductor MP3 DFPlayer Mini $2.990 ➜ para que tenga muchos sonidos y se reproduzcan. (https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
+- Mini Parlante Altavoz de 3w $3.000 (https://afel.cl/products/mini-parlante-altavoz-de-3w)
+- Chicles de bolita de colores
+   
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
