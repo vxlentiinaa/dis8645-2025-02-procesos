@@ -45,3 +45,21 @@ las llamadas que nunca hice, extremadamente cool
 nona fernandez, leer cualquier libro
 
 pati smith, eramos unos niños, libro
+
+robert mappleto
+
+vale mas craro el sonido que el tiempo, el sonido requiere / lleva tiempo
+
+#### tipos de motores
+
+motores de tipo dc, es rapido y no sabe donde esta
+
+motor dc que vibra, joystic que vribra porque se desiquilibra, meter un ladrillo a mi lavadora xd
+
+step motor, motor paso a paso, lento, guria de apoquito, se mueve por grados
+
+torque
+
+drivers(?
+
+mirco servomotor, puede girar 90 grados, sabe donde esta, sabe cuanto tiene que girar, hay una libreria en arduino ya incluida
