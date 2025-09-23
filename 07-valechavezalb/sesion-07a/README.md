@@ -44,11 +44,11 @@ Citar bibliografía.
 10. **Ayuda y documentación:** lo ideal es que el sistema no requiera explicaciones adicionales, sin embargo podría ser necesario proporcionar documentación para ayudar a los usuarios a comprender sus tareas. Ser conciso y enumerar los pasos concretos que deben seguirse.
 
 ## 🔮 Máquina saludadora
-**Ideas**: Se resume en una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
+✦ Ideas: Se resume en una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
 
 La máquina saludadora, es un dispensador de chicles que contiene diversos colores, cada color contiene un mensaje que al momento de reconocerlo un parlante dice "hola terrícola y la frase que corresponde al color". Este dispensador tiene forma de monstruo, tiene una pantalla circular que muestra su ojo, este puede estar abierto, cerrado, parpadeando, mirando, etc.
 
-**Materiales que necesitamos**
+✦ Materiales que necesitamos
 - Sensor de color Tcs230 - Tcs3200 $5.000 (https://afel.cl/products/sensor-reconocimiento-de-color-tcs230-tcs3200).
 - Pantalla TFT Circular 1.24 Pulgadas RGB 240x240 $12.000 (https://afel.cl/products/pantalla-tft-circular-1-24-pulgadas-rgb-240x240).
 - Protoboard.
