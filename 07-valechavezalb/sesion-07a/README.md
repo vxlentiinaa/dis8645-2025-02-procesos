@@ -49,15 +49,15 @@ Citar bibliografía.
 La máquina saludadora, es un dispensador de chicles que contiene diversos colores, cada color contiene un mensaje que al momento de reconocerlo un parlante dice "hola terrícola y la frase que corresponde al color". Este dispensador tiene forma de monstruo, tiene una pantalla circular que muestra su ojo, este puede estar abierto, cerrado, parpadeando, mirando, etc.
 
 **Materiales que necesitamos**
-- Sensor de color Tcs230 - Tcs3200 $5.000 (https://afel.cl/products/sensor-reconocimiento-de-color-tcs230-tcs3200) 
-- Pantalla TFT Circular 1.24 Pulgadas RGB 240x240 $12.000 (https://afel.cl/products/pantalla-tft-circular-1-24-pulgadas-rgb-240x240)
-- Protoboard 
-- Cables de conexión
-- Arduino
-- Módulo Grabación/Reproducción de Audio ISD1820 con Micrófono Integrado $3.000 ➜ sirve para un solo sonido, 20 segundos. (https://afel.cl/products/modulo-grabacion-reproduccion-de-audio-isd1820-con-microfono-integrado)
+- Sensor de color Tcs230 - Tcs3200 $5.000 (https://afel.cl/products/sensor-reconocimiento-de-color-tcs230-tcs3200).
+- Pantalla TFT Circular 1.24 Pulgadas RGB 240x240 $12.000 (https://afel.cl/products/pantalla-tft-circular-1-24-pulgadas-rgb-240x240).
+- Protoboard.
+- Cables de conexión.
+- Arduino.
+- Módulo Grabación/Reproducción de Audio ISD1820 con Micrófono Integrado $3.000 ➜ sirve para un solo sonido, 20 segundos. (https://afel.cl/products/modulo-grabacion-reproduccion-de-audio-isd1820-con-microfono-integrado).
 - Modulo Reproductor MP3 DFPlayer Mini $2.990 ➜ para que tenga muchos sonidos y se reproduzcan. (https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
-- Mini Parlante Altavoz de 3w $3.000 (https://afel.cl/products/mini-parlante-altavoz-de-3w)
-- Chicles de bolita de colores
+- Mini Parlante Altavoz de 3w $3.000 (https://afel.cl/products/mini-parlante-altavoz-de-3w).
+- Chicles de bolita de colores.
    
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
