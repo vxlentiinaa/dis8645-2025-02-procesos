@@ -7,4 +7,9 @@
 
 ⟡ Encargo viernes: Traer 10 proyectos de internet de cosas que se puedan probar, inspirar, usar como herramienta de estudio y bitácora.
 
-⟡ Grupo Chispop.
+### Grupo "Chispop" -`♡´-
+- Antonella Aguilar
+- Javiera Moraga
+- Pía Orellana
+- Angela O'Ryan
+- Josefa Quape
