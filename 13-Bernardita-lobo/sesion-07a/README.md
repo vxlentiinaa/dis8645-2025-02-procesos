@@ -79,3 +79,7 @@ el dienro compra tiempo,
 ### ideas proyectos 02
 
 quiero que unos ojos identifique y triangulen la profundidad de dondes estoy, siquiendome con la mirada y cuando me aserque a un espacio me hable una oreja, sonido aleatoreo por definir.
+
+si pones site:cl
+
+busca solo en chile
