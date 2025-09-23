@@ -49,7 +49,31 @@ Referencias:
 
 ### Nick Montfort
 
-ble
+Es un informático, artista y poeta estadounidense, es profesor de medios digitales en el MIT e investigador principal del Centro de Narrativa Digital de la Universidad de Bergen en Noruega. 
+
+Montfort obtuvo un doctorado en Informática y Ciencias de la Información por la Universidad de Pensilvania, un máster en Escritura Creativa (Poesía) por la Universidad de Boston, un máster en Artes y Ciencias de los Medios de Comunicación por el MIT y una licenciatura en Humanidades y Ciencias de la Informática por la Universidad de Texas en Austin.
+
+Trabaja en varios contextos diferentes, incluyendo la web, la publicación de libros y las lecturas literarias, pero también exposiciones en galerías, la demoscene y el livecoding.
+
+Sus trabajos son tan interesantes que han sido traducidos, ya sea por él o por otras personas, a distintos lenguajes, para que distintas personas puedan usarlos o disfrutarlos.
+
+Montfort fundó y dirigió The Trope Tank, un laboratorio/estudio de investigación DIY con sede en el MIT y en la ciudad de Nueva York. The Trope Tank lleva a cabo proyectos académicos y artísticos y ofrece recursos informáticos y materiales. Docenas de artistas/investigadores han realizado proyectos individuales y colaborativos en el marco de The Trope Tank, entre ellos profesores visitantes internacionales, becarios Fulbright y, actualmente, un rapero ganador de un premio Grammy.
+
+En sus obras, existen más de 50 proyectos individuales, como también ha publicado 10 distintos libros generados computacionalmente.
+
+Entre estas, unas de las que más me llamaron la atención son:
+
+[“The Deletionist”](https://thedeletionist.com/) donde él, Amaranth Borsuk y Jesper Juul crearon un sistema para generar “erasure poetry” a partir de cualquier página web. Realmente me parece brutal la existencia de una página que cree este tipo de poesía, que al menos yo asocio a documentos que han sido censurados, pero de esta manera, ocurriendo en el mundo digital.
+
+(Subir fotos de cómo lo usé en unas páginas web).
+
+[“Ad Verbum”](https://nickm.com/if/adverbum.html) un juego de ficción interactiva, que realmente me impacta al saber que salió en el año 2000; hace 25 años ya existía un juego gracioso con el que literalmente tienes que ingeniárselas para poder resolver el enigma que te presentan, aunque realmente soy malo, ya que no me lo pasé, pero su existencia me fascinó.
+
+Referencias:  
+- https://nickm.com/me.html  
+ 
+- https://en.wikipedia.org/wiki/Nick_Montfort  
+
 
 ### Martín Gubbins
 
