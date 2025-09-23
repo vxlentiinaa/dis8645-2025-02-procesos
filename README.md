@@ -62,13 +62,13 @@ Este curso tiene 3 unidades, cada una con una entrega grupal y una individual. L
 | [06a](./00-docentes/sesion-06a/) | 09-09 mar   | orden en github actions, sensores                    |
 | [06b](./00-docentes/sesion-06b/) | 09-12 vier  | bibliotecas de arduino                               |
 | semana libre                     | 09-15/19    | receso fiestas patrias                               |
-| [07a](./00-docentes/sesion-07a/) | 09-23 mar   |                                                      |
-| [07b](./00-docentes/sesion-07b/) | 09-26 vier  |                                                      |
-| [08a](./00-docentes/sesion-08a/) | 09-30 mar   |                                                      |
-| [08b](./00-docentes/sesion-08b/) | 10-03 vier  |                                                      |
-| [09a](./00-docentes/sesion-09a/) | 10-07 mar   | trabajo en proyecto-02          |
-| [09b](./00-docentes/sesion-09b/) | 10-10 vier  | trabajo en proyecto-02          |
-| [10a](./00-docentes/sesion-10a/) | 10-14 mar   | trabajo en proyecto-02          |
+| [07a](./00-docentes/sesion-07a/) | 09-23 mar   | conformación de grupos y BOM proyecto-02             |
+| [07b](./00-docentes/sesion-07b/) | 09-26 vier  | clases y parámetros aplicadas a sensores             |
+| [08a](./00-docentes/sesion-08a/) | 09-30 mar   | módulo datalogger y módulo sonido                    |
+| [08b](./00-docentes/sesion-08b/) | 10-03 vier  | no hay clases por aniversario udp                    |
+| [09a](./00-docentes/sesion-09a/) | 10-07 mar   | trabajo en proyecto-02                               |
+| [09b](./00-docentes/sesion-09b/) | 10-10 vier  | trabajo en proyecto-02                               |
+| [10a](./00-docentes/sesion-10a/) | 10-14 mar   | trabajo en proyecto-02                               |
 | [10b](./00-docentes/sesion-10b/) | 10-17 vier  | entrega de proyecto-02          |
 | [11a](./00-docentes/sesion-11a/) | 10-21 mar   | / solemnes 2, no hay ev. taller |
 | [11b](./00-docentes/sesion-11b/) | 10-24 vier  | / solemnes 2, no hay ev. taller |
