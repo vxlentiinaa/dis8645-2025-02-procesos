@@ -32,5 +32,22 @@ aplicaciones: impresoras 3D, etc
 
 ojos que te miran.
 
-- [referente ojos](https://www.youtube.com/watch?v=Ftt9e8xnKE4)
+- [video referente ojos](https://www.youtube.com/watch?v=Ftt9e8xnKE4)
 
+![croquis ideación](./imagenes/croquis01.jpg)
+
+Buscamos crear un robot "creepy", que genere sensación de incomodidad y de "sentirse observado" en los usuarios.
+
+![croquis posiciones](./imagenes/croquis02.jpg)
+
+debido a la dificultad que significa la detección de personas, queremos detectar a la gente a través de sonidos. Para esto, serán colocados entre 3-5 micrófonos en puntos estratégicos de la sala. Dependiendo de cuáles micrófonos detecten sonidos, y en qué intensidad, los ojos apuntarán en una dirección determinada.
+
+![croquis funcionamiento mecánico](./imagenes/croquis03.jpg)
+
+por ahora, los ojos puede cambiar su dirección en el eje X, no en el eje Y. Los ojos estarán sobre una plataforma, la cual gira en 270° gracias a un motor. 
+
+Los párpados funcionan gracias a un eje de rotación, cuya posición está en el centro de la esfera(visto desde el lateral).
+
+### info
+
+los [párpados](https://es.wikipedia.org/wiki/Párpado)
