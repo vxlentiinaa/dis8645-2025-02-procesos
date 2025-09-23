@@ -21,7 +21,7 @@
 
 ### Encargo en clase
 
-**3- El Arduino indeciso:** Sensor velocímetro + pantalita.
+**3- El Arduino indeciso:** Sensor acelerometro + pantalita.
   + Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
   + Cuando la agitas: genera una respuesta y la muestra en la pantallita.
     
