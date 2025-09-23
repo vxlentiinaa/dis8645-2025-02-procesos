@@ -14,7 +14,7 @@
 - Angela O'Ryan
 - Josefa Quape
 
-### 
+### SOBRE EL PROYECTO ── .✦
 ⟡ Enconder (y su botón), Pantalla y Micrófono
 
 ⟡ Encoder: Encoder rotatorio KY-040 360 grados, $2.000 la unidad en AFEL. [ENCODER](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados?_pos=2&_sid=9dcf28df1&_ss=r)
