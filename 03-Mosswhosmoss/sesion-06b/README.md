@@ -17,7 +17,7 @@ Usuario, persona que quiere revisar el estado de humedad de su plantita.
 4. revisar si hay notificaciones de bluetooth.
 5. si hay, ver si dice "hola soy tu planta, tengo sed :-(" o "hola soy tu planta, gracias por hidratarme :-)".
 6. si tiene sed lo ideal es que la riegues, si te esta agradeciendo sigue asi, tu planta esta feliz.
-4. puedes apagar el bluetooth de tu dispositivo, hasta que quieras revisar de nuevo.
+7. puedes apagar el bluetooth de tu dispositivo, hasta que quieras revisar de nuevo.
 
 No bluetooth muy complejo para proyecto (posible tesis) 
 se puede usar un led o un parlante :-)
