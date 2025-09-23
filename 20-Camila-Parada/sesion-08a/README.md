@@ -92,6 +92,9 @@ dudas / ataos:
 
 ***
 
+Revisar las bitácoras de los demás alumos y sus proyectos grupales. A partir de ello comentas semejanzas y diferencias entre estos para poder difereciarse.
+A la par, investigar sobre proyectos que puedan servir como referentes de materialidades, códigos, circuitos, modelado, entre otros.
+
 ![imagen](./imagenes/a1.png)
 
 ▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
