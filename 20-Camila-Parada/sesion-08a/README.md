@@ -29,6 +29,11 @@ Luego se nos mostraron varios referentes:
 - https://hackaday.com/ (https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
 - https://cwandt.com/
 
+* Motor DC: es muy rápido, pero no sabe donde está.
+* Step Motor: Se mueve a grados según una indicación de los pasos.
+* Servomotor: Sabe donde está y es relativamente preciso. Hay distinto según los ángulos de rotación
+* Solenoides: Movimiento líneal (Actuadores lineales). Usan mucha corriente
+* 
 
 
 ![imagen](./imagenes/a1.png)
