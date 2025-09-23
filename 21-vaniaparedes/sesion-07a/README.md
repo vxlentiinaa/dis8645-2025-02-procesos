@@ -8,6 +8,9 @@
 + Arduinoproyecthub, instructables.com, cosas de las que nos podamos inspirar a nivel de estrategia y código.
 + Bibliografía de buena calidad.
 
++ Revisar las bitácoras de los demás alumos y sus proyectos grupales. A partir de ello comentas semejanzas y diferencias entre estos para poder difereciarse.
++ Cada persona busca referentes en internet de 4 cosas: 2 de Codigos, 2 de materialidades, 2 de documentación (comerciales), 2 de Lenguaje (humano), Palabras, adjetivos y adverbios que queremos usar para describir nuestro proyecto.
+
 ### NFC
 + Según xacata.com NFC significa Near Field Communication, lo que traducido sería Comunicación de Campo Cercano. Es una buena definición, porque se trata de una tecnología que funciona por proximidad, cuando acercas un dispositivo a otro. Es de alta frecuencia, y funciona en la banda de los 13.56 MHz.
 + Cuando acercas los dispositivos, se crea un campo electromagnético por inducción, en el que se genera el intercambio de datos con una tasa de transferencia puede alcanzar los 424 Kbps. Pese a que sirve para intercambiar datos, debido a su limitada velocidad se usa sobre todo para la identificación y validación de equipos y personas.
@@ -51,3 +54,34 @@
 + Neopixel (Dibujitos) (AdaFruit) 
 + Cintas led
 
+### Encargo en clase
+
++ Lluvia de ideas
++ Maquina de acentos e idiomas
++ Botón y sensor/Módulo Grabacion y reproduccion de audio. (isd1820py)
++ En afel: <https://afel.cl/products/modulo-grabacion-reproduccion-de-audio-isd1820-con-microfono-integrado?variant=45125239177368&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=@+Smart+Shopping&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=18405560573&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17613659948&gbraid=0AAAAADBMsFT3Or_N8RJ5qRdX22Fmt0Z_G&gclid=EAIaIQobChMI8Im8qovvjwMVzlNIAB3NtiSYEAYYASABEgIm_vD_BwE>
++ Joystick : <https://afel.cl/products/joystick-palanca-de-mando>
++ <https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini>
+
+  
++ Máquina bilingue
++ Maquina con Joystick
++ Grabacion de 4 formas de decir hola en 4 distintos idiomas.
++ Servo motor con forma de mini robot que se mueva de acuerdo el dioma.
+
++ <https://es.scribd.com/document/890144408/ISD-MODULO-GRABADOR-DE-SONIDO-ISD1820>
+
+  ### Idea 2
+
+  + Sensor de proximidad
+  + Reproductor MP3
+  + Altavoz
+  + Motor tipo DC
+ 
+  + Maquina que cuenta secretos
+  + Robot que con distintos dialogos y volumenes al sentir presencia
+  + dependiendo si estas lejos te llama "gritando" porque quiere contarte algo, mismo tiempo comienza a temblar.
+  + Mientras más cerca estás, más vibra la estructura (como cuando a alguien le da nervio contarte algo).
+  + Cuando estas lo suficientemente cerca te cuenta un secreto susurrando.
+
+  
