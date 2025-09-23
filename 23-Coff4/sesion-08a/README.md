@@ -41,3 +41,11 @@ Sensor Ultrasónico: (HC-SR04) $1.500 https://afel.cl/products/sensor-de-ultraso
 Pantalla Oled: $6.500 https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules?_pos=2&_sid=5fbaf1454&_ss=r
 
 Sensor de temperatura y humedad: $2.300 https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?_pos=1&_sid=13a5a7b0d&_ss=r
+
+
+Buscar semejanzas o diferencias con otros proyectos.
+Buscar referentes de internet por cada persona
+- Lenguaje (palabras que queremos usar para el proyecto)
+- Código
+- Materialidad
+- Documentación (videos o similares)
