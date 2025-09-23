@@ -75,3 +75,7 @@ cinta led, que san seguido hay led y cada cuantas se pueden cortar
 miercoles con sergio majlub, sabe de leds
 
 el dienro compra tiempo, 
+
+### ideas proyectos 02
+
+quiero que unos ojos identifique y triangulen la profundidad de dondes estoy, siquiendome con la mirada y cuando me aserque a un espacio me hable una oreja, sonido aleatoreo por definir.
