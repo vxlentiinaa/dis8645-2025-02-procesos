@@ -13,3 +13,17 @@
 - Pía Orellana
 - Angela O'Ryan
 - Josefa Quape
+
+### 
+⟡ Enconder (y su botón), Pantalla y Micrófono
+
+⟡ Encoder: Encoder rotatorio KY-040 360 grados, $2.000 la unidad en AFEL. [ENCODER](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados?_pos=2&_sid=9dcf28df1&_ss=r)
+
+⟡ Pantalla: Pantalla LCD Oled 1.3" 128x64 caracteres azules. $6.500 la unidad en AFEL. [PANTALLA](https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules?utm_term=&hsa_kw=&hsa_mt=&gad_campaignid=1711725544)
+
+⟡ Sensor Sonido: Sensor Sonido Digital. $1.000 la unidad en AFEL. [SENSOR SONIDO](https://afel.cl/products/sensor-sonido-digital)
+
+⟡ Modulo Reproductor: Modulo Reproductor MP3 DFPlayer Mini. $2.990 la unidad en AFEL. [MODULO REPRODUCTOR](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
+
+
+⟡ Que al llegar el usuario, vea en una pantalla algo como "aplaude para activar"
