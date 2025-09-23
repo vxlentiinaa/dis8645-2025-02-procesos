@@ -33,7 +33,7 @@ Luego se nos mostraron varios referentes:
 * Step Motor: Se mueve a grados según una indicación de los pasos.
 * Servomotor: Sabe donde está y es relativamente preciso. Hay distinto según los ángulos de rotación
 * Solenoides: Movimiento líneal (Actuadores lineales). Usan mucha corriente
-* 
+* Motor síncrono: Se usa en escaleras mecánicas.
 
 
 ![imagen](./imagenes/a1.png)
