@@ -16,6 +16,8 @@ bienal de artes mediales https://cchv.cl/bienal-de-artes-mediales-de-santiago/
 
 museo del hongo
 
+hackear bip
+
 ### Proyecto-02
 
 va a ser de unas 4 personas
@@ -23,3 +25,13 @@ va a ser de unas 4 personas
 diferentes formas de detectar presencia
 
 buscar proyectos en arduino proyect hub, instructable.com
+
+beginning nfc, libro de 
+
+rtc, real time clock
+
+cwandt, cwgt
+
+hackaday, clock
+
+nixie tube clock
