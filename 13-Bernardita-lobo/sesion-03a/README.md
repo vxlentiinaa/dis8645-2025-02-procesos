@@ -98,7 +98,7 @@ Variables, funciones, for, if, and.
 
 ### Palabras importantes
 
-## Encargo-04: Investigar NAND, NOR, XOR
+## Encargo-08: Investigar NAND, NOR, XOR
 
 Para resumir un poco, tenemos a las compuertas lógicas AND, NOT, OR, NAND, NOR y XOR; estos son compuertas utilizadas en la electrónica. Nos permiten hacer operaciones lógicas básicas en los circuitos o programación. Solo podemos trabajar con dos números: 0 o 1, o arriba o abajo.
 
