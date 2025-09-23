@@ -37,3 +37,11 @@ hackaday, clock
 nixie tube clock
 
 guardar audio y reproducir, modulo reproductor mp3 dfplayer mini
+
+grabacion reproducion de audio
+
+las llamadas que nunca hice, extremadamente cool
+
+nona fernandez, leer cualquier libro
+
+pati smith, eramos unos niños, libro
