@@ -23,11 +23,14 @@ Lint: pelusa, archivo para sacar las pelusas.
 
 ✰ [AFEL](https://afel.cl/) ------> comprar cosas para Arduino.
 
-✰ Sensores:
+#### SENSORES ── .✦
 
-- Ultrasónico: emite un sonido y cuenta cuanto se demora en volver (es bien impreciso). Medir distancias
-- De temperatura y humedad: detecta temperatura y humedad (para ambiente)
-- De gas:
+- Ultrasonico: emite un sonido y cuenta cuanto se demora en volver (es bien impreciso). Medir distancias. Sensor de Ultrasonico HC-SR04, $1500 por unidad. [ultrasonico](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
+
+- De temperatura y humedad: detecta temperatura y humedad (para ambiente). Sensor de temperatura y humedad DHT11, $2300 por unidad. [temperatura y humedad](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11)
+
+- De gas: adecuado para detectar la presencia de Gas LP, compuesto principalmente por Propano y Butano y Gas Natural (Metano) en el aire. Sensor de Gas LP MQ6, $2300 por unidad. [de gas](https://afel.cl/products/sensor-de-gas-lp-mq6)
+
 - Encoder rotatorio: gira sin límite (diferente al potenciómetro), puede girar y clickearse, como para elegir opciones y presionar (ej: cosito de la lavadora). Encoder rotatorio KY-040 360 grados. $2000 por unidad. [encoder](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados)
 
 ![Encoder](./imagenes/encoder1.jpg)
@@ -48,4 +51,11 @@ ideas: una mascota interactiva utilizando una plantita de base, si la planta tie
 - Joystick: incluye potenciometros dentro, tene un botón también, es como los de mandos de juego.
 - fotodio:
 - De sonido: usan micrófono, se usan para medir intensidad de sonido o detectar si se emitió un sonido. (ejemplos: detectos de aplausos, de portazos, cada 4 aplausos quiero que mi robot salude)
-idea: un robot que te juzgue
+idea: un robot que te juzgue.
+
+##### Otras ideas
+
+1. Robot que salude y comente del clima, utilizando el sensor de temperatura y humedad. Suelta frases dependiendo del clima, como "hace calor, bebe agua" o "esta frío, ponte un abrigo", etc. [referencia tutorial](https://www.internetdelascosas.cl/2014/07/08/midiendo-temperatura-y-humedad-con-arduino-y-el-sensor-dht11/) [ejemplo de integrar voz + condiciones meteorológicas](https://github.com/dwilches/CozmoWeather)
+2. Robot que se active al acercarse con el sensor de proximidad y lance recordatorios o datos curiosos, preguntando cosas como si ya comiste, te lavaste las manos, bebiste agua o algo sobre la fecha del día, algun dato. [sensor que al acercarse activa una alarma](https://www.hackster.io/padhiarvidhi79/distance-based-alarm-system-alert-when-objects-are-too-close-00be4d)
+3. Utilizando joystick, botones y/o encoder, el robot te "juzga" dependiendo de qué tanto manipules cada sensor. Si mueves demasiado el joystick o el encoder, que diga algo como "ya basta, no soy un juguete", o si no presionass ninguno y dejas de interactuar con él, que diga algo como "me estas ignorando, como todos", o si presionas mucho un botón, que diga algo como "qure ansioso eres". [tutorial de como usar entradas fisicas en arduino](https://forum.arduino.cc/t/tutorial-proposal-using-physical-inputs-buttons-encoders-joysticks-switches-potentiometers/1333528) , [robot que muestra emociones a traves de una pantalla led](https://www.instructables.com/Emotionally-Responsive-Robot/) 
+4. Una mascota interactiva utilizando una plantita de base, si la planta tiene sed, o esta sobrehidratada, o se encuentra bien, la mascota puede mostrar el estado, quizas con luces de algún tipo de color, sonidos, o una pantalla en donde se vean "expresiones", que sonría, que llore, o que hable diciendo que tiene sed y cuando se encuentra bien. Puede ayudar a personas que cuidan plantitas o para aquellas que quieren aprender y se les dificulta. (muy complejo, dijeron que mejor para última entrega)
