@@ -24,3 +24,13 @@ aplicaciones: impresoras 3D, etc
 - [eléctrico vs electrónico](https://osakaelectronicsltda.com/blog/biblioteca/cual-es-la-diferencia-entre-un-aparato-electrico-y-electronico)
 - [empresa de tiras led](https://www.demasled.cl/)
 - [neoPixel](https://www.adafruit.com/category/168)
+
+
+## grupo proyecto-02
+
+### hijos de la tierra
+
+ojos que te miran.
+
+- [referente ojos](https://www.youtube.com/watch?v=Ftt9e8xnKE4)
+
