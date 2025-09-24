@@ -104,12 +104,10 @@ Entrada: Que al estar
 
 [Sensor de proximidad](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
 
-Motor 
-
-
+Motor
 
 ---
 
 Encargo viernes, traer 10 proyectos vistos en github o en arduino.com
 comentar smejanzas, diferencia, etc con otros proyectps 
-cada perosna del grupo tiene que buscar 4 referentes de cada codigos, materialidades similares, 
+cada perosna del grupo tiene que buscar 4 referentes de cada codigos, materialidades similares
