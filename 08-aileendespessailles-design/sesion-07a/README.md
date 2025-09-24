@@ -38,6 +38,7 @@ Saludar con la “mano” es tener la mano en una posición neutra, para luego s
 Los sensores y actuadores que quiero que tenga este proyecto deberían ser un display, servomotor, sensor de temperatura, sensor de presencia.
 
 Cotización
+
 - Servomotor: (SG90) $1.990 <https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r>
 - LDR: 5u. x $500 (alternativa) <https://afel.cl/products/pack-5-fotoresistores-gl5528-ldr?_pos=1&_sid=ec4cfaec3&_ss=r>
 - Sensor Ultrasónico: (HC-SR04) $1.500 <https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r>
@@ -45,6 +46,7 @@ Cotización
 - Sensor de temperatura y humedad DHT11 $2.300 <https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?_pos=1&_sid=13a5a7b0d&_ss=r>
   
 paso a paso
+
 1. Máquina inicia en estado neutro
 2. Si no detecta a nadie se mantiene en este estado, en donde ambas manos estarán en suspensión y en la pantalla no se mostrará nada
 3. Si detecta a una persona, se esperan 3 segundos para actuar según la temperatura medida en el ambiente
