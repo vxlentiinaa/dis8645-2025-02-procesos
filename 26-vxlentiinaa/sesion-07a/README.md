@@ -102,9 +102,9 @@ Entrada: Que al estar
 
 [Motor de alta velocidad](https://afel.cl/collections/alta-velocidad)
 
-[Sensor de proximidad]()
+[Sensor de proximidad](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
 
-MOtor 
+Motor 
 
 
 
