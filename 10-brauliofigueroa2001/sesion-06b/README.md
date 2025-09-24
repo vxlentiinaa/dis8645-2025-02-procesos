@@ -77,7 +77,7 @@ estado de la máquina: siempre activo, en una pared
 preseteo: la máquina reconoce las palabras aló, cómo estás, bien y tú
 - la máquina está habilitada para decir las palabras: aló, cómo estás, bien y tú
 - la máquina reconoce que debe decir una palabra en consecuencia tras la otra que escuchó pero no debe repetir de forma incoherente
-- ¿qué sería incoherente?: sería por ejemplo decirle a la máquina "hola" y que te responda "bien y tú" o que te diga "chao" , que no sea una conversación lineal
+- ¿qué sería incoherente?: sería por ejemplo decirle a la máquina "hola" y que te responda "bien y tú" o que te diga "chao" , que no sea una conversación lineal, creo que alguna vez he tenido conversaciones no lineales
 
 el saludo, saludar sería: decir aló 
 
