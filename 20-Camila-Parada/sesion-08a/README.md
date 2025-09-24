@@ -100,6 +100,37 @@ A la par, investigar sobre proyectos que puedan servir como referentes de materi
 ▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oye santi, tengo una duda.
+¿Cómo se si es que alguien me gusta?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Posdata
 
 Hoy estoy cansadita, ayer intenté, pero sin razón aparente.
@@ -107,3 +138,5 @@ Hoy estoy cansadita, ayer intenté, pero sin razón aparente.
 ***
 
 °˖✧◝(⁰▿⁰)◜✧˖°
++
+3
