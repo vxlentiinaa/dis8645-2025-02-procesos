@@ -24,7 +24,7 @@ Mateo nos mostró su proyecto de tesis, cómo organizó y programó un código p
 
 Escribir el esqueleto de nuestras ideas del proyecto, y después ir comentando e intentando hacer código
 
-Janies nos mostró su proyecto de tesis, neuralgia del trigémino, cómo hace visible lo invisible, general aumento
+Janis nos mostró su proyecto de tesis, neuralgia del trigémino, cómo hace visible lo invisible, general aumento
 
 Dart
 
