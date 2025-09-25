@@ -53,7 +53,7 @@ Elegí este proyecto, ya que se está implementando la lógica de navegación po
 
 - [DFPLAYENCODER](https://github.com/experimentool/dfplayencoder/)
 
-Elegí este otro proyecto, ya que se utiliza un Arduino junto a un DFPlayer que reproduce audio desde una tarjeta SD y un encoder rotatorio para poder cambiar de archivos, además de una pantalla OLED 128x64 para que puedas ver que archivo es el que se reproduce. Esto nos ayuda en nuestro proyecto ya que podemos seguir esa lógica pero que cada idioma sea un archivo de saludo en la SD numerado, también para saber como usar el enconder a la hora de elegir y ya nosotros deberiamos cambiar la opción de presionar el botón para elegir una pista a que esta se seleccione por un ruido fuerte.
+Elegí este otro proyecto, ya que se utiliza un Arduino junto a un DFPlayer que reproduce audio desde una tarjeta SD y un encoder rotatorio para poder cambiar de archivos, además de una pantalla OLED 128x64 para que puedas ver que archivo es el que se reproduce. Esto nos ayuda en nuestro proyecto ya que podemos seguir esa lógica pero que cada idioma sea un archivo de saludo en la SD numerado, también para saber como usar el enconder a la hora de elegir y ya nosotros deberiamos cambiar la opción de presionar el botón para reproducir una pista a que esta se reproduzca al activarse con un ruido fuerte.
 
   ⟡ Materialidad:
 
