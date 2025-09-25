@@ -25,4 +25,6 @@
 
 ⟡ Modulo Reproductor: Modulo Reproductor MP3 DFPlayer Mini. $2.990 la unidad en AFEL. [MODULO REPRODUCTOR](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
-
+#### ENCARGOS ── .✦
+1. leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
+2. buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
