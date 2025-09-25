@@ -2,91 +2,89 @@
 
 ## Trabajo en clase
 
-### Cosas que hablamos en la mañana
-
 Martes 23 de septiembre, 2025
 
-toda la teoria de universo, Susane Chau
+### Cosas que hablamos en la mañana
 
-cosmotetecnica y la tecnodiversidad
+Toda la teoría del universo, Susane Chau
 
-liquen lab
+Cosmotécnica y la tecnodiversidad
 
-bienal de artes mediales https://cchv.cl/bienal-de-artes-mediales-de-santiago/
+Lichen Lab
 
-museo del hongo
+[Bienal de Artes Mediales](cchv.cl/bienal-de-artes-mediales-de-santiago)
 
-hackear bip
+Museo del Hongo
+
+Hackear Bip
 
 ### Proyecto-02
 
-va a ser de unas 4 personas
+El proyecto será de unas 4 personas
 
-diferentes formas de detectar presencia
+Diferentes formas de detectar presencia
 
-buscar proyectos en arduino proyect hub, instructable.com
+Buscar proyectos en Arduino Project Hub y Instructables.com
 
-beginning nfc, libro de 
+Libro Beginning NFC
 
-rtc, real time clock
+RTC (Real Time Clock)
 
-cwandt, cwgt
+CWANDT / CWGT
 
-hackaday, clock
+Referencias: Hackaday, Clock, Nixie Tube Clock
 
-nixie tube clock
+Guardar y reproducir audio con módulo reproductor MP3 DFPlayer Mini
 
-guardar audio y reproducir, modulo reproductor mp3 dfplayer mini
+Obra Las llamadas que nunca hice, extremadamente cool
 
-grabacion reproducion de audio
+Nona Fernández, Leer cualquier libro
 
-las llamadas que nunca hice, extremadamente cool
+Patti Smith, Éramos unos niños
 
-nona fernandez, leer cualquier libro
+Robert Mapplethorpe
 
-pati smith, eramos unos niños, libro
+Vale más caro el sonido que el tiempo; el sonido requiere/lleva tiempo
 
-robert mappleto
+#### Tipos de motores
 
-vale mas craro el sonido que el tiempo, el sonido requiere / lleva tiempo
+Motores DC: Rápidos, pero no saben en qué posición están. por ejemplo un Motor DC, vibran los joystick porque se desequilibra (como meter un ladrillo a la lavadora xd.
 
-#### tipos de motores
+Stepper motor (motor paso a paso), más lento, gira de a poco, se mueve por grados.
 
-- motores de tipo dc, es rapido y no sabe donde esta, motor dc que vibra, joystic que vribra porque se desiquilibra, meter un ladrillo a mi lavadora xd
+Torque, Fuerza de giro que entrega un motor.
 
-- step motor, motor paso a paso, lento, guria de apoquito, se mueve por grados
+Drivers, Controladores necesarios para manejar motores.
 
-torque
+Micro servomotor: Puede girar hasta 90° (algunos hasta 180°, 270° o 360°), los que tienen tope saben en qué posición están, los de 360° no saben desde dónde parten.
 
-drivers(?
+Hay librerías de Arduino ya incluidas para controlarlos.
 
-- mirco servomotor, puede girar 90 grados, sabe donde esta, sabe cuanto tiene que girar, hay una libreria en arduino ya incluida, viene en 90, 180, 270, 360 ese no sabe donde esta, desde donde parte.
+Solenoide: Golpean al activarse, similares a los actuadores lineales.
 
-- solenoide, golpean, tambien parecidoa estan los actuadores lineales
+Motores síncronos: Siempre giran a la misma velocidad, por ejemplo los de las escaleras mecánicas.
 
-- motor síncronos, siempre giran a la misma velosidad, los de las descaleras mecanicas.
+### Leds
 
-### leds
+DemasLED
 
-demasled
+Cinta LED: llevan LEDs seguidos, y se pueden cortar cada cierto tramo
 
-cinta led, que san seguido hay led y cada cuantas se pueden cortar
+Miércoles con Sergio Majlub, sabe de LEDs
 
-miercoles con sergio majlub, sabe de leds
+El dinero compra tiempo
 
-el dienro compra tiempo, 
+### Ideas proyectos 02
 
-### ideas proyectos 02
+Unos ojos que identifiquen y triangulen la profundidad de dónde estoy, siguiéndome con la mirada.
+Cuando me acerque a un espacio, una oreja me hable con un sonido aleatorio (aún por definir).
 
-quiero que unos ojos identifique y triangulen la profundidad de dondes estoy, siquiendome con la mirada y cuando me aserque a un espacio me hable una oreja, sonido aleatoreo por definir.
+Tip de búsqueda
+Si pones site:cl en Google, busca solo en Chile.
 
-si pones site:cl
+### Palabras importantes
 
-busca solo en chile
-
-### palabras importantes
-
-### referentes
+### Peferentes
 
 ## Encargos
 
