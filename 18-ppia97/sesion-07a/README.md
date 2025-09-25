@@ -47,6 +47,7 @@
   - f
 
   ⟡ Código:
+  
 - [ARDUINO+OLED+ENCODER SIMPLE](https://projecthub.arduino.cc/yilmazyurdakul/arduino-oled-encoder-simple-menu-system-e998b8)
   
 Elegí este proyecto, ya que se está implementando la lógica de navegación por menú que queremos implementar en nuestro proyecto para que el usuario pueda seleccionar entre los distintos idiomas, usando el encoder rotatorio y la pantalla OLED que también queremos utilizar. En el proyecto se usa la librería SSD1306 (Adafruit) para manejar la pantalla OLED, y un interrupt para leer los pulsos del encoder, también manteniendo un "menuCount" para saber que opción del menú esta seleccionada en el momento.
@@ -58,6 +59,11 @@ Elegí este otro proyecto, ya que se utiliza un Arduino junto a un DFPlayer que 
   ⟡ Materialidad:
 
   ⟡ Documentación:
+  
 -[MP3 PLAYER WITH ARDUINO USING DF PLAYER MINI](https://www.instructables.com/MP3-Player-With-Arduino-Using-DF-Player-Mini/)
 
 Elegí este proyecto, ya que su forma de documentación es muy clara y ordenada, nos muestra la lista de componentes y materiales necesarios para el proyecto, te muestra un esquema de conexión para saber cómo conectar el DFPlayer al Arduino, también te entrega el código para poder controlar la reproducción de archivos y tiene las intrucciones paso a paso desde el montaje a la programación.
+
+- [ARDUINO NANO-BASED SMART CLIMATE CONTROL SYSTEM WITH OLED DISPLAY AND ROTARY ENCODER](https://docs.cirkitdesigner.com/project/published/e3bd9d24-3355-4c37-b304-af014f030bb8/arduino-nano-based-smart-climate-control-system-with-oled-display-and-rotary-encoder)
+
+Seleccioné este proyecto, ya que, si bien el enfoque a nuestro proyecto es diferente, en su documentación tiene el propósito y los objetivos del sistema, la lista de componentes y materiales que se necesitan, entrega diagramas que muestran como conectar los componentes, también te entrega el codigo y tiene sus instrucciones paso a paso de como arma todo.
