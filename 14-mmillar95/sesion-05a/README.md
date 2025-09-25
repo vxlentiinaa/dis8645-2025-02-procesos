@@ -24,6 +24,8 @@ Libro: Problemas - Aristóteles
 
 ### Bjarne Stroustrup
 
+![Bjarne](./imagenes/Bjarne.jpg)
+
 Bjarne Stroustrup es un informático danés, ampliamente conocido como el creador e implementador original del lenguaje de programación C++. Su trabajo ha tenido un impacto significativo en el desarrollo de software y la informática moderna.
 
 Publicaciones importantes de Bjarne sobre programación
