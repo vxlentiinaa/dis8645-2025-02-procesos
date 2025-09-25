@@ -64,17 +64,18 @@ Salida: cuando estes lo suficiente cerca te susurre el secreto. definir: ¿Qué 
 
 - Cada persona del  grupo traer 4 referentes de internet
   
-Robot de origami que al tener una vibración avanza
+Trata de un robot vibratorio hecho en origami: plegando papel, incorporando un motor vibratorio y una pila (moneda) para generar movimiento.
 
 [kvriet](https://github.com/kvriet/Origami-vibration-robot)
 
 - Interruptor de vibración
   
-sensor de vibración para emitir un pitido desde un zumbador mientras agitamos nuestra placa de pruebas.
+Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar movimiento o vibración, y activar un buzzer cuando la vibración es detectada.
 
 <https://www.instructables.com/How-to-use-a-vibration-sensor-shake-switch-Arduino/>
 
-- Robot que habla al pasar la mano cerca de el
+- Es un robot casero que responde a estímulos con voz y movimientos, usando Arduino, sensores IR, servos y un módulo de audio.
+  
   <https://www.instructables.com/Easy-to-Make-Talking-Humanoid-Robot/>
   
 - Comentar qué proyectos se parecen
