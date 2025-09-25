@@ -165,7 +165,8 @@ void loop() {
   delay(250);
 }
 ```
-#### cotización 
+
+#### Cotización 
 
 - [afel](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04) $1.500
 
