@@ -26,16 +26,19 @@
 ⟡ Modulo Reproductor: Modulo Reproductor MP3 DFPlayer Mini. $2.990 la unidad en AFEL. [MODULO REPRODUCTOR](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
 #### ENCARGOS ── .✦
+
 **I. Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.**
 
-⟡ Similitudes: 
+  ⟡ Similitudes: 
 - Muchos de los proyectos utilizan recursos de reproducción de audio para que el robot hable, quizás porque se genera una interacción mucho más cercana al oír que solo leer un saludo.
 - En general se espera que los robots comiencen en estado de reposo para luego activarse mediante un estímulo externo (presencia, temperatura, presionar algo, por un ruido, etc)
 - Todos utilizaran más de un sensor y agregado (sonido, pantalla, voz, movimiento, etc).
-- 
-⟡ Diferencias:
--
 
+  ⟡ Diferencias:
+- Todos los proyectos tienen distintos objetivos de interración de saludo, algunos más complejos, otros más simples.
+- Algunos proyectos buscan personificar más al robot, que tenga ojos, se muevan, quizás que tenga más personalidad con eso.
+- Hay proyectos que tienen propuestas más ambiciosas y complejas, mientras otros tienen unas más simples y amigables.
 
+  *⟡ ¿Que un proyecto sea más complejo/ambicioso lo hace mejor?* 
 
 **II. Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.**
