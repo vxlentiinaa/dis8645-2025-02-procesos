@@ -62,7 +62,7 @@ p5
 
 Data login
 
-#### Ideas
+#### Ideas Proyecto-02
 
 - Una máquina que de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
 
@@ -176,7 +176,7 @@ void loop() {
 
 También encontré esta casita interactiva en Afel y me encantó! [Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio
 
-#### Ideas
+#### Ideas 
 
 - Una máquina que de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
 
