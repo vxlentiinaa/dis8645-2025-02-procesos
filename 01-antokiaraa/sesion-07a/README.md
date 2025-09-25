@@ -21,7 +21,7 @@ entrada: primero quiero seleccionar un idioma en un menu, y después detectar un
 - Encoder con boton
 - Microfono (sensor de sonido)
 
-## links de compra:
+### links de compra sensores:
 
 Afel Sensor de  sonido $1.000
 [AFEL](https://afel.cl/products/sensor-sonido-digital)
@@ -51,11 +51,11 @@ no sabemos como se conectan
 
 queremos que se despliegue un menu en una pantallita para elegir un idioma y que salude en el idioma seleccionado a través de sonido y mensaje en pantalla
 
-### sensores:
+### actuadores:
 pantallita OLED
 modulo reproductor mp3
 
-## links de compra:
+### links de compra actuadores:
 
 Afel pantalla OLED $6500
 [AFEL](https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules)
