@@ -22,3 +22,19 @@ Nos mostraron un proyecto que se llama “Las llamadas que nunca hice”. Su cre
 <https://www.instagram.com/juanjoacuna/>
 
 En el caso de que queramos utilizar tiras led en nuestros proyectos. Podemos también preguntarle al profe Sergio Majluf porque tiene mucho conocimiento acerca de tiras led. O también sirve si es que queremos una habitación gamer con luces led. <https://demasled.cl/> 
+
+
+### Motores
+
+Un motor DC es rápido y no sabe dónde está. Un motor es una máquina que funciona con transducción.
+
+Mini motor paso a paso, funciona a grados. Según Gemini, 
+Un "mini motor paso a paso" se refiere a un motor eléctrico de tamaño reducido que convierte impulsos eléctricos en movimientos mecánicos precisos y discretos, llamados "pasos".
+
+Micro Servomotor es un motor muy preciso para controlar el movimiento del eje. Usualmente es muy frágil y se rompe con facilidad por lo preciso que es.
+
+Cada motor se usa para distintas cosas, según la necesidad.
+
+Una escalera mecánica utiliza un motor extremadamente caro que se llama motor síncrono. Este motor hace que se mueva siempre a la misma velocidad establecida. Utiliza más energía cuando detecta una persona para poder mantener la misma velocidad.
+
+
