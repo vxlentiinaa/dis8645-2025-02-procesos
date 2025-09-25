@@ -47,6 +47,13 @@
   - f
 
   ⟡ Código:
+- [ARDUINO+OLED+ENCODER SIMPLE](https://projecthub.arduino.cc/yilmazyurdakul/arduino-oled-encoder-simple-menu-system-e998b8)
+  
+Elegí este proyecto, ya que se está implementando la lógica de navegación por menú que queremos implementar en nuestro proyecto para que el usuario pueda seleccionar entre los distintos idiomas, usando el encoder rotatorio y la pantalla OLED que también queremos utilizar. En el proyecto se usa la librería SSD1306 (Adafruit) para manejar la pantalla OLED, y un interrupt para leer los pulsos del encoder, también manteniendo un "menuCount" para saber que opción del menú esta seleccionada en el momento.
+
+- [DFPLAYENCODER](https://github.com/experimentool/dfplayencoder/)
+
+Elegí este otro proyecto, ya que se utiliza un Arduino junto a un DFPlayer que reproduce audio desde una tarjeta SD y un encoder rotatorio para poder cambiar de archivos, además de una pantalla OLED 128x64 para que puedas ver que archivo es el que se reproduce. Esto nos ayuda en nuestro proyecto ya que podemos seguir esa lógica pero que cada idioma sea un archivo de saludo en la SD numerado, también para saber como usar el enconder a la hora de elegir y ya nosotros deberiamos cambiar la opción de presionar el botón para elegir una pista a que esta se seleccione por un ruido fuerte.
 
   ⟡ Materialidad:
 
