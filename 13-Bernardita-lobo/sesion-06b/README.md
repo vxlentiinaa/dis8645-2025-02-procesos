@@ -1,45 +1,45 @@
 # Sesión-06b
 
+Viernes 12 de septiembre, 2025
+
 ## Trabajo en clase
 
 ### Cosas que hablamos en la mañana
 
-aaron nos mosro un video que desde la terminal interpretaba lo que hablaban en español y mediante codigo podia pedirle que le mostraran palabras especificas
+Aaron nos mostró un video en el que desde la terminal, se interpretaba lo que se hablaba en español y mediante código, se podía pedir que mostrara palabras específicas.
 
-lav.io 
+lav.io
 
-slow hot computer, erramienta para que tu computador se caliente
+Slow Hot Computer: herramienta que hace que tu computador se caliente.
 
-the intergo, governamental paner capitalism, busca videos conde hablen de cambio climacio y lo remplaza por la palabra capitalismo
+The Intergo: panel gubernamental de capitalismo; busca videos donde hablen de cambio climático y reemplaza la palabra por “capitalismo”.
 
-lenguaje spacy
+Lenguaje Spacy
 
-encontrar las herramientas que necesitamos para utilizarlas de manera estrategica, partir siempre desde la investigacion desde lo que ya existe. 
+Encontrar las herramientas que necesitamos y utilizarlas de manera estratégica, siempre partiendo de la investigación y de lo que ya existe.
 
-complilar, es pasar de un lenguaje legible humano a lenguaje legible maquina
+Compilar, es pasar de un lenguaje legible por humanos a lenguaje legible por máquina
 
-mateo nos mostrosu proyecto de tesis, como organizo y programo un codigo para renombrar los archivos
+Mateo nos mostró su proyecto de tesis, cómo organizó y programó un código para renombrar archivos
 
-escribir el esqueleto de nuestras ideas del proyecto, y despues ir comentando y intentando hacer codigo
+Escribir el esqueleto de nuestras ideas del proyecto, y después ir comentando e intentando hacer código
 
-tesis, neuralgia del trigenido, como hace visible lo inviseble, general aumleto
+Janies nos mostró su proyecto de tesis, neuralgia del trigémino, cómo hace visible lo invisible, general aumento
 
-dart
+Dart
 
-flutter, aplicaciones moviles, accesos a material desing de google
+Flutter aplicaciones móviles, acceso a Material Design de Google
 
-esp32
+ESP32
 
-dos bluetooth, bluetooth low energy, BLE
+Dos tipos de Bluetooth: Bluetooth clásico y Bluetooth Low Energy (BLE)
 
-simulador de telefono en el computados 💻
+Simulador de teléfono en el computador
 
-### Palabras importantes 
+### Palabras importantes
 
-complilar
+Compilar
 
-### propuesta de proyecto
+### Referentes
 
-una maquina que cuando es levantada de su espacio, a traves de un nfc y un lector de nfc que lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
-
-maquina que cuenta secretos, tienes que acercarte mucho, una maquina que necesites estar muy cerca para que te cuente sus secretos. idea una maquina que de auerdo a la distancia las preguntas intimas (personales) que te hace, tu escojes que tan cercana quieres la interaccion.
+### Propuesta de proyecto
