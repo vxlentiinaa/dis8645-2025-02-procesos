@@ -2,21 +2,21 @@
 
 ## Trabajo en clase
 
-### Cosas que hablamos en la mañana
-
 Martes 23 de septiembre, 2025
 
-toda la teoria de universo, Susane Chau
+### Cosas que hablamos en la mañana
 
-cosmotetecnica y la tecnodiversidad
+Toda la teoría del universo, Susane Chau
 
-liquen lab
+Cosmotécnica y la tecnodiversidad
 
-bienal de artes mediales https://cchv.cl/bienal-de-artes-mediales-de-santiago/
+Lichen Lab
 
-museo del hongo
+[Bienal de Artes Mediales](cchv.cl/bienal-de-artes-mediales-de-santiago)
 
-hackear bip
+Museo del Hongo
+
+Hackear Bip
 
 ### Proyecto-02
 
