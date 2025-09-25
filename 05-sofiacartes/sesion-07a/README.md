@@ -9,17 +9,6 @@
 - CW&T -> Time Since Launch <https://cwandt.com/products/time-since-launch>
   
 ---
-
-## encargo viernes
-
-- Cada persona del  grupo traer 4 referentes de internet
-
-arduino.com 
-
-- Comentar qué proyectos se parecen
-
----
-
 - los botones y/o perillas son buenos para el backstage
 - Módulo RTC ds1302 real time clock
 
@@ -36,7 +25,9 @@ arduino.com
 -  LED rgb
 -  neopixel
   
-#### idea 1 
+## ideas proyectos
+
+- Idea 1 
 
 funcionará mediante la interacción con botones, al apretarlo se reproducirá el saludo en algún idioma. Cada botón tiene un idioma y una gestualidad predeterminado
 
@@ -56,7 +47,7 @@ Nos falta como invitar a la persona.
 
 idea funable, no hacer.
 
-#### idea 2
+- Idea 2
 
 Entrada: Que al estar lejos te pida acercarse cmediante un movimiento como tiritando, para poder contarte un secreto. 
 
@@ -66,3 +57,24 @@ Salida: cuando estes lo suficiente cerca te susurre el secreto. definir: ¿Qué 
 
 - sensor de proximidad que me llame a utilizarlo 
 - según la proximidad de la persona, te salude pero de distinto volumen
+
+
+## Encargo viernes
+
+- Cada persona del  grupo traer 4 referentes de internet
+  
+Robot de origami que al tener una vibración avanza
+
+[kvriet](https://github.com/kvriet/Origami-vibration-robot)
+
+- Interruptor de vibración
+  
+sensor de vibración para emitir un pitido desde un zumbador mientras agitamos nuestra placa de pruebas.
+
+<https://www.instructables.com/How-to-use-a-vibration-sensor-shake-switch-Arduino/>
+
+- Robot que habla al pasar la mano cerca de el
+  <https://www.instructables.com/Easy-to-Make-Talking-Humanoid-Robot/>
+  
+- Comentar qué proyectos se parecen
+
