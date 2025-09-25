@@ -48,25 +48,25 @@ sensor sonido digital
 links de compra:
 
 Afel Sensor de  sonido $1.000
-https://afel.cl/products/sensor-sonido-digital
+<https://afel.cl/products/sensor-sonido-digital>
 
 Mechatronic Store CL Sensor de sonido digital $1990
-https://www.mechatronicstore.cl/sensor-de-sonido-digital-ajustable-hc-20/
+<https://www.mechatronicstore.cl/sensor-de-sonido-digital-ajustable-hc-20/>
 
 MercadoLibre Sensor Sonido $2490
-https://articulo.mercadolibre.cl/MLC-437895383-sensor-sonido-microfono-analogo-digital-ky-037-mic-max--_JM
+<https://articulo.mercadolibre.cl/MLC-437895383-sensor-sonido-microfono-analogo-digital-ky-037-mic-max--_JM>
 
 Altronics Sensor de sonido $1537
-https://altronics.cl/sensor-sonido-ky-037
+<https://altronics.cl/sensor-sonido-ky-037>
 
 MercadoLibre Encoder Pulsador $2490
-https://articulo.mercadolibre.cl/MLC-443587887-modulo-encoder-rotatorio-potenciometro-pulsador-max--_JM
+<https://articulo.mercadolibre.cl/MLC-443587887-modulo-encoder-rotatorio-potenciometro-pulsador-max--_JM>
 
 Afel Encoder presionable $2.000
-https://afel.cl/products/encoder-rotatorio-ky-040-360-grados
+<https://afel.cl/products/encoder-rotatorio-ky-040-360-grados>
 
 MCI Electronics Encoder pulsador $2290
-https://mcielectronics.cl/shop/product/modulo-encoder-rotatorio-con-pulsador
+<https://mcielectronics.cl/shop/product/modulo-encoder-rotatorio-con-pulsador>
 
 dudas / ataos:
 no sabemos cómo se conectan
@@ -81,19 +81,19 @@ modulo reproductor mp3
 links de compra:
 
 Afel pantalla OLED $6500
-https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules
+<https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules>
 
 MercadoLibre pantalla lcd oled $5435
-https://articulo.mercadolibre.cl/MLC-1673497965-pantalla-lcd-4-pines-128x64-oled-096-para-arduino-_JM
+<https://articulo.mercadolibre.cl/MLC-1673497965-pantalla-lcd-4-pines-128x64-oled-096-para-arduino-_JM>
 
 MCI Electronics display oled $5490
-https://mcielectronics.cl/shop/product/display-oled-de-128-x-64-pixeles-controlable-por-i2c-29546/
+<https://mcielectronics.cl/shop/product/display-oled-de-128-x-64-pixeles-controlable-por-i2c-29546/>
 
 Altronics módulo reproductor mp3 $4076
-https://altronics.cl/reproductor-mp3-dfplayer-mini
+<https://altronics.cl/reproductor-mp3-dfplayer-mini>
 
 Mechatronics Store módulo reproductor mp3 $3990
-https://www.mechatronicstore.cl/reproductor-mp3-wav-yx5300-micro-sd
+<https://www.mechatronicstore.cl/reproductor-mp3-wav-yx5300-micro-sd>
 
 dudas/ataos:
 se parece mucho a lo que quiere hacer otro grupo
