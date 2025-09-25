@@ -14,7 +14,6 @@ Max 9
 
 Pure Data: similar a Max 9, creado por [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) 
 
-
 TouchDesigner: desarrollado por Sergio Mora Díaz
 
 vvvv
@@ -65,17 +64,17 @@ Data login
 
 #### Ideas
 
-Una máquina que, de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
+- Una máquina que de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
 
-O al revés, mientras más te acercas, más sincera se vuelve nuestra máquina.
+- O al revés, mientras más te acercas, más sincera se vuelve nuestra máquina.
 
-Una máquina que necesites estar muy cerca para que te cuente sus secretos.
+- Una máquina que necesites estar muy cerca para que te cuente sus secretos.
 
-Una máquina que reclame cuando la muevan de su espacio, de su eje.
+- Una máquina que reclame cuando la muevan de su espacio, de su eje.
 
-Una máquina que, cuando es levantada de su espacio, a través de un NFC y un lector de NFC que lo detecta, temporiza una hora y, si no es regresada a su espacio, emite sonido.
+- Una máquina que, cuando es levantada de su espacio, a través de un NFC y un lector de NFC que lo detecta, temporiza una hora y, si no es regresada a su espacio, emite sonido.
 
-Sensor que si está temblando, encienda todas las luces (me da miedo los temblores).
+- Sensor que si está temblando, encienda todas las luces (me da miedo los temblores).
 
 ### Palabras importantes
 
@@ -93,7 +92,22 @@ over engineer
 
 ### Sensor ultrasonico HC-SR04
 
-investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar
+Utiliza un sonar para determinar la distancia a un objeto. Este sensor mide desde 2 cm hasta 400 cm
+
+El transmisor de ultrasonidos envía un sonido muy agudo (40 kHz), cuando el sonido se encuentra con un objeto, rebota y el receptor lo detecta como eco.
+
+| Especificación               | Valor                                  |
+|-------------------------------|----------------------------------------|
+| Alimentación                  | +5 V CC                                |
+| Corriente en reposo            | <2 mA                                   |
+| Corriente de trabajo           | 15 mA                                   |
+| Alcance                        | 2 cm – 400 cm (1″ – 13 pies)          |
+| Resolución                     | 0,3 cm                                  |
+| Ángulo efectivo de detección   | 30° (ángulo del haz <15°)             |
+| Entrada disparador             | Pulso TTL de 10 µs                      |
+| Salida eco                     | Pulso TTL proporcional a la distancia  |
+| Dimensiones                    | 45 × 20 × 15 mm                         |
+
 
 [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
 
@@ -106,9 +120,12 @@ investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
 
 - [MCI electronics](https://mcielectronics.cl/shop/product/sensor-de-proximidad-de-ultrasonido-hc-sr04-23582/) $2.590
 
-[Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio
-
+También encontré esta casita interactiva en Afel y me encantó! [Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio
 
 #### Ideas
 
+- Una máquina que de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
 
+- Una máquina que necesites estar muy cerca para que te cuente sus secretos.
+
+- Una máquina que, cuando es levantada de su espacio, a través de un NFC y un lector de NFC que lo detecta, temporiza una hora y, si no es regresada a su espacio, emite sonido.
