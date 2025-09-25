@@ -59,10 +59,39 @@ La máquina saludadora, es un dispensador de chicles que contiene diversos color
 - Mini Parlante Altavoz de 3w $3.000 (https://afel.cl/products/mini-parlante-altavoz-de-3w).
 - Chicles de bolita de colores.
 
-## Encargo
-1. Leer las demás bitacoras y encontrar similitudes con mi proyecto.
-2. Buscar lenguaje humano con el que quiero presentar mi proyecto, código, materialidad, documentación. Esto define el éxito o no en el proyecto.
+## ☞ Encargo 12
+Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
 
+### ✦ Similitudes generales
+- Casi todas las propuestas que se plantean un **estado de reposo (stand by)** que se activa al detectar la presencia de un usuario.
+- Se usan sensores como: movimiento, proximidad, joystick o botones.
+- El saludo se entiende como algo **lúdico, cercano y amistoso**, muchas veces con toques de humor o parecidos a mascotas virtuales.
+- La retroalimentación inmediata es crucial: luces, pantallas, sonidos o movimientos se activan como respuesta al usuario.
+- Se reconoce la omportancia de generar una **experiencia memorable**, más allá de la simple detección de la entrada.
+
+### ✦ Diferencias principales 
+- **Enfoque de interacción**: algunos proyectos son más **visuales** (pantallas, animaciones), otros más **físicos** (joysticks, servos o botones).
+- **Complejidad técnica**: varía desde saludos automáticos muy simples, hasta interacciones conversacionales con preguntas y respuestas.
+- **Narrativa**: en ciertas bitácoras, la máquina saludadora se concibe como un **personaje con identidad propia** mientras que otras es un **dispositivos funcional y minimalista**.
+- **Escala física y tamaño**: hay propuestas portátiles y compactas y otras como instalaciones fijas en un espacio.
+- **Estética y tono**: algunos priorizan lo humorístico, otros lo formal o minimalista.
+  
+### ✦ Preguntas
+- ¿Cómo garantizar que el sensor **sea preciso** y no genere falsos positivos o negativos?
+- ¿De qué manera se evita que la interacción se vuelva repetitida con el tiempo? ¿O esa es la inteción?
+- ¿Cómo mantener la **atención del usuario** después del saludo inicial?
+- ¿Qué pasa si varios usuarios intentan interactuar al mismo tiempo?
+- ¿Cómo lograr que la narrativa de la máquina sea clara para todo tipo de usuario?
+  
+### ✦ Aciertos destacados
+- Propuestas que integran **personalidad y humor**, haciendo más atractiva y memorable la experiencia.
+- Algunas máquinas incluyen **manuales, instrucciones o leyendas** pata guiar al usuario con los gestos.
+- Creatividad en plantear **formas alternativas de saludar** no limitándose al "Hola".
+- Varios proyectos logras un **buen equilibrio entre hardware y narrativa interactiva**.
+- En ciertos casos, se considera la **escalabilidad** y la posibilidad de **adaptar el saludo** según el contexto.
+
+## ☞ Encargo 13
+Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo
    
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
