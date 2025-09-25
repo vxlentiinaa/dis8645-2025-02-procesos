@@ -58,3 +58,6 @@ Elegí este otro proyecto, ya que se utiliza un Arduino junto a un DFPlayer que 
   ⟡ Materialidad:
 
   ⟡ Documentación:
+-[MP3 PLAYER WITH ARDUINO USING DF PLAYER MINI](https://www.instructables.com/MP3-Player-With-Arduino-Using-DF-Player-Mini/)
+
+Elegí este proyecto, ya que su forma de documentación es muy clara y ordenada, nos muestra la lista de componentes y materiales necesarios para el proyecto, te muestra un esquema de conexión para saber cómo conectar el DFPlayer al Arduino, también te entrega el código para poder controlar la reproducción de archivos y tiene las intrucciones paso a paso desde el montaje a la programación.
