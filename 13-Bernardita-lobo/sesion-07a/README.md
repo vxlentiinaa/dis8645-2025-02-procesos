@@ -107,7 +107,7 @@ Drivers
 
 buscar ejemplos de : lenguaje, código, materialidad y documentacion.
 
-### lenguaje
+### Lenguaje
 
 Palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera literaria nuestro proyecto, llevarlo al mundo descroptivo, lenguaje natural, adjetivos, vervos y advervios.
 
@@ -115,10 +115,10 @@ Palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera liter
 
 codigos que utilicen sensores parecidos
 
-### materialidad
+### Materialidad
 
 materialidades en el proyecto,  ya sea madera, impresion 3d, metal, que trabajen cosas parecidad y nos sirva como referente
 
-### documentación
+### Documentación
 
 Registro, instrumentos telepaticos.
