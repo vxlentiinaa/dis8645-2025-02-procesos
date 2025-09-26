@@ -48,7 +48,10 @@ configurarSensorUltrasonico();
 //configurar mas sensores
 //configurar actuadores
 
-void leerSensores() {}
+void leerSensores() {
+
+leerPotenciometro() }
+analogRead(patitaPotenciometro);
 
 void tomarDecisiones() {}
 
@@ -56,3 +59,14 @@ void actuar() {}
 }
 
 ```
+
+★ Nueva pestaña: sensorPotenciometro.h, configurarlo. Ahí se programa el potenciometro.
+
+int patitaPotenciometro;
+
+patitaPotenciometro = A0;
+
+¿Qué pasa si cambio el lugar? Es mejor crear una nueva pestaña en donde configuro todo y elimino lo de arriba de esa pestaña
+
+Nueva pestaña configuraciones.h
+
