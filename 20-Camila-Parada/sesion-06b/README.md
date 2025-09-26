@@ -36,8 +36,16 @@ La idea es crear una compañía que salude, este presente, y que en el peor de l
 - Paso 10. Colocarse los audífonos incluidos.
 - Paso 11. Empieza a sonar una “música instrumental” que genere tranquilidad. (lofi) 
 - Paso 12. En la pantalla se escribe el texto. “Hola, recuerda que estoy aquí para ti”.
+- Paso 13. El mensaje dura 10 segundos y luego se pone la pantalla en negro.
+- Paso 14. En la pantalla se escribe el texto. “Solo céntrate en mí y escucha”.
+- Paso 15. El mensaje dura 10 segundos y luego se pone la pantalla en negro.
+- Paso 16. La pantalla muestra un paisaje.
+- Paso 17. La persona escucha el dispositivo por 3 minutos.
+- Paso 18.  Pasado ese tiempo, la máquina escribe el texto (por sobre el paisaje) “¿Estás mejor?”
+- Paso 19. Si es que se ha calmado, solo se esperan 2 minutos y muestra el mensaje “Espero que sea así, nos vemos”.
+- Paso 20. Si no se ha calmado, se presiona un botón que resetea la música y se sigue mostrando el paisaje.
 
-▼ Recuperado de: <https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml>
+Pueden haber más pasos...
 
 ### Posdata
 
