@@ -84,8 +84,7 @@ void configurarPantalla(){
 }  
 ```
 3. sensorColor.ino
-
-```cpp
+```pp
 void configurarSensorColor() {
   // conectar la patitas del sensor 
   // censar los colores y ver cuales reconoce y cuales no (dependiendo de los dulces a utilizar)
@@ -93,7 +92,7 @@ void configurarSensorColor() {
   
   // se detectaron los siguientes colores: azul, verde, rojo, amarillo, cyan, magenta
   }
-```
+```cpp
 
 ## Encargo 14
 1. Hacer un diagrama de flujo en mermaid (ya que se puede subir a markdown) con la funcionalidad del proyecto.
