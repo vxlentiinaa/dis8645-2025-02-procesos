@@ -87,3 +87,65 @@
 + **Salida:** Depende tu distancia este reacciona, si estas lejos comienza a tiritar (de la emoción/ansioso) para poder contarte un secreto, al mismo tiempo te llama gritando para que te acerques más. Cuando estés lo suficiente cerca te susurra el secreto. definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
 
 + motor DC , ultrasonico, reproductor mp3, altavoz.
+
+#### Encargo 12
+"leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."
+
+**Análisis comparativo** de máquinas saludadoras
+
++ Al leer las bitácoras de mis compañeros me doy cuenta de que, aunque todos partimos de la misma premisa (crear una máquina que salude e interactúe con las personas) cada uno le dio un giro distinto en cuanto a tono, materiales y experiencia de usuario.
+  
+#### Similitudes
+
++ **La interacción con el usuario es la esencia de todos los proyectos.** En mi caso, mi máquina detecta la distancia de la persona con un sensor ultrasónico: si está lejos tiembla de la emoción y grita para que se acerque, y cuando ya está cerca le susurra un secreto. Mis compañeros también trabajan con la cercanía, Braulio y Bernardita usan sensores para que sus máquinas sigan al usuario con la mirada y luego hablen, mientras que Santiago hace que sus ojos se activen a partir de micrófonos que captan sonidos. Además, varios incluimos sonido pregrabado como salida, ya sea para hablar, saludar o emitir frases aleatorias (Braulio, Bernardita, Pía y yo).
+
+#### Diferencias
+
++ **Mi propuesta se centra en la ansiedad y la intimidad**, porque la máquina primero se agita y llama la atención, pero después revela un secreto, susurrándolo cuando logras acercarte lo suficiente, en cambio, Braulio y Bernardita juegan con lo irónico, creando orejas que hablan o miradas que incomodan. Santiago se va en la vola creepy, generando sensación de vigilancia con sus ojos que siguen el sonido. Pía, se va a lo más digital y visual, usando pantallas y encoders, lo que la diferencia de la mayoría que trabajamos con gestos y sonidos.
+
+#### Aciertos
+
++ Creo que un punto fuerte de mi propuesta es la dinámica emocional: primero genera expectativa y ansiedad, y luego entrega algo íntimo como un "secreto". De Braulio me encanta lo de que una oreja hable, es inesperado y divertido. Santiago igual acierta en lo inquietante de sentirse observado, que provoca una reacción de incomodidaden el usuario. Bernardita logra una combinación interesante entre mirada y susurros. Y de Pía rescato lo sólido de su propuesta técnica con pantalla y encoder, que abre muchas posibilidades de interacción.
+
+#### Referencias
+
++ Mi Bitácora :) idea máquina saludadora (máquina cuenta secretos). Sesión de clase.
++ Figueroa, Bitácora sesión 07a: formulación del proyecto.
++ Santiago, Bitácora sesión 07a: grupo proyecto-02, hijos de la tierra.
++ Bernardita, Bitácora sesión 07a: ideas proyecto-02.
++ Pía, Bitácora sesión 07a: sobre el proyecto.
+
+#### Encargo 13
+
+"buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
+
+#### 1. Lenguaje natural (personas)
+
++ Referente 1: Mitchel Resnick "Let's teach kids to code" <https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code?subtitle=en>
++ Elegí esta charla de Mitchel Resnick porque destaca por su claridad y sencillez al explicar conceptos complejos. Su lenguaje es universal, accesible para cualquier persona sin importar si tiene conocimientos de programación o no. Me interesa especialmente cómo Resnick transmite ideas de forma cercana y empática. Este referente hace enfasis en que la comunicación efectiva es clave para que la tecnología sea entendida y disfrutada por todos.
+
+#### 2. Código (tecnología/programación)
+
++ Referente 1: <https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html>
+
+Tutorial de Arduino y sensor ultrasónico HC-SR04 – Naylamp Mechatronics
+
+Este sitio me enseña cómo utilizar el sensor ultrasónico HC-SR04 con Arduino, como la calibración, conexiones y programación básica. Este recurso es especialmente útil para mi máquina que susurra secretos. El tutorial explica cómo emitir un pulso al pin Trigger del sensor y medir el tiempo que tarda en recibir el eco mediante la función pulseIn(). Esta información es esencial para calcular la distancia al objeto y activar respuestas como sonidos o movimientos en función de la proximidad del usuario. Me sirve como base sólida para desarrollar la lógica de interacción de mi proyecto.
+
++ Referente 2: <https://www.youtube.com/watch?v=qUhhRjHKW4s>
+Este video: "Arduino desde cero en Español - Capítulo 81 - Audio MP3 fácil con DFPlayer Mini y tarjeta MicroSD". Explica cómo usar e reproductor mp3, tanto como para conectarlo, las piezas necesarias y como hacerlo funcionar. Este también me sirve como una buena base para mi proyecto.
+
+#### 3. Materialidad
+
++ Referente 1: Juguetes mecánicos antiguos.
++ Estos objetos combinaban movimientos simples con grabaciones de voz, generando interacción. Me sirven como referente porque muestran cómo materiales mecánicos y electrónicos básicos pueden dar vida a una experiencia emotiva y divertida. Este referente me aporta la idea de que no siempre hace falta tecnología compleja para generar interacción significativa.
+![juguete](./imagenes/juguete2.jpg)
+
++ Referente 2: Legos
++ Los Legos son un referente clave para mí por su versatilidad y la posibilidad de reutilizar piezas antiguas, dándoles una segunda vida. Me atrae la idea de incorporar materiales modulares, los Legos inspiran de por si a diseños flexibles y adaptables.
+  ![lego](./imagenes/juguete5.jpg)
+
+#### 4. Documentación
+
++ Referente 1: Tutorial de Adafruit sobre proyectos con audio y Arduino. <https://learn.adafruit.com/esenciales-para-circuitpython/salida-audio-circuitpython>
+En esta documentación se explican paso a paso conexiones, códigos y ejemplos. Lo tomo como referente porque me da un ejemplo práctico de cómo documentar los procesos técnicos. Me ayuda a pensar en cómo quiero registrar y compartir mis propios proyectos.
