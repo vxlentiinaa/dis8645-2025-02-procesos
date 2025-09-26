@@ -92,6 +92,13 @@ Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y a
 
 ## ☞ Encargo 13
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo
-   
+
+### ✦ Referentes:
+1. **Candybot**: dispensador automático de dulces que te da dulces si estás contento y sonríes.
+- Funciona con una cámara que detecta rostros y luego realiza un reconocimiento de emociones faciales.
+- Se ejecuta en un dispositivo integrado como Raspberry Pi.
+- Se encuentra la manera de controlar el motor del dispensador.
+2. Automated Candy Dispenser
+  
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
