@@ -6,3 +6,13 @@
 
 - [ultrasonido e infrasonido](https://www.lpi.tel.uva.es/~nacho/docencia/ing_ond_1/trabajos_03_04/infra_y_ultra/infrasonidos.htm)
 
+### modulo MAX4466
+<https://lastminuteengineers.com/max4466-arduino-tutorial>
+
+- captura ondas de sonido en el rango de 20Hz-20kHz
+
+
+
+
+### links 
+[dart](https://dart.dev)
