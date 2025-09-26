@@ -1,12 +1,17 @@
 void configurarSensoresActuadores() {
 
   configurarSensorUltrasonico();
+  configurarSensorPotenciometro();
 
   // configurar mas sensores
   // configurar actuadores
 }
 
-void leerSensores() {}
+void leerSensores() {
+  
+  leerPotenciometro();
+
+}
 
 void tomarDecisiones() {}
 

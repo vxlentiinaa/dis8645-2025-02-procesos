@@ -1,6 +1,9 @@
+#include "variablesGlobales.h"
+
 
 void setup() {
   configurarSensoresActuadores();
+  configurarTerminal();
 }
 
 void loop() {
