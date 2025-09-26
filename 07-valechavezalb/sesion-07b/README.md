@@ -36,8 +36,8 @@ void loop() {
 ## Pseudocódigo VO del proyecto
 
 1. pseudocódigo.ino
-```cpp
-void setup() {
+   ```cpp
+   void setup() {
   configurarSensorColor();
 
   configurarAudio();
@@ -56,11 +56,11 @@ void setup() {
   tomarDecisiones();
   actuar();
 }
-```
+   ```
 2. sensoresActuadores.ino
 
-```cpp
-void configurarSensorColor() {
+   ```cpp
+   void configurarSensorColor() {
 
   configurarSensorColor();
 
@@ -83,15 +83,17 @@ void configurarPantalla(){
 //diseñar las animaciones que se usaran
 //las animaciones cambiaran dependiendo el color 
 }
-```
+
+   ```
 3. sensorColor.ino
 
-```cpp
-void configurarSensorColor() {
+   ```cpp
+   void configurarSensorColor() {
   // conectar la patitas del sensor 
   // censar los colores y ver cuales reconoce y cuales no (dependiendo de los dulces a utilizar)
   // definir el rango de valores para que detecte los colores --> r:0 g:0 b:0
   
   // se detectaron los siguientes colores: azul, verde, rojo, amarillo, cyan, magenta
-}
-```
+  }
+  ```
+
