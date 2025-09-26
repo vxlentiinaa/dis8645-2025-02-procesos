@@ -89,7 +89,7 @@ Por la parte conceptual, la mirada es un acto de presencia. La conexión que ocu
 
 #### 3. Materialidad.
 
-- [[]():
+- [Nombre del proyecto](link):
 
 #### 4. Documentación.
 
