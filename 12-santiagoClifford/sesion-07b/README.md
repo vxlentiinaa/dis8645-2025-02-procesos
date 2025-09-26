@@ -36,7 +36,6 @@ if(valueMic1>valueMic2){
 ```
 
 #### otro alcance
-
 ```cpp
 //en este ejemplo, mic0,mic1 y mic2 estan colocados de izquierda a derecha, en ese orden. 
 int mic0;
@@ -54,5 +53,33 @@ if(mic0 > mic1 && mic0 > mic2){
 }else if(mic2 > mic0 && mic2 > mic1){
    Serial.println("hay un wn q me quiere matar a la derecha");
 }
+```
 
+#### otro alcance v2
+
+```cpp
+//en este ejemplo, mic0,mic1 y mic2 estan colocados de izquierda a derecha, en ese orden. 
+int micA;
+int micB;
+
+bool zona0=false;
+bool zona1=false;
+
+mic0 = analogRead(A0);
+mic1 = analogRead(A1);
+
+
+if(mic0 > mic1){
+   zona0=true;
+   zona1=false;
+}else if(mic1 > mic0){
+  zona0=false;
+  zona1=true;
+}
+
+if(zona0 && !zona1){
+   servo = map(servo, 0, 1023, 0, 44);
+}else if(!zona0 && zona1){
+   servo = map(servo, 0, 1023, 45, 90);
+}
 ```
