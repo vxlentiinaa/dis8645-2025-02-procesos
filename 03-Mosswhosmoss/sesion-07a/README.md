@@ -10,7 +10,7 @@
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías:
 
 1. lenguaje natural (personas).
-  - [mummy__joe](https://www.instagram.com/mummy__joe) Es una persona q se dedica a hacer cortos comicos animados de situaciones absurdas y/o exageradas como [little british orphan](https://youtu.be/bHcpj796wSI?si=zcw-b4K16zuiSJWW) o [itsy bee and the royal flea](https://youtu.be/wP6Zsy2J-5o?si=XGTINr9o-K_C2GFl), me gustaria ser capaz de llegar a un nivel comunicativo/humoristico similar a el de mummy joe para explicar el Proyecto 02 porque el robot/maqquina saludadora que busco hacer con mi grupo tiene esos toques de exageracion y humor, me encantaria reflejarlo en las instrucciones o explicaciones de como funcionaria este pequeño robot que sufre de mucho frio.
+  - [Mummy__Joe](https://www.instagram.com/mummy__joe) es una persona que se dedica a hacer cortos cómicos animados de situaciones absurdas y/o exageradas como [little british orphan](https://youtu.be/bHcpj796wSI?si=zcw-b4K16zuiSJWW) o [itsy bee and the royal flea](https://youtu.be/wP6Zsy2J-5o?si=XGTINr9o-K_C2GFl), me gustaria ser capaz de llegar a un nivel comunicativo/humorístico similar al de mummy Joe para explicar el Proyecto 02, porque el robot/máquina saludadora que busco hacer con mi grupo tiene esos toques de exageración y humor; me encantaría reflejarlo en las instrucciones o explicaciones de cómo funcionaría este pequeño robot que sufre de mucho frío.
   -   
 2. código.
   - 
