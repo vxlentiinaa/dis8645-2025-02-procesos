@@ -19,3 +19,19 @@
 ### links 
 - [dart](https://dart.dev)
 - [mermaid](https://mermaid.js.org)
+
+#### avance masacre
+
+```cpp
+int valueMic1;
+int valueMic2;
+
+if(valueMic1>valueMic2){
+ origenSonido = valueMic1-valueMic2;
+ apuntacionServo = map(origenSonido, 0, 1023, 10, 170); 
+}else if(valueMic1<valueMic2){
+ origenSonido = valueMic2-valueMic1;
+ apuntacionServo = map(origenSonido, 0, 1023, 170, 10); 
+}
+
+```
