@@ -1,16 +1,13 @@
 # sesion-07a 23/09
 
-- cosmotécnica/tecnodiversidad
-- toda la teoría deu universo <https://www.instagram.com/_todalateoriadeluniverso/>
+- Cosmotécnica/tecnodiversidad
+- Toda la teoría deu universo <https://www.instagram.com/_todalateoriadeluniverso/>
 - Susana- Chau
-- liquen lab
-- bienal de artes mediales
+- Liquen lab
+- Bienal de artes mediales
 - begging NFC
 - CW&T -> Time Since Launch <https://cwandt.com/products/time-since-launch>
-  
----
-
-- los botones y/o perillas son buenos para el backstage
+- Los botones y/o perillas son buenos para el backstage
 - Módulo RTC ds1302 real time clock
 
 ### motores
@@ -36,35 +33,38 @@ joystik: restet + arriba un idioma+ abajo + derecha + izquierda
 
 parámetro elegir idiomas/cantidad 
 
-Entrada: Mediante un joystick la persona tendrá diversas interacciones (arriba, abajo, derecha, izquierda y presionar el centro, es reset). 
+**Entrada:** Mediante un joystick la persona tendrá diversas interacciones (arriba, abajo, derecha, izquierda y presionar el centro, es reset). 
 
 - reproductor de idiomas  por joystick 
 - leguaje diferencia de dialecto
 - joystick y repoducir sonido
 - buscar una forma que sea mas interactivo
 
-Salida: Al interactuar, se reproducirán audios de saludos en distintos idiomas, como: italiano, español chileno, japonés y portugués. Al mismo tiempo, como respuesta, dependiendo el idioma se moverá de manera representativa, como: japonés-reverencia.
+**Salida:** Al interactuar, se reproducirán audios de saludos en distintos idiomas, como: italiano, español chileno, japonés y portugués. Al mismo tiempo, como respuesta, dependiendo el idioma se moverá de manera representativa, como: japonés-reverencia.
 Nos falta como invitar a la persona. 
 
 idea funable, no hacer.
 
 - Idea 2
 
-Entrada: Que al estar lejos te pida acercarse cmediante un movimiento como tiritando, para poder contarte un secreto. 
+**Entrada:** Que al estar lejos te pida acercarse, mientras el robot tendra un movimiento tiritando, para poder contarte un secreto. 
 
-motor DC , ultrasonico, reproductor, altavoz.
+Esto será mediante los siguientes componentes: motor DC , ultrasonico, reproductor y speaker.
 
-Salida: cuando estes lo suficiente cerca te susurre el secreto. definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?   
+**Salida:** Cuando una persona esté lo suficientemente cerca, el robot te susurre el secreto.
 
-- sensor de proximidad que me llame a utilizarlo 
-- según la proximidad de la persona, te salude pero de distinto volumen
+Para que te susurre tenemos pensado en regular el sonido del altavoz o utilizar audifonos para escucharlo.
 
+Definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?   
 
-## Encargo viernes
+- Sensor de proximidad que me llame a utilizarlo. 
+- Según la proximidad de la persona, te salude pero de distinto volumen.
 
-- Cada persona del  grupo traer 4 referentes de internet
+## Encargo
+
+Cada persona del  grupo traer 4 referentes de internet y comentar qué proyectos se parecen
   
-Trata de un robot vibratorio hecho en origami: plegando papel, incorporando un motor vibratorio y una pila (moneda) para generar movimiento.
+- Trata de un robot vibratorio hecho en origami: plegando papel, incorporando un motor vibratorio y una pila (moneda) para generar movimiento.
 
 [kvriet](https://github.com/kvriet/Origami-vibration-robot)
 
@@ -77,6 +77,8 @@ Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar 
 - Es un robot casero que responde a estímulos con voz y movimientos, usando Arduino, sensores IR, servos y un módulo de audio.
   
   <https://www.instructables.com/Easy-to-Make-Talking-Humanoid-Robot/>
+
+- idea de construirlo con legos
   
-- Comentar qué proyectos se parecen
+ <https://makerzoid.cl/products/robot-master-premium?>
 
