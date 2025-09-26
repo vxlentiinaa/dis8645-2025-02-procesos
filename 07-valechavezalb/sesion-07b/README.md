@@ -8,10 +8,10 @@
 
 ### Inicio del proyecto
 Se crean (ejemplo):
-- creditos.ino
-- cableado.ino
-- sensorUltrasonico.ino
-- sensoresActuadores.ino
+- creditos.ino.
+- cableado.ino.
+- sensorUltrasonico.ino.
+- sensoresActuadores.ino.
 
 Con click derecho puedo apretar la función > ir a definición > y lleva al archivo donde está aojado la función y sus parámetros.
 
@@ -78,7 +78,7 @@ void configurarMiniParlante(){}
 
 //definir el volumen del audio que se va a reproducir
 
-void configurarPantalla(){}
+void configurarPantalla(){
 //diseñar las animaciones que se usaran
 //las animaciones cambiaran dependiendo el color 
 }
@@ -91,5 +91,6 @@ void configurarSensorColor() {
   // censar los colores y ver cuales reconoce y cuales no (dependiendo de los dulces a utilizar)
   // definir el rango de valores para que detecte los colores --> r:0 g:0 b:0
   
-  // se detectaron los siguientes colores: azul, verde, rojo, amarillo, cyan, magenta 
+  // se detectaron los siguientes colores: azul, verde, rojo, amarillo, cyan, magenta
+}
 ```
