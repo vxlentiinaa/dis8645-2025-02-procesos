@@ -149,6 +149,29 @@ void loop() {
   delay(2000);
 }
 ```
+
+```cpp
+  // Eyelids close
+  myservo3.write(50);
+  delay(pauseTime);
+}
+
+void loop() {
+  int pirSensor = digitalRead(SENSORPIN);
+  
+  // If the PIR sensor is active and no action has been taken
+  if (pirSensor == HIGH && pirEnabled) {
+    pirEnabled = false;  // PIR sensor deactivated
+    openEyes();          // Eyes open
+    playSound();         // Audio file is played
+    moveServos();        // Servo movements are started
+    pirEnabled = true;   // PIR sensor reactivated
+  }
+
+  delay(50);  // A very short delay, for sensor stability
+}
+```
+
 Materialidad:
 
 Impresión 3d para la estructura completa, entiendase esto como, los parpados, los globos oculares, y la base giratoria.
