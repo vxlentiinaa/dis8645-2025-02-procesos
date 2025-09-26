@@ -78,4 +78,16 @@ ListaEncargos::ListaEncargos()
             13,
             "7a",
             "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            14,
+            "7b",
+            "cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras."));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            15,
+            "7b",
+            "documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores."));
 }
