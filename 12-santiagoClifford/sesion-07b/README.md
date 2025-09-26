@@ -33,5 +33,26 @@ if(valueMic1>valueMic2){
  origenSonido = valueMic2-valueMic1;
  apuntacionServo = map(origenSonido, 0, 1023, 170, 10); 
 }
+```
+
+#### otro alcance
+
+```cpp
+//en este ejemplo, mic0,mic1 y mic2 estan colocados de izquierda a derecha, en ese orden. 
+int mic0;
+int mic1;
+int mic2;
+
+mic0 = analogRead(A0);
+mic1 = analogRead(A1);
+mic2 = analogRead(A2);
+
+if(mic0 > mic1 && mic0 > mic2){
+   Serial.println("hay un wn q me quiere matar a la izquierda");
+}else if(mic1 > mic0 && mic1 > mic2){
+   Serial.println("hay un wn q me quiere matar al frente");
+}else if(mic2 > mic0 && mic2 > mic1){
+   Serial.println("hay un wn q me quiere matar a la derecha");
+}
 
 ```
