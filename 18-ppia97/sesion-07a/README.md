@@ -20,9 +20,11 @@
 
 - sensores:
 
-encoder
+encoder ✔
 
-sensor sonido digital
+sensor sonido digital ✔
+
+*extra: Modulo microfono amplificador ✔
 
 **𔓘 links de compra:** Distintos lugares.
 
