@@ -35,105 +35,60 @@ Luego se nos mostraron varios referentes:
 * Solenoides: Movimiento líneal (Actuadores lineales). Usan mucha corriente
 * Motor síncrono: Se usa en escaleras mecánicas.
 
-## Proyecto
+## Proyecto para la solemne 02
 
 Una máquina, que te siga con los ojos (mirada) que posea una oreja que al acercarse emita un sonido pregrabado (No definido).
 Se requieren motores, sensores ultrasonicos, micrófono, parlante,
 
 1. La persona ingresa a una habitación (sin muebles).
-2. La máquina se activa (corre la corriente, comienza a activarse el arduino) al detectar presencia.
-3. La máquina procede a simular el movimiento de unos ojos usando un servomotor que activa un mecanísmo que al moverse simule una mirada.
-4. Cuando la persona se acerca a una distancia precisa (x cm) la máquina emite un sonido pregramado de forma aleatoria.
+2. La máquina se activa y "abre los ojos" (el dispositivo se encuentra siempre funcionando) al detectar presencia (usando un sensor infrarrojo que detecte el calor).
+3. La máquina procede a simular el movimiento ocular usando servomotortes, como una forma de demostrar que funciona y "está despierto".
+4. Cuando la persona se acerca a una distancia precisa de x cm, un sensor de proximidad activa otra parte de la máquina.
+5. Este segmento de la máquina emite una serie de sonidos pregrabados de forma aleatoria.
+6. Una vez la persona se aleja la máquina cierra los ojos.
 
 ***
 
-### Escritos del discord (Por [@FranUDP](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP))
+### Escritos del discord (Por [@FranUDP](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP), editados para que tenga coherencia)
 
-entrada:
-sensores de distancia triangulan posición de usuario.
-Detecta cuando el usuario está a muy corta proximidad.
+Entrada (input): 2 Sensores de ultrasonido (distancia) para triangular posición del usuario en el espacio (eje x e y). Detecta cuando la "persona" se encuenta a muy corta distancia.
 
-salida:
-actúa un servomotor y sigue al usuario con la mirada.
-un parlante emite sonido pre-grabado aleatorio
+Salida (output): actúa una serie de servomotores en un mecanísmo que simulan ojos humanos. Estos siguen al usuario con la "mirada". Al acercarse a cierta distancia un parlante emite sonido pre-grabado, perteneciente a una lista de archivos, de forma aleatoria.
 
-sensores:
-distancia ultrasónico
+Sensores: Ultrasónico, infrarrojo (para averiguar).
 
-links de compra:
-https://afel.cl/products/sensor-de-ultrasonico-hc-sr04
+Links de compra:
+- https://afel.cl/products/sensor-de-ultrasonico-hc-sr04
+- https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=10&_sid=9bafdb32f&_ss=r
+- https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=0b93ebcb6&_ss=r
+- https://www.mechatronicstore.cl/altavoz-8-ohm-1w/?srsltid=AfmBOorYd_ZdSsyd2QMst1Va9CZJEafOTb68oafW4jWeQ_nzC1nVphqa
 
-https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=10&_sid=9bafdb32f&_ss=r
-https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=0b93ebcb6&_ss=r
-
-https://www.mechatronicstore.cl/altavoz-8-ohm-1w/?srsltid=AfmBOorYd_ZdSsyd2QMst1Va9CZJEafOTb68oafW4jWeQ_nzC1nVphqa
-
-dudas / ataos:
-¿Cómo obtener lecturas estables del sensor ultrasónico? 
-
-salida:
- Un servomotor mueve unos ojos haciendo que el robot siga al usuario con la mirada.
-al detectar que el usuario está a muy corta proximidad, un parlante emite sonido pre-grabado aleatorio
-
-sensores:
-distancia ultrasónico
-
-links de compra:
-https://afel.cl/products/sensor-de-ultrasonico-hc-sr04
-
-https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=10&_sid=9bafdb32f&_ss=r
-https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=0b93ebcb6&_ss=r
-
-https://www.mechatronicstore.cl/altavoz-8-ohm-1w/?srsltid=AfmBOorYd_ZdSsyd2QMst1Va9CZJEafOTb68oafW4jWeQ_nzC1nVphqa
-
-dudas / ataos:
-¿Cómo obtener lecturas estables del sensor ultrasónico?
-¿Cómo evitar que los ojos se queden fijos en objetos inmoviles (ambiente)?
+Dudas / ataos: ¿Cómo obtener lecturas estables del sensor ultrasónico?, ¿Cómo evitar que los ojos se queden fijos en objetos inmoviles (ambiente)?
 
 ***
 
-Revisar las bitácoras de los demás alumos y sus proyectos grupales. A partir de ello comentas semejanzas y diferencias entre estos para poder difereciarse.
-A la par, investigar sobre proyectos que puedan servir como referentes de materialidades, códigos, circuitos, modelado, entre otros.
+### encargo-12: Análisis de Bitácoras
 
-![imagen](./imagenes/a1.png)
+"Revisar las bitácoras de los demás alumos y sus proyectos grupales. A partir de ello comentas semejanzas y diferencias entre estos para poder difereciarse.
+A la par, investigar sobre proyectos que puedan servir como referentes de materialidades, códigos, circuitos, modelado, entre otros."
 
-▼ Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml
+***
 
+### encargo-13: Referencias para el proyecto
 
+"Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), 2. código, 3. materialidad, 4. documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
 
+***
 
+### Estudios para progresar
 
+Quise replicar
 
-
-
-
-
-
-
-
-
-
-Oye santi, tengo una duda.
-¿Cómo se si es que alguien me gusta?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+***
 
 ### Posdata
 
-Hoy estoy cansadita, ayer intenté, pero sin razón aparente.
+Hoy estoy cansadita, muchos días quedándome hasta tarde en la u por gusto.
 
 ***
 
