@@ -14,7 +14,7 @@
 - Angela O'Ryan
 - Josefa Quape
 
-### SOBRE EL PROYECTO ── .✦
+#### SOBRE EL PROYECTO ── .✦
 ⟡ Enconder (y su botón), Pantalla y Micrófono
 
 ⟡ Encoder: Encoder rotatorio KY-040 360 grados, $2.000 la unidad en AFEL. [ENCODER](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados?_pos=2&_sid=9dcf28df1&_ss=r)
@@ -25,7 +25,7 @@
 
 ⟡ Modulo Reproductor: Modulo Reproductor MP3 DFPlayer Mini. $2.990 la unidad en AFEL. [MODULO REPRODUCTOR](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
-#### ENCARGOS ── .✦
+##### ENCARGOS ── .✦
 
 **I. Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.**
 
