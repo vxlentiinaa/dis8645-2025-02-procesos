@@ -15,7 +15,6 @@ Se crean (ejemplo):
 - crear función que doga detector de verde y un bool estado verde.
 
 Con click derecho puedo apretar la función > ir a definición > y lleva al archivo donde está aojado la función y sus parámetros.
-
 ```cpp
 void setup() {
 configurarSensorUltrasonico();
@@ -36,9 +35,9 @@ void loop() {
 ## Pseudocódigo VO del proyecto
 
 1. pseudocódigo.ino
-   ```cpp
-   void setup() {
-  configurarSensorColor();
+```cpp
+void setup() {
+configurarSensorColor();
 
   configurarAudio();
   //nombre del archivo que se va a reproducir
@@ -56,7 +55,7 @@ void loop() {
   tomarDecisiones();
   actuar();
 }
-   ```
+```
 2. sensoresActuadores.ino
 
    ```cpp
@@ -82,18 +81,20 @@ void configurarMiniParlante(){}
 void configurarPantalla(){
 //diseñar las animaciones que se usaran
 //las animaciones cambiaran dependiendo el color 
-}
-
-   ```
+}  
+```
 3. sensorColor.ino
 
-   ```cpp
-   void configurarSensorColor() {
+```cpp
+void configurarSensorColor() {
   // conectar la patitas del sensor 
   // censar los colores y ver cuales reconoce y cuales no (dependiendo de los dulces a utilizar)
   // definir el rango de valores para que detecte los colores --> r:0 g:0 b:0
   
   // se detectaron los siguientes colores: azul, verde, rojo, amarillo, cyan, magenta
   }
-  ```
+```
 
+## Encargo 14
+1. Hacer un diagrama de flujo en mermaid (ya que se puede subir a markdown) con la funcionalidad del proyecto.
+2. Visualización de cómo funciona el sensor y su carpeta de código.
