@@ -1,0 +1,2 @@
+
+int patitaPotenciometro = A0;
