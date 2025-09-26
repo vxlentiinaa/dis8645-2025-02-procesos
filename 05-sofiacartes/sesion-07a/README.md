@@ -78,7 +78,7 @@ Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar 
   
   <https://www.instructables.com/Easy-to-Make-Talking-Humanoid-Robot/>
 
-- idea de construirlo con legos
+- idea de construir el robot con legos
   
  <https://makerzoid.cl/products/robot-master-premium?>
 
