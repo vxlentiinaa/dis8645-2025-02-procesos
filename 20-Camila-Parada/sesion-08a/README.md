@@ -78,12 +78,18 @@ A la par, investigar sobre proyectos que puedan servir como referentes de materi
 
 "Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), 2. código, 3. materialidad, 4. documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
 
-#### 1. Lenguaje natural: 
-- [Animatronic Eyes](https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/): Este es un proyecto que se centra en el desarrollo de unos ojos mecánicos. No utiliza un sensor para actuar, pero es un apoyo a la hora de entender cómo es el funcionamiento de este tipo de piezas compuestas. Por la parte conceptual, la mirada es un acto de presencia. La conexión que ocurre al visualizar los ojos con alguien nos da la sensación de ser presenciados, de existir. Para ello leí este [artículo de wikipedia](https://es.wikipedia.org/wiki/Mirada_(Psicolog%C3%ADa)) para usarlo como parte de una investigación, con la finalidad de definir proximamente si la mirada se centrará en el sujeto, o si talvez jugar y crear una máquina que rechaza el mirar qué es lo que se ubica delante suyo.
+#### 1. Lenguaje natural:
+
+- [Animatronic Eyes](https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/): Este es un proyecto que se centra en el desarrollo de unos ojos mecánicos. No utiliza un sensor para actuar, pero es un apoyo a la hora de entender cómo es el funcionamiento de este tipo de piezas compuestas (construcción, materiales, código, etc).
+Por la parte conceptual, la mirada es un acto de presencia. La conexión que ocurre al visualizar los ojos con alguien nos da la sensación de ser presenciados, de existir. Para ello leí este [artículo de wikipedia](https://es.wikipedia.org/wiki/Mirada_(Psicolog%C3%ADa)) para usarlo como parte de una investigación, con la finalidad de definir proximamente si la mirada se centrará en el sujeto, o si talvez jugar y crear una máquina que rechaza el mirar qué es lo que se ubica delante suyo.
 
 #### 2. Código.
 
+- [Audio Player Using Arduino With Micro SD Card](https://www.instructables.com/Audio-Player-Using-Arduino-With-Micro-SD-Card/): Un referente realizado hace 8 años. Es por su antiguedad que se ha podido crear una serie de comentarios de otros "makers" sobre dudas y sus soluciones con código. Puede ayudar a entender cómo es la parte de codificación del arduino para poder emplear audio utilizando una tarjeta SD. No he profundizado en el conocimiento sobre audio, pero tengo la esperanza que este contenido nos sirva para el desarrollo.
+
 #### 3. Materialidad.
+
+- [[]():
 
 #### 4. Documentación.
 
@@ -93,7 +99,11 @@ A la par, investigar sobre proyectos que puedan servir como referentes de materi
 
 ### Estudios para progresar
 
-Quise replicar
+Quise replicar [este referente](https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/), puesto que en el registro y desarrollo del proyecto cuenta con un ejercicio para controlar un sólo ojo. De partida, tuve que imprimir las piezas del modelo de un sólo ojo, además de conseguir las piezas restantes (algunas personales, otras conseguidas del [lid](https://www.instagram.com/lid.udp/)). Para la primera parte de la fabricación decidí utilizar PLA en color blanco y negro, imprimiendo en la máquina "Ender 3 V3KE" dentro del laboratorio. Tras casi 2 horas y unos minutos pude conseguir un prototipo bastánte resistente. Como otra observación, el ejemplo utiliza 3 servo motores, de los cuales recomienda los MG90S (no los pude conseguir) o los SG90. Estos últimos se mencionan como unos actuadores más complejos que el primero. Al indagar sobre estos puedo destacar que el primero supera en calidad al segundo por sus engranajes de metal (lo que permite una mayor resistencia y duración), además de emplear un motor que permite ["una alta velocidad y un ángulo de rotación de 180 grados"](https://avionesteledirigidos.com/servos-mg90-o-sg90-para-mi-avion-rc/). Por otra parte, los servo SG90 suelen poseer piezas metálicas, un motor menos potente y un ángulo de movimiento en 90 grados.
+
+  A continuación busqué los archivos de fabricación de ambos servos: [MG90S](https://www.alldatasheet.com/datasheet-pdf/pdf/1132104/ETC2/MG90S.html) y [GS90](https://www.alldatasheet.es/html-pdf/1572383/ETC/SG90/59/1/SG90.html). Ambos son archivos incompletos, por lo que requieren de una mayor recolipación de información a modo de complemento.
+
+Dado que este es un prototipo, pues utilicé lo que tenía a mano. Por temas de tiempo es que decidí descansar y ensamblar el modelo en la sala de clases.
 
 ***
 
@@ -101,8 +111,9 @@ Quise replicar
 
 Hoy estoy cansadita, muchos días quedándome hasta tarde en la u por gusto.
 
+Estoy intentando esforzarme lo más que puedo... me da miedo que mi mente no lo soporte.
+Se que nadie me fuerza. Mis ansias de ser más.
+
 ***
 
-°˖✧◝(⁰▿⁰)◜✧˖°
-+
-3
+°˖✧◝(⁰ ^ ⁰)◜✧˖°
