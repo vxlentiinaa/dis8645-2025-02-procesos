@@ -78,6 +78,17 @@ A la par, investigar sobre proyectos que puedan servir como referentes de materi
 
 "Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), 2. código, 3. materialidad, 4. documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
 
+#### 1. Lenguaje natural: 
+- [Animatronic Eyes](https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/): Este es un proyecto que se centra en el desarrollo de unos ojos mecánicos. No utiliza un sensor para actuar, pero es un apoyo a la hora de entender cómo es el funcionamiento de este tipo de piezas compuestas. Por la parte conceptual, la mirada es un acto de presencia. La conexión que ocurre al visualizar los ojos con alguien nos da la sensación de ser presenciados, de existir. Para ello leí este [artículo de wikipedia](https://es.wikipedia.org/wiki/Mirada_(Psicolog%C3%ADa)) para usarlo como parte de una investigación, con la finalidad de definir proximamente si la mirada se centrará en el sujeto, o si talvez jugar y crear una máquina que rechaza el mirar qué es lo que se ubica delante suyo.
+
+#### 2. Código.
+
+#### 3. Materialidad.
+
+#### 4. Documentación.
+
+- [Talking Milk Jug Toy](https://www.instructables.com/Talking-Milk-Jug-Toy/): El desarrollo de dicho objeto me ha gustado bastante. Al querer conseguir una creación centrada en la fabricación de máquinas que trabajan con audio, pues me pillé por curiosidad con esta páguina. Considero que el orden que posee es atractivo, desconozco si este elemento se dispone por el sitio web que lo contiene. Todo comienza con un video presentación en el que se muestra el desarrollo de este juguete por etapas, partiendo por la idea inicial, el desarrollo del diseño, la construcción, el testeo y finalizando con unas conclusiones. Me gustó que tuviera una buena producción audiovisual y fotográfica, y posteriormente compartir las instrucciones de forma textual, indicando qué piezas comprar, el proceso de diseño para las piezas (gráfico, conceptual, funcional, etc), disponer los archivos para imprimir, enseñar el montaje de las partes, además de tener vínculos a documentación complementaria que ayuda a profundizar el entendimiento. Considero que es un proyecto bastante completo, simple de entender y de montar.
+
 ***
 
 ### Estudios para progresar
