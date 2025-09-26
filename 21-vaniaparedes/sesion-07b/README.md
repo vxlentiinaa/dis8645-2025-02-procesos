@@ -121,7 +121,7 @@ void loop() {
   #include <Servo.h>
 
 Servo myservo;  // Crea un objeto servo
-int servoPin = 9; // El pin al que conectamos el cable de señal del servo
+int servoPin = 13; // El pin al que conectamos el cable de señal del servo
 
 void setup() {
   myservo.attach(servoPin); // Vincula el objeto servo al pin 9
@@ -329,7 +329,7 @@ void mostrarMensaje(float distancia) {
 #include <Servo.h>
 
 Servo dedo;// Crear objeto servo
-const int SERVO_PIN = 9;
+const int SERVO_PIN = 13;
 
 // Configurar servo motor
 void configurarServo() {
