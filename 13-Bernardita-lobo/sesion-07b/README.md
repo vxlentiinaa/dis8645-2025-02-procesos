@@ -14,4 +14,4 @@ Viernes 26 de septiembre, 2025
 
 ### Pseudocodigo para los Proyectos-02
 
-
+[reproductor-mp3](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
