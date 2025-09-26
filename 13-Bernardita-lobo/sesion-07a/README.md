@@ -76,9 +76,13 @@ Siempre giran a la misma velocidad, por ejemplo los de las escaleras mecánicas.
 
 ### Tipos de Leds
 
-podemos comprar mas variedades en DemasLED
+- Led RGB
 
-#### Cinta LED
+- Neopixel
+
+- Cintas led
+
+podemos comprar mas variedades en DemasLED
 
 llevan LEDs seguidos, y se pueden cortar cada cierto tramo
 
