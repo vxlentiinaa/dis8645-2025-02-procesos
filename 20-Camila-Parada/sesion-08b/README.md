@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 08b - Exploraciones, rarezas, Spacy, mucho todo... ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 08b - ... ♡⊹˚₊⋆
 
 Viernes 26 Septiembre 2025
 
@@ -6,11 +6,9 @@ Viernes 26 Septiembre 2025
 
 ## Observaciones
 
-
+Texto inicial
 
 ***
-
-▼ Recuperado de: <https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/.github/workflows/markdown-lint.yml>
 
 ### Posdata
 
