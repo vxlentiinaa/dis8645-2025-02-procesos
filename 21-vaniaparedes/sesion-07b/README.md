@@ -219,23 +219,23 @@ void loop() {
   }
 ```
 + ChatGPT Me ayudó con el **término &&**
-+ "El && se usa para verificar que dos (o más) condiciones sean verdaderas al mismo tiempo. Es un AND lógico, que se aplica a expresiones que pueden ser true o false.
-+ Solo devuelve true si todas las condiciones son verdaderas; si alguna es falsa, devuelve false.
-+ Concepto simple:
- + “Condición A y Condición B” → A && B
- + Verdadero solo si A es verdadera y B es verdadera.
+   + "El && se usa para verificar que dos (o más) condiciones sean verdaderas al mismo tiempo. Es un AND lógico, que se aplica a expresiones que pueden ser true o false.
+   + Solo devuelve true si todas las condiciones son verdaderas; si alguna es falsa, devuelve false.
+   + Concepto simple:
+   + “Condición A y Condición B” → A && B
+   + Verdadero solo si A es verdadera y B es verdadera.
 
-+ Ejemplo conceptual
-  + Imagina que quieres salir a pasear:
+ + Ejemplo conceptual
+   + Imagina que quieres salir a pasear:
      + Condición A: “No está lloviendo”
      + Condición B: “Tengo tiempo libre”
-  + Con && dirías:
+   + Con && dirías:
      + “Voy a salir a pasear si no está lloviendo Y tengo tiempo libre.”
-  + Si alguna de las dos no se cumple, no sales.
-  + Solo sales si ambas se cumplen al mismo tiempo.
+   + Si alguna de las dos no se cumple, no sales.
+   + Solo sales si ambas se cumplen al mismo tiempo.
  
-+ En C/C++, el operador lógico “AND” siempre se escribe como &&.
-+ Es parte de la sintaxis del lenguaje; AND en mayúsculas no funciona y dará error de compilación."
+  + En C/C++, el operador lógico “AND” siempre se escribe como &&.
+  + Es parte de la sintaxis del lenguaje; AND en mayúsculas no funciona y dará error de compilación."
 
 #### Avance de código con sensor ultrsónico y con servomotor
 
