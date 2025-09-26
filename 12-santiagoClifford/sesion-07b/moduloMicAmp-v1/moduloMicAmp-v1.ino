@@ -4,7 +4,8 @@ void setup() {
 }
 
 void loop() {
-valorMic = analogRead(A0);
-Serial.println(valorMic);
-delay(500);
+  valorMic = analogRead(A0);
+  valorMic = constrain(valorMic, 511, 1023);
+  Serial.println(valorMic);
+  delay(500);
 }
