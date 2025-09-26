@@ -139,7 +139,7 @@ Este video: "Arduino desde cero en Español - Capítulo 81 - Audio MP3 fácil co
 
 + Referente 1: Juguetes mecánicos antiguos.
 + Estos objetos combinaban movimientos simples con grabaciones de voz, generando interacción. Me sirven como referente porque muestran cómo materiales mecánicos y electrónicos básicos pueden dar vida a una experiencia emotiva y divertida. Este referente me aporta la idea de que no siempre hace falta tecnología compleja para generar interacción significativa.
-![juguete](./imagenes/juguete2.jpg)
+![juguete](./imagenes/juguete1.jpg)
 
 + Referente 2: Legos
 + Los Legos son un referente clave para mí por su versatilidad y la posibilidad de reutilizar piezas antiguas, dándoles una segunda vida. Me atrae la idea de incorporar materiales modulares, los Legos inspiran de por si a diseños flexibles y adaptables.
