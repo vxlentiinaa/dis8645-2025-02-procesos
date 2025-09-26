@@ -51,13 +51,13 @@ void setup() {
   configurarTerminal();
 }
 
-2. void loop() {
+  void loop() {
   leerSensores();
   tomarDecisiones();
   actuar();
 }
 ```
-sensoresActuadores.ino
+2. sensoresActuadores.ino
 
 ```cpp
 void configurarSensorColor() {
