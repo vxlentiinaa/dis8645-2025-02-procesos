@@ -52,7 +52,8 @@ void loop() {
   ¿Qué necesitamos para configurar un sensor?
   + En el archivo/ventana de sensor 
   + Necesitamos decidir en qué patita va
-  ```cpp
+    
+```cpp
  void configurarSensorUltrasonico() {
   // conectar la patita
 
@@ -60,11 +61,13 @@ void loop() {
   // definir la distancia maxima
 
 }
-  ```
+```
+
 ### Archivo sensoresActuadores.ino
     
 + Configurar más sensores y actuadores
-  ```cpp
+  
+```cpp
   void configurarSensoresActuadores() {
 
   configurarSensorUltrasonico();
@@ -78,15 +81,16 @@ void loop() {
   void tomarDecisiones() {}
 
   void actuar() {}
-  ```
-  ### PROYECTO 02
+```
+
+### PROYECTO 02
 
 + Sensor **Ultrasónico:**
-  
-  const int Trigger = 11;   //Pin digital 11 para el Trigger del sensor
 
-  
+```cpp
+  const int Trigger = 11;   //Pin digital 11 para el Trigger del sensor
   const int Echo = 12;   //Pin digital 12 para el Echo del sensor
+```
 
   + distancia minima de 2 a 10 cm
   + distancia media de 45 a 60 cm
@@ -105,7 +109,7 @@ void loop() {
  + Servo se mueve desde 0 a 180 grados
  + en cualquier otro caso se baja
 
-   #### Referentes
+#### Referentes
    + <https://www.youtube.com/watch?v=8RLBxhA4ooI>
    + "Cómo hacer un robot con un servomotor y sensor de distancia"
      
