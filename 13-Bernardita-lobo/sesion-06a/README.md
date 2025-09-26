@@ -6,73 +6,75 @@ Martes 09 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
-[Puredata](https://puredata.info/) PD, para realizar sonidos, programación  del estado de los objetos, programado en c++
+[Puredata](https://puredata.info/) PD, Para generar sonidos y programar el estado de los objetos, se utiliza C++.
 
-Software max 9, puredata es como la nueva versión de Max 9, lo creo [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) 
+Software de creación de sonido y multimedia
 
-Software touchdesigning, Sergio Mora Diaz
+Max 9
+
+Pure Data: similar a Max 9, creado por [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) 
+
+TouchDesigner: desarrollado por Sergio Mora Díaz
 
 vvvv
 
 Isadora
 
-### Estilos de escritura de github y Actions
+### Estilos de escritura en GitHub y Actions
 
-latex, donald e knuth crador de tek y de ahi viene latex, latex te permite programar texto bello
+LaTeX, creado a partir de Donald E. Knuth, creador de TeX. LaTeX permite programar texto bello y bien estructurado.
 
-latex es el lenguaje de programacion de Overleaf
+Es el lenguaje de programación que se utiliza en Overleaf.
 
-universidad delf
+Referencia académica, Universidad DELF.
 
-### Codigo en tejido
+### Código en tejido
 
-codigo decolonial de aranda , direntor de media lab de mexico
+Código decolonial de Aranda, director de Media Lab de México
 
+Lenguaje de programación en quechua, Llankana
 
-
-lenguaje de programacion en quechua, llankana
-
-gameboy sewing machine
+Gameboy Sewing Machine
 
 ### Proyecto-02
 
-grupos nuevos, mas complejidad, mas comentarios en el codio, subir  el codigo, no solo citar.
+Grupos nuevos, más complejidad, más comentarios en el código, subir el código, no solo citar.
 
-maquina saludaradora, si esta lejos llama la atencion, si estas cerca te saluda. interactue.
+Máquina saludadora, si está lejos llama la atención, si estás cerca te saluda. Interactúa.
 
-maywa denkintoys
+Maywa Denkintoys
 
-greeting machine arduino
+Greeting machine Arduino
 
-afel
+Afel
 
-metafora de la caja negra, input y ouput
+Metáfora de la caja negra: input y output.
 
-hacia una filosofia de la fotografia, capitulo 3
+Hacia una filosofía de la fotografía, capítulo 3.
 
-sensor y actuador, el sensor es como los sentidos del arduino, lo usamos como entrada, y lo que hace es el actuador, luz, movimiento sonido.
+Sensor y actuador: el sensor es como los sentidos del Arduino, lo usamos como entrada, lo que hace es el actuador: luz, movimiento, sonido.
 
-Logger app para mostrar sensores que tiene el telefono.
+Logger App para mostrar los sensores que tiene el teléfono.
 
-Over engineer, una burla a la tecnologia, tecnologia de sobra.
+Over engineer, una burla a la tecnología, tecnología de sobra.
 
-p5, 
+p5
 
-data login
+Data login
 
-#### Ideas
+#### Ideas Proyecto-02
 
-idea una maquina que de auerdo a la distancia las preguntas intimas (personales) que te hace, tu escojes que tan cercana quieres la interaccion.
+- Una máquina que de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
 
-o al reves, mientras mas te acercas mas sincera se vuelve nuestra maquina.
+- O al revés, mientras más te acercas, más sincera se vuelve nuestra máquina.
 
-una maquina que necesites estar muy cerca para que te cuente sus secretos.
+- Una máquina que necesites estar muy cerca para que te cuente sus secretos.
 
-una maquina que reclame cuando lo muevan de su espacio, de su eje.
+- Una máquina que reclame cuando la muevan de su espacio, de su eje.
 
-una maquina que cuando es levantada de su espacio, a traves de un nfc y un lector de nfc que lo detecta, temporiza una hora y y so es regresado a su espacio que emita sonido
+- Una máquina que, cuando es levantada de su espacio, a través de un NFC y un lector de NFC que lo detecta, temporiza una hora y, si no es regresada a su espacio, emite sonido.
 
-sensor de si esta temblado me prenda todas las luces (me da miedon los temblores, quiero estar lista para escapar si ocurre uno en la noche)
+- Sensor que si está temblando, encienda todas las luces (me da miedo los temblores).
 
 ### Palabras importantes
 
@@ -90,13 +92,81 @@ over engineer
 
 ### Sensor ultrasonico HC-SR04
 
-Investigar, cotizar y buscar referentes del sensor escogido
+Utiliza un sonar para determinar la distancia a un objeto. Este sensor mide desde 2 cm hasta 400 cm
+
+El transmisor de ultrasonidos envía un sonido muy agudo (40 kHz), cuando el sonido se encuentra con un objeto, rebota y el receptor lo detecta como eco.
+
+| Especificación               | Valor                                  |
+|-------------------------------|----------------------------------------|
+| Alimentación                  | +5 V CC                                |
+| Corriente en reposo            | <2 mA                                   |
+| Corriente de trabajo           | 15 mA                                   |
+| Alcance                        | 2 cm – 400 cm (1″ – 13 pies)          |
+| Resolución                     | 0,3 cm                                  |
+| Ángulo efectivo de detección   | 30° (ángulo del haz <15°)             |
+| Entrada disparador             | Pulso TTL de 10 µs                      |
+| Salida eco                     | Pulso TTL proporcional a la distancia  |
+| Dimensiones                    | 45 × 20 × 15 mm                         |
+
+Para la investigación utilicé esta guía, que incluía códigos para probar el sensor con Arduino Uno.
 
 [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
 
-investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar
+```c
+/*
+ * created by Rui Santos, https://randomnerdtutorials.com
+ * 
+ * Complete Guide for Ultrasonic Sensor HC-SR04
+ *
+    Ultrasonic sensor Pins:
+        VCC: +5VDC
+        Trig : Trigger (INPUT) - Pin11
+        Echo: Echo (OUTPUT) - Pin 12
+        GND: GND
+ */
+ 
+int trigPin = 11;    // Trigger
+int echoPin = 12;    // Echo
+long duration, cm, inches;
+ 
+void setup() {
+  //Serial Port begin
+  Serial.begin (9600);
+  //Define inputs and outputs
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+ 
+void loop() {
+  // The sensor is triggered by a HIGH pulse of 10 or more microseconds.
+  // Give a short LOW pulse beforehand to ensure a clean HIGH pulse:
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+ 
+  // Read the signal from the sensor: a HIGH pulse whose
+  // duration is the time (in microseconds) from the sending
+  // of the ping to the reception of its echo off of an object.
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+ 
+  // Convert the time into a distance
+  cm = (duration/2) / 29.1;     // Divide by 29.1 or multiply by 0.0343
+  inches = (duration/2) / 74;   // Divide by 74 or multiply by 0.0135
+  
+  Serial.print(inches);
+  Serial.print("in, ");
+  Serial.print(cm);
+  Serial.print("cm");
+  Serial.println();
+  
+  delay(250);
+}
+```
 
-#### cotizacion 
+#### Cotización 
 
 - [afel](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04) $1.500
 
@@ -104,8 +174,12 @@ investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
 
 - [MCI electronics](https://mcielectronics.cl/shop/product/sensor-de-proximidad-de-ultrasonido-hc-sr04-23582/) $2.590
 
-[Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio)
+También encontré esta casita interactiva en Afel y me encantó! [Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio
 
-### Sensor NFC
+#### Ideas 
 
+- Una máquina que de acuerdo a la distancia, hace preguntas íntimas (personales); tú escoges qué tan cercana quieres la interacción.
 
+- Una máquina que necesites estar muy cerca para que te cuente sus secretos.
+
+- Una máquina que, cuando es levantada de su espacio, a través de un NFC y un lector de NFC que lo detecta, temporiza una hora y, si no es regresada a su espacio, emite sonido.

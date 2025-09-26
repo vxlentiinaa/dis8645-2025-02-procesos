@@ -66,4 +66,16 @@ ListaEncargos::ListaEncargos()
             11,
             "6a",
             "investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar"));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            12,
+            "7a",
+            "leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            13,
+            "7a",
+            "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."));
 }
