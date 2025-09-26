@@ -97,6 +97,38 @@ Cuando me acerque a un espacio, una oreja me hable con un sonido aleatorio (aún
 
 Tip de búsqueda, si pones site:cl en Google, busca solo en Chile.
 
+### Propuesta grupal Proyecto-02
+
+#### Entrada
+
+Sensores de distancia triangulan posición de usuario.
+
+Detecta cuando el usuario está a muy corta proximidad.
+
+#### Salida
+
+Un servomotor mueve unos ojos haciendo que el robot siga al usuario con la mirada. Al detectar que el usuario está a muy corta proximidad, un parlante emite sonido pre-grabado aleatorio.
+
+#### Sensores
+
+Distancia ultrasónico
+
+#### Links de compra
+
+<https://afel.cl/products/sensor-de-ultrasonico-hc-sr04>
+
+<https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini>
+
+<https://afel.cl/products/micro-servomotor-sg90>
+
+<https://www.mechatronicstore.cl/altavoz-8-ohm-1w/>
+
+#### Dudas
+
+¿Cómo obtener lecturas estables del sensor ultrasónico?
+
+¿Cómo evitar que los ojos se queden fijos en objetos inmoviles (ambiente)? 
+
 ### Palabras importantes
 
 Cosmotécnica
