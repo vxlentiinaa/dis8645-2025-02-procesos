@@ -68,3 +68,12 @@ Máquina en la que se inyecta energía eléctrica para transformarla en energía
 -Servomotor: Es relativamente preciso, sabe donde está y es ruidoso. Resuelto en arduino.
 
 -Solenoide: Más caro, movimiento lineal
+
+## PROYECTO 02
+
+En esta ocasión haremos un dispensador de dulces mecánico que reproduce un saludo distinto dependiendo del color del dulce. Para esto pensamos en integrar a una estructura impresa en 3D un sensor de color, un parlante, una pantalla y el arduino. La máquina estará caracterizada como un marciano y tendrá una pantalla circular como ojo que se activará en el intercambio. Teníamos pensado usar MyM para tener un mínimo de 6 opciones distintas e incluso consideramos asignar 2 audios distintos por color. Por la cantidad de datos que manejaremos también será necesario usar una tarjeta SD. Los distintos aspectos paralelos que tenemos que abordar dan una gran oportunidad de aprovechar las clases de arduino y hacen del trabajo en grupo una ventaja. Idealmente queremos "esconder" en la carcasa las piezas, dejando al descubierto solo lo esencial como la pantalla y el sensor de color(detrás de algún tipo de mica).
+Usar la forma de un dispensador de dulces trae muchas ventajas:
+-Podemos editar el modelo 3D para adecuarlo a nuestras necesidades.
+-Ayuda a disimular cables y piezas electrónicas.
+-El dispensador mecánico (perilla giratoria) ahorra el uso de un motor.
+-Apoya a la imagen del objeto y le da cierta "teatralidad".
