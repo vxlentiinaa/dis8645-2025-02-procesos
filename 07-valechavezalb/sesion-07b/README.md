@@ -39,32 +39,31 @@ void loop() {
 void setup() {
 configurarSensorColor();
 
-  configurarAudio();
-  //nombre del archivo que se va a reproducir
+configurarAudio();
+//nombre del archivo que se va a reproducir
 
-  configurarParlante();
+configurarParlante();
 
-  configurarPantalla();
-  //medidas de la pantalla
+configurarPantalla();
+//medidas de la pantalla
 
-  configurarTerminal();
+configurarTerminal();
 }
 
-  void loop() {
-  leerSensores();
-  tomarDecisiones();
-  actuar();
+void loop() {
+leerSensores();
+tomarDecisiones();
+actuar();
 }
 ```
 2. sensoresActuadores.ino
+```cpp
+void configurarSensorColor() {
 
-   ```cpp
-   void configurarSensorColor() {
+configurarSensorColor();
 
-  configurarSensorColor();
-
-  // configurar mas sensores
-  // configurar actuadores
+// configurar mas sensores
+// configurar actuadores
 }
 
 void leerSensores() {}
@@ -84,7 +83,7 @@ void configurarPantalla(){
 }  
 ```
 3. sensorColor.ino
-```pp
+```cpp
 void configurarSensorColor() {
   // conectar la patitas del sensor 
   // censar los colores y ver cuales reconoce y cuales no (dependiendo de los dulces a utilizar)
@@ -92,7 +91,7 @@ void configurarSensorColor() {
   
   // se detectaron los siguientes colores: azul, verde, rojo, amarillo, cyan, magenta
   }
-```cpp
+```
 
 ## Encargo 14
 1. Hacer un diagrama de flujo en mermaid (ya que se puede subir a markdown) con la funcionalidad del proyecto.
