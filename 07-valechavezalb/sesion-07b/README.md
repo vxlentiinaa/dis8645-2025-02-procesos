@@ -35,7 +35,7 @@ void loop() {
 
 ## Pseudocódigo VO del proyecto
 
-pseudocódigo.ino
+1. pseudocódigo.ino
 ```cpp
 void setup() {
   configurarSensorColor();
@@ -51,7 +51,7 @@ void setup() {
   configurarTerminal();
 }
 
-void loop() {
+2. void loop() {
   leerSensores();
   tomarDecisiones();
   actuar();
@@ -84,7 +84,7 @@ void configurarPantalla(){
 //las animaciones cambiaran dependiendo el color 
 }
 ```
-sensorColor.ino
+3. sensorColor.ino
 
 ```cpp
 void configurarSensorColor() {
