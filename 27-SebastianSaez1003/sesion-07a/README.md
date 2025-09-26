@@ -24,7 +24,13 @@ Step motor es paso a paso, es lento, preciso y sabe dónde está; requiere un dr
 
 ## Encargo 12 "leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."
 
-ble ble ble
+El grupo de 05-sofiacartes querían hacer la máquina que cuenta un secreto, pero personalmente no soy capaz de acordarme o comprender el uso del step motor que está mencionado en sus materiales.
+
+El grupo de 07-valechavezalb van a realizar un una máquina dispensadora de chicles que dependiendo del color te daría un mensaje distinto, como desafío que almenos yo me imagino es el mantener el área donde se detecte el color del dulce regularizada como también de qué manera reconocerá el Arduino que el ”humano” está sacando su dulce, debido a que me suena a que es de funcionamiento mecánico
+
+El grupo de 10-brauliofigueroa en un principio tenían pensado la máquina del “Ooooosoooooo” pero luego de compartir ideas, decidieron cambiarla por una máquina que “te persigue” con la mirada y que la oreja de esta máquina de acabase hablando, para añadirle un sentido cómico. Para problema almenos a mi se me complica el pensar cómo es que esta máquina detecta la *dirección* del usuario.
+
+El grupo de 12-santiagoClifford quería hacer una maquina que se incomode con la presencia de una persona, medida específicamente a través del sonido, donde yo encuentro que es bien difícil especificamente decir que está detectando una persona, ya que en mi opinión esto es más un robot que se pone nervioso por cualquier ruido fuerte, una máquina auditivamente sensible.
 
 ## Encargo 13 "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
 
@@ -74,3 +80,4 @@ También es bastante claro con todas los procedimientos, desde el ensamblaje, lo
 ### Código
 
 En el proyecto del ventilador controlado por la [temperatura ambiente](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview), dejó escrito todo el código que escribió para poder llevar a cabo el funcionamiento del producto final, que al menos a mi me gusta mucho es que casi todas las lineas tiene algun comentario para poder guiar al lector (yo) de que estara sucediendo 
+
