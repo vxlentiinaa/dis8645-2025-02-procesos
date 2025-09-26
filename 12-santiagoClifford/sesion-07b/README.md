@@ -23,6 +23,13 @@
 #### avance masacre
 
 ```cpp
+//en este codigo, se calcula a cual mic le llega sonido con mayor intensidad,
+//de eso depende si se reste mic1-mic2 o mic2-mic1.
+//Esto con el proposito de que el valor sea siempre positivo
+
+//luego usando el resultado de la resta, el servo se mueve esa cantidad resultante(mapeada)
+//es por esto que dependiendo de cuál mic recibia sonido con mayor intensidad, 
+//el servo corre de derecha a izquierda, o de izquierda a derecha
 int valueMic1;
 int valueMic2;
 
@@ -58,25 +65,27 @@ if(mic0 > mic1 && mic0 > mic2){
 #### otro alcance v2
 
 ```cpp
-//en este ejemplo, mic0,mic1 y mic2 estan colocados de izquierda a derecha, en ese orden. 
+//en este ejemplo, los posibles lugares donde apuntará el servo, son separados en zonas. De esta manera, asumimos que siempre que el microfono de la izq reciba sonido con mayor intensidad, significa que el sonido proviene desde la izquierda. Lo mismo para el micro a la derecha
 int micA;
 int micB;
 
-bool zona0=false;
-bool zona1=false;
+bool zona0 = false;
+bool zona1 = false;
 
 mic0 = analogRead(A0);
 mic1 = analogRead(A1);
 
 
 if(mic0 > mic1){
-   zona0=true;
-   zona1=false;
+   zona0 = true;
+   zona1 = false;
 }else if(mic1 > mic0){
-  zona0=false;
-  zona1=true;
+  zona0 = false;
+  zona1 = true;
 }
 
+//si se detecta desde la zona izq, el movimiento se limita desde 0 hasta 45°
+//si se detecta desde la zona izq, el movimiento se limita desde 45° hasta 90°
 if(zona0 && !zona1){
    servo = map(servo, 0, 1023, 0, 44);
 }else if(!zona0 && zona1){
