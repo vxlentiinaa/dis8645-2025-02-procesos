@@ -25,15 +25,19 @@
 
 ### Archivo principal.ino
 
++ Usar **bool** para switch
++ **variables** con clases (.cpp/.h)
++ Usar booleanas para definir las variables, ej: Persona de 2 a 10 cm de disntancia : true / false
+
   ### ¿Qué hacemos primero?
   + Configurar sensor (ultrasónico en este caso) en archivo principal
   + Funciones con void
   + Quedaría en **setup:**
-  ```cpp
+```cpp
  void setup() {
   configurarSensoresActuadores();
-}
-  ```
+ }
+```
   + En void **loop:**
 ```cpp
 void loop() {
@@ -75,4 +79,24 @@ void loop() {
 
   void actuar() {}
   ```
+  ### PROYECTO 02
+
++ Sensor **Ultrasónico:**
+  
+  const int Trigger = 11;   //Pin digital 11 para el Trigger del sensor
+
+  
+  const int Echo = 12;   //Pin digital 12 para el Echo del sensor
+
+  + distancia minima de 2 a 10 cm
+  + distancia media de 45 a 60 cm
+  + distancia maxima de 80 a 100 cm
+
+  + Tiempo de reposo cuando no siente presencia
++ configuración **Altavoz**
+  + **tono/volumen** del altavoz para cada distancia.
+    + distancia minima: 30 - 40 decibeles
+    + distancia media: 70- 80 decibeles
+    + distancia maxima: 90 - 93 decibeles
+   
   
