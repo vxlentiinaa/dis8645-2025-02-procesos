@@ -34,8 +34,14 @@ Dudas / Atados:
 - Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
 
 ### Lenguaje natural 
+- NO HE PODIDO ENCONTRAR ALGO QUE ME INTERESE DE MOMENTO (RELLENAR)
 
 ### Código
+
+- [Face Tracking Turret made with Arduino and OpenCV2](https://www.youtube.com/watch?v=a_UiYOO-Sdw). Este proyecto utiliza Arduino y OpenCV para controlar dos servomotores que siguen la posición de un rostro detectado en tiempo real. Los valores X e Y del rostro se reciben por serial y se mapean al rango de 0–180° para mover los servos, logrando un seguimiento fluido. Me interesa como referente de código porque muestra de manera clara cómo procesar entradas externas (detección de rostro) y transformarlas en movimientos precisos de servos, lo cual es exactamente lo que necesitamos para nuestro robot. Nosotros usaremos sensores ultrasónicos en lugar de visión por computadora. 
+[Face-Tracking-Turret en GitHub]
+
+[Face-Tracking-Turret en GitHub](https://github.com/OwenTheGreenBean/Face-Tracking-Turret)
 
 ### Materialidad
 
@@ -46,7 +52,7 @@ Dudas / Atados:
 - [How to Make Realistic Eyes Using 3D Printing for Animatronic Eye Mechanisms](https://www.instructables.com/How-to-Make-Realistic-Eyes-Using-3D-Printing-for-Anim/) Este video muestra cómo hacer ojos realistas impresos en 3D para mecanismos animatrónicos, con un encaje estandarizado que facilita montarlos y pintarlos. Me interesa porque últimamente disfruto pintando figuras en PLA, y aunque un postprocesado muy detallado quizá no sea necesario, siento que le daría personalidad y carácter al robot. Además, usando filamento PLA, podemos imprimir tanto la estructura como los ojos, adaptando tamaño y forma a nuestros servos y sensores.
 
 ### Documentación
-### Documentación – Referente: [Animatronic Eye Mechanism – Ikkalebob](https://www.instructables.com/Animatronic-Eye-Mechanism/)
+- [Animatronic Eye Mechanism – Ikkalebob](https://www.instructables.com/Animatronic-Eye-Mechanism/) un referente que me pareció muy valioso es el proyecto **Animatronic Eye Mechanism** de Ikkalebob en Instructables. Lo que destaca es su documentación paso a paso, con fotos, listas de materiales, enlaces a componentes y explicaciones claras de cada etapa del montaje. Además, incluye consejos para ajustar los servos, personalizar el diseño y resolver problemas comunes, lo que permite que cualquier persona pueda reproducir o adaptar el proyecto sin confusión. Me inspira porque demuestra cómo un proyecto técnico no solo puede ser funcional, sino también accesible y enseñable, facilitando que otros aprendan de la experiencia y comprendan el funcionamiento detrás de cada decisión de diseño. También me parece importante destacar lo frustrante que resulta cuando un proyecto carece de buena documentación, ya que eso lo vuelve inaccesible y limita la posibilidad de desarrollarlo o aprender de él.
 
-Un referente que me pareció muy valioso es el proyecto **Animatronic Eye Mechanism** de Ikkalebob en Instructables. Lo que destaca es su **documentación paso a paso**, con fotos, listas de materiales, enlaces a componentes y explicaciones claras de cada etapa del montaje. Además, incluye consejos para ajustar los servos, personalizar el diseño y resolver problemas comunes, lo que permite que cualquier persona pueda reproducir o adaptar el proyecto sin confusión. Me inspira porque demuestra cómo un proyecto técnico no solo puede ser funcional, sino también **accesible y enseñable**, facilitando que otros aprendan de la experiencia y comprendan el funcionamiento detrás de cada decisión de diseño.
+
 
