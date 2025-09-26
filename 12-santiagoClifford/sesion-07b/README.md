@@ -12,7 +12,9 @@
 - captura ondas de sonido en el rango de 20Hz-20kHz
 
 
-
+- datasheets:
+   - [servo](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
+   - [modulo mic](https://www.analog.com/en/products/max4466.html)
 
 ### links 
 - [dart](https://dart.dev)
