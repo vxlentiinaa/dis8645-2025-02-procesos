@@ -85,7 +85,28 @@ Este proyecto muestra cómo conectar y programar un módulo DFPlayer Mini para r
 
 Instructables. (2021). MP3 Player With Arduino Using DF Player Mini. <https://www.instructables.com/MP3-Player-With-Arduino-Using-DF-Player-Mini/>
 
-2. 
+1. Código
+
+Biblioteca de arduino para implementar un de menú. Podria servir para ver de qué manera se debe armar el código para la visualización del menú o usarlo como base en caso de que nos sirva, al no haber referencias visuales es un poco complicado saber cómo funciona.
+
+[Menu system](https://github.com/jonblack/arduino-menusystem/tree/master)
+
+2. Lenguaje:
+
+Robot nao
+
+Este es un robotcito de asistencia personal programable usado principalmente en la educación, en particular encontré un vídeo donde traduce lo que se le muestra, lo tomé ya que nos sirve para entender la interacción entre persona y robotcito, el tipo de voz que usa y la manera en la que se comunica.
+
+[Robot Nao traduciendo en tiempo real](https://youtu.be/ZWb24EQ9Oa4?si=fuAkUPDflMSAVE8M)
+
+3. Materialidad
+
+Robot otto
+
+Se muestra como el robotcito está armado por partes y piezas, la implementación de una personalidad incluyendo piezas impresas en 3D y sensores también como parte del diseño.
+
+[Robot otto](https://www.ottodiy.com)
+
 
 
 
