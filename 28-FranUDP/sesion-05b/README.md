@@ -6,29 +6,28 @@
 
 ### [.h (header file) and .cpp (C++ file)](https://docs.arduino.cc/learn/contributions/arduino-creating-library-guide/)
 
-El archivo de encabezado (header) contiene las distintas definiciones que utiliza nuestra biblioteca (library), es decir, en este archivo se encuentran todas las funciones, variables y clases que vallamos a utilizar, definidas; mientras que en el archivo fuente (source, C++) contiene el código que dicta cómo funciona cada función, cómo se utilizan las variables, etc.
+El archivo de encabezado (header) contiene las distintas definiciones que utiliza nuestra biblioteca (library); es decir, en este archivo se encuentran definidas todas las funciones, variables y clases que vayamos a utilizar, mientras que el archivo fuente (source, C++) contiene el código que dicta cómo funciona cada función, cómo se utilizan las variables, etc.
 
 ### [Inheritance](https://whileinthisloop.blogspot.com/2016/05/c-in-arduino-inheritance.html)
 
-Consiste en crear una nueva clase (child) a partir de una clase base ya existente (parent). La clase child tiene acceso a todas las funciones, variables y demás que conforman a la clase parent, esto nos permite crear una nueva clase que extiende las capacidades de la clase original.
+Consiste en crear una nueva clase (child) a partir de una clase base ya existente (parent). La clase child tiene acceso a todas las funciones, variables y demás que conforman a la clase parent, lo que nos permite crear una nueva clase que extiende las capacidades de la clase original.
 
 #### Ejemplo:
-![Ejecrcicio hecho en clases, sobre clases](./imagenes/clases.jpg "Fuente: FranUDP")
+![Ejercicio hecho en clases, sobre clases](./imagenes/clases.jpg "Fuente: FranUDP")
 
-* La clase CNC consiste en maquinas y/o herramientas controladas por un computador. 
+*   La clase CNC consiste en máquinas y/o herramientas controladas por un computador.
 
-* La clase 3D_printers añade la capacidad de fabricacion mediante adición de material. 
+*   La clase 3D_printers añade la capacidad de fabricación mediante adición de material.
 
- * La clase FDM (Fused Deposition Modeling) construye un objeto capa por capa 
- depositando material derretido; la clase SLA (Stereolithography) genera un volumen solidificando resina líquida con luz UV; la clase SLS (Selective Laser Sintering) usa ul laser para derretir y soldar particulas de polvo. 
+    *   La clase FDM (Fused Deposition Modeling) construye un objeto capa por capa depositando material derretido; la clase SLA (Stereolithography) genera un volumen solidificando resina líquida con luz UV; la clase SLS (Selective Laser Sintering) usa un láser para derretir y soldar partículas de polvo.
 
-* A partir de la clase FDM, La clase Bed_Slinger mueve la superficie de construcción (cama) en el eje Y; la clase Cama_Fija no mueve la superficie de impresión en el eje Y, sino que mueven la cabeza (toolhead) en X e Y; la clase Delta tiene la cama fija (redonda), mueve la cabeza en X, Y y Z, y los 3 steppers trabajan en conjunto para realizar cada movimiento.
+*   A partir de la clase FDM, la clase Bed_Slinger mueve la superficie de construcción (cama) en el eje Y; la clase Cama_Fija no mueve la superficie de impresión en el eje Y, sino que mueve la cabeza (toolhead) en X e Y; la clase Delta tiene la cama fija (redonda), mueve la cabeza en X, Y y Z, y los 3 steppers trabajan en conjunto para realizar cada movimiento.
 
-* Dentro de la clase Bed_Slinger, la clase Cartesian tiene un stepper para cada eje de movimiento y una estructura rígida, mientras que la clase Cantilever tiene el eje X sujetado en un extremo.
+*   Dentro de la clase Bed_Slinger, la clase Cartesian tiene un stepper para cada eje de movimiento y una estructura rígida, mientras que la clase Cantilever tiene el eje X sujetado en un extremo.
 
-* De la clase Cama_Fija, la clase CoreXY emplea 2 steppers que trabajan en conjunto para mover la cabeza en X e Y; la clase Cross_Gantry tiene los motores que mueven la cabeza en X o Y independientes uno(s) del otro(s).
+*   De la clase Cama_Fija, la clase CoreXY emplea 2 steppers que trabajan en conjunto para mover la cabeza en X e Y; la clase Cross_Gantry tiene los motores que mueven la cabeza en X o Y independientes uno(s) del otro(s).
 
-* Etc.
+*   Etc.
 
 -----------------------------------------------------------------------------------------------------------
 ## Encargo 09 <!-- escuchar y comentar uno de los tres primeros discos de la banda Primus -->
