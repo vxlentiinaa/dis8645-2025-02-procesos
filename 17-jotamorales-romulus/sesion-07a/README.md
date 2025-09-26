@@ -34,7 +34,7 @@ Dudas / Atados:
 - Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
 
 ### Lenguaje natural 
-- NO HE PODIDO ENCONTRAR ALGO QUE ME INTERESE DE MOMENTO (RELLENAR)
+- No he podido encontrar algo que me interese de momento (rellenar cuando encuentre algo)
 
 ### Código
 
