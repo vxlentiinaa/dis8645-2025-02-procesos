@@ -19,7 +19,9 @@
 **𔓘Entrada**: primero quiero seleccionar un idioma en un menu, y después detectar un sonido
 
 - sensores:
+
 encoder
+
 sensor sonido digital
 
 **𔓘 links de compra:** Distintos lugares.
@@ -50,7 +52,9 @@ sensor sonido digital
 **𔓘Salida**: queremos que se despliegue un menu en una pantallita para elegir un idioma y que salude en el idioma seleccionado a través de sonido y mensaje en pantalla
 
 - sensores:
+
 pantallita OLED
+
 modulo reproductor mp3
 
 **𔓘links de compra:** De distintas páginas.
