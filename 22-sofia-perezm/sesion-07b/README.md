@@ -54,3 +54,7 @@ Esta investigación nos permitirá entender que es lo que "escucha" y como funci
 
 fuente -> OpenBinaural by CarlosGS https://github.com/CarlosGS/OpenBinaural?tab=readme-ov-file
 
+hacer un diagrama de flujo de como funciona el proyecto
+
+documentar funcionamiento de cableado y código
+
