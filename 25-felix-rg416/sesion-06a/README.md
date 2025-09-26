@@ -48,17 +48,41 @@ Me encantaría hacer algo como Pure Data para controlar motores y luces de forma
 Buscar 3 ideas para usar sensores
 
 ### Sensor de lluvia
+
+![Sensor de lluvia](./imagenes/sensorLluvia.jpg)
+
 "2 electrodos separados por una distancia muy pequeña, cuando llueve las gotas de agua cierran el circuito entre los 2 electrodos y permiten el paso de una pequeña corriente."
+
+#### Idea Sensor de lluvia
+
+La máquina, para que diga "hola" se debe "regar". Le caen unas gotas de agua al sensor y la máquina saluda.
+
+Puede tener forma de planta para que tenga sentido regarla para que salude.
 
 ### Acelerómetro
 
+![Acelerómetro](./imagenes/aceleromeetro.png)
+
 Existen varios tipos
 - Acelerómetros capacitivos MEMS: Se basa en una masa y un muelle unido a las caras de un condensador de peine. Cuando se aplica una aceleración, la masa se  mueve cambiando la distancia entre la masa y las placas del condensador, al cambiar la distancia, envía una señal eléctrica. 
-- Acelerómetro piezoeléctrico
+- Acelerómetro piezoeléctrico.
+
+#### Idea Acelerómetro
+
+Se debe usar un guante con acelerómetro, cuando se mueve la mano diciendo "hola" la máquina también mueve una mano respondiendo al saludo.
 
 ### NFC
+
+![sensor nfc](./imagenes/NFC.jpg)
+
+"Near Field Communication" --> Comunicación de Campo Cercano. Es un sensor que funciona con proximidad, cuando se acerca a un dispositivo receptor, el sensor se activa o manda una señal. Permite la comunicación inalámbrica entre dos dispositivos. Necesita un chip lector NFC y una etiqueta NFC.
+
+#### Idea NFC
+
+Hay una máquina con una manito o un audio y dos objetos, uno con un "hola" y otro con un "chao". Cuando se acerca el "hola" a la máquina, ésta saluda; cuando se le acerca el "chao", la máquina se apaga, dice "chao" o baja la manito.
 
 ## Bibliografía y referencias
 
 - Sensor de lluvia - <https://altronics.cl/sensor-lluvia-nieve-fc-37>
 - Acelerómetro - <https://www.tme.com/cl/es/news/library-articles/page/22568/Como-funciona-y-que-hace-el-acelerometro/#Jak-dziala-akcelerometr>
+- NFC - <https://www.xataka.com/basics/nfc-que-es-y-para-que-sirve> <https://www.st.com/content/st_com/en/support/learning/essentials-and-insights/connectivity/nfc/nfc-chips.html>

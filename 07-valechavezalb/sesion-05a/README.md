@@ -1,8 +1,8 @@
-# sesion-05a
+# 🌷 sesion-05a
 
 Martes 2 de septiembre
 
-## ¿Qué son las clases?
+## 🛠️ ¿Qué son las clases?
 
 - Es un concepto relacionada a la **programación orientada a objetos (POO)**, se puede entender como un molde o plantilla que define cómo serán los objetos que se creen a partir de ella.
 - Una clase se compone de dos cosas:
@@ -12,18 +12,15 @@ Martes 2 de septiembre
 
 Detro de las clases hay muchas opciones como public:
 
-**archivo.h**
+### archivo.h
 archivo en donde se crean clases para definir algo. Ejemplo se crea la clase de Persona, y dentro de estas hay constructores, que son los parámetros que necesito para que sea una persona, por ejemplo: si usa lentes o no, etc. (ejemplo de la clase)
 
 ### Lenguaje C
 
-- Sus archivos terminan en .c o .h
-**C++**
-- es o mismo que cpp (c plus plus en inglés)
-- variable, set variable, get variable
-
-**ARDUINO**
-Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí ambos archivos.
+- Sus archivos terminan en .c o .h.
+- Es o mismo que cpp (c-plus-plus en inglés).
+- Variable, set variable, get variable.
+- Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí ambos archivos.
 
 - **Para las proximas entregas, tendremos un sensor.h o ptenciometro.h**
 
@@ -31,7 +28,7 @@ Puedo crear otro archivo .ino que se llame "creditos" para que hablen entre sí 
 
 - Las clases de los archivos se hacen con **.h** y **.cpp**+ el archivo arduino **.ino**
 
-ARCHIVO INO
+➜ ARCHIVO INO
 
 ```cpp
 //programacion orientada a objetos
@@ -63,7 +60,7 @@ void loop() {
 
 ```
 
-ARCHIVO .h
+➜ ARCHIVO .h
 
 ```cpp
 //cualquier codigo que incluya este archivo, tendra la informacion de este archivo solo escribiendo #include en el archivo principal
@@ -104,7 +101,7 @@ int edad;
 #endif
 ```
 
-ARCHIVO .cpp
+➜ ARCHIVO .cpp
 
 ```cpp
 #include "Persona.h"
@@ -138,7 +135,7 @@ int Persona::getEdad() {
 
 ## Ejercicio para usar sensores análogos
 
-SensorAnalogo.h
+➜ SensorAnalogo.h
 
 ```cpp
 #ifndef SENSOR_ANALOGO_H
@@ -179,7 +176,7 @@ public:
 #endif
 ```
 
-SensorAnalogo.cpp
+➜ SensorAnalogo.cpp
 
 ```cpp
 #include "SensorAnalogo.h"
@@ -215,20 +212,21 @@ SensorAnalogo.cpp
   }
 ```
 
-*Otros apuntes interesantes...*
-**Categorías de Aristóteles**
 
-1. Sustancia
-2. Cantidad
-3. Cualidad
-4. Relación
-5. Lugar
-6. Tiempo
-7. Posición (o Situación)
-8. Posesión (o Hábito)
-9. Acción
-10. Pasión
+### 🪵 Categorías de Aristóteles
 
+1. Sustancia.
+2. Cantidad.
+3. Cualidad.
+4. Relación.
+5. Lugar.
+6. Tiempo.
+7. Posición (o Situación).
+8. Posesión (o Hábito).
+9. Acción.
+10. Pasión.
+
+### Más apuntes...
 - <https://openframeworks.cc/> para programar una aplicación.
 - Para programar cosas en IOS se usa Swift, para crear aplicaciones.
 - NORM computador que funciona con el lenguaje SuperCollider y también utiliza Lua.
