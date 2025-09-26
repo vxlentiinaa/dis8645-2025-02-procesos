@@ -12,6 +12,7 @@ Se crean (ejemplo):
 - cableado.ino.
 - sensorUltrasonico.ino.
 - sensoresActuadores.ino.
+- crear función que doga detector de verde y un bool estado verde.
 
 Con click derecho puedo apretar la función > ir a definición > y lleva al archivo donde está aojado la función y sus parámetros.
 
