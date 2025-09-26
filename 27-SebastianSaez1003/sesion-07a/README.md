@@ -28,4 +28,49 @@ ble ble ble
 
 ## Encargo 13 "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
 
-ble ble ble
+### Lenguaje natural 
+Para mi primer ejemplo, a mí personalmente me gusta harto el canal de YouTube [Veritasium](https://www.youtube.com/@veritasium), en el que uno de sus narradores más recurrentes, Derek Muller, explica múltiples temas distintos, que normalmente están situados en el mundo de la ciencia. 
+
+Personalmente, lo que me inspira de estas narraciones es la calma con la que explica todo; no siento que nada de lo que dice sea apresurado, algo que a mí me gustaría poder adaptar, porque pienso que hablo rápido en muchas ocasiones, como también el uso de un vocabulario claro y preciso para la explicación de cada uno de los temas que se presentan en sus videos, donde se da el tiempo de explicar absolutamente todo lo que está presentando, paso a paso, desde lo más simple hasta lo más complejo, de una manera que todos (al menos, creo yo que todos los que tomen atención) pueden ser capaces de comprender a lo que se refiere y expone a lo largo de sus variados videos.
+
+Eso es lo que yo desearía poder llegar a hacer: hablar solo lo justo y necesario, de una manera clara, y poder exponer a las personas que me observan y escuchan para que entiendan y se interesen en lo que digo y hago.
+
+Como ejemplo, ofrezco este video sobre la invención del [LED azul](https://www.youtube.com/watch?v=AF8d72mA41M). 
+
+Mi segundo referente del lenguaje, me quisiera no solo referir a un lenguaje por voces, sino a las expresiones y el lenguaje corporal que presenta Michael Stevens del canal de YouTube [Vsauce](https://www.youtube.com/@Vsauce).
+
+Lo que más me gusta de la manera de expresarse de Michael es que claramente tiene un conocimiento amplio de múltiples temas y habla de una manera ordenada y controlada, pero con su lenguaje corporal, haciendo expresiones exageradas, movimientos de manos u otras acciones, logra agregar un humor a la narrativa que intenta presentar, de una manera que, al menos personalmente, hace mucho más memorable lo que está hablando para mí, ya que de esta manera pongo más atención y recuerdo los temas de una manera mucho más agradable a mi parecer.
+
+También, entiendo que el humor o la exageración no podrá ser ocupado en todo momento, pero a mí me gusta ser gracioso y, si es que llegase a ser alguien que expone sus proyectos, me gustaría poder darle un poco de esta gracia que tiene Michael.
+
+![hey vsauce michael here](./imagenes/sesion-07a-MichaelVsauce.gif)  ![hey vsauce michael here](./imagenes/sesion-07a-MichaelVsauce2.gif)
+
+![hey vsauce michael here](./imagenes/sesion-07a-MichaelVsauce3.gif)
+
+Aquí dejo uno de mis videos que recientemente me ha gustado bastante de Vsauce, sobre un debate existencial sobre [la existencia de las sillas](https://www.youtube.com/watch?v=fXW-QjBsruE).
+
+### Materialidad
+
+PLA, un filamento de impresión 3d, el cual tengo entendido que está en el LID, este material es orgánico y reciclable, así que es medioambientalmente más amigable que otros filamentos de uso común, este es un filamento que es fácil de usar al momento de imprimir, también es un material que necesita de un postratamiento menor, con un lijado una pieza puede quedar bien.
+
+La intención de porque me gustaría usar este material es, porque de esta manera podemos tener una libertad grande respecto a la forma de nuestra carcasa o elemento que sobreponga al arduino, como también elementos que podrían ir en nuestros otros componentes como el servomotor y aún más importante, que se puede lijar y pintar de manera razonable para que tenga la estética que deseamos
+
+Referencias:  
+
+- https://www.3dnatives.com/es/guia-filamento-pla-en-la-impresion-3d-190820192/#!
+
+### Documentación
+
+Encontre en el subReddit de Arduino una publicacion hecha de un proyecto de nombre [Pedro](https://www.reddit.com/r/arduino/comments/1l2k3vu/open_source_project/), este proyecto que estaba desarrollado con l intencion de poder aprender de robotica, electronica y programacion y como punto extra es open source
+
+Al revisar el repositorio de [GitHub](https://github.com/almtzr/Pedro) se puede observar una documentacion, que almenos yo encuentro que tiene mucho cariño, desde una presentación del Pedro Project, con una descripción detallada de todo lo que es necesario para poder traer a Pedro a la realidad, fotografias con todas sus piezas sin ensamblar, la placa y los archivos de impresión 3d.
+
+También es muy interesante debido a que es una máquina la cual funciona a través de servomotores, algo que pensamos usar yo y mi grupo para nuestro Proyecto 2.
+
+Otro proyecto que encontre era un[ventilador controllado a base de la temperatura medida](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview) en el que se va a un contexto de explicación desde la perspectiva del creador, yendo paso a paso de como se empieza a ensamblar todas las partes, con una descripción interesante de cad auno de los componentes, mencionando detalles los cuales son bastante relevantes, como la temperatura de funcionamiento, por ejemplo del sensor de temperatura [LM35](https://es.wikipedia.org/wiki/LM35), como se lee la temperatura con este sensor, y de qué manera utilizar estos datos recibidos, he incluso testeos de datos obtenidos en distintos ambientes y circunstancias.
+
+También es bastante claro con todas los procedimientos, desde el ensamblaje, los circuitos, la PCB y también, como explicaré en el punto del encargo de código, sus comentarios dentro del archivo.
+
+### Código
+
+En el proyecto del ventilador controlado por la [temperatura ambiente](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview), dejó escrito todo el código que escribió para poder llevar a cabo el funcionamiento del producto final, que al menos a mi me gusta mucho es que casi todas las lineas tiene algun comentario para poder guiar al lector (yo) de que estara sucediendo 
