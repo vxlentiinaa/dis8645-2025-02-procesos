@@ -22,3 +22,10 @@ Un motor DC es rápido y no sabotea; es de corriente continua y no sabe dónde e
 
 Step motor es paso a paso, es lento, preciso y sabe dónde está; requiere un driver que le entregue energía y se mueve de a grados. 
 
+## Encargo 12 "leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."
+
+ble ble ble
+
+## Encargo 13 "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
+
+ble ble ble
