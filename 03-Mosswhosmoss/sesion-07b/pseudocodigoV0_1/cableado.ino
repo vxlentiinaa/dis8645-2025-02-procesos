@@ -6,7 +6,7 @@
   // la cuarta va a VCC, es decir va al pin 5V
 
 // Cableado sensor ultrasonico
-  // el sensor ultrasonico tiene 3 patitas
+  // el sensor ultrasonico tiene 4 patitas
   // la primera va a GND
   // la segunda va a Echo, es decir va a un pin digital
   // la tercera va a Trig, es decir va a un pin digital
