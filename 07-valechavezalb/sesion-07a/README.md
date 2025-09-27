@@ -100,10 +100,10 @@ Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 
 - Se ejecuta en un dispositivo integrado como Raspberry Pi.
 - Se encuentra la manera de controlar el motor del dispensador.
 
-Software:
+💻 Software:
 - aplicación que detecta rostros y reconocimiento de emociones faciales.
 
-Software/ Hardware (con RaspberryPi):
+💻 Software/ Hardware (con RaspberryPi):
 - Código que reaccion al botón que dispensa los dulces.
 - Código que encienda las luces rgb.
 - Código que hace funcionar el motor para dispensar los dulces.
@@ -117,7 +117,7 @@ Software/ Hardware (con RaspberryPi):
 - Se trata un un dispensador de dulces controlado por Arduino e impresión 3D.
 - Para los componentes eléctrónicos se utilizó un Arduino Uno, batería de 9v, sensor IR y control remoto, motor paso a paso y placa controladora, Adafruit NeoPixel NeoMatrix 8x8, resistencia de 10 kohmios, resistencia de 300-500 ohmios, condesador de 1 mF 6,3 V+ y recipiente de cristal con tapa rosca.
 
-Circuito de control
+🛠️ Circuito de control
 
 ![candybot](imagenes/circuito.png)
 
