@@ -94,11 +94,34 @@ Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y a
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo
 
 ### ✦ Referentes:
-1. **Candybot**: dispensador automático de dulces que te da dulces si estás contento y sonríes.
+1. **Candybot**: dispensador automático de dulces que te da dulces si estás contento y sonríes. (https://nidragedd.github.io/a-candy-dispenser-with-ai-raspberry-and-lego-bricks/)
+![candybot](imagenes/maquina_dulces.png)
 - Funciona con una cámara que detecta rostros y luego realiza un reconocimiento de emociones faciales.
 - Se ejecuta en un dispositivo integrado como Raspberry Pi.
 - Se encuentra la manera de controlar el motor del dispensador.
-2. Automated Candy Dispenser
-  
+
+Software:
+- aplicación que detecta rostros y reconocimiento de emociones faciales.
+
+Software/ Hardware (con RaspberryPi):
+- Código que reaccion al botón que dispensa los dulces.
+- Código que encienda las luces rgb.
+- Código que hace funcionar el motor para dispensar los dulces.
+![candybot](imagenes/funcionamiento.png)
+
+2. **Automated Candy Dispenser**
+![candybot](imagenes/candy_dispenser.png)
+
+(https://www.instructables.com/Automated-Candy-Dispenser-1/)
+
+- Se trata un un dispensador de dulces controlado por Arduino e impresión 3D.
+- Para los componentes eléctrónicos se utilizó un Arduino Uno, batería de 9v, sensor IR y control remoto, motor paso a paso y placa controladora, Adafruit NeoPixel NeoMatrix 8x8, resistencia de 10 kohmios, resistencia de 300-500 ohmios, condesador de 1 mF 6,3 V+ y recipiente de cristal con tapa rosca.
+
+Circuito de control
+
+![candybot](imagenes/circuito.png)
+
+El código y las piezas se encuentran en el link que está escrito más arriba.
+
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
