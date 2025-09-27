@@ -162,6 +162,8 @@ void loop() {
   delay(1000);        // Espera 1 segundo
 }
 ```
+![servomorcon](./imagenes/servomotor.jpg)
+
 + **Referencia** de código para **sensor ultrasónico** de **Nico Miranda**
 ```cpp
 #include <Wire.h>
