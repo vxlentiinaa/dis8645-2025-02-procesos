@@ -39,9 +39,10 @@ Link del video musical
 Video: Mitch Resnick: Enseñemos a los niños a codificar
 
 Mitch Resnick plantea que la programación no debe ser algo solo para expertos o personas con muchos conocimientos técnicos, sino una herramienta para todos los niños. Explica que usar lenguajes como Scratch, donde se “arman bloques” para crear animaciones, juegos o historias, les permite experimentar, equivocarse y aprender jugando. Lo valioso es que codificar enseña más que computación, ya que desarrolla creatividad, lógica, paciencia al enfrentar problemas y colaboración entre pares. En resumen, el video defiende la idea que codificar es como aprender a leer y escribir: abre puertas para expresarse y entender el mundo, no solo para usarlo. La verdad, me dio curiosidad, así que me metí al programa y me quedé como una hora buscando qué hacer. Me hubiese gustado haberlo encontrado cuando era pequeña.
-Link de la conferencia 
-
+ 
 ![SCRATCH](./imagenes/SCRATCH.png)
+
+Link de la conferencia
 
 <https://www.youtube.com/watch?v=Ok6LbV6bqaE>
 
