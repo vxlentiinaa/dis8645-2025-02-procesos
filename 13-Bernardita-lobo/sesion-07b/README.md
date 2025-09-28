@@ -6,16 +6,16 @@ Viernes 26 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
-- hablamos  de las comisiones, ya que Aarón ya encontró a una buena comisión, sintia
+- Hablamos de las comisiones, ya que Aarón ya encontró una buena comisión, Cynthia.
 
-- Rafael Benguria, profesor de aaron y referente, premio nacional de ciencias, hace clases de fisica
+- Rafael Benguria, profesor de Aarón y referente, Premio Nacional de Ciencias, hace clases de Física.
 
-- velocidad del sonido, no porque el sentor me diga algo es la verdad, es una interpretacion
+- Velocidad del sonido, no porque el sensor me diga algo es la verdad; es una interpretación.
 
 ### Pseudocodigo para los Proyectos-02
 
 [reproductor-mp3](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
-## encargo
+## Encargo
 
 ### [mermaid](https://mermaid.js.org/intro/getting-started.html)
