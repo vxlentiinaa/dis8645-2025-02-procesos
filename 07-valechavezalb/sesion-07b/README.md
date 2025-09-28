@@ -43,7 +43,7 @@ void loop() {
 - variables globales.h -> las variables están en un solo lugar.
 - Armar clases para que quede todo más ordenado (con los colores correspondientes que tenemos)
 
-## 🛠️ Pseudocódigo VO del proyecto
+## 🛠️ Pseudocódigo V0 del proyecto
 
 1. pseudocódigo.ino
 ```cpp
@@ -108,7 +108,7 @@ void configurarSensorColor() {
 ```
 
 ## ☞ Encargo 14
-1. **Hacer un diagrama de flujo en mermaid (ya que se puede subir a markdown) con la funcionalidad del proyecto**.
+1. **Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto**.
 
    ```mermaid
    flowchart TD
