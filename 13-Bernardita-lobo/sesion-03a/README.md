@@ -14,23 +14,26 @@
 
 #### Parte grupal
 
-- 1 punto por documentación textual en README.md de todo el proyecto
-- 1 punto por calidad de comentarios del código
-- 1 punto por factura, funcionalidad y originalidad
+| Criterios                                              	| Puntos 	|
+|--------------------------------------------------------	|--------	|
+| documentación textual en README.md de todo el proyecto 	| 1      	|
+| calidad de comentarios del código                      	| 1      	|
+| factura, funcionalidad y originalidad                  	| 1      	|
 
 #### Parte individual
 
-- 1 punto por bitácora constante y periódica y personal
-- 1 punto por presentación oral de cada estudiante
-- 1 punto por presentación oral de cada estudiante
+
 
 #### Descuentos
 
-- 3 puntos por no cumplir con los plazos establecidos
-- 3 puntos menos por no presentar sin justificativo médico
-- 5 puntos menos por no escribir comentarios en el código
-- 6 puntos menos por hacer un "drop": no tener proceso sostenido en el tiempo ni en código, ni en desarrollo, ni en documentación.
-- 3 puntos menos por usar directamente los datos del potenciómetro y no procesarlos con originalidad para controlar la pantalla.
+| Criterios                                                                                                     | Puntos |
+|---------------------------------------------------------------------------------------------------------------|--------|
+| no cumplir con el cronograma                                                                                  | 4      |
+| no cumplir con los plazos establecidos                                                                        | 3      |
+| no presentar sin justificativo médico                                                                         | 3      |
+| no escribir comentarios en el código                                                                          | 5      |
+| hacer un "drop": no tener proceso sostenido en el tiempo ni en código, ni en desarrollo, ni en documentación. | 6      |
+| usar directamente los datos del potenciómetro y no procesarlos con originalidad para controlar la pantalla    | 3      |
 
 ### Condicionales e Iteradores
 
