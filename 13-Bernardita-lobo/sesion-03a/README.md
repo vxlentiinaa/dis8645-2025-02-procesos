@@ -6,7 +6,7 @@
 
 [Daniel Cruz](https://arteymedios.org/daniel-cruz/), artista electrónico.
 
-[Christian Oyarzún](https://15.bienaldeartesmediales.cl/participantes/christian-oyarzun/) ,miembro del Colectivo Hackería.
+[Christian Oyarzún](https://15.bienaldeartesmediales.cl/participantes/christian-oyarzun/), miembro del Colectivo Hackería.
 
 ### Pauta Proyecto-01
 
@@ -22,7 +22,11 @@
 
 #### Parte individual
 
-
+| Criterios                                                                     | Puntos |
+|-------------------------------------------------------------------------------|--------|
+| bitácora constante y periódica y personal                                     | 1      |
+| presentación oral de cada estudiante                                          | 1      |
+| listado de roles que tomaste en el grupo, y explicaciones de forma detallada. | 1      |
 
 #### Descuentos
 
