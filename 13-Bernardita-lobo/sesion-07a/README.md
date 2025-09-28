@@ -139,6 +139,14 @@ Drivers
 
 ### Referentes
 
+- Susane Chau
+
+- Nonna Fernandez
+
+- Robert Mapplethorpe
+
+- Patti Smith
+
 ## Encargo
 
 buscar ejemplos de : lenguaje, código, materialidad y documentacion.
