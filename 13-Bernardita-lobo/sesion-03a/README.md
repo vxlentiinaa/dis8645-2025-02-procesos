@@ -2,6 +2,12 @@
 
 ## Trabajo en clase / Martes 19 de agosto, 2025
 
+### Cosas que hablamos en la mañana
+
+[Daniel Cruz](https://arteymedios.org/daniel-cruz/), artista electrónico.
+
+[Christian Oyarzún](https://15.bienaldeartesmediales.cl/participantes/christian-oyarzun/) ,miembro del Colectivo Hackería.
+
 ### Pauta Proyecto-01
 
 - 1 punto base
@@ -16,7 +22,7 @@
 
 - 1 punto por bitácora constante y periódica y personal
 - 1 punto por presentación oral de cada estudiante
-- 1 punto por listado de roles que tomaste en el grupo, y explicaciones de forma detallada.
+- 1 punto por presentación oral de cada estudiante
 
 #### Descuentos
 
@@ -96,7 +102,11 @@ Variables, funciones, for, if, and.
 
 ### Referentes
 
+[Daniel Cruz](https://arteymedios.org/daniel-cruz/)
+
 ### Palabras importantes
+
+---
 
 ## Encargo-08: Investigar NAND, NOR, XOR
 
