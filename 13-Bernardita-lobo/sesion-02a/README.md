@@ -1,6 +1,8 @@
 # Sesión-02a
 
-## Trabajo en clase / Martes 12 de agosto, 2025
+Martes 12 de agosto, 2025
+
+## Trabajo en clase
 
 ### Cosas que hablamos en la mañana
 
