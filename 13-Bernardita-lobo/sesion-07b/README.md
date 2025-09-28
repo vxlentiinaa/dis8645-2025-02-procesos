@@ -16,6 +16,8 @@ Viernes 26 de septiembre, 2025
 
 [reproductor-mp3](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
+---
+
 ## Encargo
 
 ### [mermaid](https://mermaid.js.org/intro/getting-started.html)
