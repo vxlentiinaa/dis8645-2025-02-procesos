@@ -43,4 +43,17 @@ https://projecthub.arduino.cc/roboattic_lab/build-your-own-object-tracking-4-dof
 https://arxiv.org/abs/2309.11594 
 
 
+---
+
+Trabajo de clases:
+
+Se intentó usar los diferentes componentes que nos compraron y llegamos a 2 versiones del pseudocodigo.
+
+Con ello también llegamos a un codigo que fue traspasado a wokwi que utiliza el sensor de movimiento ultrasonico
+
+https://wokwi.com/projects/304444938977804866
+
+En unas horas buscare diferentes paginas con codigo para ver como usar el sensor de temperatura.
+
+
 
