@@ -1,11 +1,11 @@
 # sesion-07a
 
-### Apuntes
-** pasar apuntes en limpio block de notas compu **
+## Apuntes
+pasar apuntes en limpio block de notas compu
 - Hackaday
 
 - 
-## Proyecto 2
+### Proyecto 2
 
 - 17 de octubre 
 
