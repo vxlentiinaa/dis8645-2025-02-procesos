@@ -32,15 +32,15 @@ Citar bibliografía.
 ## 🖲️ 10 Heurísticas de Usabilidad para el Diseño de Interfaces de Usuario, Jacob Nielsen
 
 1. **Visibilidad del estado del sistema:** el diseño debe mantener siempre informados a los usuarios sobre lo que está sucediendo, mediante una retroalimentación adecuada.
-2. **Correspondencia entre el sistema y el mundo real:** el diseño debe ser familiar para el usuario, el lenguaje y la naturalidad. Debe ser de fácil comprensión.
-3. **Control y libertad del usuario:** los usuarios suelen realizar acciones por error, es por eso que necesitan una "salida de emergencia" marcada para abandonar la acción no deseada sin tener que pasar por un largo proceso. Admite deshacer y rehacer.
-4. **Coherencia y estándares:** los usuarios no deberían tener que preguntarse si diferentes palabras, situaciones o acciones significan lo mismo. Mantener consistencia dentro de un solo producto o de una familia de productos.
-5. **Prevención de errores:** los buenos diseños piensan en todos los errores, pero hay que ofrecer a los usuarios una opción de confirmación antes de que realicen la acción.
-6. **Reconocimiento en lugar de recuerdo:** el usuario no debería tener que recordar información de una parte a otra parte de la interfaz. La información como etiquetas o elementos del menú deberían ser visibles o fáciles de recordad cuando se necesite.
-7. **Flexibilidad y eficiencia de uso:** los accesos directos, ocultos para usuarios principiantes, pueden agilizar la interacción para el usuario experto, de modo que el diseño se adapte para estos dos tipos de usuarios.
-8. **Diseño estético y minimalista**: las interfacesno deben contener información irrelevante o rara vez necesaria. El contenido y el diseño visual se centren en lo esencial.
-9. **Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores:** los mensajes de error deben expresarse en un lenguaje sencillo, indicar con precisión el problemay sugerir de forma constructiva una solución. Además, deben presentarse con tratamientos visuales que ayuden a los usuarios a notarlos y reconocerlos.
-10. **Ayuda y documentación:** lo ideal es que el sistema no requiera explicaciones adicionales, sin embargo podría ser necesario proporcionar documentación para ayudar a los usuarios a comprender sus tareas. Ser conciso y enumerar los pasos concretos que deben seguirse.
+1. **Correspondencia entre el sistema y el mundo real:** el diseño debe ser familiar para el usuario, el lenguaje y la naturalidad. Debe ser de fácil comprensión.
+1. **Control y libertad del usuario:** los usuarios suelen realizar acciones por error, es por eso que necesitan una "salida de emergencia" marcada para abandonar la acción no deseada sin tener que pasar por un largo proceso. Admite deshacer y rehacer.
+1. **Coherencia y estándares:** los usuarios no deberían tener que preguntarse si diferentes palabras, situaciones o acciones significan lo mismo. Mantener consistencia dentro de un solo producto o de una familia de productos.
+1. **Prevención de errores:** los buenos diseños piensan en todos los errores, pero hay que ofrecer a los usuarios una opción de confirmación antes de que realicen la acción.
+1. **Reconocimiento en lugar de recuerdo:** el usuario no debería tener que recordar información de una parte a otra parte de la interfaz. La información como etiquetas o elementos del menú deberían ser visibles o fáciles de recordad cuando se necesite.
+1. **Flexibilidad y eficiencia de uso:** los accesos directos, ocultos para usuarios principiantes, pueden agilizar la interacción para el usuario experto, de modo que el diseño se adapte para estos dos tipos de usuarios.
+1. **Diseño estético y minimalista**: las interfacesno deben contener información irrelevante o rara vez necesaria. El contenido y el diseño visual se centren en lo esencial.
+1. **Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores:** los mensajes de error deben expresarse en un lenguaje sencillo, indicar con precisión el problemay sugerir de forma constructiva una solución. Además, deben presentarse con tratamientos visuales que ayuden a los usuarios a notarlos y reconocerlos.
+1. **Ayuda y documentación:** lo ideal es que el sistema no requiera explicaciones adicionales, sin embargo podría ser necesario proporcionar documentación para ayudar a los usuarios a comprender sus tareas. Ser conciso y enumerar los pasos concretos que deben seguirse.
 
 ## 🔮 Máquina saludadora
 ✦ Ideas: Se resume en una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
@@ -108,7 +108,7 @@ Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 
 - Código que hace funcionar el motor para dispensar los dulces.
 ![candybot](imagenes/funcionamiento.png)
 
-2. **Automated Candy Dispenser**
+1. **Automated Candy Dispenser**
 ![candybot](imagenes/candy_dispenser.png)
 
 (https://www.instructables.com/Automated-Candy-Dispenser-1/)
