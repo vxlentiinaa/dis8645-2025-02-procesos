@@ -73,11 +73,12 @@ Al revisar el repositorio de [GitHub](https://github.com/almtzr/Pedro) se puede 
 
 También es muy interesante debido a que es una máquina la cual funciona a través de servomotores, algo que pensamos usar yo y mi grupo para nuestro Proyecto 2.
 
-Otro proyecto que encontre era un[ventilador controllado a base de la temperatura medida](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview) en el que se va a un contexto de explicación desde la perspectiva del creador, yendo paso a paso de como se empieza a ensamblar todas las partes, con una descripción interesante de cad auno de los componentes, mencionando detalles los cuales son bastante relevantes, como la temperatura de funcionamiento, por ejemplo del sensor de temperatura [LM35](https://es.wikipedia.org/wiki/LM35), como se lee la temperatura con este sensor, y de qué manera utilizar estos datos recibidos, he incluso testeos de datos obtenidos en distintos ambientes y circunstancias.
+Otro proyecto que encontre era un [ventilador controllado a base de la temperatura medida](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview) en el que se va a un contexto de explicación desde la perspectiva del creador, yendo paso a paso de como se empieza a ensamblar todas las partes, con una descripción interesante de cad auno de los componentes, mencionando detalles los cuales son bastante relevantes, como la temperatura de funcionamiento, por ejemplo del sensor de temperatura [LM35](https://es.wikipedia.org/wiki/LM35), como se lee la temperatura con este sensor, y de qué manera utilizar estos datos recibidos, he incluso testeos de datos obtenidos en distintos ambientes y circunstancias.
 
 También es bastante claro con todas los procedimientos, desde el ensamblaje, los circuitos, la PCB y también, como explicaré en el punto del encargo de código, sus comentarios dentro del archivo.
 
 ### Código
 
 En el proyecto del ventilador controlado por la [temperatura ambiente](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview), dejó escrito todo el código que escribió para poder llevar a cabo el funcionamiento del producto final, que al menos a mi me gusta mucho es que casi todas las lineas tiene algun comentario para poder guiar al lector (yo) de que estara sucediendo 
+
 
