@@ -1,0 +1,7 @@
+/*
+
+definir pines
+
+definir ubicacion de audios
+
+*/

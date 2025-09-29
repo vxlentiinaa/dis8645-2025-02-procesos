@@ -64,3 +64,21 @@ La idea viene de Mario Bross
 - Paso 5: El monito saltará y dirá "HOLAAA, ya po que me estoy cansando" (no saltará de corrido, sino que habrá un tiempo definido).
 - Paso 6: Cuando el sensor vuelva detectar los 40 cm, comenzará a correr
 - Paso 7: Para terminar y que el monito vuelva a estar "parado", se aprieta un botón para volver a reiniciar.
+
+
+SE VIENE EL 18
+
+- ▓▓▓▓▓▓▓▓▓░▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░
+- ▓▓▓▓▓▓▓▓░░░▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░
+- ▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░
+- ▓░░░░░░░░░░░░░░░░░▓░░░░░░░░░░░░░░░░░░░░
+- ▓▓▓▓░░░░░░░░░░░▓▓▓▓░░░░░░░░░░░░░░░░░░░░
+- ▓▓▓░░░▓▓▓▓▓▓▓░░░▓▓▓░░░░░░░░░░░░░░░░░░░░
+- ▓▓░░▓▓▓▓▓▓▓▓▓▓▓░░▓▓░░░░░░░░░░░░░░░░░░░░
+- █████████████████████████████
+- █████████████████████████████
+- █████████████████████████████
+- █████████████████████████████
+- █████████████████████████████
+- █████████████████████████████
+

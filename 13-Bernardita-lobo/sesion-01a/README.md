@@ -1,6 +1,8 @@
 # Sesión-01a
 
-## Trabajo en clase / Martes 05 de agosto, 2025
+Martes 05 de agosto, 2025
+
+## Trabajo en clase
 
 ### Taller de diseño de maquinas computacionales DIS 8645
 
@@ -72,6 +74,8 @@ También implica la interfaz humano-computador, es decir cómo las personas inte
 [HCI:](https://albertolacalle.com/hci.htm) La Interacción Persona-Ordenador o en inglés Human Computer Interaction, es una disciplina relacionada con el diseño, evaluación, desarrollo y estudio de los fenómenos que rodean los sistemas informáticos para uso humano.
 
 [STS:](https://gsas.harvard.edu/policy/science-technology-and-society) La Ciencia, Tecnología y Sociedad o en inglés science technology and society, emplean diversos métodos de las humanidades y las ciencias sociales para examinar cómo la ciencia y la tecnología influyen y se ven influidas por sus contextos sociales, culturales y materiales.
+
+---
 
 ## Encargo-01: Alan Turing
 
