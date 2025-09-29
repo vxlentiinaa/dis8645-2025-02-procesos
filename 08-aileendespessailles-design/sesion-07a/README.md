@@ -54,3 +54,47 @@ paso a paso
 5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial.
 6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
 7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
+
+## Encargo 13,
+"buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
+
+- Código (implementaciones de sensores + actuadores interactivos) con ayuda de chat gpt
+
+Ejemplo A: Arduino Controlled Namaste Greeting Robot
+  
+En este proyecto, un robot saluda (“Namaste”) moviendo servomotores al detectar presencia con un sensor ultrasónico HC-SR04 (da un poco de miedo). Usa múltiples servos para brazos, cabeza, etc., controlados desde Arduino con la librería Servo.
+<https://www.electronicsforu.com/electronics-projects/hardware-diy/arduino-controlled-namaste-greeting-robot?utm_source=chatgpt.com>
+
+Ejemplo B: Proyecto “Making Servo Motors React to Sensors”
+
+Un tutorial donde un servo reacciona a un sensor IR: si detecta un objeto, mueve el servo cierto ángulo; si no, lo mueve a otro.
+<https://arduinointro.com/articles/projects/making-servo-motors-react-to-sensors?utm_source=chatgpt.com>
+
+- Materialidad (componentes físicos / construcción de la obra) encontrados en google academico
+ 
+Ejemplo A: Ultrasonic sensor explorer. utiliza servo motor y sensor ultrasonico. 
+<https://ieeexplore.ieee.org/abstract/document/7542987?casa_token=aK9yCv5gOjkAAAAA:JIewbo_j-7jEo58Oa7PM6m8L53h-f7fY109Fgldq3WJse26VrBCjeXwos2CimxkdltpzsEXBvUOupw>
+
+Ejemplo B: AN ULTRASONIC SENSORY-BASED DEVICE FOR REAL-TIME DETECTION OF TERRORIST THREATS USING ARDUINO-UNO. Utiliza un servo motor para rotar el sensor ultrasónico. 
+<https://harvardpublications.com/hijert/article/view/409>
+
+- Documentación (cómo se describe el proyecto, papers o informes) encontrados en google academico 
+
+Ejemplo A: A Fuzzy Controlled Greeting Robot: An Interactive System for Welcoming and Assisting Visitors
+<https://ieeexplore.ieee.org/abstract/document/11137744?casa_token=Oees9wQvMdIAAAAA:Bu6zQWp4Xj0GXyo7vmb6O6H8RandvlOFQPzeHsRQ4YUJbv9qCtTfkWHHtjyjfHpU5wNlxF2ayMZnkYM>
+
+Ejemplo B: Design of an Autonomous Greeting Robot
+<https://www.proquest.com/openview/16caaee1c6c3729bd805a31205288646/1?pq-origsite=gscholar&cbl=52938>
+
+- Lenguaje natural (cómo se comunica “la experiencia” con adjetivos, verbos, adverbios)  con ayuda de chat gpt
+
+Ejemplo A: “Thermally Speaking” (instalación interactiva de calor-luz)
+
+En la descripción literaria del proyecto se emplean expresiones como “translator of body heat,” “shifting curtain of light,” “responds to body heat,” “interactive dialogue” etc. Se usan adjetivos como “interactive,” “shifting,” “glowing,” verbos como “respond,” “translate,” “evoke,” adverbios como “dynamically,” “gradually.”
+<https://kobistudio.com/thermally-speaking-light-art-installation/?utm_source=chatgpt.com>
+
+Ejemplo B: “The Shy Machine” (blog/descripción del artista)
+
+En la narración se describe la escultura como “shy,” “opens and closes depending on noise levels,” “reacts awkwardly,” “slow undulations,” “calmer pulse,” “sensitive time,” etc. Se usan adjetivos: “shy,” “slow,” “nervous,” “calmer.” Verbos: “opens,” “closes,” “reacts,” “learns.” Adverbios: “slowly,” “sensitively,” “midway.” 
+<https://daricgill.com/2018/08/25/shy-machine-interactive-art/?utm_source=chatgpt.com>
+
