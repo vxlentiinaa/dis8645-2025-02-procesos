@@ -21,14 +21,14 @@
 
 ### Posibles interacciones
 
-1. Input: Según humedad de una plantita
-- Output: Si está húmeda podría responder positivamente (saludo, agradecimiento, felicidad) / Si está seco podría responder con una necesidad (ayúdame, riégame, etc)
+0. Input: Según humedad de una plantita
+   - Output: Si está húmeda podría responder positivamente (saludo, agradecimiento, felicidad) / Si está seco podría responder con una necesidad (ayúdame, riégame, etc)
 
-2. Input: Velocidad de giro del encoder
-- Output: La energía del saludo varía según la velocidad en la que se mueve el encoder (hola, holaaaaaaaaaaaaaaaaaa)
+1. Input: Velocidad de giro del encoder
+   - Output: La energía del saludo varía según la velocidad en la que se mueve el encoder (hola, holaaaaaaaaaaaaaaaaaa)
 
-3. Input: Girar el encoder
-- Output: Según vaya girando saluda en distintos idiomas c: (hola, hello, konnichiwa, oi, etc)
+2. Input: Girar el encoder
+   - Output: Según vaya girando saluda en distintos idiomas c: (hola, hello, konnichiwa, oi, etc)
 
 ### Otros posibles sensores
 
