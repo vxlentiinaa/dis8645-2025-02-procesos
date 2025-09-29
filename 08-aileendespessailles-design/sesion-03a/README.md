@@ -67,7 +67,7 @@ hazEsto();
 Encargo 6,
 "investigar nand, nor, xor y xnor"
 
-1. NAND (NOT AND)
+- NAND (NOT AND)
 
 Definición: Es la negación de la compuerta AND.
 
@@ -75,7 +75,7 @@ Operación: Solo es 0 si ambas entradas son 1; en todos los demás casos es 1.
 
 Uso: Es llamada compuerta universal porque con NAND se pueden construir todas las demás compuertas lógicas.
 
-2. NOR (NOT OR)
+- NOR (NOT OR)
 
 Definición: Es la negación de la compuerta OR.
 
@@ -83,7 +83,7 @@ Operación: Solo es 1 si ambas entradas son 0.
 
 Uso: También es una compuerta universal, al igual que NAND.
 
-3. XOR (Exclusive OR)
+- XOR (Exclusive OR)
 
 Definición: Da 1 solo si las entradas son diferentes.
 
@@ -91,7 +91,7 @@ Operación: 0 si las entradas son iguales, 1 si son distintas.
 
 Uso: Se usa en sumadores binarios, criptografía, circuitos de comparación.
 
-4. XNOR (Exclusive NOR o equivalencia)
+- XNOR (Exclusive NOR o equivalencia)
 
 Definición: Es la negación de la XOR. Da 1 si las entradas son iguales.
 
@@ -99,7 +99,7 @@ Operación: 1 cuando A = B.
 
 Uso: Comparadores lógicos, detectores de igualdad.
 
- En resumen:
+En resumen:
 NAND / NOR = universales (pueden reemplazar todas las demás).
 
 XOR / XNOR = comparan diferencias o igualdad.
