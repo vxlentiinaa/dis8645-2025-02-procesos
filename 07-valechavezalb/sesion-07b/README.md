@@ -45,7 +45,8 @@ void loop() {
 
 ## 🛠️ Pseudocódigo V0 del proyecto
 
-1. pseudocódigo.ino
+pseudocódigo.ino
+
 ```cpp
 void setup() {
 configurarSensorColor();
@@ -67,7 +68,9 @@ tomarDecisiones();
 actuar();
 }
 ```
-2. sensoresActuadores.ino
+
+sensoresActuadores.ino
+
 
 ```cpp
 void configurarSensorColor() {
@@ -95,7 +98,7 @@ void configurarPantalla(){
 }  
 ```
 
-3. sensorColor.ino
+sensorColor.ino
 
 ```cpp
 void configurarSensorColor() {
@@ -108,7 +111,7 @@ void configurarSensorColor() {
 ```
 
 ## ☞ Encargo 14
-1. **Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto**.
+1. Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto.
 
    ```mermaid
    flowchart TD
@@ -155,5 +158,5 @@ void configurarSensorColor() {
     style n20 fill:#BBDEFB
     style n8 stroke-width:1px,stroke-dasharray: 1
     ```
-   
-3. **Visualización de cómo funciona el sensor y carpeta de con su código**.
+
+2. Visualización de cómo funciona el sensor y carpeta de con su código.
