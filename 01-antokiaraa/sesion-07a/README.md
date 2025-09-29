@@ -8,20 +8,22 @@
 16-javieramoraga-rgb
 18-ppia97
 19-Hiinalia
-24-Joquape 
+24-Joquape
 
 ## Qué vamos a utilizar?
 
-### Actuadores:
+### Actuadores
+
 - Modulo reproductor mp3
 
 entrada: primero quiero seleccionar un idioma en un menu, y después detectar un sonido
 
-### Sensores requeridos:
+### Sensores requeridos
+
 - Encoder con boton
 - Microfono (sensor de sonido)
 
-### links de compra sensores:
+### links de compra sensores
 
 Afel Sensor de  sonido $1.000
 [AFEL](https://afel.cl/products/sensor-sonido-digital)
@@ -51,11 +53,12 @@ no sabemos como se conectan
 
 queremos que se despliegue un menu en una pantallita para elegir un idioma y que salude en el idioma seleccionado a través de sonido y mensaje en pantalla
 
-### actuadores:
+### actuadores
+
 pantallita OLED
 modulo reproductor mp3
 
-### links de compra actuadores:
+### links de compra actuadores
 
 Afel pantalla OLED $6500
 [AFEL](https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-azules)
@@ -85,13 +88,13 @@ Este proyecto muestra cómo conectar y programar un módulo DFPlayer Mini para r
 
 Instructables. (2021). MP3 Player With Arduino Using DF Player Mini. <https://www.instructables.com/MP3-Player-With-Arduino-Using-DF-Player-Mini/>
 
-1. Código
+### 1. Código
 
 Biblioteca de arduino para implementar un de menú. Podria servir para ver de qué manera se debe armar el código para la visualización del menú o usarlo como base en caso de que nos sirva, al no haber referencias visuales es un poco complicado saber cómo funciona.
 
 [Menu system](https://github.com/jonblack/arduino-menusystem/tree/master)
 
-2. Lenguaje:
+### 2. Lenguaje
 
 Robot nao
 
@@ -99,16 +102,10 @@ Este es un robotcito de asistencia personal programable usado principalmente en 
 
 [Robot Nao traduciendo en tiempo real](https://youtu.be/ZWb24EQ9Oa4?si=fuAkUPDflMSAVE8M)
 
-3. Materialidad
+### 3. Materialidad
 
 Robot otto
 
 Se muestra como el robotcito está armado por partes y piezas, la implementación de una personalidad incluyendo piezas impresas en 3D y sensores también como parte del diseño.
 
 [Robot otto](https://www.ottodiy.com)
-
-
-
-
-
-
