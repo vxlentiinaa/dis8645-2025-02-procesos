@@ -1,6 +1,14 @@
 # Sesión-03a
 
-## Trabajo en clase / Martes 19 de agosto, 2025
+Martes 19 de agosto, 2025
+
+## Trabajo en clase
+
+### Cosas que hablamos en la mañana
+
+[Daniel Cruz](https://arteymedios.org/daniel-cruz/), artista electrónico.
+
+[Christian Oyarzún](https://15.bienaldeartesmediales.cl/participantes/christian-oyarzun/), miembro del Colectivo Hackería.
 
 ### Pauta Proyecto-01
 
@@ -8,23 +16,30 @@
 
 #### Parte grupal
 
-- 1 punto por documentación textual en README.md de todo el proyecto
-- 1 punto por calidad de comentarios del código
-- 1 punto por factura, funcionalidad y originalidad
+| Criterios                                              	| Puntos 	|
+|--------------------------------------------------------	|--------	|
+| documentación textual en README.md de todo el proyecto 	| 1      	|
+| calidad de comentarios del código                      	| 1      	|
+| factura, funcionalidad y originalidad                  	| 1      	|
 
 #### Parte individual
 
-- 1 punto por bitácora constante y periódica y personal
-- 1 punto por presentación oral de cada estudiante
-- 1 punto por listado de roles que tomaste en el grupo, y explicaciones de forma detallada.
+| Criterios                                                                     | Puntos |
+|-------------------------------------------------------------------------------|--------|
+| bitácora constante y periódica y personal                                     | 1      |
+| presentación oral de cada estudiante                                          | 1      |
+| listado de roles que tomaste en el grupo, y explicaciones de forma detallada. | 1      |
 
 #### Descuentos
 
-- 3 puntos por no cumplir con los plazos establecidos
-- 3 puntos menos por no presentar sin justificativo médico
-- 5 puntos menos por no escribir comentarios en el código
-- 6 puntos menos por hacer un "drop": no tener proceso sostenido en el tiempo ni en código, ni en desarrollo, ni en documentación.
-- 3 puntos menos por usar directamente los datos del potenciómetro y no procesarlos con originalidad para controlar la pantalla.
+| Criterios                                                                                                     | Puntos |
+|---------------------------------------------------------------------------------------------------------------|--------|
+| no cumplir con el cronograma                                                                                  | 4      |
+| no cumplir con los plazos establecidos                                                                        | 3      |
+| no presentar sin justificativo médico                                                                         | 3      |
+| no escribir comentarios en el código                                                                          | 5      |
+| hacer un "drop": no tener proceso sostenido en el tiempo ni en código, ni en desarrollo, ni en documentación. | 6      |
+| usar directamente los datos del potenciómetro y no procesarlos con originalidad para controlar la pantalla    | 3      |
 
 ### Condicionales e Iteradores
 
@@ -96,7 +111,11 @@ Variables, funciones, for, if, and.
 
 ### Referentes
 
+[Daniel Cruz](https://arteymedios.org/daniel-cruz/)
+
 ### Palabras importantes
+
+---
 
 ## Encargo-08: Investigar NAND, NOR, XOR
 
