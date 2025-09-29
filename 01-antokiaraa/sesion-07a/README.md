@@ -78,34 +78,32 @@ Mechatronics Store modulo reproductor mp3 $3990
 dudas/ataos:
 no sabemos si se puede usar palabras con caracteres en otro idioma en la pantallita
 
+### Encargo 12
+
+"leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."
+
 ## Encargo 13
 
 "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
 
-1. Código
+### Código
 
-Este proyecto muestra cómo conectar y programar un módulo DFPlayer Mini para reproducir archivos de audio desde una tarjeta microSD utilizando un Arduino. Muestra las conexiones mediante una visualización similar a la de Wokwi por lo que me da ayuda con la idea de como se podría armar, también el autor incluye el código a utilizar que se podría probar directamente en Wokwi y ver cómo funciona, solamente que no explica mucho para que sirve cada cosa ya que casi no tiene comentarios.
+- Este proyecto muestra cómo conectar y programar un módulo DFPlayer Mini para reproducir archivos de audio desde una tarjeta microSD utilizando un Arduino. Muestra las conexiones mediante una visualización similar a la de Wokwi por lo que me da ayuda con la idea de como se podría armar, también el autor incluye el código a utilizar que se podría probar directamente en Wokwi y ver cómo funciona, solamente que no explica mucho para que sirve cada cosa ya que casi no tiene comentarios.
 
 Instructables. (2021). MP3 Player With Arduino Using DF Player Mini. <https://www.instructables.com/MP3-Player-With-Arduino-Using-DF-Player-Mini/>
 
-### 1. Código
-
-Biblioteca de arduino para implementar un de menú. Podria servir para ver de qué manera se debe armar el código para la visualización del menú o usarlo como base en caso de que nos sirva, al no haber referencias visuales es un poco complicado saber cómo funciona.
+- Biblioteca de arduino para implementar un de menú. Podria servir para ver de qué manera se debe armar el código para la visualización del menú o usarlo como base en caso de que nos sirva, al no haber referencias visuales es un poco complicado saber cómo funciona.
 
 [Menu system](https://github.com/jonblack/arduino-menusystem/tree/master)
 
-### 2. Lenguaje
+### Lenguaje
 
-Robot nao
-
-Este es un robotcito de asistencia personal programable usado principalmente en la educación, en particular encontré un vídeo donde traduce lo que se le muestra, lo tomé ya que nos sirve para entender la interacción entre persona y robotcito, el tipo de voz que usa y la manera en la que se comunica.
+- Robot nao: Este es un robotcito de asistencia personal programable usado principalmente en la educación, en particular encontré un vídeo donde traduce lo que se le muestra, lo tomé ya que nos sirve para entender la interacción entre persona y robotcito, el tipo de voz que usa y la manera en la que se comunica.
 
 [Robot Nao traduciendo en tiempo real](https://youtu.be/ZWb24EQ9Oa4?si=fuAkUPDflMSAVE8M)
 
-### 3. Materialidad
+### Materialidad
 
-Robot otto
-
-Se muestra como el robotcito está armado por partes y piezas, la implementación de una personalidad incluyendo piezas impresas en 3D y sensores también como parte del diseño.
+- Robot otto: Se muestra como el robotcito está armado por partes y piezas, la implementación de una personalidad incluyendo piezas impresas en 3D y sensores también como parte del diseño.
 
 [Robot otto](https://www.ottodiy.com)
