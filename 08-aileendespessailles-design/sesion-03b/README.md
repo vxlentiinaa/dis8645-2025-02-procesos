@@ -20,9 +20,9 @@ Arduino Uno pin ENTRADAS:
 *A5 - SCL
 *A4 - SDA
 
-- Librerías para usar la pantalla (github):
+Librerías para usar la pantalla (github):
 1- Adafruit_SSD1306 <https://github.com/adafruit/Adafruit_SSD1306>
-2-Adafruit-GFX-Library <https://github.com/adafruit/Adafruit_SSD1306>
+2- Adafruit-GFX-Library <https://github.com/adafruit/Adafruit_SSD1306>
   
 ```cpp
 #include <Wire.h>
@@ -57,5 +57,3 @@ intento 3: agregamos la foto de santiago https://wokwi.com/projects/440548077248
 intento 4: casi listo, pero no mostraba la ultima linea del poema https://wokwi.com/projects/440548344446009345
 
 intento 5: versión final, sin corregir comentarios y modales https://wokwi.com/projects/440548344446009345
-
-  
