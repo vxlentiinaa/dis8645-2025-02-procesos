@@ -20,7 +20,6 @@ Martes 23 de Septiembre de 2025
 1. Tipo dc ➜ alta velocidad, corriente directa es rápido y no sabe donde esta. Se usan en drones, ventiladores, en  el vibrador del teélfono, etc.
 2. Paso a Paso ➜ lento, preciso y sabe cuanto se puede mover.
 3. Servomotor ➜ es preciso para hacer movimientos en ciertos ángulos.
-4. 
 
 ## 🛠️ ENCARGO: 17 de octubre se entrega.
 - 26/09: clases y parámetros aplicadas a sensores.
