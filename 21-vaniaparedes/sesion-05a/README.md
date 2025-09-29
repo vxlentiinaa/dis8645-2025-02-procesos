@@ -9,18 +9,14 @@ El estudio de las cosas como aparecen
 
 Según gemini: La programación orientada a objetos (POO) es un paradigma de programación que organiza el software alrededor de objetos, que son entidades que combinan datos (atributos) y el comportamiento asociado (métodos). Las clases actúan como plantillas para crear estos objetos, permitiendo la reutilización de código, el desarrollo de sistemas complejos y el mantenimiento del software. Sus pilares son la abstracción, el encapsulamiento, la herencia y el polimorfismo, que ayudan a gestionar la complejidad y a crear soluciones más robustas y eficientes.
 
-Conceptos Clave
+#### Conceptos Clave
 
-+ **Objeto:**
-Es una instancia de una clase que tiene un estado (sus atributos), un comportamiento (sus métodos) y una identidad propia que lo distingue de otros objetos.
-+ **Clase:**
-Es un plano o plantilla que define la estructura y el comportamiento de los objetos. Por ejemplo, una clase "Coche" define que todos los coches tienen atributos como color o marca y métodos como "acelerar".
-+ **Atributos (o propiedades):**
-Son los datos que describen el estado de un objeto. Siguiendo el ejemplo de "Coche", serían el color, la marca, etc.
-+ **Métodos:**
-Son las funciones o comportamientos que un objeto puede realizar. En la clase "Coche", "acelerar" y "frenar" serían métodos.
++ **Objeto:** Es una instancia de una clase que tiene un estado (sus atributos), un comportamiento (sus métodos) y una identidad propia que lo distingue de otros objetos.
++ **Clase:** Es un plano o plantilla que define la estructura y el comportamiento de los objetos. Por ejemplo, una clase "Coche" define que todos los coches tienen atributos como color o marca y métodos como "acelerar".
++ **Atributos (o propiedades):** Son los datos que describen el estado de un objeto. Siguiendo el ejemplo de "Coche", serían el color, la marca, etc.
++ **Métodos:** Son las funciones o comportamientos que un objeto puede realizar. En la clase "Coche", "acelerar" y "frenar" serían métodos.
 
-### Las 10 categorías de Aristóteles
+#### Las 10 categorías de Aristóteles
 
 El propone que cada ente/objeto en el universo tiene 10 categorías
 
@@ -35,7 +31,7 @@ El propone que cada ente/objeto en el universo tiene 10 categorías
 + Acción
 + Pasión
 
-### C programming language
+#### C programming language
 
 + C++ = Cpp
 
@@ -44,11 +40,10 @@ El propone que cada ente/objeto en el universo tiene 10 categorías
 + It´s not C++ nor C#
 + C++ = Le damos toda la información posible al computador para que trabaje menos.
 
-**Bjarne Stroustrup**
-Según engineering.columbia: Es el diseñador e implementador original de C++, así como el autor de The C++ Programming Language (4.ª edición) y A Tour of C++ (3.ª edición), Programming: Principles and Practice using C++ (3.ª edición) y muchas publicaciones populares y académicas.
+**Bjarne Stroustrup** Según engineering.columbia: Es el diseñador e implementador original de C++, así como el autor de The C++ Programming Language (4.ª edición) y A Tour of C++ (3.ª edición), Programming: Principles and Practice using C++ (3.ª edición) y muchas publicaciones populares y académicas.
 ![Bjarne](./imagenes/bjarne.jpg)
 
-### Lenguajes de programación
+#### Lenguajes de programación
 
 + **Openframewoks:** Programa de programacion para videojuegos C++.
 + **SuperCollider:** Language que se usa para modelar sintetizadores, generar patrones sonoros, procesar audio, y construir interfaces gráficas para interactuar con el sonido.
@@ -56,18 +51,18 @@ Según engineering.columbia: Es el diseñador e implementador original de C++, a
 + **Chuck:** Audio Programming, highly timed.
 + **Turing complete:** Un lenguaje que puede hacer tdoo lo que un computador puede hacer.
 
-## Clases
+#### Clases
 
 Las clases nos permiten que con su infraestructura podamos hacer lo que nosotros queramos.
 
-### Diferentes files en Arduino
+#### Diferentes files en Arduino
 
 Para distribuir información entre arvichos de arduino y el código no se haga tan largo/confuso o ahorrarnos tiempo, en un archivo de Arduino se agrega un nuevo file guardándolo como "archivo.h" y un "archivo.cpp" de este mismo, luego en el código inicial (.ino) poner: #include "archivo.h" para incluir la info de esos otros files a este código.
 
 + El primer archivo es para definir (.h) "promete"
 + El segundo archivo es para definir como se hace o como se comporta (cpp) "hazte cargo"
   
-### Mi primer cpp
+#### Mi primer cpp
 
 + Esqueleto de un archivo.h:
 
@@ -97,10 +92,9 @@ const int numEstudiantes = 29;
 + "" aqui mismo
 + <> Dónde sea que esté
 
-  ### Ejemplo Clase
+  #### Ejemplo Clase
 
-  **ARCHIVO.INO**
-  Este inluye (#include) el resto archivos .h y .cpp para ocupar su información sin tener que añadirla al código principal.
+  **ARCHIVO.INO** Este inluye (#include) el resto archivos .h y .cpp para ocupar su información sin tener que añadirla al código principal.
 
 ```cpp
 #include "constantes.h"
@@ -144,8 +138,7 @@ void loop() {
 }
 ```
 
-**PRIMER ARCHIVO.H**
-En este se define, en este caso "persona"
+**PRIMER ARCHIVO.H** En este se define, en este caso "persona"
 Este contiene un constructor y un destructor(~) que tienen el mimo nombre del archivo.
 
 ```cpp
@@ -194,8 +187,7 @@ public:
 #endif
 ```
 
-**PRIMER ARCHIVO.CPP**
-¿Cómo se comporta? Se incluye el archivo (.h)
+**PRIMER ARCHIVO.CPP** ¿Cómo se comporta? Se incluye el archivo (.h)
 
 ```cpp
 #include "Persona.h"

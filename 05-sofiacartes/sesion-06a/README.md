@@ -2,38 +2,29 @@
 
 ## Apuntes clase
 
-### Scratch 
+[Scratch](https://scratch.mit.edu/): Es un software de programación. Estrategia de programar con bloques. Fue desarrolldo por MIT Media Lab.
 
-Es un software de programación. Estrategia de programar con bloques.
+[Pure data](https://puredata.info/): Es un software para programar audios. Está programado en C++.
   
-<https://scratch.mit.edu/>
-
-### Pure data
-
-Es un software para programar audios.
+- Miller Puckette: Es un matemático, programador y profesor de música estadounidense, director asociado del CRSA, así como miembro del claustro de la facultad de la UC University of California en San Diego donde trabaja desde 1994. Cycling 74 esta empresa vende un software llamado `Max map`.
   
-<https://puredata.info/>
+Hizo nueva versión.
 
-- pd está programado en c++.
-- Miller Puckette hizo nueva versión.
-- **dac** : de digital a análogo.
-- las cajitas que están arriba son entradas y las de abajo son salidas.
-- si creo un pd se hace un subpach.
-- la **~** es para la salida del sonido.
+- **Max**: Gráficas para hacer audios
+- **dac**: De digital a análogo.
+- las cajitas que están arriba son entradas y las de abajo son salidas. input/output.
+- la `~` es la salida del sonido.
+- si creo un `pd` se hace un subpach.
+- Lint: Proceso de automatización para corregir errores, por ejemplo, sacar las pelusas de la ropa.
+- YAML: Es un formato de serialización de datos legible por humanos que se utiliza principalmente para archivos de configuración y para transmitir datos ente sistemas, gracias a su facil lectura y escritura. Pueden variar los inputs y output.
   
 ---
 
-- max msp
-- touchdesinger
-- isadora software
 - programación en estado de objetos
 - [lauren lee mccarthy tools for improved social interacting](https://get-lauren.net/Tools-for-Improved-Social-Interacting)
 - [renata gaui hysterical wearable](https://vimeo.com/215600031?fl=pl&fe=sh)
-  
----
-- Lint hacker proceso automatizado de limpieza/orden de estilos.
-- yaml: tipo de lenguaje para configurar cosas “para decir las cosas son así”.
-- lo que está un poquito mas adentro, es lo que está adentro.
+- [Touchdesigner](https://derivative.ca/)
+- [Isadora software](https://en.wikipedia.org/wiki/Isadora_(software))
 
 ---
 
@@ -43,7 +34,6 @@ on
 
  Hay un espacio antes 
 
-
 - En c++ son los murciélagos {}.
 - Arduino controlled namaste gratin robot.
   
@@ -51,7 +41,7 @@ on
 
 **Sensor**: entrada a nuestra caja negra.
 
-Actuador: salida.
+**Actuador:** salida.
 
 - obs
 - Ultrasonico : emitir un pulso y detecta el ultrasonido y cuenta en cuanto se demora en devolverse.
@@ -113,6 +103,7 @@ Después,el pin ECHO cambia a Alto por un tiempo igual al que demoró la onda, d
 - <https://proyectosinteresantes.com/10-proyectos-de-arduino-con-el-sensor-ultrasonico-hc-sr04/>
 
 ### Ideas de cómo utilizarlo
+
 1. Al acercarse a distintas distancias haga sonidos distintos mediante un parlante, así poder jugar/crear distintas melodías.
 2. Al detectar a alguien cerca se activa un motor y abre algo.
 3. Que detecte a una persona en algun espacio y si no tiene presencia de nadie que se apaguen las luces.
