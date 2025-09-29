@@ -67,6 +67,24 @@ Es una extensión que permite registrar datos, se conecta directo a una placa Ar
 
  "cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README."
 
+Diagrama en mermaid.js:
+
+flowchart TD
+    A["Se inicia la pantalla"] --> B["Mostrar el menú principal de idiomas"]
+    B --> C{"¿Se mueve el encoder?"}
+    C -- NO --> B
+    C -- SÍ --> D["Usuario selecciona idioma"]
+    D --> E{"¿Se presiona el botón del encoder para confirmar?"}
+    E -- NO --> C
+    E -- SÍ --> F["Mostrar mensaje: Haz un sonido para reproducir o presiona el botón para volver"]
+    F --> G{"¿El sensor detecta sonido?"}
+    G -- SÍ --> H["Reproducir saludo en el idioma elegido"]
+    G -- NO --> I{"¿El botón está presionado?"}
+    H --> F
+    I -- NO --> F
+    I -- SÍ --> J["Volver al menú principal"]
+    J --> B
+
 ### Encargo 15
  
 "cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores."
