@@ -6,19 +6,19 @@ Martes 09 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
-[Puredata](https://puredata.info/) PD, Para generar sonidos y programar el estado de los objetos, se utiliza C++.
+- [Puredata](https://puredata.info/) PD, Para generar sonidos y programar el estado de los objetos, se utiliza C++.
 
-Software de creación de sonido y multimedia
+- Software de creación de sonido y multimedia
 
-Max 9
+- Max 9
 
-Pure Data: similar a Max 9, creado por [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) 
+- Pure Data: similar a Max 9, creado por [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette) 
 
-TouchDesigner: desarrollado por Sergio Mora Díaz
+- TouchDesigner: desarrollado por Sergio Mora Díaz
 
-vvvv
+- vvvv
 
-Isadora
+- Isadora
 
 ### Estilos de escritura en GitHub y Actions
 
@@ -87,6 +87,8 @@ over engineer
 - [Sergio Mora Diaz](https://www.sergiomoradiaz.com/)
 
 - [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth)
+
+---
 
 ## Engargo-11: investigar sensores
 

@@ -1,45 +1,52 @@
 # sesion-06b 12/09
 
-## Teloneo
+## Apuntes clase
 
-- **ffmpeg**:Colección de software libre que puede grabar, convertir y hacer streaming de audio y vídeo.
-- **mp4**: Para almacenar los formatos audiovisuales especificados por ISO/IEC.
-- **mp**: Solo el audio, tipo podcast.
-- **grep**: Permite buscar en texto.
-- **videogrep**: Buscar en videos.
-- **supercut**: Tipo de edición de video que consiste en un montaje de clips cortos con el mismo tema.
-- **spaCy**: Librería de software para procesamiento de lenguajes. Programado en lenguaje Python.
-  
----
-### Tesis mateo [matbutom](https://github.com/matbutom)
+Teloneo
 
+- ` ffmpeg`:Colección de software libre que puede grabar, convertir y hacer streaming de audio y vídeo.
+- ` mp4` : Para almacenar los formatos audiovisuales especificados por ISO/IEC.
+- `mp`: Solo el audio, tipo podcast.
+- `grep`: Permite buscar en texto.
+- `videogrep`: Buscar en videos.
+- `supercut`: Tipo de edición de video que consiste en un montaje de clips cortos con el mismo tema.
+- `spaCy`: Librería de software para procesamiento de lenguajes. Programado en lenguaje Python.
+
+### Tesis Mateo 
+
+[matbutom](https://github.com/matbutom)
+
+-Tipografía en la propaganda política chilena
 - serif display, rotulos y sans serif.
-- Se encarga de buscar las tipografias en todos los archivos 
-- **transpilar**: Compilar algo que estaba en python. eso hizo mateo.
-- **shuffle**: Es un código para que no se repita a cada rato.
+- Se encarga de buscar las tipografias en todos los archivos
+- `compilar`: Pasar de lenguaje legible de humano a máquina.
+- `transpilar`: Compilar algo que estaba en python. eso hizo mateo.
+- `shuffle`: Es un código para que no se repita a cada rato.
   
 ---
 
-Encontrar comportamientos e intensionarlos.
+Importante:
 
-Primero escribir los comentarios y después programarlo.
+- Encontrar comportamientos e intensionarlos.
+- Primero escribir los comentarios y después programarlo.
 
----
+### Tesis Janis 
 
-### Tesis janis [janisepulveda](https://github.com/janisepulveda)
+[janisepulveda](https://github.com/janisepulveda)
 
+- Neuralgía del trigemino, como desde el diseño podemos transformar lo invisible en algo visible.
 -  Como desde el diseño podemos transformar algo invisible a algo visible.
 -  Amuleto para ver el tema de las crisis.
--  **flutter** para crear apps. tiene acceso a materials de google.
--  Está trabajando con **esp32** super mini
--  **bluethooth low energy**, utiliza baja energía
--  **BlE**: Se usa para cosas muy específicas. Solo se coneta a eso.
+-  [Flutter](https://flutter.dev/?utm_source=google&utm_medium=cpc&utm_campaign=brand_sem&utm_content=latam_latam&gclsrc=aw.ds&gad_source=1&gad_campaignid=13034410696&gbraid=0AAAAAC-INI_zdUFH-tcI12hAaTPWRbqpN&gclid=CjwKCAjwiY_GBhBEEiwAFaghvsei6-ya9YH7SR2JM56XgK4IHPnrq-MMlnvseSFaGbWq6hkgPWrkghoCk4cQAvD_BwE): Para crear apps. tiene acceso a materials de google, donde se puede utilizar iconografías y/o tipografías.
+-  Está trabajando con `esp32` super mini.
+-  `bluethooth low energy`, utiliza baja energía.
+-  `BlE`: Se usa para cosas muy específicas. Solo se coneta a eso.
   
 ---
 
-### ejercicio en clases
+#### Ejercicio en clases
 
-#### especificar ideas, version iterada de nuestros compañeros.
+Especificar ideas, version iterada de nuestros compañeros.
 
 Sensor de proximidad 
 
