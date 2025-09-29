@@ -110,3 +110,79 @@ para esto necesitamos los siguientes sensores:
 - en el sensor ultrasónico hc sr04 misaaa no lo recomienda mucho porque es un poco impreciso en cuanto a la detección de objetos, si algo se mueve un poco o no está en el grado/ángulo que necesitamos puede fallar
 - nos recomendó otro tipo de sensor [sensor de distancia por tof](https://afel.cl/products/sensor-de-distancia-por-tof-vl53l0x)
 - este sensor es más preciso para este tipo de proyectos pero misaaaa quiere que nos enfremos a las complejidades del ultrasónico hc por lo cuál de momento utilizaremos ese y aprenderemos sus mañas
+
+#### encargo 12 leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes
+
+#### grupo waos (mosswhosmoss, sebastiansaez1003, coff4, aileendespessaillesdesign)
+
+- el grupo waos propone " Una máquina que, al tener o no tener frío, te saluda agitando un dispositivo que tendrá. Esta máquina te dará un feedback a través de un display para explicar si es que no te va a saludar por el frío o si te va a saludar por el frío. Esta funcionará a partir de un sensor de temperatura, donde el rango de funcionamiento estaría especificado como menos de 20 °C."
+
+- el paso a paso de la máquina sería el siguiente:
+
+- 1. Máquina inicia en estado neutro
+  2. Si no detecta a nadie se mantiene en este estado, en donde ambas manos estarán en suspensión y en la pantalla no se mostrará nada
+  3. Si detecta a una persona, se esperan 3 segundos para actuar según la temperatura medida en el ambiente
+  4. Si la temperatura es menor o igual a (15) grados celsius, el servomotor no actuará y mostrará en display un mensaje del porqué no quiere saludar, además de una expresión facial importada a través del Arduino que se puede observar en el display
+  5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial.
+  6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
+  7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
+ 
+- para ello utilizarán: servomotor sg90, LDR x 5 unidades, sensor ultrasónico HC-SR04, pantalla led, sensor de temperatura y humedad DHT11
+
+ #### similitudes con nuestro proyecto
+- ambos proyectos a modo de entrada deben detectar a una persona
+- ambos proyectos utilizan un sensor ultrasónico HC-SR04 para detectar si hay una persona o no cerca del objeto
+- ambos proyectos utilizan servomotores y algo que se "mueve"
+- puede que ambos proyectos tengan dificultades con la precisión del sensor ultrasónico HC-SR04, podrían enfrentar desafíos parecidos en cuanto a esto
+
+#### diferencias con nuestro proyecto
+
+- no utilizan ningún módulo de sonido o algo que emita sonido y/o actúe según este medio
+- utilizan una pantalla
+- utilizan sensores de temperatura
+- de momento nuestro proyecto no contempla alguna especie de "ciclo" o "duración" para las acciones, falta determinar eso
+- no tenemos un modo neutro como tal
+
+#### preguntas y aciertos
+
+- me surge la duda de cómo la persona sabe que la máquina la detectó cuando esté cerca, durante esos 3 segundos de espera para que actúe, ¿hay algo que me diga que la máquina está evaluando si actuar o no? algo como un modo espera o signo de "cargando"
+- no me queda muy claro el "ciclo del saludo" ¿se refiere a que el saludo dura 15 segundos, viene una mini interrupción y te saluda otra vez? ¿cómo sé cuándo se termina un ciclo de saludo y comienza otro, o estoy 45 segundos viendo el mismo saludo?
+- me parece muy interesante la jugada de hacer una máquina que funcione en base a temperatura y también que la máquina inicie y termine en modo neutro, creo que agregaría algo que te diga que está en modo neutro y no en apagado, quizá eso puede generar alguna confusión
+- me parece bacán que la máquina muestre una expresión facial cuando te saluda, lo hace sentir más cercano porque uno siempre que saluda hace alguna expresión facial
+- me gusta que la máquina te salude en base a una condición que se debe cumplir, igual pesada la máquina friolenta, viva el frío, abajo el verano
+
+- toda la info sobre el proyecto fue sacada de la bitácora 7a de [aileendespessaillesdesign](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design/sesion-07a)
+
+
+#### grupo chispop (antokiaraa, javieramoraga-rgb, ppia97, hiinalia, Joquape)
+
+- definen su proyecto como una máquina que te saluda en distintos idiomas
+- la entrada del proyecto es: primero quiero seleccionar un idioma en un menú y después detectar un sonido
+- la salida del proyecto es: queremos que se despliegue un menú en una pantallita para elegir un idioma y que salude en el idioma seleccionado a través de sonido y mensaje en pantalla
+- para esto utilizarán los siguientes sensores: sensor de sonido, sensor de sonido digital, sensor sonido micrófono análogo digital ky-037, encoder pulsador, pantalla OLED, módulo reproductor mp3
+
+#### similitudes con nuestro proyecto 
+
+- ambos proyectos utilizan sonido grabado en módulos mp3
+- ambos proyectos utilizan el sonido como uno de sus ejes centrales
+
+#### diferencias con nuestro proyecto
+
+- no poseen algo que tenga movimiento, es todo ligado a pantalla y audio
+- no utilizamos ningún idioma fuera del español
+- este proyecto no va por el lado del "humor" o lo "absurdo" es algo más serio
+
+#### preguntas y aciertos
+
+- me parece muy bacán que funcione en distintos idiomas, si se desarrollara en el futuro podría ser una gran herramienta de traducción utilizada en ámbitos turísticos
+- ¿en cuántos idiomas va a saludar?
+- ¿la traducción de los idiomas estará en español dentro de la pantalla? ejemplo: que diga alemán y no deutsch, para que podamos entenderlo
+- ¿cómo selecciono el idioma que quiero?
+- ¿la voz que salude en cualquiera de los idiomas será la misma para todos los idiomas? o cambiarán los "personajes" que interpretan la voz por así decirlo
+- cuando selecciono el idioma y me saluda, ¿hay algún modo de reestablecer la pantalla para retroceder al menú de idiomas?
+
+#### grupo 
+
+
+
+
