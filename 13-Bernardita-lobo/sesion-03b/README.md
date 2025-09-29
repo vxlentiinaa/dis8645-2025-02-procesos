@@ -1,16 +1,18 @@
 # Sesión-03
 
-## Trabajo en clase / Viernes 22 de agosto , 2025
+Viernes 22 de agosto , 2025
+
+## Trabajo en clase
 
 ### Cosas que hablamos en la mañana
 
-Hablamos de las pantallas y la cantidad de pixeles que tienen, y cómo eso influye en la resolución y en cómo hay que programar.
+- Hablamos de las pantallas y la cantidad de pixeles que tienen, y cómo eso influye en la resolución y en cómo hay que programar.
 
-El Arduino puede enviar datos a las displays.
+- El Arduino puede enviar datos a las displays. Displays con menos píxeles, con segmentos, por ejemplo el de 7 segmentos que estudiamos el semestre pasado.
 
-Displays con menos píxeles, con segmentos, por ejemplo el de 7 segmentos que estudiamos el semestre pasado.
+- Nos mostraron un ejemplo de un diseñador que utiliza esas pantallas, pero tienen unos códigos diferentes.
 
-Nos mostraron un ejemplo de un diseñador que utiliza esas pantallas, pero tienen unos códigos diferentes.
+### Displays
 
 Matriz LED 8x8, display de puntos, se utiliza con un chip MAX7219.
 
@@ -88,6 +90,8 @@ Es difícil hacer que funcionen los códigos en nuestros computadores, pero es a
 <https://www.instagram.com/nrmbnt/?hl=es> tesis de flores en pantallas que se mueven
 
 ### Palabras importantes
+
+---
 
 ## Encargo
 

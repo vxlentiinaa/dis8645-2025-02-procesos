@@ -1,14 +1,16 @@
 # Sesión-04a
 
-## Trabajo en clase / Martes 26 de agosto, 2025
+Martes 26 de agosto, 2025
+
+## Trabajo en clase
 
 ### Cosas que pasaron en la mañana
 
-Primero nos entregaron las pantallas OLED SSD y nuestras cajitas para los componentes, una para cada estudiante. Les pusimos nombres con la etiquetadora de Aarón.
+- Primero nos entregaron las pantallas OLED SSD y nuestras cajitas para los componentes, una para cada estudiante. Les pusimos nombres con la etiquetadora de Aarón.
 
-También nos entregaron unas pantallas redondas para investigar por grupo.
+- También nos entregaron unas pantallas redondas para investigar por grupo.
 
-Hablamos un poco sobre la documentación subida a GitHub, ya que recién comenzaron a evaluarla.
+- Hablamos un poco sobre la documentación subida a GitHub, ya que recién comenzaron a evaluarla.
 
 ### Proyecto-01
 
