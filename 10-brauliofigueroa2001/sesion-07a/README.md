@@ -111,9 +111,9 @@ para esto necesitamos los siguientes sensores:
 - nos recomendó otro tipo de sensor [sensor de distancia por tof](https://afel.cl/products/sensor-de-distancia-por-tof-vl53l0x)
 - este sensor es más preciso para este tipo de proyectos pero misaaaa quiere que nos enfremos a las complejidades del ultrasónico hc por lo cuál de momento utilizaremos ese y aprenderemos sus mañas
 
-#### encargo 12 leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes
+encargo 12 leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes
 
-#### grupo waos (mosswhosmoss, sebastiansaez1003, coff4, aileendespessaillesdesign)
+ grupo waos (mosswhosmoss, sebastiansaez1003, coff4, aileendespessaillesdesign)
 
 - el grupo waos propone " Una máquina que, al tener o no tener frío, te saluda agitando un dispositivo que tendrá. Esta máquina te dará un feedback a través de un display para explicar si es que no te va a saludar por el frío o si te va a saludar por el frío. Esta funcionará a partir de un sensor de temperatura, donde el rango de funcionamiento estaría especificado como menos de 20 °C."
 
@@ -129,13 +129,14 @@ para esto necesitamos los siguientes sensores:
  
 - para ello utilizarán: servomotor sg90, LDR x 5 unidades, sensor ultrasónico HC-SR04, pantalla led, sensor de temperatura y humedad DHT11
 
- #### similitudes con nuestro proyecto
+  similitudes con nuestro proyecto
+  
 - ambos proyectos a modo de entrada deben detectar a una persona
 - ambos proyectos utilizan un sensor ultrasónico HC-SR04 para detectar si hay una persona o no cerca del objeto
 - ambos proyectos utilizan servomotores y algo que se "mueve"
 - puede que ambos proyectos tengan dificultades con la precisión del sensor ultrasónico HC-SR04, podrían enfrentar desafíos parecidos en cuanto a esto
 
-#### diferencias con nuestro proyecto
+ diferencias con nuestro proyecto
 
 - no utilizan ningún módulo de sonido o algo que emita sonido y/o actúe según este medio
 - utilizan una pantalla
@@ -143,7 +144,7 @@ para esto necesitamos los siguientes sensores:
 - de momento nuestro proyecto no contempla alguna especie de "ciclo" o "duración" para las acciones, falta determinar eso
 - no tenemos un modo neutro como tal
 
-#### preguntas y aciertos
+ preguntas y aciertos
 
 - me surge la duda de cómo la persona sabe que la máquina la detectó cuando esté cerca, durante esos 3 segundos de espera para que actúe, ¿hay algo que me diga que la máquina está evaluando si actuar o no? algo como un modo espera o signo de "cargando"
 - no me queda muy claro el "ciclo del saludo" ¿se refiere a que el saludo dura 15 segundos, viene una mini interrupción y te saluda otra vez? ¿cómo sé cuándo se termina un ciclo de saludo y comienza otro, o estoy 45 segundos viendo el mismo saludo?
@@ -154,25 +155,25 @@ para esto necesitamos los siguientes sensores:
 - toda la info sobre el proyecto fue sacada de la bitácora 7a de [aileendespessaillesdesign](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design/sesion-07a)
 
 
-#### grupo chispop (antokiaraa, javieramoraga-rgb, ppia97, hiinalia, Joquape)
+ grupo chispop (antokiaraa, javieramoraga-rgb, ppia97, hiinalia, Joquape)
 
 - definen su proyecto como una máquina que te saluda en distintos idiomas
 - la entrada del proyecto es: primero quiero seleccionar un idioma en un menú y después detectar un sonido
 - la salida del proyecto es: queremos que se despliegue un menú en una pantallita para elegir un idioma y que salude en el idioma seleccionado a través de sonido y mensaje en pantalla
 - para esto utilizarán los siguientes sensores: sensor de sonido, sensor de sonido digital, sensor sonido micrófono análogo digital ky-037, encoder pulsador, pantalla OLED, módulo reproductor mp3
 
-#### similitudes con nuestro proyecto 
+ similitudes con nuestro proyecto 
 
 - ambos proyectos utilizan sonido grabado en módulos mp3
 - ambos proyectos utilizan el sonido como uno de sus ejes centrales
 
-#### diferencias con nuestro proyecto
+ diferencias con nuestro proyecto
 
 - no poseen algo que tenga movimiento, es todo ligado a pantalla y audio
 - no utilizamos ningún idioma fuera del español
 - este proyecto no va por el lado del "humor" o lo "absurdo" es algo más serio
 
-#### preguntas y aciertos
+ preguntas y aciertos
 
 - me parece muy bacán que funcione en distintos idiomas, si se desarrollara en el futuro podría ser una gran herramienta de traducción utilizada en ámbitos turísticos
 - ¿en cuántos idiomas va a saludar?
@@ -183,7 +184,7 @@ para esto necesitamos los siguientes sensores:
 
 - la información fue sacada de la bitácora 7a de [Joquape](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/24-joquape/sesion-07a)
 
-#### grupo 03 (terroiblea,valechavezalb,notcaamila,Nicolas-Miranda1312,MiguelVera23)
+ grupo 03 (terroiblea,valechavezalb,notcaamila,Nicolas-Miranda1312,MiguelVera23)
 
 - el proyecto se define como: una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
 
@@ -191,18 +192,18 @@ para esto necesitamos los siguientes sensores:
 
 - sensores a utilizar: sensor de color Tcs230-Tcs3200, pantalla TFT circular 1,24 pulgadas RGB 240x240, Porotobard, Cables de conexión, Arduino, Módulo grabación/reproducción de Audio ISD1820 con micrófono integrado, Módulos Reproductos MP3 DFPLayer Mini, Mini parlanta Altavoz de 3w, Chicles de bolitas de colores
 
-#### similitudes con nuestro proyecto
+ similitudes con nuestro proyecto
 
 - ambos poseen un módulo de sonido/audio que contiene un mensaje en su interior
 - ambos proyectos tienen ojos como tal
 
-#### diferencias con nuestro proyecto
+ diferencias con nuestro proyecto
 
 - el ojo acá va en una pantalla, en nuestro proyecto el ojo es un objeto físico y se mueve con servomotor
 - la forma en cómo se emplea el saludo es muy distinta
 - la forma del proyecto, este es un objeto completo, el nuestro tiene módulos que van por separado
 
-#### preguntas y aciertos
+ preguntas y aciertos
 
 - me gusta mucho que sea un monstruo que no es de este mundo, ojalá hubiera existido un dispensador de chicles/juguetes así cuando era chico
 - me da un aura de toystory, es algo que pudo haber estado en pizzaplanet (toystory 1)
@@ -214,7 +215,7 @@ para esto necesitamos los siguientes sensores:
 
 - toda la info fue sacada de la bitácora 7a de [valechavezalb](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/07-valechavezalb/sesion-07a)
 
-#### grupo Hijos de la tierra (AntFuentealba,SantiagoClifford,sofia-perezm,felix-rg416)
+ grupo Hijos de la tierra (AntFuentealba,SantiagoClifford,sofia-perezm,felix-rg416)
 
 
 
