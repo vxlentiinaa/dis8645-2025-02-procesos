@@ -99,6 +99,39 @@ dudas/ataos:
 se parece mucho a lo que quiere hacer otro grupo
 no sabemos si se puede usar palabras con caracteres en otro idioma en la pantallita
 
+## Encargo
+
+2 referentes para cada una de las categorías.
+
+### Lenguaje
+
+<https://www.youtube.com/@MarcoMeatball>
+
+MarcoMeatball es un cantante de ópera que ahora trabaja como actor de doblaje y hace videos reaccionando a distintas piezas musicales dentro de la industria de los videojuegos. Personalmente, siento que tiene una manera muy expresiva y agradable de hablar. Eso probablemente se debe a su entrenamiento como cantante. Sería un buen referente en el caso de grabar nuestras propias voces para los saludos, y que no quede plano.
+
+<https://www.youtube.com/@TheInfographicsShow>
+
+The Infographics Show es un canal dedicado a explicar varios temas en distintas áreas, utilizando un lenguaje simple de entender para cualquier persona. Pienso que en presentaciones, hay que considerar que no todo el mundo va a poder entender lenguaje técnico, por lo que es importante saber explicar temas en simples palabras. Me gusta este canal por su simpleza, fácil de entender, preciso y conciso.
+
+### Código
+<https://github.com/forntoh/LcdMenu>
+Encontré esta biblioteca en GitHub que permite crear sistemas de menús en arduino. Sería muy útil tenerlo a mano para entender cómo funciona un código de un menú y además entender los elementos de la interfaz para que el usuario sea capaz de interactuar de manera eficiente.
+
+<https://www.instructables.com/Clapper-LED-Candle>
+
+Este referente es una vela LED que se prende y se apaga aplaudiendo. La verdad es que no entendí muy bien cuál fue el proceso, los componentes, y el código, ya que hay mucho vocabulario que no entiendo bien. Aún así siento que me inspira para conseguir el resultado de que el arduino reproduzca el sonido cada vez que aplauda. Puede ser un buen acercamiento a lo que sería el proceso.
+
+### Documentación
+
+<https://projecthub.arduino.cc/rexhepmustafovski/build-a-simple-digital-keyboard-that-plays-real-notes-using-arduino-373f0e>
+
+Me gusta la forma en que documenta esta persona. Incluyó una lista de componentes, explicó cómo funciona su sistema, incluyendo diagramas para entender mejor. Mi parte favorita es que incluye una sección donde explica en varios puntos las cosas que puede aprender un estudiante de su proyecto. Me inspira a pensar el proyecto 02 como una oportunidad de enseñar también.
+
+### Materialidad
+
+<https://www.instructables.com/Add-Voice-to-Your-Arduino-Projects-Without-Using-A>
+
+Este referente aporta a mi proyecto directamente en el caso de que quiera usar componentes fuera de lo que se compra. En vez de utilizar un reproductor mp3 con tarjeta SD, enseña como utilizar cualquier parlante en casa para evitar gastos extra. Esta es una buena opción en el caso de no tener disponible el reproductor si quiero que mi arduino reproduzca un sonido.
 
 
 
