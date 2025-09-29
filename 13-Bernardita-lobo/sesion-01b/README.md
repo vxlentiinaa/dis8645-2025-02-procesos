@@ -1,6 +1,8 @@
 # Sesión-01b
 
-## Trabajo en clase / Viernes 08 de agosto, 2025
+Viernes 08 de agosto, 2025
+
+## Trabajo en clase
 
 ### Cosas que hablamos en la mañana
 
@@ -101,6 +103,8 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 [Variables:](https://www.flexbot.es/variables-y-constantes-en-arduino/) Una variable es la manera que tenemos de guardar valores. Las variables tienen nombre y son de un solo tipo. Estas variables se pueden usar para muchas cosas: comprobaciones, operaciones matemáticas. Una variable puede ser declarada al inicio del programa, antes del setup(), dentro de otras funciones o dentro de un control de flujo.
 
 [Hardware:](https://www.lenovo.com/cl/es/glosario/hardware/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor3Gt7B6Y6xNSJNojEyvhr_MUmAUAT3oOphR7g2wk_2xoFBj4NQ) El hardware se refiere a los componentes físicos de un sistema informático que puedes ver y tocar. Esto incluye dispositivos como la unidad central de procesamiento (CPU), módulos de memoria, discos duros, teclados, mouse, monitores y otros periféricos.
+
+---
 
 ## Encargo-03: Programar y equivocarse 5 veces
 

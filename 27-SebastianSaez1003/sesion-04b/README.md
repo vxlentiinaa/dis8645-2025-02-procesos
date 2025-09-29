@@ -34,7 +34,7 @@ También ha hecho muchas charlas, que están disponibles para poder escuchar des
 
 Desde su portafolio encontré una obra que es del año 2007 titulada [“@everyword”](https://github.com/aparrish/everywordbot ), que tenía la misión de twittear absolutamente todas las palabras del idioma inglés de manera alfabética, donde se demoró aproximadamente 7 años en terminar.
 
-(foto del everyword)
+![Página principal de Twitter al buscar Everyword.](./imagenes/sesion-04b-Everyword.png)
 
 También otra obra que me llamó la atención fue ["A Gutenberg Poetry Corpus / Gutenberg, Dammit”](https://github.com/aparrish/gutenberg-poetry-corpus), primero por el título, que contenía Gutenberg, un nombre muy importante en el ámbito del diseño, refiriéndose a Johannes Gutenberg, uno de los padres de la tipografía, que imprimió la Biblia de 42, que fue el primer libro impreso con tipos móviles, pero no se trataba sobre esto particularmente la obra, sino de la recopilación de 3 millones de líneas de poesía de una corporación con el nombre de “Project Gutenberg”, que es una librería de más de 75.000 ebooks totalmente gratis.
 
@@ -65,7 +65,11 @@ Entre estas, unas de las que más me llamaron la atención son:
 
 [“The Deletionist”](https://thedeletionist.com/) donde él, Amaranth Borsuk y Jesper Juul crearon un sistema para generar “erasure poetry” a partir de cualquier página web. Realmente me parece brutal la existencia de una página que cree este tipo de poesía, que al menos yo asocio a documentos que han sido censurados, pero de esta manera, ocurriendo en el mundo digital.
 
-(Subir fotos de cómo lo usé en unas páginas web).
+![The Deletionist usado en mi repositorio de GitHub](./imagenes/sesion-04b-TheDeletionist.png)
+
+![The Deletionist usado en la página de instrucciones del programa](./imagenes/sesion-04b-TheDeletionist2.png)
+
+![Instrucciones de The Deletionist](./imagenes/sesion-04b-TheDeletionist3.png)
 
 [“Ad Verbum”](https://nickm.com/if/adverbum.html) un juego de ficción interactiva, que realmente me impacta al saber que salió en el año 2000; hace 25 años ya existía un juego gracioso con el que literalmente tienes que ingeniárselas para poder resolver el enigma que te presentan, aunque realmente soy malo, ya que no me lo pasé, pero su existencia me fascinó.
 
@@ -74,7 +78,14 @@ Referencias:
  
 - https://en.wikipedia.org/wiki/Nick_Montfort  
 
-
 ### Martín Gubbins
 
-ble
+Extracto directamente de su página web: 
+
+“Martín Gubbins (Santiago, 1971), es una figura destacada de la escena literaria de vanguardia en Latinoamérica. En diversos países ha publicado libros de poesía y poesía visual y ha grabado poesía sonora solo y con otros artistas. Su obra aparece en decenas de antologías y ha participado en exposiciones individuales y colectivas, instalaciones, lecturas, conciertos, performances y festivales en varias partes del mundo. Practica la poesía como una exploración multifacética, deteniéndose frecuentemente en intersticios donde lo significante emerge de lo no-significante.”
+
+Martín Gubbins ha participado en múltiples eventos, conversaciones y shows, entre muchas otras cosas, que pueden ser observadas como mínimo con una descripción y fotografías desde las distintas pestañas de su página web, principalmente como diseñador. Me gusta harto el poder observar las gráficas de algunos de los pósters de los eventos a los cuales ha asistido.
+
+Referencias:  
+
+- https://martingubbins.cl/  

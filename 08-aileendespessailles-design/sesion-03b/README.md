@@ -20,9 +20,9 @@ Arduino Uno pin ENTRADAS:
 *A5 - SCL
 *A4 - SDA
 
-- Librerías para usar la pantalla (github):
+Librerías para usar la pantalla (github):
 1- Adafruit_SSD1306 <https://github.com/adafruit/Adafruit_SSD1306>
-2-Adafruit-GFX-Library <https://github.com/adafruit/Adafruit_SSD1306>
+2- Adafruit-GFX-Library <https://github.com/adafruit/Adafruit_SSD1306>
   
 ```cpp
 #include <Wire.h>
@@ -44,3 +44,16 @@ biblioteca, para programar pantalla, siempre que el codigo diga #include se debe
 crea un código de bits que se puede agregar a la programación debe ser de 128 x 84, se pone antes del void
 
 - string array:  estructura de datos que permite almacenar una colección de texto, donde cada elemento de la colección es una cadena de caracteres.
+
+Encargo 7,
+"documentar aprendizajes y dificultades del trabajo con pantallas y displays SSD1306 con simulador Wokwi"
+
+intento 1: imagen que parpadea y esta al medio https://wokwi.com/projects/440546331476540417
+
+intento 2: intentamos resolver y no resolvimos https://wokwi.com/projects/440564452291708929
+
+intento 3: agregamos la foto de santiago https://wokwi.com/projects/440548077248882689
+
+intento 4: casi listo, pero no mostraba la ultima linea del poema https://wokwi.com/projects/440548344446009345
+
+intento 5: versión final, sin corregir comentarios y modales https://wokwi.com/projects/440548344446009345

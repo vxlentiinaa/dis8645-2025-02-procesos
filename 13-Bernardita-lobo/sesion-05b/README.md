@@ -1,6 +1,8 @@
 # Sesión-05b
 
-## Trabajo en clase / Viernes 05 de septiembre, 2025
+Viernes 05 de septiembre, 2025
+
+## Trabajo en clase
 
 ### Cosas que hablamos en la mañana
 
@@ -59,6 +61,8 @@ Atributos
 Métodos
 
 ### Referentes
+
+---
 
 ## Encargo-09: Primus
           
