@@ -111,7 +111,8 @@ void configurarSensorColor() {
 ```
 
 ## ☞ Encargo 14
-✼ Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto.
+
+Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto.
 
    ```mermaid
    flowchart TD
@@ -159,4 +160,4 @@ void configurarSensorColor() {
     style n8 stroke-width:1px,stroke-dasharray: 1
     ```
 
-✼ Visualización de cómo funciona el sensor y carpeta de con su código.
+Visualización de cómo funciona el sensor y carpeta de con su código.
