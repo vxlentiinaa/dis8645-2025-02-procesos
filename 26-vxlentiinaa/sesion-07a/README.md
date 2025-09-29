@@ -96,18 +96,203 @@ lenguaje y dialecto
 
 ### Idea 2
 
-Entrada: Que al estar 
+Máquina que cuentas secretos
+
+Entrada: Al comienzo la máquina está tiritando; al detectar movimiento deja de tiritar y comienza a llamarte según la distancia a la que uno se encuentre.
+
+- Si estas lejos (distancia de 1 metro aprox) comenzará a gritar "HOLAA, ACERCÁTE QUIERO CONTARTE ALGO"
+- Si estas a una distancia mediana (distancia de 50 cm aprox) te hablará en un tono normal, sin gritar y te dirá "Todavía estás lejos, necesito que te acerques un poco más"
+- Si estás cerca (distancia de 5 a 10 cm aprox) te susurrará un secreto
+
+`Utilizaríamos:`
+
+[Sensor de proximidad](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
 
 [Modulo Reproductor MP3 DFPlayer Mini](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
 
 [Motor de alta velocidad](https://afel.cl/collections/alta-velocidad)
 
-[Sensor de proximidad](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04)
-
-Motor
+Altavoz
 
 ---
 
-Encargo viernes, traer 10 proyectos vistos en github o en arduino.com
-comentar smejanzas, diferencia, etc con otros proyectps 
-cada perosna del grupo tiene que buscar 4 referentes de cada codigos, materialidades similares
+### Encargo 12 
+
+- Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes. Comentar semejanzas, diferencias, etc con otros proyectos
+
+Cabe recalcar que todas las máquinas tienen un propósito, que es saludar; pero cada una tiene un objetivo distinto. 
+
+1• [valechavezalb](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/07-valechavezalb/sesion-07a)
+
+La idea del grupo se resume en una máquina dispensadora de dulces, contiene distintos tipos de colores de chicles, la máquina reconoce el color y arroja un mensaje mediante un altavoz. 
+
+- `Similitudes`
+  - Ambas son máquinas saludadoras.
+  - Ambas utilizan un altavoz como salida para que la máquina diga su saludo.
+  - En ambos casos, el saludo cambia según una condición (color y distancia).
+    
+- `Diferencias`
+  - Nuestra máquina se activa dependiendo de la proximidad. La idea de mis compañeros se activa dependiendo del color del chicle.
+  - Nuestra máquina cambia el tono y el contenido del saludo. En cambio, la de mis compañeras cambia el mensaje dependiendo del color del chicle.
+  - Nuestra máquina tiene interacción con la persona, es decir, nos habla directamente. La de mis compañeras, es más interacción con el objeto y el mensaje.
+    
+- `Preguntas`
+  - ¿Qué pasaría si la máquina se queda sin chicles? ¿Sigue saludando o simplemente deja de funcionar?
+  - ¿Los mensajes estarán pre-grabados con sus voces o tipo robótica?
+  
+- `Aciertos`
+  - El uso de colores del chicle y la asociación con un mensaje, agrega un nivel de sorpresa y que el mensaje sea más "personalizado"
+  - Es interesante el hecho de que, la máquina sea un mounstruo con un ojo animado, hace que sea un personaje atractivo.
+  - La interacción del dispensador de chicles con mensajes; ya que es una acción "cotidiana" (sacar un chicle) en una experiencia distinta.
+
+2• [aileendespessailles-design](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design/sesion-07a) [MiguelVera23](https://github.com/vxlentiinaa/dis8645-2025-02-procesos/tree/main/29-MiguelVera23/sesion-07a)
+
+Una máquina que saluda dependiendo si tiene o no tiene frío, el cual te dará un mensaje con respecto a si tiene o no tiene frío.
+
+- `Similitudes`
+  - Ambas son máquinas saludadoras, programadas en Arduino
+  - En ambas máquinas hay un estado inicial neutro y se activa con la presencia de una persona.
+  - Ambas interacciones son en base a "expresión corporal"
+  - Ambas tienen más de una salida: nosotras sería el mensaje en altavoz y la vibración; el de mis compañeros sería mensaje en pantalla y el saludo con el brazo mecánico.
+
+- `Diferencias`
+  - Nuestra máquina se activa por sensor de proximidad y distancia y la de mis compañeros por sensor de temperatura y movimiento.
+  - Nuestra máquina responde con distintos tonos de voz y la de mis compañeros responde con un movimiento mecánico (brazo) y textos.
+  - Nuestra máquina depende de la distancia del usuario y la de mis compañeras depende de la temperatura para decidir si te saluda o no.
+
+- `Preguntas`
+  - ¿Cómo controlarían la suavidad del movimiento del servomotor?
+  - ¿Cómo creen que reaccionaría la persona frente a un saludo con movimiento de brazo robótico comparado con un saludo solo textual?
+
+- `Aciertos`
+  - Al usar condiciones ambientales (temperatura) hace que el saludo no sea repetitivo, sino que depende del contexto del ambiente.
+  - Implementar un brazo robótico como saludo, refuerza la parte sorpresiva de la máquina
+
+3• [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a) 
+
+Una máquina que tiene unos ojos que identifiquen y triangulen la profundidad de dónde estoy. Cuando me acerque a un espacio, una oreja me hable con un sonido aleatorio.
+
+- `Similitudes`
+  - Ambas máquinas dependen de la cercanía e interacción con la distancia de la persona.
+  - Ambas máquinas están inspiradas en la idea de contar un secreto (nuestra máquina susurra y la demis compañeros usa la oreja como parlante)
+  - Ambas máquinas utilizarían la voz y el sonido
+
+- `Diferencias`
+  - Nuestra máquina tiene tres encuentros: distante, cerca, íntimo (secreto). La de mis compañeros juega con la ironía, es decir, una oreja que es para escuchar, sea la que hable.
+  - Nuestra máquina es efusiva, es decir que grita para que te vayas acercando. La de mis compañeros es más misteriosa, ya que, te va siguiendo con la mirada.
+  - Nuestra máquina usa la distancia del usuario para variar el tono de la voz. En cambio la de mis compañeros utiliza ojos que te siguen con la mirada y una oreja que habla.
+
+- `Preguntas`
+  - ¿Qué tipo de mensajes o sonidos reproducirá la oreja? ¿serán secretos o frases graciosas?
+  - ¿Los ojos solo siguen al usuario o también cambian las expresiones (parpadean, se agrandan, se achican)?
+
+- `Aciertos`
+  - La ironía de que una oreja hable en vez de escuchar, sería muy gracioso.
+  - Los ojos que siguen al usuario, te hacen sentir observado; atrayendo a las personas a la interacción.
+  - El uso de sonidos aleatorios, evita la repetición, por lo que el usuario podría acercarse más de una vez.
+
+### Encargo 13
+
+- Buscar 2 referentes asociados al proyecto: Lenguaje natural (personas), código, materialidad, documentación.
+- Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
+
+---
+
+•Referente de código•
+
+Encontré un código de cómo programar el sensor HC SR04 de proximidad en Arduino. El usuario solo quiere que el sensor, al detectar un vaso se enciendan las bombas, pero no sabía como escribir el código
+
+Colocó en el forum este código de abajo.
+
+```cpp
+const int boton1 = 2;
+const int boton2 = 3;
+const int boton3 = 4;
+const int pin = 9;
+const int pin2 = 11;
+
+long dis;
+long tiem;
+int led = 8;
+
+int bs0_1=0;
+int bs1_1=0;
+int bs2_1=0;
+int bs0_2=0;
+int bs1_2=0;
+int bs2_2=0;
+
+void setup() {
+  
+  Serial.begin(9600);
+pinMode(LED_BUILTIN, OUTPUT);
+pinMode(boton1, INPUT);
+pinMode(boton2, INPUT);
+pinMode(boton3, INPUT);
+pinMode(pin, OUTPUT);
+pinMode(pin2, OUTPUT);
+pinMode(6, OUTPUT); //salida del pulso generado por el sensor ultrasónico
+pinMode(5, INPUT);//entrada del pulso generado por el sensor ultrasónico
+pinMode(8, INPUT);//alarma de la distancia(encenderá el led)
+}
+
+void loop() {
+  bs0_1=bs0_2;
+  bs1_1=bs1_2;
+  bs2_1=bs2_2;
+  
+  bs0_2=digitalRead(boton1);
+  bs1_2=digitalRead(boton2);
+  bs2_2=digitalRead(boton3);
+
+  digitalWrite;(6,LOW);//recibimiento del pulso.
+  delayMicroseconds(5);
+  digitalWrite(6, HIGH);//envió del pulso.
+  delayMicroseconds(10);
+  tiem=pulseIn(5, HIGH);//fórmula para medir el pulso entrante.
+  dis= long(0.017*tiem);//fórmula para calcular la distancia del sensor ultrasónico.
+  
+  delay(100);
+  
+while (dis>3){
+
+  digitalWrite(led, HIGH);
+ 
+  if ((bs0_2 == HIGH )&&(bs0_1 == LOW)) {
+    digitalWrite(pin, HIGH);
+    delay(5000); 
+    digitalWrite(pin2, HIGH);
+    delay(10000);
+    
+  }
+  else if ((bs1_2 == HIGH )&&(bs1_1 == LOW)) {
+    digitalWrite(pin, HIGH);
+    delay(7000); 
+    digitalWrite(pin2, HIGH);
+    delay(10000);
+    
+  }
+  else if ((bs2_2 == HIGH )&&(bs2_1 == LOW)) {
+    digitalWrite(pin, HIGH);
+    delay(10000); 
+    digitalWrite(pin2, HIGH);
+    delay(10000);
+    
+  }
+  digitalWrite(pin, LOW);
+  digitalWrite(pin2, LOW);
+  digitalWrite(led, LOW);
+  digitalWrite(LED_BUILTIN, HIGH);
+  
+  Serial.println("LA DISTANCIA MEDIDA ES:");
+  Serial.println(dis);
+  Serial.println("cm");
+  delay(500);
+
+}
+}
+```
+Alexander28. (2 de octubre de 2017). Programación sensor de proximidad [Mensaje en un foro]. Arduino Forum. Recuperado de (https://forum.arduino.cc/t/programacion-sensor-de-proximidad/483637)
+
+
+Naylamp Mechatronics SAC. (s. f.). Tutorial de Arduino y sensor ultrasónico HC-SR04. Recuperado de https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
