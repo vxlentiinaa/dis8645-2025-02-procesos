@@ -13,7 +13,7 @@ llegué a las 8:50, no sé si pasaron lista lol
 - ¿qué hice en el 18?
 - me comí 5 empanadas y 5 anticuchos, 2 terremotos y asado, también me di cuenta que me gusta el 18 sólo por la comida y no por la celebración
 - fuimos a una fonda y me di cuenta que realmente no me gustan las fondas, el ruido, el polvo, la gente que te empuja y se pone jugosa por estar curada, los gritos y la música fuerte
-- junta muchas cosas que no me gustan en un solo lugar, por eso no me gusta. el 2023 había ido a una fonda hasta incluso bailé, pero creo que fue por la presión social de ser catalogado como "el fome" que no baila y no le gustan esos ambientes, creo que ahora lo puedo confirmar 100%, soy ese
+- junta muchas cosas que no me gustan en un solo lugar, por eso no me gusta. El 2023 había ido a una fonda hasta incluso bailé, pero creo que fue por la presión social de ser catalogado como "el fome" que no baila y no le gustan esos ambientes, creo que ahora lo puedo confirmar 100%, soy ese
 
 ### primera parte .1 
 
