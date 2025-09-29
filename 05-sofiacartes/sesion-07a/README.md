@@ -1,21 +1,31 @@
 # sesion-07a 23/09
 
+## Apuntes clase
+
 - Cosmotécnica/tecnodiversidad
-- Toda la teoría deu universo <https://www.instagram.com/_todalateoriadeluniverso/>
-- Susana- Chau
-- Liquen lab
+  
+Concepto que desarrolla Yuk Hui en su libro The Question Concerning Technology in China. Critica la idea que exista una sola tecnología universal. Propone entender la tecnología como inseparable de un cosmos y una moral: Cada sociedad desarrolla sus técnicas en base a su visión del mundo (cosmos) y sus valores (ethos)
+
+[Toda la teoría del universo](https://www.instagram.com/_todalateoriadeluniverso/)
+
+- [Susana Chau](https://www.linkedin.com/in/susana-chau/?originalSubdomain=cl): Comunicadora social, periodista. 
+- [Liquen Lab](https://liquenlab.cl/)
+- [Yuk Hui](https://cajanegraeditora.com.ar/autores/?autor=hui-yuk): Estudió ingeniería informática y filosofía en la Universidad de Hong Kong.
 - Bienal de artes mediales
-- begging NFC
-- CW&T -> Time Since Launch <https://cwandt.com/products/time-since-launch>
+- begging NFC: Near Field Communication, es una tecnología de comunicación inalámbrica de corto alcance que permite la transferencia de datos entre dos dispositivos acercándolos entres sí. [NFC](https://www.amazon.com/Beginning-NFC-Communication-Arduino-PhoneGap/dp/1449372066)
+- CW&T -> [Time Since Launch](https://cwandt.com/products/time-since-launch)
+  
+---
+
 - Los botones y/o perillas son buenos para el backstage
 - Módulo RTC ds1302 real time clock
 
 ## Motores
 
-- **motor DC**, es rápido y no sabe dónde está, lo podemos encontrar en drones, ventiladores, ventilador del celular
-- **motor paso a paso**, es lento, preciso y no sabe donde está, pero sabe cuanto girar. Se mueve a grados, por ejemplo 1.8° y tienen un torque, el cual es pra saber cuál es la capacidad del peso que puede levantar.
-- **servomotor**, SG90, puede girar en 90°,otro en 180° y otro en 360° pero no sabe donde está este. sabe dode está y es relativamente preciso. Tiene la biblioteca en arduino lista, se llama servo.
-- **motor sincrono** siempre va a la misma velocidad
+- **motor DC**: Es rápido y no sabe dónde está, lo podemos encontrar en drones, ventiladores, ventilador del celular
+- **motor paso a paso**: Es lento, preciso y no sabe donde está, pero sabe cuanto girar. Se mueve a grados, por ejemplo 1.8° y tienen un torque, el cual es pra saber cuál es la capacidad del peso que puede levantar.
+- **servomotor**: SG90, Puede girar en 90°,otro en 180° y otro en 360° pero no sabe donde está este. sabe dode está y es relativamente preciso. Tiene la biblioteca en arduino lista, se llama servo.
+- **motor sincrono**: Siempre va a la misma velocidad
 
 ## LEDS
 
@@ -23,11 +33,28 @@
 -  LED rgb
 -  neopixel
   
-### ideas proyectos
+(https://www.demasled.cl/cintas-led/)
+
+---
+Poyecto 02 se netrega el 17 de octubre
+
+Integrantes: 
+
+`Leonas.ino`
+
+- Yamna Carrión [yamna-bit](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/04-yamna-bit)
+- Sofía Cartes
+- Millaray Millar 
+[mmillar95](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/14-mmillar95)
+- Vania Paredes
+ [21vaniaparedes](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/21-vaniaparedes)
+- Valentina Ruz [vxlentiinaa](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/26-vxlentiinaa)
+
+### Ideas proyectos
 
 - Idea 1 
 
-funcionará mediante la interacción con botones, al apretarlo se reproducirá el saludo en algún idioma. Cada botón tiene un idioma y una gestualidad predeterminado
+Funcionará mediante la interacción con botones, al apretarlo se reproducirá el saludo en algún idioma. Cada botón tiene un idioma y una gestualidad predeterminado
 
 joystik: restet + arriba un idioma+ abajo + derecha + izquierda
 
