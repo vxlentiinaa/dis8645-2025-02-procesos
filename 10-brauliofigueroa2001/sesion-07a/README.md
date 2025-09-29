@@ -181,7 +181,43 @@ para esto necesitamos los siguientes sensores:
 - ¿la voz que salude en cualquiera de los idiomas será la misma para todos los idiomas? o cambiarán los "personajes" que interpretan la voz por así decirlo
 - cuando selecciono el idioma y me saluda, ¿hay algún modo de reestablecer la pantalla para retroceder al menú de idiomas?
 
-#### grupo 
+- la información fue sacada de la bitácora 7a de [Joquape](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/24-joquape/sesion-07a)
+
+#### grupo 03 (terroiblea,valechavezalb,notcaamila,Nicolas-Miranda1312,MiguelVera23)
+
+- el proyecto se define como: una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
+
+- La máquina saludadora, es un dispensador de chicles que contiene diversos colores, cada color contiene un mensaje que al momento de reconocerlo un parlante dice "hola terrícola y la frase que corresponde al color". Este dispensador tiene forma de monstruo, tiene una pantalla circular que muestra su ojo, este puede estar abierto, cerrado, parpadeando, mirando, etc.
+
+- sensores a utilizar: sensor de color Tcs230-Tcs3200, pantalla TFT circular 1,24 pulgadas RGB 240x240, Porotobard, Cables de conexión, Arduino, Módulo grabación/reproducción de Audio ISD1820 con micrófono integrado, Módulos Reproductos MP3 DFPLayer Mini, Mini parlanta Altavoz de 3w, Chicles de bolitas de colores
+
+#### similitudes con nuestro proyecto
+
+- ambos poseen un módulo de sonido/audio que contiene un mensaje en su interior
+- ambos proyectos tienen ojos como tal
+
+#### diferencias con nuestro proyecto
+
+- el ojo acá va en una pantalla, en nuestro proyecto el ojo es un objeto físico y se mueve con servomotor
+- la forma en cómo se emplea el saludo es muy distinta
+- la forma del proyecto, este es un objeto completo, el nuestro tiene módulos que van por separado
+
+#### preguntas y aciertos
+
+- me gusta mucho que sea un monstruo que no es de este mundo, ojalá hubiera existido un dispensador de chicles/juguetes así cuando era chico
+- me da un aura de toystory, es algo que pudo haber estado en pizzaplanet (toystory 1)
+- ¿el dispensador de chicles es aleatorio o tiene algún orden definido en cuánto a los colores?
+- ¿cuántos colores de chicles tendrá?
+- ¿la frase asociada al color tendrá algo que ver con ese color? ejemplo: si me sale rojo, uno lo atribuye a enojo entonces quizá el monstruo te dice algo enojado
+- ¿el ojo tendrá "vida propia" por así decirlo? o depende de alguna acción del usuario, o simplemente existe, parpadea, se mueve, aleatoriamente
+- no puedo esperar a ver cuando esté listo, me da mucho hype
+
+- toda la info fue sacada de la bitácora 7a de [valechavezalb](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/07-valechavezalb/sesion-07a)
+
+#### grupo Hijos de la tierra (AntFuentealba,SantiagoClifford,sofia-perezm,felix-rg416)
+
+
+
 
 
 
