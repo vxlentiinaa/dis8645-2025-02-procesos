@@ -16,4 +16,11 @@ El modulo reproductor no funciona (no reconoce la targeta sd)
 - Archivos MP3 estén en la raíz de la tarjeta
 - velocidad de comunicación (9600 baudios)
 - Intercambiar RX y TX
-- Los archivos deben estar guardados como los tengo en el codigo 
+- Los archivos deben estar guardados como los tengo en el codigo
+
+### Datos curiosos para subir al codigo
+
+- ¿Sabías que un disco duro de 5 MB pesaba una tonelada en 1956? ¡Se te cae de la mano!
+- Según un físico, todos los electrones de internet pesan como una fresa. ¡Eso es un dato ligero!
+- El primer ratón era de madera. ¡Tu ratón es más moderno!
+- El primer "bug" fue una polilla real en una computadora en 1947. ¡Un error muy natural!
