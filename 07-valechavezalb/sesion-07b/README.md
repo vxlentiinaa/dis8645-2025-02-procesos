@@ -112,7 +112,7 @@ void configurarSensorColor() {
 
 ## ☞ Encargo 14
 
-1. Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto.
+### Hacer un diagrama de flujo en *mermaid* con la funcionalidad del proyecto.
 
    ```mermaid
    flowchart TD
@@ -158,6 +158,22 @@ void configurarSensorColor() {
     style n19 fill:#FFCDD2
     style n20 fill:#BBDEFB
     style n8 stroke-width:1px,stroke-dasharray: 1
-    ```
+```
 
-2. Visualización de cómo funciona el sensor y carpeta de con su código.
+- agregar al pseudocódigo
+
+## Visualización de cómo funciona el sensor de reconocimiento de color y carpeta de con su código.
+
+   | Sensor TCS3200 | Arduino | Significado |
+   | ---------------|---------|-------------|
+   | VCC | 5V | Alimentación |
+   | GND | GND| Tierra |
+   | S0 | D4 | Escalado de frecuencia | 
+   | S1 | D5 | Escalado de frecuencia | 
+   | S2 | D6 | Selección de filtro
+   | S3 | D7 | Selección de filtro | 
+   | OUT | D8 | Salida de frecuencia a medir | 
+   | OE | D9 | Output LOW = activo |
+
+
+   
