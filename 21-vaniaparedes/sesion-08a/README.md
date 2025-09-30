@@ -8,7 +8,7 @@
 
 Conecciones y registro:
 
-![conecciones](./imagenes/IMG_2007.jpg)
+![conecciones](./imagenes/IMG_2008.jpg)
 
 ## Proyecto_02 - Máquina que da datos random
 ¿Qué necesitamos?: Sensor ultrasónico, Servo Motor, Motor DC, Reproductor mp3 y Altavoz
@@ -25,4 +25,4 @@ Salida: Al detectar la distancia de la presencia la máquina reacciona de difere
 Se probó el código subido en la sesión anterior y esta, con el ultrasónico y el servo motor.
 Funcionó!
 
-![conecciones](./imagenes/IMG_2008.jpg)
+![conecciones](./imagenes/IMG_2007.jpg)
