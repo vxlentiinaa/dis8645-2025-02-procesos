@@ -24,17 +24,18 @@ cada persona del grupo debe implementar en diagrama de flujo dibujado o con la h
 
 [mermaid](https://mermaid.js.org/intro/getting-started.html)
 
-
-
-
 ```mermaid
+---
+config:
+  theme: redux
+---
 flowchart TB
-    A(["El sensor ultrasonico detecta distancia"]) --> B{"¿hay cercania?"}
-    B --> n1(["SI"]) & n2(["NO"])
-    n2 --> n3(["LOOP"])
+    A(["el sensor ultrasonico detecta distancia"]) --> B{"¿hay cercania?"}
+    B --> n1(["sí"]) & n2(["no"])
+    n2 --> n3(["loop"])
     n3 --> B
-    n1 --> n4(["Sonido"])
-    n4 --> n5(["LOOP"])
+    n1 --> n4(["sonido"])
+    n4 --> n5(["loop"])
     n5 --> B
      A:::Sky
      A:::Aqua
@@ -54,7 +55,6 @@ flowchart TB
     classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
     classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
 ```
-
 
 ## Encargo-15,
 
