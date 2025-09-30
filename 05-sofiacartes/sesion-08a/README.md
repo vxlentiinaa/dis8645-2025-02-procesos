@@ -1,6 +1,6 @@
 # sesion-08a 30/08
 
-Cosas faltantes:
+## Cosas faltantes:
 
 1. Mecanismo
 2. Carcasa
@@ -8,7 +8,7 @@ Cosas faltantes:
 4. Unir código
 5. Diálogo
 
-**Diálogo**
+### Diálogo
 
 Decir hola, acércate y que tirite con el motor DC.
 
