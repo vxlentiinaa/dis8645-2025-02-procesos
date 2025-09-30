@@ -11,3 +11,6 @@ codigoRobotFriolento_0_1_1
 
 codigoRobotFriolento_0_2_0 
 - Profe Aarón ayudo con el desarrollo y orden de la clase SensorUltra, en la version anterior ocurrian errores respecto a los parametros debido al desorden entre los archivos .h y .cpp.
+
+codigoRobotFriolento_0_2_1
+- A partir de la ayuda de Aarón empece con el desarrollo de la clase SensorTemp, hasta el momento compila, YUPIII
