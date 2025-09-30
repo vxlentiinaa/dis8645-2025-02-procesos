@@ -22,6 +22,9 @@ Salida: Al detectar la distancia de la presencia la máquina reacciona de difere
 40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "HOOLAA, MÁS CERCA!"
 2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato interesante como "El maní es una legumbre, no un fruto seco.”
 
+La idea es que se vea así con el dedo cuando te diga el dato:
+![deHecho](./imagenes/deHecho.jpg)
+
 Se probó el código subido en la sesión anterior y esta, con el ultrasónico y el servo motor.
 Funcionó!
 
