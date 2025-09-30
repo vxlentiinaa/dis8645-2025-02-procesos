@@ -318,6 +318,8 @@ preguntas y aciertos
 
 - primer referente de materialidad: Maywa Denki, Mr Knocky
 
+![mrknocky](./imagenes/mrknocky.jpg)
+
 
 
 
