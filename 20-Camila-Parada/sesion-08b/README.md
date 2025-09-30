@@ -44,7 +44,9 @@ https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe
 
 ***
 
-## Aprendiendo más sobre el "DFPlayer Mini"
+## Aprendiendo más sobre el ["DFPlayer Mini"](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
+
+https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini
 
 ***
 
