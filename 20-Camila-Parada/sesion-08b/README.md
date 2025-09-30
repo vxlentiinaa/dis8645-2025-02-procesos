@@ -31,7 +31,19 @@ Para este encargo sentí que pude haber usado varias herramientas, pero por como
 
 #### [Sensor Ultrasonico HC-SR04](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?srsltid=AfmBOorH4IZiP9GI9Gb_L3xh13v08ZMh72sbK5VnQ0yme40VD8mGXXGl)
 
-Puede medir una distancia entre 
+El [ultrasonido](https://es.wikipedia.org/wiki/Ultrasonido) corresponde a un tipo de ondas mecánicas longitudinales (naturales) que no pueden ser percibidas por el ser humano dada su frecuencia, siendo esta la única cualidad que le distingue de las ondas audibles. Estas son "originadas por la vibración de un cuerpo elástico y propagadas por un medio material". Este tipo de ondas suelen ser utilizados por animales a modo de "radar" para poder orientarse en el espacio al emitir ondas altas (ecolocalización).
+
+Para poder obtener una "imagen" utilizando ondas de sonido son necesarios los pasos: 1) Emisión de un pulso de onda, 2) Medición del tiempo y de la intensidad del eco, 3) Reconstrucción mediante empleo de velocidad propagación de onda conocida.
+
+![imagen](./imagenes/detección_de_defecto_por_ultrasonidos.jpg)
+
+-> Recuperado de: https://es.wikipedia.org/wiki/Ultrasonido
+
+El uso más extendido que se le ha dado es en equipos médicos y terapias, además del desarrollo de objetos para poder medir distancias o detectar objetos.
+
+Con este antecedente, se puede denotar que dicho sensor se encarga de cumplir con estas últimas funciones descritas.
+Para ello, este cuenta con una serie de piezas que se componen de un emisor y un receptor de ultrasonidos (transductor), un cristal y un circuito de control.
+
 
 ***
 
