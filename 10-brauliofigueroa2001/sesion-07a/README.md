@@ -310,6 +310,8 @@ preguntas y aciertos
 
 - referentes de documentación: oskitone
 
+ [oskitone](https://blog.tommy.sh/posts/scout/)
+
 
 
  
