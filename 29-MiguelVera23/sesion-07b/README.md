@@ -103,3 +103,4 @@ void GetColors()
   delay(20);  
 }
 ```
+![diagrama de flujo hecho a mano](./imagenes/diagramaFlujo.jpeg)
