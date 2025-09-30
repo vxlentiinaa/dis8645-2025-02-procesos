@@ -278,13 +278,31 @@ preguntas y aciertos
 - creo que me gustaría ver una diferencia entre un temblar de emoción o temblar de ansioso, quizá estas 2 se pueden confundir, no siento que sean lo mismo
 - ¿las frases que diga la máquina serán pregrabadas con voces de ustedes? o será una voz "computacional"
 
+- toda la info fue sacada de la bitácora 7a de [vaniaparedes](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/21-vaniaparedes/sesion-07a)
+
 
 #### encargo 13, búsqueda de 2 referentes de cada ámbito (código,lenguaje,documentación,materialidad)
 
 
+- referentes de código:
+
+
+
+
+
+- referentes de lenguaje:
+
+
+
+
+
+- referentes de documentación:
+
+
+
  
 
-
+- referentes de materialidad: 
 
 
 
