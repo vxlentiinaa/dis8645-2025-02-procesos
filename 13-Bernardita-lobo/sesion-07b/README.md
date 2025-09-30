@@ -62,4 +62,37 @@ Cada persona del grupo debe subir a su README: documentar funcionamiento de sus 
 
 Sensor ultrasonico HC-SR04, envía un sonido muy agudo (40 kHz), cuando el sonido se encuentra con un objeto, rebota y el receptor lo detecta como eco, utilizando este codigo nos dimos cuenta que esta mal calibrado, ya que derrepente los datos muestran cambios drasticos de distancia de la nada.
 
+probamos este codigo que encontro jota morales.
 
+```cpp
+const int Trigger = 2;   //Pin digital 2 para el Trigger del sensor
+const int Echo = 3;   //Pin digital 3 para el Echo del sensor
+ 
+void setup() {
+  Serial.begin(9600);//iniciailzamos la comunicación
+  pinMode(Trigger, OUTPUT); //pin como salida
+  pinMode(Echo, INPUT);  //pin como entrada
+  digitalWrite(Trigger, LOW);//Inicializamos el pin con 0
+}
+ 
+void loop()
+{
+ 
+  long t; //timepo que demora en llegar el eco
+  long d; //distancia en centimetros
+ 
+  digitalWrite(Trigger, HIGH);
+  delayMicroseconds(10);          //Enviamos un pulso de 10us
+  digitalWrite(Trigger, LOW);
+  
+  t = pulseIn(Echo, HIGH); //obtenemos el ancho del pulso
+  d = t/59;             //escalamos el tiempo a una distancia en cm
+  
+  Serial.print("Distancia: ");
+  Serial.print(d);      //Enviamos serialmente el valor de la distancia
+  Serial.print("cm");
+  Serial.println();
+  delay(100);          //Hacemos una pausa de 100ms
+}
+  
+```
