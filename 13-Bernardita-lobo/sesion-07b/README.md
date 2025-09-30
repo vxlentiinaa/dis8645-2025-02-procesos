@@ -62,7 +62,7 @@ Cada persona del grupo debe subir a su README: documentar funcionamiento de sus 
 
 Sensor ultrasonico HC-SR04, envía un sonido muy agudo (40 kHz), cuando el sonido se encuentra con un objeto, rebota y el receptor lo detecta como eco, utilizando este codigo nos dimos cuenta que esta mal calibrado, ya que derrepente los datos muestran cambios drasticos de distancia de la nada.
 
-probamos este codigo que encontro jota morales.
+Probamos este codigo que encontro Jota Morales, en [naylampmechatronics.com](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)
 
 ```cpp
 const int Trigger = 2;   //Pin digital 2 para el Trigger del sensor
