@@ -27,7 +27,7 @@ Tipografías para display <https://learn.adafruit.com/adafruit-gfx-graphics-libr
 
 codigo trabajado con el link anterior y chat gpt  
 
-Cpp´´´
+```cpp
 
 // el codigo funcionaba con la pantalla del proyecto 1 pero no con la pantalla del proyecto 2 
 
