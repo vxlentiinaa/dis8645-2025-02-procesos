@@ -29,3 +29,10 @@ Se probó el código subido en la sesión anterior y esta, con el ultrasónico y
 Funcionó!
 
 ![conecciones](./imagenes/IMG_2007.jpg)
+
+### Qué nos falta hacer?
+Carcasa
+Mecanismo con carcasa
+Diálogo
+Motor DC
+Unir código
