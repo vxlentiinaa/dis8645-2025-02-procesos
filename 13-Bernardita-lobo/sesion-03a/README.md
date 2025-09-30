@@ -111,7 +111,7 @@ Variables, funciones, for, if, and.
 
 ### Referentes
 
-[Daniel Cruz](https://arteymedios.org/daniel-cruz/)
+- [Daniel Cruz](https://arteymedios.org/daniel-cruz/)
 
 ### Palabras importantes
 

@@ -22,7 +22,9 @@ Viernes 26 de septiembre, 2025
 
 Cada persona del grupo debe implementar un diagrama de flujo, dibujado o con la herramienta [mermaid](https://mermaid.js.org/intro/getting-started.html) con sus propias palabras y subirlo a su README.
 
-Este diagrama es lo más resumido de nuestra propuesta, el inicio de la idea. En mi experiencia, Mermaid está horriblemente diseñado, ya que me costó un montón encontrar la consola para empezar a hacer el diagrama. También, al iniciar sesión, te hacía un montón de preguntas y era muy tedioso entrar.
+Este diagrama es lo más resumido de nuestra propuesta, el inicio de la idea. 
+
+En mi experiencia, Mermaid está horriblemente diseñado, ya que me costó un montón encontrar la consola para empezar a hacer el diagrama. También, al iniciar sesión, te hacía un montón de preguntas y era muy tedioso entrar, aunque los colores están muy bonitos.
 
 ```mermaid
 ---
