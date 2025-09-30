@@ -21,45 +21,45 @@ son 28 estudiantes, distribuidos en 6 grupos:
 
 ## grupos
 
-* grupo 01
-  * persona01
-  * persona02
-  * persona03
-  * persona04
-  * persona05
+* grupo BLA0
+  * 04-yamna-bit
+  * 05-sofiacartes
+  * 14-mmillar95
+  * 21-vaniaparedes
+  * 26-vxlentiinaa
 
-* grupo 02
-  * persona01
-  * persona02
-  * persona03
-  * persona04
-  * persona05
+* grupo BLA02
+  * 06-terroiblea
+  * 07-valechavezalb
+  * 09-notcaamila
+  * 15-Nicolas-Miranda1312
+  * 29-MiguelVera23
 
 * grupo 03 - Chispop
-  * Antonella Aguilar
-  * Javiera Moraga
-  * Pia Orellana
-  * Angela O'Ryan
-  * Josefa Quape
+  * 01-antokiaraa
+  * 16-javieramoraga-rgb
+  * 18-ppia97
+  * 19-Hiinalia
+  * 24-Joquape
 
-* grupo 04
-  * persona01
-  * persona02
-  * persona03
-  * persona04
-  * persona05
+* grupo 04 BLA03
+  * 28-FranUDP
+  * 17-jotamorales-romulus
+  * 20-Camila-Parada
+  * 13-Bernardita-lobo
+  * 10-brauliofigueroa2001
 
-* grupo 05
-  * persona01
-  * persona02
-  * persona03
-  * persona04
+* grupo 05 - waos
+  * 03-Mosswhosmoss
+  * 27-SebastianSaez1003
+  * 23-Coff4
+  * 04-aileendespessailes-design
 
-* grupo 06
-  * persona01
-  * persona02
-  * persona03
-  * persona04
+* grupo 06 - hijos de la tierra
+  * 11-AntFuentealba
+  * 12-santiagoClifford
+  * 22-sofia-perezm
+  * 23-felix-rg416
 
 ## pauta
 

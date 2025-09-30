@@ -39,7 +39,7 @@ Apoye a [SebastianSaez1003](https://github.com/SebastianSaez1003/dis8645-2025-02
 
 El Seba presentó problemas en recibir una respuesta del serial monitor y pidió ayuda dentro del grupo; yo decidí revisar qué pudo estar ocurriendo, pero prefiero dar contexto primero.
 
-El seba encontro este código 
+El Seba encontró este código. 
 ```cpp
 
 #include <Wire.h>
@@ -96,10 +96,11 @@ void loop() {
 ```
 Y explica que, aun cuando se compila el código y se logra subir al Arduino, no era capaz de recibir la comunicación serial.
 
-Ya ahí el Seba pidió apoyo para ver qué pasaba con el código, él explica que instalo las bibliotecas manualmente y aun asi no le resulta.
-Cuando yo instale las bibliotecas Adafruit AHTX0 y Adafruit BMP280, si logre la comunicación en el serial monitor.
+Ya ahí el Seba pidió apoyo para ver qué pasaba con el código; él explica que instaló las bibliotecas manualmente y aun así no le resulta.
+
+Cuando yo instalé las bibliotecas Adafruit AHTX0 y Adafruit BMP280, sí logré la comunicación en el serial monitor.
 
 ![muestraMonitorSerialDetectando](imagenes/monitorSerialMuestra.png)
 
-No sabemos porque al seba no le resulta, de igual manera mi apoyo no es tan confiable debido a que no pude provar el sensor con mi arduino.
+No sabemos por qué al Seba no le resulta; de igual manera, mi apoyo no es tan confiable debido a que no pude probar el sensor con mi Arduino.
 

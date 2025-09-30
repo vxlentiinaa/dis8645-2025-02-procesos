@@ -90,4 +90,10 @@ ListaEncargos::ListaEncargos()
             15,
             "7b",
             "cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores."));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            16,
+            "8a",
+            "cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a."));
 }

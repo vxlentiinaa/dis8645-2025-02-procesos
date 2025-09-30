@@ -54,6 +54,18 @@ paso a paso
 5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial.
 6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
 7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
+   
+## Encargo 12,
+ "leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."
+
+El grupo de 05-sofiacartes: querían hacer la máquina que cuenta un secreto, con uso del step motor que está mencionado en sus materiales. 
+Similitudes y diferencias: la máquina se comunica con el usuario como la nuestra, por no utilizamos los mismos materiales. 
+
+El grupo de 07-valechavezalb: una máquina dispensadora de chicles que dependiendo del color te daría un mensaje distinto. Similitudes y diferencias: la máquina se da un mensaje a el usuario como la nuestra, por no utilizamos los mismos materiales, ni da el mensaje la misma forma. 
+
+El grupo de 10-brauliofigueroa una máquina que “te persigue” con la mirada y que la oreja de esta máquina se acabase hablando, para añadirle un sentido cómico. Similitudes y diferencias: me gusta que la máquina tenga un poco más personalidad, comparte materiales similares con nuestro grupo. 
+
+El grupo de 12-santiagoClifford quería hacer una máquina que se incomode con la presencia de una persona, medida a través del sonido. Similitudes y diferencias: algo similar podría ser que la máquina tiene personalidad y reacciona acorde a lo que “quiere”, pero no utiliza materiales similares.
 
 ## Encargo 13,
 "buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
