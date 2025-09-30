@@ -1,6 +1,6 @@
 # sesion-07b
 
-## Encargo clase pasada
+## Clase pasada encargo
 
 ### Referentes:
 
@@ -180,6 +180,37 @@ Observaciones:
 
 - El micrófono no tiene mucha precisión al no estar soldado.
 - Capta el sonido cuando ya termino.
+
+
+## Encargos clase 7b
+
+1. Cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
+
+![diagrama_de_flujo_rial](./imagenes/diagrama_de_flujo_rial.png)
+
+Comienza en Inicio, con los ojos cerrados y la máquina en reposo. Primero verifica si la amplitud del sonido captada por los micrófonos está entre 512 y 1023; si no, permanece en reposo. Si se detecta un sonido dentro de ese rango, la máquina abre los ojos inmediatamente.
+
+A continuación, analiza cuál de los dos micrófonos tiene el nivel más alto y orienta la estructura simulando un cuello hacia ese micrófono. Una vez orientada, inicia un bucle de parpadeo cada 2 segundos, que se mantiene mientras la máquina sigue procesando los sonidos.
+
+Durante este bucle, la máquina comprueba si el otro micrófono detecta un sonido más fuerte:
+
+- Si lo detecta, espera un tiempo X mirando al micrófono original y luego se reorienta hacia el micrófono con mayor nivel.
+
+- Si no detecta un sonido más fuerte, mantiene la mirada por tiempo indefinido hacia el micrófono actual.
+
+Mientras mantiene la mirada, el sistema verifica continuamente si cesó el sonido en ese micrófono:
+
+- Si el sonido desaparece, la máquina cierra los ojos y vuelve al reposo, regresando al inicio.
+
+- Si el sonido continúa, sigue parpadeando y manteniendo la orientación.
+
+
+2. Cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores.
+
+
+
+
+
 
 
 
