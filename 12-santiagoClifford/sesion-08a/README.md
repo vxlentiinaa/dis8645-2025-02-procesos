@@ -34,3 +34,11 @@ las frecuencias mas agudas son más direccionales.
 
 -  el párpado superior se mueve, con el centro de la circunferencia como el eje de rotación. EL párpado inferior esta fijado en posición.
 - calibramos el ángulo en el que se puede mover el párpado superior. Por ahora es desde 30°-70°.
+
+- [libreria servo](https://github.com/arduino-libraries/Servo/blob/master/docs/api.md#attach)
+
+ -[moss-class](https://github.com/Mosswhosmoss/dis8645-2025-02-procesos/blob/main/03-Mosswhosmoss/sesion-08a/codigoRobotFriolento_0_2_1/SensorUltra.cpp)
+
+ <https://forum.arduino.cc/t/calculating-decibels-spl-from-max4466-microphone-input/1239394>
+
+ - [average](https://forum.arduino.cc/t/calculating-average-value/204225)
