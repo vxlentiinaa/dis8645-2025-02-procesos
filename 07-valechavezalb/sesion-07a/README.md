@@ -18,9 +18,8 @@ Martes 23 de Septiembre de 2025
 - **openscad** modelado 3D con código (https://openscad.org/).
 ### 4 tipo de motores: 
 1. Tipo dc ➜ alta velocidad, corriente directa es rápido y no sabe donde esta. Se usan en drones, ventiladores, en  el vibrador del teélfono, etc.
-2. Paso a Paso ➜ lento, preciso y sabe cuanto se puede mover.
-3. Servomotor ➜ es preciso para hacer movimientos en ciertos ángulos.
-4. 
+1. Paso a Paso ➜ lento, preciso y sabe cuanto se puede mover.
+1. Servomotor ➜ es preciso para hacer movimientos en ciertos ángulos.
 
 ## 🛠️ ENCARGO: 17 de octubre se entrega.
 - 26/09: clases y parámetros aplicadas a sensores.
@@ -33,15 +32,15 @@ Citar bibliografía.
 ## 🖲️ 10 Heurísticas de Usabilidad para el Diseño de Interfaces de Usuario, Jacob Nielsen
 
 1. **Visibilidad del estado del sistema:** el diseño debe mantener siempre informados a los usuarios sobre lo que está sucediendo, mediante una retroalimentación adecuada.
-2. **Correspondencia entre el sistema y el mundo real:** el diseño debe ser familiar para el usuario, el lenguaje y la naturalidad. Debe ser de fácil comprensión.
-3. **Control y libertad del usuario:** los usuarios suelen realizar acciones por error, es por eso que necesitan una "salida de emergencia" marcada para abandonar la acción no deseada sin tener que pasar por un largo proceso. Admite deshacer y rehacer.
-4. **Coherencia y estándares:** los usuarios no deberían tener que preguntarse si diferentes palabras, situaciones o acciones significan lo mismo. Mantener consistencia dentro de un solo producto o de una familia de productos.
-5. **Prevención de errores:** los buenos diseños piensan en todos los errores, pero hay que ofrecer a los usuarios una opción de confirmación antes de que realicen la acción.
-6. **Reconocimiento en lugar de recuerdo:** el usuario no debería tener que recordar información de una parte a otra parte de la interfaz. La información como etiquetas o elementos del menú deberían ser visibles o fáciles de recordad cuando se necesite.
-7. **Flexibilidad y eficiencia de uso:** los accesos directos, ocultos para usuarios principiantes, pueden agilizar la interacción para el usuario experto, de modo que el diseño se adapte para estos dos tipos de usuarios.
-8. **Diseño estético y minimalista**: las interfacesno deben contener información irrelevante o rara vez necesaria. El contenido y el diseño visual se centren en lo esencial.
-9. **Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores:** los mensajes de error deben expresarse en un lenguaje sencillo, indicar con precisión el problemay sugerir de forma constructiva una solución. Además, deben presentarse con tratamientos visuales que ayuden a los usuarios a notarlos y reconocerlos.
-10. **Ayuda y documentación:** lo ideal es que el sistema no requiera explicaciones adicionales, sin embargo podría ser necesario proporcionar documentación para ayudar a los usuarios a comprender sus tareas. Ser conciso y enumerar los pasos concretos que deben seguirse.
+1. **Correspondencia entre el sistema y el mundo real:** el diseño debe ser familiar para el usuario, el lenguaje y la naturalidad. Debe ser de fácil comprensión.
+1. **Control y libertad del usuario:** los usuarios suelen realizar acciones por error, es por eso que necesitan una "salida de emergencia" marcada para abandonar la acción no deseada sin tener que pasar por un largo proceso. Admite deshacer y rehacer.
+1. **Coherencia y estándares:** los usuarios no deberían tener que preguntarse si diferentes palabras, situaciones o acciones significan lo mismo. Mantener consistencia dentro de un solo producto o de una familia de productos.
+1. **Prevención de errores:** los buenos diseños piensan en todos los errores, pero hay que ofrecer a los usuarios una opción de confirmación antes de que realicen la acción.
+1. **Reconocimiento en lugar de recuerdo:** el usuario no debería tener que recordar información de una parte a otra parte de la interfaz. La información como etiquetas o elementos del menú deberían ser visibles o fáciles de recordad cuando se necesite.
+1. **Flexibilidad y eficiencia de uso:** los accesos directos, ocultos para usuarios principiantes, pueden agilizar la interacción para el usuario experto, de modo que el diseño se adapte para estos dos tipos de usuarios.
+1. **Diseño estético y minimalista**: las interfacesno deben contener información irrelevante o rara vez necesaria. El contenido y el diseño visual se centren en lo esencial.
+1. **Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores:** los mensajes de error deben expresarse en un lenguaje sencillo, indicar con precisión el problemay sugerir de forma constructiva una solución. Además, deben presentarse con tratamientos visuales que ayuden a los usuarios a notarlos y reconocerlos.
+1. **Ayuda y documentación:** lo ideal es que el sistema no requiera explicaciones adicionales, sin embargo podría ser necesario proporcionar documentación para ayudar a los usuarios a comprender sus tareas. Ser conciso y enumerar los pasos concretos que deben seguirse.
 
 ## 🔮 Máquina saludadora
 ✦ Ideas: Se resume en una máquina que dispensa dulces y de acuerdo al color del dulce te da un mensaje (sensor de color). Esta máquina, contiene una carcasa en forma de un personaje a definir (monstruo), con un ojo que se mueve con respecto a que si tiene interacción o no. Puede parpadear y te saluda animosamente con un audio que te dice; "Hola Terrícola".
@@ -92,6 +91,36 @@ Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y a
 
 ## ☞ Encargo 13
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo
-   
+
+### ✦ Referentes:
+1. **Candybot**: dispensador automático de dulces que te da dulces si estás contento y sonríes. (https://nidragedd.github.io/a-candy-dispenser-with-ai-raspberry-and-lego-bricks/)
+![candybot](imagenes/maquina_dulces.png)
+- Funciona con una cámara que detecta rostros y luego realiza un reconocimiento de emociones faciales.
+- Se ejecuta en un dispositivo integrado como Raspberry Pi.
+- Se encuentra la manera de controlar el motor del dispensador.
+
+💻 Software:
+- aplicación que detecta rostros y reconocimiento de emociones faciales.
+
+💻 Software/ Hardware (con RaspberryPi):
+- Código que reaccion al botón que dispensa los dulces.
+- Código que encienda las luces rgb.
+- Código que hace funcionar el motor para dispensar los dulces.
+![candybot](imagenes/funcionamiento.png)
+
+1. **Automated Candy Dispenser**
+![candybot](imagenes/candy_dispenser.png)
+
+(https://www.instructables.com/Automated-Candy-Dispenser-1/)
+
+- Se trata un un dispensador de dulces controlado por Arduino e impresión 3D.
+- Para los componentes eléctrónicos se utilizó un Arduino Uno, batería de 9v, sensor IR y control remoto, motor paso a paso y placa controladora, Adafruit NeoPixel NeoMatrix 8x8, resistencia de 10 kohmios, resistencia de 300-500 ohmios, condesador de 1 mF 6,3 V+ y recipiente de cristal con tapa rosca.
+
+🛠️ Circuito de control
+
+![candybot](imagenes/circuito.png)
+
+El código y las piezas se encuentran en el link que está escrito más arriba.
+
 ### 📖 Bibliografía
 - (https://www.nngroup.com/articles/ten-usability-heuristics/)
