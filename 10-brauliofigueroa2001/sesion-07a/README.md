@@ -308,7 +308,7 @@ preguntas y aciertos
 
 
 
-- referentes de documentación:
+- referentes de documentación: oskitone
 
 
 
