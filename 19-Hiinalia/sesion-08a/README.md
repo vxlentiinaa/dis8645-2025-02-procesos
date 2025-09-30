@@ -6,3 +6,11 @@ En esta clase estamos trabajando en nuestro pseudocódigo. Al momento de compila
 
 
 Finalmente, logramos que la pantallita que nos pasó Mateo funcionara. El problema fue que estaba mal conectado. Las conexiones no eran las mismas que en la pantallita más pequeña.
+
+## Probando conexión de altavoz
+
+Estoy probando la conexión del altavoz a el reproductor mp3. No entendí muy bien cómo se conectaba, asi que unas compañeras del grupo del tralalero tralala vinieron a ayudar. Hasta ahora el cableado todo bien. Subí un código que mandó su grupo por discord a mi arduino.
+No funciona. Que sad.
+
+Nuestras compañeras tralaleras revisaron de nuevo nuestro cableado. Resulta que el cableado entre TX y RX estaban al revés. Se escuchó un maravilloso “Bonjour”.
+
