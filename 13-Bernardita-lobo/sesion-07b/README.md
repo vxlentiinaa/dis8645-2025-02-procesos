@@ -20,9 +20,9 @@ Viernes 26 de septiembre, 2025
 
 ## Encargo-14: Diagrama de flujo
 
-cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta [mermaid](https://mermaid.js.org/intro/getting-started.html) con sus propias palabras y subirlo a su README.
+Cada persona del grupo debe implementar un diagrama de flujo, dibujado o con la herramienta [mermaid](https://mermaid.js.org/intro/getting-started.html) con sus propias palabras y subirlo a su README.
 
-este diagrama es lo mas resumido de nuestra propuesta, el inicio de la idea en mi experiencia mermaid esta horriblemente diseñado, ya que me costo un monton encontrar la consola para empzar a hacer el diagrama, tambin al iniciar sesion te hacia un monton de preguntas y era muy tedioso entrar.
+Este diagrama es lo más resumido de nuestra propuesta, el inicio de la idea. En mi experiencia, Mermaid está horriblemente diseñado, ya que me costó un montón encontrar la consola para empezar a hacer el diagrama. También, al iniciar sesión, te hacía un montón de preguntas y era muy tedioso entrar.
 
 ```mermaid
 ---
