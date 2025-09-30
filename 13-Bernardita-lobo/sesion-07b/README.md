@@ -20,9 +20,9 @@ Viernes 26 de septiembre, 2025
 
 ## Encargo-14: Diagrama de flujo
 
-cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
+cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta [mermaid](https://mermaid.js.org/intro/getting-started.html) con sus propias palabras y subirlo a su README.
 
-[mermaid](https://mermaid.js.org/intro/getting-started.html)
+este diagrama es lo mas resumido de nuestra propuesta, el inicio de la idea.
 
 ```mermaid
 ---
@@ -59,3 +59,5 @@ flowchart TB
 ## Encargo-15,
 
 Cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores.
+
+
