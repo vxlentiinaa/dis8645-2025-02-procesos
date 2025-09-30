@@ -76,7 +76,7 @@ Que cambio(s), cómo los detecta o mide varían dependendiendo del tipo de senso
 
 ### [Sensor ultrasónico de distancia (HC-SR04)](https://projecthub.arduino.cc/lucasfernando/ultrasonic-sensor-with-arduino-complete-guide-284faf)
 
-<img align="right" src="./imagenes/HC-SR04.jpg" alt="txt" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=400>
+<img align="right" src="./imagenes/HC-SR04.jpg" alt="HC-SR04 pinout" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=400>
 
 Emite ondas ultrasónicas y cuenta cuanto tiempo pasa antes de que estas regresen a él, igual como un murcielago.
 
@@ -106,9 +106,44 @@ Referentes: [Sonar](https://youtu.be/KGwtit2bFyo?si=A_or_WnmgpEQNJxr) y [sistema
 |    [Afel](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?variant=45125226365080&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOop5Ps48wG4CzlpsY6C8KO5xcNYxh0lGCjbrPNuP4vw_j6QItgmpDj0)  | $1500 |
 | [Tenstar robot (aliexpress)](https://es.aliexpress.com/item/1005006039388853.html?src=google&pdp_npi=4%40dis!CLP!2895!1902!!!!!%40!12000035439724673!ppc!!!&snps=y&snpsid=1&src=google&albch=shopping&acnt=742-864-1166&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oDeeeiG&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=es1005006039388853&ds_e_product_merchant_id=5551326180&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=21628548633&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=22457134733&gbraid=0AAAAA99aYpdUlCUf1lr4yY-dScBnL83TI&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX4o03I0zXRkS0juNyjaJWFmuQ9_U5g88RtKTwuSvcWT1OfR9Tc3ZyoaAhs1EALw_wcB) | $1631 |
 
-### Sensor de temperatura y humedad (THT11)
+<br/>
 
-<img align="right" src="./imagenes/HC-SR04.jpg" alt="txt" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=400>
+---
+
+### [Sensor de temperatura y humedad <sub>1</sub>](https://www.hwlibre.com/dht11/) [(DHT11)<sub>2</sub>](https://www.youtube.com/watch?v=nssXWNYdGT8&msockid=a89b07d59da211f0b745a4c3a2f1df11)
+
+<img align="right" src="./imagenes/DHT11.jpg" alt="HDT11 pinout sensor y módulo" title="Fuente: https://components101.com/sensors/dht11-temperature-sensor" width=300>
+
+Mide la temperatura y humedad del ambiente en que sea colocado, hace el trabajo de 2 sensores distintos.
+
+| Pinout  |          |
+|---------|----------|
+| Vcc     | Alimenta con 3V-5V al sensor |
+| Data | Emite las lecturas del sensor |
+| NC    | No se conecta |
+| Gnd     | Tierra |
+
+| Características    |      |
+|------------|------|
+| Consumo | 2.5mA |
+| Rango de temperatura | 0°C a 50°C |
+| Precision de medición temp a 25°C | +-2°C |
+| Rango medición humedad | 20% RH a 90% RH
+| Resolución | 8 bit
+
+Output es digital, no se requiere un ADC (Analog to Digital Conveter).
+
+Referente: [Medidor de temperatura con display que controla un ventilador](https://youtu.be/kLGKVRmA6qM?si=V6R917zREnDpwnpz)
+
+ 
+| Cotización  |          |
+|---------|----------|
+|    [Afel](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?variant=45125225316504&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopBpDKEg6-cvMiIue9GO7GNhKvCGqIIK9aevydRV5MYtyGcVEXtNH8)  | $2300 |
+| [Aliexpress](https://es.aliexpress.com/item/1005005975376014.html?spm=a2g0o.tesla.0.0.2735uhdQuhdQRA&afTraceInfo=1005005975376014__pc__c_ppc_item_bridge_pc_same_wf__h4dja19__1759199326305&gatewayAdapt=glo2esp) | $1800 |
+
+<br/>
+
+---
 
 ###
 
