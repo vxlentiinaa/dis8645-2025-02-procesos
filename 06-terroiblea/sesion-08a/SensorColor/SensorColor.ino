@@ -1,5 +1,5 @@
 // Sensor Reconocimiento de Color Tcs230 - Tcs3200
-// Reconoce el color
+// se reconoce el color
 // Color clasificados por R,G,B
 // Se clasifican 4 Colores
 
