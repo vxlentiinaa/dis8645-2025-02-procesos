@@ -44,16 +44,6 @@ El uso más extendido que se le ha dado es en equipos médicos y terapias, adem�
 Con este antecedente, se puede denotar que dicho sensor se encarga de cumplir con estas últimas funciones descritas.
 Para ello, este cuenta con una serie de piezas que se componen de un emisor y un receptor de ultrasonidos (transductor), un cristal y un circuito de control.
 
-
-***
-
-## Aprendiendo más sobre el "Servomotor S90"
-
-
-https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibration/calibration.ino
-
-https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/
-
 ***
 
 ## Aprendiendo más sobre el ["DFPlayer Mini"](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
