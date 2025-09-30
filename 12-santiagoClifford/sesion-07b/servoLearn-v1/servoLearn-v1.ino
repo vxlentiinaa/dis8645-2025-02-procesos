@@ -11,13 +11,13 @@ void setup(){
 
  
 void loop() { 
-  angulo= 20;
+  angulo= 0;
   myservo.write(angulo);
   Serial.print("ángulo:  ");
   Serial.println(angulo);
-  delay(2000);  
+  delay(3000);  
 
-  angulo=160;
+  angulo=70;
   myservo.write(angulo);
   Serial.print("ángulo:  ");
   Serial.println(angulo);

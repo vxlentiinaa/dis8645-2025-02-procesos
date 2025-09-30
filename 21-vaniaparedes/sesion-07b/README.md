@@ -141,7 +141,7 @@ void loop() {
    + <https://www.youtube.com/watch?v=z8wUPMt5Eyg>
    + "Mover un servomotor con Valores de Distancia del Sensor Ultrasonico"
 
-+ **Ejemplo de codigo** sacado de internet para hacer funcionar un **servomotor:**
++ **Ejemplo de codigo** de gemini para hacer funcionar un **servomotor:**
 
 ```cpp
   #include <Servo.h>
