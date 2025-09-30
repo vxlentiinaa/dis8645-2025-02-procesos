@@ -1,0 +1,1 @@
+// Información o código bruto de fotogramas de animación Amarillo
