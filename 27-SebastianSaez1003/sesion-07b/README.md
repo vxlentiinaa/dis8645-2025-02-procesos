@@ -32,11 +32,13 @@ En los .ino no necesitaba poner el #ifndef, #define o #endif. Solo se pone en lo
 
 ## Encargo 14 "cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README."
 
+![Mapa de flujo](./imagenes/Maquina-friolenta-MermaidChart.png)
+
 ## Encargo 15 "cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores."
 
 Yo personalmente me quise dedicar a revisar el sensor de temperatura para nuestro “robot friolento” 
 
-Para empezar revise el link de la lista de materiales de los profesores, para saber con toda seguridad cual era el sensor que tenía en mis manos, el cual fue un (aht20+bmp280)[https://afel.cl/products/sensor-de-temperatura-humedad-y-presion-aht20-bmp280] que tiene de datos importantes:  
+Para empezar revise el link de la lista de materiales de los profesores, para saber con toda seguridad cual era el sensor que tenía en mis manos, el cual fue un [aht20+bmp280](https://afel.cl/products/sensor-de-temperatura-humedad-y-presion-aht20-bmp280) que tiene de datos importantes:  
 
 - Utiliza la interfaz I2C para la comunicación que garantiza una transmisión de datos estable y rápida, mejorando la eficiencia de la comunicación entre dispositivos.
 
@@ -49,7 +51,7 @@ Para empezar revise el link de la lista de materiales de los profesores, para sa
 - Dimensiones: 1.5 x 1.5 mm
 
 
-Luego para empezar a revisar código de funcionamiento encontre una (pagina de venta)[https://uelectronics.com/producto/aht20-bmp280-modulo-de-presion-de-atmosferica-temperatura-y-humedad/] de este módulo, donde se puede observar un codigo de demostración de la lectura de este modulo el cual es el siguiente:
+Luego para empezar a revisar código de funcionamiento encontre una [pagina de venta](https://uelectronics.com/producto/aht20-bmp280-modulo-de-presion-de-atmosferica-temperatura-y-humedad/) de este módulo, donde se puede observar un codigo de demostración de la lectura de este modulo el cual es el siguiente:
 
 ``` cpp
 /*
@@ -117,7 +119,7 @@ void loop() {
 
 donde instale las librerias de “Adafruit_BMP280” y “AHT20” para intentar compilar y enviar el codigo a mi arduino pero me dio problemas, sobre una clase no tenia una variable escrita (myAHT20.available()), y como no sabia como poder corregirlo, tuve que ir a otro ejemplo de código.
 
-La siguiente pagina que encontre fue una documentación del componente en (Cirkit Designer)[https://docs.cirkitdesigner.com/component/3d8e6da8-841a-47a6-a1aa-0aa902c905e1/aht20bmp280] donde se era mucho mas descriptivo en mi opinion de como se debia conectar el componente, los parametros de este, todas las librerias que eran necesarias para que funcionara el codigo, que es el siguiente:
+La siguiente pagina que encontre fue una documentación del componente en [Cirkit Designer](https://docs.cirkitdesigner.com/component/3d8e6da8-841a-47a6-a1aa-0aa902c905e1/aht20bmp280) donde se era mucho mas descriptivo en mi opinion de como se debia conectar el componente, los parametros de este, todas las librerias que eran necesarias para que funcionara el codigo, que es el siguiente:
 ```cpp
 
 #include <Wire.h>
@@ -177,9 +179,9 @@ void loop() {
 
 pero para mi desgracia, este código tampoco me funciono pero esta vez el código si se compilo y fue subido a mi arduino, el problema se encontraba en el hecho de que no recibe ningún mensaje en el monitor serial, nada de nada, incluso lo deje funcionando por un buen rato en caso que se demorarse, pero no ocurrió nada.
 
-Como me imagine que podia ser un error de la comunicación i2c, que no tenía idea que era, me puse a investigar llegando a una página de la (documentación de arduino sobre I2C)[https://docs.arduino.cc/learn/communication/wire/#controller-reader] que explicaba de una manera bastante comprensiva esta manera de conectar un sensor a el arduino de una manera sin muchos cables, a través del pin del clock y del pin de la serial data.
+Como me imagine que podia ser un error de la comunicación i2c, que no tenía idea que era, me puse a investigar llegando a una página de la [documentación de arduino sobre I2C](https://docs.arduino.cc/learn/communication/wire/#controller-reader) que explicaba de una manera bastante comprensiva esta manera de conectar un sensor a el arduino de una manera sin muchos cables, a través del pin del clock y del pin de la serial data.
 
-Ahora que siquiera entendí un poco a que se refiere el I2C, con los ejemplos de la página de arduino, no encontré algo que me servía mucho con mi problema de que no se identificaba el sensor, así que busqué directamente si existía un código para arduino que me permitiera hacer un escaneo o detección de si existía una conexión I2C para encontrarme con un post en la pagina de (learn Adafruit)[https://learn.adafruit.com/scanning-i2c-addresses/arduino] 
+Ahora que siquiera entendí un poco a que se refiere el I2C, con los ejemplos de la página de arduino, no encontré algo que me servía mucho con mi problema de que no se identificaba el sensor, así que busqué directamente si existía un código para arduino que me permitiera hacer un escaneo o detección de si existía una conexión I2C para encontrarme con un post en la pagina de [learn Adafruit](https://learn.adafruit.com/scanning-i2c-addresses/arduino)
 
 
 ```cpp
