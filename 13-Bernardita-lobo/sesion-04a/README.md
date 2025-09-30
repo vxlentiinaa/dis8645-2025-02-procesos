@@ -151,7 +151,28 @@ const unsigned char PROGMEM smiley_bmp[] = {
 
 Realicé un diagrama de flujo para el proyecto-01.
 
-![imagen](./imagenes/diagrama-flujo.png)
+```mermaid
+---
+flowchart LR
+    n1(["encender arduino y pantalla SSD"]) --> n2(["iniciar la reproducción del poema"])
+    n2 --> n3["ajustar la velocidad con el potenciómetro"]
+    n3 --> n4(["si se gira a la derecha"]) & n5(["si se gira a la izquiera"])
+    n4 --> n6(["el texto y la imagen se desplazan hacia arriba lentamente"])
+    n5 --> n7(["el texto y la imagen se desplazan hacia arriba rapidamente"])
+    n3@{ shape: diam}
+     n1:::Aqua
+     n2:::Aqua
+     n3:::Sky
+     n4:::Rose
+     n5:::Peach
+     n6:::Rose
+     n7:::Peach
+    classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
+    style n1 stroke-width:2px,stroke-dasharray: 0
+```
 
 ### Digital vs Analógico
 
