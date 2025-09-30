@@ -184,7 +184,7 @@ Observaciones:
 
 ## Encargos clase 7b
 
-1. Cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
+ Cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
 
 ![diagrama_de_flujo_rial](./imagenes/diagrama_de_flujo_rial.png)
 
@@ -204,8 +204,7 @@ Mientras mantiene la mirada, el sistema verifica continuamente si cesó el sonid
 
 - Si el sonido continúa, sigue parpadeando y manteniendo la orientación.
 
-
-2. Cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores.
+Cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores.
 
 
 
