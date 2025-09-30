@@ -34,4 +34,3 @@ las frecuencias mas agudas son más direccionales.
 
 -  el párpado superior se mueve, con el centro de la circunferencia como el eje de rotación. EL párpado inferior esta fijado en posición.
 - calibramos el ángulo en el que se puede mover el párpado superior. Por ahora es desde 30°-70°.
-
