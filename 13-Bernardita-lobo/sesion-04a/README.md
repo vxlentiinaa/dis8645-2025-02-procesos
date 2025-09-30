@@ -152,7 +152,6 @@ const unsigned char PROGMEM smiley_bmp[] = {
 Realicé un diagrama de flujo para el proyecto-01.
 
 ```mermaid
----
 flowchart LR
     n1(["encender arduino y pantalla SSD"]) --> n2(["iniciar la reproducción del poema"])
     n2 --> n3["ajustar la velocidad con el potenciómetro"]
