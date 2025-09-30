@@ -15,7 +15,9 @@
 
 ![sensores](./imagenes/sensores.jpg)
 
-## Pensar 3 maneras de usar los sensores
+## Encargo 11
+
+Pensar 3 maneras de usar los sensores
 
 - cotizar, referentes, usos
 
