@@ -1,5 +1,9 @@
 # sesion-07b
 
+## apuntes
+- llegue tarde y estuve perdido al inicio, tengo que subir apuntes de lo que se hizo en clases
+
+
   ## Encargo 14
   
 Cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
