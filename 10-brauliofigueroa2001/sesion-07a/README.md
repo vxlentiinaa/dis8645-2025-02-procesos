@@ -217,6 +217,74 @@ para esto necesitamos los siguientes sensores:
 
  grupo Hijos de la tierra (AntFuentealba,SantiagoClifford,sofia-perezm,felix-rg416)
 
+- buscamos crear un robot "creepy", que genere sensación de incomodidad y de "sentirse observado" en los usuarios.
+- debido a la dificultad que significa la detección de personas, queremos detectar a la gente a través de sonidos. Para esto, serán colocados entre 3-5 micrófonos en puntos estratégicos de la sala. Dependiendo de cuáles micrófonos detecten sonidos, y en qué intensidad, los ojos apuntarán en una dirección determinada.
+- por ahora, los ojos puede cambiar su dirección en el eje X, no en el eje Y. Los ojos estarán sobre una plataforma, la cual gira en 270° gracias a un motor.
+-los párpados funcionan gracias a un eje de rotación, cuya posición está en el centro de la esfera(visto desde el lateral)
+- entrada: queremos detectar presencia y posición mediante el sonido que emita una persona
+- salida: un motor hacer rotar unos ojos para que apunten hacia donde detectan los sonidos con mayor identidad
+- para esto utilizarán los siguientes sensores: servomotor futaba s30003, servomotor MG996R, sensor de sonido analógico digital, sensor sonido micrófono análogo digital
+
+similitudes con nuestro proyecto
+
+- ambos proyectos utilizan ojos y servomotores como uno de los ejes centrales del proyecto
+- los ojos buscan generar incomodidad
+- la entrada es mediante la detección de una persona
+- hay distintos "módulos" de micrófonos puestos en la sala, en nuestro caso también podría haber "módulos" colocados en uno o más puntos
+- los ojos se moverían en eje x (momentáneamente)
+
+diferencias con nuestro proyecto
+
+- la detección del usuario es distinta ya que en este proyecto se usará sonido, en nuestro caso se utilizará un sensor ultrasónico
+- en este proyecto no se emite ningún sonido de parte de la máquina
+
+preguntas y aciertos
+
+- ¿la velocidad con la que se mueven los ojos puede ser regulada?
+- ¿los dos ojos se moverán en la misma dirección? o puede uno moverse independiente al otro
+- ¿los ojos tendrán párpados? o será solo la parte interior del ojo
+- me gusta que exploren la sensación de incomodidad, creo que esto se puede profundizar harto
+
+- la info fue sacada de la bitácora 7a de [SantiagoClifford](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/12-santiagoClifford/sesion-07a)
+- también fue extraída de un mensaje de discord enviado por felix-rg416 el día martes 23 de septiembre
+
+grupo (Yamna-bit,sofiacartes,mmillar95,vaniaparedes,vxlentinaa)
+
+- Máquina cuenta secretos
+
+Entrada: La máquina mediante el sensor ultrasónico detecta tu presencia y tu distancia.
+
+Salida: Depende tu distancia este reacciona, si estas lejos comienza a tiritar (de la emoción/ansioso) para poder contarte un secreto, al mismo tiempo te llama gritando para que te acerques más. Cuando estés lo suficiente cerca te susurra el secreto. definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
+
+para esto necesitan: motor dc, sensor ultrasónico, módulo reproductor mp3, altavoz
+
+similitudes con nuestro proyecto
+
+- ambos proyectos reaccionan dependiendo de la distancia a la que está el usuario, como forma de entrada
+- la máquina reacciona dependiendo de qué tan cerca o lejos estés
+- en un comienzo nuestra idea también tenía que ver con secretos pero al final lo cambiamos, el concepto era parecido
+- ambas utilizan módulos mp3
+
+diferencias con nuestro proyecto
+
+- a diferencia de frases coherentes, nuestra máquina dice palabras sin coherencia alguna, evocando al humor/absurdo
+- el objeto que dirá las frases es un sin sentido ya que es una oreja, veo este proyecto mucho más "coherente" que el nuestro, por así decirlo
+- nuestra máquina no tiene reacciones diferentes dependiendo de la distancia, es una lista de palabras que se va reproduciendo en cuánto estemos a la distancia indicada
+
+preguntas y aciertos
+
+- ¿cómo hacen para que comience a tiritar? utilizarán alguna especie de motor vibrador?
+- me gusta mucho la idea de que en base a la distancia la máquina actúe de formas diferentes
+- creo que me gustaría ver una diferencia entre un temblar de emoción o temblar de ansioso, quizá estas 2 se pueden confundir, no siento que sean lo mismo
+- ¿las frases que diga la máquina serán pregrabadas con voces de ustedes? o será una voz "computacional"
+
+
+#### encargo 13, búsqueda de 2 referentes de cada ámbito (código,lenguaje,documentación,materialidad)
+
+
+ 
+
+
 
 
 
