@@ -292,6 +292,18 @@ preguntas y aciertos
 
 - referentes de lenguaje:
 
+- primer referente de lenguaje: NTS-3 kaoss pad
+
+ ![lenguajekaoss](./imagenes/lenguajekorg.JPG)
+ 
+ ![lenguajekaoss2](./imagenes/lenguajekorg2.JPG)
+
+ - lo que rescato de este referente es el profesionalismo del lenguaje con el que se refiere al producto que nos está ofreciendo, por ejemplo en la figura 2 dice "es una nueva y revolucionaria unidad de efectos" "la unidad de efectos compacta definitiva" me encanta esta idea de "la máquina perfecta", siento que lo hace muy sólido en su presentación. Me gusta que tenga esa exageración de lo bueno que es o que tenga una especie de aires de grandeza al hablar de su producto, sé que el producto es muy bueno de por sí pero la descripción también lo acompaña mucho y lo hace más "poderoso" por así decirlo. Creo que el describir lo que uno hace como lo mejor que hay y creerse el cuento de esta forma, ayuda muchísimo al momento de desarrollar un proyecto, considero que al crear algo debemos ser los primeros en enaltecerlo, no se trata de ser soberbios, se trata de valorar el trabajo que hacemos, es por ello que elijo este referente de lenguaje.
+
+- fuente: [korg](https://www.korg.com/cl/products/dj/nts_3/index.php)
+
+ 
+
 
 
 
@@ -302,7 +314,11 @@ preguntas y aciertos
 
  
 
-- referentes de materialidad: 
+- referentes de materialidad:
+
+- primer referente de materialidad: Maywa Denki, Mr Knocky
+
+
 
 
 
