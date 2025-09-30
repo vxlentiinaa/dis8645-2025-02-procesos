@@ -147,22 +147,22 @@ Referente: [Medidor de temperatura con display que controla un ventilador](https
 
 ### [Sensor de gas (MQ2)](https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/)
 
-<img align="right" src="./imagenes/MQ2.jpg" alt="MQ2 pinout" title="Fuente: " width=270>
+<img align="right" src="./imagenes/MQ2.jpg" alt="MQ2 pinout" title="Fuente: https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/" width=270>
 
-Sensor capáz de detectar la precencia de LPG, humo, alcohol, propano, hidrógeno, metano y monoxido de carbono, y reportar la concentración de estos gases en el aire.
+Sensor capáz de detectar la precencia de LPG, humo, alcohol, propano, hidrógeno, metano y monoxido de carbono (entre otros), y reportar la concentración de estos gases en el aire.
 
 El sensor funciona detectando el cambio de resistencia en su nucleo, este está hecho de un material que al ser calentado reacciona con el oxigeno, haciendo que la reistencia del elemento aumente drásticamente. Cuando hay gases inflamables presentes, estos le quitan el oxígeno de encima el sensor y la conductividad aumenta.
 
 | Pinout |          |
-|:------:|:----------|
+|:------:|----------|
 | Vcc    | Alimenta con 5V al sensor |
 | Gnd    | Tierra |
 | D0     | (Digital output) Emite LOW cuando detecta gases inflamables |
 | A0     | (Analog output) Emite un voltaje variable correspondiente a la concentracion de gas  |
 
 | Características    |      |
-|------------|------|
-| Consumo | <800mw |
+|------------|:------:|
+| Consumo | 160mA |
 | Rango de temperatura | 0°C a 50°C |
 | Resistencia de carga | 20 KΩ |
 | Resistencia del calentador | 33Ω ± 5% |
@@ -170,11 +170,11 @@ El sensor funciona detectando el cambio de resistencia en su nucleo, este está 
 | Rango de concentración | 200 – 10000ppm |
 | Tiempo de precalentado |  24 - 48 hrs |
 
-Referentes:  
+Referente: [Detector de gases y humo (alarma)](https://youtu.be/NxaBnZyyJbc?si=XW4T_a7Ml1KZaikI)
 
  
 | Cotización  |          |
-|---------|----------|
+|:---------:|----------|
 |    [Afel](https://afel.cl/products/sensor-de-gas-mq2?srsltid=AfmBOoq5M_UHANr3t04XnWjSg3IgZq2efVnBWjcL3aOSc_IBaPGnoTDs)  | $2300 |
 | [Aliexpress](https://es.aliexpress.com/item/32328262269.html?spm=a2g0o.productlist.main.1.2dd731fbcIK0Wq&algo_pvid=bd3d189a-7ea9-4034-9970-8294608e4495&algo_exp_id=bd3d189a-7ea9-4034-9970-8294608e4495-0&pdp_ext_f=%7B%22order%22%3A%22252%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CLP%211234%211234%21%21%211.24%211.24%21%402103246617592061878535430e8097%2156168146173%21sea%21CL%212216225714%21X%211%210%21n_tag%3A-29919%3Bd%3Abffa061c%3Bm03_new_user%3A-29895&curPageLogUid=tRUYAxk1qO41&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A32328262269%7C_p_origin_prod%3A) | $1234 |
 
@@ -182,8 +182,44 @@ Referentes:
 
 ---
 
+### [Rotary encoder]()
 
-###
+<img align="right" src="./imagenes" alt="Rotary encoder pinout" title="Fuente: " width=400>
+
+descripcion
+
+| Pinout  |          |
+|:---------:|----------|
+| Vcc     | Alimenta con 5V al sensor |
+|     |  |
+|     |  |
+| Gnd     | Tierra |
+
+| Características    |      |
+|------------|:------:|
+| Consumo |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+Distancia efectiva: 2cm a 4M
+
+Referentes:  
+
+ 
+| Cotización  |          |
+|:-----------:|----------|
+| [Afel]()    | $ |
+| [Aliexpress)]() | $ |
+
+<br/>
+
+---
+
+
+
+
 
 ###
 
@@ -200,21 +236,19 @@ Referentes:
 descripcion
 
 | Pinout  |          |
-|---------|----------|
+|:---------:|----------|
 | Vcc     | Alimenta con 5V al sensor |
-| Trigger | hace que el sensor emita un pulso |
-| Echo    | comunica cuando regresa el pulso |
+|     |  |
+|     |  |
 | Gnd     | Tierra |
 
 | Características    |      |
-|------------|------|
-| Consumo | 2.5mA |
-| Rango de temperatura | 0°C a 50°C |
-| Precision de medición temp a 25°C | +-2°C |
-| Rango medición humedad | 20% RH a 90% RH
-| Resolución | 8 bit
-
-Ángulo efectivo: 15º
+|------------|:------:|
+| Consumo |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 Distancia efectiva: 2cm a 4M
 
@@ -222,9 +256,9 @@ Referentes:
 
  
 | Cotización  |          |
-|---------|----------|
-|    [Afel]()  | $1500 |
-| [Tenstar robot (aliexpress)]() | $1631 |
+|:-----------:|----------|
+| [Afel]()    | $ |
+| [Aliexpress)]() | $ |
 
 <br/>
 
