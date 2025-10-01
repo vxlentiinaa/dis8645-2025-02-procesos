@@ -210,13 +210,68 @@ Referente: [Lamp dimmer](https://www.edn.com/mouse-encoder/)
 
 ---
 
+### [Sensor de humedad de suelo (HW-103A)](https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/)
 
+<img align="right" src="./imagenes/SoilMoistureSensorPinout.png" alt="Sensor de humedad pinout" title="Fuente: https://projecthub.arduino.cc/Aswinth/soil-moisture-sensor-with-arduino-91c818" width=400>
 
+El sensor es una resistencia cuyo valor varía dependiendo de cuanta humedad haya en el suelo, esta es conectada a un módulo comparador LM393, que se encarga de proveer las señales digitales y analógicas. 
+ 
+| Pinout  |          |
+|:---------:|----------|
+| Vcc     | Alimenta con 3.3V - 5V al sensor |
+| Gnd     | Tierra |
+| Digital out | Emite señales digitales |
+| Analog out | Emite señales analógicas |
 
+Sensibilidad ajustable con el potenciómetro azul.
 
-###
+El comparador emite una señal digital cuando la humedad sobrepasa el rango configurado.
 
-###
+Referentes:  
+ 
+| Cotización  |          |
+|:-----------:|----------|
+| [Afel](https://afel.cl/products/sensor-humedad-suelo-higrometro?variant=45125237997720&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=@+Smart+Shopping+2&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=19569174895&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19560974580&gbraid=0AAAAADBMsFRv1iW7wu0slTHhMrJpnKr9l&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUMSWx9J7hO0MX6ca4pbWIABuzP54sYI7wpU5bYXffFHxQRnXmW_fUhoCzb8QAvD_BwE)    | $2300 |
+| [Aliexpress)](https://es.aliexpress.com/item/1005007463014084.html?src=google&pdp_npi=4%40dis!CLP!2166!1343!!!!!%40!12000040856282136!ppc!!!&snps=y&snpsid=1&src=google&albch=shopping&acnt=752-015-9270&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oDeeeiG&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=768550850310&ds_e_matchtype=search&ds_e_device=c&ds_e_network=g&ds_e_product_group_id=2432726605827&ds_e_product_id=es1005007463014084&ds_e_product_merchant_id=5551326180&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22884625885&albag=182909670879&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=22884625885&gbraid=0AAAAA_eFwRBO1dBxPKHyiMm0EnL0srRcd&gclid=Cj0KCQjwovPGBhDxARIsAFhgkwRCssFY_8I0-_m1dOopTIm_LoAS8hhWv0BUI7PazFVSbLXxcFo7Z24aAvA7EALw_wcB) | $981 |
+
+<br/>
+
+---
+
+### Joystick 
+
+<img align="right" src="./imagenes" alt="" title="Fuente: " width=400>
+
+descripcion
+
+| Pinout  |          |
+|:---------:|----------|
+| Vcc     | Alimenta con 5V al sensor |
+|     |  |
+|     |  |
+| Gnd     | Tierra |
+
+| Características    |      |
+|------------|:------:|
+| Consumo |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+Distancia efectiva: 2cm a 4M
+
+Referentes:  
+
+ 
+| Cotización  |          |
+|:-----------:|----------|
+| [Afel](https://afel.cl/products/joystick-palanca-de-mando?pr_prod_strat=e5_desc&pr_rec_id=e0c87be65&pr_rec_pid=8381984080024&pr_ref_pid=8381917790360&pr_seq=uniform)    | $2000 |
+| [Aliexpress)]() | $ |
+
+<br/>
+
+---
 
 ###
 
