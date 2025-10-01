@@ -20,7 +20,7 @@ Salida: Al detectar la distancia de la presencia la máquina reacciona de difere
 4. Los parametros son:
 80 - 100cm = Te "grita" que vengas diciendo: "HOLA HUMANO, VEEEN!"
 40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "HOOLAA, MÁS CERCA!"
-2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato interesante como "El maní es una legumbre, no un fruto seco.”
+2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato interesante como "El maní es una legumbre, no un fruto seco.” 🤓☝🏻
 
 La idea es que se vea así con el dedo cuando te diga el dato:
 ![deHecho](./imagenes/deHecho.jpg)
@@ -31,8 +31,32 @@ Funcionó!
 ![conecciones](./imagenes/IMG_2007.jpg)
 
 ### Qué nos falta hacer?
-Carcasa
-Mecanismo con carcasa
-Diálogo
-Motor DC
-Unir código
+ + Carcasa
+ + Mecanismo con carcasa
+ + Diálogo ✅
+ + Motor DC
+ + Unir código
+
+#### Al final de la clase pudimos hacer:
+
+  + Código para usar el mp3 y el altavoz funcionó gracias a janis y mateo <3 gracias.
+  + El código salvador fué este de aquí:
+  + <https://github.com/DFRobot/DFRobotDFPlayerMini>
+
+  + Logramos hacer funcionar el sensor ultrasónico junto al servomor, fotito arriba y el código está adjunto en files.
+
+  + Preparamos como serían más o menos los dialogos de la máquina para convertirlos en audio y poder añadirlas a nuestro código.
+    
+#### Diálogo listo ✅
++ Los diálogos serán:
+ + **1.** "hola1.mp3" de 80-10cm, para llamar a la persona: "Hola humano ¿Por qué estás tan lejos? Acércate."
+ + **2.** "hola2.mp3" de 40-60cm, para hacer que la persona se acerque más: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji"
+ + **3.** "dato1, 2, 3, 4,5 y 6.mp3" de 2-10cm:
+   + **dato1:** "¿Sabías qué? El primer mause era de madera... Seguro también servía de leña jajaj"
+   + **dato2:** "¿Sabías qué? El error 404 es mi manera de hacerme el leso... jajaja"
+   + **dato3:** "¿Sabías qué? La nube no existe, son computadores de otro... pero no se lo digas a nadie"
+   + **dato4:** "¿Sabías qué? Los datos nunca se borran, solo se esconden... igual que tus calcetines"
+   + **dato5:** "¿Sabías qué? Apagar y prender arregla todo, y sino, un golpecito y como nuevo"
+   + **dato6:** "¿Sabías qué? El porcentaje exacto de 99,999999999999... Nah, inventé jajaja pero aún sigues aquí ¿no?"
+
+  Audios en files! hechos en <https://aivoice-es.vidnoz.com/text-to-speech>
