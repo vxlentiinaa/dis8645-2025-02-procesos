@@ -182,36 +182,29 @@ Referente: [Detector de gases y humo (alarma)](https://youtu.be/NxaBnZyyJbc?si=X
 
 ---
 
-### [Rotary encoder]()
+### [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)
 
-<img align="right" src="./imagenes" alt="Rotary encoder pinout" title="Fuente: " width=400>
+<img align="right" src="./imagenes/RotaryEncoderPinout.jpg" alt="Rotary encoder pinout" title="Fuente: https://components101.com/modules/KY-04-rotary-encoder-pinout-features-datasheet-working-application-alternative" width=370>
 
-descripcion
+Detecta dirección de rotación, distantancia rocorrida por la rueda, velocidad de rotación y en algunos casos un switch siendo pulsado.
+
+Dentro del encoder hay 2 "switches", correspondientes a los outputs A y B correspondientemente, que al rotar la perilla, son pulsados uno tras el otro generando un patrón que el microcontrolador lee. 
 
 | Pinout  |          |
 |:---------:|----------|
-| Vcc     | Alimenta con 5V al sensor |
-|     |  |
-|     |  |
-| Gnd     | Tierra |
+|  Gnd  | Tierra |
+|  Vcc  | Alimenta con 5V al sensor |
+|  Switch | Botón |
+|  Output A  | Emite pulsos digitales al rotar |
+|  Output B  | Emite pulsos digitales al rotar |
 
-| Características    |      |
-|------------|:------:|
-| Consumo |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-Distancia efectiva: 2cm a 4M
-
-Referentes:  
+Referente: [Lamp dimmer](https://www.edn.com/mouse-encoder/)
 
  
 | Cotización  |          |
 |:-----------:|----------|
-| [Afel]()    | $ |
-| [Aliexpress)]() | $ |
+| [Afel](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados?variant=45125048434840&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooE7x7yR-tF44NTYCKkC2BThQfQXfTGjPHL6s4V7ZJBz8LETi2QWSs)    | $2000 |
+| [Aliexpress)](https://es.aliexpress.com/item/1005008554510924.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.1.41barsRyrsRyPP&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40196.439370.0&scm_id=1007.40196.439370.0&scm-url=1007.40196.439370.0&pvid=05f8adde-4efe-486d-bd99-aa4fa85f9310&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40196.439370.0,pvid:05f8adde-4efe-486d-bd99-aa4fa85f9310,tpp_buckets:668%232846%238109%231935&pdp_ext_f=%7B%22order%22%3A%22554%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005008554510924%22%2C%22orig_item_id%22%3A%221005006459289182%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21CLP%212614%211307%21%21%2118.72%219.36%21%402103241117592718273342712ea3b3%2112000045689899837%21rec%21CL%212216225714%21X%211%210%21n_tag%3A-29919%3Bd%3Abffa061c%3Bm03_new_user%3A-29895&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008554510924%7C_p_origin_prod%3A1005006459289182) | $1307 |
 
 <br/>
 
