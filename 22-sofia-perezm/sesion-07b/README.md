@@ -168,3 +168,8 @@ hacer un diagrama de flujo de como funciona el proyecto
 
 documentar funcionamiento de cableado y código
 
+---
+
+Diagrama de flujo según mi entendimiento de como funciona el proyecto
+
+![diagrama_de_flujo_en_mermaid_chart](./imagenes/proyecto02_flujo.png)
