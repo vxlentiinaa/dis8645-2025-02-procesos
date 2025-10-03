@@ -57,4 +57,4 @@ void loop() {
 }
 ```
 
-![Prueba de párpados](./archivos/parpadosTEST.gif)
+![Prueba de párpados](./imagenes/parpadoTEST.gif)
