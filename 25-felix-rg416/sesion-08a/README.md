@@ -1,15 +1,15 @@
 # sesion-08a
-Patra saber la posición del sonido se compara la intensidad de cada micrófono
 
-El micrófono mide amplitud 
+martes 30 de septiembre
 
-Frecuencia: Cuantas veces se repite una onda por segundo. Cuántas ondas cabe en un segundo
+Para saber la posición del sonido se compara la intensidad de cada micrófono
 
+El sonido tiene:
 
+- Frecuencia: Cuantas veces se repite una onda por segundo. Cuántas ondas cabe en un segundo
+- Amplitud: Qué tan alto llega la onda del sonido
 
-Amplitud: Qué tan alto llega la onda del sonido
-
-Ecuación de la onda
+Para nosotros es importante la amplitud
 
 Módulos:
 
@@ -17,7 +17,7 @@ Módulos:
 
 ## Calibrar los micrófonos
 
-Los micrófonos de fábrica no leen exactamento lo mismo.
+Los micrófonos de fábrica no leen exactamente lo mismo. Por eso es necesario calibrarlos.
 
 La idea es que estén en la misma amplitud (Misa lo explicó de una forma muy técnica que no caché mucho)
 
@@ -29,11 +29,15 @@ El código está en la carpeta "codigos" de esta sesion
 
 Era importante leer el datasheet del micrófono porque debe ser conectado a 3.3V 
 
-Comparación
+## Proyecto
+
+Para nuestro proyecto necesitamos comparar la amplitud de ambos micrófonos para saber de dónde viene el sonido.
 
 Si valor B es mayor que A, el sonido viene de B
 
+## Párpados
 
+Para los párpados vamos a usar un servo motor que mueva ambos con un eje común.
 
 Para probar el movimiento del párpado usamos [este código](https://github.com/felix-rg416/dis8645-2025-02-procesos/blob/main/12-santiagoClifford/sesion-07b/servoLearn-v1/servoLearn-v1.ino)
 
@@ -52,4 +56,5 @@ void loop() {
   delay(2000); 
 }
 ```
+
 ![Prueba de párpados](./archivos/parpadosTEST.gif)
