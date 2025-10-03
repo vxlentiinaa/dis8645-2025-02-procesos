@@ -10,25 +10,25 @@ son 28 estudiantes, distribuidos en 6 grupos:
 ## cronograma
 
 * 08:30am - 09:00am: montaje
-* 09:00am - 09:30am: grupo 01
-* 09:30am - 10:00am: grupo 02
-* 10:00am - 10:30am: grupo 03
+* 09:00am - 09:30am: uno de los grupos de 6 personas (01 a 04)
+* 09:30am - 10:00am: uno de los grupos de 6 personas (01 a 04)
+* 10:00am - 10:30am: uno de los grupos de 6 personas (01 a 04)
 * pausa
-* 11:00am - 11:30am: grupo 04
-* 11:30am - 12:00pm: grupo 05
-* 12:00am - 12:30am: grupo 06
+* 11:00am - 11:30am: uno de los grupos de 6 personas (01 a 04)
+* 11:30am - 12:00pm: uno de los grupos de 4 personas (05 a 06)
+* 12:00am - 12:30am: uno de los grupos de 4 personas (05 a 06)
 * 12:30am - 12:50am: palabras finales y ordenar
 
 ## grupos
 
-* grupo BLA0
+* grupo 01 NOMBRE AUN NO DEFINIDO
   * 04-yamna-bit
   * 05-sofiacartes
   * 14-mmillar95
   * 21-vaniaparedes
   * 26-vxlentiinaa
 
-* grupo BLA02
+* grupo 02 NOMBRE AUN NO DEFINIDO
   * 06-terroiblea
   * 07-valechavezalb
   * 09-notcaamila
@@ -42,7 +42,7 @@ son 28 estudiantes, distribuidos en 6 grupos:
   * 19-Hiinalia
   * 24-Joquape
 
-* grupo 04 BLA03
+* grupo 04 NOMBRE AUN NO DEFINIDO
   * 28-FranUDP
   * 17-jotamorales-romulus
   * 20-Camila-Parada
