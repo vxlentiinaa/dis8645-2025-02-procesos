@@ -1,1 +1,19 @@
-# sesion-11a
+# Sesión-11a
+
+## Trabajo en clase
+
+### Cosas que hablamos en la mañana
+
+- 
+
+- 
+
+### Referentes
+
+-
+
+-
+
+### Palabras impoertantes
+
+## Encargo

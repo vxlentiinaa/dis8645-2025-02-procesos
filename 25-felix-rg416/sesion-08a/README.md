@@ -1,71 +1,60 @@
 # sesion-08a
 
-martes 23 de septiembre
+martes 30 de septiembre
 
-- Misaa:
-    - Toda la teoría del universo
-    - Susana Chau
-    - Yuk Hui --> Cosmo técnica - Tecno diversidad
-- Liquen Lab
-- Bienal de Artes Mediales
-- Museo del Hongo
+Para saber la posición del sonido se compara la intensidad de cada micrófono
 
-A Misa no le gusta el sensor ultrasónico porque 
+El sonido tiene:
 
-Interfaz de mantención, Aarón recomienda poner un botón o perillas que pueden ayudar para hacer las cosas más fáciles.
+- Frecuencia: Cuantas veces se repite una onda por segundo. Cuántas ondas cabe en un segundo
+- Amplitud: Qué tan alto llega la onda del sonido
 
-## motores
+Para nosotros es importante la amplitud
 
-- [Motor DC](https://afel.cl/collections/alta-velocidad) "es rápido y no sabe dónde está" - Misa. Se puede cambiar la dirección.
-- [Paso a Paso](https://afel.cl/collections/paso-a-paso) "Lento, preciso y no sabe donde está". Necesita un driver que le entrega más energía porque Arduino no le entrega la necesaria. Se mueve por grados. El torque es para saber cuánto puede levantar por cm.
-- [Servo Motores](https://afel.cl/collections/servomotores) "Servo, no cerdo" - Misa "Save donde está y es relativamente preciso". Tiene  librerías de Arduino.Son mejores cuando tienen engranajes metálicos. Sólo hay uno que llega a 360°, pero no sabe dónde está.
-- [Solenoide](https://tienda.sawers.com.bo/jf-0530b-solenoid-push-pull) Movimiento lineal
-- [DC MOTORS AND GENERATORS - video](https://youtu.be/OpL0joqJmqY)
+Módulos:
 
-Al investigar motores, hay que buscar qué driver se pueden usar
+- MAX4466 lounders
 
-## LED
+## Calibrar los micrófonos
 
-- tira led
-- [video](https://www.youtube.com/watch?v=tHjmvry00_w)
+Los micrófonos de fábrica no leen exactamente lo mismo. Por eso es necesario calibrarlos.
 
-## Grupo - Hijos de la tierra
+La idea es que estén en la misma amplitud (Misa lo explicó de una forma muy técnica que no caché mucho)
 
-1. 11-AntFuentealba
-2. 12-antiagoClifford
-3. 22-sofia-perezm
-4. 25-felix-rg416
+Para calibrarlos Aarón me ayudó a cómo buscar el código que pueda ayudarme.
 
-Unos ojos que pestañeen y que sigan con la mirada.
+Desde Afel llegamos al siguiente enlace: <https://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound-levels>
 
-Queremos detectar y captar cualquier sonido audible para el ser humano (20 - 20000 Hz) como pasos, voces, golpes, etc.
+El código está en la carpeta "codigos" de esta sesion
 
-Al recibir la señal de sonido, un mo
+Era importante leer el datasheet del micrófono porque debe ser conectado a 3.3V 
 
-### Sensores
+## Proyecto
 
-- micrófonos 
-    - el micrófono 1 
+Para nuestro proyecto necesitamos comparar la amplitud de ambos micrófonos para saber de dónde viene el sonido.
 
-https://www.murkyrobot.com/guias/sensores/ky-038
+Si valor B es mayor que A, el sonido viene de B
 
-## Encargo
+## Párpados
 
-- 10 proyectos de internet que tengan cosas robables, para poder tener una bibliografía decente.
-- 2 referentes de cada uno:
-    - Lenguaje
-    - Código
-    - Materialidad
-    - Documentación
+Para los párpados vamos a usar un servo motor que mueva ambos con un eje común.
 
-## Bibliografía
+Para probar el movimiento del párpado usamos [este código](https://github.com/felix-rg416/dis8645-2025-02-procesos/blob/main/12-santiagoClifford/sesion-07b/servoLearn-v1/servoLearn-v1.ino)
 
-- [Beginning Nfc: Near Field Communication With Arduino, Android, and Phonegap](https://books.google.cl/books?id=ScuYAgAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false)
-- [What Is Physical Computing?](https://itp.nyu.edu/physcomp/)
-- [Diferencia entre NFC vs RFID](https://www.omnitecsystems.es/omni/blog/rfid-vs-nfc-diferencia-tecnologias-radiofrecuencia)
-- [VIDEO - CONTROL DE ACCESO con RFID y ARDUINO PN532](https://youtu.be/ahh3QfQach4)
-- [RTC - reloj de tiempo real para arduino](https://afel.cl/products/modulo-rtc-ds1302-reloj-de-tiempo-real?pr_prod_strat=e5_desc&pr_rec_id=83e58aaae&pr_rec_pid=8381993451672&pr_ref_pid=8381995286680&pr_seq=uniform)
-- [Un reloj que, cuando lo descorchas empieza a correr](https://cwandt.com/products/time-since-launch)
-- [El reloj, si nota que lo estpas viendo, da una hora equivocada](https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
-- [Eramos unos niños - Patti Smith](https://www.buscalibre.cl/libro-eramos-unos-ninos/9788426414052/p/3380087)
-- [Módulo de grabación](https://afel.cl/products/modulo-grabacion-reproduccion-de-audio-isd1820-con-microfono-integrado?variant=45125239177368&country=CL&currency=CLP&utm_term=&hsa_grp=&hsa_ad=&hsa_tgt=&hsa_kw=&hsa_mt=&gad_campaignid=19560974580)
+```cpp 
+void loop() { 
+  angulo= 70;
+  myservo.write(angulo);
+  Serial.print("ángulo:  ");
+  Serial.println(angulo);
+  delay(2000);  
+
+  angulo=180;
+  myservo.write(angulo);
+  Serial.print("ángulo:  ");
+  Serial.println(angulo);
+  delay(2000); 
+}
+```
+
+![Prueba de párpados](./imagenes/parpadoTEST.gif)
