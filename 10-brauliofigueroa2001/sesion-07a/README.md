@@ -338,9 +338,13 @@ preguntas y aciertos
 
 - segundo referente de documentación: Mizuna Ai companion, Hackster
 
- 
+![hackster1](./imagenes/documentacionhackster.JPG)
 
- 
+![hackster](./imagenes/documentacionhackster2.JPG)
+
+![hackster](./imagenes/documentacionhackster3.JPG)
+
+- elegí este referente principalmente por la organización que tiene para mostrar el contenido. Considero que el tener una ventana que te muestre una especie de índice con todos los ámbitos/categorías que son parte del proyecto y puedas indagar libremente en la que necesites. Otro punto que destaco y que considero importante para un proyecto es que incluye una "story" o un motivo, idea, de la cuál sale la creación del objeto como el punto de partida por el cuál se creó. También destaco que incluya una lista de todos los materiales necesarios para llevar a cabo el proyecto incluyendo el sitio web donde puedes comprarlo (en este caso amazon). Algo malo sobre este úlitmo punto es que quizá hay opciones más baratas que amazon para comprar estos componentes por lo cuál en nuestro caso colocaría diversas opciones de compra como parte de la documentación para ayudar a la persona que esté viendo el proyecto
 
 - referentes de materialidad:
 
@@ -355,9 +359,6 @@ preguntas y aciertos
 fuente info: [japantrendshop](https://www.japantrendshop.com/ES-mr-knocky-musical-toy-by-maywa-denki-p-2555.html)
 
 - elegí este referente por el concepto de "instrumento juguete" que emplea Maywa Denki en sus productos. Me gusta la idea de algo "poco serio" o más "amigable" a la vista, creo que puede ir muy de la mano con nuestro proyecto ya que estamos empleando el concepto de humor o absurdo para nuestra máquina y no se trata de algo serio. Rescato las formas que poseen estos juguetes, curvas suaves y la creación de un personaje como tal, en este caso Mr Knocky. Desconozco el material específico con el que fue hecho, no aparece como tal, pregunté a la IA (chatgpt) y el armazón externo está hecho de acrilonitrilo butadieno estireno que es un tipo de termoplástico, además posee un mecanismo de cables de alambre que mueven los brazos para que mr knocky golpee los tambores. Más allá del material hecho (que siento es un proceso que escapa a lo que podemos hacer) rescato la forma y concepto de personaje del referente, por eso lo elegí
-
-
-
 
 - segundo referente de materialidad: Oskitone
 
