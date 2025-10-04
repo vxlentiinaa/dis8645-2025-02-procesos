@@ -308,7 +308,12 @@ preguntas y aciertos
 
 
 
-- referentes de documentación: oskitone
+- referentes de documentación
+
+- primer referente documentación: oskitone
+
+- uno de los referentes de documentación que elegí fue Oskitone
+
 
  [oskitone](https://blog.tommy.sh/posts/scout/)
 
