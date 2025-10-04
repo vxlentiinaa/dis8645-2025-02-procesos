@@ -347,6 +347,27 @@ preguntas y aciertos
 
 
 
+- segundo referente de materialidad: Oskitone
+
+- vuelvo a repetir a Oskitone pero esta vez en el ámbito de la materialidad
+
+- Oskitone Poly555
+
+![oskimaterialidad](./imagenes/materialidad1.jpg)
+
+- Oskitone Scout
+
+![oskimaterialidad2](./imagenes/materialidad2.jpg)
+
+- Oskitone APC
+
+![oskimaterialidad3](./imagenes/materialidad3.jpg)
+
+- en este caso seleccioné 3 objetos de Oskitone, 2 de ellos son sintetizadores (Poly555 y Scout) y el otro es una Atari Punk Console. Para estos 3 objetos utiliza impresión 3d incluso para sus tuercas y tornillos, dentro de estas carcasas se encuentran las placas de una forma perfectamente encajada. Elegí este referente porque utiliza muy bien los materiales y el acabado, es bastante minimalista y aprovecha muy bien los espacios, nada se ve sobrepuesto o sobrante. Rescato muchísimo que en el Poly555 posea una lámina que permite ver el funcionamiento de la placa (se prenden leds cuando apretamos los botones), siento que esto hace mucho más cercano al usuario con la manera en la que funciona el objeto, ya que, no solo apretas botones si no que ves el cómo están compuestos los circuitos y te da una idea de cómo funciona por dentro. Es interesante la idea de mostrar el objeto por dentro pero sin perder la calidad de la factura o o que se vea "desordenado" por así decirlo
+
+
+
+
 
 
 
