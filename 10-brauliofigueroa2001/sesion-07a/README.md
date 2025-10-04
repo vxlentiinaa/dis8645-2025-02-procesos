@@ -314,10 +314,27 @@ preguntas y aciertos
 
 - uno de los referentes de documentación que elegí fue Oskitone
 
+![oskitone1](./imagenes/documentacion1.JPG)
 
+![oskitone2](./imagenes/documentacion2.JPG)
+
+- elegí este referente porque siento que tiene una interfaz amable en el modo de mostrar las cosas, está todo muy bien estructurado y dividido lo cuál hace fácil de entender el producto que nos está mostrando. Además de incluir imágenes y videos en detalle del funcionamiento del instrumento. Me gusta esta parte de la documentación ya que es la sección en la que te vende el producto, por lo cual, tiene lo justo y necesario para llamar la atención del cliente/usuario interesado. También tiene un blog en el que explica explícitamente como está desarrollado el producto con todo su proceso.
+ 
  [oskitone](https://blog.tommy.sh/posts/scout/)
 
+ ![oskitone3](./imagenes/documentacion3.JPG)
 
+ ![oskitone4](./imagenes/documentacion4.JPG)
+
+ ![oskitone5](./imagenes/documentacion5.JPG)
+
+ ![oskitone6](./imagenes/documentacion6.JPG)
+
+ ![oskitone7](./imagenes/documentacion7.JPG)
+
+ ![oskitone8](./imagenes/documentacion8.JPG)
+
+- estas son algunas de las partes de documentación que se nos muestra en el blog, es mucho mas extenso de lo que muestro aquí. Me parece muy bueno que sea tan detallado en la explicación de la realización del producto, me gusta bastante porque muestra los diversos ámbitos en los que se trabaja este producto como lo son la parte electrónica, el concepto, la carcasa/trabajo 3d e interacción con el usuario hasta las ideas fallidas o ideas que se quisieron integrar en un principio. Es una documentación absolutamente completa y siento que cada proyecto debería ser así de detallado porque así nada queda al aire o no explicado, entonces el usuario puede comprender a fondo el producto en el que está interesado, incluso puede aprender y/o inspirarse del trabajo de uno, siendo utilizado como un referente de estudio también
 
  
 
