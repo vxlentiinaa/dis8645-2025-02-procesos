@@ -302,13 +302,11 @@ preguntas y aciertos
 
 - fuente: [korg](https://www.korg.com/cl/products/dj/nts_3/index.php)
 
+
+- segundo referente de lenguaje:
+
  
-
-
-
-
-
-- referentes de documentación
+ - referentes de documentación
 
 - primer referente documentación: oskitone
 
@@ -343,6 +341,14 @@ preguntas y aciertos
 - primer referente de materialidad: Maywa Denki, Mr Knocky
 
 ![mrknocky](./imagenes/mrknocky.jpg)
+
+![mrknocky](./imagenes/mrknocky2.jpg)
+
+- El Sr. Knocky es un personaje de batería con dos mini tambores (cada uno suena diferente) y controladores “pachi” (clic). No se requieren baterías, pero sí necesitas algo de habilidad para tocar al Sr. Knocky correctamente. Agita los dos controladores y harán que el Sr. Knocky golpee los tambores. La forma en que agitas los controladores afecta el estilo y el sonido de la percusión, por lo que necesitas tener un control ágil y cuidadoso de tus manos y muñecas para tocar bien.Puedes colocar una correa o cordón al Sr. Knocky
+
+fuente info: [japantrendshop](https://www.japantrendshop.com/ES-mr-knocky-musical-toy-by-maywa-denki-p-2555.html)
+
+- elegí este referente por el concepto de "instrumento juguete" que emplea Maywa Denki en sus productos. Me gusta la idea de algo "poco serio" o más "amigable" a la vista, creo que puede ir muy de la mano con nuestro proyecto ya que estamos empleando el concepto de humor o absurdo para nuestra máquina y no se trata de algo serio. Rescato las formas que poseen estos juguetes, curvas suaves y la creación de un personaje como tal, en este caso Mr Knocky. Desconozco el material específico con el que fue hecho, no aparece como tal, pregunté a la IA (chatgpt) y el armazón externo está hecho de acrilonitrilo butadieno estireno que es un tipo de termoplástico, además posee un mecanismo de cables de alambre que mueven los brazos para que mr knocky golpee los tambores. Más allá del material hecho (que siento es un proceso que escapa a lo que podemos hacer) rescato la forma y concepto de personaje del referente, por eso lo elegí
 
 
 
