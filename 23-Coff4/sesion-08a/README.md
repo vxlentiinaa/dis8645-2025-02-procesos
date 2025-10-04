@@ -81,8 +81,15 @@ en la pantalla que se nos dio para este nuevo proyecto... no da imagen (o al men
 Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 
 (https://github.com/educ8s/Arduino-SSH1106-Examples/tree/main)
+
 (https://github.com/educ8s/Arduino-SSH1106-Examples/blob/main/SSH1106_Hello_World/SSH1106_Hello_World.ino)
+
 (https://www.teachmemicro.com/1-3-i2c-oled-arduino-esp8266-tutorial/)
+
 (https://github.com/olikraus/U8glib_Arduino)
 
-Para la sesión del viernes pondre mis avances de como poner bien la imagen. Es eso o usar la otra pantalla.
+Por otro lado, probamos diferentes cosas con la Aileen como lo es el servo motor:
+
+(https://wokwi.com/projects/344891730528567891)
+
+Para la sesión del viernes pondre mis avances en cuanto a estructuras y ver si encuentro una solución.
