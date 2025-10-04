@@ -336,7 +336,9 @@ preguntas y aciertos
 
 - un aspecto negativo de este referente es que en el blog no hay ninguna especie de "búsqueda rápida" o navegación por tópico para hacer click y que nos transporte inmediatamente a esa área, sino que la única forma de interacción que tiene la página es un scroll hacia abajo, me gustaría que fuera más completa la navegación de la página
 
-- segundo referente de documentación:
+- segundo referente de documentación: Mizuna Ai companion, Hackster
+
+ 
 
  
 
