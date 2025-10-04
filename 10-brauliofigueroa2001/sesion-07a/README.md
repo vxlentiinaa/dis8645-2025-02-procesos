@@ -284,13 +284,13 @@ preguntas y aciertos
 #### encargo 13, búsqueda de 2 referentes de cada ámbito (código,lenguaje,documentación,materialidad)
 
 
-- referentes de código:
+- **referentes de código**
 
 
 
 
 
-- referentes de lenguaje:
+- **referentes de lenguaje**
 
 - primer referente de lenguaje: NTS-3 kaoss pad
 
@@ -306,7 +306,7 @@ preguntas y aciertos
 - segundo referente de lenguaje:
 
  
- - referentes de documentación
+ - **referentes de documentación**
 
 - primer referente documentación: oskitone
 
@@ -346,7 +346,7 @@ preguntas y aciertos
 
 - elegí este referente principalmente por la organización que tiene para mostrar el contenido. Considero que el tener una ventana que te muestre una especie de índice con todos los ámbitos/categorías que son parte del proyecto y puedas indagar libremente en la que necesites. Otro punto que destaco y que considero importante para un proyecto es que incluye una "story" o un motivo, idea, de la cuál sale la creación del objeto como el punto de partida por el cuál se creó. También destaco que incluya una lista de todos los materiales necesarios para llevar a cabo el proyecto incluyendo el sitio web donde puedes comprarlo (en este caso amazon). Algo malo sobre este úlitmo punto es que quizá hay opciones más baratas que amazon para comprar estos componentes por lo cuál en nuestro caso colocaría diversas opciones de compra como parte de la documentación para ayudar a la persona que esté viendo el proyecto
 
-- referentes de materialidad:
+- **referentes de materialidad**
 
 - primer referente de materialidad: Maywa Denki, Mr Knocky
 
