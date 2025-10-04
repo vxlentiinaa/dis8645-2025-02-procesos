@@ -80,4 +80,15 @@ Joystick
 
 <https://afel.cl/products/joystick-palanca-de-mando?utm_term=&utm_campaign=%40+Display+AFEL&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=2084383571&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21521040934&gbraid=0AAAAADBMsFSPe1s_0H2EbgxLgQPHXExCE&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp2f-IqMpCP0waAsTeeMZ7XxofKVJ983uSyAbw3YcjfU-8UjzbVBFTgaAnKqEALw_wcB>  
 
-### Encargo
+### Encargo 13: 
+
+Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 
+
+1. Lenguaje natural (personas)
+   
+2. Código
+   
+3. Materialidad
+   
+4. Documentación: Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
+
