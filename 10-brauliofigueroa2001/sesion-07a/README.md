@@ -292,7 +292,7 @@ preguntas y aciertos
 
 - **referentes de lenguaje**
 
-- primer referente de lenguaje: NTS-3 kaoss pad
+- **primer referente de lenguaje: NTS-3 kaoss pad**
 
  ![lenguajekaoss](./imagenes/lenguajekorg.JPG)
  
@@ -303,12 +303,12 @@ preguntas y aciertos
 - fuente: [korg](https://www.korg.com/cl/products/dj/nts_3/index.php)
 
 
-- segundo referente de lenguaje:
+- **segundo referente de lenguaje:**
 
  
  - **referentes de documentación**
 
-- primer referente documentación: oskitone
+- **primer referente documentación: oskitone**
 
 - uno de los referentes de documentación que elegí fue Oskitone
 
@@ -336,7 +336,7 @@ preguntas y aciertos
 
 - un aspecto negativo de este referente es que en el blog no hay ninguna especie de "búsqueda rápida" o navegación por tópico para hacer click y que nos transporte inmediatamente a esa área, sino que la única forma de interacción que tiene la página es un scroll hacia abajo, me gustaría que fuera más completa la navegación de la página
 
-- segundo referente de documentación: Mizuna Ai companion, Hackster
+- **segundo referente de documentación: Mizuna Ai companion, Hackster**
 
 ![hackster1](./imagenes/documentacionhackster.JPG)
 
@@ -348,7 +348,7 @@ preguntas y aciertos
 
 - **referentes de materialidad**
 
-- primer referente de materialidad: Maywa Denki, Mr Knocky
+- **primer referente de materialidad: Maywa Denki, Mr Knocky**
 
 ![mrknocky](./imagenes/mrknocky.jpg)
 
@@ -360,7 +360,7 @@ fuente info: [japantrendshop](https://www.japantrendshop.com/ES-mr-knocky-musica
 
 - elegí este referente por el concepto de "instrumento juguete" que emplea Maywa Denki en sus productos. Me gusta la idea de algo "poco serio" o más "amigable" a la vista, creo que puede ir muy de la mano con nuestro proyecto ya que estamos empleando el concepto de humor o absurdo para nuestra máquina y no se trata de algo serio. Rescato las formas que poseen estos juguetes, curvas suaves y la creación de un personaje como tal, en este caso Mr Knocky. Desconozco el material específico con el que fue hecho, no aparece como tal, pregunté a la IA (chatgpt) y el armazón externo está hecho de acrilonitrilo butadieno estireno que es un tipo de termoplástico, además posee un mecanismo de cables de alambre que mueven los brazos para que mr knocky golpee los tambores. Más allá del material hecho (que siento es un proceso que escapa a lo que podemos hacer) rescato la forma y concepto de personaje del referente, por eso lo elegí
 
-- segundo referente de materialidad: Oskitone
+- **segundo referente de materialidad: Oskitone**
 
 - vuelvo a repetir a Oskitone pero esta vez en el ámbito de la materialidad
 
