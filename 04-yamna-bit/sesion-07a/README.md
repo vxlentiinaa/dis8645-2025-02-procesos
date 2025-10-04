@@ -80,7 +80,9 @@ Joystick
 
 <https://afel.cl/products/joystick-palanca-de-mando?utm_term=&utm_campaign=%40+Display+AFEL&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=2084383571&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21521040934&gbraid=0AAAAADBMsFSPe1s_0H2EbgxLgQPHXExCE&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp2f-IqMpCP0waAsTeeMZ7XxofKVJ983uSyAbw3YcjfU-8UjzbVBFTgaAnKqEALw_wcB>  
 
-### Encargo 13: 
+### Encargo 12 y 13: 
+
+Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
 
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 
 
