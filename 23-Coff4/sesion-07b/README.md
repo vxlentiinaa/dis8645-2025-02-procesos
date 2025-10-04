@@ -113,3 +113,9 @@ void loop() {
 
 Junto al equipo llegamos a buscar info sobre el sensor de temperatura pero el problema era que el propio sensor no respondia //estaba malo
 Por lo tanto cualquier codigo llega a servir en estos casos para nuestro proyecto
+
+---
+
+Para este punto probamos el sensor ultrasonico:
+
+(https://wokwi.com/projects/304444938977804866)
