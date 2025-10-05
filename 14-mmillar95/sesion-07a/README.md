@@ -1,4 +1,4 @@
-# sesion-07a / Clase 12? / 23.09.2025
+# sesion-07a / Clase 12 / 23.09.2025
 
 Proyecto 02:  17 de Octubre
 
