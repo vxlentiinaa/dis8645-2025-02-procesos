@@ -58,7 +58,7 @@ N° | Nombre                 | Función                              |
 - Gases detectables: butano, propano, metano, alcohol, hidrógeno, humo (entre otros)
 - Alarmas de humo y sistemas de seguridad
 
-### Partes del sensor
+### Partes del sensor 01
   
 N° | Nombre                 | Función                              |
 ---|--------------          |--------------                        |
@@ -77,7 +77,7 @@ N° | Nombre                 | Función                              |
 - Cables: GND, VCC, Señal
 - El dispositivo funciona del siguiente modo: un led de color verde emite luz que al entrar en contacto con nuestro dedo indice o el lóbulo del oído refleja cierta cantidad de luz, el flujo de sangre hace que la cantidad de luz reflejada cambie de acuerdo al pulso cardíaco. La luz reflejada es detectada por el sensor de luz APDS-9008, que convierte el flujo de luz en un voltaje analógico. Esta señal analógica es luego filtrada y amplificada en un opamp para luego entregar la señal analógica de salida del dispositivo.
 
-### Partes del sensor
+### Partes del sensor 02
   
 N° | Nombre                 | Función                              |
 ---|--------------          |--------------                        |
