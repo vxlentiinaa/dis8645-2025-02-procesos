@@ -284,15 +284,15 @@ preguntas y aciertos
 #### encargo 13, búsqueda de 2 referentes de cada ámbito (código,lenguaje,documentación,materialidad)
 
 
-- referentes de código:
+- **referentes de código**
 
 
 
 
 
-- referentes de lenguaje:
+- **referentes de lenguaje**
 
-- primer referente de lenguaje: NTS-3 kaoss pad
+- **primer referente de lenguaje: NTS-3 kaoss pad**
 
  ![lenguajekaoss](./imagenes/lenguajekorg.JPG)
  
@@ -302,25 +302,96 @@ preguntas y aciertos
 
 - fuente: [korg](https://www.korg.com/cl/products/dj/nts_3/index.php)
 
+
+- **segundo referente de lenguaje: oskitone**
+
+- ejemplo del lenguaje que utiliza con una traducción directa del blog: [blogtommy](https://blog.tommy.sh/posts/scout/)
+
+ - El Scout es:
+
+ -Amigable para principiantes: todos los componentes son de orificio pasante (no de montaje superficial), lo que facilita el soldado. El ensamblaje completo toma unos 45 minutos. Es autónomo, funciona con batería, y no necesita una computadora ni parlantes externos para funcionar. ¡Divertido!
+
+ -Imprimible en 3D: aparte de la electrónica y tornillos, todas las partes se imprimen en 3D. Con un ancho total de ~160 mm (unos 6,3"), el Scout cabe en camas de impresión “Mini” comunes de 18×18×18 cm.
+
+- Hackeable: compatible con Arduino y totalmente de código abierto. Puedes conectar un cable FTDI Serial TTL-232 (se vende por separado) y actualizar su código usando el IDE de Arduino.
+
+- Con características mínimas: 1,5 octavas de teclas, una perilla de volumen, interruptor de encendido/apagado, parlante y salida para audífonos. Onda cuadrada monofónica con glide fijo y control de octava.
+
+- Además de ser el primer instrumento controlado por microcontrolador de Oskitone, el Scout también puede servir como un buen instrumento de introducción para aficionados de la electrónica (aunque se recomienda tener algo de experiencia con soldadura y un conocimiento básico de electricidad).
+
+- lo que destaco del tipo de lenguaje que emplea Oskitone para describir y/o documentar el proceso de ensamblaje del producto poly555 es la forma técnica en la que explica las cosas pero sin llegar a parecer extremedamente complejo. Creo que maneja muy bien el concepto de DIY (do it yourself) en el ámbito del lenguaje porque explica cosas difíciles pero las hace parecer fáciles por el lenguaje amigable que usa para describirlas. Pienso que es importante hacer cosas complejas pero es necesario tener la capacidad de poder explicarlas a personas que no conocen mucho del tema de una forma en la que lo puedan entender
  
+ - **referentes de documentación**
 
+- **primer referente documentación: oskitone**
 
+- nueavmente vuelvo a elegir a oskitone como un referente pero esta vez de documentación 
 
+![oskitone1](./imagenes/documentacion1.JPG)
 
+![oskitone2](./imagenes/documentacion2.JPG)
 
-- referentes de documentación: oskitone
-
+- elegí este referente porque siento que tiene una interfaz amable en el modo de mostrar las cosas, está todo muy bien estructurado y dividido lo cuál hace fácil de entender el producto que nos está mostrando. Además de incluir imágenes y videos en detalle del funcionamiento del instrumento. Me gusta esta parte de la documentación ya que es la sección en la que te vende el producto, por lo cual, tiene lo justo y necesario para llamar la atención del cliente/usuario interesado. También tiene un blog en el que explica explícitamente como está desarrollado el producto con todo su proceso.
+ 
  [oskitone](https://blog.tommy.sh/posts/scout/)
 
+ ![oskitone3](./imagenes/documentacion3.JPG)
 
+ ![oskitone4](./imagenes/documentacion4.JPG)
 
- 
+ ![oskitone5](./imagenes/documentacion5.JPG)
 
-- referentes de materialidad:
+ ![oskitone6](./imagenes/documentacion6.JPG)
 
-- primer referente de materialidad: Maywa Denki, Mr Knocky
+ ![oskitone7](./imagenes/documentacion7.JPG)
+
+ ![oskitone8](./imagenes/documentacion8.JPG)
+
+- estas son algunas de las partes de documentación que se nos muestra en el blog, es mucho mas extenso de lo que muestro aquí. Me parece muy bueno que sea tan detallado en la explicación de la realización del producto, me gusta bastante porque muestra los diversos ámbitos en los que se trabaja este producto como lo son la parte electrónica, el concepto, la carcasa/trabajo 3d e interacción con el usuario hasta las ideas fallidas o ideas que se quisieron integrar en un principio. Es una documentación absolutamente completa y siento que cada proyecto debería ser así de detallado porque así nada queda al aire o no explicado, entonces el usuario puede comprender a fondo el producto en el que está interesado, incluso puede aprender y/o inspirarse del trabajo de uno, siendo utilizado como un referente de estudio también
+
+- un aspecto negativo de este referente es que en el blog no hay ninguna especie de "búsqueda rápida" o navegación por tópico para hacer click y que nos transporte inmediatamente a esa área, sino que la única forma de interacción que tiene la página es un scroll hacia abajo, me gustaría que fuera más completa la navegación de la página
+
+- **segundo referente de documentación: Mizuna Ai companion, Hackster**
+
+![hackster1](./imagenes/documentacionhackster.JPG)
+
+![hackster](./imagenes/documentacionhackster2.JPG)
+
+![hackster](./imagenes/documentacionhackster3.JPG)
+
+- elegí este referente principalmente por la organización que tiene para mostrar el contenido. Considero que el tener una ventana que te muestre una especie de índice con todos los ámbitos/categorías que son parte del proyecto y puedas indagar libremente en la que necesites. Otro punto que destaco y que considero importante para un proyecto es que incluye una "story" o un motivo, idea, de la cuál sale la creación del objeto como el punto de partida por el cuál se creó. También destaco que incluya una lista de todos los materiales necesarios para llevar a cabo el proyecto incluyendo el sitio web donde puedes comprarlo (en este caso amazon). Algo malo sobre este úlitmo punto es que quizá hay opciones más baratas que amazon para comprar estos componentes por lo cuál en nuestro caso colocaría diversas opciones de compra como parte de la documentación para ayudar a la persona que esté viendo el proyecto
+
+- **referentes de materialidad**
+
+- **primer referente de materialidad: Maywa Denki, Mr Knocky**
 
 ![mrknocky](./imagenes/mrknocky.jpg)
+
+![mrknocky](./imagenes/mrknocky2.jpg)
+
+- El Sr. Knocky es un personaje de batería con dos mini tambores (cada uno suena diferente) y controladores “pachi” (clic). No se requieren baterías, pero sí necesitas algo de habilidad para tocar al Sr. Knocky correctamente. Agita los dos controladores y harán que el Sr. Knocky golpee los tambores. La forma en que agitas los controladores afecta el estilo y el sonido de la percusión, por lo que necesitas tener un control ágil y cuidadoso de tus manos y muñecas para tocar bien.Puedes colocar una correa o cordón al Sr. Knocky
+
+fuente info: [japantrendshop](https://www.japantrendshop.com/ES-mr-knocky-musical-toy-by-maywa-denki-p-2555.html)
+
+- elegí este referente por el concepto de "instrumento juguete" que emplea Maywa Denki en sus productos. Me gusta la idea de algo "poco serio" o más "amigable" a la vista, creo que puede ir muy de la mano con nuestro proyecto ya que estamos empleando el concepto de humor o absurdo para nuestra máquina y no se trata de algo serio. Rescato las formas que poseen estos juguetes, curvas suaves y la creación de un personaje como tal, en este caso Mr Knocky. Desconozco el material específico con el que fue hecho, no aparece como tal, pregunté a la IA (chatgpt) y el armazón externo está hecho de acrilonitrilo butadieno estireno que es un tipo de termoplástico, además posee un mecanismo de cables de alambre que mueven los brazos para que mr knocky golpee los tambores. Más allá del material hecho (que siento es un proceso que escapa a lo que podemos hacer) rescato la forma y concepto de personaje del referente, por eso lo elegí
+
+- **segundo referente de materialidad: Oskitone**
+
+- vuelvo a repetir a Oskitone pero esta vez en el ámbito de la materialidad
+
+- Oskitone Poly555
+
+![oskimaterialidad](./imagenes/materialidad1.jpg)
+
+- Oskitone Scout
+
+![oskimaterialidad2](./imagenes/materialidad2.jpg)
+
+- Oskitone APC
+
+![oskimaterialidad3](./imagenes/materialidad3.jpg)
+
+- en este caso seleccioné 3 objetos de Oskitone, 2 de ellos son sintetizadores (Poly555 y Scout) y el otro es una Atari Punk Console. Para estos 3 objetos utiliza impresión 3d incluso para sus tuercas y tornillos, dentro de estas carcasas se encuentran las placas de una forma perfectamente encajada. Elegí este referente porque utiliza muy bien los materiales y el acabado, es bastante minimalista y aprovecha muy bien los espacios, nada se ve sobrepuesto o sobrante. Rescato muchísimo que en el Poly555 posea una lámina que permite ver el funcionamiento de la placa (se prenden leds cuando apretamos los botones), siento que esto hace mucho más cercano al usuario con la manera en la que funciona el objeto, ya que, no solo apretas botones si no que ves el cómo están compuestos los circuitos y te da una idea de cómo funciona por dentro. Es interesante la idea de mostrar el objeto por dentro pero sin perder la calidad de la factura o o que se vea "desordenado" por así decirlo
 
 
 
