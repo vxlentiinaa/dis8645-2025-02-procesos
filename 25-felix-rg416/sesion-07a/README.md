@@ -1,4 +1,4 @@
-# sesion-08a
+# sesion-07a
 
 martes 23 de septiembre
 
@@ -66,6 +66,6 @@ https://www.murkyrobot.com/guias/sensores/ky-038
 - [VIDEO - CONTROL DE ACCESO con RFID y ARDUINO PN532](https://youtu.be/ahh3QfQach4)
 - [RTC - reloj de tiempo real para arduino](https://afel.cl/products/modulo-rtc-ds1302-reloj-de-tiempo-real?pr_prod_strat=e5_desc&pr_rec_id=83e58aaae&pr_rec_pid=8381993451672&pr_ref_pid=8381995286680&pr_seq=uniform)
 - [Un reloj que, cuando lo descorchas empieza a correr](https://cwandt.com/products/time-since-launch)
-- [El reloj, si nota que lo estpas viendo, da una hora equivocada](https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
+- [El reloj, si nota que lo estás viendo, da una hora equivocada](https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
 - [Eramos unos niños - Patti Smith](https://www.buscalibre.cl/libro-eramos-unos-ninos/9788426414052/p/3380087)
 - [Módulo de grabación](https://afel.cl/products/modulo-grabacion-reproduccion-de-audio-isd1820-con-microfono-integrado?variant=45125239177368&country=CL&currency=CLP&utm_term=&hsa_grp=&hsa_ad=&hsa_tgt=&hsa_kw=&hsa_mt=&gad_campaignid=19560974580)
