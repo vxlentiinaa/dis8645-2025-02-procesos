@@ -33,6 +33,7 @@ Las contribuciones de Miller Puckette han tenido un impacto duradero en el campo
 - Grabador de voz en un solo chip. 
 - Duración de grabación (Lab Interacción) 20 segundos.
 - Voltaje de Operación: 3.3V DC. No es compatible con 5V.
+  
 ### Partes del reproductor 
 
 N° | Nombre                 | Función                              |
@@ -57,7 +58,7 @@ N° | Nombre                 | Función                              |
 - Gases detectables: butano, propano, metano, alcohol, hidrógeno, humo (entre otros)
 - Alarmas de humo y sistemas de seguridad
 
-  ### Partes del sensor
+### Partes del sensor
   
 N° | Nombre                 | Función                              |
 ---|--------------          |--------------                        |
@@ -67,3 +68,21 @@ N° | Nombre                 | Función                              |
 4  | A0                     | Output                               |
 
 ![Sensor01](./imagenes/Sensor01.png)
+
+
+### Sensor Pulso Cardiaco Corazón
+
+- Monitorear tu pulso cardíaco es ahora más sencillo con la ayuda del sensor de pulso fotoeléctrico.
+- Voltaje de Operación: 3.0V – 5.5V DC
+- Cables: GND, VCC, Señal
+- El dispositivo funciona del siguiente modo: un led de color verde emite luz que al entrar en contacto con nuestro dedo indice o el lóbulo del oído refleja cierta cantidad de luz, el flujo de sangre hace que la cantidad de luz reflejada cambie de acuerdo al pulso cardíaco. La luz reflejada es detectada por el sensor de luz APDS-9008, que convierte el flujo de luz en un voltaje analógico. Esta señal analógica es luego filtrada y amplificada en un opamp para luego entregar la señal analógica de salida del dispositivo.
+
+### Partes del sensor
+  
+N° | Nombre                 | Función                              |
+---|--------------          |--------------                        |
+1  | VCC                    | Fuente de alimentación de 5 V        |
+2  | GND                    | Conexión a tierra de la alimentación |
+3  | A0                     | Señal                                |
+
+![Sensor02](./imagenes/Sensor02.png)
