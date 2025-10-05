@@ -34,3 +34,63 @@ Yuk Hui es un filósofo hongkonés, profesor de filosofía y catedrático en la 
 ¿Qué es un controlador WS2812?
 
 Los WS2812 son LED que disponen de lógica integrada, bajo consumo, alto brillo e incorpora en un único encapsulado los 3 colores RGB. La diferencia del WS2812 con leds convencionales es que se ha añadido un integrado dentro de cada LED, que permite acceder a cada pixel de forma individual. Por este motivo este tipo de LED se denominan “direccionables”.
+
+## Proyecto 02
+
+Leonas.ino
+
+### Integrantes:
+
+- Yamna Carrión
+- Sofía Cartes
+- Millaray Millar
+- Vania Paredes
+- Valentina Ruz
+
+### Idea 01
+
+En una primera instancia, el proyecto constaba de un personaje el cual iba a reaccionar mediante que el usuario presionaba ciertos botones. Esta reacción se basaba en saludar en un idioma en específico con su gestualidad correspondiente. 
+
+Entrada: Joystick, según la dirección que se escoge, es el tipo de idioma que habla.
+
+Idiomas:
+- Español (arriba).
+- Portugués (abajo).
+- Chino (izquierda).
+- Italiano (derecha).
+- Al presionar el joystick, es reset
+
+Tipo de audio:
+- Hola, qué bueno que estés aquí.
+- ¿Cómo has estado?
+
+Lenguaje diferenciado del dialecto.
+Interacción con joystick, reproducción de audio.
+
+Salida: Al interactuar con el joystick, se van a reproducir los audios predeterminados con el lenguaje seleccionado.
+
+--------
+
+### Idea 02
+
+El proyecto constaba de un personaje el cual iba a reaccionar mediante detecta un estímulo que esté cercano (persona) el cual lo va a llamar y detectando la distancia que se encuentra cambiara el audio de reproducción, la idea es que primero llame su atención y después lo invite a acercarse para contarle un secreto. 
+
+También la idea es que el personaje empiece a tiritar mediante la persona se acerca de esa manera, genera más interés en los que se está realizando. 
+
+Entrada: El personaje llama la atención de la persona y le pide que se acerque al mismo tiempo, empieza a tiritar.
+
+- Motor DC
+- Sensor ultrasónico
+- Módulo reproductor 
+
+Salida: Cuando una persona está cerca, el personaje le susurra el secreto.
+
+Factores a considerar:
+- ¿Qué secretos va a contar?
+- ¿Cuántos rangos de proximidad existirán?
+- ¿Cómo se verá físicamente este personaje?
+- ¿Cómo regular el volumen?
+
+## Encargo
+
+
