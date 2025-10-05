@@ -21,24 +21,49 @@ Ponerme al día con Taller
 - Desde 1994, ha sido profesor de música en la Universidad de California, San Diego (UCSD).
 - Cultura computacional 
 
+![Miller](./imagenes/Miller.jpg)
+
+Las contribuciones de Miller Puckette han tenido un impacto duradero en el campo de la música electrónica y el arte multimedia. Sus entornos de programación han democratizado el acceso a herramientas sofisticadas de creación musical, permitiendo a una amplia gama de artistas y entusiastas explorar las posibilidades del sonido y la interacción.
+
 ## Investigación de sensores 
 
 ### Reproducción de audio ISD1820
 
-Dispositivo de grabación/reproducción de multiples mensajes.
-Grabador de voz en un solo chip. 
-Duración de grabación (Lab Interacción) 20 segundos.
+- Dispositivo de grabación/reproducción de multiples mensajes.
+- Grabador de voz en un solo chip. 
+- Duración de grabación (Lab Interacción) 20 segundos.
+- Voltaje de Operación: 3.3V DC. No es compatible con 5V.
+### Partes del reproductor 
 
-### Partes del sensor 
-
-N° | Nombre                 | Función      |
----|--------------          |--------------|
+N° | Nombre                 | Función                              |
+---|--------------          |--------------                        |
 1  | VCC                    | Fuente de alimentación de 3,3 V      |
 2  | GND                    | Conexión a tierra de la alimentación |
-3  | REC                    | Entrada REC es una señal de grabación activa en ALTO |
-4  | PLAYE                  | Reproducción: activada por borde    |
-5  | PLAYL                  | Reproducción: nivel activado, cuando pasa de BAJO a ALTO, se inicia un ciclo de reproducción    |
+3  | REC                    | Entrada REC es una señal de grabación activa en ALTO    |
+4  | PLAYE                  | Reproducción: activada por borde                        |
+5  | PLAYL                  | Reproducción: nivel activado, cuando pasa de BAJO a ALTO, se inicia un ciclo de reproducción                  |
 6  | SALIDAS DE ALTAVOZ     | Los pines SP+ y SP- proporcionan accionamiento directo para altavoces con impedancias tan bajas como 8 Ω.     |
-7  | MIC                    | Entrada de microfono, transfiere sus señales al preamplificador en el chip.      |
-8  | FT                     | Al conectar el mini puente, este modo permite que el micrófono controle el altavoz directamente.     |
-9  | P-E                    | Conectando el mini jumper, reproduce los discos sin parar.      |
+7  | MIC                    | Entrada de microfono, transfiere sus señales al preamplificador en el chip.                                   |
+8  | FT                     | Al conectar el mini puente, este modo permite que el micrófono controle el altavoz directamente.              |
+9  | P-E                    | Conectando el mini jumper, reproduce los discos sin parar.                                                    |
+
+![Modulo01](./imagenes/Modulo.png)
+
+### Sensor de Gas MQ2
+
+- Módulo de alta sensibilidad y respuesta rápida para detectar gases combustibles y humo.
+- Ideal para monitoreo de fugas y seguridad doméstica/industrial
+- Voltaje de operación: 5 V
+- Gases detectables: butano, propano, metano, alcohol, hidrógeno, humo (entre otros)
+- Alarmas de humo y sistemas de seguridad
+
+  ### Partes del sensor
+  
+N° | Nombre                 | Función                              |
+---|--------------          |--------------                        |
+1  | VCC                    | Fuente de alimentación de 5 V        |
+2  | GND                    | Conexión a tierra de la alimentación |
+3  | D0                     | Output                               |
+4  | A0                     | Output                               |
+
+![Sensor01](./imagenes/Sensor.png)
