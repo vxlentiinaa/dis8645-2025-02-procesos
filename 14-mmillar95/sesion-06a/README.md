@@ -47,7 +47,7 @@ N° | Nombre                 | Función                              |
 8  | FT                     | Al conectar el mini puente, este modo permite que el micrófono controle el altavoz directamente.              |
 9  | P-E                    | Conectando el mini jumper, reproduce los discos sin parar.                                                    |
 
-![Modulo01](./imagenes/Modulo.png)
+![Modulo01](./imagenes/Modulo01.png)
 
 ### Sensor de Gas MQ2
 
@@ -66,4 +66,4 @@ N° | Nombre                 | Función                              |
 3  | D0                     | Output                               |
 4  | A0                     | Output                               |
 
-![Sensor01](./imagenes/Sensor.png)
+![Sensor01](./imagenes/Sensor01.png)
