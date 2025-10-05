@@ -303,14 +303,29 @@ preguntas y aciertos
 - fuente: [korg](https://www.korg.com/cl/products/dj/nts_3/index.php)
 
 
-- **segundo referente de lenguaje:**
+- **segundo referente de lenguaje: oskitone**
 
+- ejemplo del lenguaje que utiliza con una traducción directa del blog: [blogtommy](https://blog.tommy.sh/posts/scout/)
+
+ - El Scout es:
+
+ -Amigable para principiantes: todos los componentes son de orificio pasante (no de montaje superficial), lo que facilita el soldado. El ensamblaje completo toma unos 45 minutos. Es autónomo, funciona con batería, y no necesita una computadora ni parlantes externos para funcionar. ¡Divertido!
+
+ -Imprimible en 3D: aparte de la electrónica y tornillos, todas las partes se imprimen en 3D. Con un ancho total de ~160 mm (unos 6,3"), el Scout cabe en camas de impresión “Mini” comunes de 18×18×18 cm.
+
+- Hackeable: compatible con Arduino y totalmente de código abierto. Puedes conectar un cable FTDI Serial TTL-232 (se vende por separado) y actualizar su código usando el IDE de Arduino.
+
+- Con características mínimas: 1,5 octavas de teclas, una perilla de volumen, interruptor de encendido/apagado, parlante y salida para audífonos. Onda cuadrada monofónica con glide fijo y control de octava.
+
+- Además de ser el primer instrumento controlado por microcontrolador de Oskitone, el Scout también puede servir como un buen instrumento de introducción para aficionados de la electrónica (aunque se recomienda tener algo de experiencia con soldadura y un conocimiento básico de electricidad).
+
+- lo que destaco del tipo de lenguaje que emplea Oskitone para describir y/o documentar el proceso de ensamblaje del producto poly555 es la forma técnica en la que explica las cosas pero sin llegar a parecer extremedamente complejo. Creo que maneja muy bien el concepto de DIY (do it yourself) en el ámbito del lenguaje porque explica cosas difíciles pero las hace parecer fáciles por el lenguaje amigable que usa para describirlas. Pienso que es importante hacer cosas complejas pero es necesario tener la capacidad de poder explicarlas a personas que no conocen mucho del tema de una forma en la que lo puedan entender
  
  - **referentes de documentación**
 
 - **primer referente documentación: oskitone**
 
-- uno de los referentes de documentación que elegí fue Oskitone
+- nueavmente vuelvo a elegir a oskitone como un referente pero esta vez de documentación 
 
 ![oskitone1](./imagenes/documentacion1.JPG)
 
