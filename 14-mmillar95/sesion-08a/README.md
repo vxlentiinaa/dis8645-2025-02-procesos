@@ -1,26 +1,34 @@
 # sesion-08a / Clase 00 / 30.09.2025
 
-Aáron mostro un sintetizador de [chompi](https://chompiclub.com/?srsltid=AfmBOoo2Sy8_3jn8NwnIu6cwiAqlvccJxFe7TZNzB6MteQ_q5BrRmyWa)
+Aáron mostró un sintetizador de [chompi](https://chompiclub.com/?srsltid=AfmBOoo2Sy8_3jn8NwnIu6cwiAqlvccJxFe7TZNzB6MteQ_q5BrRmyWa)
 
 ## Inicio de clase 
 
-Nos juntamos con nuestro grupo para podr trabajar en el proyecto
+Nos juntamos con nuestro grupo para poder trabajar en el proyecto
 
-Se junto el codigo del servomotor y el sensor de proximidad y funciona 
+Se juntó el código del servomotor y el sensor de proximidad y funciona 
 
-El modulo reproductor no funciona (no reconoce la targeta sd)
+El módulo reproductor no funciona (no reconoce la tarjeta SD)
 
-### Posibles errores del Modulo reproductor DFPlayer Mini
+### Posibles errores del Módulo reproductor DFPlayer Mini
 
-- Formatear la tarjeta micro sd (FAT32)
-- Archivos MP3 estén en la raíz de la tarjeta
-- velocidad de comunicación (9600 baudios)
-- Intercambiar RX y TX
-- Los archivos deben estar guardados como los tengo en el codigo
+- Formatear la tarjeta micro SD (FAT32).
+- Archivos MP3 están en la raíz de la tarjeta.
+- velocidad de comunicación (9600 baudios).
+- Intercambiar RX y TX.
+- Los archivos deben estar guardados como los tengo en el código.
 
-### Datos curiosos para subir al codigo
+### Datos curiosos para subir al código
 
 - ¿Sabías que un disco duro de 5 MB pesaba una tonelada en 1956? ¡Se te cae de la mano!
 - Según un físico, todos los electrones de internet pesan como una fresa. ¡Eso es un dato ligero!
 - El primer ratón era de madera. ¡Tu ratón es más moderno!
 - El primer "bug" fue una polilla real en una computadora en 1947. ¡Un error muy natural!
+
+### Páginas 
+Estas páginas nos ayudarán a realizar nuestro proyecto.
+
+- [3D hunyuan](https://3d.hunyuan.tencent.com/): Esta página la encontré por recomendación en un video de TikTok, es muy buena, ya que te genera el modelado 3D de cualquier imagen que subas, tiene buenos detalles y texturas.
+- [Loquendo](https://loquendo.io/): Página de texto a audio recomendada por Mateo.
+- [My instants](https://www.myinstants.com/es/search/?name=hola): Página que tiene botones con audio ya grabado (audios virales).
+- [Artlist](https://artlist.io/voice-over): Es una página que mediante inteligencia artificial pasa de texto a audio, se le puede poner efecto, velocidad y distorsión.
