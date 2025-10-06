@@ -204,7 +204,7 @@ Referente: [Lamp dimmer](https://www.edn.com/mouse-encoder/)
 | Cotización  |          |
 |:-----------:|----------|
 | [Afel](https://afel.cl/products/encoder-rotatorio-ky-040-360-grados?variant=45125048434840&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooE7x7yR-tF44NTYCKkC2BThQfQXfTGjPHL6s4V7ZJBz8LETi2QWSs)    | $2000 |
-| [Aliexpress)](https://es.aliexpress.com/item/1005008554510924.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.1.41barsRyrsRyPP&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40196.439370.0&scm_id=1007.40196.439370.0&scm-url=1007.40196.439370.0&pvid=05f8adde-4efe-486d-bd99-aa4fa85f9310&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40196.439370.0,pvid:05f8adde-4efe-486d-bd99-aa4fa85f9310,tpp_buckets:668%232846%238109%231935&pdp_ext_f=%7B%22order%22%3A%22554%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005008554510924%22%2C%22orig_item_id%22%3A%221005006459289182%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21CLP%212614%211307%21%21%2118.72%219.36%21%402103241117592718273342712ea3b3%2112000045689899837%21rec%21CL%212216225714%21X%211%210%21n_tag%3A-29919%3Bd%3Abffa061c%3Bm03_new_user%3A-29895&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008554510924%7C_p_origin_prod%3A1005006459289182) | $1307 |
+| [Aliexpress](https://es.aliexpress.com/item/1005008554510924.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.1.41barsRyrsRyPP&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40196.439370.0&scm_id=1007.40196.439370.0&scm-url=1007.40196.439370.0&pvid=05f8adde-4efe-486d-bd99-aa4fa85f9310&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40196.439370.0,pvid:05f8adde-4efe-486d-bd99-aa4fa85f9310,tpp_buckets:668%232846%238109%231935&pdp_ext_f=%7B%22order%22%3A%22554%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005008554510924%22%2C%22orig_item_id%22%3A%221005006459289182%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21CLP%212614%211307%21%21%2118.72%219.36%21%402103241117592718273342712ea3b3%2112000045689899837%21rec%21CL%212216225714%21X%211%210%21n_tag%3A-29919%3Bd%3Abffa061c%3Bm03_new_user%3A-29895&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008554510924%7C_p_origin_prod%3A1005006459289182) | $1307 |
 
 <br/>
 
@@ -232,7 +232,7 @@ Referentes:
 | Cotización  |          |
 |:-----------:|----------|
 | [Afel](https://afel.cl/products/sensor-humedad-suelo-higrometro?variant=45125237997720&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=@+Smart+Shopping+2&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=19569174895&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19560974580&gbraid=0AAAAADBMsFRv1iW7wu0slTHhMrJpnKr9l&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUMSWx9J7hO0MX6ca4pbWIABuzP54sYI7wpU5bYXffFHxQRnXmW_fUhoCzb8QAvD_BwE)    | $2300 |
-| [Aliexpress)](https://es.aliexpress.com/item/1005007463014084.html?src=google&pdp_npi=4%40dis!CLP!2166!1343!!!!!%40!12000040856282136!ppc!!!&snps=y&snpsid=1&src=google&albch=shopping&acnt=752-015-9270&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oDeeeiG&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=768550850310&ds_e_matchtype=search&ds_e_device=c&ds_e_network=g&ds_e_product_group_id=2432726605827&ds_e_product_id=es1005007463014084&ds_e_product_merchant_id=5551326180&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22884625885&albag=182909670879&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=22884625885&gbraid=0AAAAA_eFwRBO1dBxPKHyiMm0EnL0srRcd&gclid=Cj0KCQjwovPGBhDxARIsAFhgkwRCssFY_8I0-_m1dOopTIm_LoAS8hhWv0BUI7PazFVSbLXxcFo7Z24aAvA7EALw_wcB) | $981 |
+| [Aliexpress](https://es.aliexpress.com/item/1005007463014084.html?src=google&pdp_npi=4%40dis!CLP!2166!1343!!!!!%40!12000040856282136!ppc!!!&snps=y&snpsid=1&src=google&albch=shopping&acnt=752-015-9270&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oDeeeiG&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=768550850310&ds_e_matchtype=search&ds_e_device=c&ds_e_network=g&ds_e_product_group_id=2432726605827&ds_e_product_id=es1005007463014084&ds_e_product_merchant_id=5551326180&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22884625885&albag=182909670879&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=22884625885&gbraid=0AAAAA_eFwRBO1dBxPKHyiMm0EnL0srRcd&gclid=Cj0KCQjwovPGBhDxARIsAFhgkwRCssFY_8I0-_m1dOopTIm_LoAS8hhWv0BUI7PazFVSbLXxcFo7Z24aAvA7EALw_wcB) | $981 |
 
 <br/>
 
@@ -259,7 +259,7 @@ Referente: [One handed game controller (mouse al que le agregaron un joystick y 
 | Cotización  |          |
 |:-----------:|----------|
 | [Afel](https://afel.cl/products/joystick-palanca-de-mando?pr_prod_strat=e5_desc&pr_rec_id=e0c87be65&pr_rec_pid=8381984080024&pr_ref_pid=8381917790360&pr_seq=uniform)    | $2000 |
-| [Aliexpress)](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=4000055267372&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y) | $975 |
+| [Aliexpress 2u](https://es.aliexpress.com/item/4000055267372.html?spm=a2g0o.tesla.0.0.47cbKxPVKxPVqq&afTraceInfo=4000055267372__pc__c_ppc_item_bridge_pc_main__o3N7102__1759773117377&gatewayAdapt=glo2esp) | $975 |
 
 <br/>
 
@@ -269,7 +269,7 @@ Referente: [One handed game controller (mouse al que le agregaron un joystick y 
 
 <img align="right" src="./imagenes" alt="" title="Fuente: " width=400>
 
-descripcion
+Resistencia variable, mientras más luz reciva menor será su resistencia. Se puede configurar como un divisor de voltaje para enviar una señal analógica al microcontrolador.
 
 | Pinout  |          |
 |:---------:|----------|
@@ -293,8 +293,8 @@ Referentes:
  
 | Cotización  |          |
 |:-----------:|----------|
-| [Afel]()    | $ |
-| [Aliexpress)](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005005484298907&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y&src=google&albch=shopping&acnt=615-992-9880&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oFgTQeV&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=es1005005484298907&ds_e_product_merchant_id=662189571&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22559110785&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=22559111214&gbraid=0AAAAA_TvRHpt60gIvBG_sxPJyYtddY0sA&gclid=Cj0KCQjwovPGBhDxARIsAFhgkwQ0kI3djd3MsaDMxNj5ZvPFaQwuBJChG38GE8WXGCf3L1nwB7y-4bkaAmE-EALw_wcB) | $862 |
+| [Afel 5u](https://afel.cl/products/pack-5-fotoresistores-gl5528-ldr?variant=45125254217880&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqbmbe_j7z6FrGWb0fHHdkPsNiQ37Hj7PFP7QvJofvz0zg5jcIbjb0)    | $500 |
+| [Aliexpress 10u](https://es.aliexpress.com/item/1005007944797703.html?spm=a2g0o.tesla.0.0.1b219cPd9cPdwT&afTraceInfo=1005007944797703__pc__c_ppc_item_bridge_pc_main__AXmDI1t__1759772989313&gatewayAdapt=glo2esp) | $557 |
 
 <br/>
 
@@ -333,7 +333,7 @@ Referentes:
 | Cotización  |          |
 |:-----------:|----------|
 | [Afel]()    | $ |
-| [Aliexpress)](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005005484298907&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y&src=google&albch=shopping&acnt=615-992-9880&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oFgTQeV&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=es1005005484298907&ds_e_product_merchant_id=662189571&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22559110785&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=22559111214&gbraid=0AAAAA_TvRHpt60gIvBG_sxPJyYtddY0sA&gclid=Cj0KCQjwovPGBhDxARIsAFhgkwQ0kI3djd3MsaDMxNj5ZvPFaQwuBJChG38GE8WXGCf3L1nwB7y-4bkaAmE-EALw_wcB) | $862 |
+| [Aliexpress]() | $ |
 
 <br/>
 
