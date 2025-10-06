@@ -240,7 +240,7 @@ Referentes:
 
 ### [Joy<sub>1</sub>](https://arduinogetstarted.com/tutorials/arduino-joystick)[stick<sub>2</sub>](https://www.youtube.com/watch?v=vo7SbVhW3pE) 
 
-<img align="right" src="./imagenes/joystick.jpg" alt="" title="Fuente: https://altronics.cl/arduino-joystick2-ps2" width=300>
+<img align="right" src="./imagenes/joystick.jpg" alt="Joystick" title="Fuente: https://altronics.cl/arduino-joystick2-ps2" width=300>
 
 Consiste de 2 potenciómetros, colocados a 90 grados uno del otro, conectados a una palanca, los cuales nos dan un voltaje que varía dependiendo de la posición en X e Y en que tengamos la palanca. <br/>
 Algunos joysticks tienen integrado un botón (switch) y algunos en lugar de utilizar potenciómetros utilizan sensores hall effect, que varían el voltaje dependiendo de la posición de un imán.
@@ -265,30 +265,13 @@ Referente: [One handed game controller (mouse al que le agregaron un joystick y 
 
 ---
 
-### [Fotoresistencia/Light Dependent Resistor (LDR)](https://youtu.be/DYcLFHgVCn0?si=fQL99084OkrClTet&t=1293)
+### [Fotoresistencia](https://youtu.be/DYcLFHgVCn0?si=fQL99084OkrClTet&t=1293)/[Light Dependent Resistor (LDR)](https://albertoroura.com/controlando-un-led-con-un-ldr-en-arduino/)
 
-<img align="right" src="./imagenes" alt="" title="Fuente: " width=400>
+<img align="right" src="./imagenes/LDR.jpg" alt="LDR" title="Fuente: https://albertoroura.com/controlando-un-led-con-un-ldr-en-arduino/" width=350>
 
 Resistencia variable, mientras más luz reciva menor será su resistencia. Se puede configurar como un divisor de voltaje para enviar una señal analógica al microcontrolador.
 
-| Pinout  |          |
-|:---------:|----------|
-| Vcc     | Alimenta con 5V al sensor |
-|     |  |
-|     |  |
-| Gnd     | Tierra |
-
-| Características    |      |
-|------------|:------:|
-| Consumo |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-Distancia efectiva: 2cm a 4M
-
-Referentes:  
+Referentes: [Luz de noche](https://youtu.be/2GqKbUyhUww?si=mpI0xkQ-1CazY2QV)
 
  
 | Cotización  |          |
@@ -300,40 +283,56 @@ Referentes:
 
 ---
 
+### [Sensor<sub>1</sub>](https://www.instructables.com/Interfacing-IR-Sensor-Module-With-Arduino/) [infrarrojo<sub>2</sub>](https://www.youtube.com/shorts/epcZA5XsS20)
 
+<img align="right" src="./imagenes/IR-Sensor-Pinout.png" alt="Modulo infrarrojo pinout" title="Fuente: https://circuitdigest.com/microcontroller-projects/interfacing-ir-sensor-module-with-arduino" width=400>
 
-###
+El módulo consta de un emisor infrarrojo y un fotodiodo, que en conjunto funcionan similar al sensor ultrasonico de distancia, pero a diferencia de este, el sensor infrarrojo solo detecta si hay o no hay un objeto frente a sí.
 
-###
-
-<img align="right" src="./imagenes" alt="" title="Fuente: " width=400>
-
-descripcion
+Con el potenciómetro azul se ajusta la distancia de detección del sensor.
 
 | Pinout  |          |
 |:---------:|----------|
-| Vcc     | Alimenta con 5V al sensor |
-|     |  |
-|     |  |
+| Vcc     | Alimenta con 3.3V - 5V al sensor |
 | Gnd     | Tierra |
+| Out    | Salida digital |
 
-| Características    |      |
-|------------|:------:|
-| Consumo |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+Distancia efectiva: 2cm a 30cm
 
-Distancia efectiva: 2cm a 4M
+Angulo de detección: 35°
 
-Referentes:  
+| Cotización  |          |
+|:-----------:|----------|
+| [Afel](https://afel.cl/products/sensor-infrarrojo-evasor-de-obstaculos?variant=45125238227096&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqhJZYZ71U2hknogPpCCB9clR3gvjjnltTajrRb7xbjGBZ45jxySh0)    | $2000 |
+| [Aliexpress](https://es.aliexpress.com/item/1005008296450420.html?spm=a2g0o.tesla.0.0.290fPJDUPJDU0j&afTraceInfo=1005008296450420__pc__c_ppc_item_bridge_pc_main__wiuCeHo__1759789906647&gatewayAdapt=glo2esp) | $408 |
+
+<br/>
+
+---
+
+### [Microfono<sub>1</sub>](https://www.phippselectronics.com/using-the-max9814-microphone-amplifier-module-with-arduino/?srsltid=AfmBOooUClS5McZD3e31Tjjw-1en5V239ZtJ0RgBob8698bqQPYsVVni) [electret<sub>2</sub>](https://www.youtube.com/watch?v=bMs5J4bJOD0)
+
+<img align="right" src="./imagenes/MAX9814-Pinout.jpg" alt="Modulo microfono electtret MAX9814 pinout" title="Fuente: https://www.datasheethub.com/max9814-microphone-amplifier-module/" width=330>
+
+Un pequeño micrófono electret (capacitivo) con la circuitería necesaria para amplificar la señal y que esta sea usable.
+
+Algunos modelos tienen 3 pines, mientras que otros 5, depende del amplificador que se use en el módulo.
+
+| Pinout  |          |
+|:---------:|----------|
+| Gnd     | Tierra |
+| Vdd     | Alimenta con 2.7V - 5.5V al sensor |
+| Out    | Analog output |
+| Gain    | Selector ganancia maxima 40, 50 o 60 db |
+| AR     | Attack/Release Ratio: Configura la velocidad de respuesta
+
+Referente: [Indicador de volumen (Adafruit)](https://youtu.be/Mx8cvfNPfP0?si=KxTM2CgNm4TX69Wo&t=25)  
 
  
 | Cotización  |          |
 |:-----------:|----------|
-| [Afel]()    | $ |
-| [Aliexpress]() | $ |
+| [Afel](https://afel.cl/products/modulo-microfono-amplificador-max4466?variant=45125195104408&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopW0NXh5t5wIvpkGX4SGX9YXRiFlmRCJhLdH8NXgj4I6GaxlqLVhzw)    | $2990 |
+| [Aliexpress](https://es.aliexpress.com/item/1005001573105585.html?spm=a2g0o.tesla.0.0.3dac0CPx0CPxUr&afTraceInfo=1005001573105585__pc__c_ppc_item_bridge_pc_main__Wu6kOkT__1759791351560&gatewayAdapt=glo2esp) | $2568 |
 
 <br/>
 
