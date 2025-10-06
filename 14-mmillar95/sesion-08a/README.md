@@ -32,3 +32,15 @@ Estas páginas nos ayudarán a realizar nuestro proyecto.
 - [Loquendo](https://loquendo.io/): Página de texto a audio recomendada por Mateo.
 - [My instants](https://www.myinstants.com/es/search/?name=hola): Página que tiene botones con audio ya grabado (audios virales).
 - [Artlist](https://artlist.io/voice-over): Es una página que mediante inteligencia artificial pasa de texto a audio, se le puede poner efecto, velocidad y distorsión.
+
+## Carcasa Robot
+### Prototipo 01
+- Se empezo a trabajar con el sensor ultrasonico ya que este es el centro de nuestro proyecto y los ojos de nuestro robot. se trabajo en Rhino y se descargo el sensor de la pagina [GrabaCad](https://grabcad.com/library/tag/hc-sr04) que tiene buenos modelados 3d de componentes electronicos y gratis.
+- [Ultrasonico](https://grabcad.com/library/hc-sr04-ultrasonic-sensor-15)
+- [Arduino R4](https://grabcad.com/library/arduino-uno-r4-wifi-1)
+- [Servomotor](https://grabcad.com/library/sg90-micro-servo-9g-tower-pro-1)
+ 
+![Captura de pantalla](./imagenes/Pantallazo01.png)
+![Captura de pantalla](./imagenes/Pantallazo02.png)
+
+Para la presentación física del proyecto como equipo pensamos en realizar un robot el que contara el dato random. Debido a la cantidad de componentes, lo más adecuado para poder llevarlo a cabo sería realizar el robot sobre una caja que tendrá el Arduino por temas de tamaño y estabilidad.
