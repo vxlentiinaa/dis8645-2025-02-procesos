@@ -1,6 +1,9 @@
 # sesion-08a 30.09.25
 
 ## Proyecto 02
+## Encargo 16
+ "cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a."));
+}
 + **Errores y problemas en el código:** El reproductor mp3 no nos funcionaba, no sonaba el altavoz, pensamos que un problema podría ser la tarjeta SD.
 + La formateamos con las instrucciones que nos dió gemini:
 
@@ -39,7 +42,7 @@ Funcionó!
 
 #### Al final de la clase pudimos hacer:
 
-  + Código para usar el mp3 y el altavoz funcionó gracias a janis y mateo <3 gracias.
+  + Código para usar el mp3 y el altavoz funcionó gracias a janis y mateo <3
   + El código salvador fué este de aquí:
   + <https://github.com/DFRobot/DFRobotDFPlayerMini>
 
@@ -59,4 +62,11 @@ Funcionó!
    + **dato5:** "¿Sabías qué? Apagar y prender arregla todo, y sino, un golpecito y como nuevo"
    + **dato6:** "¿Sabías qué? El porcentaje exacto de 99,999999999999... Nah, inventé jajaja pero aún sigues aquí ¿no?"
 
-  Audios en files! hechos en <https://aivoice-es.vidnoz.com/text-to-speech>
+  Audios en files! hechos con <https://aivoice-es.vidnoz.com/text-to-speech>
+  
+#### Proceso motor DC (corriente directa)
++ **Video de referencia:** "Arduino: Motor DC y transistor NPN (control de velocidad) | TechKrowd"
+  + <https://www.youtube.com/watch?v=crrbujSEjBE>
++ Acá ella explica que el motor DC no funciona directamente con arduino ya que el motor necesita bastante corriente y arduino da hasta 5v, por lo que al conectarlo se **necesitará un transistor**, en este caso ella habla de un transistor NPN (2N2222A), necesitaremos también una resistencia que dependerá del transistor que se use.
+
++ **Ayuda de como conectarlo:** "Conexión de un transistor NPN a un motor DC y a un Arduino" <https://www.youtube.com/watch?v=O-kuwPfpCng>

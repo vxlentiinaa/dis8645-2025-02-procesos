@@ -27,7 +27,7 @@ Desde Afel llegamos al siguiente enlace: <https://learn.adafruit.com/adafruit-mi
 
 El código está en la carpeta "codigos" de esta sesion
 
-Era importante leer el datasheet del micrófono porque debe ser conectado a 3.3V 
+Era importante leer el datasheet del micrófono porque debe ser conectado a 3.3V
 
 ## Proyecto
 
@@ -39,17 +39,17 @@ Si valor B es mayor que A, el sonido viene de B
 
 Para los párpados vamos a usar un servo motor que mueva ambos con un eje común.
 
-Para probar el movimiento del párpado usamos [este código](https://github.com/felix-rg416/dis8645-2025-02-procesos/blob/main/12-santiagoClifford/sesion-07b/servoLearn-v1/servoLearn-v1.ino)
+Para probar el movimiento del párpado usamos [este código](https://github.com/santiagoClifford/dis8645-2025-02-procesos/blob/main/12-santiagoClifford/sesion-07b/servoLearn-v1/servoLearn-v1.ino)
 
-```cpp 
+```cpp
 void loop() { 
-  angulo= 70;
+  angulo= 30;
   myservo.write(angulo);
   Serial.print("ángulo:  ");
   Serial.println(angulo);
   delay(2000);  
 
-  angulo=180;
+  angulo= 90;
   myservo.write(angulo);
   Serial.print("ángulo:  ");
   Serial.println(angulo);
@@ -58,3 +58,13 @@ void loop() {
 ```
 
 ![Prueba de párpados](./imagenes/parpadoTEST.gif)
+
+|Roles|Anto|Santi|Sofi|Félix|
+|:---|:---:|:---:|:---:|:---:|
+|Código|X| |X| |
+|Investigación|X|X|X|X|
+|Servomotores| |X| |X|
+|Micrófonos|X| |X|X|
+|Modelado 3D| |X| | |
+|Documentación|X|X|X|X|
+|Referentes|X|X|X|X|
