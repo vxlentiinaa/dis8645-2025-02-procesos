@@ -1,4 +1,4 @@
-# ⋆₊˚⊹♡ Clase 08a - ... ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 08a - Avances de hormiga ♡⊹˚₊⋆
 
 Martes 30 Septiembre 2025
 
@@ -26,7 +26,10 @@ Toda esta teoría sobre los servos fue adquirida gracias a [MCI Electronics](htt
 
 -> Recuperado de: https://naylampmechatronics.com/blog/33_tutorial-uso-de-servomotores-con-arduino.html
 
-Puesto que soy de ir a la práctica y luego al estudio es que estuve averiguando a través de videos de youtube para saber la implementación del código. Estuve viendo varios tutoriales explicativos, de los cuales pude identificar que algunos utilizaban los pines análogos y otros los pines digitales (de los cuales sólo 1 utilizaban los pwm).
+Puesto que soy de ir a la práctica y luego al estudio es que estuve averiguando a través de videos de youtube para saber la implementación del código. Estuve viendo varios tutoriales explicativos (["Cómo Usar SERVOMOTOR Arduino" - Johann Perez E](https://youtu.be/GUhPrO1BEJ0?si=34x7leOxCQy0DmKY), ["Servo SG90 with Arduino UNO" - RoboTantra](https://youtu.be/5bEHd8h_p-k?si=yi9lFM3OvyYMu7ic), ["Como probar si funciona un servomotor, código y conexión con arduino" - Ivan Espinoza](https://youtu.be/X-xXYQfeaMo?si=8sMIqRgPhZVGC06c)), de los cuales pude identificar que algunos utilizaban los pines análogos y otros los pines digitales (de los cuales sólo 1 utilizaban los pwm).
+
+Ante ello me pregunté porque según la persona utiliza un distinto tipo de entrada del arduino.
+
 
 
 https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibration/calibration.ino
