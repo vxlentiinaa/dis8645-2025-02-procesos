@@ -43,6 +43,16 @@ El uso más extendido que se le ha dado es en equipos médicos y terapias, adem�
 
 Con este antecedente, se puede denotar que dicho sensor se encarga de cumplir con estas últimas funciones descritas.
 Para ello, este cuenta con una serie de piezas que se componen de un emisor y un receptor de ultrasonidos (transductor), un cristal y un circuito de control.
+Para poder entender mejor dicho sensor conseguí un documento ["datasheet"](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf) en el que se especifica detalladamente las condiciones para que funcione, la teoría y la práctica, además de códigos para que funcione en arduino.
+
+
+![imagen](./imagenes/HC-SR04-Ultrasonic-datasheet.png)
+
+-> "Algunas páginas más importantes del documento". Recuperado de: creación personal. Basado en: https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf
+
+Tras haber leído y entendido la teoría me dispuse a ver la parte de la práctica en torno al sensor.
+
+(en pausa, ya que quiero probar y registrar lo que hace en sensor en el "mundo real")
 
 ***
 
