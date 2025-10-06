@@ -238,28 +238,20 @@ Referentes:
 
 ---
 
-### Joystick 
+### [Joy<sub>1</sub>](https://arduinogetstarted.com/tutorials/arduino-joystick)[stick<sub>2</sub>](https://www.youtube.com/watch?v=vo7SbVhW3pE) 
 
-<img align="right" src="./imagenes" alt="" title="Fuente: " width=400>
+<img align="right" src="./imagenes/joystick.jpg" alt="" title="Fuente: https://altronics.cl/arduino-joystick2-ps2" width=300>
 
-descripcion
+Consiste de 2 potenciómetros, colocados a 90 grados uno del otro, conectados a una palanca, los cuales nos dan un voltaje que varía dependiendo de la posición en X e Y en que tengamos la palanca. <br/>
+Algunos joysticks tienen integrado un botón (switch) y algunos en lugar de utilizar potenciómetros utilizan sensores hall effect, que varían el voltaje dependiendo de la posición de un imán.
 
 | Pinout  |          |
 |:---------:|----------|
-| Vcc     | Alimenta con 5V al sensor |
-|     |  |
-|     |  |
-| Gnd     | Tierra |
-
-| Características    |      |
-|------------|:------:|
-| Consumo |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-Distancia efectiva: 2cm a 4M
+| Gnd    | Tierra |
+| +5V    | Alimenta con 5V al módulo |
+| VRx    | Voltaje del potenciómetro del eje X |
+| VRy    | Voltaje del potenciómetro del eje Y |
+| SW     | Switch, es LOW cuando está siendo presionado |
 
 Referentes:  
 
@@ -306,7 +298,7 @@ Referentes:
 | Cotización  |          |
 |:-----------:|----------|
 | [Afel]()    | $ |
-| [Aliexpress)]() | $ |
+| [Aliexpress)](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005005484298907&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y&src=google&albch=shopping&acnt=615-992-9880&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oFgTQeV&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=es1005005484298907&ds_e_product_merchant_id=662189571&ds_e_product_country=CL&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=22559110785&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=22559111214&gbraid=0AAAAA_TvRHpt60gIvBG_sxPJyYtddY0sA&gclid=Cj0KCQjwovPGBhDxARIsAFhgkwQ0kI3djd3MsaDMxNj5ZvPFaQwuBJChG38GE8WXGCf3L1nwB7y-4bkaAmE-EALw_wcB) | $862 |
 
 <br/>
 
