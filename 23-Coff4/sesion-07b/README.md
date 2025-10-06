@@ -55,5 +55,67 @@ https://wokwi.com/projects/304444938977804866
 
 En unas horas buscare diferentes paginas con codigo para ver como usar el sensor de temperatura.
 
+(https://www.circuitbasics.com/arduino-thermistor-temperature-sensor-tutorial/)
 
+```cpp
+int ThermistorPin = 0;
+int Vo;
+float R1 = 10000;
+float logR2, R2, T, Tc, Tf;
+float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 
+void setup() {
+Serial.begin(9600);
+}
+
+void loop() {
+
+  Vo = analogRead(ThermistorPin);
+  R2 = R1 * (1023.0 / (float)Vo - 1.0);
+  logR2 = log(R2);
+  T = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2));
+  Tc = T - 273.15;
+  Tf = (Tc * 9.0)/ 5.0 + 32.0; 
+
+  Serial.print("Temperature: "); 
+  Serial.print(Tf);
+  Serial.print(" F; ");
+  Serial.print(Tc);
+  Serial.println(" C");   
+
+  delay(500);
+}
+```
+
+(https://www.geeksforgeeks.org/electronics-engineering/arduino-temperature-sensor/)
+
+```cpp
+float temp;
+int tempPin = 0;
+
+void setup() {
+   Serial.begin(9600);
+}
+
+void loop() {
+   temp = analogRead(tempPin);
+   // read analog volt from sensor and save to variable temp
+   temp = temp * 0.48828125;
+   // convert the analog volt to its temperature equivalent
+   Serial.print("TEMPERATURE = ");
+   Serial.print(temp); // display temperature value
+   Serial.print("*C");
+   Serial.println();
+   delay(1000); // update sensor reading each one second
+}
+
+```
+
+Junto al equipo llegamos a buscar info sobre el sensor de temperatura pero el problema era que el propio sensor no respondia //estaba malo
+Por lo tanto cualquier codigo llega a servir en estos casos para nuestro proyecto
+
+---
+
+Para este punto probamos el sensor ultrasonico:
+
+(https://wokwi.com/projects/304444938977804866)
