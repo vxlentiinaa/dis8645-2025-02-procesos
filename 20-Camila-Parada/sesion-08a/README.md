@@ -37,7 +37,13 @@ https://github.com/user-attachments/assets/5c587cdb-5530-41b3-85f5-973918128bd9
 Ante ello, me pregunté porque según la persona y su proyecto se utiliza un distinto tipo de pin de entrada del arduino.
 
 Al indagar sobre el tipo de salidas de los pines de arduino, estas se pueden clasificar entre análogos y digitales.
-Vale aclarar que ambos.
+
+### [Arduino pines Digitales y Análogicos](https://controlautomaticoeducacion.com/sistemas-embebidos/arduino/entradas-digitales/)
+
+Estos pines permiten leer valores binario (0 o 1, true o false, 0V o 5V). Cuando al entrada hace una "lectura" del mundo real a través de un sensor, lo hace mediante un umbral donde el valor promedio es de 2,5V. Ante ello, todos los valores que sean mayores que lo superen serán denóminados como "HIGH", y su contraparte aquellos valores menores se nombran como "LOW".
+
+Para aquellos sensores que requieres más voltaje del que permite arduino (5V) hay que diseñar unn circuito externo que ayude a controlar la tensión del voltaje inicial. 
+
 
 https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibration/calibration.ino
 
