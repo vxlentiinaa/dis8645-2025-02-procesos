@@ -59,12 +59,14 @@ void loop() {
 
 ![Prueba de párpados](./imagenes/parpadoTEST.gif)
 
-|Roles|Anto|Santi|Sofi|Félix|
-|:---|:---:|:---:|:---:|:---:|
-|Código|X| |X| |
-|Investigación|X|X|X|X|
-|Servomotores| |X| |X|
-|Micrófonos|X| |X|X|
-|Modelado 3D| |X| | |
-|Documentación|X|X|X|X|
-|Referentes|X|X|X|X|
+
+----
+
+Quería intentar hacer una clase que lea la amplitud de los micrófonos, para que en el código principal sólo se tenga que comparar y a partir de ese número mover los servos. 
+No supe cómo hacerlo.
+Quizás no funciona así.
+
+## Bibliografía
+
+- <https://lastminuteengineers.com/max4466-arduino-tutorial/>
+- <https://circuitdigest.com/microcontroller-projects/interfacing-max4466-microphone-amplifier-module-with-arduino>
