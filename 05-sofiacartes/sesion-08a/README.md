@@ -1,6 +1,6 @@
 # sesion-08a 30/08
 
-## Proyecto 02 robot que cuenta datos curiosos
+## Proyecto 02- Robot que cuenta datos curiosos
 
 Componentes aque utilizaremos:
 
