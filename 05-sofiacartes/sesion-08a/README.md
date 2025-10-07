@@ -2,7 +2,7 @@
 
 ## Proyecto 02- Robot que cuenta datos curiosos
 
-Componentes aque utilizaremos:
+Componentes que utilizaremos:
 
 Sensor ultrasónico, Servo Motor, Motor DC, Reproductor mp3 y Altavoz.
 
