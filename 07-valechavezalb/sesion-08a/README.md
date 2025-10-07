@@ -1,13 +1,16 @@
 # 🌷 sesion-08a
+
 Martes 30 de Septiembre de 2025
 
-## ♟️ Trabajo en clases 
+## ♟️ Trabajo en clases
+
 Avance en el proyecto N°2 **"Máquina dispensadora de dulces"**.
 
 ### 🎨 Sensor de reconociemiento de color
+
 ![sensor de color](imagenes/sensor_color.png)
 
-### 🛠️ Código de Arduino para que funcione el **sensor de reconocimiento de color TCS3200**, este código se encuentra en la página de arduino (https://projecthub.arduino.cc/hariprasad_lokesh/colour-identifier-using-tcs3200-b21990).
+### 🛠️ Código de Arduino para que funcione el **sensor de reconocimiento de color TCS3200**, este código se encuentra en la página de arduino (<https://projecthub.arduino.cc/hariprasad_lokesh/colour-identifier-using-tcs3200-b21990>)
 
 ```cpp
 /* This code works with GY-31 TCS3200 TCS230 color sensor module
@@ -71,6 +74,7 @@ void GetColors()
   delay(20);  
 }
 ```
+
 Luego, como este código solo lee los colores rojo, verde y azul, le pregunté a ChatGPT en base a ese código, cómo podía reconocer el color amarillo, lo que me dió como resultado la lectura de los colores en sus respectivas frecuencias (kHz). Con ese código, se puede detectar el color amarillo, rojo, verde y azul que son los colores que necesitamos para que funcione nuestra máquina dispensadora de dulces y obviamente con su respectiva respuesta visual y sonora.
 
 🟢🟡🔴🔵 Código con los cólores:
@@ -265,21 +269,7 @@ void loop() {
 Este fue uno de los código que utilizamos para que reconociera los colores que necesitábamos para nuestro proyecto.
 
 ### 🔊 Uso de reproductor mp4 y audio
+
 Para poder emitir los sonidos que necesitamos para nuestro dispensador de dulces, descubrimos que para que se pueda reproducir los sonidos corresponidentes a la animación y al color, además de ponerle sus nombres correspondientes y los if correspondientes, es necesarios numerarlos dentro de la tarjeta de memoria. Puede paracer lógico, pero si se insertan todos los archivos al azar aunque tengan su numero correspondiente, no va a funcionar.
 
 ![audios](imagenes/audio.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
