@@ -10,8 +10,6 @@ Entrada: Mediante el sensor ultrsónico la máquina detecta presencia y detalles
 
 Salida: Al detectar la distancia de la presencia la máquina reacciona de diferentes.
 
-maneras:
-
 1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor DC el tembleque aumentará entre más cerca estés.
 2. El sensor detectará presencia en 3 instancias: 2 - 10cm, 40 - 60cm, 80 - 100cm.
 3. En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
