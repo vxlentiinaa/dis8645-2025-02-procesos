@@ -4,9 +4,11 @@
 
 ### Cosas que hablamos en la mañana
 
-- vimos el proyecto de un grupo de trabajo, era un robot que lebantaba el dedo
+- vimos el proyecto de un grupo de trabajo, era un robot que lebantaba el dedo.
 
-- etica y geomeria, angulos peligrosos
+- etica y geomeria, angulos peligrosos.
+
+- ejemplos de clases, es importante separ los datos y parametros del codigo principal, por si hay que cambiar algo no modificar por error el, codigo principal.
 
 ### Referentes
 
