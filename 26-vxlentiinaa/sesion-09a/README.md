@@ -37,3 +37,6 @@ Nos dimos cuenta que el servomotor solo llega a 180°, así que lo dejamos así
 13. salidaDedo.h: las clases pueden tener clases adentro
 
 Como incentivo, ir al lab a trabajar y así nos ganamos una decima hasta 1 punto
+
+Realizar el diagrama de flujo de la parte del parlante y así visualizar el problema 
+
