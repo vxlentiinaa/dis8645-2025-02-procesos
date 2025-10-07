@@ -76,6 +76,75 @@ void loop() {
 
 ```
 
+### Aquí agregué mis cometarios para entender el codigo 
+
+``` cpp
+/*
+  Button
+
+  Turns on and off a light emitting diode(LED) connected to digital pin 13,
+  when pressing a pushbutton attached to pin 2.
+
+  The circuit:
+  - LED attached from pin 13 to ground through 220 ohm resistor
+  - pushbutton attached to pin 2 from +5V
+  - 10K resistor attached to pin 2 from ground
+
+  - Note: on most Arduinos there is already an LED on the board
+    attached to pin 13.
+
+  created 2005
+  by DojoDave <http://www.0j0.org>
+  modified 30 Aug 2011
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+*/
+
+// constante llamada buttonpin, con el valor 2, esta en un pin digital
+const int buttonPin = 2;
+
+// constante llamada ledpin, con el valor 13, esta donde el led
+const int ledPin = 13;
+
+// varianle buttonstate inicia en 0
+int buttonState = 0;
+
+// inicio de la funcion setup, solo lo hace una vez
+void setup() {
+
+  // configura el pin ledpin 13, como salida
+  pinMode(ledPin, OUTPUT);
+
+  // configura el pin buttonpin como entrada
+  pinMode(buttonPin, INPUT);
+
+  // fin del setup
+}
+
+// inicio del loop, bucle infinito
+void loop() {
+
+  // digitalread, lee el valor del pin, y lo deja en buttonstate
+  buttonState = digitalRead(buttonPin);
+
+  // el valor sera alto o bajo
+  if (buttonState == HIGH) {
+
+    // envia alto como voltaje, al led encendiendolo
+    digitalWrite(ledPin, HIGH);
+
+    // si la condicion es low entra en else
+  } else {
+
+    // envia low al pin led y lo apaga
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+
 ### Referentes
 
 -
