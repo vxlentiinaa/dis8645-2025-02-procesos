@@ -2,15 +2,14 @@
 
 -26-09-2025
 
-# Apuntes de clase
+## Apuntes de clase
 
-## Inicio del proyecto
 Para comenzar con el proyecto, primero debemos crear un **pseudocódigo** que describa las acciones principales que queremos implementar.  
 Esto servirá como **base de desarrollo** y guía para la estructura del código.
 
 ---
 
-## Inicio del proyecto
+### Inicio del proyecto
 
 Para iniciar el proyecto, se definen los archivos base que organizarán las diferentes partes del código.  
 **Ejemplo de estructura:**
@@ -22,16 +21,16 @@ Para iniciar el proyecto, se definen los archivos base que organizarán las dife
 
 ---
 
-## Proyecto: Dispensador de Dulces Emocionales
+#### Proyecto: Dispensador de Dulces Emocionales
 
-## ¿De qué se trata nuestro proyecto?
+¿De qué se trata nuestro proyecto?
 
 El proyecto consiste en un **dispensador de dulces de colores**, donde **cada color representa una emoción** y al mismo tiempo **reproduce un audio** correspondiente a esa emoción.  
 El objetivo es **crear una experiencia interactiva y expresiva**, combinando color, sonido y animación.
 
 ---
 
-## Significado de los colores y audios
+Significado de los colores y audios
 
 | Color | Emoción | Audio representativo |
 |:------|:---------|:---------------------|
@@ -42,7 +41,7 @@ El objetivo es **crear una experiencia interactiva y expresiva**, combinando col
 
 ---
 
-##  Diseño del dispensador
+Diseño del dispensador
 
 El dispensador tiene **forma de monstruo**, lo que le da una apariencia lúdica y expresiva.  
 Además, incorpora una **pantalla** que muestra **animaciones vinculadas a las emociones** de los colores.
@@ -52,15 +51,15 @@ Además, incorpora una **pantalla** que muestra **animaciones vinculadas a las e
 
 ---
 
-## Objetivo general
+Objetivo general
 
 Crear una instalación interactiva que combine **hardware (sensores y actuadores)**, **diseño visual**, **audio emocional** y **programación creativa**, para explorar cómo la tecnología puede expresar emociones a través de la forma, el color y el sonido.
 
 ---
 
-### Encargo 14
+##### Encargo 14
 
-### Diagrama de flujo del proyecto
+Diagrama de flujo del proyecto
 
 ```mermaid
 flowchart TD
@@ -106,7 +105,7 @@ flowchart TD
 
 ---
 
-#### Codigo Base Sensor Color
+###### Codigo Base Sensor Color
  - https://cursos.mcielectronics.cl/2022/12/26/interfaz-del-sensor-de-color-tcs230-tcs3200-con-arduino
 
 ```cpp
@@ -207,7 +206,7 @@ int getBluePW() {
 ```
 ---
 
-#### Detección de colores
+###### Detección de colores
 
 Para que el sensor pueda **reconocer diferentes colores**, se utilizan una serie de condiciones `if` que comparan los valores de frecuencia (ancho de pulso) obtenidos por cada canal: **rojo**, **verde** y **azul**.  
 
@@ -215,7 +214,7 @@ Cada color tiene una **combinación característica de frecuencias**, y al aprox
 
 ---
 
-#### Código de detección de color
+Código de detección de color
 
 ```cpp
 // --- DETECCIÓN DE COLORES ---
@@ -236,7 +235,7 @@ else {
 }
 ```
 
-#### Explicación del funcionamiento
+####### Explicación del funcionamiento
 
 - **`rojoPW`, `verdePW`, `azulPW`** → Son los valores de frecuencia medidos por el sensor de color en cada canal (**Red**, **Green**, **Blue**).  
 - **`cercaDe(valor, referencia)`** → Es una función auxiliar que compara si el valor leído está dentro de un rango aceptable respecto a una referencia.  
