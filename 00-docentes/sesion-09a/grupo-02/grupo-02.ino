@@ -60,5 +60,10 @@ void loop() {
   if (millis() - timer > 15000) {
     timer = millis();
     colorDetectado = 0;
+    myDFPlayer.next();
+  }
+
+  if (myDFPlayer.available()) {
+    // 
   }
 }
