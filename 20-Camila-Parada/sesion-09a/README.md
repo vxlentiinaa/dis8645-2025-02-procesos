@@ -12,7 +12,7 @@ Cómo mencioné en la sesión anterior (09a) es que logré hacer funcionar el se
 
 https://github.com/user-attachments/assets/68464e3d-3e82-48ef-8fba-76288e9cbcbf
 
--> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0664.mp4
+-> Agradecimientos a [Mateo Arce](https://github.com/matbutom/) por grabar. Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0664.mp4
 
 ***
 
