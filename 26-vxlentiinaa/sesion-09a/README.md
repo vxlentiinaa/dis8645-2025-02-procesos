@@ -6,20 +6,24 @@
 
 Subir las cosas al Github y actualizar para corregir las bitácoras.
 
+Ordenar códigos y hacer diagrama de flujo
+
 Al tener la carpeta con un .ino, dentro de esta va a estar cada estructura del código (.h / .cpp)
 
 ---
 
 ### Retroalimentación 
 
-Configurar la manito del robot, es decir, cambiar el ángulo para que quede recto. (185 - 190°)
+Configurar la manito del robot, es decir, cambiar el ángulo para que quede recto. (180°)
 
 Cambiar la distancia del sensor ultrasónico a 18 cm 
+
+Nos dimos cuenta que el servomotor solo llega a 180°, así que lo dejamos así
 
 `Archivo.ino que creó el profe para nosotras.`
 
 1. Parte incluyendo los archivos que creo, la entrada y salida
-2. instancias: programacion orientada a objetos (existe una entrada tanto y salida tanto)
+2. Instancias: Programación orientada a objetos (existe una entrada tanto y salida tanto)
 3. setup: configurar entrada y salida (lo ordenó) la clase ultraosnico y clase dedo, no saben que existen entre si, los datos de como se configuran estan ocultos, uno en cada carpeta 
 4. loop, lo hizo en orden, primero las cosas del sensor y luego del actuador
 5. ultrasonico esta cerca, dedo levanta... si no hay alguien cerca, dedo baja
