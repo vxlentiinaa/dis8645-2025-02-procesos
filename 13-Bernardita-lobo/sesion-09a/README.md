@@ -4,7 +4,7 @@
 
 ### Cosas que hablamos en la mañana
 
-- 
+- etica y geomeria, angulos peligrosos
 
 - 
 
