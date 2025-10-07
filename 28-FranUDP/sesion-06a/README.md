@@ -6,15 +6,15 @@
 
 ### [Scratch](https://scratch.mit.edu/)
 
-<img align="left" src="./imagenes/scratch.jpg" alt="txt" title="Fuente: https://www.techlearning.com/how-to/what-is-scratch-and-how-does-it-work" width=300>
+<img align="left" src="./imagenes/scratch.jpg" alt="Scratch" title="Fuente: https://www.techlearning.com/how-to/what-is-scratch-and-how-does-it-work" width=300>
 
-Plataforma, lenguaje de programación visual y comunidad donde niños y estudiantes aprenden a programar jugando, creando animaciones, juegos, historias, etc.
+Plataforma, lenguaje de programación visual y comunidad donde niños y estudiantes ${\color{#b0e6e6}aprenden}$ a ${\color{#b0e6e6}programar\ jugando}$, creando animaciones, juegos, historias, etc.
 
 <br/><br/>
 
 ### [Pure Data](https://puredata.info/)
 
-<img align="left" src="./imagenes/pureData.png" alt="txt" title="Fuente: https://puredata.info/ Captura de pantalla por FranUDP" width=300>
+<img align="left" src="./imagenes/pureData.png" alt="Pure Data" title="Fuente: https://puredata.info/ Captura de pantalla por FranUDP" width=300>
 
 Lenguaje de programación visual *open source* diseñado para crear multimedia de manera ${\color{#b0e6e6}interactiva}$ y en ${\color{#b0e6e6}tiempo\ real}$.
 
@@ -46,9 +46,9 @@ El programa fue diseñado para que el ${\color{WHITE}output}$ generado sea el mi
 
 ##### [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
 
-<img align="left" src="./imagenes/donaldKnuth.jpg" alt="txt" title="Fuente: https://en.wikipedia.org/wiki/Donald_Knuth" width=150>
+<img align="left" src="./imagenes/donaldKnuth.jpg" alt="Donald Knuth" title="Fuente: https://en.wikipedia.org/wiki/Donald_Knuth" width=150>
 
-Es una de las personas más influyentes en las ciencias de la computación. Escribió la "biblia de la *computer science*" ([The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)), creó [TeX](https://en.wikipedia.org/wiki/TeX) e introdujo el concepto de [programación literaria (*Literate programming*)](https://en.wikipedia.org/wiki/Literate_programming), entre otros.
+Es una de las personas más influyentes en las ciencias de la computación. Escribió la "biblia de la computer science" ([The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)), creó [TeX](https://en.wikipedia.org/wiki/TeX) e introdujo el concepto de [programación literaria (*Literate programming*)](https://en.wikipedia.org/wiki/Literate_programming), entre otros.
 
 <br/><br/><br/><br/><br/><br/>
 
@@ -56,17 +56,17 @@ Es una de las personas más influyentes en las ciencias de la computación. Escr
 
 <img align="left" src="./imagenes/overleaf-green-medium.svg" alt="txt" title="Fuente: https://www.overleaf.com/about" width=150>
 
-Editor de LaTeX diseñado para hacer que escribir usando LaTeX sea más fácil, rápido, accesible y colaborativo (aunque se tiene que pagar para poder colaborar).
+${\color{#b0e6e6}Editor}$ de LaTeX diseñado para hacer que escribir usando LaTeX sea más fácil, rápido, accesible y colaborativo (aunque se tiene que pagar para poder colaborar).
 
 <br/><br/><br/><br/><br/>
 
 ### Proyecto 2: Máquina Saludadora
 
-Vamos a hacer una máquina que salude, la cual tendrá que utilizar uno o más sensores como *input*.
+Vamos a hacer una máquina que salude, la cual tendrá que utilizar uno o más sensores como ${\color{WHITE}input}$.
 
 ### [Sensores](https://es.wikipedia.org/wiki/Sensor)
 
-Un sensor es un aparato que detecta cambios en su entorno y envía señales eléctricas que un computador puede entender. <br/>
+Un sensor es un aparato que ${\color{#b0e6e6}detecta\ cambios\ en\ su\ entorno}$ y envía señales eléctricas que un computador puede entender. <br/>
 Qué cambio(s), cómo los detecta o mide varían dependiendo del tipo de sensor.
 
 -----------------------------------------------------------------------------------------------------------
@@ -77,16 +77,16 @@ Qué cambio(s), cómo los detecta o mide varían dependiendo del tipo de sensor.
 
 <img align="right" src="./imagenes/HC-SR04.jpg" alt="HC-SR04 pinout" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=400>
 
-Emite ondas ultrasónicas y cuenta cuánto tiempo pasa antes de que estas regresen a él, igual que un murciélago.
+Emite ${\color{#b0e6e6}ondas\ ultrasónicas}$ y calcula cuánto tiempo pasa antes de que estas regresen a él, igual que un murciélago.
 
-Según lo que he podido encontrar en internet y el testimonio de @misaaaaaa, el sensor no es muy preciso; sin embargo, encontré una biblioteca llamada [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home) que fue desarrollada para solucionar este problema.
+Según lo que he podido encontrar en internet y el testimonio de @misaaaaaa, el sensor ${\color{#b0e6e6}no\ es\ muy\ preciso}$; sin embargo, encontré una biblioteca llamada [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home) que fue desarrollada para solucionar este problema.
 
 | Pinout  |          |
 |---------|----------|
-| Vcc     | Alimenta con 5V al sensor |
+| ${\color{red}Vcc}$     | Alimenta con ${\color{red}5V}$ al sensor |
 | Trigger | Hace que el sensor emita un pulso |
-| Echo    | Comunica cuándo regresa el pulso |
-| Gnd     | Tierra |
+| ${\color{WHITE}Echo}$    | Comunica cuándo regresa el pulso |
+|  ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
 
 | Consumo    |      |
 |------------|------|
@@ -112,14 +112,14 @@ Referentes: [Sonar](https://youtu.be/KGwtit2bFyo?si=A_or_WnmgpEQNJxr) y [sistema
 
 <img align="right" src="./imagenes/DHT11.jpg" alt="HDT11 pinout sensor y módulo" title="Fuente: https://components101.com/sensors/dht11-temperature-sensor" width=300>
 
-Mide la temperatura y humedad del ambiente en que sea colocado. Hace el trabajo de 2 sensores distintos.
+Mide la ${\color{#b0e6e6}temperatura\ y\ humedad}$ del ambiente en que sea colocado. Hace el trabajo de 2 sensores distintos.
 
 | Pinout  |          |
 |:---------:|----------|
-| Vcc     | Alimenta con 3V - 5V al sensor |
-| Data | Emite las lecturas del sensor |
-| NC    | No se conecta |
-| Gnd     | Tierra |
+| ${\color{red}Vcc}$     | Alimenta con ${\color{red}3V\ -\ 5V}$ al sensor |
+| ${\color{WHITE}Data}$ | Emite las lecturas del sensor |
+| ${\color{yellow}NC}$    | ${\color{yellow}No\ se\ conecta}$ |
+| ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
 
 | Características    |      |
 |------------|:------:|
@@ -129,7 +129,7 @@ Mide la temperatura y humedad del ambiente en que sea colocado. Hace el trabajo 
 | Rango medición humedad | 20 % RH a 90 % RH
 | Resolución | 8 bit
 
-El *output* es digital, no se requiere un ADC (Analog to Digital Converter).
+El ${\color{WHITE}output}$ es digital, no se requiere un ADC (Analog to Digital Converter).
 
 Referente: [Medidor de temperatura con display que controla un ventilador](https://youtu.be/kLGKVRmA6qM?si=V6R917zREnDpwnpz).
 
@@ -146,16 +146,16 @@ Referente: [Medidor de temperatura con display que controla un ventilador](https
 
 <img align="right" src="./imagenes/MQ2.jpg" alt="MQ2 pinout" title="Fuente: https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/" width=270>
 
-Sensor capaz de detectar la presencia de GLP, humo, alcohol, propano, hidrógeno, metano y monóxido de carbono (entre otros), y reportar la concentración de estos gases en el aire.
+Sensor capaz de ${\color{#b0e6e6}detectar\ la\ presencia\ de}$ GLP, humo, alcohol, propano, hidrógeno, metano y monóxido de carbono (entre otros ${\color{#b0e6e6}gases\ inflamables}$), y reportar la concentración de estos gases en el aire.
 
 El sensor funciona detectando el cambio de resistencia en su núcleo. Este está hecho de un material que al ser calentado reacciona con el oxígeno, haciendo que la resistencia del elemento aumente drásticamente. Cuando hay gases inflamables presentes, estos le quitan el oxígeno de encima al sensor y la conductividad aumenta.
 
 | Pinout |          |
 |:------:|----------|
-| Vcc    | Alimenta con 5V al sensor |
-| Gnd    | Tierra |
-| D0     | (*Digital output*) Emite LOW cuando detecta gases inflamables |
-| A0     | (*Analog output*) Emite un voltaje variable correspondiente a la concentración de gas  |
+| ${\color{red}Vcc}$    | Alimenta con ${\color{red}5V}$ al sensor |
+| ${\color{Gray}Gnd}$    | ${\color{Gray}Tierra}$ |
+| ${\color{WHITE}D0}$     | (${\color{WHITE}Digital\ output}$) Emite LOW cuando detecta gases inflamables |
+| ${\color{WHITE}A0}$     | (${\color{WHITE}Analog\ output}$) Emite un voltaje variable correspondiente a la concentración de gas  |
 
 | Características    |      |
 |------------|:------:|
@@ -182,17 +182,17 @@ Referente: [Detector de gases y humo (alarma)](https://youtu.be/NxaBnZyyJbc?si=X
 
 <img align="right" src="./imagenes/RotaryEncoderPinout.jpg" alt="Rotary encoder pinout" title="Fuente: https://components101.com/modules/KY-04-rotary-encoder-pinout-features-datasheet-working-application-alternative" width=370>
 
-Detecta la dirección de rotación, la distancia recorrida por la rueda, la velocidad de rotación y, en algunos casos, si un interruptor está siendo pulsado.
+Detecta la ${\color{#b0e6e6}dirección\ de\ rotación}$, la ${\color{#b0e6e6}distancia\ recorrida}$ por la rueda, la ${\color{#b0e6e6}velocidad\ de\ rotación}$ y, en algunos casos, si un interruptor está siendo pulsado.
 
 Dentro del *encoder* hay dos interruptores, correspondientes a las salidas A y B respectivamente, que al rotar la perilla son pulsados uno tras el otro, generando un patrón que el microcontrolador lee.
 
 | Pinout  |          |
 |:---------:|----------|
-|  Gnd  | Tierra |
-|  Vcc  | Alimenta con 5V al sensor |
+|  ${\color{Gray}Gnd}$  | ${\color{Gray}Tierra}$ |
+|  ${\color{red}Vcc}$  | Alimenta con ${\color{red}5V}$ al sensor |
 |  Switch | Botón |
-|  Output A  | Emite pulsos digitales al rotar |
-|  Output B  | Emite pulsos digitales al rotar |
+|  ${\color{WHITE}Output\ A}$  | Emite pulsos digitales al rotar |
+|  ${\color{WHITE}Output\ B}$  | Emite pulsos digitales al rotar |
 
 Referente: [Regulador de intensidad para lámpara (*Lamp dimmer*)](https://www.edn.com/mouse-encoder/).
 
@@ -209,16 +209,16 @@ Referente: [Regulador de intensidad para lámpara (*Lamp dimmer*)](https://www.e
 
 <img align="right" src="./imagenes/SoilMoistureSensorPinout.png" alt="Sensor de humedad pinout" title="Fuente: https://projecthub.arduino.cc/Aswinth/soil-moisture-sensor-with-arduino-91c818" width=400>
 
-El sensor es una resistencia cuyo valor varía dependiendo de cuánta humedad haya en el suelo. Esta es conectada a un módulo comparador LM393, que se encarga de proveer las señales digitales y analógicas.
+El sensor es una ${\color{#b0e6e6}resistencia}$ cuyo ${\color{#b0e6e6}valor\ varía}$ dependiendo de cuánta ${\color{#b0e6e6}humedad}$ haya en el ${\color{#b0e6e6}suelo}$. Esta es conectada a un módulo comparador LM393, que se encarga de proveer las señales digitales y analógicas.
 
 | Pinout  |          |
 |:---------:|----------|
-| Vcc     | Alimenta con 3.3V - 5V al sensor |
-| Gnd     | Tierra |
-| Digital out | Emite señales digitales |
-| Analog out | Emite señales analógicas |
+| ${\color{red}Vcc}$     | Alimenta con ${\color{red}3.3V\ -\ 5V}$ al sensor |
+| ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
+| ${\color{WHITE}Digital\ out}$ | Emite señales digitales |
+| ${\color{WHITE}Analog\ out}$ | Emite señales analógicas |
 
-Sensibilidad ajustable con el potenciómetro azul.
+${\color{#b0e6e6}Sensibilidad}$ ajustable con el ${\color{#b0e6e6}potenciómetro\ azul}$.
 
 El comparador emite una señal digital cuando la humedad sobrepasa el rango configurado.
 
@@ -235,16 +235,16 @@ El comparador emite una señal digital cuando la humedad sobrepasa el rango conf
 
 <img align="right" src="./imagenes/joystick.jpg" alt="Joystick" title="Fuente: https://altronics.cl/arduino-joystick2-ps2" width=300>
 
-Consiste en 2 potenciómetros, colocados a 90 grados uno del otro, conectados a una palanca, los cuales nos dan un voltaje que varía dependiendo de la posición en X e Y en que tengamos la palanca. <br/>
+Consiste en ${\color{#b0e6e6}2\ potenciómetros}$, colocados a 90 grados uno del otro, conectados a una palanca, los cuales nos dan un ${\color{red}voltaje}$ que ${\color{#b0e6e6}varía}$ dependiendo de la ${\color{#b0e6e6}posición\ en\ X\ e\ Y}$ en que tengamos la palanca. <br/>
 Algunos joysticks tienen integrado un botón (interruptor) y otros, en lugar de utilizar potenciómetros, utilizan sensores de efecto Hall, que varían el voltaje dependiendo de la posición de un imán.
 
 | Pinout  |          |
 |:---------:|----------|
-| Gnd    | Tierra |
-| +5V    | Alimenta con 5V al módulo |
-| VRx    | Voltaje del potenciómetro del eje X |
-| VRy    | Voltaje del potenciómetro del eje Y |
-| SW     | Interruptor, es LOW cuando está siendo presionado |
+| ${\color{Gray}Gnd}$    | ${\color{Gray}Tierra}$ |
+| ${\color{Red}+5V}$    | Alimenta con ${\color{Red}5V}$ al módulo |
+| ${\color{WHITE}VRx}$    | Voltaje del potenciómetro del ${\color{WHITE}eje\ X}$ |
+| ${\color{WHITE}VRy}$    | Voltaje del potenciómetro del ${\color{WHITE}eje\ Y}$ |
+| SW     | Interruptor, es ${\color{WHITE}LOW}$ cuando está siendo presionado |
 
 Referente: [Control de juego para una mano (*One handed game controller*, un mouse al que le agregaron un joystick y botones)](https://youtu.be/45b4ObOf36s?si=4vQ1sVqe3gjQHzqB).
 
@@ -261,7 +261,7 @@ Referente: [Control de juego para una mano (*One handed game controller*, un mou
 
 <img align="right" src="./imagenes/LDR.jpg" alt="LDR" title="Fuente: https://albertoroura.com/controlando-un-led-con-un-ldr-en-arduino/" width=350>
 
-Resistencia variable: mientras más luz reciba, menor será su resistencia. Se puede configurar como un divisor de voltaje para enviar una señal analógica al microcontrolador.
+Es una ${\color{#b0e6e6}resistencia\ variable}$, mientras más ${\color{#b0e6e6}luz}$ reciba, menor será su resistencia. Se puede configurar como un ${\color{red}divisor\ de\ voltaje}$ para enviar una señal analógica al microcontrolador.
 
 Referentes: [Luz de noche](https://youtu.be/2GqKbUyhUww?si=mpI0xkQ-1CazY2QV).
 
@@ -278,15 +278,15 @@ Referentes: [Luz de noche](https://youtu.be/2GqKbUyhUww?si=mpI0xkQ-1CazY2QV).
 
 <img align="right" src="./imagenes/IR-Sensor-Pinout.png" alt="Módulo infrarrojo pinout" title="Fuente: https://circuitdigest.com/microcontroller-projects/interfacing-ir-sensor-module-with-arduino" width=400>
 
-El módulo consta de un emisor infrarrojo y un fotodiodo que, en conjunto, funcionan de forma similar al sensor ultrasónico de distancia, pero a diferencia de este, el sensor infrarrojo solo detecta si hay o no un objeto frente a sí.
+El módulo consta de un ${\color{#b0e6e6}emisor\ infrarrojo}$ y un ${\color{#b0e6e6}fotodiodo}$ que, en conjunto, funcionan de forma similar al sensor ultrasónico de distancia, pero a diferencia de este, el sensor infrarrojo solo ${\color{#b0e6e6}detecta}$ si hay o no un ${\color{#b0e6e6}objeto\ frente\ a\ sí}$.
 
 Con el potenciómetro azul se ajusta la distancia de detección del sensor.
 
 | Pinout  |          |
 |:---------:|----------|
-| Vcc     | Alimenta con 3.3V - 5V al sensor |
-| Gnd     | Tierra |
-| Out    | Salida digital |
+| ${\color{Red}Vcc}$     | Alimenta con ${\color{Red}3.3V\ -\ 5V}$ al sensor |
+| ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
+| ${\color{WHITE}Out}$    | Salida digital |
 
 Distancia efectiva: 2 cm a 30 cm
 
@@ -305,15 +305,15 @@ Distancia efectiva: 2 cm a 30 cm
 
 <img align="right" src="./imagenes/MAX9814-Pinout.jpg" alt="Módulo micrófono electret MAX9814 pinout" title="Fuente: https://www.datasheethub.com/max9814-microphone-amplifier-module/" width=330>
 
-Un pequeño micrófono electret (capacitivo) con la circuitería necesaria para amplificar la señal y que esta sea utilizable.
+Un pequeño ${\color{#b0e6e6}micrófono}$ electret (capacitivo) con la circuitería necesaria para amplificar la señal y que esta sea utilizable.
 
-Algunos modelos tienen 3 pines, mientras que otros 5; depende del amplificador que se use en el módulo.
+Algunos modelos tienen ${\color{#b0e6e6}3\ pines}$, mientras que otros ${\color{#b0e6e6}5}$; depende del ${\color{#b0e6e6}amplificador}$ que se use en el módulo.
 
 | Pinout  |          |
 |:---------:|----------|
-| Gnd     | Tierra |
-| Vdd     | Alimenta con 2.7V - 5.5V al sensor |
-| Out    | *Analog output* |
+| ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
+| ${\color{Red}Vdd}$     | Alimenta con ${\color{Red}2.7V\ -\ 5.5V}$ al sensor |
+| ${\color{WHITE}Out}$    | *Analog output* |
 | Gain    | Selector de ganancia máxima: 40, 50 o 60 dB |
 | AR     | *Attack/Release Ratio*: Configura la velocidad de respuesta |
 
