@@ -60,6 +60,8 @@ en el período del 3-6 de octubre generamos avances brígidos(pesnamos que se en
 
 me encargué de diseñar y modelar en 3D todo el cuerpo, movimeintos y estética del robot.
 
+casi todos los modelos fueron modelados e impresos antes de modelar el siguiente avance. Está ordenado en orden cronológico(basado en como windows ordena los archivos por fecha de creación).
+
 #### forma y vibe
 
 primero partí con este modelado para entender la posición de los iris y párpados, ya que esto determina  el sentimiento que el robot transmite.
@@ -68,5 +70,29 @@ primero partí con este modelado para entender la posición de los iris y párpa
 
 luego, hice este modelo 3D sin pensar en medidas o estructuralidad.                    
 
-[![modelo 3d de la idea inicial](./imagenes/primer-idea.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)
+[![modelo 3d de la idea inicia v2](./imagenes/primer-idea.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)
+
+
+modelé la pupila del ojo. Partido a la mitad para evitar usar soportes al imprimir. En el centro tiene un ajugero donde posteriormente se introduce un tarugo para unir ambas mitades. Estos agujeros terminan en punta para que se imprima sin soportes.
+
+![modelo 3d del globo ocular](./imagenes/esferav1.png)
+
+luego modelé  el párpado. con el obejtivo de sentir cómo roza con el globo ocular. Con esas lineas guías pude modelar el párpado a partir de un ángulo que calzara las necesidades del pryecto.
+
+![modelo 3d párpado v1](./imagenes/parpadoV1.png)
+
+dado que el prototipo anterior funcionó bien, inmediatamente modele una versión con ambos párpdos unidos.
+
+![modelo 3d párpado v1](./imagenes/parpadoV2.png)
+
+luego modelé esta pieza cilíindrica, para que fuera el conector entre el servo y los párpados. Me equivoqué en la escala y quedó enorme.
+
+![modelo 3d párpado v1](./imagenes/cilindro-cuek.png)
+
+luego edité el modelo del globo ocular, con una una nueva forma de unir ambas mitades, esta vez permite agregarle un "palo de coyac" que será útil para agarrar la pupila a la base.
+
+![modelo 3d párpado v1](./imagenes/esferaV2.png)
+
+
+-mañana seguiré redactando esta compilación-
 
