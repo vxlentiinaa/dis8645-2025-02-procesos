@@ -5,7 +5,7 @@ Trabajo con [@Hiinalia](https://github.com/disenoUDP/dis8645-2025-02-procesos/tr
 para ver el funcionamiento del sensor de sonido, en la web se encontro que todos utilizan un led con el sensor de sonido , lo que facilita al tener un recurso visual de como se detecta el sonido. 
 
 Misa nos ayudo explicando de como el sonido es una onda que ocila y si pasa el lumbrar que tiene el sensor de sonido de detecta como 1 esta es una imagen de como se explico 
-
+![9a](./imagenes/9a.jpg)
 El sensor que teniamos se trato de ajustar el lumbrar de sonido para que detecte solo un ruido fuerte cercano como los apausos que queremos trabajar pero tene un marjer para ajustar muy grande para lo que necesitabamos , asi que Misa nos cambio el sensor que contaba con mas margenes para ajustar el lumbral del sensor. 
 Nos dimos cuenta que al ajustar el sensor que un solo aplauso o ruido fuerte es algo muy comun que pase , por lo que  se dicidio ingrementar el numero a dos
 
@@ -127,5 +127,5 @@ void loop() {
 }
   
 ```
-### 
+ 
 El Profe explico como se debe poner el codigo , ya que tenemos todos en .ino y eso hace que no converse entre si. Se debe cambiar a .h y .cpp para que desde el principal pueda pedir informacion . Por lo que entiendo el .h es como un indice donde esta declarado todo , mientras que el .cpp son los capitulos dondes esta la info. 
