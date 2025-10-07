@@ -42,3 +42,31 @@ las frecuencias mas agudas son más direccionales.
  <https://forum.arduino.cc/t/calculating-decibels-spl-from-max4466-microphone-input/1239394>
 
  - [average](https://forum.arduino.cc/t/calculating-average-value/204225)
+
+ ## encargo-16
+
+     "cada persona del grupo debe subir a su README:
+     qué llevan hasta el final de esta sesión, qué sí funciona,
+     qué funciona casi, qué no funciona. después subir nueva 
+     versión del código y de la documentación, del trabajo que
+     hagan entre 8a y 9a."
+
+
+-*redactado el 16 de octubre*-
+
+en el período del 3-6 de octubre generamos avances brígidos(pesnamos que se entregaba el 7 de octubre).
+
+### avance por partes
+
+me encargué de diseñar y modelar en 3D todo el cuerpo, movimeintos y estética del robot.
+
+#### forma y vibe
+
+primero partí con este modelado para entender la posición de los iris y párpados, ya que esto determina  el sentimiento que el robot transmite.
+
+![modelo 3d de la idea inicial](./imagenes/vibe.png)
+
+luego, hice este modelo 3D sin pensar en medidas o estructuralidad.                    
+
+[![modelo 3d de la idea inicial](./imagenes/primer-idea.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)
+

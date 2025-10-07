@@ -2,7 +2,7 @@
 
 Proyecto 02:  17 de Octubre
 
-## Inicio de clase 
+## Inicio de clase
 
 ## Yuk Hui
 
@@ -39,7 +39,7 @@ Los WS2812 son LED que disponen de lógica integrada, bajo consumo, alto brillo 
 
 Leonas.ino
 
-### Integrantes:
+### Integrantes
 
 - Yamna Carrión
 - Sofía Cartes
@@ -49,11 +49,12 @@ Leonas.ino
 
 ### Idea 01
 
-En una primera instancia, el proyecto constaba de un personaje el cual iba a reaccionar mediante que el usuario presionaba ciertos botones. Esta reacción se basaba en saludar en un idioma en específico con su gestualidad correspondiente. 
+En una primera instancia, el proyecto constaba de un personaje el cual iba a reaccionar mediante que el usuario presionaba ciertos botones. Esta reacción se basaba en saludar en un idioma en específico con su gestualidad correspondiente.
 
 Entrada: Joystick, según la dirección que se escoge, es el tipo de idioma que habla.
 
 Idiomas:
+
 - Español (arriba).
 - Portugués (abajo).
 - Chino (izquierda).
@@ -61,6 +62,7 @@ Idiomas:
 - Al presionar el joystick, es reset
 
 Tipo de audio:
+
 - Hola, qué bueno que estés aquí.
 - ¿Cómo has estado?
 
@@ -73,24 +75,23 @@ Salida: Al interactuar con el joystick, se van a reproducir los audios predeterm
 
 ### Idea 02
 
-El proyecto constaba de un personaje el cual iba a reaccionar mediante detecta un estímulo que esté cercano (persona) el cual lo va a llamar y detectando la distancia que se encuentra cambiara el audio de reproducción, la idea es que primero llame su atención y después lo invite a acercarse para contarle un secreto. 
+El proyecto constaba de un personaje el cual iba a reaccionar mediante detecta un estímulo que esté cercano (persona) el cual lo va a llamar y detectando la distancia que se encuentra cambiara el audio de reproducción, la idea es que primero llame su atención y después lo invite a acercarse para contarle un secreto.
 
-También la idea es que el personaje empiece a tiritar mediante la persona se acerca de esa manera, genera más interés en los que se está realizando. 
+También la idea es que el personaje empiece a tiritar mediante la persona se acerca de esa manera, genera más interés en los que se está realizando.
 
 Entrada: El personaje llama la atención de la persona y le pide que se acerque al mismo tiempo, empieza a tiritar.
 
 - Motor DC
 - Sensor ultrasónico
-- Módulo reproductor 
+- Módulo reproductor
 
 Salida: Cuando una persona está cerca, el personaje le susurra el secreto.
 
 Factores a considerar:
+
 - ¿Qué secretos va a contar?
 - ¿Cuántos rangos de proximidad existirán?
 - ¿Cómo se verá físicamente este personaje?
 - ¿Cómo regular el volumen?
 
 ## Encargo
-
-

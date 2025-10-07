@@ -51,6 +51,7 @@
 ### Motores y Actuadores
 
 ### Motor DC
+
 - *"Es rápido y no sabe dónde está"* – (Misa).  
 - Permite cambiar la dirección de giro.  
 - No tiene control preciso de posición.
@@ -58,6 +59,7 @@
 ---
 
 ### Motor Paso a Paso
+
 - *"Lento, preciso y no sabe dónde está"*.  
 - Se mueve por **grados** (control de pasos).  
 - Requiere un **driver** porque Arduino no entrega suficiente energía.  
@@ -66,6 +68,7 @@
 ---
 
 ### Servo Motores
+
 - **Sabe dónde está** y es relativamente preciso.  
 - Posee librerías de Arduino para facilitar el control.  
 - Mejor rendimiento con **engranajes metálicos**.  
@@ -74,6 +77,7 @@
 ---
 
 ### Solenoide
+
 - Produce un movimiento **lineal** (empujar/halar).
 
 ---
@@ -81,6 +85,7 @@
 ### Proyecto: Máquina que Saluda
 
 ### Descripción
+
 La **Máquina Saludadora** es un dispensador de chicles que reconoce el color del dulce y responde con un mensaje personalizado.  
 
 - El sistema contiene una **carcasa en forma de alien**, con un ojo animado en una pantalla circular.  
@@ -91,6 +96,7 @@ La **Máquina Saludadora** es un dispensador de chicles que reconoce el color de
 ---
 
 ### Ideas Principales
+
 - Máquina dispensadora de dulces/gomas de colores.  
 - Cada color tiene un **mensaje distinto** reproducido por un módulo de audio.  
 - El diseño exterior es un **personaje (alien)** que refuerza la interacción.  
@@ -142,14 +148,16 @@ La **Máquina Saludadora** es un dispensador de chicles que reconoce el color de
 Tras revisar las propuestas de colegas, es posible reconocer una serie de patrones comunes, así como particularidades que diferencian a cada proyecto.  
 
 #### Similitudes
-- Los **sensores** son protagonistas: ya sea de movimiento, proximidad, botones o joysticks, siempre median la detección del usuario.   
+
+- Los **sensores** son protagonistas: ya sea de movimiento, proximidad, botones o joysticks, siempre median la detección del usuario.
 - La **retroalimentación inmediata** es clave: luces, sonidos, pantallas o movimientos acompañan el gesto de saludar.  
 - Todas las bitácoras resaltan la idea de que el saludo debe ser una **experiencia memorable**, no solo una acción mecánica.
-- - La mayoría de las máquinas plantean un **modo en reposo** que se activa cuando el usuario se acerca o interactúa. 
+- - La mayoría de las máquinas plantean un **modo en reposo** que se activa cuando el usuario se acerca o interactúa.
 
 ---
 
 #### Diferencias
+
 - **Nivel de complejidad:** hay desde máquinas muy sencillas que emiten un saludo básico, hasta proyectos con diálogos e interacciones más largas.  
 - **Construcción narrativa:** en ciertos casos la máquina tiene **identidad y personalidad propias**, mientras que en otros es un dispositivo funcional y minimalista.  
 - **Escala física:** algunos diseños son **compactos y portátiles**, otros buscan ser **instalaciones más grandes** en un espacio.  
@@ -157,13 +165,15 @@ Tras revisar las propuestas de colegas, es posible reconocer una serie de patron
 ---
 
 #### Preguntas que surgen
-- ¿Cómo asegurar la **precisión de los sensores** para evitar falsas detecciones?   
+
+- ¿Cómo asegurar la **precisión de los sensores** para evitar falsas detecciones?
 - ¿Qué estrategias permiten **mantener el interés del usuario** más allá del saludo inicial?  
 - ¿Cómo responde la máquina si **varias personas interactúan al mismo tiempo**?  
- 
+
 ---
 
 #### Aciertos Identificados  
+
 - Algunas propuestas incluyen **instrucciones** para orientar al usuario en la interacción.  
 - Algunos diseños consideran la **escalabilidad**, pensando en cómo la máquina podría adaptarse a distintos contextos o usos.  
 
