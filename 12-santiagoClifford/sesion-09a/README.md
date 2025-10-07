@@ -5,7 +5,8 @@
 este es el código con el que estamos trabajando y probando la velocidad y ángulo de movimientos.
 
 ```cpp
-// referente de como reducir el código <https://arduino.stackexchange.com/questions/66378/servo-motor-in-function>
+// referente de como reducir el código 
+// <https://arduino.stackexchange.com/questions/66378/servo-motor-in-function>
 #include <Servo.h>
 
 Servo motorcillo;
@@ -38,4 +39,4 @@ void loop() {
   moverMotorcillo(0, 200);
   moverMotorcillo(70, 200);
 }
-```
+```|
