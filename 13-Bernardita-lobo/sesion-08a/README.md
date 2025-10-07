@@ -14,5 +14,7 @@ Martes 30 de septiembre, 2025
 
 ### Palabras impoertantes
 
-## Encargo
+## Encargo resumir lo que llevamos hasta el momento
+
+
 
