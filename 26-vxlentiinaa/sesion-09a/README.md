@@ -40,3 +40,4 @@ Como incentivo, ir al lab a trabajar y así nos ganamos una decima hasta 1 punto
 
 Realizar el diagrama de flujo de la parte del parlante y así visualizar el problema 
 
+traer el motor del joystick!!!!!!
