@@ -4,42 +4,68 @@
 ###### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$ <br/>
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
-### Physical computing
+### [Physical computing](https://en.wikipedia.org/wiki/Physical_computing)
 
+Son sistemas interactivos que sienten y responden a fenomenos físicos de su entorno, mediante sensores y actuadores electro-mecánicos. 
 
-### Modulo RTC
+### [Modulo<sub>1</sub>](https://afel.cl/products/modulo-rtc-ds3231-reloj-de-tiempo-real?srsltid=AfmBOorXrlfXdtQt1sqvbsxNZMsiro2GZl1JW-KAMuWVLju0_c73MNBp) [RTC<sub>2</sub>](https://en.wikipedia.org/wiki/Real-time_clock)
 
+<img align="left" src="./imagenes/rtc.jpg" alt="RTC" title="Fuente: https://ielectrony.com/en/product/ds3231-rtc-at24c32-iic-module/" width=150>
 
-### Pixi tubes
+</br>
 
+El reloj de tiempo real es un dispocitivo electrónico que mide el paso del tiempo con presicion.
+
+</br></br></br>
+
+### [Nixi tubes](https://en.wikipedia.org/wiki/Nixie_tube)
+
+<img align="left" src="./imagenes/Nixie.gif" alt="txt" title="Fuente: https://en.wikipedia.org/wiki/Nixie_tube" width=150>
+
+</br>
+
+Display electrónico vintage simiar a un tubo de vacío en apariencia, es utilizado para mostrar números y símbolos. Cuando se le aplica voltaje a uno de sus catodos se ilumína con una luz naranja rojiza
+
+</br></br>
 
 ### Audio SID microfono integrado
+
 
 
 ### "Las llamadas que nunca hice"
 
 
+
 ### DC motor
 
+
+
 #### Vibrador
+
 
 
 ### Stepper motor
 
 
+
 ### Servo motor
+
 
 
 ### Solenoide
 
 
+
 ### Motor sincrono
+
 
 
 ### RGB LED
 
 
+
 #### Neopixel
+
 
 
 ### Other things: <!-- Things to organize + random stuff -->
