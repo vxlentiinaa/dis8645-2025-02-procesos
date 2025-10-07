@@ -16,10 +16,14 @@ void setup() {
 
   // mySoftwareSerial.begin(9600);
 
+  if (!myDFPlayer.begin(Serial1, true, true)) {
+    Serial.println("pucha");
+  }
+
   myDFPlayer.volume(30);
 
   myDFPlayer.play(1);
-  
+
   //myDFPlayer.play(2);
   // colorDetectado = readColor;
 
