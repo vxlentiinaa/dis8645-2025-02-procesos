@@ -69,5 +69,10 @@ Este código me funcionó de manera superrápida, ya que los comentarios eran pe
 
 ![Foto 1 de la prueba en clases](./imagenes/sesion-08a-Fotoblabla)
 
+## Encargo 16  "cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. Después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a."
+
+Para poder pasar de él código individual del ejemplo que encontré previamente, a poder formatearlo con las clases que tenemos en nuestro código que armó Morgan junto a Aarón, osea la version [codigoRobotFriolento_0_2_1](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/03-Mosswhosmoss/sesion-08a/codigoRobotFriolento_0_2_1) donde empece probando a directamente poner el codigo como mas me hacia sentido.
+
+Guiandome por el archivo del sensor Ultrasonico, que ya estaba ligeramente con el formato correcto para su funcionamiento, donde llegue a que funcionara, si pero con el codigo sin cambiarlo del ejemplo, pero mas que todo intente explicar con todos los comentarios en todo el funcionamiento de este, porque razones dividi el codigo original de esa manera, que fue lo importante, la siguiente version del codigo se puede encontrar aqui: [codigoRobotFriolento_0_2_2](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-08a).
 
 
