@@ -4,6 +4,8 @@
 
 ### Cosas que hablamos en la mañana
 
+- vimos el proyecto de un grupo de trabajo, era un robot que lebantaba el dedo
+
 - etica y geomeria, angulos peligrosos
 
 - 
