@@ -153,6 +153,8 @@ la idea es hacer un listado de frases, sonidos para poder hacerlo aleatorio con 
 
 igual, yo me pregunto si es necesario que sea aleatorio si de por si tenia un orden desconectado, aunque puede ser un listado desconectado.
 
+piskel
+
 ### Referentes
 
 -
