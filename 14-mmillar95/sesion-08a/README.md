@@ -2,11 +2,11 @@
 
 Aáron mostró un sintetizador de [chompi](https://chompiclub.com/?srsltid=AfmBOoo2Sy8_3jn8NwnIu6cwiAqlvccJxFe7TZNzB6MteQ_q5BrRmyWa)
 
-## Inicio de clase 
+## Inicio de clase
 
 Nos juntamos con nuestro grupo para poder trabajar en el proyecto
 
-Se juntó el código del servomotor y el sensor de proximidad y funciona 
+Se juntó el código del servomotor y el sensor de proximidad y funciona
 
 El módulo reproductor no funciona (no reconoce la tarjeta SD)
 
@@ -25,7 +25,8 @@ El módulo reproductor no funciona (no reconoce la tarjeta SD)
 - El primer ratón era de madera. ¡Tu ratón es más moderno!
 - El primer "bug" fue una polilla real en una computadora en 1947. ¡Un error muy natural!
 
-### Páginas 
+### Páginas
+
 Estas páginas nos ayudarán a realizar nuestro proyecto.
 
 - [3D hunyuan](https://3d.hunyuan.tencent.com/): Esta página la encontré por recomendación en un video de TikTok, es muy buena, ya que te genera el modelado 3D de cualquier imagen que subas, tiene buenos detalles y texturas.

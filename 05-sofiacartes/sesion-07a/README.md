@@ -8,7 +8,7 @@ Concepto que desarrolla Yuk Hui en su libro The Question Concerning Technology i
 
 [Toda la teoría del universo](https://www.instagram.com/_todalateoriadeluniverso/)
 
-- [Susana Chau](https://www.linkedin.com/in/susana-chau/?originalSubdomain=cl): Comunicadora social, periodista. 
+- [Susana Chau](https://www.linkedin.com/in/susana-chau/?originalSubdomain=cl): Comunicadora social, periodista.
 - [Liquen Lab](https://liquenlab.cl/)
 - [Yuk Hui](https://cajanegraeditora.com.ar/autores/?autor=hui-yuk): Estudió ingeniería informática y filosofía en la Universidad de Hong Kong.
 - Bienal de artes mediales
@@ -29,22 +29,22 @@ Concepto que desarrolla Yuk Hui en su libro The Question Concerning Technology i
 
 ## LEDS
 
--  tiras led
--  LED rgb
--  neopixel
+- tiras led
+- LED rgb
+- neopixel
   
-(https://www.demasled.cl/cintas-led/)
+(<https://www.demasled.cl/cintas-led/>)
 
 ---
 Poyecto 02 se netrega el 17 de octubre
 
-Integrantes: 
+Integrantes:
 
 `Leonas.ino`
 
 - Yamna Carrión [yamna-bit](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/04-yamna-bit)
 - Sofía Cartes
-- Millaray Millar 
+- Millaray Millar
 [mmillar95](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/14-mmillar95)
 - Vania Paredes
  [21vaniaparedes](https://github.com/sofiacartes/dis8645-2025-02-procesos/tree/main/21-vaniaparedes)
@@ -52,29 +52,29 @@ Integrantes:
 
 ### Ideas proyectos
 
-- Idea 1 
+- Idea 1
 
 Funcionará mediante la interacción con botones, al apretarlo se reproducirá el saludo en algún idioma. Cada botón tiene un idioma y una gestualidad predeterminado
 
 joystik: restet + arriba un idioma+ abajo + derecha + izquierda
 
-parámetro elegir idiomas/cantidad 
+parámetro elegir idiomas/cantidad
 
-**Entrada:** Mediante un joystick la persona tendrá diversas interacciones (arriba, abajo, derecha, izquierda y presionar el centro, es reset). 
+**Entrada:** Mediante un joystick la persona tendrá diversas interacciones (arriba, abajo, derecha, izquierda y presionar el centro, es reset).
 
-- reproductor de idiomas  por joystick 
+- reproductor de idiomas  por joystick
 - leguaje diferencia de dialecto
 - joystick y repoducir sonido
 - buscar una forma que sea mas interactivo
 
 **Salida:** Al interactuar, se reproducirán audios de saludos en distintos idiomas, como: italiano, español chileno, japonés y portugués. Al mismo tiempo, como respuesta, dependiendo el idioma se moverá de manera representativa, como: japonés-reverencia.
-Nos falta como invitar a la persona. 
+Nos falta como invitar a la persona.
 
 idea funable, no hacer.
 
 - Idea 2
 
-**Entrada:** Que al estar lejos te pida acercarse, mientras el robot tendra un movimiento tiritando, para poder contarte un secreto. 
+**Entrada:** Que al estar lejos te pida acercarse, mientras el robot tendra un movimiento tiritando, para poder contarte un secreto.
 
 Esto será mediante los siguientes componentes: motor DC , ultrasonico, reproductor y speaker.
 
@@ -82,9 +82,9 @@ Esto será mediante los siguientes componentes: motor DC , ultrasonico, reproduc
 
 Para que te susurre tenemos pensado en regular el sonido del altavoz o utilizar audifonos para escucharlo.
 
-Definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?   
+Definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
 
-- Sensor de proximidad que me llame a utilizarlo. 
+- Sensor de proximidad que me llame a utilizarlo.
 - Según la proximidad de la persona, te salude pero de distinto volumen.
 
 ## Encargo
@@ -108,4 +108,3 @@ Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar 
 - idea de construir el robot con legos
   
  <https://makerzoid.cl/products/robot-master-premium?>
-

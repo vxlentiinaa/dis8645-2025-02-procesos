@@ -1,7 +1,9 @@
 # sesion-06b
+
 ## 12.09.25
 
 ### Pyton
+
 + Según godaddy.com: Python es un lenguaje de programación de alto nivel, interpretado y de código abierto, creado por Guido van Rossum en 1991. Fue diseñado centrándose en la simplicidad y la legibilidad del código, hecho que permite a los desarrolladores expresar conceptos en menos líneas de código en comparación con otros lenguajes como C++ o Java. Descifrando el lenguaje de programación, resulta mucho más sencillo tanto de aprender como de utilizar.
 + Características:
 + El lenguaje Python favorece una **sintaxis que es fácil de leer y entender**, lo que facilita el mantenimiento y la colaboración en proyectos de software.
@@ -22,26 +24,27 @@
 ### Encargo en clase
 
 **3- El Arduino indeciso:** Sensor acelerometro + pantalita.
-  + Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
-  + Cuando la agitas: genera una respuesta y la muestra en la pantallita.
-    
-  + Ejemplos de reespuestas según eje:
-  + Eje **X** Respuestas radicales (si o no)
-    + “Sí, dale nomás.”
-    + “Eri wn o te haci?.”
-    + "dale weon/a"
-    + "No, tu sabi porqué"
-    + "Ni cagando"
-      
-  + Eje **Y** Respuestas inciertas (te guían a tomar la decisión)
-    + “Si dudas, aún no es el momento”
-    + "Si dejas de forzarlo funcionará”
-    + "Demasiado pronto para saberlo"
-    + “Hoy no, pero mañana quién sabe”
-    + “Si hoy ves tres autos rojos, adelante”
 
-   #### Pasos
++ Si la máquina está quieta: en la pantalla aparece un mensaje de “Pregúntame algo…”.
++ Cuando la agitas: genera una respuesta y la muestra en la pantallita.
+
++ Ejemplos de reespuestas según eje:
++ Eje **X** Respuestas radicales (si o no)
+  + “Sí, dale nomás.”
+  + “Eri wn o te haci?.”
+  + "dale weon/a"
+  + "No, tu sabi porqué"
+  + "Ni cagando"
+
++ Eje **Y** Respuestas inciertas (te guían a tomar la decisión)
+  + “Si dudas, aún no es el momento”
+  + "Si dejas de forzarlo funcionará”
+  + "Demasiado pronto para saberlo"
+  + “Hoy no, pero mañana quién sabe”
+  + “Si hoy ves tres autos rojos, adelante”
+
+#### Pasos
   
-  + **Paso uno:** Pantallita te invita diciendo "Dispara tu duda con confianza" Agitar el sensor en dirección eje "y" o eje "x".
-  + **Paso dos**: La Pantallita muestra "pensando" y luego de 2seg te da una respuesta random dependiendo eje, luego espera 5 segundos y se va al paso 3.
-  + **Paso tres**: Pantallita espera invitándote otra vez diciendo "Dispara tu duda con confianza".
++ **Paso uno:** Pantallita te invita diciendo "Dispara tu duda con confianza" Agitar el sensor en dirección eje "y" o eje "x".
++ **Paso dos**: La Pantallita muestra "pensando" y luego de 2seg te da una respuesta random dependiendo eje, luego espera 5 segundos y se va al paso 3.
++ **Paso tres**: Pantallita espera invitándote otra vez diciendo "Dispara tu duda con confianza".
