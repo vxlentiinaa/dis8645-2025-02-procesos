@@ -69,7 +69,14 @@ https://github.com/user-attachments/assets/bb8fd83a-d103-41ac-b32a-aa0292ccc904
 
 -> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0665.mp4
 
+Por otra parte, el resto del equipo se encontraba trabajando con código o con el reproductor mp3. En un punto de la clase el profesor Aarón vino a nuestra mesa para revisar temas en torno a la programación, por lo que se retiraron algunas personas para entender mejor que es lo que haría el profesor.
+Al no ir me perdí de ello, pero cuando revise los archivos que subió ([estos](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-09a/grupo-04)) le haré sus respectivas preguntas.
 
+Al casi terminar la clase es que alcancé a registrar mediante video un avance que había realizado [FranUDP](https://github.com/FranUDP).
+
+https://github.com/user-attachments/assets/28265e54-b8d4-4848-bed8-9a7f427a4a65
+
+-> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0666.mp4
 
 ***
 
