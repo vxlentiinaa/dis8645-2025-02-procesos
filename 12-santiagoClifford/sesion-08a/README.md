@@ -145,3 +145,7 @@ gear(
 este código da como resultado este engranaje:
 
 ![modelo 3d párpado v1](./imagenes/myGear-render.png)
+
+con este modelo listo, comencé a montar todas las piezas en rhino, asegurandome que el eje de rotación del servo quede justo en el centro de la circunferencia del globo ocular.
+
+montando las piezas, añadí un sacado donde encajaran los pilares de los ojos, y también diseñé una pieza que sostiene el servomotor en la posición ideal, la cual se monta al engranaje ensamblándose.
