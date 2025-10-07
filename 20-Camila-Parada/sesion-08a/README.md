@@ -30,6 +30,33 @@ Puesto que soy de ir a la práctica y luego al estudio es que estuve averiguando
 
 Al ver el último video tutorial pude hacer funcionar el servomotor son mayor dilemas, puesto que en los anteriores fue más complicado el definir las ubicaciones del motor o tuve problemas con la corriente.
 
+El código es el siguiente:
+
+``` cpp
+
+#include <Servo.h>
+Servo prueba2; 
+void setup() 
+     
+     {
+prueba2.attach(A0);   // CABLE DE SEÑAL CONECTADO EN LE PUERTO 3 DEL ARDUINO UNO
+
+}
+
+void loop() 
+
+    {
+        prueba2.write(0);      //EMPIEZA EN 0 GRADOS POR 2 SEGUNDOS.
+        delay(2000); 
+        prueba2.write(90);     //LUEGO SE MUEVE A 90 GRADOS POR 2 SEGUNDOS. 
+        delay(2000); 
+        prueba2.write(180);    //LUEGO SE MUEVE A 180 GRADOS POR 2 SEGUNDOS.
+        delay(2000); 
+        
+   }
+
+```
+
 https://github.com/user-attachments/assets/5c587cdb-5530-41b3-85f5-973918128bd9
 
 -> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-08a/video/IMG_0662.mp4
@@ -44,18 +71,60 @@ Los [pines digitales](https://controlautomaticoeducacion.com/sistemas-embebidos/
 
 En cuanto a los [pines análogos](https://cursos.mcielectronics.cl/2022/08/27/entradas-analogicas-en-arduino/) (enumerados desde el A0 al A5, siendo un total de 6), estos son un tipo de entrada que puede emitir y recibir una señal que va en un intervalo de voltaje, en este caso pudiendo abarcar desde 0V a 5V incluyendo valores con números decimales. Vale mencionar que estos son escasos dentro del arduino, puesto que son más caros que una entrada digital. La forma en la que funcionan estas entradas es "proporcionando una medición codificada en forma de un valor digital en forma de bits (unidad minima de información codificado en valor binario, o 0 o 1)", proceso que resulta más lento. Para poder realizar una lectura del sensor se utilia "analogRead", un comando que va a arrojar un valor devuelta que será codificado como un número entre 0 y 1023.
 
-Con estos antecedentes es que decidí que la forma más segura para trabajar temporalmente con el servomotor es utilizando los pines análogos.
+Tras esta información probé un código que viene como ejemplo en el arduino, denominado "sweep".
 
+``` cpp
+/* Sweep
+ by BARRAGAN <http://barraganstudio.com>
+ This example code is in the public domain.
 
+ modified 8 Nov 2013
+ by Scott Fitzgerald
+ https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+*/
 
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0;    // variable to store the servo position
+
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15 ms for the servo to reach the position
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15 ms for the servo to reach the position
+  }
+}
+
+```
+
+https://github.com/user-attachments/assets/a4089afc-0f1c-4071-a95d-0d2475d9af8a
+
+-> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-08a/video/IMG_0663.mp4
+
+Dicha pieza de código me ayudó a entender más el cómo trabajar utilizando los pines digitales al ponerlos en práctica modificando los valores de los pines y la posición de los servos.
+
+***
+
+## Proyectos de referencia
 
 https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibration/calibration.ino
 
 https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/
 
 - [x] Aprender a usar el servo
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] Conectar el servo con el sensor ultrasónico
+- [ ] Usar el módulo MP3
 
 ***
 
