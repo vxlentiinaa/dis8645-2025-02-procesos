@@ -1,7 +1,7 @@
 #include "EntradaUltrasonico.h"
 #include "SalidaDedo.h"
 
-// instancias
+// instancias de las clases
 EntradaUltrasonico ultrasonico;
 SalidaDedo dedo;
 
