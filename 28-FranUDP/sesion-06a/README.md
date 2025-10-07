@@ -83,7 +83,7 @@ Según lo que he podido encontrar en internet y el testimonio de @misaaaaaa, el 
 
 | Pinout  |          |
 |---------|----------|
-| ${\color{red}Vcc}$     | Alimenta con ${\color{red}5V}$ al sensor |
+| ${\color{Red}Vcc}$     | Alimenta con ${\color{Red}5V}$ al sensor |
 | Trigger | Hace que el sensor emita un pulso |
 | ${\color{WHITE}Echo}$    | Comunica cuándo regresa el pulso |
 |  ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
@@ -116,7 +116,7 @@ Mide la ${\color{#b0e6e6}temperatura\ y\ humedad}$ del ambiente en que sea coloc
 
 | Pinout  |          |
 |:---------:|----------|
-| ${\color{red}Vcc}$     | Alimenta con ${\color{red}3V\ -\ 5V}$ al sensor |
+| ${\color{Red}Vcc}$     | Alimenta con ${\color{Red}3V\ -\ 5V}$ al sensor |
 | ${\color{WHITE}Data}$ | Emite las lecturas del sensor |
 | ${\color{yellow}NC}$    | ${\color{yellow}No\ se\ conecta}$ |
 | ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
@@ -152,7 +152,7 @@ El sensor funciona detectando el cambio de resistencia en su núcleo. Este está
 
 | Pinout |          |
 |:------:|----------|
-| ${\color{red}Vcc}$    | Alimenta con ${\color{red}5V}$ al sensor |
+| ${\color{Red}Vcc}$    | Alimenta con ${\color{Red}5V}$ al sensor |
 | ${\color{Gray}Gnd}$    | ${\color{Gray}Tierra}$ |
 | ${\color{WHITE}D0}$     | (${\color{WHITE}Digital\ output}$) Emite LOW cuando detecta gases inflamables |
 | ${\color{WHITE}A0}$     | (${\color{WHITE}Analog\ output}$) Emite un voltaje variable correspondiente a la concentración de gas  |
@@ -189,7 +189,7 @@ Dentro del *encoder* hay dos interruptores, correspondientes a las salidas A y B
 | Pinout  |          |
 |:---------:|----------|
 |  ${\color{Gray}Gnd}$  | ${\color{Gray}Tierra}$ |
-|  ${\color{red}Vcc}$  | Alimenta con ${\color{red}5V}$ al sensor |
+|  ${\color{Red}Vcc}$  | Alimenta con ${\color{Red}5V}$ al sensor |
 |  Switch | Botón |
 |  ${\color{WHITE}Output\ A}$  | Emite pulsos digitales al rotar |
 |  ${\color{WHITE}Output\ B}$  | Emite pulsos digitales al rotar |
@@ -213,7 +213,7 @@ El sensor es una ${\color{#b0e6e6}resistencia}$ cuyo ${\color{#b0e6e6}valor\ var
 
 | Pinout  |          |
 |:---------:|----------|
-| ${\color{red}Vcc}$     | Alimenta con ${\color{red}3.3V\ -\ 5V}$ al sensor |
+| ${\color{Red}Vcc}$     | Alimenta con ${\color{Red}3.3V\ -\ 5V}$ al sensor |
 | ${\color{Gray}Gnd}$     | ${\color{Gray}Tierra}$ |
 | ${\color{WHITE}Digital\ out}$ | Emite señales digitales |
 | ${\color{WHITE}Analog\ out}$ | Emite señales analógicas |
