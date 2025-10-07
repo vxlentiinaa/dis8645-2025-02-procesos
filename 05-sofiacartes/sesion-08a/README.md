@@ -54,7 +54,7 @@ Fuente de descarga de voces <https://aivoice-es.vidnoz.com/text-to-speech>
 
 ![trabajoEnClases2](./imagenes/trabajoEnClases30Sep01.jpg)
 
-#### Busqueda de motor DC y referentes de carcasa
+#### Búsqueda de motor DC y referentes de carcasa
 
 - Ayuda de como conectarlo: "Conexión de un transistor NPN a un motor DC y a un Arduino" <https://www.youtube.com/watch?v=O-kuwPfpCng>
 - Referente robot <https://www.ottodiy.com/>
