@@ -75,4 +75,6 @@ Para poder pasar de él código individual del ejemplo que encontré previamente
 
 Guiandome por el archivo del sensor Ultrasonico, que ya estaba ligeramente con el formato correcto para su funcionamiento, donde llegue a que funcionara, si pero con el codigo sin cambiarlo del ejemplo, pero mas que todo intente explicar con todos los comentarios en todo el funcionamiento de este, porque razones dividi el codigo original de esa manera, que fue lo importante, la siguiente version del codigo se puede encontrar aqui: [codigoRobotFriolento_0_2_2](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-08a).
 
+Luego le envíe el código hasta ese punto a mi compañera de grupo Aileen para que pudiera confirmar el funcionamiento del sensor ultrasónico, así que la siguiente versión de el codigo esta en su repositorio, la versión del código corresponde a [codigoRobotFriolento_0_2_3](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design/sesion-08b)
+
 
