@@ -62,9 +62,11 @@ me encargué de diseñar y modelar en 3D todo el cuerpo, movimeintos y estética
 
 #### forma y vibe
 
-hice este modelo 3D sin pensar en medidas o estructuralidad.
+primero partí con este modelado para entender la posición de los iris y párpados, ya que esto determina  el sentimiento que el robot transmite.
 
+![modelo 3d de la idea inicial](./imagenes/vibe.png)
 
-[![Ver modelo 3D](preview.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-idea.stl)                                
+luego, hice este modelo 3D sin pensar en medidas o estructuralidad.                    
 
-[![Ver modelo 3D](preview.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)  
+[![modelo 3d de la idea inicial](./imagenes/primer-idea.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)  
+
