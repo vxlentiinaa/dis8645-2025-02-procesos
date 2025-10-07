@@ -42,5 +42,7 @@ Estas páginas nos ayudarán a realizar nuestro proyecto.
  
 ![Captura de pantalla](./imagenes/Pantallazo01.png)
 ![Captura de pantalla](./imagenes/Pantallazo02.png)
+![Modelado01](./imagenes/Modelado01.png)
+![Modelado02](./imagenes/Modelado02.png)
 
 Para la presentación física del proyecto como equipo pensamos en realizar un robot el que contara el dato random. Debido a la cantidad de componentes, lo más adecuado para poder llevarlo a cabo sería realizar el robot sobre una caja que tendrá el Arduino por temas de tamaño y estabilidad.
