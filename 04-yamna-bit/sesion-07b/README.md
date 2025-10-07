@@ -3,14 +3,14 @@
 ## Clase 26/09 07b: MÁQUINAS COMPUTACIONALES
 
 Nota: Iniciamos el trabajo en clase con un ejemplo en Arduino para aprender cómo distribuir acciones en diferentes archivos .ino, definiendo de manera general la función que cumplirá cada uno.
+
 ### Acciones clave
 
 - Programar es decidir que hacer.
 
-- Recomendación desde lo **macro** a lo particular. 
+- Recomendación desde lo **macro** a lo particular.
 
-
-### Encargo 14 
+### Encargo 14
 
 Cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
 
@@ -45,5 +45,3 @@ Partimos de un ejemplo que habíamos trabajado con Nicolás Miranda: un código 
 ### Video de logro
 
 <https://youtube.com/shorts/ODBURVm9aoA?si=OAUZ1hqbeeeDXMg8>
-
-

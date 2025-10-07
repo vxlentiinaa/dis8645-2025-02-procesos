@@ -1,9 +1,12 @@
 # sesion-07a
+
 ## 23.09.25
+
 + **Proyecto 02** 17 de oct.
 + Pantallita SSD 1306
 
 ### Encargo
+
 + Traer 10 proyectos de internet por grupo
 + Arduinoproyecthub, instructables.com, cosas de las que nos podamos inspirar a nivel de estrategia y código.
 + Bibliografía de buena calidad.
@@ -12,15 +15,18 @@
 + Cada persona busca referentes en internet de 4 cosas: 2 de Codigos, 2 de materialidades, 2 de documentación (comerciales), 2 de Lenguaje (humano), Palabras, adjetivos y adverbios que queremos usar para describir nuestro proyecto.
 
 ### NFC
+
 + Según xacata.com NFC significa Near Field Communication, lo que traducido sería Comunicación de Campo Cercano. Es una buena definición, porque se trata de una tecnología que funciona por proximidad, cuando acercas un dispositivo a otro. Es de alta frecuencia, y funciona en la banda de los 13.56 MHz.
 + Cuando acercas los dispositivos, se crea un campo electromagnético por inducción, en el que se genera el intercambio de datos con una tasa de transferencia puede alcanzar los 424 Kbps. Pese a que sirve para intercambiar datos, debido a su limitada velocidad se usa sobre todo para la identificación y validación de equipos y personas.
 + <https://afel.cl/products/modulo-rfid-nfc-pn532?_pos=2&_sid=e511df31c&_ss=r>
 
 ### RTC
+
 + Según utec.edu RTC es Un reloj de tiempo real es un dispositivo electrónico que permite obtener mediciones de tiempo en las unidades temporales.
 + <https://afel.cl/products/modulo-rtc-ds1302-reloj-de-tiempo-real?variant=45125238358168&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=@+Smart+Shopping+2&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=19569174895&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19560974580&gbraid=0AAAAADBMsFTdLOypf0Kd8CPYUW96Wob87&gclid=EAIaIQobChMI4cbunvHujwMVblRIAB0Qjg0yEAYYASABEgLo_PD_BwE>
 
 ### Referentes
+
 + Nonna Fernandez
 + Las llamadas que nunca hice
 + Robert Mapplethorpe
@@ -29,6 +35,7 @@
 + Ejemplo uso cintas led <https://www.youtube.com/watch?v=tHjmvry00_w>
 
 ### 4 tipos de motores
+
 + Identificar que driver usar
   
 + **Tipo DC** (Corriente directa) "ALta velocidad": Vibradores, ventiladores; etc
@@ -50,13 +57,15 @@
 + Según hrmotor el motor síncrono es un tipo de motor eléctrico que gira a una velocidad constante y proporcional a la frecuencia de la corriente alterna que lo alimenta. Este motor utiliza imanes permanentes en su rotor, lo que permite un funcionamiento altamente eficiente y una excelente capacidad de control de la velocidad.
 
 ### Luces led
+
 + Led RGB
-+ Neopixel (Dibujitos) (AdaFruit) 
++ Neopixel (Dibujitos) (AdaFruit)
 + Cintas led
 
 ### Encargo en clase
 
-#### idea 1 
+#### idea 1
+
 + Maquina de acentos e idiomas/ Máquina bilingue
 + Joystick, Redproductor mp3, servo motor
 
@@ -82,6 +91,7 @@
 **Funó idea** porque nos pueden funar al ofender a alguien.
 
 #### idea 2
+
 + Máquina cuenta secretos
 + **Entrada:** La máquina mediante el sensor ultrasónico detecta tu presencia y tu distancia.
 + **Salida:** Depende tu distancia este reacciona, si estas lejos comienza a tiritar (de la emoción/ansioso) para poder contarte un secreto, al mismo tiempo te llama gritando para que te acerques más. Cuando estés lo suficiente cerca te susurra el secreto. definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
@@ -89,6 +99,7 @@
 + motor DC , ultrasonico, reproductor mp3, altavoz.
 
 #### Encargo 12
+
 "leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes."
 
 **Análisis comparativo** de máquinas saludadoras

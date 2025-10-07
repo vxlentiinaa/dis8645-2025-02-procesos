@@ -1,17 +1,19 @@
 # sesion-08a 30/08
 
-## Cosas faltantes:
+## Proyecto 02- Robot que cuenta datos curiosos
 
-1. Mecanismo
-2. Carcasa
-3. Motor DC
-4. Unir código
-5. Diálogo
-6. Tipo de voz: artificial
+Componentes que utilizaremos:
 
-Fuente de descarga de voces
+Sensor ultrasónico, Servo Motor, Motor DC, Reproductor mp3 y Altavoz.
 
-[pueba 1 de voz](https://www.vidnoz.com/?a_aid=67dbeeec07d7f&gad_source=1&gad_campaignid=23055428308&gbraid=0AAAABBUlXc-8SfDu1rKFVgymY0RG2gEKc&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGGbEKywvhfzfuvX39aCmtIPnSnjm8XJaUJHNFi5ceZ7s2WjoBqtdBoCmXYQAvD_BwE)
+Entrada: Mediante el sensor ultrsónico la máquina detecta presencia y detalles de distancia de esta presencia humana.
+
+Salida: Al detectar la distancia de la presencia la máquina reacciona de diferentes.
+
+1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor DC el tembleque aumentará entre más cerca estés.
+2. El sensor detectará presencia en 3 instancias: 2 - 10cm, 40 - 60cm, 80 - 100cm.
+3. En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
+4. Los parametros son: 80 - 100cm = Te "grita" que vengas diciendo: "HOLA HUMANO, VEEEN!" 40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "HOOLAA, MÁS CERCA!" 2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato interesante.
 
 ### Diálogo
 
@@ -27,6 +29,176 @@ Datos curiosos que dirá:
 - “El error 404 es mi manera de hacerme el leso.”
 - “El primer mouse era de madera.”
 
-de dónde se sacaron los datos curiosos fuente
+BUSCAR FUENTE DE DÓNDE SE ESACARON ESTOS DATOS CURIOSOS
+
+### Cosas faltantes:
+
+1. Mecanismo
+2. Carcasa
+3. Motor DC
+4. Unir código
+5. Diálogo (listo)
+6. Tipo de voz: artificial (listo)
+
+### Desarrollo en clases
+
+- Código para usar el mp3 y el altavoz funcionó gracias a janis y mateo, el cual es de esta fuente: <https://github.com/DFRobot/DFRobotDFPlayerMini>
+  
+ ```cpp
+<@746126402121629817> /***************************************************
+DFPlayer - A Mini MP3 Player For Arduino
+ <https://www.dfrobot.com/product-1121.html>
+ 
+ ***************************************************
+ This example shows the basic function of library for DFPlayer.
+ 
+ Created 2016-12-07
+ By [Angelo qiao](Angelo.qiao@dfrobot.com)
+ 
+ GNU Lesser General Public License.
+ See <http://www.gnu.org/licenses/> for details.
+ All above must be included in any redistribution
+ ****************************************************/
+
+/***********Notice and Trouble shooting***************
+ 1.Connection and Diagram can be found here
+ <https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299#Connection_Diagram>
+ 2.This code is tested on Arduino Uno, Leonardo, Mega boards.
+ ****************************************************/
+
+#include "Arduino.h"
+#include "DFRobotDFPlayerMini.h"
+
+#if (defined(ARDUINO_AVR_UNO) || defined(ESP8266))   // Using a soft serial port
+#include <SoftwareSerial.h>
+SoftwareSerial softSerial(/*rx =*/4, /*tx =*/5);
+#define FPSerial softSerial
+#else
+#define FPSerial Serial1
+#endif
+
+DFRobotDFPlayerMini myDFPlayer;
+void printDetail(uint8_t type, int value);
+
+void setup()
+{
+#if (defined ESP32)
+  FPSerial.begin(9600, SERIAL_8N1, /*rx =*/A3, /*tx =*/A2);
+#else
+  FPSerial.begin(9600);
+#endif
+
+  Serial.begin(115200);
+
+  Serial.println();
+  Serial.println(F("DFRobot DFPlayer Mini Demo"));
+  Serial.println(F("Initializing DFPlayer ... (May take 3~5 seconds)"));
+  
+  if (!myDFPlayer.begin(FPSerial, /*isACK = */true, /*doReset = */true)) {  //Use serial to communicate with mp3.
+    Serial.println(F("Unable to begin:"));
+    Serial.println(F("1.Please recheck the connection!"));
+    Serial.println(F("2.Please insert the SD card!"));
+    while(true){
+      delay(0); // Code to compatible with ESP8266 watch dog.
+    }
+  }
+  Serial.println(F("DFPlayer Mini online."));
+  
+  myDFPlayer.volume(10);  //Set volume value. From 0 to 30
+  myDFPlayer.play(1);  //Play the first mp3
+}
+
+void loop()
+{
+  static unsigned long timer = millis();
+  
+  if (millis() - timer > 3000) {
+    timer = millis();
+    myDFPlayer.next();  //Play next mp3 every 3 second.
+  }
+  
+  if (myDFPlayer.available()) {
+    printDetail(myDFPlayer.readType(), myDFPlayer.read()); //Print the detail message from DFPlayer to handle different errors and states.
+  }
+}
+
+void printDetail(uint8_t type, int value){
+  switch (type) {
+    case TimeOut:
+      Serial.println(F("Time Out!"));
+      break;
+    case WrongStack:
+      Serial.println(F("Stack Wrong!"));
+      break;
+    case DFPlayerCardInserted:
+      Serial.println(F("Card Inserted!"));
+      break;
+    case DFPlayerCardRemoved:
+      Serial.println(F("Card Removed!"));
+      break;
+    case DFPlayerCardOnline:
+      Serial.println(F("Card Online!"));
+      break;
+    case DFPlayerUSBInserted:
+      Serial.println("USB Inserted!");
+      break;
+    case DFPlayerUSBRemoved:
+      Serial.println("USB Removed!");
+      break;
+    case DFPlayerPlayFinished:
+      Serial.print(F("Number:"));
+      Serial.print(value);
+      Serial.println(F(" Play Finished!"));
+      break;
+    case DFPlayerError:
+      Serial.print(F("DFPlayerError:"));
+      switch (value) {
+        case Busy:
+          Serial.println(F("Card not found"));
+          break;
+        case Sleeping:
+          Serial.println(F("Sleeping"));
+          break;
+        case SerialWrongStack:
+          Serial.println(F("Get Wrong Stack"));
+          break;
+        case CheckSumNotMatch:
+          Serial.println(F("Check Sum Not Match"));
+          break;
+        case FileIndexOut:
+          Serial.println(F("File Index Out of Bound"));
+          break;
+        case FileMismatch:
+          Serial.println(F("Cannot Find File"));
+          break;
+        case Advertise:
+          Serial.println(F("In Advertise"));
+          break;
+        default:
+          break;
+      }
+      break;
+    default:
+      break;
+  }
+  
+}
+```
+
+- Logramos hacer funcionar el sensor ultrasónico junto al servomor, fotito arriba y el código está adjunto en files.
+- Preparamos los diálogos y los audios de estos.
+
+Fuente de descarga de voces <https://aivoice-es.vidnoz.com/text-to-speech>
+
+![trabajoEnClases1](./imagenes/trabajoEnClases30Sep.jpg)
+
+![trabajoEnClases2](./imagenes/trabajoEnClases30Sep01.jpg)
+
+#### Búsqueda de motor DC y referentes de carcasa
+
+- Ayuda de como conectarlo: "Conexión de un transistor NPN a un motor DC y a un Arduino" <https://www.youtube.com/watch?v=O-kuwPfpCng>
+- Referente robot <https://www.ottodiy.com/>
+
+
 
 
