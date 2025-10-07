@@ -14,6 +14,63 @@ https://github.com/user-attachments/assets/68464e3d-3e82-48ef-8fba-76288e9cbcbf
 
 -> Agradecimientos a [Mateo Arce](https://github.com/matbutom/) por grabar. Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0664.mp4
 
+Tras ello empecé a revisar que investigaciones habían efectuado mis colegas, y pues al momento de ver el sensor de ultrasonido se me ocurrió el poder estudiar y probar un código que tuviera ambas partes funcionando, por lo que llegué al proyecto ["Controlling a Servo With an Ultrasonic Sensor"](https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/). Inmediatmente lo quise poner a prueba para registrar su funcionamiento.
+
+``` cpp
+
+#include <Servo.h>
+#define trigPin 10
+#define echoPin 9
+
+Servo servo;
+int sound = 250;
+
+void setup() {
+Serial.begin (9600);
+pinMode(trigPin, OUTPUT);
+pinMode(echoPin, INPUT);
+servo.attach(8);
+}
+
+void loop() {
+long duration, distance;
+digitalWrite(trigPin, LOW);
+delayMicroseconds(2);
+digitalWrite(trigPin, HIGH);
+delayMicroseconds(10);
+digitalWrite(trigPin, LOW);
+duration = pulseIn(echoPin, HIGH);
+distance = (duration/2) / 29.1; if (distance < 80) {
+Serial.print(distance);
+Serial.println(" cm");
+servo.write(90);
+}
+
+else if (distance<180) {
+Serial.print(distance);
+Serial.println(" cm");
+servo.write(180); }
+
+else {
+Serial.println("The distance is more than 180cm");
+}
+delay(500);
+}
+
+```
+
+Por un lado el monitor serial se encontraba recopilando información de forma constante del ultrasónico, siendo en este caso la distancia aproximada en un intervalo desde 0 a 180 cm aprox. Al estar a un valor mayor 180 cm arrojaba el mensaje "The distance is more than 180cm".
+
+![imagen](./imagenes/a1.jpeg)
+
+-> Recuperado de: recurso propio - captura de pantalla.
+
+https://github.com/user-attachments/assets/bb8fd83a-d103-41ac-b32a-aa0292ccc904
+
+-> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0665.mp4
+
+
+
 ***
 
 ### Posdata
