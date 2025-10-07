@@ -18,6 +18,8 @@ si esta cerca algo del sensor ultrosonico, tira un dado para emitir aleatoriamen
 
 switch case
 
+este ejercicio para entender como funcionan los botones y con esto poder hacer un codigo aleatorio, luego la idea esque pueda ir explicandolo, para entender cada parte.
+
 https://docs.arduino.cc/built-in-examples/digital/Button/
 
 
@@ -77,6 +79,8 @@ void loop() {
 ```
 
 ### Aquí agregué mis cometarios para entender el codigo 
+
+creo que logre entender mejor, se que tengo que repasar ;(
 
 ``` cpp
 /*
@@ -144,6 +148,10 @@ void loop() {
   }
 }
 ```
+
+la idea es hacer un listado de frases, sonidos para poder hacerlo aleatorio con el monitor serial.
+
+igual, yo me pregunto si es necesario que sea aleatorio si de por si tenia un orden desconectado, aunque puede ser un listado desconectado.
 
 ### Referentes
 
