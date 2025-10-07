@@ -30,6 +30,33 @@ Puesto que soy de ir a la práctica y luego al estudio es que estuve averiguando
 
 Al ver el último video tutorial pude hacer funcionar el servomotor son mayor dilemas, puesto que en los anteriores fue más complicado el definir las ubicaciones del motor o tuve problemas con la corriente.
 
+El código es el siguiente:
+
+``` cpp
+
+#include <Servo.h>
+Servo prueba2; 
+void setup() 
+     
+     {
+prueba2.attach(A0);   // CABLE DE SEÑAL CONECTADO EN LE PUERTO 3 DEL ARDUINO UNO
+
+}
+
+void loop() 
+
+    {
+        prueba2.write(0);      //EMPIEZA EN 0 GRADOS POR 2 SEGUNDOS.
+        delay(2000); 
+        prueba2.write(90);     //LUEGO SE MUEVE A 90 GRADOS POR 2 SEGUNDOS. 
+        delay(2000); 
+        prueba2.write(180);    //LUEGO SE MUEVE A 180 GRADOS POR 2 SEGUNDOS.
+        delay(2000); 
+        
+   }
+
+```
+
 https://github.com/user-attachments/assets/5c587cdb-5530-41b3-85f5-973918128bd9
 
 -> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-08a/video/IMG_0662.mp4
@@ -81,7 +108,11 @@ void loop() {
 
 ```
 
-Dicha pieza de código me ayudó a entender más el cómo trabajar utilizando los pines digitales al ponerlos en práctica
+https://github.com/user-attachments/assets/a4089afc-0f1c-4071-a95d-0d2475d9af8a
+
+-> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-08a/video/IMG_0663.mp4
+
+Dicha pieza de código me ayudó a entender más el cómo trabajar utilizando los pines digitales al ponerlos en práctica modificando los valores de los pines y la posición de los servos.
 
 ***
 
@@ -92,8 +123,8 @@ https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibrat
 https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/
 
 - [x] Aprender a usar el servo
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] Conectar el servo con el sensor ultrasónico
+- [ ] Usar el módulo MP3
 
 ***
 
