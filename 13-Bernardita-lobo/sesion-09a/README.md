@@ -1,4 +1,4 @@
-# sesion-09a
+# Sesión-09a
 
 ## Trabajo en clase
 
@@ -8,14 +8,18 @@
 
 - etica y geomeria, angulos peligrosos
 
-- 
-
 ### Referentes
 
 -
 
 -
 
+####
+
 ### Palabras impoertantes
 
+---
+
 ## Encargo
+
+###
