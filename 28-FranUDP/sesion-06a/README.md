@@ -16,33 +16,33 @@ Plataforma, lenguaje de programación visual y comunidad donde niños y estudian
 
 <img align="left" src="./imagenes/pureData.png" alt="txt" title="Fuente: https://puredata.info/ Captura de pantalla por FranUDP" width=300>
 
-Lenguaje de programación visual *open source* diseñado para crear multimedia de manera interactiva y en tiempo real.
+Lenguaje de programación visual *open source* diseñado para crear multimedia de manera ${\color{#b0e6e6}interactiva}$ y en ${\color{#b0e6e6}tiempo\ real}$.
 
 <br/><br/><br/><br/><br/><br/><br/>
 
 ### [GitHub Workflows](https://docs.github.com/es/actions/concepts/workflows-and-actions/workflows)
 
-Es un proceso automatizado configurable que realiza acciones o trabajos cuando se activa, ya sea por un cambio en un repositorio, un tiempo de activación predefinido, mensualmente, etc.
+Es un ${\color{#b0e6e6}proceso\ automatizado}$ configurable que realiza ${\color{#b0e6e6}acciones\ o\ trabajos}$ cuando se activa, ya sea por un cambio en un repositorio, un tiempo de activación predefinido, mensualmente, etc.
 
-Los flujos de trabajo se definen en un archivo YAML (Yet Another Markup Language) que se verifica o autoriza en el repositorio.
+Los flujos de trabajo se definen en un archivo ${\color{#b0e6e6}YAML\ (Yet\ Another\ Markup\ Language)}$ que se verifica o autoriza en el repositorio.
 
-En nuestro caso, el programa se activa cuando alguien actualiza sus *forks* y hace *lint*, aunque @montoyamoraga modificó este programa para que me ignore y así poder usar HTML y LaTeX en mis bitácoras.
+En nuestro caso, el programa se ${\color{#b0e6e6}activa}$ cuando alguien ${\color{#b0e6e6}actualiza}$ su ${\color{#b0e6e6}fork}$ y hace ${\color{#b0e6e6}lint}$, aunque @montoyamoraga modificó este programa para que me ignore y así poder usar HTML y LaTeX en mis bitácoras.
 
 #### [Lint](https://en.wikipedia.org/wiki/Lint_(software))
 
-Es el proceso de revisar automáticamente el código en búsqueda de errores programáticos y de estilo; cuando el programa encuentra estos errores, los reporta al usuario.
+Es el proceso de ${\color{#b0e6e6}revisar\ automáticamente}$ el código en ${\color{#b0e6e6}búsqueda}$ de ${\color{#b0e6e6}errores\ programáticos\ y\ de\ estilo}$; cuando el programa encuentra estos errores, los reporta al usuario.
 
 ### [LaTeX](https://www.latex-project.org/get/)
 
-Es un sistema de preparación de documentos que consiste en un lenguaje de marcado (*markup*) que el usuario escribe, el cual es procesado y formateado por el programa.
+Es un sistema de ${\color{#b0e6e6}preparación\ de\ documentos}$ que consiste en un lenguaje ${\color{#b0e6e6}markup}$ en que el usuario escribe, el cual es procesado y formateado por el programa.
 
-LaTeX es el lenguaje que utilizo para cambiar el color de las palabras en los archivos `.readme`.
+LaTeX es el lenguaje que utilizo para cambiar el ${\color{orange}color}$ de las palabras en los archivos `.readme`.
 
 #### [TeX](https://en.wikipedia.org/wiki/TeX)
 
-Programa de tipografía creado por Donald Knuth en 1978. LaTeX fue escrito con este programa como base.
+Programa de ${\color{#b0e6e6}tipografía}$ creado por Donald Knuth en 1978. LaTeX fue escrito con este programa como base.
 
-El programa fue diseñado para que el *output* generado sea el mismo sin importar las diferencias entre computadoras, versión del programa, etc.
+El programa fue diseñado para que el ${\color{WHITE}output}$ generado sea el mismo sin importar las diferencias entre computadoras, versión del programa, etc.
 
 ##### [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
 
