@@ -40,9 +40,13 @@ Al indagar sobre el tipo de salidas de los pines de arduino, estas se pueden cla
 
 ### Arduino: pines Digitales y Análogicos
 
-Los [pines digitales](https://controlautomaticoeducacion.com/sistemas-embebidos/arduino/entradas-digitales/) (enumerados desde el 0 al 13) permiten leer valores binario (0 o 1, true o false, 0V o 5V). Cuando al entrada hace una "lectura" del mundo real a través de un sensor, lo hace mediante un umbral donde el valor promedio es de 2,5V. Ante ello, todos los valores que sean mayores que lo superen serán denóminados como "HIGH", y su contraparte aquellos valores menores se nombran como "LOW".
+Los [pines digitales](https://controlautomaticoeducacion.com/sistemas-embebidos/arduino/entradas-digitales/) (enumerados desde el 0 al 13, siendo un total de 14) permiten leer valores binario (0 o 1, true o false, 0V o 5V). Cuando al entrada hace una "lectura" del mundo real a través de un sensor, lo hace mediante un umbral donde el valor promedio es de 2,5V. Ante ello, todos los valores que sean mayores que lo superen serán denóminados como "HIGH", y su contraparte aquellos valores menores se nombran como "LOW". O se está "encendido" o "apagado". Para aquellos sensores que requieren más voltaje del que permite arduino (5V) hay que diseñar un "circuito externo" que ayude a controlar la tensión del voltaje inicial. El modo de obtener información por parte de los sensores es utilizando el comando "digitalRead", mientras que para mostrarlo en el monitor serial se utiliza "digitalWrite"
 
-Para aquellos sensores que requieres más voltaje del que permite arduino (5V) hay que diseñar unn circuito externo que ayude a controlar la tensión del voltaje inicial. 
+En cuanto a los [pines análogos](https://cursos.mcielectronics.cl/2022/08/27/entradas-analogicas-en-arduino/) (enumerados desde el A0 al A5, siendo un total de 6), estos son un tipo de entrada que puede emitir y recibir una señal que va en un intervalo de voltaje, en este caso pudiendo abarcar desde 0V a 5V incluyendo valores con números decimales. Vale mencionar que estos son escasos dentro del arduino, puesto que son más caros que una entrada digital. La forma en la que funcionan estas entradas es "proporcionando una medición codificada en forma de un valor digital en forma de bits (unidad minima de información codificado en valor binario, o 0 o 1)", proceso que resulta más lento. Para poder realizar una lectura del sensor se utilia "analogRead", un comando que va a arrojar un valor devuelta que será codificado como un número entre 0 y 1023.
+
+Con estos antecedentes es que decidí que la forma más segura para trabajar temporalmente con el servomotor es utilizando los pines análogos.
+
+
 
 
 https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibration/calibration.ino
