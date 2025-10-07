@@ -27,3 +27,5 @@
 - ¿hay que crear distintas carpetas que contengan distintas pistas de audio?
 - ejemplo: carpeta 1: tiene sonido 1 y sonido 2, carpeta 2: tiene sonido 3 y 4
 - estoy haciendo una comparación entre: myDFPlayer.play(1); // play the first mp3 y myDFPlayer.playfolder(1,2) para ver cuál puede servir para establecer una lista aleatoria
+- según lo que entendí con mis palabras: myDFPlayer.play(1) reproduce el primer archivo que encuentre dentro de la SD según el orden en que lo subí, por ejemplo si subo 0001, 0002, 0003 irá reproduciendo en orden como tal según lo encuentre
+- según lo que entendí con mis palabras: myDFPLayer.playfolder(1,2) significa que reproducirá de la carpeta 1 el segundo audio, si pongo playfolder(1,1) reproduce el primer audio de la carpeta 1
