@@ -124,6 +124,6 @@ Para este punto probamos el sensor ultrasonico:
 
 Se me olvidó subir el propio diagrama de flujo, pero aquí lo dejo (esta dibujado de manera digital):
 
-![Diagrama de Flujo](http://url/to/img.png)
+![Diagrama de Flujo](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-07b/imagenes/DiagramaFlujo.png)
 
 
