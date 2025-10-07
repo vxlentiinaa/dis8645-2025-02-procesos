@@ -50,6 +50,9 @@ BUSCAR FUENTE DE DÓNDE SE ESACARON ESTOS DATOS CURIOSOS
 
 Fuente de descarga de voces <https://aivoice-es.vidnoz.com/text-to-speech>
 
+![trabajoEnClases1](./imagenes/.jpg)
+
+![trabajoEnClases2](./imagenes/.jpg)
 
 #### Busqueda de motor DC y referentes de carcasa
 
