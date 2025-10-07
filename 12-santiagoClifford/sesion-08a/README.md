@@ -68,5 +68,5 @@ primero partí con este modelado para entender la posición de los iris y párpa
 
 luego, hice este modelo 3D sin pensar en medidas o estructuralidad.                    
 
-[![modelo 3d de la idea inicial](./imagenes/primer-idea.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)  
+[![modelo 3d de la idea inicial](./imagenes/primer-idea.png)](/12-santiagoClifford/sesion-08b/ascii-stl/primer-ideaBin.stl)
 
