@@ -28,21 +28,29 @@ Display electrónico vintage simiar a un tubo de vacío en apariencia, es utiliz
 
 </br></br>
 
-### Audio SID microfono integrado
+### ["Las llamadas que nunca hice"](https://gam.cl/actividades/las-llamadas-que-nunca-hice-voyager/)
 
+Instalación artística de Juan José Acuña, que consiste de un teléfono público de los años 90, que fue modificado para grabar y reproducir audio. El público interactúa con el teléfono grabando y escuchando los mensajes que graben.
 
+### [DC motor](https://youtu.be/GQatiB-JHdI?si=goIzT3UkHXowmdzj)
 
-### "Las llamadas que nunca hice"
+<img align="left" src="./imagenes/dcMotor.jpg" alt="txt" title="Fuente: https://altronics.cl/motor-r130" width=150>
 
+</br></br>
 
+Cuando recive corriente gira en un sentido, cuando se invierte la polaridad gira en la dirección opuesta.
 
-### DC motor
+</br></br>
 
+#### [Vibrador](https://youtu.be/3hoBwa0ccys?si=pLKQnPnmO2eaj7h2)
 
+<img align="left" src="./imagenes/vibrator.jpg" alt="txt" title="Fuente: https://evakw.com/products/a1447" width=150>
 
-#### Vibrador
+</br></br>
 
+Es un motor DC con un peso desvanceado, al girar el peso se mueve alrededor del motor, generando la vibración.
 
+</br></br>
 
 ### Stepper motor
 
