@@ -109,6 +109,7 @@ void loop() {
  + Servo se mueve desde 0 a 180 grados
  + en cualquier otro caso se baja
 
+### DE AQUI EN ADELANTE HECHO EN EL LAB!!!!!
 
 #### Proyecto_02 - Máquina que da datos random
 
@@ -163,6 +164,7 @@ void loop() {
 }
 ```
 ![servomorcon](./imagenes/servomotor.jpg)
+(foto en el lab)
 
 + **Referencia** de código para **sensor ultrasónico** de **Nico Miranda**
 ```cpp
