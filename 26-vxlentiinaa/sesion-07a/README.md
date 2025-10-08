@@ -307,7 +307,7 @@ Otto Ninja, es un robot de fácil armado y con instrucciones fáciles de seguir.
 
 Diseñador: OttoDIY
 
-insertar imagen
+![Otto Ninja](./imagenes/robotOttoNinja.jpg)
 
 Otto Robot. (2024, 15 de febrero). Otto Ninja robot Arduino Nano design [Modelo 3D]. Printables. https://www.printables.com/model/256569-otto-ninja-robot-arduino-nano-design
 
