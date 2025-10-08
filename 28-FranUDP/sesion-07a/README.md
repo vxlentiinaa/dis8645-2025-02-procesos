@@ -52,7 +52,7 @@ Es un motor DC con un peso desvanceado, al girar el peso se mueve alrededor del 
 
 </br></br>
 
-### Stepper motor
+### [Stepper motor](https://youtu.be/fQsdUhRwCU4?si=ZXM2dHAQC_YXJhkJ)
 
 
 
