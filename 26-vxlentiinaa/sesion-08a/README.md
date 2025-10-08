@@ -193,3 +193,55 @@ void printDetail(uint8_t type, int value){
 }
 ```
 
+Cosas por hacer:
+
+- Carcasa (monito robot) 🤓
+- Diálogo 🤓
+- Unir código
+- Motor DC
+- Servomotor 🤓
+
+`Diálogo listo`
+
+Los diálogos serán:
+1. "hola1.mp3" de 80-10cm, para llamar a la persona: "Hola humano ¿Por qué estás tan lejos? Acércate."
+2. "hola2.mp3" de 40-60cm, para hacer que la persona se acerque más: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji"
+3. "dato1, 2, 3, 4,5 y 6.mp3" de 2-10cm:
+   
+dato1: "¿Sabías qué? El primer mause era de madera... Seguro también servía de leña jajaj"
+
+dato2: "¿Sabías qué? El error 404 es mi manera de hacerme el leso... jajaja"
+
+dato3: "¿Sabías qué? La nube no existe, son computadores de otro... pero no se lo digas a nadie"
+
+dato4: "¿Sabías qué? Los datos nunca se borran, solo se esconden... igual que tus calcetines"
+
+dato5: "¿Sabías qué? Apagar y prender arregla todo, y sino, un golpecito y como nuevo"
+
+dato6: "¿Sabías qué? El porcentaje exacto de 99,999999999999... Nah, inventé jajaja pero aún sigues aquí ¿no?"
+
+Audios en files! hechos con [VIDNOZ](https://aivoice-es.vidnoz.com/text-to-speech)
+
+### Encargo 16
+
+Cada persona del grupo, debe subir a su README qué es lo que llevan hasta el final de la sesión, que sí funciona, que funciona casi y que no funciona. Después subir nueva versión del código y de la documentación
+
+1. Errores y problemas en el código: El reproductor MP3 no funcionaba, al principio se escuhaba pero no tenía ningún código aplicado. Pensamos que podría ser la tarjeta SD y la formateamos con las introducciones de Gemini: "Para formatear una tarjeta SD para Arduino Uno, conéctala a tu computadora e inicia la herramienta de formateo de tu sistema operativo. En la configuración de formato, elige FAT32 como sistema de archivos, o FAT para tarjetas de menos de 2GB, y luego inicia el formateo. Para obtener los mejores resultados, considera usar la herramienta oficial SD Formatter de la SD Association."
+2. Conecciones y registro: Buscamos como conectar el altavoz al Arduino y el Reproductor MP3, en la página de AFEL se encuentra la foto de como conectar el Reproductor MP3 [AFEL](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?srsltid=AfmBOopRNTgHOWYlfaHTtNXuy2sf4_Lw2Spb70NB-QN52b7Sybu8JQWi)
+
+insertar imagen del arduino
+
+### Proceso motor DC (corriente directa)
+
+No hemos hecho la conexión como tal del Motor DC, solo buscamos referentes.
+
+Video de referencia: "Arduino: Motor DC y transistor NPN (control de velocidad) | TechKrowd"
+
+[Arduino: Motor DC y transistor NPN (control de velocidad) | TechKrowd](https://www.youtube.com/watch?v=crrbujSEjBE)
+
+- Acá ella explica que el motor DC no funciona directamente con arduino ya que el motor necesita bastante corriente y arduino da hasta 5v, por lo que al conectarlo se necesitará un transistor, en este caso ella habla de un transistor NPN (2N2222A), necesitaremos también una resistencia que dependerá del transistor que se use.
+
+Ayuda de como conectarlo: "Conexión de un transistor NPN a un motor DC y a un Arduino"
+
+[Conexión de un transistor NPN a un motor DC y a un Arduino (Parte 1)](https://www.youtube.com/watch?v=O-kuwPfpCng
+)
