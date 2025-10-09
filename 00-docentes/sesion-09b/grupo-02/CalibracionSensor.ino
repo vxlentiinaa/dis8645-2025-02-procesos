@@ -8,7 +8,3 @@
 
 // Función de normalización
 
-
-// bool cercaDe(int valor, int objetivo) {
-//   return abs(valor - objetivo) <= 1; // tolerancia 0 (puedes subirla a 1 o 2 si es inestable)
-// }

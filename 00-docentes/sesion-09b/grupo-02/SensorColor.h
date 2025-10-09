@@ -29,6 +29,12 @@ public:
   int leerAzul();
 
   int normalizar(int valor, int maximoEntrada);
+  bool cercaDe(int valor, int objetivo);
+
+
+  void determinarColor();
+
+  void mostrarSerial();
 
   ////////////////////////
   // variables - atributos
@@ -53,6 +59,9 @@ public:
   // #define S3 5
   // #define salidaSensorOut 6
   // #define OE 7   // Pin para activar/desactivar el sensor
+
+  String colorDetectado = "NADA";
+
 };
 
 #endif

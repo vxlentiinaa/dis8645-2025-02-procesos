@@ -67,3 +67,40 @@ int SensorColor::normalizar(int valor, int maximoEntrada) {
   }
   return (valor * 50) / maximoEntrada;  // Escala proporcional
 }
+
+bool SensorColor::cercaDe(int valor, int objetivo) {
+  // tolerancia 0 (puedes subirla a 1 o 2 si es inestable)
+  return abs(valor - objetivo) <= 1;
+}
+
+void SensorColor::determinarColor() {
+
+
+  if (SensorColor::cercaDe(SensorColor::lecturaRojo, 15)
+      && SensorColor::cercaDe(SensorColor::lecturaVerde, 8)
+      && SensorColor::cercaDe(SensorColor::lecturaAzul, 9)) {
+    SensorColor::colorDetectado = "VERDE";
+  } else if (SensorColor::cercaDe(SensorColor::lecturaRojo, 16)
+             && SensorColor::cercaDe(SensorColor::lecturaVerde, 10)
+             && SensorColor::cercaDe(SensorColor::lecturaAzul, 10)) {
+    SensorColor::colorDetectado = "NARANJO";
+  } else if (SensorColor::cercaDe(SensorColor::lecturaRojo, 18)
+             && SensorColor::cercaDe(SensorColor::lecturaVerde, 14)
+             && SensorColor::cercaDe(SensorColor::lecturaAzul, 11)) {
+    SensorColor::colorDetectado = "ROJO";
+  } else if (SensorColor::cercaDe(SensorColor::lecturaRojo, 9)
+             && SensorColor::cercaDe(SensorColor::lecturaVerde, 9)
+             && SensorColor::cercaDe(SensorColor::lecturaAzul, 6)) {
+    SensorColor::colorDetectado = "AZUL";
+  }
+}
+
+
+void SensorColor::mostrarSerial() {
+
+  if (SensorColor::colorDetectado != "NADA") {
+    Serial.println("Detecté " + SensorColor::colorDetectado);
+  } else {
+    Serial.println("No estoy detectando nada, pucha");
+  }
+}
