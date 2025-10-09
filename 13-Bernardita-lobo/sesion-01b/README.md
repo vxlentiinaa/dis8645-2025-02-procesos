@@ -110,6 +110,8 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 Un poco desde el futuro, vuelvo a realizar estos ejemplos para entender nuevamente la programación, ya que me he encontrado un poco perdida. Decidí registrarlo aquí porque no me había gustado cómo me había quedado la organización de este encargo. Hoy es 8 de octubre, pero supongo que nunca es tarde para aprender, jajaja. Al menos eso quiero pensar ._.
 
+Me fui guiando con una lista de mini tutoriales de Arduino y con la cuenta de GitHub de [johannpereze](https://github.com/johannpereze/cursoArduinoJohannPerezE)
+
 > Video de referencia ["Cómo PROGRAMAR arduino UNO desde CERO"](https://youtu.be/EEKMPT_YcTI)
 
 En este me costó mucho encontrar el error; lo releí varias veces hasta que me di cuenta de que le faltaba una R.
@@ -180,4 +182,40 @@ digitalWrite(8,LOW);
 delay(50);
 
 }
+```
+
+Aquí escribí bien el código usando el ejemplo de la clase.
+
+> Video de referencia ["VARIABLES Enteras en Arduino con Código MORSE"](https://youtu.be/r8sk5JzUWLQ)
+
+Sin embargo, se me olvidó cambiar el pin al 7, así que prácticamente no estaba conectado a la protoboard.
+
+```ccp
+int dot = 100;
+int dash = 300;
+int ledPin = 7;
+int finalDelay = 1500;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(ledPin,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(ledPin,HIGH);
+delay(dot);
+digitalWrite(ledPin,LOW);
+delay(dot);
+
+digitalWrite(ledPin,HIGH);
+delay(dash);
+digitalWrite(ledPin,LOW);
+delay(dash);
+
+
+digitalWrite(ledPin,HIGH);
+delay(dot);
+digitalWrite(ledPin,LOW);
+delay(dot);
 ```
