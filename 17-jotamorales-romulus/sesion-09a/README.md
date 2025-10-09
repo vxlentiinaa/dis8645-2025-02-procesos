@@ -4,6 +4,9 @@
 
 ### Reproductor mp3 
 
+Una parte del proyecto requiere hacer que el reproudctor mp3 reproduzca audios randomizados
+
+
 ```cpp
 <@746126402121629817> /***************************************************
 DFPlayer - A Mini MP3 Player For Arduino
