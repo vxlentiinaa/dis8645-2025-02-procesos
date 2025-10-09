@@ -385,4 +385,12 @@ preguntas para el módulo mp3
 -  esta secuencia se podría repetir en algún momento o cierta parte, si yo lo manipulo deja de ser aleatorio porque ya no lo estoy dejando al azar, tengo cierto control sobre esto
 -  según [wikipedia](https://es.wikipedia.org/wiki/Azar#:~:text=El%20azar%20es%20una%20casualidad,Azar%20en%20matem%C3%A1ticas) el azar es: El azar es una casualidad,[1]​ presente, teóricamente, en diversos fenómenos que se caracterizan por causas complejas, no lineales y sobre todo que no parecen ser predecibles en todos sus detalles. Dependiendo del ámbito al que se aplique, se pueden distinguir cuatro tipos de azar:
 
+### errores
+
+- hoy ha sido una jornada de errores en los cuáles retrocedí en cuánto a lo que quería lograr, no logré que el primer código que utilicé el martes funcionara, no sé bien por qué no funcionó, me siento muy frustrado ya que quería avanzar harto en el lab en las 3 horas que estuve y no he podido
+- este es el error que arrojó
+-  C:\Users\winil\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.5.0\cores\arduino/api/Binary.h:37:1: error: expected constructor, destructor, or type conversion before 'enum' 
+-Usando librería DFRobotDFPlayerMini con versión 1.0.6 en la carpeta: --C:\Users\winil\OneDrive\Documentos\Arduino\libraries\DFRobotDFPlayerMini 
+-exit status 1
+
 
