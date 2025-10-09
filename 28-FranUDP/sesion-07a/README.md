@@ -94,9 +94,13 @@ La velocidad a la que rota depende de la frecuencia de la corriente alterna que 
 
 </br>
 
-### RGB LED
+### [RGB LED](https://youtu.be/wqzfbImsrPE?si=1A1LxJqlYxCm1sZ2)
 
+<img align="left" src="./imagenes/RGB.png" alt="RGB LED" title="Fuente: https://projecthub.arduino.cc/semsemharaz/interfacing-rgb-led-with-arduino-b59902" width=250>
 
+Es un paquete que combina un LED (Light Emitting Diode) rojo (Red), uno verde (Green) y uno azul (Blue). Variando la intensidad de la luz que cada uno de estos "sub-LEDs" emite, podemos controlar el color que el LED RGB produce.
+
+Estos LEDs tienen 4 pines, un Vcc o GND común y la patita de la polaridad opuesta de cada "sub-LED".
 
 #### Neopixel
 
