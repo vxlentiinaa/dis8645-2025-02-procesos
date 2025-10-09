@@ -108,45 +108,54 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 ## Encargo-03: Programar y equivocarse 5 veces
 
-Estos errores me surgieron realizando los ejemplos vistos en esta misma clase. La idea era agregar un poema al código.
+Un poco desde el futuro, vuelvo a realizar estos ejemplos para entender nuevamente la programación. En este me costó mucho encontrar el error; lo releí varias veces hasta que me di cuenta de que le faltaba una R.
 
-![foto de mi escritorio](./imagenes/tmc-sesion01b-foto.jpeg)
+```ccp
+void setup() {
+pinM0de(13,OUTPUT);
+}
 
-Agregué esto y me arrojaba error.
+void loop() {
 
-Int tiempoPrendido = 100
-Int tiempoApagado = 300
+digitalWite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(100);
+}
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo01.png)
+```
 
-Intenté replicar el código que hacía Aarón, ordenando y separando las líneas, ya que pensé que el error venía de otra parte.
+Luego de corregir este ejemplo, pensé que el código iba a funcionar bien, pero no compilaba correctamente. Intenté sacar el LED que estaba en el pin 13, pero tampoco resultó.
 
-Me volvió a arrojar error, me faltaban los punto y coma (;)
+Después volví a conectar el LED y revisé el código parte por parte, hasta que me di cuenta de que en pinMode había un cero en lugar de una letra O. La verdad, eso sí que me costó descubrir.
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo02.png)
+```ccp
+void setup() {
+pinM0de(13,OUTPUT);
+}
 
-Pensé que no se podía usar la palabra holaa, por tener dos letras a o por ser solo una palabra.
+void loop() {
 
-La cambié por una frase, y tampoco funcionó.
+digitalWrite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(100);
+}
+```
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo03.png)
+Para la próxima le voy a preguntar a ChatGPT, porque perdí mucho tiempo buscando un error que no tenía nada que ver con la programación. Aunque, bueno, me imagino que en general así son los errores de programación.
 
-Agregué un String con una frase entre comillas, pero no se solucionó.
+```ccp
+void setup() {
+pinMode(13,OUTPUT);
+}
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo04.png)
+void loop() {
 
-Quité la palabra poema y el signo igual (=), y me arrojaba error.
+digitalWrite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(100);
+}
+```
 
-Agregué más de una palabra y no me funcionó; parece que después de String tiene que ir solo una palabra.
-
-Me di cuenta de que al final faltaba el punto y coma (;).
-
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo05.png)
-
-No logré hacer que se repitieran más de una frase.
-
-La verdad, no pude encontrar una solución.
-
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo06.png)
-
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo07.png)
