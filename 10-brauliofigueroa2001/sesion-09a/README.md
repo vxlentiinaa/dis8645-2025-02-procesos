@@ -2,13 +2,21 @@
 ## taller clase 7 de octubre
 
 
-### investigación
+### investigación y comienzo de clae
 
 - este día en clases me sentí muy mal mentalmente, me costó muchísimo ir a la universidad pero fui de todas formas, fue una mañana durísima la verdad
 - siento que el grupo está un poco dividido y que falta comunicación, de momento cada persona se está enfocando en un sensor distinto, como investigación a la par por así decirlo para ver qué descubrimos y a qué llegamos
 - en mi caso estoy investigando el dfplayer mini, módulo de mp3
+- misaaa se acercó para preguntarnos cómo íbamos y también entender más el proyecto porque no lo tenía tan claro
+- bernardita y yo le contamos que estábamos viendo la aleatoriedad y funcionamiento del módulo mp3 pero que aún desconocemos como llegar a lo que necesitamos
+- misaaa nos recomendó hacer una serie de ejercicios antes porque igual nos sentíamos bastante perdidos, utilizando un botón como un estilo dado, es decir, al presionar el botón se obtiene un dato/número aleatorio
+- nos enseñó el pinout para conectar el botón el arduino (subir imagen pendiente)
+- la idea de este ejercicio al final sería que al presionar el botón se obtenga un sonido aleatorio, el botón es una especie reemplazo a la persona que se sitúa frente al sensor ultrasónico, que da un dato aleatorio en este caso sería una palabra. El botón es una especie de actuador o causa para obtener un resultado aleatorio
+- abrimos un ejemplo de código de botón en arduino que está en la pestaña ejemplos del mismo programa
 
 - documentación investigación de dfplayer mini, módulo mp3
+
+- [pinoutdfplayer](./imagenes/pinoutdfplayer.JPG)
 
 - generar alguna especie de índice en la que aparezcan los audios que quiero reproducir
 
@@ -244,6 +252,7 @@ void printDetail(uint8_t type, int value){
 - lo que he logrado con este código de momento fue reproducir 2 pistas de audio diferentes, de 2 segundos cada una aproximadamente. Eran audios de maullidos de gato solo para probar el funcionamiento, las saqué de youtube (adjuntar link)
 - tuve que subir los archivos a la tarjeta SD la cuál debía estar previamente formateada, en este caso los archivos se deben guardan en un orden específico, el reproductor los leerá según el orden que los subimos
 - se deben numerar 0001, 0002, 0003, etc para que siga este orden de reproducción
+- no entiendo qué hace "case" dentro de este código, se repite muchas veces y está en rosado
 
 ### código 2
 
