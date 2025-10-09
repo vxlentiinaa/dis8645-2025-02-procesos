@@ -171,6 +171,10 @@ Escribir un párrafo por cada uno de los referentes encontrados, citando las fue
 
 Palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera literaria nuestro proyecto, llevarlo al mundo descroptivo, lenguaje natural, adjetivos, vervos y advervios.
 
+Pongo de ejemplo esta lección https://youtu.be/waN4owHeyaQ que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
+
+ instrumentos telepaticos.
+
 ### Código
 
 codigos que utilicen sensores parecidos
@@ -181,4 +185,6 @@ materialidades en el proyecto,  ya sea madera, impresion 3d, metal, que trabajen
 
 ### Documentación
 
-Registro, instrumentos telepaticos.
+De documentación, me gusta mucho un canal que habla de historia, fenómenos tecnológicos y modas retro. Y cómo transforma su investigación en algo muy fácil de digerir. [Retro Flama](https://www.youtube.com/@RetroFlama)
+
+Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
