@@ -30,6 +30,11 @@ void loop() {
 
   sensorColor.mostrarSerial();
 
+  // if (sensorColor.colorDetectado == "NARANJA") {
+  //   pantalla.mostrarNaranja();
+  //   parlante.sonarNaranja();
+  // }
+
   // // Mostrar en OLED
   // mostrarEnOLED(colorDetectado);
 
