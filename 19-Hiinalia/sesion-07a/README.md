@@ -127,11 +127,19 @@ Este referente es una vela LED que se prende y se apaga aplaudiendo. La verdad e
 
 Me gusta la forma en que documenta esta persona. Incluyó una lista de componentes, explicó cómo funciona su sistema, incluyendo diagramas para entender mejor. Mi parte favorita es que incluye una sección donde explica en varios puntos las cosas que puede aprender un estudiante de su proyecto. Me inspira a pensar el proyecto 02 como una oportunidad de enseñar también.
 
+<https://www.behance.net/gallery/56457727/1706-Bibimbap-Infographic-Poster#>
+
+Me dí cuenta de que no tengo referentes gráficos, asi que incluyo uno en la parte de documentación. Esta infografía la vi en el local de Bibimpop, y siempre me pareció que la composición de la información es muy clara. Tiene una buena organización y es facil de entender. Además de que trabajan con una vista isométrica, que me gusta mucho.
+
 ### Materialidad
 
 <https://www.instructables.com/Add-Voice-to-Your-Arduino-Projects-Without-Using-A>
 
 Este referente aporta a mi proyecto directamente en el caso de que quiera usar componentes fuera de lo que se compra. En vez de utilizar un reproductor mp3 con tarjeta SD, enseña como utilizar cualquier parlante en casa para evitar gastos extra. Esta es una buena opción en el caso de no tener disponible el reproductor si quiero que mi arduino reproduzca un sonido.
+
+Tamagochi
+
+El material y la forma de un Tamagotchi pienso que sería interesante utilizarlo para el proyecto. Es fácil de sostener en las manos y tiene un lugar para botones en el caso de que se requiera. Un encoder fácilmente podría ocupar ese lugar.
 
 ## Encargo 
 
