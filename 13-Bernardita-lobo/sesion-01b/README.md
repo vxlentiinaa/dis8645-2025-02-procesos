@@ -108,7 +108,11 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 ## Encargo-03: Programar y equivocarse 5 veces
 
-Un poco desde el futuro, vuelvo a realizar estos ejemplos para entender nuevamente la programación. En este me costó mucho encontrar el error; lo releí varias veces hasta que me di cuenta de que le faltaba una R.
+Un poco desde el futuro, vuelvo a realizar estos ejemplos para entender nuevamente la programación, ya que me he encontrado un poco perdida. Decidí registrarlo aquí porque no me había gustado cómo me había quedado la organización de este encargo. Hoy es 8 de octubre, pero supongo que nunca es tarde para aprender, jajaja. Al menos eso quiero pensar ._.
+
+> Video de referencia ["Cómo PROGRAMAR arduino UNO desde CERO"](https://youtu.be/EEKMPT_YcTI)
+
+En este me costó mucho encontrar el error; lo releí varias veces hasta que me di cuenta de que le faltaba una R.
 
 ```ccp
 void setup() {
@@ -159,3 +163,21 @@ delay(100);
 }
 ```
 
+Aquí estuve probando cómo utilizar la protoboard con el Arduino, y me faltó un ;.
+
+> Video de referencia ["Cómo usar un PROTOBOARD Arduino desde CERO"](https://youtu.be/ycXI2E7iArY)
+
+```ccp
+void setup() {
+
+pinMode(8,OUTPUT)
+}
+
+void loop() {
+digitalWrite(8,HIGH);
+delay(50);
+digitalWrite(8,LOW);
+delay(50);
+
+}
+```
