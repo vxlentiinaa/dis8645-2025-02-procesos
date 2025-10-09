@@ -392,5 +392,6 @@ preguntas para el módulo mp3
 -  C:\Users\winil\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.5.0\cores\arduino/api/Binary.h:37:1: error: expected constructor, destructor, or type conversion before 'enum' 
 -Usando librería DFRobotDFPlayerMini con versión 1.0.6 en la carpeta: --C:\Users\winil\OneDrive\Documentos\Arduino\libraries\DFRobotDFPlayerMini 
 -exit status 1
+- llegar a conectar el arduino mediante resistencias con el ejemplo de [tecneu](https://www.tecneu.com/blogs/tutoriales-de-electronica/como-utilizar-el-dfplayer-mini-con-arduino-para-proyectos-de-audio) para ver cuál es la diferencia de conectarlo mediante resistencias y no conectarlo con resistencias
 
 
