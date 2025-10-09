@@ -6,7 +6,7 @@ Viernes 26 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
-- Hablamos de las comisiones, ya que Aarón ya encontró una buena comisión, Cynthia.
+- Hablamos de las comisiones, ya que Aarón ya encontró una buena comisión, Cynthia Shuffer.
 
 - Rafael Benguria, profesor de Aarón y referente, Premio Nacional de Ciencias, hace clases de Física.
 
@@ -15,6 +15,14 @@ Viernes 26 de septiembre, 2025
 ### Pseudocodigo para los Proyectos-02
 
 [reproductor-mp3](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini)
+
+### Referentes
+
+- Cynthia Shuffer
+
+- Rafael Benguria
+
+### Palabras importantes
 
 ---
 
