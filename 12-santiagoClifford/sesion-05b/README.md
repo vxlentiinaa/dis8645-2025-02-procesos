@@ -61,3 +61,13 @@ A medida que cambia la sociedad, debe ir cambiando también, la forma de enseña
 #### conclusión
 
 en mi opinión, históricamente ha existido un sesgo hacia la tecnología física y digital. Por una parte, existe la creencia que las tecnologías tipo software no pueden tener fines o desarrollos académicos, sino meramente recreativos. Y por otro lado, tengo la sensación que muchas personas ven el hardware como algo demasiado lejano como para incursionar en ello. Cricket y Scratch son claros y directos refutadores de estas ideas. Los métodos de enseñanza deberían ir avanzando a la par de la sociedad, por lo que herrmaientas como éstas, no solo son excelentes formas de aprender, sino también son importantísimas para el aprendizaje,(en el texto va a enfocado a niñes, pero en mi opinión puede ser válido para todes.) puesto que son "hojas en blanco" que permiten desarrollar ideas sumamente divergentes.
+
+## encargo-09
+
+### primus
+
+primus es una banda estadounidense con influenicas de metal, punk, rock y psicodélico. Uno de los factores característicos de Primus es su humor y su propuesta audiovisual excéntrica. Por ejemplo en el video [My Name is Mud](https://youtu.be/953PkxFNiko) muestran escenas con propuestas extrañas, debido a los movimientos de cámara que incluso pueden llegar a generar mareos. Y muchas veces los perosnajes y objetos parecieran estar fuera de contexto, con hilos conductores difíciles de percibir.
+
+#### Fizzle Fry
+
+escuché el album Fizzle Fry, el cual es el primer álbum de la banda, estrenado en 1990. CUenta con 14 tracks. Entre ellos lo que más me llamó la atensión fue las transiciones que generan en los canciones, específicamente en ámbito de los géneros músicales. Una misma canción puede pasar por distintos ritmos, los cuales varían mucho, sobre todo en la batería. 
