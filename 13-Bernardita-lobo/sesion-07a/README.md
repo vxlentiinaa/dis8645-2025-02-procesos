@@ -153,7 +153,7 @@ Drivers
 
 Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
 
-## Encargo-13: 2 referentes asociados a tu proyecto
+## Encargo-13: Referentes asociados a tu proyecto
 
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías 
 
