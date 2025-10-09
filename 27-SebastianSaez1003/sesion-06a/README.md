@@ -90,9 +90,19 @@ Existen unos módulos que se llaman shields para el Arduino, como si fueran un D
 
 Para la cotización de los sensores y actuadores que iríamos a ocupar en el futuro proyecto 2, los revisé en [Afel](https://afel.cl/).
 
-1. Una máquina que te ofrece darte la mano, pero solo si es que no hace frío, refiriéndose al “frío” por una temperatura menor a 15°C, ya que si la máquina tiene frío, preferirá tener sus “brazos” debajo de una bufanda o algo similar. Esto funcionaría con un servomotor, para que se mueva según los rangos que se le indiquen.  
+1. Una máquina que te ofrece darte la mano, pero solo si es que no tiene frío, refiriéndose al “frío” por una temperatura menor a 15°C, ya que si la máquina tiene frío, preferirá tener sus “brazos” debajo de una bufanda o algo similar. Esto funcionaria con un servomotor, para que se mueva según los rangos que se le indiquen al Arduino.
 
-2. Detector de nerviosismo, donde si le das la mano y siente que estás sudando, te da unas palabras de apoyo.
+2. Detector de nerviosismo, donde si le das la mano y siente que estás sudando, te da unas palabras de apoyo, esto podría ser medido por un sensor de humedad en el ambiente la “palma de la mano” del robot.
 
-3. Waos
+3. Una máquina que te “llama” con un “brazo” controlado con un servomotor pero si te acercas demasiado te empujará hacia atrás, debido a que quiere su espacio personal, solo si es que estas a una distancia “correcta” para el robot (medida por un sensor ultrasónico) es que te daria un saludo de movimiento de mano.
 
+Precios en Afel de los sensores y actuadores: 
+
+| Sensor / Actuador               | Especificacion | Precio | Link de compra                                                                                                                                                                 |
+| ------------------------------- | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Servomotor                      | SG90           | $1.990 | [https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r](https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r)                       |
+| LDR (5 unidades)                | GL5528         | $500   | [https://afel.cl/products/pack-5-fotoresistores-gl5528-ldr?_pos=1&_sid=ec4cfaec3&_ss=r](https://afel.cl/products/pack-5-fotoresistores-gl5528-ldr?_pos=1&_sid=ec4cfaec3&_ss=r) |
+| Sensor Ultrasónico              | HC-SR04        | $1.500 | [https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r)       |
+| Joystick                        | Tenstar        | $2.000 |  [https://afel.cl/products/joystick-palanca-de-mando?_pos=1&_sid=07e8f066d&_ss=r](https://afel.cl/products/joystick-palanca-de-mando?_pos=1&_sid=07e8f066d&_ss=r)              |
+| Micrófono Electret              | LM393          | $1.000 | [https://afel.cl/products/sensor-sonido-digital?_pos=1&_sid=64a83b1ea&_ss=r](https://afel.cl/products/sensor-sonido-digital?_pos=1&_sid=64a83b1ea&_ss=r)                       |
+| Sensor de Temperatura y Humedad | DHT11          | $2.300 | [https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11)                                               |
