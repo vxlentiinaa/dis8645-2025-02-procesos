@@ -98,16 +98,19 @@ La velocidad a la que rota depende de la frecuencia de la corriente alterna que 
 
 <img align="left" src="./imagenes/RGB.png" alt="RGB LED" title="Fuente: https://projecthub.arduino.cc/semsemharaz/interfacing-rgb-led-with-arduino-b59902" width=250>
 
-Es un paquete que combina un LED (Light Emitting Diode) rojo (Red), uno verde (Green) y uno azul (Blue). Variando la intensidad de la luz que cada uno de estos "sub-LEDs" emite, podemos controlar el color que el LED RGB produce.
+Es un paquete que combina un LED (Light Emitting Diode) ${\color{red}rojo\ (Red)}$, uno ${\color{green}verde\ (Green)}$ y uno ${\color{cyan}azul\ (Blue)}$. Variando la intensidad de la luz que cada uno de estos "sub-LEDs" emite, podemos controlar el color que el LED RGB produce.
 
-Estos LEDs tienen 4 pines, un Vcc o GND común y la patita de la polaridad opuesta de cada "sub-LED".
+Estos LEDs tienen 4 pines, un ${\color{Red}Vcc}$ o ${\color{Gray}GND}$ común y la patita de la polaridad opuesta de cada "sub-LED".
 
-#### Neopixel
+#### [Neopixel](https://youtu.be/JpHJH5QsbTM?si=ESAErdHxjFRlsaZh)
 
+<img align="left" src="./imagenes/neopixel.webp" alt="Neopixels" title="Fuente: https://microbit-micropython.readthedocs.io/en/v2-docs/neopixel.html" width=230>
 
+</br></br>
 
-### Other things: <!-- Things to organize + random stuff -->
-> ### SUB_SUBTITULO
+Son LEDs RGB donde cada LED puede ser controlado individualmente por un microcontrolador. </br> [Creados por Adafruit](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels).
+
+</br>
 
 -----------------------------------------------------------------------------------------------------------
 ## Encargo 12 <!-- leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes -->
