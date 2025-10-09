@@ -42,6 +42,8 @@ Las clases se ocupan cuando queremos ocupar estructuras de datos que no nos cabe
 
 Distintos archivos .h pueden ser dependientes unos de los otros, así que debo asegurarme de ponerles el #include, pero no es necesario que ponga, como en el ejemplo de la clase, el #texto para absolutamente todo, no, porque ya está incluido en otro archivo; de esta manera no haré mi código tan enredado.
 
+
+
 ## Encargo 9: "Escuchar y comentar uno de los tres primeros discos de la banda Primus".
 
 El disco que me dediqué a escuchar fue “Sailing The Seas Of Cheese”, que fue el 2.º disco de la banda Primus, que fue lanzado el 14 de mayo de 1991.
@@ -86,27 +88,31 @@ Mi canción favorita del disco definitivamente fue “Tommy The Cat” por la va
 
 Screenshot de la banda:
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat00.png)
+![Baterista](./imagenes/sesion-05b-TommyTheCat00.png)
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat01.png)
+![Luna](./imagenes/sesion-05b-TommyTheCat01.png)
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat02.png)
+![Guitarra](./imagenes/sesion-05b-TommyTheCat02.png)
 
 Screenshots de la narrativa:
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat03.png)
+![Bartender](./imagenes/sesion-05b-TommyTheCat03.png)
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat04.png)
+![Señor con barba](./imagenes/sesion-05b-TommyTheCat04.png)
 
 Screenshots de la animación:
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat05.png)
+![Gatos Olfateando](./imagenes/sesion-05b-TommyTheCat05.png)
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat06.png)
+![Gatos Animados](./imagenes/sesion-05b-TommyTheCat06.png)
 
-![Imagen dle videoclip](./imagenes/sesion-05b-TommyTheCat07.png)
+![No pun intended](./imagenes/sesion-05b-TommyTheCat07.png)
 
 Referencias:  
 
 - https://en.wikipedia.org/wiki/Sailing_the_Seas_of_Cheese
+- https://www.youtube.com/watch?v=r4OhIU-PmB8  
 
+## Encargo 10 "investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente"
+
+bleh

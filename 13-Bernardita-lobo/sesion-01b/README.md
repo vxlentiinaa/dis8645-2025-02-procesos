@@ -108,45 +108,114 @@ Lo ideal es que cada línea de código tenga un comentario explicando lo que hac
 
 ## Encargo-03: Programar y equivocarse 5 veces
 
-Estos errores me surgieron realizando los ejemplos vistos en esta misma clase. La idea era agregar un poema al código.
+Un poco desde el futuro, vuelvo a realizar estos ejemplos para entender nuevamente la programación, ya que me he encontrado un poco perdida. Decidí registrarlo aquí porque no me había gustado cómo me había quedado la organización de este encargo. Hoy es 8 de octubre, pero supongo que nunca es tarde para aprender, jajaja. Al menos eso quiero pensar ._.
 
-![foto de mi escritorio](./imagenes/tmc-sesion01b-foto.jpeg)
+Me fui guiando con una lista de mini tutoriales de Arduino y con la cuenta de GitHub de [johannpereze](https://github.com/johannpereze/cursoArduinoJohannPerezE)
 
-Agregué esto y me arrojaba error.
+> Video de referencia ["Cómo PROGRAMAR arduino UNO desde CERO"](https://youtu.be/EEKMPT_YcTI)
 
-Int tiempoPrendido = 100
-Int tiempoApagado = 300
+En este me costó mucho encontrar el error; lo releí varias veces hasta que me di cuenta de que le faltaba una R.
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo01.png)
+```ccp
+void setup() {
+pinM0de(13,OUTPUT);
+}
 
-Intenté replicar el código que hacía Aarón, ordenando y separando las líneas, ya que pensé que el error venía de otra parte.
+void loop() {
 
-Me volvió a arrojar error, me faltaban los punto y coma (;)
+digitalWite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(100);
+}
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo02.png)
+```
 
-Pensé que no se podía usar la palabra holaa, por tener dos letras a o por ser solo una palabra.
+Luego de corregir este ejemplo, pensé que el código iba a funcionar bien, pero no compilaba correctamente. Intenté sacar el LED que estaba en el pin 13, pero tampoco resultó.
 
-La cambié por una frase, y tampoco funcionó.
+Después volví a conectar el LED y revisé el código parte por parte, hasta que me di cuenta de que en pinMode había un cero en lugar de una letra O. La verdad, eso sí que me costó descubrir.
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo03.png)
+```ccp
+void setup() {
+pinM0de(13,OUTPUT);
+}
 
-Agregué un String con una frase entre comillas, pero no se solucionó.
+void loop() {
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo04.png)
+digitalWrite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(100);
+}
+```
 
-Quité la palabra poema y el signo igual (=), y me arrojaba error.
+Para la próxima le voy a preguntar a ChatGPT, porque perdí mucho tiempo buscando un error que no tenía nada que ver con la programación. Aunque, bueno, me imagino que en general así son los errores de programación.
 
-Agregué más de una palabra y no me funcionó; parece que después de String tiene que ir solo una palabra.
+```ccp
+void setup() {
+pinMode(13,OUTPUT);
+}
 
-Me di cuenta de que al final faltaba el punto y coma (;).
+void loop() {
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo05.png)
+digitalWrite(13,HIGH);
+delay(100);
+digitalWrite(13,LOW);
+delay(100);
+}
+```
 
-No logré hacer que se repitieran más de una frase.
+Aquí estuve probando cómo utilizar la protoboard con el Arduino, y me faltó un ;.
 
-La verdad, no pude encontrar una solución.
+> Video de referencia ["Cómo usar un PROTOBOARD Arduino desde CERO"](https://youtu.be/ycXI2E7iArY)
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo06.png)
+```ccp
+void setup() {
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-encargo07.png)
+pinMode(8,OUTPUT)
+}
+
+void loop() {
+digitalWrite(8,HIGH);
+delay(50);
+digitalWrite(8,LOW);
+delay(50);
+
+}
+```
+
+Aquí escribí bien el código usando el ejemplo de la clase.
+
+> Video de referencia ["VARIABLES Enteras en Arduino con Código MORSE"](https://youtu.be/r8sk5JzUWLQ)
+
+Sin embargo, se me olvidó cambiar el pin al 7, así que prácticamente no estaba conectado a la protoboard.
+
+```ccp
+int dot = 100;
+int dash = 300;
+int ledPin = 7;
+int finalDelay = 1500;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(ledPin,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(ledPin,HIGH);
+delay(dot);
+digitalWrite(ledPin,LOW);
+delay(dot);
+
+digitalWrite(ledPin,HIGH);
+delay(dash);
+digitalWrite(ledPin,LOW);
+delay(dash);
+
+
+digitalWrite(ledPin,HIGH);
+delay(dot);
+digitalWrite(ledPin,LOW);
+delay(dot);
+```
