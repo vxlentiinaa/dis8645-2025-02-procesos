@@ -20,7 +20,7 @@ El reloj de tiempo real es un dispocitivo electrónico que mide el paso del tiem
 
 ### [Nixi tubes](https://en.wikipedia.org/wiki/Nixie_tube)
 
-<img align="left" src="./imagenes/Nixie.gif" alt="txt" title="Fuente: https://en.wikipedia.org/wiki/Nixie_tube" width=150>
+<img align="left" src="./imagenes/Nixie.gif" alt="Nixie" title="Fuente: https://en.wikipedia.org/wiki/Nixie_tube" width=150>
 
 </br>
 
@@ -34,7 +34,7 @@ Instalación artística de Juan José Acuña, que consiste de un teléfono públ
 
 ### [DC motor](https://youtu.be/GQatiB-JHdI?si=goIzT3UkHXowmdzj)
 
-<img align="left" src="./imagenes/dcMotor.jpg" alt="txt" title="Fuente: https://altronics.cl/motor-r130" width=150>
+<img align="left" src="./imagenes/dcMotor.jpg" alt="Motor corriente continua (DC)" title="Fuente: https://altronics.cl/motor-r130" width=150>
 
 </br></br>
 
@@ -44,7 +44,7 @@ Cuando recive corriente gira en un sentido, cuando se invierte la polaridad gira
 
 #### [Vibrador](https://youtu.be/3hoBwa0ccys?si=pLKQnPnmO2eaj7h2)
 
-<img align="left" src="./imagenes/vibrator.jpg" alt="txt" title="Fuente: https://evakw.com/products/a1447" width=150>
+<img align="left" src="./imagenes/vibrator.jpg" alt="Motor vibrador" title="Fuente: https://evakw.com/products/a1447" width=150>
 
 </br></br>
 
@@ -54,9 +54,14 @@ Es un motor DC con un peso desvanceado, al girar el peso se mueve alrededor del 
 
 ### [Stepper motor](https://youtu.be/fQsdUhRwCU4?si=ZXM2dHAQC_YXJhkJ)
 
+<img align="left" src="./imagenes/stepper.jpg" alt="Stepper motor" title="Fuente: https://www.cimech3d.cl/producto/motor-stepper-bipolar-nema-17-41n-cm-cable-removible/?srsltid=AfmBOooy5_E2pou2_2MMFTH9PyO7uZ58_cpQ_gv6bzwuqcb5xDNwB6Wv" width=220>
 
+Son motores que rotan de forma continua en ambas direcciones en "pasos", lo que nos permite controlar su velocidad de rotación, distancia e incluso que mantenga su posición.
+</br> Son utilizados en aplicaciones donde se requiere de alta presición y la capacidad de rotar continuamente.
 
-### Servo motor
+Requieren de un driver especializado para controlarlos. Algunos drivers, como los TMC2209, hasta permiten usar el stepper como un sensor, al monitorear la cantidad de corriente que el motor consume en tiempo real, para medir el peso/resistencia contra la cual el motor está actuando.
+
+### [Servo motor]()
 
 
 
