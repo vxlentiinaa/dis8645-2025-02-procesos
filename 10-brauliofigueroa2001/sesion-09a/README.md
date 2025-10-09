@@ -301,6 +301,10 @@ void printDetail(uint8_t type, int value){
 - este código lo envió janis y mateo para otro grupo que estaba trabajando con un módulo dfplayer mini, fue sacado de [dfrobot](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299)
 - aún estoy intentando entenderlo, tuve un error algunas veces que compilé el cuál olvidé documentar, creo que tenía que ver con las bibliotecas porque era la única línea del código que daba error
 - el error aún aparece pero no es un impedimento para compilar y hacer funcionar el código, no sé si debería arreglarlo o si tendrá una mayor importancia en la parte final del proyecto
+- C:\Users\winil\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.5.0\cores\arduino/api/Binary.h:37:1: error: expected constructor, destructor, or type conversion before 'enum' 
+-Usando librería DFRobotDFPlayerMini con versión 1.0.6 en la carpeta: --C:\Users\winil\OneDrive\Documentos\Arduino\libraries\DFRobotDFPlayerMini 
+-exit status 1
+- este es el error que tiró al compilar, desconozco aún por qué es, hay veces que aparece y otras que no
 - lo que he logrado con este código de momento fue reproducir 2 pistas de audio diferentes, de 2 segundos cada una aproximadamente. Eran audios de maullidos de gato solo para probar el funcionamiento, las saqué de youtube (adjuntar link)
 - tuve que subir los archivos a la tarjeta SD la cuál debía estar previamente formateada, en este caso los archivos se deben guardan en un orden específico, el reproductor los leerá según el orden que los subimos
 - se deben numerar 0001, 0002, 0003, etc para que siga este orden de reproducción
@@ -379,4 +383,6 @@ preguntas para el módulo mp3
 -  2 9 3 1 0
 -  3 9 2 1 8 4
 -  esta secuencia se podría repetir en algún momento o cierta parte, si yo lo manipulo deja de ser aleatorio porque ya no lo estoy dejando al azar, tengo cierto control sobre esto
+-  según [wikipedia](https://es.wikipedia.org/wiki/Azar#:~:text=El%20azar%20es%20una%20casualidad,Azar%20en%20matem%C3%A1ticas) el azar es: El azar es una casualidad,[1]​ presente, teóricamente, en diversos fenómenos que se caracterizan por causas complejas, no lineales y sobre todo que no parecen ser predecibles en todos sus detalles. Dependiendo del ámbito al que se aplique, se pueden distinguir cuatro tipos de azar:
+
 
