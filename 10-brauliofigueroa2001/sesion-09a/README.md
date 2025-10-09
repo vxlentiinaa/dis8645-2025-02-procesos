@@ -16,7 +16,7 @@
 
 - documentación investigación de dfplayer mini, módulo mp3
 
-- [pinoutdfplayer](./imagenes/pinoutdfplayer.JPG)
+- ![pinoutdfplayer](./imagenes/pinoutdfplayer.JPG)
 
 - generar alguna especie de índice en la que aparezcan los audios que quiero reproducir
 
