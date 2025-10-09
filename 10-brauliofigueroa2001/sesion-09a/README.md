@@ -328,6 +328,10 @@ void setup() {
   myDFPlayer.outputDevice(DFPLAYER_DEVICE_SD);  // Selecciona la tarjeta SD como dispositivo de salida.
 }
 
+
+
+ 
+
 void loop() {
   myDFPlayer.playFolder(1, 1);  // Reproduce el primer archivo en el primer folder.
   Serial.println("Reproduciendo pista 1");  // Imprime un mensaje en el monitor serial.
@@ -359,4 +363,20 @@ preguntas a chatgpt que pudieran servir
 - estoy haciendo una comparación entre: myDFPlayer.play(1); // play the first mp3 y myDFPlayer.playfolder(1,2) para ver cuál puede servir para establecer una lista aleatoria
 - según lo que entendí con mis palabras: myDFPlayer.play(1) reproduce el primer archivo que encuentre dentro de la SD según el orden en que lo subí, por ejemplo si subo 0001, 0002, 0003 irá reproduciendo en orden como tal según lo encuentre
 - según lo que entendí con mis palabras: myDFPLayer.playfolder(1,2) significa que reproducirá de la carpeta 1 el segundo audio, si pongo playfolder(1,1) reproduce el primer audio de la carpeta 1
+
+### documentación jueves 9 de octubre, 17:20 hrs
+
+preguntas para el módulo mp3
+- ¿cuánto almacenamiento tiene?
+- ¿cuántas pistas de audio utilizaremos?
+- ¿qué dirán las pistas de audio? está pendiente definir las cosas que dice la máquina, evaluar qué tan absurdo es
+- cómo establecer que pueda reproducir la lista de forma aleatoria en un loop, ejemplo: audio1, audio 3, audio 5, audio 2, audio 3, audio 5
+- para qué sirve case
+- ¿qué es la aleatoriedad? dentro de estos números que se puedan dar, se podrán repetir en verdad porque el azar no establece que algo no se pueda repetir
+- ¿por qué queremos que sea aleatorio? porque queremos que cause sorpresa/desconcierto en el usuario
+-  1 3 9 8 7 5
+- 1 9 2 0 1 9 4
+-  2 9 3 1 0
+-  3 9 2 1 8 4
+-  esta secuencia se podría repetir en algún momento o cierta parte, si yo lo manipulo deja de ser aleatorio porque ya no lo estoy dejando al azar, tengo cierto control sobre esto
 
