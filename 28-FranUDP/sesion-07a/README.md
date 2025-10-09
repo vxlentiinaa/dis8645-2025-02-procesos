@@ -61,17 +61,38 @@ Son motores que rotan de forma continua en ambas direcciones en "pasos", lo que 
 
 Requieren de un driver especializado para controlarlos. Algunos drivers, como los TMC2209, hasta permiten usar el stepper como un sensor, al monitorear la cantidad de corriente que el motor consume en tiempo real, para medir el peso/resistencia contra la cual el motor está actuando.
 
-### [Servo motor]()
+### [Servo motor](https://youtu.be/1WnGv-DPexc?si=TKe5yXUx39lavBYq)
 
+<img align="left" src="./imagenes/sg90.jpg" alt="Servo" title="Fuente: https://www.mercadolibre.cl/servo-motor-sg90-180-proyectos-arduino-pic-raspberry/up/MLCU120233990" width=160>
 
+Motor similar al stepper, en cuanto a que podemos controlar su posición, sin embargo solo puede rotar desde 0 a 180°.
 
-### Solenoide
+Hay otro tipo de servos, de rotación continua, que pueden rotar 360°+ continuamente (de ahi el nombre), pero estos a diferencia de los anteriores no nos permiten controlar con presición el ángulo, sino la velocidad de rotación
 
+</br>
 
+### [Solenoide linear](https://www.youtube.com/watch?v=nwVRMU9grSI)
 
-### Motor sincrono
+<img align="left" src="./imagenes/solenoid.jpg" alt="solenoide" title="Fuente: https://www.indiamart.com/proddetail/linear-solenoid-2850834230273.html" width=160>
 
+</br>
 
+Es un electroimán que al darle corriente en un sentido empuja con un pistón y al darle energía en el sentido opuesto, tira con el pistón. </br>
+Los utilizamos para hacer la [maquina percutora de Sokio](https://github.com/FranUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP/sesion-02a)
+
+</br>
+
+### [Motor síncrono](https://youtu.be/Tk3lNBSAgEg?si=OWlQzhQpb5f_Sxfr)
+
+<img align="left" src="./imagenes/synchronous-motor.jpg" alt="motor síncrono explicación" title="Fuente: https://circuitglobe.com/synchronous-motor.html" width=250>
+
+</br>
+
+Es un motor que combina corriente alterna (AC) y directa (DC), para lograr un motor que siempre gira a la misma velocidad, sin importar la carga o resistencias aplicadas al motor.
+
+La velocidad a la que rota depende de la frecuencia de la corriente alterna que se le aplique.
+
+</br>
 
 ### RGB LED
 
