@@ -1,5 +1,8 @@
 // Interacción/Resultado en base al color
-// Elige la respuesta según el estimulo
+// Elige una respuesta según el estimulo
+// sensores: sensor de color
+// actuador: pantalla, reproductor mp3
+// estados del sistema: PORHACER
 // Fases de la interacción:
 // 1. Pantalla modo standby - se reproduce animación neutra
 // 2. Persona gira la perilla mecanica de forma manual y sale un dulce
@@ -7,28 +10,23 @@
 // 4. en base al color reconocido se activa respuesta de pantalla (animación) y auditiva (10 segundos maximo de respuesta)
 // 5. Despues de un momento sin respuesta vuelve al estado inicial
 
+// incluir clase
+#include "SensorColor.h"
+
+SensorColor sensorColor;
 
 void setup() {
+  sensorColor.configurar();
   // biblioteca();
-
-  // valoresColores();
-
-  // Normalizar();
-  // configurarSensorColor();
   // configurarTerminal();
-
   // Serial.begin(9600);
-
   // if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C))
 }
 
 void loop() {
-  // leerSensor();
-
+  sensorColor.leer();
   // tomarDecisiones();
-
   // String colorDetectado = "NADA";
-
   // if (cercaDe(rojoPW, 15) && cercaDe(verdePW, 8) && cercaDe(azulPW, 9)) {
     // colorDetectado = "VERDE";
   // } else if (cercaDe(rojoPW, 16) && cercaDe(verdePW, 10) && cercaDe(azulPW, 10)) {
