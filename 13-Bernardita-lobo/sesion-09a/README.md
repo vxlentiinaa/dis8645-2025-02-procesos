@@ -4,24 +4,27 @@
 
 ### Cosas que hablamos en la mañana
 
-- vimos el proyecto de un grupo de trabajo, era un robot que lebantaba el dedo.
+Vimos el proyecto de un grupo de trabajo, era un robot que levantaba el dedo.
 
-- etica y geomeria, angulos peligrosos.
+Ética y geometría, ángulos peligrosos.
 
-- ejemplos de clases, es importante separ los datos y parametros del codigo principal, por si hay que cambiar algo no modificar por error el, codigo principal.
+En los ejemplos de clase aprendimos que es importante separar los datos y parámetros del código principal, para evitar modificarlo por error si hay que hacer algún cambio.
 
+### Avances del Proyecto-02
 
+Aarón nos ayudó a ordenar las clases. Conversamos un poco con el grupo sobre lo que debíamos ir definiendo.
 
-hacer un indice para hacer una lista de sonidos randoms para el m
+La idea es crear un índice para generar una lista de sonidos aleatorios para el módulo MP3.
 
-si esta cerca algo del sensor ultrosonico, tira un dado para emitir aleatoriamente un sonido, 
+Cuando el sensor ultrasónico detecte algo cerca, el sistema “tira un dado” para emitir un sonido al azar, utilizando la estructura switch case.
 
-switch case
+Este ejercicio me sirve para entender cómo funcionan los botones y, a partir de eso, poder crear un código que ejecute sonidos aleatorios. Luego, la idea es ir explicando cada parte para comprender mejor su funcionamiento.
 
-este ejercicio para entender como funcionan los botones y con esto poder hacer un codigo aleatorio, luego la idea esque pueda ir explicandolo, para entender cada parte.
+Últimamente he tenido demasiadas cosas y peso emocional-mental, lo que no me ha permitido avanzar y aprender como quería. Por eso he estado muy perdida. Misa me explicó un poco cosas que ya debería saber de programación. Espero no haberlos decepcionado, he intentado ponerme al día, porque para mí esto es importante ;-;
 
-https://docs.arduino.cc/built-in-examples/digital/Button/
+En clase, Misa me dijo que primero entendiera cómo hacer funcionar un botón, así que intenté explicar un poco lo que iba ocurriendo en el código con ayuda de ChatGPT, y luego pasarlo a mis palabras para poder entenderlo mejor.
 
+> [Ejemplo de botón](https://docs.arduino.cc/built-in-examples/digital/Button/)
 
 ```cpp
 /*
@@ -75,12 +78,11 @@ void loop() {
     digitalWrite(ledPin, LOW);
   }
 }
-
 ```
 
-### Aquí agregué mis cometarios para entender el codigo 
+Aquí agregué mis cometarios para entender el codigo 
 
-creo que logre entender mejor, se que tengo que repasar ;(
+Creo que logré entender mejor cómo funciona el código, sé que todavía tengo que repasar ;(
 
 ``` cpp
 /*
@@ -149,11 +151,13 @@ void loop() {
 }
 ```
 
-la idea es hacer un listado de frases, sonidos para poder hacerlo aleatorio con el monitor serial.
+La idea es hacer un listado de frases y sonidos para poder reproducirlos de forma aleatoria con el monitor serial.
 
-igual, yo me pregunto si es necesario que sea aleatorio si de por si tenia un orden desconectado, aunque puede ser un listado desconectado.
+Igual, me pregunto si realmente es necesario que sea aleatorio, si de por sí ya tenía un orden desconectado, aunque puede funcionar como un listado independiente.
 
-piskel
+Luego, como encargo o tarea, volví a repasar en mi casa.
+
+[Piskel](https://www.piskelapp.com/p/create/sprite/), para hacer gift en pixelart.
 
 ### Referentes
 
@@ -167,4 +171,6 @@ piskel
 
 ## Encargo
 
-###
+### Repaso
+
+Como mencioné, volví a repasar un poco y fui haciendo algunos ejemplos que dejé registrados en la clase 01b, ya que ahí había un encargo parecido que sentía que no podía hacer muy bien, así que lo volví a realizar.
