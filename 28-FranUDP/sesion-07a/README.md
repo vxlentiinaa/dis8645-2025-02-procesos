@@ -114,8 +114,56 @@ Son LEDs RGB donde cada LED puede ser controlado individualmente por un microcon
 
 -----------------------------------------------------------------------------------------------------------
 ## Encargo 12 <!-- leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes -->
-### TITULO
+### Comparación con los otros grupos
 
+#### [Grupo 1](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/04-yamna-bit/sesion-07a)
+
+Quieren hacer que un reproductor mp3 reprodusca distintos audios con un parlante, dependiendo de la distancia a la cual se encuentre la persona de un sensor ultrasónico, y que además con un servo produsca un movimiento.
+
+Nuestro proyecto también utiliza servos, pero uno de ellos se mantiene en constante movimiento, mientras que la posición del otro varía constantemente dependiendo de las mediciones del sensor ultrasónico. </br> 
+Su código nos podría servir para hacer que nuestro proyecto le hable al usuario al detectar que se ha acercado.
+
+#### [Grupo 2](https://github.com/disenoUDP/dis8645-2025-02-procesos/blob/main/07-valechavezalb/sesion-07a/README.md)
+
+Están haciendo un alien que te entrega un dulce de un color aleatorio, detecta el color del dulce con un sensor de color y te saluda de una forma distinta, dependiendo del color del dulce.
+
+según entiendo, al leer la bitácora y ver la lista de materiales, el usuario acciona un mecanismo para retirar el dulce, en lugar de la máquina detectar al usuario y dar el dulce en respuesta.
+
+Al igual que nosotros, utilizan un modulo mp3 y un parlante.
+
+#### [Grupo 3](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/01-antokiaraa/sesion-07a) 
+
+Quieren hacer una pantalla que despliegue un menú de idiomas y que al seleccionar uno con un rotary encoder, un módulo mp3 conectado a un parlante te salude en dicho idioma.
+
+Nosotros también usamos un módulo mp3 conectado a un parlante para reproducir mensajes, sin embargo queremos que el mensaje se reprodusca cuando un sensor ultrasónico detecte que la persona está cerca.
+
+#### ${\color{orange}Grupo\ 4}$
+
+Constituido por [10-brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a), [13-Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a), [17-jotamorales-romulus](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/17-jotamorales-romulus/sesion-07a), [20-Camila-Parada](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/20-Camila-Parada/sesion-07a) y 28-FranUDP (yo)
+
+Estamos haciendo una máquina que con 2 sensores ultrasónicos, puestos en un ángulo haciendo que miren la misma zona, se triangule la posición del usuario.
+
+ Sabiendo donde está ubicada la persona, un servo moverá un par de ojos, haciendo que el proyecto mantenga contacto visual en todo momento con el usuario, esto se debe a que los seres humanos nos solemos sentir perturbados o incomodos ante el contacto visual prolongado, haciendo que una vez el usuario note que la máquina lo está siguiendo con la mirada, no pueda evitar interactuar con esta.
+
+ Una vez el usuario se acerque, un reproductor mp3 conectado a un parlante reproducirá un mensaje de saludo aleatorio.
+
+ También habiamos considerado la idea de tener otro servo controlar los párpados y que al detectar una persona los abra antes de seguirla con la mirada, y que tras saludarlo los cierre.
+
+ Una de las dudas que tengo es cómo evitar que el proyecto se mantenga mirando un objeto inerte, ignorando al usuario. Para evitar eso la máquina tendría que poder discernir entre un objeto inerte y un ser vivo, tal vez reconociendo si uno se muevo o no.
+
+#### [Grupo 5](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/23-Coff4/sesion-07a)
+
+Según entiendo, quieren hacer un robot que decide si te saluda o no, dependiendo de la temperatura ambiente. Si decide saludarte mueve la mano y muestra un mensaje en un display, en caso de no querer saludarte, solo muestra una explicación en el display.
+
+Se asemeja a nuestro proyecto en cuanto a que detecta la prescencia de un humano con un sensor ultrasónico.
+
+#### [Grupo 6](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/12-santiagoClifford/sesion-07a)
+
+Quieren hacer algo muy similar a nosotros, un robot que te sigue con la mirada para acerte sentir incómodo.
+
+A diferencia de nosotros, ellos decidieron emplear micrófonos para detectar la posición del usuario, lo cual me parece una solucion bastante compleja.
+
+Tras revisar las bitácoras del equipo no se qué más hace su proyecto a demás de mirar en la dirección del usuario.
 
 -----------------------------------------------------------------------------------------------------------
 ## Encargo 13 <!-- buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo -->
