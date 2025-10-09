@@ -146,3 +146,105 @@ void calibrateScales() {
   Serial.println("Si saturan (valores 1023 frecuentes), reduce VIRTUAL_PEAK o baja ganancia hardware.");
 }
 ```
+## Clase
+
+Hoy en la clase estuvimos trabajando en nuestros proyectos. Durante la primera parte de la clase, Aarón fue pasando por los distintos grupos para ayudarnos a revisar y ordenar nuestro código en Arduino, resolviendo dudas y dándonos sugerencias para mejorar la estructura y el funcionamiento del programa.
+
+Archivo grupo-06.ino
+
+```cpp
+// incluir clase Microfono
+#include "constantes.h"
+#include "Microfono.h"
+#include "Cuello.h"
+#include "Parpados.h"
+
+
+// variable temporal para lecturas
+unsigned int sample;
+
+unsigned long startMillis;
+
+Microfono izquierdo;
+Microfono derecho;
+
+Cuello cuello;
+Parpados parpados;
+
+bool imprimir = true;
+
+void setup() {
+  
+  cuello.configurar();
+  parpados.configurar();
+
+  // inicia monitor serial
+  Serial.begin(9600);
+
+  // configurar patitas
+  izquierdo.configurarPatita(patitaMicIzquierdo);
+  derecho.configurarPatita(patitaMicDerecho);
+}
+
+void loop() {
+  // inicio de la ventana
+  startMillis = millis();
+
+  // recolecta datos durante sampleWindow
+  while (millis() - startMillis < sampleWindow) {
+
+    // leer micrófonos
+    // se leen secuencialmente
+    // en Arduino UNO el ADC es multiplexado
+
+    izquierdo.leer();
+    izquierdo.actualizarMinMax();
+
+    derecho.leer();
+    derecho.actualizarMinMax();
+
+    izquierdo.actualizarPeakToPeak();
+    derecho.actualizarPeakToPeak();
+
+    if (imprimir) {
+      Serial.print("izquierdo ");
+      izquierdo.imprimirEnConsola();
+      Serial.print(", ");
+      Serial.print("derecho ");
+      derecho.imprimirEnConsola();
+      Serial.print("\n");
+    }
+
+    // // Conversión a voltios (si usas 5V como referencia):
+    // // double volts1 = (peakToPeak1 * 5.0) / 1024.0;
+    // // double volts2 = (peakToPeak2 * 5.0) / 1024.0;
+    // // Serial.print("V1: "); Serial.print(volts1); Serial.print(" V, V2: "); Serial.println(volts2);
+
+      cuello.moverMotorcillo(0, 1000);
+      parpados.moverMotorcillo(0, 200);
+      parpados.moverMotorcillo(70, 200);
+      cuello.moverMotorcillo(100, 1000);
+      parpados.moverMotorcillo(0, 200);
+      parpados.moverMotorcillo(70, 200);
+  }
+}
+
+```
+
+Más tarde, junto a Matías fuimos al laboratorio para probar la parte del proyecto relacionada con los micrófonos. La idea inicial era captar la amplitud de las voces y usar esa señal como entrada para el sistema. Sin embargo, al hacer las pruebas notamos que los micrófonos no lograban detectar correctamente las variaciones de sonido, por lo que los resultados no fueron los esperados.
+
+Debido a eso, decidimos descartar el uso de micrófonos y buscar una alternativa más estable. Finalmente, optamos por reemplazarlos con un sensor ultrasónico, que nos permitirá medir distancias o movimientos para continuar avanzando en nuestro proyecto.
+
+### Microclase de Misa
+
+![foto_uno](./imagenes/foto_uno.jpeg)
+
+Onda cuadrada, súper definida.
+
+![foto_dos](./imagenes/foto_dos.jpeg)
+
+Prueba con uno de los micrófonos.
+
+![foto_tres](./imagenes/foto_tres.jpeg)
+
+En esta medición se ve la línea amarilla con un poco de ruido (uno de los micrófonos) y la línea rosada más estable (el otro micrófono). Ya que un micrófono estaba captando más sonido que el otro.

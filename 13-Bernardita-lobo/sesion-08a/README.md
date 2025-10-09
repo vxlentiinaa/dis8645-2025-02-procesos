@@ -14,5 +14,12 @@ Martes 30 de septiembre, 2025
 
 ### Palabras impoertantes
 
-## Encargo
+## Encargo resumir lo que llevamos hasta el momento
+
+### Sensor Ultrasonico HC-SR04
+
+### dfplayer mini
+
+con un codigo del grupo
+
 
