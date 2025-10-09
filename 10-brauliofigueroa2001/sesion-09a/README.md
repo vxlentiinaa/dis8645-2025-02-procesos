@@ -20,7 +20,7 @@
 
 - vamos a establecer que a cierta distancia sea cierto sonido? o sea habrán distancias a las que se activen ciertas cosas y otras no?
 
-**preguntas a chatgpt que pudieran servir**
+preguntas a chatgpt que pudieran servir
 
 - qué función cumple el "playfolder"
 - La función playFolder() es parte de la librería DFRobotDFPlayerMini y sirve para reproducir un archivo MP3 específico dentro de una carpeta concreta de la tarjeta SD del DFPlayer Mini.
