@@ -83,11 +83,11 @@ Es difícil hacer que funcionen los códigos en nuestros computadores, pero es a
 
 ### Referentes
 
-<https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal>
+- https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal
 
-<https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1>
+- https://www.youtube.com/watch?v=JukTvlrh-Wk&rco=1
 
-<https://www.instagram.com/nrmbnt/?hl=es> tesis de flores en pantallas que se mueven
+- https://www.instagram.com/nrmbnt/?hl=es tesis de flores en pantallas que se mueven
 
 ### Palabras importantes
 

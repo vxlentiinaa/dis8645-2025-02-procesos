@@ -1,0 +1,1 @@
+// Si se identifica un color se reproduce el audio correspondiente a ese color

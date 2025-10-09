@@ -1,109 +1,130 @@
-# ⋆₊˚⊹♡ Clase 08a - Vuelta de clases ♡⊹˚₊⋆
+# ⋆₊˚⊹♡ Clase 08a - Avances de hormiga ♡⊹˚₊⋆
 
-Martes 23 Septiembre 2025
+Martes 30 Septiembre 2025
 
 ***
 
 ## Observaciones
 
-El día anterior, mediante discord, se nos enviaron los siguientes links a modo de tener antecedentes de lo que veremos.
-Primero se enviaron una sere de componentes nuevos para aplicar al Arduino: un [shield (escudo) para arduino](https://afel.cl/products/shield-data-logger-para-arduino-uno-mega) y un [módulo de reproductor](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini) que se puede conectar. La primera pieza es un circuito que cumple la función para poder registrar datos, mientras que el otro es un reproductor de audio MP3. Además de ello, se nos compartió la estrucutra para poder trabajar en el próximo [encargo grupal](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-proyecto-02).
-
-Hoy, a la vuelta comenzaron hablando y mencionando varios referentes. Primero, nombraron colectivos:
-- Toda la teoria del universo (Concepción): https://www.instagram.com/_todalateoriadeluniverso/
-- Susana Chau (Coordinadora TTU): https://www.instagram.com/robot_infame/
-- Yuk Hui : https://uchile.cl/noticias/224945/entrevista-a-yuk-hui-filosofo-de-tecnologia-hongkones-
-- Liquen Lab (Magallanes): https://liquenlab.cl/
-- Museo del Hongo: https://www.instagram.com/museodelhongo/?hl=es
-
-Encargo para el viernes: Traer 10 proyectos de internet de cosas que se pueden probar, inspirar, usar como herramienta de estudio y bitácora.
-Se puede buscar en páginas como [Instructables](https://www.instructables.com/) o [Projecthub de Arduino](https://projecthub.arduino.cc/) (entregados por Jannis <3).
-
-A la par se mostró un libro que va a servir de referencia y aprendizaje ["Beginning NFC: Near Field Communication with Arduino, Android, and PhoneGap"](https://books.google.cl/books?id=ScuYAgAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false).
-
-Además, hablamos de sensores y módulos que nos pueden interesar, a ver cómo serán costeados, las oportunidades de negociar.
-
-Luego se nos mostraron varios referentes: 
-
-- https://itp.nyu.edu/physcomp/
-- https://hackaday.com/ (https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
-- https://cwandt.com/
-
-* Motor DC: es muy rápido, pero no sabe donde está.
-* Step Motor: Se mueve a grados según una indicación de los pasos.
-* Servomotor: Sabe donde está y es relativamente preciso. Hay distinto según los ángulos de rotación
-* Solenoides: Movimiento líneal (Actuadores lineales). Usan mucha corriente
-* Motor síncrono: Se usa en escaleras mecánicas.
-
-## Proyecto para la solemne 02
-
-Una máquina, que te siga con los ojos (mirada) que posea una oreja que al acercarse emita un sonido pregrabado (No definido).
-Se requieren motores, sensores ultrasonicos, micrófono, parlante,
-
-1. La persona ingresa a una habitación (sin muebles).
-2. La máquina se activa y "abre los ojos" (el dispositivo se encuentra siempre funcionando) al detectar presencia (usando un sensor infrarrojo que detecte el calor).
-3. La máquina procede a simular el movimiento ocular usando servomotortes, como una forma de demostrar que funciona y "está despierto".
-4. Cuando la persona se acerca a una distancia precisa de x cm, un sensor de proximidad activa otra parte de la máquina.
-5. Este segmento de la máquina emite una serie de sonidos pregrabados de forma aleatoria.
-6. Una vez la persona se aleja la máquina cierra los ojos.
+Esta clase fue más libre. Tanto así que me incomodo un poco. Por lo que tengo entendido la idea es ir trabajando con código e ir aprendiendo a como usar cada parte de nuestro proyecto (Sensor ultrasónico, servomotores, reproductor mp3, entre otros) a la par que se va realizando códigos para ello.
+En mi caso en particular me centré en comprender el funcionamiento del [servomotor sg90](https://arduino.cl/producto/micro-servo-motor-sg90-9g/?srsltid=AfmBOopUK1FSSvEOeee794pcjIBccD8B2MQF36GlEjuMTAzqI4rHkSnN).
 
 ***
 
-### Escritos del discord (Por [@FranUDP](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP), editados para que tenga coherencia)
+## Aprendiendo más sobre el "Servomotor S90"
 
-Entrada (input): 2 Sensores de ultrasonido (distancia) para triangular posición del usuario en el espacio (eje x e y). Detecta cuando la "persona" se encuenta a muy corta distancia.
+Los servos son actuadores de tipo motor que permiten controlar el posicionamiento físico de manera precisa al moverse según las indicaciones.
+Las partes de las que se componen suelen poseer una unidad de control que cuenta con un circuito integrado (controlador), un motor de corriente continua, engranajes (plásticos o metálicos), un potenciómetro además de contener piezas que ayudan a transmitir el movimiento (servo horns o cuernos).
+El controlador se encarga de comparar y ajustar la posición del motor a la indicada, mientras que el potenciómetro funciona como un sensor de retroalimentación que informa la posición actual.
+Para poder controlar este tipo de motor es necesario el enviarle una serie de pulsos eléctricos (descargas de alto voltaje de pulso rápido y corta duración), cuya longitud determina la posición del servomotor. 
 
-Salida (output): actúa una serie de servomotores en un mecanísmo que simulan ojos humanos. Estos siguen al usuario con la "mirada". Al acercarse a cierta distancia un parlante emite sonido pre-grabado, perteneciente a una lista de archivos, de forma aleatoria.
+**¡¡¡Vale aclarar existe un estándar para poder relacionar de forma exacta entre los pulsos y la posición del motor!!!**
 
-Sensores: Ultrasónico, infrarrojo (para averiguar).
+Toda esta teoría sobre los servos fue adquirida gracias a [MCI Electronics](https://cursos.mcielectronics.cl/2023/06/28/como-utilizar-un-servo-motor-con-arduino). Al intentar entrar nuevamente al enlace, me dí cuenta que la página se calló, por lo que decidí buscar dicho link en la [Wayback Machine](https://web.archive.org/web/20240421145837/https://cursos.mcielectronics.cl/2023/06/28/como-utilizar-un-servo-motor-con-arduino/).
 
-Links de compra:
-- https://afel.cl/products/sensor-de-ultrasonico-hc-sr04
-- https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=10&_sid=9bafdb32f&_ss=r
-- https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=0b93ebcb6&_ss=r
-- https://www.mechatronicstore.cl/altavoz-8-ohm-1w/?srsltid=AfmBOorYd_ZdSsyd2QMst1Va9CZJEafOTb68oafW4jWeQ_nzC1nVphqa
+![imagen](./imagenes/servomotor-partes.png)
 
-Dudas / ataos: ¿Cómo obtener lecturas estables del sensor ultrasónico?, ¿Cómo evitar que los ojos se queden fijos en objetos inmoviles (ambiente)?
+-> Recuperado de: https://naylampmechatronics.com/blog/33_tutorial-uso-de-servomotores-con-arduino.html
+
+Puesto que soy de ir a la práctica y luego al estudio es que estuve averiguando a través de videos de youtube para saber la implementación del código. Estuve viendo varios tutoriales explicativos (["Cómo Usar SERVOMOTOR Arduino" - Johann Perez E](https://youtu.be/GUhPrO1BEJ0?si=34x7leOxCQy0DmKY), ["Servo SG90 with Arduino UNO" - RoboTantra](https://youtu.be/5bEHd8h_p-k?si=yi9lFM3OvyYMu7ic), ["Como probar si funciona un servomotor, código y conexión con arduino" - Ivan Espinoza](https://youtu.be/X-xXYQfeaMo?si=8sMIqRgPhZVGC06c)), de los cuales pude identificar que algunos utilizaban los pines análogos y otros los pines digitales (de los cuales sólo 1 utilizaban los pwm).
+
+Al ver el último video tutorial pude hacer funcionar el servomotor son mayor dilemas, puesto que en los anteriores fue más complicado el definir las ubicaciones del motor o tuve problemas con la corriente.
+
+El código es el siguiente:
+
+``` cpp
+
+#include <Servo.h>
+Servo prueba2; 
+void setup() 
+     
+     {
+prueba2.attach(A0);   // CABLE DE SEÑAL CONECTADO EN LE PUERTO 3 DEL ARDUINO UNO
+
+}
+
+void loop() 
+
+    {
+        prueba2.write(0);      //EMPIEZA EN 0 GRADOS POR 2 SEGUNDOS.
+        delay(2000); 
+        prueba2.write(90);     //LUEGO SE MUEVE A 90 GRADOS POR 2 SEGUNDOS. 
+        delay(2000); 
+        prueba2.write(180);    //LUEGO SE MUEVE A 180 GRADOS POR 2 SEGUNDOS.
+        delay(2000); 
+        
+   }
+
+```
+
+https://github.com/user-attachments/assets/5c587cdb-5530-41b3-85f5-973918128bd9
+
+-> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-08a/video/IMG_0662.mp4
+
+Ante ello, me pregunté porque según la persona y su proyecto se utiliza un distinto tipo de pin de entrada del arduino.
+
+Al indagar sobre el tipo de salidas de los pines de arduino, estas se pueden clasificar entre análogos y digitales.
+
+### Arduino: pines Digitales y Análogicos
+
+Los [pines digitales](https://controlautomaticoeducacion.com/sistemas-embebidos/arduino/entradas-digitales/) (enumerados desde el 0 al 13, siendo un total de 14) permiten leer valores binario (0 o 1, true o false, 0V o 5V). Cuando al entrada hace una "lectura" del mundo real a través de un sensor, lo hace mediante un umbral donde el valor promedio es de 2,5V. Ante ello, todos los valores que sean mayores que lo superen serán denóminados como "HIGH", y su contraparte aquellos valores menores se nombran como "LOW". O se está "encendido" o "apagado". Para aquellos sensores que requieren más voltaje del que permite arduino (5V) hay que diseñar un "circuito externo" que ayude a controlar la tensión del voltaje inicial. El modo de obtener información por parte de los sensores es utilizando el comando "digitalRead", mientras que para mostrarlo en el monitor serial se utiliza "digitalWrite"
+
+En cuanto a los [pines análogos](https://cursos.mcielectronics.cl/2022/08/27/entradas-analogicas-en-arduino/) (enumerados desde el A0 al A5, siendo un total de 6), estos son un tipo de entrada que puede emitir y recibir una señal que va en un intervalo de voltaje, en este caso pudiendo abarcar desde 0V a 5V incluyendo valores con números decimales. Vale mencionar que estos son escasos dentro del arduino, puesto que son más caros que una entrada digital. La forma en la que funcionan estas entradas es "proporcionando una medición codificada en forma de un valor digital en forma de bits (unidad minima de información codificado en valor binario, o 0 o 1)", proceso que resulta más lento. Para poder realizar una lectura del sensor se utilia "analogRead", un comando que va a arrojar un valor devuelta que será codificado como un número entre 0 y 1023.
+
+Tras esta información probé un código que viene como ejemplo en el arduino, denominado "sweep".
+
+``` cpp
+/* Sweep
+ by BARRAGAN <http://barraganstudio.com>
+ This example code is in the public domain.
+
+ modified 8 Nov 2013
+ by Scott Fitzgerald
+ https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+*/
+
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0;    // variable to store the servo position
+
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15 ms for the servo to reach the position
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15 ms for the servo to reach the position
+  }
+}
+
+```
+
+https://github.com/user-attachments/assets/a4089afc-0f1c-4071-a95d-0d2475d9af8a
+
+-> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-08a/video/IMG_0663.mp4
+
+Dicha pieza de código me ayudó a entender más el cómo trabajar utilizando los pines digitales al ponerlos en práctica modificando los valores de los pines y la posición de los servos.
 
 ***
 
-### encargo-12: Análisis de Bitácoras
+## Proyectos de referencia
 
-"Revisar las bitácoras de los demás alumos y sus proyectos grupales. A partir de ello comentas semejanzas y diferencias entre estos para poder difereciarse.
-A la par, investigar sobre proyectos que puedan servir como referentes de materialidades, códigos, circuitos, modelado, entre otros."
+https://github.com/ManlyMorgan/Animatronic-Eye/blob/main/03_calibration/calibration/calibration.ino
 
-***
+https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/
 
-### encargo-13: Referencias para el proyecto
-
-"Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), 2. código, 3. materialidad, 4. documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo."
-
-#### 1. Lenguaje natural:
-
-- [Animatronic Eyes](https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/): Este es un proyecto que se centra en el desarrollo de unos ojos mecánicos. No utiliza un sensor para actuar, pero es un apoyo a la hora de entender cómo es el funcionamiento de este tipo de piezas compuestas (construcción, materiales, código, etc).
-Por la parte conceptual, la mirada es un acto de presencia. La conexión que ocurre al visualizar los ojos con alguien nos da la sensación de ser presenciados, de existir. Para ello leí este [artículo de wikipedia](https://es.wikipedia.org/wiki/Mirada_(Psicolog%C3%ADa)) para usarlo como parte de una investigación, con la finalidad de definir proximamente si la mirada se centrará en el sujeto, o si talvez jugar y crear una máquina que rechaza el mirar qué es lo que se ubica delante suyo.
-
-#### 2. Código.
-
-- [Audio Player Using Arduino With Micro SD Card](https://www.instructables.com/Audio-Player-Using-Arduino-With-Micro-SD-Card/): Un referente realizado hace 8 años. Es por su antiguedad que se ha podido crear una serie de comentarios de otros "makers" sobre dudas y sus soluciones con código. Puede ayudar a entender cómo es la parte de codificación del arduino para poder emplear audio utilizando una tarjeta SD. No he profundizado en el conocimiento sobre audio, pero tengo la esperanza que este contenido nos sirva para el desarrollo.
-
-#### 3. Materialidad.
-
-- [Nombre del proyecto](link):
-
-#### 4. Documentación.
-
-- [Talking Milk Jug Toy](https://www.instructables.com/Talking-Milk-Jug-Toy/): El desarrollo de dicho objeto me ha gustado bastante. Al querer conseguir una creación centrada en la fabricación de máquinas que trabajan con audio, pues me pillé por curiosidad con esta páguina. Considero que el orden que posee es atractivo, desconozco si este elemento se dispone por el sitio web que lo contiene. Todo comienza con un video presentación en el que se muestra el desarrollo de este juguete por etapas, partiendo por la idea inicial, el desarrollo del diseño, la construcción, el testeo y finalizando con unas conclusiones. Me gustó que tuviera una buena producción audiovisual y fotográfica, y posteriormente compartir las instrucciones de forma textual, indicando qué piezas comprar, el proceso de diseño para las piezas (gráfico, conceptual, funcional, etc), disponer los archivos para imprimir, enseñar el montaje de las partes, además de tener vínculos a documentación complementaria que ayuda a profundizar el entendimiento. Considero que es un proyecto bastante completo, simple de entender y de montar.
-
-***
-
-### Estudios para progresar
-
-Quise replicar [este referente](https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/), puesto que en el registro y desarrollo del proyecto cuenta con un ejercicio para controlar un sólo ojo. De partida, tuve que imprimir las piezas del modelo de un sólo ojo, además de conseguir las piezas restantes (algunas personales, otras conseguidas del [lid](https://www.instagram.com/lid.udp/)). Para la primera parte de la fabricación decidí utilizar PLA en color blanco y negro, imprimiendo en la máquina "Ender 3 V3KE" dentro del laboratorio. Tras casi 2 horas y unos minutos pude conseguir un prototipo bastánte resistente. Como otra observación, el ejemplo utiliza 3 servo motores, de los cuales recomienda los MG90S (no los pude conseguir) o los SG90. Estos últimos se mencionan como unos actuadores más complejos que el primero. Al indagar sobre estos puedo destacar que el primero supera en calidad al segundo por sus engranajes de metal (lo que permite una mayor resistencia y duración), además de emplear un motor que permite ["una alta velocidad y un ángulo de rotación de 180 grados"](https://avionesteledirigidos.com/servos-mg90-o-sg90-para-mi-avion-rc/). Por otra parte, los servo SG90 suelen poseer piezas metálicas, un motor menos potente y un ángulo de movimiento en 90 grados.
-
-  A continuación busqué los archivos de fabricación de ambos servos: [MG90S](https://www.alldatasheet.com/datasheet-pdf/pdf/1132104/ETC2/MG90S.html) y [GS90](https://www.alldatasheet.es/html-pdf/1572383/ETC/SG90/59/1/SG90.html). Ambos son archivos incompletos, por lo que requieren de una mayor recolipación de información a modo de complemento.
-
-Dado que este es un prototipo, pues utilicé lo que tenía a mano. Por temas de tiempo es que decidí descansar y ensamblar el modelo en la sala de clases.
+- [x] Aprender a usar el servo
+- [ ] Conectar el servo con el sensor ultrasónico
+- [ ] Usar el módulo MP3
 
 ***
 
