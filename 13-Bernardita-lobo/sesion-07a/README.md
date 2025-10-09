@@ -149,9 +149,23 @@ Drivers
 
 ---
 
-## Encargo
+## Encargo-12: leer las bitacoras de colegas
 
-buscar ejemplos de : lenguaje, código, materialidad y documentacion.
+Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
+
+## Encargo-13: 2 referentes asociados a tu proyecto
+
+Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías 
+
+- lenguaje natural (personas)
+
+- Código
+
+- Materialidad
+
+- Documentación
+
+Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
 
 ### Lenguaje
 
