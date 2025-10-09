@@ -145,3 +145,4 @@ void printDetail(uint8_t type, int value){
 }
 
 ```
+![Conexión entre el Arduino Uno y el Mini Reproductor Mp3](./imagenes/conexion.png)
