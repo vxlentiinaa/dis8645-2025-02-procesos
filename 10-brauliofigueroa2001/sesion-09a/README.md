@@ -2,7 +2,7 @@
 ## taller clase 7 de octubre
 
 
-### investigación y comienzo de clae
+### comienzo de la clase
 
 - este día en clases me sentí muy mal mentalmente, me costó muchísimo ir a la universidad pero fui de todas formas, fue una mañana durísima la verdad
 - siento que el grupo está un poco dividido y que falta comunicación, de momento cada persona se está enfocando en un sensor distinto, como investigación a la par por así decirlo para ver qué descubrimos y a qué llegamos
@@ -13,18 +13,70 @@
 - nos enseñó el pinout para conectar el botón el arduino (subir imagen pendiente)
 - la idea de este ejercicio al final sería que al presionar el botón se obtenga un sonido aleatorio, el botón es una especie reemplazo a la persona que se sitúa frente al sensor ultrasónico, que da un dato aleatorio en este caso sería una palabra. El botón es una especie de actuador o causa para obtener un resultado aleatorio
 - abrimos un ejemplo de código de botón en arduino que está en la pestaña ejemplos del mismo programa
+```cpp
+/*
+  Button
+
+  Turns on and off a light emitting diode(LED) connected to digital pin 13,
+  when pressing a pushbutton attached to pin 2.
+
+  The circuit:
+  - LED attached from pin 13 to ground through 220 ohm resistor
+  - pushbutton attached to pin 2 from +5V
+  - 10K resistor attached to pin 2 from ground
+
+  - Note: on most Arduinos there is already an LED on the board
+    attached to pin 13.
+
+  created 2005
+  by DojoDave <http://www.0j0.org>
+  modified 30 Aug 2011
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+*/
+
+// constants won't change. They're used here to set pin numbers:
+const int buttonPin = 2;  // the number of the pushbutton pin
+const int ledPin = 13;    // the number of the LED pin
+
+// variables will change:
+int buttonState = 0;  // variable for reading the pushbutton status
+
+void setup() {
+  // initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+- aún debo aprender más sobre este código y el uso del botón
+ 
+### dudas apuntes 1
 
 - documentación investigación de dfplayer mini, módulo mp3
-
 - ![pinoutdfplayer](./imagenes/pinoutdfplayer.JPG)
-
 - generar alguna especie de índice en la que aparezcan los audios que quiero reproducir
-
 - lograr detectar cuando la persona se acerca, si está cerca, tira un dado, elige un sonido aleatorio
-
 - switch case, una especie de if más estructurado, switch case, if pasa algo, hay un case (caso) para eso
 
-### dudas, apuntes
+### dudas, apuntes 2
 
 - debemos lograr la "aleatoriedad" en la lista de reproducción del mp3, por ejemplo, sonido 1, sonido 2, sonido 3
 - la aleatoriedad quizá no existe como tal en el sentido de que las palabras que utilizaremos no tienen conexión entre sí, pero de igual manera debemos intercalar las cosas para que no sea tan repetitivo, ej: 1,3,2,5,3,1,4
@@ -35,7 +87,7 @@
 
 
 
-códigos que he estado investigando y viendo qué puedo sacar de cada uno de ellos:
+códigos de dfplayer mini que he estado investigando y viendo qué puedo sacar de cada uno de ellos:
 
 ```cpp
 /***************************************************
@@ -296,10 +348,6 @@ void loop() {
 - otra diferencia que noté es que en este tutorial de DFPlayer [tutorialtecneu](https://www.tecneu.com/blogs/tutoriales-de-electronica/como-utilizar-el-dfplayer-mini-con-arduino-para-proyectos-de-audio) es que utilizan el pin tx del dfplayer al pin 4 del arduino y el pin rx al pin 5 del arduino
 - en el caso anterior se conectaba rx del dfplayer al tx del arduino y el rx del arduino al tx del dfplayer, de forma inversa por así decirlo
 - desconozco la diferencia aún entre conectar de esta manera los pines
-
-
-
-
 
 
 preguntas a chatgpt que pudieran servir
