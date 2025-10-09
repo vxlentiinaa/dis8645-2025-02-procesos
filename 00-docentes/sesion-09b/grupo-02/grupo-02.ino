@@ -9,45 +9,45 @@
 
 
 void setup() {
-  biblioteca();
+  // biblioteca();
 
-  ValoresColores();
+  // valoresColores();
 
-  Normalizar();
-  configurarSensorColor();
-  configurarTerminal();
+  // Normalizar();
+  // configurarSensorColor();
+  // configurarTerminal();
 
-  Serial.begin(9600);
+  // Serial.begin(9600);
 
-  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C))
+  // if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C))
 }
 
 void loop() {
-  leerSensor();
+  // leerSensor();
 
-  tomarDecisiones();
+  // tomarDecisiones();
 
-  String colorDetectado = "NADA";
+  // String colorDetectado = "NADA";
 
-  if (cercaDe(rojoPW, 15) && cercaDe(verdePW, 8) && cercaDe(azulPW, 9)) {
-    colorDetectado = "VERDE";
-  } else if (cercaDe(rojoPW, 16) && cercaDe(verdePW, 10) && cercaDe(azulPW, 10)) {
-    colorDetectado = "NARANJO";
-  } else if (cercaDe(rojoPW, 18) && cercaDe(verdePW, 14) && cercaDe(azulPW, 11)) {
-    colorDetectado = "ROJO";
-  } else if (cercaDe(rojoPW, 9) && cercaDe(verdePW, 9) && cercaDe(azulPW, 6)) {
-    colorDetectado = "AZUL";
-  }
+  // if (cercaDe(rojoPW, 15) && cercaDe(verdePW, 8) && cercaDe(azulPW, 9)) {
+    // colorDetectado = "VERDE";
+  // } else if (cercaDe(rojoPW, 16) && cercaDe(verdePW, 10) && cercaDe(azulPW, 10)) {
+    // colorDetectado = "NARANJO";
+  // } else if (cercaDe(rojoPW, 18) && cercaDe(verdePW, 14) && cercaDe(azulPW, 11)) {
+  //   colorDetectado = "ROJO";
+  // } else if (cercaDe(rojoPW, 9) && cercaDe(verdePW, 9) && cercaDe(azulPW, 6)) {
+  //   colorDetectado = "AZUL";
+  // }
 
   // Mostrar en Serial
-  if (colorDetectado != "NADA") {
-    Serial.println("Detecté " + colorDetectado);
-  } else {
-    Serial.println("No detecto nada");
-  }
+  // if (colorDetectado != "NADA") {
+  //   Serial.println("Detecté " + colorDetectado);
+  // } else {
+  //   Serial.println("No detecto nada");
+  // }
 
-  // Mostrar en OLED
-  mostrarEnOLED(colorDetectado);
+  // // Mostrar en OLED
+  // mostrarEnOLED(colorDetectado);
 
-  delay(300);
+  // delay(300);
 }
