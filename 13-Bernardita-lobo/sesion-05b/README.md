@@ -70,9 +70,9 @@ Métodos
 
 Escuchar y comentar uno de los tres primeros discos de la banda Primus.
 
-también escuche el albúm primus desaturating seven.
-
 No me gustó el álbum Pork Soda. Me pareció demasiado caótico y nunca logré entender el sentido que querían darle a la música. Sinceramente, me pareció horrible.
+
+también escuche el albúm primus desaturating seven.
 
 ## Encargo-10: Mitch Resnick
 
