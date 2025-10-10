@@ -70,6 +70,8 @@ void loop() {
 const int numEstudiantes = 29;
 ```
 
+---
+
 ### Referentes 
 
 - [Bjarne Stroustrup](https://es.wikipedia.org/wiki/Bjarne_Stroustrup)
