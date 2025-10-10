@@ -394,4 +394,9 @@ preguntas para el módulo mp3
 -exit status 1
 - llegar a conectar el arduino mediante resistencias con el ejemplo de [tecneu](https://www.tecneu.com/blogs/tutoriales-de-electronica/como-utilizar-el-dfplayer-mini-con-arduino-para-proyectos-de-audio) para ver cuál es la diferencia de conectarlo mediante resistencias y no conectarlo con resistencias
 
+### llegué a la casa
+
+- ahora pude hacer funcionar el código, el error de la librería igual apareció pero compiló de todas formas
+- metí 5 pistas de audio distintas enumeradas como 0001,0002,0003,0004 y 0005, se reproducieron en orden
+
 
