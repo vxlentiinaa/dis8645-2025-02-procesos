@@ -548,6 +548,7 @@ myDFPlayer.volume(10);  //establecer volumen, entre 0 y 30, he probado con 100 y
   delay(2000);
 ```
 - se añadió la linea myDFPlayer.randomAll la cuál me permite reproducir de forma aleatoria las pistas de audio
+- una observación es que algunos audios se interrumpen para comenzar otro de forma instantánea, esto generaría un problema si queremos que todas las palabras se escuchen completas, intenté ajustando el delay, bajando y subiendo el valor pero no comprendo aún como hacer que no se corten
 
 
 
