@@ -53,3 +53,83 @@ void Sensor::configurarPatita() {
   Sensor::patitaEco(10);
 }
 ```
+
+La idea es que, cuando el seneor detecte cierta distancia, el servo se detenga.
+
+Hice una clase para definir las cosas.
+
+```cpp
+class SensorProx {
+public:
+  // constructor
+  SensorProx();
+  // destructor
+  ~SensorProx();
+
+  void configurar();
+
+  void leer();
+
+  void imprimirEnConsola();
+
+  void determinarPresencia();
+
+  // void presencia();
+  // void nada();
+
+  int patitaTrigger = 9;
+  int patitaEcho = 10;
+
+  float duracion = 0;
+  float distancia = 0;
+
+  bool presencia = false;
+};
+```
+
+Y el archivo .cpp
+
+```cpp
+#include "SensorProx.h"
+
+SensorProx::SensorProx() {}
+
+SensorProx::~SensorProx() {}
+
+void SensorProx::configurar() {
+  pinMode(SensorProx::patitaEcho, INPUT);
+  pinMode(SensorProx::patitaTrigger, OUTPUT);
+}
+
+void SensorProx::leer() {
+
+  digitalWrite(SensorProx::patitaTrigger, LOW);
+  delayMicroseconds(2);
+  digitalWrite(SensorProx::patitaTrigger, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(SensorProx::patitaTrigger, LOW);
+
+  SensorProx::duracion = pulseIn(
+    SensorProx::patitaEcho,
+    HIGH);
+  SensorProx::distancia = (SensorProx::duracion * 0.0343) / 2;
+}
+
+void SensorProx::determinarPresencia() {
+  if (SensorProx::distancia < 16) {
+    SensorProx::presencia = true;
+  } 
+  else {
+    SensorProx::presencia = false;
+  }
+}
+
+void SensorProx::imprimirEnConsola() {
+  Serial.print("Distancia: ");
+  Serial.println(duracion);
+  delay(100);
+}
+```
+
+Quería darle nombre a un `if`
+Después de hacer hartas cosas con el código, intentamos

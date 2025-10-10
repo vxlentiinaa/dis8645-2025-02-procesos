@@ -15,9 +15,8 @@ public:
 
   void configurar();
 
-  void moverMotorcillo(int angulo, int tiempo);
-
-
+  // void moverMotorcillo(int angulo, int tiempo);
+  void moverCuello();
 };
 
 #endif

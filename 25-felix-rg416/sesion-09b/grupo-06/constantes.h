@@ -10,6 +10,4 @@ const int patitaMicIzquierdo = A0;
 
 const int patitaMicDerecho = A1;
 
-const int 
-
 #endif

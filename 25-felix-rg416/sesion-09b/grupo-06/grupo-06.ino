@@ -1,23 +1,19 @@
 
 // incluir clase Microfono
 #include "constantes.h"
-#include "Sensor.h"
+#include "SensorProx.h"
 #include "Cuello.h"
 #include "Parpados.h"
-
 
 // variable temporal para lecturas
 unsigned int sample;
 
 unsigned long startMillis;
 
-Microfono izquierdo;
-Microfono derecho;
-
 Cuello cuello;
 Parpados parpados;
 
-Sensor sensor;
+SensorProx sensorProx;
 
 bool imprimir = true;
 
@@ -26,7 +22,7 @@ void setup() {
   cuello.configurar();
   parpados.configurar();
 
-  sensor.configurarPatita();
+  sensorProx.configurar();
 
   // // configurar patitas
   // izquierdo.configurarPatita(patitaMicIzquierdo);
@@ -37,6 +33,8 @@ void setup() {
 }
 
 void loop() {
+
+
   // // inicio de la ventana
   // startMillis = millis();
 
@@ -70,17 +68,16 @@ void loop() {
   // // double volts2 = (peakToPeak2 * 5.0) / 1024.0;
   // // Serial.print("V1: "); Serial.print(volts1); Serial.print(" V, V2: "); Serial.println(volts2);
 
-  cuello.moverMotorcillo(0, 1000);
-  parpados.moverMotorcillo(70, 200);
-  parpados.moverMotorcillo(0, 200);
-  cuello.moverMotorcillo(100, 1000);
-  parpados.moverMotorcillo(70, 200);
-  parpados.moverMotorcillo(0, 200);
+  // cuello.moverMotorcillo(0, 1000);
+  // parpados.moverMotorcillo(70, 200);
+  // parpados.moverMotorcillo(0, 200);
+  // cuello.moverMotorcillo(100, 1000);
+  // parpados.moverMotorcillo(70, 200);
+  // parpados.moverMotorcillo(0, 200);
 
 
-  digitalWrite(PatitaTriger, LOW);
-  delayMicroseconds(2);
-  digitalWrite(PatitaTriger, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(PatitaTriger, LOW);
+  sensorProx.leer();
+  sensorProx.determinarPresencia();
+
+  if (sensorProx.presencia){}
 }
