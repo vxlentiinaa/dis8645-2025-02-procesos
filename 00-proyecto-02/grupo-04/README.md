@@ -1,4 +1,4 @@
-# └[∵┌] - Máquina de saludo - [┐∵]┘
+# ⋆⭒˚.⋆ └[∵┌] - Máquina de saludo - Nombre del Proyecto - [┐∵]┘ ⋆.˚⭒⋆
 
 Viernes 17 Octubre 2025
 
@@ -49,5 +49,6 @@ Hoy no estoy bien, no me siento con fuerzas o energia para poder trabajar con ge
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
