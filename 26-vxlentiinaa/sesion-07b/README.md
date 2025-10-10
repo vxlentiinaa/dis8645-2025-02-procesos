@@ -127,4 +127,8 @@ También definimos la configuración del servomotor:
 
 ### Máquina de datos curiosos 🤓
 
+insertas cosas de la maquina 
 
+### Encargo 14
+
+- cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README.
