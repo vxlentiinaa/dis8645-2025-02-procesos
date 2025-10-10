@@ -167,8 +167,6 @@ Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías
 
 - Documentación
 
-Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
-
 ### Lenguaje
 
 Pongo de ejemplo esta [Lesson 1: Listening](https://youtu.be/waN4owHeyaQ) que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
@@ -179,17 +177,14 @@ Instrumentos telepaticos.
 
 ### Materialidad
 
-De materialidad, creo que lo más probable es que utilicemos impresión 3D, ya que es un material y una técnica con bastantes opciones de formas; además, es rápido y barato.
+De materialidad, creo que lo más probable es que utilicemos impresión 3D, ya que es un material y una técnica con muchas opciones de formas. Además, es rápido, y en el LID tenemos varios tipos de filamentos e impresoras disponibles. Para mí, el tema del tiempo es muy valioso, y si lo hiciera con madera o terciado tendría que ir en auto a comprar los materiales. Además, la impresión 3D no requiere ningún tipo de terminación específica.
 
-Por eso, como ejemplo, pongo uno de los sintetizadores de la marca [Oskitone](https://www.oskitone.com/), la cual fabrica instrumentos musicales electrónicos y kits de soldadura para hacer uno mismo. Muchos de sus productos están hechos con impresión 3D.
-
-
+Y también, como ejemplo concreto de fabricación digital, modelado 3D e impresión en PLA, tenemos uno de los sintetizadores de la marca [Oskitone](https://www.oskitone.com/), la cual fabrica instrumentos musicales electrónicos y kits de soldadura para armar uno mismo. Este sintetizador está en el laboratorio, y no solo lo encontré fascinante por su función y sonido, sino también porque convierte un material de prototipo en un producto de muy buena calidad.
 
 ### Documentación
 
-De documentación, me gusta mucho un canal que habla de historia, fenómenos tecnológicos y modas retro. Y cómo transforma su investigación en algo muy fácil de digerir. [Retro Flama](https://www.youtube.com/@RetroFlama)
+De documentación, me gusta mucho este canal que habla de historia, se llama [Retro Flama](https://www.youtube.com/@RetroFlama) y habla de fenómenos tecnológicos y modas retro. Estos videos tienen imágenes de apoyo y narraciones que logran hilar muy bien las historias, incluso cuando abarcan muchos temas. Realmente me emocionan, ya que utilizan fotos difíciles de encontrar del pasado, graficando y transportándote a esos momentos. Además, transforman su investigación en algo muy fácil de digerir.
 
 Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
 
-También, como referente de documentación, me parece muy genial la manera en que explican los componentes del [sintetizador Moog](https://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos, esquemáticos y pequeñas láminas que se pueden superponer para probar diferentes sonidos.
-
+También, como referente de documentación, me parece muy ordenada y concisa la manera en que explican los componentes y elementos que vienen en los productos de los [sintetizadores Moog](https://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos extendidas con tomas superiores de todos los componentes, esquemáticos, y pequeñas láminas que se pueden superponer para probar diferentes sonidos y combinaciones.
