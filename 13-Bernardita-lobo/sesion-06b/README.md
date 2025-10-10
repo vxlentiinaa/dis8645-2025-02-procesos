@@ -44,6 +44,14 @@ Dos tipos de Bluetooth: Bluetooth clásico y Bluetooth Low Energy (BLE)
 
 Simulador de teléfono en el computador.
 
+### Propuesta de proyecto iterado
+
+Ejercicio en clase.
+
+Conversamos con nuestros compañeros del curso sobre nuestros proyectos para entenderlos mejor, replantearnos y profundizar en ciertos detalles.
+
+Sensor de proximidad que, de acuerdo a qué tan cerca estés del robot, te vaya contando sus secretos. Dependiendo de la distancia, te cuenta cosas diferentes.
+
 ### Referentes
 
 - [Mateo](https://github.com/matbutom/)
@@ -54,8 +62,4 @@ Simulador de teléfono en el computador.
 
 [Compilar](https://www.rae.es/drae2001/compilar): Preparar un programa en el lenguaje máquina a partir de otro programa de ordenador escrito en otro lenguaje.
 
-### Propuesta de proyecto iterado
-
-Conversamos con nuestros compañeros del curso sobre nuestros proyectos para entenderlos mejor, replantearnos y profundizar en ciertos detalles.
-
-Sensor de proximidad que, de acuerdo a qué tan cerca estés del robot, te vaya contando sus secretos. Dependiendo de la distancia, te cuenta cosas diferentes.
+[Iterar](https://dle.rae.es/iterar): repetir, volver a hacer lo que se había hecho.
