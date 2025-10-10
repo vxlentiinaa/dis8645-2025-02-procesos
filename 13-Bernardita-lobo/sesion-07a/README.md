@@ -171,9 +171,9 @@ Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías
 
 ### Lenguaje
 
-Pongo de ejemplo esta [Lesson 1: Listening](https://youtu.be/waN4owHeyaQ) que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
+De lenguaje, me gusta mucho cómo se expresa la youtuber [blanca_guilera](http://www.youtube.com/@blanca_guilera), que suele hacer videos de literatura e historia con perspectiva feminista. También habla de ciencia en algunos videos, y siento que, además de proponer perspectivas muy claras y refrescantes, sabe manejar temas complejos o controvertidos con un lenguaje muy apropiado, que a mi parecer no espanta a personas que no entienden o difieren del feminismo. Además, suele hacer preguntas que logran capturar tu atención y las va resolviendo a lo largo del video, manteniéndote interesada. Es muy tranquila al hablar; siento que lo hace con un tono y una velocidad muy agradables.
 
-Instrumentos telepaticos.
+Pongo de ejemplo esta [Lesson 1: Listening](https://youtu.be/waN4owHeyaQ) que subieron al canal de Moog, donde introducen las bases de los sintetizadores y la importancia de la escucha activa. Siento que logran explicar conceptos complejos de síntesis analógica de manera muy clara, combinando dibujos y colores con explicaciones verbales que ayudan a entender cómo pequeños cambios en los parámetros transforman el sonido. Además, enseñan a entrenar el oído para identificar timbresy texturas, lo que convierte la lección en un apoyo visual y narrativo muy completo.
 
 ### Código
 
