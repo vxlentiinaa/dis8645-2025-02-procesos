@@ -52,6 +52,8 @@ Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se que
 
 ![foto laboratorio](imagenes/tmc-sesion05b-lid.jpeg)
 
+---
+
 ### Referentes
 
 - [Primus](https://open.spotify.com/artist/64mPnRMMeudAet0E62ypkx?si=n1BETiUFSYygZVssPsuFHA)
