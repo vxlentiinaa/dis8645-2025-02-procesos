@@ -8,33 +8,74 @@ Martes 2 de septiembre, 2025
 
 - Las 10 categorías de Aristóteles: Sustancia, Cantidad, Cualidad, Relación, Lugar, Tiempo, Posición, Hábito, Acción, Padecimiento.
 
-- El lenguaje de programación C es un lenguaje antiguo, del 72. C++ o C# son diferentes.
+- [w3schools](https://www.w3schools.com/cpp/cpp_classes.asp)
 
-- Los paradigmas son los estilos con los que se puede programar.
+### lenguajes y paradigmas de programación
 
-- Bjarne Stroustrup
+El lenguaje de programación C es un lenguaje antiguo, del 72. C++ o C# son diferentes.
 
-- Mientras más resumida esté la programación, como en p5, más esfuerzo tiene que hacer el computador; por eso utilizamos lenguaje C.
+Los paradigmas son los estilos con los que se puede programar.
 
-- OpenFrameworks está en C++, entorno de programación para hacer apps.
+Bjarne Stroustrup
 
-- Swift es para programar en iOS.
+Mientras más resumida esté la programación, como en p5, más esfuerzo tiene que hacer el computador; por eso utilizamos lenguaje C.
 
-- Norns, sistema operativo Linux; por dentro hay un lenguaje: SuperCollider.
+OpenFrameworks está en C++, entorno de programación para hacer apps.
 
-- Lenguaje ChucK, lenguaje para la música con otros paradigmas, el tiempo era importante y se puede improvisar.
+Swift es para programar en iOS.
 
-- Esolang: esoteric programming language.
+Norns, sistema operativo Linux; por dentro hay un lenguaje: SuperCollider.
+
+Lenguaje ChucK, lenguaje para la música con otros paradigmas, el tiempo era importante y se puede improvisar.
+
+Esolang: esoteric programming language.
+
+Video [Cómo hice que Arduino funcionara 50 veces más rápido](https://youtu.be/hRqJkfB8uoE?si=kCN-CK4smp2lYXZ2)
 
 ### Arduino
 
-archivo .h
+Archivo .h
 
 .ino es arduino
+
 .h es c++
 
-wood jig
+Wood jig
+
+Virgulilla : ~
+
+#### miPrimerCpp.ino
+
+```ccp
+#include "constantes.h"
+
+
+void setup() {
+  // put your setup code here, to run once:
+
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  Serial.println(numEstudiantes);
+}
+```
+
+#### constantes.h
+
+```ccp
+const int numEstudiantes = 29;
+```
 
 ### Referentes 
 
 - [Bjarne Stroustrup](https://es.wikipedia.org/wiki/Bjarne_Stroustrup)
+
+- [Bionic and the Wires](https://www.instagram.com/p/DOHhiSZkfUl/?img_index=1&igsh=bWZpamJkYW51YmRq), banda que integra plantas y hongos como parte de sus presentaciones, donde estos organismos operan instrumentos electrónicos a través de su actividad biológica.
+
+### Palabras importantes
+
+Virgulilla : ~
