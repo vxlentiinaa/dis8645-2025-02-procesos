@@ -188,3 +188,6 @@ materialidades en el proyecto,  ya sea madera, impresion 3d, metal, que trabajen
 De documentación, me gusta mucho un canal que habla de historia, fenómenos tecnológicos y modas retro. Y cómo transforma su investigación en algo muy fácil de digerir. [Retro Flama](https://www.youtube.com/@RetroFlama)
 
 Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
+
+También, como referente de documentación, me parece muy genial la manera en que explican los componentes del [sintetizador Moog](Mavishttps://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos, esquemáticos y pequeñas láminas que se pueden superponer para probar diferentes sonidos.
+
