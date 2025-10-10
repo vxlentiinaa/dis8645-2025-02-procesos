@@ -173,7 +173,7 @@ Palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera liter
 
 Pongo de ejemplo esta lección https://youtu.be/waN4owHeyaQ que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
 
- instrumentos telepaticos.
+Instrumentos telepaticos.
 
 ### Código
 
@@ -189,5 +189,5 @@ De documentación, me gusta mucho un canal que habla de historia, fenómenos tec
 
 Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
 
-También, como referente de documentación, me parece muy genial la manera en que explican los componentes del [sintetizador Moog](Mavishttps://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos, esquemáticos y pequeñas láminas que se pueden superponer para probar diferentes sonidos.
+También, como referente de documentación, me parece muy genial la manera en que explican los componentes del [sintetizador Moog](https://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos, esquemáticos y pequeñas láminas que se pueden superponer para probar diferentes sonidos.
 
