@@ -399,4 +399,9 @@ preguntas para el módulo mp3
 - ahora pude hacer funcionar el código, el error de la librería igual apareció pero compiló de todas formas
 - metí 5 pistas de audio distintas enumeradas como 0001,0002,0003,0004 y 0005, se reproducieron en orden
 
+![audiosmp3](./imagenes/audiosmp3.JPG)
+
+- saqué los sonidos de [orangefreesounds](https://orangefreesounds.com/sound-effects/animal-sounds/cat-meow-sound/) y [myinstants](https://www.myinstants.com/en/search/?name=cat%20meow)
+
+
 
