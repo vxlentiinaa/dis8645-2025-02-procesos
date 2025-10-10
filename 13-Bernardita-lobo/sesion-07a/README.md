@@ -129,14 +129,6 @@ Distancia ultrasónico
 
 ¿Cómo evitar que los ojos se queden fijos en objetos inmoviles (ambiente)? 
 
-### Palabras importantes
-
-Cosmotécnica
-
-tecnodiversidad
-
-Drivers
-
 ### Referentes
 
 - Susane Chau
@@ -146,6 +138,16 @@ Drivers
 - Robert Mapplethorpe
 
 - Patti Smith
+
+- Yuk Hui
+
+### Palabras importantes
+
+(Cosmotécnica:)[https://www.centropoiesis.net/items/%22cosmo-t%C3%A9cnicas%22] El termino Cosmotécnica es desarrollado por Yuk Hui y se entiende como la unificación de una concepción del cosmos, y por lo tanto de la naturaleza por medio de las técnicas, tanto de oficios como de artes.
+
+tecnodiversidad: enontre est video que habla de eso [Yuk Hui (Masterclass) ¿Por qué es necesaria la tecnodiversidad?](https://youtu.be/Dni6UJDFUuw?si=XxG4CNcoMZsBdrT_)
+
+[Drivers:](https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/what-is-a-driver-) Un controlador es un componente de software que permite que el sistema operativo y un dispositivo se comuniquen. Por ejemplo, cuando una aplicación necesita leer datos de un dispositivo, llama a una función implementada por el sistema operativo. 
 
 ---
 
@@ -157,7 +159,7 @@ Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saluda
 
 Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías 
 
-- lenguaje natural (personas)
+- lenguaje natural
 
 - Código
 
@@ -169,19 +171,13 @@ Escribir un párrafo por cada uno de los referentes encontrados, citando las fue
 
 ### Lenguaje
 
-Palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera literaria nuestro proyecto, llevarlo al mundo descroptivo, lenguaje natural, adjetivos, vervos y advervios.
-
 Pongo de ejemplo esta lección https://youtu.be/waN4owHeyaQ que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
 
 Instrumentos telepaticos.
 
 ### Código
 
-codigos que utilicen sensores parecidos
-
 ### Materialidad
-
-materialidades en el proyecto,  ya sea madera, impresion 3d, metal, que trabajen cosas parecidad y nos sirva como referente
 
 ### Documentación
 
