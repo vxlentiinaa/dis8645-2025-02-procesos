@@ -42,8 +42,6 @@ Usaron float para los parámetros del espiral
 
 ---
 
-## Encargo
+## Encargo 08
 
-clasess
-
-investigar a Alison Parrish, Nick Monfort y Martín Gubbins
+Investigar la poesía y el trabajo de las poetas Allison Parrish, Nick Montfort y Martín Gubbins
