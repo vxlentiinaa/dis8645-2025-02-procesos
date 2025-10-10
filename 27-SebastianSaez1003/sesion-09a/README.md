@@ -184,3 +184,20 @@ void ActuadorServo::moverBrazo() {
 
 Con esto en mente, empecé a comentar todo lo posible y llegué al siguiente código, donde detectaba la temperatura, y solo si es que era mayor al rango que establece, empezaba a saludar, que seria la version [codigoRobotFriolento_0_3_1](https://github.com/SebastianSaez1003/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-09a/codigoRobotFriolento_0_3_1).
 
+Para trabajo en el lab, intente el usar nuestro código con clases simultáneamente con todo (menos el display porque no lo tenia) conectado, de la manera que se puede observar en la siguiente imagen:
+
+![bleh bleh imagen de la proto](./imagenes/protoSesion09a-00)
+
+donde cambié unos cuantos de los pines especificados en nuestro código para poder asegurarme de que no había mas de algun sensor con los mismos pines, después de esto lo envié a mi arduino pero, surgieron unos problemas.
+
+Entre estos habia 2 que encontré graves:
+
+1. El servomotor no se movía, no importaba a cuanto cambiase la temperatura que tenía puesta en el “if” statement.  
+
+2. Se demoraba en 1-2 minutos en recibir algo en el monitor serial, pero que no tenía idea del porque.
+
+Lo del movimiento del servomotor yo me lo imaginaba que era un problema causado por el tema de todo el tiempo que se demoraba en recibir una señal de los sensores, pero no era capaz de descubrir cuál era la razón, intente borrar todos los delays del código y no cambio, intente borrar alguno de los sensores y tampoco funciono. 
+
+Pero bueno lo importante es que si podía leer ambos sensores al mismo tiempo, el ultrasónico y el de temperatura.
+
+![bleh bleh imagen del monitor serial](./imagenes/serialSesion09a-00)
