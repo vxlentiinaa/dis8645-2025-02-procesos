@@ -96,3 +96,56 @@ luego edité el modelo del globo ocular, con una una nueva forma de unir ambas m
 
 -mañana seguiré redactando esta compilación-
 
+
+la siguiente versión del párpado, cuenta con un mayor grosor en uno de sus ejes de rotación. Esto con el propósito de insertar una tuerca. Para así usar la rotación que esta provee para prototipar.
+
+![modelo 3d párpado v1](./imagenes/parpado-masGrueso.png)
+
+luego modelé esta pieza, que fuera la interfaz entre el párpado y el servo.
+
+![modelo 3d párpado v1](./imagenes/servo-parpado-v1.png)
+
+posteriormente uní estas piezas. Para esto utilicé tuercas y un tornillo M3. Con la ayuda de un alicate con mango plástico, calenté los pernos uno por uno, para despues introducirlos, uno en la útlima pieza, otro en el párpado. Además, a un tornillo le corté la "cabeza", y utilicé la parte del "hilo" para que ambos pernos estuvieran conectados, permitiendo rotación.
+
+![modelo 3d párpado v1](./imagenes/servo-perno1.jpg)
+
+![modelo 3d párpado v1](./imagenes/servo-perno2.jpg)
+
+gracias a este prototipo, me dí cuenta de que para lograr el objetivo(en la manera en la que yo buscaba hacerlo ), era necesario que estas 2 últimas piezas estén unidas. Por lo que hice un modelo 3d con estas 2 piezas unidas.
+
+![modelo 3d párpado v1](./imagenes/parpado-pataMala.jpg)
+
+el modelo anterior fue rápidamente descartado, ya que perturbaba la posición en la que se imprimía la pieza, y hubiera necesitado mayor cantidad de soportes. Por lo que modelé una pieza que permitiera que la impresión fuera desde la misma posición que las versiones anteriores, la cual era ideal debido al uso mínimo de soportes.
+
+![modelo 3d párpado v1](./imagenes/parpado-pataWena.png)
+
+cuando esa pieza estuvo lista, le armé un setup con cartón y maskingtape, para verlo en funcionamiento.(esta parte ,e procupaba porque, en mi opnión, la parte del parpadeo mecánico, era la más complicada del proyecto).
+
+
+![modelo 3d párpado v1](./imagenes/maketa-v1.jpg)
+
+
+una vez comprobé su funcionamiento, modelé la pieza que funciona como soporte para todo el mecanismo. Como grupo, habíamos definido que la base ten 
+Para esto, utilicé una librería de OpenSCAD, llamada [pd-gears](https://github.com/sadr0b0t/pd-gears). Me ayudé de [este tutorial](https://www.youtube.com/watch?v=pEo-DOJnO5k) para entender las funciones. 
+
+Finalmente utilicé el siguiente código para modelar el engranaje:
+
+```scad
+use <pd-gears.scad>
+gear(
+    number_of_teeth = 20,
+    hole_diameter = 0,
+    thickness = 3,
+    mm_per_tooth = 14.2,
+    backlash = 0.15,
+    clearance = 0.15
+);
+```
+
+este código da como resultado este engranaje:
+
+![modelo 3d párpado v1](./imagenes/myGear-render.png)
+
+con este modelo listo, comencé a montar todas las piezas en rhino, asegurandome que el eje de rotación del servo quede justo en el centro de la circunferencia del globo ocular.
+
+montando las piezas, añadí un sacado donde encajaran los pilares de los ojos, y también diseñé una pieza que sostiene el servomotor en la posición ideal, la cual se monta al engranaje ensamblándose.
