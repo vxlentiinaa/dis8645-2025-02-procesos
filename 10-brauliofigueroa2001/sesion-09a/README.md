@@ -402,6 +402,8 @@ preguntas para el módulo mp3
 ![audiosmp3](./imagenes/audiosmp3.JPG)
 
 - saqué los sonidos de [orangefreesounds](https://orangefreesounds.com/sound-effects/animal-sounds/cat-meow-sound/) y [myinstants](https://www.myinstants.com/en/search/?name=cat%20meow)
+- logré reproducir las 5 pistas de forma random y en loop mediante una línea de código que aparecía en la página de [dfrobot](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299#Sample%20Code)
+- grabé 5 pistas distintas y todas son diferentes entre sí, (subir videos)
 
 
 
