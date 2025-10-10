@@ -171,13 +171,19 @@ Escribir un párrafo por cada uno de los referentes encontrados, citando las fue
 
 ### Lenguaje
 
-Pongo de ejemplo esta lección https://youtu.be/waN4owHeyaQ que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
+Pongo de ejemplo esta [Lesson 1: Listening](https://youtu.be/waN4owHeyaQ) que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
 
 Instrumentos telepaticos.
 
 ### Código
 
 ### Materialidad
+
+De materialidad, creo que lo más probable es que utilicemos impresión 3D, ya que es un material y una técnica con bastantes opciones de formas; además, es rápido y barato.
+
+Por eso, como ejemplo, pongo uno de los sintetizadores de la marca [Oskitone](https://www.oskitone.com/), la cual fabrica instrumentos musicales electrónicos y kits de soldadura para hacer uno mismo. Muchos de sus productos están hechos con impresión 3D.
+
+
 
 ### Documentación
 
