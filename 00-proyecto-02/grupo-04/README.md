@@ -9,7 +9,16 @@ Viernes 17 Octubre 2025
 Dicho proyecto se centra en desarrollar una "caja negra" que pueda saludar. En cuanto a conceptualidad surge la duda de analizar sobre la condicion del saludo.
 Como propuesta creemos que al utilizar la aleatoriedad como una herramienta para responder de forma impredecible a quien pase (do discrimina, solo detecta la precensia).
 
+***
+
+### Propuesta
+
+Con rodas las propuestas por proveniente de los integrantes, es que decidimos el crear un mecamisno que sigan con la "mirada" al usuario travez de un radar creado con un sensor ultrasonico y un servomotor. Al detectar que la persona se acerca a cieta distancia otro de los modulos de la màquina comienza a emitir ruidos de forma aleatoria, sin un orden establecido.
+
+***
+
 ### Desarrollo
+
 
 ***
 
@@ -20,3 +29,4 @@ Hoy no estoy bien, no me siento con fuerzas o energia para poder trabajar con ge
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
