@@ -43,7 +43,7 @@ Me encantaría hacer algo como Pure Data para controlar motores y luces de forma
 - Shield data logger - permitee asber la hora exacta y tiene una tarjeta SD
 - NFC - etiqueta que detecta un lector NFC - puede detectar si algo está en su lugar
 
-## Tarea
+## Encargo 11
 
 Buscar 3 ideas para usar sensores
 

@@ -67,10 +67,10 @@ void loop() {
     // // Serial.print("V1: "); Serial.print(volts1); Serial.print(" V, V2: "); Serial.println(volts2);
 
       cuello.moverMotorcillo(0, 1000);
-      parpados.moverMotorcillo(0, 200);
       parpados.moverMotorcillo(70, 200);
+      parpados.moverMotorcillo(0, 200);
       cuello.moverMotorcillo(100, 1000);
-      parpados.moverMotorcillo(0, 200);
       parpados.moverMotorcillo(70, 200);
+      parpados.moverMotorcillo(0, 200);
   }
 }

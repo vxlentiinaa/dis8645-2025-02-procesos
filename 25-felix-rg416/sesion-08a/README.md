@@ -66,6 +66,14 @@ Quería intentar hacer una clase que lea la amplitud de los micrófonos, para qu
 No supe cómo hacerlo.
 Quizás no funciona así.
 
+## Encargo 16
+
+Cada persona del grupo debe subir a su README:
+
+qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona.
+
+Después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a
+
 ## Bibliografía
 
 - <https://lastminuteengineers.com/max4466-arduino-tutorial/>

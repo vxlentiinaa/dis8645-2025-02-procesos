@@ -68,6 +68,10 @@ Circuito integrado programable
 
 Vamos a usar Arduino R4 Minima
 
-## Encargo
+## Encargo 1
 
-Investigar sobre Ada Lovelace y Alan Turing
+Investigar sobre Ada Lovelace
+
+## Encargo 2
+
+Investigar sobre Alan Turing
