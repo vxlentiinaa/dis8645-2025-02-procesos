@@ -186,7 +186,9 @@ Con esto en mente, empecé a comentar todo lo posible y llegué al siguiente có
 
 Para trabajo en el lab, intente el usar nuestro código con clases simultáneamente con todo (menos el display porque no lo tenia) conectado, de la manera que se puede observar en la siguiente imagen:
 
-![bleh bleh imagen de la proto](./imagenes/protoSesion09a-00)
+![Foto de la protoboard con el servo incluido](./imagenes/sesion-09a-protoboard01.jpg)
+
+![Foto de la protoboard mas de cerca](./imagenes/sesion-09a-protoboard02.jpg)
 
 donde cambié unos cuantos de los pines especificados en nuestro código para poder asegurarme de que no había mas de algun sensor con los mismos pines, después de esto lo envié a mi arduino pero, surgieron unos problemas.
 
@@ -200,4 +202,7 @@ Lo del movimiento del servomotor yo me lo imaginaba que era un problema causado 
 
 Pero bueno lo importante es que si podía leer ambos sensores al mismo tiempo, el ultrasónico y el de temperatura.
 
-![bleh bleh imagen del monitor serial](./imagenes/serialSesion09a-00)
+![Foto con hartas menciones de temperatura ](./imagenes/sesion-09a-monitorSerial01.jpg)
+
+![Foto con los tiempos e carga](./imagenes/sesion-09a-monitorSerial02.jpg)
+
