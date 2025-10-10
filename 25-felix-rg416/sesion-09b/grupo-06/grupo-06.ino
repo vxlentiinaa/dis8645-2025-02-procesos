@@ -83,9 +83,4 @@ void loop() {
   digitalWrite(PatitaTriger, HIGH);
   delayMicroseconds(10);
   digitalWrite(PatitaTriger, LOW);
-
-  Serial.print("Distancia: ");  
-	Serial.println(duracion);  
-	delay(100);  
-
 }
