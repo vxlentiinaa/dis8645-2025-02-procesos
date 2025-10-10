@@ -17,20 +17,14 @@ Viernes 17 Octubre 2025
 Este proyecto se centra en desarrollar una "caja negra" que pueda "saludar".
 El saludo de define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo). Por otra parte, ["El saludo es un gesto de la vida cotidiana y profesional, una señal de respeto y consideración hacia los demás"](https://123emprende.com/blog/la-importancia-de-saludar-correctamente/).
 
-Frente a esta información es que surge la reflexión sobre ¿Cómo generar presencia con un dispositivo sin necesidad de usar la mano?
-Ante ello
+Con estos antecedentes es que comenzamos a plantear la fabricación de una máquina que detecte la presencia de una persona, que pueda poseer unos ojos que sigan a la visitante y que al acerarse a una distancia próxima pueda emitir un sonido de forma aleatoria.
 
-
-
-
-
-
-En cuanto a conceptualidad surge la duda de analizar sobre la condicion del saludo.
-Como propuesta creemos que al utilizar la aleatoriedad como una herramienta para responder de forma impredecible a quien pase (do discrimina, solo detecta la precensia).
+¿Por qué hacer que se reproduzca un sonido [aleatorio](https://es.wikipedia.org/wiki/Azar#:~:text=El%20azar%20es%20una%20casualidad,Azar%20en%20matem%C3%A1ticas)?
+Pues el no poder predecir o saber que esperar de esta máquina genera un factor "sorpresa", puesto que depende del artefacto el saber qué sonidos va a transmitir. Ello también evita que el aparato no pueda excluir a la gente al no poder distinguir los razgos de quien pasa.
 
 ***
 
-### Propuesta
+### Presentación textual de la propuesta
 
 Con rodas las propuestas por proveniente de los integrantes, es que decidimos el crear un mecamisno que sigan con la "mirada" al usuario travez de un radar creado con un sensor ultrasonico y un servomotor. Al detectar que la persona se acerca a cieta distancia otro de los modulos de la màquina comienza a emitir ruidos de forma aleatoria, sin un orden establecido.
 
@@ -48,6 +42,7 @@ Hoy no estoy bien, no me siento con fuerzas o energia para poder trabajar con ge
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
