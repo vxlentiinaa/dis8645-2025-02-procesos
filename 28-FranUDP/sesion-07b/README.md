@@ -33,7 +33,7 @@ Herramienta para hacer diagramas de flujo escribiendo en estilo markup.
 
 #### [Sensor ultrasónico de distancia (HC-SR04)](https://projecthub.arduino.cc/lucasfernando/ultrasonic-sensor-with-arduino-complete-guide-284faf)
 
-<img align="right" src="./imagenes/HC-SR04.jpg" alt="HC-SR04 pinout" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=400>
+<img align="right" src="https://github.com/FranUDP/dis8645-2025-02-procesos/blob/main/28-FranUDP/sesion-06a/imagenes/HC-SR04.jpg" alt="HC-SR04 pinout" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=600>
 
 Emite ${\color{#b0e6e6}ondas\ ultrasónicas}$ y calcula cuánto tiempo pasa antes de que estas regresen a él, igual que un murciélago.
 
