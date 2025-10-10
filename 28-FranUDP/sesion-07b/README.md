@@ -4,11 +4,13 @@
 ###### ${\color{#3d3d44}Se \ recomienda \ usar \ modo \ oscuro, \ hay \ palabras \ en \ color \ blanco \ que \ de \ otra \ forma \ no \ son \ visibles.}$ <br/>
 ###### ${\color{#3d3d44}The \ use \ of \ dark mode \ is \ recommended, \ there's \ white \ colored \ text \ that \ otherwise \ is \ not \ visible.}$ <br/>
 
+Claro, aquí tienes los textos revisados con las correcciones ortográficas aplicadas:
+
 ### Variabilidad y los sensores
 
-El profe nos mencionó que los datos que entregan los varios sensores son un aaproximación a la realidad, pues las variables constantes de las que dependen los sensores no son realmente constantes.
+El profe nos mencionó que los datos que entregan los varios sensores son una aproximación a la realidad, pues las variables constantes de las que dependen los sensores no son realmente constantes.
 
-Un ejemplo que se nos dio fue que el sensor ultrasónico determina la distancia contando el tiempo que tarda en volver el sonido emitido, mas la velocidad del sonido en el aire cambia dependiendo de factores como la temperatura.
+Un ejemplo que se nos dio fue que el sensor ultrasónico determina la distancia contando el tiempo que tarda en volver el sonido emitido, pero la velocidad del sonido en el aire cambia dependiendo de factores como la temperatura.
 
 ### [Dart](https://dart.dev/)
 
@@ -17,9 +19,6 @@ Lenguaje de programación hecho por Google, es el lenguaje que emplea [Flutter](
 ### [Mermaid.js](https://mermaid.js.org/)
 
 Herramienta para hacer diagramas de flujo escribiendo en estilo markup.
-
-### Other things: <!-- Things to organize + random stuff -->
-> ### SUB_SUBTITULO
 
 -----------------------------------------------------------------------------------------------------------
 ## Encargo 14 <!-- cada persona del grupo debe implementar en diagrama de flujo dibujado o con la herramienta Mermaid.js con sus propias palabras y subirlo a su README -->
@@ -58,11 +57,11 @@ Distancia efectiva: 2 cm a 4 m
 
 #### Ejemplo de la biblioteca NewPing
 
-Cómo ya he dicho antes, empleamos esta biblioteca, en lugar de escribir las 2 líneas de código que toma obtener una medición del sensor, porque con esta biblioteca podemos obtener mediciones más presisas y con menos ruido.
+Como ya he dicho antes, empleamos esta biblioteca, en lugar de escribir las 2 líneas de código que toma obtener una medición del sensor, porque con esta biblioteca podemos obtener mediciones más precisas y con menos ruido.
 
 En la clase lo testeamos con [@jotamorales-romulus](https://github.com/jotamorales-romulus), él corrió un código para obtener distancia que encontró en un tutorial y yo el código ejemplo de más abajo.
 
-Probamos mover rápidamente la mano frente al sensor, quitar la mano del rango de vision y volver a ponerla, inclinar la mano en angulos (para que se refleje distinto el sonido), etc. Mientras monitoreabamos el monitor serial, y las mediciones eran considerablemente más estables.
+Probamos mover rápidamente la mano frente al sensor, quitar la mano del rango de visión y volver a ponerla, inclinar la mano en ángulos (para que se refleje distinto el sonido), etc. Mientras monitoreábamos el monitor serial, y las mediciones eran considerablemente más estables.
 
 
 ````ino
@@ -89,3 +88,6 @@ void loop() {
   Serial.println("cm");
 }
 ````
+
+
+
