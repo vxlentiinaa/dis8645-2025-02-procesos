@@ -6,9 +6,9 @@ Viernes 05 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
-Hablamos un poco de nuestras solemnes de los ramos teóricos, y revisamos nuestras notas y comentarios del Proyecto-01. 
+- Hablamos un poco de nuestras solemnes de los ramos teóricos, y revisamos nuestras notas y comentarios del Proyecto-01. 
 
-También hablamos de las notas, de los promedios de las notas y de nuestra manera de percibirlas. La universidad es para errar, aprender y corregir, aunque en definitiva es algo socialmente complejo, en especial en una carrera donde muchas veces los proyectos son súper personales y el ego puede ser algo difícil de gestionar. Pero es algo que se trabaja.
+- También hablamos de las notas, de los promedios de las notas y de nuestra manera de percibirlas. La universidad es para errar, aprender y corregir, aunque en definitiva es algo socialmente complejo, en especial en una carrera donde muchas veces los proyectos son súper personales y el ego puede ser algo difícil de gestionar. Pero es algo que se trabaja.
 
 ### Clases
 
