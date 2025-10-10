@@ -34,7 +34,7 @@ Referencia académica, Universidad DELF.
 
 ### Código en tejido
 
-Taller Tejiendo para codificar, codificando para tejer(https://weavingxcoding.studio/#Resources)
+Taller [Tejiendo para codificar, codificando para tejer](https://weavingxcoding.studio/#Resources)
 
 [Craftwork](https://www.craftwork.today/work), tecnologías creativas y materiales textiles, explorados a través de contextos históricos y culturales.
 
