@@ -3,7 +3,7 @@
 Viernes 17 Octubre 2025
 
 ***
-## Grupo-04 "nombre del grupo": Integrantes
+## Grupo-04 "nombre del grupo" : Integrantes
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001)
 - [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo)
@@ -12,7 +12,6 @@ Viernes 17 Octubre 2025
 - [Francisco Stephens González](https://github.com/FranUDP)
 
 ***
-
 ## Introducción
 
 Este proyecto se centra en desarrollar una "caja negra" que pueda "saludar".
@@ -49,6 +48,7 @@ Hoy no estoy bien, no me siento con fuerzas o energia para poder trabajar con ge
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
