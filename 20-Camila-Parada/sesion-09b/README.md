@@ -9,7 +9,6 @@ Viernes 10 Octubre 2025
 Hoy llegue temprano de forma relativa. Pero estoy quemada.
 El profesor habló de que ayer asistió un grupo y le ayudaron a crear una clase y codigos de forma comentada para después probarlo. Ese es una referencia para analizar y estudiar.
 
-https://github.com/user-attachments/assets/28265e54-
 
 -> Recuperado de: https://github.com/Camila-Parada/dis8645-2025-02-procesos/blob/main/20-Camila-Parada/sesion-09a/video/IMG_0666.mp4
 
