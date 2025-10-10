@@ -52,3 +52,29 @@ Usando el truco anterior logré que encontrara el audio específico que quería.
 
 4-¿Que reproducirá? En este punto avanzado del proyecto creo que ya es hora de ver el tema de audios reales. Como es un personaje (la máquina con nombre pendiente) debería tener la misma voz en todos los casos. En un inicio pensamos en que cada color se asociara con un estado de ánimo: rojo para enojo, azul para tristeza, verde para locura y amarillo (naranjo) para felicidad. Esta polarización de las respuestas daría una experiencia más personalizada e interesante. En caso de no usar la misma voz podríamos usar audios famosos o específicos que nos hagan gracia.
 
+
+Revisar prueba5.5audio
+
+Para resolver el problema más apremiante (el 2) le pedí a chatgpt que le añadiera al código existente una función que reseteara el reproductor trás 1 audio. Para esto hizo se añadió un bool que alterna si se reproduce o no y long para hacer un rango que da inicio y término a la reproducción.
+```cpp
+bool reproduciendo = false;
+unsigned long tiempoInicioReproduccion = 0;
+const unsigned long duracionReproduccion = 15000;
+```
+Hay varios elementos que evidentemente son la manera correcta de ordenar el código pero noto que me falta la experiencia para implementarlos por mi cuenta. Creo entender la lógica de cómo fue resuelto y aprendí a añadir feedback en el monitor serial que mantenga al tanto sobre el status de la máquina. 
+
+En este punto el código está funcionando como queremos:
+
+1-COMPILA
+
+2-Detecta 1 color a la vez y no interrumpe un audio mientras se reproduce.
+
+3-Reproduce el audio deseado por completo cuando se quiere. No reproduce nada al principio.
+
+4-Es posible repetir audio ya que vuelve a un estado inicial.
+
+5-Está ordenado de tal manera que en caso de que quisieramos agregar más colores no sería muy dificil.
+
+6-Tiene una función para probarlo independiente del sensor tipeando en el monitor serial.
+
+A continuación buscaré candidatos de audio que se ajusten a nuestras necesidades. Lo primero que se me ocurre es modificador de voz con IA. Otra opción es una botonera que recopile sonidos o frases famosas. Respetando la esencia del proyecto deben ser SALUDOS o maneras de recibir a alguien por lo menos.
