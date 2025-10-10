@@ -3,6 +3,15 @@
 Viernes 17 Octubre 2025
 
 ***
+## Grupo-04 "nombre del grupo": Integrantes
+
+- [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001)
+- [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo)
+- [Jose Morales Berríos](https://github.com/jotamorales-romulus)
+- [Camila Parada Vasquez](https://github.com/Camila-Parada)
+- [Francisco Stephens González](https://github.com/FranUDP)
+
+***
 
 ## Introducción
 
