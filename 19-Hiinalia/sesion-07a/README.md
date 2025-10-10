@@ -21,14 +21,13 @@ Nos mostraron un proyecto que se llama “Las llamadas que nunca hice”. Su cre
 <https://www.instagram.com/lasllamadasquenuncahice/>
 <https://www.instagram.com/juanjoacuna/>
 
-En el caso de que queramos utilizar tiras led en nuestros proyectos. Podemos también preguntarle al profe Sergio Majluf porque tiene mucho conocimiento acerca de tiras led. O también sirve si es que queremos una habitación gamer con luces led. <https://demasled.cl/> 
-
+En el caso de que queramos utilizar tiras led en nuestros proyectos. Podemos también preguntarle al profe Sergio Majluf porque tiene mucho conocimiento acerca de tiras led. O también sirve si es que queremos una habitación gamer con luces led. <https://demasled.cl/>
 
 ### Motores
 
 Un motor DC es rápido y no sabe dónde está. Un motor es una máquina que funciona con transducción.
 
-Mini motor paso a paso, funciona a grados. Según Gemini, 
+Mini motor paso a paso, funciona a grados. Según Gemini,
 Un "mini motor paso a paso" se refiere a un motor eléctrico de tamaño reducido que convierte impulsos eléctricos en movimientos mecánicos precisos y discretos, llamados "pasos".
 
 Micro Servomotor es un motor muy preciso para controlar el movimiento del eje. Usualmente es muy frágil y se rompe con facilidad por lo preciso que es.
@@ -70,7 +69,6 @@ MCI Electronics Encoder pulsador $2290
 
 dudas / ataos:
 no sabemos cómo se conectan
-
 
 salida: queremos que se despliegue un menú en una pantallita para elegir un idioma y que salude en el idioma seleccionado a través de sonido y mensaje en pantalla
 
@@ -114,6 +112,7 @@ MarcoMeatball es un cantante de ópera que ahora trabaja como actor de doblaje y
 The Infographics Show es un canal dedicado a explicar varios temas en distintas áreas, utilizando un lenguaje simple de entender para cualquier persona. Pienso que en presentaciones, hay que considerar que no todo el mundo va a poder entender lenguaje técnico, por lo que es importante saber explicar temas en simples palabras. Me gusta este canal por su simpleza, fácil de entender, preciso y conciso.
 
 ### Código
+
 <https://github.com/forntoh/LcdMenu>
 Encontré esta biblioteca en GitHub que permite crear sistemas de menús en arduino. Sería muy útil tenerlo a mano para entender cómo funciona un código de un menú y además entender los elementos de la interfaz para que el usuario sea capaz de interactuar de manera eficiente.
 
@@ -139,11 +138,12 @@ Me dí cuenta de que no tengo referentes gráficos, asi que incluyo uno en la pa
 Este referente aporta a mi proyecto directamente en el caso de que quiera usar componentes fuera de lo que se compra. En vez de utilizar un reproductor mp3 con tarjeta SD, enseña como utilizar cualquier parlante en casa para evitar gastos extra. Esta es una buena opción en el caso de no tener disponible el reproductor si quiero que mi arduino reproduzca un sonido.
 
 ### Tamagotchi
+
 ![Tamagotchi](./imagenes/tamagochi.png)
 
 El material y la forma de un Tamagotchi pienso que sería interesante utilizarlo para el proyecto. Es fácil de sostener en las manos y tiene un lugar para botones en el caso de que se requiera. Un encoder fácilmente podría ocupar ese lugar.
 
-## Encargo 
+## Encargo-NUMERO
 
 Leí de las bitácoras, y la de @santiagoClifford me pareció muy interesante. Con su grupo van a crear una máquina que detecta personas a través del sonido, y que el usuario se sienta observado por sus ojos. Ese sentimiento de incomodidad me parece que sería muy bueno poder manifestarlo a través de una máquina. Me recuerda bastante a una película protagonizada por Jim Carrey, llamada The Truman Show. El protagonista se sentía constantemente observado. Podría ser un buen referente para este proyecto.
 Hay una cosa que me genera dudas. La parte de los micrófonos en puntos estratégicos no sabría decir qué tan bien funcionan considerando que hay que usar un espacio más grande. Quizás habría que considerar buscar otra forma de hacer la detección del usuario.
