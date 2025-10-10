@@ -550,6 +550,12 @@ myDFPlayer.volume(10);  //establecer volumen, entre 0 y 30, he probado con 100 y
 - se añadió la linea myDFPlayer.randomAll la cuál me permite reproducir de forma aleatoria las pistas de audio
 - una observación es que algunos audios se interrumpen para comenzar otro de forma instantánea, esto generaría un problema si queremos que todas las palabras se escuchen completas, intenté ajustando el delay, bajando y subiendo el valor pero no comprendo aún como hacer que no se corten
 - otra observación es que en vez de un loop sin parar de cosas aleatorias, debiese ser que se active una palabra aleatoria en base a un algo, de forma más pausada, que se active sólo si se intercede ese algo/objeto/sujeto para activar el módulo, en base a la acción "tirar dado, da un resultado"
+- activar mediante un pushbutton el audio aleatorio, en [wolles-elektronikkiste](https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini) dice lo siguiente que quizá podría servir:
+- Control mediante pulsadores
+-Hay otra opción para controlar el DFPlayer Mini. Como se mencionó antes, muchas funciones también se pueden usar a través de los pines Adkeyx y IOx (pines 9, 11, 12 y 13).
+-Los conectores IOx están conectados a GND mediante pulsadores. Dependiendo de si presionas corto o largo, se reproducirá la siguiente canción, se aumentará el volumen, se reproducirá el archivo anterior o se disminuirá el volumen.
+-Con los conectores ADKEYx, se pueden controlar diversas funciones añadiendo resistencias adicionales. Yo lo he probado y funciona perfectamente.
+-Por cierto, “Segment X” significa “reproducir la canción número X”. Sin embargo, el orden de copiar las canciones sigue siendo importante, sin importar el tipo de carpeta (!).
 
 
 
