@@ -49,14 +49,19 @@ Al recibir la señal de sonido, un mo
 
 https://www.murkyrobot.com/guias/sensores/ky-038
 
-## Encargo
+## Encargo 12
 
-- 10 proyectos de internet que tengan cosas robables, para poder tener una bibliografía decente.
-- 2 referentes de cada uno:
-    - Lenguaje
-    - Código
-    - Materialidad
-    - Documentación
+Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
+
+## Encargo 13
+
+buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 
+1. lenguaje natural (personas)
+2. código
+3. materialidad
+4. documentación
+
+Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo
 
 ## Bibliografía
 
