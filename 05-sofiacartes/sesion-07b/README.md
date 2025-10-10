@@ -16,12 +16,12 @@ Comisión Cynthia Shuffer
 
 1. Intentar que el código se pueda ver completo en la primera pantalla
 2. archivo.ino
-4. creditos.ino
-5. cableado.ino
+3. creditos.ino
+4. cableado.ino
    
 ### Archivo principal.ino
 
-1. Usar bool para switch
+1 Usar bool para switch
 2. variables con clases (.cpp/.h)
 3. Usar booleanas para definir las variables, ej: Persona de 2 a 10 cm de distancia : true / false
    
