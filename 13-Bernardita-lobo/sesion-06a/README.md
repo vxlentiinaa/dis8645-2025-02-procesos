@@ -86,6 +86,8 @@ Data login
 
 - Sensor que si está temblando, encienda todas las luces (me da miedo los temblores).
 
+---
+
 ### Referentes 
 
 - [Miller Puckette](https://es.wikipedia.org/wiki/Miller_Puckette)
