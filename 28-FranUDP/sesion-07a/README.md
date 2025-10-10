@@ -167,18 +167,49 @@ Tras revisar las bitácoras del equipo no se qué más hace su proyecto a demás
 
 -----------------------------------------------------------------------------------------------------------
 ## Encargo 13 <!-- buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), código, materialidad, documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo -->
-### TITULO
+### Referentes
+
+#### Lenguaje natural
+
+#### Código
 
 https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home
 
-https://howtomechatronics.com/projects/arduino-radar-project/
-
-https://forum.arduino.cc/t/using-3-modified-hc-sr04-to-triangulate-the-position-of-one-or-more-objects/902767
+Es una biblioteca desarrollada para facilitar el uso de los sensores ultrasónicos y aumentar su presición, lo cual nos será de mucha ayuda al necesitar saber exactamente donde se encuentra el usuario.
 
 https://www.instructables.com/Accurate-2D-Tracking-Using-Multiple-HC-SR04-Ultras/
 
+Tiene 2 o más sendores ultrasónicos con "campos de visión" sobrepuestos para detectar posición, esto es justo lo que nesesitamos para poder determinar hacia donde los ójos tienen que mirar
+
+#### Materialidad
+
+#### Documentación
+
+#### Potencial problema
+
 https://forum.arduino.cc/t/ultrasonic-sensor-hc-sr04-tracking-and-following-object/1296914
+
+En este foro hablan sobre un servo que mueve un sensor ultrasónico haciendo que sigua al usuario, y el problema que parece estar teniendo el desarrollador con el cono de detección limitado de 15° del sensor.
+
+Es posible que para seguir con la mirada al usuario necesitemos más de 2 sensores...
 
 https://macduino.blogspot.com/2013/11/hc-sr04-using-multiple-ultrasonic.html
 
+Según entiendo, emplea varios sensores en distintos ángulos para extender el cono de visón de su robot, efectivamente haciendo que 3 sensores actuen como uno, lo más probable es que me haya confundido con la matemática, pero es posible que nos ayude a solucionar el problema del campo de visión.
+
 https://blog.arduino.cc/2018/07/13/dual-ultrasonic-sensors-combine-for-2d-echolocation/
+
+En este proyecto se utilizan 2 sensores ultrasónicos para determinar la posición de un objeto, esto es haciendo que solo uno pueda emitir el ultrasonido y que ambos lo recivan después de que el sonido rebote en el objeto.
+
+Esto genera un triangulo co un lado de distancia conocida y 2 que varían dependiendo de la posición del objeto, lo cual permite calcular la posición del objeto facilmente.
+
+Es posible que este método sea una mejor solución al problema.
+
+
+
+
+
+
+
+
+
