@@ -202,6 +202,8 @@ Una máquina que tiene unos ojos que identifiquen y triangulen la profundidad de
 
 Encontré un código de cómo programar el sensor HC SR04 de proximidad en Arduino. El usuario solo quiere que el sensor, al detectar un vaso se enciendan las bombas, pero no sabía como escribir el código
 
+Elegí este referente para guiarme sobre el uso del sensor de proximidad HC sr04, saber que códigos usaba para tener una idea de como hacerlo para el proyecto con mis compañeras.
+
 Colocó en el forum este código de abajo.
 
 ```cpp
@@ -296,3 +298,17 @@ Alexander28. (2 de octubre de 2017). Programación sensor de proximidad [Mensaje
 
 
 Naylamp Mechatronics SAC. (s. f.). Tutorial de Arduino y sensor ultrasónico HC-SR04. Recuperado de https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
+
+---
+
+•Otto Ninja•
+
+Otto Ninja, es un robot de fácil armado y con instrucciones fáciles de seguir. Por eso lo tomé como referente, ya que usa sensor de proximidad, servomotores e impresiones 3D. Además su programación se puede usar con Scratch.
+
+Diseñador: OttoDIY
+
+![Otto Ninja](./imagenes/robotOttoNinja.jpg)
+
+Otto Robot. (2024, 15 de febrero). Otto Ninja robot Arduino Nano design [Modelo 3D]. Printables. https://www.printables.com/model/256569-otto-ninja-robot-arduino-nano-design
+
+

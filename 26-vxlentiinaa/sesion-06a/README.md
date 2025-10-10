@@ -308,3 +308,7 @@ else if (distanceCm < 400) {
   delay(500); // Esperar 500 ms
   }
 ```
+
+### Encargo 11
+
+- investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar

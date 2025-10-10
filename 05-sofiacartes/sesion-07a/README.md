@@ -90,6 +90,8 @@ Definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
 ## Encargo
 
 Cada persona del  grupo traer 4 referentes de internet y comentar qué proyectos se parecen
+
+### Referentes
   
 - Trata de un robot vibratorio hecho en origami: plegando papel, incorporando un motor vibratorio y una pila (moneda) para generar movimiento.
 
@@ -108,3 +110,14 @@ Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar 
 - idea de construir el robot con legos
   
  <https://makerzoid.cl/products/robot-master-premium?>
+
+ ### Proyectos similares
+
+ 1. [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a) 
+ 
+Su proyecto trata de una máquina que tiene unos ojos que identifiquen y triangulen la profundidad de dónde está el humano. Cuando la persona se acerque a un espacio, una oreja, le hable con un sonido aleatorio.
+
+- Las similitud es que ambas máquinas dependen de la cercanía e interacción de la distancia de la persona.
+- Se utiliza la voz y el sonido.
+- Ambas máquinas susurran.
+

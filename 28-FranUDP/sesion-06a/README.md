@@ -8,6 +8,8 @@
 
 <img align="left" src="./imagenes/scratch.jpg" alt="Scratch" title="Fuente: https://www.techlearning.com/how-to/what-is-scratch-and-how-does-it-work" width=300>
 
+<br/>
+
 Plataforma, lenguaje de programación visual y comunidad donde niños y estudiantes ${\color{#b0e6e6}aprenden}$ a ${\color{#b0e6e6}programar\ jugando}$, creando animaciones, juegos, historias, etc.
 
 <br/><br/>
@@ -16,9 +18,11 @@ Plataforma, lenguaje de programación visual y comunidad donde niños y estudian
 
 <img align="left" src="./imagenes/pureData.png" alt="Pure Data" title="Fuente: https://puredata.info/ Captura de pantalla por FranUDP" width=300>
 
+<br/><br/>
+
 Lenguaje de programación visual *open source* diseñado para crear multimedia de manera ${\color{#b0e6e6}interactiva}$ y en ${\color{#b0e6e6}tiempo\ real}$.
 
-<br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 
 ### [GitHub Workflows](https://docs.github.com/es/actions/concepts/workflows-and-actions/workflows)
 
@@ -48,17 +52,19 @@ El programa fue diseñado para que el ${\color{WHITE}output}$ generado sea el mi
 
 <img align="left" src="./imagenes/donaldKnuth.jpg" alt="Donald Knuth" title="Fuente: https://en.wikipedia.org/wiki/Donald_Knuth" width=150>
 
+<br/><br/>
+
 Es una de las personas más influyentes en las ciencias de la computación. Escribió la "biblia de la computer science" ([The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)), creó [TeX](https://en.wikipedia.org/wiki/TeX) e introdujo el concepto de [programación literaria (*Literate programming*)](https://en.wikipedia.org/wiki/Literate_programming), entre otros.
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 
 #### [Overleaf](https://www.overleaf.com/)
 
-<img align="left" src="./imagenes/overleaf-green-medium.svg" alt="txt" title="Fuente: https://www.overleaf.com/about" width=150>
+<img align="left" src="./imagenes/overleaf-green-medium.svg" alt="txt" title="Fuente: https://www.overleaf.com/about" width=150><br/><br/>
 
 ${\color{#b0e6e6}Editor}$ de LaTeX diseñado para hacer que escribir usando LaTeX sea más fácil, rápido, accesible y colaborativo (aunque se tiene que pagar para poder colaborar).
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 ### Proyecto 2: Máquina Saludadora
 
@@ -75,7 +81,7 @@ Qué cambio(s), cómo los detecta o mide varían dependiendo del tipo de sensor.
 
 #### [Sensor ultrasónico de distancia (HC-SR04)](https://projecthub.arduino.cc/lucasfernando/ultrasonic-sensor-with-arduino-complete-guide-284faf)
 
-<img align="right" src="./imagenes/HC-SR04.jpg" alt="HC-SR04 pinout" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=400>
+<img align="right" src="./imagenes/HC-SR04.jpg" alt="HC-SR04 pinout" title="Fuente: https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html#google_vignette" width=600>
 
 Emite ${\color{#b0e6e6}ondas\ ultrasónicas}$ y calcula cuánto tiempo pasa antes de que estas regresen a él, igual que un murciélago.
 
@@ -110,7 +116,7 @@ Referentes: [Sonar](https://youtu.be/KGwtit2bFyo?si=A_or_WnmgpEQNJxr) y [sistema
 
 #### [Sensor de temperatura y humedad <sub>1</sub>](https://www.hwlibre.com/dht11/) [(DHT11)<sub>2</sub>](https://www.youtube.com/watch?v=nssXWNYdGT8&msockid=a89b07d59da211f0b745a4c3a2f1df11)
 
-<img align="right" src="./imagenes/DHT11.jpg" alt="HDT11 pinout sensor y módulo" title="Fuente: https://components101.com/sensors/dht11-temperature-sensor" width=300>
+<img align="right" src="./imagenes/DHT11.jpg" alt="HDT11 pinout sensor y módulo" title="Fuente: https://components101.com/sensors/dht11-temperature-sensor" width=400>
 
 Mide la ${\color{#b0e6e6}temperatura\ y\ humedad}$ del ambiente en que sea colocado. Hace el trabajo de 2 sensores distintos.
 
@@ -144,7 +150,7 @@ Referente: [Medidor de temperatura con display que controla un ventilador](https
 
 #### [Sensor de gas (MQ2)](https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/)
 
-<img align="right" src="./imagenes/MQ2.jpg" alt="MQ2 pinout" title="Fuente: https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/" width=270>
+<img align="right" src="./imagenes/MQ2.jpg" alt="MQ2 pinout" title="Fuente: https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/" width=290>
 
 Sensor capaz de ${\color{#b0e6e6}detectar\ la\ presencia\ de}$ GLP, humo, alcohol, propano, hidrógeno, metano y monóxido de carbono (entre otros ${\color{#b0e6e6}gases\ inflamables}$), y reportar la concentración de estos gases en el aire.
 
@@ -180,7 +186,7 @@ Referente: [Detector de gases y humo (alarma)](https://youtu.be/NxaBnZyyJbc?si=X
 
 #### [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)
 
-<img align="right" src="./imagenes/RotaryEncoderPinout.jpg" alt="Rotary encoder pinout" title="Fuente: https://components101.com/modules/KY-04-rotary-encoder-pinout-features-datasheet-working-application-alternative" width=370>
+<img align="right" src="./imagenes/RotaryEncoderPinout.jpg" alt="Rotary encoder pinout" title="Fuente: https://components101.com/modules/KY-04-rotary-encoder-pinout-features-datasheet-working-application-alternative" width=450>
 
 Detecta la ${\color{#b0e6e6}dirección\ de\ rotación}$, la ${\color{#b0e6e6}distancia\ recorrida}$ por la rueda, la ${\color{#b0e6e6}velocidad\ de\ rotación}$ y, en algunos casos, si un interruptor está siendo pulsado.
 
@@ -207,7 +213,7 @@ Referente: [Regulador de intensidad para lámpara (*Lamp dimmer*)](https://www.e
 
 #### [Sensor de humedad de suelo (HW-103A)](https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/)
 
-<img align="right" src="./imagenes/SoilMoistureSensorPinout.png" alt="Sensor de humedad pinout" title="Fuente: https://projecthub.arduino.cc/Aswinth/soil-moisture-sensor-with-arduino-91c818" width=400>
+<img align="right" src="./imagenes/SoilMoistureSensorPinout.png" alt="Sensor de humedad pinout" title="Fuente: https://projecthub.arduino.cc/Aswinth/soil-moisture-sensor-with-arduino-91c818" width=450>
 
 El sensor es una ${\color{#b0e6e6}resistencia}$ cuyo ${\color{#b0e6e6}valor\ varía}$ dependiendo de cuánta ${\color{#b0e6e6}humedad}$ haya en el ${\color{#b0e6e6}suelo}$. Esta es conectada a un módulo comparador LM393, que se encarga de proveer las señales digitales y analógicas.
 
@@ -259,7 +265,7 @@ Referente: [Control de juego para una mano (*One handed game controller*, un mou
 
 #### [Fotorresistencia](https://youtu.be/DYcLFHgVCn0?si=fQL99084OkrClTet&t=1293)/[Light Dependent Resistor (LDR)](https://albertoroura.com/controlando-un-led-con-un-ldr-en-arduino/)
 
-<img align="right" src="./imagenes/LDR.jpg" alt="LDR" title="Fuente: https://albertoroura.com/controlando-un-led-con-un-ldr-en-arduino/" width=350>
+<img align="right" src="./imagenes/LDR.jpg" alt="LDR" title="Fuente: https://albertoroura.com/controlando-un-led-con-un-ldr-en-arduino/" width=450>
 
 Es una ${\color{#b0e6e6}resistencia\ variable}$, mientras más ${\color{#b0e6e6}luz}$ reciba, menor será su resistencia. Se puede configurar como un ${\color{red}divisor\ de\ voltaje}$ para enviar una señal analógica al microcontrolador.
 
@@ -276,7 +282,7 @@ Referentes: [Luz de noche](https://youtu.be/2GqKbUyhUww?si=mpI0xkQ-1CazY2QV).
 
 #### [Sensor<sub>1</sub>](https://www.instructables.com/Interfacing-IR-Sensor-Module-With-Arduino/) [infrarrojo<sub>2</sub>](https://www.youtube.com/shorts/epcZA5XsS20)
 
-<img align="right" src="./imagenes/IR-Sensor-Pinout.png" alt="Módulo infrarrojo pinout" title="Fuente: https://circuitdigest.com/microcontroller-projects/interfacing-ir-sensor-module-with-arduino" width=400>
+<img align="right" src="./imagenes/IR-Sensor-Pinout.png" alt="Módulo infrarrojo pinout" title="Fuente: https://circuitdigest.com/microcontroller-projects/interfacing-ir-sensor-module-with-arduino" width=450>
 
 El módulo consta de un ${\color{#b0e6e6}emisor\ infrarrojo}$ y un ${\color{#b0e6e6}fotodiodo}$ que, en conjunto, funcionan de forma similar al sensor ultrasónico de distancia, pero a diferencia de este, el sensor infrarrojo solo ${\color{#b0e6e6}detecta}$ si hay o no un ${\color{#b0e6e6}objeto\ frente\ a\ sí}$.
 
@@ -303,7 +309,7 @@ Distancia efectiva: 2 cm a 30 cm
 
 #### [Micrófono<sub>1</sub>](https://www.phippselectronics.com/using-the-max9814-microphone-amplifier-module-with-arduino/?srsltid=AfmBOooUClS5McZD3e31Tjjw-1en5V239ZtJ0RgBob8698bqQPYsVVni) [electret<sub>2</sub>](https://www.youtube.com/watch?v=bMs5J4bJOD0)
 
-<img align="right" src="./imagenes/MAX9814-Pinout.jpg" alt="Módulo micrófono electret MAX9814 pinout" title="Fuente: https://www.datasheethub.com/max9814-microphone-amplifier-module/" width=330>
+<img align="right" src="./imagenes/MAX9814-Pinout.jpg" alt="Módulo micrófono electret MAX9814 pinout" title="Fuente: https://www.datasheethub.com/max9814-microphone-amplifier-module/" width=450>
 
 Un pequeño ${\color{#b0e6e6}micrófono}$ electret (capacitivo) con la circuitería necesaria para amplificar la señal y que esta sea utilizable.
 

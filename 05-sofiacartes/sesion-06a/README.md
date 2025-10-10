@@ -6,7 +6,10 @@
 
 [Pure data](https://puredata.info/): Es un software para programar audios. Está programado en C++.
   
-- Miller Puckette: Es un matemático, programador y profesor de música estadounidense, director asociado del CRSA, así como miembro del claustro de la facultad de la UC University of California en San Diego donde trabaja desde 1994. Cycling 74 esta empresa vende un software llamado `Max map`.
+ 
+### Miller Puckette
+
+Es un matemático, programador y profesor de música estadounidense, director asociado del CRSA, así como miembro del claustro de la facultad de la UC University of California en San Diego donde trabaja desde 1994. Cycling 74 esta empresa vende un software llamado `Max map`.
   
 Hizo nueva versión.
 

@@ -119,3 +119,11 @@ Por lo tanto cualquier codigo llega a servir en estos casos para nuestro proyect
 Para este punto probamos el sensor ultrasonico:
 
 (https://wokwi.com/projects/304444938977804866)
+
+---
+
+Se me olvidó subir el propio diagrama de flujo, pero aquí lo dejo (esta dibujado de manera digital):
+
+![Diagrama de Flujo](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-07b/imagenes/DiagramaFlujo.png)
+
+

@@ -153,7 +153,7 @@ Lo mismo para salado, donde se separa en `papas.h` y `suffles.h`
 
 ---
 
-### Encargo
+### Encargo 9
 
 Escuchar los dos primeros discos de Primus.
 
@@ -170,6 +170,12 @@ El segundo disco que escuché fue Sailing the Seas of cheese, creado en 1991, en
 ![Primus1](./imagenes/primusFrizzyFry.jpeg)
 
 ![Primus2](./imagenes/primusSailingTheSeasofCheese.jpg)
+
+---
+
+### Encargo 10
+
+Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente
 
 ---
 
