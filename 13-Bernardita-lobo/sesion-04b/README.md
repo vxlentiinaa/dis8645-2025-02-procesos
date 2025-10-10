@@ -1,6 +1,6 @@
 # Sesión-04b
 
-Viernes 
+Viernes 29 de agosto, 2025
 
 ## Encargo-08: 
 
