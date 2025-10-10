@@ -143,7 +143,7 @@ Distancia ultrasónico
 
 ### Palabras importantes
 
-(Cosmotécnica:)[https://www.centropoiesis.net/items/%22cosmo-t%C3%A9cnicas%22] El termino Cosmotécnica es desarrollado por Yuk Hui y se entiende como la unificación de una concepción del cosmos, y por lo tanto de la naturaleza por medio de las técnicas, tanto de oficios como de artes.
+[Cosmotécnica:](https://www.centropoiesis.net/items/%22cosmo-t%C3%A9cnicas%22) El termino Cosmotécnica es desarrollado por Yuk Hui y se entiende como la unificación de una concepción del cosmos, y por lo tanto de la naturaleza por medio de las técnicas, tanto de oficios como de artes.
 
 tecnodiversidad: enontre est video que habla de eso [Yuk Hui (Masterclass) ¿Por qué es necesaria la tecnodiversidad?](https://youtu.be/Dni6UJDFUuw?si=XxG4CNcoMZsBdrT_)
 
