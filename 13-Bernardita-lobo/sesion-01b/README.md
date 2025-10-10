@@ -92,6 +92,8 @@ Si quieres comentar línea por línea, debes usar // al comienzo de cada una.
 
 Lo ideal es que cada línea de código tenga un comentario explicando lo que hace, especialmente cuando estás empezando.
 
+---
+
 ### Referentes
 
 - Alejandra Pizarnik
