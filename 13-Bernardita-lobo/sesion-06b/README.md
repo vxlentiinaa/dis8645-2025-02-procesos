@@ -52,6 +52,8 @@ Conversamos con nuestros compañeros del curso sobre nuestros proyectos para ent
 
 Sensor de proximidad que, de acuerdo a qué tan cerca estés del robot, te vaya contando sus secretos. Dependiendo de la distancia, te cuenta cosas diferentes.
 
+---
+
 ### Referentes
 
 - [Mateo](https://github.com/matbutom/)
