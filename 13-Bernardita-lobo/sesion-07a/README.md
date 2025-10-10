@@ -149,13 +149,31 @@ Drivers
 
 ---
 
-## Encargo
+## Encargo-12: leer las bitacoras de colegas
 
-buscar ejemplos de : lenguaje, código, materialidad y documentacion.
+Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
+
+## Encargo-13: Referentes asociados a tu proyecto
+
+Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías 
+
+- lenguaje natural (personas)
+
+- Código
+
+- Materialidad
+
+- Documentación
+
+Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
 
 ### Lenguaje
 
 Palabras, conseptos y ideas que ayudan a conseptrualidar y poner de manera literaria nuestro proyecto, llevarlo al mundo descroptivo, lenguaje natural, adjetivos, vervos y advervios.
+
+Pongo de ejemplo esta lección https://youtu.be/waN4owHeyaQ que subieron al canal de Moog, donde explican las bases de los sintetizadores. Siento que logran explicar conceptos complejos a través de dibujos y colores que funcionan en conjunto con el lenguaje como un buen apoyo. 
+
+ instrumentos telepaticos.
 
 ### Código
 
@@ -167,4 +185,9 @@ materialidades en el proyecto,  ya sea madera, impresion 3d, metal, que trabajen
 
 ### Documentación
 
-Registro, instrumentos telepaticos.
+De documentación, me gusta mucho un canal que habla de historia, fenómenos tecnológicos y modas retro. Y cómo transforma su investigación en algo muy fácil de digerir. [Retro Flama](https://www.youtube.com/@RetroFlama)
+
+Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
+
+También, como referente de documentación, me parece muy genial la manera en que explican los componentes del [sintetizador Moog](Mavishttps://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos, esquemáticos y pequeñas láminas que se pueden superponer para probar diferentes sonidos.
+
