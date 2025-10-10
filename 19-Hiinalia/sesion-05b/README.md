@@ -95,3 +95,7 @@ Se podría decir que esa realidad de hace doce años sigue siendo la misma de ah
 En algún punto de la charla, mencionó algo muy interesante que me hizo recordar algo que dijo Aarón. Que la programación es todo un estilo de vida.
 Mitchel Resnick mencionó que la programación, aunque uno no se vuelva realmente un profesional en el área, también nos ayuda en otras cosas. Como por ejemplo, a entender procesos, o desarrollar mejor nuestro pensamiento crítico. Valoro completamente estas palabras. Quizás no tenga mucho interés en volverme una profesional en el tema, pero lo que nada me va a quitar es que todo conocimiento es útil y en mi día a día puedo aplicar ciertas cosas que he aprendido.
 
+## Encargo Primus
+
+Intenté escuchar Pork Soda, el álbum del año 1993. No pude escuchar el álbum completo porque la verdad es que me estaba produciendo mucha ansiedad. Escuché unas 7 canciones más o menos, hasta casi la mitad cada uno, y no me dio para escuchar más. Debo decir que si ese es el efecto que buscaban conseguir, lo lograron. Los sonidos en sí suenan tan extraños que mi cerebro empezó a procesarlos como peligro.
+
