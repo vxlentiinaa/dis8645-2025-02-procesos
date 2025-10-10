@@ -1,7 +1,7 @@
 # sesion-09b
 ## taller clase 10 de octubre
 
-toy pa la caga no doy más pero hay que seguir
+muy desanimado hoy pero hay que seguir
 ### apuntes y pendientes
 - actualizar bitácora pendiente
 - resolver si o si el módulo mp3 y la aleatoriedad, lograr el ejercicio del botón dado y repasar el concepto de millis para aprender y usar lo menos posible delay, estoy muy confundido
