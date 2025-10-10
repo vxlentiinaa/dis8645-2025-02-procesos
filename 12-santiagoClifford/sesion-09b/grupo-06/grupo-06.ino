@@ -11,6 +11,8 @@ unsigned int sample;
 
 unsigned long startMillis;
 
+int angleCrazy;
+
 Microfono izquierdo;
 Microfono derecho;
 
@@ -20,7 +22,7 @@ Parpados parpados;
 bool imprimir = true;
 
 void setup() {
-  
+
   cuello.configurar();
   parpados.configurar();
 
@@ -65,12 +67,24 @@ void loop() {
     // // double volts1 = (peakToPeak1 * 5.0) / 1024.0;
     // // double volts2 = (peakToPeak2 * 5.0) / 1024.0;
     // // Serial.print("V1: "); Serial.print(volts1); Serial.print(" V, V2: "); Serial.println(volts2);
+    if a
+    cuello.moverMotorcillo(angleCrazy, 10);
+    angleCrazy++;
 
-      cuello.moverMotorcillo(0, 1000);
-      parpados.moverMotorcillo(0, 200);
+
+    // cuello.moverMotorcillo(22, 100);
+    // cuello.moverMotorcillo(45,100);
+    // cuello.moverMotorcillo(77,100);
+    // cuello.moverMotorcillo(90, 100);
+    // cuello.moverMotorcillo(112, 100);
+    // cuello.moverMotorcillo(135, 100);
+    // cuello.moverMotorcillo(157, 100);
+    // cuello.moverMotorcillo(180, 100);
+
+
+    /*parpados.moverMotorcillo(0, 200);
       parpados.moverMotorcillo(70, 200);
-      cuello.moverMotorcillo(100, 1000);
       parpados.moverMotorcillo(0, 200);
-      parpados.moverMotorcillo(70, 200);
+      parpados.moverMotorcillo(70, 200);*/
   }
 }
