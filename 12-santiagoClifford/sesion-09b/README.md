@@ -2,7 +2,7 @@
 
 ## 10-oct-2025
 
-### nuevo flujo 
+### nuevo flujo
 
 ```mermaid
 graph TB;
@@ -19,7 +19,6 @@ directamente al usuario)
 
 E-->B
 E-->C
-
 ```
 
 ### avance maldito masacre criminalístico
