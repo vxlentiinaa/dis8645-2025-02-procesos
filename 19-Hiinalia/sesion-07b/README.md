@@ -29,3 +29,8 @@ Las funciones que se definen se encargan de llamar funciones en otras pestañas.
 Cuando se trabaja una función en otra pestaña, en vez de punto y coma, se utilizan murciélagos para definirla.
 
 Se escriben pseudocódigos para poder entender la estructura de lo que vamos a hacer, y hacer nuestros sueños realidad. Se comienzan con funciones vacías y de a poco utilizando variables simples.
+
+## Encargo
+
+![Diagrama de Flujo](<./imagenes/diagrama_flujo.png>)
+

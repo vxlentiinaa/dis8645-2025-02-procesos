@@ -176,7 +176,7 @@ void loop() {
 
 - [MCI electronics](https://mcielectronics.cl/shop/product/sensor-de-proximidad-de-ultrasonido-hc-sr04-23582/) $2.590
 
-También encontré esta casita interactiva en Afel y me encantó! [Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio
+También encontré esta casita interactiva en Afel y me encantó! [Kit Casa Inteligente con ESP32 Keyestudio](https://afel.cl/products/kit-casa-inteligente-con-esp32-keyestudio)
 
 #### Ideas 
 

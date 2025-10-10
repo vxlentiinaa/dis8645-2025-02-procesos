@@ -4,17 +4,17 @@ Misaa fue a dar una charla sobre toda la teoría del universo, un evento que se 
 
 Hacen convocatorias habitualmente donde buscan proyectos como lo que estamos haciendo nosotros, proyectos colectivos (Instagram) o colectivos.
 
-El 17 de octubre tenemos la entrega de nuestro proyecto 22colectivos.
+El 17 de octubre tenemos la entrega de nuestro proyecto.
 
-Vamos a tener pequeños módulos para poder hacer clases asociadas a ciertos sensores 2.sensores.
+Vamos a tener pequeños módulos para poder hacer clases asociadas a ciertos sensores.
 
 El encargo para el viernes es super fácil: vamos a tener una idea del proyecto y sensores que queremos poder llevar a cabo, vamos. Vamos a tener que investigar en, por ejemplo, las siguientes páginas: instructable.com, arduino.com, github.com, referentes de los que nos podríamos inspirar para desarrollar este proyecto, como mínimo tener 10 como grupo.
 
 Usar una perilla o botón para poder forzar el comportamiento de nuestra máquina, para demostrar los distintos parámetros que íbamos a programar.
 
-Hackaday
+Hackaday.
 
-O'Reilly Media books
+O'Reilly Media books.
 
 @lasllamadasquenuncahice hizo una máquina computacional dentro de un teléfono público.
 
@@ -80,5 +80,6 @@ También es bastante claro con todas los procedimientos, desde el ensamblaje, lo
 ### Código
 
 En el proyecto del ventilador controlado por la [temperatura ambiente](https://www.hackster.io/tubelightthimeri/arduino-based-temperature-controlled-fan-c2e14a#overview), dejó escrito todo el código que escribió para poder llevar a cabo el funcionamiento del producto final, que al menos a mi me gusta mucho es que casi todas las lineas tiene algun comentario para poder guiar al lector (yo) de que estara sucediendo 
+
 
 
