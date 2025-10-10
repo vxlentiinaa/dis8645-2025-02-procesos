@@ -151,14 +151,14 @@ void calibrateScales() {
 ```
 
 ### Microclase de Misaa
-![foto_microclase](./)
+![foto_microclase](./imagenes/foto_uno.jpeg)
 
 Onda cuadrada, súper definida.
 
-![foto_microclase](./)
+![foto_microclase](./imagenes/foto_dos.jpeg)
 
 Prueba con uno de los micrófonos.
 
-![foto_microclase](./)
+![foto_microclase](./imagenes/foto_tres.jpeg)
 
 En esta medición se ve la línea amarilla con un poco de ruido (uno de los micrófonos) y la línea rosada más estable (el otro micrófono). Ya que un micrófono estaba captando más sonido que el otro.
