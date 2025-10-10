@@ -6,7 +6,17 @@
 
 - 
 
-https://www.w3schools.com/
+https://www.w3schools.com/ para repasar
+
+### Parte conseptual del proyecto
+
+que queremos que diga nuestro specker
+
+sinestesia
+
+### cosas que tenemos que ir modificando
+
+misa nos enseño lo que eran millis, y que debiamos cambiarlo por los delay.
 
 ### Referentes
 
