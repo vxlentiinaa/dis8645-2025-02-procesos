@@ -52,15 +52,19 @@ Mientras trabajábamos en esta sección, nos dividimos en dos grupos: uno se que
 
 ![foto laboratorio](imagenes/tmc-sesion05b-lid.jpeg)
 
+### Referentes
+
+- [Primus](https://open.spotify.com/artist/64mPnRMMeudAet0E62ypkx?si=n1BETiUFSYygZVssPsuFHA)
+
+- [Mitchel Resnick](https://www.media.mit.edu/people/mres/overview/), LEGO Papert Professor of Learning Research at the MIT Media Lab
+
 ### Palabras importantes
 
-Clases
+[Clases:](https://es.wikipedia.org/wiki/Clase_(inform%C3%A1tica)) En informática, una clase es una plantilla para el objetivo de la creación de objetos de datos según un modelo predefinido. Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje.
 
-Atributos
+[Atributos:](https://www.techtarget.com/whatis/definition/attribute) En el contexto de un sistema de archivos , se refiere a una característica de un archivo en dicho sistema. Por ejemplo, un archivo puede tener un atributo de solo lectura , lo que significa que está protegido contra escritura y no se puede modificar. 
 
-Métodos
-
-### Referentes
+[Métodos:](https://gamedevtraum.com/es/programacion-informatica/teoria-de-programacion/que-es-metodo-programacion/#google_vignette) Los métodos de programación sirven para agrupar instrucciones de código y luego este conjunto de instrucciones pueden ser llamadas cuantas veces sean necesarias simplemente haciendo la «llamada al método«, esto nos permite reutilizar código y resolver problemas cada vez mas complejos gracias al aumento de abstracción sobre un problema.
 
 ---
 
