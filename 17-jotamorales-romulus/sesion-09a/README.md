@@ -8,6 +8,7 @@
 Una parte del proyecto requiere hacer que el reproudctor mp3 reproduzca audios randomizados
 
 - Grupo 1 nos ayudo con el codigo (poner fuente)
+- intenté activarlo con el circuito en mi casa pero la tarjeta sd no funcionaba, intentaré revisar si es que llega a funcionar lo que se haga en este documento el dia viernes 10.
   
 ```cpp
 <@746126402121629817> /***************************************************
