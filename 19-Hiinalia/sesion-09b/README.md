@@ -73,9 +73,8 @@ variable ::
 
 Aarón me mandó a escribir un parrafo para entender que pasa con los aplausos en el sensor de sonido:
 
-Comienza en el menú de idiomas. Se va girando el encoder y presionando para elegir el idioma. Una vez que se haya elegido un idioma, se despliega un mensaje que diga “Aplaude dos veces consecutivas para reproducir o presiona el botón para volver al menú” Si se detectan los aplausos, se reproduce el audio y el texto en el idioma seleccionado anteriormente. Una vez que se termina de reproducir, aparece de nuevo el mismo mensaje de “Aplaude dos veces consecutivas para reproducir o presiona el botón para volver al menú.” Si se aplaude otra vez, se vuelve a repetir este proceso. En el caso de querer volver al menú anterior, se debe presionar el botón del encoder.
+Comienza en el menú de idiomas. Se va girando el encoder y presionando para elegir el idioma. Una vez que se haya elegido un idioma, se despliega un mensaje que diga “Aplaude dos veces consecutivas para reproducir o presiona el botón para volver al menú” Si se detectan los aplausos, se reproduce el audio y el texto en el idioma seleccionado anteriormente. Una vez que se termina de reproducir, aparece de nuevo el mismo mensaje “Aplaude dos veces consecutivas para reproducir o presiona el botón para volver al menú.” Si se aplaude otra vez, se vuelve a repetir este proceso. En el caso de querer volver al menú anterior, se debe presionar el encoder pulsable.
 
 Si hay más o menos de dos aplausos, el sonido detectado se va a ignorar. Por ejemplo, si se aplaude 3 veces, no se considera como aplauso. Si se aplaude 1 vez, no se considera como aplauso. Solo puede funcionar una vez que haya detectado 2 aplausos consecutivos. El tiempo entre el primer aplauso y segundo aplauso debe ser de 0.8 segundos. Para que se detecte el segundo aplauso, debe estar en ese rango de tiempo. Si se detecta un tercer aplauso dentro de ese tiempo, se anula. No se detectan aplausos si ya se está reproduciendo el audio y el texto. Se vuelve a detectar aplausos una vez que se terminó de reproducir.
-
 
 
