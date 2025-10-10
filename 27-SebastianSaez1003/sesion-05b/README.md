@@ -115,4 +115,6 @@ Referencias:
 
 ## Encargo 10 "investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente"
 
-bleh
+Referencias: 
+
+- https://web.media.mit.edu/~mres/videos.html
