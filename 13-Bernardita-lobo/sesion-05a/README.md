@@ -44,7 +44,7 @@ Wood jig
 
 Virgulilla : ~
 
-#### miPrimerCpp.ino
+#### MiPrimerCpp.ino
 
 ```ccp
 #include "constantes.h"
@@ -64,7 +64,7 @@ void loop() {
 }
 ```
 
-#### constantes.h
+#### Constantes.h
 
 ```ccp
 const int numEstudiantes = 29;
