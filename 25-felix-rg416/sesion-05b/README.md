@@ -250,9 +250,7 @@ Tropa(String patrulla);
 #endif
 ```
 
-## ENCARGO
-
-### Primus
+## Encargo 09
 
 escuchar los dos primeros discos de Primus
 
@@ -267,4 +265,6 @@ Referencias:
 - <https://es.wikipedia.org/wiki/Heavy_metal>
 - <>
  
-- ver alguna charla de Mitch Resnick
+## Encargo 10
+
+Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente.
