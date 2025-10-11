@@ -157,9 +157,26 @@ Tecnodiversidad: enontre est video que habla de eso [Yuk Hui (Masterclass) ¿Por
 
 Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
 
+- Grupo-01
+  - 04-yamna-bit
+  - 05-sofiacartes
+  - 14-mmillar95
+  - 21-vaniaparedes
+  - 26-vxlentiinaa
+ 
+Siento que este proyecto tiene muchas cosas en común con el nuestro: es una especie de robot nervioso que, cuando te acercas, te cuenta un secreto. Esto se parece bastante a una idea que propuse hace unas clases, en la que mediante la cercanía el robot comunicara y emitiera sonidos y secretos. A partir de un concepto parecido, nos fuimos inspirando con nuestro grupo, mezclando además otros sensores.
+
+- Grupo-06
+  - 11-AntFuentealba
+  - 12-santiagoClifford
+  - 22-sofia-perezm
+  - 23-felix-rg416
+ 
+También tenemos cosas en común con este grupo, ya que incluimos unos ojos que te observen hasta que se produzca una interacción. En su caso, este grupo quiso hacer unos ojos que te sigan y generen una sensación incómoda y “creepy” en los usuarios.
+
 ## Encargo-13: Referentes asociados a tu proyecto
 
-Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías 
+Buscar referentes asociados a tu proyecto de cada una de estas 4 categorías:
 
 - lenguaje natural
 
