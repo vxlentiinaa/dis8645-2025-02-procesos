@@ -177,6 +177,19 @@ Pongo de ejemplo esta [Lesson 1: Listening](https://youtu.be/waN4owHeyaQ) que su
 
 ### Código
 
+De ejemplo para el código, encontré este ejercicio en [w3schools](https://www.w3schools.com/cpp/cpp_howto_random_number.asp) para aprender a generar números aleatorios, lo cual necesitamos trabajar en nuestro proyecto con las frases escogidas.
+
+```ccp
+// Get a different random number each time the program runs
+srand(time(0));
+
+// Generate a random number between 0 and 100
+int randomNum = rand() % 101;
+
+cout << randomNum;
+return 0;
+```
+
 ### Materialidad
 
 De materialidad, creo que lo más probable es que utilicemos impresión 3D, ya que es un material y una técnica con muchas opciones de formas. Además, es rápido, y en el LID tenemos varios tipos de filamentos e impresoras disponibles. Para mí, el tema del tiempo es muy valioso, y si lo hiciera con madera o terciado tendría que ir en auto a comprar los materiales. Además, la impresión 3D no requiere ningún tipo de terminación específica.
