@@ -3,11 +3,12 @@
 ## Apuntes 
 
 - Braulio y yo logramos randomizar el audio.
-- Anteriormente no habia conectado bien el circuito del arduino.
+- Anteriormente no había conectado bien el circuito del arduino.
 - Para el proyecto necesitamos que el sonido se emita cuando una persona este a x distancia del sensor.
-- Misaa nos enseño que delay es una mala practica porque bloquea la ejecucion y no permite hacer otras tareas mientras espera.
+- Misaa nos enseño que delay es una mala practica porque bloquea la ejecución y no permite hacer otras tareas mientras espera.
 - Chequear [BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay)
 - Millis() te da el tiempo en milisegundos desde que encendió Arduino. Con esto se puede medir intervalos sin bloquear el código.
+- Establecimos que temática iba a tener el proyecto. Tenemos la base que es unos ojos que te siguen y un parlante que emite un sonido de forma aleatoria cuando detecta que hay una persona cerca. 
 
 ### Blink without delay
 
@@ -111,6 +112,17 @@ Para reemplazar el delay(), hay que hacer que el programa mida el tiempo transcu
   // Espera 1 segundo sin bloquear otras tareas
   while (millis() - start < 1000) {
 ```
+
+### Activicacion sonido aleatorio
+
+Para simular el sensor ultrasónico usaremos un botón para probar la lógica de activación del sonido sin necesidad de conectar el sensor ultrasonico. Así podemos asegurarnos de que el Arduino y el DFPlayer funcionen correctamente, detectar la pulsación y reproducir una canción aleatoria, antes de integrar el sensor físico al proyecto. 
+
+Para activar la reproducción, se integró un botón conectado al pin 2 y se aplicó un [debounce](https://docs.arduino.cc/built-in-examples/digital/Debounce) que asegura que cada pulsación genere únicamente un sonido, evitando activaciones múltiples por rebotes. Para la configuración del botón tuve que revisar el ejemplo de Arduino: [Button](https://docs.arduino.cc/built-in-examples/digital/Button). No tenía muy fresco esto, así que lo ocupé para aprender.
+
+```CPP
+
+
+### Ideas Carcasa y proyecto final
 
 - Vincent van Gogh y su oreja
 - Un cangrejo que 
