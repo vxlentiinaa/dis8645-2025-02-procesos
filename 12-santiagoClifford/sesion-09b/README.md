@@ -70,3 +70,63 @@ una vez impresos, pegué 2 racks para que pudieran afectar 2 engranajes, en sent
 ![prototipo estado inicial](./imagenes/prototipoRack-step1.jpg)
 
 ![prototipo estado final](./imagenes/prototipoRack-step2.jpg)
+
+en este punto temporal, me está costando harto generar los engranajes con las especificacxiones con las lo que lo necesito.
+
+## gears
+
+- [khkgears.net](https://khkgears.net/new/gear_knowledge/abcs_of_gears-b/basic_gear_terminology_calculation.html)
+- [youtu.be](https://youtu.be/2aftYe1sAuk?si=3lhF4pmu0fMwxvIr)
+- [wikipedia](https://es.wikipedia.org/wiki/Engranaje)
+
+los engranajes son un tipo de mecanismo, que se utiliza para transmitir potencia mecánica. Los engranajes te permiten manipular tanto la dirección como la velocidad.
+
+los sistemas de engranajes se construyen en base a su pitch, que es un círculo imaginario que representa el punto donde los engranajes harían contacto.
+
+los engranjes tienen dientes para tener mejor agarre entre ellos. El círculo que reprersenta el tamaño del engranje es llamdo "dedendum circle", el círculo imaginario [circunscrito](https://es.wikipedia.org/wiki/Circunferencia_circunscrita) en el en engranaje, se llama "addendum circle".
+
+el diente de un engranaje tiene una forma de un trapecio pegado a un cuadrado, la parte donde se unen, es el pitch
+
+```mermaid
+graph BT
+    B[  <br>  ] --> A[/ <br>  <br>\]
+```
+
+Respecto a la parte del diente que entra en contecto con otro engranajes, la parte del trapecio es la "face".
+ la parte inferior, es el "flank".
+
+![face y flank](./imagenes/gears-video.png)
+
+el plugin de fusion [spur generator](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-create-a-spur-Gear-in-Fusion-360.html), pide los siguientes parámetros para genrar un engrnaje:
+
+![imagen de la interfaz de spurGear](./imagenes/spurGear.png)
+
+el [módulo](https://es.yujebearing-machining.com/info/what-is-the-modulus-of-a-gear-67373842.html) es una característica propia de los engranajes. El módulo es útil, ya que para que 2 engranajes sean compátibles entre sí, deben tener el mismo módulo.
+
+### siguiente fase: crear engranajes
+
+teniendo en cuenta la infromación previa, generé este nuevo engranaje, al cual le puse alonso:
+
+![engranaje nuevo](./imagenes/alonso.png)
+
+estas son las medidas de alonso:
+
+- pressure angle: 20 deg
+- module: 4.00
+- number of teeth: 8
+- backlash: 0.00mm
+- root fillet radius: 2.00mm
+- gear thickness: 5.00mm
+- hole diameter: 2.00mm
+
+esos datos generan un pitch diamter de 32mm
+
+sabiendo la propiedad del módulo, generé el rack gear con el módulo de 4:
+
+el plugin rackGear, me pide estos parámetros:
+
+![interfaz rackGear](./imagenes/rackGear.png)
+
+
+
+  
