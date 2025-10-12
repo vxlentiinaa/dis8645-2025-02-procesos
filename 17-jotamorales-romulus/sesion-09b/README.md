@@ -86,7 +86,31 @@ void loop() {
 
 ```
 
-### Ideas carcasa
+### Reemplazando el delay
+
+Misaa nos habia recomendado cambiar el delay presente en el codigo: 
+
+```CPP
+
+  if (!myDFPlayer.begin(FPSerial, /*isACK = */true, /*doReset = */true)) {  //Use serial to communicate with mp3.
+    Serial.println(F("Unable to begin:"));
+    Serial.println(F("1.Please recheck the connection!"));
+    Serial.println(F("2.Please insert the SD card!"));
+    while(true){
+      delay(0); // Code to compatible with ESP8266 watch dog.
+    }
+  }
+```
+Para reemplazar el delay(), hay que hacer que el programa mida el tiempo transcurrido usando millis() y ejecute la acción solo cuando haya pasado el intervalo establecido, en lugar de detenerse completamente. Esto permite que Arduino siga ejecutando otras tareas mientras se “espera” el tiempo necesario.
+
+```CPP
+
+ while (!myDFPlayer.begin(FPSerial, true, true)) {
+  Serial.println(F("Unable to begin, reintentando..."));
+  unsigned long start = millis();
+  // Espera 1 segundo sin bloquear otras tareas
+  while (millis() - start < 1000) {
+```
 
 - Vincent van Gogh y su oreja
 - Un cangrejo que 
