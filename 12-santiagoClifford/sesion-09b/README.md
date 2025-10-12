@@ -150,5 +150,21 @@ luego monté un sensor ultrasónico a un engranaje para probar la función que b
 
 ![gif de la rotación del sensor ultrasónico](./imagenes/gif-ultrasS-gear.gif)
   
+video convertido a gif con [esta página](https://cloudconvert.com/mp4-to-gif)
 
-  
+para pasar a un prototipo de mayor resolución, modelé un case para el ultrasónico.
+
+![render del case para el sensor ultrasónico](./imagenes/ultraS-case-v1.png)
+
+dado el tamaño de la base de este case, generé otro engranaje, cuyo diamétro de su dedendum circle sea mayor a 39,93mm. Esto también es una mejora, ya que al pasar de un engranaje más pequeño a uno más grande, se puede realentizar el movimiento.
+
+![alonso v2](./imagenes/alonso-v2.png)
+
+con las piezas anteriores ya impresas, monté este bello mecanismo
+
+![mecanismo de rotación del sensor ultrasónico](./imagenes/gif-ultrasS-gear-v2.gif)
+
+convertido a gif con [esta página](https://ezgif.com/video-to-gif/ezgif-848237ef819f28.mp4.html)(la que ocupé antes tiene límite de créditos)
+
+
+
