@@ -127,6 +127,28 @@ el plugin rackGear, me pide estos parámetros:
 
 ![interfaz rackGear](./imagenes/rackGear.png)
 
+generé un rack gear, con los isguiente paármetros:
+![modelo 3d del rack](./imagenes/rackGear-3d.png)
 
+- module: 4.00mm
+- pressure angle: 20.0 deg
+- number of teeth: 8
+- gear thickness: 5.00mm
+- root fillet radius: 0.00mm
+- backlash: 0.00mm
+- base width: 3.00mm
+
+imprimí ambos modelos y los probé en mi gear board
+
+![imagen en nuevo engranaje conectado parte 1](./imagenes/gear2-1.jpg)
+
+![imagen en nuevo engranaje conectado parte 2](./imagenes/gear2-2.jpg)
+
+![imagen en nuevo engranaje conectado parte 3](./imagenes/gear2-3.jpg)
+
+luego monté un sensor ultrasónico a un engranaje para probar la función que busco efectuar.
+
+![gif de la rotación del sensor ultrasónico](./imagenes/gif-ultrasS-gear.gif)
+  
 
   
