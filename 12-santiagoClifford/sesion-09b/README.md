@@ -46,3 +46,27 @@ la idea es que, el servo genera un movimiento linear en el engranaje linear(el d
 con el propósito de poder probar y prototipar el movimiento de los engrasnajes, diseñe una base basada en [este referente](https://youtube.com/shorts/z2B92KWYxI0?si=4a_Tz0l9_7qoeDbT). La idea, es que funciones como un breadboard, para engranajes, que me permita colocar diferentes engranajes, y probar cómo combinan entre ellos y el resultado de sus combinaciones.
 
 ![breadboard para engranajes](./imagenes/gearBreadboard.png)
+
+
+estuve probando varias páginas y programas de simulación de engranajes, pero, por distintas razones,  ninguna de ellas me permitía emular al nivel de precisión que yo necesito para este prototipo.
+
+páginas y programas, y porqué  no me sirvieron:
+
+- <https://evolventdesign.com/pages/spur-gear-generator>
+- <https://www.stlgears.com>
+- <https://geargenerator.com/beta/>
+- <https://sites.google.com/site/simgears/español/descarga>
+
+finalmente decidí modelar este movimiento en fusion360, siguiendo [este tutorial](https://youtu.be/B8A_11o7QZ0?si=m-EfV5VHSsalFFco)
+
+fusion incluye un plugin que permite generar engranajes, y para generar los racks, los cuales me permiten transformar el movimiento rotacional en movimiento lineal, instalé el plugin [rack generator](https://apps.autodesk.com/FUSION/en/Detail/Index)
+
+generé estos engranajes y racks, para imprimirlo y prototipar.
+
+![engranajes stl](./imagenes/gears-slicer.png)
+
+una vez impresos, pegué 2 racks para que pudieran afectar 2 engranajes, en sentidos opuestos. Coloqué los engranajes en la tabla de prototipado mencionada anteriormente, y lo puse a prueba.
+
+![prototipo estado inicial](./imagenes/prototipoRack-step1.jpg)
+
+![prototipo estado final](./imagenes/prototipoRack-step2.jpg)
