@@ -324,7 +324,7 @@ void loop() {
 }
 ```
 
-## Encargo
+## Encargo 06
 
 Investigar compuertas:
 

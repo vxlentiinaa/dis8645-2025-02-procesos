@@ -16,25 +16,35 @@ Martes 09 de septiembre, 2025
 
 - TouchDesigner: desarrollado por Sergio Mora Díaz
 
-- vvvv
+- [vvvv](https://vvvv.org/)
 
 - Isadora
 
 ### Estilos de escritura en GitHub y Actions
 
-LaTeX, creado a partir de Donald E. Knuth, creador de TeX. LaTeX permite programar texto bello y bien estructurado.
+[LaTeX](https://en.wikipedia.org/wiki/LaTeX), creado a partir de Donald E. Knuth, creador de TeX. LaTeX permite programar texto bello y bien estructurado.
 
-Es el lenguaje de programación que se utiliza en Overleaf.
+[The Art of Computer Programming]https://es.wikipedia.org/wiki/The_Art_of_Computer_Programming)
+
+Es el lenguaje de programación que se utiliza en [Overleaf.](https://es.overleaf.com/)
 
 Referencia académica, Universidad DELF.
 
+[UTF-8](https://es.wikipedia.org/wiki/UTF-8), 8-bit Unicode Transformation Format.
+
 ### Código en tejido
+
+Taller [Tejiendo para codificar, codificando para tejer](https://weavingxcoding.studio/#Resources)
+
+[Craftwork](https://www.craftwork.today/work), tecnologías creativas y materiales textiles, explorados a través de contextos históricos y culturales.
 
 Código decolonial de Aranda, director de Media Lab de México
 
 Lenguaje de programación en quechua, Llankana
 
 Gameboy Sewing Machine
+
+[A Handbook for Computational Art and Design](https://drive.google.com/file/d/1nINNHaT2K8J4e0vC1CEPemVNpAJVJPi5/view?usp=drive_link)
 
 ### Proyecto-02
 
@@ -76,9 +86,7 @@ Data login
 
 - Sensor que si está temblando, encienda todas las luces (me da miedo los temblores).
 
-### Palabras importantes
-
-over engineer
+---
 
 ### Referentes 
 
@@ -87,6 +95,10 @@ over engineer
 - [Sergio Mora Diaz](https://www.sergiomoradiaz.com/)
 
 - [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth)
+
+### Palabras importantes
+
+[Over engineer:](https://www.codesimplicity.com/post/what-is-overengineering/) sobreingeniería, cuando tu diseño en realidad hace que las cosas sean más complejas en lugar de simplificarlas, estás haciendo sobreingeniería.Un láser orbital complicaría enormemente la vida de alguien que sólo necesitara destruir algunos hormigueros, mientras que un simple veneno para hormigas simplificaría enormemente su vida al eliminar su problema de hormigas (si funcionara).
 
 ---
 

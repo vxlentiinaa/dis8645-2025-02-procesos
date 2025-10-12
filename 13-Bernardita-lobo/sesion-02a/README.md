@@ -88,6 +88,8 @@ La ópera se va a realizar en el National Sawdust, Brooklyn, NY, y en el GAM de 
 
 ![foto de la entrega de producto](./imagenes/tmc-sesion02a-foto02.jpeg)
 
+---
+
 ### Referentes
 
 - [Nicholas Negroponte](https://es.wikipedia.org/wiki/Nicholas_Negroponte)

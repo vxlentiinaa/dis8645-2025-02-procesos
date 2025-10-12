@@ -9,6 +9,7 @@
 ## Corrección de código
 
 Nombres más cortos
+
 - Ultrasonico.configurar
 - Dedo.configurar
 
@@ -21,10 +22,9 @@ Los archivos .h son fórmulas
 #include
 #define
 ```
+
 <Arduino.h> significa en el computador.
 
 EntradaUltrasonico.h: Valores.
 
 EntradaUltrasonico.cpp: Se hace cargo de las promesas.
-
-  

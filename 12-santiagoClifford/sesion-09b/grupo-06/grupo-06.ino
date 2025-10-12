@@ -5,7 +5,6 @@
 #include "Cuello.h"
 #include "Parpados.h"
 
-
 // variable temporal para lecturas
 unsigned int sample;
 
@@ -21,7 +20,8 @@ Parpados parpados;
 
 bool imprimir = true;
 
-void setup() {
+void setup()
+{
 
   cuello.configurar();
   parpados.configurar();
@@ -34,12 +34,14 @@ void setup() {
   derecho.configurarPatita(patitaMicDerecho);
 }
 
-void loop() {
+void loop()
+{
   // inicio de la ventana
   startMillis = millis();
 
   // recolecta datos durante sampleWindow
-  while (millis() - startMillis < sampleWindow) {
+  while (millis() - startMillis < sampleWindow)
+  {
 
     // leer micrófonos
     // se leen secuencialmente
@@ -54,7 +56,8 @@ void loop() {
     izquierdo.actualizarPeakToPeak();
     derecho.actualizarPeakToPeak();
 
-    if (imprimir) {
+    if (imprimir)
+    {
       Serial.print("izquierdo ");
       izquierdo.imprimirEnConsola();
       Serial.print(", ");
@@ -67,10 +70,9 @@ void loop() {
     // // double volts1 = (peakToPeak1 * 5.0) / 1024.0;
     // // double volts2 = (peakToPeak2 * 5.0) / 1024.0;
     // // Serial.print("V1: "); Serial.print(volts1); Serial.print(" V, V2: "); Serial.println(volts2);
-    if a
-    cuello.moverMotorcillo(angleCrazy, 10);
-    angleCrazy++;
-
+    // if a
+    // cuello.moverMotorcillo(angleCrazy, 10);
+    // angleCrazy++;
 
     // cuello.moverMotorcillo(22, 100);
     // cuello.moverMotorcillo(45,100);
@@ -80,7 +82,6 @@ void loop() {
     // cuello.moverMotorcillo(135, 100);
     // cuello.moverMotorcillo(157, 100);
     // cuello.moverMotorcillo(180, 100);
-
 
     /*parpados.moverMotorcillo(0, 200);
       parpados.moverMotorcillo(70, 200);

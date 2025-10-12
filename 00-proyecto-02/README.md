@@ -43,17 +43,17 @@ son 28 estudiantes, distribuidos en 6 grupos:
   * 24-Joquape
 
 * grupo 04 NOMBRE AUN NO DEFINIDO
-  * 28-FranUDP
+  * 10-brauliofigueroa2001
+  * 13-Bernardita-lobo
   * 17-jotamorales-romulus
   * 20-Camila-Parada
-  * 13-Bernardita-lobo
-  * 10-brauliofigueroa2001
+  * 28-FranUDP
 
 * grupo 05 - waos
   * 03-Mosswhosmoss
-  * 27-SebastianSaez1003
-  * 23-Coff4
   * 04-aileendespessailes-design
+  * 23-Coff4
+  * 27-SebastianSaez1003
 
 * grupo 06 - hijos de la tierra
   * 11-AntFuentealba

@@ -109,6 +109,8 @@ Con Control + T se ordenan las cosas en Arduino.
 
 Variables, funciones, for, if, and.
 
+---
+
 ### Referentes
 
 - [Daniel Cruz](https://arteymedios.org/daniel-cruz/)
