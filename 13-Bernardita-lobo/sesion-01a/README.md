@@ -51,6 +51,8 @@ Es un campo que involucra, un objeto físico que puede procesar información, un
 
 También implica la interfaz humano-computador, es decir cómo las personas interactúan con las máquinas para dar instrucciones o recibir información.
 
+---
+
 ### Referentes
 
 - [Casey Reas](https://reas.com/)
