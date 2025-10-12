@@ -5,27 +5,27 @@
 - subir procesos
 - leer programa
 - corregir bitacoras de la semana 6 para adelante
--  colocar archivos `.ino`
--  ordenar códigos
--  hacer diagrama de flujo
--  en carpeta docentes, grupo-01 colocar toda nuestra información.
--  entrada `ultrasonico.cpp`
--   el `.ino` solo tendrá comentarios
+- colocar archivos `.ino`
+- ordenar códigos
+- hacer diagrama de flujo
+- en carpeta docentes, grupo-01 colocar toda nuestra información.
+- entrada `ultrasonico.cpp`
+- el `.ino` solo tendrá comentarios
   
-1. incluir archivos h (fórmula) 
+1. incluir archivos h (fórmula)
 2. instrtancias de las clases, programación estado de objetos. Es la variable pero en difícil
 3. `ultrasonico.configurar();`
 4. `dedo.configurar();` porque extisten dentro de
 5. ambas clases no saben que existen entre si
 6. hoy ocultaremos/ordenaremos los codigos
-7. orden de ultrasonico a 
+7. orden de ultrasonico a
 8. ver si queremos que en la consola se muestre
-9.  `<>` son para que esté desde el computador
+9. `<>` son para que esté desde el computador
 10. en la clase siempre viene  el punto y coma `};`
 11. `{}` es para  crear las promesas
 12. `void EntradaUltrasonico:: configurar()` aquí está la complejidad
-13.  `Servo servo;` tiene una clase que dentro tiene otra clase
-    
+13. `Servo servo;` tiene una clase que dentro tiene otra clase
+
 ---
 
 Ultrasonico
@@ -38,11 +38,11 @@ Ultrasonico
 
 ---
 
-Dedo 
+Dedo
 
 - configurar
 
-- levantar 
+- levantar
 
 - bajar
 
@@ -54,7 +54,7 @@ Dedo
 
 - ver como hacer que vibre el moto DC y ver como colocar el parlante en la carcasa
 
-### Trabajo en clases 
+### Trabajo en clases
 
 Avanzamos en la unión de los códigos para ver cómo interactuaban los sensores y componentes con nuestro robot. Dentro de este nos ocurrió el problema de que reproducía audios de manera aleatoria y no los reproducía por completo.
 
@@ -64,11 +64,11 @@ Los parametros son:
 
 En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
 
-80 - 100cm = Te "grita": "Hola humano ¿Por qué estás tan lejos? Acércate." `hola1.mp3` 
+80 - 100cm = Te "grita": "Hola humano ¿Por qué estás tan lejos? Acércate." `hola1.mp3`
 
 40 - 60cm = Te grita nuevamnente pidiendo que te acerque más: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji" `hola2.mp3`
 
-2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0° a los 180° mientras estés a esa distancia. Al mismo tiempo te dirá el `dato1, 2, 3, 4,5 o 6.mp3` 
+2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0° a los 180° mientras estés a esa distancia. Al mismo tiempo te dirá el `dato1, 2, 3, 4,5 o 6.mp3`
 
 `dato1`: "¿Sabías qué? El primer mause era de madera... Seguro también servía de leña jajaj"
 

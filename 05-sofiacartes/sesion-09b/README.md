@@ -1,10 +1,11 @@
 # sesion-09b
-## Trabajo en clases 
 
-- r   ~ 9 res 1k 
+## Trabajo en clases
+
+- r   ~ 9 res 1k
 - 100k o+ gnd
-- transistor 
-- 255 máximo motor 
+- transistor
+- 255 máximo motor
 - cuando reconozca reproduz
   
 ### Datasheet e informaciones relevantes para utilizar los componentes
@@ -15,7 +16,7 @@ Datasheet y página motor vibrador joystick
 
 <chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.com/datasheet/2/321/28822-Vibration-Motor-Capsule-Documentation-370386.pdf?srsltid=AfmBOopCm5vTXsDBh9L5Jpoopf-v8sNSxtuI31pFvqmlfscw5TyvyKIX&utm_source=chatgpt.com>
 
-prueba en clases 
+prueba en clases
 
 ```cpp
 int pinMotor = 9;
@@ -37,20 +38,19 @@ void loop(){
 }
 ```
 
-Datasheet sensor de proximidad HCSR04 
+Datasheet sensor de proximidad HCSR04
 
 <https://www.alldatasheet.com/datasheet-pdf/view/1132204/ETC2/HCSR04.html>
 
-servomotor 
- 
+servomotor
+
  <https://www.alldatasheet.es/datasheet-pdf/view/1572383/ETC/SG90.html>
 
-calculador de resistencias 
+calculador de resistencias
 
  <https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code>
 
- 
-### código trabajado las uúltimas clases 
+### código trabajado las últimas clases
 
 ```cpp
 #include "Arduino.h"
