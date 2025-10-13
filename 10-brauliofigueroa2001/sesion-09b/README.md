@@ -185,7 +185,7 @@ void printDetail(uint8_t type, int value){
 ### avances 13 de octubre en la tarde
 
 - definir los tipos de audio que utilizaremos, se basará en sonidos de la playa los cuáles incluyen naturaleza y entorno
-- ideas de sonidos: olas, gente vendiendo cosas, churros,palmeras,frutillas con chocolate?
+- ideas de sonidos: olas, gente vendiendo cosas, sonidos de puerto
 
 ### el error
 
@@ -315,4 +315,8 @@ void printDetail(uint8_t type, int value){
   }
 }
 ```
+
+![botonreproduccion](botonreproduccion.JPG)
+
+- muestra en el monitor serial que al apretar un botón muestra que se reproducen 2 pistas de audio en vez de uno
 
