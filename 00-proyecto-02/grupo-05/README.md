@@ -11,19 +11,25 @@
 
 ### Introducción
 
-El proyecto de manera general consiste en hacer una maquina saludadora.
+El proyecto, de manera general, consiste en hacer una máquina saludadora.
 
-Para la ideación del proyecto usamos la propuesta de [SebastianSaez1003](https://github.com/SebastianSaez1003), que queria usar un servomotor desde el semestre pasado.
+Para la ideación del proyecto usamos la propuesta de [SebastianSaez1003](https://github.com/SebastianSaez1003), que quería usar un servomotor desde el semestre pasado.
 
 Nuestro proyecto se centra en desarrollar un robot que te salude dependiendo de la temperatura.
 
 El saludo se define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo). 
 
-En nuestro caso los sensores serian un sensor de temperatura, humedad y presion y un sensor ultrasonico, y los actuadores dos servomotores y una pantalla. 
+En nuestro caso, los sensores serían un sensor de temperatura, humedad y presión y un sensor ultrasónico, y los actuadores, dos servomotores y una pantalla. 
 
-### Robot-friolento
+### Friolin
+
+Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot; un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de temperatura; una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y dos servomotores, para que cometa el acto de saludar con el brazo.
+
+### Grandes descubrimientos en avances de código
+
 
 
 ### Comentarios finales
+
 
 
