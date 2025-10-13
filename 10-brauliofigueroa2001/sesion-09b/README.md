@@ -2,15 +2,29 @@
 ## taller clase 10 de octubre
 
 muy desanimado hoy pero hay que seguir
-### apuntes y pendientes
-- actualizar bitácora pendiente
-- resolver si o si el módulo mp3 y la aleatoriedad, lograr el ejercicio del botón dado y repasar el concepto de millis para aprender y usar lo menos posible delay, estoy muy confundido
-- buscar audios de playas chilenas, tenemos 1 minuto y algo aprox para meter audios, audios de 10 segundos aprox puede ser?
 
-### millis
+
+### aprendizajes y dudas
 
 - misaaa nos explicó el concepto de la función millis para poder aplicarla en el código del dfplayer mini mp3
-- entendí más o menos, debo repasar 
+- la función delay no es buena para estos proyectos porque delay hace que nuestro arduino entre en un estado de pausa, esto lo "desactiva" por un momento lo cuál hace que los sensores que estemos utilizando dejen de funcionar, es por ello que debemos trabajar con la función millis
+- entendí más o menos, debo repasar
+
+
+
+
+### definición de la carcasa y apuntes
+
+- actualizar bitácora pendiente
+- resolver si o si el módulo mp3 y la aleatoriedad, lograr el ejercicio del botón dado y repasar el concepto de millis para aprender y usar lo menos posible delay, estoy muy confundido
+- redefinimos el proyecto en cuánto a carcasa ya que no teníamos una idea muy clara y lo entendíamos de forma distinta entre los integrantes del grupo
+- la idea que se tenía en un principio era poner los módulos en la pared, por una parte los ojos y por otra parte la oreja, creando una experiencia museográfica, una especie de recorrido en la que los módulos estuvieran separados. El problema es que no teníamos definida la forma de la carcasa más a detalle sino que era a nivel general
+- es por ello que reformulamos la carcasa pero la base sigue siendo la misma: entra persona, es detectada por el ultrasónico, se mueve y sigue a la persona, en base a la distancia reproducirá un sonido aleatorio. Las ideas que se dieron durante la clase fueron:
+
+- crear una especie de cuadro de Vincent Van Gogh en la cuál los ojos te siguen y la oreja es la que te hable (por el guiño a la pérdida de la oreja de Vincent), se lo comentamos a Aarón pero nos dijo que era un tema delicado de tratar, primero por plagio y segundo porque no es una situación que deba ser tomada a la ligera porque Vincent sufrió muchísimo. Por estos motivos decidimos reformularlo
+- pensamos en cuando uno va a la playa y se pone una concha marina en el oído y te da esa sensación de que se "escucha" el mar, entonces lo atribuimos a una especie de concha que generaba sonidos de la playa, ya sean de naturaleza tanto como de personas y situaciones que sucedan en la playa, ejemplo: un vendedor de palmeras
+- sigue manteniendo el concepto de aleatoriedad ya que lo que se busca es sorprender al usuario jugando con el sin sentido de las palabras/frases
+- también se pensó en la idea de que los ojos ahora fueran los ojos de un cangrejo ermitaño y que la concha del cangrejo sea la que emite los sonidos de la playa
 
 
 
