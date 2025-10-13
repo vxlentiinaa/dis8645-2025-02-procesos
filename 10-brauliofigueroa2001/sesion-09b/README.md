@@ -3,15 +3,11 @@
 
 muy desanimado hoy pero hay que seguir
 
-
 ### aprendizajes y dudas
 
 - misaaa nos explicó el concepto de la función millis para poder aplicarla en el código del dfplayer mini mp3
 - la función delay no es buena para estos proyectos porque delay hace que nuestro arduino entre en un estado de pausa, esto lo "desactiva" por un momento lo cuál hace que los sensores que estemos utilizando dejen de funcionar, es por ello que debemos trabajar con la función millis
 - entendí más o menos, debo repasar
-
-
-
 
 ### definición de la carcasa y apuntes
 
@@ -25,13 +21,6 @@ muy desanimado hoy pero hay que seguir
 - pensamos en cuando uno va a la playa y se pone una concha marina en el oído y te da esa sensación de que se "escucha" el mar, entonces lo atribuimos a una especie de concha que generaba sonidos de la playa, ya sean de naturaleza tanto como de personas y situaciones que sucedan en la playa, ejemplo: un vendedor de palmeras
 - sigue manteniendo el concepto de aleatoriedad ya que lo que se busca es sorprender al usuario jugando con el sin sentido de las palabras/frases
 - también se pensó en la idea de que los ojos ahora fueran los ojos de un cangrejo ermitaño y que la concha del cangrejo sea la que emite los sonidos de la playa
-
-
-
-
-
-
-
 
 ### avances y comentarios del fin de semana
 -  anteriormente habíamos logrado reproducir sonidos de forma aleatoria pero no había un control sobre el cómo se reproducían. Estos sonidos se reproducían en un loop infinito de forma aleatoria, por ende, necesitábamos un orden y que funcionasen en base a "si ocurre esto, pasa esto" la idea era que el botón funcionara como una especie de dado
