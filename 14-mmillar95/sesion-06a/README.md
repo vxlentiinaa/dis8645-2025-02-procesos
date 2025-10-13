@@ -86,3 +86,59 @@ N° | Nombre                 | Función                              |
 3  | A0                     | Señal                                |
 
 ![Sensor02](./imagenes/Sensor02.png)
+
+## Encargo 11
+
+investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar.
+
+### Proyecto realizado con Ultrasonico 
+
+Sensor de nivel de agua con Arduino
+
+Con el sensor de ultrasonidos se mide cuanta distancia hay hasta el líquido. Se debe conocer el recipiente para saber cuanta cantidad cabe y que medida se obtiene cuando está lleno. Lo mismo cuando el recipiente esté vacío. Esto se llama calibración.
+
+La pantalla LCD mostrará el porcentaje de líquido que queda en el recipiente y su equivalente en litros.
+
+Componentes:
+
+- Arduino UNO
+- Sensor ultrasonico
+- Pantalla LCD 16×2
+- Protoboard
+- Potenciómetro 10kΩ
+- Resistencia 220Ω
+- Cables
+
+#### Pantalla LCD 16×2
+
+Pantalla de 16 columnas y 2 filas. Esto nos va a permitir escribir un total de 32 caracteres a la vez.
+
+Código de ejemplo
+
+``` cpp
+// Incluímos la libreria externa para poder utilizarla
+#include <LiquidCrystal.h> // Entre los símbolos <> buscará en la carpeta de librerías configurada
+ 
+// Lo primero is inicializar la librería indicando los pins de la interfaz
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+ 
+// Definimos las constantes
+#define COLS 16 // Columnas del LCD
+#define ROWS 2 // Filas del LCD
+ 
+void setup() {
+  // Configuramos las filas y las columnas del LCD en este caso 16 columnas y 2 filas
+  lcd.begin(COLS, ROWS);
+}
+ 
+void loop() {
+ 
+  lcd.setCursor(0,0);
+  lcd.print("Hola Mundo!!!!!!");
+  lcd.setCursor(0,1);
+  lcd.print("Probando el LCD.");
+}
+```
+!Captura](./imagenes/Captura.png)
+
+Link de página del proyecto: [Programar fácil](https://programarfacil.com/blog/arduino-blog/sensor-de-nivel-de-agua-con-arduino/)
