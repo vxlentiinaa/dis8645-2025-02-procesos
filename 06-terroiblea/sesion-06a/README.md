@@ -139,7 +139,7 @@ Puede ser "intuitivo" o puede tener un manual explicativo respecto a su funciona
 
 Ejemplos extremos: Herramientas para mejorar la interacción social de Lauren Lee McCarthy.
 
-*"Serie de dispositivos portátiles que utilizan sensores para condicionar el comportamiento del usuario y adaptarlo mejor a las conductas sociales esperadas. Exploramos el potencial de la tecnología para moldear cómo pensamos, sentimos y actuamos, y cuestionamos nuestras expectativas sociales, buscando comprender mejor su función y valor. ¿Existen alternativas de interacción que permitan mayor libertad para la expresión, el pensamiento y la conexión individual?"* 
+"Serie de dispositivos portátiles que utilizan sensores para condicionar el comportamiento del usuario y adaptarlo mejor a las conductas sociales esperadas. Exploramos el potencial de la tecnología para moldear cómo pensamos, sentimos y actuamos, y cuestionamos nuestras expectativas sociales, buscando comprender mejor su función y valor. ¿Existen alternativas de interacción que permitan mayor libertad para la expresión, el pensamiento y la conexión individual?"
 
 (<https://get-lauren.net/Tools-for-Improved-Social-Interacting>)
 
@@ -167,7 +167,7 @@ Funcionamiento Principal:
 
 El joystick proporciona dos salidas analógicas que corresponden a la posición en los ejes X e Y. Esto se logra mediante dos potenciómetros de 10 kΩ, cuya resistencia varía según la inclinación de la palanca. Además, cuenta con una salida digital que se activa al presionar la palanca hacia abajo (eje Z), funcionando como un botón o pulsador. Un indicador LED de energía integrado muestra el estado de funcionamiento del módulo.
 
-Características:
+Características: 
 
 - **Control de Tres Ejes:** Ofrece dos ejes analógicos (X, Y) para control direccional y un pulsador digital (Z).
 - **Interfaz Sencilla:** Se conecta fácilmente a microcontroladores como Arduino, ESP32 o Raspberry Pi a través de pines estándar.
@@ -194,8 +194,8 @@ Cotización:
 - **ProdeLab**: $2.500 (<https://prodelab.cl/productos/robotica-y-programacion/accesorios-robotica-y-programacion/modulo-joystick-xy-para-arduino-rasperry-pi-ky-023/>)
 - **Mercado Libre:** $2.500 (<https://articulo.mercadolibre.com.ar/MLA-1605176830-modulo-joystick-analogico-con-pulsador-arduino-robotica-_JM>)
 
-Esquema conexión: 
-
+Esquema conexión:  
+ 
 ![conexionespalanca](./imagenes/conexionespalanca.png)
 
 ![esquemapalanca](./imagenes/esquemapalanca.png)
@@ -219,7 +219,7 @@ void setup() {
 }
 ```
 
-Sensor de Color
+### Sensor de Color
 
 Si bien este no estaba físico en la clase, fue el que más me interesó. 
 
@@ -227,7 +227,7 @@ Si bien este no estaba físico en la clase, fue el que más me interesó.
 
 Este módulo es un completo convertidor de luz a frecuencia, diseñado para detectar el color de un objeto. Filtra la luz en sus componentes primarios Rojo, Verde y Azul (RGB) y convierte la intensidad de cada color en una señal de frecuencia. Su salida digital puede ser leída directamente por cualquier microcontrolador (como Arduino, PIC, ESP32), lo que lo hace ideal para proyectos de robótica, automatización y domótica.
 
-Funcionamiento Principal: 
+Funcionamiento Principal:  
 
 En su núcleo, el sensor utiliza una matriz de 8x8 fotodiodos. Estos están distribuidos de la siguiente manera:
 
@@ -301,7 +301,7 @@ Esquema conexión:
 
 ![esquemacolor](./imagenes/esquemacolor.png)
 
-#### Referentes de código y uso: 
+Referentes de código y uso: 
 
 - Arduino desde cero en Español - Capítulo 61 - TCS3200 Sensor de color RGB automatización (video explicativo uso + paso a paso de proceso de configuración/calibración del código) <https://www.youtube.com/watch?v=GjEEzKfXfik>
 - Proyecto ruleta de colores <https://www.youtube.com/shorts/uY_bueAuekI>
