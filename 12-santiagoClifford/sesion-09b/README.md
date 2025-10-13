@@ -172,3 +172,7 @@ tomé 3 racks, y los pegué para probar el mecanismo siendo activado por un serv
 ![imagen de los racks pegados](./imagenes/rackIlluminati.jpg)
 
 ![mecanismo impulsado por servo](./imagenes/gif-ultrasS-gear-v3.gif)
+
+reutilicé una pieza de la versión anterior para montar el servo a la gearBoard, y lo hice correr:
+
+![maqueta con servo montado](./imagenes/gif-ultrasS-gear-v4.gif)
