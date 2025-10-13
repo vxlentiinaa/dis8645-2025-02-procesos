@@ -190,9 +190,8 @@ El grupo Resnick desarrolló un lenguaje de programación Scratch.
 - En la charla como tal, habla sobre proponer enseñar a los niños a programar y que no es solo de técnica, sino que puedan aprender sobre programación, sin tener conocimientos sobre código. Presenta ejemplos de proyectos interactivos que muestran el potencial de la programación y utiliza la plataforma Scratch para demostrar que cualquiera puede aprender a hacer juegos digitales o crear historias.
 - Mitchel, demuestra como la programación puede ser accesible, divertida e interesante para los niños. Logra comunicar en la charla que enseñar a programar es una forma de empoderar a los niños en la tecnología, que la programación puede ser divertida para ellos.
 
-Enseñar a codificar o programar, no es solo dejar que los niños experimenten, sino que lleva de la mano la pedagogía, formación de profesores/maestros 
+Enseñar a codificar o programar, no es solo dejar que los niños experimenten, sino que lleva de la mano la pedagogía, formación de profesores/maestros. Aprender a usar la programación fomenta la creatividad, el razonamiento sistemático, la persistencia y la colaboración; sobre todo en Scratch, donde los niños pueden modificar y aprender directamente de allí. Incitando a que los niños deben usar la tecnología con fines pedagógicos, deben aprender y modificar.
 
-  
 ---
 
 Wikipedia. (24 de julio de 2025). Funk. Wikipedia. https://es.wikipedia.org/wiki/Funk
@@ -202,3 +201,5 @@ Wikipedia. (4 de febrero de 2025). Funk metal. Wikipedia. https://es.wikipedia.o
 Wikipedia. (—). Heavy metal. Wikipedia. https://es.wikipedia.org/wiki/Heavy_metal
 
 Wikipedia. (—). Primus. Wikipedia. https://es.wikipedia.org/wiki/Primus
+
+Resnick, M. (2013, 29 de enero). Mitch Resnick: Let’s teach kids to code [Video]. YouTube. https://www.youtube.com/watch?v=Ok6LbV6bqaE
