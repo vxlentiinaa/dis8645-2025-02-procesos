@@ -151,6 +151,12 @@ Es una banda estadounidense de funk metal creada en San Francisco, California, e
 
 Disco escuchado:
 
+#### Primus - Suck On This 1989
+
+Es un debut discográfico atipico, que tiene la escencia muy energética. Su estilo musical es una mezcla entre funk metal, metal alternativo y rock experimental. Sus sonidos se definen por sus beats complejos.
+Este álbum les proporcionó el capital para grabar su primer disco de estudio.
+
+
 <https://es.wikipedia.org/wiki/Primus>
 
 <https://www.discogs.com/es/release/2783944-Primus-Suck-On-This?srsltid=AfmBOorXEcdf_3X060BtMbRU8LZZVy2OH6ggKQ5k14miEOWXNcvVuIb6>
