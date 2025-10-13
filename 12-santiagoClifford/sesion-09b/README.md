@@ -187,3 +187,7 @@ con cartón, maskingtape, alambre, ese foam donde vienen los circuitos integrado
 
 ![maqueta más avanzada, con ojos](./imagenes/gif-ultrasS-gear-v6.gif)
 
+teniendo ya consciencia de cómo va posicionado cada servo, puedo ponerme a modelar la base final del robot. Primero hice este modelado, para ir agarrando vuelo.
+
+![render de la maqueta con cuello y engranajes](./imagenes/mecanismoPro-render.png)
+
