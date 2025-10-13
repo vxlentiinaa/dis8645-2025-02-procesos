@@ -181,8 +181,18 @@ Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una 
 
 Es un profesor, físico, informático, periodista y programador estadounidense.
 
-Estudió
+Estudió la licenciatura de física en la Universidad de Princeton en 1978, realizó una maestría en 1988 y un doctorado en computación en el Instituto Tecnológico de Massachusetts en 1992.
 
+El grupo Resnick desarrolló un lenguaje de programación Scratch.
+
+### Charla TED / Mitch Resnick: Enseñemos a los niños a codificar
+
+- En la charla como tal, habla sobre proponer enseñar a los niños a programar y que no es solo de técnica, sino que puedan aprender sobre programación, sin tener conocimientos sobre código. Presenta ejemplos de proyectos interactivos que muestran el potencial de la programación y utiliza la plataforma Scratch para demostrar que cualquiera puede aprender a hacer juegos digitales o crear historias.
+- Mitchel, demuestra como la programación puede ser accesible, divertida e interesante para los niños. Logra comunicar en la charla que enseñar a programar es una forma de empoderar a los niños en la tecnología, que la programación puede ser divertida para ellos.
+
+Enseñar a codificar o programar, no es solo dejar que los niños experimenten, sino que lleva de la mano la pedagogía, formación de profesores/maestros 
+
+  
 ---
 
 Wikipedia. (24 de julio de 2025). Funk. Wikipedia. https://es.wikipedia.org/wiki/Funk
