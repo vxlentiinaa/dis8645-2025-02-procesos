@@ -315,8 +315,11 @@ void printDetail(uint8_t type, int value){
   }
 }
 ```
+- este error muestra que dejó de reconocer el puerto com 4 de arduino
+  
+![errorarduino2](./imagenes/errorarduino2.JPG)
 
-![botonreproduccion](botonreproduccion.JPG)
+![botonreproduccion](./imagenes/botonreproduccion.JPG)
 
 - muestra en el monitor serial que al apretar un botón muestra que se reproducen 2 pistas de audio en vez de uno
 
