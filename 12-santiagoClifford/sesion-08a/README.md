@@ -122,7 +122,7 @@ Para esto, utilicé una librería de OpenSCAD, llamada [pd-gears](https://github
 
 Finalmente utilicé el siguiente código para modelar el engranaje:
 
-```openscad
+```scad
  use <pd-gears.scad>
  gear(
      number_of_teeth = 20,
