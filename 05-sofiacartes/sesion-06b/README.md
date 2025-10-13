@@ -125,7 +125,7 @@ Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
 
 #### Sensor de Temperatura y Humedad DHT11
 
-![](./imagenes/SensorDHT11.png)
+![SensorDHT11.](./imagenes/SensorDHT11.png)
 
 El DHT11 es un sensor de temperatura y humedad digital de bajo costo.  Tiene un sensor capacitivo de humedad y un termistor para poder medir el aire que rodea el espacio y muestra los datos mediante una señal digital en el pin de datos.
 
@@ -136,4 +136,18 @@ El DHT11 es un sensor de temperatura y humedad digital de bajo costo.  Tiene un 
 
 Si alguien entra a la sala o algún espacio cerrado, el dispositivo se activa y exclama: "¡Alarma de Ser Vivo! Te vi con mis ojos infrarrojos. ¡Quédate quieto!" Si el lugar queda vacío, cambia a un estado existencialista: "Me he quedado solo :("
 
+#### Sensor Color RGB TCS3472
 
+![SensorTCS3472.](./imagenes/SensorTCS3472.png)
+
+Sensor de color que mide RGB y luz total. Puede ser utilizado por microcontroladores o micro-computadores, para obtener los valores RGB del color de un objeto o luz frente al sensor.
+
+Se conecta por I2C, tiene filtro IR, LED propio y permite ajustar medición y ganancia; detecta colores con alta precisión, incluso a través de vidrios.
+
+Este sensor es un integrado completo que realiza un tratamiento digital de la medición de color
+
+- Proporcionando los valores RGB y Clear
+- Medición total sin filtrar
+- Posee un filtro de infrarrojos, lo que mejora su precisión ante el ruido del entorno.
+- Incorpora LED SMD de Luz Blanca y Filtro de Bloqueo IR.
+  
