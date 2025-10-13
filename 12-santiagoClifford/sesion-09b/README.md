@@ -167,4 +167,8 @@ con las piezas anteriores ya impresas, monté este bello mecanismo
 convertido a gif con [esta página](https://ezgif.com/video-to-gif/ezgif-848237ef819f28.mp4.html)(la que ocupé antes tiene límite de créditos)
 
 
+tomé 3 racks, y los pegué para probar el mecanismo siendo activado por un servomotor
 
+![imagen de los racks pegados](./imagenes/rackIlluminati.jpg)
+
+![mecanismo impulsado por servo](./imagenes/gif-ultrasS-gear-v3.gif)
