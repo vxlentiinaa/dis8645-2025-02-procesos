@@ -44,7 +44,7 @@ void loop() {
 
 Lo primero que noté al ver el código era que no tenía variables que controlaran el comportamiento del servo.
 
-Escribí las siguientes variables y las envié a nuestro grupo en discord como feedback, para que alterara el código para que las utilizara:
+Escribí las siguientes variables y las envié a nuestro grupo en Discord como feedback, para que alterara el código para que las utilizara:
 
 ````ino
 // --- CONFIGURATION CONSTANTS FOR THE RADAR ---
@@ -65,10 +65,11 @@ unsigned long lastServoMoveTime = 0; // cuando movimos el servo por ultima vez
 
 Tras eso, [@Camila-Parada](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/20-Camila-Parada/sesion-09a) me dijo que estaba medio perdida con lo que le pedí y que iba a probar hacer que el servo funcionara en conjunto con el sensor ultrasónico en otro archivo.
 
-Comencé a editar el código `Sweep`, cuando llegó [@matbutom](https://github.com/matbutom/), le mostré el código de la [sesión 08a](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP/sesion-08a) y le comenté mi problema, el enredo que tenía en el cerebro intentando pre-ver como organizar el código antes de escribirlo para que los componentes que trabajan en conjunto operen de forma correcta y coordinada. Me dijo que no me preocupara y que nomás lo escribiera todo en un solo archivo de forma que funcionara y que después ellos se iban a encargar de hacerlo modular.
+Comencé a editar el código `Sweep`, cuando llegó [@matbutom](https://github.com/matbutom/), le mostré el código de la [sesión 08a](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/28-FranUDP/sesion-08a) y le comenté mi problema, el enredo que tenía en el cerebro intentando prever cómo organizar el código antes de escribirlo para que los componentes que trabajan en conjunto operen de forma correcta y coordinada. Me dijo que no me preocupara y que nomás lo escribiera todo en un solo archivo de forma que funcionara y que después ellos se iban a encargar de hacerlo modular.
 
-Abrí un nuevo archivo .ino, pegué las variables y comencé a escribir las primeras lineas, cuando llegó [@montoyamoraga](https://github.com/montoyamoraga), nos pidió que le mandaramos nuestro código, a lo que le enviamos el código `Sweep` y las nuevas variables, con @[jotamorales-romulus](https://github.com/jotamorales-romulus/dis8645-2025-02-procesos/tree/main/17-jotamorales-romulus/sesion-09a) estubimos viendo, con asombro, cómo el profe con una rapidez y facilidad impensable tomaba nuestro enrredo y lo convertía en algo no solo comprensible, pero funcional, después de que el profe subiera el código nuevo a [github](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-09a/grupo-04) me dispuse a estudiarlo, para luego continuar trabajando sobre él.
+Abrí un nuevo archivo .ino, pegué las variables y comencé a escribir las primeras líneas, cuando llegó [@montoyamoraga](https://github.com/montoyamoraga), nos pidió que le mandáramos nuestro código, a lo que le enviamos el código `Sweep` y las nuevas variables. Con [@jotamorales-romulus](https://github.com/jotamorales-romulus/dis8645-2025-02-procesos/tree/main/17-jotamorales-romulus/sesion-09a) estuvimos viendo, con asombro, cómo el profe con una rapidez y facilidad impensable tomaba nuestro enredo y lo convertía en algo no solo comprensible, sino funcional. Después de que el profe subiera el código nuevo a [Github](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-docentes/sesion-09a/grupo-04) me dispuse a estudiarlo, para luego continuar trabajando sobre él.
 
-Le di el código nuevo a Gemini 2.5 pro, le pedí que comparara con los intentos anteriores y que ayudara en continuar desarrollando el código, estaba escribiendo el prompt detallando el comportamiento de la lógica de detección (ultrasonico + sensor) cuando me di cuenta que yo mismo me estaba enredando al explicar detalladamente su comportamiento.
+Le di el código nuevo a Gemini 2.5 Pro, le pedí que comparara con los intentos anteriores y que ayudara a continuar desarrollando el código. Estaba escribiendo el prompt detallando el comportamiento de la lógica de detección (ultrasónico + sensor) cuando me di cuenta de que yo mismo me estaba enredando al explicar detalladamente su comportamiento.
 
-Durante el resto de la semana estube poniendome al día con las bitácoras, estando el Martes en el LID, el Miércoles no pude estar porque era el cumpleaños de mi Mamá y el Jueves me quedé en mi casa (no tengo clase), porque al ir y volver pierdo 1Hr que se podría haber usado para trabajar.
+Durante el resto de la semana estuve poniéndome al día con las bitácoras, estando el martes en el LID. El miércoles no pude estar porque era el cumpleaños de mi mamá y el jueves me quedé en mi casa (no tengo clase), porque al ir y volver pierdo una hora que se podría haber usado para trabajar.
+
