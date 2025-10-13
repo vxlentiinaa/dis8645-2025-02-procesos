@@ -183,3 +183,7 @@ finalmente, monté el otro case del sensor ultrasónico, y construí un carril p
 
 ![la maqueta montada con carril](./imagenes/gif-ultrasS-gear-v5.gif)
 
+con cartón, maskingtape, alambre, ese foam donde vienen los circuitos integrados, y unos engranajes de probetas anteriores, armé un circuito mecánico que aprovecha el mismo servo para que gire el cuello. 
+
+![maqueta más avanzada, con ojos](./imagenes/gif-ultrasS-gear-v6.gif)
+
