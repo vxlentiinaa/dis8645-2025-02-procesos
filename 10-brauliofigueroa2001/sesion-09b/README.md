@@ -26,7 +26,8 @@ muy desanimado hoy pero hay que seguir
 -  anteriormente habíamos logrado reproducir sonidos de forma aleatoria pero no había un control sobre el cómo se reproducían. Estos sonidos se reproducían en un loop infinito de forma aleatoria, por ende, necesitábamos un orden y que funcionasen en base a "si ocurre esto, pasa esto" la idea era que el botón funcionara como una especie de dado
 -   jota morales pudo resolver el paso que nos faltaba el cuál era poder reproducir de forma aleatoria un sonido mediante la pulsación de un botón, funcionó en un momento pero luego dejó de funcionar y dió el siguiente error a jota y a mi
 -   este es el código que realizó jota morales
-   ```cpp
+
+   ```CPP
 #include "Arduino.h"
 #include "DFRobotDFPlayerMini.h"
 
@@ -170,6 +171,7 @@ void printDetail(uint8_t type, int value){
   
 }
 ```
+
 - error que arrojó al probar el código que realizó jota morales en su sesión [9b](https://github.com/brauliofigueroa2001/dis8645-2025-02-procesos/tree/main/17-jotamorales-romulus/sesion-09b) el cuál permite reproducir un sonido aleatorio por medio de la pulsación de un botón
 - No DFU capable USB device available, Failed uploading: uploading error: exit status 74
 - me aparece en notificaciones de windows que no se reconoce el dispositivo usb, es extraño porque el cable está bueno y había funcionado con códigos anteriores, estamos intentando resolver el error
