@@ -157,7 +157,7 @@ Trata sobre si acercas alguún color  este parpadee con el color respectivo y qu
 
 #### Sensor de distancia por ToF VL53L0X
 
-![SensoRTCS34725](./imagenes/SensoRTCS34725.png)
+![SensorToF](./imagenes/SensorToF.png)
 
 El sensor de distancia por tiempo de vuelo es similar al de los sensores ultrasonido. Tiene un emisor laser que cada cierto tiempo emite un haz de luz, al encontrarse con un objeto la luz es reflejada, el sensor se encarga de medir el tiempo entre la emisión y la detección de la luz.
 
