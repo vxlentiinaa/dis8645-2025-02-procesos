@@ -266,5 +266,6 @@ void printDetail(uint8_t type, int value){
 ### Ideas Carcasa y proyecto final
 
 - Vincent van Gogh y su oreja
-- Un cangrejo que 
+- Un cangrejo y una concha
+- 
 
