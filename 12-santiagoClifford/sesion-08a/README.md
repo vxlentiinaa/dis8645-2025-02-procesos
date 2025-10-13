@@ -107,7 +107,7 @@ posteriormente uní estas piezas. Para esto utilicé tuercas y un tornillo M3. C
 
 gracias a este prototipo, me dí cuenta de que para lograr el objetivo(en la manera en la que yo buscaba hacerlo ), era necesario que estas 2 últimas piezas estén unidas. Por lo que hice un modelo 3d con estas 2 piezas unidas.
 
-![modelo 3d párpado v1](./imagenes/parpado-pataMala.jpg)
+![modelo 3d párpado v1](./imagenes/parpado-pataMala.png)
 
 el modelo anterior fue rápidamente descartado, ya que perturbaba la posición en la que se imprimía la pieza, y hubiera necesitado mayor cantidad de soportes. Por lo que modelé una pieza que permitiera que la impresión fuera desde la misma posición que las versiones anteriores, la cual era ideal debido al uso mínimo de soportes.
 
@@ -122,17 +122,17 @@ Para esto, utilicé una librería de OpenSCAD, llamada [pd-gears](https://github
 
 Finalmente utilicé el siguiente código para modelar el engranaje:
 
-    ```openscad
+```scad
     use <pd-gears.scad>
     gear(
-        number_of_teeth = 20,
-        hole_diameter = 0,
-        thickness = 3,
-        mm_per_tooth = 14.2,
-        backlash = 0.15,
-        clearance = 0.15
+     number_of_teeth = 20,
+     hole_diameter = 0,
+     thickness = 3,
+     mm_per_tooth = 14.2,
+     backlash = 0.15,
+     clearance = 0.15
     );
-    ```
+```
 
 este código da como resultado este engranaje:
 
