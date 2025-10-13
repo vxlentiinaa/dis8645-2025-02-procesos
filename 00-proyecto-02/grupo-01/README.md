@@ -13,6 +13,8 @@
 
 ## Presentación textual 
 
+### AND-Y
+
 El proyecto consiste en un robot que saluda mediante la interacción con algún humano, por medio de el sensor de ultrasónico programado con Arduino R4 Minima. A través, de las diferentes distancias puede recorrer tres fases de audios:
 
 `Diálogo:`
@@ -55,12 +57,12 @@ Al detectar la distancia de la presencia la máquina reacciona de diferentes for
 `Reacciones`
 
 1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor DC el tembleque aumentará entre más cerca estés.
-2. El sensor detectará presencia en 3 instancias: 2 - 10cm, 40 - 60cm, 80 - 150cm.
+2. El sensor detectará presencia en 3 instancias: 2 - 15cm, 80 - 100cm, 130 - 150cm.
 En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
 3. Los parametros son:
-- 80 - 150cm = Te "grita" que vengas. diciendo: "Hola humano, ¿porqué estas tan lejos?. Acércate.
-- 40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "Hola, no seas tímido, ven más cerca. no tengo, virus creoo, jiji."
--  2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato curioso.
+- 130 - 150cm = Te "grita" que vengas. diciendo: "Hola humano, ¿porqué estas tan lejos?. Acércate.
+- 80 - 100cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "Hola, no seas tímido, ven más cerca. no tengo, virus creoo, jiji."
+-  2 - 15cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato curioso.
 
 - “¿Sabías qué?, los 99% de los problemas se arreglan reiniciando.”
 -  “La nube no existe, son computadores de otro.”
@@ -91,5 +93,6 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 ## Bibliografía
 
 ### Repositorios
+
 
 
