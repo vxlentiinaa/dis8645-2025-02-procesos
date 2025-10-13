@@ -174,3 +174,8 @@ void printDetail(uint8_t type, int value){
 - pese a ser otro código, este error sigue apareciendo
 
 ![error](./imagenes/errorarduino1.JPG)
+
+- por recomendación de chatgpt me sugirió buscar en el administrador de dispositivos para ver si estaba reconociendo el COM4 pero no aparece en la lista de puertos
+
+![administradordispositivo](./imagenes/administradordispositivos.JPG)
+
