@@ -170,3 +170,7 @@ void printDetail(uint8_t type, int value){
   
 }
 ```
+
+- pese a ser otro código, este error sigue apareciendo
+
+![error](./imagenes/errorarduino1.JPG)
