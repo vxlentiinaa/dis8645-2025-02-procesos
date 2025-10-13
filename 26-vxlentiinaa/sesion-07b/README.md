@@ -166,7 +166,7 @@ foto del robot
 
 ### Encargo 15
 
-cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores.
+Cada persona del grupo debe subir a su README: documentar funcionamiento de sus sensores, incluyendo instrucciones de conexión y de configuración, subir el proyecto entero de arduino como carpeta, tiene que poder compilar sin problema y mostrar en consola los datos de los sensores.
 
 ### Servomotor
 
@@ -192,7 +192,62 @@ void loop() {
 }
 ```
 
+El servomotor empieza en 0° y cuando se levanta el dedo termina en 180°
 
+Pin a conectar:
+
+- Cable Café: GND
+- Cable Rojo: VCC
+- Cable Amarillo: pin 13
+
+Este código fue el que ordenó Aarón
+
+```cpp
+#include "SalidaDedo.h"
+
+SalidaDedo::SalidaDedo() {}
+
+SalidaDedo::~SalidaDedo() {}
+
+void SalidaDedo::configurar() {
+  servo.attach(SalidaDedo::patitaServo);
+  // posicion inicial 0 grados
+  servo.write(0);
+}
+
+void SalidaDedo::levantar() {
+  // 180 grados
+  servo.write(180);
+}
+
+void SalidaDedo::bajar() {
+  //0 grados
+  servo.write(0);
+}
+```
+
+```cpp
+#include <Servo.h>
+
+Servo dedo;// Crear objeto servo
+const int SERVO_PIN = 13;
+
+// Configurar servo motor
+void configurarServo() {
+  dedo.attach(SERVO_PIN);
+  dedo.write(0); // posición inicial 0°
+}
+
+// Levantar dedo
+void levantarDedo() {
+  dedo.write(180);
+}
+
+// Bajar dedo
+void bajarDedo() {
+  dedo.write(0);
+}
+```
 
 ### Sensor Ultrasónico
 
@@ -214,10 +269,6 @@ const int TRIG_PIN = 11; // Pin TRIG del sensor
 const int ECHO_PIN = 12; // Pin ECHO del sensor
 long duration;
 float distanceCm;
-
-
-
-
 
 void setup() {
   // Inicialización de la pantalla OLED
@@ -276,4 +327,229 @@ void loop() {
   display.display(); // Actualizar la pantalla
   delay(500); // Esperar 500 ms
   }
+```
+
+El sensor ultrasónico se conecta a los siguientes pines: 
+
+- Trig: pin 11
+- Echo: pin 12
+- GND
+- VCC
+
+Este código es el que modificamos y final
+
+```cpp
+//SENSOR ULTRASÓNICO
+const int TRIG_PIN = 11;   // Pin digital 11 para el Trigger del sensor
+const int ECHO_PIN = 12;   // Pin digital 12 para el Echo del sensor
+
+// definir la distancia minima de 2 a 10 cm
+// definir distancia media de 40 a 60 cm
+// definir la distancia maxima de 80 a 100 cm
+// Tiempo de reposo cuando no siente presencia 
+
+long duration;
+float distanceCm;
+
+// Configurar pines del sensor ultrasonico
+void configurarSensorUltrasonico() {
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  Serial.begin(9600);
+}
+
+// Medir la distancia y devolverla
+float medirDistancia() {
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  // Leer la duración del pulso de retorno
+  duration = pulseIn(ECHO_PIN, HIGH);
+  // Calcular la distancia en cm (velocidad del sonido = 343 m/s)
+  distanceCm = duration * 0.0343 / 2;
+
+  // Mostrar distancia medida en el monitor serial
+  Serial.print("Distancia: ");
+  Serial.print(distanceCm);
+  Serial.println(" cm");
+
+  return distanceCm;
+}
+```
+
+### Motor DC: Motor de vibración
+
+Este es el código cpp, pero todavía no sabemos si funciona 
+
+```cpp
+#include "SalidaMotorVibracion.h"
+
+// --- Constructor ---
+SalidaMotorVibracion::SalidaMotorVibracion() {}
+
+// --- Destructor ---
+SalidaMotorVibracion::~SalidaMotorVibracion() {}
+
+// --- Configuración inicial ---
+void SalidaMotorVibracion::configurar() {
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  pinMode(MOTOR_PIN, OUTPUT);
+  Serial.begin(9600);
+}
+
+// --- Medición de distancia con sensor ultrasónico ---
+float SalidaMotorVibracion::medirDistancia() {
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  duracion = pulseIn(ECHO_PIN, HIGH);
+  distanciaCm = duracion * 0.0343 / 2;
+  return distanciaCm;
+}
+
+// --- Actualiza la vibración según la distancia ---
+void SalidaMotorVibracion::actualizar() {
+  float distancia = medirDistancia();
+
+  if (distancia >= minCercana && distancia <= maxCercana) {
+    intensidad = 0;           // No vibra
+  } 
+  else if (distancia >= minMediana && distancia <= maxMediana) {
+    intensidad = 255;         // Vibra mucho
+  } 
+  else if (distancia >= minLejana && distancia <= maxLejana) {
+    intensidad = 100;         // Vibra poco
+  } 
+  else {
+    intensidad = 0;           // Fuera de rango, no vibra
+  }
+
+  analogWrite(MOTOR_PIN, intensidad);
+
+  Serial.print("Distancia: ");
+  Serial.print(distancia);
+  Serial.print(" cm  |  Intensidad: ");
+  Serial.println(intensidad);
+
+  delay(100);
+}
+```
+
+Este es el código .h que tampoco sabemos si funciona, no lo hemos subido al .ino como tal
+
+```cpp
+#ifndef MOTOR_VIBRACION_H
+#define MOTOR_VIBRACION_H
+
+#include <Arduino.h>
+
+class SalidaMotorVibracion {
+public:
+  SalidaMotorVibracion();       // Constructor
+  ~SalidaMotorVibracion();      // Destructor
+
+  void configurar();         // Configura los pines
+  void actualizar();         // Mide distancia y ajusta vibración
+  float medirDistancia();    // Función auxiliar
+
+private:
+  // Pines
+  const int TRIG_PIN = 11;
+  const int ECHO_PIN = 12;
+  const int MOTOR_PIN = 9;
+
+  // Rangos de distancia (en cm)
+  float minCercana = 2;
+  float maxCercana = 10;
+
+  float minMediana = 40;
+  float maxMediana = 60;
+
+  float minLejana = 80;
+  float maxLejana = 100;
+
+  // Variables internas
+  long duracion = 0;
+  float distanciaCm = 0;
+  int intensidad = 0;
+};
+
+#endif
+```
+
+### Altavoz
+
+Este es el código que encontró Janice y Mateo para el reproductor MP3
+
+```cpp
+#include "Arduino.h"
+#include "DFRobotDFPlayerMini.h"
+
+#if (defined(ARDUINO_AVR_UNO) || defined(ESP8266))   // Para placas tipo UNO o ESP8266
+#include <SoftwareSerial.h>
+SoftwareSerial mp3Serial(4, 5); // RX, TX
+#define MP3_SERIAL mp3Serial
+#else
+#define MP3_SERIAL Serial1
+#endif
+
+DFRobotDFPlayerMini mp3Player;
+
+// Inicializar el reproductor MP3
+void configurarMP3() {
+  MP3_SERIAL.begin(9600);
+  Serial.println(F("Inicializando DFPlayer..."));
+
+  if (!mp3Player.begin(MP3_SERIAL, true, true)) {
+    Serial.println(F("⚠️ Error: No se pudo iniciar el DFPlayer."));
+    Serial.println(F("1. Revisa las conexiones (RX/TX)."));
+    Serial.println(F("2. Asegúrate de que la SD esté insertada."));
+    while (true) { delay(100); }
+  }
+
+  Serial.println(F("🎶 DFPlayer Mini listo."));
+  mp3Player.volume(25); // volumen 0–30
+}
+
+// Reproducir audio según distancia medida
+void reproducirAudioPorDistancia(float distancia) {
+  static int ultimoAudio = 0; // evita repetir el mismo audio constantemente
+
+  if (distancia >= 2 && distancia <= 18) {
+    // Rango corto: audios 3–8
+    int audio = random(3, 8); // random entre 3 y 8 (el límite superior no se incluye)
+    if (audio != ultimoAudio) {
+      mp3Player.play(audio);
+      Serial.print("Reproduciendo datos");
+      Serial.println(audio);
+      ultimoAudio = audio;
+    }
+  } 
+  else if (distancia >= 40 && distancia <= 60) {
+    // Rango medio: audio 2
+    if (ultimoAudio != 2) {
+      mp3Player.play(2);
+      Serial.println("Reproduciendo audio 2");
+      ultimoAudio = 2;
+    }
+  } 
+  else if (distancia >= 80 && distancia <= 100) {
+    // Rango largo: audio 1
+    if (ultimoAudio != 1) {
+      mp3Player.play(1);
+      Serial.println("Reproduciendo audio 1");
+      ultimoAudio = 1;
+    }
+  } 
+  else {
+    ultimoAudio = 0; // fuera de rango: reinicia estado
+  }
+}
 ```
