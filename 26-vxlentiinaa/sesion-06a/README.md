@@ -338,3 +338,6 @@ Encontré este proyecto en youtube, mide la distancia de los objetos [Sensor de 
 
 El DHT11 es un sensor de temperatura y humedad digital de bajo costo. Utiliza un sensor capacitivo de humedad y un termistor para medir el aire circundante, y muestra los datos mediante una señal digital en el pin de datos (no hay pines de entrada analógica)
 
+Trabaja con un rango de temperatura de 0° a 50° [Sensor de temperatura](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?srsltid=AfmBOorBtFSEhODpp-Lh4gg3X7-4YAXtNw1PDTMVCTKOeSuU_EK5OQxT)
+
+- Se me ocurre que la persona al entrar a la sala, detecte la temperatura de esta y cuando la detecte, la máquina se vuelva "loca" y haga llamar a la persona, cuando detecte que está cerca, para y le cuenta un secreto. 
