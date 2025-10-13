@@ -38,6 +38,8 @@ Compartir tu obra bajo la misma licencia (es decir, también CC BY-SA 3.0). Esto
 reutilizar tu versión con las mismas libertades y condiciones.
 ```
 
+---
+
 ### Referentes
 
 -
