@@ -43,11 +43,11 @@ Add that dB calculation to 94dB and you've got your SPL level. (Of course if it'
 
 ## encargo-16
 
-     "cada persona del grupo debe subir a su README:
-     qué llevan hasta el final de esta sesión, qué sí funciona,
-     qué funciona casi, qué no funciona. después subir nueva 
-     versión del código y de la documentación, del trabajo que
-     hagan entre 8a y 9a."
+"cada persona del grupo debe subir a su README:
+qué llevan hasta el final de esta sesión, qué sí funciona,
+qué funciona casi, qué no funciona. después subir nueva
+versión del código y de la documentación, del trabajo que
+hagan entre 8a y 9a."
 
 -*redactado el 16 de octubre*-
 
@@ -123,15 +123,15 @@ Para esto, utilicé una librería de OpenSCAD, llamada [pd-gears](https://github
 Finalmente utilicé el siguiente código para modelar el engranaje:
 
 ```scad
-    use <pd-gears.scad>
-    gear(
-     number_of_teeth = 20,
-     hole_diameter = 0,
-     thickness = 3,
-     mm_per_tooth = 14.2,
-     backlash = 0.15,
-     clearance = 0.15
-    );
+use <pd-gears.scad>
+gear(
+    number_of_teeth = 20,
+    hole_diameter = 0,
+    thickness = 3,
+    mm_per_tooth = 14.2,
+    backlash = 0.15,
+    clearance = 0.15
+);
 ```
 
 este código da como resultado este engranaje:
