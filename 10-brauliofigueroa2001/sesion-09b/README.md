@@ -173,9 +173,21 @@ void printDetail(uint8_t type, int value){
 
 - pese a ser otro código, este error sigue apareciendo
 
+
+
 ![error](./imagenes/errorarduino1.JPG)
 
 - por recomendación de chatgpt me sugirió buscar en el administrador de dispositivos para ver si estaba reconociendo el COM4 pero no aparece en la lista de puertos
 
 ![administradordispositivo](./imagenes/administradordispositivos.JPG)
+
+
+### avances 13 de octubre en la tarde
+
+- definir los tipos de audio que utilizaremos, se basará en sonidos de la playa los cuáles incluyen naturaleza y entorno
+- ideas de sonidos: olas, gente vendiendo cosas, churros,palmeras,frutillas con chocolate?
+
+### el error
+
+-
 
