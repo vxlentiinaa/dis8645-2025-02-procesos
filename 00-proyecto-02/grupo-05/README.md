@@ -2,7 +2,7 @@
 
 ## Grupo-05 "Waos" : Integrantes
 
-- [Morgan Aravena Arze](https://github.com/Moosswhosmoss)
+- [Morgan Aravena Arze](https://github.com/Mosswhosmoss)
 - [Aileen Guiselle D'espessailles Rojas](https://github.com/aileendespessailles-design)
 - [Carla Andrea del Carmen Pino Barrios](https://github.com/Coff4)
 - [Sebastian Alejandro Sáez Olivares](https://github.com/SebastianSaez1003)
@@ -25,4 +25,5 @@ En nuestro caso los sensores serian un sensor de temperatura, humedad y presion 
 
 
 ### Comentarios finales
+
 
