@@ -150,5 +150,44 @@ luego monté un sensor ultrasónico a un engranaje para probar la función que b
 
 ![gif de la rotación del sensor ultrasónico](./imagenes/gif-ultrasS-gear.gif)
   
+video convertido a gif con [esta página](https://cloudconvert.com/mp4-to-gif)
 
-  
+para pasar a un prototipo de mayor resolución, modelé un case para el ultrasónico.
+
+![render del case para el sensor ultrasónico](./imagenes/ultraS-case-v1.png)
+
+dado el tamaño de la base de este case, generé otro engranaje, cuyo diamétro de su dedendum circle sea mayor a 39,93mm. Esto también es una mejora, ya que al pasar de un engranaje más pequeño a uno más grande, se puede realentizar el movimiento.
+
+![alonso v2](./imagenes/alonso-v2.png)
+
+con las piezas anteriores ya impresas, monté este bello mecanismo
+
+![mecanismo de rotación del sensor ultrasónico](./imagenes/gif-ultrasS-gear-v2.gif)
+
+convertido a gif con [esta página](https://ezgif.com/video-to-gif/ezgif-848237ef819f28.mp4.html)(la que ocupé antes tiene límite de créditos)
+
+
+tomé 3 racks, y los pegué para probar el mecanismo siendo activado por un servomotor
+
+![imagen de los racks pegados](./imagenes/rackIlluminati.jpg)
+
+![mecanismo impulsado por servo](./imagenes/gif-ultrasS-gear-v3.gif)
+
+reutilicé una pieza de la versión anterior para montar el servo a la gearBoard, y lo hice correr:
+
+![maqueta con servo montado](./imagenes/gif-ultrasS-gear-v4.gif)
+
+para convertir video a gif usé [esta página](https://convertio.co/mp4-gif)(la mejor de todas las que probé)
+
+finalmente, monté el otro case del sensor ultrasónico, y construí un carril para el rack.
+
+![la maqueta montada con carril](./imagenes/gif-ultrasS-gear-v5.gif)
+
+con cartón, maskingtape, alambre, ese foam donde vienen los circuitos integrados, y unos engranajes de probetas anteriores, armé un circuito mecánico que aprovecha el mismo servo para que gire el cuello. 
+
+![maqueta más avanzada, con ojos](./imagenes/gif-ultrasS-gear-v6.gif)
+
+teniendo ya consciencia de cómo va posicionado cada servo, puedo ponerme a modelar la base final del robot. Primero hice este modelado, para ir agarrando vuelo.
+
+![render de la maqueta con cuello y engranajes](./imagenes/mecanismoPro-render.png)
+
