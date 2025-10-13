@@ -3,7 +3,6 @@
 Viernes 17 Octubre 2025
 
 ***
-
 ## Grupo-04 "nombre del grupo" : Integrantes
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001)
@@ -13,35 +12,54 @@ Viernes 17 Octubre 2025
 - [Francisco Stephens González](https://github.com/FranUDP)
 
 ***
-
 ## Introducción
 
 Este proyecto se centra en desarrollar una "caja negra" que pueda "saludar".
 El saludo de define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo). Por otra parte, ["El saludo es un gesto de la vida cotidiana y profesional, una señal de respeto y consideración hacia los demás"](https://123emprende.com/blog/la-importancia-de-saludar-correctamente/).
 
-Con estos antecedentes es que comenzamos a plantear la fabricación de una máquina que detecte la presencia de una persona, que pueda poseer unos ojos que sigan a la visitante y que al acerarse a una distancia próxima pueda emitir un sonido de forma aleatoria.
+Al comienzo del trabajo no hubo una idea clara sobre qué dispositivo desarrollar. Ante ello se creó una propuesta a partir de todas las propuestas proveniente por parte de los integrantes, es que se decidió en conjunto el crear un mecanismo que posea ojos y que siga con la "mirada" al usuario a través de un sensor de presencia que detecte su posición en el espacio. Al identificar que la persona se encuentra a cierta distancia, una de las partes de la máquina comienza a emitir sonido de forma aleatoria, sin un orden establecido.
 
 ¿Por qué hacer que se reproduzca un sonido [aleatorio](https://es.wikipedia.org/wiki/Azar#:~:text=El%20azar%20es%20una%20casualidad,Azar%20en%20matem%C3%A1ticas)?
-Pues el no poder predecir o saber que esperar de esta máquina genera un factor "sorpresa", puesto que depende del artefacto el saber qué sonidos va a transmitir. Ello también evita que el aparato no pueda excluir a la gente al no poder distinguir los razgos de quien pasa.
+Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta máquina genera un factor "sorpresa", puesto que depende del artefacto el elegir qué sonidos va a transmitir.
 
-Dicho proyecto se centra en desarrollar una "caja negra" que pueda saludar. En cuanto a conceptualidad surge la duda de analizar sobre la condición del saludo.
-Como propuesta creemos que al utilizar la aleatoriedad como una herramienta para responder de forma impredecible a quien pase (no discrimina, solo detecta la presencia).
 
 ***
 
 ### Presentación textual de la propuesta
 
-Con todas las propuestas provenientes por parte de los integrantes, decidimos  crear un mecamisno que siga con la "mirada" al usuario a través de un radar creado con un sensor ultrasónico y un servomotor. Al detectar que la persona se acerca a cierta distancia otro de los modulos de la máquina comienza a emitir ruidos de forma aleatoria, sin un orden establecido.
+Nuestra máquina (nombre de la máquina) consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado de a una persona a la vez.
+Esta trabaja detectando la presencia de una persona a través de un “radar” compuesto por un [“sensor ultrasónico HC-SR04”]( https://www.alldatasheet.com/html-pdf/1132204/ETC2/HCSR04/110/1/HCSR04.html) y un [“servomotor SG90”]() que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
+
+Cuando el usuario ingresa al rango de “reconocimiento” (compuesto por la rotación del servomotor más la distancia del ultrasónico) los “ojos” de la máquina se mueven a la posición aproximada en la que se encuentra la persona, siguiéndole con la “mirada”.
+
+Cuando la persona se acerca a una distancia (x cm) del dispositivo el apéndice, que posee un [“Modulo Reproductor MP3 DFPlayer Mini”](), comienza a emitir sonidos de forma aleatoria hasta que la persona se aleje lo suficiente como para salir del rango de sonido.
+
+Los ojos no dejan de funcionar en ningún momento, por lo que persiguen a la persona hasta que salga del rango de reconocimiento.
+
 
 ***
 
 ### Desarrollo
 
+Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error.
+
+
 ***
 
-### Comentarios finales
+### Comentarios finales 
 
-Hoy no estoy bien, no me siento con fuerzas o energia para poder trabajar con gente. Quiero estar sola hasta que pueda estar más estable, lo suficiente como para que no me controlen los sentimientos neganitos y los pensamientos rumiantes. De igual forma tengo mis medicamentos que me dan un alivio temporal y un relajo.
+
+***
+
+### Bibliografía 
+
+- https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/
+- https://web.archive.org/web/20240421145837/https://cursos.mcielectronics.cl/2023/06/28/como-utilizar-un-servo-motor-con-arduino/
+- https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep/
+- https://www.instructables.com/Animatronic-Face-of-Ed-From-Good-Burger/
+- https://www.instructables.com/Face-With-Animatronic-Eyes-Motion-Detection-and-Vo/
+
+
 
 ***
 
