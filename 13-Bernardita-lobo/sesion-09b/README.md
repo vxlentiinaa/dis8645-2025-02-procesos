@@ -1,4 +1,4 @@
-# sesion-09b
+# Sesión-09b
 
 ## Trabajo en clase
 
@@ -22,6 +22,8 @@ Incorporamos unos ojos que te siguen y detectan qué tan cerca estás, además d
 
 Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh. Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
 
+Y finalmente volvimos a las ideas iniciales. Repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos para las carcasas. Primero, con el elemento del speaker, decidimos diseñarle una carcasa con forma de concha, de modo que al acercarla a la oreja se pueda escuchar el mar. Pero no solo las olas, sino también ruidos del ambiente, como gritos, pájaros y sonidos de gaviotas, creando la sensación de teletransportarse a una playa chilena.
+
 ```
 Eso significa que la grabación “Bocinas de barco en el puerto de Valparaíso” está bajo la licencia Creative Commons
 Atribución–CompartirIgual 3.0 (CC BY-SA 3.0).
@@ -43,5 +45,3 @@ reutilizar tu versión con las mismas libertades y condiciones.
 -
 
 ### Palabras impoertantes
-
-## Encargo
