@@ -177,6 +177,12 @@ El segundo disco que escuché fue Sailing the Seas of cheese, creado en 1991, en
 
 Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente
 
+### ¿Quién es Mitchel Resnick?
+
+Es un profesor, físico, informático, periodista y programador estadounidense.
+
+Estudió
+
 ---
 
 Wikipedia. (24 de julio de 2025). Funk. Wikipedia. https://es.wikipedia.org/wiki/Funk
