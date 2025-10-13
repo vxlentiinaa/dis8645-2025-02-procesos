@@ -58,8 +58,8 @@ Al detectar la distancia de la presencia la máquina reacciona de diferentes for
 2. El sensor detectará presencia en 3 instancias: 2 - 10cm, 40 - 60cm, 80 - 150cm.
 En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
 3. Los parametros son:
-- 80 - 150cm = Te "grita" que vengas. diciendo: "hola humano, ¿porqué estas tan lejos?. Acércate.
-- 40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo:"Hola, no seas tímido, ven más cerca. no tengo, virus creoo, jiji."
+- 80 - 150cm = Te "grita" que vengas. diciendo: "Hola humano, ¿porqué estas tan lejos?. Acércate.
+- 40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "Hola, no seas tímido, ven más cerca. no tengo, virus creoo, jiji."
 -  2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá algún dato curioso.
 
 - “¿Sabías qué?, los 99% de los problemas se arreglan reiniciando.”
@@ -91,3 +91,4 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 ## Bibliografía
 
 ### Repositorios
+
