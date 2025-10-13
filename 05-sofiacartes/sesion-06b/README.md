@@ -125,7 +125,7 @@ Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
 
 #### Sensor de Temperatura y Humedad DHT11
 
-![](./imagenesProyecto-02/.jpg)
+![](./imagenes/SensorDHT11.png)
 
 El DHT11 es un sensor de temperatura y humedad digital de bajo costo.  Tiene un sensor capacitivo de humedad y un termistor para poder medir el aire que rodea el espacio y muestra los datos mediante una señal digital en el pin de datos.
 
