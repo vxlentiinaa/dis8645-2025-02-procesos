@@ -326,6 +326,8 @@ Utilizó una tarejeta nano con micro-controlador Arduino y el sensor. El video c
 
 - Se me imagina que la persona que entre a la sala, eliga un cartón de color (rojo, verde, azul y amarillo) Entonces el sensor detectará el color de la persona, lo llamará y saludará. Donde cada color, tiene un saludo diferente. 
 
+![Sensor de color](./imagenes/SensorDeColor.jpg)
+
 ### Sensor de distancia por ToF VL53L0X
 
 El principio de funcionamiento de los sensores de distancia por tiempo de vuelo es similar al de los sensores ultrasonido: El sensor posee un emisor laser que cada cierto tiempo emite un haz de luz, al encontrarse con un objeto la luz es reflejada, el sensor se encarga de medir el tiempo entre la emisión y la detección de la luz y como la velocidad de la luz es un valor conocido entonces se puede calcular la distancia al objeto con el tiempo de vuelo.
@@ -334,6 +336,8 @@ Encontré este proyecto en youtube, mide la distancia de los objetos [Sensor de 
 
 - Esté podría ser una opción para medir la distancia de la máquina hacia la persona y que cada cierta distancia, la máquina lo invite a acercarse más, hasta que llegue a la máquina y este lo salude con un bracito.
 
+![Sensor de distancia](./imagenes/SensorDeDistancia.jpg)
+
 ### Sensor de Temperatura y Humedad DHT11 
 
 El DHT11 es un sensor de temperatura y humedad digital de bajo costo. Utiliza un sensor capacitivo de humedad y un termistor para medir el aire circundante, y muestra los datos mediante una señal digital en el pin de datos (no hay pines de entrada analógica)
@@ -341,3 +345,5 @@ El DHT11 es un sensor de temperatura y humedad digital de bajo costo. Utiliza un
 Trabaja con un rango de temperatura de 0° a 50° [Sensor de temperatura](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11?srsltid=AfmBOorBtFSEhODpp-Lh4gg3X7-4YAXtNw1PDTMVCTKOeSuU_EK5OQxT)
 
 - Se me ocurre que la persona al entrar a la sala, detecte la temperatura de esta y cuando la detecte, la máquina se vuelva "loca" y haga llamar a la persona, cuando detecte que está cerca, para y le cuenta un secreto. 
+
+![Sensor de temperatura](./imagenes/SensorDeTemperaturayHumedad.jpg)
