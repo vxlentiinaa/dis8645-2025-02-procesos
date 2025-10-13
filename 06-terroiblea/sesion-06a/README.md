@@ -163,17 +163,17 @@ Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los u
   
 Permite controlar objetos en un espacio bidimensional y registrar una acción adicional mediante un pulsador integrado. Es ideal para una amplia gama de aplicaciones, desde robótica hasta la creación de interfaces de control personalizadas.
 
-#### Funcionamiento Principal:
+Funcionamiento Principal:
 
 El joystick proporciona dos salidas analógicas que corresponden a la posición en los ejes X e Y. Esto se logra mediante dos potenciómetros de 10 kΩ, cuya resistencia varía según la inclinación de la palanca. Además, cuenta con una salida digital que se activa al presionar la palanca hacia abajo (eje Z), funcionando como un botón o pulsador. Un indicador LED de energía integrado muestra el estado de funcionamiento del módulo.
 
-#### Características:
+Características:
 
 - **Control de Tres Ejes:** Ofrece dos ejes analógicos (X, Y) para control direccional y un pulsador digital (Z).
 - **Interfaz Sencilla:** Se conecta fácilmente a microcontroladores como Arduino, ESP32 o Raspberry Pi a través de pines estándar.
 - **Posicionamiento Preciso:** El identificador de coordenadas es claro y permite un control exacto y sencillo.
 
-#### Especificaciones Técnicas:
+Especificaciones Técnicas:
 
 - Voltaje de Operación: 5V DC (con una lectura de 2.5V en reposo).
 - Tipo de Salida: 2 señales analógicas (VRx, VRy) y 1 señal digital (SW).
@@ -187,20 +187,20 @@ El joystick proporciona dos salidas analógicas que corresponden a la posición 
 - Dimensiones: 37 mm x 25 mm x 32 mm.
 - Peso: 15 gramos.
 
-#### Cotización: 
+Cotización: 
 
 - **Afel:** $2.000 (<https://afel.cl/products/joystick-palanca-de-mando>)
 - **MCI electronics:** $4.192 (<https://mcielectronics.cl/shop/product/modulo-joystick-para-arduino/>)
 - **ProdeLab**: $2.500 (<https://prodelab.cl/productos/robotica-y-programacion/accesorios-robotica-y-programacion/modulo-joystick-xy-para-arduino-rasperry-pi-ky-023/>)
 - **Mercado Libre:** $2.500 (<https://articulo.mercadolibre.com.ar/MLA-1605176830-modulo-joystick-analogico-con-pulsador-arduino-robotica-_JM>)
 
-#### Esquema conexión: 
+Esquema conexión: 
 
 ![conexionespalanca](./imagenes/conexionespalanca.png)
 
 ![esquemapalanca](./imagenes/esquemapalanca.png)
 
-#### Uso en arduino - código de inicio simple (MCI electronics): 
+Uso en arduino - código de inicio simple (MCI electronics): 
 
 ```cpp
 //Definimos  los pines en los que tenemos conectadas las salidas del joystick
@@ -219,7 +219,7 @@ void setup() {
 }
 ```
 
-### Sensor de Color
+Sensor de Color
 
 Si bien este no estaba físico en la clase, fue el que más me interesó. 
 
@@ -227,7 +227,7 @@ Si bien este no estaba físico en la clase, fue el que más me interesó.
 
 Este módulo es un completo convertidor de luz a frecuencia, diseñado para detectar el color de un objeto. Filtra la luz en sus componentes primarios Rojo, Verde y Azul (RGB) y convierte la intensidad de cada color en una señal de frecuencia. Su salida digital puede ser leída directamente por cualquier microcontrolador (como Arduino, PIC, ESP32), lo que lo hace ideal para proyectos de robótica, automatización y domótica.
 
-#### Funcionamiento Principal: 
+Funcionamiento Principal: 
 
 En su núcleo, el sensor utiliza una matriz de 8x8 fotodiodos. Estos están distribuidos de la siguiente manera:
 
@@ -240,7 +240,7 @@ En su núcleo, el sensor utiliza una matriz de 8x8 fotodiodos. Estos están dist
 
 Mediante pines de control, se puede seleccionar qué grupo de fotodiodos está activo. La salida del sensor es una onda cuadrada (50% de ciclo de trabajo) cuya frecuencia es directamente proporcional a la intensidad de la luz del color seleccionado. Para determinar el color de un objeto, el microcontrolador mide la frecuencia para cada filtro (rojo, verde y azul) de forma secuencial. El módulo incluye LEDs de luz blanca para iluminar el objeto y asegurar una lectura consistente y precisa.
 
-#### Control de Pines y Selección:
+Control de Pines y Selección:
 
 El módulo se controla principalmente a través de cuatro pines de selección (S0, S1, S2, S3).
 
@@ -271,7 +271,7 @@ Alto |	Alto | 100%
 Video explicativo: <https://youtube.com/shorts/rzvxGpP-t7g?feature=shared>
 Paginas referentes de información para más adelante: <https://projecthub.arduino.cc/SurtrTech/color-detection-using-tcs3200230-a1e463> <https://cursos.mcielectronics.cl/2022/12/26/interfaz-del-sensor-de-color-tcs230-tcs3200-con-arduino/>
 
-#### Características:
+Características:
 
 - **Conversión de Alta Resolución:** Convierte la intensidad de la luz a frecuencia con gran precisión.
 - **Control Flexible**: Permite seleccionar tanto el filtro de color (RGB) como la escala de la frecuencia de salida.
@@ -280,7 +280,7 @@ Paginas referentes de información para más adelante: <https://projecthub.ardui
 - **Bajo Consumo:** Dispone de un modo de apagado (Power Down) para ahorrar energía.
 - **Alta Precisión:** Presenta un error no lineal muy bajo (0.2% a 50 kHz).
 
-#### Especificaciones tecnicas:
+Especificaciones tecnicas:
 
 - Voltaje de Operación: 2.7V a 5.5V.
 - Mejor Distancia de Detección: Aproximadamente 10 mm.
@@ -288,14 +288,14 @@ Paginas referentes de información para más adelante: <https://projecthub.ardui
 - Dimensiones del Módulo: 31 mm x 23 mm x 19 mm.
 - Peso: 0,2 kg
 
-#### Cotización: 
+Cotización: 
 
 - **Afel**: $5.000 (<https://afel.cl/products/sensor-reconocimiento-de-color-tcs230-tcs3200>)
 - **Rasperry Pi**: $4.890 (<https://raspberrypi.cl/producto/sensor-reconocimiento-de-color-tcs230-tcs3200/>)
 - **Altronics**: $7.110 (<https://altronics.cl/sensor-color-tcs230-tcs3200>)
 - **Mercado Libre**: $5.000 (<https://articulo.mercadolibre.cl/MLC-958423315-sensor-reconocimiento-de-color-tcs230-tcs3200-arduino-_JM>)
   
-#### Esquema conexión:
+Esquema conexión:
 
 ![conexioncolor](./imagenes/conexioncolor.png)
 
