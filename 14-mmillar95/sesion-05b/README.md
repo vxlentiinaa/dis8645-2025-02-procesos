@@ -40,7 +40,7 @@ Completo_italiano es un tipo de completo.
 
 ## Encargo 09
 
-  Escuchar dos primeros discos de Primus.
+Escuchar dos primeros discos de Primus.
 
 ### ¿Quiénes son Primus?
 
@@ -68,3 +68,7 @@ Too many puppies muy buena canción.  
 En este disco muestran aún más lo buenos que son tocando sus instrumentos, además me pareció interesante los videos que tienen como "Tommy The Cat" el cual ocupa la técnica de [spoken word](https://es.wikipedia.org/wiki/Spoken_word) que llama a las personas a seguir viéndolo y quedarse hasta el final.
 
 [Primus - Tommy The Cat](https://www.youtube.com/watch?v=r4OhIU-PmB8&list=RDr4OhIU-PmB8&start_radio=1)
+
+# Encargo 10
+
+Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente.
