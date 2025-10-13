@@ -74,6 +74,24 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ### Más procesos de códigos y fotografías en Github
 
+![imagenProceso1](./imagenesProyecto-02/imagenProceso1.jpg)
+
+![imagenProceso2](./imagenesProyecto-02/imagenProceso2.jpg)
+
+![imagenProceso3](./imagenesProyecto-02/imagenProceso3.jpg)
+
+![imagenProceso4](./imagenesProyecto-02/imagenProceso4.jpg)
+
+![imagenProceso5](./imagenesProyecto-02/imagenProceso5.jpg)
+
+![imagenProceso6](./imagenesProyecto-02/imagenProceso6.jpg)
+
+![imagenProceso7](./imagenesProyecto-02/imagenProceso7.jpg)
+
+![imagenProceso8](./imagenesProyecto-02/imagenProceso8.jpg)
+
+![imagenProceso9](./imagenesProyecto-02/imagenProceso9.JPG)
+
 ## Etapas del código
 
 ### 1. Inicialización  del hardware
@@ -93,6 +111,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 ## Bibliografía
 
 ### Repositorios
+
 
 
 
