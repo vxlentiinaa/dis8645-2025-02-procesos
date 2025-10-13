@@ -312,3 +312,29 @@ else if (distanceCm < 400) {
 ### Encargo 11
 
 - investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar
+
+
+### Sensor Color RGB TCS34725
+
+Sensor de color que mide RGB y luz total. Puede ser utilizado por microcontroladores o micro-computadores, para obtener los valores RGB del color de un objeto o luz frente al sensor. Se conecta por I2C, tiene filtro IR, LED propio y permite ajustar medición y ganancia; detecta colores con alta precisión, incluso a través de vidrios.
+
+Este sensor es un integrado completo que realiza un tratamiento digital de la medición de color, proporcionando los valores RGB y Clear (medición total sin filtrar)
+
+Encontré este video en youtube, de un proyecto sobre clasificar colores: [Clasificando Objetos por Color con Sensor RGB TCS34725 y Arduino](https://www.youtube.com/watch?v=n18FmtGQdJ8)
+
+Utilizó una tarejeta nano con micro-controlador Arduino y el sensor. El video consta de esferas de colores, que al colocarlas en un riel, el sensor detecta el color y la pelotita cae en el compartimiento correspondiente. 
+
+- Se me imagina que la persona que entre a la sala, eliga un cartón de color (rojo, verde, azul y amarillo) Entonces el sensor detectará el color de la persona, lo llamará y saludará. Donde cada color, tiene un saludo diferente. 
+
+### Sensor de distancia por ToF VL53L0X
+
+El principio de funcionamiento de los sensores de distancia por tiempo de vuelo es similar al de los sensores ultrasonido: El sensor posee un emisor laser que cada cierto tiempo emite un haz de luz, al encontrarse con un objeto la luz es reflejada, el sensor se encarga de medir el tiempo entre la emisión y la detección de la luz y como la velocidad de la luz es un valor conocido entonces se puede calcular la distancia al objeto con el tiempo de vuelo.
+
+Encontré este proyecto en youtube, mide la distancia de los objetos [Sensor de distancia láser VL53L0X | Proyecto Arduino](https://www.youtube.com/watch?v=oe3OnYz5j3E) 
+
+- Esté podría ser una opción para medir la distancia de la máquina hacia la persona y que cada cierta distancia, la máquina lo invite a acercarse más, hasta que llegue a la máquina y este lo salude con un bracito.
+
+### Sensor de Temperatura y Humedad DHT11 
+
+El DHT11 es un sensor de temperatura y humedad digital de bajo costo. Utiliza un sensor capacitivo de humedad y un termistor para medir el aire circundante, y muestra los datos mediante una señal digital en el pin de datos (no hay pines de entrada analógica)
+
