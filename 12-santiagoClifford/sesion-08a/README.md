@@ -123,15 +123,15 @@ Para esto, utilicé una librería de OpenSCAD, llamada [pd-gears](https://github
 Finalmente utilicé el siguiente código para modelar el engranaje:
 
 ```scad
-use <pd-gears.scad>
-gear(
- number_of_teeth = 20,
- hole_diameter = 0,
- thickness = 3,
- mm_per_tooth = 14.2,
- backlash = 0.15,
- clearance = 0.15
-);
+    use <pd-gears.scad>
+    gear(
+     number_of_teeth = 20,
+     hole_diameter = 0,
+     thickness = 3,
+     mm_per_tooth = 14.2,
+     backlash = 0.15,
+     clearance = 0.15
+    );
 ```
 
 este código da como resultado este engranaje:
