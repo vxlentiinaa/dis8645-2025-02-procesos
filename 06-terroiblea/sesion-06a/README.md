@@ -46,7 +46,7 @@ La programación visual puede ser más accesible para principiantes, ya que perm
 
 ![visual](./imagenes/visual.jpg)
 
-![touchdesigner](./imagenes/touchdesigner.jpg)
+![touchdesigner](./imagenes/touchdesigner.jpeg)
 
 ### Lint - linting
 
