@@ -176,3 +176,10 @@ tomé 3 racks, y los pegué para probar el mecanismo siendo activado por un serv
 reutilicé una pieza de la versión anterior para montar el servo a la gearBoard, y lo hice correr:
 
 ![maqueta con servo montado](./imagenes/gif-ultrasS-gear-v4.gif)
+
+para convertir video a gif usé [esta página](https://convertio.co/mp4-gif)(la mejor de todas las que probé)
+
+finalmente, monté el otro case del sensor ultrasónico, y construí un carril para el rack.
+
+![la maqueta montada con carril](./imagenes/gif-ultrasS-gear-v5.gif)
+
