@@ -69,6 +69,6 @@ En este disco muestran aún más lo buenos que son tocando sus instrumentos, ade
 
 [Primus - Tommy The Cat](https://www.youtube.com/watch?v=r4OhIU-PmB8&list=RDr4OhIU-PmB8&start_radio=1)
 
-# Encargo 10
+## Encargo 10
 
 Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente.
