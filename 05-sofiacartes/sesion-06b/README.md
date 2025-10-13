@@ -151,3 +151,19 @@ Este sensor es un integrado completo que realiza un tratamiento digital de la me
 - Posee un filtro de infrarrojos, lo que mejora su precisión ante el ruido del entorno.
 - Incorpora LED SMD de Luz Blanca y Filtro de Bloqueo IR.
   
+`Idea de saludo`
+
+Trata sobre si acercas alguún color  este parpadee con el color respectivo y que el parpadeo sea un hola en morse.
+
+#### Sensor de distancia por ToF VL53L0X
+
+El sensor de distancia por tiempo de vuelo es similar al de los sensores ultrasonido. Tiene un emisor laser que cada cierto tiempo emite un haz de luz, al encontrarse con un objeto la luz es reflejada, el sensor se encarga de medir el tiempo entre la emisión y la detección de la luz.
+
+`Idea de saludo`
+
+Si estás a más de metro y medio, la pantalla mostrará "zzz, No veo nada aqui!", como si estuviera dormido.
+
+Al cruzar el umbral (a un metro, por ejemplo), se despierta con un salto "¡Hay algo! ¿Quién anda ahi?"
+
+Finalmente, solo si te pegas a él, te da la bienvenida "¡Llegaste al fin! ¡HOLA!"
+
