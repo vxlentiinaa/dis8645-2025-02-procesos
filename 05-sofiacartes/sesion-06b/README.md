@@ -138,7 +138,7 @@ Si alguien entra a la sala o algún espacio cerrado, el dispositivo se activa y 
 
 #### Sensor Color RGB TCS3472
 
-![SensorTCS3472.](./imagenes/SensorTCS3472.png)
+![SensorTCS3472](./imagenes/SensorTCS3472.png)
 
 Sensor de color que mide RGB y luz total. Puede ser utilizado por microcontroladores o micro-computadores, para obtener los valores RGB del color de un objeto o luz frente al sensor.
 
@@ -156,6 +156,8 @@ Este sensor es un integrado completo que realiza un tratamiento digital de la me
 Trata sobre si acercas alguún color  este parpadee con el color respectivo y que el parpadeo sea un hola en morse.
 
 #### Sensor de distancia por ToF VL53L0X
+
+![SensoRTCS34725](./imagenes/SensoRTCS34725.png)
 
 El sensor de distancia por tiempo de vuelo es similar al de los sensores ultrasonido. Tiene un emisor laser que cada cierto tiempo emite un haz de luz, al encontrarse con un objeto la luz es reflejada, el sensor se encarga de medir el tiempo entre la emisión y la detección de la luz.
 
