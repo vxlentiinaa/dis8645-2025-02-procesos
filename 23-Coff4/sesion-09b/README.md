@@ -584,4 +584,9 @@ void ActuadorPantalla::mostrarLogo2() {
 
 Todo esto con ayuda de chat gpt, ya que al ser tan especifico, me fue un poco más complicado ver ejemplos en internet y demonios...es tarde 
 
-Mañana en una de esas voy más temprano al lab a programar y recibir ayuda
+Mañana en una de esas voy más temprano al lab a programar y recibir ayuda.
+
+---
+
+Actualización:
+Se nos quemo el sensor de temperatura y humedad jej. Estabamos viendo las conexiones de mi codigo en el lab y no nos percatamos de que el sensor recibio un voltaje de 5 v y termino por derretirse...al parecer teniamos que haberle puesto el de 3.3 v
