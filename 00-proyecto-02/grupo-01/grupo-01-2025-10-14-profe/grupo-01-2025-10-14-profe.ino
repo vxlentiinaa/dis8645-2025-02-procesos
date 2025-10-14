@@ -1,5 +1,7 @@
 #include "EntradaUltrasonico.h"
 #include "SalidaDedo.h"
+#include "SalidaMotorVibracion.h"
+#include "SalidaVoz.h"
 
 // instancias de las clases
 EntradaUltrasonico ultrasonico;
@@ -18,7 +20,6 @@ void setup() {
 void loop() {
 
   ultrasonico.medirDistancia();
-
 
   if (ultrasonico.estaCerca) {
     dedo.levantar();
