@@ -90,7 +90,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ![imagenProceso8](./imagenesProyecto-02/imagenProceso8.jpg)
 
-![imagenProceso9](./imagenesProyecto-02/imagenProceso9.JPG)
+
 
 ## Etapas del código
 
@@ -111,6 +111,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 ## Bibliografía
 
 ### Repositorios
+
 
 
 
