@@ -67,6 +67,11 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 Parte a recopilar, Info de jota y brau
 
+###  4) Modelado 3D 
+
+Parte a recopilar, Info de jota y berni
+
+
 ***
 
 ## Comentarios finales 
@@ -92,6 +97,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
