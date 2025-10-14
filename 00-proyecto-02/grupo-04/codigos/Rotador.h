@@ -31,7 +31,7 @@ public:
   // Distancia que recorre el servoRadar tras cada medición
   int paso = 1;
   // Tiempo para permitor que servoRadar termine su movimiento antes de medir
-  int deltaTiempo = 30;
+  int deltaTiempo = 50;
   
   // 1 es hacia la derecha, 0 es a la izquierda
   bool direccion = 1;
