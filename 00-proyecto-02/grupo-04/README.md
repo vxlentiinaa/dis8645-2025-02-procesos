@@ -115,6 +115,9 @@ void loop() {
 
 ```
 
+[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/0yKt5dcoqxk/mqdefault.jpg)](https://www.youtube.com/watch?v=0yKt5dcoqxk)
+
+
 Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanismo simplificado que solo posea 1 servomotor es que me inspiré en este video.
 
 [![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/5X0v0MOrQiI/mqdefault.jpg)](https://www.youtube.com/watch?v=5X0v0MOrQiI)
@@ -165,6 +168,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
