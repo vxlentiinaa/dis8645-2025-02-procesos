@@ -71,3 +71,8 @@ sensor = s;
 Después, durante la tarde, en el LID, logré implementar la funcionalidad de comparar la medición antigua con la nueva para determinar si hubo movimiento. Sin embargo, noté que hay ${\color{#b0e6e6}ruido}$ en las mediciones; a veces la diferencia entre la medición original y la nueva es de más de 200 cm.
 
 Voy a intentar hacer que el ${\color{#b0e6e6}tiempo\ de\ espera}$ se aplique ${\color{#b0e6e6}después}$ de mover el servo y ${\color{#b0e6e6}antes}$ de volver a medir, para darle una superficie estable al sensor, ya que al sostenerlo en mi mano, evitando que el sensor se mueva mientras el servo era libre de rotar, resultó en mediciones consistentes.
+
+### El lunes
+
+Al final implementé la función `ping_median(4, 50);` de la biblioteca NewPing, para tomar múltiples mediciones y sacar el promedio, para solucionar el problema de las falsas detecciónes.
+
