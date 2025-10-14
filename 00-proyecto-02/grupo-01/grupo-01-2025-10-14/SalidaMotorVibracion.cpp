@@ -35,18 +35,18 @@ void SalidaMotorVibracion::actualizar() {
 
   float distancia = SalidaMotorVibracion::medirDistancia();
 
-  if (distancia >= SalidaMotorVibracion::minCercana
-      && distancia <= SalidaMotorVibracion::maxCercana) {
-    SalidaMotorVibracion::intensidad = 0;  // No vibra
-  } else if (distancia >= SalidaMotorVibracion::minMediana
-             && distancia <= maxMediana) {
-    SalidaMotorVibracion::intensidad = 255;  // Vibra mucho
-  } else if (distancia >= SalidaMotorVibracion::minLejana
-             && distancia <= SalidaMotorVibracion::maxLejana) {
-    SalidaMotorVibracion::intensidad = 150;  // Vibra poco
-  } else {
-    SalidaMotorVibracion::intensidad = 0;  // Fuera de rango, no vibra
-  }
+  // if (distancia >= SalidaMotorVibracion::minCercana
+  //     && distancia <= SalidaMotorVibracion::maxCercana) {
+  //   SalidaMotorVibracion::intensidad = 0;  // No vibra
+  // } else if (distancia >= SalidaMotorVibracion::minMediana
+  //            && distancia <= maxMediana) {
+  //   SalidaMotorVibracion::intensidad = 255;  // Vibra mucho
+  // } else if (distancia >= SalidaMotorVibracion::minLejana
+  //            && distancia <= SalidaMotorVibracion::maxLejana) {
+  //   SalidaMotorVibracion::intensidad = 150;  // Vibra poco
+  // } else {
+  //   SalidaMotorVibracion::intensidad = 0;  // Fuera de rango, no vibra
+  // }
 
   analogWrite(SalidaMotorVibracion::MOTOR_PIN,
               SalidaMotorVibracion::intensidad);
