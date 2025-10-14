@@ -119,8 +119,6 @@ SCRATCH
 + GND - GND
 + VCC - 5V
 + SIG - A0
-  
-![sensor](./imagenes/sensor1.jpg)
 
 + Ocupé esta página: <https://www.murkyrobot.com/guias/sensores/ky-038> para mi primer acercamiento
 + Esta me sirvió para entender como conectarlo y como funciona.
