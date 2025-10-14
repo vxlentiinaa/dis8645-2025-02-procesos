@@ -119,16 +119,17 @@ void loop() {
 
 ![imagen](./imagenes/servomotor-prueba-sweep.gif)
 
-servomotor-prueba-sweep.gif
-
 Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanismo simplificado que solo posea 1 servomotor es que me inspiré en este video.
 
-[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/5X0v0MOrQiI/mqdefault.jpg)](https://www.youtube.com/watch?v=5X0v0MOrQiI)
+![imagen](./imagenes/inspiracion-servo-ojos.gif)
 
 -> Dr scott Diabolical - Evil Genius (14 sept 2023). DIY Animatronic Eyes: Test #2. Youtube. https://www.youtube.com/watch?v=5X0v0MOrQiI
 
 Dado que no pude encontrar los planos es que comencé armando un prototipo simple con lo que tenía a mano: utilizando unas piezas impresas a modo de ojos, el servomotor, tornillos, alambre de 22 y unas piezas personalizadas modeladas para utilizarlas en el servomotor.
 
+![imagen](./imagenes/prototipo-ojitos-alambre.gif)
+
+-> Recurso personal
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
@@ -174,6 +175,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
