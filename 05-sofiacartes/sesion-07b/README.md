@@ -114,6 +114,8 @@ Cada persona del grupo debe subir a su README: documentar funcionamiento de sus 
 
 ### Encargo 14
 
+colocar imágen
+
 ### Encargo 15
 
 #### Sensor ultrasónico HC-sr04
