@@ -9,14 +9,13 @@ void SensorUltrasonico::configurar() {
 }
 
 int SensorUltrasonico::medirDistanciaCm() {
-// Usamos la función incorporada de NewPing para obtener la mediana de 5 pings.
-  // Es más rápida y resistente a lecturas anómalas que un promedio simple.
-  // El "50" es el timeout máximo en milisegundos.
-  int distancia = sonar->ping_median(4, 50);
-  
+  int distancia = sonar->ping_cm();
+
+  // Si no hay un retorno del sonar...
   if (distancia == 0) {
     return maxDistancia;
   }
   
+  // Si hay una lectura válida...
   return distancia;
 }
