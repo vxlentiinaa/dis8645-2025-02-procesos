@@ -84,7 +84,8 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
-Parte a recopilar, Info de jota y brau
+
+
 
 ###  4) Modelado 3D, desarrollo de carcasa y ensamblado
 
@@ -122,6 +123,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
