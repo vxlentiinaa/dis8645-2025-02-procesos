@@ -40,7 +40,6 @@ Por el lado conceptual, la máquina posee una carcasa compuestas por un "cangrej
 
 La primera pieza se compone de una imitación de un “cangrejo”, una réplica de una criatura asociada con la costa por su presencia en dicho sector a lo largo de todo Chile. La segunda parte se compone de una “concha de mar”, un objeto común de encontrar en las playas y que posee el mito de permitir a las personas escuchar sonidos semejantes al oleaje del mar y viento de las costas ( efecto conocido como [Resonancia de las conchas de Gastrópodos](https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos)).
 
-
 ***
 
 ### Desarrollo
@@ -65,11 +64,13 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 - https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos
 - https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini
 - https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/
+- https://www.youtube.com/watch?v=5X0v0MOrQiI
 
 
 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
