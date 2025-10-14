@@ -30,6 +30,7 @@ subir foto
 
 subir foto
 
+```text
 Eso significa que la grabación “Bocinas de barco en el puerto de Valparaíso” está bajo la licencia Creative Commons
 Atribución–CompartirIgual 3.0 (CC BY-SA 3.0).
 
@@ -41,6 +42,7 @@ Pero debes: Dar crédito al autor, en este caso Félix Blume, mencionando su nom
 
 Compartir tu obra bajo la misma licencia (es decir, también CC BY-SA 3.0). Esto significa que otras personas podrán
 reutilizar tu versión con las mismas libertades y condiciones.
+```
 
 ---
 
