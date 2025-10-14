@@ -1,10 +1,10 @@
 # sesion-10a
 
-### Trabajo en clases
+## Trabajo en clases
 
 ### Codigo MP3
 
-```CPP    
+```CPP
 #include "Arduino.h"
 #include "DFRobotDFPlayerMini.h"
 
