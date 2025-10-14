@@ -52,6 +52,8 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 
 Parte a recopilar, Info de fran
 
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+
 ### 2) Servomotor SG90
 
 En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago Gaete]( https://github.com/santiagoClifford)).
@@ -115,8 +117,9 @@ void loop() {
 
 ```
 
-[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/0yKt5dcoqxk/mqdefault.jpg)](https://www.youtube.com/watch?v=0yKt5dcoqxk)
+![imagen](./imagenes/servomotor-prueba-sweep.gif)
 
+servomotor-prueba-sweep.gif
 
 Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanismo simplificado que solo posea 1 servomotor es que me inspiré en este video.
 
@@ -127,10 +130,13 @@ Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que
 Dado que no pude encontrar los planos es que comencé armando un prototipo simple con lo que tenía a mano: utilizando unas piezas impresas a modo de ojos, el servomotor, tornillos, alambre de 22 y unas piezas personalizadas modeladas para utilizarlas en el servomotor.
 
 
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
+Parte a recopilar, Info de jota y brau
 
-
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
 ###  4) Modelado 3D, desarrollo de carcasa y ensamblado
 
@@ -168,6 +174,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
