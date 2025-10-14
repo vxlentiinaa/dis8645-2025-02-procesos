@@ -8,16 +8,20 @@
 
 #include "SensorUltrasonico.h"
 #include "Rotador.h"
+#include "AudioPlayer.h" // Incluye el nuevo archivo de cabecera para el reproductor de audio
 
 Rotador rotador;
 SensorUltrasonico ultrasonico;
+AudioPlayer audioPlayer; // Crea una instancia del reproductor de audio
 
 void setup() {
   Serial.begin(115200);
   ultrasonico.configurar();
-  rotador.configurar(&ultrasonico); 
+  audioPlayer.configurar(&ultrasonico); // Pasa el puntero del sensor al AudioPlayer
+  rotador.configurar(&ultrasonico); // Rotador ya no necesita el reproductor de MP3
 }
 
 void loop() {
   rotador.radar();
+  audioPlayer.loop(); // Llama al método loop del AudioPlayer para que gestione su lógica
 }
