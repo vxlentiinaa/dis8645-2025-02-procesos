@@ -1,11 +1,11 @@
-# sesion-09a # sesion-08b 07.10.25
+# sesion-09a 07.10.25
 
 "." significa "dentro de"
 Archivo cpp: Nos hacemos cargo de las promesas.
 
 ## Proyecto 02 - "RAMón"
 
-Después de varias pruebas e iteraciones decidimos cambiar la distancia mínima de 2-10cm a 2-18cm ya que pensabamos que hasta 10 era muy poquito.
+Después de varias pruebas e iteraciones decidimos cambiar la distancia mínima de 2-10cm a 2-15cm ya que pensabamos que hasta 10 era muy poquito.
 **¿Qué necesitamos?:*** Sensor ultrasónico, Servo Motor, Motor DC, Reproductor mp3, Trnasistor, resistencias y Altavoz
 
 + **Entrada:** Mediante el sensor ultrsónico la máquina detecta presencia y detalles de distancia de esta presencia (idealmente humana:P)
