@@ -36,6 +36,9 @@ void loop() {
     dedo.bajar();
   }
 
-  // pausa para estabilidad
+  // pausa para estabilidad DE QUE???
   delay(pausa);
+
+  // vibrar segun ultrasonico
+  motor.vibrar(ultrasonico.dondeEsta);
 }
