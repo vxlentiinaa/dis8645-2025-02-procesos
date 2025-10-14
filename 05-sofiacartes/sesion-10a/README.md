@@ -31,3 +31,20 @@
 
 Sacado de: <https://eloctavobit.com/librerias-arduino/newping>
 
+#### Uso de la biblioteca
+
+```cpp
+
+#include "New_Ping.h"
+New_Ping new_Ping;
+
+void setup() {
+  new_Ping.begin();
+}
+
+void loop() {
+  new_Ping.process();
+}
+```
+
+[Arduino_New_Ping](<https://github.com/eliteio/Arduino_New_Ping>): En este github, podemos encontar el detalle del código, cómo se utiliza y ejemplos.
