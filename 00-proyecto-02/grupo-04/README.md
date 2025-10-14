@@ -60,15 +60,27 @@ En un comienzo todo partió con una inspiración: un video mostrando el proceso 
 
 -> Will Cogley (5 nov 2019). Cómo construir un sencillo mecanismo de ojo animatrónico Arduino impreso en 3D. Youtube. https://www.youtube.com/watch?v=Ftt9e8xnKE4
 
-A partir de ello es que los estudios iniciales se centraron en replicar el mecanismo, entendiendo su construcción, las formas modeladas para cada pieza y la aplicación de los “motores servo” para su funcionamiento. Para ello obtuve un tutorial en [“Autodesk instructables”]( https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/)
+A partir de ello es que los estudios iniciales se centraron en replicar el mecanismo, entendiendo su construcción, las formas modeladas para cada pieza y la aplicación de los “motores servo” para su funcionamiento. Para ello se obtuvo un tutorial en [“Autodesk instructables”]( https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/) en el que se presenta un proyecto similar. Para ir partiendo poco a poco es que se trabajó con sólo un ojo, procediendo a imprimir los archivos 3D que incluye el proyecto. Una vez listo se procedió a montar las piezas siguiendo las instrucciones. 
 
-Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanísmo simplificado que solo posea 1 servomotor es que me inspiré en este video.
+![imagen](./imagenes/ojitos-proyecto-inspo.jpg)
+
+![imagen](./imagenes/ojitos-proyecto-inspo-detras.jpg)
+
+-> Animatronic Eyes [Fotografías], por Morgan Manly, s.f., instructables (https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/). CC BY-NC-SA 4.0
+
+Ante ello se pudo concluir que es necesario un servomotor para poder hacer que el ojo abra y cierre, un segundo para poder mover el ojo en vertical y un tercero para el horizontal. Puesto que los servomotores requieren de una calibración para que las piezas funcionen es que comencé a revisar el código tipo INO que incluye el proyecto.
+Al no tener experiencia previa manejando este tipo de actuadores es que se hizo una investigación en profundidad sobre como se trabaja con dicha pieza clave, además de aprender sobre qué librerías son necesarias además de las conexiones con el Arduino.
+
+(…)
+
+Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanismo simplificado que solo posea 1 servomotor es que me inspiré en este video.
 
 [![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/5X0v0MOrQiI/mqdefault.jpg)](https://www.youtube.com/watch?v=5X0v0MOrQiI)
 
 -> Dr scott Diabolical - Evil Genius (14 sept 2023). DIY Animatronic Eyes: Test #2. Youtube. https://www.youtube.com/watch?v=5X0v0MOrQiI
 
 Dado que no pude encontrar los planos es que comencé armando un prototipo simple con lo que tenía a mano: utilizando unas piezas impresas a modo de ojos, el servomotor, tornillos, alambre de 22 y unas piezas personalizadas modeladas para utilizarlas en el servomotor.
+
 
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
@@ -110,6 +122,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
