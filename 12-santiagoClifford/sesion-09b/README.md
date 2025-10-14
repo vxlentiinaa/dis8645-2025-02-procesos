@@ -191,3 +191,14 @@ teniendo ya consciencia de cómo va posicionado cada servo, puedo ponerme a mode
 
 ![render de la maqueta con cuello y engranajes](./imagenes/mecanismoPro-render.png)
 
+
+siguiente paso: definir una manera más eficiente para mover la dirección de la mirada de izquierda a derecha, usando el mismo servo.
+
+llegué a esta conclusión:
+
+![render del mecanismo final de engranajes](./imagenes/mecanismoPro-renderV2.png)
+
+la primera pieza que imrpimí es una especie de plataforma, que me recuerda a un mueble- la partí en 2 para que la impresión fuera más eficiente. Esta pieza tiene 2 propósitos, por una parte, sostiene al servomotor, y por otro, funciona como eje para el engranaje mayor, el cual sostiene a los ojos.
+
+![pieza que estoy imprimiendo en el momento en el que escribo esto.](./imagenes/piezaMueble.png)
+

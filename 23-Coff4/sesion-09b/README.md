@@ -590,3 +590,12 @@ Mañana en una de esas voy más temprano al lab a programar y recibir ayuda.
 
 Actualización:
 Se nos quemo el sensor de temperatura y humedad jej. Estabamos viendo las conexiones de mi codigo en el lab y no nos percatamos de que el sensor recibio un voltaje de 5 v y termino por derretirse...al parecer teniamos que haberle puesto el de 3.3 v
+
+Al final no fue eso, conectamos los cables al reves con la Cami, son errores humanos así que nada.
+
+---
+
+Volví con otro codigo más, que si compila completamente todo!
+
+Todo con ayuda de Gemini (no puedo decir que hice todo eso a traves de mi intelecto...seria imposible)
+
