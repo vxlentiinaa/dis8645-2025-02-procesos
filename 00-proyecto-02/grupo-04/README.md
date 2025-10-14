@@ -48,6 +48,24 @@ La primera pieza se compone de una imitación de un “cangrejo”, una réplica
 
 Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error.
 
+###  1) sensor ultrasónico HC-SR04
+
+Parte a recopilar, Info de fran
+
+### 2) Servomotor SG90
+
+Para poder montar un mecanísmo simplificado que solo posea 1 servomotor es que me inspiré en este video.
+
+[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/5X0v0MOrQiI/mqdefault.jpg)](https://www.youtube.com/watch?v=5X0v0MOrQiI)
+
+-> Dr scott Diabolical - Evil Genius (14 sept 2023). DIY Animatronic Eyes: Test #2. Youtube. https://www.youtube.com/watch?v=5X0v0MOrQiI
+
+Dado que no pude encontrar los planos es que comencé armando un prototipo simple con lo que tenía a mano: utilizando unas piezas impresas a modo de ojos, el servomotor, tornillos, alambre de 22 y unas piezas personalizadas modeladas para utilizarlas en el servomotor.
+
+
+### 3) Modulo Reproductor MP3 DFPlayer Mini
+
+Parte a recopilar, Info de jota y brau
 
 ***
 
@@ -74,6 +92,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
