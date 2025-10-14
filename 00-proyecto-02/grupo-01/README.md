@@ -104,6 +104,8 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ## Etapas de la carcasa 
 
+![procesoCarcasa1](./imagenesProyecto-02/procesoCarcasa1.jpg)
+
 ## Roles del equipo 
 
 ## Fotografías y videos del proyecto funcionando
@@ -111,6 +113,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 ## Bibliografía
 
 ### Repositorios
+
 
 
 
