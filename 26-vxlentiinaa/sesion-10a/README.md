@@ -4,4 +4,5 @@
 
 ## Apuntes
 
-- Mis compañeras revisaron el tema de la caja y la vibración del robot 
+- Mis compañeras revisaron el tema de la caja y la vibración del robot
+- revisar la librería NewPing
