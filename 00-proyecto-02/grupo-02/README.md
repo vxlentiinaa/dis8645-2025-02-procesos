@@ -1,8 +1,8 @@
 # Proyecto 02: "Máquina saludadora"
 
-Viernes 17 de octube de 2025
+Viernes 17 de Octube de 2025
 
-### Nombre estudiantes:
+### 👥 Nombre estudiantes:
 
 - Catalina Catalán
 - Valentina Chávez
@@ -10,13 +10,22 @@ Viernes 17 de octube de 2025
 - Nicolás Miranda 
 - Miguel Vera 
 
+### 🛠️ Roles del equipo
+
+- Catalina Catalán ➜ animaciones de la pantalla.
+- Valentina Chávez ➜ funcionamiento de la pantalla. 
+- Camila Delgado ➜ prototipos e impresiones 3D.
+- Nicolás Miranda ➜ funcionamiento del sensor de color.
+- Miguel Vera ➜ creación de audios y funcionamiento módulo MP3 y salida de audio.
+
+
 ## (Nombre del proyecto)
 
 ## 🔮 Explicación del proyecto
 
 Es un dispensador interactivo en forma de monstruo de color verde que reacciona emocionalmente según el color del chicle detectado. Como cada color significa una emoción, al momento de girar la manilla para obtener tu chicle, el monstruo te saludará súper feliz si el chicle salió verde, acompañado de una animación y un audio correspondiente a la emoción.
 
-## Objetivo del Proyecto
+## 📌 Objetivo del Proyecto
 - Crear una experiencia lúdica e interactiva que vincule colores, emociones y tecnología.
 - Mostrar cómo los sensores y actuadores pueden combinarse para generar una **respuesta audiovisual emocional**.
 
@@ -59,14 +68,14 @@ Consiste en un dispensador de chicles con cuatro colores:
 - Protoboard.
 - Fuente de alimentación.
 
-## ⚡️ Conexiones y esquema
+## ⚡️ Conexiones y esquemas
 Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de color, módulo MP3 y el altavoz.
 
-### Conexión del sensor de color
+### 🚥 Conexión del sensor de color
 
-- Detecta las frecuencia de colores mediante frecuencias en RGB.
-- Se verificó el reconociemiento de colores bajo distintas iluminaciones, los mejores reultados se daban cuando el sensor de color se encontraba en completa oscuridad.
-- Se calibraron los rangos de RGB para cada color del chicle.
+- Detecta los colores mediante frecuencias en RGB.
+- Se verificó el reconociemiento de colores bajo distintas iluminaciones, los mejores resultados se daban cuando el sensor de color se encontraba en completa oscuridad.
+- Se calibraron los rangos de RGB para cada color del chicle y así obtener los valores para rojo, azul, naranjo y verde.
 
 | Arduino | Sensor de color TCS3200 / TCS230 | Función          |
 |---------|----------------------------------|------------------|
@@ -79,42 +88,60 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 | D8      | OUT                              | Envía la señal de frecuencia correspondiente al color detectado |
 | GND     | OE                               | Habilita la salida (activo en LOW) |
 
-Esquema:
-
-
 
 ### Conexión de la pantalla
 Como la pantalla TFT circular funciona con 3.3V y arduino funciona con una lógica de 5V, se tuvo que utilizar un conversor lógico de voltaje, que modifica la corriente electrica del arduino y de la pantalla para que esta pueda funcionar bien y no se queme por tema de voltaje.
 
-Esquema:
+Esquema: (el de la pizarra)
 
+![Pantalla TFT](imagenes/pantalla_circular.jpg)
 
 ### Conexión del parlante con el reproductor MP3
-Esquema: 
+Se crearon audios con inteligencia artificial, que reaccionan al color de cada chicle y a la emoción correspondiente.
 
+| Arduino                           | Reproductor MP3  | Función                                                         |
+|-----------------------------------|------------------|-----------------------------------------------------------------|
+| 5V                                |  VCC             | Alimentación del módulo                                         |
+| GND                               | GND              | Tierra                                                          |
+| Pin 10                            | TX               | Comunicación serial desde DFPlayer hacia Arduino                |
+| Pin 11                            | RX               | Comunicación serial desde Arduino hacia DFPlayer                |
+| Cable rojo del parlante           | SPK_1            | Salida de audio (+)                                             |
+| Cable negro del parlante          | SPK_2            | Salida de audio (-)                                             |
+| Insertar tarjeta con archivos     | MicroSD          | Almacenamiento de audio                                         |
 
-### Conexión del sensor de color
-Esquema:
-
-
+![MP3](imagenes/modulo_mp3.jpg)
 
 
 ## 🛠️ Explicación del código
-A continuación se explica el código que se desarrolló para cada sensor/actuador:
+A continuación se explica el código que se desarrolló para cada sensor/actuador, mostrado con imágenes:
 
 ### Código para reconocer el color
+(aquí pegar el código)
+
+![MP3](imagenes/sesor_de_color.jpg)
+
+
 
 ### Código para reproducción del audio
+(aquí pegar el código)
 
 ### Código para animaciones de la pantalla
+(aquí pegar el código)
 
 ### Código para...
+(aquí pegar el código)
 
 
 
 
 ## 🔍 Pruebas y resultados
 
+(Subir imágenes y explicar que está pasando en la foto)
+
+1. Impresiones.
+2. Código.
+3. Animaciones.
+4. Pruebas del sesnor de color.
 
 
 ## Referentes 
@@ -122,5 +149,4 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 2. Among us.
 3. Minions.
 
-
-
+![referentes](imagenes/referentes_taller.jpg)
