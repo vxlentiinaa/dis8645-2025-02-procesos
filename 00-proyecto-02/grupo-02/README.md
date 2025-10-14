@@ -95,9 +95,9 @@ Como la pantalla TFT circular funciona con 3.3V y arduino funciona con una lógi
 
 Esquema: (el de la pizarra)
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
 
-<!-- ![Pantalla TFT](imagenes/pantalla_circular.jpg) -->
+
+![Pantalla TFT](imagenes/pantalla_circular.jpg)
 
 ### Conexión del parlante con el reproductor MP3
 
@@ -113,9 +113,9 @@ Se crearon audios con inteligencia artificial, que reaccionan al color de cada c
 | Cable negro del parlante          | SPK_2            | Salida de audio (-)                                             |
 | Insertar tarjeta con archivos     | MicroSD          | Almacenamiento de audio                                         |
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
 
-<!-- ![MP3](imagenes/modulo_mp3.jpg) -->
+
+![MP3](imagenes/modulo_mp3.jpg) 
 
 ## 🛠️ Explicación del código
 
@@ -127,7 +127,7 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 
 FALTA LA IMAGEN ASI QUE LA COMENTE
 
-<!-- ![MP3](imagenes/sesor_de_color.jpg) -->
+![sensor de color](imagenes/sesor_de_color.jpg)
 
 ### Código para reproducción del audio
 
@@ -152,10 +152,4 @@ FALTA LA IMAGEN ASI QUE LA COMENTE
 
 ## Referentes
 
-1. Mike Wasowski.
-2. Among us.
-3. Minions.
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
-
-<!-- ![referentes](imagenes/referentes_taller.jpg) -->
