@@ -1,25 +1,28 @@
-#ifndef SENSOR_ENCODER_H
-#define SENSOR_ENCODER_H
+#ifndef SENSORENCODER_H
+#define SENSORENCODER_H
 
 #include <Arduino.h>
 
 class SensorEncoder {
-public:
-  // constructor
-  SensorEncoder();
-  // destructor
-  ~SensorEncoder();
+  public:
+    SensorEncoder();
+    ~SensorEncoder();
 
-  void configurar();
-  int tomarDecisiones();
+    void configurar();
+    int tomarDecisiones();
 
-  int patitaClock = 2;
-  int patitaData = 3;
-  int patitaSwitch = 4;
-  int clockAnterior = LOW;
-  int clockActual;
-  bool botonVolver = false;
-  int opcionMenu = 0;
+    int leerMovimiento();      
+    bool botonPresionado();    
+
+    // Variables estáticas o pines
+    static const int patitaClock = 2;
+    static const int patitaData = 3;
+    static const int patitaSwitch = 4;
+
+  private:
+    int clockActual = 0;
+    int clockAnterior = 0;
+    int opcionMenu = 0;
 };
 
 #endif

@@ -11,31 +11,16 @@ void SensorEncoder::configurar() {
   pinMode(SensorEncoder::patitaSwitch, INPUT);
 }
 
-
 int SensorEncoder::tomarDecisiones() {
   SensorEncoder::clockActual = digitalRead(SensorEncoder::patitaClock);
 
   if (SensorEncoder::clockActual != SensorEncoder::clockAnterior && SensorEncoder::clockActual == HIGH) {
     if (digitalRead(SensorEncoder::patitaData) != SensorEncoder::clockActual) {
+      // Aquí se puede aumentar o disminuir el menú
     }
   }
 
   int nuevaOpcion = 0;
-
-  // if (currentCLK != lastCLK && currentCLK == HIGH) {
-  //   if (digitalRead(PIN_DT) != currentCLK) {
-  //     SensorEncoder::opcionMenu++;
-
-  //   } else {
-  //      SensorEncoder::opcionMenu--;
-  //   }
-  //   if (SensorEncoder::opcionMenu >= totalIdiomas) {
-  //     SensorEncoder::opcionMenu = 0;
-  //   }
-  //   if (SensorEncoder::opcionMenu < 0) {
-  //     SensorEncoder::opcionMenu = totalIdiomas - 1;
-  //   }
-  // }
 
   // actualizar clock
   SensorEncoder::clockAnterior = SensorEncoder::clockActual;
@@ -47,4 +32,15 @@ int SensorEncoder::tomarDecisiones() {
   }
 
   return nuevaOpcion;
+}
+
+// Esta función devuelve el movimiento del encoder
+int SensorEncoder::leerMovimiento() {
+  return tomarDecisiones();
+}
+
+// Esta función detecta si el botón del encoder fue presionado
+bool SensorEncoder::botonPresionado() {
+  // El switch del encoder es activo en LOW (presionado)
+  return (digitalRead(SensorEncoder::patitaSwitch) == LOW);
 }
