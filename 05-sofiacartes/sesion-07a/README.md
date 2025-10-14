@@ -87,7 +87,7 @@ Definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
 - Sensor de proximidad que me llame a utilizarlo.
 - Según la proximidad de la persona, te salude pero de distinto volumen.
 
-## Encargo 13
+## Encargo 12
 
 Buscar 2 referentes asociados al proyecto: Lenguaje natural (personas), código, materialidad, documentación.
 Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
