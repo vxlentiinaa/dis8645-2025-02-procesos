@@ -23,6 +23,7 @@ void setup() {
 void loop() {
 
   ultrasonico.medirDistancia();
+  ultrasonico.decidirCercania();
 
   Serial.println(ultrasonico.dondeEsta);
   

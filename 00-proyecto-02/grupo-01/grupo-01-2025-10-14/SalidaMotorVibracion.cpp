@@ -15,8 +15,8 @@ void SalidaMotorVibracion::configurar() {
   Serial.begin(9600);
 }
 
-// medición de distancia con sensor ultrasónico
-float SalidaMotorVibracion::medirDistancia() {
+// funcion para actualizar NO SE QUE
+void SalidaMotorVibracion::actualizar() {
   digitalWrite(SalidaMotorVibracion::TRIG_PIN, LOW);
   delayMicroseconds(2);
   digitalWrite(SalidaMotorVibracion::TRIG_PIN, HIGH);
@@ -26,35 +26,33 @@ float SalidaMotorVibracion::medirDistancia() {
   SalidaMotorVibracion::duracion = pulseIn(
     SalidaMotorVibracion::ECHO_PIN,
     HIGH);
-  SalidaMotorVibracion::distanciaCm = duracion * 0.0343 / 2;
-  return SalidaMotorVibracion::distanciaCm;
 }
 
 // actualiza la vibración según la distancia
-void SalidaMotorVibracion::actualizar() {
+void SalidaMotorVibracion::vibrar(int cuantoVibrar) {
 
-  float distancia = SalidaMotorVibracion::medirDistancia();
-
-  // if (distancia >= SalidaMotorVibracion::minCercana
-  //     && distancia <= SalidaMotorVibracion::maxCercana) {
-  //   SalidaMotorVibracion::intensidad = 0;  // No vibra
-  // } else if (distancia >= SalidaMotorVibracion::minMediana
-  //            && distancia <= maxMediana) {
-  //   SalidaMotorVibracion::intensidad = 255;  // Vibra mucho
-  // } else if (distancia >= SalidaMotorVibracion::minLejana
-  //            && distancia <= SalidaMotorVibracion::maxLejana) {
-  //   SalidaMotorVibracion::intensidad = 150;  // Vibra poco
-  // } else {
-  //   SalidaMotorVibracion::intensidad = 0;  // Fuera de rango, no vibra
-  // }
+  // si es cercana, el numero es 0
+  if (cuantoVibrar == 0) {
+    // No vibra
+    SalidaMotorVibracion::intensidad = 0;
+  }
+  // si es mediana, el numero es 1
+  else if (cuantoVibrar == 1) {
+    // vibra mucho
+    SalidaMotorVibracion::intensidad = 255;
+  }
+  // si es lejana, el numero es 2
+  else if (cuantoVibrar == 2) {
+    // Vibra poco
+    SalidaMotorVibracion::intensidad = 150;
+  }
+  // fuera de rango
+  else {
+    SalidaMotorVibracion::intensidad = 0;
+  }
 
   analogWrite(SalidaMotorVibracion::MOTOR_PIN,
               SalidaMotorVibracion::intensidad);
-
-  Serial.print("Distancia: ");
-  Serial.print(distancia);
-  Serial.print(" cm  |  Intensidad: ");
-  Serial.println(SalidaMotorVibracion::intensidad);
 
   delay(100);
 }

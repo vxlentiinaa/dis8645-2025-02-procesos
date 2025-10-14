@@ -12,20 +12,18 @@ public:
 
   // configura los pines
   void configurar();
-  // mide distancia y ajusta vibración
+  // no se aun
   void actualizar();
   // función auxiliar
-  float medirDistancia();
+  void vibrar(int cuantoVibrar);
 
   // pines
   int TRIG_PIN = 11;
   int ECHO_PIN = 12;
   int MOTOR_PIN = 9;
 
-
   // variables internas
   unsigned long duracion = 0;
-  float distanciaCm = 0;
   int intensidad = 0;
 };
 

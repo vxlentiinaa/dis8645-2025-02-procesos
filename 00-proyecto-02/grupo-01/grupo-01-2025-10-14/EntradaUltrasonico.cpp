@@ -25,9 +25,9 @@ float EntradaUltrasonico::medirDistancia() {
   EntradaUltrasonico::distanciaCm = int(float(EntradaUltrasonico::duracion) * 0.0343 / 2.0);
 
   // mostrar distancia medida en el monitor serial
-  Serial.print("Distancia: ");
-  Serial.print(distanciaCm);
-  Serial.println(" cm");
+  // Serial.print("Distancia: ");
+  // Serial.print(distanciaCm);
+  // Serial.println(" cm");
 
   return distanciaCm;
 }
