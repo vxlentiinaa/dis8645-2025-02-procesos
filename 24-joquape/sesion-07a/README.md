@@ -70,3 +70,48 @@ Mechatronics Store modulo reproductor mp3 $3990
 dudas/ataos:
 se parece mucho a lo que quiere hacer otro grupo
 no sabemos si se puede usar palabras con caracteres en otro idioma en la pantallita
+
+## Encargo 
+
+### Lenguaje natural
+
+**1. Text Clock Bilingual (Hackster.io)**
+Este proyecto muestra un reloj que muestra la hora en dos idiomas distintos, portugués e inglés. Me pareció interesante porque juega con el lenguaje visual y textual, y muestra cómo un dispositivo puede comunicarse en diferentes idiomas. Eso se conecta con nuestro proyecto porque también queremos que la máquina se exprese en más de un idioma, de una forma clara y sencilla.
+<https://www.hackster.io/lagsilva/text-clock-bilingual-en-pt-with-arduino-881a6e?utm_source>
+
+**Podcasts y lenguaje cercano**
+Me fijé en cómo los podcasts usan la voz para comunicarse con la audiencia, y en cómo estructuran sus mensajes para que sean claros y cercanos. Según estudios recientes sobre podcasts en español (Delgado, 2023; Ramírez, 2023), los creadores usan entonación, ritmo y un lenguaje simple para conectar mejor con las personas, explicando ideas de manera directa y entretenida. Esto me inspira para nuestro proyecto porque queremos que el saludo de la máquina sea más humano y fácil de entender, no solo técnico. La forma en que un podcaster saluda, invita o explica algo nos sirve como ejemplo de cómo podemos “presentar” nuestro dispositivo de manera atractiva y cercana.
+<https://ojs.ual.es/ojs/index.php/ORALIA/article/view/9963/8659>
+
+### Código
+
+**1. BasicOLEDMenu (GitHub)**
+Este repositorio tiene un ejemplo súper útil de cómo hacer un menú en pantalla OLED usando un encoder. Lo elegí porque está muy bien explicado y el código se entiende fácil, así que fue clave para entender cómo movernos entre opciones, como los idiomas de nuestro proyecto.
+<https://github.com/alanesq/BasicOLEDMenu>
+
+**2. Arduino OLED Encoder Menu (Project Hub)**
+Otro proyecto que me ayudó fue uno del sitio Arduino Project Hub, donde usan un encoder para moverse en un menú. Me gustó porque está bien ordenado, con imágenes, pasos y el código comentado. Sirve para ver cómo organizar la parte del menú y evitar errores al girar o presionar el encoder.
+<https://projecthub.arduino.cc/yilmazyurdakul/arduino-oled-encoder-simple-menu-system-e998b8>
+
+
+### Materialidad
+
+**1. Sound Sensor with Arduino**
+Este proyecto muestra cómo usar un sensor de sonido con Arduino, explicando bien las conexiones y cómo responde el sensor al ruido. Me gustó porque explica con ejemplos simples y eso me ayudó a pensar cómo el circuito puede reconocer un aplauso.
+<https://projecthub.arduino.cc/m_karim02/arduino-sound-sensor-module-sound-sensor-with-arduino-f5d6ef>
+
+**2. Arduino Sound Clap Detector**
+El tutorial oficial de Arduino sobre detectar aplausos es muy claro y directo. Lo tomé como referencia porque explica paso a paso cómo hacer que un aplauso active algo, justo lo que queremos hacer en nuestro proyecto para que empiece el saludo.
+<https://www.arduino.cc/en/Tutorial/ArduinoSoundClapDetector>
+
+
+### Documentación
+
+**1. Artículo de IOP Science (2018)**
+Leí un artículo académico sobre sistemas embebidos con Arduino. No lo tomé tanto por el contenido técnico, sino por cómo está escrito y organizado. Me sirvió para ver cómo se estructura una documentación formal, con objetivos, método y resultados, lo que puede ayudar a dejar más clara la presentación final del proyecto.
+<https://iopscience.iop.org/article/10.1088/1742-6596/970/1/012025/meta>
+
+**2. Formato de Arduino Project Hub**
+Me fijé también en cómo la gente presenta sus proyectos en Arduino Project Hub. Me gusta ese formato porque es visual, directo y fácil de leer. Tiene secciones claras para materiales, conexiones y código, algo que podríamos usar nosotros para presentar nuestro proyecto de forma más ordenada.
+<Arduino Project Hub](https://projecthub.arduino.cc/>
+
