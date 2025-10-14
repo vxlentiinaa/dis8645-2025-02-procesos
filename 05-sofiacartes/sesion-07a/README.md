@@ -123,4 +123,20 @@ Su proyecto trata de una máquina que tiene unos ojos que identifiquen y triangu
 - Las similitud es que ambas máquinas dependen de la cercanía e interacción de la distancia de la persona.
 - Se utiliza la voz y el sonido.
 - Ambas máquinas susurran.
+  
+2. [santiagoCliffotd](12-santiagoClifford/sesion-07a)
+
+Su proyecto trata sobre crear un robot "creepy", que genere sensación de incomodidad y de "sentirse observado" en los usuarios
+
+- inclusión en la salida de movimiento.
+- interacción mas directa con la persona.
+
+Personalmente encuentro ese proyecto similar en comparación a los otros. Cada uno de nosotros partimos con la base de realizar una máquina que salude, pero cada uno vio formas diferentes de hacerla y siento que solo hay partes muy pequeñas en común como:
+
+- outputs
+- intputs
+- sensores
+- cercanía de interacción con la persona.
+- que logre generar sentimientos en la presona.
+  
 
