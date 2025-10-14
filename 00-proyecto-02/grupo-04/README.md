@@ -25,7 +25,7 @@ Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta
 
 ***
 
-### Presentación textual de la propuesta
+## Presentación textual de la propuesta
 
 Nuestra máquina (nombre de la máquina) consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado de a una persona a la vez.
 Esta trabaja detectando la presencia de una persona a través de un “radar” compuesto por un [“sensor ultrasónico HC-SR04”]( https://www.alldatasheet.com/html-pdf/1132204/ETC2/HCSR04/110/1/HCSR04.html) y un [“servomotor SG90”](https://arduino.cl/producto/micro-servo-motor-sg90-9g/?srsltid=AfmBOopUK1FSSvEOeee794pcjIBccD8B2MQF36GlEjuMTAzqI4rHkSnN) que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
@@ -42,19 +42,19 @@ La primera pieza se compone de una imitación de un “cangrejo”, una réplica
 
 ***
 
-### Desarrollo
+## Desarrollo
 
 Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error.
 
 
 ***
 
-### Comentarios finales 
+## Comentarios finales 
 
 
 ***
 
-### Bibliografía 
+## Bibliografía 
 
 - https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/
 - https://web.archive.org/web/20240421145837/https://cursos.mcielectronics.cl/2023/06/28/como-utilizar-un-servo-motor-con-arduino/
@@ -71,6 +71,7 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
