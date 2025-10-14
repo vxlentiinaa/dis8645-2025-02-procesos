@@ -5,11 +5,11 @@ Viernes 17 Octubre 2025
 ***
 ## Grupo-04 "nombre del grupo" : Integrantes
 
-- [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001)
-- [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo)
-- [Jose Morales Berríos](https://github.com/jotamorales-romulus)
-- [Camila Parada Vasquez](https://github.com/Camila-Parada)
-- [Francisco Stephens González](https://github.com/FranUDP)
+- [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
+- [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
+- [Jose Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa)
+- [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación, registro visual)
+- [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código)
 
 ***
 ## Introducción
@@ -71,7 +71,49 @@ A partir de ello es que los estudios iniciales se centraron en replicar el mecan
 Ante ello se pudo concluir que es necesario un servomotor para poder hacer que el ojo abra y cierre, un segundo para poder mover el ojo en vertical y un tercero para el horizontal. Puesto que los servomotores requieren de una calibración para que las piezas funcionen es que comencé a revisar el código tipo INO que incluye el proyecto.
 Al no tener experiencia previa manejando este tipo de actuadores es que se hizo una investigación en profundidad sobre como se trabaja con dicha pieza clave, además de aprender sobre qué librerías son necesarias además de las conexiones con el Arduino.
 
-(…)
+Dentro de toda la información recopilada sobre los servomotores es que son actuadores de tipo motor que permiten controlar el posicionamiento físico de manera. Suelen poseer una “unidad de control” que cuenta con un circuito integrado (controlador), un motor de corriente continua, engranajes (plásticos o metálicos), un potenciómetro además de incluir piezas que ayudan a transmitir el movimiento (servo horns o cuernos). El controlador se encarga de comparar y ajustar la posición del motor a la indicada, mientras que el potenciómetro funciona como un sensor de retroalimentación que informa la posición actual. Para poder controlar este tipo de motor es necesario el enviarle una serie de pulsos eléctricos (descargas de alto voltaje de pulso rápido y corta duración), cuya longitud determina la posición del servomotor. Se pueden conectar a pines análogos o digitales, pero en esta ocasión sólo se hará uso de los pines digitales por cuestiones de tiempo.
+
+![imagen](./imagenes/servomotor-partes.png)
+
+-> Tutorial uso de servomotores con arduino. [Dibujo], por Naylamp Mechatronics, 2017, naylamp mechatronics (https://naylampmechatronics.com/blog/33_tutorial-uso-de-servomotores-con-arduino.html). CC BY-NC-SA 4.0
+
+Indagando por internet es que encontré multiples ejemplos (registrados en la [sesión 08a de Camila-Parada](https://github.com/Camila-Parada/dis8645-2025-02-procesos/tree/main/20-Camila-Parada/sesion-08a)), pero el código que mejor funcionó fue obtenido de la web [Arduino.cc](https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep/). Este mismo ejercicio forma parte de los ejemplos que trae el programa de arduino.
+
+
+``` cpp
+/* Sweep
+ by BARRAGAN <http://barraganstudio.com>
+ This example code is in the public domain.
+
+ modified 8 Nov 2013
+ by Scott Fitzgerald
+ https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+*/
+
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0;    // variable to store the servo position
+
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15 ms for the servo to reach the position
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15 ms for the servo to reach the position
+  }
+}
+
+```
 
 Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanismo simplificado que solo posea 1 servomotor es que me inspiré en este video.
 
@@ -123,6 +165,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
