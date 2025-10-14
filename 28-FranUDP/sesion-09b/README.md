@@ -66,13 +66,20 @@ sensor = s;
 ````
 </br>
 
-### ${\color{cyan}Después\ de\ clase...}$
+### ${\color{cyan}Después\ de\ clase...\ (Versión\ 1)}$
 
 Después, durante la tarde, en el LID, logré implementar la funcionalidad de comparar la medición antigua con la nueva para determinar si hubo movimiento. Sin embargo, noté que hay ${\color{#b0e6e6}ruido}$ en las mediciones; a veces la diferencia entre la medición original y la nueva es de más de 200 cm.
 
 Voy a intentar hacer que el ${\color{#b0e6e6}tiempo\ de\ espera}$ se aplique ${\color{#b0e6e6}después}$ de mover el servo y ${\color{#b0e6e6}antes}$ de volver a medir, para darle una superficie estable al sensor, ya que al sostenerlo en mi mano, evitando que el sensor se mueva mientras el servo era libre de rotar, resultó en mediciones consistentes.
 
-### El lunes
+### ${\color{cyan}El\ lunes\ (Versión\ 2)}$
 
-Al final implementé la función `ping_median(4, 50);` de la biblioteca NewPing, para tomar múltiples mediciones y sacar el promedio, para solucionar el problema de las falsas detecciónes.
+Al final implementé la función `ping_median(4, 50);` de la biblioteca NewPing, para tomar ${\color{#b0e6e6}múltiples\ mediciones\ y\ sacar\ el\ promedio}$, para solucionar el problema de las ${\color{#b0e6e6}falsas\ detecciones}$.
 
+También corregí la lógica de escaneo del radar, pues antes guardaba las mediciones realizadas durante el escaneo y la comparación, lo cual podría gatillar una falsa detección, debido a que si una persona pasó y fue detectada, luego al volver a escanear detectaría una persona donde ya no la hay.
+
+Esto lo hice haciendo que el guardado de los datos y la comparación dependan de para qué lado está yendo el servoRadar.
+
+También arreglé un bug, donde el servo al llegar al ángulo máximo cambiaba de dirección antes de medir, lo que ocasionaba una falsa detección al comparar la medición actual con una no existente.
+
+Esto lo hice cambiando el orden de operaciones, haciendo que mida la distancia antes de procesar la lógica de movimiento del servo.
