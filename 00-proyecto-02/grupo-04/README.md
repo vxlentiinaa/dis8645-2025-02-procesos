@@ -36,6 +36,8 @@ Cuando la persona se acerca a una distancia (x cm) del dispositivo el apéndice,
 
 Los ojos no dejan de funcionar en ningún momento, por lo que persiguen a la persona hasta que salga del rango de reconocimiento.
 
+Por el lado conceptual, la máquina posee una carcasa compuestas por un cangrejo (figura 1) y una concha marina (figura 2).
+
 
 ***
 
@@ -64,3 +66,4 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
