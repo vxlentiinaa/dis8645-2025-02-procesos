@@ -119,8 +119,6 @@ SCRATCH
 + GND - GND
 + VCC - 5V
 + SIG - A0
-  
-![sensor](./imagenes/sensor1.jpg)
 
 + Ocupé esta página: <https://www.murkyrobot.com/guias/sensores/ky-038> para mi primer acercamiento
 + Esta me sirvió para entender como conectarlo y como funciona.
@@ -156,10 +154,12 @@ SCRATCH
   Este código hizo que el led prendiera pero no estoy segura si funcionaba con el sonido ya que no podia dejar la sala en completo silencio.
 
   + Otra página útil: <https://cursos.mcielectronics.cl/2022/12/27/interfaz-del-sensor-de-sonido-con-arduino-y-dispositivos-de-control-con-una-palmada/>
-
+ 
+#### Encargo 11
+"investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar"
      ![diafragma](./imagenes/diafragma.gif)
 
-    + Otro sitio de referente: <https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/>
+ + Otro sitio de referente: <https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/>
 
 #### Tres ideas
 + **1- El guardia nocturno:** Con sensor de luz.

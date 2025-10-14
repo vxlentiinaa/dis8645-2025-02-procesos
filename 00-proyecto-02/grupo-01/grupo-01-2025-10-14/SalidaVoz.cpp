@@ -1,7 +1,6 @@
-#include "Arduino.h"
-#include "DFRobotDFPlayerMini.h"
+#include "SalidaVoz.h"
 
-#if (defined(ARDUINO_AVR_UNO) || defined(ESP8266))   // Para placas tipo UNO o ESP8266
+#if (defined(ARDUINO_AVR_UNO) || defined(ESP8266))   // para placas tipo UNO o ESP8266
 #include <SoftwareSerial.h>
 SoftwareSerial mp3Serial(4, 5); // RX, TX
 #define MP3_SERIAL mp3Serial
@@ -11,7 +10,7 @@ SoftwareSerial mp3Serial(4, 5); // RX, TX
 
 DFRobotDFPlayerMini mp3Player;
 
-// Inicializar el reproductor MP3
+// inicializar el reproductor MP3
 void configurarMP3() {
   MP3_SERIAL.begin(9600);
   Serial.println(F("Inicializando DFPlayer..."));
@@ -24,33 +23,35 @@ void configurarMP3() {
   }
 
   Serial.println(F("🎶 DFPlayer Mini listo."));
-  mp3Player.volume(25); // volumen 0–30
+  mp3Player.volume(30); // volumen 0–30
 }
 
-// Reproducir audio según distancia medida
+// reproducir audio según distancia medida
 void reproducirAudioPorDistancia(float distancia) {
   static int ultimoAudio = 0; // evita repetir el mismo audio constantemente
 
-  if (distancia >= 2 && distancia <= 18) {
-    // Rango corto: audios 3–8
-    int audio = random(3, 8); // random entre 3 y 8 (el límite superior no se incluye)
-    if (audio != ultimoAudio) {
-      mp3Player.play(audio);
-      Serial.print("Reproduciendo datos");
-      Serial.println(audio);
-      ultimoAudio = audio;
+// definir la distancia minima de 2 a 15 cm
+// definir distancia media de 70 a 90 cm
+// definir la distancia maxima de 130 a 150 cm
+// tiempo de reposo cuando no siente presencia 
+ if (distancia >= 2 && distancia <= 15) {
+    // rango largo: audio 1
+    if (ultimoAudio != 3) {
+      mp3Player.play(3);
+      Serial.println("Reproduciendo audio 3");
+      ultimoAudio = 3;
     }
   } 
-  else if (distancia >= 40 && distancia <= 60) {
-    // Rango medio: audio 2
+  else if (distancia >= 70 && distancia <= 90) {
+    // rango medio: audio 2
     if (ultimoAudio != 2) {
       mp3Player.play(2);
       Serial.println("Reproduciendo audio 2");
       ultimoAudio = 2;
     }
   } 
-  else if (distancia >= 80 && distancia <= 100) {
-    // Rango largo: audio 1
+  else if (distancia >= 130 && distancia <= 150) {
+    // rango largo: audio 1
     if (ultimoAudio != 1) {
       mp3Player.play(1);
       Serial.println("Reproduciendo audio 1");
