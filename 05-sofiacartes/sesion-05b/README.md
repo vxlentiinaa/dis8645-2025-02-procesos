@@ -153,9 +153,14 @@ Disco escuchado:
 
 #### Primus - Suck On This 1989
 
+![albumPrimus](./imagenes/albumPrimus.png)
+
 Es un debut discográfico atipico, que tiene la escencia muy energética. Su estilo musical es una mezcla entre funk metal, metal alternativo y rock experimental. Sus sonidos se definen por sus beats complejos.
 Este álbum les proporcionó el capital para grabar su primer disco de estudio.
 
+Los gritos de la audiencia, la energía tangible del público que sabe que está presenciando algo único.
+
+Información sacada de: 
 
 <https://es.wikipedia.org/wiki/Primus>
 
