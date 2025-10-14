@@ -246,7 +246,7 @@ El sensor ultrasónico se conecta a los siguientes pines:
 - GND
 - VCC
   
-### Altavoz
+#### Altavoz
 
 Este es el código que encontró Janis y Mateo para el reproductor MP3 y lo mandaron por el discor de taller para que lo utilizaramos y modificaramos.
 
@@ -316,9 +316,7 @@ void reproducirAudioPorDistancia(float distancia) {
 }
 ```
 
-#### Servomotor
-
-### Motor DC / Motor de vibración
+#### Motor DC / Motor de vibración
 
 Este es el código cpp, pero todavía no sabemos si funciona 
 
@@ -422,7 +420,7 @@ private:
 #endif
 ```
 
-### Servomotor
+#### Servomotor
 
 Este ejemplo de código lo sacó Vania de Gemini Ai
 
