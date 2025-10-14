@@ -22,14 +22,6 @@ public:
   int ECHO_PIN = 12;
   int MOTOR_PIN = 9;
 
-  // rangos de distancia (en cm)
-  float minCercana = 2;
-  float maxCercana = 15;
-
-  float minMediana = 70;
-  float maxMediana = 90;
-  float minLejana = 130;
-  float maxLejana = 150;
 
   // variables internas
   unsigned long duracion = 0;

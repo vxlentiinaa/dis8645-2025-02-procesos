@@ -17,6 +17,8 @@ public:
 
   void mostrarConsola();
 
+  void decidirCercania();
+
   // pin digital 11 para el Trigger del sensor
   int patitaTrigger = 11;
 
@@ -27,7 +29,19 @@ public:
 
   int distanciaCm;
 
-  bool estaCerca = false;
+  // rangos de distancia (en cm)
+  float minCercana = 2;
+  float maxCercana = 15;
+
+  float minMediana = 70;
+  float maxMediana = 90;
+  float minLejana = 130;
+  float maxLejana = 150;
+
+  // 0 esta cercano
+  // 1 esta mediano
+  // 2 esta lejano
+  int dondeEsta = 0;
 };
 
 #endif

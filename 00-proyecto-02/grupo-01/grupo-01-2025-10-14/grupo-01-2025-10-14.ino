@@ -24,9 +24,14 @@ void loop() {
 
   ultrasonico.medirDistancia();
 
-  if (ultrasonico.estaCerca) {
+  Serial.println(ultrasonico.dondeEsta);
+  
+  // si esta cerca, levantar dedo
+  if (ultrasonico.dondeEsta == 0) {
     dedo.levantar();
-  } else {
+  }
+  // si esta mediano o lejano, bajar
+  else {
     dedo.bajar();
   }
 
