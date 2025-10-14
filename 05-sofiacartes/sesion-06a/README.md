@@ -110,3 +110,53 @@ Después,el pin ECHO cambia a Alto por un tiempo igual al que demoró la onda, d
 1. Al acercarse a distintas distancias haga sonidos distintos mediante un parlante, así poder jugar/crear distintas melodías.
 2. Al detectar a alguien cerca se activa un motor y abre algo.
 3. Que detecte a una persona en algun espacio y si no tiene presencia de nadie que se apaguen las luces.
+   
+## Encargo 11
+
+Investigar sensores vistos en clases, cotizarlos, encontrar referentes que los usen, y describir 3 pequeñas ideas que podamos aplicar a su proyecto-02 de máquinas de saludar.
+
+### Sensor de Temperatura y Humedad DHT11
+
+![SensorDHT11.](./imagenes/SensorDHT11.png)
+
+El DHT11 es un sensor de temperatura y humedad digital de bajo costo.  Tiene un sensor capacitivo de humedad y un termistor para poder medir el aire que rodea el espacio y muestra los datos mediante una señal digital en el pin de datos.
+
+- No tiene pines de entrada analógica.
+- Tiene un rango de temperatura de 0° a 50°.
+
+`Idea de saludo`
+
+Si alguien entra a la sala o algún espacio cerrado, el dispositivo se activa y exclama: "¡Alarma de Ser Vivo! Te vi con mis ojos infrarrojos. ¡Quédate quieto!" Si el lugar queda vacío, cambia a un estado existencialista: "Me he quedado solo :("
+
+### Sensor Color RGB TCS3472
+
+![SensorTCS3472](./imagenes/SensorTCS3472.png)
+
+Sensor de color que mide RGB y luz total. Puede ser utilizado por microcontroladores o micro-computadores, para obtener los valores RGB del color de un objeto o luz frente al sensor.
+
+Se conecta por I2C, tiene filtro IR, LED propio y permite ajustar medición y ganancia; detecta colores con alta precisión, incluso a través de vidrios.
+
+Este sensor es un integrado completo que realiza un tratamiento digital de la medición de color
+
+- Proporcionando los valores RGB y Clear
+- Medición total sin filtrar
+- Posee un filtro de infrarrojos, lo que mejora su precisión ante el ruido del entorno.
+- Incorpora LED SMD de Luz Blanca y Filtro de Bloqueo IR.
+  
+`Idea de saludo`
+
+Trata sobre si acercas alguún color  este parpadee con el color respectivo y que el parpadeo sea un hola en morse.
+
+### Sensor de distancia por ToF VL53L0X
+
+![SensorToF](./imagenes/SensorToF.png)
+
+El sensor de distancia por tiempo de vuelo es similar al de los sensores ultrasonido. Tiene un emisor laser que cada cierto tiempo emite un haz de luz, al encontrarse con un objeto la luz es reflejada, el sensor se encarga de medir el tiempo entre la emisión y la detección de la luz.
+
+`Idea de saludo`
+
+Si estás a más de metro y medio, la pantalla mostrará "zzz, No veo nada aqui!", como si estuviera dormido.
+
+Al cruzar el umbral (a un metro, por ejemplo), se despierta con un salto "¡Hay algo! ¿Quién anda ahi?"
+
+Finalmente, solo si te pegas a él, te da la bienvenida "¡Llegaste al fin! ¡HOLA!"

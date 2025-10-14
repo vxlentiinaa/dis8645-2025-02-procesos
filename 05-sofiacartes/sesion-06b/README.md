@@ -74,8 +74,6 @@ Sensor de proximidad
 
 Idea 1
 
-DEFINIR TIEMPO  Y VELOCIDAD
-
 Paso 1: hacer un código.
 
 Paso 2: definir que a un metro de distancia emita el código morse
@@ -90,13 +88,11 @@ Paso 5: probar la distancia y la sensibilidad.
 
 Idea 2
 
-DEFINIR TIEMPO  Y VELOCIDAD
-
 Paso 1: hacer un código.
 
 Paso 2: definir que la cercanía de 30 cm. apróx.
 
-Paso 3: definir que al tener esta distancia que se bara la cajita.
+Paso 3: definir que al tener esta distancia que se abra la cajita.
 
 Paso 4: tener una cajita y colocarle el motor en una parte cómoda para que se abra la tapa.
 
@@ -108,9 +104,18 @@ paso 6: dibujar, crear un objeto/monito que diga "hola" mediante una gráfica.
 
 Idea 3
 
-DEFINIR TIEMPO  Y VELOCIDAD
-
 Paso 1: hacer un código. 
 
-Paso 2: definir que al pasar la mano cerca delo sensor
+Paso 2: definir que al pasar la mano cerca delo sensor.
+
+Paso 3: definir que al tener esta distancia debe estar la mano.
+
+Paso 4: conectar la pantalla oled. 
+
+Paso 5: programar la pantalla para que diga hola.
+
+Paso 6: La pantalla oled te dará la bienvenida y un hola.
+
+
+Como retroalimentación en clases hay  que definir los tiempos y velocidades.
 
