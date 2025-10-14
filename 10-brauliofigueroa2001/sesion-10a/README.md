@@ -9,3 +9,8 @@
 - en un comienzo los corté con recortadores de audio online pero misaaa me dijo que evitara utilizarlos porque podían hacer perder la calidad de los audios por lo cuál me recomendó usar el software Audacity
 - juntar todos los códigos que usamos en el proceso del sensor mp3, incluir los míos, los del jota
 - juntar todos los códigos de todos los sensores
+
+
+
+
+- se comenzó investigando el módulo dfplayer mini 
