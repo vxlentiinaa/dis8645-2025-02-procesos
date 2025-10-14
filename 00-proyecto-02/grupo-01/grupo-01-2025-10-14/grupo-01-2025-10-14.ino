@@ -23,13 +23,22 @@ void setup() {
 void loop() {
 
   ultrasonico.medirDistancia();
+  ultrasonico.decidirCercania();
 
-  if (ultrasonico.estaCerca) {
+  Serial.println(ultrasonico.dondeEsta);
+  
+  // si esta cerca, levantar dedo
+  if (ultrasonico.dondeEsta == 0) {
     dedo.levantar();
-  } else {
+  }
+  // si esta mediano o lejano, bajar
+  else {
     dedo.bajar();
   }
 
-  // pausa para estabilidad
+  // pausa para estabilidad DE QUE???
   delay(pausa);
+
+  // vibrar segun ultrasonico
+  motor.vibrar(ultrasonico.dondeEsta);
 }
