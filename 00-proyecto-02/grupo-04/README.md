@@ -40,13 +40,13 @@ Los ojos no dejan de funcionar en ningún momento, por lo que persiguen al usuar
 
 Por el lado conceptual y figurativo, la máquina posee una carcasa compuestas por un "cangrejo" (figura 1) y una "concha marina" (figura 2).
 
-La primera pieza se compone de una imitación de un “cangrejo”, una réplica de una criatura asociada con la costa por su presencia en dicho sector a lo largo de todo Chile. La segunda parte se compone de una “concha de mar”, un objeto común de encontrar en las playas y que posee el mito de permitir a las personas escuchar sonidos semejantes al oleaje del mar y viento de las costas ( efecto conocido como [Resonancia de las conchas de Gastrópodos](https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos)).
+La primera pieza se compone de una imitación de un “cangrejo”, una réplica de una criatura asociada con la costa por su presencia en dicho sector a lo largo de todo Chile. La segunda parte se compone de una “concha de mar”, un objeto común de encontrar en las playas y que posee el mito de permitir a las personas escuchar sonidos semejantes al oleaje del mar y viento de las costas (efecto conocido como [Resonancia de las conchas de Gastrópodos](https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos)).
 
 ***
 
 ## Desarrollo
 
-Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error.
+Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error que fueron registrados de forma independiente en las bitácoras desde la clase “07a” hasta la fecha de entrega.
 
 ###  1) sensor ultrasónico HC-SR04
 
@@ -54,7 +54,15 @@ Parte a recopilar, Info de fran
 
 ### 2) Servomotor SG90
 
-Para poder montar un mecanísmo simplificado que solo posea 1 servomotor es que me inspiré en este video.
+En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago Gaete]( https://github.com/santiagoClifford)).
+
+[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/Ftt9e8xnKE4/mqdefault.jpg)](https://www.youtube.com/watch?v=Ftt9e8xnKE4)
+
+-> Will Cogley (5 nov 2019). Cómo construir un sencillo mecanismo de ojo animatrónico Arduino impreso en 3D. Youtube. https://www.youtube.com/watch?v=Ftt9e8xnKE4
+
+A partir de ello es que los estudios iniciales se centraron en replicar el mecanismo, entendiendo su construcción, las formas modeladas para cada pieza y la aplicación de los “motores servo” para su funcionamiento. Para ello obtuve un tutorial en [“Autodesk instructables”]( https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/)
+
+Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que decidí simplificar lo más posible y buscar un referente más cercano a lo que quería conseguir (movimiento ocular horizontal). Para poder montar un mecanísmo simplificado que solo posea 1 servomotor es que me inspiré en este video.
 
 [![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/5X0v0MOrQiI/mqdefault.jpg)](https://www.youtube.com/watch?v=5X0v0MOrQiI)
 
@@ -62,15 +70,20 @@ Para poder montar un mecanísmo simplificado que solo posea 1 servomotor es que 
 
 Dado que no pude encontrar los planos es que comencé armando un prototipo simple con lo que tenía a mano: utilizando unas piezas impresas a modo de ojos, el servomotor, tornillos, alambre de 22 y unas piezas personalizadas modeladas para utilizarlas en el servomotor.
 
-
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
 Parte a recopilar, Info de jota y brau
 
-###  4) Modelado 3D 
+###  4) Modelado 3D, desarrollo de carcasa y ensamblado
 
 Parte a recopilar, Info de jota y berni
 
+
+***
+
+## Producto final
+
+Texto texto texto
 
 ***
 
@@ -97,6 +110,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
