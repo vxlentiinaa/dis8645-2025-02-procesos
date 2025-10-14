@@ -13,4 +13,9 @@
 
 
 
-- se comenzó investigando el módulo dfplayer mini 
+- se comenzó investigando el módulo dfplayer mini , investigaciones de cada uno las dejamos para después
+
+- si el sensor detecta que hay algo esta cerca activa mp3, dps de que  se activa, espera que la persona se vaya y después vuelve a escanear
+
+
+- queremos que el sensor ultrasónico reconozca a cierta distancia (definir?) que debe conectarse al módulo dfplayer mini mp3 para que este comience a reproducir audios de forma aleatoria
