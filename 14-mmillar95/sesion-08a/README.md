@@ -50,3 +50,6 @@ Luego se siguió por la cabeza del robot impresa en 3D, viendo si calza con los 
 ![Modelado02](./imagenes/Modelado02.png)
 
 Para la presentación física del proyecto como equipo pensamos en realizar un robot el que contara el dato random. Debido a la cantidad de componentes, lo más adecuado para poder llevarlo a cabo sería realizar el robot sobre una caja que tendrá el Arduino por temas de tamaño y estabilidad.
+
+## Encargo 16
+Cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a.
