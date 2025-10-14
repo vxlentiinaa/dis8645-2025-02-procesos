@@ -89,6 +89,8 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 | D8      | OUT                              | Envía la señal de frecuencia correspondiente al color detectado |
 | GND     | OE                               | Habilita la salida (activo en LOW) |
 
+![sensor de color](imagenes/sensor_de_color.jpg)
+
 ### Conexión de la pantalla
 
 Como la pantalla TFT circular funciona con 3.3V y arduino funciona con una lógica de 5V, se tuvo que utilizar un conversor lógico de voltaje, que modifica la corriente electrica del arduino y de la pantalla para que esta pueda funcionar bien y no se queme por tema de voltaje.
@@ -125,10 +127,6 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 
 (aquí pegar el código)
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
-
-![sensor de color](imagenes/sesor_de_color.jpg)
-
 ### Código para reproducción del audio
 
 (aquí pegar el código)
@@ -151,5 +149,6 @@ FALTA LA IMAGEN ASI QUE LA COMENTE
 4. Pruebas del sesnor de color.
 
 ## Referentes
+
 
 
