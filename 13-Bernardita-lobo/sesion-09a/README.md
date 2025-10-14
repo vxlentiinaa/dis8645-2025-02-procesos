@@ -26,7 +26,7 @@ En clase, Misa me dijo que primero entendiera cómo hacer funcionar un botón, a
 
 > [Ejemplo de botón](https://docs.arduino.cc/built-in-examples/digital/Button/)
 
-```cpp
+```text
 /*
   Button
 
