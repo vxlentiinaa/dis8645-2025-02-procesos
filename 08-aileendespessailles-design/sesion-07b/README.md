@@ -60,7 +60,7 @@ Instalar la Adafruit_BMP280biblioteca para el sensor BMP280.
 
 Estas bibliotecas se pueden instalar a través del Administrador de bibliotecas de Arduino IDE.
 
-- Sensor hultrasonico: 
+- Sensor ultrasónico: 
 <https://wokwi.com/projects/304444938977804866>
 <https://docs.wokwi.com/parts/wokwi-hc-sr04>
 Alambrado 
