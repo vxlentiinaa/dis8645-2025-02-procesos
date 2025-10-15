@@ -157,6 +157,10 @@ El servomotor actúa como un radar, moviéndose de un lado a otro. En cada paso,
 
 La investigación comenzó intentando entender el cómo se conectaba el módulo mp3 dfplayer mini al arduino, busqué información en la página de los creadores del módulo [dfplayermini](https://wiki.dfrobot.com/dfplayer_mini_sku_dfr0299), aquí aparece información sobre el módulo e incluye una foto del pinout sobre cómo conectarlo
 
+![imagen](./imagenes/dfplayer-pinout.png)
+
+Mientras conectaba el pinout recibí ayuda del [grupo01](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-proyecto-02/grupo-01) ya que ellas también estaban trabajando con el mismo módulo mp3 dfplayer mini por lo cuál ayudaron a entender la conexión de este mismo al arduino. De las conexiones que se muestran en el pinout, utilicé la de VCC, GND, SPK 1 (+), SPK 2 (-), y RX y TX respectivamente, las personas del grupo 1 conectaron los pines RX a TX del arduino y TX a RX del arduino por lo cuál lo conecté de la misma forma
+
 
 
 
@@ -199,6 +203,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
