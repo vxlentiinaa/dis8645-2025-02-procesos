@@ -114,7 +114,7 @@ Cada persona del grupo debe subir a su README: documentar funcionamiento de sus 
 
 ### Encargo 14
 
-colocar imágen
+![diagrama7b](./imagenes/diagrama7b.png)
 
 ### Encargo 15
 
