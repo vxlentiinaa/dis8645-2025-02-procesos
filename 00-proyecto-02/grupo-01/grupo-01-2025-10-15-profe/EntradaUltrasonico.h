@@ -42,6 +42,11 @@ public:
   // 1 esta mediano
   // 2 esta lejano
   int dondeEsta = 0;
+  // inicializar en valor -1
+  // porque -1 no es un valor correcto
+  int dondeEstaAnterior = -1;
+
+  bool cambioEstado = false;
 };
 
 #endif

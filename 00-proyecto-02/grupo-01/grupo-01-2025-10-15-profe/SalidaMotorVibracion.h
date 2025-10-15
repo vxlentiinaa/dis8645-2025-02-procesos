@@ -25,6 +25,7 @@ public:
   // variables internas
   unsigned long duracion = 0;
   int intensidad = 0;
+
 };
 
 #endif

@@ -33,17 +33,30 @@ float EntradaUltrasonico::medirDistancia() {
 }
 
 void EntradaUltrasonico::decidirCercania() {
+  
+  // guardar valor de dondeEsta en el anterior
+  EntradaUltrasonico::dondeEstaAnterior = EntradaUltrasonico::dondeEsta;
 
+  // calcular nuevo estado de dondeEsta
   if (EntradaUltrasonico::distanciaCm >= EntradaUltrasonico::minCercana
       && EntradaUltrasonico::distanciaCm <= EntradaUltrasonico::maxCercana) {
-    dondeEsta = 0;
+    EntradaUltrasonico::dondeEsta = 0;
   } else if (EntradaUltrasonico::distanciaCm >= EntradaUltrasonico::minMediana
              && EntradaUltrasonico::distanciaCm <= maxMediana) {
-    dondeEsta = 1;
+    EntradaUltrasonico::dondeEsta = 1;
   } else if (EntradaUltrasonico::distanciaCm >= EntradaUltrasonico::minLejana
              && EntradaUltrasonico::distanciaCm <= EntradaUltrasonico::maxLejana) {
-    dondeEsta = 2;
+    EntradaUltrasonico::dondeEsta = 2;
   } else {
-    dondeEsta = -1;
+    EntradaUltrasonico::dondeEsta = -1;
   }
+
+  // decidir si dondeEsta cambio o no
+  if (EntradaUltrasonico::dondeEsta == EntradaUltrasonico::dondeEstaAnterior) {
+  EntradaUltrasonico::cambioEstado = false;
+  } else {
+    EntradaUltrasonico::cambioEstado = true;
+  }
+
+
 }

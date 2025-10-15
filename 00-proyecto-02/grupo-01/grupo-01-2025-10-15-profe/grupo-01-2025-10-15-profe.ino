@@ -20,7 +20,7 @@ void setup() {
   dedo.configurar();
   motor.configurar();
 
-// inicializamos el reproductor
+  // inicializamos el reproductor
   configurarMP3();
 }
 
@@ -30,7 +30,7 @@ void loop() {
   ultrasonico.decidirCercania();
 
   Serial.println(ultrasonico.dondeEsta);
-  
+
   // si esta cerca, levantar dedo
   if (ultrasonico.dondeEsta == 0) {
     dedo.levantar();
@@ -41,30 +41,34 @@ void loop() {
   }
 
   // pausa para estabilidad DE QUE???
-  //delay(pausa);
+  // delay(pausa);
 
-  // vibrar segun ultrasonico
-  motor.vibrar(ultrasonico.dondeEsta);
+  // si ultrasonico cambia de estado
+  if (ultrasonico.cambioEstado) {
+    // vibrar segun estado ultrasonico
+    motor.vibrar(ultrasonico.dondeEsta);
+  }
 
-// reproducir los audios 
-// 1: lejano audio 1
-  //if (ultrasonico.dondeEsta == 1) {
-    //reproducirAudioDistancia(ultrasonico.distanciaCm);
- //   reproducirAudioDirecto(1);
- //   Serial.println("Reproduce audio 1 (Lejana)");
- // }
 
- // else if (ultrasonico.dondeEsta == 2) {
+  // reproducir los audios
+  // 1: lejano audio 1
+  // if (ultrasonico.dondeEsta == 1) {
+  // reproducirAudioDistancia(ultrasonico.distanciaCm);
+  //   reproducirAudioDirecto(1);
+  //   Serial.println("Reproduce audio 1 (Lejana)");
+  // }
+
+  // else if (ultrasonico.dondeEsta == 2) {
   //  reproducirAudioDirecto(2);
- //   Serial.println("Reproduce audio 2 (Mediana)");
- // }
+  //   Serial.println("Reproduce audio 2 (Mediana)");
+  // }
 
-  //else if (ultrasonico.dondeEsta == 0) {
- //   reproducirAudioDirecto(3);
- //   Serial.println("Reproduce audio 3 (Cercana)");
- // }
+  // else if (ultrasonico.dondeEsta == 0) {
+  //   reproducirAudioDirecto(3);
+  //   Serial.println("Reproduce audio 3 (Cercana)");
+  // }
 
- // delay(pausa);
+  // delay(pausa);
 
   if (ultrasonico.dondeEsta != estadoAnterior) {
     estadoAnterior = ultrasonico.dondeEsta;
@@ -72,17 +76,13 @@ void loop() {
     if (ultrasonico.dondeEsta == 1) {
       reproducirAudioDirecto(1);
       Serial.println("Audio 1 lejano");
-    }
-    else if (ultrasonico.dondeEsta == 2) {
+    } else if (ultrasonico.dondeEsta == 2) {
       reproducirAudioDirecto(2);
       Serial.println("Audio 2 mediana");
-    }
-    else if (ultrasonico.dondeEsta == 0) {
+    } else if (ultrasonico.dondeEsta == 0) {
       reproducirAudioDirecto(3);
       Serial.println("Audio 3 cercana");
     }
   }
   delay(100);
 }
-
-
