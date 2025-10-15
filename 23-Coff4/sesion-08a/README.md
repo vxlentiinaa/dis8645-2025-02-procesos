@@ -93,7 +93,10 @@ Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 Aquí diferentes ejemplos de lo que llegó a pasar con la pantalla:
 [![Prueba de ayuda](https://img.youtube.com/vi/bQ4co3Pamnk/hqdefault.jpg)](https://youtube.com/shorts/bQ4co3Pamnk)
 
-[![Segunda ayuda](https://img.youtube.com/vi/OnmafdRIA1Y/hqdefault.jpg)](https://youtube.com/shorts/OnmafdRIA1Y)
+[![Segundo Intento](https://img.youtube.com/vi/OnmafdRIA1Y/hqdefault.jpg)](https://youtube.com/shorts/OnmafdRIA1Y)
+
+(no se porque el segundo no se muestra con miniatura, pero esta subido en youtube como corresponde)
+
 
 Por otro lado, probamos diferentes cosas con la Aileen como lo es el servo motor:
 
