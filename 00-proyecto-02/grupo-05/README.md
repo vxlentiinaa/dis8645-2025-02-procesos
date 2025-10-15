@@ -25,11 +25,33 @@ En nuestro caso, los sensores serían un sensor de temperatura, humedad y presi�
 
 Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot; un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de temperatura; una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y dos servomotores, para que cometa el acto de saludar con el brazo.
 
-### Grandes descubrimientos en avances de código
+### Desarrollo
+
+Para poder programar a friolin de manera más fácil partimos con el desarrollo del pseudocódigo donde se separaron las funciones de cada sensor y actuador  en archivos .h y .cpp para que el archivo .ino quedará todo ordenado, se partió con la ideación de los parámetros de cada sensor sensor, para poder comenzar con la investigación exacta de que queríamos hacer.
+En este punto del pseudocódigo también se definieron las clases, donde, con la ayuda de Aarón Moraga pudimos definir cada una de las acciones que queríamos que se desarrollaran.
+
+(Las clases se hicieron en el archivo .cpp y los parámetros en .h)
+
+Luego de ver todos los parámetros nos separamos por investigación de sensor/actuador y por la persona que uniría todo en el código madre.
+
+### Avances de pseudocódigo
+
+#### Pseudocódigo V0
+
+En esta versión del pseudocodigo se hizo la separacion de tabs dentro del archivo, por el momento solo con archinos .ino
+
+![carpeta pseudocodigo](imagenes/pseudocodigoV0.png)
+
+#### Pseudocódigo V0_1_4
+
+Esta es la versión final del pseudocódigo, hay muchos errores y con la ayuda de Aaron Montoya Moraga empezamos a ordenar y resumir los archivos  llegando a la primera versión de codigoRobotFriolento.INO 
+
+#### codigoRobotFriolento_0_1_0
 
 
 
 ### Comentarios finales
+
 
 
 
