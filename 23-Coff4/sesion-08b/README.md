@@ -68,7 +68,7 @@ void loop() {
 Anteriormente el profe Misa me habia sugerido esta libreria pero con un example ya hecho en el propio Ino.
 Por lo tanto ya la tenía descargada.
 
-![Hola Mundo]()
+![Hola Mundo](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08b/imagenes/Hola%20Mundo.jpg)
 
 Y si hacemos que se mueva? Se supone que ya funciona correctamente, por lo tanto no habría problemas ¿verdad?
 
