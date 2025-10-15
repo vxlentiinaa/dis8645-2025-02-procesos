@@ -90,6 +90,9 @@ Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 
 Por otro lado, probamos diferentes cosas con la Aileen como lo es el servo motor:
 
+![Testeo de servomotor]()
+![Testeo de sensorUltrasonico]()
+
 (https://wokwi.com/projects/344891730528567891)
 
 Para la sesión del viernes pondre mis avances en cuanto a estructuras y ver si encuentro una solución.
