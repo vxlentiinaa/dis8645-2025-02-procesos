@@ -155,7 +155,7 @@ L --> N{¿se terminó de reproducir el audio?} -->|Sí| O(desactivar con un dela
 
 El servomotor actúa como un radar, moviéndose de un lado a otro. En cada paso, el sensor ultrasónico mide qué tan lejos están los objetos. Si el sensor detecta que algo está demasiado cerca, le envía una orden al módulo MP3 para que reproduzca un sonido. Mientras el sonido se reproduce, todo lo demás se detiene. Espera unos segundos y se reinicia.
 
-
+La investigación comenzó intentando entender el cómo se conectaba el módulo mp3 dfplayer mini al arduino, busqué información en la página de los creadores del módulo [dfplayermini](https://wiki.dfrobot.com/dfplayer_mini_sku_dfr0299), aquí aparece información sobre el módulo e incluye una foto del pinout sobre cómo conectarlo
 
 
 
@@ -199,5 +199,6 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
