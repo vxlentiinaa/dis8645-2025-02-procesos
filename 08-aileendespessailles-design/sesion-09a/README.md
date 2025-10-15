@@ -3,7 +3,7 @@
 - Codigo pantalla ejemplo carla:
 
 
-´´´cpp
+```cpp
 
 
 #include <Wire.h>
@@ -34,7 +34,7 @@ void setup() {
 void loop() {
   // nada
 }
-´´´
+```
 
 
 Junto con carla y sebastian, separamos este codigo en .cpp y .h (subidos al github 9a)
