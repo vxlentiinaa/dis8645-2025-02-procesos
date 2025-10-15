@@ -4,8 +4,8 @@
 
 Teloneo
 
-- ` ffmpeg`:Colección de software libre que puede grabar, convertir y hacer streaming de audio y vídeo.
-- ` mp4` : Para almacenar los formatos audiovisuales especificados por ISO/IEC.
+- `ffmpeg`:Colección de software libre que puede grabar, convertir y hacer streaming de audio y vídeo.
+- `mp4` : Para almacenar los formatos audiovisuales especificados por ISO/IEC.
 - `mp`: Solo el audio, tipo podcast.
 - `grep`: Permite buscar en texto.
 - `videogrep`: Buscar en videos.

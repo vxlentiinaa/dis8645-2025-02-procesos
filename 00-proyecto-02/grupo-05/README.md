@@ -3,7 +3,7 @@
 ## Grupo-05 "Waos" : Integrantes
 
 - [Morgan Aravena Arze](https://github.com/Mosswhosmoss)
-- [Aileen Guiselle D'espessailles Rojas](https://github.com/aileendespessailles-design)
+- [Aileen Guiselle D'Espessailles Rojas](https://github.com/aileendespessailles-design)
 - [Carla Andrea del Carmen Pino Barrios](https://github.com/Coff4)
 - [Sebastián Alejandro Sáez Olivares](https://github.com/SebastianSaez1003)
 
@@ -30,6 +30,7 @@ Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, q
 
 
 ### Comentarios finales
+
 
 
 

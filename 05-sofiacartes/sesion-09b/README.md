@@ -1,4 +1,4 @@
-# sesion-09b
+# sesion-09b 10/10
 
 ## Trabajo en clases
 
