@@ -74,6 +74,10 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ### Más procesos de códigos y fotografías en Github
 
+![diagramadf](./imagenesProyecto-02/diagramadf.jpg)
+
+![diagramadf](./imagenesProyecto-02/diagramadf2.jpg)
+
 ![imagenProceso1](./imagenesProyecto-02/imagenProceso1.jpg)
 
 ![imagenProceso2](./imagenesProyecto-02/imagenProceso2.jpg)
@@ -82,13 +86,13 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ![imagenProceso4](./imagenesProyecto-02/imagenProceso4.jpg)
 
-![imagenProceso5](./imagenesProyecto-02/imagenProceso5.jpg)
-
-![imagenProceso6](./imagenesProyecto-02/imagenProceso6.jpg)
-
 ![imagenProceso7](./imagenesProyecto-02/imagenProceso7.jpg)
 
-![imagenProceso8](./imagenesProyecto-02/imagenProceso8.jpg)
+![Esquematico](./imagenesProyecto-02/5.jpg)
+
+![imagenProceso](./imagenesProyecto-02/6.jpg)
+
+![imagenProceso](./imagenesProyecto-02/7.jpg)
 
 
 
@@ -104,6 +108,10 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ## Etapas de la carcasa 
 
+![imagenProceso](./imagenesProyecto-02/8.jpg)
+
+![imagenProceso8](./imagenesProyecto-02/imagenProceso8.jpg)
+
 ![procesoCarcasa1](./imagenesProyecto-02/procesoCarcasa1.jpg)
 
 ## Roles del equipo 
@@ -113,3 +121,4 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 ## Bibliografía
 
 ### Repositorios
+
