@@ -8,21 +8,23 @@ Subir las cosas al Github y actualizar para corregir las bitácoras.
 
 Ordenar códigos y hacer diagrama de flujo
 
-Al tener la carpeta con un .ino, dentro de esta va a estar cada estructura del código (.h / .cpp)
+- Al tener la carpeta principal con un `.ino`, dentro de esta va a estar cada estructura del código (.h / .cpp)
+  - Un archivo `.h` (declaraciones) significa que contiene las declaraciones de las funciones, clases y variables
+  - Mientras que el archivo .cpp (fuente) significa que contiene el código real, como el cuerpo de las funciones y variables
 
 ---
 
 ### Retroalimentación
 
-Configurar la manito del robot, es decir, cambiar el ángulo para que quede recto. (180°)
-
-Cambiar la distancia del sensor ultrasónico a 18 cm
-
-Nos dimos cuenta que el servomotor solo llega a 180°, así que lo dejamos así
+- Configurar la manito del robot, es decir, cambiar el ángulo para que quede recto. (180°) y no lo tomen como algo fascista jaja
+- Cambiar la distancia del sensor ultrasónico a 18 cm para que tenga mayor rango de medición
+- Nos dimos cuenta que el servomotor solo llega a 180°, así que lo dejamos así, la solución que encontramos fue colocar el brazo más adelante cuando esté en 0° así cuando se suba, llega preciso a los 180°
 
 `Archivo.ino que creó el profe para nosotras.`
 
-1. Parte incluyendo los archivos que creo, la entrada y salida
+El profe en esta clase, creó un archivo ordenado del código que teníamos nosotras, es decir que separó cada instancia en .cpp y .h para que las clases quedaran ordenadas, también ordenó los nombres de los archivos (como entradas y salidas)
+
+1. Parte incluyendo en el archivo principal, los archivos que creó, es decir,  la entrada y salidas. 
 2. Instancias: Programación orientada a objetos (existe una entrada tanto y salida tanto)
 3. setup: configurar entrada y salida (lo ordenó) la clase ultraosnico y clase dedo, no saben que existen entre si, los datos de como se configuran estan ocultos, uno en cada carpeta
 4. loop, lo hizo en orden, primero las cosas del sensor y luego del actuador
