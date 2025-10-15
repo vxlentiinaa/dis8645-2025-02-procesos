@@ -251,7 +251,7 @@ void setup() {
 void loop(void) {
 }
 ```
-![Testing Funcional](https://github.com/tograh/testrepository/master/3DTest.png)
+![Testing Funcional](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08b/imagenes/Funcional.jpg)
 
 ```cpp
 /*
@@ -309,7 +309,7 @@ En este caso cambié la imagen para mostrar otra, un poco más acorde a mis gust
 
 La imagen en cuestión: 
 
-![TV Time](https://github.com/tograh/testrepository/master/3DTest.png)
+![TV Time](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08b/imagenes/Tenna.jpg)
 
 ---
 
