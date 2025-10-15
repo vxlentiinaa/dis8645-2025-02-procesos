@@ -240,4 +240,4 @@ Nos explica que el motor DC no funciona directamente con arduino ya que el motor
 
 ![IMG_5429](./imagenes/IMG_5429.jpg)
 
-![imagenProcceso9](./imagenes/imagenProcceso9.JPG)
+![imagenProcceso9](./imagenes/imagenProceso9.JPG)
