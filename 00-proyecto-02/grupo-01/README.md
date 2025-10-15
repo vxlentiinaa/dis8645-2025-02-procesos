@@ -141,8 +141,8 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
   - **Yamna Carrión:** Aportó principalmente junto a Millaray en el diseño de la Carcasa del prototipo e igualmente hizo y revisó código.
   - **Millaray Millar:** Aporte principalo como diseñadora y reina del modelado de nuestro prototipo. Además investigó sobre el reproductor MP3 junto al Altavoz para poder hacerlo funcionar.
   - **Sofía Cartes:** Aporte principal de ordenar Github, Revisar, probar y hacer código.
-  - **Vania Paredes:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Githuib.
-  - **Valentina Ruz:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Githuib.
+  - **Vania Paredes:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
+  - **Valentina Ruz:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
 
 `Al final del dia todas complementamos en todos los roles <3`
 
@@ -168,6 +168,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 - AFEL. (s.f.). Módulo reproductor MP3 DFPlayer Mini. Recuperado de https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini
 
 ### Repositorios
+
 
 
 
