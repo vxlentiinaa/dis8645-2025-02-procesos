@@ -95,7 +95,7 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 
 Como la pantalla TFT circular funciona con 3.3V y el arduino funciona con una lógica de 5V, se tuvo que utilizar un **Level Shifter** o **Conversor lógico de voltaje**, que sirve para interconectar de forma segura dispositivos que operan con diferentes niveles de voltaje, y así evitar que se queme la pantalla.
 
-Esquema: (el de la pizarra)
+![sensor de color](imagenes/conexion_pantalla_tft.jpg)
 
 
 
@@ -153,6 +153,7 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 4. Pruebas del sesnor de color.
 
 ## Referentes
+
 
 
 
