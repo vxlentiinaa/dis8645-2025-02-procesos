@@ -4,6 +4,7 @@
 
 ## Apuntes
 
+- En esta clase trajimos a nuestro robot 2.0, un nuevo prototipo
 - Mis compañeras revisaron el tema de la caja y la vibración del robot
 - revisar la librería NewPing
 
@@ -55,6 +56,16 @@ void loop() {
   new_Ping.process();
 }
 ```
+
+Le pedimos ayuda a Aarón para que nos ayudara a ordenar el archivo que teníamos del código
+
+Al cambiar nuestro código ".ino" a clases en el sensor ultrasónico tuvimos un problema con esta parte del código:
+
+```cpp
+float EntradaUltrasonico::medirDistancia() {
+```
+
+Ya que estaba en void no en float, si está en void no nos dejaba "return" la distancia al final del código y necesitabamos eso para poder usar la distancia en otras partes del código.
 
 
 
