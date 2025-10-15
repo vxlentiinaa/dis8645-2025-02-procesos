@@ -68,6 +68,10 @@ Esquemático hecho por misa en clase.
 
 ![Esquematico](./imagenesProyecto-02/5.jpg)
 
+- Esquema mosfet-m: 
+
+![imagenProceso](./imagenesProyecto-02/mosfet-m.png)
+
 `Reacciones`
 
 1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor vibración Joystick la accíon de temblar aumentará entre más cerca estés.
@@ -92,11 +96,9 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ### Más procesos de códigos y fotografías en Github
 
-![imagenProceso1](./imagenesProyecto-02/imagenProceso1.jpg)
+![imagenProceso](./imagenesProyecto-02/RAMoncito.png)
 
 ![imagenProceso3](./imagenesProyecto-02/imagenProceso3.jpg)
-
-![imagenProceso7](./imagenesProyecto-02/imagenProceso7.jpg)
 
 ![imagenProceso](./imagenesProyecto-02/6.jpg)
 
@@ -106,7 +108,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ## Etapas del código
 
-Etapas de proceso de código arriba en files con fecha.
+`Etapas de proceso de código arriba en files con fecha.`
 
 ### 1. Inicialización  del hardware
 
@@ -136,13 +138,13 @@ Etapas de proceso de código arriba en files con fecha.
 
 ## Roles del equipo 
 
-  - Yamna Carrión: Aportó principalmente junto a Millaray en el diseño de la Carcasa del prototipo e igualmente hizo y revisó código.
-  - Millaray Millar: Aporte principalo como diseñadora y reina del modelado de nuestro prototipo. Además investigó sobre el reproductor MP3 junto al Altavoz para poder hacerlo funcionar.
-  - Sofía Cartes: Aporte principal de ordenar Github, Revisar, probar y hacer código.
-  - Vania Paredes: Aporte principal haciendo, revisando y probando código. Ayudar a ordenar Githuib.
-  - Valentina Ruz: Aporte principal haciendo, revisando y probando código. Ayudar a ordenar Githuib.
+  - **Yamna Carrión:** Aportó principalmente junto a Millaray en el diseño de la Carcasa del prototipo e igualmente hizo y revisó código.
+  - **Millaray Millar:** Aporte principalo como diseñadora y reina del modelado de nuestro prototipo. Además investigó sobre el reproductor MP3 junto al Altavoz para poder hacerlo funcionar.
+  - **Sofía Cartes:** Aporte principal de ordenar Github, Revisar, probar y hacer código.
+  - **Vania Paredes:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Githuib.
+  - **Valentina Ruz:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Githuib.
 
-Al final del dia todas complementamos en todos los roles <3
+`Al final del dia todas complementamos en todos los roles <3`
 
 ## Fotografías y videos del proyecto funcionando
 
@@ -166,5 +168,6 @@ Al final del dia todas complementamos en todos los roles <3
 - AFEL. (s.f.). Módulo reproductor MP3 DFPlayer Mini. Recuperado de https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini
 
 ### Repositorios
+
 
 
