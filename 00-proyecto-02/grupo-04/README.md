@@ -8,10 +8,11 @@ Viernes 17 Octubre 2025
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
 - [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
 - [Jose Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa)
-- [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación, registro visual)
+- [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación, registro visual, modelado mecanismo ocular)
 - [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código)
 
 ***
+
 ## Introducción
 
 Este proyecto se centra en desarrollar una "caja negra" que pueda "saludar".
@@ -143,6 +144,8 @@ Parte a recopilar, Info de jota y brau
 
 Parte a recopilar, Info de jota y berni
 
+![imagen](./imagenes/modelado-cangrejo-jota.jpg)
+
 
 ***
 
@@ -175,6 +178,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
+
 
 
 
