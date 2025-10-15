@@ -8,7 +8,7 @@ Martes 30 de septiembre, 2025
 
 - nos trajieron un sinte que funcionaba grabando audios y replicando en diferentes tonalidades
 
-### Avaces Proyecto 02
+### Avaces del Proyecto-02
 
 Tuvimos que reducir las interacciones y los sensores que queríamos agregar porque era muy complejo y teníamos poco tiempo para que todos lográramos entender en profundidad sus funcionamientos.
 
