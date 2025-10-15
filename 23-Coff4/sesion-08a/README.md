@@ -91,7 +91,8 @@ Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 Por otro lado, probamos diferentes cosas con la Aileen como lo es el servo motor:
 
 ![Testeo de servomotor]()
-![Testeo de sensorUltrasonico]()
+
+[![Prueba Ultrasonido](https://img.youtube.com/vi/ygDbRDc6Gz8/hqdefault.jpg)](https://youtube.com/shorts/ygDbRDc6Gz8?feature=share)
 
 (https://wokwi.com/projects/344891730528567891)
 
