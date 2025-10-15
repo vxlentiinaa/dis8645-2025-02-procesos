@@ -130,7 +130,7 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 ![imagen](./imagenes/prototipo-ojitos-alambre.gif)
 
--> Recurso personal
+![imagen](./imagenes/prototipo-ojitos-alambre-impresión-1.gif)
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
@@ -178,21 +178,3 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 ***
 
 °˖✧◝(; ^ ;)◜✧˖°
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
