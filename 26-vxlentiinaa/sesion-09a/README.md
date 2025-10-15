@@ -12,6 +12,8 @@ Ordenar códigos y hacer diagrama de flujo
   - Un archivo `.h` (declaraciones) significa que contiene las declaraciones de las funciones, clases y variables
   - Mientras que el archivo .cpp (fuente) significa que contiene el código real, como el cuerpo de las funciones y variables
 
+Dejé en files todos los códigos de prueba que hicimos, en el cual no están ordenados por fecha, ya que me confundí en guardar las carpetas y no les coloqué la fecha correspondiente 😞 Así que subí todo aquí de los códigos anteriores que hemos hecho 
+
 ---
 
 ### Retroalimentación
