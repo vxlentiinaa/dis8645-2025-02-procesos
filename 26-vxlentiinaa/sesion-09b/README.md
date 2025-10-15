@@ -4,6 +4,8 @@
 
 ## Apuntes
 
+Dejé en files archivos de prueba que hemos estado haciendo
+
 Comenzamos a buscar información sobre motor de vibración de un joystick que desarmé. Y analizar la morfología del robot para hacerle mejoras a este.
 
 También buscamos información sobre el motor de vibración de joystick y el zumbador que traje.
