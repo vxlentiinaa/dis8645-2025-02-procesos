@@ -90,7 +90,7 @@ Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 
 Por otro lado, probamos diferentes cosas con la Aileen como lo es el servo motor:
 
-![Testeo de servomotor]()
+![Testeo de servomotor](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08a/imagenes/pruebaUltrasonico.jpg)
 
 [![Prueba Ultrasonido](https://img.youtube.com/vi/ygDbRDc6Gz8/hqdefault.jpg)](https://youtube.com/shorts/ygDbRDc6Gz8?feature=share)
 
