@@ -91,9 +91,9 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 
 ![sensor de color](imagenes/sensor_de_color.jpg)
 
-### Conexión de la pantalla
+### ⚡️ Conexión de la pantalla
 
-Como la pantalla TFT circular funciona con 3.3V y arduino funciona con una lógica de 5V, se tuvo que utilizar un conversor lógico de voltaje, que modifica la corriente electrica del arduino y de la pantalla para que esta pueda funcionar bien y no se queme por tema de voltaje.
+Como la pantalla TFT circular funciona con 3.3V y el arduino funciona con una lógica de 5V, se tuvo que utilizar un **Level Shifter** o **Conversor lógico de voltaje**, que sirve para interconectar de forma segura dispositivos que operan con diferentes niveles de voltaje, y así evitar que se queme la pantalla.
 
 Esquema: (el de la pizarra)
 
@@ -101,9 +101,14 @@ Esquema: (el de la pizarra)
 
 ![Pantalla TFT](imagenes/pantalla_circular.jpg)
 
-### Conexión del parlante con el reproductor MP3
+### 🔊 Conexión del parlante con el reproductor MP3
 
 Se crearon audios con inteligencia artificial, que reaccionan al color de cada chicle y a la emoción correspondiente.
+
+- 🔴 Enojado ➜ (describir qué dice cada audio dependiendo de la emoción, con cada uno)
+- 🟠 Loco ➜ 
+- 🟢 Feliz ➜
+- 🔵 Triste ➜
 
 | Arduino                           | Reproductor MP3  | Función                                                         |
 |-----------------------------------|------------------|-----------------------------------------------------------------|
@@ -114,7 +119,6 @@ Se crearon audios con inteligencia artificial, que reaccionan al color de cada c
 | Cable rojo del parlante           | SPK_1            | Salida de audio (+)                                             |
 | Cable negro del parlante          | SPK_2            | Salida de audio (-)                                             |
 | Insertar tarjeta con archivos     | MicroSD          | Almacenamiento de audio                                         |
-
 
 
 ![MP3](imagenes/modulo_mp3.jpg) 
@@ -149,6 +153,7 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 4. Pruebas del sesnor de color.
 
 ## Referentes
+
 
 
 
