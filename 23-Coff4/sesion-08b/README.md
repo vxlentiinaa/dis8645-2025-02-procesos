@@ -68,7 +68,7 @@ void loop() {
 Anteriormente el profe Misa me habia sugerido esta libreria pero con un example ya hecho en el propio Ino.
 Por lo tanto ya la tenía descargada.
 
-![VideoTest](https://github.com/tograh/testrepository/master/3DTest.png)
+![Hola Mundo]()
 
 Y si hacemos que se mueva? Se supone que ya funciona correctamente, por lo tanto no habría problemas ¿verdad?
 
@@ -121,7 +121,7 @@ void loop() {
   delay(30);
 }
 ```
-![Movimiento](https://github.com/tograh/testrepository/master/3DTest.png)
+[![Movimiento](https://img.youtube.com/vi/zCfFTpQGll4/hqdefault.jpg)](https://youtube.com/shorts/zCfFTpQGll4?feature=share)
 
 Ok. Aquí deben ir mis conclusiones sobre esta pantalla:
 
