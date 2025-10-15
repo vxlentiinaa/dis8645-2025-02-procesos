@@ -26,7 +26,7 @@ El profe en esta clase, creó un archivo ordenado del código que teníamos noso
 
 1. Parte incluyendo en el archivo principal, los archivos que creó, es decir,  la entrada y salidas. 
 2. Instancias: Programación orientada a objetos (existe una entrada tanto y salida tanto)
-3. setup: configurar entrada y salida (lo ordenó) la clase ultraosnico y clase dedo, no saben que existen entre si, los datos de como se configuran estan ocultos, uno en cada carpeta
+3. setup: configuó entrada y salida (al final ordenó lo que teníamos). La clase `ultrasónico` y clase `dedo`, no saben que existen entre si, ya que están en distintos arhcivos; pero para que compilen entre sí se deben colocar ambos en la carpeta `.ino`; los datos de como se configuran estan ocultos, uno en cada carpeta.
 4. loop, lo hizo en orden, primero las cosas del sensor y luego del actuador
 5. ultrasonico esta cerca, dedo levanta... si no hay alguien cerca, dedo baja
 6. entradaUltrasonico.H : archivos H son formulas "ifndef" si es que no existe, "define" exista
