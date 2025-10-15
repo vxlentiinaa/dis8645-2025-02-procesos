@@ -57,6 +57,8 @@ void loop() {
 }
 ```
 
+---
+
 Le pedimos ayuda a Aarón para que nos ayudara a ordenar el archivo que teníamos del código
 
 Al cambiar nuestro código ".ino" a clases en el sensor ultrasónico tuvimos un problema con esta parte del código:
