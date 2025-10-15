@@ -78,6 +78,8 @@ void loop() {
 Pero hubo un problema que llegamos a ver con la Aileen. En la pantalla que se uso en el encargo anterior funciona todo correcto, pero
 en la pantalla que se nos dio para este nuevo proyecto... no da imagen (o al menos no del todo)
 
+![Prueba de Pantallas](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08a/imagenes/SiyNo.jpg)
+
 Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 
 (https://github.com/educ8s/Arduino-SSH1106-Examples/tree/main)
@@ -87,6 +89,11 @@ Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 (https://www.teachmemicro.com/1-3-i2c-oled-arduino-esp8266-tutorial/)
 
 (https://github.com/olikraus/U8glib_Arduino)
+
+Aquí diferentes ejemplos de lo que llegó a pasar con la pantalla:
+[![Prueba de ayuda](https://img.youtube.com/vi/bQ4co3Pamnk/hqdefault.jpg)](https://youtube.com/shorts/bQ4co3Pamnk)
+
+[![Segunda ayuda](https://img.youtube.com/vi/OnmafdRIA1Y/hqdefault.jpg)](https://youtube.com/shorts/OnmafdRIA1Y)
 
 Por otro lado, probamos diferentes cosas con la Aileen como lo es el servo motor:
 
