@@ -64,22 +64,126 @@ Después de varias pruebas e iteraciones decidimos cambiar la distancia mínima 
 - Necesitamos el altavos y el Modulo Reproductor MP3 DFPlayer Mini. Utilizamos el lado izquierdo del reproductor para conectar lo que necesitemos
 
 insertar imagen del modulo 
- 
-Entrada: Mediante el sensor ultrsónico la máquina detecta presencia y detalles de distancia de esta presencia (idealmente humana:P)
-Salida: Al detectar la distancia de la presencia la máquina reacciona de diferentes maneras:
-Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor DC el tembleque aumentará entre más cerca estés. 😋
+
+`Entrada:` Mediante el sensor ultrsónico la máquina detecta presencia y detalles de distancia de esta presencia
+
+`Salida:` Al detectar la distancia de la presencia la máquina reacciona de diferentes maneras:
+- Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor DC el tembleque aumentará entre más cerca estés. 😋
 
 El sensor detectará presencia en 3 instancias: 2 - 18cm, 40 - 60cm, 80 - 100cm
-En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
-Los parametros son:
-80 - 100cm = Te "grita" que vengas diciendo: "Hola humano ¿Por qué estás tan lejos? Acércate." ("hola1.mp3")
-40 - 60cm = Te grita de nuevo pidiendo que te acerque más, diciendo: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji" ("hola2.mp3")
-2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá el dato1, 2, 3, 4,5 o 6.mp3 como:
-dato1: "¿Sabías qué? El primer mause era de madera... Seguro también servía de leña jajaj"
-dato2: "¿Sabías qué? El error 404 es mi manera de hacerme el leso... jajaja"
-dato3: "¿Sabías qué? La nube no existe, son computadores de otro... pero no se lo digas a nadie"
-dato4: "¿Sabías qué? Los datos nunca se borran, solo se esconden... igual que tus calcetines"
-dato5: "¿Sabías qué? Apagar y prender arregla todo, y sino, un golpecito y como nuevo"
-dato6: "¿Sabías qué? El porcentaje exacto de 99,999999999999... Nah, inventé jajaja pero aún sigues aquí ¿no?" 🤓☝🏻
+
+- En cada parámetro la máquina reproduce un audio de voz distinto mediante la microSD en el reproductor MP3 y el altavoz.
+  - Los parametros son: 80 - 100cm = Te "grita" | 40 - 60cm = Te grita de nuevo pidiendo que te acerque más | 2 - 10cm = Levanta un "dedo" usando el servo motor, este se moverá de los 0 grados a los 180 mientras estés a esa distancia. Al mismo tiempo te dirá el dato
+ 
+---
+
+`ULTRASÓNICO`
+
+- Configurar
+- Medir distancia
+- Mostrar consola
+
+`DEDO`
+
+- Configurar
+- Levantar
+- Bajar
+
+`MOTOR VIBRACIÓN`
+
+- Configurar
+- Vibra
+- No vibra
+
+`VOZ`
+
+- Configurar
+- 3 instancias
+- Saluda
+- Te dice que te acerques
+- Cuenta datos curiosos
+
+---
 
 NO OLVIDAR --- el motor del joystick!!!!!!
+
+Cuando el sensor hace todo lo que debe hacer bool estaCerca=false;
+
+Le colocamos nombre a nuestro robot el cual es RAMón
+
+Ver como hacer que vibre el moto DC y ver como colocar el parlante en la carcasa
+
+---
+
+### Trabajo en clases
+
+Avanzamos en la unión de los códigos para ver como interactuaban entre sí, ya sea, los sensores y componentes. Uno de los problemas que vimos en esta clase fue que reproducía los audios de manera aleatoria y no consecutivamente. Además, los audios no los reproducía por completo.
+
+Por otra parte, ajustamos el volumen del audio del código, el ángulo que debe rotar el motor (dedo) que es 180° y la distancia para que levante la mano con el ultrasónico sea de 2 cm a 18 cm.
+
+Por otro lado, en la clase lo que hicimos fue: Probar nuestro código ya hecho con el prototipo impreso en 3D de RAMon; pero nos dimos cuenta que necesitabamos arreglar el tamaño para poder colocarle el altavoz dentro; jugamos con las distancias, el color, que queremos que tenga codo, etc. Luego comenzamos a editar el código con el que hicimos funcionar el altavoz con mp3 antes, para así añadir nuestros audios. (código en repositorio de [VaniaParedes](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/21-vaniaparedes/sesion-09a)
+
+Logramos que reproduciera los audios pero aún habían fallos; como por ejemplo: no decía bien los audios según la distancia; y al sentir presencia en la distancia mínima (2 to 18cm) decía los datos pero si te mantenías a esta distancia no dejaba de decir "Sabías qué, Sabias qué, Sabias qué", tenías que alejarte para que terminara de hablar.
+
+- Nos habían recomendado usar Booleanas para arreglar eso
+- Entonces con booleanas (estas variables que solo pueden ser true o false) para controlar el flujo lógico.
+  - Video de ayuda: ["Uso de lógica booleana con Arduino"](https://www.youtube.com/watch?v=Ger5LCtyhyo)
+ 
+`Booleana estudiada por Vania`
+
+```cpp
+bool presenciaActiva
+```
+
+Segun chatgpt: Sirve para detectar si ya habló con una presencia actual (alguien que está cerca), o sea, evita que diga otro audio mientras la persona sigue ahí.
+
+`¿Cómo se usa?:`
+
+- Cuando detecta presencia cercana por primera vez → presenciaActiva = true;
+- Mientras siga cerca, no hace nada.
+- Cuando se aleja → presenciaActiva = false; (así la próxima vez podrá hablar de nuevo).
+
+Esta booleana es para resolver el problema de que diga un solo audio cada vez que te acercas, y no se queda hablando infinitamente.
+
+```cpp
+if (distancia >= 2 && distancia <= 18) {
+  if (!presenciaActiva && !audioEnCurso) {
+    presenciaActiva = true;
+    audioEnCurso = true;
+    mp3Player.play(siguienteDato);
+  }
+}
+else {
+  presenciaActiva = false; // se alejó, puede volver a hablar después
+}
+```
+
+Por otro lado...
+
+```cpp
+bool audioEnCurso
+```
+
+Según Gemini: "Para implementar una "booleana en curso de audio" en Arduino, debes usar una variable de tipo bool para almacenar si un audio está reproduciéndose o no, combinando esta variable con lógica para activar o desactivar funcionalidades o estados dentro de tu programa, como controlar otros componentes o indicar un estado en el monitor serie."
+Su función es bloquear nuevas reproducciones mientras ya hay un audio sonando.
+
+Cómo se implementa:
+
+- Cuando empieza un audio → audioEnCurso = true;
+- Mientras el DFPlayer sigue reproduciendo (mp3Player.isPlaying() es verdadero), no se puede reproducir otro.
+- Cuando el DFPlayer termina de hablar, cambia de nuevo a false y el robot queda libre para hablar otra vez.
+
+```cpp
+if (audioEnCurso && mp3Player.isPlaying()) return;  
+// Esto significa: si ya hay audio en curso, sal del código y espera.
+```
+
+```cpp
+if (audioEnCurso && !mp3Player.isPlaying()) {
+  audioEnCurso = false; // ya terminó de hablar, libero el candado
+}
+```
+
+Así se evita que se interrumpa todo el tiempo
+
+insertar imagenes de ese dia 
