@@ -1,6 +1,6 @@
 # sesion-07b
 
-Martes 23 de Septiembre, 2025 
+Martes 26 de Septiembre, 2025 
 
 Nota del día: como grupo no sabíamos que el funcionamiento del sensor era complejo de administrar (dirigir/controlar - por su proceso de calibración y problemas con la medición dependiente de muchos factores de ambiente) - janise y mateo nos avisaron muy tarde): 
 
