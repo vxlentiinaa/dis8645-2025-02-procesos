@@ -91,6 +91,7 @@ Aquí un recopilatorio de ayudas del profe Misa (spoilers: nada funcionó)
 (https://github.com/olikraus/U8glib_Arduino)
 
 Aquí diferentes ejemplos de lo que llegó a pasar con la pantalla:
+
 [![Prueba de ayuda](https://img.youtube.com/vi/bQ4co3Pamnk/hqdefault.jpg)](https://youtube.com/shorts/bQ4co3Pamnk)
 
 [![Segundo Intento](https://img.youtube.com/vi/OnmafdRIA1Y/hqdefault.jpg)](https://youtube.com/shorts/OnmafdRIA1Y)
