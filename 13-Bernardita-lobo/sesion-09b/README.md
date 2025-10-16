@@ -58,6 +58,8 @@ https://soundcloud.com/felixblume/ship-horns-valparaiso
 
 También le pregunté a ChatGPT sobre las licencias para asegurarme de que no me demanden xd .-.
 
+Y me dijo:
+
 ```text
 La grabación “Bocinas de barco en el puerto de Valparaíso” está bajo la licencia Creative Commons
 Atribución–CompartirIgual 3.0 (CC BY-SA 3.0).
