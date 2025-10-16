@@ -23,7 +23,20 @@ En nuestro caso, los sensores serían un sensor de temperatura, humedad y presi�
 
 ### Friolin
 
-Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot; un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de temperatura; una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y dos servomotores, para que cometa el acto de saludar con el brazo.
+Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot; un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de temperatura; una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con el brazo.
+
+**paso a paso del proyecto**
+
+1. Máquina inicia en estado neutro
+2. Si no detecta a nadie se mantiene en este estado, en donde ambas manos estarán en suspensión y en la pantalla no se mostrará nada
+3. Si detecta a una persona, se esperan 3 segundos para actuar según la temperatura medida en el ambiente
+4. Si la temperatura es menor o igual a (15) grados celsius, el servomotor no actuará y mostrará en display un mensaje del porqué no quiere saludar, además de una expresión facial importada a través del Arduino que se puede observar en el display
+5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial.
+6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
+7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
+
+**Mapa de flujo**
+
 
 ### Desarrollo
 
@@ -51,6 +64,7 @@ Esta es la versión final del pseudocódigo, hay muchos errores y con la ayuda d
 
 
 ### Comentarios finales
+
 
 
 
