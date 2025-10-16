@@ -28,7 +28,7 @@ Modelé una forma más básica de concha marina, a la que le di las tolerancias 
 
 ![imagen](imagenes/captura-espiral03.png)
 
-![imagen](imagenes/captura-espiral05.png)
+![imagen](imagenes/capturla-espiral05.png)
 
 ![imagen](imagenes/captura-espiral06.png)
 
