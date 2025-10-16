@@ -1,8 +1,9 @@
-# sesion-10a ⋆ 𐙚 ̊.
+# sesion-10a ⋆ 𐙚 ̊
 
-**Revisión y depuración del código⋆˚꩜｡**
+Revisión y depuración del código⋆˚꩜｡
 
-**Trabajo realizado:**
+Trabajo realizado:
+
 + Se dedicó la sesión a **organizar el código** y solucionar errores de compilación.
 + Se detectaron problemas con el **encoder** (posible conflicto de pines o lógica de lectura).
 + Se estableció una **codificación de colores para cables** del montaje físico, ayudando a evitar confusiones.
@@ -18,5 +19,6 @@ Por mi parte, me encargué de **avanzar en el código principal**, integrando co
 ──── ୨୧ ────
 
 ## Recursos y referencias ꩜
+
 + [Foro Arduino: OLED 1.3” I2C](https://forum.arduino.cc/t/oled-1-3-i2c-iic-128x64-serial-lcd-faulty/250171/13)  
 + [Guía de conexión OLED 1.3 con Arduino (U8g2)](https://paraarduino.com/displays/oled/como-conectar-un-display-oled-1-3-con-arduino/)
