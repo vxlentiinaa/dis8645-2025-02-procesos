@@ -1,4 +1,4 @@
-# sesion-10a
+ # sesion-10a
 14/10/25
 
 ---
@@ -9,7 +9,7 @@ Hoy nuestro compañero Santiago https://github.com/santiagoClifford trajo un nue
 Félix https://github.com/felix-rg416 , hizo una versión del código, llamada codigo-10a, para no dañar el que hicimos la semana pasada.
 
 ## Código 
-Me tocó trabajar en el código junto con Antonia, se nos dificultó un poco debido a la gran cantidad de componentes que tenemos en el proyecto, sin embargo el código final compila de forma correcta y sin errores.
+Me tocó trabajar en el código junto con Antonia https://github.com/AntFuentealba , se nos dificultó un poco debido a la gran cantidad de componentes que tenemos en el proyecto, sin embargo el código final compila de forma correcta y sin errores.
 
 Aquí hay una parte del código:
 
