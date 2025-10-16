@@ -197,7 +197,7 @@ void SalidaDedo::bajar() {
 }
 ```
 
-### 3. Salida Motor Vibracion
+### 3. Salida Motor Vibración
 
 ```cpp
 #include "SalidaMotorVibracion.h"
@@ -362,7 +362,7 @@ void reproducirAudioDistancia(float distancia) {
 ## Roles del equipo
 
 - **Yamna Carrión:** Aportó principalmente junto a Millaray en el diseño de la Carcasa del prototipo e igualmente hizo y revisó código.
-- **Millaray Millar:** Aporte principalo como diseñadora y reina del modelado de nuestro prototipo. Además investigó sobre el reproductor MP3 junto al Altavoz para poder hacerlo funcionar.
+- **Millaray Millar:** Aporte principal como diseñadora y reina del modelado de nuestro prototipo. Además investigó sobre el reproductor MP3 junto al Altavoz para poder hacerlo funcionar.
 - **Sofía Cartes:** Aporte principal de ordenar Github, Revisar, probar y hacer código.
 - **Vania Paredes:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
 - **Valentina Ruz:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
@@ -370,6 +370,28 @@ void reproducirAudioDistancia(float distancia) {
 `Al final del dia todas complementamos en todos los roles <3`
 
 ## Fotografías y videos del proyecto funcionando
+
+![Robot](./imagenesProyecto-02/robot01.jpeg)
+
+![Robot](./imagenesProyecto-02/robot02.jpeg)
+
+![Robot](./imagenesProyecto-02/robot03.jpeg)
+
+![Robot](./imagenesProyecto-02/robot04.jpeg)
+
+![Robot](./imagenesProyecto-02/robot05.jpeg)
+
+![Robot](./imagenesProyecto-02/robot06.jpeg)
+
+![Robot](./imagenesProyecto-02/robot07.jpeg)
+
+![Robot](./imagenesProyecto-02/robot08.jpeg)
+
+![Robot](./imagenesProyecto-02/robot09.jpeg)
+
+![Robot](./imagenesProyecto-02/robot10.jpeg)
+
+Videos en la carpeta de drive, creada por Mateo ([Encargo-02](https://drive.google.com/drive/folders/1hZd_qAtFzbxVesOuexRLseQspcyqCZDI))
 
 ## Bibliografía
 
@@ -391,3 +413,8 @@ void reproducirAudioDistancia(float distancia) {
 - AFEL. (s.f.). Módulo reproductor MP3 DFPlayer Mini. Recuperado de <https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini>
 
 ### Repositorios
+
+- Llamas, L. (s.f.). Ficheros .h y .cpp en C++. Recuperado de <https://www.luisllamas.es/cpp-ficheros-h-y-cpp/>
+- DFRobot. (s.f.). DFRobotDFPlayerMini Library. Recuperado de <https://github.com/DFRobot/DFRobotDFPlayerMini>
+- Arduino. (s.f.). Repositorio oficial de Arduino. Recuperado de <https://github.com/Arduino>
+
