@@ -32,7 +32,7 @@ Al igual que el semestre pasado, se automatizará el **proceso de revisión y li
 
 Ejecución remota: Corre en máquinas virtuales de GitHub, sin configuración local necesaria.
 
---------
+-----
 
 ### Proyecto 2 - Máquina Saludadora
 
@@ -46,7 +46,7 @@ Ejecución remota: Corre en máquinas virtuales de GitHub, sin configuración lo
 
 - Manual: Opcional, pero debe ser claro y comprensible.
 
---------
+-----
 
 ### Sensores 
 
@@ -72,7 +72,7 @@ Ejecución remota: Corre en máquinas virtuales de GitHub, sin configuración lo
 
 - [AFEL - Sensores](https://afel.cl)cuenta con distintos tipos de sensores, y en la página aparecen organizados por secciones, lo cual me ayuda a ver la variedad que existe.
 
---------
+-----
 
 ## Encargo 11
 
