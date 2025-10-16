@@ -2,6 +2,8 @@
 
 ## Trabajo en clase
 
+Viernes 10 de octubre, 2025
+
 ### Cosas que hablamos en la mañana
 
 - Para repasar <https://www.w3schools.com/>
