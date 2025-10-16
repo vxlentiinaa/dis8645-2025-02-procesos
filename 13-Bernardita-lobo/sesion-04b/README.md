@@ -30,6 +30,7 @@ Su libro académico más reciente es "output: An Anthology of Computer-Generated
 
 
 > [Fuente imagen uno](https://tropetank.com/images/nyc.jpg) y [Fuente imagen dos](https://tropetank.com/images/people/ongoing/nick_montfort.jpg)
+> 
 > Fuente https://nickm.com/me.html
 > 
 > Fuente https://cmsw.mit.edu/profile/nick-montfort/
