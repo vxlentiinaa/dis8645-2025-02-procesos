@@ -602,7 +602,7 @@ Se nos quemo el sensor de temperatura y humedad jej. Estabamos viendo las conexi
 
 Al final no fue eso, conectamos los cables al reves con la Cami, son errores humanos así que nada.
 
-[![Errores raros]()
+[![Se quemó :c](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09b/imagenes/deterrimiento.jpeg)
 
 ---
 
