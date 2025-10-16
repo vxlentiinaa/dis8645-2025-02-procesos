@@ -38,18 +38,18 @@ Componentes a utilizar:
 
 | Componentes | Cantidad | Unidad          | OBS |
 |---------|----------------------------------|------------------|------------------|
-| Mini Protoboard |  1  | 400 puntos | Conexión VCC GND directa al arduino |
-| Arduino UNO | 1  | R4 Minima  | Conexión directa a corriente |
+| Mini Protoboard | 1 | 400 puntos | Conexión VCC GND directa al arduino |
+| Arduino UNO | 1 | R4 Minima | Conexión directa a corriente |
 | Sensor Ultrasónico |  1 | HC-SR04 | PIN TRIGGER al PIN 11 - PIN ECHO al PIN 12 - VCC a 5V y GND a GND |
-| ServoMotor | 1   | SG90 | VCC a 5V - GND a GND y PIN 13 |
-| Motor Vibrador | 1  | Joystick  | VCC a 5V |
-| Transistor | 1  | FET IRFZ44n | Mosfet-m Esquemático de conexión más abajo|
-| Resistencia | 1  | 1K | Esquemático de conexión más abajo|
-| Resistencia | 1  | 100K | Esquemático de conexión más abajo|
-| Diodo | 1  | IN4007 | Esquemático de conexión más abajo|
-| Reproductor MP3 | 1 | DFPlayer mini | VCC a 5V - Negativo altavoz a STK_2 - Positivo altavoz a STK_1 - TX al RX Arduino - RX al TX Arduino - GND a GND  |
+| ServoMotor | 1 | SG90 | VCC a 5V - GND a GND y PIN 13 |
+| Motor Vibrador | 1  | Joystick | VCC a 5V Esquemático de conexión más abajo |
+| Transistor | 1 | FET IRFZ44n | Mosfet-m Esquemático de conexión más abajo |
+| Resistencia | 1 | 1K | Esquemático de conexión más abajo |
+| Resistencia | 1 | 100K | Esquemático de conexión más abajo |
+| Diodo | 1 | IN4007 | Esquemático de conexión más abajo |
+| Reproductor MP3 | 1 | DFPlayer mini | VCC a 5V - Negativo altavoz a STK_2 - Positivo altavoz a STK_1 - TX al RX Arduino - RX al TX Arduino - GND a GND |
 | Tarjeta SD | 1 | 255gb | Reproductor MP3 |
-| Altavoz | 1 | Mini Parlante 3W | Negativo a STK_2 Reproductor - Positivo a STK_1 Reproductor|
+| Altavoz | 1 | Mini Parlante 3W | Negativo a STK_2 Reproductor - Positivo a STK_1 Reproductor |
   
 ### Input
 
@@ -168,3 +168,4 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 - AFEL. (s.f.). Módulo reproductor MP3 DFPlayer Mini. Recuperado de <https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini>
 
 ### Repositorios
+
