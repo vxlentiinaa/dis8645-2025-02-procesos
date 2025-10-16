@@ -18,7 +18,7 @@ Martes 23 de septiembre, 2025
 
 - Museo del Hongo
 
-![](imagenes/sinte.jpeg)
+![a](imagenes/sinte.jpeg)
 
 ### Proyecto-02
 
@@ -160,7 +160,6 @@ Tecnodiversidad: enontre est video que habla de eso [Yuk Hui (Masterclass) ¿Por
 Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas. Citar correctamente las fuentes.
 
 - Grupo-01
-
 
   - 04-yamna-bit
   - 05-sofiacartes
