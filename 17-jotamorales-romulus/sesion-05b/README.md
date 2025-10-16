@@ -32,6 +32,8 @@
 
 escuchar y comentar uno de los tres primeros discos de la banda Primus
 
+![Porksoda](imagenes/porksoda.jpg)
+
 
 ### Encargo 10 - Mitchel Resnick 
 
