@@ -7,7 +7,7 @@
 - [Carla Andrea del Carmen Pino Barrios](https://github.com/Coff4)
 - [Sebastián Alejandro Sáez Olivares](https://github.com/SebastianSaez1003)
 
-## Presentación textual 
+## Presentación textual
 
 ### Introducción
 
@@ -17,15 +17,15 @@ Para la ideación del proyecto usamos la propuesta de [SebastianSaez1003](https:
 
 Nuestro proyecto se centra en desarrollar un robot que te salude dependiendo de la temperatura.
 
-El saludo se define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo). 
+El saludo se define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo).
 
-En nuestro caso, los sensores serían un sensor de temperatura, humedad y presión y un sensor ultrasónico, y los actuadores, dos servomotores y una pantalla. 
+En nuestro caso, los sensores serían un sensor de temperatura, humedad y presión y un sensor ultrasónico, y los actuadores, dos servomotores y una pantalla.
 
 ### Friolin
 
 Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot; un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de temperatura; una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con el brazo.
 
-**Paso a paso del proyecto**
+Paso a paso del proyecto
 
 1. Máquina inicia en estado neutro
 2. Si no detecta a nadie se mantiene en este estado, en donde ambas manos estarán en suspensión y en la pantalla no se mostrará nada
@@ -35,7 +35,7 @@ Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, q
 6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
 7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
 
-**Mapa de flujo**
+Mapa de flujo
 
 ![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/mapa%20de%20flujo.png)
 
@@ -58,14 +58,14 @@ En esta versión del pseudocodigo se hizo la separacion de tabs dentro del archi
 
 #### Pseudocódigo V0_1_4
 
-Esta es la versión final del pseudocódigo, hay muchos errores y con la ayuda de Aaron Montoya Moraga empezamos a ordenar y resumir los archivos  llegando a la primera versión de codigoRobotFriolento.INO 
+Esta es la versión final del pseudocódigo, hay muchos errores y con la ayuda de Aaron Montoya Moraga empezamos a ordenar y resumir los archivos  llegando a la primera versión de codigoRobotFriolento.INO
 
 #### codigoRobotFriolento_0_1_0
 
-#### Carcasa e imágenes 
+#### Carcasa e imágenes
 
 (antes de eso lo habíamos visto como un robot amigable, similar a nuestro moodboard, después de varios bocetos se dio la idea de que sea friolin)
-La idea principal de la carcasa es que contenga y exponga todos los componentes de manera eficiente, también su forma de hombre de nieve hace alusión de forma irónica a su miedo al frío. Además, su forma geométrica se eligió para ser similar al pixel art de las imágenes. También se realizaron piezas extras como sus orejeras y brazo para personificar y dar mayor personalidad al proyecto. 
+La idea principal de la carcasa es que contenga y exponga todos los componentes de manera eficiente, también su forma de hombre de nieve hace alusión de forma irónica a su miedo al frío. Además, su forma geométrica se eligió para ser similar al pixel art de las imágenes. También se realizaron piezas extras como sus orejeras y brazo para personificar y dar mayor personalidad al proyecto.
 
 ![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%201.png)
 ![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%202.png)
@@ -78,4 +78,3 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
 
 Aunque hubo ajustes y errores en el camino, el resultado refleja un proceso de aprendizaje colectivo donde cada decisión —desde el código hasta la carcasa— aportó a darle identidad al robot. Friolín no solo saluda: también muestra cómo la temperatura puede influir en la forma en que interactuamos, incluso con las máquinas.
-
