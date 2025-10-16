@@ -24,13 +24,21 @@ Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, ento
 
 Insertar foto*
 
+![captura](imagenes/captura-oreja.png)
+
 Y finalmente volvimos a las ideas iniciales. Repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos para las carcasas. Primero, con el elemento del speaker, decidimos diseñarle una carcasa con forma de concha, de modo que al acercarla a la oreja se pueda escuchar el mar. Pero no solo las olas, sino también ruidos del ambiente, como gritos, pájaros y sonidos de gaviotas, creando la sensación de teletransportarse a una playa chilena.
 
 Insertar foto*
 
 #### Modelado 3D
 
+Primero partí modelando una pieza con las formas base del parlante, para estimar más o menos el tamaño que debía tener el speaker. Este modelado lo imprimí en el laboratorio, aunque no sirvió de mucho porque me equivoqué al no considerar el espacio para los cables.
+
+![captura](imagenes/captura-impresion01.png)
+
 Para el modelado de la concha tuve que buscar algunos videos tutoriales, ya que su forma es bastante orgánica y compleja, con curvas irregulares y detalles difíciles de replicar sin una guía. Estos recursos me ayudaron a entender mejor cómo construir la estructura y lograr que se viera natural.
+
+![captura](imagenes/captura-espiral01.png)
 
 Insertar foto*
 
