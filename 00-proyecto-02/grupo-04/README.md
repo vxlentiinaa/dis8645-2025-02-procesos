@@ -135,25 +135,9 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
-Aarón esta parte fue hecha por braulio y jota pero no supimos integrarlo al codigo principal, por lo cual utilizamos ia para integrarlo, pero dio muchos errores. Porfa ayuda
 
-Para el proyecto teníamos que lograr que el sensor ser comunique con el reproductor mp3. Para esto primero lo simulamos con un botón. Cada vez que se presiona el botón conectado al pin 2, el programa le ordena a un módulo DFPlayer Mini que reproduzca una pista de audio MP3 al azar de la tarjeta SD. El código también se encarga de evitar falsas presiones del botón y muestra en el monitor serial qué pista se está reproduciendo o si ocurre algún error. Al iontegrar al codigo principal se remplazaria el boton, por el ultrasonico. 
 
-¿Cual es el flujo a seguir para que el sensor ultrasonico y el servomotor se comuniquen con el modelo mp3?
 
-```mermaid
-flowchart TD
-F(ServoRadar comienza en la posición inicial **anguloMin**) --> A
-A{¿Es la posición actual igual a **anguloMax**?} --> |No| B(Servo avanza **paso** grados a la derecha) --> |Termina de moverse| C(ultrasonico mide distancia) --> D(Guarda el valor asignado al grado del servo) -->A
-A --> |Sí| E(Servo avanza **paso** grados a la izquierda) --> |Termina de moverse| G(Ultrasonico mide distancia) --> H(Compara medición actual con la anterior correspondiente al mismo angulo) --> I{Son los 2 valores iguales? considerando **margenError**}
-I --> |No| J(Mover **servoOjos** al angulo cuyos valores difieren)
-I --> |Sí| E 
-C --> K{¿Es la distancia medida inferior o igual a **distAudio**?} --> |Sí| L(Reproduce uno de los audios del mp3 al azar)
-G --> K --> |No| M(No reproducir audio)
-L --> N{¿se terminó de reproducir el audio?} -->|Sí| O(desactivar con un delay **chao** para dar tiempo al usuario de irse) -->F
-```
-
-El servomotor actúa como un radar, moviéndose de un lado a otro. En cada paso, el sensor ultrasónico mide qué tan lejos están los objetos. Si el sensor detecta que algo está demasiado cerca, le envía una orden al módulo MP3 para que reproduzca un sonido. Mientras el sonido se reproduce, todo lo demás se detiene. Espera unos segundos y se reinicia.
 
 
 
@@ -222,6 +206,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
