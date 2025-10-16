@@ -279,6 +279,8 @@ void loop() {
 
 Cada vez me sorprendo más de los errores...
 
+[![Errores raros](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09b/imagenes/woaos.jpg)
+
 
 https://www.instructables.com/Display-Images-on-OLED-Display-Ft-Instructables-Ro/)
 
@@ -600,9 +602,15 @@ Se nos quemo el sensor de temperatura y humedad jej. Estabamos viendo las conexi
 
 Al final no fue eso, conectamos los cables al reves con la Cami, son errores humanos así que nada.
 
+[![Errores raros]()
+
 ---
 
 Volví con otro codigo más, que si compila completamente todo!
 
+[![Compila pero funciona?](https://img.youtube.com/vi/RIqN10D1hzQ/hqdefault.jpg)](https://youtube.com/shorts/RIqN10D1hzQ?feature=share)
+
 Todo con ayuda de Gemini (no puedo decir que hice todo eso a traves de mi intelecto...seria imposible)
+
+Al final, aunque estaba todo conectado, no detectaba bien todo...aun queda por hacer.
 
