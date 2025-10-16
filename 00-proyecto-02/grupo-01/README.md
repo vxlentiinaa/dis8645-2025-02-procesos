@@ -173,7 +173,7 @@ void EntradaUltrasonico::decidirCercania() {
 
 ### 2. Salida Dedo Servomotor
 
-```
+```cpp
 #include "SalidaDedo.h"
 
 SalidaDedo::SalidaDedo() {}
@@ -199,7 +199,7 @@ void SalidaDedo::bajar() {
 
 ### 3. Salida Motor Vibracion
 
-```
+```cpp
 #include "SalidaMotorVibracion.h"
 
 // constructor
@@ -262,7 +262,7 @@ void SalidaMotorVibracion::vibrar(int cuantoVibrar) {
 
 ### 4. Salida Voz
 
-```
+```cpp
 #include "SalidaVoz.h"
 
 #if (defined(ARDUINO_AVR_UNO) || defined(ESP8266))   // para placas tipo UNO o ESP8266
@@ -391,4 +391,3 @@ void reproducirAudioDistancia(float distancia) {
 - AFEL. (s.f.). Módulo reproductor MP3 DFPlayer Mini. Recuperado de <https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini>
 
 ### Repositorios
-
