@@ -1,3 +1,5 @@
-# sesion-08b
+# Sesión-08b
 
-no hubo clases
+Viernes 03 de octubre, 2025
+
+## no hubo clases
