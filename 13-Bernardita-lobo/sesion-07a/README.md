@@ -18,6 +18,8 @@ Martes 23 de septiembre, 2025
 
 - Museo del Hongo
 
+![](imagenes/sinte.jpeg)
+
 ### Proyecto-02
 
 El proyecto será de unas 4 personas
