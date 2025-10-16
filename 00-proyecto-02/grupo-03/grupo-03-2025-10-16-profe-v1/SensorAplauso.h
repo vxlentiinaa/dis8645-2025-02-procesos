@@ -22,18 +22,17 @@ public:
 
   void decidir();
 
+  bool detectarAplausos();
+
   ////////////
   // variables
   ////////////
 
   // sensor de sonido
   int patitaSensor = A0;
-  // luz led
-  int patitaLED = 13;
-
-  bool hayAplauso = false;
-
-  bool detectarAplausos();
+  
+  // estado del sistema
+  bool hayDosAplausos = false;
 
   // valores de lectura pueden ser 0 o 1
   int valorActual = 0;
@@ -45,9 +44,6 @@ public:
 
   // momento de cambio de la luz LED
   unsigned long tiempoCambioLED = 0;
-
-  //estado de parpadeo del led
-  int estadoRelay = HIGH;
 
   String mensajeAgua = "aplauso detectado";
 };

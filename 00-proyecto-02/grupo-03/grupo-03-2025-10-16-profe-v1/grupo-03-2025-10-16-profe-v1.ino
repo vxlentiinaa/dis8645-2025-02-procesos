@@ -15,7 +15,7 @@
 
 // Objetos principales
 SensorEncoder encoder;
-SensorAplauso sensorSonido;
+SensorAplauso sensorAplauso;
 Pantalla pantalla;
 ReproductorMP3 mp3;
 
@@ -38,7 +38,7 @@ void setup() {
 
   // configurar sensores
   encoder.configurar();
-  sensorSonido.configurar();
+  sensorAplauso.configurar();
 
   // construir actuadores
   pantalla.iniciar();
@@ -52,6 +52,7 @@ void setup() {
 void loop() {
   // seleccionar idioma segun encoder
   if (enModoMenu) {
+    Serial.println("ESTOY EN MODO MENU");
     int opt = encoder.leerMovimiento();
     if (opt != idiomaSeleccionado) {
       idiomaSeleccionado = opt;
@@ -59,7 +60,7 @@ void loop() {
       Serial.print(F("Idioma seleccionado: "));
       Serial.println(nombresIdiomas[idiomaSeleccionado]);
     }
-    
+
     // si el boton del encoder se presiona
     // salimos del modo menu
     if (encoder.botonPresionado()) {
@@ -70,68 +71,48 @@ void loop() {
       delay(120);
     }
   }
+  // si no estamos en el modo menu
+  // nos concentramos en los aplausos
+  else {
+    Serial.println("ESTOY EN MODO DETECTAR APLAUSOS");
+    sensorAplauso.leer();
+    sensorAplauso.decidir();
 
-  // AQUI VOY VAMOS QUE SE PUEDE
-  // --- detectar aplausos ---
-  if (!enReproduccion && sensorSonido.detectarAplausos()) {
-    Serial.println(F(" Dos aplausos detectados -> Reproducir saludo"));
-    // PARA MATEO
-    // Mostrar imagen y reproducir sonido simultáneamente
-    pantalla.mostrarBitmapIdioma(idiomaSeleccionado);
-    mp3.reproducirSaludo(idiomaSeleccionado);
 
-    enReproduccion = true;
-    tiempoFinReproduccion = millis() + duracionAudioMs;
-  }
+    if (sensorAplauso.hayDosAplausos) {
+      Serial.print("HAY APLAUSOS");
+    } else {
+      Serial.print("pucha");
+    }
 
-  // Control no bloqueante de fin de audio
-  if (enReproduccion && millis() >= tiempoFinReproduccion) {
-    enReproduccion = false;
-    pantalla.mostrarMensajeAplauso();  // volver a instrucción
-    Serial.println(F("Reproducción finalizada."));
-  }
 
-  // Botón presionado → volver al menú
-  if (encoder.botonPresionado()) {
-    enModoMenu = true;
-    enReproduccion = false;
-    pantalla.mostrarMenuIdioma(idiomaSeleccionado);
-    Serial.println(F("Volviendo al menú principal."));
-    delay(150);
+    // AQUI VOY VAMOS QUE SE PUEDE
+    // --- detectar aplausos ---
+    if (!enReproduccion && sensorAplauso.hayDosAplausos) {
+      Serial.println(F(" Dos aplausos detectados -> Reproducir saludo"));
+      // PARA MATEO
+      // Mostrar imagen y reproducir sonido simultáneamente
+      pantalla.mostrarBitmapIdioma(idiomaSeleccionado);
+      mp3.reproducirSaludo(idiomaSeleccionado);
+
+      enReproduccion = true;
+      tiempoFinReproduccion = millis() + duracionAudioMs;
+    }
+
+    // Control no bloqueante de fin de audio
+    if (enReproduccion && millis() >= tiempoFinReproduccion) {
+      enReproduccion = false;
+      pantalla.mostrarMensajeAplauso();  // volver a instrucción
+      Serial.println(F("Reproducción finalizada."));
+    }
+
+    // Botón presionado → volver al menú
+    if (encoder.botonPresionado()) {
+      enModoMenu = true;
+      enReproduccion = false;
+      pantalla.mostrarMenuIdioma(idiomaSeleccionado);
+      Serial.println(F("Volviendo al menú principal."));
+      delay(150);
+    }
   }
 }
-
-
-/* REFERENCIAS 
- * Encoder KY-040:
- *  - Luis Llamas. "Rotary encoder KY-040 con Arduino" (tutorial).
- *    https://www.luisllamas.es/arduino-encoder-rotativo/
- *
- * DFPlayer Mini:
- *  - DFRobot. "DFPlayer Mini MP3 Player" (documentación y ejemplos).
- *    https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299
- *
- * Pantalla OLED SSD1306:
- *  - Adafruit. "Monochrome OLED Breakouts" (biblioteca y ejemplos).
- *    https://learn.adafruit.com/monochrome-oled-breakouts/arduino-library-and-examples
- *
- * Sensor de sonido (microphone module):
- *  - Random Nerd Tutorials. "Guide for Microphone Sound Sensor with Arduino"
- *    https://randomnerdtutorials.com/guide-for-microphone-sound-sensor-with-arduino/
- *
- * SoftwareSerial (documentación Arduino):
- *  - Arduino Reference: SoftwareSerial.
- *    https://www.arduino.cc/reference/en/language/functions/communication/softwareserial/
- *
- * Bibliotecas recomendadas para instalar:
- *  - Adafruit SSD1306
- *  - Adafruit GFX
- *  - DFRobotDFPlayerMini (busca "DFRobotDFPlayerMini")
- *
- * Ejemplos consultados (en Arduino IDE):
- *  - File → Examples → Adafruit SSD1306 → ssd1306_128x64_i2c
- *  - File → Examples → SoftwareSerial
- *  - Ejemplos incluidos en la biblioteca DFRobotDFPlayerMini
- *
- * Fecha de consulta: 2025-09-29
- */

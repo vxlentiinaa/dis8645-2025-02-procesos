@@ -12,8 +12,6 @@ SensorAplauso::~SensorAplauso() {
 void SensorAplauso::configurar() {
   //entrada es el sensor
   pinMode(SensorAplauso::patitaSensor, INPUT);
-  //salida es el led
-  pinMode(SensorAplauso::patitaLED, OUTPUT);
 }
 
 void SensorAplauso::leer() {
@@ -41,14 +39,11 @@ void SensorAplauso::decidir() {
       // evitar un tercer aplauso
       (SensorAplauso::tiempoActual > SensorAplauso::tiempoCambioLED + 1000)) {
 
-      SensorAplauso::hayAplauso = true;
+      SensorAplauso::hayDosAplausos = true;
       // CAMBIAR PARA REPRODUCIR SONIDO Y MOSTRAR MENSAJE
-      Serial.println(SensorAplauso::mensajeAgua);
+
       // lo de aqui abajo es del código anterior
       // para usar la luz led como lámpara
-      //relayStatus = !relayStatus;
-      //digitalWrite(signalToRelayPin, relayStatus);
-      //lastLightChange = SensorAplauso::tiempoActual;
     }
 
     // PORHACER
@@ -56,19 +51,11 @@ void SensorAplauso::decidir() {
     // pero nadie se hace cargo aun
     // de volverlo false
 
-    SensorAplauso::valorAnterior = SensorAplauso::valorActual;
 
     // guardar lo actual en lo anterior
     // para luego poder actualizar lo actual
-
+    SensorAplauso::valorAnterior = SensorAplauso::valorActual;
     SensorAplauso::tiempoAnterior = SensorAplauso::tiempoActual;
   }
 }
 
-// detecta si hay aplausos
-// y manda un true o un false
-bool SensorAplauso::detectarAplausos() {
-  leer();
-  decidir();
-  return hayAplauso;
-}
