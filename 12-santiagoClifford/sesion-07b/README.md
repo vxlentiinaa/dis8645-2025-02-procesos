@@ -92,3 +92,11 @@ if(zona0 && !zona1){
    servo = map(servo, 0, 1023, 45, 90);
 }
 ```
+
+## encargo-15
+
+documentar sensores que quiero usar.
+
+- servo motor: es un sensor que tiene la capacidad de guardar el dato de en qué ángulo está, y por lo tanto, puede moverse hacia un ángulo específico desde un ángulo específico. Este es el tipo de motor que me interesa, ya que yo quiero poder determinar en qué ángulo apunta, así poder "mirar" a les usuaries. En un inicio planeo usar 2 servos, uno que mueva los párpados(0°-70°), y otro servo que mueve el "cuello" (0°-270°). Para esto necesitaríamos un servo SG90, y uno MG996R.
+
+- micrófono: queremos detectar desde dónde viene el sonido, para esto, planeo utilizar 2 micrófonos, que lean valores análogos, y poder compararlos para saber desde dónde viene el sonido. Para esto se necesita un módulo que incluya micrófono y amplificador, esto debido a que sin el amplificador, la señal es muy débil, además tiene posibilidad de saturarse el micrófono, si el ruido es muy fuerte, y al saturarse, deja de sensar.
