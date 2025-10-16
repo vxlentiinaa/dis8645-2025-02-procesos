@@ -227,3 +227,6 @@ De documentación, me gusta mucho este canal que habla de historia, se llama [Re
 Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
 
 También, como referente de documentación, me parece muy ordenada y concisa la manera en que explican los componentes y elementos que vienen en los productos de los [sintetizadores Moog](https://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos extendidas con tomas superiores de todos los componentes, esquemáticos, y pequeñas láminas que se pueden superponer para probar diferentes sonidos y combinaciones.
+
+![foto oskitone](imagenes/captura.moog.png)
+
