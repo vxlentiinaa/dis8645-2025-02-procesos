@@ -155,17 +155,6 @@ L --> N{¿se terminó de reproducir el audio?} -->|Sí| O(desactivar con un dela
 
 El servomotor actúa como un radar, moviéndose de un lado a otro. En cada paso, el sensor ultrasónico mide qué tan lejos están los objetos. Si el sensor detecta que algo está demasiado cerca, le envía una orden al módulo MP3 para que reproduzca un sonido. Mientras el sonido se reproduce, todo lo demás se detiene. Espera unos segundos y se reinicia.
 
-La investigación comenzó intentando entender el cómo se conectaba el módulo mp3 dfplayer mini al arduino, busqué información en la página de los creadores del módulo [dfplayermini](https://wiki.dfrobot.com/dfplayer_mini_sku_dfr0299), aquí aparece información sobre el módulo e incluye una foto del pinout sobre cómo conectarlo
-
-![imagen](./imagenes/dfplayer-pinout.png)
-
--> DFRobot (s. f.), en DFPlayer Mini (SKU: DFR0299), DFRobot Wiki <https://wiki.dfrobot.com/dfplayer_mini_sku_dfr0299>
-
-Mientras conectaba el pinout recibí ayuda del [grupo01](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/00-proyecto-02/grupo-01) ya que ellas también estaban trabajando con el mismo módulo mp3 dfplayer mini por lo cuál ayudaron a entender la conexión de este mismo al arduino. De las conexiones que se muestran en el pinout, utilicé la de VCC, GND, SPK 1 (+), SPK 2 (-), y RX y TX respectivamente, las personas del grupo 1 conectaron los pines RX a TX del arduino y TX a RX del arduino por lo cuál lo conecté de la misma forma
-
-![imagen](./imagenes/conexión-dfplayermini.jpg)
-
-Además de las anteriores conexiones, el módulo mp3 dfplayer mini requiere de la integración de una tarjeta SD la cuál debe estar formateada y contener los archivos mp3 que queremos reproducir. Para ello utilicé el siguiente código que fue enviado por [Janis](https://github.com/janisepulveda) y [Mateo](https://mateoarce.cl/) y fue sacado de [dfrobot](https://wiki.dfrobot.com/dfplayer_mini_sku_dfr0299)
 
 
 
@@ -211,6 +200,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
