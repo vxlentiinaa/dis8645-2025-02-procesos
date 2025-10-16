@@ -169,7 +169,7 @@ Luego, como encargo o tarea, volví a repasar en mi casa.
 
 -
 
-### Palabras impoertantes
+### Palabras importantes
 
 ---
 
