@@ -20,6 +20,8 @@ La idea es crear un índice para generar una lista de sonidos aleatorios para el
 
 Cuando el sensor ultrasónico detecte algo cerca, el sistema “tira un dado” para emitir un sonido al azar, utilizando la estructura switch case.
 
+![foto arduino](imagenes/sesion09a.jpeg)
+
 Este ejercicio me sirve para entender cómo funcionan los botones y, a partir de eso, poder crear un código que ejecute sonidos aleatorios. Luego, la idea es ir explicando cada parte para comprender mejor su funcionamiento.
 
 Últimamente he tenido demasiadas cosas y peso emocional-mental, lo que no me ha permitido avanzar y aprender como quería. Por eso he estado muy perdida. Misa me explicó un poco cosas que ya debería saber de programación. Espero no haberlos decepcionado, he intentado ponerme al día, porque para mí esto es importante ;-;
