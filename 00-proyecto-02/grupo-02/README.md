@@ -155,6 +155,23 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 ## Referentes
 
 
+## Problemas al fusionar
+
+Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos que pasar todo al Arduino R3. No lo pasamos al R4 porque hay una biblioteca crucial para el funcionamiento de la pantalla que no corre en la versión más nueva. Al pasar a R3 nos encontramos con inconvenientes no previstos:
+
+-R3 no admite Serial1.begin y requiere iniciar el reproductor de manera manual.
+
+-Por el tipo de cable que usa este arduino no se pueden poner los pines RX y TX en 00 y 01. Esto nos obligó a cambiar el resto de los pines para hacerle un espacio a los del reproductor. Después de varios cambios RX quedó en 12 y TX en 7.
+
+
+**Separados**
+![Reproductor DFPlayer con sensor de color en Arduino R4 y Pantalla con Arduino R3](imagenes/Separados.jpg)
+
+**Juntos**
+![Reproductor DFPlayer con sensor de color unido a Pantalla con Arduino R3 ](imagenes/Juntos.jpg)
+
+
+
 
 
 
