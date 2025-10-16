@@ -89,8 +89,10 @@ Adjunto imagenes de diferentes bocetos y un moodboard rapido (que después dise�
 
 En general se deberian agregar cosas que asemejen al frio y hacerlo más amigable para el espectador.
 
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+![Primera versión Carla](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version1.jpeg)
+![Segunda versión Carla](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version2.jpeg)
+![Tercera versión Carla](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version3.jpeg)
+
+![Boceto de Aileen](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version4.jpeg)
 
 Para la proxima sesión investigare que demonios hacer con la pantalla. deseenme suerte <3
