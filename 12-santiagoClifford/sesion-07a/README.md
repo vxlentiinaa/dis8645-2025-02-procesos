@@ -2,15 +2,14 @@
 
 ## clase 13 - 23-sept
 
-A grandes rasgos exiten 4 tipos de motores: 
+A grandes rasgos exiten 4 tipos de motores:
 
-1. DC motor (direct current): un motor DC es rápido, no sabe donde está. 
+1. DC motor (direct current): un motor DC es rápido, no sabe donde está.
 aplicaciones: drones, ventiladores, vibradores, etc.
 2. Step motor: lento, preciso, no sabe donde está. Funciona con grados.
 aplicaciones: impresoras 3D, etc
 3. Servomotor: funciona por grados, si sabe donde está. Se clasifican según cuánto giran(90°, 180°, 270°, 360°)
 4. solenoide: movimiento lineal(no giratorio)
-
 
 - [hackaday](https://hackaday.com)
 - [clock that is wrong](https://github.com/dupontgu/clock_that_is_wrong)
@@ -24,7 +23,6 @@ aplicaciones: impresoras 3D, etc
 - [eléctrico vs electrónico](https://osakaelectronicsltda.com/blog/biblioteca/cual-es-la-diferencia-entre-un-aparato-electrico-y-electronico)
 - [empresa de tiras led](https://www.demasled.cl/)
 - [neoPixel](https://www.adafruit.com/category/168)
-
 
 ## grupo proyecto-02
 
@@ -44,7 +42,7 @@ debido a la dificultad que significa la detección de personas, queremos detecta
 
 ![croquis funcionamiento mecánico](./imagenes/croquis03.jpg)
 
-por ahora, los ojos puede cambiar su dirección en el eje X, no en el eje Y. Los ojos estarán sobre una plataforma, la cual gira en 270° gracias a un motor. 
+por ahora, los ojos puede cambiar su dirección en el eje X, no en el eje Y. Los ojos estarán sobre una plataforma, la cual gira en 270° gracias a un motor.
 
 Los párpados funcionan gracias a un eje de rotación, cuya posición está en el centro de la esfera(visto desde el lateral).
 
