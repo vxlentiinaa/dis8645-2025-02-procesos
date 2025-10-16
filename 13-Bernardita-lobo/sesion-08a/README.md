@@ -16,6 +16,8 @@ Antes queríamos trabajar con dos sensores que triangularan la ubicación de la 
 
 Por eso mismo, estuve entendiendo bien y modificando en clase el diagrama de flujo que había que hacer para el encargo pasado.
 
+![foto mini](imagenes/sesion08a.jpeg)
+
 ---
 
 ### Referentes
