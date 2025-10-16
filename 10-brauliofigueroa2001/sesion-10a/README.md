@@ -154,6 +154,8 @@ void printDetail(uint8_t type, int value){
   }
 }
 ```
+
+- no supimos cómo mezclar este código en conjunto con el del ultrasónico por lo cuál lo metimos a la IA gemini pero nos dió muchos errores por lo cuál se le pidió ayuda a Aarón para que nos pudiera guiar mejor
   
 
 
