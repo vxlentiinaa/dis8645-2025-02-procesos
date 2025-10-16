@@ -81,6 +81,8 @@ Con ello, adjunto un video de como este problema se volvio a provocar:
 
 [![Intento con error](https://img.youtube.com/vi/2J_LUC1deQA/hqdefault.jpg)](https://youtube.com/shorts/2J_LUC1deQA)
 
+[![Otra vez con errores](https://img.youtube.com/vi/wKGrXb6TVGg/hqdefault.jpg)](https://youtube.com/shorts/wKGrXb6TVGg?feature=share)
+
 Quedamos en que subiriamos el codigo e investigariamos. Por otro lado comenzamos con bocetos y mediciones para hacer nuestro robot friolento.
 
 Adjunto imagenes de diferentes bocetos y un moodboard rapido (que después diseñare mejor) sobre que idea queremos para el robotcito.
