@@ -16,6 +16,38 @@ Antes queríamos trabajar con dos sensores que triangularan la ubicación de la 
 
 Por eso mismo, estuve entendiendo bien y modificando en clase el diagrama de flujo que había que hacer para el encargo pasado.
 
+```mermaid
+---
+config:
+  theme: redux
+---
+flowchart TB
+    A(["el sensor ultrasonico detecta distancia"]) --> B{"¿hay cercania?"}
+    B --> n1(["sí"]) & n2(["no"])
+    n2 --> n3(["loop"])
+    n3 --> B
+    n1 --> n4(["sonido"])
+    n4 --> n5(["loop"])
+    n5 --> B
+     A:::Sky
+     A:::Aqua
+     B:::Rose
+     B:::Sky
+     B:::Aqua
+     n1:::Aqua
+     n1:::Sky
+     n1:::Peach
+     n2:::Rose
+     n3:::Aqua
+     n3:::Sky
+     n4:::Peach
+     n5:::Sky
+    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
+    classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+```
+
 ![foto mini](imagenes/sesion08a.jpeg)
 
 ---
