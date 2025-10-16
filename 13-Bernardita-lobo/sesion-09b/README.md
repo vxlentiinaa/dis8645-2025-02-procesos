@@ -40,9 +40,9 @@ Para el modelado de la concha tuve que buscar algunos videos tutoriales, ya que 
 
 ![captura](imagenes/captura-espiral01.png)
 
-Insertar foto*
+Insertar foto de boceto*
 
-Insertar foto*
+Insertar foto de boceto*
 
 #### Sonido
 
