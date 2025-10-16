@@ -7,17 +7,17 @@
      * Reproducción: se activa al detectar 2 aplausos (≈5 s)
 */
 
-#include <Arduino.h>
+// incluir clases que escribimos
 #include "Pantalla.h"
 #include "ReproductorMP3.h"
 #include "SensorEncoder.h"
 #include "SensorAplauso.h"
 
 // Objetos principales
-Pantalla pantalla;
-ReproductorMP3 mp3;
 SensorEncoder encoder;
 SensorAplauso sensorSonido;
+Pantalla pantalla;
+ReproductorMP3 mp3;
 
 // Estados de la aplicación
 bool enModoMenu = true;
@@ -27,24 +27,30 @@ const int totalIdiomas = 3;
 const char* nombresIdiomas[totalIdiomas] = { "> Ruso", "> Japonés", "> Francés" };
 
 // Control de tiempo
-const unsigned long duracionAudioMs = 5000UL;  // 5 segundos
+// 5 segundos
+const unsigned long duracionAudioMs = 5000UL;
 unsigned long tiempoFinReproduccion = 0UL;
 
 void setup() {
   Serial.begin(9600);
   delay(50);
-  Serial.println(F("CHISPOP - versión final"));
+  Serial.println(F("CHISPOP - version final"));
 
-  pantalla.iniciar();
-  mp3.iniciar();
+  // configurar sensores
   encoder.configurar();
   sensorSonido.configurar();
 
+  // construir actuadores
+  pantalla.iniciar();
+  mp3.iniciar();
+
+
   pantalla.mostrarMenuIdioma(idiomaSeleccionado);
-  Serial.println(F("Listo. Gira el encoder y presiona para elegir idioma."));
+  Serial.println(F("Gira el encoder y presiona para elegir."));
 }
 
 void loop() {
+  // seleccionar idioma segun encoder
   if (enModoMenu) {
     int opt = encoder.leerMovimiento();
     if (opt != idiomaSeleccionado) {
@@ -53,16 +59,19 @@ void loop() {
       Serial.print(F("Idioma seleccionado: "));
       Serial.println(nombresIdiomas[idiomaSeleccionado]);
     }
-
+    
+    // si el boton del encoder se presiona
+    // salimos del modo menu
     if (encoder.botonPresionado()) {
       enModoMenu = false;
-      pantalla.mostrarMensajeAplauso();  // instrucción
+      // instruccion
+      pantalla.mostrarMensajeAplauso();
       Serial.println(F("Presiona: Aplaude dos veces para continuar."));
       delay(120);
     }
   }
 
-
+  // AQUI VOY VAMOS QUE SE PUEDE
   // --- detectar aplausos ---
   if (!enReproduccion && sensorSonido.detectarAplausos()) {
     Serial.println(F(" Dos aplausos detectados -> Reproducir saludo"));
