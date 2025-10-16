@@ -64,3 +64,25 @@ La principal diferencia que veo entre esta propuesta y el proyecto feelMyParanoi
 mientras que el proyecto mencionado, intenta que el código pueda representar virtualmente las acciones del usuario(ejemplo, al acercarse al sensor, el personaje camina hacia adelante). Por otro lado, feelMyParanoia busca emular una reacción a las acciones del usuario, lo que entendemos como una "reacción humana". En conclusión, en la propuesta de Yanma, el output, es una representación del input del usuario, mientras que feelMyParanoia, el output es una representación de las reacciones de una interacción real(en una situación de miedo/tensión), en otras palabras, el output del código, es una representación del output humano en una interacción similar.
 
 En cuanto a dudas sobre este proyecto, me cuestiono la utilidad de usar un sensor de proximidad, y surge la duda respecto a usar botones ubicados en el piso, tipo "Dance Dance Revolution". Como reflexión a esto: el sensor de proximidad podría ser una ventaja, debido a la capacidad de detectar diferentes distancias, por lo que, con esto se podría, por ejemplo, controlar la velocidad del personaje. Sin embargo los botones dan la ventaja de entregar un feedback más directo, y reduce la posibilidad de fallo o de confusión del usuario.
+
+
+## encargo-13
+dos referentes de cada tema: 
+I. lenguaje natural
+II. código
+III. materialidad
+IV. documentación
+
+I. lenguaje natural
+
+ 1. 31 minutos: lo que me gusta del lenguaje de 31 minutos es, por una parte el humor implícito en la forma de expresarse de sus personajes, con frases que por sí mismas no causan gracia, pero cuando las juntas todas en un diálogo, de uno o más personajes, da risa. Un ejemplo(extraído de la descripción de tulio triviño en la [página oficial](https://www.31minutosoficial.cl)): Rostro del noticiero. Encargado de realizar entrevistas en el estudio, dormir temprano para no tener ~~orejas~~ ojeras darle órdenes a Juanín, exigirle a Juanín que revise el libreto y pedirle a Juanín que lo despierte en la mañana.
+
+ Se hace uso de la repetición y la regla de 3 para enfatizar el chiste, además algo que aporta mucho a la gracia de 31 minutos es la interpretación de los actores y actrices de voz, con una subidas y bajadas de tono muy abruptas y con un timing espléndido. [extracto](https://youtube.com/shorts/R-izgPFMjkI?si=LBp6lst6EWe1dWlZ)
+
+ 2. Gary Kingsbury: en la película Game Night, Jesse Plemons interpreta a Gary, un paco recién divorciado, solitario, con necesidad de aprobación. Gary, solía ser parte de las reuniones de un grupo de amigos, pero después de divorciarse dejaron de invitarlo. En la película muchos de sus diálogos expresan su busqueda por ser aceptado y querido por las personas que admira. Lo que más me gusta de su interpretación es su manera de hablar, que me hace sentir como que los diálogos provienen desde un lugar interno muy profundo de su persona, me hace sentir que las frases que dice viajaron miles de km antes de llegar a su boca. Esto acompañado del trabajo de cámara que enfatiza esa sensación de vacío. [aquí un extracto](https://youtu.be/bYM6tWIjr-I)
+
+II. código
+
+1. HolaMundo: es un youtuber chileno que se centra en contenido relacionado a la programación, tiene tutoriales de horas de duración con millones de visitas. Lo que me gusta más de su estilo de programar, es que se permite usar nombres de variables a su modo. Es decir con humor y usando muchas veces nombrs no relacionados con el código, como "chanchito". Su videos de vscode fue uno de los primero tutoriales que vi sobre vscode, y me encantó esa forma, y desde entonces, siempre en mis proyectos de código, uso variables que me parezcan graciosas, llamativas y carismáticas. Por ejemplo, en el código de [rainyDays](https://editor.p5js.org/clifford1one/sketches/HkDAqxIUR). A las variables relacionadas al perrito, les puse washinton, al gatito asrael, etc. Esto me ayuda a hacer las variables más personales y así las recuerdo más.
+
+2. Dan 
