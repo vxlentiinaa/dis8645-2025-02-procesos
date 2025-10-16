@@ -28,6 +28,8 @@ Tiene un doctorado en informática y ciencias de la información de la Universid
 
 Su libro académico más reciente es "output: An Anthology of Computer-Generated Text, 1953–2023."
 
+
+> [Fuente imagen uno](https://tropetank.com/images/nyc.jpg) y [Fuente imagen dos]()
 > Fuente https://nickm.com/me.html
 > 
 > Fuente https://cmsw.mit.edu/profile/nick-montfort/
