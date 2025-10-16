@@ -5,7 +5,7 @@ Partimos lijando unos “tarugos” que tienen de función el unir todas las car
 
 Luego me puse a darle una última revisada al código, donde mis compañeres me convencieron de llevar a cabo el paso a la versión del [robotFriolento_1_0_0](https://github.com/SebastianSaez1003/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-10a/codigoRobotFriolento_1_0_0) donde le agregamos una cara “durmiendo” para su modo standby, cambie el orden de acciones en el “void loop” del archivo .ino para que no existiese un a pausa, que era considerable, cuando se detectaba a una persona y intentaba cambiar la cara que se observaba en el display, como se puede observar en el siguiente video.
 
-[![video que saqué de mi insta](https://img.youtube.com/vi/mgef-bVR5_40.jpg)](https://www.youtube.com/shorts/mgef-bVR5_4)
+[![video que saqué de mi insta](https://img.youtube.com/vi/mgef-bVR5_4/maxresdefault.jpg)](https://www.youtube.com/shorts/mgef-bVR5_4)
 
 Y a este punto el código en la parte de la funcionalidad que teníamos pensada ya estaba “completa” o al menos todo lo que teníamos pensado funcionaba como nosotros pensábamos y esperabamos.
 
