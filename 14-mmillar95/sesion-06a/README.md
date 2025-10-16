@@ -139,6 +139,6 @@ void loop() {
   lcd.print("Probando el LCD.");
 }
 ```
-!Captura](./imagenes/Captura.png)
+![Captura](./imagenes/Captura.png)
 
 Link de página del proyecto: [Programar fácil](https://programarfacil.com/blog/arduino-blog/sensor-de-nivel-de-agua-con-arduino/)
