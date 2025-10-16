@@ -79,7 +79,7 @@ void Pantalla::mostrar (){
 
 Con ello, adjunto un video de como este problema se volvio a provocar:
 
-[![Nuevo Error](https://img.youtube.com/vi/IUrGIT0m7do/hqdefault.jpg)](https://youtube.com/shorts/IUrGIT0m7do)
+[![Intento con error](https://img.youtube.com/vi/2J_LUC1deQA/hqdefault.jpg)](https://youtube.com/shorts/2J_LUC1deQA)
 
 Quedamos en que subiriamos el codigo e investigariamos. Por otro lado comenzamos con bocetos y mediciones para hacer nuestro robot friolento.
 
