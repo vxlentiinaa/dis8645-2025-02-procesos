@@ -216,6 +216,8 @@ De materialidad, creo que lo más probable es que utilicemos impresión 3D, ya q
 
 Y también, como ejemplo concreto de fabricación digital, modelado 3D e impresión en PLA, tenemos uno de los sintetizadores de la marca [Oskitone](https://www.oskitone.com/), la cual fabrica instrumentos musicales electrónicos y kits de soldadura para armar uno mismo. Este sintetizador está en el laboratorio, y no solo lo encontré fascinante por su función y sonido, sino también porque convierte un material de prototipo en un producto de muy buena calidad.
 
+![foto oskitone](imagenes/sesion07a.jpeg)
+
 ### Documentación
 
 De documentación, me gusta mucho este canal que habla de historia, se llama [Retro Flama](https://www.youtube.com/@RetroFlama) y habla de fenómenos tecnológicos y modas retro. Estos videos tienen imágenes de apoyo y narraciones que logran hilar muy bien las historias, incluso cuando abarcan muchos temas. Realmente me emocionan, ya que utilizan fotos difíciles de encontrar del pasado, graficando y transportándote a esos momentos. Además, transforman su investigación en algo muy fácil de digerir.
