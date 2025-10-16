@@ -14,6 +14,10 @@ Entonces ¿que aprendimos de esta investigación?
 3. Desde el principio tuvimos que usar la pantalla pequeña y evitarnos todos estos problemas locos.
 
 
+Pero, solo cambiando la pantalla a la del primer encargo, todo se comporta bien...
+
+[![Comportamiento normal](https://img.youtube.com/vi/djSzdS5zW0Q/hqdefault.jpg)](https://youtube.com/shorts/djSzdS5zW0Q?feature=share)
+
 ---
 
 Por lo tanto! es hora de hacer codigo para la pantalla pequeña y problema solucionado (yey)
@@ -170,6 +174,9 @@ Se uso un codigo del primer encargo grande que nos dieron y se modificó. Fueron
 Esta vez estabamos en el laboratorio y recibí ayuda de la gente que estaba en aquel lugar
 
 Desde aquí doy mis sinceras gracias por el apoyo <3
+
+[![Uso del primer codigo](https://img.youtube.com/vi/9t0tRyKYgyE/hqdefault.jpg)](https://youtube.com/shorts/9t0tRyKYgyE?feature=share)
+
 
 Pero tuve que rehacer todo, y por rehacer digo, buscar en otras paginas codigos que si funcionen
 
