@@ -12,7 +12,7 @@ public:
   ~Parpados();
 
   void configurar();
-  
+
   void moverMotorcillo(int angulo, int tiempo);
 
   Servo motorcillo;

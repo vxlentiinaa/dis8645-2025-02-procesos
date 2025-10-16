@@ -4,7 +4,13 @@ SensorProx::SensorProx() {}
 
 SensorProx::~SensorProx() {}
 
-void SensorProx::configurar() {
+
+void SensorProx::configurar(int echo, int trigger) {
+  // reemplaza los valores iniciales por los entregados
+  SensorProx::patitaEcho = echo;
+  SensorProx::patitaTrigger = trigger;
+
+  // luego configura a nivel input output
   pinMode(SensorProx::patitaEcho, INPUT);
   pinMode(SensorProx::patitaTrigger, OUTPUT);
 }
@@ -26,8 +32,7 @@ void SensorProx::leer() {
 void SensorProx::determinarPresencia() {
   if (SensorProx::distancia < 16) {
     SensorProx::presencia = true;
-  } 
-  else {
+  } else {
     SensorProx::presencia = false;
   }
 }

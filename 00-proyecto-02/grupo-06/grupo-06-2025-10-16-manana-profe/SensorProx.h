@@ -24,14 +24,13 @@ public:
   // void presencia();
   // void nada();
 
-  int patitaTrigger = 9;
-  int patitaEcho = 10;
+  int patitaTrigger = -1;
+  int patitaEcho = -1;
 
   float duracion = 0;
   float distancia = 0;
 
   bool presencia = false;
-  
 };
 
 #endif

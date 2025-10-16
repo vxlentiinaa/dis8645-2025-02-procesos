@@ -1,5 +1,4 @@
 #ifndef SERVO_SENSORES_H
-
 #define SERVO_SENSORES_H
 
 
@@ -7,19 +6,20 @@
 #include <Servo.h>
 
 
-
 class ServoSensores {
 public:
   ServoSensores();
   ~ServoSensores();
 
-  void configurar();            // método para adjuntar el servo
+  void configurar();
+  // método para adjuntar el servo
   void moverMotorcillo(int angulo, int tiempo);
-  int getAnguloActual(); // devuelve el ángulo actual del servo de los sensores
+  // devuelve el ángulo actual del servo de los sensores
+  int getAnguloActual();
 
-private:
-  Servo motorcillo;                    // servo interno
-  int pinMotor;                        // guarda el pin
+  // servo interno
+  Servo motorcillo;
+  int pinMotor;  // guarda el pin
 };
 
 #endif
