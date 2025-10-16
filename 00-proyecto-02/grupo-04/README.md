@@ -178,13 +178,15 @@ insertar bocetos*
 
 Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 
+![foto](imagenes/captura-espiral01.png)
+
+![foto](imagenes/captura-espiral02.png)
+
+![foto](imagenes/captura-espiral03.png)
+
 Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
-insertar foto de modelado concha*
-
 insertar foto de modelado cangrejo*
-
-Parte a recopilar, Info de jota y berni
 
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
@@ -216,6 +218,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
