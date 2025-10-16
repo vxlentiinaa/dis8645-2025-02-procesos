@@ -97,6 +97,8 @@ Con 4 principios de aprendizaje (4P):
 - Passion: Cuando las personas trabajan en temas que les apasionan, están dispuestas a esforzarse más y superar los obstáculos.
 - Peers: Interactuar, compartir ideas y trabajar con otros en un espíritu de compañerismo enriquece la experiencia y fomenta el pensamiento crítico.
 - Play: Experimentar, tomar riesgos y probar nuevas ideas en un entorno lúdico es crucial para la creatividad.
+  
+Estoy a favor de la iniciativa de “Lifelong Kindergarten” porque propone una forma de aprender más creativa y significativa. Me gusta que Resnick busque mantener el espíritu del jardín infantil, donde se aprende haciendo, jugando y compartiendo con otros. Creo que este enfoque motiva más a los estudiantes y les permite desarrollar su creatividad y curiosidad de una manera natural y divertida, en vez de estar generando cierto tipo de presión a los estudiantes, como se hace en las principales instituciones de enseñanza. 
 
 ![Mit](./imagenes/mit.png)
   
