@@ -8,7 +8,7 @@
 
 - .cpp: implementación, me hago cargo de que funcione.
 
-- #include <archivo>: buscar en el sistema.
+- #include archivo: buscar en el sistema.
 
 - #include "archivo": buscar en la misma carpeta.
 
@@ -32,7 +32,11 @@
 
 escuchar y comentar uno de los tres primeros discos de la banda Primus
 
+
 ![Porksoda](imagenes/porksoda.jpg)
+
+Porksoda - 1993 
+
 
 
 ### Encargo 10 - Mitchel Resnick 
