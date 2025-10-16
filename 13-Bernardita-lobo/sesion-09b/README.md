@@ -18,11 +18,11 @@ Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conc
 
 Incorporamos unos ojos que te siguen y detectan qué tan cerca estás, además de una oreja que emite sonidos, desarrollando así la idea de sinestesia y lo absurdo como ejes del proyecto.
 
-Insertar foto*
+Insertar foto de boceto*
 
 Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh. Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
 
-Insertar foto*
+Insertar foto de boceto*
 
 ![captura](imagenes/captura-oreja.png)
 
