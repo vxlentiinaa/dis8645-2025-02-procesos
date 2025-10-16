@@ -6,7 +6,7 @@ Martes 30 de septiembre, 2025
 
 ### Cosas que hablamos en la mañana
 
-- nos trajieron un sinte que funcionaba grabando audios y replicando en diferentes tonalidades
+- Nos trajeron un sinte que funcionaba grabando audios y reproduciéndolos en diferentes tonalidades.
 
 ### Avaces del Proyecto-02
 
