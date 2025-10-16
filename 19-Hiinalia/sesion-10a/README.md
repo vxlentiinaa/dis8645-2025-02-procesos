@@ -25,6 +25,7 @@ SPK1 y SPK2 a parlante
 
 ## Problemas con sensores
 
+![algunos sensores conectados](imagenes/algunos-cableados.jpg)
 Como grupo estuvimos haciendo el cableado de todos los sensores que vamos a conectar. Utilizamos una gran cantidad de cables para solo algunos de los sensores que tenemos que conectar. 
 
 Cuando teníamos listo todo el cableado de los sensores, nos dimos cuenta que la pantallita ya no encendía. Por lo que Misa nos ayudó con el cableado. Efectivamente era problema de como lo habíamos conectado todo. Nos enseñó cómo conectar los cables de manera más eficiente en la protoboard que tenemos.
