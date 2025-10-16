@@ -1,6 +1,10 @@
-//archivo .ino
-#include "Arduino.h"
+// archivo principal
+// esto corre en Arduino Uno R4
+
+// biblioteca externa que hay que instalar
 #include "DFRobotDFPlayerMini.h"
+
+// clases que hicimos
 #include "SoftwareSerial.h"
 #include "SensorColor.h"
 
