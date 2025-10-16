@@ -10,7 +10,11 @@
 
 Misa nos enseño lo que eran millis, y que debiamos cambiarlo por los delay.
 
-hacer carcasas para el proyecto y la parte formal
+Corregir ángulos del servomotor.
+
+Empezar a modelar las carcasas para los sensores.
+
+![foto](imagenes/sesion09b.jpeg)
 
 ### Parte conseptual del proyecto
 
@@ -30,7 +34,7 @@ Y finalmente volvimos a las ideas iniciales. Repasamos nuestros actuadores y pen
 
 Insertar foto*
 
-#### Modelado 3D
+### Modelado 3D
 
 Primero partí modelando una pieza con las formas base del parlante, para estimar más o menos el tamaño que debía tener el speaker. Este modelado lo imprimí en el laboratorio, aunque no sirvió de mucho porque me equivoqué al no considerar el espacio para los cables.
 
@@ -44,7 +48,7 @@ Insertar foto de boceto*
 
 Insertar foto de boceto*
 
-#### Sonido
+### Sonido
 
 Para el sonido que se reproducirá en el speaker con forma de concha, encontramos una página con grabaciones de campo de [Felix Blume](https://felixblume.com/bio/?lang=es), de la playa de Valparaíso. Era justo lo que estábamos buscando, sonidos reales de las olas, la caleta, los vendedores y la gente conversando, junto con ruidos naturales del entorno. Todo esto recrea de manera auténtica la atmósfera sonora de una playa chilena. 
 
@@ -68,8 +72,6 @@ Compartir tu obra bajo la misma licencia (es decir, también CC BY-SA 3.0). Esto
 reutilizar tu versión con las mismas libertades y condiciones.
 ```
 
-
-
 ---
 
 ### Referentes
@@ -78,4 +80,4 @@ reutilizar tu versión con las mismas libertades y condiciones.
 
 -
 
-### Palabras impoertantes
+### Palabras importantes
