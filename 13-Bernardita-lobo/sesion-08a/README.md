@@ -16,6 +16,8 @@ Antes queríamos trabajar con dos sensores que triangularan la ubicación de la 
 
 Por eso mismo, estuve entendiendo bien y modificando en clase el diagrama de flujo que había que hacer para el encargo pasado.
 
+![foto mini](imagenes/sesion08a.jpeg)
+
 ```mermaid
 ---
 config:
@@ -47,8 +49,6 @@ flowchart TB
     classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
     classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
 ```
-
-![foto mini](imagenes/sesion08a.jpeg)
 
 ---
 
