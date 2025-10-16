@@ -94,11 +94,11 @@ III. materialidad
 
 ![juguete mandíbula que mastica y vibra](./imagenes/mandibula.jpg)
 
-me gusta mucho el color de este juguete, que en conjuto con las piezas que sostienen los ojos, transmite una sensación tipo "gore", como una cara que le sacaron la piel y tiene expuestos los músculos.
+me gusta mucho el color de este juguete, que en conjunto con las piezas que sostienen los ojos, transmite una sensación tipo "gore", como una cara que le sacaron la piel y tiene expuestos los músculos.
 
 ![músculos de la cara](./imagenes/cara.png)
 
-2. Steve Mould: en el video "Mechanical Circuits: electronics without electricity" steve moudl hace una muy interesante analogía y comparación entre los circuitos electrónicos, y circuitos mecánicos. Me encanta la estética de los circuitos de este video, que hacen que incluso los circuitos más simples se vean sumamente complejos. Los colores y materialidad transmiten sensación de juego y recreación, a la vez que me llevan hacia un estilo tipo revolución industrial, por la combinación de grises y cafés y sus formas complejas expuestas. [video](https://youtu.be/QrkiJZKJfpY?si=iDvwOo3Nw-WRXFPB)
+2. Steve Mould: en el video "Mechanical Circuits: electronics without electricity" Steve Mould hace una muy interesante analogía y comparación entre los circuitos electrónicos, y circuitos mecánicos. Me encanta la estética de los circuitos de este video, que hacen que incluso los circuitos más simples se vean sumamente complejos. Los colores y materialidad transmiten sensación de juego y recreación, a la vez que me llevan hacia un estilo tipo revolución industrial, por la combinación de grises y cafés y sus formas complejas expuestas. [video](https://youtu.be/QrkiJZKJfpY?si=iDvwOo3Nw-WRXFPB).
 
 IV. documentación
 
@@ -106,4 +106,4 @@ IV. documentación
 
 En mi opinión, este formato puede aportar mucho a mi proyecto, ya que al plantearlo como un manual, permite ser mucho más específico en las partes que yo considero importante para que el proyecto tenga la misma esencia, ejemplo, que los engranajes tengas 5mm de grosor.
 
-2. 555-timer-circuits: [esta página](www.555-timer-circuits.com) en mi opinión está muy bien diseñada, con los elementos justos en pantalla, y con una jerarquía de la información muy bien definida. Me recuerda a pa´ginas web de los 2010, debido a ciertas características, como que el formato de la info no se ajusta a la proporción de pantalla, o la tipografía y falta de ornamentos.
+2. 555-timer-circuits: [esta página](www.555-timer-circuits.com) en mi opinión está muy bien diseñada, con los elementos justos en pantalla, y con una jerarquía de la información muy bien definida. Me recuerda a páginas web de los 2010, debido a ciertas características, como que el formato de la info no se ajusta a la proporción de pantalla, o la tipografía y falta de ornamentos.
