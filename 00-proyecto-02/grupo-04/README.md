@@ -163,6 +163,7 @@ El servomotor actúa como un radar, moviéndose de un lado a otro. En cada paso,
 
 
 
+
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
 ### 4) Modelado 3D, desarrollo de carcasa y ensamblado
@@ -196,3 +197,13 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini>
 - <https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/>
 - <https://www.youtube.com/watch?v=5X0v0MOrQiI>
+- <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
+- <https://felixblume.com/valparaiso/>
+- <https://audiomapa.org/>
+
+
+
+
+
+
+
