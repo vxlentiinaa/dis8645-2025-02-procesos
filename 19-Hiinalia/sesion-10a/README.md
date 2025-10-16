@@ -38,3 +38,5 @@ Misa nos revisó el código, y la verdad es que no entendí muy bien que hizo, p
 
 
 Estoy aquí en el lab probando lo que llevamos. Hasta ahora, la pantallita conecta a veces, cuando quiere. El encoder no funcionaba, pero @sebastiansaez1003 me ayudó. Probablemente fue cableado porque solo lo moví un poquito y empezó a funcionar. Y ahora el reproductor MP3 me da error constantemente. Ya moví los cables RX y TX que estaban en los lugares incorrectos, pero aún así no logro conectarlo.
+
+![error mp3](https://drive.google.com/file/d/1JUxVoa-x6BR_4v2rz0Kv0WPyezWEVEUF/view?usp=sharing)
