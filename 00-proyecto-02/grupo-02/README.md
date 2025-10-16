@@ -91,15 +91,19 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 
 ![sensor de color](imagenes/sensor_de_color.jpg)
 
+![sensor de color](imagenes/sensor_reconocimiento.jpg)
+
 ### ⚡️ Conexión de la pantalla
 
 Como la pantalla TFT circular funciona con 3.3V y el arduino funciona con una lógica de 5V, se tuvo que utilizar un **Level Shifter** o **Conversor lógico de voltaje**, que sirve para interconectar de forma segura dispositivos que operan con diferentes niveles de voltaje, y así evitar que se queme la pantalla.
 
-![sensor de color](imagenes/conexion_pantalla_tft.jpg)
+![conversor de voltaje](imagenes/level_shifter.jpg)
 
-
+![pantalla](imagenes/conexion_pantalla_tft.jpg)
 
 ![Pantalla TFT](imagenes/pantalla_circular.jpg)
+
+![prueba pantalla](imagenes/pantalla_verde.jpg)
 
 ### 🔊 Conexión del parlante con el reproductor MP3
 
@@ -145,7 +149,25 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 
 ## 🔍 Pruebas y resultados
 
-(Subir imágenes y explicar que está pasando en la foto)
+### ✏️ Diseño y bocetos del prototipo
+
+![boceto](imagenes/boceto.jpg)
+
+### 🧩 Piezas impresas del prototipo
+
+![collage](imagenes/prototipo_collage.jpg)
+
+![piezas](imagenes/piezas.jpg)
+
+![carcasa pantalla](imagenes/carcasa_pantalla.jpg)
+
+![forma](imagenes/prototipo_verde.jpg)
+
+![monstruo](imagenes/monstruo.jpg)
+
+
+
+
 
 1. Impresiones.
 2. Código.
@@ -169,6 +191,7 @@ Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos q
 
 **Juntos**
 ![Reproductor DFPlayer con sensor de color unido a Pantalla con Arduino R3 ](imagenes/Juntos.jpg)
+
 
 
 
