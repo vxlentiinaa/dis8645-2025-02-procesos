@@ -33,3 +33,8 @@ Cuando teníamos listo todo el cableado de los sensores, nos dimos cuenta que la
 Ya la pantallita funcionó, se escuchaban los audios que estaban dentro de la tarjeta SD. El problema es que el encoder se podía presionar, pero no funcionaba al momento de girarlo. No se podía navegar por las opciones en el menú.
 
 Misa nos revisó el código, y la verdad es que no entendí muy bien que hizo, pero ahora sí se puede usar el encoder. Lo que faltaría ahora es que funcione todo el resto de las cosas. Hace poco, @Joquape consiguió que apareciera el mensaje de "Aplaude para continuar" en la pantallita después de elegir un idioma. Necesito conseguir que funcione el aplauso en esta parte del código.
+
+# Trabajo en lab
+
+
+Estoy aquí en el lab probando lo que llevamos. Hasta ahora, la pantallita conecta a veces, cuando quiere. El encoder no funcionaba, pero @sebastiansaez1003 me ayudó. Probablemente fue cableado porque solo lo moví un poquito y empezó a funcionar. Y ahora el reproductor MP3 me da error constantemente. Ya moví los cables RX y TX que estaban en los lugares incorrectos, pero aún así no logro conectarlo.
