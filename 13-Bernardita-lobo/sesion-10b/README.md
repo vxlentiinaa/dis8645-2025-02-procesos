@@ -1,12 +1,6 @@
 # Sesión-10b
 
-## Trabajo en clase
-
-### Cosas que hablamos en la mañana
-
-- 
-
-- 
+## Entregan Proyecto-02
 
 ### Referentes
 
