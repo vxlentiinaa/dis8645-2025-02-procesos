@@ -173,9 +173,7 @@ Luego, como encargo o tarea, volví a repasar en mi casa.
 
 ---
 
-## Encargo
-
-### Repaso
+## Encargo: Repaso
 
 Como mencioné, volví a repasar un poco y fui haciendo algunos ejemplos que dejé registrados en la clase 01b, ya que ahí había un encargo parecido que sentía que no podía hacer muy bien, así que lo volví a realizar.
 
