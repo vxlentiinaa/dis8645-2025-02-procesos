@@ -18,7 +18,6 @@ Lenguaje [Spacy](https://spacy.io/), Procesamiento del lenguaje natural de nivel
 
 [Misa](https://github.com/misaaaaaa) fue a la Escuela de Sensibilización Tecnológica de TTU.
 
-![](imagenes/sinte.jpeg)
 
 ### Tesis Mateo
 
