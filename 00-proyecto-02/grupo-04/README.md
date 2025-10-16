@@ -4,6 +4,8 @@ Viernes 17 Octubre 2025
 
 ***
 
+![gif](imagenes/gif.gif)
+
 ## Grupo-04 "nombre del grupo" : Integrantes
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
@@ -222,6 +224,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
