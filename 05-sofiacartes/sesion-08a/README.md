@@ -2,13 +2,17 @@
 
 ## Proyecto 02- Robot que cuenta datos curiosos
 
-Componentes que utilizaremos:
+`Componentes que utilizaremos:`
 
-Sensor ultrasónico, Servo Motor, Motor DC, Reproductor mp3 y Altavoz.
+- Sensor ultrasónico HC-SR04
+- Servo Motor
+- Motor DC
+- Reproductor mp3
+- Altavoz
 
-Entrada: Mediante el sensor ultrsónico la máquina detecta presencia y detalles de distancia de esta presencia humana.
+`Entrada:` Mediante el sensor ultrsónico la máquina detecta presencia y detalles de distancia de esta presencia humana.
 
-Salida: Al detectar la distancia de la presencia la máquina reacciona de diferentes.
+`Salida:` Al detectar la distancia de la presencia la máquina reacciona de diferentes.
 
 1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor DC el tembleque aumentará entre más cerca estés.
 2. El sensor detectará presencia en 3 instancias: 2 - 10cm, 40 - 60cm, 80 - 100cm.
@@ -29,16 +33,14 @@ Datos curiosos que dirá:
 - “El error 404 es mi manera de hacerme el leso.”
 - “El primer mouse era de madera.”
 
-BUSCAR FUENTE DE DÓNDE SE ESACARON ESTOS DATOS CURIOSOS
-
 ### Cosas faltantes:
 
-1. Mecanismo
-2. Carcasa
+1. Mecanismo `en proceso`
+2. Carcasa `en proceso`
 3. Motor DC
 4. Unir código
-5. Diálogo (listo)
-6. Tipo de voz: artificial (listo)
+5. Diálogo `listo`
+6. Tipo de voz: artificial `listo`
 
 ### Desarrollo en clases
 
@@ -194,11 +196,46 @@ Fuente de descarga de voces <https://aivoice-es.vidnoz.com/text-to-speech>
 
 ![trabajoEnClases2](./imagenes/trabajoEnClases30Sep01.jpg)
 
-#### Búsqueda de motor DC y referentes de carcasa
+- diálogo:
+  
+1. "hola1.mp3" de 80-10cm, para llamar a la persona: "Hola humano ¿Por qué estás tan lejos? Acércate."
+2. "hola2.mp3" de 40-60cm, para hacer que la persona se acerque más: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji"
+3. "dato1, 2, 3, 4,5 y 6.mp3" de 2-10cm:
+   
+dato1: "¿Sabías qué? El primer mause era de madera... Seguro también servía de leña jajaj"
+
+dato2: "¿Sabías qué? El error 404 es mi manera de hacerme el leso... jajaja"
+
+dato3: "¿Sabías qué? La nube no existe, son computadores de otro... pero no se lo digas a nadie"
+
+dato4: "¿Sabías qué? Los datos nunca se borran, solo se esconden... igual que tus calcetines"
+
+dato5: "¿Sabías qué? Apagar y prender arregla todo, y sino, un golpecito y como nuevo"
+
+dato6: "¿Sabías qué? El porcentaje exacto de 99,999999999999... Nah, inventé jajaja pero aún sigues aquí ¿no?"
+
+---
+
+#### Encargo 16
+
+Cada persona del grupo, debe subir a su README qué es lo que llevan hasta el final de la sesión, que sí funciona, que funciona casi y que no funciona. Después subir nueva versión del código y de la documentación.
+
+Búsqueda de motor DC y referentes de carcasa
+
+No hemos hecho la conexión como tal del Motor DC, solo buscamos referentes.
+
+Nos explica que el motor DC no funciona directamente con arduino ya que el motor necesita bastante corriente y arduino da hasta 5v, por lo que al conectarlo se necesitará un transistor, en este caso ella habla de un transistor NPN (2N2222A), necesitaremos también una resistencia que dependerá del transistor que se use.
 
 - Ayuda de como conectarlo: "Conexión de un transistor NPN a un motor DC y a un Arduino" <https://www.youtube.com/watch?v=O-kuwPfpCng>
 - Referente robot <https://www.ottodiy.com/>
+  
+---
 
+- Errores y problemas en el código: El reproductor MP3 no funcionaba, al principio se escuhaba pero no tenía ningún código aplicado. Pensamos que podría ser la tarjeta SD y la formateamos con las introducciones de Gemini: "Para formatear una tarjeta SD para Arduino Uno, conéctala a tu computadora e inicia la herramienta de formateo de tu sistema operativo. En la configuración de formato, elige FAT32 como sistema de archivos, o FAT para tarjetas de menos de 2GB, y luego inicia el formateo. Para obtener los mejores resultados, considera usar la herramienta oficial SD Formatter de la SD Association."
+- Conecciones y registro: Buscamos como conectar el altavoz al Arduino y el Reproductor MP3, en la página de AFEL se encuentra la foto de como conectar el Reproductor MP3 [AFEL](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?srsltid=AfmBOopRNTgHOWYlfaHTtNXuy2sf4_Lw2Spb70NB-QN52b7Sybu8JQWi)
 
+![IMG_5427](./imagenes/IMG_5427.jpg)
 
+![IMG_5428](./imagenes/IMG_5428.jpg)
 
+![IMG_5429](./imagenes/IMG_5429.jpg)

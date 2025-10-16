@@ -87,7 +87,7 @@ Definir: ¿Qué tipo de secreto? ¿Cómo te dice que te acerques?
 - Sensor de proximidad que me llame a utilizarlo.
 - Según la proximidad de la persona, te salude pero de distinto volumen.
 
-## Encargo 13
+## Encargo 12
 
 Buscar 2 referentes asociados al proyecto: Lenguaje natural (personas), código, materialidad, documentación.
 Escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
@@ -116,11 +116,27 @@ Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar 
 
  ### Proyectos similares
 
- 1. [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a) 
+- [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a) 
  
 Su proyecto trata de una máquina que tiene unos ojos que identifiquen y triangulen la profundidad de dónde está el humano. Cuando la persona se acerque a un espacio, una oreja, le hable con un sonido aleatorio.
 
 - Las similitud es que ambas máquinas dependen de la cercanía e interacción de la distancia de la persona.
 - Se utiliza la voz y el sonido.
 - Ambas máquinas susurran.
+
+- [santiagoCliffotd](12-santiagoClifford/sesion-07a)
+
+Su proyecto trata sobre crear un robot "creepy", que genere sensación de incomodidad y de "sentirse observado" en los usuarios
+
+- inclusión en la salida de movimiento.
+- interacción mas directa con la persona.
+
+Personalmente encuentro ese proyecto similar en comparación a los otros. Cada uno de nosotros partimos con la base de realizar una máquina que salude, pero cada uno vio formas diferentes de hacerla y siento que solo hay partes muy pequeñas en común como:
+
+- outputs
+- intputs
+- sensores
+- cercanía de interacción con la persona.
+- que logre generar sentimientos en la presona.
+  
 

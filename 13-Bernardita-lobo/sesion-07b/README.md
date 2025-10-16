@@ -76,6 +76,13 @@ Vamos a buscar otras bibliotecas, ya que esta estaba descalibrada.
 
 Probamos este codigo que encontro Jota Morales, en [naylampmechatronics.com](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)
 
+Este diagrama, que sacamos de esta misma página, explica cómo conectar el sensor al Arduino.
+
+![diagrama](imagenes/tmc-sesion07b.jpg)
+
+> [Fuente de la imagen](https://naylampmechatronics.com/img/cms/Blog/Tutorial%20arduino%20y%20HC-SR04/Tutorial%20sensor%20ultrasonico%201.jpg)
+
+
 ```cpp
 const int Trigger = 2;   //Pin digital 2 para el Trigger del sensor
 const int Echo = 3;   //Pin digital 3 para el Echo del sensor
