@@ -18,6 +18,8 @@ Martes 23 de septiembre, 2025
 
 - Museo del Hongo
 
+![a](imagenes/sinte.jpeg)
+
 ### Proyecto-02
 
 El proyecto será de unas 4 personas
@@ -159,7 +161,6 @@ Encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saluda
 
 - Grupo-01
 
-
   - 04-yamna-bit
   - 05-sofiacartes
   - 14-mmillar95
@@ -216,6 +217,8 @@ De materialidad, creo que lo más probable es que utilicemos impresión 3D, ya q
 
 Y también, como ejemplo concreto de fabricación digital, modelado 3D e impresión en PLA, tenemos uno de los sintetizadores de la marca [Oskitone](https://www.oskitone.com/), la cual fabrica instrumentos musicales electrónicos y kits de soldadura para armar uno mismo. Este sintetizador está en el laboratorio, y no solo lo encontré fascinante por su función y sonido, sino también porque convierte un material de prototipo en un producto de muy buena calidad.
 
+![foto oskitone](imagenes/sesion07a.jpeg)
+
 ### Documentación
 
 De documentación, me gusta mucho este canal que habla de historia, se llama [Retro Flama](https://www.youtube.com/@RetroFlama) y habla de fenómenos tecnológicos y modas retro. Estos videos tienen imágenes de apoyo y narraciones que logran hilar muy bien las historias, incluso cuando abarcan muchos temas. Realmente me emocionan, ya que utilizan fotos difíciles de encontrar del pasado, graficando y transportándote a esos momentos. Además, transforman su investigación en algo muy fácil de digerir.
@@ -223,3 +226,6 @@ De documentación, me gusta mucho este canal que habla de historia, se llama [Re
 Por ejemplo, está este video que habla de [LA HISTORIA DE LOS SALVAPANTALLAS](https://youtu.be/my3RitIv62A?si=cypliP41-tG5IEZU)
 
 También, como referente de documentación, me parece muy ordenada y concisa la manera en que explican los componentes y elementos que vienen en los productos de los [sintetizadores Moog](https://www.moogmusic.com/synthesizers/mavis/). Lo hacen mediante fotos extendidas con tomas superiores de todos los componentes, esquemáticos, y pequeñas láminas que se pueden superponer para probar diferentes sonidos y combinaciones.
+
+![foto oskitone](imagenes/captura-moog.png)
+
