@@ -87,3 +87,23 @@ II. código
 
 2. Dan Shiffman: Dan Shiffman es un programador, parte del equipo fundador de la Processing Foundation. Es conocido en el internet por crear la comunidad "The COding Train", en la cual graba tutoriales, hostea foros y conversaciones, entre otras cosas. Viendo sus tutoriales uno puede darse cuenta de su larga experiencia y basto conocimiento, debido a su manera íntegra de entender los conceptos, y el código en general. 
 Dan tiene una forma específica de programar, como yo lo veo, intenta reducir el código al máximo, y que sea lo más legible posible, entiendo que esto se debe, por una parte, a su pasión por enseñar, y por otro lado, Dan debe haber lidiado con código enormes y muy complejos, por lo que esta forma de llamar a las variables de la manera más universal posible, ayuda mucho a que el código pueda ser entendible para múltiples personas, y no solo para el creador.
+
+III. materialidad
+
+1. en el sentido de la materialidad, y lo que quiero que el robot transmita, desde el primer prototipo me recordó mucho a este juguete:
+
+![juguete mandíbula que mastica y vibra](./imagenes/mandibula.jpg)
+
+me gusta mucho el color de este juguete, que en conjuto con las piezas que sostienen los ojos, transmite una sensación tipo "gore", como una cara que le sacaron la piel y tiene expuestos los músculos.
+
+![músculos de la cara](./imagenes/cara.png)
+
+2. Steve Mould: en el video "Mechanical Circuits: electronics without electricity" steve moudl hace una muy interesante analogía y comparación entre los circuitos electrónicos, y circuitos mecánicos. Me encanta la estética de los circuitos de este video, que hacen que incluso los circuitos más simples se vean sumamente complejos. Los colores y materialidad transmiten sensación de juego y recreación, a la vez que me llevan hacia un estilo tipo revolución industrial, por la combinación de grises y cafés y sus formas complejas expuestas. [video](https://youtu.be/QrkiJZKJfpY?si=iDvwOo3Nw-WRXFPB)
+
+IV. documentación
+
+1. oskitone: un proyecto que llama mucho mi atención es el poly555. Lo que me gusta más de [esta página](https://oskitone.github.io/poly555) es que (por la naturaleza del proyecto) está planteado como un manual de cómo hacer el tuyo propio. Separado en secciones relacionadas a "áreas", ejemplo: 3D printing, pcb, etc.
+
+En mi opinión, este formato puede aportar mucho a mi proyecto, ya que al plantearlo como un manual, permite ser mucho más específico en las partes que yo considero importante para que el proyecto tenga la misma esencia, ejemplo, que los engranajes tengas 5mm de grosor.
+
+2. 555-timer-circuits: [esta página](www.555-timer-circuits.com) en mi opinión está muy bien diseñada, con los elementos justos en pantalla, y con una jerarquía de la información muy bien definida. Me recuerda a pa´ginas web de los 2010, debido a ciertas características, como que el formato de la info no se ajusta a la proporción de pantalla, o la tipografía y falta de ornamentos.
