@@ -14,3 +14,13 @@ El siguiente paso sería dejar comentado todo de la mejor manera posible, pero a
 Lo primero que pude observar es que me ayudó a definir el nombre de el display en el archivo .h en vez de como lo denia anteriormente en el .cpp del display, gracias a cambiar los datos de el ancho y alto de la pantalla como también de las imágenes que iban a ser mostradas como variable “int” en vez de declararla con #define.
 
 
+Los otros cambios que puede reconocer fueron más que todo de orden, así que los aplique, asumiendo que ese tipo de orden, sobre todo en los “void” que estaba llamando a los bitmaps de las caras de Friolin.
+
+Hablando con mis compañeres nos dimos cuenta de un detalle muy importante, que es que asumimos que una persona que nunca antes haya interactuado con Friolin, probablemente no entendería la razón de porque no saluda cuando tiene frío, así que para complementar las expresiones, también colocaremos texto en el display, esto será realizado en el archivo de la pantalla.
+
+También empezamos a recolectar todos los ejemplos con los que nos basamos para poder realizar todas las funciones que realiza Friolin, colocándolo en los créditos respectivos.
+
+Otra ultima cosa es que cambie los Delay a Millis, cosa que tendría que implementar en el archivo de el servomotor, como también en el de la pantalla para que no cambien de estado instantáneamente entre las caras y el texto, con dos “int” en el que uno será el tiempo actual mientras que el otro será el tiempo desde que se activó esta “pausa” que se quiere causar, o almenos asi es como lo entendí según el siguiente ejemplo:
+
+https://www.norwegiancreations.com/2017/09/arduino-tutorial-using-millis-instead-of-delay/
+
