@@ -42,6 +42,10 @@ Primero partí modelando una pieza con las formas base del parlante, para estima
 
 Para el modelado de la concha tuve que buscar algunos videos tutoriales, ya que su forma es bastante orgánica y compleja, con curvas irregulares y detalles difíciles de replicar sin una guía. Estos recursos me ayudaron a entender mejor cómo construir la estructura y lograr que se viera natural.
 
+> Video de referencia [Snail 3D Modeling in Rhino 6 (Part 1) : Jewelry CAD Design Tutorial ](https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut)
+>
+> Video de referencia [Snail 3D Modeling in Rhino 6 (Part 2) : Jewelry CAD Design Tutorial ](https://youtu.be/xSrwAgZVyjk?si=gVwk68qb_5_5fiII)
+
 ![captura](imagenes/captura-espiral01.png)
 
 Insertar foto de boceto*
