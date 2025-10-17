@@ -37,12 +37,6 @@ Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta
 
 ***
 
-Mapa de flujo
-
-![diagrama de flujo](https://mermaid.ink/img/pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo?type=png)
-
-***
-
 #### Presentación textual de la propuesta
 
 Nuestra máquina consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado por una persona a la vez.
@@ -102,9 +96,73 @@ Después de conseguir que el sensor funcionara y mostrara los valores registrado
 
 Pese a ello se continuaron revisando los códigos de las otras piezas, fusionando las "líneas" del servomotor para montar el "radar".
 
+```cpp
+// --- CONFIGURATION CONSTANTS FOR THE RADAR ---
+const int radarServoPin = 9;  // el pin del servoRadar
+const int anguloMin = 0;       // limite izquierdo del servo
+const int anguloMax = 180;      // limite derecho del servo
+const int servoStep = 1; // cuantos grados por paso
+const int servoTime = 15; // milisegundos que espera entre cada paso (millis)
+
+// --- HARDWARE OBJECT ---
+Servo radarServo; // Crear objeto
+
+// --- STATE VARIABLES (memoria) ---
+int anguloRadarActual = anguloMin; // comienza al angulo mínimo
+bool direccionRadar = 1;            // 1 es hacia la derecha, 0 es a la izquierda
+unsigned long lastServoMoveTime = 0; // cuando movimos el servo por ultima vez
+```
+
+Tras más proceso, y días de pedir ayuda a profesores y compañeros es que se llegó a un buen resultado.
+Los contenidos se encuentran en la carpeta ["codigo-final-arduino"](./codigo-final-arduino)
+
+```cpp
+/*
+Grupo-04
+
+Integrantes:
+
+10-brauliofigueroa2001
+13-Bernardita-lobo
+17-jotamorales-romulus
+20-Camila-Parada
+28-FranUDP
+
+Conexiones:
+
+ServoRadar = Pin 9
+
+ServoOjos = Pin 10
+
+SensorUltrasonico | Trig = Pin 12 | Echo = Pin 11
+
+Mp3 = Pin 8
+
+*/
+
+#include "SensorUltrasonico.h"
+#include "Rotador.h"
+#include "Ojos.h"
+
+Rotador rotador;
+SensorUltrasonico ultrasonico;
+Ojos ojos;
+
+void setup() {
+  Serial.begin(115200);
+  ultrasonico.configurar();
+  rotador.configurar(&ultrasonico, &ojos); 
+  ojos.configurar();
+}
+
+void loop() {
+  rotador.radar();
+}
+```
+
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-#### 2 Servomotor SG90 y movimiento ocular
+#### 2) Servomotor SG90 y movimiento ocular
 
 En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
 
@@ -310,30 +368,15 @@ Gracias a la idea de franudp el código de cada parte se volvió más simple. Au
 
 #### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
-Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conceptual del trabajo. Nuestra primera opción, antes de profundizar en el funcionamiento y en los cambios técnicos que fuimos realizando, fue trabajar con el concepto del sin sentido y la sinestesia, mezclando los sentidos como experiencia a través de los sensores.
+Como requisito fundamental para diseñar las carcasas es que hubo que profundizar en el funcionamiento y en los cambios técnicos que surgieron en cuanto al desarrollo del circuito eléctrico y el funcionamiento de cada pieza.
 
-Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh.
+#### A) Carcasa Cangrejo (servo, sersor ultrasonico y arduino)
 
-Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
+![gif](imagenes/gif-cangrejo.gif)
 
-insertar bocetos*
-
-#### Carcasa Speaker
-
-Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
-
-![foto](imagenes/captura-espiral01.png)
-
-![foto](imagenes/captura-espiral02.png)
-
-![foto](imagenes/captura-espiral03.png)
-
-#### Carcasa servo, sersor ultrasonico y arduino
-
-Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
+Al tener una idea más concreta, decidimos tematizar la "envoltura" de los elementos de la parte principal del proyecto, cubriendo el Arduino, el servomotor y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
 ![imagen](./imagenes/boceto-cangrejo-carcasa.jpg)
-Tanto el cangrejo con los ojos como la piedra para el sensor con el servo fueron modelados en Rhino y Fusion 360, e impresos en el LID.
 
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
@@ -345,19 +388,11 @@ Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocu
 
 ![foto](imagenes/proceso-carcasa-caracola.jpg)
 
-![imagen](./imagenes/proceso-carcasa-cangrejo.jpg)
-
-#### B Carcasa Speaker (speaker, MP3 DFPlayer Mini)
-
-Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
-
-![foto](imagenes/proceso-carcasa-caracola.jpg)
-
 ***
 
-#### Reflexiones individuales
+### Reflexiones individuales
 
-#### - Braulio Figueroa
+#### - Braulio Figueroa:
 
 Creo que la mayor dificultad que enfrentamos en el proyecto fue la comunicación y el entender las distintas capacidades de los demás para poder llegar a ser un grupo que tuviera una mayor cohesión. En diversas ocasiones sentí que nos separábamos mucho como grupo y sentía que nos queríamos decir más cosas como equipo, pero al final no lo hacíamos, no sé si por vergüenza o por incomodidad. No sé si seré la única persona del grupo que se sintió así.
 
@@ -366,22 +401,27 @@ Creo que no me pude terminar de sentir en un ambiente cómodo en el grupo, pero 
 En cuanto al proyecto en sí, creo que me gustaría implementar más cosas para hacerlo más parecido a una especie de juguete que huya de las personas cuando las detecte, estilo cangrejo que camina de lado y que al mismo tiempo pueda tener algún tipo de detección de obstáculos para hacerlo más dinámico e interactivo con un potencial público.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Bernardita Lobo:
+
+Yo creo que lo que más me costó en este primer proyecto fue sentirme preparada para gestionar algo así, ya que varias veces sentí que no sabía lo suficiente para trabajar con programación. 
+
+Se podría decir que “perdí” bastante tiempo repasando conceptos de programación en general para sentirme más al día. Por eso, no pude involucrarme tanto en el código como me habría gustado, participando principalmente en la búsqueda de referencias. 
+
+Además, siento que no tuvimos una comunicación tan buena y no supimos repartir bien el trabajo según nuestras habilidades. Cada integrante fue avanzando a distintos ritmos y en diferentes partes del proyecto, lo que hizo difícil concretar y unir todas las versiones de los códigos al final.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - José Morales:
 
-#### - José Morales
+Primero, quiero agradecer el trabajo realizado por el equipo, ya que fue grato colaborar y compartir ideas durante el desarrollo del proyecto. En cuanto a mi participación, reconozco que algunas tareas se me hicieron complejas y más de alguna vez me ganó la ansiedad. Al haber tantas cosas por resolver al mismo tiempo, me sentí un poco abrumado, especialmente al intentar programar el código del audio randomizado. Aunque logré avanzar, se me dificultó lograr que funcionara correctamente junto con el resto de cosas, lo que me llevó a comprender mejor la importancia de la integración y la comunicación entre las distintas partes del proyecto. 
 
-Primero, quiero agradecer el trabajo realizado por el equipo, ya que fue grato colaborar y compartir ideas durante el desarrollo del proyecto. En cuanto a mi participación, reconozco que algunas tareas se me hicieron complejas y más de alguna vez me ganó la ansiedad. Al haber tantas cosas por resolver al mismo tiempo, me sentí un poco abrumado, especialmente al intentar programar el código del audio randomizado. Aunque logré avanzar, se me dificultó lograr que funcionara correctamente junto con el resto de cosas, lo que me llevó a comprender mejor la importancia de la integración y la comunicación entre las distintas partes del proyecto.
-
-El modelado y prototipado fueron un verdadero desafío, ya que comenzamos a trabajarlos cuando el proyecto ya estaba avanzado. Creo que, si hubiésemos abordado esa etapa desde el inicio, habríamos tenido más oportunidades para hacer pruebas, detectar errores y mejorar el diseño. También creo que podríamos haber explorado un objeto más compacto, algo que integrara varias funciones.
+El modelado y prototipado fueron un verdadero desafío, ya que comenzamos a trabajarlos cuando el proyecto ya estaba avanzado. Creo que, si hubiésemos abordado esa etapa desde el inicio, habríamos tenido más oportunidades para hacer pruebas, detectar errores y mejorar el diseño. También creo que podríamos haber explorado un objeto más compacto, algo que integrara varias funciones. 
 
 Finalmente, el trabajo en grupo fue clave para avanzar, pero también hubo momentos en los que se notaron algunas debilidades en la organización y en la gestión del tiempo. Hubo ideas que se estancaron y tiempos muertos que afectaron el ritmo del proyecto. Ha futuro me gustaría que hubiese una planificación clara y una distribución equitativa de tareas.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Camila Parada:
 
-#### - Camila Parada
-
-Este encargo fue un nuevo desafío personalmente. Siento que dos de mis dificultades son la comunicación y el querer hacer siempre más, no quedando satisfecha con los resultados obtenidos. Esta sensación y mi compromiso con el grupo y el taller (curso) es lo que me hace moverme para seguir avanzando.
+Este encargo fue un nuevo desafío personalmente. Siento que dos de mis dificultades son la comunicación y el querer hacer siempre más, no quedando satisfecha con los resultados obtenidos. Esta sensación y mi compromiso con el grupo y el taller (curso) es lo que me hace moverme para seguir avanzando. 
 
 Siento que fue un poco complejo organizarse como equipo, dado que no había una comunicación muy efectiva, no había un entendimiento mutuo sobre los objetivos de cada uno, y no había una figura que pudiera ayudar a administrar y poner orden. El haber trabajado con herramientas como “Github” o “Discord” no aportaba demasiado a acortar esto, puesto que al tener que trabajar con distintos códigos hizo que existieran más desencuentros.
 
@@ -390,12 +430,11 @@ Por otra parte, mi proceso de trabajo fue a un ritmo más lento y con muchas exp
 No negaré que mi mente me juega en contra, y que las situaciones externas han detonado más la distimia. Pese a ello me interesa poder seguir desarrollando proyectos en conjunto y seguir aprendiendo de sensores u actuadores, además de nuevas tecnologías.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Francisco Stephens:
 
-#### - Francisco Stephens
+Personalmente me enredé mucho con el “OOP”, estuve como dos semanas dando vueltas en círculos intentando comenzar a hacer el código, no fue hasta que @montoyamoraga tomó lo poco que teníamos y nos dio una base clara desde donde comenzar a construir el código, quizás hubiese sido beneficioso tener esas revisiones de código en clase antes. 
 
-Personalmente me enredé mucho con el “OOP”, estuve como dos semanas dando vueltas en círculos intentando comenzar a hacer el código, no fue hasta que @montoyamoraga tomó lo poco que teníamos y nos dio una base clara desde donde comenzar a construir el código, quizás hubiese sido beneficioso tener esas revisiones de código en clase antes.
-
-También encontré que trabajar en el código con múltiples personas era muy confuso, pues sabiendo lo frágil que es el código, escribirlo teniendo en cuenta que sea “futureproof”, para que no se rompa a cada rato fue un jaleo. Creo que hubiese sido beneficioso haber visto en clase como anticipar estos problemas y programar entre varios.
+También encontré que trabajar en el código con múltiples personas era muy confuso, pues sabiendo lo frágil que es el código, escribirlo teniendo en cuenta que sea “futureproof”, para que no se rompa a cada rato fue un jaleo. Creo que hubiese sido beneficioso haber visto en clase como anticipar estos problemas y programar entre varios. 
 
 Por último, nos pasó que todos avanzábamos a distintos ritmos, lo que ocasionó que terminase escribiendo casi todo el código, pues yo ya había terminado mi parte mientras los otros seguían trabajando en el modelado, investigando referentes y demás, no es que esto me moleste, nomás que me desorienta no estar actualizado sobre qué está pasando con cada uno, para poder anticipar y planificar mejor.
 
@@ -419,7 +458,6 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos>
 - <https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini>
 - <https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/>
-- <https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut>
 - <https://www.youtube.com/watch?v=5X0v0MOrQiI>
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
