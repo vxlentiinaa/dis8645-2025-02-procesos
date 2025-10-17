@@ -46,3 +46,23 @@ Si el usuario presiona el botón, vuelve al menú principal.
 
 - Pantalla OLED .Muestra el menú de idiomas y los mensajes.
 - Módulo DFPlayer Mini + parlante .Reproduce el audio de saludo en el idioma seleccionado.
+
+## Roles del equipo
+
+01-antokiaraa:
+Se encargó del desarrollo del código final del proyecto, incluyendo la creación de las imágenes en formato bitmap para la pantalla. Además, colaboró en el montaje físico, en la integración de los audios y en la búsqueda del cableado necesario para el correcto funcionamiento del sistema.
+
+16-javieramoraga-rgb:
+Estuvo a cargo del desarrollo, organización y confección del código principal. También realizó la investigación de referencias necesarias, pruebas de funcionamiento en Wokwi y Arduino, y participó en la redacción del archivo README del proyecto.
+
+18-ppia97:
+Contribuyó en las pruebas de distintos códigos, la búsqueda e incorporación de los audios, la redacción del README y el montaje de las piezas. Además, participó en la investigación relacionada con el cableado del circuito.
+
+19-Hiinalia:
+Trabajó en el desarrollo del código para los sensores de aplausos y sonido, así como en el montaje físico del proyecto. También se encargó de la base y la carcasa, asegurando una correcta estructura y presentación del prototipo.
+
+24-Joquape:
+Se encargó del desarrollo y pruebas de los sensores de aplausos y sonido, colaborando en el montaje de la base y la creación de la carcasa del proyecto. Además, participó en la redacción del README y en la documentación final del trabajo.
+
+☆ La recopilación y organización final del proyecto fue un trabajo colaborativo de todo el equipo.
+
