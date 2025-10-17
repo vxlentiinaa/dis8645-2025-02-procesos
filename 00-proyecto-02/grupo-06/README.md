@@ -229,13 +229,6 @@ void setup() {
 }
 ```
 
-- Etapa 2: Creación de objetos
-- Etapa 3: Variables de control
-- Etapa 4: setup () - Configuración inicial
-- Etapa 5: loop () - Ejecución inicial
-- Etapa 6: Funciones auxiliares
-
-
 Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/SebastianSaez1003) nos ayudó a armar el código y además nos dio instrucciones y pasos a seguir. A continuación, se muestra un extracto del código en el que nos ayudó:
 
 ```cpp
@@ -409,6 +402,7 @@ Personalmente, se me dificultó el tema de las clases, me costó mucho lograr ha
 - Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
 
 - Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
+
 
 
 
