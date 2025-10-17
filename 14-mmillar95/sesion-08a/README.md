@@ -1,4 +1,4 @@
-# sesion-08a / Clase 00 / 30.09.2025
+# sesion-08a / Clase 14 / 30.09.2025
 
 Aarón mostró un sintetizador de [chompi](https://chompiclub.com/?srsltid=AfmBOoo2Sy8_3jn8NwnIu6cwiAqlvccJxFe7TZNzB6MteQ_q5BrRmyWa)
 
