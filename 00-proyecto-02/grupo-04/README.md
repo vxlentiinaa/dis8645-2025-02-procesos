@@ -158,19 +158,27 @@ Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conc
 
 Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh.
 
-Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
+![boceto](imagenes/boceto01.jpeg)
 
-insertar bocetos*
+Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
 
 #### Carcasa Speaker
 
-Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
+Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. 
+
+Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
+
+![boceto](imagenes/boceto02.jpeg)
+
+Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil de conseguir al principio. Fue modelada en Rhino y luego corregimos algunos detalles en Fusion 360.
 
 ![foto](imagenes/captura-espiral01.png)
 
 ![foto](imagenes/captura-espiral02.png)
 
 ![foto](imagenes/captura-espiral03.png)
+
+![foto](imagenes/caracol-impresion3d.jpeg)
 
 #### Carcasa servo, sersor ultrasonico y arduino
 
@@ -208,3 +216,4 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
