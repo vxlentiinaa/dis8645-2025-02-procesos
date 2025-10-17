@@ -17,7 +17,7 @@
 
 El proyecto consiste en un robot que saluda mediante la interacción con algún humano, por medio de el sensor de ultrasónico programado con Arduino R4 Minima. A través, de las diferentes distancias puede recorrer tres fases de audios:
 
-`Diálogo:`
+`DIÁLOGOS:`
 
 `Audios de saludo: Fase 1 y 2`
 
@@ -73,7 +73,7 @@ Esquemático hecho por misa en clase.
 
 ![imagenProceso](./imagenesProyecto-02/mosfet-m.png)
 
-`Reacciones`
+`REACCIONES`
 
 1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor vibración Joystick la accíon de temblar aumentará entre más cerca estés.
 2. El sensor detectará presencia en 3 instancias: 2 - 20 cm, 70 - 90cm, 130 - 150cm.
@@ -98,6 +98,16 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ### Más procesos de códigos y fotografías en Github
 
+`DIFICULTADES Y DESAFÍOS`
+
+Tuvimos muchas dificultades, pero solucionables.
+
+- Una de las primeras dificultades fue definir bien el proyecto, ya que la primera idea podría pasar el dialecto de una cultura. Recordemos que se basaba en un selector de idiomas con joystick y que cada vez que uno seleccione un idioma, el robot haga un gesto. También, redactabamos ideas, pero no nos convencían y se parecían mucho a las demás.
+- Otro problema fue que no sabíamos como comenzar, estabamos un poco perdidas; pero buscamos referentes de código que sirvieron para guiarnos y así comenzar con nuestro código.
+- Una de las mayores dificultades fue el sensor ultrasónico, ya que cuando implementabamos el código, la distancia no era exacta ni tampoco la redondeaba. Por otra parte, nos complicó el reproductor MP3, primero por la tarjeta SD, ya que no era solo llegar y colocarla, había que formatearla y ver que los audios estén subidos en el orden correcto y formato correcto; probamos unos códigos pero no funcionaba y Mateo con Janis encontraron un repositorio con un código predeterminado y ahí recién funcionó.
+- Al tener estas dos funciones listas, se nos complicó la parte de reproducir los audios, ya que los decía en loop todo el rato y no se quedaba estático, no tenía tiempo de reposo.
+- Otro problema, fue juntar todos los códigos que teníamos, ya que cuando el ultrasónico medía la distancia, el audio se reproducía como lorito y el motor de vibración no vibraba. Y el servomotor tampoco se levantaba. Nos dimos cuenta que todo funcionaba bien por separado pero hubo problemas al juntarlos.
+
 ![imagenProceso](./imagenesProyecto-02/RAMoncito.png)
 
 ![imagenProceso3](./imagenesProyecto-02/imagenProceso3.jpg)
@@ -108,7 +118,7 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ## Etapas del código
 
-`Etapas de proceso de código arriba en files con fecha.`
+`ETAPAS DE PROCESO DE CÓDIGO ARRIBA EN FILES CON FECHA DE MODIFICACIONES.`
 
 ### 1. Entrada Sensor Ultrasónico
 
@@ -487,6 +497,14 @@ void reproducirAudioDirecto(int numeroAudio);
 
 ## Etapas de la carcasa
 
+`REFERENTES DE CARCASA`
+
+- Buscamos referentes que colocaran el sensor como parte del proyecto y que no se oculte. 
+
+[Original Thingamagoop](https://bleeplabs.com/original_thingamagoop/)
+
+[Drifter](https://www.floatingforestpedals.com/shop/drifter)
+
 ![vistaExplosionada](./imagenesProyecto-02/vistaExplo.png)
 
 ![imagenProceso](./imagenesProyecto-02/piezas.png)
@@ -511,7 +529,7 @@ void reproducirAudioDirecto(int numeroAudio);
 - **Vania Paredes:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
 - **Valentina Ruz:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
 
-`Al final del dia todas complementamos en todos los roles <3`
+`Al final del día todas complementamos en todos los roles <3`
 
 ## Fotografías y videos del proyecto funcionando
 
@@ -561,5 +579,3 @@ Videos en la carpeta de drive, creada por Mateo ([Encargo-02](https://drive.goog
 - Llamas, L. (s.f.). Ficheros .h y .cpp en C++. Recuperado de <https://www.luisllamas.es/cpp-ficheros-h-y-cpp/>
 - DFRobot. (s.f.). DFRobotDFPlayerMini Library. Recuperado de <https://github.com/DFRobot/DFRobotDFPlayerMini>
 - Arduino. (s.f.). Repositorio oficial de Arduino. Recuperado de <https://github.com/Arduino>
-
-
