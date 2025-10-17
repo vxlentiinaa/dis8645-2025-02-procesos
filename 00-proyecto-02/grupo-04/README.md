@@ -90,11 +90,11 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-#### 1) Ultrasónico HC-SR04
+#### 1 Ultrasónico HC-SR04
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-#### 2) Servomotor SG90 y movimiento ocular
+#### 2 Servomotor SG90 y movimiento ocular
 
 En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
 
@@ -106,7 +106,7 @@ A partir de ello es que los estudios iniciales se centraron en replicar el mecan
 
 ![imagen](./imagenes/ojitos-proyecto-inspo.jpg)
 
--> Animatronic Eyes [Fotografías], por Morgan Manly, s.f., instructables (<https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/>). CC BY-NC-SA 4.0
+-> Animatronic Eyes Fotografías, por Morgan Manly, s.f., instructables (<https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/>). CC BY-NC-SA 4.0
 
 Ante ello se pudo concluir que es necesario 3 servomotores por ojo para abrir y cerrar del parpado, además de un segundo y tercero para mover el ojo en vertical y horizontal. Además se requiere de una calibración con código para ir ajustando los motores.
 
@@ -298,12 +298,6 @@ La comunicación entre ambos se hace con una señal digital simple: un pin del A
 
 Gracias a la idea de franudp el código de cada parte se volvió más simple. Aunque no era lo ideal, fue una manera de lograr que el proyecto funcionara
 
-
-
-
-
-
-
 #### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
 Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conceptual del trabajo. Nuestra primera opción, antes de profundizar en el funcionamiento y en los cambios técnicos que fuimos realizando, fue trabajar con el concepto del sin sentido y la sinestesia, mezclando los sentidos como experiencia a través de los sensores.
@@ -343,7 +337,7 @@ Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocu
 
 ![imagen](./imagenes/proceso-carcasa-cangrejo.jpg)
 
-#### B) Carcasa Speaker (speaker, MP3 DFPlayer Mini)
+#### B Carcasa Speaker (speaker, MP3 DFPlayer Mini)
 
 Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 

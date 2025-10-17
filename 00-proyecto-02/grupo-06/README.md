@@ -1,14 +1,17 @@
 # Proyecto 02
+
 - Grupo: 06
 - Nombre de grupo: Hijos de la Tierra
 - Integrantes:
- - Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) (código, documentación)
- - Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) (modelado 3D, código)
- - Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) (código, documentación)
- - Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) (modelado 3D, código)
+- Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) (código, documentación)
+- Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) (modelado 3D, código)
+- Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) (código, documentación)
+- Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) (modelado 3D, código)
 
 ## Presentación textual
+
 ### Lil Brother
+
 Como primera propuesta, usamos la idea de [AntFuentealba](https://github.com/AntFuentealba), que consistía en una máquina que te siguiera con la mirada.
 
 Desglosando esta idea llegamos a la conclusión de que esta "mirada" debía activarse cuando se detectara de alguna forma una presencia.
@@ -20,9 +23,11 @@ Cuando el sensor ultrasónico detecta a alguien cerca, la máquina se detiene y 
 Al momento en que la persona se aleja, el sistema entra en un estado de alivio y vuelve a su comportamiento inicial, retomando el movimiento y el parpadeo en bucle.
 
 ### Mapa de flujo
+
 ![diagrama_flujo](./imagenes/diagrama_nuevo.png)
 
 ## Inputs y outputs
+
 Componentes a utilizar:
 
 - Sensores ultrasónicos (2), sensor de proximidad HC-SR04
@@ -48,9 +53,10 @@ Croquis inicial explorando el mecanismo y el movimiento deseado del sistema inte
 
 Segunda iteración del croquis, afinando proporciones y ubicación del sensor y el servo.
 
-
 ## Pseudocódigo y experimentación
+
 En un principio, lo que decidimos hacer, era probar como se movía el servomotor, y en base a esto ir decidiendo un rango, para definir la fluidez de movimiento que queriamos que tuviera. A continución se puede ver un extracto de código que utilizamos para probar el movimiento del servo.
+
 ```cpp
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -91,10 +97,13 @@ void loop() {
   }
 }
 ```
+
 Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo visitar los repos linkeados al principio del readme.
 
 ## Etapas del código
+
 - Etapa 1: Inclusión de bibliotecas
+
 ```cpp
 #include "constantes.h"
 #include "SensorProx.h"
@@ -104,27 +113,39 @@ Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo
 #include <Servo.h>
 #include <Arduino.h>
 ```
+
 - Etapa 2: Creación de objetos
+
 ```cpp
 
 ```
+
 - Etapa 3: Variables de control
+
 ```cpp
 
 ```
+
 - Etapa 4: setup () - Configuración inicial
+
 ```cpp
 
 ```
+
 - Etapa 5: loop () - Ejecución inicial
+
 ```cpp
 
 ```
+
 - Etapa 6: Funciones auxiliares
+
 ```cpp
 
 ```
+
 Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/SebastianSaez1003) nos ayudó a armar el código y además nos dio instrucciones y pasos a seguir. A continuación, se muestra un extracto del código en el que nos ayudó:
+
 ```cpp
 // Mostrar ángulo actual del servo de sensores
      int anguloActual = sensores.getAnguloActual();
@@ -136,8 +157,8 @@ Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/Seba
      unsigned long ahora = millis();
 ```
 
-
 ## Carcasas y prototipos
+
 Para el primer acercamiento, nuestro proyecto constaba de una base con unos ojo que simulaban un parpadeo y se movía en una rotación de 180°.
 
 ![primer_prototipo](./imagenes/feelMyParanoia-image.png)
@@ -150,10 +171,10 @@ Finalmente, [santiagoClifford](https://github.com/santiagoClifford) junto con [f
 
 ![proyecto_final](./imagenes/proyecto_final.png)
 
-
 ## Documentación y procesos
 
 ### Prototipado y mecanismos
+
 ![gear2-2](./imagenes/gear2-2.jpg)
 
 Diseño preliminar del engranaje que transmite el movimiento del servo al mecanismo.
@@ -167,6 +188,7 @@ Prueba del sistema en protoboard con conexión del servo y sensor ultrasónico
 Vista del archivo en el slicer antes de imprimir las piezas 3D de los engranajes.
 
 ### Pruebas de movimiento
+
 ![gif-ultrasS-gear-v2](./imagenes/gif-ultrasS-gear-v2.gif)
 
 Ensayo inicial del engranaje con el sensor ultrasónico montado.
@@ -182,7 +204,9 @@ Iteración final mostrando un movimiento fluido y sincronizado del mecanismo com
 ![gif_prueba_sensor](./imagenes/gif_prueba_sensor.gif)
 
 Probando el sensor de proximidad
+
 ### Modelado 3D y renderizado
+
 ![mecanismoPro-render](./imagenes/mecanismoPro-render.png)
 
 Render final del mecanismo ensamblado con sensor y estructura.
@@ -197,8 +221,8 @@ Serie de capturas del proceso de modelado 3D, mostrando las distintas etapas de 
 ![modelado_3d_5](./imagenes/modelado_3d_5.jpeg)
 ![modelado_3d_6](./imagenes/modelado_3d_6.jpeg)
 
-
 ### Estructura y componentes
+
 ![piezaMueble](./imagenes/piezaMueble.png)
 
 Diseño de la pieza estructural donde se monta el sistema mecánico.
@@ -211,17 +235,19 @@ Carcasa del sensor ultrasónico diseñada para proteger y alinear la lectura.
 
 Detalle del acoplamiento entre el sensor y la línea de engranajes.
 
+## Referentes
 
-## Referentes 
 ### Estéticos
+
 Para este proyecto quisimos que tuviera una aparencia mas brutalista, que cause rechazo el verlo, por esta razón decidimos no hacer una carcasa que contuviera todos los componentes, en cambio decidimos hacer una extructura abierta, dejando cables expuestos y logrando visualizar cada pieza del proyecto fácilmente
 
 Para entender un poco la estética de nuestro proyecto nos basamos en los siguientes referentes:
 
-- [1984 de George Orwell] - Para dar la sensación de sentirse vigilado constantemente
-- [Around the world - Daft Punk ](https://www.youtube.com/watch?v=K0HSD_i2DvA) - Para la estructura en sí, tipo circular, con engranajes que rotan y estructuras con diferentes niveles y alturas.
+- 1984 de George Orwell - Para dar la sensación de sentirse vigilado constantemente
+- [Around the world - Daft Punk](https://www.youtube.com/watch?v=K0HSD_i2DvA) - Para la estructura en sí, tipo circular, con engranajes que rotan y estructuras con diferentes niveles y alturas.
 
 ### Musicales
+
 El concepto de la paranoia ha sido trabajado múltiples veces por grandes exponentes de la música. Cada uno de ellxs dando su punto de vista de cómo es afectadx por la paranoia, y como ésta se manifiesta en sus vidas.
 
 - [Paranoid Android - Radiohead](https://youtu.be/Lt8AfIeJOxw)
@@ -229,8 +255,6 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Paranoid - Black Sabbath](https://youtu.be/fWvKvOViM3g)
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
-
-## Bibliografía
 
 ## Reflexión
 
@@ -242,15 +266,13 @@ Por otro lado, trabajar en la documentación, los bocetos y el seguimiento del p
 
 En resumen, aunque fue un proceso desafiante y muchas veces complejo, especialmente en la parte del código, este proyecto me enseñó la importancia de la paciencia, la colaboración y la iteración constante. Los errores y confusiones se convirtieron en oportunidades de aprendizaje, y el resultado final reflejó el esfuerzo colectivo y la perseverancia de todo el grupo.
 
-
-[santiagoClifford](https://github.com/santiagoClifford) : 
+[santiagoClifford](https://github.com/santiagoClifford) :
 
 Mi principal tarea en este proyecto fue el diseño y frabricación ddl circuito mecánico que impulsa el robot. Debido a limitaciones temporales, las fases de diseño, fabricación y prototipado, se vieron difuminadas entre sí. Esto provocó un efecto de "tunnel vision" en mí, y me concentré tanto en estudiar los engranajes y los mecanismos propios del robot, que dejé de lado otros aspectos igual de importantes. Como reflexión puedo decir que para otras ocasiones me gustaría hacer el esfuerzo de, por momentos, desconectarme del proyecto, con el objetivo de poder evaluarlo desde una perspectiva menos personal.
 
-
 [sofia-perezm](https://github.com/sofia-perezm)
 
-Personalmente, una de las cosas que más me costó fue que el proyecto se fue haciendo más difícil y técnico, lo que me generó bastante frustración y estrés. Hubo momentos en los que sentí que no estaba al mismo nivel que mis compañeros, y eso me hizo dudar de mis capacidades. A pesar de que el proyecto me gusta mucho y encuentro que la idea es muy interesante, esas emociones estuvieron muy presentes y afectaron mi rendimiento. Sin embargo, también me hicieron darme cuenta de hasta dónde puedo llegar, y aprender a reconocer mis propios límites cuando las cosas se vuelven demasiado exigentes. Fue un proceso intenso, pero también un aprendizaje importante sobre cómo manejar la presión y la frustración. 
+Personalmente, una de las cosas que más me costó fue que el proyecto se fue haciendo más difícil y técnico, lo que me generó bastante frustración y estrés. Hubo momentos en los que sentí que no estaba al mismo nivel que mis compañeros, y eso me hizo dudar de mis capacidades. A pesar de que el proyecto me gusta mucho y encuentro que la idea es muy interesante, esas emociones estuvieron muy presentes y afectaron mi rendimiento. Sin embargo, también me hicieron darme cuenta de hasta dónde puedo llegar, y aprender a reconocer mis propios límites cuando las cosas se vuelven demasiado exigentes. Fue un proceso intenso, pero también un aprendizaje importante sobre cómo manejar la presión y la frustración.
 
 Pensando a futuro, creo que este proyecto tiene mucho potencial para seguir desarrollándose. Me gustaría mejorar los movimientos para que se vean más naturales y quizás agregarle luces o algún tipo de sonido que refleje emociones, haciendo que la interacción con la máquina sea más viva y expresiva. Todo lo aprendido en este proyecto me deja con una mirada más consciente sobre lo que implica trabajar con tecnología: no solo se trata de programar o armar circuitos, sino también de lidiar con el cansancio, la paciencia y la autoconfianza.
 
@@ -277,4 +299,3 @@ Pensando a futuro, creo que este proyecto tiene mucho potencial para seguir desa
 - Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
 
 - Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
-
