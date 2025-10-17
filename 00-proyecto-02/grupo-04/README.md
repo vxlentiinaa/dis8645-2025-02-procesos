@@ -1,4 +1,4 @@
-<img width="994" height="805" alt="image" src="https://github.com/user-attachments/assets/6f347443-df39-4a25-be4c-3447a51cb102" /># ⋆⭒˚.⋆ └[∵┌] - Máquina de saludo - Nombre del Proyecto - [┐∵]┘ ⋆.˚⭒⋆
+# ⋆⭒˚.⋆ └[∵┌] - Máquina de saludo - Nombre del Proyecto - [┐∵]┘ ⋆.˚⭒⋆
 
 Viernes 17 Octubre 2025
 
@@ -54,6 +54,12 @@ La primera pieza se compone de una imitación de un “cangrejo”, una réplica
 
 ***
 
+### Mapa de flujo
+
+[![](https://mermaid.ink/img/pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo?type=png)](https://mermaid.live/edit#pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo)
+
+***
+
 ### Desarrollo
 
 Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error que fueron registrados de forma independiente en las bitácoras desde la clase “07a” hasta la fecha de entrega. Estos fueron agrupados de forma lineal.
@@ -64,7 +70,7 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-#### 2) Servomotor SG90
+#### 2) Servomotor SG90 y movimiento ocular
 
 En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
 
@@ -256,15 +262,35 @@ Al tener una idea más concreta, decidimos tematizar la "envoltura" de los eleme
 
 Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 
-![foto](imagenes/captura-espiral01.png)
-
-![foto](imagenes/captura-espiral02.png)
-
-![foto](imagenes/captura-espiral03.png)
+![foto](imagenes/proceso-carcasa-caracola.jpg)
 
 ***
 
-## Comentarios finales
+### Reflexiones individuales
+
+#### - Braulio Figueroa:
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Bernardita Lobo:
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - José Morales:
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Camila Parada:
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Francisco Stephens:
+
+Personalmente me enredé mucho con el “OOP”, estuve como dos semanas dando vueltas en círculos intentando comenzar a hacer el código, no fue hasta que @montoyamoraga tomó lo poco que teníamos y nos dio una base clara desde donde comenzar a construir el código, quizás hubiese sido beneficioso tener esas revisiones de código en clase antes. 
+
+También encontré que trabajar en el código con múltiples personas era muy confuso, pues sabiendo lo frágil que es el código, escribirlo teniendo en cuenta que sea “futureproof”, para que no se rompa a cada rato fue un jaleo. Creo que hubiese sido beneficioso haber visto en clase como anticipar estos problemas y programar entre varios. 
+
+Por último, nos pasó que todos avanzábamos a distintos ritmos, lo que ocasionó que terminase escribiendo casi todo el código, pues yo ya había terminado mi parte mientras los otros seguían trabajando en el modelado, investigando referentes y demás, no es que esto me moleste, nomás que me desorienta no estar actualizado sobre qué está pasando con cada uno, para poder anticipar y planificar mejor.
+
+***
+
+### Comentarios finales
 
 Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si por el hecho de tener a un ser humano como el usuario "iniciador de esta actividad" es que se pueden generar interacciones con objetos o hasta lugares. Es un acto temporal pero que puede persistir en la memoria de quienes, por ejemplo, conocen o se vuelven a encontrar con lugares tales como el mar.
 
@@ -286,4 +312,5 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
