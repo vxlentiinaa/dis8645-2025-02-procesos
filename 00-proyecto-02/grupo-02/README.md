@@ -54,7 +54,7 @@ Consiste en un dispensador de chicles con cuatro colores:
 7. El proceso se repite con cada chicle.
 
 ### ✏️ Mapa de flujo
-
+```mermaid
 flowchart TD
     n1(["Inicio"]) --> n2["El usuario gira la manilla para que caiga un chicle"]
     n2 --> n3["El chicle pasa por el sensor de color"]
@@ -978,6 +978,7 @@ Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos q
 - TechToTinker. (2021, enero 24). GC9A01 round LCD display module using Arduino [Video]. YouTube. (https://www.youtube.com/watch?v=pmCc7z_Mi8I&t=291s)
 - Programming Electronics Academy. (2018, diciembre 27). How to use the DFPlayer Mini MP3 module with Arduino [Video]. YouTube.
   (https://www.youtube.com/watch?v=XGBhlo3DI4E)
+
 
 
 
