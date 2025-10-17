@@ -53,6 +53,15 @@ Y con ello un video sobre ello:
 
 [![Revisión final](https://img.youtube.com/vi/Mq5pnBlaCGg/hqdefault.jpg)](https://youtube.com/shorts/Mq5pnBlaCGg?feature=share)
 
+---
 
+
+¡Pero eso fue todo! Muchas gracias por mirar todo esto. Fue un proceso largo (en mi caso, con la pantalla fue una relación de amor y odio), pero conocí a gente genial que, en otra ocasión, no habría conocido.
+
+Gracias a todos! <3
+
+![Final](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-10a/imagenes/Final.jpg)
+
+(Bueno eso y que ahora me hare un pequeño habito de ir para estar con la gente :3)
 
 
