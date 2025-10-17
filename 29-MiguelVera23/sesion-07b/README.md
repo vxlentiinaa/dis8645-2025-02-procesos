@@ -1,16 +1,10 @@
 # sesion-07b
-
-
-Intentar tener todo el código sin tener que bajar la barra.
-
-Programar es decidir como son las cosas.
-
-Ejercicio: Planificar el macro y configurar sensores.
-
-Empezar con pseudocódigo y después vemos como se implementa.
-
-
-Aproximación a configurar los sensores actuadores
+## Objetivos
+- Intentar tener todo el código sin tener que bajar la barra.
+- Programar es decidir como son las cosas.
+- Ejercicio: Planificar el macro y configurar sensores.
+- Empezar con pseudocódigo y después vemos como se implementa.
+- Aproximación a configurar los sensores actuadores
 
 ```cpp
 void configurarSensoresActuadores(){
@@ -104,3 +98,5 @@ void GetColors()
 }
 ```
 ![diagrama de flujo hecho a mano](./imagenes/diagramaFlujo.jpeg)
+
+El ejercicio del diagrama de flujo me ayudo a entender mejor la construcción del código. Ver paso a paso que quiero que ocurra y que hay en el código encargado de hacerlo real hace más simple arreglar errores y añadir funciones. Más facil decirlo que hacerlo pero creo que mirar una parte a la vez hace mucho más abordable la programación. Por esta razón creo que el trabajo en grupo (en este caso) es lo más acertado.

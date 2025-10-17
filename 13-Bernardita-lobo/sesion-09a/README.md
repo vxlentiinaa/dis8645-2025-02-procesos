@@ -1,5 +1,7 @@
 # Sesión-09a
 
+Martes 07 de octubre, 2025
+
 ## Trabajo en clase
 
 ### Cosas que hablamos en la mañana
@@ -151,6 +153,8 @@ void loop() {
 }
 ```
 
+![foto arduino](imagenes/sesion09a.jpeg)
+
 La idea es hacer un listado de frases y sonidos para poder reproducirlos de forma aleatoria con el monitor serial.
 
 Igual, me pregunto si realmente es necesario que sea aleatorio, si de por sí ya tenía un orden desconectado, aunque puede funcionar como un listado independiente.
@@ -165,13 +169,11 @@ Luego, como encargo o tarea, volví a repasar en mi casa.
 
 -
 
-### Palabras impoertantes
+### Palabras importantes
 
 ---
 
-## Encargo
-
-### Repaso
+## Encargo: Repaso
 
 Como mencioné, volví a repasar un poco y fui haciendo algunos ejemplos que dejé registrados en la clase 01b, ya que ahí había un encargo parecido que sentía que no podía hacer muy bien, así que lo volví a realizar.
 

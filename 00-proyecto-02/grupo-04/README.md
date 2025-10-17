@@ -4,28 +4,43 @@ Viernes 17 Octubre 2025
 
 ***
 
-## Grupo-04 "nombre del grupo" : Integrantes
+![gif](imagenes/gif.gif)
+
+## Grupo-04 "nombre del grupo" - Integrantes
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
 - [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
-- [Jose Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa)
-- [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación, registro visual, modelado mecanismo ocular)
-- [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código)
+- [José Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa, post producción)
+- [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación)
+- [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código, modelado)
 
 ***
 
 ## Introducción
 
 Este proyecto se centra en desarrollar una "caja negra" que pueda "saludar".
-El saludo de define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo). Por otra parte, ["El saludo es un gesto de la vida cotidiana y profesional, una señal de respeto y consideración hacia los demás"](https://123emprende.com/blog/la-importancia-de-saludar-correctamente/).
+El saludo de define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo).
 
-A partir de estas definiciones es que comenzamos a ahondar en el sentido conceptual de lo que es un saludo, ya no como una actividad humana sino como una interacción que se puede emitir con objetos como por ejemplo una inteligencia artificial.
+A partir de esta definición es que como equipo comenzamos a ahondar en el sentido conceptual de lo que es un saludo, ya no como una actividad humana sino como una interacción que se puede emitir con otros “sujetos” u objetos, como por ejemplo una inteligencia artificial.
+
+Ello a modo de crear una experiencia enfocada en la exploración de la interacción de un “saludo” con un paisaje. ¿Podemos saludar a un lugar? Si, el libre albedrío nos permite hacer lo que queramos. ¿Recibiremos respuesta de ello? Probablemente no, dado que se tratan de objetos u espacios inanimados, por lo que solo podemos apreciar y contemplar lo que nos ofrecen estos mismos.
+
+A partir de esta definición es que como equipo comenzamos a ahondar en el sentido conceptual de lo que es un saludo, ya no como una actividad humana sino como una interacción que se puede emitir con otros “sujetos” u objetos, como por ejemplo una inteligencia artificial.
+Ello a modo de crear una experiencia enfocada en la exploración de la interacción de un “saludo” con un sitio.
+
+─ ¿Podemos saludar a un lugar?
+
+Si, el libre albedrío nos permite hacer lo que queramos.
+
+─ ¿Recibiremos respuesta de ello?
+
+Probablemente no, dado que se tratan de objetos u espacios inanimados, por lo que solo podemos apreciar y contemplar lo que nos ofrecen estos mismos.
 
 Por otra parte, vale aclarar que al comienzo del trabajo no hubo una idea clara sobre qué dispositivo desarrollar. Por ello se creó una propuesta colectiva a partir de las tareas efectuadas en la clase "06b", tomando la decisión de crear un mecanismo que posea ojos y que siga con la "mirada" al usuario a través de un sensor de presencia que detecte su posición en el espacio. Al identificar que la persona se encuentra a cierta distancia, una de las partes de la máquina comienza a emitir sonido de forma aleatoria, sin un orden establecido.
 
 ¿Por qué hacer que se reproduzca un sonido [aleatorio](https://es.wikipedia.org/wiki/Azar#:~:text=El%20azar%20es%20una%20casualidad,Azar%20en%20matem%C3%A1ticas)?
 Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta máquina genera un factor "sorpresa", puesto que depende del artefacto el elegir qué sonidos va a transmitir.
-
++
 ***
 
 ## Presentación textual de la propuesta
@@ -135,40 +150,33 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
-Aarón esta parte fue hecha por braulio y jota pero no supimos integrarlo al codigo principal, por lo cual utilizamos ia para integrarlo, pero dio muchos errores. Porfa ayuda
-
-Para el proyecto teníamos que lograr que el sensor ser comunique con el reproductor mp3. Para esto primero lo simulamos con un botón. Cada vez que se presiona el botón conectado al pin 2, el programa le ordena a un módulo DFPlayer Mini que reproduzca una pista de audio MP3 al azar de la tarjeta SD. El código también se encarga de evitar falsas presiones del botón y muestra en el monitor serial qué pista se está reproduciendo o si ocurre algún error. Al iontegrar al codigo principal se remplazaria el boton, por el ultrasonico. 
-
-¿Cual es el flujo a seguir para que el sensor ultrasonico y el servomotor se comuniquen con el modelo mp3?
-
-```mermaid
-flowchart TD
-F(ServoRadar comienza en la posición inicial **anguloMin**) --> A
-A{¿Es la posición actual igual a **anguloMax**?} --> |No| B(Servo avanza **paso** grados a la derecha) --> |Termina de moverse| C(ultrasonico mide distancia) --> D(Guarda el valor asignado al grado del servo) -->A
-A --> |Sí| E(Servo avanza **paso** grados a la izquierda) --> |Termina de moverse| G(Ultrasonico mide distancia) --> H(Compara medición actual con la anterior correspondiente al mismo angulo) --> I{Son los 2 valores iguales? considerando **margenError**}
-I --> |No| J(Mover **servoOjos** al angulo cuyos valores difieren)
-I --> |Sí| E 
-C --> K{¿Es la distancia medida inferior o igual a **distAudio**?} --> |Sí| L(Reproduce uno de los audios del mp3 al azar)
-G --> K --> |No| M(No reproducir audio)
-L --> N{¿se terminó de reproducir el audio?} -->|Sí| O(desactivar con un delay **chao** para dar tiempo al usuario de irse) -->F
-```
-
-El servomotor actúa como un radar, moviéndose de un lado a otro. En cada paso, el sensor ultrasónico mide qué tan lejos están los objetos. Si el sensor detecta que algo está demasiado cerca, le envía una orden al módulo MP3 para que reproduzca un sonido. Mientras el sonido se reproduce, todo lo demás se detiene. Espera unos segundos y se reinicia.
-
-
-
-
-
-
-
-
-
-
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
 ### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
-Parte a recopilar, Info de jota y berni
+Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conceptual del trabajo. Nuestra primera opción, antes de profundizar en el funcionamiento y en los cambios técnicos que fuimos realizando, fue trabajar con el concepto del sin sentido y la sinestesia, mezclando los sentidos como experiencia a través de los sensores.
+
+Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh.
+
+Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
+
+insertar bocetos*
+
+#### Carcasa Speaker
+
+Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
+
+![foto](imagenes/captura-espiral01.png)
+
+![foto](imagenes/captura-espiral02.png)
+
+![foto](imagenes/captura-espiral03.png)
+
+#### Carcasa servo, sersor ultrasonico y arduino
+
+Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
+
+insertar foto de modelado cangrejo*
 
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
@@ -182,7 +190,7 @@ Texto texto texto
 
 ## Comentarios finales
 
-Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si por el hecho de tener a un ser humano como el usuario "iniciador de esta actividad" es que se pueden generar interacciones con objetos o hasta lugares. Es un acto temporal pero que puede persistir en la memoria de quienes, por ejemplo, conocen o se vuelven a encontrar con lugares tales como el mar. ¿Podemos saludar a un lugar? Si, el libre alvedrío nos permite hacer lo que querramos. ¿Recibiremos respuesta de ello? Probablemente no, dado que se tratan de objetos u espacios inanimados, por lo que solo podemos apreciar y contemplar lo que nos ofrecen estos mismos.
+Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si por el hecho de tener a un ser humano como el usuario "iniciador de esta actividad" es que se pueden generar interacciones con objetos o hasta lugares. Es un acto temporal pero que puede persistir en la memoria de quienes, por ejemplo, conocen o se vuelven a encontrar con lugares tales como el mar.
 
 ***
 
@@ -200,10 +208,3 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
-
-
-
-
-
-
-
