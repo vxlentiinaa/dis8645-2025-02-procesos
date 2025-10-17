@@ -2,10 +2,10 @@
 - Grupo: 06
 - Nombre de grupo: Hijos de la Tierra
 - Integrantes:
- - Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba)
- - Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford)
- - Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm)
- - Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416)
+ - Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) (código, documentación)
+ - Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) (modelado 3D, código)
+ - Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) (código, documentación)
+ - Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) (modelado 3D, código)
 
 ## Presentación textual
 ### Lil Brother
@@ -40,7 +40,7 @@ En la primera etapa teniamos pensado como grupo el usar dos micrófonos MAX4466,
 - Etapa 5: loop () - Ejecución inicial
 - Etapa 6: Funciones auxiliares
 
-Nuestro compañero Sebastián Saez (mencionar github) nos ayudo a armar el codigo y ademas nos dio instrucciones y pasos a seguir. A continuación un extracto del codigo en el cual nos ayudo:
+Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/SebastianSaez1003) nos ayudo a armar el codigo y ademas nos dio instrucciones y pasos a seguir. A continuación un extracto del codigo en el cual nos ayudo:
 ```cpp
 // Mostrar ángulo actual del servo de sensores
 //     int anguloActual = sensores.getAnguloActual();
@@ -134,6 +134,9 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Paranoid - Black Sabbath](https://youtu.be/fWvKvOViM3g)
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
+
+## Bibliografía
+
 
 
 
