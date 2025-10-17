@@ -18,7 +18,7 @@ Viernes 17 de Octube de 2025
 - Nicolás Miranda ➜ funcionamiento del sensor de color.
 - Miguel Vera ➜ creación de audios y funcionamiento módulo MP3 y salida de audio.
 
-## (Nombre del proyecto)
+## 👀 Nombre: Gustavo Lita
 
 ## 🔮 Explicación del proyecto
 
@@ -267,8 +267,144 @@ bool cercaDe(int valor, int objetivo) {
   return abs(valor - objetivo) <= 1;
 }
 ```
+☞ Para identificar el color se utiliza este código:
 
-## Código para reproducción del audio
+```cpp
+// DETECCIÓN DE COLORES
+  if (cercaDe(rojoPW, 3) && cercaDe(verdePW, 1) && cercaDe(azulPW, 2)) {
+    Serial.println("Detecté VERDE");
+  }
+  else if (cercaDe(rojoPW, 2) && cercaDe(verdePW, 1) && cercaDe(azulPW, 1)) {
+    Serial.println("Detecté AMARILLO");
+  }
+  else if (cercaDe(rojoPW, 4) && cercaDe(verdePW, 3) && cercaDe(azulPW, 2)) {
+    Serial.println("Detecté ROJO");
+  }
+  else if (cercaDe(rojoPW, 2) && cercaDe(verdePW, 3) && cercaDe(azulPW, 1)) {
+    Serial.println("Detecté AZUL");
+  }
+  else {
+    Serial.println("No detecto nada");
+  }
+```
+
+Esta parte del código **funciona mediante la utilización de una serie de condiciones if que comparan los valores de frecuencia** (ancho de pulso) obtenidos por cada canal: **rojo**, **verde** y **azul**. Cada color tiene una combinación característica de frecuencias, y al aproximarse a esos valores, el sistema identifica de qué color se trata.
+- rojoPW, verdePW, azulPW - Son los valores de frecuencia medidos por el sensor de color en cada canal (Red, Green, Blue - RGB).
+- cercaDe(valor, referencia) - Es una función auxiliar que compara si el valor leído está dentro de un rango aceptable respecto a una referencia.
+- Cada bloque if representa una combinación aproximada de frecuencias que corresponde a un color detectado.
+- Si ninguna condición se cumple, el programa imprime "No detecto nada", indicando que no se reconoció ningún color válido.
+
+Al igual que la otra parte los datos númericos deberán ir siendo modificado en base a los parametros RGB que se detecten en el funcionamiento del momento ya que son variables que cambian según al ambiente específico donde se este utilizando el sensor.
+
+### 🚥 Código final del sensor de color
+```cpp
+// Pines del sensor
+#define S0 2
+#define S1 3
+#define S2 4
+#define S3 5
+#define salidaSensorOut 6
+#define OE 7   // Pin para activar/desactivar el sensor
+
+// Variables para medir el ancho de pulso (valores de colores)
+int rojoPW = 0;
+int verdePW = 0;
+int azulPW = 0;
+
+// Función de normalización
+// Convierte el valor leído en un rango de 0 a 10
+int normalizar(int valor, int maximoEntrada) {
+  if (valor > maximoEntrada) valor = maximoEntrada;   // limitar al máximo
+  return (valor * 10) / maximoEntrada;               // escalar proporcionalmente
+}
+
+void setup() {
+  pinMode(S0, OUTPUT);
+  pinMode(S1, OUTPUT);
+  pinMode(S2, OUTPUT);
+  pinMode(S3, OUTPUT);
+  pinMode(OE, OUTPUT);
+
+  // Escala de frecuencia al 20%
+  digitalWrite(S0, HIGH);
+  digitalWrite(S1, LOW);
+
+  // Activar el sensor
+  digitalWrite(OE, LOW);
+
+  pinMode(salidaSensorOut, INPUT);
+
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Leer valores de cada color (normalizados)
+  rojoPW = leerRojo();
+  delay(100);
+
+  verdePW = leerVerde();
+  delay(100);
+
+  azulPW = leerAzul();
+  delay(100);
+
+  // Mostrar lecturas
+  Serial.print("Rojo = ");
+  Serial.print(rojoPW);
+  Serial.print("  Verde = ");
+  Serial.print(verdePW);
+  Serial.print("  Azul = ");
+  Serial.println(azulPW);
+
+  // DETECCIÓN DE COLORES
+  if (cercaDe(rojoPW, 3) && cercaDe(verdePW, 1) && cercaDe(azulPW, 2)) {
+    Serial.println("Detecté VERDE");
+  }
+  else if (cercaDe(rojoPW, 2) && cercaDe(verdePW, 1) && cercaDe(azulPW, 1)) {
+    Serial.println("Detecté AMARILLO");
+  }
+  else if (cercaDe(rojoPW, 4) && cercaDe(verdePW, 3) && cercaDe(azulPW, 2)) {
+    Serial.println("Detecté ROJO");
+  }
+  else if (cercaDe(rojoPW, 2) && cercaDe(verdePW, 3) && cercaDe(azulPW, 1)) {
+    Serial.println("Detecté AZUL");
+  }
+  else {
+    Serial.println("No detecto nada");
+  }
+
+  delay(200);
+}
+
+// Funciones de lectura con normalización
+int leerRojo() {
+  digitalWrite(S2, LOW);
+  digitalWrite(S3, LOW);
+  int valor = pulseIn(salidaSensorOut, LOW);
+  return normalizar(valor, 2000);  // Ajusta 2000 al máximo real de tu sensor
+}
+
+int leerVerde() {
+  digitalWrite(S2, HIGH);
+  digitalWrite(S3, HIGH);
+  int valor = pulseIn(salidaSensorOut, LOW);
+  return normalizar(valor, 2000);
+}
+
+int leerAzul() {
+  digitalWrite(S2, LOW);
+  digitalWrite(S3, HIGH);
+  int valor = pulseIn(salidaSensorOut, LOW);
+  return normalizar(valor, 2000);
+}
+
+// Función auxiliar para comparación aproximada
+bool cercaDe(int valor, int objetivo) {
+  return abs(valor - objetivo) <= 1;
+}
+```
+
+## 🔊 Código para reproducción del audio
 ➜ Primero una aproximación del pseudocódigo y qué es lo que se quiere lograr.
 
 ```cpp
@@ -623,11 +759,72 @@ int obtenerColor() {
 ```
 ### Código para animaciones de la pantalla
 
-(aquí pegar el código)
+Las **pantallas TFT LCD funcionan mediante el control de píxeles individuales para crear imágenes detalladas y de alta calidad**. Utilizan un controlador como el **GC9A01** para gestionar la información que se muestra en la pantalla. La interfaz SPI permite una comunicación rápida y eficiente con microcontroladores, lo que facilita la integración en proyectos.
 
-### Código para
+### Código base para su funcionamiento
+```cpp
+#include <Arduino_GFX_Library.h>
+#include <Adafruit_GFX.>
+#define TFT_RST -1 // o 4
+#define TFT_CS D8 // o 15
+#define TFT_DC D2 // o 4
 
-(aquí pegar el código)
+Arduino_DataBus *bus = new Arduino_HWSPI(TFT_DC, TFT_CS);
+Arduino_GC9A01 *gfx = new Arduino_GC9A01(bus, TFT_RST, 0 /* rotation */, true /* IPS */);
+
+
+void setup() {
+ gfx->begin();  
+
+  gfx->setTextSize(3);   
+  gfx->fillScreen(BLACK); 
+  gfx->setTextColor(RED); 
+  gfx->setCursor(30, 60);
+  gfx->print("GC9A01");   
+  gfx->setTextSize(2);
+  gfx->setCursor(30, 100);
+  gfx->setTextColor(WHITE);
+  gfx->print("Hello World !");
+  gfx->setCursor(30, 140);
+  gfx->setTextColor(YELLOW);
+  gfx->print("LAB1 Tech");
+  gfx->setCursor(20, 160);
+  gfx->setTextColor(BLUE);
+  gfx->print("www.lab1.tech");}
+
+void loop() {
+
+}
+```
+```cpp
+#include <Adafruit_GFX.h>
+#include <Adafruit_GC9A01A.h>
+
+#define TFT_CS 10
+#define TFT_DC 9
+#define TFT_RST 8
+
+Adafruit_GC9A01A tft(TFT_CS, TFT_DC, TFT_RST);
+
+void setup() {
+  tft.begin();
+  tft.fillScreen(GC9A01A_BLACK);
+  tft.setCursor(40, 100);
+  tft.setTextColor(GC9A01A_WHITE);
+  tft.setTextSize(2);
+  tft.println("¡Hola Mundo!");
+}
+
+void loop() {}
+```
+### 👁️ Referentes para la animación del ojo
+Gustavo Lita esta basado en distintos personajes ya existentes como los Sirulios de 31 minutos, Kang y Kodos de Los Simpson, los Minions, entre otros.
+
+la idea es que el personaje solo tenga un ojo (la pantalla circular es el ojo) para eso tenemos también de referentes a personajes como Mike Wazowski de Monster Inc, Plankton de Bob esponja, B.O.B de Monstruos v/s aliens y algunos minions, Leela de Futurama . Con estos personajes podemos ver bien como expresar ciertas emociones sin la necesidad de que tenga cejas y teniendo un solo ojo con espacio limitado para desarrollar la expresión que se quiera dar.
+
+![referencias](imagenes/referencias.jpg)
+
+![referencias](imagenes/ojos.jpg)
 
 ## 🔍 Pruebas y resultados
 
@@ -648,17 +845,6 @@ int obtenerColor() {
 ![monstruo](imagenes/monstruo.jpg)
 
 
-
-
-
-1. Impresiones.
-2. Código.
-3. Animaciones.
-4. Pruebas del sesnor de color.
-
-## Referentes
-
-
 ## Problemas al fusionar
 
 Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos que pasar todo al Arduino R3. No lo pasamos al R4 porque hay una biblioteca crucial para el funcionamiento de la pantalla que no corre en la versión más nueva. Al pasar a R3 nos encontramos con inconvenientes no previstos:
@@ -673,6 +859,7 @@ Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos q
 
 **Juntos**
 ![Reproductor DFPlayer con sensor de color unido a Pantalla con Arduino R3 ](imagenes/Juntos.jpg)
+
 
 
 
