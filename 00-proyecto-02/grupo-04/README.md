@@ -158,7 +158,153 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 ### 3) Modulo Reproductor MP3 DFPlayer Mini
 
-︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+Cuando comenzó la investigación del módulo dfplayer mini la primera función era poder reproducir los sonidos puestos en la tarjeta SD, esto lo hicimos con el siguiente código que fue sacado de [githubdfrobot](https://github.com/DFRobot/DFRobotDFPlayerMini)
+
+![imagen](./imagenes/conexión-dfplayermini.jpg)
+
+Este código permitía reproducir el número de pistas en específico nombradas según un orden establecido en base a una numeración específica que pedía enumerar las pistas de audio como 0001,0002,0003,0004. Luego de poder establecer una lista de audios, se necesitaba que se reproducieran de forma aleatoria por lo que se utilizó la función mydfplayer.randomall la cuál permitía correr los audios de forma aleatoria en un loop sin parar. Este era un problema ya que necesitábamos tener un control sobre el cómo se estaban reproduciendo los audios.
+
+Para ello misaaa nos sugirió utilizar un botón el cuál nos permitiera establecer una especie de "dado" en el cuál al presionarlo se daba un resultado aleatorio, en este caso la reproducción de un sonido aleatorio
+
+```cpp
+#include "Arduino.h"
+#include "DFRobotDFPlayerMini.h"
+
+#if (defined(ARDUINO_AVR_UNO) || defined(ESP8266))  // Using a soft serial port
+#include <SoftwareSerial.h>
+SoftwareSerial softSerial(/*rx =*/4, /*tx =*/5);
+#define FPSerial softSerial
+#else
+#define FPSerial Serial1
+#endif
+
+DFRobotDFPlayerMini myDFPlayer;
+void printDetail(uint8_t type, int value);
+
+// --- Constantes del Proyecto ---
+const int botonPin = 2;
+const int totalTracks = 10;                     // Número total de archivos mp3 en la SD
+
+// --- Variables de estado ---
+unsigned long ultimoDebounceTiempo = 0; // Para el antirrebote del botón
+const unsigned long debounceDelay = 50; // Tiempo de espera del antirrebote (50 ms)
+
+void setup()
+{
+  FPSerial.begin(9600);
+  Serial.begin(115200);
+
+  Serial.println(F("DFPlayer Mini - Reproductor por Botón"));
+  Serial.println(F("Inicializando..."));
+
+  if (!myDFPlayer.begin(FPSerial)) {
+    Serial.println(F("Error de comunicación con DFPlayer."));
+    Serial.println(F("Verifica conexiones y tarjeta SD."));
+    while (true);
+  }
+  Serial.println(F("DFPlayer en línea. Listo para usar."));
+
+  myDFPlayer.volume(15); // Ajusta el volumen (0 a 30)
+
+  randomSeed(analogRead(0));
+  pinMode(botonPin, INPUT_PULLUP);
+}
+
+void loop() {
+  // --- 1. LÓGICA DEL BOTÓN (ÚNICA FORMA DE REPRODUCIR) ---
+  // Revisa si el botón se ha presionado y si ha pasado el tiempo de antirrebote
+  if (digitalRead(botonPin) == LOW && (millis() - ultimoDebounceTiempo) > debounceDelay) {
+    
+    // Elige un número al azar y lo reproduce
+    int track = random(1, totalTracks + 1);
+    Serial.print(F("--> Botón presionado! Reproduciendo pista: "));
+    Serial.println(track);
+    myDFPlayer.play(track);
+
+    // Actualiza el tiempo del antirrebote para evitar lecturas falsas
+    ultimoDebounceTiempo = millis();
+  }
+
+  // --- 2. REVISAR MENSAJES DEL DFPLAYER ---
+  // Tarea de fondo: revisa si el módulo ha enviado información (ej: "pista terminada")
+  if (myDFPlayer.available()) {
+    printDetail(myDFPlayer.readType(), myDFPlayer.read());
+  }
+}
+
+
+// La función printDetail sigue siendo la misma...
+void printDetail(uint8_t type, int value){
+  switch (type) {
+    case TimeOut:
+      Serial.println(F("Time Out!"));
+      break;
+    case WrongStack:
+      Serial.println(F("Stack Wrong!"));
+      break;
+    case DFPlayerCardInserted:
+      Serial.println(F("Card Inserted!"));
+      break;
+    case DFPlayerCardRemoved:
+      Serial.println(F("Card Removed!"));
+      break;
+    case DFPlayerCardOnline:
+      Serial.println(F("Card Online!"));
+      break;
+    case DFPlayerPlayFinished:
+      Serial.print(F("Pista finalizada:"));
+      Serial.println(value);
+      break;
+    case DFPlayerError:
+      Serial.print(F("DFPlayerError:"));
+      switch (value) {
+        case Busy:
+          Serial.println(F("Ocupado"));
+          break;
+        case Sleeping:
+          Serial.println(F("Durmiendo"));
+          break;
+        case SerialWrongStack:
+          Serial.println(F("Error de Stack Serial"));
+          break;
+        case CheckSumNotMatch:
+          Serial.println(F("Error de Checksum"));
+          break;
+        case FileIndexOut:
+          Serial.println(F("Índice de archivo fuera de rango"));
+          break;
+        case FileMismatch:
+          Serial.println(F("No se encuentra el archivo"));
+          break;
+        case Advertise:
+          Serial.println(F("En modo Advertise"));
+          break;
+        default:
+          break;
+      }
+      break;
+    default:
+      break;
+  }
+}
+```
+
+Funcionamiento: Se configura la comunicación serial con el DFPlayer y se inicializa el volumen.El botón, conectado al pin 2, activa la reproducción de una pista aleatoria de la tarjeta SD,
+se implementa un antirrebote para evitar lecturas falsas del botón, la función PrintDetail()muestra en el monitor serial el estado del módulo y errores, ayudando a depurar
+
+Debido a varios problemas técnicos con el código del proyecto a última hora, decidimos improvisar y usar dos Arduinos en lugar de uno. Esto permitió repartir las tareas y evitar errores de funcionamiento
+
+Cada Arduino tiene una función. El primero actúa como el radar: controla el servo, mide la distancia con el sensor ultrasónico y detecta si algo está demasiado cerca. El segundo es el módulo de sonido: su única tarea es manejar el DFPlayer Mini y reproducir un audio aleatorio cuando recibe una señal
+
+La comunicación entre ambos se hace con una señal digital simple: un pin del Arduino radar se conecta al pin 2 del Arduino de sonido. Cuando el radar detecta un objeto cercano, envía un pulso eléctrico (low) que el otro Arduino interpreta como la orden para activar el sonido
+
+Gracias a la idea de franudp el código de cada parte se volvió más simple. Aunque no era lo ideal, fue una manera de lograr que el proyecto funcionara
+
+
+
+
+
+
 
 ### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
@@ -225,3 +371,6 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
+
+
