@@ -92,7 +92,7 @@ Algunas de las características que no se pudieron cumplir fueron debido a la fa
 
 ## EXPLICACIÓN CÓDIGO 
 
-**ARCHIVO PRINCIPAL**: grupo_03_2025_10_16_comentado.ino
+### ARCHIVO PRINCIPAL: grupo_03_2025_10_16_comentado.ino
 
 - Aqui se describe el propósito general del proyecto, indica los componentes de hardware usados y se
 resume la lógica principal del flujo.
@@ -227,7 +227,7 @@ void loop() {
 }
 ```
 
-**IMAGEN.H**: Aqui se definen los bitmaps de los idiomas (Ruso, Japonés y Francés) escritos en su forma original. Cada arreglo (imagenRuso, imagenJapones, imagenFrances) contiene los datos binarios que representan la forma escrita de los saludos.
+### IMAGEN.H: Aqui se definen los bitmaps de los idiomas (Ruso, Japonés y Francés) escritos en su forma original. Cada arreglo (imagenRuso, imagenJapones, imagenFrances) contiene los datos binarios que representan la forma escrita de los saludos.
 
 ```cpp
 #ifndef IMAGEN_H
@@ -302,7 +302,7 @@ const unsigned char imagenRuso [] PROGMEM = {
 };
 ```
 
-**PANTALLA.CPP**: 
+### PANTALLA.CPP 
 -Se incluyen todas las librerías necesarias para manejar la pantalla OLED y los bitmaps, y se crea un objeto display que permitirá controlar la pantalla con los parámetros de ancho y alto definidos.
 
 ```cpp
@@ -390,7 +390,7 @@ void Pantalla::mostrarBitmapIdioma(int idioma) {
   display.display();
 }
 ```
-**PANTALLA.H**
+### PANTALLA.H
 - Con esto, se evita que el archivo se incluya más de una vez en el proyecto, previniendo errores de compilación por redefinición.
 
 ```cpp
@@ -429,7 +429,7 @@ extern Adafruit_SSD1306 display;
 #endif
 ```
 
-**REPRODUCTORMP3.CPP**
+### REPRODUCTORMP3.CPP
 - Aqui se incluyen la cabecera de la clase ReproductorMP3 y la librería SoftwareSerial para crear un puerto serial adicional y comunicarse con el DFPlayer.
 
 ```cpp
@@ -478,7 +478,7 @@ void ReproductorMP3::reproducirSaludo(int idioma) {
 }
 ```
 
-**REPRODUCTORMP3.H**
+### REPRODUCTORMP3.H
 - Se incluyen la librería base de Arduino y la librería específica para controlar el módulo DFPlayer Mini.
 
 ```cpp
@@ -508,7 +508,7 @@ class ReproductorMP3 {
 #endif
 ```
 
-**SENSORAPLAUSO.CPP**
+### SENSORAPLAUSO.CPP
 - Se incluye el archivo de definición de la clase para poder implementar sus métodos.
 
 ```cpp
@@ -606,7 +606,7 @@ unsigned long tiempoAnterior = 0;
 unsigned long tiempoCambioLED = 0;
 ```
 
-**SENSORENCODER.CPP**
+### SENSORENCODER.CPP
 - Constructor y destructor, se inicializa el estado del encoder, colocando los pines del reloj en HIGH por defecto y estableciendo la opción inicial del menú en 0 y no realiza ninguna acción especial al destruir el objeto.
 
 ```cpp
@@ -684,7 +684,7 @@ bool SensorEncoder::botonPresionado() {
 }
 ```
 
-**SENSORENCODER.H**
+### SENSORENCODER.H
 - Estan las funciones que permiten configurar los pines del encoder, detectar giros y actualizar la opción del menú, y leer la opción actual de manera sencilla.
 
 ```cpp
@@ -737,3 +737,4 @@ int opcionMenu;
  * https://www.instructables.com/Turn-on-and-Off-a-Lamp-Clapping-Twice-Using-Arduin/
  *
  * Fecha de consulta general: Septiembre de 2025.
+
