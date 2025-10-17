@@ -2,54 +2,27 @@
 
 ## Apuntes de sensores
 
-Programación visual (con cajitas)
+Se les llama programación visual (con cajitas). Existe YAML, un lenguaje para configurar cosas (las cosas son así) y se parece a python. Latex: Sirve para programar texto "bello" y se puede usar para papers o curriculum. Es crucial la comunicación por medio de workflow. PEmbroider: programación para maquina de coser. Debemos leer mensajes y actualizaciones. El código funciona como "las cosas son así" o "esto no se puede hacer".
 
-VVVV
+## Elementos por revisar y consejos
 
-Isadora (teatro)
+- VVVV
+- Isadora (teatro) en ig.
+- usar subtítulos para navegación # o ## o ###
+- **"no ser como Matías"**
+- Usar markdown-lynt.yml (despelusador)
+- ***"es un curso para robar eficientemente"***
+- mac y linux son primos que hablan el mismo idioma
+- versión @20.0.0 (conservador) o @latest (valiente)
+- 3 puntos menos si no se activan las actions
+- 3 puntos menos si hay errores de markdown
+- markdown automatizado - David Anson (revisar)
+- *the art of computer programming*
+- Overleaf
+- iniciar con mail educacional
+- llamkana: lenguaje de programación en quechua
+- *The Frank-Ratchye Studio*
 
-usar subtítulos para navegación # o ## o ###
-
-"no ser como Matías"
-
-YAML: lenguaje para configurar cosas (las cosas son así), se parece a python.
-
-markdown-lynt.yml (despelusador)
-
-"curso para robar eficientemente"
-
-mac y linux son primos que hablan el mismo idioma
-
-versión @20.0.0 (conservador) o @latest (valiente)
-
-3 puntos menos si no se activan las actions
-
-3 puntos menos si hay errores de markdown
-
-markdown automatizado - David Anson
-
-
-Escribiremos código en conjunto
-
-comunicación por medio de workflow
-
-*leer mensajes y actualizaciones
-
-*the art of computer programming
-
-Latex: Sirve para programar texto "bello". Se puede usar para papers o curriculum.
-
-Overleaf
-
-iniciar con mail educacional
-
-Código: "las cosas son así" o "esto no se puede hacer"
-
-*llamkana: lenguaje de programación en quechua
-
-*The Frank-Ratchye Studio
-
-*PEmbroider: programación para maquina de coser
 
 ## Proyecto 02
 -Más complejo
