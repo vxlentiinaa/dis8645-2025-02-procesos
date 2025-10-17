@@ -31,4 +31,28 @@ Para el dia jueves finalmente decir oficialmente que terminamos.
 
 ---
 
-Aquí muestro un recopilatorio de como fueron llendo las cosas 
+Aquí muestro un recopilatorio de como fueron llendo las cosas:
+
+Foto de mi, lijando mi propio tarugo:
+
+![Lijada](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-10a/imagenes/Lijada.jpg)
+
+Aquí ya estabamos todos en ello:
+
+![Team](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-10a/imagenes/EquipoLijada.jpg)
+
+En este momento, Friolin podia estar de manera suspendida y cambiar a otra de sus 2 expresiones:
+
+[![Yey](https://img.youtube.com/vi/dTSW7XpOA_Q/hqdefault.jpg)](https://youtube.com/shorts/dTSW7XpOA_Q?feature=share)
+
+Esto es de cuando ya estabamos en el lab y entre todos terminamos de armar a Friolin:
+
+![Ya armado](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-10a/imagenes/Armado.jpg)
+
+Y con ello un video sobre ello:
+
+[![Revisión final](https://img.youtube.com/vi/Mq5pnBlaCGg/hqdefault.jpg)](https://youtube.com/shorts/Mq5pnBlaCGg?feature=share)
+
+
+
+
