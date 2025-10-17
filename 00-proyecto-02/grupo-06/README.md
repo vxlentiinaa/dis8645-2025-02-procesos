@@ -56,34 +56,51 @@ Nuestro compañero Sebastián Saez (mencionar github) nos ayudo a armar el codig
 ## Documentación y procesos
 ### Croquis y primeras ideas
 ![croquis01](./imagenes/croquis01.jpg)
+
 Croquis inicial explorando el mecanismo y el movimiento deseado del sistema interactivo.
+
 ![croquis03](./imagenes/croquis03.jpg)
+
 Segunda iteración del croquis, afinando proporciones y ubicación del sensor y el servo.
+
 ![vibe](./imagenes/vibe.png)
 
 ### Prototipado y mecanismos
 ![gear2-2](./imagenes/gear2-2.jpg)
+
 Diseño preliminar del engranaje que transmite el movimiento del servo al mecanismo.
+
 ![gearBreadboard](./imagenes/gearBreadboard.png)
+
 Prueba del sistema en protoboard con conexión del servo y sensor ultrasónico
+
 ![gears-slicer](./imagenes/gears-slicer.png)
 
 Vista del archivo en el slicer antes de imprimir las piezas 3D de los engranajes.
 
 ### Pruebas de movimiento
 ![gif-ultrasS-gear-v2](./imagenes/gif-ultrasS-gear-v2.gif)
+
 Ensayo inicial del engranaje con el sensor ultrasónico montado.
+
 ![gif-ultrasS-gear-v3](./imagenes/gif-ultrasS-gear-v3.gif)
+
 Versión mejorada con ajustes en el eje y velocidad de rotación.
+
 ![gif-ultrasS-gear-v6](./imagenes/gif-ultrasS-gear-v6.gif)
+
 Iteración final mostrando un movimiento fluido y sincronizado del mecanismo completo.
 
 
 ### Modelado 3D y renderizado
 ![mecanismoPro-render](./imagenes/mecanismoPro-render.png)
+
 Render final del mecanismo ensamblado con sensor y estructura.
+
 ![modelado_3d](./imagenes/modelado_3d.jpeg)
+
 Serie de capturas del proceso de modelado 3D, mostrando las distintas etapas de diseño, ajustes y refinamiento del sistema.
+
 ![modelado_3d_2](./imagenes/modelado_3d_2.jpeg)
 ![modelado_3d_3](./imagenes/modelado_3d_3.jpeg)
 ![modelado_3d_4](./imagenes/modelado_3d_4.jpeg)
@@ -93,10 +110,15 @@ Serie de capturas del proceso de modelado 3D, mostrando las distintas etapas de 
 
 ### Estructura y componentes
 ![piezaMueble](./imagenes/piezaMueble.png)
+
 Diseño de la pieza estructural donde se monta el sistema mecánico.
+
 ![ultraS-case-v1](./imagenes/ultraS-case-v1.png)
+
 Carcasa del sensor ultrasónico diseñada para proteger y alinear la lectura.
+
 ![ultraS-lineaGear](./imagenes/ultraS-lineaGear.png)
+
 Detalle del acoplamiento entre el sensor y la línea de engranajes.
 
 ## Referentes estéticos
@@ -112,6 +134,7 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Paranoid - Black Sabbath](https://youtu.be/fWvKvOViM3g)
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
+
 
 
 
