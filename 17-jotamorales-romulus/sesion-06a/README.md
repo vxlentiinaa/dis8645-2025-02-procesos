@@ -2,13 +2,49 @@
 
 ## Apuntes clase
 
-
-!!!!! rellenar esta bitacora !!!!! 
 - Falté a la clase por motivos personales, así que tuve que ponerme al día con el [video de la clase](https://www.dropbox.com/scl/fo/ehsibpioii91n7ggaj546/AO7BLMgKRYHgKI4czkODTwQ/original?dl=0&preview=sesion-06a-video-00.mp4&rlkey=kndd4mq9pdfghmp3btp2bk9pp&subfolder_nav_tracking=1) y también me comentaron cosas mis compañeros.
 
 - En el proyecto 2 haremos algo más complejo y con sensores. Trabajaremos con grupos nuevos y podemos volver a trabajar con una sola persona con la que ya hayamos trabajado.
 
 - [Nonsense Machines — Maywa Denki (TEDxUTokyo)](https://www.youtube.com/watch?v=jKPBD3HHU4g)
+
+- Programación Visual y Audio
+
+Scratch: Programación por bloques. Sirve mucho principiantes, en mi colegio lo utilizamos durante unos años.
+
+Max/MSP: Software comercial predecesor de Pd. Programación visual para música y multimedia; MSP añade procesamiento de audio en tiempo real.
+
+Otros entornos: TouchDesigner, vvvv, Isadora.
+
+-----
+
+### GitHub Actions y Automatización
+
+Al igual que el semestre pasado, se automatizará el **proceso de revisión y limpieza del repositorio** mediante GitHub Actions, incluyendo linting de código y Markdown, para asegurar que todo cumpla con las reglas establecidas.
+
+- Workflows: Procesos automáticos que se activan con eventos (push, pull) y se guardan en .github/workflows.
+
+- Activación obligatoria: Presionar "I understand my workflows" en Actions. Activar.
+
+- Linting: Limpieza automática de código y Markdown (errores de jerarquía como MD036 = -3 puntos).
+
+- YAML: Lenguaje de configuración por indentación.
+
+Ejecución remota: Corre en máquinas virtuales de GitHub, sin configuración local necesaria.
+
+-----
+
+### Proyecto 2 - Máquina Saludadora
+
+- Entrega: 17 de octubre.
+
+- Estética: Diseño atractivo y bien ejecutado (referente: Maywa Denki).
+
+- Código: Limpio, ordenado y orientado a clases.
+
+- Interacción: Intencional, nada al azar.
+
+- Manual: Opcional, pero debe ser claro y comprensible.
 
 -----
 

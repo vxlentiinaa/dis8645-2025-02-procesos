@@ -22,7 +22,7 @@ Componentes a utilizar:
 
 ### Input
 
-Mediante los sensores ultrasónicos, la máquina detecta si existe o no presencia de unx sujetx u objeto. Esto mediante el movimiento de los sensores a través de servomotores, además la estructura tiene unos ojos que parpadean constantemente mientras esta buscando que detectar.
+Mediante los sensores ultrasónicos, la máquina detecta si existe o no presencia de unx sujetx u objeto. Esto mediante el movimiento de los sensores a través de servomotores, además la estructura tiene unos ojos que parpadean constantemente mientras está buscando que detectar.
 
 ### Output
 
@@ -33,16 +33,29 @@ Al detectar cualquier tipo de presencia, se queda mirando fijamente a la direcci
 En la primera etapa teniamos pensado como grupo el usar dos micrófonos MAX4466, y que através de estos se pudiera detectar sonido y esto activara el movimiento de servomotores para mover los ojos. Sin embargo esta primera idea fue desechada por complicaciones en el funcionamiento de los micrófonos.
 
 ## Etapas del código
+- Etapa 1: Inclusión de bibliotecas
+- Etapa 2: Creación de objetos
+- Etapa 3: Variables de control
+- Etapa 4: setup () - Configuración inicial
+- Etapa 5: loop () - Ejecución inicial
+- Etapa 6: Funciones auxiliares
+- poner aqui la etapa del codigo en que nos ayudó el seba y mencionarlo
 
-## Referentes 
-- 1984 de George Orwell.
+## Documentación y procesos
+![poner fotos aqui](./)
+## Referentes estéticos
+- [1984 de George Orwell]
+- [Around the world - Daft Punk ](https://www.youtube.com/watch?v=K0HSD_i2DvA)
+
 ### Musicales
 
-el concepto de la paranoia ha sido trabajado múltiples veces por grandes exponentes de la música. Cada uno de ellxs dando su punto de vista de cómo es afectadx por la paranoia, y como ésta se manifiesta en sus vidas.
+El concepto de la paranoia ha sido trabajado múltiples veces por grandes exponentes de la música. Cada uno de ellxs dando su punto de vista de cómo es afectadx por la paranoia, y como ésta se manifiesta en sus vidas.
 
 - [Paranoid Android - Radiohead](https://youtu.be/Lt8AfIeJOxw)
 - [CHROMAKOPIA - Tyler, The Creator](https://youtu.be/hCcwCv3G1FQ)
 - [Paranoid - Black Sabbath](https://youtu.be/fWvKvOViM3g)
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
+
+
 

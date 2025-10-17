@@ -89,19 +89,30 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 | D8      | OUT                              | Envía la señal de frecuencia correspondiente al color detectado |
 | GND     | OE                               | Habilita la salida (activo en LOW) |
 
-### Conexión de la pantalla
+![sensor de color](imagenes/sensor_de_color.jpg)
 
-Como la pantalla TFT circular funciona con 3.3V y arduino funciona con una lógica de 5V, se tuvo que utilizar un conversor lógico de voltaje, que modifica la corriente electrica del arduino y de la pantalla para que esta pueda funcionar bien y no se queme por tema de voltaje.
+![sensor de color](imagenes/sensor_reconocimiento.jpg)
 
-Esquema: (el de la pizarra)
+### ⚡️ Conexión de la pantalla
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
+Como la pantalla TFT circular funciona con 3.3V y el arduino funciona con una lógica de 5V, se tuvo que utilizar un **Level Shifter** o **Conversor lógico de voltaje**, que sirve para interconectar de forma segura dispositivos que operan con diferentes niveles de voltaje, y así evitar que se queme la pantalla.
 
-<!-- ![Pantalla TFT](imagenes/pantalla_circular.jpg) -->
+![conversor de voltaje](imagenes/level_shifter.jpg)
 
-### Conexión del parlante con el reproductor MP3
+![pantalla](imagenes/conexion_pantalla_tft.jpg)
+
+![Pantalla TFT](imagenes/pantalla_circular.jpg)
+
+![prueba pantalla](imagenes/pantalla_verde.jpg)
+
+### 🔊 Conexión del parlante con el reproductor MP3
 
 Se crearon audios con inteligencia artificial, que reaccionan al color de cada chicle y a la emoción correspondiente.
+
+- 🔴 Enojado ➜ (describir qué dice cada audio dependiendo de la emoción, con cada uno)
+- 🟠 Loco ➜ 
+- 🟢 Feliz ➜
+- 🔵 Triste ➜
 
 | Arduino                           | Reproductor MP3  | Función                                                         |
 |-----------------------------------|------------------|-----------------------------------------------------------------|
@@ -113,9 +124,8 @@ Se crearon audios con inteligencia artificial, que reaccionan al color de cada c
 | Cable negro del parlante          | SPK_2            | Salida de audio (-)                                             |
 | Insertar tarjeta con archivos     | MicroSD          | Almacenamiento de audio                                         |
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
 
-<!-- ![MP3](imagenes/modulo_mp3.jpg) -->
+![MP3](imagenes/modulo_mp3.jpg) 
 
 ## 🛠️ Explicación del código
 
@@ -124,10 +134,6 @@ A continuación se explica el código que se desarrolló para cada sensor/actuad
 ### Código para reconocer el color
 
 (aquí pegar el código)
-
-FALTA LA IMAGEN ASI QUE LA COMENTE
-
-<!-- ![MP3](imagenes/sesor_de_color.jpg) -->
 
 ### Código para reproducción del audio
 
@@ -143,7 +149,25 @@ FALTA LA IMAGEN ASI QUE LA COMENTE
 
 ## 🔍 Pruebas y resultados
 
-(Subir imágenes y explicar que está pasando en la foto)
+### ✏️ Diseño y bocetos del prototipo
+
+![boceto](imagenes/boceto.jpg)
+
+### 🧩 Piezas impresas del prototipo
+
+![collage](imagenes/prototipo_collage.jpg)
+
+![piezas](imagenes/piezas.jpg)
+
+![carcasa pantalla](imagenes/carcasa_pantalla.jpg)
+
+![forma](imagenes/prototipo_verde.jpg)
+
+![monstruo](imagenes/monstruo.jpg)
+
+
+
+
 
 1. Impresiones.
 2. Código.
@@ -152,10 +176,25 @@ FALTA LA IMAGEN ASI QUE LA COMENTE
 
 ## Referentes
 
-1. Mike Wasowski.
-2. Among us.
-3. Minions.
 
-FALTA LA IMAGEN ASI QUE LA COMENTE
+## Problemas al fusionar
 
-<!-- ![referentes](imagenes/referentes_taller.jpg) -->
+Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos que pasar todo al Arduino R3. No lo pasamos al R4 porque hay una biblioteca crucial para el funcionamiento de la pantalla que no corre en la versión más nueva. Al pasar a R3 nos encontramos con inconvenientes no previstos:
+
+-R3 no admite Serial1.begin y requiere iniciar el reproductor de manera manual.
+
+-Por el tipo de cable que usa este arduino no se pueden poner los pines RX y TX en 00 y 01. Esto nos obligó a cambiar el resto de los pines para hacerle un espacio a los del reproductor. Después de varios cambios RX quedó en 12 y TX en 7.
+
+
+**Separados**
+![Reproductor DFPlayer con sensor de color en Arduino R4 y Pantalla con Arduino R3](imagenes/Separados.jpg)
+
+**Juntos**
+![Reproductor DFPlayer con sensor de color unido a Pantalla con Arduino R3 ](imagenes/Juntos.jpg)
+
+
+
+
+
+
+

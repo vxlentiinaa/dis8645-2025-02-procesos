@@ -15,6 +15,10 @@ Teloneo
 - La terminal corre lo que tu quieras que corre -Aarón 
 - spaCy: Es una biblioteca de python y de código abierto para el procesamiento del lenguaje natural (PLN).
 
+### Python
+
+Python es un lenguaje de programación de alto nivel, interpretado y de código abierto, creado por Guido van Rossum en 1991. Fue diseñado centrándose en la simplicidad y la legibilidad del código, hecho que permite a los desarrolladores expresar conceptos en menos líneas de código en comparación con otros lenguajes como C++ o Java. Descifrando el lenguaje de programación, resulta mucho más sencillo tanto de aprender como de utilizar.
+
 ---
 
 Tesis de [Mateo](https://github.com/matbutom/)
