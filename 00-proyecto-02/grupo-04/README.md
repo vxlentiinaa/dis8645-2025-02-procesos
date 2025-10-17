@@ -90,6 +90,9 @@ Tras haber probado un ejemplo de código de ultrasónico que comenzó a planific
 
 ![imagen](./imagenes/dibujo-explicativo.jpg)
 
+![gif](./imagenes/prueba-radar.gif)
+
+
 Un inconveniente surge, Y es el cómo poder hacer que el ultrasónico pueda detectar a una persona y no a un objeto inerte. Pues la solución fue el poder implementar un sistema que pueda registrar según su ángulo los objetos a distancia, cosa que si algo se aproxima al sensor pueda diferenciar al haber al usuario al existir movimiento. Ante ello se entregó un código de ejemplo de la biblioteca NewPing, lo que tenía y el ejemplo de radar sacado de internet a Gemini 2.5 Pro, además de una explicación detallada del comportamiento que busco obtener del código, para que pueda hacer de guía.
 
 Después de conseguir que el sensor funcionara y mostrara los valores registrados en la terminal, estuvimos es que comenzó a ver el orden y desarrollo del código ".ino" y sus respectivas pestañas ".h" y ".cpp". Ello fue una tarea bastante complicada, dado que ninguno de los integrantes lograba entender como contruir los archivos.
@@ -478,6 +481,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
