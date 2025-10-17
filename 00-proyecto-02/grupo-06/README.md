@@ -3,10 +3,16 @@
 - Grupo: 06
 - Nombre de grupo: Hijos de la Tierra
 - Integrantes:
-- Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) (código, documentación)
-- Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) (modelado 3D, código)
-- Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) (código, documentación)
-- Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) (modelado 3D, código)
+ - Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) 
+ - Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) 
+ - Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) 
+ - Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) 
+
+## Roles del equipo
+- Antonia Fuentealba Pessot: Investigación de códigos, propuestas sobre el proyecto, experimentación con componentes y documentación en github.
+- Santiago Gaete Fernández: Modelado 3d y armado , sistema de engranajes, investigación de códigos y estructura, experimentación con componentes y bocetos.
+- Sofía Pérez Muñoz: Investigación de códigos, propuestas sobre el proyecto, experimentación con componentes, documentación en github, investigación de referentes y como se relacionan con el concepto.
+- Félix Rodríguez Guevara: Modelado 3d y armado, investigación, estructura, armado y resolución de código, y experimentación con componentes.
 
 ## Presentación textual
 
@@ -102,7 +108,104 @@ Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo
 
 ## Etapas del código
 
-- Etapa 1: Inclusión de bibliotecas
+### Etapa 1: creación de las clases
+
+#### Párpados
+
+```cpp
+  Parpados();
+  ~Parpados();
+
+  void configurar();
+  
+  void moverMotorcillo(int angulo, int tiempo);
+
+  Servo motorcillo;
+};
+```
+
+#### Cuello
+
+```cpp
+  Cuello();
+  ~Cuello();
+
+  Servo motorcillo;
+
+  void configurar();
+
+  // void moverMotorcillo(int angulo, int tiempo);
+  void moverCuello();
+
+  void amenaza();
+};
+```
+
+#### Sensor de proximidad
+
+```cpp
+  SensorProx();
+  ~SensorProx();
+
+  void configurar();
+  void leer();
+  void imprimirEnConsola();
+  void determinarPresencia();
+  // void presencia();
+  // void nada();
+  int patitaTrigger = 9;
+  int patitaEcho = 10;
+  float duracion = 0;
+  float distancia = 0;
+  bool presencia = false;
+};
+```
+
+### Etapa 2: creación archivos .cpp
+
+```cpp
+void Parpados::configurar() {
+  Parpados::motorcillo.attach(7);
+}
+
+void Parpados::moverMotorcillo(int angulo, int tiempo) {
+  motorcillo.write(angulo);
+  Serial.print("el ángulo del párpado es:");
+  Serial.println(angulo);
+  delay(tiempo);
+}
+
+// // referente de como reducir el código
+// // <https://arduino.stackexchange.com/questions/66378/servo-motor-in-function>
+```
+
+```cpp
+void Cuello::configurar() {
+  Cuello::motorcillo.attach(8);
+}
+
+void Cuello::moverCuello() {
+  // sentido positivo
+  for (int i = 0; i <= 180; i++) {
+    // servoMotor.write(i);
+    delay(25);
+  }
+  // sentido negativo
+  for (int i = 179; i > 0; i--) {
+    Cuello::motorcillo.write(i);
+    delay(25);
+  }
+
+// void Cuello::amenaza() {
+// que se diriga a la posicion de los sensores
+// }
+}
+```
+
+
+### Etapa 3: archivo .ino
+
+#### Incluir bibliotecas y clases
 
 ```cpp
 #include "constantes.h"
@@ -113,12 +216,18 @@ Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo
 #include <Servo.h>
 #include <Arduino.h>
 ```
-- Etapa 2: Creación de objetos
-- Etapa 3: Variables de control
-- Etapa 4: setup () - Configuración inicial
-- Etapa 5: loop () - Ejecución inicial
-- Etapa 6: Funciones auxiliares
 
+#### Inicio prueba y error del código
+
+```cpp
+void setup() {
+  cuello.configurar();
+  parpados.configurar();
+  sensorProxIZQ.configurar();
+  // inicia monitor serial
+  Serial.begin(9600);
+}
+```
 
 Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/SebastianSaez1003) nos ayudó a armar el código y además nos dio instrucciones y pasos a seguir. A continuación, se muestra un extracto del código en el que nos ayudó:
 
@@ -132,6 +241,16 @@ Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/Seba
    } else {
      unsigned long ahora = millis();
 ```
+
+Dentro del proceso del código tuvimos la ayuda de todo el equipo docente y algunos compañeros. Fue muy importante para nuestro trabajo buscar puntos de vista de otras personas.
+
+> Gracias sobre a todo a Mateo que nos ayudó hasta en los errores más pequeños.
+
+### Código final
+
+Finalmente, luego de estar mucho tiempo intentando que las clases funiconarar. Decidimos hacer un sólo archivo que contuviera todo lo necesario para que funcione.
+
+Actualmente, nuestro código hace girar los servos sin un sensor ultrasónico. En vez de los sensores estamos usando el monitor serial para definir el ángulo que gira el servo "cuello"
 
 ## Carcasas y prototipos
 
@@ -232,9 +351,9 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
 
-## Reflexión
+## Reflexiones personales
 
-[AntFuentealba](https://github.com/AntFuentealba):
+### [AntFuentealba](https://github.com/AntFuentealba):
 
 Este proyecto fue un desafío complejo para mí, marcado tanto por momentos de satisfacción como por altos niveles de frustración. Uno de los principales retos fue la parte del código; desde el inicio, la integración de los servomotores y los sensores ultrasónicos generó mucha confusión. Hubo instantes en que sentí que el proyecto se me escapaba de las manos, especialmente cuando los sensores no respondían como esperábamos o los servos se movían de manera inesperada. Aprender a manejar estas dificultades me obligó a ser paciente, investigar más a fondo, y confiar en la colaboración con mis compañerxs y con Sebastián Saez, quien nos guió y nos entregó instrucciones clave para avanzar.
 
@@ -242,17 +361,17 @@ Por otro lado, trabajar en la documentación, los bocetos y el seguimiento del p
 
 En resumen, aunque fue un proceso desafiante y muchas veces complejo, especialmente en la parte del código, este proyecto me enseñó la importancia de la paciencia, la colaboración y la iteración constante. Los errores y confusiones se convirtieron en oportunidades de aprendizaje, y el resultado final reflejó el esfuerzo colectivo y la perseverancia de todo el grupo.
 
-[santiagoClifford](https://github.com/santiagoClifford) :
+### [santiagoClifford](https://github.com/santiagoClifford) :
 
 Mi principal tarea en este proyecto fue el diseño y frabricación ddl circuito mecánico que impulsa el robot. Debido a limitaciones temporales, las fases de diseño, fabricación y prototipado, se vieron difuminadas entre sí. Esto provocó un efecto de "tunnel vision" en mí, y me concentré tanto en estudiar los engranajes y los mecanismos propios del robot, que dejé de lado otros aspectos igual de importantes. Como reflexión puedo decir que para otras ocasiones me gustaría hacer el esfuerzo de, por momentos, desconectarme del proyecto, con el objetivo de poder evaluarlo desde una perspectiva menos personal.
 
-[sofia-perezm](https://github.com/sofia-perezm)
+### [sofia-perezm](https://github.com/sofia-perezm)
 
 Personalmente, una de las cosas que más me costó fue que el proyecto se fue haciendo más difícil y técnico, lo que me generó bastante frustración y estrés. Hubo momentos en los que sentí que no estaba al mismo nivel que mis compañeros, y eso me hizo dudar de mis capacidades. A pesar de que el proyecto me gusta mucho y encuentro que la idea es muy interesante, esas emociones estuvieron muy presentes y afectaron mi rendimiento. Sin embargo, también me hicieron darme cuenta de hasta dónde puedo llegar, y aprender a reconocer mis propios límites cuando las cosas se vuelven demasiado exigentes. Fue un proceso intenso, pero también un aprendizaje importante sobre cómo manejar la presión y la frustración.
 
 Pensando a futuro, creo que este proyecto tiene mucho potencial para seguir desarrollándose. Me gustaría mejorar los movimientos para que se vean más naturales y quizás agregarle luces o algún tipo de sonido que refleje emociones, haciendo que la interacción con la máquina sea más viva y expresiva. Todo lo aprendido en este proyecto me deja con una mirada más consciente sobre lo que implica trabajar con tecnología: no solo se trata de programar o armar circuitos, sino también de lidiar con el cansancio, la paciencia y la autoconfianza.
 
-[felix-rg416](https://github.com/felix-rg416) :
+### [felix-rg416](https://github.com/felix-rg416) :
 
 El primer desafío que tuvimos fue unificar ideas y poder llegar a lo que seria la forma final del proyecto. Luego se partió con el modelado, lo que no tuvo mayores dificultades, solo arreglos para lograr un optimo funcionamiento. La verdadera complicación vino con la elaboración del código. En esta parte del proceso me sentí muy frutado y debo reconocer que falle a la hora de realizar la investigación de referentes lo que me llevo a equivocarme muchas veces en detalles mínimos que nos fueron atrasando. 
 
@@ -283,4 +402,7 @@ Personalmente, se me dificultó el tema de las clases, me costó mucho lograr ha
 - Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
 
 - Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
+
+
+
 
