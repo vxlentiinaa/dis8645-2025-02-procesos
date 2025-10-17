@@ -6,7 +6,7 @@
 - Chispop
 -Integrantes:
  - 01-[antokiaraa](https://github.com/antokiaraa/)
- - 16-[javieramoraga-rgb](https://github.com/javieramoraga-rgb/) 
+ - 16-[javieramoraga-rgb](https://github.com/javieramoraga-rgb/)
  - 18-[ppia97](https://github.com/ppia97/)
  - 19-[Hiinalia](https://github.com/Hiinalia/)
  - 24-[Joquape](https://github.com/Joquape/)
@@ -566,7 +566,8 @@ void SensorAplauso::decidir() {
 }
 ```
 
-**SENSORAPLAUSO.H**
+SENSORAPLAUSO.H
+
 - Aqui se evita que el archivo se incluya varias veces y permite usar funciones y tipos de Arduino y define la clase SensorAplauso que encapsula funciones y variables para detectar aplausos.
 
 ```cpp

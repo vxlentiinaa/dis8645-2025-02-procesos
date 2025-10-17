@@ -2,9 +2,9 @@
 
 ## Grupo-05 "Waos" : Integrantes y roles del Equipo
 
-**Morgan Aravena Arze** // Investigación, creación del pseudocódigo, organización de código y pseudocódigo a lo largo de todo el proyecto, clasificación del código a clases, armado y prototipado de la pieza final. 
+**Morgan Aravena Arze** // Investigación, creación del pseudocódigo, organización de código y pseudocódigo a lo largo de todo el proyecto, clasificación del código a clases, armado y prototipado de la pieza final.
 
-**Aileen Guiselle D'Espessailles Rojas** // Investigación, incorporación del sensor ultrasónico, incorporación de funcionamiento de display, modelado 3d de carcasa, armado y prototipado de la pieza final. 
+**Aileen Guiselle D'Espessailles Rojas** // Investigación, incorporación del sensor ultrasónico, incorporación de funcionamiento de display, modelado 3d de carcasa, armado y prototipado de la pieza final.
 
 **Carla Andrea del Carmen Pino Barrios** // Investigación, incorporación del sensor ultrasónico, incorporación de funcionamiento de display, creación de imágenes para la pantalla, armado y prototipado de la pieza final.
 
@@ -40,7 +40,8 @@ En nuestro caso, los sensores presentes serían de temperatura y un sensor ultra
 
 Friolín, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot, un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de medir la temperatura ambiental, una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con un brazo que le daremos al robot.
 
-**Paso a paso del proyecto**
+#### Paso a paso del proyecto
+
 1. La máquina inicia en estado neutro, donde Friolín se encuentra durmiendo.
 2. Si no detecta a nadie se mantiene en este estado, en donde su mano estará en suspensión y en la pantalla se intercala entre una cara dormilona y “ZZZ”, que es la onomatopeya comúnmente usada cuando alguien está durmiendo.
 3. Si detecta a una persona, se pasará al siguiente check, el cual será de cual es la temperatura actual.
@@ -48,7 +49,6 @@ Friolín, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, 
 5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial acorde a su felicidad.
 6. El ciclo del saludo del brazo se repetirá 3 veces, para poder dar tiempo a que se observe todo lo que Friolin le quiere decir a esta persona.
 7. La persona al retirarse hará que la máquina vuelva a su estado neutro y Friolín volverá a dormir.
-
 
 Este recorrido se puede visualizar mediante el siguiente diagrama de flujo:
 
@@ -209,14 +209,8 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 | Servomotor                      | SG90           | $1.990 | [https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r](https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r)                       |
 | Sensor Ultrasónico              | HC-SR04        | $1.500 | [https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r)       |
 | Sensor de Temperatura y Humedad | DHT11          | $2.300 | [https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11)                                               |
-| Pantalla 1.3" 128x64 | 1306 LCD Oled  | $5.000  | https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-blancos?pr_prod_strat=e5_desc&pr_rec_id=d485cccf4&pr_rec_pid=8381975822488&pr_ref_pid=8381902258328&pr_seq=uniform  |
-
-
-
-
+| Pantalla 1.3" 128x64 | 1306 LCD Oled  | $5.000  | <https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-blancos>  |
 
 ### Comentarios finales
 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
-
-
