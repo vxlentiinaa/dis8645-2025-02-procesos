@@ -172,8 +172,6 @@ Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alus
 
 Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil de conseguir al principio. Fue modelada en Rhino y luego corregimos algunos detalles en Fusion 360.
 
-> Video de referencia [Snail 3D Modeling in Rhino 6 (Part 1) : Jewelry CAD Design Tutorial ](https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut)
-
 ![foto](imagenes/captura-espiral01.png)
 
 ![foto](imagenes/captura-espiral02.png)
@@ -214,10 +212,12 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos>
 - <https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini>
 - <https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/>
+- <https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut>
 - <https://www.youtube.com/watch?v=5X0v0MOrQiI>
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
