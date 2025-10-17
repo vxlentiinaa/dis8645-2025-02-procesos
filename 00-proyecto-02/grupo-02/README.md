@@ -2,27 +2,29 @@
 
 Viernes 17 de Octube de 2025
 
-## 👥 Nombres del equipo
+## 👥 Equipo terrícola. 
 
-- Catalina Catalán
-- Valentina Chávez
-- Camila Delgado
-- Nicolás Miranda
-- Miguel Vera
+- Catalina Catalán.
+- Valentina Chávez.
+- Camila Delgado.
+- Nicolás Miranda.
+- Miguel Vera.
 
 ### 🛠️ Roles del equipo
 
-- Catalina Catalán ➜ animaciones y funcionamiento de la pantalla.
-- Valentina Chávez ➜ funcionamiento de la pantalla.
-- Camila Delgado ➜ prototipos e impresiones 3D.
-- Nicolás Miranda ➜ funcionamiento del sensor de color.
-- Miguel Vera ➜ creación de audios y funcionamiento módulo MP3 y salida de audio.
+- Catalina Catalán ➜ Animaciones ojos: investigación de referentes, ilustraciones en illustrator y proceso de pasar imágenes a image2cpp. Funcionamiento de la pantalla: investigación, compra de elementos faltantes, arreglo de fallas, pruebas, modificación código y experimentación. Anclaje de piezas con componentes. 
+- Valentina Chávez ➜ Funcionamiento de la pantalla general. Pasar procesos a github, documentación, esquemas, investigación. Ayuda con la busqueda de referentes y solución de problemas. Compra de pantalla.  
+- Camila Delgado ➜ Diseño de prototipos: investigación de referentes, modelado 3d en RHINO, pruebas (muchas pruebas), ajustes, compra de filamentos. Proceso de impresión 3D.
+- Nicolás Miranda ➜ Funcionamiento del sensor de color: investigación, calibración, pruebas, modificación código y experimentación. Proceso de fusión códigos sensor - pantalla - mp3. 
+- Miguel Vera ➜ Creación de audios (diálogos, guión y grabado con IA), funcionamiento módulo MP3 y salida de audio: manejo de tarjeta SD, adaptación a parámetros del sensor, procesos de pruebas y experimentación. Proceso de fusión códigos sensor - pantalla - mp3. Diseño e impresión de afiche gráfico promocional. 
+
++ Cada integrante del grupo participó activamente ayudando en los roles del otro. Proceso colaborativo. 
 
 ## 👀 Nombre del proyecto: Gustavo Lita
 
 ## 🔮 Explicación del proyecto
 
-Es un dispensador interactivo en forma de monstruo de color verde que reacciona emocionalmente según el color del chicle detectado. Como cada color significa una emoción, al momento de girar la manilla para obtener tu chicle, el monstruo te saludará súper feliz si el chicle salió verde, acompañado de una animación y un audio correspondiente a la emoción.
+Dispensador interactivo en forma de monstruo de color verde que reacciona emocionalmente según el color del chicle detectado. Como cada color significa una emoción, al momento de girar la manilla para obtener tu chicle, el monstruo te dará tu suerte del día (mensaje), acompañado de una animación y un audio correspondiente a la emoción/color del chicle. 
 
 ## 📌 Objetivo del Proyecto
 
@@ -86,6 +88,7 @@ flowchart TD
 ## 🔌 Componentes utilizados
 
 - Arduino Uno R3.
+- Arduino UNo R4 minima. 
 - Sensor de Color TCS3200 / TCS230.
 - Pantalla TFT Circular 1.24 pulgadas.
 - Módulo MP3.
@@ -808,7 +811,7 @@ int obtenerColor() {
 
 Miguel con Nicolás conectaron el **sensor de color** y el **DFPlayer** en **un mismo Arduino utilizando la protoboard.
 
-![referencias](imagenes/Audio-Sensor.jpg)
+![Audio_Sensor](imagenes/Audio_Sensor.jpeg)
 
 Lograron realizar la conexión correctamente, pero en el código tuvieron problemas para sincronizar la detección de colores con la reproducción de los audios.
 
@@ -979,6 +982,7 @@ Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos q
 - TechToTinker. (2021, enero 24). GC9A01 round LCD display module using Arduino [Video]. YouTube. (https://www.youtube.com/watch?v=pmCc7z_Mi8I&t=291s)
 - Programming Electronics Academy. (2018, diciembre 27). How to use the DFPlayer Mini MP3 module with Arduino [Video]. YouTube.
   (https://www.youtube.com/watch?v=XGBhlo3DI4E)
+
 
 
 

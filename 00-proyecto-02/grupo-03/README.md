@@ -94,8 +94,14 @@ Algunas de las características que no se pudieron cumplir fueron debido a la fa
 ![Proceso](./imagenes/3_2.jpg)
 ![Proceso](./imagenes/3_3.jpg)
 ![Proceso](./imagenes/3_4.jpg)
-![Proceso](./imagenes/3_5.jpg)
+![Proceso](./imagenes/3_5jpg)
 ![Proceso](./imagenes/3_6.png)
+![Proceso](./imagenes/3_1.jpg)
+![Proceso](./imagenes/3_7.jpg)
+![Proceso](./imagenes/3_8.jpg)
+![Proceso](./imagenes/3_9.jpg)
+
+
 ## EXPLICACIÓN CÓDIGO 
 
 ### ARCHIVO PRINCIPAL: grupo_03_2025_10_16_comentado.ino
@@ -743,5 +749,6 @@ int opcionMenu;
  * https://www.instructables.com/Turn-on-and-Off-a-Lamp-Clapping-Twice-Using-Arduin/
  *
  * Fecha de consulta general: Septiembre de 2025.
+
 
 
