@@ -2,7 +2,7 @@
 
 Viernes 17 de Octube de 2025
 
-## 👥 Nombre estudiantes
+## 👥 Nombres del equipo
 
 - Catalina Catalán
 - Valentina Chávez
@@ -12,13 +12,13 @@ Viernes 17 de Octube de 2025
 
 ### 🛠️ Roles del equipo
 
-- Catalina Catalán ➜ animaciones de la pantalla.
+- Catalina Catalán ➜ animaciones y funcionamiento de la pantalla.
 - Valentina Chávez ➜ funcionamiento de la pantalla.
 - Camila Delgado ➜ prototipos e impresiones 3D.
 - Nicolás Miranda ➜ funcionamiento del sensor de color.
 - Miguel Vera ➜ creación de audios y funcionamiento módulo MP3 y salida de audio.
 
-## 👀 Nombre: Gustavo Lita
+## 👀 Nombre del proyecto: Gustavo Lita
 
 ## 🔮 Explicación del proyecto
 
@@ -93,22 +93,35 @@ Se detallan y se muestra cómo son las conexiones entre el Arduino, sensor de co
 
 
 
-### ⚡️ Conexión de la pantalla
+### ⚡️ Conexión de la pantalla TFT circular 
 
-Como la pantalla TFT circular funciona con 3.3V y el arduino funciona con una lógica de 5V, se tuvo que utilizar un **Level Shifter** o **Conversor lógico de voltaje**, que sirve para interconectar de forma segura dispositivos que operan con diferentes niveles de voltaje, y así evitar que se queme la pantalla.
+☞ Valentina y Catalina encargaron de ver cómo funcionaba la pantalla, qué era lo que se necesitaba y su funcionamiento. Y el primer problema que vimos fue que la pantalla TFT circular funciona con 3.3V y el arduino funciona con una lógica de 5V, se tuvo que utilizar un **Level Shifter** o **Conversor lógico de voltaje**, que sirve para interconectar de forma segura dispositivos que operan con diferentes niveles de voltaje, y así evitar que se queme la pantalla. 
 
-![conversor de voltaje](imagenes/level_shifter.jpg)
+☞ Nosotras la estábamos conectando directamente al arduino, pero siempre se iba a ver así:
+
+![pantalla](imagenes/error_pantalla.jpg)
+
+☞ **Otro problema** que tuvimos fue que **para mostrar una imagen a todo color en esta pantalla se necesita un «buffer» o espacio en memoria**. Un buffer completo para 240×240 píxeles con colores de 16 bits (2 bytes por píxel) **requeriría 240 * 240 * 2 = 115,200 bytes (112.5 KB)**. Un **Arduino UNO solo tiene 2KB de RAM**, lo que hace imposible almacenar la imagen completa en memoria. **Librerías como TFT_eSPI** están optimizadas para dibujar directamente en la pantalla sin un buffer completo, pero para aplicaciones gráficas complejas, se **recomienda encarecidamente usar un microcontrolador con más RAM, como un ESP32, que es la pareja ideal para esta pantalla.**
+
+
+☞ Misa nos hizo una **clase magistral sobre la teoría de la electricidad**, cómo soldar los level shifter, la conexion de la pantalla al arduino y cómo iba a funcionar todo esto, explicado en diagrama de abajo.
 
 ![pantalla](imagenes/conexion_pantalla_tft.jpg)
 
+
+Como vimos que la pantalla funcionaba con 3.3V, tuvimos que cambiar de arduino a uno que en sus pines no tuviera 5V, es por eso que decidimos hacer la conexión con un Arduino Uno R3, con los level shifter y sus conexiones correspondientes, para evitar que se quemara la pantalla y que las animaciones pudieran verse sin problemas.
+![conversor de voltaje](imagenes/level_shifter.jpg)
+
 ![Pantalla TFT](imagenes/pantalla_circular.jpg)
+
+Prueba de la pantalla en funcionamiento
 
 ![prueba pantalla](imagenes/pantalla_verde.jpg)
 
 
 ### 🔊 Conexión del parlante con el reproductor MP3
 
-Se crearon audios con inteligencia artificial, que reaccionan al color de cada chicle y a la emoción correspondiente.
+Para la reproducción de los audios, se crearon mediante inteligencia artificial, que reaccionan según el color de cada chicle y a la emoción correspondiente.
 
 - 🔴 Enojado ➜ ¡Patético terrícola! TOma tu esfera de azúcar y andate a trabajar. ¡Rápido!
 - 🟠 Loco ➜ ¡Oh! ¡Un terrícola! Dale, tómale. Qué es lo peor que podría pasar.
@@ -295,6 +308,12 @@ Esta parte del código **funciona mediante la utilización de una serie de condi
 - Si ninguna condición se cumple, el programa imprime "No detecto nada", indicando que no se reconoció ningún color válido.
 
 Al igual que la otra parte los datos númericos deberán ir siendo modificado en base a los parametros RGB que se detecten en el funcionamiento del momento ya que son variables que cambian según al ambiente específico donde se este utilizando el sensor.
+
+### Pruebas 
+Se realizó una prueba, pero no fue posible obtener una lectura correcta, ya que el chicle pasaba demasiado rápido y el sensor de color no alcanzaba a detectarlo.
+Además, el color de la impresión era blanca, lo que dificultó la detección de frecuencias de color por falta de contraste.
+
+![referencias](imagenes/prueba-sensor.jpg)
 
 ### 🚥 Código final del sensor de color
 ```cpp
@@ -757,7 +776,57 @@ int obtenerColor() {
   return 0;
 }
 ```
-### Código para animaciones de la pantalla
+## Conectando el sensor de color y el DFPlayer 
+
+Miguel con Nicolás conectaron el **sensor de color** y el **DFPlayer** en **un mismo Arduino utilizando la protoboard.
+
+![referencias](imagenes/Audio-Sensor.jpg)
+
+Lograron realizar la conexión correctamente, pero en el código tuvieron problemas para sincronizar la detección de colores con la reproducción de los audios.
+
+Finalmente, lo solucionamos declarando la variable _colorDetectado = readColor_;, lo que permitió vincular correctamente la lectura del color con el audio correspondiente.
+
+```cpp
+colorDetectado = readColor;
+
+if (colorDetectado == 1) {
+  myDFPlayer.playFolder(1, 1);
+  Serial.print("Rojo detectado");
+  // Rojo
+} else if (colorDetectado == 2) {
+  myDFPlayer.playFolder(2, 2);
+  Serial.print("Azul detectado");
+  // Azul
+} else if (colorDetectado == 3) {
+  myDFPlayer.playFolder(3, 3);
+  Serial.print("Amarillo detectado");
+  // Amarillo
+} else if (colorDetectado == 4) {
+  myDFPlayer.playFolder(4, 4);
+  Serial.print("Verde detectado");
+  // Verde
+}
+
+Clase 9a: 07/10 MÁQUINAS COMPUTACIONALES
+
+Nota: iniciamos Viendo un ejemplo en arduino de nuestro grupo y como pasarlo a c++ ( Tomaron el ejemplo de Vania Paredes integrante de nuestro grupo para mostrar como deberia ordenarse el código.
+
+## Trabajo en clases
+
+Lo primero que hicimos fue ver en qué íbamos hasta ahora: una recopilación de logros y fracasos, para así buscar soluciones juntas. Millaray nos mostró el primer prototipo de nuestro "robot contador de datos curiosos", el cual nos pareció muy tierno. Pasamos el código que teníamos para hacer funcionar el módulo reproductor junto con el servo motor al computador de Vania. Ordenamos los códigos antes de pasarlos, quitando cosas que no eran necesarias y poniéndoles una descripción a cada acción. Así, prueba tras prueba, mis compañeras lograron encontrar la forma de unir parte del código para que pudiera generar la acción.
+
+En paralelo, fuimos resolviendo ciertas cosas del prototipo físico, como qué cosas queríamos añadirle, qué no nos convencía, cómo solucionábamos que la bocina tuviera un lugar dentro del robot y cómo hacíamos funcionar el motor DC para que este vibrara (como nos lo habíamos planteado anteriormente). Entonces sacamos papel y lápiz y manos a la obra: dibujamos posibles ejemplos de cómo debería ir incorporado.
+
+Buscamos cuánto resistía el motor, lo cual, según AFEL y sus especificaciones, podía llegar a resistir de 3V a 6V, por lo cual determinamos que tal vez sería necesario que la carcasa del robot no tuviera tanto peso. Teniendo en cuenta lo que queríamos lograr, planteamos que la vibración se generara en la plataforma, mediante una estructura base que subiera y bajara a diferentes velocidades para dar el efecto deseado.
+
+Luego pasamos a considerar que el cuerpo del robot podía llegar a ser muy pequeño, y aún nos faltaba incorporar la bocina y el motor DC. Nos dimos cuenta de que dentro del prototipo faltaría un espacio que podría ser un sacado para que el motor quedara fijo y no se moviera, porque eso podía cambiar la dirección del brazo, lo cual no queríamos que se interpretara de una forma rara.
+
+A la base le pondremos el codo pegado al cuerpo para que solo se mueva el antebrazo, por la misma razón anterior. Valentina nos comentó que también tenía el vibrador del joystick, que tal vez podríamos usar en vez del motor DC, así que decidimos que íbamos a probar ambas opciones y ver qué sucedía. Sin embargo, según los parámetros, no nos convencía, así que decidimos probar otro y aumentar la distancia, ya que esta podía influir mucho en el resultado.
+```
+
+
+
+### Código para animaciones de la pantalla TFT circular 
 
 Las **pantallas TFT LCD funcionan mediante el control de píxeles individuales para crear imágenes detalladas y de alta calidad**. Utilizan un controlador como el **GC9A01** para gestionar la información que se muestra en la pantalla. La interfaz SPI permite una comunicación rápida y eficiente con microcontroladores, lo que facilita la integración en proyectos.
 
@@ -820,9 +889,11 @@ void loop() {}
 ### 👁️ Referentes para la animación del ojo
 Gustavo Lita esta basado en distintos personajes ya existentes como los Sirulios de 31 minutos, Kang y Kodos de Los Simpson, los Minions, entre otros.
 
-la idea es que el personaje solo tenga un ojo (la pantalla circular es el ojo) para eso tenemos también de referentes a personajes como Mike Wazowski de Monster Inc, Plankton de Bob esponja, B.O.B de Monstruos v/s aliens y algunos minions, Leela de Futurama . Con estos personajes podemos ver bien como expresar ciertas emociones sin la necesidad de que tenga cejas y teniendo un solo ojo con espacio limitado para desarrollar la expresión que se quiera dar.
+La idea es que el personaje solo tenga un ojo (la pantalla circular es el ojo) para eso tenemos también de referentes a personajes como Mike Wazowski de Monster Inc, Plankton de Bob esponja, B.O.B de Monstruos v/s aliens y algunos minions, Leela de Futurama . Con estos personajes podemos ver bien como expresar ciertas emociones sin la necesidad de que tenga cejas y teniendo un solo ojo con espacio limitado para desarrollar la expresión que se quiera dar.
 
 ![referencias](imagenes/referencias.jpg)
+
+### 👁️ Ilustraciones de los ojos que queríamos que tuviera Gustavo Lita
 
 ![referencias](imagenes/ojos.jpg)
 
@@ -833,6 +904,7 @@ la idea es que el personaje solo tenga un ojo (la pantalla circular es el ojo) p
 ![boceto](imagenes/boceto.jpg)
 
 ### 🧩 Piezas impresas del prototipo
+Camila se encargó de ver los prototipos impresos en 3D. Hubieron muchas pruebas y error, hasta que finalmente llegamos con el diseño que se quería.
 
 ![collage](imagenes/prototipo_collage.jpg)
 
@@ -845,7 +917,7 @@ la idea es que el personaje solo tenga un ojo (la pantalla circular es el ojo) p
 ![monstruo](imagenes/monstruo.jpg)
 
 
-## Problemas al fusionar
+## ⚡️ Problemas al fusionar
 
 Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos que pasar todo al Arduino R3. No lo pasamos al R4 porque hay una biblioteca crucial para el funcionamiento de la pantalla que no corre en la versión más nueva. Al pasar a R3 nos encontramos con inconvenientes no previstos:
 
@@ -859,6 +931,19 @@ Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos q
 
 **Juntos**
 ![Reproductor DFPlayer con sensor de color unido a Pantalla con Arduino R3 ](imagenes/Juntos.jpg)
+
+
+## 📖 Bibliografía 
+- EazyTronic. (s.f.). How to use GC9A01 display with Arduino. EazyTronic. (https://eazytronic.com/gc9a01-with-arduino/)
+- Mert Arduino. (2019, marzo 11). Talking color detect system Arduino DFPlayer GY-31 TCS. Hackster.io. (https://www.hackster.io/mertarduino/talking-color-detect-system-arduino-dfplayer-gy-31-tcs-315423)
+- Munir. (2019, marzo 10). Play audio in Arduino. Arduino Project Hub. (https://projecthub.arduino.cc/munir03125344286/play-audio-in-arduino-d64363)
+- SurtrTech. (2018, diciembre 15). Color detection using TCS3200/230. Arduino Project Hub. (https://projecthub.arduino.cc/SurtrTech/color-detection-using-tcs3200230-a1e463)
+- Mechatronic Store. (s.f.). Pantalla TFT LCD redonda de 1.28”. Mechatronic Store. )https://www.mechatronicstore.cl/pantalla-tft-lcd-redonda-de-1-28/)
+- TechToTinker. (2021, enero 24). GC9A01 round LCD display module using Arduino [Video]. YouTube. (https://www.youtube.com/watch?v=pmCc7z_Mi8I&t=291s)
+- Programming Electronics Academy. (2018, diciembre 27). How to use the DFPlayer Mini MP3 module with Arduino [Video]. YouTube.
+  (https://www.youtube.com/watch?v=XGBhlo3DI4E)
+
+
 
 
 
