@@ -1,10 +1,10 @@
-# ⋆⭒˚.⋆ └[∵┌] - Máquina de saludo - Nombre del Proyecto - [┐∵]┘ ⋆.˚⭒⋆
+# ⋆⭒˚.⋆ └[∵┌] - Máquina de saludo - Juanito la Jaiba - [┐∵]┘ ⋆.˚⭒⋆
 
 Viernes 17 Octubre, 2025
 
 ***
 
-## Grupo-04 "nombre del grupo" - Integrantes
+## Grupo-04 "Grupo Juanito" - Integrantes
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
 - [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
@@ -86,11 +86,21 @@ Q --> |No|E
 
 Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error que fueron registrados de forma independiente en las bitácoras desde la clase “07a” hasta la fecha de entrega. Estos fueron agrupados de forma lineal.
 
-![imagen](./imagenes/dibujo-explicativo.jpg)
-
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-#### 1 Ultrasónico HC-SR04
+#### 1) Ultrasónico HC-SR04
+
+Esta parte del proceso comenzó con el estudio del sensor en cuestión. Este se trata de un circuito que emite ondas "ultrasónicas" y calcula cuánto tiempo pasa antes de que estas regresen a él. Sin embargo, este modelo no es muy preciso y recibe mucho “ruido”, por lo que se aplicó la biblioteca [“Newping”](https://docs.arduino.cc/libraries/newping/) que ayuda a corregir este problema y estabiliza el sensor.
+
+Tras haber probado un ejemplo de código de ultrasónico que comenzó a planificar la construcción de un "radar" montando el "detector" sobre un servomotor para que este pueda estar en una rotación constante entre 0 y 180 grados, y por ende cubrir un mayor rango de distancia en el espacio.
+
+![imagen](./imagenes/dibujo-explicativo.jpg)
+
+Un inconveniente surge, Y es el cómo poder hacer que el ultrasónico pueda detectar a una persona y no a un objeto inerte. Pues la solución fue el poder implementar un sistema que pueda registrar según su ángulo los objetos a distancia, cosa que si algo se aproxima al sensor pueda diferenciar al haber al usuario al existir movimiento. Ante ello se entregó un código de ejemplo de la biblioteca NewPing, lo que tenía y el ejemplo de radar sacado de internet a Gemini 2.5 Pro, además de una explicación detallada del comportamiento que busco obtener del código, para que pueda hacer de guía.
+
+Después de conseguir que el sensor funcionara y mostrara los valores registrados en la terminal, estuvimos es que comenzó a ver el orden y desarrollo del código ".ino" y sus respectivas pestañas ".h" y ".cpp". Ello fue una tarea bastante complicada, dado que ninguno de los integrantes lograba entender como contruir los archivos.
+
+Pese a ello se continuaron revisando los códigos de las otras piezas, fusionando las "líneas" del servomotor para montar el "radar".
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
