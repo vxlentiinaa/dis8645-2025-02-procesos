@@ -26,6 +26,7 @@ El módulo reproductor no funciona (no reconoce la tarjeta SD)
 - El primer "bug" fue una polilla real en una computadora en 1947. ¡Un error muy natural!
 
 #### Diálogo listo 
+
 + Los diálogos serán:
  + **1.** "hola1.mp3" de 80-10cm, para llamar a la persona: "Hola humano ¿Por qué estás tan lejos? Acércate."
  + **2.** "hola2.mp3" de 40-60cm, para hacer que la persona se acerque más: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji"
