@@ -12,7 +12,9 @@ Martes 14 de octubre, 2025
 
 ### Avances del Proyecto-02
 
-![gifconcha](imagenes/gif.gif)
+![gifconcha](imagenes/gif-concha.gif)
+
+![gifcangrejo](imagenes/gif-cangrejo.gif)
 
 Como ya habíamos definido la carcasa e identidad del proyecto, estuve desarrollando una con forma de concha marina para contener el speaker. Hasta ese momento solo había logrado dar la forma general, pero no conseguía que quedara como un sólido, así que me rendí por un tiempo. 
 
