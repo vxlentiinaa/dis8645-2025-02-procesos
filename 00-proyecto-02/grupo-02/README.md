@@ -53,7 +53,34 @@ Consiste en un dispensador de chicles con cuatro colores:
 6. Se reproduce el sonido correspondiente desde el módulo MP3.
 7. El proceso se repite con cada chicle.
 
-(agregar mapa de flujo en mermaid)
+### ✏️ Mapa de flujo
+
+flowchart TD
+    n1(["Inicio"]) --> n2["El usuario gira la manilla para que caiga un chicle"]
+    n2 --> n3["El chicle pasa por el sensor de color"]
+    n3 --> n4["El sensor detecta el color dominante"]
+    n4 --> n5["Azul"] & n6["Verde"] & n7["Rojo"] & n8["Naranjo"]
+    n5 --> n9["Tristeza"]
+    n6 --> n10["Feliz"]
+    n7 --> n11["Enojo"]
+    n8 --> n12["Locura"]
+    n9 --> n13["Se reproduce un audio correspondiente a la emoción"]
+    n10 --> n13
+    n11 --> n13
+    n12 --> n13
+    n13 --> n14["Se visualiza una pantalla (el ojo de Gustavo Lita) una animación"]
+    n14 --> n15["El proceso se repite cada vez que se gira la manilla"]
+    n15 --> n1
+
+    style n1 stroke:#FFD600,fill:#FFF9C4
+    style n5 fill:#BBDEFB
+    style n6 fill:#C8E6C9
+    style n7 fill:#FFCDD2
+    style n8 fill:#FFE0B2
+    style n9 stroke:#2962FF
+    style n10 stroke:#00C853
+    style n11 stroke:#D50000
+    style n12 stroke:#FF6D00
 
 ## 🔌 Componentes utilizados
 
@@ -910,11 +937,20 @@ Camila se encargó de ver los prototipos impresos en 3D. Hubieron muchas pruebas
 
 ![piezas](imagenes/piezas.jpg)
 
+### Carcasa para la pantalla
+
 ![carcasa pantalla](imagenes/carcasa_pantalla.jpg)
+
+### Primeros Prototipos
 
 ![forma](imagenes/prototipo_verde.jpg)
 
+### Se incluye la pantalla
 ![monstruo](imagenes/monstruo.jpg)
+
+### 🧩 Diseño final de Gustavo Lita
+![diseño](imagenes/3d.jpg)
+
 
 
 ## ⚡️ Problemas al fusionar
@@ -942,6 +978,7 @@ Para unir sensor de color, reproductor mp3 DFPlayer y pantalla GC9A01A tuvimos q
 - TechToTinker. (2021, enero 24). GC9A01 round LCD display module using Arduino [Video]. YouTube. (https://www.youtube.com/watch?v=pmCc7z_Mi8I&t=291s)
 - Programming Electronics Academy. (2018, diciembre 27). How to use the DFPlayer Mini MP3 module with Arduino [Video]. YouTube.
   (https://www.youtube.com/watch?v=XGBhlo3DI4E)
+
 
 
 
