@@ -114,6 +114,8 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 El código comienza midiendo la distancia con el Sensor Ultrasónico
 
+ARCHIVO.cpp
+
 ```cpp
 #include "EntradaUltrasonico.h"
 
@@ -128,7 +130,7 @@ void EntradaUltrasonico::configurar() {
 }
 
 float EntradaUltrasonico::medirDistancia() {
- // mide dustancia enviando un pulso de sonido
+ // mide distancia enviando un pulso de sonido
  // y mide cuanto tardar en regresar
   digitalWrite(patitaTrigger, LOW);
   delayMicroseconds(2);
@@ -171,7 +173,53 @@ void EntradaUltrasonico::decidirCercania() {
 }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef ENTRADAULTRASONICO_H
+#define ENTRADAULTRASONICO_H
+
+#include <Arduino.h>
+
+class EntradaUltrasonico {
+public:
+  EntradaUltrasonico();
+  ~EntradaUltrasonico();
+
+  void configurar();
+  float medirDistancia();
+  void decidirCercania();
+
+  // valores actuales
+  int dondeEsta;     // 0 = cercana, 1 = mediana, 2 = lejana, -1 = nada
+  float distanciaCm; // distancia medida
+
+  // pines del sensor
+  const int patitaTrigger = 11;
+  const int patitaEcho = 12;
+
+  // rangos de distancia (puedes ajustarlos)
+  const int minCercana = 0;
+  const int maxCercana = 20;
+  const int minMediana = 50;
+  const int maxMediana = 90;
+  const int minLejana = 120;
+  const int maxLejana = 180;
+
+  long duracion;
+
+  // variables para evitar repeticiones de loro
+  int ultimoEstado = -1;
+  unsigned long ultimoCambio = 0;
+  const unsigned long tiempoEstabilidad = 500; // milisegundos (0.5 seg)
+};
+
+#endif
+```
+
 ### 2. Salida Dedo Servomotor
+
+ARCHIVO.cpp
 
 ```cpp
 #include "SalidaDedo.h"
@@ -197,7 +245,43 @@ void SalidaDedo::bajar() {
 }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef SALIDA_DEDO_H
+#define SALIDA_DEDO_H
+
+#include <Arduino.h>
+#include <Servo.h>
+
+class SalidaDedo {
+
+public:
+
+  // constructor
+  SalidaDedo();
+
+  // destructor
+  ~SalidaDedo();
+
+  void configurar();
+
+  void levantar();
+
+  void bajar();
+
+  // numero de pin donde va conectado el servomotor
+  int patitaServo = 13;
+
+  Servo servo;
+};
+
+#endif
+```
+
 ### 3. Salida Motor Vibración
+
+ARCHIVO.cpp
 
 ```cpp
 #include "SalidaMotorVibracion.h"
@@ -260,7 +344,44 @@ void SalidaMotorVibracion::vibrar(int cuantoVibrar) {
 }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef MOTOR_VIBRACION_H
+#define MOTOR_VIBRACION_H
+
+#include <Arduino.h>
+
+class SalidaMotorVibracion {
+public:
+  // constructor
+  SalidaMotorVibracion();
+  // destructor
+  ~SalidaMotorVibracion();
+
+  // configura los pines
+  void configurar();
+  // actualiza los datos de los pines para que queden en 0
+  void actualizar();
+  // función auxiliar
+  void vibrar(int cuantoVibrar);
+
+  // pines
+  int TRIG_PIN = 11;
+  int ECHO_PIN = 12;
+  int MOTOR_PIN = 9;
+
+  // variables internas
+  unsigned long duracion = 0;
+  int intensidad = 0;
+};
+
+#endif
+```
+
 ### 4. Salida Voz
+
+ARCHIVO.cpp
 
 ```cpp
 #include "SalidaVoz.h"
@@ -341,6 +462,29 @@ void reproducirAudioDistancia(float distancia) {
   }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef SALIDA_VOZ_H
+#define SALIDA_VOZ_H
+
+// esta clase no la separamos porque fue nuestro límite, tenía mucha información
+// mandar issue al profe para ver si se puede cambiar pero no es necesario
+#include "Arduino.h"
+#include "DFRobotDFPlayerMini.h"
+
+class SalidaVoz {
+  SalidaVoz();
+  ~SalidaVoz();
+};
+
+void configurarMP3();
+void reproducirAudioDistancia(float distancia);
+void reproducirAudioDirecto(int numeroAudio);
+
+#endif
+```
+
 ## Etapas de la carcasa
 
 ![vistaExplosionada](./imagenesProyecto-02/vistaExplo.png)
@@ -417,4 +561,5 @@ Videos en la carpeta de drive, creada por Mateo ([Encargo-02](https://drive.goog
 - Llamas, L. (s.f.). Ficheros .h y .cpp en C++. Recuperado de <https://www.luisllamas.es/cpp-ficheros-h-y-cpp/>
 - DFRobot. (s.f.). DFRobotDFPlayerMini Library. Recuperado de <https://github.com/DFRobot/DFRobotDFPlayerMini>
 - Arduino. (s.f.). Repositorio oficial de Arduino. Recuperado de <https://github.com/Arduino>
+
 
