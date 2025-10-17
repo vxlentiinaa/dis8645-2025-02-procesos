@@ -12,7 +12,9 @@ Martes 14 de octubre, 2025
 
 ### Avances del Proyecto-02
 
-![gifconcha](imagenes/gif.gif)
+![gifconcha](imagenes/gif-concha.gif)
+
+![gifcangrejo](imagenes/gif-cangrejo.gif)
 
 Como ya habíamos definido la carcasa e identidad del proyecto, estuve desarrollando una con forma de concha marina para contener el speaker. Hasta ese momento solo había logrado dar la forma general, pero no conseguía que quedara como un sólido, así que me rendí por un tiempo. 
 
@@ -33,6 +35,13 @@ Modelé una forma más básica de concha marina, a la que le di las tolerancias 
 ![imagen](imagenes/capturla-espiral05.png)
 
 ![imagen](imagenes/captura-espiral06.png)
+
+
+### Reflexion dificultades del proyecto
+
+Yo creo que lo que más me costó en este primer proyecto fue sentirme preparada para gestionar algo así, ya que varias veces sentí que no sabía lo suficiente para trabajar con programación. Se podría decir que “perdí” bastante tiempo repasando conceptos de programación en general para sentirme más al día. Por eso, no pude involucrarme tanto en el código como me habría gustado, participando principalmente en la búsqueda de referencias.
+
+Además, siento que no tuvimos una comunicación tan buena y no supimos repartir bien el trabajo según nuestras habilidades. Cada integrante fue avanzando a distintos ritmos y en diferentes partes del proyecto, lo que hizo difícil concretar y unir todas las versiones de los códigos al final.
 
 ---
 

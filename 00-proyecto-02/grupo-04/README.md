@@ -1,6 +1,6 @@
 # ⋆⭒˚.⋆ └[∵┌] - Máquina de saludo - Nombre del Proyecto - [┐∵]┘ ⋆.˚⭒⋆
 
-Viernes 17 Octubre 2025
+Viernes 17 Octubre, 2025
 
 ***
 
@@ -158,13 +158,19 @@ Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conc
 
 Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh.
 
+![boceto](imagenes/boceto01.jpeg)
+
 Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
 
-insertar bocetos*
+Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas.
 
-#### Carcasa Speaker
+### Carcasa Speaker 
 
-Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
+Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
+
+![boceto](imagenes/boceto02.jpeg)
+
+Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil de conseguir al principio. Fue modelada en Rhino, luego corregimos algunos detalles en Fusion 360 y finalmente la imprimimos en el LID.
 
 ![foto](imagenes/captura-espiral01.png)
 
@@ -172,11 +178,13 @@ Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con e
 
 ![foto](imagenes/captura-espiral03.png)
 
-#### Carcasa servo, sersor ultrasonico y arduino
+![foto](imagenes/caracol-impresion3d.jpeg)
+
+### Carcasa servo, sersor ultrasonico y arduino
 
 Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
-insertar foto de modelado cangrejo*
+Tanto el cangrejo con los ojos como la piedra para el sensor con el servo fueron modelados en Rhino y Fusion 360, e impresos en el LID.
 
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
@@ -204,7 +212,14 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos>
 - <https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini>
 - <https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/>
+- <https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut>
 - <https://www.youtube.com/watch?v=5X0v0MOrQiI>
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
+
+
+
+
+
