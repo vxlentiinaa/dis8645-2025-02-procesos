@@ -6,3 +6,5 @@
 ![Cableado2](./imagenes/Cableado2.png)
 
 ### DURANTE LA CLASE
+
+![Clase](./imagenes/algunos-cableados.jpg)
