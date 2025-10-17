@@ -113,7 +113,9 @@ Versión mejorada con ajustes en el eje y velocidad de rotación.
 
 Iteración final mostrando un movimiento fluido y sincronizado del mecanismo completo.
 
+![gif_prueba_sensor](./imagenes/gif_prueba_sensor.gif)
 
+Probando el sensor de proximidad
 ### Modelado 3D y renderizado
 ![mecanismoPro-render](./imagenes/mecanismoPro-render.png)
 
@@ -158,6 +160,9 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
 
 ## Bibliografía
+
+## Reflexión
+
 
 
 
