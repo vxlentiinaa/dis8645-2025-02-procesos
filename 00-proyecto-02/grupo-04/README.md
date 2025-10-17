@@ -170,7 +170,7 @@ Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alus
 
 ![boceto](imagenes/boceto02.jpeg)
 
-Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil de conseguir al principio. Fue modelada en Rhino y luego corregimos algunos detalles en Fusion 360.
+Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil de conseguir al principio. Fue modelada en Rhino, luego corregimos algunos detalles en Fusion 360 y finalmente la imprimimos en el LID.
 
 ![foto](imagenes/captura-espiral01.png)
 
@@ -184,7 +184,7 @@ Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil 
 
 Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
-insertar foto de modelado cangrejo*
+Tanto el cangrejo con los ojos como la piedra para el sensor con el servo fueron modelados en Rhino y Fusion 360, e impresos en el LID.
 
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
@@ -217,6 +217,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
