@@ -149,7 +149,7 @@ Diferencias:
   
 ### Referentes
 
-Libro: La impresión 3D 
+- Libro: La impresión 3D - Mathilde Berchon
 ![libro00](./imagenes/libro00.png)
-![libro00](./imagenes/libro00.png)
+![libro01](./imagenes/libro01.png)
 
