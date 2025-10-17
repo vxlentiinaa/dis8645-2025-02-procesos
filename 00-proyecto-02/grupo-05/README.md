@@ -92,7 +92,6 @@ Morgan identificó errores en la definición de los parámetros entre archivos .
 
 Morgan junto al profesore Aarón continuaron con el desarrollo y orden de la clase SensorUltra, ya que en la versión anterior ocurrían errores respecto a los parámetros debido al desorden entre los archivos .h y .cpp.
 
-
 ### codigoRobotFriolento_0_2_1
 
 Morgan gracias a la ayuda de Aarón empezó con el desarrollo de la clase SensorTemp, que compilaba correctamente.
@@ -180,7 +179,6 @@ Sebastián agregó texto que dara contexto a la situación en la que se encuentr
 Sebastián intentó cambiar el uso de delay() hacia millis() dentro de los archivos correspondientes al display, pero no se logró de manera correcta, debido a que las pantallas cambiaban con una velocidad muy alta, o ni siquiera cambiaban dependiendo de el tiempo que se les aplicará, no existía un punto intermedio.
 </details>
 
-
 ## Carcasa 
 
 Aileen se dedicó completamente a llevar a cabo la carcasa de Friolín, trayendo las ideas fantasiosas a la realidad.
@@ -203,7 +201,22 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 
 ![Vista interior con los cables](imagenes/cables.jpeg)
 
+
+### BOM (Bill of Materials)
+
+| Sensor / Actuador               | Especificacion | Precio | Link de compra                                                                                                                                                                 |
+| ------------------------------- | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Servomotor                      | SG90           | $1.990 | [https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r](https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r)                       |
+| Sensor Ultrasónico              | HC-SR04        | $1.500 | [https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r)       |
+| Sensor de Temperatura y Humedad | DHT11          | $2.300 | [https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11)                                               |
+| Pantalla 1.3" 128x64 | 1306 LCD Oled  | $5.000  | https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-blancos?pr_prod_strat=e5_desc&pr_rec_id=d485cccf4&pr_rec_pid=8381975822488&pr_ref_pid=8381902258328&pr_seq=uniform  |
+
+
+
+
+
 ### Comentarios finales
 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
+
 
