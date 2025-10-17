@@ -8,7 +8,7 @@ Viernes 17 Octubre, 2025
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
 - [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
-- [José Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa, post producción)
+- [José Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa)
 - [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación)
 - [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código, modelado)
 
@@ -37,24 +37,18 @@ Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta
 
 ***
 
-Mapa de flujo
-
-![diagrama de flujo](https://mermaid.ink/img/pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo?type=png)
-
-***
-
 #### Presentación textual de la propuesta
 
-Nuestra máquina consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado por una persona a la vez.
+Nuestra máquina consiste en un dispositivo funcional que está planeado para ser utilizado por una persona a la vez.
 Esta trabaja detectando la presencia del usuario a través de un “radar” compuesto por un [“sensor ultrasónico HC-SR04”]( https://www.alldatasheet.com/html-pdf/1132204/ETC2/HCSR04/110/1/HCSR04.html) y un [“servomotor SG90”](https://arduino.cl/producto/micro-servo-motor-sg90-9g/?srsltid=AfmBOopUK1FSSvEOeee794pcjIBccD8B2MQF36GlEjuMTAzqI4rHkSnN) que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
 
-Cuando se ingresa al rango de “reconocimiento” (compuesto por la rotación del servomotor más la distancia del ultrasónico) los “ojos” de la máquina se mueven y siguen a la persona a través de un mecanísmo que posee otro motor servo.
+Cuando se ingresa al rango de “reconocimiento” (compuesto por la rotación del servomotor más la distancia del ultrasónico) los “ojos” de la máquina se mueven y siguen a la persona a través de un mecanismo que posee otro motor servo.
 
 Cuando el sujeto se acerca a una distancia (15 cm) del dispositivo, la concha que posee un [“Modulo Reproductor MP3 DFPlayer Mini”](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=1&_psq=mp3&_ss=e&_v=1.0), comienza a emitir sonidos de forma aleatoria hasta que la persona se aleje lo suficiente como para salir del "rango de sonido".
 
 Los ojos no dejan de funcionar en ningún momento, por lo que persiguen al usuario hasta que salga del rango de reconocimiento.
 
-Por el lado conceptual y figurativo, la máquina posee una carcasa compuestas por un "cangrejo" y una "concha marina".
+Por el lado conceptual y figurativo, la máquina posee una carcasa compuesta por un "cangrejo" y una "concha marina".
 
 La primera pieza se compone de una imitación de un “cangrejo”, una réplica de una criatura asociada con la costa por su presencia en dicho sector a lo largo de todo Chile. La segunda parte se compone de una “concha de mar”, un objeto común de encontrar en las playas y que posee el mito de permitir escuchar sonidos semejantes al oleaje del mar y viento de las costas (efecto conocido como [Resonancia de las conchas de Gastrópodos](https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos)).
 
@@ -96,17 +90,84 @@ Tras haber probado un ejemplo de código de ultrasónico que comenzó a planific
 
 ![imagen](./imagenes/dibujo-explicativo.jpg)
 
+![gif](./imagenes/prueba-radar.gif)
+
+
 Un inconveniente surge, Y es el cómo poder hacer que el ultrasónico pueda detectar a una persona y no a un objeto inerte. Pues la solución fue el poder implementar un sistema que pueda registrar según su ángulo los objetos a distancia, cosa que si algo se aproxima al sensor pueda diferenciar al haber al usuario al existir movimiento. Ante ello se entregó un código de ejemplo de la biblioteca NewPing, lo que tenía y el ejemplo de radar sacado de internet a Gemini 2.5 Pro, además de una explicación detallada del comportamiento que busco obtener del código, para que pueda hacer de guía.
 
 Después de conseguir que el sensor funcionara y mostrara los valores registrados en la terminal, estuvimos es que comenzó a ver el orden y desarrollo del código ".ino" y sus respectivas pestañas ".h" y ".cpp". Ello fue una tarea bastante complicada, dado que ninguno de los integrantes lograba entender como contruir los archivos.
 
 Pese a ello se continuaron revisando los códigos de las otras piezas, fusionando las "líneas" del servomotor para montar el "radar".
 
+```cpp
+// --- CONFIGURATION CONSTANTS FOR THE RADAR ---
+const int radarServoPin = 9;  // el pin del servoRadar
+const int anguloMin = 0;       // limite izquierdo del servo
+const int anguloMax = 180;      // limite derecho del servo
+const int servoStep = 1; // cuantos grados por paso
+const int servoTime = 15; // milisegundos que espera entre cada paso (millis)
+
+// --- HARDWARE OBJECT ---
+Servo radarServo; // Crear objeto
+
+// --- STATE VARIABLES (memoria) ---
+int anguloRadarActual = anguloMin; // comienza al angulo mínimo
+bool direccionRadar = 1;            // 1 es hacia la derecha, 0 es a la izquierda
+unsigned long lastServoMoveTime = 0; // cuando movimos el servo por ultima vez
+```
+
+Tras más proceso, y días de pedir ayuda a profesores y compañeros es que se llegó a un buen resultado.
+Los contenidos se encuentran en la carpeta ["codigo-final-arduino"](./codigo-final-arduino)
+
+```cpp
+/*
+Grupo-04
+
+Integrantes:
+
+10-brauliofigueroa2001
+13-Bernardita-lobo
+17-jotamorales-romulus
+20-Camila-Parada
+28-FranUDP
+
+Conexiones:
+
+ServoRadar = Pin 9
+
+ServoOjos = Pin 10
+
+SensorUltrasonico | Trig = Pin 12 | Echo = Pin 11
+
+Mp3 = Pin 8
+
+*/
+
+#include "SensorUltrasonico.h"
+#include "Rotador.h"
+#include "Ojos.h"
+
+Rotador rotador;
+SensorUltrasonico ultrasonico;
+Ojos ojos;
+
+void setup() {
+  Serial.begin(115200);
+  ultrasonico.configurar();
+  rotador.configurar(&ultrasonico, &ojos); 
+  ojos.configurar();
+}
+
+void loop() {
+  rotador.radar();
+}
+```
+
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-#### 2 Servomotor SG90 y movimiento ocular
+#### 2) Servomotor SG90 y movimiento ocular
 
-En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
+En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatrónicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
 
 [![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/Ftt9e8xnKE4/mqdefault.jpg)](https://www.youtube.com/watch?v=Ftt9e8xnKE4)
 
@@ -118,7 +179,7 @@ A partir de ello es que los estudios iniciales se centraron en replicar el mecan
 
 -> Animatronic Eyes Fotografías, por Morgan Manly, s.f., instructables (<https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/>). CC BY-NC-SA 4.0
 
-Ante ello se pudo concluir que es necesario 3 servomotores por ojo para abrir y cerrar del parpado, además de un segundo y tercero para mover el ojo en vertical y horizontal. Además se requiere de una calibración con código para ir ajustando los motores.
+Ante ello se pudo concluir que es necesario 3 servomotores por ojo para abrir y cerrar del parpado, además de un segundo y tercero para mover el ojo en vertical y horizontal. Además, se requiere de una calibración con código para ir ajustando los motores.
 
 Dentro de toda la información recopilada sobre los servomotores es que son actuadores de tipo motor que permiten controlar el posicionamiento físico. Poseen un controlador que se encarga de comparar y ajustar la posición del motor a la indicada, un potenciómetro que funciona como un sensor de retroalimentación que informa la posición actual, engranajes de plástico o metal y un motor de corriente continua. Para poder controlar este tipo de motor es necesario el enviarle una serie de pulsos eléctricos, cuya longitud determina la posición del servomotor.
 
@@ -170,9 +231,9 @@ Cuando comenzó la investigación del módulo dfplayer mini la primera función 
 
 ![imagen](./imagenes/conexión-dfplayermini.jpg)
 
-Este código permitía reproducir el número de pistas en específico nombradas según un orden establecido en base a una numeración específica que pedía enumerar las pistas de audio como 0001,0002,0003,0004. Luego de poder establecer una lista de audios, se necesitaba que se reproducieran de forma aleatoria por lo que se utilizó la función mydfplayer.randomall la cuál permitía correr los audios de forma aleatoria en un loop sin parar. Este era un problema ya que necesitábamos tener un control sobre el cómo se estaban reproduciendo los audios.
+Este código permitía reproducir el número de pistas en específico nombradas según un orden establecido en base a una numeración específica que pedía enumerar las pistas de audio como 0001,0002,0003,0004. Luego de poder establecer una lista de audios, se necesitaba que se reprodujeran de forma aleatoria por lo que se utilizó la función mydfplayer.randomall la cuál permitía correr los audios de forma aleatoria en un loop sin parar. Este era un problema ya que necesitábamos tener un control sobre el cómo se estaban reproduciendo los audios.
 
-Para ello misaaa nos sugirió utilizar un botón el cuál nos permitiera establecer una especie de "dado" en el cuál al presionarlo se daba un resultado aleatorio, en este caso la reproducción de un sonido aleatorio
+Para ello [Matías](https://github.com/misaaaaaa) nos sugirió utilizar un botón el cual nos permitiera establecer una especie de "dado" en el cuál al presionarlo se daba un resultado aleatorio, en este caso la reproducción de un sonido aleatorio.
 
 ```cpp
 #include "Arduino.h"
@@ -297,43 +358,35 @@ void printDetail(uint8_t type, int value){
 }
 ```
 
-Funcionamiento: Se configura la comunicación serial con el DFPlayer y se inicializa el volumen.El botón, conectado al pin 2, activa la reproducción de una pista aleatoria de la tarjeta SD,
-se implementa un antirrebote para evitar lecturas falsas del botón, la función PrintDetail()muestra en el monitor serial el estado del módulo y errores, ayudando a depurar
+Funcionamiento: Se configura la comunicación serial con el DFPlayer y se inicializa el volumen. El botón, conectado al pin 2, activa la reproducción de una pista aleatoria de la tarjeta SD,
+se implementa un antirrebote para evitar lecturas falsas del botón, la función "PrintDetail()" muestra en el monitor serial el estado del módulo y errores, ayudando a depurar.
 
-Debido a varios problemas técnicos con el código del proyecto a última hora, decidimos improvisar y usar dos Arduinos en lugar de uno. Esto permitió repartir las tareas y evitar errores de funcionamiento
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-Cada Arduino tiene una función. El primero actúa como el radar: controla el servo, mide la distancia con el sensor ultrasónico y detecta si algo está demasiado cerca. El segundo es el módulo de sonido: su única tarea es manejar el DFPlayer Mini y reproducir un audio aleatorio cuando recibe una señal
+#### Inconvenientes con los componentes
 
-La comunicación entre ambos se hace con una señal digital simple: un pin del Arduino radar se conecta al pin 2 del Arduino de sonido. Cuando el radar detecta un objeto cercano, envía un pulso eléctrico (low) que el otro Arduino interpreta como la orden para activar el sonido
+Debido a varios problemas técnicos con el código del proyecto a última hora, decidimos improvisar y usar dos "Arduinos" en lugar de uno. Esto permitió repartir las tareas y evitar los errores de funcionamiento.
 
-Gracias a la idea de franudp el código de cada parte se volvió más simple. Aunque no era lo ideal, fue una manera de lograr que el proyecto funcionara
+Cada Arduino tiene una función. 
+El primero actúa como el radar: controla el servo, mide la distancia con el sensor ultrasónico y detecta si algo está demasiado cerca. El segundo es el módulo de sonido: su única tarea es manejar el DFPlayer Mini y reproducir un audio aleatorio cuando recibe una señal.
+
+La comunicación entre ambos se hace con una señal digital simple: un pin del Arduino radar se conecta al pin 2 del Arduino de sonido. Cuando el radar detecta un objeto cercano, envía un pulso eléctrico (low) que el otro Arduino interpreta como la orden para activar el sonido.
+
+Gracias a la idea de [@Fran-udp](https://github.com/FranUDP) el código de cada parte se volvió más simple. Aunque no era lo ideal, fue una manera de lograr que el proyecto funcionara.
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
 #### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
-Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conceptual del trabajo. Nuestra primera opción, antes de profundizar en el funcionamiento y en los cambios técnicos que fuimos realizando, fue trabajar con el concepto del sin sentido y la sinestesia, mezclando los sentidos como experiencia a través de los sensores.
+Como requisito fundamental para diseñar las carcasas es que hubo que profundizar en el funcionamiento y en los cambios técnicos que surgieron en cuanto al desarrollo del circuito eléctrico y el funcionamiento de cada pieza.
 
-Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, entonces quisimos darle una especie de enfoque conceptual a nuestro proyecto, tomando los elementos que habíamos definido. Siguiendo con eso, se nos ocurrió transformar la idea de la oreja que habla y situar el resto de los elementos dentro de un contexto inspirado en Van Gogh.
+#### A) Carcasa Cangrejo (servo, sensor ultrasónico y arduino)
 
-Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
+![gif](imagenes/gif-cangrejo.gif)
 
-insertar bocetos*
-
-#### Carcasa Speaker
-
-Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
-
-![foto](imagenes/captura-espiral01.png)
-
-![foto](imagenes/captura-espiral02.png)
-
-![foto](imagenes/captura-espiral03.png)
-
-#### Carcasa servo, sersor ultrasonico y arduino
-
-Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
+Al tener una idea más concreta, decidimos tematizar la "envoltura" de los elementos de la parte principal del proyecto, cubriendo el Arduino, el servomotor y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
 ![imagen](./imagenes/boceto-cangrejo-carcasa.jpg)
-Tanto el cangrejo con los ojos como la piedra para el sensor con el servo fueron modelados en Rhino y Fusion 360, e impresos en el LID.
 
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
@@ -341,23 +394,26 @@ Tanto el cangrejo con los ojos como la piedra para el sensor con el servo fueron
 
 #### B) Carcasa Speaker (speaker, MP3 DFPlayer Mini)
 
-Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
-
-![foto](imagenes/proceso-carcasa-caracola.jpg)
-
-![imagen](./imagenes/proceso-carcasa-cangrejo.jpg)
-
-#### B Carcasa Speaker (speaker, MP3 DFPlayer Mini)
+![gif](imagenes/gif.gif)
 
 Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 
 ![foto](imagenes/proceso-carcasa-caracola.jpg)
+
 
 ***
 
-#### Reflexiones individuales
+### Proyecto final
 
-#### - Braulio Figueroa
+![foto](imagenes/juanito-vive.jpg)
+
+[![video-youtube](https://img.youtube.com/vi/x2AwFOhT8Lk/mqdefault.jpg)](https://www.youtube.com/shorts/x2AwFOhT8Lk) 
+
+***
+
+### Reflexiones individuales
+
+#### - Braulio Figueroa:
 
 Creo que la mayor dificultad que enfrentamos en el proyecto fue la comunicación y el entender las distintas capacidades de los demás para poder llegar a ser un grupo que tuviera una mayor cohesión. En diversas ocasiones sentí que nos separábamos mucho como grupo y sentía que nos queríamos decir más cosas como equipo, pero al final no lo hacíamos, no sé si por vergüenza o por incomodidad. No sé si seré la única persona del grupo que se sintió así.
 
@@ -366,22 +422,27 @@ Creo que no me pude terminar de sentir en un ambiente cómodo en el grupo, pero 
 En cuanto al proyecto en sí, creo que me gustaría implementar más cosas para hacerlo más parecido a una especie de juguete que huya de las personas cuando las detecte, estilo cangrejo que camina de lado y que al mismo tiempo pueda tener algún tipo de detección de obstáculos para hacerlo más dinámico e interactivo con un potencial público.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Bernardita Lobo:
+
+Yo creo que lo que más me costó en este primer proyecto fue sentirme preparada para gestionar algo así, ya que varias veces sentí que no sabía lo suficiente para trabajar con programación. 
+
+Se podría decir que “perdí” bastante tiempo repasando conceptos de programación en general para sentirme más al día. Por eso, no pude involucrarme tanto en el código como me habría gustado, participando principalmente en la búsqueda de referencias. 
+
+Además, siento que no tuvimos una comunicación tan buena y no supimos repartir bien el trabajo según nuestras habilidades. Cada integrante fue avanzando a distintos ritmos y en diferentes partes del proyecto, lo que hizo difícil concretar y unir todas las versiones de los códigos al final.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - José Morales:
 
-#### - José Morales
+Primero, quiero agradecer el trabajo realizado por el equipo, ya que fue grato colaborar y compartir ideas durante el desarrollo del proyecto. En cuanto a mi participación, reconozco que algunas tareas se me hicieron complejas y más de alguna vez me ganó la ansiedad. Al haber tantas cosas por resolver al mismo tiempo, me sentí un poco abrumado, especialmente al intentar programar el código del audio randomizado. Aunque logré avanzar, se me dificultó lograr que funcionara correctamente junto con el resto de cosas, lo que me llevó a comprender mejor la importancia de la integración y la comunicación entre las distintas partes del proyecto. 
 
-Primero, quiero agradecer el trabajo realizado por el equipo, ya que fue grato colaborar y compartir ideas durante el desarrollo del proyecto. En cuanto a mi participación, reconozco que algunas tareas se me hicieron complejas y más de alguna vez me ganó la ansiedad. Al haber tantas cosas por resolver al mismo tiempo, me sentí un poco abrumado, especialmente al intentar programar el código del audio randomizado. Aunque logré avanzar, se me dificultó lograr que funcionara correctamente junto con el resto de cosas, lo que me llevó a comprender mejor la importancia de la integración y la comunicación entre las distintas partes del proyecto.
-
-El modelado y prototipado fueron un verdadero desafío, ya que comenzamos a trabajarlos cuando el proyecto ya estaba avanzado. Creo que, si hubiésemos abordado esa etapa desde el inicio, habríamos tenido más oportunidades para hacer pruebas, detectar errores y mejorar el diseño. También creo que podríamos haber explorado un objeto más compacto, algo que integrara varias funciones.
+El modelado y prototipado fueron un verdadero desafío, ya que comenzamos a trabajarlos cuando el proyecto ya estaba avanzado. Creo que, si hubiésemos abordado esa etapa desde el inicio, habríamos tenido más oportunidades para hacer pruebas, detectar errores y mejorar el diseño. También creo que podríamos haber explorado un objeto más compacto, algo que integrara varias funciones. 
 
 Finalmente, el trabajo en grupo fue clave para avanzar, pero también hubo momentos en los que se notaron algunas debilidades en la organización y en la gestión del tiempo. Hubo ideas que se estancaron y tiempos muertos que afectaron el ritmo del proyecto. Ha futuro me gustaría que hubiese una planificación clara y una distribución equitativa de tareas.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Camila Parada:
 
-#### - Camila Parada
-
-Este encargo fue un nuevo desafío personalmente. Siento que dos de mis dificultades son la comunicación y el querer hacer siempre más, no quedando satisfecha con los resultados obtenidos. Esta sensación y mi compromiso con el grupo y el taller (curso) es lo que me hace moverme para seguir avanzando.
+Este encargo fue un nuevo desafío personalmente. Siento que dos de mis dificultades son la comunicación y el querer hacer siempre más, no quedando satisfecha con los resultados obtenidos. Esta sensación y mi compromiso con el grupo y el taller (curso) es lo que me hace moverme para seguir avanzando. 
 
 Siento que fue un poco complejo organizarse como equipo, dado que no había una comunicación muy efectiva, no había un entendimiento mutuo sobre los objetivos de cada uno, y no había una figura que pudiera ayudar a administrar y poner orden. El haber trabajado con herramientas como “Github” o “Discord” no aportaba demasiado a acortar esto, puesto que al tener que trabajar con distintos códigos hizo que existieran más desencuentros.
 
@@ -390,12 +451,11 @@ Por otra parte, mi proceso de trabajo fue a un ritmo más lento y con muchas exp
 No negaré que mi mente me juega en contra, y que las situaciones externas han detonado más la distimia. Pese a ello me interesa poder seguir desarrollando proyectos en conjunto y seguir aprendiendo de sensores u actuadores, además de nuevas tecnologías.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+#### - Francisco Stephens:
 
-#### - Francisco Stephens
+Personalmente me enredé mucho con el “OOP”, estuve como dos semanas dando vueltas en círculos intentando comenzar a hacer el código, no fue hasta que @montoyamoraga tomó lo poco que teníamos y nos dio una base clara desde donde comenzar a construir el código, quizás hubiese sido beneficioso tener esas revisiones de código en clase antes. 
 
-Personalmente me enredé mucho con el “OOP”, estuve como dos semanas dando vueltas en círculos intentando comenzar a hacer el código, no fue hasta que @montoyamoraga tomó lo poco que teníamos y nos dio una base clara desde donde comenzar a construir el código, quizás hubiese sido beneficioso tener esas revisiones de código en clase antes.
-
-También encontré que trabajar en el código con múltiples personas era muy confuso, pues sabiendo lo frágil que es el código, escribirlo teniendo en cuenta que sea “futureproof”, para que no se rompa a cada rato fue un jaleo. Creo que hubiese sido beneficioso haber visto en clase como anticipar estos problemas y programar entre varios.
+También encontré que trabajar en el código con múltiples personas era muy confuso, pues sabiendo lo frágil que es el código, escribirlo teniendo en cuenta que sea “futureproof”, para que no se rompa a cada rato fue un jaleo. Creo que hubiese sido beneficioso haber visto en clase como anticipar estos problemas y programar entre varios. 
 
 Por último, nos pasó que todos avanzábamos a distintos ritmos, lo que ocasionó que terminase escribiendo casi todo el código, pues yo ya había terminado mi parte mientras los otros seguían trabajando en el modelado, investigando referentes y demás, no es que esto me moleste, nomás que me desorienta no estar actualizado sobre qué está pasando con cada uno, para poder anticipar y planificar mejor.
 
@@ -404,8 +464,6 @@ Por último, nos pasó que todos avanzábamos a distintos ritmos, lo que ocasion
 ### Comentarios finales
 
 Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si por el hecho de tener a un ser humano como el usuario "iniciador de esta actividad" es que se pueden generar interacciones con objetos o hasta lugares. Es un acto temporal pero que puede persistir en la memoria de quienes, por ejemplo, conocen o se vuelven a encontrar con lugares tales como el mar.
-
-![gif](imagenes/gif.gif)
 
 ***
 
@@ -419,8 +477,11 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos>
 - <https://wolles-elektronikkiste.de/en/arduino-controlled-dfplayer-mini>
 - <https://www.instructables.com/Controlling-a-Servo-With-an-Ultrasonic-Sensor-Usin/>
-- <https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut>
 - <https://www.youtube.com/watch?v=5X0v0MOrQiI>
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
+
+
+
