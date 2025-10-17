@@ -17,7 +17,7 @@
 
 El proyecto consiste en un robot que saluda mediante la interacción con algún humano, por medio de el sensor de ultrasónico programado con Arduino R4 Minima. A través, de las diferentes distancias puede recorrer tres fases de audios:
 
-`Diálogo:`
+`DIÁLOGOS:`
 
 `Audios de saludo: Fase 1 y 2`
 
@@ -73,7 +73,7 @@ Esquemático hecho por misa en clase.
 
 ![imagenProceso](./imagenesProyecto-02/mosfet-m.png)
 
-`Reacciones`
+`REACCIONES`
 
 1. Cuando detecte una presencia esta comenzará a temblar (de nervios) mediante el motor vibración Joystick la accíon de temblar aumentará entre más cerca estés.
 2. El sensor detectará presencia en 3 instancias: 2 - 20 cm, 70 - 90cm, 130 - 150cm.
@@ -98,6 +98,16 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ### Más procesos de códigos y fotografías en Github
 
+`DIFICULTADES Y DESAFÍOS`
+
+Tuvimos muchas dificultades, pero solucionables.
+
+- Una de las primeras dificultades fue definir bien el proyecto, ya que la primera idea podría pasar el dialecto de una cultura. Recordemos que se basaba en un selector de idiomas con joystick y que cada vez que uno seleccione un idioma, el robot haga un gesto. También, redactabamos ideas, pero no nos convencían y se parecían mucho a las demás.
+- Otro problema fue que no sabíamos como comenzar, estabamos un poco perdidas; pero buscamos referentes de código que sirvieron para guiarnos y así comenzar con nuestro código.
+- Una de las mayores dificultades fue el sensor ultrasónico, ya que cuando implementabamos el código, la distancia no era exacta ni tampoco la redondeaba. Por otra parte, nos complicó el reproductor MP3, primero por la tarjeta SD, ya que no era solo llegar y colocarla, había que formatearla y ver que los audios estén subidos en el orden correcto y formato correcto; probamos unos códigos pero no funcionaba y Mateo con Janis encontraron un repositorio con un código predeterminado y ahí recién funcionó.
+- Al tener estas dos funciones listas, se nos complicó la parte de reproducir los audios, ya que los decía en loop todo el rato y no se quedaba estático, no tenía tiempo de reposo.
+- Otro problema, fue juntar todos los códigos que teníamos, ya que cuando el ultrasónico medía la distancia, el audio se reproducía como lorito y el motor de vibración no vibraba. Y el servomotor tampoco se levantaba. Nos dimos cuenta que todo funcionaba bien por separado pero hubo problemas al juntarlos.
+
 ![imagenProceso](./imagenesProyecto-02/RAMoncito.png)
 
 ![imagenProceso3](./imagenesProyecto-02/imagenProceso3.jpg)
@@ -108,11 +118,13 @@ En cada parámetro la máquina reproduce un audio de voz distinto mediante la mi
 
 ## Etapas del código
 
-`Etapas de proceso de código arriba en files con fecha.`
+`ETAPAS DE PROCESO DE CÓDIGO ARRIBA EN FILES CON FECHA DE MODIFICACIONES.`
 
 ### 1. Entrada Sensor Ultrasónico
 
 El código comienza midiendo la distancia con el Sensor Ultrasónico
+
+ARCHIVO.cpp
 
 ```cpp
 #include "EntradaUltrasonico.h"
@@ -128,7 +140,7 @@ void EntradaUltrasonico::configurar() {
 }
 
 float EntradaUltrasonico::medirDistancia() {
- // mide dustancia enviando un pulso de sonido
+ // mide distancia enviando un pulso de sonido
  // y mide cuanto tardar en regresar
   digitalWrite(patitaTrigger, LOW);
   delayMicroseconds(2);
@@ -171,7 +183,53 @@ void EntradaUltrasonico::decidirCercania() {
 }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef ENTRADAULTRASONICO_H
+#define ENTRADAULTRASONICO_H
+
+#include <Arduino.h>
+
+class EntradaUltrasonico {
+public:
+  EntradaUltrasonico();
+  ~EntradaUltrasonico();
+
+  void configurar();
+  float medirDistancia();
+  void decidirCercania();
+
+  // valores actuales
+  int dondeEsta;     // 0 = cercana, 1 = mediana, 2 = lejana, -1 = nada
+  float distanciaCm; // distancia medida
+
+  // pines del sensor
+  const int patitaTrigger = 11;
+  const int patitaEcho = 12;
+
+  // rangos de distancia (puedes ajustarlos)
+  const int minCercana = 0;
+  const int maxCercana = 20;
+  const int minMediana = 50;
+  const int maxMediana = 90;
+  const int minLejana = 120;
+  const int maxLejana = 180;
+
+  long duracion;
+
+  // variables para evitar repeticiones de loro
+  int ultimoEstado = -1;
+  unsigned long ultimoCambio = 0;
+  const unsigned long tiempoEstabilidad = 500; // milisegundos (0.5 seg)
+};
+
+#endif
+```
+
 ### 2. Salida Dedo Servomotor
+
+ARCHIVO.cpp
 
 ```cpp
 #include "SalidaDedo.h"
@@ -197,7 +255,43 @@ void SalidaDedo::bajar() {
 }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef SALIDA_DEDO_H
+#define SALIDA_DEDO_H
+
+#include <Arduino.h>
+#include <Servo.h>
+
+class SalidaDedo {
+
+public:
+
+  // constructor
+  SalidaDedo();
+
+  // destructor
+  ~SalidaDedo();
+
+  void configurar();
+
+  void levantar();
+
+  void bajar();
+
+  // numero de pin donde va conectado el servomotor
+  int patitaServo = 13;
+
+  Servo servo;
+};
+
+#endif
+```
+
 ### 3. Salida Motor Vibración
+
+ARCHIVO.cpp
 
 ```cpp
 #include "SalidaMotorVibracion.h"
@@ -260,7 +354,44 @@ void SalidaMotorVibracion::vibrar(int cuantoVibrar) {
 }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef MOTOR_VIBRACION_H
+#define MOTOR_VIBRACION_H
+
+#include <Arduino.h>
+
+class SalidaMotorVibracion {
+public:
+  // constructor
+  SalidaMotorVibracion();
+  // destructor
+  ~SalidaMotorVibracion();
+
+  // configura los pines
+  void configurar();
+  // actualiza los datos de los pines para que queden en 0
+  void actualizar();
+  // función auxiliar
+  void vibrar(int cuantoVibrar);
+
+  // pines
+  int TRIG_PIN = 11;
+  int ECHO_PIN = 12;
+  int MOTOR_PIN = 9;
+
+  // variables internas
+  unsigned long duracion = 0;
+  int intensidad = 0;
+};
+
+#endif
+```
+
 ### 4. Salida Voz
+
+ARCHIVO.cpp
 
 ```cpp
 #include "SalidaVoz.h"
@@ -341,7 +472,107 @@ void reproducirAudioDistancia(float distancia) {
   }
 ```
 
+ARCHIVO.h
+
+```cpp
+#ifndef SALIDA_VOZ_H
+#define SALIDA_VOZ_H
+
+// esta clase no la separamos porque fue nuestro límite, tenía mucha información
+// mandar issue al profe para ver si se puede cambiar pero no es necesario
+#include "Arduino.h"
+#include "DFRobotDFPlayerMini.h"
+
+class SalidaVoz {
+  SalidaVoz();
+  ~SalidaVoz();
+};
+
+void configurarMP3();
+void reproducirAudioDistancia(float distancia);
+void reproducirAudioDirecto(int numeroAudio);
+
+#endif
+```
+ARCHIVO.ino
+
+```cpp
+#include "EntradaUltrasonico.h"
+#include "SalidaDedo.h"
+#include "SalidaMotorVibracion.h"
+#include "SalidaVoz.h"
+
+ // instancias de las clases
+EntradaUltrasonico ultrasonico;
+SalidaDedo dedo;
+SalidaMotorVibracion motor;
+ // salidaVoz voz; 
+
+int pausa = 500;
+int estadoAnterior = -1;
+
+void setup() {
+ // configurar entrada
+  ultrasonico.configurar();
+
+ // configurar salidas
+  dedo.configurar();
+  motor.configurar();
+
+ // inicializamos el reproductor
+  configurarMP3();
+}
+
+void loop() {
+
+  ultrasonico.medirDistancia();
+  ultrasonico.decidirCercania();
+
+  Serial.println(ultrasonico.dondeEsta);
+  
+ // si esta cerca, levantar dedo
+  if (ultrasonico.dondeEsta == 0) {
+    dedo.levantar();
+  }
+ // si esta mediano o lejano, bajar dedo
+  else {
+    dedo.bajar();
+  }
+
+ // vibrar segun ultrasonico
+  motor.vibrar(ultrasonico.dondeEsta);
+
+ // reproducir los audios, segun distancia
+  if (ultrasonico.dondeEsta != estadoAnterior) {
+    estadoAnterior = ultrasonico.dondeEsta;
+
+    if (ultrasonico.dondeEsta == 2) {
+      reproducirAudioDirecto(1);
+      Serial.println("Audio 1 lejano");
+    }
+    else if (ultrasonico.dondeEsta == 1) {
+      reproducirAudioDirecto(2);
+      Serial.println("Audio 2 mediana");
+    }
+    else if (ultrasonico.dondeEsta == 0) {
+      reproducirAudioDirecto(3);
+      Serial.println("Audio 3 cercana");
+    }
+    
+  }
+  delay(200);
+}
+```
+
 ## Etapas de la carcasa
+
+`REFERENTES DE CARCASA`
+
+- Buscamos referentes que colocaran el sensor como parte del proyecto y que no se oculte. 
+
+[Original Thingamagoop](https://bleeplabs.com/original_thingamagoop/)
+
+[Drifter](https://www.floatingforestpedals.com/shop/drifter)
 
 ![vistaExplosionada](./imagenesProyecto-02/vistaExplo.png)
 
@@ -367,7 +598,7 @@ void reproducirAudioDistancia(float distancia) {
 - **Vania Paredes:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
 - **Valentina Ruz:** Aporte principal haciendo, revisando y probando código. Ayudó también a ordenar Github.
 
-`Al final del dia todas complementamos en todos los roles <3`
+`Al final del día todas complementamos en todos los roles <3`
 
 ## Fotografías y videos del proyecto funcionando
 
