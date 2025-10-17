@@ -162,9 +162,9 @@ Luego nos pareció un poco incompleta esa idea y que faltaba desarrollarla, ento
 
 Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, ya que provenía de un contexto violento, lo cual nos hizo bastante sentido.
 
-#### Carcasa Speaker
+Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas.
 
-Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas. 
+### Carcasa Speaker 
 
 Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 
@@ -180,7 +180,7 @@ Esta carcasa fue todo un reto, ya que la forma en espiral fue bastante difícil 
 
 ![foto](imagenes/caracol-impresion3d.jpeg)
 
-#### Carcasa servo, sersor ultrasonico y arduino
+### Carcasa servo, sersor ultrasonico y arduino
 
 Con esta idea más concreta, decidimos tematizar el resto de los elementos del proyecto, como el Arduino, el servo y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
@@ -216,4 +216,5 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
