@@ -3,8 +3,11 @@
 ## Grupo-05 "Waos" : Integrantes
 
 **Morgan Aravena Arze** // Investigación, creacion del pseudocodigo, organización de código y pseudocódigo a lo largo de todo el proyecto, armado y prototipado de la pieza final. 
+
 **Aileen Guiselle D'Espessailles Rojas** // Investigación, incorporación del sensor ultrasónico, incorporación pantalla, modelado 3d de carcasa, armado y prototipado de la pieza final. 
+
 **Carla Andrea del Carmen Pino Barrios** // Investigación, incorporación del sensor ultrasónico, incorporación, pantalla, creación de imágenes para la pantalla, armado y prototipado de la pieza final.
+
 **Sebastián Alejandro Sáez Olivares**  // Investigación, incorporación del sensor temperatura, incorporación pantalla y servo motor, implementación del texto en pantalla, armado y prototipado de la pieza final.
 
 ## Presentación textual
@@ -54,7 +57,13 @@ En esta versión del pseudocodigo se hizo la separación de tabs dentro del arch
 Esta es la versión final del pseudocódigo, hay muchos errores y con la ayuda de Aaron Montoya Moraga empezamos a ordenar y resumir los archivos  llegando a la primera versión de codigoRobotFriolento.INO
 
 En esta versión es cuando ya incorporamos todos los actuadores y sensores, cada una en .h, donde se crean clases como, “configurar”, “reconocer” y “leer”, y .cpp donde, se utilizan estas clases para designar el actuar de cada sensor y actuador. 
-foto????
+
+
+
+### codigoRobotFriolento_0_1_0
+
+La primera versión de “código” oficial, se rescatan esqueletos del pseudocódigo pero el enfoque es disminuir la cantidad de archivos (tanto .h y .cpp) dentro de la carpeta, básicamente partir de lo más general, para que de esa manera sea más fácil avanzar y ordenar.
+cita con foto de la cantidad de archivos quw hay ahora en la carpeta
 
 #### Código V_0_2_2 sensor temperatura
 Se agregó el sensor de temperatura como .cpp y .h, que mostraba la temperatura actual en serial monitor de forma exitosa. 
@@ -226,6 +235,41 @@ void Pantalla::mostrar (){
 #### Codigo V_0_4_7
 Después de variados intentos, se llegó a un resultado que sí llegó a compilar correctamente, con ambas caras que teníamos en aquel momento. El problema es que el sensor ultrasónico dejó de funcionar y detectar la distancia. Por lo tanto, con la ayuda del equipo, se utilizó el código ya hecho y se ordenó de mejor manera, para luego hacer otra versión donde tanto la pantalla como el sensor ultrasónico podían funcionar a la vez.
 ```cpp
+// Se corrige el constructor para usar la instancia global 'display'
+ActuadorPantalla::ActuadorPantalla() {
+}
+
+// Se renombra 'iniciar()' a 'configurar()' y se cambia la lógica para usar la instancia global 'display'
+void ActuadorPantalla::configurar() {
+    if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+        // No se pudo inicializar la pantalla
+        for (;;);
+    }
+    display.clearDisplay();
+    display.display();
+}
+
+void ActuadorPantalla::mostrarImagen(int temperatura) {
+    display.clearDisplay();
+
+    // Lógica: si la temperatura es mayor a 15, mostrar la primera imagen.
+    // si es menor o igual a 15, mostrar la segunda.
+    if (temperatura > 15) {
+        mostrarLogo1();
+    } else {
+        mostrarLogo2();
+    }
+
+    display.display();
+}
+
+void ActuadorPantalla::mostrarLogo1() {
+    display.drawBitmap(0, 0, logo_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
+}
+
+void ActuadorPantalla::mostrarLogo2() {
+    display.drawBitmap(0, 0, logo2_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
+}
 
 ```
 ![carpeta pseudocodigo](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/CARA%20FRIO.jpeg)
@@ -233,10 +277,143 @@ Después de variados intentos, se llegó a un resultado que sí llegó a compila
 ![carpeta pseudocódigo](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/CARA%20SUE%C3%91O.jpeg)
 
 
-#### Carcasa e imágenes
+#### Codigo V_0_1_2 FINAL
 
-(antes de eso lo habíamos visto como un robot amigable, similar a nuestro moodboard, después de varios bocetos se dio la idea de que sea friolin)
+Por último se agregó a pantalla. cpp texto que ayuda a la comprensión de las imágenes 
+
+```cpp
+// constructores de este archivo del proyecto
+#ifndef ACTUADOR_PANTALLA_H
+#define ACTUADOR_PANTALLA_H
+
+
+// incluir todos las bilbiotecas para el funcionamiento
+// del display OLED1306
+#include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+
+// crear la clase de ActuadorPantalla
+class ActuadorPantalla {
+public:
+   ActuadorPantalla();
+   // funcionamiento de la pantalla
+    void configurar();  
+   // se definira una clase para cada "estado" del robot
+   // cuando tiene frio, no tiene frio, o no detecta a nadie
+    void mostrarImagenTemperado();
+    void mostrarImagenFrio();
+    void mostrarImagenNadie();
+
+
+    // Definiciones de parametros de el display
+    int SCREEN_WIDTH  = 128;
+    int SCREEN_HEIGHT = 64;
+    int OLED_RESET    = -1;
+
+
+    // Declaración del tamaño las imágenes
+    int LOGO_HEIGHT = 64;
+    int LOGO_WIDTH  = 128;
+ 
+    // Aqui le pondremos el nombre al display en este caso caraMuneco, tambien
+    // cual es su ancho y alto segun datos establecidos previamente
+    Adafruit_SSD1306 caraMuneco = Adafruit_SSD1306(
+    ActuadorPantalla::SCREEN_WIDTH,
+    ActuadorPantalla::SCREEN_HEIGHT,
+    &Wire,
+    ActuadorPantalla::OLED_RESET);
+
+
+
+
+    // comentarios que hara Friolin cuando tiene frio
+    String Frio1 = "HACE";
+    String Frio2 = "MUCHO";
+    String Frio3 = "FRIO!";
+
+
+    String Templado1 = "QUE";
+    String Templado2 = "RICO";
+    String Templado3 = "CLIMA!";
+
+
+    String Sueno = "ZZZ";
+
+
+
+
+
+
+
+
+
+
+};
+// destructor para este archivo del proyecto para no causar problemas en el codigo
+#endif
+```
+
+Tambien se mejoraron los ultimos detalles del codigo en 
+
+```cpp
+// Crear una instancia de las clases de cada
+// sensor y actuador correspondientes
+ SensorUltra sensorUltra;
+ SensorTemp sensorTemp;
+ ActuadorServo actuadorServo;
+ ActuadorPantalla actuadorPantalla;
+
+
+void setup() {
+ // se define todo lo necesario para el
+ // funcionamiento de los sensores y actuadores
+  sensorUltra.configurar();
+  sensorTemp.configurar();
+  actuadorPantalla.configurar();
+  actuadorServo.configurar();
+}
+
+
+// aqui es donde ocurre el funcionamiento de
+// los sensores y actuadores especificos
+void loop() {
+  sensorUltra.leerDistancia();
+  sensorUltra.reconocerDistancia();
+  sensorTemp.leerTemp();
+// cuando el dato dentro del sensor de temperatura
+// llamado temperatura es mayor a 15
+// y el sensor ultrasonico detecta a una persona
+  if (!sensorTemp.frio && sensorUltra.persona) {
+    // se mostrara en el display la imagen correspondiente
+    // cuando esta temperado el ambiente
+     actuadorPantalla.mostrarImagenTemperado();
+    // se realizara todo lo presente en
+    // la instacia de moverBrazo
+     actuadorServo.moverBrazo();
+   }
+      // si la temperatura ambiente es menor a 15 grados
+      // y se detecta a una persona
+       else if (sensorTemp.frio && sensorUltra.persona){
+        // el robot mostrara su cara de frio
+         actuadorPantalla.mostrarImagenFrio();
+      }
+       // si no se detecta a una persona
+        else if(!sensorUltra.persona){
+          // se mostrara al robot en su estado sin nadie presente
+           actuadorPantalla.mostrarImagenNadie();
+        }
+}
+```
+
+#### Carcasa 
+
 La idea principal de la carcasa es que contenga y exponga todos los componentes de manera eficiente, también su forma de hombre de nieve hace alusión de forma irónica a su miedo al frío. Además, su forma geométrica se eligió para ser similar al pixel art de las imágenes. También se realizaron piezas extras como sus orejeras y brazo para personificar y dar mayor personalidad al proyecto.
+(antes de eso lo habíamos visto como un robot amigable, similar a nuestro moodboard, después de varios bocetos se dio la idea de que sea friolin)
+
 
 ![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%201.png)
 ![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%202.png)
@@ -247,5 +424,3 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 ### Comentarios finales
 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
-
-Aunque hubo ajustes y errores en el camino, el resultado refleja un proceso de aprendizaje colectivo donde cada decisión —desde el código hasta la carcasa— aportó a darle identidad al robot. Friolín no solo saluda, también muestra cómo la temperatura puede influir en la forma en que interactuamos, incluso con las máquinas.
