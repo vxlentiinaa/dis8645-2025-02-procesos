@@ -89,7 +89,13 @@ Durante la tercera semana, el grupo avanzó en la parte visual y sonora del proy
 Durante la cuarta semana, el grupo trabajó en hacer funcionar los últimos detalles del código junto con todos sus sensores y actuadores. Lo que resultó de esta semana fue poder establecer que funciona, que es lo que no funciona, y qué es lo que no alcanzamos a poder implementar. Lo que se pudo hacer funcionar fue el menú de idiomas, el encoder pulsable, el audio de los saludos, y un aplauso para reproducir. Lo que no pudo funcionar y no se implementó son los dos aplausos para reproducir, volver al menú sin que se congele en la reproducción del audio e imágenes, además de la luz LED como latidos de corazón que inicialmente se había pensado implementar.
 Algunas de las características que no se pudieron cumplir fueron debido a la falta de tiempo para poder aprender acerca del tema, ya que en la programación se requiere de tiempo para poder profundizar. Esto es algo que se requería para poder implementar las partes más complejas.
 
-
+### IMÁGENES DEL PROCESO
+![Proceso](./imagenes/3_1.jpg)
+![Proceso](./imagenes/3_2.jpg)
+![Proceso](./imagenes/3_3.jpg)
+![Proceso](./imagenes/3_4.jpg)
+![Proceso](./imagenes/3_5.jpg)
+![Proceso](./imagenes/3_6.png)
 ## EXPLICACIÓN CÓDIGO 
 
 ### ARCHIVO PRINCIPAL: grupo_03_2025_10_16_comentado.ino
@@ -554,7 +560,7 @@ void SensorAplauso::decidir() {
 }
 ```
 
-### SENSORAPLAUSO.H
+**SENSORAPLAUSO.H**
 - Aqui se evita que el archivo se incluya varias veces y permite usar funciones y tipos de Arduino y define la clase SensorAplauso que encapsula funciones y variables para detectar aplausos.
 
 ```cpp
