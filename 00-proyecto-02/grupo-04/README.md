@@ -42,13 +42,13 @@ Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta
 Nuestra máquina consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado por una persona a la vez.
 Esta trabaja detectando la presencia del usuario a través de un “radar” compuesto por un [“sensor ultrasónico HC-SR04”]( https://www.alldatasheet.com/html-pdf/1132204/ETC2/HCSR04/110/1/HCSR04.html) y un [“servomotor SG90”](https://arduino.cl/producto/micro-servo-motor-sg90-9g/?srsltid=AfmBOopUK1FSSvEOeee794pcjIBccD8B2MQF36GlEjuMTAzqI4rHkSnN) que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
 
-Cuando se ingresa al rango de “reconocimiento” (compuesto por la rotación del servomotor más la distancia del ultrasónico) los “ojos” de la máquina se mueven y siguen a la persona a través de un mecanísmo que posee otro motor servo.
+Cuando se ingresa al rango de “reconocimiento” (compuesto por la rotación del servomotor más la distancia del ultrasónico) los “ojos” de la máquina se mueven y siguen a la persona a través de un mecanismo que posee otro motor servo.
 
 Cuando el sujeto se acerca a una distancia (15 cm) del dispositivo, la concha que posee un [“Modulo Reproductor MP3 DFPlayer Mini”](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?_pos=1&_psq=mp3&_ss=e&_v=1.0), comienza a emitir sonidos de forma aleatoria hasta que la persona se aleje lo suficiente como para salir del "rango de sonido".
 
 Los ojos no dejan de funcionar en ningún momento, por lo que persiguen al usuario hasta que salga del rango de reconocimiento.
 
-Por el lado conceptual y figurativo, la máquina posee una carcasa compuestas por un "cangrejo" y una "concha marina".
+Por el lado conceptual y figurativo, la máquina posee una carcasa compuesta por un "cangrejo" y una "concha marina".
 
 La primera pieza se compone de una imitación de un “cangrejo”, una réplica de una criatura asociada con la costa por su presencia en dicho sector a lo largo de todo Chile. La segunda parte se compone de una “concha de mar”, un objeto común de encontrar en las playas y que posee el mito de permitir escuchar sonidos semejantes al oleaje del mar y viento de las costas (efecto conocido como [Resonancia de las conchas de Gastrópodos](https://es.wikipedia.org/wiki/Resonancia_de_las_conchas_de_Gastr%C3%B3podos)).
 
@@ -164,7 +164,7 @@ void loop() {
 
 #### 2) Servomotor SG90 y movimiento ocular
 
-En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatronicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
+En un comienzo todo partió con una inspiración: un video mostrando el proceso de fabricación y funcionamiento de unos ojos “animatrónicos” (referencia compartida por [Santiago]( https://github.com/santiagoClifford)).
 
 [![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/Ftt9e8xnKE4/mqdefault.jpg)](https://www.youtube.com/watch?v=Ftt9e8xnKE4)
 
@@ -176,7 +176,7 @@ A partir de ello es que los estudios iniciales se centraron en replicar el mecan
 
 -> Animatronic Eyes Fotografías, por Morgan Manly, s.f., instructables (<https://www.instructables.com/Animatronic-Eyes-Double-and-Single-Fully-3D-Printe/>). CC BY-NC-SA 4.0
 
-Ante ello se pudo concluir que es necesario 3 servomotores por ojo para abrir y cerrar del parpado, además de un segundo y tercero para mover el ojo en vertical y horizontal. Además se requiere de una calibración con código para ir ajustando los motores.
+Ante ello se pudo concluir que es necesario 3 servomotores por ojo para abrir y cerrar del parpado, además de un segundo y tercero para mover el ojo en vertical y horizontal. Además, se requiere de una calibración con código para ir ajustando los motores.
 
 Dentro de toda la información recopilada sobre los servomotores es que son actuadores de tipo motor que permiten controlar el posicionamiento físico. Poseen un controlador que se encarga de comparar y ajustar la posición del motor a la indicada, un potenciómetro que funciona como un sensor de retroalimentación que informa la posición actual, engranajes de plástico o metal y un motor de corriente continua. Para poder controlar este tipo de motor es necesario el enviarle una serie de pulsos eléctricos, cuya longitud determina la posición del servomotor.
 
@@ -228,9 +228,9 @@ Cuando comenzó la investigación del módulo dfplayer mini la primera función 
 
 ![imagen](./imagenes/conexión-dfplayermini.jpg)
 
-Este código permitía reproducir el número de pistas en específico nombradas según un orden establecido en base a una numeración específica que pedía enumerar las pistas de audio como 0001,0002,0003,0004. Luego de poder establecer una lista de audios, se necesitaba que se reproducieran de forma aleatoria por lo que se utilizó la función mydfplayer.randomall la cuál permitía correr los audios de forma aleatoria en un loop sin parar. Este era un problema ya que necesitábamos tener un control sobre el cómo se estaban reproduciendo los audios.
+Este código permitía reproducir el número de pistas en específico nombradas según un orden establecido en base a una numeración específica que pedía enumerar las pistas de audio como 0001,0002,0003,0004. Luego de poder establecer una lista de audios, se necesitaba que se reprodujeran de forma aleatoria por lo que se utilizó la función mydfplayer.randomall la cuál permitía correr los audios de forma aleatoria en un loop sin parar. Este era un problema ya que necesitábamos tener un control sobre el cómo se estaban reproduciendo los audios.
 
-Para ello misaaa nos sugirió utilizar un botón el cuál nos permitiera establecer una especie de "dado" en el cuál al presionarlo se daba un resultado aleatorio, en este caso la reproducción de un sonido aleatorio
+Para ello [Matías](https://github.com/misaaaaaa) nos sugirió utilizar un botón el cual nos permitiera establecer una especie de "dado" en el cuál al presionarlo se daba un resultado aleatorio, en este caso la reproducción de un sonido aleatorio.
 
 ```cpp
 #include "Arduino.h"
@@ -355,22 +355,29 @@ void printDetail(uint8_t type, int value){
 }
 ```
 
-Funcionamiento: Se configura la comunicación serial con el DFPlayer y se inicializa el volumen.El botón, conectado al pin 2, activa la reproducción de una pista aleatoria de la tarjeta SD,
-se implementa un antirrebote para evitar lecturas falsas del botón, la función PrintDetail()muestra en el monitor serial el estado del módulo y errores, ayudando a depurar
+Funcionamiento: Se configura la comunicación serial con el DFPlayer y se inicializa el volumen. El botón, conectado al pin 2, activa la reproducción de una pista aleatoria de la tarjeta SD,
+se implementa un antirrebote para evitar lecturas falsas del botón, la función "PrintDetail()" muestra en el monitor serial el estado del módulo y errores, ayudando a depurar.
 
-Debido a varios problemas técnicos con el código del proyecto a última hora, decidimos improvisar y usar dos Arduinos en lugar de uno. Esto permitió repartir las tareas y evitar errores de funcionamiento
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
-Cada Arduino tiene una función. El primero actúa como el radar: controla el servo, mide la distancia con el sensor ultrasónico y detecta si algo está demasiado cerca. El segundo es el módulo de sonido: su única tarea es manejar el DFPlayer Mini y reproducir un audio aleatorio cuando recibe una señal
+#### Inconvenientes con los componentes
 
-La comunicación entre ambos se hace con una señal digital simple: un pin del Arduino radar se conecta al pin 2 del Arduino de sonido. Cuando el radar detecta un objeto cercano, envía un pulso eléctrico (low) que el otro Arduino interpreta como la orden para activar el sonido
+Debido a varios problemas técnicos con el código del proyecto a última hora, decidimos improvisar y usar dos "Arduinos" en lugar de uno. Esto permitió repartir las tareas y evitar los errores de funcionamiento.
 
-Gracias a la idea de franudp el código de cada parte se volvió más simple. Aunque no era lo ideal, fue una manera de lograr que el proyecto funcionara
+Cada Arduino tiene una función. 
+El primero actúa como el radar: controla el servo, mide la distancia con el sensor ultrasónico y detecta si algo está demasiado cerca. El segundo es el módulo de sonido: su única tarea es manejar el DFPlayer Mini y reproducir un audio aleatorio cuando recibe una señal.
+
+La comunicación entre ambos se hace con una señal digital simple: un pin del Arduino radar se conecta al pin 2 del Arduino de sonido. Cuando el radar detecta un objeto cercano, envía un pulso eléctrico (low) que el otro Arduino interpreta como la orden para activar el sonido.
+
+Gracias a la idea de [@Fran-udp](https://github.com/FranUDP) el código de cada parte se volvió más simple. Aunque no era lo ideal, fue una manera de lograr que el proyecto funcionara.
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
 #### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
 Como requisito fundamental para diseñar las carcasas es que hubo que profundizar en el funcionamiento y en los cambios técnicos que surgieron en cuanto al desarrollo del circuito eléctrico y el funcionamiento de cada pieza.
 
-#### A) Carcasa Cangrejo (servo, sersor ultrasonico y arduino)
+#### A) Carcasa Cangrejo (servo, sensor ultrasónico y arduino)
 
 ![gif](imagenes/gif-cangrejo.gif)
 
@@ -462,4 +469,5 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
