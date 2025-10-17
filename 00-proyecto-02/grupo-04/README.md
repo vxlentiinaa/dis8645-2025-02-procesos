@@ -16,7 +16,7 @@ Viernes 17 Octubre, 2025
 
 ***
 
-## Introducción
+### Introducción
 
 Este proyecto se centra en desarrollar una "caja negra" que pueda "saludar".
 El saludo de define como ["Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia](https://es.wikipedia.org/wiki/Saludo).
@@ -43,7 +43,13 @@ Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta
 +
 ***
 
-## Presentación textual de la propuesta
+Mapa de flujo
+
+![](https://mermaid.ink/img/pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo?type=png)
+
+***
+
+### Presentación textual de la propuesta
 
 Nuestra máquina (nombre de la máquina) consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado por una persona a la vez.
 Esta trabaja detectando la presencia del usuario a través de un “radar” compuesto por un [“sensor ultrasónico HC-SR04”]( https://www.alldatasheet.com/html-pdf/1132204/ETC2/HCSR04/110/1/HCSR04.html) y un [“servomotor SG90”](https://arduino.cl/producto/micro-servo-motor-sg90-9g/?srsltid=AfmBOopUK1FSSvEOeee794pcjIBccD8B2MQF36GlEjuMTAzqI4rHkSnN) que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
@@ -60,7 +66,9 @@ La primera pieza se compone de una imitación de un “cangrejo”, una réplica
 
 ***
 
-## Desarrollo
+###
+
+### Desarrollo
 
 Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que cada integrante fue aprendiendo sobre cómo hacer funcionar un sensor o actuador. Ello requirió de procesos personales de prueba y error que fueron registrados de forma independiente en las bitácoras desde la clase “07a” hasta la fecha de entrega.
 
@@ -164,7 +172,7 @@ Hicimos algunos bocetos, pero luego Aarón nos hizo replantearnos la propuesta, 
 
 Finalmente, repasamos nuestros actuadores y pensamos qué podríamos hacer con ellos en relación a las carcasas.
 
-### Carcasa Speaker 
+### Carcasa Speaker
 
 Se nos ocurrió crear una especie de parlante con forma de concha, haciendo alusión a los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 
@@ -190,7 +198,7 @@ Tanto el cangrejo con los ojos como la piedra para el sensor con el servo fueron
 
 ***
 
-## Producto final
+### Producto final
 
 Texto texto texto
 
@@ -217,9 +225,3 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
-
-
-
-
-
-
