@@ -33,6 +33,7 @@ Las contribuciones de Miller Puckette han tenido un impacto duradero en el campo
 - Grabador de voz en un solo chip. 
 - Duración de grabación (Lab Interacción) 20 segundos.
 - Voltaje de Operación: 3.3V DC. No es compatible con 5V.
+- $3.000
   
 ### Partes del reproductor 
 
@@ -57,6 +58,7 @@ N° | Nombre                 | Función                              |
 - Voltaje de operación: 5 V
 - Gases detectables: butano, propano, metano, alcohol, hidrógeno, humo (entre otros)
 - Alarmas de humo y sistemas de seguridad
+- $2.300
 
 ### Partes del sensor 01
   
@@ -76,6 +78,7 @@ N° | Nombre                 | Función                              |
 - Voltaje de Operación: 3.0V – 5.5V DC
 - Cables: GND, VCC, Señal
 - El dispositivo funciona del siguiente modo: un led de color verde emite luz que al entrar en contacto con nuestro dedo indice o el lóbulo del oído refleja cierta cantidad de luz, el flujo de sangre hace que la cantidad de luz reflejada cambie de acuerdo al pulso cardíaco. La luz reflejada es detectada por el sensor de luz APDS-9008, que convierte el flujo de luz en un voltaje analógico. Esta señal analógica es luego filtrada y amplificada en un opamp para luego entregar la señal analógica de salida del dispositivo.
+- $3.500 
 
 ### Partes del sensor 02
   
@@ -201,4 +204,23 @@ void loop(){
 
 Link de página del proyecto: [RobotUNO](https://robotuno.com/proyecto-grua-con-arduino/)
 
+#### Ideas para Proyecto-02: Máquinas de saludar
+
+- Micro Servomotor SG90: Dispensador de comida para mascotas
+
+Tengo 2 gatos que constantemente están pidiendo comida y una solución para eso sería realizar un dispensador el que puede funcionar junto con el sensor ultrasónico. Así, de esta manera, cuando sienta la presencia de uno de los dos, podrá liberar la cantidad de comida necesaria para ellos 
+
+- Sensor ultrasónico HC-SR04: Interruptor sin contacto con sensor ultrasónico
+
+Pequeño proyecto usando Arduino y un sensor HC-SR04 para encender o apagar un LED acercando la mano — sin contacto físico.
+
+Acerca tu mano a menos de **10 cm** del sensor para encender/apagar el LED.
+
+- Sensor de Gas MQ2: Módulo salva abuelitas (en proceso)
+
+Consiste en una caja la que tiene integrado el sensor de gas MQ2, el cual detecta ciertos tipos de gases tóxicos y da aviso mediante un led RGB y un buzzer. 
+
+Smoke Minder
+
+![Captura02](./imagenes/Captura02.png)
 
