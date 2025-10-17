@@ -8,7 +8,7 @@ Viernes 17 Octubre, 2025
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
 - [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
-- [José Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa, post producción)
+- [José Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa)
 - [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación)
 - [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código, modelado)
 
@@ -397,6 +397,15 @@ Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocu
 
 ![foto](imagenes/proceso-carcasa-caracola.jpg)
 
+
+***
+
+### Proyecto final
+
+![foto](imagenes/juanito-vive.jpg)
+
+[![video-youtube](https://img.youtube.com/vi/x2AwFOhT8Lk/mqdefault.jpg)](https://www.youtube.com/shorts/x2AwFOhT8Lk) 
+
 ***
 
 ### Reflexiones individuales
@@ -469,5 +478,6 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
