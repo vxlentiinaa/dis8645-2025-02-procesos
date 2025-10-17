@@ -554,7 +554,7 @@ void SensorAplauso::decidir() {
 }
 ```
 
-**SENSORAPLAUSO.H**
+### SENSORAPLAUSO.H
 - Aqui se evita que el archivo se incluya varias veces y permite usar funciones y tipos de Arduino y define la clase SensorAplauso que encapsula funciones y variables para detectar aplausos.
 
 ```cpp
@@ -737,4 +737,5 @@ int opcionMenu;
  * https://www.instructables.com/Turn-on-and-Off-a-Lamp-Clapping-Twice-Using-Arduin/
  *
  * Fecha de consulta general: Septiembre de 2025.
+
 
