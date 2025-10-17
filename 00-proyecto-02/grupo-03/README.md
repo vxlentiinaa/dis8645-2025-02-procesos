@@ -89,6 +89,18 @@ Durante la tercera semana, el grupo avanzó en la parte visual y sonora del proy
 Durante la cuarta semana, el grupo trabajó en hacer funcionar los últimos detalles del código junto con todos sus sensores y actuadores. Lo que resultó de esta semana fue poder establecer que funciona, que es lo que no funciona, y qué es lo que no alcanzamos a poder implementar. Lo que se pudo hacer funcionar fue el menú de idiomas, el encoder pulsable, el audio de los saludos, y un aplauso para reproducir. Lo que no pudo funcionar y no se implementó son los dos aplausos para reproducir, volver al menú sin que se congele en la reproducción del audio e imágenes, además de la luz LED como latidos de corazón que inicialmente se había pensado implementar.
 Algunas de las características que no se pudieron cumplir fueron debido a la falta de tiempo para poder aprender acerca del tema, ya que en la programación se requiere de tiempo para poder profundizar. Esto es algo que se requería para poder implementar las partes más complejas.
 
+### IMÁGENES DEL PROCESO
+![Proceso](./imagenes/3_1.jpg)
+![Proceso](./imagenes/3_2.jpg)
+![Proceso](./imagenes/3_3.jpg)
+![Proceso](./imagenes/3_4.jpg)
+![Proceso](./imagenes/3_5jpg)
+![Proceso](./imagenes/3_6.png)
+![Proceso](./imagenes/3_1.jpg)
+![Proceso](./imagenes/3_7.jpg)
+![Proceso](./imagenes/3_8.jpg)
+![Proceso](./imagenes/3_9.jpg)
+
 
 ## EXPLICACIÓN CÓDIGO 
 
@@ -737,5 +749,6 @@ int opcionMenu;
  * https://www.instructables.com/Turn-on-and-Off-a-Lamp-Clapping-Twice-Using-Arduin/
  *
  * Fecha de consulta general: Septiembre de 2025.
+
 
 
