@@ -28,18 +28,20 @@ void ActuadorPantalla::configurar() {
 
 void ActuadorPantalla::mostrarImagenCalor() {
     caraMuneco.clearDisplay();
-    caraMuneco.drawBitmap(0, 0, logo_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
+    caraMuneco.drawBitmap(0, 0, calor_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
     caraMuneco.display();
 }
 
 void ActuadorPantalla::mostrarImagenFrio() {
     caraMuneco.clearDisplay();
-    caraMuneco.drawBitmap(0, 0, logo2_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
+    caraMuneco.drawBitmap(0, 0, frio_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
     caraMuneco.display();
 }
 
 void ActuadorPantalla::mostrarImagenNadie() {
-
+    caraMuneco.clearDisplay();
+    caraMuneco.drawBitmap(0, 0, caraZZZ_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
+    caraMuneco.display();
 }
 
 

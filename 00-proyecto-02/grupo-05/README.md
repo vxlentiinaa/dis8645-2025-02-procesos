@@ -1,426 +1,222 @@
 # Proyecto 02
 
-## Grupo-05 "Waos" : Integrantes
+## Grupo-05 "Waos" : Integrantes y roles del Equipo
 
-**Morgan Aravena Arze** // Investigación, creacion del pseudocodigo, organización de código y pseudocódigo a lo largo de todo el proyecto, armado y prototipado de la pieza final. 
+**Morgan Aravena Arze** // Investigación, creación del pseudocódigo, organización de código y pseudocódigo a lo largo de todo el proyecto, clasificación del código a clases, armado y prototipado de la pieza final. 
 
-**Aileen Guiselle D'Espessailles Rojas** // Investigación, incorporación del sensor ultrasónico, incorporación pantalla, modelado 3d de carcasa, armado y prototipado de la pieza final. 
+**Aileen Guiselle D'Espessailles Rojas** // Investigación, incorporación del sensor ultrasónico, incorporación de funcionamiento de display, modelado 3d de carcasa, armado y prototipado de la pieza final. 
 
-**Carla Andrea del Carmen Pino Barrios** // Investigación, incorporación del sensor ultrasónico, incorporación, pantalla, creación de imágenes para la pantalla, armado y prototipado de la pieza final.
+**Carla Andrea del Carmen Pino Barrios** // Investigación, incorporación del sensor ultrasónico, incorporación de funcionamiento de display, creación de imágenes para la pantalla, armado y prototipado de la pieza final.
 
-**Sebastián Alejandro Sáez Olivares**  // Investigación, incorporación del sensor temperatura, incorporación pantalla y servo motor, implementación del texto en pantalla, armado y prototipado de la pieza final.
+**Sebastián Alejandro Sáez Olivares**  // Investigación,  clasificación del código a clases, incorporación del sensor temperatura, incorporación pantalla y servo motor, implementación del texto en pantalla, armado y prototipado de la pieza final.
 
 ## Presentación textual
 
+¿Alguna vez han tenido algún amigo que es tan, pero taaaan friolento que cuando siente frío, ni siquiera se mueve de su lugar como para saludarte?
+
+Pues nosotres sí, su nombre es ☃️❄️ Friolín ❄️☃️, un muñeco de nieve que no se da cuenta de que la razón por la que tiene tanto frío en tantos lugares distintos es porque está hecho de nieve.
+
+Este curioso muñeco solo nos saluda cuando se siente a gusto, rehusándose a saludar con 🌡️temperaturas que, personalmente, no consideramos muy frías, 20°… 30°… ¡incluso 🔥40°🔥!
+
+Todo depende del día, cómo se siente y la temperatura del ambiente, si te lo encuentras alguna vez, acércate a él y espera a ver si eres🍀afortunadx🍀 como para recibir un saludo suyo.
+
 ### Introducción
 
-El proyecto, de manera general, consiste en hacer una máquina saludadora.
+El proyecto, de manera general, consiste en hacer una máquina que salude.
 
 Para la ideación del proyecto usamos la propuesta de SebastianSaez1003, que quería usar un servomotor desde el semestre pasado.
 
-Nuestro proyecto se centra en desarrollar un robot que te salude dependiendo de la temperatura.
+Nuestro proyecto se centra en desarrollar un robot que te salude dependiendo de la temperatura que siente.
 
-El saludo se define como "Un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" - Wikipedia.
+El saludo se define como "un acto comunicacional (entre humanos), en el que una persona hace notar a otra su presencia" [- Wikipedia.](https://es.wikipedia.org/wiki/Saludo)
 
-En nuestro caso, los sensores serían un sensor de temperatura, humedad y presión y un sensor ultrasónico, y los actuadores, dos servomotores y una pantalla.
+En nuestro caso, romperíamos un poco esta definición debido a que el saludo que se llevaría a cabo sería entre máquina (Friolín) y humano.
+
+Como método de saludo específico, definimos que se realizaría a través de palabras y el movimiento de un brazo.
+
+En nuestro caso, los sensores presentes serían de temperatura y un sensor ultrasónico, mientras que los actuadores serían un servomotor y una pantalla.
 
 ### Friolin
 
-Friolin, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot; un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de temperatura; una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con el brazo.
-**paso a paso del proyecto**
-1. Máquina inicia en estado neutro
-2. Si no detecta a nadie se mantiene en este estado, en donde ambas manos estarán en suspensión y en la pantalla no se mostrará nada
-3. Si detecta a una persona, se esperan 3 segundos para actuar según la temperatura medida en el ambiente
-4. Si la temperatura es menor o igual a (15) grados celsius, el servomotor no actuará y mostrará en display un mensaje del porqué no quiere saludar, además de una expresión facial importada a través del Arduino que se puede observar en el display
-5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial.
-6. El ciclo del saludo se repetirá 3 veces y el mensaje durará 15 segundos en la pantalla
-7. La persona al retirarse hará que la máquina vuelva a su estado neutro.
-Mapa de flujo
-![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/mapa%20de%20flujo.png)
+Friolín, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot, un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de medir la temperatura ambiental, una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con un brazo que le daremos al robot.
+
+**Paso a paso del proyecto**
+1. La máquina inicia en estado neutro, donde Friolín se encuentra durmiendo.
+2. Si no detecta a nadie se mantiene en este estado, en donde su mano estará en suspensión y en la pantalla se intercala entre una cara dormilona y “ZZZ”, que es la onomatopeya comúnmente usada cuando alguien está durmiendo.
+3. Si detecta a una persona, se pasará al siguiente check, el cual será de cual es la temperatura actual.
+4. Si la temperatura es menor o igual a (15) grados celsius, el servomotor no actuará y mostrará en display un mensaje del porqué no quiere saludar, la cual es el hecho de que tiene frío, además de una expresión facial que refleja su incomodidad con el frío del ambiente mediante texto que se puede observar en el display.
+5. Si la temperatura es mayor a (15) grados celsius, el servomotor actuará para dar el saludo (donde su "brazo" se moverá de lado a lado entre los grados 135 y 45 para simular un saludo de mano como lo realizaría un humano) y se mostrará en display un mensaje de texto para saludar, junto a una expresión facial acorde a su felicidad.
+6. El ciclo del saludo del brazo se repetirá 3 veces, para poder dar tiempo a que se observe todo lo que Friolin le quiere decir a esta persona.
+7. La persona al retirarse hará que la máquina vuelva a su estado neutro y Friolín volverá a dormir.
+
+
+Este recorrido se puede visualizar mediante el siguiente diagrama de flujo:
+
+![Mapa de flujo Friolín](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/mapa%20de%20flujo.png)
 
 ### Desarrollo
+
 Para poder programar a friolin de manera más fácil partimos con el desarrollo del pseudocódigo donde se separaron las funciones de cada sensor y actuador en archivos. H y .cpp para que el archivo .ino quedará todo ordenado, se partió con la ideación de los parámetros de cada sensor, para poder comenzar con la investigación exacta de que queríamos hacer.
 En este punto del pseudocódigo también se definieron las clases, donde, con la ayuda de Aarón Moraga pudimos definir cada una de las acciones que queríamos que se desarrollaran. (Las clases se hicieron en el archivo .cpp y los parámetros en .h)
 
 Luego de ver todos los parámetros nos separamos por investigación de sensor/actuador y por la persona que uniría todo en el código madre.
 
-### Avances de pseudocódigo
+## Changelog
 
-#### Pseudocódigo V0
+<details>
+  <summary> Extender para visualizar CHANGELOG completo </summary>
 
-En esta versión del pseudocodigo se hizo la separación de tabs dentro del archivo, por el momento solo con archinos .ino
+###[pseudocodigoV0](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/03-Mosswhosmoss/sesion-07b)
 
-![carpeta pseudocodigo](imagenes/pseudocodigoV0.png)
+Morgan trabajo en esta versión del pseudocodigo donde se hizo la separación de tabs dentro del archivo, por el momento solo con archinos .ino
 
-#### Pseudocódigo V0_1_4
+![carpeta pseudocódigo](imagenes/pseudocodigoV0.png)
 
-Esta es la versión final del pseudocódigo, hay muchos errores y con la ayuda de Aaron Montoya Moraga empezamos a ordenar y resumir los archivos  llegando a la primera versión de codigoRobotFriolento.INO
+### [pseudocódigo V0_1_4](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/03-Mosswhosmoss/sesion-07b)
 
-En esta versión es cuando ya incorporamos todos los actuadores y sensores, cada una en .h, donde se crean clases como, “configurar”, “reconocer” y “leer”, y .cpp donde, se utilizan estas clases para designar el actuar de cada sensor y actuador. 
+Morgan llegó a la versión final del pseudocódigo, donde existen muchos errores, pero con la ayuda de Aaron Montoya Moraga empezamos a ordenar y resumir los archivos llegando a la primera versión de codigoRobotFriolento.ino.
 
-
+![ERROR pseudocódigo](imagenes/pseudocodigoV0_1_4_ERROR.png)
 
 ### codigoRobotFriolento_0_1_0
 
-La primera versión de “código” oficial, se rescatan esqueletos del pseudocódigo pero el enfoque es disminuir la cantidad de archivos (tanto .h y .cpp) dentro de la carpeta, básicamente partir de lo más general, para que de esa manera sea más fácil avanzar y ordenar.
-cita con foto de la cantidad de archivos quw hay ahora en la carpeta
-
-#### Código V_0_2_2 sensor temperatura
-Se agregó el sensor de temperatura como .cpp y .h, que mostraba la temperatura actual en serial monitor de forma exitosa. 
-```cpp
-// incluir .h
-#include "SensorTemp.h"
-
-
-// una clase que viene desde la libreria del sensor de temp
-// donde se especifica que el pin de comunicacion es el 5
-// se descarta el pin 2 porque el sensorUltra los ocupará
-DHT11 dht11(5);
-
-
-SensorTemp::SensorTemp() {
-}
-
-
-void SensorTemp::configurar() {
-  //Abrir la comunicación serial
-  Serial.begin(9600);
-}
-
-
-// Lo que se hace para leer la Temp.
-// Según el código de ejemplo.
-// https://github.com/dhrubasaha08/DHT11/blob/main/examples/ReadTemperature/ReadTemperature.ino#L18
-void SensorTemp::leerTemp() {
-  // El int de "temperatura" va a ser equivalente
-  // a la temperatura leída por el sensor DHT11.
-  // Se corrige la asignación a la variable de instancia:
-  temperatura = dht11.readTemperature();
- 
-  // Cuando la temperatura no presente algún error.
-  if (temperatura != DHT11::ERROR_CHECKSUM && temperatura != DHT11::ERROR_TIMEOUT) {
-    // Se demostrará la temperatura actual en el monitor serial.
-    Serial.print("Temperatura: ");
-    Serial.print(temperatura);
-    Serial.println(" °C");
-    // Cada 2 segundos.
-    //delay(2000);
-   
-    // Si es que esto no se cumple.
-  } else {
-    // Muestra el error en el monitor serial.
-    Serial.println(DHT11::getErrorString(temperatura));
-    // Opcional: Asignar un valor por defecto si hay error para no detener el código.
-    // temperatura = 0;
-  }
-}
-
-```
-#### Código V_0_2_3 sensor ultrasónico
-Se agregó el sensor de ultrasónico como .cpp y .h, que determina si había una persona cerca o no en serial monitor de forma exitosa. 
-```cpp
-// incluir .h
-#include "SensorUltra.h"
-
-
-SensorUltra::SensorUltra() {
-}
-
-
-void SensorUltra::configurar() {
-  // Conectar las patitas.
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-  Serial.begin(9600);
-}
-
-
-void SensorUltra::reconocerDistancia() {
-  // Configuración reconocimiento distancia
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-
-
-  // Medir duración del eco.
-  duracion = pulseIn(echoPin, HIGH);
-
-
-  // Calcular distancia en cm.
-  distancia = duracion / 58;
-
-
-  // Determinar si hay una persona (ejemplo: a menos de 30 cm)
-  persona = (distancia < 30);
-}
-
-
-void SensorUltra::leerDistancia() {
-  // Imprimir en el monitor serial la distancia detectada en cm.
- if (persona) {
-    Serial.println("la persona esta a: ");
-    Serial.print(distancia);
-    Serial.println(" cm");
-  } else {
-    Serial.println("No hay persona.");
-  }
-}
-
-```
-#### Código V_0_3_1 servo motor
-Se agregó el servo motor como .cpp y .h, de forma exitosa.
-
-```cpp
-// biblioteca para funcionamiento del servo
-#include "ActuadorServo.h"
-
-ActuadorServo::ActuadorServo() {
-}
-
-void ActuadorServo::configurar() {
-  // configurar en que pin conectar el servo
-  actBrazo.attach(9);
-}
-
-// escribir el movimiento que queremos realizar
-void ActuadorServo::moverBrazo() {
-    // se repetira esto 3 veces
-    for (cuantosSaludos = 0; cuantosSaludos < 3; cuantosSaludos++){
-    // primero hacia la derecha
-    actBrazo.write(saludoDer);
-    delay(1000);
-    // despues a la izquierda
-    actBrazo.write(saludoIzq);
-    delay(1000);
-  }
-  // vuelve a posicion inicial
-  actBrazo.write(saludoNeu);
-}
-```
-#### Código V_0_2_5
-La pantalla fue el último actuador en ser incorporado, la cual era …. , pero al momento de incorporarla hubo problemas con el display, por lo que se decidió usar la pantalla … 
-```cpp
-
-#include <Wire.h>
-#include <U8g2lib.h>
-#include "Pantalla.h"
-
-
-// Constructor para pantalla SH1106 128x64 I2C
-U8G2_SH1106_128X64_NONAME_F_HW_I2C display(U8G2_R0, U8X8_PIN_NONE);
-
-
-void Pantalla::configurar () {
-  display.begin();
-  display.clearBuffer();
-  Serial.begin(115200);
-};
-
-
-void Pantalla::mostrar (){
-  // Fuente monoespaciada en negrita
- display.setFont(u8g2_font_9x15B_tr); // similar a FreeMonoBold12pt7b
-
-
-  // Posición del texto
-  display.drawStr(0, 30, "Probando algo ");
-  display.drawStr(0, 45, "Largo!");
-  // Muestra en pantalla
-
-
-  display.sendBuffer();
- 
-};
-```
-#### Codigo V_0_4_7
-Después de variados intentos, se llegó a un resultado que sí llegó a compilar correctamente, con ambas caras que teníamos en aquel momento. El problema es que el sensor ultrasónico dejó de funcionar y detectar la distancia. Por lo tanto, con la ayuda del equipo, se utilizó el código ya hecho y se ordenó de mejor manera, para luego hacer otra versión donde tanto la pantalla como el sensor ultrasónico podían funcionar a la vez.
-```cpp
-// Se corrige el constructor para usar la instancia global 'display'
-ActuadorPantalla::ActuadorPantalla() {
-}
-
-// Se renombra 'iniciar()' a 'configurar()' y se cambia la lógica para usar la instancia global 'display'
-void ActuadorPantalla::configurar() {
-    if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-        // No se pudo inicializar la pantalla
-        for (;;);
-    }
-    display.clearDisplay();
-    display.display();
-}
+Morgan realizó la primera versión de “código” oficial, se rescatan esqueletos del pseudocódigo pero el enfoque es disminuir la cantidad de archivos (tanto .h y .cpp) dentro de la carpeta, básicamente partir de lo más general, para que de esa manera sea más fácil avanzar y ordenar.
 
-void ActuadorPantalla::mostrarImagen(int temperatura) {
-    display.clearDisplay();
+![carpeta código](imagenes/carpetaCodigoRobotFriolento_0_1_0.png)
 
-    // Lógica: si la temperatura es mayor a 15, mostrar la primera imagen.
-    // si es menor o igual a 15, mostrar la segunda.
-    if (temperatura > 15) {
-        mostrarLogo1();
-    } else {
-        mostrarLogo2();
-    }
+### codigoRobotFriolento_0_1_1
 
-    display.display();
-}
+Morgan identificó errores en la definición de los parámetros entre archivos .h y .cpp.
 
-void ActuadorPantalla::mostrarLogo1() {
-    display.drawBitmap(0, 0, logo_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
-}
+### codigoRobotFriolento_0_2_0
 
-void ActuadorPantalla::mostrarLogo2() {
-    display.drawBitmap(0, 0, logo2_bmp, LOGO_WIDTH, LOGO_HEIGHT, WHITE);
-}
+Morgan junto al profesore Aarón continuaron con el desarrollo y orden de la clase SensorUltra, ya que en la versión anterior ocurrían errores respecto a los parámetros debido al desorden entre los archivos .h y .cpp.
 
-```
-![carpeta pseudocodigo](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/CARA%20FRIO.jpeg)
-![carpeta pseudocodigo](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/CARA%20HAPPY.jpeg)
-![carpeta pseudocódigo](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/CARA%20SUE%C3%91O.jpeg)
+### codigoRobotFriolento_0_2_1
 
+Morgan gracias a la ayuda de Aarón empezó con el desarrollo de la clase SensorTemp, que compilaba correctamente.
 
-#### Codigo V_0_1_2 FINAL
+### codigoRobotFriolento_0_2_2
 
-Por último se agregó a pantalla. cpp texto que ayuda a la comprensión de las imágenes 
+Sebastián se guió por el archivo del sensor Ultrasónico, que ya estaba ligeramente con el formato correcto para su funcionamiento, donde se llegó a una implementación correcta del sensor de temperatura, pero era una traducción directa de el código de ejemplo, así que se comentaron la mayor cantidad de líneas posibles para explicar el funcionamiento y las razones del porqué se dividió el código original de esa manera.
 
-```cpp
-// constructores de este archivo del proyecto
-#ifndef ACTUADOR_PANTALLA_H
-#define ACTUADOR_PANTALLA_H
+### codigoRobotFriolento_0_2_3
 
+Aileen agregó el sensor ultrasónico como .cpp y .h, que determina si había una persona cerca o no en el serial monitor de forma exitosa. 
 
-// incluir todos las bilbiotecas para el funcionamiento
-// del display OLED1306
-#include <Arduino.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+### [codigoRobotFriolento_0_2_4](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-09a) 
 
+Sebastián implementa el funcionamiento del servomotor, como también los movimientos que iría a realizar en el futuro el “brazo” del robot.
 
-// crear la clase de ActuadorPantalla
-class ActuadorPantalla {
-public:
-   ActuadorPantalla();
-   // funcionamiento de la pantalla
-    void configurar();  
-   // se definira una clase para cada "estado" del robot
-   // cuando tiene frio, no tiene frio, o no detecta a nadie
-    void mostrarImagenTemperado();
-    void mostrarImagenFrio();
-    void mostrarImagenNadie();
-
-
-    // Definiciones de parametros de el display
-    int SCREEN_WIDTH  = 128;
-    int SCREEN_HEIGHT = 64;
-    int OLED_RESET    = -1;
-
-
-    // Declaración del tamaño las imágenes
-    int LOGO_HEIGHT = 64;
-    int LOGO_WIDTH  = 128;
- 
-    // Aqui le pondremos el nombre al display en este caso caraMuneco, tambien
-    // cual es su ancho y alto segun datos establecidos previamente
-    Adafruit_SSD1306 caraMuneco = Adafruit_SSD1306(
-    ActuadorPantalla::SCREEN_WIDTH,
-    ActuadorPantalla::SCREEN_HEIGHT,
-    &Wire,
-    ActuadorPantalla::OLED_RESET);
-
-
-
-
-    // comentarios que hara Friolin cuando tiene frio
-    String Frio1 = "HACE";
-    String Frio2 = "MUCHO";
-    String Frio3 = "FRIO!";
-
-
-    String Templado1 = "QUE";
-    String Templado2 = "RICO";
-    String Templado3 = "CLIMA!";
-
-
-    String Sueno = "ZZZ";
-
-
-
-
-
-
-
-
-
-
-};
-// destructor para este archivo del proyecto para no causar problemas en el codigo
-#endif
-```
-
-Tambien se mejoraron los ultimos detalles del codigo en 
-
-```cpp
-// Crear una instancia de las clases de cada
-// sensor y actuador correspondientes
- SensorUltra sensorUltra;
- SensorTemp sensorTemp;
- ActuadorServo actuadorServo;
- ActuadorPantalla actuadorPantalla;
-
-
-void setup() {
- // se define todo lo necesario para el
- // funcionamiento de los sensores y actuadores
-  sensorUltra.configurar();
-  sensorTemp.configurar();
-  actuadorPantalla.configurar();
-  actuadorServo.configurar();
-}
-
-
-// aqui es donde ocurre el funcionamiento de
-// los sensores y actuadores especificos
-void loop() {
-  sensorUltra.leerDistancia();
-  sensorUltra.reconocerDistancia();
-  sensorTemp.leerTemp();
-// cuando el dato dentro del sensor de temperatura
-// llamado temperatura es mayor a 15
-// y el sensor ultrasonico detecta a una persona
-  if (!sensorTemp.frio && sensorUltra.persona) {
-    // se mostrara en el display la imagen correspondiente
-    // cuando esta temperado el ambiente
-     actuadorPantalla.mostrarImagenTemperado();
-    // se realizara todo lo presente en
-    // la instacia de moverBrazo
-     actuadorServo.moverBrazo();
-   }
-      // si la temperatura ambiente es menor a 15 grados
-      // y se detecta a una persona
-       else if (sensorTemp.frio && sensorUltra.persona){
-        // el robot mostrara su cara de frio
-         actuadorPantalla.mostrarImagenFrio();
-      }
-       // si no se detecta a una persona
-        else if(!sensorUltra.persona){
-          // se mostrara al robot en su estado sin nadie presente
-           actuadorPantalla.mostrarImagenNadie();
-        }
-}
-```
-
-#### Carcasa 
+### codigoRobotFriolento_0_2_5
+
+Aileen junto a Carla se enfocaron en la pantalla, que fue el último actuador en ser incorporado, la cual se había intentado usar la GC9A01 pero al momento de hacerla funcionar, no daba respuesta alguna, por lo que se decidió usar el display SSH1106, que funciona, pero contienen glitches al momento de cambiar de texto.
+
+###[codigoRobotFriolento_0_3_0](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-09a)
+
+Sebastián junto a Aarón llevaron a cabo la intercomunicación de 2 de los componentes, debido a que todo previamente era anexo a uno del otro, creando una primera condicional en el archivo .ino, empezando a usar las clases de manera eficiente.
+
+establece definitivamente el movimiento del brazo, dejando los ángulos del movimiento escritos como “int”.
+
+###[codigoRobotFriolento_0_3_1](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-09a)
+
+Sebastián define un “for” que permite el movimiento de el brazo una cantidad determinada de veces antes de volver al estado neutral.
+
+### codigoRobotFriolento_0_4_0
+
+Morgan agrega los códigos que ha desarrollado el equipo a un archivo de mejor calidad, se incluyen los parámetros para los sensores tanto de temperatura como el ultrasónico, en el caso de los actuadores solo se encuentran funcionando los parámetros de la pantalla, Sebas seguía trabajando con el servo.
+
+### codigoRobotFriolento_0_4_1
+
+Morgan se agrega los parámetros del servo y se deja funcionando, en el archivo .ino queda una función pendiente para mover al archivo .cpp y .h del servo.
+
+### codigoRobotFriolento_0_4_2
+
+Carla implementa las 2 primeras imágenes junto al código que accionará estas imágenes dependiendo de las variables del clima (no compilaba correctamente).
+
+### codigoRobotFriolento_0_4_3
+
+Carla dejó esta versión de respaldo al tener el código funcional de una sola imagen en la pantalla.
+
+### codigoRobotFriolento_0_4_4
+
+Carla demostró que código como tal fue usado pero no se mostraban las imágenes de las pantallas ni reaccionan los demás componentes.
+
+### codigoRobotFriolento_0_4_7
+Carla hizo la parte de la pantalla después de varios intentos, se llegó a un resultado que sí llegó a compilar correctamente, con ambas caras que teníamos en aquel momento. El problema es que el sensor ultrasónico dejó de funcionar y detectar la distancia. Por lo tanto, con la ayuda del equipo, se utilizó el código ya hecho y se ordenó de mejor manera, para luego hacer otra versión donde tanto la pantalla como el sensor ultrasónico podían funcionar a la vez.
+
+Se cambió el código del display, ya que se identificó un error muy grave que causaba un ralentizamiento de todos los demás componentes de manera potente, como también se pudieron encontrar los errores previos respecto la deformación de las palabras, decidiendo dejar de usar el display SSH1106 para usar el OLED1306 con el que ya estábamos familiarizados.
+
+### [codigoRobotFriolento_0_5_0](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/27-SebastianSaez1003/sesion-09b)
+Sebastián específico muchos de los comentarios que estaban muy vagos, para poder definir la función que realizaban en el proyecto.
+
+Se implementó un archivo header en que que se dispondrá la información de los bitmaps de las caras que Friolín mostrará, esto con la intención de que el archivo header del display pueda ser más legible y comprensible.
+
+Se implementaron las condiciones definitivas para el funcionamiento final de Friolín, que son:  
+
+- Si es que no se detecta a nadie con el sensor Ultrasónico, no se moverán los servomotores en absoluto y la “cara” de nuestro robot estará en un estado neutro.  
+
+- Si es que se detecta a una persona y la temperatura ambiente es mayor a 15 grados (dato que se puede cambiar), el robot tendrá una expresión feliz, para poder demostrar que está a gusto, mientras mueve su brazo a forma de saludo.  
+
+- Si es que se detecta a una persona y la temperatura ambiente es menor a 15 grados (dato que se puede cambiar), el robot tendrá una expresión de desagrado, donde expresaba su disgusto a el frio que hace, algo que se puede observar en su cara y el hecho de que no quiere saludar con su brazo.  
+
+###[codigoRobotFriolento_1_0_0]
+
+Sebastián le agrego una cara “durmiendo” a Friolín para su modo standby que fue creada por Carla, cambio el orden de acciones en el “void loop” del archivo .ino para que no existiese un a pausa considerable cuando se detectaba a una persona y intentaba cambiar la cara que se observaba en el display, como se puede observar en el siguiente video: 
+
+[![Video de Friolín con su reaccion lenta](https://img.youtube.com/vi/mgef-bVR5_4/maxresdefault.jpg)](https://www.youtube.com/shorts/mgef-bVR5_4)
+
+###[codigoRobotFriolento_1_0_1]
+
+Sebastián implementa las correcciones que realizó Aarón como buenas prácticas para la organización del código, como también se comenta la gran mayoría de elementos del proyecto.
+
+###[codigoRobotFriolento_1_0_2]
+
+Sebastián agregó texto que dara contexto a la situación en la que se encuentra Friolin, que seria visualizado en el display, pero esto causó otro problema, debido a que para el cambio entre texto y las caras se estaba ocupando delay, esto impedía el funcionamiento rápido de los demás sensores y actuadores, causando que sea poco responsivo.
+
+###[codigoRobotFriolento_1_0_3]
+
+Sebastián intentó cambiar el uso de delay() hacia millis() dentro de los archivos correspondientes al display, pero no se logró de manera correcta, debido a que las pantallas cambiaban con una velocidad muy alta, o ni siquiera cambiaban dependiendo de el tiempo que se les aplicará, no existía un punto intermedio.
+</details>
+
+## Carcasa 
+
+Aileen se dedicó completamente a llevar a cabo la carcasa de Friolín, trayendo las ideas fantasiosas a la realidad.
+
+En un principio habíamos visto como un robot amigable, similar a nuestro moodboard, después de varios bocetos se dio la idea de que sea friolin
+
+![Boceto 1](imagenes/boceto-1.jpeg)
+
+![Boceto 2](imagenes/boceto-1.jpeg)
 
 La idea principal de la carcasa es que contenga y exponga todos los componentes de manera eficiente, también su forma de hombre de nieve hace alusión de forma irónica a su miedo al frío. Además, su forma geométrica se eligió para ser similar al pixel art de las imágenes. También se realizaron piezas extras como sus orejeras y brazo para personificar y dar mayor personalidad al proyecto.
-(antes de eso lo habíamos visto como un robot amigable, similar a nuestro moodboard, después de varios bocetos se dio la idea de que sea friolin)
+
+![Imagen de Friolín en vista de frente.](imagenes/cara-1.png)
+
+![Vista superior](imagenes/cara-2.png)
+
+![Vista trasera](imagenes/cara-3.png)
+
+![Piezas separadad](imagenes/descuartizado.png)
+
+![Vista interior con los cables](imagenes/cables.jpeg)
 
 
-![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%201.png)
-![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%202.png)
-![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cara%203.png)
-![Test Image 3](https://github.com/aileendespessailles-design/dis8645-2025-02-procesos/blob/main/00-proyecto-02/grupo-05/imagenes/descuartizado.png)
-![Test Image 3](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/cables.jpeg)
+### BOM (Bill of Materials)
+
+| Sensor / Actuador               | Especificacion | Precio | Link de compra                                                                                                                                                                 |
+| ------------------------------- | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Servomotor                      | SG90           | $1.990 | [https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r](https://afel.cl/products/micro-servomotor-sg90?_pos=1&_sid=e6931ef89&_ss=r)                       |
+| Sensor Ultrasónico              | HC-SR04        | $1.500 | [https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r](https://afel.cl/products/sensor-de-ultrasonico-hc-sr04?_pos=1&_sid=1a8918b48&_ss=r)       |
+| Sensor de Temperatura y Humedad | DHT11          | $2.300 | [https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11](https://afel.cl/products/sensor-de-temperatura-y-humedad-dht11)                                               |
+| Pantalla 1.3" 128x64 | 1306 LCD Oled  | $5.000  | https://afel.cl/products/pantalla-lcd-oled-1-3-128x64-caracteres-blancos?pr_prod_strat=e5_desc&pr_rec_id=d485cccf4&pr_rec_pid=8381975822488&pr_ref_pid=8381902258328&pr_seq=uniform  |
+
+
+
+
 
 ### Comentarios finales
 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
+
+

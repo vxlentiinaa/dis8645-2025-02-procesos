@@ -18,5 +18,7 @@ public:
 // Se declara que temperatura es un "int", osea un valor numerico
   int temperatura;
 
+  bool frio;
+
 };
 #endif

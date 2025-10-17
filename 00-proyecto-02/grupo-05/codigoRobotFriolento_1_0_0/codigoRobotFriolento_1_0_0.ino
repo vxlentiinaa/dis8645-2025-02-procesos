@@ -28,22 +28,22 @@ void loop() {
 // cuando el dato dentro del sensor de temperatura
 // llamado temperatura es mayor a 15
 // y el sensor ultrasonico detecta a una persona
-  if (sensorTemp.temperatura > 15 && sensorUltra.persona) { 
+  if (!sensorTemp.frio && sensorUltra.persona) { 
+    // se mostrara en el display la imagen correspondiente al calor
+     actuadorPantalla.mostrarImagenCalor();
     // se realizara todo lo presente en
     // la instacia de moverBrazo
      actuadorServo.moverBrazo();
-    // se mostrara en el display la imagen correspondiente al calor
-     actuadorPantalla.mostrarImagenCalor();
    } 
       // si la temperatura ambiente es menor a 15 grados
       // y se detecta a una persona
-       else if (sensorTemp.temperatura < 15 && sensorUltra.persona){
+       else if (sensorTemp.frio && sensorUltra.persona){
         // el robot mostrara su cara de frio
          actuadorPantalla.mostrarImagenFrio();
       }
        // si no se detecta a una persona
         else if(!sensorUltra.persona){
           // se mostrara al robot en su estado sin nadie presente
-           actuadorPantalla.mostrarImagenFrio();
+           actuadorPantalla.mostrarImagenNadie();
         }
 }

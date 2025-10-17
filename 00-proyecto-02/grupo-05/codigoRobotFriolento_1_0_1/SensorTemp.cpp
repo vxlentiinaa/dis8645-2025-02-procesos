@@ -31,4 +31,11 @@ void SensorTemp::leerTemp() {
     // Muestra el error en el monitor serial.
      Serial.println(DHT11::getErrorString(temperatura));
     }
+
+// Si es que la "temperatura" es menor a el numero delcarado
+  if (temperatura < 15){
+    // Friolin tendra frio
+    frio = true;
+  }
+  
 }
