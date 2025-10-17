@@ -97,4 +97,59 @@ Factores a considerar:
 ## Encargo
 
 - Leer las bitacoras de colegas, encontrar similitudes, diferencias, preguntas y aciertos de sus máquinas saludadoras propuestas.
+
+### Grupo 02 
+
+- Catalina Catalán
+- Valentina Chávez
+- Camila Delgado
+- Nicolás Miranda
+- Miguel Vera
+
+La propuesta del grupo consiste en una máquina dispensadora de chicles de distintos colores que, al reconocer el color del chicle, emite un mensaje mediante un altavoz.
+
+Similitudes:
+- Ambas son máquinas que saludan.
+- Ambas usan un altavoz como medio de salida.
+- El saludo cambia en función de una condición (color o distancia).
+
+Diferencias:
+- Una se activa por proximidad, la otra por el color del chicle.
+- En una, el saludo varía en tono y contenido; en la otra, solo cambia el mensaje.
+- Una interactúa directamente con la persona; la otra, con el objeto y el mensaje.
+
+¿Qué tipo de mensajes emite la máquina?
+¿Cuántos colores diferentes puede detectar actualmente la máquina?
+
+### Grupo 04
+
+- brauliofigueroa2001
+- Bernardita-lobo
+- jotamorales-romulus
+- Camila-Parada
+- FranUDP
+
+La propuesta consiste en una máquina con ojos que detectan la profundidad y siguen a la persona. Al acercarse, una oreja emite un sonido aleatorio como si hablara.
+
+Similitudes:
+
+- Ambas máquinas se activan por la cercanía y la interacción con la distancia.
+- Ambas están inspiradas en la idea de contar un secreto.
+- Ambas utilizan la voz o el sonido como medio de comunicación.
+  
+Diferencias:
+
+- La propuesta propia tiene tres niveles de interacción según la distancia; la otra usa una oreja parlante como elemento irónico.
+- La máquina propia es efusiva y grita para atraer; la otra es más enigmática y te sigue con la mirada.
+- Una varía el tono de voz según la distancia; la otra utiliza ojos para seguir al usuario y una oreja que emite sonidos.
+
+¿Qué tipo de sonidos emite la oreja? ¿Son palabras, murmullos, efectos sonoros?
+
 - Buscar 2 referentes asociados a tu proyecto de cada una de estas 4 categorías: 1. lenguaje natural (personas), 2. código, 3. materialidad, 4. documentación. escribir un párrafo por cada uno de los referentes encontrados, citando las fuentes, y explicando por qué lo elegiste, qué te aporta, qué te inspira, o incluso si lo incluyes como antiejemplo.
+  
+### Referentes
+
+Libro: La impresión 3D 
+![libro00](./imagenes/libro00.png)
+![libro00](./imagenes/libro00.png)
+
