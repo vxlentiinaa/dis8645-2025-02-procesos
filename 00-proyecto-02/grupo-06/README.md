@@ -39,10 +39,66 @@ En la primera etapa teniamos pensado como grupo el usar dos micrófonos MAX4466,
 - Etapa 4: setup () - Configuración inicial
 - Etapa 5: loop () - Ejecución inicial
 - Etapa 6: Funciones auxiliares
-- poner aqui la etapa del codigo en que nos ayudó el seba y mencionarlo
+
+Nuestro compañero Sebastián Saez (mencionar github) nos ayudo a armar el codigo y ademas nos dio instrucciones y pasos a seguir. A continuación un extracto del codigo en el cual nos ayudo:
+```cpp
+// Mostrar ángulo actual del servo de sensores
+//     int anguloActual = sensores.getAnguloActual();
+//     Serial.print("ServoSensores en ángulo: ");
+//     Serial.println(anguloActual);
+
+//     delay(500);
+//   } else {
+//     unsigned long ahora = millis();
+```
+
 
 ## Documentación y procesos
-![poner fotos aqui](./)
+### Croquis y primeras ideas
+![croquis01](./imagenes/croquis01.jpg)
+Croquis inicial explorando el mecanismo y el movimiento deseado del sistema interactivo.
+![croquis03](./imagenes/croquis03.jpg)
+Segunda iteración del croquis, afinando proporciones y ubicación del sensor y el servo.
+![vibe](./imagenes/vibe.png)
+
+### Prototipado y mecanismos
+![gear2-2](./imagenes/gear2-2.jpg)
+Diseño preliminar del engranaje que transmite el movimiento del servo al mecanismo.
+![gearBreadboard](./imagenes/gearBreadboard.png)
+Prueba del sistema en protoboard con conexión del servo y sensor ultrasónico
+![gears-slicer](./imagenes/gears-slicer.png)
+
+Vista del archivo en el slicer antes de imprimir las piezas 3D de los engranajes.
+
+### Pruebas de movimiento
+![gif-ultrasS-gear-v2](./imagenes/gif-ultrasS-gear-v2.gif)
+Ensayo inicial del engranaje con el sensor ultrasónico montado.
+![gif-ultrasS-gear-v3](./imagenes/gif-ultrasS-gear-v3.gif)
+Versión mejorada con ajustes en el eje y velocidad de rotación.
+![gif-ultrasS-gear-v6](./imagenes/gif-ultrasS-gear-v6.gif)
+Iteración final mostrando un movimiento fluido y sincronizado del mecanismo completo.
+
+
+### Modelado 3D y renderizado
+![mecanismoPro-render](./imagenes/mecanismoPro-render.png)
+Render final del mecanismo ensamblado con sensor y estructura.
+![modelado_3d](./imagenes/modelado_3d.jpeg)
+Serie de capturas del proceso de modelado 3D, mostrando las distintas etapas de diseño, ajustes y refinamiento del sistema.
+![modelado_3d_2](./imagenes/modelado_3d_2.jpeg)
+![modelado_3d_3](./imagenes/modelado_3d_3.jpeg)
+![modelado_3d_4](./imagenes/modelado_3d_4.jpeg)
+![modelado_3d_5](./imagenes/modelado_3d_5.jpeg)
+![modelado_3d_6](./imagenes/modelado_3d_6.jpeg)
+
+
+### Estructura y componentes
+![piezaMueble](./imagenes/piezaMueble.png)
+Diseño de la pieza estructural donde se monta el sistema mecánico.
+![ultraS-case-v1](./imagenes/ultraS-case-v1.png)
+Carcasa del sensor ultrasónico diseñada para proteger y alinear la lectura.
+![ultraS-lineaGear](./imagenes/ultraS-lineaGear.png)
+Detalle del acoplamiento entre el sensor y la línea de engranajes.
+
 ## Referentes estéticos
 - [1984 de George Orwell]
 - [Around the world - Daft Punk ](https://www.youtube.com/watch?v=K0HSD_i2DvA)
