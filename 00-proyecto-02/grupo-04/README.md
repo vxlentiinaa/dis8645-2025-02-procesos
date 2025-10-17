@@ -384,6 +384,8 @@ Al tener una idea más concreta, decidimos tematizar la "envoltura" de los eleme
 
 #### B) Carcasa Speaker (speaker, MP3 DFPlayer Mini)
 
+![gif](imagenes/gif.gif)
+
 Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
 
 ![foto](imagenes/proceso-carcasa-caracola.jpg)
@@ -444,8 +446,6 @@ Por último, nos pasó que todos avanzábamos a distintos ritmos, lo que ocasion
 
 Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si por el hecho de tener a un ser humano como el usuario "iniciador de esta actividad" es que se pueden generar interacciones con objetos o hasta lugares. Es un acto temporal pero que puede persistir en la memoria de quienes, por ejemplo, conocen o se vuelven a encontrar con lugares tales como el mar.
 
-![gif](imagenes/gif.gif)
-
 ***
 
 ## Bibliografía
@@ -462,3 +462,4 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
