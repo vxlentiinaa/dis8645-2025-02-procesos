@@ -11,16 +11,16 @@
 ### Lil Brother
 Como primera propuesta, usamos la idea de [AntFuentealba](https://github.com/AntFuentealba), que consistía en una máquina que te siguiera con la mirada.
 
-Desglosando esta idea llegamos a la conclusión de que la esta "mirada" debia activarse cuando se detectará de alguna forma una presencia.
+Desglosando esta idea llegamos a la conclusión de que esta "mirada" debía activarse cuando se detectara de alguna forma una presencia.
 
-Finalmente nuestro proyecto es una máquina con ojos que reacciona ante la presencia de una persona. En su estado normal, la base en donde están los ojos se mueven constantemente de un lado a otro y pestañean en un ciclo continuo, como si estuvieran explorando el entorno.
+Finalmente nuestro proyecto es una máquina con ojos que reacciona ante la presencia de una persona. En su estado normal, la base en donde están los ojos se mueven constantemente de un lado a otro y pestañean en un ciclo continuo, como si estuvieran explorando el entorno. Este movimiento se logra, gracias a un conjunto de engranajes, que sumados al movimiento que entregan los servos, logra mover toda la estructura.
 
 Cuando el sensor ultrasónico detecta a alguien cerca, la máquina se detiene y queda “mirando” fijamente, dejando de pestañear, como si reconociera la presencia y le impactara esta misma.
 
 Al momento en que la persona se aleja, el sistema entra en un estado de alivio y vuelve a su comportamiento inicial, retomando el movimiento y el parpadeo en bucle.
 
 ### Mapa de flujo
-![poner el mapa aqui](./)
+![diagrama_flujo](./imagenes/diagrama_nuevo.png)
 
 ## Inputs y outputs
 Componentes a utilizar:
@@ -96,25 +96,30 @@ Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo
 ## Carcasas y prototipos
 Para el primer acercamiento, nuestro proyecto constaba de una base con unos ojo que simulaban un parpadeo y se movía en una rotación de 180°.
 
-![poner imagenes del primer prototipo](./)
+![primer_prototipo](./imagenes/feelMyParanoia-image.png)
 
 Más adelante [santiagoClifford](https://github.com/santiagoClifford), ideo un mecanismo en base a distintos engranajes para lograr mover los distintos servos integrados.
 
-![poner imagenes de los primeros engranajes](./)
+![primeros_engranajes](./imagenes/gear2-3.jpg)
 
 Finalmente, [santiagoClifford](https://github.com/santiagoClifford) junto con [felix-rg416](https://github.com/felix-rg416), mejoraron el sistema de engranajes, haciendo adaptaciones para la correcta instalación fijación de las distintas partes del proyecto, y haciendo que la base también contara con un sistema de rotación en base a engranajes.
 
-![poner foto del proyecto final aqui](./)
+![proyecto_final](./imagenes/proyecto_final.png)
 
 
 ## Documentación y procesos
 ![poner fotos aqui](./)
-## Referentes estéticos
-- [1984 de George Orwell]
-- [Around the world - Daft Punk ](https://www.youtube.com/watch?v=K0HSD_i2DvA)
+
+## Referentes 
+### Estéticos
+Para este proyecto quisimos que tuviera una aparencia mas brutalista, que cause rechazo el verlo, por esta razón decidimos no hacer una carcasa que contuviera todos los componentes, en cambio decidimos hacer una extructura abierta, dejando cables expuestos y logrando visualizar cada pieza del proyecto fácilmente
+
+Para entender un poco la estética de nuestro proyecto nos basamos en los siguientes referentes:
+
+- [1984 de George Orwell] - Para dar la sensación de sentirse vigilado constantemente
+- [Around the world - Daft Punk ](https://www.youtube.com/watch?v=K0HSD_i2DvA) - Para la estructura en sí, tipo circular, con engranajes que rotan y estructuras con diferentes niveles y alturas.
 
 ### Musicales
-
 El concepto de la paranoia ha sido trabajado múltiples veces por grandes exponentes de la música. Cada uno de ellxs dando su punto de vista de cómo es afectadx por la paranoia, y como ésta se manifiesta en sus vidas.
 
 - [Paranoid Android - Radiohead](https://youtu.be/Lt8AfIeJOxw)
@@ -123,6 +128,38 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
 
+  ## Reflexiones personales
+[santiagoClifford](https://github.com/santiagoClifford) : 
+
+Mi principal tarea en este proyecto fue el diseño y frabricación ddl circuito mecánico que impulsa el robot. Debido a limitaciones temporales, las fases de diseño, fabricación y prototipado, se vieron difuminadas entre sí. Esto provocó un efecto de "tunnel vision" en mí, y me concentré tanto en estudiar los engranajes y los mecanismos propios del robot, que dejé de lado otros aspectos igual de importantes. Como reflexión puedo decir que para otras ocasiones me gustaría hacer el esfuerzo de, por momentos, desconectarme del proyecto, con el objetivo de poder evaluarlo desde una perspectiva menos personal.
 
 
+[sofia-perezm](https://github.com/sofia-perezm)
 
+Personalmente, una de las cosas que más me costó fue que el proyecto se fue haciendo más difícil y técnico, lo que me generó bastante frustración y estrés. Hubo momentos en los que sentí que no estaba al mismo nivel que mis compañeros, y eso me hizo dudar de mis capacidades. A pesar de que el proyecto me gusta mucho y encuentro que la idea es muy interesante, esas emociones estuvieron muy presentes y afectaron mi rendimiento. Sin embargo, también me hicieron darme cuenta de hasta dónde puedo llegar, y aprender a reconocer mis propios límites cuando las cosas se vuelven demasiado exigentes. Fue un proceso intenso, pero también un aprendizaje importante sobre cómo manejar la presión y la frustración. 
+
+Pensando a futuro, creo que este proyecto tiene mucho potencial para seguir desarrollándose. Me gustaría mejorar los movimientos para que se vean más naturales y quizás agregarle luces o algún tipo de sonido que refleje emociones, haciendo que la interacción con la máquina sea más viva y expresiva. Todo lo aprendido en este proyecto me deja con una mirada más consciente sobre lo que implica trabajar con tecnología: no solo se trata de programar o armar circuitos, sino también de lidiar con el cansancio, la paciencia y la autoconfianza.
+
+## Bibliografía
+
+- Ikkalebob. (s. f.). *[How to make ultra realistic eyes using 3D printing and casting](https://www.instructables.com/How-to-Make-Ultra-Realistic-Eyes-Using-3D-Printing/?linkId=76371911)*. Instructables.
+
+- Ikkalebob. (s. f.). *[Simplified 3D printed animatronic dual eye mechanism](https://www.instructables.com/Simplified-3D-Printed-Animatronic-Dual-Eye-Mechani/)*. Instructables.
+
+- Maker101io. (s. f.). *[Face with animatronic eyes, motion detection and voice](https://projecthub.arduino.cc/maker101io/face-with-animatronic-eyes-motion-detection-and-voice-acc4ad#section5)*. Arduino Project Hub.
+
+- STL Gears. (s. f.). *[3D print gear generator](https://www.stlgears.com/generators/3dprint)*.
+
+- Naylamp Mechatronics. (s. f.). *[Tutorial: uso de servomotores con Arduino](https://naylampmechatronics.com/blog/33_tutorial-uso-de-servomotores-con-arduino.html)*.
+
+- Dezmon. (2021, March 8). *[Animatronic eyes – simple 3D printable model](https://www.thingiverse.com/thing:4792196)*. Thingiverse.
+
+- Spencer, C. (2014). *[Gears: Python library for gear generation](https://github.com/chrisspen/gears)*. GitHub.
+
+- Programar Fácil. (2020, August 12). *[Servomotor con Arduino](https://programarfacil.com/blog/arduino-blog/servomotor-con-arduino/)*.
+
+- Proyecto Arduino. (2020, June 5). *[Sensor de ultrasonidos: medir distancia con Arduino](https://proyectoarduino.com/sensor-de-ultrasonidos-medir-distancia-con-arduino/)*.
+
+- Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
+
+- Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
