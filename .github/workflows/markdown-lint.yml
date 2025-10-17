@@ -32,6 +32,6 @@ jobs:
       with:
         fix: true
         config: 'config/.markdownlint.jsonc'
-        globs: '**.md,!28-FranUDP/**/**.md'
+        globs: '**.md,!28-FranUDP/**/**.md,!00-proyecto-02/**.md'
         separator: ','
         
