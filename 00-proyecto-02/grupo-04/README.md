@@ -347,6 +347,14 @@ Finalmente, el trabajo en grupo fue clave para avanzar, pero también hubo momen
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 #### - Camila Parada:
 
+Este encargo fue un nuevo desafío personalmente. Siento que dos de mis dificultades son la comunicación y el querer hacer siempre más, no quedando satisfecha con los resultados obtenidos. Esta sensación y mi compromiso con el grupo y el taller (curso) es lo que me hace moverme para seguir avanzando. 
+
+Siento que fue un poco complejo organizarse como equipo, dado que no había una comunicación muy efectiva, no había un entendimiento mutuo sobre los objetivos de cada uno, y no había una figura que pudiera ayudar a administrar y poner orden. El haber trabajado con herramientas como “Github” o “Discord” no aportaba demasiado a acortar esto, puesto que al tener que trabajar con distintos códigos hizo que existieran más desencuentros.
+
+Por otra parte, mi proceso de trabajo fue a un ritmo más lento y con muchas expectativas. Al final para no estresarme estos últimos días decidí simplificarme y poder hacer todo lo que estuviera en mi poder y conocimientos, por más que me cueste valorarlo y no angustiarme por ello.
+
+No negaré que mi mente me juega en contra, y que las situaciones externas han detonado más la distimia. Pese a ello me interesa poder seguir desarrollando proyectos en conjunto y seguir aprendiendo de sensores u actuadores, además de nuevas tecnologías.
+
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 #### - Francisco Stephens:
 
@@ -380,6 +388,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
