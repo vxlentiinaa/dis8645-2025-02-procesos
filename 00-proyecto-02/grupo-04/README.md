@@ -84,7 +84,13 @@ Para poder ser más estratégicos en cuanto al aprendizaje y desarrollo es que c
 
 #### 1) Ultrasónico HC-SR04
 
+Esta parte del proceso comenzó con el estudio del sensor en cuestión. Este se trata de un circuito que emite ondas "ultrasónicas" y calcula cuánto tiempo pasa antes de que estas regresen a él. Sin embargo, este modelo no es muy preciso y recibe mucho “ruido”, por lo que se aplicó la biblioteca [“Newping”](https://docs.arduino.cc/libraries/newping/) que ayuda a corregir este problema y estabiliza el sensor.
 
+Tras haber probado un ejemplo de código proveniente de dicha librería es que comenzó a planificar la construcción de un "radar" montando el "detector" sobre un servomotor para que este pueda estar en una rotación constante entre 0 y 180 grados, y por ende cubrir un mayor rango de distancia en el espacio.
+
+Un inconveniente surge, Y es el cómo poder hacer que el ultrasónico pueda detectar a una persona y no a un objeto inerte. Pues la solución fue el poder implementar un sistema que pueda registrar según su ángulo los objetos a distancia, cosa que si algo se aproxima al sensor pueda diferenciar al haber al usuario al existir movimiento.
+
+Le di el código de ejemplo de la biblioteca NewPing, lo que tenía y el ejemplo de radar sacado de internet a Gemini 2.5 Pro, además de una explicación detallada del comportamiento que busco obtener del código, para que me guíe al escribirlo.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
@@ -300,6 +306,8 @@ Como requisito fundamental para diseñar las carcasas es que hubo que profundiza
 
 #### A) Carcasa Cangrejo (servo, sersor ultrasonico y arduino)
 
+![gif](imagenes/gif-cangrejo.gif)
+
 Al tener una idea más concreta, decidimos tematizar la "envoltura" de los elementos de la parte principal del proyecto, cubriendo el Arduino, el servomotor y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
 ![imagen](./imagenes/boceto-cangrejo-carcasa.jpg)
@@ -388,6 +396,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
