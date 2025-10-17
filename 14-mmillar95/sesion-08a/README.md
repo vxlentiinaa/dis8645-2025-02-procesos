@@ -25,6 +25,20 @@ El módulo reproductor no funciona (no reconoce la tarjeta SD)
 - El primer ratón era de madera. ¡Tu ratón es más moderno!
 - El primer "bug" fue una polilla real en una computadora en 1947. ¡Un error muy natural!
 
+#### Diálogo listo 
++ Los diálogos serán:
+ + **1.** "hola1.mp3" de 80-10cm, para llamar a la persona: "Hola humano ¿Por qué estás tan lejos? Acércate."
+ + **2.** "hola2.mp3" de 40-60cm, para hacer que la persona se acerque más: "Hola! No seas timido, ven más cerca, no tengo virus... creo jiji"
+ + **3.** "dato1, 2, 3, 4,5 y 6.mp3" de 2-10cm:
+   + **dato1:** "¿Sabías qué? El primer mause era de madera... Seguro también servía de leña jajaj"
+   + **dato2:** "¿Sabías qué? El error 404 es mi manera de hacerme el leso... jajaja"
+   + **dato3:** "¿Sabías qué? La nube no existe, son computadores de otro... pero no se lo digas a nadie"
+   + **dato4:** "¿Sabías qué? Los datos nunca se borran, solo se esconden... igual que tus calcetines"
+   + **dato5:** "¿Sabías qué? Apagar y prender arregla todo, y sino, un golpecito y como nuevo"
+   + **dato6:** "¿Sabías qué? El porcentaje exacto de 99,999999999999... Nah, inventé jajaja pero aún sigues aquí ¿no?"
+   
+Información sacada readme de [@vaniaparedes](https://github.com/mmillar95/dis8645-2025-02-procesos/edit/main/21-vaniaparedes/sesion-08a/README.md)
+
 ### Páginas
 
 Estas páginas nos ayudarán a realizar nuestro proyecto.
@@ -50,6 +64,27 @@ Luego se siguió por la cabeza del robot impresa en 3D, viendo si calza con los 
 ![Modelado02](./imagenes/Modelado02.png)
 
 Para la presentación física del proyecto como equipo pensamos en realizar un robot el que contara el dato random. Debido a la cantidad de componentes, lo más adecuado para poder llevarlo a cabo sería realizar el robot sobre una caja que tendrá el Arduino por temas de tamaño y estabilidad.
+
+## Códigos
+
+- Primero definimos qué es lo que queremos que realice el sensor ultrasónico con sus medidas correspondientes.
+
+```cpp
+
+void configurarSensorUltrasonico() {
+  // conectar la patita
+
+  // definir la distancia minima de 2 a 10 cm
+  // definir distancia media de 45 a 60 cm
+  // definir la distancia maxima de 80 a 100 cm
+
+  // Tiempo de reposo cuando no siente presencia 
+
+}
+
+```
+![proceso00](./imagenes/proceso00.png)
+![proceso01](./imagenes/proceso01.png)
 
 ## Encargo 16
 Cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a.
