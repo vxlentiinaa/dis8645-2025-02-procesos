@@ -32,29 +32,6 @@ Al detectar cualquier tipo de presencia, se queda mirando fijamente a la direcci
 
 En la primera etapa teniamos pensado como grupo el usar dos micrófonos MAX4466, y que através de estos se pudiera detectar sonido y esto activara el movimiento de servomotores para mover los ojos. Sin embargo esta primera idea fue desechada por complicaciones en el funcionamiento de los micrófonos.
 
-## Etapas del código
-- Etapa 1: Inclusión de bibliotecas
-- Etapa 2: Creación de objetos
-- Etapa 3: Variables de control
-- Etapa 4: setup () - Configuración inicial
-- Etapa 5: loop () - Ejecución inicial
-- Etapa 6: Funciones auxiliares
-
-Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/SebastianSaez1003) nos ayudo a armar el codigo y ademas nos dio instrucciones y pasos a seguir. A continuación un extracto del codigo en el cual nos ayudo:
-```cpp
-// Mostrar ángulo actual del servo de sensores
-//     int anguloActual = sensores.getAnguloActual();
-//     Serial.print("ServoSensores en ángulo: ");
-//     Serial.println(anguloActual);
-
-//     delay(500);
-//   } else {
-//     unsigned long ahora = millis();
-```
-
-
-## Documentación y procesos
-### Croquis y primeras ideas
 ![croquis01](./imagenes/croquis01.jpg)
 
 Croquis inicial explorando el mecanismo y el movimiento deseado del sistema interactivo.
@@ -63,7 +40,52 @@ Croquis inicial explorando el mecanismo y el movimiento deseado del sistema inte
 
 Segunda iteración del croquis, afinando proporciones y ubicación del sensor y el servo.
 
-![vibe](./imagenes/vibe.png)
+
+## Etapas del código
+- Etapa 1: Inclusión de bibliotecas
+```cpp
+#include "constantes.h"
+#include "SensorProx.h"
+#include "Cuello.h"
+#include "Parpados.h"
+#include "ServoSensores.h"
+#include <Servo.h>
+#include <Arduino.h>
+```
+- Etapa 2: Creación de objetos
+```cpp
+
+```
+- Etapa 3: Variables de control
+```cpp
+
+```
+- Etapa 4: setup () - Configuración inicial
+```cpp
+
+```
+- Etapa 5: loop () - Ejecución inicial
+```cpp
+
+```
+- Etapa 6: Funciones auxiliares
+```cpp
+
+```
+Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/SebastianSaez1003) nos ayudó a armar el código y además nos dio instrucciones y pasos a seguir. A continuación, se muestra un extracto del código en el que nos ayudó:
+```cpp
+// Mostrar ángulo actual del servo de sensores
+     int anguloActual = sensores.getAnguloActual();
+     Serial.print("ServoSensores en ángulo: ");
+     Serial.println(anguloActual);
+
+     delay(500);
+   } else {
+     unsigned long ahora = millis();
+```
+
+
+## Documentación y procesos
 
 ### Prototipado y mecanismos
 ![gear2-2](./imagenes/gear2-2.jpg)
@@ -136,6 +158,7 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
 
 ## Bibliografía
+
 
 
 
