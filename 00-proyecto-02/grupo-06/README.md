@@ -3,10 +3,16 @@
 - Grupo: 06
 - Nombre de grupo: Hijos de la Tierra
 - Integrantes:
-- Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) (código, documentación)
-- Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) (modelado 3D, código)
-- Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) (código, documentación)
-- Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) (modelado 3D, código)
+ - Antonia Fuentealba Pessot / [AntFuentealba](https://github.com/AntFuentealba) 
+ - Santiago Gaete Fernández / [santiagoClifford](https://github.com/santiagoClifford) 
+ - Sofía Pérez Muñoz / [sofia-perezm](https://github.com/sofia-perezm) 
+ - Félix Rodríguez Guevara / [felix-rg416](https://github.com/felix-rg416) 
+
+## Roles del equipo
+- Antonia Fuentealba Pessot: Investigación de códigos, propuestas sobre el proyecto, experimentación con componentes y documentación en github.
+- Santiago Gaete Fernández: Modelado 3d y armado , sistema de engranajes, investigación de códigos y estructura, experimentación con componentes y bocetos.
+- Sofía Pérez Muñoz: Investigación de códigos, propuestas sobre el proyecto, experimentación con componentes, documentación en github, investigación de referentes y como se relacionan con el concepto.
+- Félix Rodríguez Guevara: Modelado 3d y armado, investigación, estructura, armado y resolución de código, y experimentación con componentes.
 
 ## Presentación textual
 
@@ -102,7 +108,104 @@ Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo
 
 ## Etapas del código
 
-- Etapa 1: Inclusión de bibliotecas
+### Etapa 1: creación de las clases
+
+#### Párpados
+
+```cpp
+  Parpados();
+  ~Parpados();
+
+  void configurar();
+  
+  void moverMotorcillo(int angulo, int tiempo);
+
+  Servo motorcillo;
+};
+```
+
+#### Cuello
+
+```cpp
+  Cuello();
+  ~Cuello();
+
+  Servo motorcillo;
+
+  void configurar();
+
+  // void moverMotorcillo(int angulo, int tiempo);
+  void moverCuello();
+
+  void amenaza();
+};
+```
+
+#### Sensor de proximidad
+
+```cpp
+  SensorProx();
+  ~SensorProx();
+
+  void configurar();
+  void leer();
+  void imprimirEnConsola();
+  void determinarPresencia();
+  // void presencia();
+  // void nada();
+  int patitaTrigger = 9;
+  int patitaEcho = 10;
+  float duracion = 0;
+  float distancia = 0;
+  bool presencia = false;
+};
+```
+
+### Etapa 2: creación archivos .cpp
+
+```cpp
+void Parpados::configurar() {
+  Parpados::motorcillo.attach(7);
+}
+
+void Parpados::moverMotorcillo(int angulo, int tiempo) {
+  motorcillo.write(angulo);
+  Serial.print("el ángulo del párpado es:");
+  Serial.println(angulo);
+  delay(tiempo);
+}
+
+// // referente de como reducir el código
+// // <https://arduino.stackexchange.com/questions/66378/servo-motor-in-function>
+```
+
+```cpp
+void Cuello::configurar() {
+  Cuello::motorcillo.attach(8);
+}
+
+void Cuello::moverCuello() {
+  // sentido positivo
+  for (int i = 0; i <= 180; i++) {
+    // servoMotor.write(i);
+    delay(25);
+  }
+  // sentido negativo
+  for (int i = 179; i > 0; i--) {
+    Cuello::motorcillo.write(i);
+    delay(25);
+  }
+
+// void Cuello::amenaza() {
+// que se diriga a la posicion de los sensores
+// }
+}
+```
+
+
+### Etapa 3: archivo .ino
+
+#### Incluir bibliotecas y clases
 
 ```cpp
 #include "constantes.h"
@@ -113,6 +216,19 @@ Para ver más documentación sobre este proceso con imágenes y gifs, recomiendo
 #include <Servo.h>
 #include <Arduino.h>
 ```
+
+#### Inicio prueba y error del código
+
+```cpp
+void setup() {
+  cuello.configurar();
+  parpados.configurar();
+  sensorProxIZQ.configurar();
+  // inicia monitor serial
+  Serial.begin(9600);
+}
+```
+
 - Etapa 2: Creación de objetos
 - Etapa 3: Variables de control
 - Etapa 4: setup () - Configuración inicial
@@ -132,6 +248,16 @@ Nuestro compañero Sebastián Saez / [SebastianSaez1003](https://github.com/Seba
    } else {
      unsigned long ahora = millis();
 ```
+
+Dentro del proceso del código tuvimos la ayuda de todo el equipo docente y algunos compañeros. Fue muy importante para nuestro trabajo buscar puntos de vista de otras personas.
+
+> Gracias sobre a todo a Mateo que nos ayudó hasta en los errores más pequeños.
+
+### Código final
+
+Finalmente, luego de estar mucho tiempo intentando que las clases funiconarar. Decidimos hacer un sólo archivo que contuviera todo lo necesario para que funcione.
+
+Actualmente, nuestro código hace girar los servos sin un sensor ultrasónico. En vez de los sensores estamos usando el monitor serial para definir el ángulo que gira el servo "cuello"
 
 ## Carcasas y prototipos
 
@@ -283,4 +409,5 @@ Personalmente, se me dificultó el tema de las clases, me costó mucho lograr ha
 - Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
 
 - Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
+
 
