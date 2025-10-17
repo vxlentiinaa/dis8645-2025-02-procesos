@@ -39,7 +39,7 @@ Pues el hecho que el usuario no poder predecir o saber que “esperar” de esta
 
 #### Presentación textual de la propuesta
 
-Nuestra máquina consiste en un dispositivo funcional que está planeado para ser montado en las paredes y ser utilizado por una persona a la vez.
+Nuestra máquina consiste en un dispositivo funcional que está planeado para ser utilizado por una persona a la vez.
 Esta trabaja detectando la presencia del usuario a través de un “radar” compuesto por un [“sensor ultrasónico HC-SR04”]( https://www.alldatasheet.com/html-pdf/1132204/ETC2/HCSR04/110/1/HCSR04.html) y un [“servomotor SG90”](https://arduino.cl/producto/micro-servo-motor-sg90-9g/?srsltid=AfmBOopUK1FSSvEOeee794pcjIBccD8B2MQF36GlEjuMTAzqI4rHkSnN) que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
 
 Cuando se ingresa al rango de “reconocimiento” (compuesto por la rotación del servomotor más la distancia del ultrasónico) los “ojos” de la máquina se mueven y siguen a la persona a través de un mecanismo que posee otro motor servo.
