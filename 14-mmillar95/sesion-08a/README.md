@@ -83,8 +83,35 @@ void configurarSensorUltrasonico() {
 }
 
 ```
+- Luego realizaron el código del sevomotor
+
+
+```cpp
+#include <Servo.h>
+
+Servo dedo;// Crear objeto servo
+const int SERVO_PIN = 13;
+
+// Configurar servo motor
+void configurarServo() {
+  dedo.attach(SERVO_PIN);
+  dedo.write(0); // posición inicial 0 grados
+}
+
+// Levantar dedo
+void levantarDedo() {
+  dedo.write(180); //180 grados
+}
+
+// Bajar dedo
+void bajarDedo() {
+  dedo.write(0); //0 grados
+}
+
+```
+
 ![proceso00](./imagenes/proceso00.png)
-![proceso01](./imagenes/proceso01.png)
+![proceso001](./imagenes/proceso001.png)
 
 ## Encargo 16
 Cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a.
