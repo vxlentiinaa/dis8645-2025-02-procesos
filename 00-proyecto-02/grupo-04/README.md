@@ -117,6 +117,29 @@ Tras varias pruebas intentando montar y mejorar las piezas vistas, es que termin
 ![imagen](./imagenes/ojitos-finales-movimiento.gif)
 
 ```cpp
+// Código movimiento servomotor para los ojos. Recuperado de: https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0;    // variable to store the servo position
+
+void setup() {
+  myservo.attach(10);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  for (pos = 20; pos <= 130; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(10);                       // waits 15 ms for the servo to reach the position
+  }
+  for (pos = 130; pos >= 20; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(10);                       // waits 15 ms for the servo to reach the position
+  }
+}
 ```
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
@@ -353,6 +376,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
