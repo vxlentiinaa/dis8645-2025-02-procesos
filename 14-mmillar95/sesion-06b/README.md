@@ -30,7 +30,7 @@ Material design: Es un sistema de diseño open source de Google, facilita el des
 - Si la persona se acerca lentamente y permanece quieta frente a ella durante unos segundos, la planta se “relaja”, abre sus hojas nuevamente y enciende un LED verde en señal de confianza.
 - Referente: planta carnívora de Mario Bros.
 
-### Planta robot 
+### Robot D 
 
 - Un robot que baila cuando lo aplaudes permanece inmóvil hasta que detecta una serie de aplausos mediante un micrófono.
 - Si es que detecta aplausos, comienza a realizar una pequeña coreografía moviendo sus extremidades con servos al ritmo de una canción reproducida por un pequeño parlante.
