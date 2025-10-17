@@ -358,9 +358,9 @@ El concepto de la paranoia ha sido trabajado múltiples veces por grandes expone
 - [Paranoid Eyes - Pink Floyd](https://youtu.be/ALuor5QREgw)
 - [Imogen Heap - Headlock](https://youtu.be/roPiy2JydwA)
 
-## Reflexión
+## Reflexiones personales
 
-[AntFuentealba](https://github.com/AntFuentealba):
+### [AntFuentealba](https://github.com/AntFuentealba):
 
 Este proyecto fue un desafío complejo para mí, marcado tanto por momentos de satisfacción como por altos niveles de frustración. Uno de los principales retos fue la parte del código; desde el inicio, la integración de los servomotores y los sensores ultrasónicos generó mucha confusión. Hubo instantes en que sentí que el proyecto se me escapaba de las manos, especialmente cuando los sensores no respondían como esperábamos o los servos se movían de manera inesperada. Aprender a manejar estas dificultades me obligó a ser paciente, investigar más a fondo, y confiar en la colaboración con mis compañerxs y con Sebastián Saez, quien nos guió y nos entregó instrucciones clave para avanzar.
 
@@ -368,17 +368,17 @@ Por otro lado, trabajar en la documentación, los bocetos y el seguimiento del p
 
 En resumen, aunque fue un proceso desafiante y muchas veces complejo, especialmente en la parte del código, este proyecto me enseñó la importancia de la paciencia, la colaboración y la iteración constante. Los errores y confusiones se convirtieron en oportunidades de aprendizaje, y el resultado final reflejó el esfuerzo colectivo y la perseverancia de todo el grupo.
 
-[santiagoClifford](https://github.com/santiagoClifford) :
+### [santiagoClifford](https://github.com/santiagoClifford) :
 
 Mi principal tarea en este proyecto fue el diseño y frabricación ddl circuito mecánico que impulsa el robot. Debido a limitaciones temporales, las fases de diseño, fabricación y prototipado, se vieron difuminadas entre sí. Esto provocó un efecto de "tunnel vision" en mí, y me concentré tanto en estudiar los engranajes y los mecanismos propios del robot, que dejé de lado otros aspectos igual de importantes. Como reflexión puedo decir que para otras ocasiones me gustaría hacer el esfuerzo de, por momentos, desconectarme del proyecto, con el objetivo de poder evaluarlo desde una perspectiva menos personal.
 
-[sofia-perezm](https://github.com/sofia-perezm)
+### [sofia-perezm](https://github.com/sofia-perezm)
 
 Personalmente, una de las cosas que más me costó fue que el proyecto se fue haciendo más difícil y técnico, lo que me generó bastante frustración y estrés. Hubo momentos en los que sentí que no estaba al mismo nivel que mis compañeros, y eso me hizo dudar de mis capacidades. A pesar de que el proyecto me gusta mucho y encuentro que la idea es muy interesante, esas emociones estuvieron muy presentes y afectaron mi rendimiento. Sin embargo, también me hicieron darme cuenta de hasta dónde puedo llegar, y aprender a reconocer mis propios límites cuando las cosas se vuelven demasiado exigentes. Fue un proceso intenso, pero también un aprendizaje importante sobre cómo manejar la presión y la frustración.
 
 Pensando a futuro, creo que este proyecto tiene mucho potencial para seguir desarrollándose. Me gustaría mejorar los movimientos para que se vean más naturales y quizás agregarle luces o algún tipo de sonido que refleje emociones, haciendo que la interacción con la máquina sea más viva y expresiva. Todo lo aprendido en este proyecto me deja con una mirada más consciente sobre lo que implica trabajar con tecnología: no solo se trata de programar o armar circuitos, sino también de lidiar con el cansancio, la paciencia y la autoconfianza.
 
-[felix-rg416](https://github.com/felix-rg416) :
+### [felix-rg416](https://github.com/felix-rg416) :
 
 El primer desafío que tuvimos fue unificar ideas y poder llegar a lo que seria la forma final del proyecto. Luego se partió con el modelado, lo que no tuvo mayores dificultades, solo arreglos para lograr un optimo funcionamiento. La verdadera complicación vino con la elaboración del código. En esta parte del proceso me sentí muy frutado y debo reconocer que falle a la hora de realizar la investigación de referentes lo que me llevo a equivocarme muchas veces en detalles mínimos que nos fueron atrasando. 
 
@@ -409,5 +409,6 @@ Personalmente, se me dificultó el tema de las clases, me costó mucho lograr ha
 - Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
 
 - Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
+
 
 
