@@ -102,7 +102,7 @@ Más adelante [santiagoClifford](https://github.com/santiagoClifford), ideo un m
 
 ![primeros_engranajes](./imagenes/gear2-3.jpg)
 
-Finalmente, [santiagoClifford](https://github.com/santiagoClifford) junto con [felix-rg416](https://github.com/felix-rg416), mejoraron el sistema de engranajes, haciendo adaptaciones para la correcta instalación fijación de las distintas partes del proyecto, y haciendo que la base también contara con un sistema de rotación en base a engranajes.
+Finalmente, [santiagoClifford](https://github.com/santiagoClifford) junto con [felix-rg416](https://github.com/felix-rg416), mejoraron el sistema de engranajes, haciendo adaptaciones para la correcta instalación y fijación de las distintas partes del proyecto, y haciendo que la base también contara con un sistema de rotación en base a engranajes.
 
 ![proyecto_final](./imagenes/proyecto_final.png)
 
@@ -163,3 +163,4 @@ Pensando a futuro, creo que este proyecto tiene mucho potencial para seguir desa
 - Naylamp Mechatronics. (s. f.). *[Tutorial de Arduino y sensor ultrasónico HC-SR04](https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html)*. Naylamp Mechatronics.
 
 - Arduino. (s. f.). *[BlinkWithoutDelay](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/)*. En *Ejemplos integrados de Arduino: Digital*.
+
