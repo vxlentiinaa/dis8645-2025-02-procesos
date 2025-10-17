@@ -56,7 +56,21 @@ La primera pieza se compone de una imitación de un “cangrejo”, una réplica
 
 ### Mapa de flujo
 
-[![](https://mermaid.ink/img/pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo?type=png)](https://mermaid.live/edit#pako:eNqNlE1T2zAQhv-KRifjCUy-E3IoQ0OgUEjL16Xjy9ZWErW21kh2CiT5ST1x66Uz5Y91JYUkTCnthbHDfjz7vrue8RgTwXt8lOK3eAK6YFcHkToMLoWe4gUkoFmMmRTqHphQLAWWo5GxfHxQTCp6gJSFIahxmeKZVGG4xba337D9SO3Pfv0cmOcZEBclJcix_QvrRLgNw72Fy5wPcc7e-v4MpmAbh2EOBsOQjTUkaCiTqiZCCyL2_eZXQmdS2V9ZhlOhjZizflCmhaZM4kSWSfpfIk0Biqh92kFwVIJOaLSUTSFF7fJFssSNUWthclQJCVAIRtCOgKJSZiyhK2OH9RSXj9_nbPAf8PL-ppSCOr-CfxRc_wP_XdDHLAcNG8xLiWN0ZgFha4n6pVEyaTKidA74esezS5tGkHUvhzDeK2H2bEVDDBoUCRCGGeixUAOtUYfhIlLHa_dOyHk7SiHiwqp1RxysVKw0JLbEvXW00-ucwvdfC9-IvQguxJhE0LSXntxKNiLpUvvgingdBK0naUJxNyWN-_hDMYVk2lOjVQ9jmzzZgNmzwm7DcaMyqvllEEMalykF5hqt8EiXUWjxlLdMunsJy_W5CvxFoKIabo0YfkGzZREGkeo7lver81mZ7lymZZVq5E3FjUuyUfslwawvySl2SooRZ1LGggZ2s1iDwYYat8hZ3rDrAPegtyJ15Luv3TwLhsj0sobUPpMCT13IkDBJ1MLt7-ODLb8RS9VduCfyQB-CRBjaUjl13xZlbSAMuKMh6J7tpbiVtp-eQoosR0u3XAZnCl2H0_EwUsMV53UwMLnQS789j3iOs0wbRupkPd7H4EjDZ_Csfzf-z5WabK745sK6JoNVEzs0vZ2vWg54hY-1THiv0KWo8IxYwb7yWaQYi3gxEZmIeI8eSYSvEY_UgnJyUJ8Qs6c0jeV4wnsjSA29lXkChTiQQF-ZbPWrFoouto-lKniv1qzWd10Z3pvxW97rtHaq3Vq9Wm-0OrvdertV4Xe8t92qdXaqrUat3Wx2q-3GbmtR4feucW2n2Wk32t1up9Ns12qNemPxGwZ0Jzo)
+``` mermaid
+flowchart TD
+F(ServoRadar comienza en la posición inicial anguloMin) --> A
+A{¿Es la posición actual igual a anguloMax?} --> |No| B(Servo avanza paso grados a la derecha) --> |Termina de moverse| C(ultrasonico mide distancia) --> D(Guarda el valor de medición correspondiente al grado del servo) -->A
+A --> |Sí| E(Servo avanza paso grados a la izquierda) --> |Termina de moverse| G(Ultrasonico mide distancia) --> H(Compara medición actual con la anterior correspondiente al mismo angulo) --> I{Son los 2 valores iguales? considerando margenError}
+I --> |No| J{¿a detectado ya a un usuario?}
+I --> |Sí| Q{¿A detectado ya a un usuario?} --> |Sí| R(Registrar angulo de final de detección e indicar que aún no se detecta a un ususario) --> |Tomar angulo de inicio de deteccion|S(calcular promedio entre angulo inicio y final de detección) -->T(posicionar servo ojos)--> E
+C --> K{¿Es la distancia medida inferior o igual a distAudio?} --> |Sí| L(Reproduce uno de los audios del mp3 al azar)
+G --> K --> |No| M(No reproducir audio)
+L --> N{¿se terminó de reproducir el audio?} -->|Sí| O(desactivar con un delay chao para dar tiempo al usuario de irse) -->F
+N --> |No|U(Esperar que termine de reproducirse) -->N
+J --> |No| P(Grabar el angulo de inicio de detección e indicar que ha detectado a un usuario) -->E
+J --> |Sí|E
+Q --> |No|E
+```
 
 ***
 
@@ -97,6 +111,13 @@ Dado el nivel de dificultad que requería el montaje (entre 5 a 6 servos) es que
 ![imagen](./imagenes/inspiracion-servo-ojos.gif)
 
 -> Dr scott Diabolical - Evil Genius (14 sept 2023). DIY Animatronic Eyes: Test #2. Youtube. <https://www.youtube.com/watch?v=5X0v0MOrQiI>
+
+Tras varias pruebas intentando montar y mejorar las piezas vistas, es que terminé llegando a esta alternativa de construcción, y modificando el código para que quede con otros parámetros.
+
+![imagen](./imagenes/ojitos-finales-movimiento.gif)
+
+```cpp
+```
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
@@ -254,6 +275,8 @@ Como requisito fundamental para diseñar las carcasas es que hubo que profundiza
 
 Al tener una idea más concreta, decidimos tematizar la "envoltura" de los elementos de la parte principal del proyecto, cubriendo el Arduino, el servomotor y el sensor, dándoles la forma de un cangrejo sobre unas piedras para mantener una coherencia estética y conceptual.
 
+![imagen](./imagenes/boceto-cangrejo-carcasa.jpg)
+
 ![imagen](./imagenes/modelado-cangrejo-jota.jpg)
 
 ![imagen](./imagenes/proceso-carcasa-cangrejo.jpg)
@@ -279,8 +302,20 @@ En cuanto al proyecto en sí, creo que me gustaría implementar más cosas para 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 #### - Bernardita Lobo:
 
+Yo creo que lo que más me costó en este primer proyecto fue sentirme preparada para gestionar algo así, ya que varias veces sentí que no sabía lo suficiente para trabajar con programación. 
+
+Se podría decir que “perdí” bastante tiempo repasando conceptos de programación en general para sentirme más al día. Por eso, no pude involucrarme tanto en el código como me habría gustado, participando principalmente en la búsqueda de referencias. 
+
+Además, siento que no tuvimos una comunicación tan buena y no supimos repartir bien el trabajo según nuestras habilidades. Cada integrante fue avanzando a distintos ritmos y en diferentes partes del proyecto, lo que hizo difícil concretar y unir todas las versiones de los códigos al final.
+
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 #### - José Morales:
+
+Primero, quiero agradecer el trabajo realizado por el equipo, ya que fue grato colaborar y compartir ideas durante el desarrollo del proyecto. En cuanto a mi participación, reconozco que algunas tareas se me hicieron complejas y más de alguna vez me ganó la ansiedad. Al haber tantas cosas por resolver al mismo tiempo, me sentí un poco abrumado, especialmente al intentar programar el código del audio randomizado. Aunque logré avanzar, se me dificultó lograr que funcionara correctamente junto con el resto de cosas, lo que me llevó a comprender mejor la importancia de la integración y la comunicación entre las distintas partes del proyecto. 
+
+El modelado y prototipado fueron un verdadero desafío, ya que comenzamos a trabajarlos cuando el proyecto ya estaba avanzado. Creo que, si hubiésemos abordado esa etapa desde el inicio, habríamos tenido más oportunidades para hacer pruebas, detectar errores y mejorar el diseño. También creo que podríamos haber explorado un objeto más compacto, algo que integrara varias funciones. 
+
+Finalmente, el trabajo en grupo fue clave para avanzar, pero también hubo momentos en los que se notaron algunas debilidades en la organización y en la gestión del tiempo. Hubo ideas que se estancaron y tiempos muertos que afectaron el ritmo del proyecto. Ha futuro me gustaría que hubiese una planificación clara y una distribución equitativa de tareas.
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 #### - Camila Parada:
@@ -318,6 +353,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
