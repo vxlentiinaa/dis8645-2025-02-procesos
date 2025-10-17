@@ -159,6 +159,11 @@ Dado que no pude encontrar los planos es que comencé armando un prototipo simpl
 
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
+
+
+
+
+
 ### 4) Modelado 3D, desarrollo de carcasa y ensamblado
 
 Antes de diseñar la carcasa, deberíamos retomar bien el lado simbólico y conceptual del trabajo. Nuestra primera opción, antes de profundizar en el funcionamiento y en los cambios técnicos que fuimos realizando, fue trabajar con el concepto del sin sentido y la sinestesia, mezclando los sentidos como experiencia a través de los sensores.
@@ -215,4 +220,5 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
