@@ -380,7 +380,15 @@ Gracias a la idea de [@Fran-udp](https://github.com/FranUDP) el código de cada 
 
 Como requisito fundamental para diseñar las carcasas es que hubo que profundizar en el funcionamiento y en los cambios técnicos que surgieron en cuanto al desarrollo del circuito eléctrico y el funcionamiento de cada pieza.
 
-#### A) Carcasa Cangrejo (servo, sensor ultrasónico y arduino)
+#### A) Carcasa Speaker (speaker, MP3 DFPlayer Mini)
+
+![gif](imagenes/gif.gif)
+
+Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
+
+![foto](imagenes/proceso-carcasa-caracola.jpg)
+
+#### B) Carcasa Cangrejo (servo, sensor ultrasónico y arduino)
 
 ![gif](imagenes/gif-cangrejo.gif)
 
@@ -392,20 +400,13 @@ Al tener una idea más concreta, decidimos tematizar la "envoltura" de los eleme
 
 ![imagen](./imagenes/proceso-carcasa-cangrejo.jpg)
 
-#### B) Carcasa Speaker (speaker, MP3 DFPlayer Mini)
-
-![gif](imagenes/gif.gif)
-
-Al trabajar con el conjunto del módulo mp3 (dfplayer mini y altavoz) se nos ocurrió crear una especie de "parlante" con forma de concha. Ello hace alusión a la idea que tenemos de los "" y los sonidos que se cree escuchar en estas, pero emitiendo sonidos reales de las playas de Chile: ruidos del ambiente, gritos, pájaros y gaviotas. La idea era generar la sensación de estar teletransportado a una playa chilena.
-
-![foto](imagenes/proceso-carcasa-caracola.jpg)
-
-
 ***
 
 ### Proyecto final
 
 ![foto](imagenes/juanito-vive.jpg)
+
+![foto](imagenes/cangrejo.jpeg)
 
 [![video-youtube](https://img.youtube.com/vi/x2AwFOhT8Lk/mqdefault.jpg)](https://www.youtube.com/shorts/x2AwFOhT8Lk) 
 
@@ -481,6 +482,7 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
+
 
 
 
