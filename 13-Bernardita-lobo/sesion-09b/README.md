@@ -48,9 +48,7 @@ Para el modelado de la concha tuve que buscar algunos videos tutoriales, ya que 
 
 ![captura](imagenes/captura-espiral01.png)
 
-Insertar foto de boceto*
-
-Insertar foto de boceto*
+![captura](imagenes/captura-espiral02.png)
 
 ### Sonido
 
@@ -82,8 +80,12 @@ reutilizar tu versión con las mismas libertades y condiciones.
 
 ### Referentes
 
--
-
--
+- felix blume
 
 ### Palabras importantes
+
+Millis
+
+Delay
+
+Sinestesia
