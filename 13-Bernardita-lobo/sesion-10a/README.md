@@ -16,6 +16,8 @@ Martes 14 de octubre, 2025
 
 ![gifcangrejo](imagenes/gif-cangrejo.gif)
 
+Realicé los GIF que se ven arriba y me encantaron. Los hice rápidamente, pero siento que pueden ayudar bastante a visualizar la idea.
+
 Como ya habíamos definido la carcasa e identidad del proyecto, estuve desarrollando una con forma de concha marina para contener el speaker. Hasta ese momento solo había logrado dar la forma general, pero no conseguía que quedara como un sólido, así que me rendí por un tiempo. 
 
 > Video de referencia [Snail 3D Modeling in Rhino 6 (Part 1) : Jewelry CAD Design Tutorial ](https://youtu.be/GZgCaxfQmg8?si=GTQTN9FZe9D71rut)
