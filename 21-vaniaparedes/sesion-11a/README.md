@@ -28,14 +28,14 @@ Según Gemini: HID puede referirse a dos conceptos principales: Dispositivo de I
 ![referente3](./imagenes/videoframe_15127.png)
 ![Referente4](./imagenes/videoframe_2346.png)
 
-#### Lenguajes
+### Lenguajes
 
 + **Metáfora:** Estrategia de escritura que sirve en terminos artisticos y diseño además que para escritura.
 + Para constrirla necestiamos 2 objetos distintos, aparentemente na que ver.
 + **Por ejemplo:** Algodón y fuego, que pasaría si los hago interactuar? el algodón se quema.
 + Se convierte en "Algodón en llamas".
 
-#### ontología orientada a objetos / tecnología orientada a objetos
+### ontología orientada a objetos / tecnología orientada a objetos
 Según Gemini: La **tecnología orientada a objetos (POO)** es un paradigma de programación que organiza el código en "objetos" que contienen datos (atributos) y comportamiento (métodos). Este enfoque se centra en los objetos en lugar de la lógica y las funciones, lo que permite crear software más modular, reutilizable y fácil de mantener. 
 
 + Características principales
@@ -49,5 +49,16 @@ La **ontología orientada a objetos (OOO)** es una corriente filosófica que sit
 
 + **Referente:** Juan Downey <https://www.youtube.com/watch?v=353ZBHG0L2k>
 
-##### Manifiesto
+### Manifiesto
 Según gemini: Un manifiesto es un documento público en el que un individuo, grupo o partido político declara públicamente sus ideas, intenciones, propósitos o programa. Se trata de una declaración escrita de creencias, con el objetivo de persuadir a otros y a menudo para proponer un cambio social, político o artístico. En otros contextos, como el comercio internacional, un manifiesto puede ser una lista detallada de la carga que se transporta en un envío. 
+
+<https://mundoperformance.net/2020/12/21/10-reglas-para-maestrxs-y-estudiantxs/>
+
+<https://cadjd.org/2023/01/29/el-sonido-como-energia-invisible-en-las-esculturas-de-juan-downey/>
+
++ Las tecnologías nos inducen a un cambio. Son súper culturales.
++ Por ejemplo antes se grababa en horizontal y ahora en vertical.
++ O como wsp nos ha inducido a hablar ne mensajes cortos.
+
+`Gutenberg`
+`La galaxia Gutenberg, Marshall McLuhan`
