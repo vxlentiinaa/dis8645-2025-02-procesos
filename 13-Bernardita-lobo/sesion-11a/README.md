@@ -24,11 +24,11 @@ Propusimos ideas para el proyecto antes de definir bien cómo hacerlo y cómo fu
 
 - banda grizzly beaar, disco veckatimest, proyecto [Call to wait](http://uselesspress.org/things/call-to-wait/)
 
-- maqina que recopila el viento, la cantidad y el adireccion y combierte eos datos en sonido, otro tipo de computacion
+- Máquina que recopila el viento, su cantidad y dirección, y convierte esos datos en sonido, otro tipo de computación.
 
-- nathan for you, maquina the claw sheme
+- Nathan for You, máquina “The Claw Scheme”.
 
-- maquinas en las que puedes votar, si el dibujo se mueve para los lados o los colores y va acambiando en vivo https://www.lukedubois.com/
+- Máquinas en las que puedes votar si el dibujo se mueve hacia los lados o por los colores, y va cambiando en vivo. https://www.lukedubois.com/
 
 - Escuela de Computación Poética.
 
@@ -48,6 +48,20 @@ Juan Downey, arquitecto, pionero en el videoarte y el arte interactivo.
 
 Manifiestos, como la Declaración Universal de los Derechos del Hombre, son poesía, un discurso político antes que una intención.
 
+[10 reglas para maestres y estudiantes](https://mundoperformance.net/2020/12/21/10-reglas-para-maestrxs-y-estudiantxs/), de [Corita Kent](https://es.wikipedia.org/wiki/Corita_Kent)
+
+[Manifiesto Hacker](https://es.wikipedia.org/wiki/Manifiesto_hacker)
+
+[Manifiesto Stijl](https://arteydisegno.wordpress.com/wp-content/uploads/2010/02/manifiesto-de-stijl-1917.pdf)
+
+El elogio de la sombra, Libro
+
+[Manifiesto Ciborg](https://cursosupla.wordpress.com/wp-content/uploads/2015/03/haraway-d-manifiesto-para-cyborgs-1990.pdf)
+
+[Manifiesto Posthuamanista](https://cuadrivio.net/manifiesto-posthumanista/)
+
+[Marshall McLuhan](https://es.wikipedia.org/wiki/Marshall_McLuhan), libro [Comprender los medios de comunicacion](https://semioticaderedes-carlon.com/wp-content/uploads/2018/04/McLuhan_Marshall__Comprender_los_medios_de_comunicacion.pdf)
+
 ### Referentes
 
 - [Grizzly beaar](https://en.wikipedia.org/wiki/Grizzly_Bear_(band))
@@ -55,6 +69,10 @@ Manifiestos, como la Declaración Universal de los Derechos del Hombre, son poes
 - Gabriela Perez
 
 - [Juan Downey](https://es.wikipedia.org/wiki/Juan_Downey)
+
+- [Corita Kent](https://es.wikipedia.org/wiki/Corita_Kent)
+
+- [Marshall McLuhan](https://es.wikipedia.org/wiki/Marshall_McLuhan)
 
 ### Palabras importantes
 
