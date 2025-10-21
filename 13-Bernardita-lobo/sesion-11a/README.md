@@ -12,13 +12,11 @@
 
 ### Proyecto-03
 
-Hablamos de que este proyecto se va a presentar en Diseño Abierto.
+Hablamos de que este proyecto se va a presentar en Diseño Abierto. Vamos a formar nuevos grupos, más grandes y con roles o cargos específicos.
 
-Vamos a formar nuevos grupos, más grandes y con roles o cargos específicos.
+También conversamos sobre cual es el riesgo de trabajar con cargos, ya que no todas las personas quieren asumir roles de dirección o liderazgo.
 
 Propusimos ideas para el proyecto antes de definir bien cómo hacerlo y cómo funcionará la dinámica con sus cargos y responsables.
-
-También conversamos sobre el riesgo de trabajar con cargos, ya que no todas las personas quieren asumir roles de dirección o liderazgo.
 
 ### Referentes
 
