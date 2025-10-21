@@ -8,7 +8,6 @@
 
 // variable temporal para lecturas
 unsigned int sample;
-
 unsigned long startMillis;
 
 Cuello cuello;
@@ -21,23 +20,17 @@ SensorProx sensorProxDER;
 bool imprimir = true;
 
 void setup() {
-
   cuello.configurar();
   parpados.configurar();
-
   sensorProxIZQ.configurar();
-
   // inicia monitor serial
   Serial.begin(9600);
 }
 
 void loop() {
  cuello.moverCuello();
-
   sensorProxIZQ.leer();
   sensorProxIZQ.determinarPresencia();
-
   if (sensorProxIZQ.presencia){
-    
   }
 }
