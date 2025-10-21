@@ -36,3 +36,4 @@ idea: una maquina que vaya poneindo ladrillos o bloques de algun tipo. Si lo mir
 - <https://mundoperformance.net/2020/12/21/10-reglas-para-maestrxs-y-estudiantxs>
 - <https://monoskop.org/images/c/c6/Wark_McKenzie_Manifiesto_hacker_v4.pdf>
 - <https://isfd805-chu.infd.edu.ar/sitio/upload/Galaxia_Gutenberg_Mac_Luhan.pdf>
+
