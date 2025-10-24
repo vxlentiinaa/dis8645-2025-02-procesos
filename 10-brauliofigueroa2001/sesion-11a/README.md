@@ -34,5 +34,7 @@
 - la cámara fotográfica liberó a la pintura de ser representativa, la cámara podía retratar la realidad, ahora puedes pintar cualquier cosa
 - Aarón recitando poemas de parra en clases, épico, los que leyó no los he leído aún
 - uno puede pensar en algo con otras palabras para llegar a lo mismo
--  cualidades no esenciales: Aarón utiliza lentes, pero si se los saca sigue haciendo Aarón
--  las cualidades esenciales son las que hacen ser a Aarón sí mismo
+- cualidades no esenciales: Aarón utiliza lentes, pero si se los saca sigue haciendo Aarón
+- las cualidades esenciales son las que hacen ser a Aarón sí mismo
+- caminar es empujar el mundo hacia atrás, que bello
+- 
