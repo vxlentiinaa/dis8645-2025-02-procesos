@@ -197,7 +197,7 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 
 ![Vista trasera](imagenes/cara-3.png)
 
-![Piezas separadad](imagenes/descuartizado.png)
+![Piezas separadas](imagenes/descuartizado.png)
 
 ![Vista interior con los cables](imagenes/cables.jpeg)
 
@@ -214,4 +214,5 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 ### Comentarios finales
 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
+
 
