@@ -13,7 +13,7 @@ Esteticamente quiero basarme en el diseño de
 
 - Sony walkman MZ-R700
 
-![reproductor :-3](/imagenes/sony-MZ-R700.jpg)
+![reproductor :-3](/imagenes/Walkman-MZ-R700.jpg)
 
 - Cargador Portatil Xiaomi 10000 MA
 
@@ -21,5 +21,5 @@ Esteticamente quiero basarme en el diseño de
 
 ### Idea física del proyecto
 
-![prototipo dibujado](/imagenes/bocetoMp3.jpg)
+![prototipo dibujado](/imagenes/boceto-MP3.jpg)
 
