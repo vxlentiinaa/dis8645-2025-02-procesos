@@ -33,7 +33,7 @@ Asíntota
 
 ### Posdata
 
-Hoy tengo mucho sueño. No pude descansar bien.
+Hoy tengo mucho sueño. No pude descansar bien. Tengo pena, sin saber la razón. O tal vez no quiero exponer mis vulnerabilidades de ser humano.
 
 ***
 
