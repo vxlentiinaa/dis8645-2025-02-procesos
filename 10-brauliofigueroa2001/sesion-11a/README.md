@@ -37,4 +37,9 @@
 - cualidades no esenciales: Aarón utiliza lentes, pero si se los saca sigue haciendo Aarón
 - las cualidades esenciales son las que hacen ser a Aarón sí mismo
 - caminar es empujar el mundo hacia atrás, que bello
-- 
+- qué sería el diseño orientado a objeto?
+-
+- "la metáfora es la interrelación entre las cualidades no esenciales de 2 objetos distintos"
+- "vivir del mundo de las metáforas, vida poco mainstream y poder defender el por qué"
+- máquinas sentimentales
+- todo es un objeto
