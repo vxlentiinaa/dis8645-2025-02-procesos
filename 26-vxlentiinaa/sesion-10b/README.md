@@ -36,7 +36,9 @@ Al detectar la distancia de la presencia la máquina reacciona de diferentes for
 - Servomotor al levantar el brazo
 - Motor vibrador al detectar presencia de algún humano
 
-INSERTAR IMAGEN AND-Y
+![AND-Y](./imagenes/andy-01.jpeg)
+
+![AND-Y](./imagenes/andy-02.jpeg)
 
 ### Grupo 02 | GUSTAVO LITA
 
@@ -52,7 +54,9 @@ Dispensador interactivo en forma de monstruo de color verde que reacciona emocio
 - Se reproduce el sonido correspondiente desde el módulo MP3.
 - El proceso se repite con cada chicle.
 
-INSERTAR IMAGEN GUSTAVO
+![GUSTAVO](./imagenes/gustavo-01.jpeg)
+
+![GUSTAVO](./imagenes/gustavo-02.jpeg)
 
 ### Grupo 03 | CHISPOP
 
@@ -67,19 +71,23 @@ Chispop es un proyecto interactivo que combina tecnología, sonido y lenguaje. L
 - Si el sensor de sonido detecta un aplauso no pasa nada pero si detecta dos aplausos, se activa el reproductor DFPlayer Mini, que emite un saludo en audio correspondiente al idioma elegido y en la pantalla OLED se muestra una imagen del saludo en el idioma correspondiente.
 - Si el usuario presiona el botón, vuelve al menú principal.
 
-INSERTAR IMAGEN CHISPOP
+INSERTAR IMAGEN CHISPOP (no le saqué foto:( )
 
 ### Grupo 04 | JUANITO LA JAIBA
 
 La máquina consiste en un dispositivo funcional que está planeado para ser utilizado por una persona a la vez. Esta trabaja detectando la presencia del usuario a través de un “radar” compuesto por un “sensor ultrasónico HC-SR04” y un “servomotor SG90” que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
 
-INSERTAR IMAGEN JUANITO
+![JUANITO](./imagenes/juanito-01.jpeg)
+
+![JUANITO](./imagenes/juanito-02.jpeg)
 
 ### Grupo 05 | FRIOLÍN
 
 Friolín, un robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot, un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de medir la temperatura ambiental, una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con un brazo que le daremos al robot.
 
-INSERTAR IMAGEN FRIOLIN
+![FRIOLIN](./imagenes/friolin-01.jpeg)
+
+![FRIOLIN](./imagenes/friolin-02.jpeg)
 
 ### Grupo 06 | FEELMYPARADOIA
 
@@ -97,4 +105,6 @@ Mediante los sensores ultrasónicos, la máquina detecta si existe o no presenci
 
 Al detectar cualquier tipo de presencia, se queda mirando fijamente a la dirección en donde se haya sensado, y el pestañeo se detiene
 
-INSERTAR IMAGEN PARANOIA
+![PARANOIA](./imagenes/paranoia-01.jpeg)
+
+![PARANOIA](./imagenes/paranoia-02.jpeg)

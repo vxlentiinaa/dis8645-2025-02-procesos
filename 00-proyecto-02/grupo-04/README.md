@@ -116,8 +116,9 @@ bool direccionRadar = 1;            // 1 es hacia la derecha, 0 es a la izquierd
 unsigned long lastServoMoveTime = 0; // cuando movimos el servo por ultima vez
 ```
 
-Tras más proceso, y días de pedir ayuda a profesores y compañeros es que se llegó a un buen resultado.
-Los contenidos se encuentran en la carpeta ["codigo-final-arduino"](./codigo-final-arduino)
+El código final .ino del sensor ultrasónico se encuentra a continuación, en conjunto con el código .h y el .cpp
+
+##### Archivo .ino (principal)
 
 ```cpp
 /*
@@ -160,6 +161,274 @@ void setup() {
 
 void loop() {
   rotador.radar();
+}
+```
+
+##### Archivo .h
+
+```cpp
+#ifndef SENSOR_ULTRASONICO_H
+#define SENSOR_ULTRASONICO_H
+
+#include <Arduino.h>
+#include <NewPing.h>
+
+class SensorUltrasonico {
+
+public:
+
+  SensorUltrasonico();
+  ~SensorUltrasonico();
+
+  void configurar();
+  int medirDistanciaCm();
+
+// Variables privadas que solo el sensor necesita saber
+private: 
+  // Las patitas y la distancia máxima son configuración interna del sensor
+  const int patitaTrig = 12;
+  const int patitaEcho = 11;
+  const int maxDistancia = 500;
+  
+  // Un puntero a un objeto de la librería NewPing.
+  // Usamos un puntero para poder crearlo en el .cpp
+  NewPing* sonar;
+};
+#endif
+```
+
+##### Archivo .cpp
+
+```cpp
+#include "SensorUltrasonico.h"
+
+SensorUltrasonico::SensorUltrasonico() {}
+SensorUltrasonico::~SensorUltrasonico() {}
+
+void SensorUltrasonico::configurar() {
+  // Nuevo objeto sensor
+  sonar = new NewPing(patitaTrig, patitaEcho, maxDistancia);
+}
+
+int SensorUltrasonico::medirDistanciaCm() {
+  // Numero de mediciones para promediar
+  const int numeroDeLecturas = 3; 
+  //
+  long total_cm = 0;
+  //
+  int lecturasValidas = 0;
+
+  for (int i = 0; i < numeroDeLecturas; i++) {
+    // Usamos la función simple que sabemos que funciona
+    int lecturaActual = sonar->ping_cm();
+    
+    // Solo sumamos lecturas que tienen sentido (no son 0)
+    if (lecturaActual > 0) {
+      total_cm += lecturaActual;
+      lecturasValidas++;
+    }
+    
+    // Una pausa muy pequeña entre pings es necesaria por física
+    delay(25); // 15ms es un valor seguro según la documentación de NewPing
+  }
+  
+  // Si no obtuvimos NINGUNA lectura válida, devolvemos el máximo
+  if (lecturasValidas == 0) {
+    return maxDistancia;
+  }
+  
+  // Calculamos el promedio de las lecturas válidas
+  return total_cm / lecturasValidas;
+}
+
+// // Usamos la función de NewPing para obtener la mediana de un número de pings.
+//   // Es más rápida y resistente a lecturas anómalas que un promedio simple.
+//   // El "50" es el timeout máximo en milisegundos.
+//   int distancia = sonar->ping_median(4, 50);
+  
+//   // Si la distancia es = a 0 no hubo retorno, por lo que se devuelve el valor máximo
+//   // también si registra un valor superior al maximo
+//   if (distancia == 0 || distancia > maxDistancia) {
+//     return maxDistancia;
+//   }
+  
+//   return distancia;
+// }
+```
+
+Ya para configurar la parte del "rotador" perteneciente al radar, es que fue necesario el configurarlo en nuervos archivos.
+
+##### Archivo .h
+
+```cpp
+
+#ifndef ROTADOR_H
+#define ROTADOR_H
+
+#include <Arduino.h>
+#include <Servo.h>
+#include "SensorUltrasonico.h"
+#include "Ojos.h"
+
+class Rotador {
+
+public:
+  Rotador();
+  ~Rotador();
+
+  void configurar(SensorUltrasonico* s, Ojos* o);
+
+  void radar();
+
+  Servo servo;
+  SensorUltrasonico* sensor; 
+  Ojos* ojos;
+
+  // Patita que controla el servo
+  int patitaServo = 9;
+  // Angulo minimo y de inicio del servoRadar
+  int anguloMin = 0;
+  // ServoRadar comienza en angulo mínimo como posición inicial
+  int anguloActual = anguloMin;
+  // Angulo máximo de rotación del servoRadar
+  int anguloMax = 180;
+  // Distancia (grados) que recorre el servoRadar tras cada medición
+  int paso = 3;
+  // 1 es hacia la derecha, 0 es a la izquierda
+  bool direccion = 1;
+
+  
+  // Array de mediciones del radar correspondientes a cada angulo
+  int distanciasFondo[181];
+  // Margen de error en cm
+  const int umbralDeteccion = 350; 
+  // Si hemos detectado a un usuario
+  bool detectandoUsuario = false;
+  // Angulo donde se comenzó a registrar una alerta (presencia de usuario)
+  int anguloInicioDeteccion = -1;
+
+  // El pin que enviará la señal LOW al mp3
+  const int patitaTriggerMp3 = 8; 
+  // Distancia en cm para activar el mp3
+  const int distanciaActivacionMp3 = 10; 
+
+private:
+  // Funcion interna encargada de procesar a que punto posicionar el servoOjos
+  void procesarDeteccion(int distanciaActual);
+};
+
+#endif
+
+```
+
+##### Archivo .cpp
+
+```cpp
+
+#include "Rotador.h"
+
+Rotador::Rotador() {}
+Rotador::~Rotador() {}
+
+void Rotador::configurar(SensorUltrasonico* s, Ojos* o) {
+  servo.attach(Rotador::patitaServo);
+  sensor = s; // Guardamos el sensor que nos pasaron para usarlo después
+  ojos = o; // Guardamos el puntero del servo de los ojos
+
+  pinMode(patitaTriggerMp3, OUTPUT);
+  digitalWrite(patitaTriggerMp3, HIGH);
+
+for (int i = 0; i <= 180; i++) {
+    distanciasFondo[i] = 400; // Un valor por defecto seguro (lejos)
+  }
+}
+
+
+
+// Funcion principal encargada del barrido del radar y delegar tareas
+void Rotador::radar() {
+  
+    // Obtiene el promedio de las distancias y la guarda
+    int distanciaActual = sensor->medirDistanciaCm();
+
+    // Si la medicion actual es igual o inferior a la deistancia de activacio0n del mp3...
+    if (distanciaActual <= distanciaActivacionMp3) {
+    digitalWrite(patitaTriggerMp3, LOW);
+    delay(50);
+    digitalWrite(patitaTriggerMp3, HIGH);
+    }
+    
+    // Si vamos a la derecha... 
+    if (direccion == 1) {
+    // Guardamos la distanciaActual en el slot correspondiente al angulo del servo, en el array
+     distanciasFondo[anguloActual] = distanciaActual;
+    
+    // Imprime el estado actual para debugging
+    Serial.print("Angulo: ");
+    Serial.print(anguloActual);
+    Serial.print(" | Distancia: ");
+    Serial.println(distanciaActual);
+
+    // Si vamos a la izquieda...
+    } else {
+    // Delega el analisis de detección
+    procesarDeteccion(distanciaActual);
+    }
+
+    // Comprobar si estamos en un extremo, para ir en la otra dirección
+    // Si estamos en el angulo maximo (derecha), ir a la izquierda
+    if (anguloActual >= anguloMax) {
+      direccion = 0; 
+    }
+    // Si estamos en el anulo minimo (izquierda), cambiar dirección a la derecha
+    if (anguloActual <= anguloMin) {
+      direccion = 1; 
+    }
+
+    // Dependiendo de la dirección aumenta o reduce el angulo del servo
+    if (direccion == 1) {
+      anguloActual += paso;
+    } else {
+      anguloActual -= paso;
+    }
+    servo.write(anguloActual);
+  }
+
+
+// Procesa el/los cono(s) de deteccion, ve el punto medio y reposiciona los ojos
+void Rotador::procesarDeteccion(int distanciaActual) {
+  // Si la diferencia de las dos mediciones es superior al margen de error deteccion = true
+  bool deteccion = (abs(distanciaActual - distanciasFondo[anguloActual]) > umbralDeteccion);
+
+  // If deteccion = true...
+  if (deteccion) {
+    // If "no estabamos ya siguiendo a usuario" ...
+    if (detectandoUsuario == false) {
+      // Cambiar el estado de la flag para que luego funcione el bloque siguiente 
+      detectandoUsuario = true;
+      // Registrar el angulo de inicio de detección
+      anguloInicioDeteccion = anguloActual;
+      // Debugging
+      Serial.print(">>> Comienzo de detección en ángulo: ");
+      Serial.println(anguloInicioDeteccion);
+    }
+  } else { // If deteccion = false, es decir ya no estoy viendo al usuario...
+    // If "ya estabamos detectando al usuario"...
+    if (detectandoUsuario == true) {
+      // Registrar angulo final de detección (el servo va desde 160 a 0, por lo que el ultimo angulo donde estuvo el usuario fue 1 step atrás)
+      int anguloFinDeteccion = anguloActual + paso;
+      // Calcula el promedio de ambas mediciones para obtener el centro del cono
+      int anguloObjetivo = (anguloInicioDeteccion + anguloFinDeteccion) / 2;
+      // Debugging
+      Serial.print(">>> Fin de detección | Apuntando a: ");
+      Serial.println(anguloObjetivo);
+      // Envia el valor a la funcion de los ojos
+      ojos->apuntar(anguloObjetivo);
+      // Resetea la flag para poder detectar a otro usuario
+      detectandoUsuario = false;
+      // anguloInicioDeteccion = -1;
+    }
+  }
 }
 ```
 
@@ -220,6 +489,62 @@ void loop() {
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
     delay(10);                       // waits 15 ms for the servo to reach the position
   }
+}
+```
+
+En cuanto a la configuración de los servomotores de los ojos, el resultado final se encuentra a continuación.
+
+##### Archivo .h
+
+```cpp
+#ifndef OJOS_H
+#define OJOS_H
+
+#include <Arduino.h>
+#include <Servo.h>
+
+class Ojos {
+
+  public:
+
+  Ojos();
+  ~Ojos();
+
+  void configurar();
+
+  // Mueve los ojos a un ángulo objetivo específico.
+  void apuntar(int anguloObjetivo);
+
+  //variablels y funciones internas
+  private:
+  
+  Servo servoOjos;
+  
+  // La patita que controla el servo
+  const int patitaServoOjos = 10;
+};
+#endif
+```
+
+##### Archivo .cpp
+
+```cpp
+#include "Ojos.h"
+
+Ojos::Ojos() {}
+Ojos::~Ojos() {}
+
+void Ojos::configurar() {
+
+  // Conecta el servo a esta patita
+  servoOjos.attach(patitaServoOjos);
+  // Comienza con el servo mirando al centro
+  servoOjos.write(90);
+}
+
+void Ojos::apuntar(int anguloObjetivo) {
+  // Mira al angulo obtenido de la funcion procesarDeteccion()
+  servoOjos.write(anguloObjetivo);
 }
 ```
 
@@ -482,8 +807,3 @@ Este ejercicio nos dejó replanteando sobre "qué es en realidad un saludo". Si 
 - <https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299>
 - <https://felixblume.com/valparaiso/>
 - <https://audiomapa.org/>
-
-
-
-
-
