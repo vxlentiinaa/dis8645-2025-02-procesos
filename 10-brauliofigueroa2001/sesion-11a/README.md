@@ -29,3 +29,6 @@
 - undermining, degranar las cosas hacia abajo, overmining, degranar las cosas hacia arriba
 - heidegger "la mesa real aparece cuando fallan" ¿qué falla?
 - asíntota, se puede diagramar en 2 lineas que pasan muy cerca pero que nunca se tocan
+- "escribir efectivamente como se habla"
+- filosofía = amor por el conocimiento
+- la cámara fotográfica liberó a la pintura de ser representativa, la cámara podía retratar la realidad, ahora puedes pintar cualquier cosa
