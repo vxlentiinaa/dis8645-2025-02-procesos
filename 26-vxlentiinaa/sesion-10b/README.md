@@ -36,9 +36,9 @@ Al detectar la distancia de la presencia la máquina reacciona de diferentes for
 - Servomotor al levantar el brazo
 - Motor vibrador al detectar presencia de algún humano
 
-![AND-Y](./imagenes/andy-01.jpeg)
+![AND-Y 1](./imagenes/andy-01.jpeg)
 
-![AND-Y](./imagenes/andy-02.jpeg)
+![AND-Y 2](./imagenes/andy-02.jpeg)
 
 ### Grupo 02 | GUSTAVO LITA
 
@@ -54,9 +54,9 @@ Dispensador interactivo en forma de monstruo de color verde que reacciona emocio
 - Se reproduce el sonido correspondiente desde el módulo MP3.
 - El proceso se repite con cada chicle.
 
-![GUSTAVO](./imagenes/gustavo-01.jpeg)
+![GUSTAVO 1](./imagenes/gustavo-01.jpeg)
 
-![GUSTAVO](./imagenes/gustavo-02.jpeg)
+![GUSTAVO 2](./imagenes/gustavo-02.jpeg)
 
 ### Grupo 03 | CHISPOP
 
