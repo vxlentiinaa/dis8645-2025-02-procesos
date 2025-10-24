@@ -77,7 +77,9 @@ el diseño orientado a objetos, sería cuando diseñamos pensando en la metáfor
 
 Podemos pensar en la cualidades de estos objetos, y seleccionamos algunos para generar la relación entre las cualidades no esenciales de estos objetos: la metáfora.
 
-cierre: SENTIMIENTO, como la interfaz de la metáfora. Primero existe la atracción "sensual", y luego viene la reflexión, y el pensar. La "estética" es la primera filosofía.
+Primero existe la atracción "sensual", y luego viene la reflexión, y el pensar. La "estética" es la primera filosofía.
+
+cierre: Graham habla de "SENTIMIENTO", como la interfaz de la metáfora. El intermedio entre el objeto "humano" y la metáfora.
 
 ### extras
 
