@@ -96,4 +96,17 @@ ListaEncargos::ListaEncargos()
             16,
             "8a",
             "cada persona del grupo debe subir a su README: qué llevan hasta el final de esta sesión, qué sí funciona, qué funciona casi, qué no funciona. después subir nueva versión del código y de la documentación, del trabajo que hagan entre 8a y 9a."));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            17,
+            "11b",
+            "cada persona debe subir una investigación detallada de la obra artística de Claudia González Godoy, incluyendo información sobre premios, exposiciones, colaboradores, estudios y referencias en su obra."));
+
+    ListaEncargos::lista.push_back(
+        Encargo(
+            18,
+            "11b",
+            "cada persona debe subir taxonomía detallada de sensores, actuadores, software y hardware utilizado en 3 obras exhibidas en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes."));
+}
 }
