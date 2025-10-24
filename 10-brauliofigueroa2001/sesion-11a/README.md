@@ -22,3 +22,7 @@
 - superficie para colocar cosas, interfaz de altura, paralela al suelo, serían las "relaciones"
 - 4 patas, fierro, madera, lisa, cualidades físicas
 - ¿no se parece esto a lo que acabamos de programar?
+- "de lo que está hecho y para qué sirven"
+- la mesa científica es denominada por harman cuando hablas solamente de una mesa a nivel físico, material
+- cuando diseñas estás pensando en ambos tipos de mesas: mesa científica y mesa humanista
+- "quiero hacerme cargo de la realidad de esta manera" el tipo de diseño que es para evitar las crisis, esconderlas, en eeuu está muy desarrollado este tipo de diseño. Por ejemplo las bancas que están diseñadas de forma incómoda o con espinas para que las personas que viven en la calle no duerman en ellas
