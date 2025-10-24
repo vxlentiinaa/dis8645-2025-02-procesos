@@ -37,4 +37,5 @@ Metáfora es la relación entre cualidades no escenciales de un objeto.
 
 **Sentimiento:** Interfaz de la metáfora que nos provoca cosas indescriptibles.
 
-### Máquinas sentimentales
+### Máquinas sentimentales
+El sentimineto es un objeto.
