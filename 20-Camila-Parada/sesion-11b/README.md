@@ -24,6 +24,8 @@ Cosmología, "La tercera mesa".
 Programación orientada a objetos
 atributo = variable en una clase
 
+Antología -> todas las cosas son objetos
+
 Asíntota
 
 ***
