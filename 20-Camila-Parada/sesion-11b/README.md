@@ -1,6 +1,6 @@
 # ⋆₊˚⊹♡ Clase 11b - Miti mota ♡⊹˚₊⋆
 
-Viernes 124Octubre 2025
+Viernes 24 Octubre 2025
 
 ***
 
