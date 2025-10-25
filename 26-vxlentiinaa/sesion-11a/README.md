@@ -6,7 +6,7 @@
 
 - Habrá un mini diseño abierto por el aniversario de la u, ya que están haciendo cositas en el centro cultural MonteCarmelo
   - segunda semana de diciembre / después de los exámenes / semana del 9 examen
-- Idea de Mateo, hacer tres grupos grandes y hacer un mega proyecto 
+- Idea de Mateo, hacer tres grupos grandes y hacer un mega proyecto
 - Idea de Mati hacer igual 6 grupos
 - Estamos viendo que proyectos hacer para el examen
 
@@ -33,7 +33,7 @@ Carolina Pino, se dedica a hacer soluciones/interfaces específicas para alguien
 
 ---
 
-### HDI 
+### HDI
 
 HDI: es una entrada que lo convierte en una salida para humanos
 
@@ -49,7 +49,7 @@ F.A.T Lab
 
 <https://www.media.mit.edu/groups/future-sketches/projects/>
 
-**Lenguajes**
+Lenguajes
 
 - Metáfora: Estrategia de escritura que sirve en términos artísticos y diseño además que para escritura.
 - Para construirla necesitamos 2 objetos distintos, que no se parezcan.
@@ -72,8 +72,8 @@ Características principales:
 
 ---
 
-### Manifiesto 
+### Manifiesto
 
 ¿Qué es un manifiesto?
 
-Según google: Un manifiesto es una declaración escrita que expone públicamente las creencias, intenciones y principios de un individuo, grupo o partido. Se utiliza para articular objetivos, ya sean políticos, artísticos o personales, y busca persuadir y movilizar a otros a través de argumentos sólidos y un lenguaje a menudo contundente. 
+Según google: Un manifiesto es una declaración escrita que expone públicamente las creencias, intenciones y principios de un individuo, grupo o partido. Se utiliza para articular objetivos, ya sean políticos, artísticos o personales, y busca persuadir y movilizar a otros a través de argumentos sólidos y un lenguaje a menudo contundente.
