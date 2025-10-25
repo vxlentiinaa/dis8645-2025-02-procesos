@@ -4,7 +4,7 @@
 
 ### esta es mi redención de la bitácora, esta vez si la haré a conciencia y con constancia
 
-![aceptacion](./imagenes/aceptacion.jpg) 
+![aceptacion](./imagenes/aceptacion.jpg)
 
 ## primer bloque de clases
 
@@ -14,11 +14,11 @@
 
 🕹️ hablamos sobre lo que se viene: la tercera evaluación antes del examen y las posibilidades que traerá diseño abierto
 
-🕹️ discutimos sobre cómo podemos organizarnos para los nuevos grupos de la tercera evaluación y qué podemos hacer 
+🕹️ discutimos sobre cómo podemos organizarnos para los nuevos grupos de la tercera evaluación y qué podemos hacer
 
 ### inspiración para siguiente proyecto
 
-*acá agregar los links del discord*
+acá agregar los links del discord
 
 ## segundo bloque de clases
 
@@ -26,19 +26,6 @@
 
 🕹️ "Caminar es un objeto", eposición de Gabriela Pérez
 
-🕹️ Juan Downey 
+🕹️ Juan Downey
 
-*agregar más links de lo último que vimos*
-
-
-
-
-
-
-
-
-
-
-
-
-
+agregar más links de lo último que vimos
