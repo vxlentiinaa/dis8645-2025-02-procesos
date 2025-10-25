@@ -36,9 +36,9 @@ Al detectar la distancia de la presencia la máquina reacciona de diferentes for
 - Servomotor al levantar el brazo
 - Motor vibrador al detectar presencia de algún humano
 
-![AND-Y](./imagenes/andy-01.jpeg)
+![ANDY 1](./imagenes/andy-01.jpeg)
 
-![AND-Y](./imagenes/andy-02.jpeg)
+![ANDY 2](./imagenes/andy-02.jpeg)
 
 ### Grupo 02 | GUSTAVO LITA
 
@@ -54,9 +54,9 @@ Dispensador interactivo en forma de monstruo de color verde que reacciona emocio
 - Se reproduce el sonido correspondiente desde el módulo MP3.
 - El proceso se repite con cada chicle.
 
-![GUSTAVO](./imagenes/gustavo-01.jpeg)
+![GUSTAVO 1](./imagenes/gustavo-01.jpeg)
 
-![GUSTAVO](./imagenes/gustavo-02.jpeg)
+![GUSTAVO 2](./imagenes/gustavo-02.jpeg)
 
 ### Grupo 03 | CHISPOP
 
@@ -77,17 +77,17 @@ INSERTAR IMAGEN CHISPOP (no le saqué foto:( )
 
 La máquina consiste en un dispositivo funcional que está planeado para ser utilizado por una persona a la vez. Esta trabaja detectando la presencia del usuario a través de un “radar” compuesto por un “sensor ultrasónico HC-SR04” y un “servomotor SG90” que se encuentra en constante movimiento, rotando continuamente desde 0 a 180 grados.
 
-![JUANITO](./imagenes/juanito-01.jpeg)
+![JUANITO 1](./imagenes/juanito-01.jpeg)
 
-![JUANITO](./imagenes/juanito-02.jpeg)
+![JUANITO 2](./imagenes/juanito-02.jpeg)
 
 ### Grupo 05 | FRIOLÍN
 
 Friolín, un robot friolento, funciona con un sensor ultrasónico HC-SR04, que usaremos para detectar si hay o no hay alguien frente al robot, un sensor DHT11, que es de temperatura, humedad y presión; en nuestro caso solo utilizaremos la función de medir la temperatura ambiental, una pantalla OLED SSD1306, para mostrar una retroalimentación visual con características faciales; y un servomotor, para que cometa el acto de saludar con un brazo que le daremos al robot.
 
-![FRIOLIN](./imagenes/friolin-01.jpeg)
+![FRIOLIN 1](./imagenes/friolin-01.jpeg)
 
-![FRIOLIN](./imagenes/friolin-02.jpeg)
+![FRIOLIN 2](./imagenes/friolin-02.jpeg)
 
 ### Grupo 06 | FEELMYPARADOIA
 
@@ -105,6 +105,6 @@ Mediante los sensores ultrasónicos, la máquina detecta si existe o no presenci
 
 Al detectar cualquier tipo de presencia, se queda mirando fijamente a la dirección en donde se haya sensado, y el pestañeo se detiene
 
-![PARANOIA](./imagenes/paranoia-01.jpeg)
+![PARANOIA 1](./imagenes/paranoia-01.jpeg)
 
-![PARANOIA](./imagenes/paranoia-02.jpeg)
+![PARANOIA 2](./imagenes/paranoia-02.jpeg)
