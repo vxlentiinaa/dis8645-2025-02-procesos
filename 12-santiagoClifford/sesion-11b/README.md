@@ -103,3 +103,4 @@ estuve mirando en pinterest ideas de "feeling robot". Me llamó la atención est
 
 esto mi hizo pensar en la asociación que tienen los robots con materiales rígidos y duros, mientras que las cosas blandas y flexibles van más asociadas a lo animal, o lo orgánico en general. Esa asociación me hizo pensar en los [fluídos no Newtonianos](https://en.wikipedia.org/wiki/Non-Newtonian_fluid). Y me topé con [este video](https://youtu.be/3zoTKXXNQIU?si=m6Zejq6GEwo8gfu5), donde las vibraciones de un parlante hacen que el fluido vaya moviéndose y tomando diferentes formas. 
 
+Otra idea que tuve fue un robot que se presente con una actitud confrontacional y violenta, pero si recibe un input "violento" este se vuelva dócil y temeroso. Esto combina bien con la idea del fluído no newtoniano, pero a la inversa. Es decir, al enfrentar a este fluído de forma agresiva(con un golpe), este se vuelve rígido, pero al acercarse amable y lentamente, este te recibe y abraza.
