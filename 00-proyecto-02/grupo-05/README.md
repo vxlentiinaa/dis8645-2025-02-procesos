@@ -52,7 +52,7 @@ Friolín, nuestro robot friolento, funciona con un sensor ultrasónico HC-SR04, 
 
 Este recorrido se puede visualizar mediante el siguiente diagrama de flujo:
 
-![Mapa de flujo Friolín](https://raw.githubusercontent.com/aileendespessailles-design/dis8645-2025-02-procesos/refs/heads/main/00-proyecto-02/grupo-05/imagenes/mapa%20de%20flujo.png)
+![Mapa de flujo Friolín](imagenes/mapa-de-flujo.png)
 
 ### Desarrollo
 
@@ -187,7 +187,7 @@ En un principio habíamos visto como un robot amigable, similar a nuestro moodbo
 
 ![Boceto 1](imagenes/boceto-1.jpeg)
 
-![Boceto 2](imagenes/boceto-1.jpeg)
+![Boceto 2](imagenes/boceto-2.jpeg)
 
 La idea principal de la carcasa es que contenga y exponga todos los componentes de manera eficiente, también su forma de hombre de nieve hace alusión de forma irónica a su miedo al frío. Además, su forma geométrica se eligió para ser similar al pixel art de las imágenes. También se realizaron piezas extras como sus orejeras y brazo para personificar y dar mayor personalidad al proyecto.
 
@@ -197,7 +197,7 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 
 ![Vista trasera](imagenes/cara-3.png)
 
-![Piezas separadad](imagenes/descuartizado.png)
+![Piezas separadas](imagenes/descuartizado.png)
 
 ![Vista interior con los cables](imagenes/cables.jpeg)
 
@@ -214,3 +214,5 @@ La idea principal de la carcasa es que contenga y exponga todos los componentes 
 ### Comentarios finales
 
 El desarrollo de Friolín nos permitió explorar de forma creativa la relación entre tecnología y comportamiento. Más que un simple ejercicio técnico, el proyecto nos llevó a pensar cómo un conjunto de sensores y servomotores puede transmitir intención y carácter.
+
+
