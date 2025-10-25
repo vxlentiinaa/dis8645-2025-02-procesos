@@ -79,7 +79,9 @@ void Pantalla::mostrar (){
 
 Con ello, adjunto un video de como este problema se volvio a provocar:
 
-//Nota: Poner todos los videos y fotografias a más tardar el sabado.
+[![Intento con error](https://img.youtube.com/vi/2J_LUC1deQA/hqdefault.jpg)](https://youtube.com/shorts/2J_LUC1deQA)
+
+[![Otra vez con errores](https://img.youtube.com/vi/wKGrXb6TVGg/hqdefault.jpg)](https://youtube.com/shorts/wKGrXb6TVGg?feature=share)
 
 Quedamos en que subiriamos el codigo e investigariamos. Por otro lado comenzamos con bocetos y mediciones para hacer nuestro robot friolento.
 
@@ -89,8 +91,10 @@ Adjunto imagenes de diferentes bocetos y un moodboard rapido (que después dise�
 
 En general se deberian agregar cosas que asemejen al frio y hacerlo más amigable para el espectador.
 
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+![Primera versión Carla](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version1.jpeg)
+![Segunda versión Carla](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version2.jpeg)
+![Tercera versión Carla](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version3.jpeg)
+
+![Boceto de Aileen](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09a/imagenes/version4.jpeg)
 
 Para la proxima sesión investigare que demonios hacer con la pantalla. deseenme suerte <3

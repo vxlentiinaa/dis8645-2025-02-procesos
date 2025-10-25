@@ -18,6 +18,7 @@ Lenguaje [Spacy](https://spacy.io/), Procesamiento del lenguaje natural de nivel
 
 [Misa](https://github.com/misaaaaaa) fue a la Escuela de Sensibilización Tecnológica de TTU.
 
+
 ### Tesis Mateo
 
 [Mateo](https://github.com/matbutom/) nos mostró su proyecto de tesis, cómo organizó y programó un código para renombrar archivos, de tipografías en propagandas políticas chilenas.

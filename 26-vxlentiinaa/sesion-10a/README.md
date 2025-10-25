@@ -69,7 +69,13 @@ float EntradaUltrasonico::medirDistancia() {
 
 Ya que estaba en void no en float, si está en void no nos dejaba "return" la distancia al final del código y necesitabamos eso para poder usar la distancia en otras partes del código.
 
+---
 
+### Proceso de nuevo robot: AND-Y
+
+Decidimos cambiarle el nombre a nuestro robot, antes se llamaba Ram-on y ahora AND-y. Nos causó gracia porque nos acordamos de la compuerta AND que vimos en clases. 
+
+Este día fue intenso por una parte, ya que teníamos problemas con el código. El sensor al medir distancia, reproducía todo el rato el mismo audio. Por lo que pedímos ayuda a Aarón y nos ordenó un poco el código; en el archivo SalidaMotorVibracion teníamos escrito que el motor medía distancia y vibrara, pero el motor no tiene sensores, entonces es poco coherente lo que habíamos puesto ahí 
 
 
 

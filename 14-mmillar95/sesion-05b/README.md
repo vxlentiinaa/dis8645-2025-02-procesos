@@ -72,3 +72,35 @@ En este disco muestran aún más lo buenos que son tocando sus instrumentos, ade
 ## Encargo 10
 
 Investigar sobre la obra de Mitchel Resnick, leer uno de sus escritos o ver una de sus charlas, y comentarla críticamente.
+
+### Mitchel Resnick
+
+Mitchel Resnick (12 de junio de 1956) es un profesor, físico, informático, periodista y programador estadounidense.
+
+Estudió la licenciatura de física en la Universidad de Princeton en 1978, realizó la maestría (1988) y doctorado en computación en el Instituto Tecnológico de Massachusetts (1992).Trabajó como periodista sobre ciencia y tecnológica desde el 1978 al 1983, y es referente mundial en el uso creativo de las computadoras en la educación.
+
+Profesor: MIT Media Lab
+
+Director: Grupo de investigación Lifelong Kindergarten
+
+Desarrollo Scratch un motor de videojuegos desarrollado por MIT Media Lab.
+
+Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Mitchel_Resnick)
+
+### Charla Lifelong Kindergarten
+
+Esta charla fue realizada en un evento TEDxBeaconStreet en noviembre de 2017, el puento de vista de Resnick es que cada vez que los estudaintes avanzan en su educacion, el aprendizaje y los metodos de aprender se vuelven mas formalizados y con menos creatividad, aqui es donde llama a implementar a el jardín de infancia. con 4 principios de aprendizaje: 
+
+Con 4 principios de aprendizaje (4P): 
+
+- Projects: Las personas aprenden mejor cuando trabajan en proyectos que les interesan.
+- Passion: Cuando las personas trabajan en temas que les apasionan, están dispuestas a esforzarse más y superar los obstáculos.
+- Peers: Interactuar, compartir ideas y trabajar con otros en un espíritu de compañerismo enriquece la experiencia y fomenta el pensamiento crítico.
+- Play: Experimentar, tomar riesgos y probar nuevas ideas en un entorno lúdico es crucial para la creatividad.
+  
+Estoy a favor de la iniciativa de “Lifelong Kindergarten” porque propone una forma de aprender más creativa y significativa. Me gusta que Resnick busque mantener el espíritu del jardín infantil, donde se aprende haciendo, jugando y compartiendo con otros. Creo que este enfoque motiva más a los estudiantes y les permite desarrollar su creatividad y curiosidad de una manera natural y divertida, en vez de estar generando cierto tipo de presión a los estudiantes, como se hace en las principales instituciones de enseñanza. 
+
+![Mit](./imagenes/mit.png)
+  
+
+[Mit Media LAB](https://www.media.mit.edu/posts/lifelong-kindergarten-cultivating-creativity-through-projects-passion-peers-and-play/#:~:text=Kindergarten%20is%20becoming%20more%20like,more%20important%20than%20ever%20before.)

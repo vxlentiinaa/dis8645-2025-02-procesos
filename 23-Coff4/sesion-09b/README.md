@@ -14,6 +14,10 @@ Entonces ¿que aprendimos de esta investigación?
 3. Desde el principio tuvimos que usar la pantalla pequeña y evitarnos todos estos problemas locos.
 
 
+Pero, solo cambiando la pantalla a la del primer encargo, todo se comporta bien...
+
+[![Comportamiento normal](https://img.youtube.com/vi/djSzdS5zW0Q/hqdefault.jpg)](https://youtube.com/shorts/djSzdS5zW0Q?feature=share)
+
 ---
 
 Por lo tanto! es hora de hacer codigo para la pantalla pequeña y problema solucionado (yey)
@@ -171,6 +175,9 @@ Esta vez estabamos en el laboratorio y recibí ayuda de la gente que estaba en a
 
 Desde aquí doy mis sinceras gracias por el apoyo <3
 
+[![Uso del primer codigo](https://img.youtube.com/vi/9t0tRyKYgyE/hqdefault.jpg)](https://youtube.com/shorts/9t0tRyKYgyE?feature=share)
+
+
 Pero tuve que rehacer todo, y por rehacer digo, buscar en otras paginas codigos que si funcionen
 
 ```cpp
@@ -271,6 +278,8 @@ void loop() {
 ```
 
 Cada vez me sorprendo más de los errores...
+
+[![Errores raros](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09b/imagenes/woaos.jpg)
 
 
 https://www.instructables.com/Display-Images-on-OLED-Display-Ft-Instructables-Ro/)
@@ -593,9 +602,15 @@ Se nos quemo el sensor de temperatura y humedad jej. Estabamos viendo las conexi
 
 Al final no fue eso, conectamos los cables al reves con la Cami, son errores humanos así que nada.
 
+[![Se quemó :c](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-09b/imagenes/deterrimiento.jpeg)
+
 ---
 
 Volví con otro codigo más, que si compila completamente todo!
 
+[![Compila pero funciona?](https://img.youtube.com/vi/RIqN10D1hzQ/hqdefault.jpg)](https://youtube.com/shorts/RIqN10D1hzQ?feature=share)
+
 Todo con ayuda de Gemini (no puedo decir que hice todo eso a traves de mi intelecto...seria imposible)
+
+Al final, aunque estaba todo conectado, no detectaba bien todo...aun queda por hacer.
 

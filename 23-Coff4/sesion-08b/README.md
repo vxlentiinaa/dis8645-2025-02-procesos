@@ -68,7 +68,7 @@ void loop() {
 Anteriormente el profe Misa me habia sugerido esta libreria pero con un example ya hecho en el propio Ino.
 Por lo tanto ya la tenía descargada.
 
-![VideoTest](https://github.com/tograh/testrepository/master/3DTest.png)
+![Hola Mundo](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08b/imagenes/Hola%20Mundo.jpg)
 
 Y si hacemos que se mueva? Se supone que ya funciona correctamente, por lo tanto no habría problemas ¿verdad?
 
@@ -121,7 +121,7 @@ void loop() {
   delay(30);
 }
 ```
-![Movimiento](https://github.com/tograh/testrepository/master/3DTest.png)
+[![Movimiento](https://img.youtube.com/vi/zCfFTpQGll4/hqdefault.jpg)](https://youtube.com/shorts/zCfFTpQGll4?feature=share)
 
 Ok. Aquí deben ir mis conclusiones sobre esta pantalla:
 
@@ -196,7 +196,7 @@ void loop(void) {
 }
 ```
 
-![VideoTest](https://github.com/tograh/testrepository/master/3DTest.png)
+[![Ehh?](https://img.youtube.com/vi/Ji3Wl5u43bM/hqdefault.jpg)](https://youtube.com/shorts/Ji3Wl5u43bM?feature=share)
 
 
 ```cpp
@@ -251,7 +251,7 @@ void setup() {
 void loop(void) {
 }
 ```
-![Testing Funcional](https://github.com/tograh/testrepository/master/3DTest.png)
+![Testing Funcional](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08b/imagenes/Funcional.jpg)
 
 ```cpp
 /*
@@ -309,7 +309,7 @@ En este caso cambié la imagen para mostrar otra, un poco más acorde a mis gust
 
 La imagen en cuestión: 
 
-![TV Time](https://github.com/tograh/testrepository/master/3DTest.png)
+![TV Time](https://raw.githubusercontent.com/Coff4/dis8645-2025-02-procesos/refs/heads/main/23-Coff4/sesion-08b/imagenes/Tenna.jpg)
 
 ---
 
