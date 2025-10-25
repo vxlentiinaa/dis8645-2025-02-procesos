@@ -93,3 +93,14 @@ cierre: Graham habla de "SENTIMIENTO", como la interfaz de la metáfora. El inte
 - "dice abajo los de arriba, pero debería decir arriba los de abajo"
 - [ortega y gasset](https://es.wikipedia.org/wiki/José_Ortega_y_Gasset)
 - [Ensayo-de-Estetica-a-Manera-de-Prologo](https://www.scribd.com/document/408157591/ORTEGA-Ensayo-de-Estetica-a-Manera-de-Prologo)
+
+
+## avance excelso
+
+estuve mirando en pinterest ideas de "feeling robot". Me llamó la atención esta imagen:
+
+![un robot sosteniendo un corazón humano que parece estar derritiéndose](./imagenes/feelinBot.jpg)
+
+esto mi hizo pensar en la asociación que tienen los robots con materiales rígidos y duros, mientras que las cosas blandas y flexibles van más asociadas a lo animal, o lo orgánico en general. Esa asociación me hizo pensar en los [fluídos no Newtonianos](https://en.wikipedia.org/wiki/Non-Newtonian_fluid). Y me topé con [este video](https://youtu.be/3zoTKXXNQIU?si=m6Zejq6GEwo8gfu5), donde las vibraciones de un parlante hacen que el fluido vaya moviéndose y tomando diferentes formas. 
+
+Otra idea que tuve fue un robot que se presente con una actitud confrontacional y violenta, pero si recibe un input "violento" este se vuelva dócil y temeroso. Esto combina bien con la idea del fluído no newtoniano, pero a la inversa. Es decir, al enfrentar a este fluído de forma agresiva(con un golpe), este se vuelve rígido, pero al acercarse amable y lentamente, este te recibe y abraza.
