@@ -168,7 +168,7 @@ Una máquina que saluda dependiendo si tiene o no tiene frío, el cual te dará 
   - Al usar condiciones ambientales (temperatura) hace que el saludo no sea repetitivo, sino que depende del contexto del ambiente.
   - Implementar un brazo robótico como saludo, refuerza la parte sorpresiva de la máquina
 
-3• [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a) 
+3• [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-Jesus](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-Jesus/sesion-07a) 
 
 Una máquina que tiene unos ojos que identifiquen y triangulen la profundidad de dónde estoy. Cuando me acerque a un espacio, una oreja me hable con un sonido aleatorio.
 

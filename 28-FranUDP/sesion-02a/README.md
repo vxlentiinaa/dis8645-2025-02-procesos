@@ -9,7 +9,7 @@ Artista chileno experimental, con una amplia trayectoria, desde música de teatr
 
 En la clase le hicimos entrega de una [máquina percutora](https://www.instagram.com/piruetas.xyz/p/DNPBPs8v-Ra/) que toma input MIDI y acciona un solenoide.
 
-<img src="./imagenes/entregaSokio.jpg" alt="Entrega de la maquina percutora a Sokio"> Imagen tomada por [santiagoClifford](https://github.com/santiagoClifford). De izquierda a derecha [misaaaaaa](https://github.com/misaaaaaa), [Sokio](https://www.instagram.com/sokio/), [Bernardita-lobo](https://github.com/Bernardita-lobo), [FranUDP](https://github.com/FranUDP) y [montoyamoraga](https://github.com/montoyamoraga). <br/>
+<img src="./imagenes/entregaSokio.jpg" alt="Entrega de la maquina percutora a Sokio"> Imagen tomada por [santiagoClifford](https://github.com/santiagoClifford). De izquierda a derecha [misaaaaaa](https://github.com/misaaaaaa), [Sokio](https://www.instagram.com/sokio/), [Bernardita-Jesus](https://github.com/Bernardita-Jesus), [FranUDP](https://github.com/FranUDP) y [montoyamoraga](https://github.com/montoyamoraga). <br/>
 
 <img align="left" src="./imagenes/sokio1.jpg" alt="Maquina percutora" height=300> 
 
@@ -19,7 +19,7 @@ En la clase le hicimos entrega de una [máquina percutora](https://www.instagram
 
 <img align="left" src="./imagenes/sokio4.jpg" alt="Solenoide" width=314>
 
-<img align="left" src="./imagenes/sokio5.jpg" alt="Solenoide" width=314> *Imágenes extraídas de nuestro grupo de WhatsApp, sokio1, sokio2 y sokio 4 tomadas por [montoyamoraga](https://github.com/montoyamoraga), sokio3 por [Bernardita-lobo](https://github.com/Bernardita-lobo) y sokio5 por [FranUDP](https://github.com/FranUDP). 
+<img align="left" src="./imagenes/sokio5.jpg" alt="Solenoide" width=314> *Imágenes extraídas de nuestro grupo de WhatsApp, sokio1, sokio2 y sokio 4 tomadas por [montoyamoraga](https://github.com/montoyamoraga), sokio3 por [Bernardita-Jesus](https://github.com/Bernardita-Jesus) y sokio5 por [FranUDP](https://github.com/FranUDP). 
 
 <br>
 

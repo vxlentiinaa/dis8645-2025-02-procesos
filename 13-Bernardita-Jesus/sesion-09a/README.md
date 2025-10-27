@@ -177,4 +177,4 @@ Luego, como encargo o tarea, volví a repasar en mi casa.
 
 Como mencioné, volví a repasar un poco y fui haciendo algunos ejemplos que dejé registrados en la clase 01b, ya que ahí había un encargo parecido que sentía que no podía hacer muy bien, así que lo volví a realizar.
 
-Mi repaso se encuentra en el encargo de la [sesión 01-b](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-01b)
+Mi repaso se encuentra en el encargo de la [sesión 01-b](https://github.com/Bernardita-Jesus/dis8645-2025-02-procesos/tree/main/13-Bernardita-Jesus/sesion-01b)

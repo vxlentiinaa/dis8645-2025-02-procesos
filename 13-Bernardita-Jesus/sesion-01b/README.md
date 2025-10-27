@@ -44,11 +44,11 @@ No todos los cables USB-C transmiten datos; algunos solo sirven para cargar ener
 
 ¿Qué tengo que hacer para empezar? Tengo que instalar el software de Arduino, asegurarme de que el cable sea compatible (que transmita datos, no solo carga).
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-arduino01.png)
+![Captura de pantalla](imagenes/tmc-sesion01b-arduino01.png)
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-arduino02.png)
+![Captura de pantalla](imagenes/tmc-sesion01b-arduino02.png)
 
-![Captura de pantalla](./imagenes/tmc-sesion01b-arduino03.png)
+![Captura de pantalla](imagenes/tmc-sesion01b-arduino03.png)
 
 ### Comentarios y Conceptos Básicos de Arduino
 

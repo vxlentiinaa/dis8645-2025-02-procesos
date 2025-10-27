@@ -116,7 +116,7 @@ Enseña cómo usar un sensor de vibración, con una placa Arduino para detectar 
 
  ### Proyectos similares
 
-- [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a) 
+- [brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a) [Bernardita-Jesus](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-Jesus/sesion-07a) 
  
 Su proyecto trata de una máquina que tiene unos ojos que identifiquen y triangulen la profundidad de dónde está el humano. Cuando la persona se acerque a un espacio, una oreja, le hable con un sonido aleatorio.
 

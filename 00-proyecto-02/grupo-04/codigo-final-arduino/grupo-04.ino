@@ -4,7 +4,7 @@ Grupo-04
 Integrantes:
 
 10-brauliofigueroa2001
-13-Bernardita-lobo
+13-Bernardita-Jesus
 17-jotamorales-romulus
 20-Camila-Parada
 28-FranUDP
@@ -29,13 +29,15 @@ Rotador rotador;
 SensorUltrasonico ultrasonico;
 Ojos ojos;
 
-void setup() {
+void setup()
+{
   Serial.begin(115200);
   ultrasonico.configurar();
-  rotador.configurar(&ultrasonico, &ojos); 
+  rotador.configurar(&ultrasonico, &ojos);
   ojos.configurar();
 }
 
-void loop() {
+void loop()
+{
   rotador.radar();
 }

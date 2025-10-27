@@ -7,7 +7,7 @@ Viernes 17 Octubre, 2025
 ## Grupo-04 "Grupo Juanito" - Integrantes
 
 - [Braulio Figueroa Vega](https://github.com/brauliofigueroa2001) (Código MP3, investigación)
-- [Bernardita Lobo Baeza](https://github.com/Bernardita-lobo) (Modelado carcasa, investigación)
+- [Bernardita Lobo Baeza](https://github.com/Bernardita-Jesus) (Modelado carcasa, investigación)
 - [José Morales Berríos](https://github.com/jotamorales-romulus) (Código MP3, modelado carcasa)
 - [Camila Parada Vasquez](https://github.com/Camila-Parada) (Código servo, investigación)
 - [Francisco Stephens González](https://github.com/FranUDP) (Código ultrasónico, Optimización de código, modelado)
@@ -127,7 +127,7 @@ Grupo-04
 Integrantes:
 
 10-brauliofigueroa2001
-13-Bernardita-lobo
+13-Bernardita-Jesus
 17-jotamorales-romulus
 20-Camila-Parada
 28-FranUDP
