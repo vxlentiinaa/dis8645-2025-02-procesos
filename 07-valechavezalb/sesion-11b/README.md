@@ -8,17 +8,13 @@
 - El próximo proyecto va a estar más enfocado en el contenido y en el sentido que tenga. Que tenga una base. Aspecto de pensamiento del trabajo. **(conceptual, discursivo, metafórico)**.
 - Cómo diseñar de buena manera, con una buena experiencia de usuario.
 
-## 🔍 Enacargos
-1. Cada persona debe subir una investigación detallada de la obra artística de Claudia González Godoy, incluyendo información sobre premios, exposiciones, colaboradores, estudios y referencias en su obra.")) Hacer una ficha de una obra que me llame la atencipon de la Bienal de Artes Mediales.
-2. Cada persona debe subir taxonomía detallada de sensores, actuadores, software y hardware utilizado en 3 obras exhibidas en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes.
-
-## ⚙️ Proyecto Ideas
+## ⚙️ Proyecto 03 Ideas
 - Máquinas de lenguaje.
 - Máquinas de felicidad.
 - Máquinas tra(ns)ductoras ➜ convertir energía en otro.
-- **Máquinas sentimentales**.
+- **Máquinas sentimentales**. Máquinas que sean capaces de crear un sentimiento o que se perciban así.
 
-## 🔮 Diseño orientado a objetos (DOO)
+## 🔮 Diseño Orientado a Objetos (DOO)
 - Diseñar con sentido. Diseñar en base a una metáfora. 
 - Diseñar en base a un objeto no a un usuario.
 - Pensando en las cualidades de un objeto.
@@ -59,11 +55,29 @@ También desarrolla dos conceptos:
 - **Fenomenología**: descubrir cómo las cosas aparecen en la conciencia.
 
 ¿Qué es la filosofía?
+
 El amor al conocimiento. Propone las cosas como son.
 
-💭 Harman postula que las metáforas son la conexión de dos cualidades no escenciales de un objeto.
+💭 Harman postula que **las metáforas son la conexión de dos cualidades no escenciales de un objeto**.
 
 Handschuh: guantes en alemán ➜ zapato de mano.
 
 Ortega y Gasset
 
+## 🎨 Salida a terreno... 
+Para la segunda mitad de la clase, fuimos a la Galería Gabriela Mistral y al Centro Cultural CEINA a la 17 Bienal de Artes Mediales. 
+
+### Decantaciones y Resonaciones ¿Dónde nace y termina el rumor del río
+
+En la Galería Gabriela Mistral fuimos a ver la exposición de la artista **Claudia González Godoy**, _**Decantaciones y Resonaciones ¿Dónde nace y termina el rumor del río?**_ Esta instalación invita a pensar en las transformaciones del río Biobío y su memoria a través de una experiencia sonora. La obra transforma el espacio expositivo en un **paisaje que representa una zona embalsada del río Biobío** y lo que más me llamó la atención que muestra las huellas sumergidas bajo las aguas del embalse, el suelo de cómo sería si no estuviera cubierto de agua. Y puede sonar obvio, es tierra seca sin agua, pero la textura de las grietas, hace que sea impresionante. 
+
+_Cabe mencionar que para vivir esta experiencia completa, tuvimos que quitarnos los zapatos para poder sentir la humedad del suelo y la textura de la tierra, era como andar en el verano cuando vas al río._
+
+### 17 Bienal de Artes Mediales, Centro Cultural CEINA
+Instalaciones inmersivas, performances y realidades virtuales eran predominantes, conectándo el arte y la ciencia para crear vínculos entre ecologías naturales, cuir, sociales, digitales y simbólicas. Retoma el concepto de hiperrealidad formulado por el filósofo Jean Baudrillard, quien advirtió cómo el simulacro sustituye lo real hasta hacerlos indistinguibles. 
+
+Habían obras increíbles, que combinaban la música con lo visual y lo tangible, era toda una atmósfera inmersiva que era increíble. Las exposiciones que más me llamaron la atención fue _~~~ desde la raíz ~~~ Aproximación al bosque esclerófilo_ de Yto Aranda, entrelaza arte, ciencia y tecnología en una experiencia transmedial que desestabiliza la mirada antropocéntrica, revelando el mundo vegetal como un sistema complejo, sensible e interconectado, del cual depende la vida de otras especies, incluida la humana.
+
+## 🔍 Encargos
+1. Cada persona debe subir una investigación detallada de la obra artística de Claudia González Godoy, incluyendo información sobre premios, exposiciones, colaboradores, estudios y referencias en su obra.")) Hacer una ficha de una obra que me llame la atencipon de la Bienal de Artes Mediales.
+2. Cada persona debe subir taxonomía detallada de sensores, actuadores, software y hardware utilizado en 3 obras exhibidas en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes.
