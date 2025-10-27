@@ -20,9 +20,9 @@ Propusimos ideas para el proyecto antes de definir bien cómo hacerlo y cómo fu
 
 ### Ideas
 
-- objeto completantativo
+- Objeto complementativo
 
-- banda grizzly beaar, disco veckatimest, proyecto [Call to wait](http://uselesspress.org/things/call-to-wait/)
+- Banda Grizzly Bear, disco Veckatimest, proyecto [Call to wait](http://uselesspress.org/things/call-to-wait/)
 
 - Máquina que recopila el viento, su cantidad y dirección, y convierte esos datos en sonido, otro tipo de computación.
 
@@ -32,11 +32,11 @@ Propusimos ideas para el proyecto antes de definir bien cómo hacerlo y cómo fu
 
 - Escuela de Computación Poética.
 
-### segunda mitad de la clase
+### Segunda mitad de la clase
 
-[Camirnar es un objeto](https://revistaentorno.cl/caminar-es-un-objeto/), tesis de gabriela perez, de que esta hecho en cmaninar, camino por un sector marcando con un gps cada un min donde estaba con esos datos trazo una ruta y paso esa ruta a blender.
+[Camirnar es un objeto](https://revistaentorno.cl/caminar-es-un-objeto/), tesis de Gabriela Pérez, de qué está hecho el caminar. Caminó por un sector marcando con un GPS cada un minuto dónde estaba. Con esos datos trazó una ruta y la pasó a Blender.
 
-cómo mezclar la acción de caminar con una materialidad tangible y objetual, explorando la relación entre cuerpo, movimiento y objeto.
+Cómo mezclar la acción de caminar con una materialidad tangible y objetual, explorando la relación entre cuerpo, movimiento y objeto.
 
 Desde la ontología orientada a los objetos, pensamos en cómo los objetos poseen cualidades, formas y presencias que pueden activar experiencias o relatos al interactuar con ellos.
 
@@ -76,4 +76,6 @@ El elogio de la sombra, Libro
 
 ### Palabras importantes
 
-## Encargo
+[Diseño Abierto](https://www.udp.cl/agenda/diseno-abierto/): Diseño Abierto es una muestra de los proyectos finales de los Talleres de Diseño de 1º a 4º año en las menciones gráfico, sistema moda e industrial.
+
+[Manifiesto artístico](https://es.wikipedia.org/wiki/Manifiesto_art%C3%ADstico#:~:text=En%20arte%): En arte, a partir de las vanguardias, manifiesto suele llamarse a una expresión reivindicativa que simboliza la voluntad de estilo de un grupo de artistas o de un nuevo movimiento. Puede ser un escrito que se publica o una obra de arte que simboliza y resume lo que ese movimiento propone.
