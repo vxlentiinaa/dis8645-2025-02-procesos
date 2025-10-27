@@ -73,14 +73,14 @@ En la Galería Gabriela Mistral fuimos a ver la exposición de la artista **Clau
 
 _Cabe mencionar que para vivir esta experiencia completa, tuvimos que quitarnos los zapatos para poder sentir la humedad del suelo y la textura de la tierra, era como andar en el verano cuando vas al río._
 
-![Decantaciones y Resonaciones](./imagenes/decantaciones.png)
+![Decantaciones y Resonaciones](./imagenes/decantaciones.jpg)
 
 ### 🫟 17 Bienal de Artes Mediales, Centro Cultural CEINA
 Instalaciones inmersivas, performances y realidades virtuales eran predominantes, conectándo el arte y la ciencia para crear vínculos entre ecologías naturales, cuir, sociales, digitales y simbólicas. Retoma el concepto de hiperrealidad formulado por el filósofo Jean Baudrillard, quien advirtió cómo el simulacro sustituye lo real hasta hacerlos indistinguibles. 
 
 Habían obras increíbles, que combinaban la música con lo visual y lo tangible, era toda una atmósfera inmersiva que era increíble. Las exposiciones que más me llamaron la atención fue _~~~ desde la raíz ~~~ Aproximación al bosque esclerófilo_ de Yto Aranda, entrelaza arte, ciencia y tecnología en una experiencia transmedial que desestabiliza la mirada antropocéntrica, revelando el mundo vegetal como un sistema complejo, sensible e interconectado, del cual depende la vida de otras especies, incluida la humana.
 
-![17 Bienal](./imagenes/17bienal.png)
+![17 Bienal](./imagenes/17bienal.jpg)
 
 ## 🔍 Encargos
 1. Cada persona debe subir una investigación detallada de la obra artística de Claudia González Godoy, incluyendo información sobre premios, exposiciones, colaboradores, estudios y referencias en su obra."
