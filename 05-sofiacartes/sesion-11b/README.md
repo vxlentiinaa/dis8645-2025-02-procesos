@@ -23,13 +23,17 @@ Es porque Harman quiere definir que es la mesa, (el medio que hablamos antes) de
 
 Cómo llegamos a la mesa real: mediante la filosofía y el arte (como son) -> metáforas.
 
-Metáforas -> uno puede proponer como hablar de la mesa. Según Harman las metáforas consisten en com¿nectar dos cualidades no escenciales de objetos distintos.
-
 Tiene cualidades no escenciales, en este caso son sus accidentes y escenciales, no lo sabemos. La escencia de los objetos es inaccesible.
 
-#### ¿Qué similtud tiene con lo que hicimos en el proyecto 02?
+### ¿Qué similtud tiene con lo que hicimos en el proyecto 02?
 
 - Funciones -> método (OOP).
 - Metaclases -> variables, atributos (OOO).
 - Cuando diseñamos pensamos en estas ambas dimensiones. factura y materialidad/escenciales y no escenciales.
 - Cómo resolver diseño.
+  
+#### Encargos
+
+- Cada persona debe subir una investigación detallada de la obra artística de Claudia González Godoy, con énfasis en su investigación sobre ríos, incluyendo información sobre premios, exposiciones, colaboradores, estudios y referencias en su obra.
+- Cada persona debe subir taxonomía detallada de sensores, actuadores, software y hardware utilizado en 1 obra exhibida en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes
+Metáforas -> uno puede proponer como hablar de la mesa. Según Harman las metáforas consisten en com¿nectar dos cualidades no escenciales de objetos distintos.

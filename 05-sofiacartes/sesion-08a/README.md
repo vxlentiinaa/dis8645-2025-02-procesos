@@ -234,7 +234,7 @@ Nos explica que el motor DC no funciona directamente con arduino ya que el motor
 - Errores y problemas en el código: El reproductor MP3 no funcionaba, al principio se escuhaba pero no tenía ningún código aplicado. Pensamos que podría ser la tarjeta SD y la formateamos con las introducciones de Gemini: "Para formatear una tarjeta SD para Arduino Uno, conéctala a tu computadora e inicia la herramienta de formateo de tu sistema operativo. En la configuración de formato, elige FAT32 como sistema de archivos, o FAT para tarjetas de menos de 2GB, y luego inicia el formateo. Para obtener los mejores resultados, considera usar la herramienta oficial SD Formatter de la SD Association."
 - Conecciones y registro: Buscamos como conectar el altavoz al Arduino y el Reproductor MP3, en la página de AFEL se encuentra la foto de como conectar el Reproductor MP3 [AFEL](https://afel.cl/products/modulo-reproductor-mp3-dfplayer-mini?srsltid=AfmBOopRNTgHOWYlfaHTtNXuy2sf4_Lw2Spb70NB-QN52b7Sybu8JQWi)
 
-![IMG_5427](./imagenes/IMG_5427.jpg)
+![IMG_5428](./imagenes/IMG_5427.jpg)
 
 ![IMG_5428](./imagenes/IMG_5428.jpg)
 

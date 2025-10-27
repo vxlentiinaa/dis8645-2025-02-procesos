@@ -2,15 +2,13 @@
 
 ## Retroalimentación
 
-- subir procesos
-- leer programa
-- corregir bitacoras de la semana 6 para adelante
-- colocar archivos `.ino`
-- ordenar códigos
-- hacer diagrama de flujo
-- en carpeta docentes, grupo-01 colocar toda nuestra información.
-- entrada `ultrasonico.cpp`
-- el `.ino` solo tendrá comentarios
+- Configuramos la manito del robot, ya que debiamos cambiar el ángulo para que quede recto para arriba (180°) y no sea facista.
+- Cambiamos las distancias el sensor ultrasónico a 18cm para que tenga mayor rango de medición.
+- El servomotor solo llega a 180°, por alguna razón no lo levantaba compretamente asi que, movimos un poco pas adelante para que quede arriba.
+
+`Archivo.ino que creó el profe para nosotras.`
+
+En clases el profe Aarón, nos creó un archivo del código que teníamos, separó cada  uno en `.cpp` y `.h`, nos falta para que compilen colocar entre ambos la carpeta `.ino`.
   
 1. incluir archivos h (fórmula)
 2. instrtancias de las clases, programación estado de objetos. Es la variable pero en difícil
@@ -26,25 +24,11 @@
 12. `void EntradaUltrasonico:: configurar()` aquí está la complejidad
 13. `Servo servo;` tiene una clase que dentro tiene otra clase
 
----
-
-Ultrasonico
-
-- Configurar
-
-- Mostrar distancia
-
-- Mostrar consola
-
----
-
-Dedo
-
-- configurar
-
-- levantar
-
-- bajar
+- ordenar códigos
+- hacer diagrama de flujo
+- en carpeta docentes, grupo-01 colocar toda nuestra información.
+- entrada `ultrasonico.cpp`
+- el `.ino` solo tendrá comentarios
 
 ---
 
