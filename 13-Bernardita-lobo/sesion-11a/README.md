@@ -78,4 +78,4 @@ El elogio de la sombra, Libro
 
 [Diseño Abierto](https://www.udp.cl/agenda/diseno-abierto/): Diseño Abierto es una muestra de los proyectos finales de los Talleres de Diseño de 1º a 4º año en las menciones gráfico, sistema moda e industrial.
 
-[Manifiesto artístico](https://es.wikipedia.org/wiki/Manifiesto_art): En arte, a partir de las vanguardias, manifiesto suele llamarse a una expresión reivindicativa que simboliza la voluntad de estilo de un grupo de artistas o de un nuevo movimiento. Puede ser un escrito que se publica o una obra de arte que simboliza y resume lo que ese movimiento propone.
+[Manifiesto artístico](https://es.wikipedia.org/wiki/Manifiesto_art%C3%ADstico#:~:text=En%20arte%): En arte, a partir de las vanguardias, manifiesto suele llamarse a una expresión reivindicativa que simboliza la voluntad de estilo de un grupo de artistas o de un nuevo movimiento. Puede ser un escrito que se publica o una obra de arte que simboliza y resume lo que ese movimiento propone.
