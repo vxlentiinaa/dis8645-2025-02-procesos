@@ -97,7 +97,7 @@ Habían obras increíbles, que combinaban la música con lo visual y lo tangible
 - Desde 2006, desarrolla su propuesta artística independiente centrada en arte, tecnología, naturaleza y sonido.
 - Además ejerce como docente en el Magíster de Artes Mediales de la Universidad de Chile.
 
-### Línea de trabajo, temas y metodología
+### ◇ Línea de trabajo, temas y metodología
 ➺ Su obra se centra en la "noción de materialidad de soportes tecnológivos tanto analógicos como digitales, así como el comportamiento de los materiales en el tiempo y su manifestación en la dimensión del sonido.
 
 ➺ Trabaja en relación con el arte, ciencia, naturaleza y tecnología.
@@ -108,7 +108,7 @@ Habían obras increíbles, que combinaban la música con lo visual y lo tangible
 
 ➺ Su metodología es investigativa/ territorial, no solo de taller, ella sale al campo, recopila datos, sonidos y colabora con las comunidades.
 
-### Principales proyectos y exposiciones
+### ◇ Principales proyectos y exposiciones
 
 1. **Hidroscopía / Mapocho** (2016, Sala Anilla - Museo de Arte Contemporáneo MAC, Santiago). Proyecto de investigación sobre el río Mapocho y su fragmentación.
 2. **Concertina: Máquinas de Papel** (2014, Festival de la Imagen de Manizales. Manizales, Colombia). Es un proyecto de investigación material en el cual se exploran las posibilidades de la electrónica y el formato del libro de artista, mediante un instrumento musical electrónico.
@@ -116,7 +116,7 @@ Habían obras increíbles, que combinaban la música con lo visual y lo tangible
 4. **Arreglos de Campo. Del cielo al agua y lo que está en el centro**. (Museo de Arte Contemporáneo de la Universidad de Chile, Diciembre 2022 - Enero 2023). Instalación sonora/textil que usa pigmentos minerales del Desierto de Atacama, hebra de hilo de cobre, piedras y hojas.
 5. **Decantaciones y Resonaciones ¿Dónde nace y termina el rumor del río?** (Galería Gabriela Mistra, 2025). Instalación de topografía simulada del embalse del río Biobío, grabaciones de campo e invitación a la calma y contemplación.
 
-### Exposiciones y participación
+### ◇ Exposiciones y participación
 - ZKM Karlsruhe, Alemania.
 - ifa Gallery, Alemania.
 - 17 Bienal de Artes Mediales de Santiago.
@@ -128,18 +128,73 @@ Habían obras increíbles, que combinaban la música con lo visual y lo tangible
 - LIWOLI, Austria.
 - EEII, Croacia.
 
-### Colaboradores y residencias 
+### ◇ Colaboradores y residencias 
 - Fue directora del proyecto Laboratorio de Arte y Tecnología Chimbalab (2008 - 2012).
 - Proyecto/ residencia "Un riel por el Río" que plantea cruces disciplinarios entre electrónica, arte sonoro y edición.
 - En Hidroscopía Biobío, menciona colaboración con la Fundación Manzana Verde para entrevistas y salidas a terreno.
 - Residencias: Un Riel Por el Río, Las aguas son libres, Taller de Campo Magnético en Montegrande, Agua y Territorio/ Spree.
 
-### Premios, reconocimientos y publicaciones
+### ◇ Premios, reconocimientos y publicaciones
 En su ficha de la colección del arte del Ministerio de Cultura de Chile, aparece como una artista incluida en la colección: **"Ha participado en numerosas muestras, tanto individuales como colectivas, en Chile y en el extranjero".** Hasta ahora no aparece en registro público de "premios mayores" que se le hayan otorgado, pero el hecho de estar incluida en una colección estatal es un reconocieminto institucional relevante.
 
-### Referencias en su obra: influencias, soporte, discurso.
+### ◇ Referencias en su obra: influencias, soporte, discurso.
 ➺ Dentro de los términos recurrentes en sus discursos se mencionan: **agua, ríos, embalse, materialidad, sonido, topografía, tecnología, paisaje intervenido**. Un ejemplo de esto fue su discurso en la exposición "Decantaciones y Resonaciones ¿Dónde nace y termina el rumor del río?" : _«Esta exposición concluye un proceso de investigación en el Río Biobío que ha durado alrededor de dos años»_.
 
 ➺ En sus hidroscopías, indaga no solo la forma visible del río, sino la condición invisible (subterránea, memoria, agua retenida) y sus transformaciones socioambientales.
 
 ➺ Al analizar su obra "Decantaciones y Resonaciones ¿Dónde nace y termina el rumor del río?" dialoga con temas como la intervencipon humana en los ecosistemas fluviales, la calma contemplativa vs la fuerza del río y el sonido como huella material del agua.
+
+## 🪾 Taxonomía de la obra _~~~ desde la raíz ~~~ Aproximación al bosque esclerófilo_ de Yto Aranda
+taxonomía detallada de sensores, actuadores, software y hardware utilizado en 1 obra exhibida en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes.
+
+### ☞ Visión general de la obra
+   - Se decribe como una "instalación inmersiva que invita a imaginar el bosque esclerófilo desde su interior oculto: el subsuelo".
+   - La instalación integra tejidos de sisal/ yute (raíces y micorrizas tejidas), 24 pinturas electrónicas, proyección de vídeo sobre registro del bosque, sensores táctiles de interacción y activación sonora.
+   - Su objetivo es conectar arte, naturaleza y tecnología.
+
+### ☞ Componentes tecnológios y elementos físicos
+- Se menciona que la obra posee sensores táctiles, ubicados en los módulos tejidos de raíces/ micorrizas: sensores que al tocarlos genran sonidos de aves de Rao Caya mediante parlantes abiertos. Además de un sensor de presencia o de proximidad.
+     
+### ☞ Actuadores/ Hardware de salida
+- **Iluminación LED programable** que se integra en las raíces tejidas.
+- En las 24 pinturas hexagonales se encuentran **cintas LED WS2812B** instaladas en bastidores.
+- **Parlantes** para reproducir los sonidos de las aves y del bosque, activados por sensores táctiles.
+- Soporte físico de la obra como **módulos metálicos o de madera**, bastidores, policarbonato.
+- **Proyección de video**, proyector, pantalla o superficie.
+- **Componentes olfativos**.
+  
+### ☞ Materiales físicos y estructura
+- Tejido de sisal/ yute, raíces tejidas con técnicas como crochet, tricotín, macramé, palillo.
+- Estructura metálica o de madera que sostiene las raíces tejidas.
+- 24 marcos circulares para pinturas electrónicas de 54 cm de diámetro, bastidores de mandera listones 2 x 2 cm y 1.5 x 1.5 cm, dos capas de policarbonato transaprente, fondo de terciado 9 mm.
+- Integración de LED y electrónica en estos marcos, fuentes de poder 5V, microcontrolador arduino.
+- Cableado, placas electrónicas, sensores en los módulos tejidos.
+
+### ☞ Software y programación
+- Los LED WS2812B (tiras direccionables) requieren control mediante microcontroladores para programar los patrones de luz y la sincronización con el sonido.
+- La activación de sonidos vía sensores implica recibir la señal del sensor táctil que al activarse dispara el audio.
+- No se especifican librerías concretas utilizadas, pero al utilizar arduino + LED WS2812B, es común emplear librerías como FastLED o Adafruit_NeoPixel.
+- También podría existir un software de gestión de audio como Max/ MSP, Pure Data o arduino combinado con una tarjeta de audio, aunque no se menciona explícitamente.
+- El vídeo en loop implica un software de reproducción de video, cincronizado con el entorno lumínico.
+
+### ☞ Flujo de interacción
+1. Visitante entra a la instalación inmersiva entre tejidos que evocan raíces.
+2. Al tocar o acercarse a los módulos tejidos, hay sensores táctiles o de presencia que se activan, esto hace que se cambie la iluminación y se reproduzca un sonido de bosques mediante los parlantes.
+3. Simultáneamente, las 24 pinturas electrónicas circulares exhiben patrones lumínicos que evocan flujos subterráneos.
+4. El video proyectado envuelve al espectador en imágenes del bosque real como flora, fauna, hongos, entre otros, en un loop, generando un ambiente.
+5. En algunos casos se puede agregar audífonos con narraciones bilingües del ecosistema.
+6. La pieza busca que el visitante experimente la metáfora de la red subterránea, la interconexión, la sensibilidad vegetal: "el bosque que habla".
+
+### ☞ Taxonomía del proyecto
+
+| Componente                         | Tipo               | Especificaciones                                             | Función                     |
+|------------------------------------|--------------------|--------------------------------------------------------------|-----------------------------|
+| Sensor táctil de presencia/ táctil | Sensor             | Incluido en el tejido de yute, detecta contacto o proximidad | Activa sonido e iluminación |
+| Microcontrolador                   | Hardware           | Arduino (en circuito de prueba)                              | Controla sensores, LED, sonido |
+| LED direccionables                 | Actuador/ Hardware | Tiras LED WS2812B instaladas en los 24 marcos circulares     | Generan patrones lumínicos dinámicos |
+| Fuente de poder                    | Hardware           | 5V/ 5A fuentes en cada marco                                 | Suministro de eneregía para LEDs y componentes electrónicos|
+| Parlantes                          | Actuador/ Hardware | Instalados en la sala para sonidos generados al activar los sensores | Reproducen sonidos del bosque | 
+| Audífonos (opcional)               | Hardware sonoro    | Para narraciones bilingües (en proyecto derivado)            | Permite escucha dirigida de narraciones |
+| Video proyección                   | Hardware + software| Proyección circular  de imágenes del bosque                  | Contextualiza visualmente el ecosistema real |
+| Tejido de yute                     | Material físico    | Técnicas de crocher, tricotín, macramé, palillo para representar raíces | Ambientación sensorial + soporte de sensores, LED |
+| Software de control                | Software           | Programación de Arduino para sensores ➜ LED ➜ audio, video   | Gestiona la lógica interactiva de la instalación |
