@@ -14,7 +14,7 @@ Esto lo hice aprovechando la función `medirDistanciaCm()`, ya que el código no
 
 Y comencé a ver la lógica de posicionar el servo de los ojos, pues cuando se detecta a una persona, esta es detectada en múltiples grados (pasos) del recorrido del sensor, por lo que hay que implementar una lógica que tome el ángulo inicial y final de detección, determinar el centro de este cono y enviar esa ubicación al servo de los ojos.
 
-Pero no alcancé a escribir ninguna línea de código relacionada, porque estuve ayudando a [@13-Bernardita-lobo](https://github.com/Bernardita-lobo) con el modelado de la carcasa, aunque no pude ser de mucha ayuda.
+Pero no alcancé a escribir ninguna línea de código relacionada, porque estuve ayudando a [@13-Bernardita-Jesus](https://github.com/Bernardita-Jesus) con el modelado de la carcasa, aunque no pude ser de mucha ayuda.
 
 ###  ${\color{cyan}Durante\ la\ semana}$
 

@@ -147,7 +147,7 @@ Nosotros también usamos un módulo mp3 conectado a un parlante para reproducir 
 
 #### ${\color{orange}Grupo\ 4}$
 
-Constituido por [10-brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a), [13-Bernardita-lobo](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-lobo/sesion-07a), [17-jotamorales-romulus](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/17-jotamorales-romulus/sesion-07a), [20-Camila-Parada](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/20-Camila-Parada/sesion-07a) y 28-FranUDP (yo)
+Constituido por [10-brauliofigueroa2001](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/10-brauliofigueroa2001/sesion-07a), [13-Bernardita-Jesus](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/13-Bernardita-Jesus/sesion-07a), [17-jotamorales-romulus](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/17-jotamorales-romulus/sesion-07a), [20-Camila-Parada](https://github.com/disenoUDP/dis8645-2025-02-procesos/tree/main/20-Camila-Parada/sesion-07a) y 28-FranUDP (yo)
 
 Estamos haciendo una máquina que con 2 sensores ultrasónicos, puestos en un ángulo haciendo que miren la misma zona, se triangule la posición del usuario.
 

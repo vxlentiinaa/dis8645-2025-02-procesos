@@ -44,7 +44,7 @@ son 28 estudiantes, distribuidos en 6 grupos:
 
 * grupo 04 NOMBRE AUN NO DEFINIDO
   * 10-brauliofigueroa2001
-  * 13-Bernardita-lobo
+  * 13-Bernardita-Jesus
   * 17-jotamorales-romulus
   * 20-Camila-Parada
   * 28-FranUDP

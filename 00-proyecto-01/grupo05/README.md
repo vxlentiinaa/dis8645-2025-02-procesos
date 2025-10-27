@@ -4,10 +4,10 @@
 
 - Grupo: 05 / ARRAY
 - Integrantes:
-  - [Aileen D'Espesailles](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design)
-  - [Bernardita Lobo](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos)
-  - [Carla Pino](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/23-Coff4)
-  - [Félix Rodríguez](https://github.com/Bernardita-lobo/dis8645-2025-02-procesos/tree/main/25-felix-rg416)
+  - [Aileen D'Espesailles](https://github.com/Bernardita-Jesus/dis8645-2025-02-procesos/tree/main/08-aileendespessailles-design)
+  - [Bernardita Lobo](https://github.com/Bernardita-Jesus/dis8645-2025-02-procesos)
+  - [Carla Pino](https://github.com/Bernardita-Jesus/dis8645-2025-02-procesos/tree/main/23-Coff4)
+  - [Félix Rodríguez](https://github.com/Bernardita-Jesus/dis8645-2025-02-procesos/tree/main/25-felix-rg416)
 
 ## Presentación textual
 

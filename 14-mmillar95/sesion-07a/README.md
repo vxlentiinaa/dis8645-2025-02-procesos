@@ -124,7 +124,7 @@ Diferencias:
 ### Grupo 04
 
 - brauliofigueroa2001
-- Bernardita-lobo
+- Bernardita-Jesus
 - jotamorales-romulus
 - Camila-Parada
 - FranUDP
