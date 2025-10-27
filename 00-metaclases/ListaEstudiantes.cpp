@@ -15,7 +15,7 @@ ListaEstudiantes::ListaEstudiantes()
     ListaEstudiantes::lista.push_back("brauliofigueroa2001");
     ListaEstudiantes::lista.push_back("AntFuentealba");
     ListaEstudiantes::lista.push_back("santiagoClifford");
-    ListaEstudiantes::lista.push_back("Bernardita-lobo");
+    ListaEstudiantes::lista.push_back("Bernardita-Jesus");
     ListaEstudiantes::lista.push_back("mmillar95");
     ListaEstudiantes::lista.push_back("Nicolas-Miranda1312");
     ListaEstudiantes::lista.push_back("javieramoraga-rgb");
