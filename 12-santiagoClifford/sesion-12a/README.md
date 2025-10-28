@@ -25,7 +25,7 @@ emociones, sensaciones, afectos. ESPECíFICOS
 
 una experiencia donde se le pide al objeto usuario que se despoje de todas sus pertenencias, y que una báscula pese las cosas que dejó.
 
-ideas brainstorm
+### ideas brainstorm
 
 casco, te responde “asistente virtual”
 
@@ -36,6 +36,12 @@ brea
 epilepsia
 agorafobia
 https://etimologias.dechile.net/?abrazo
+
+- despertador que te hace despertarte de mala gana.
+
+- simulador de sonidos de la rutina de una mamá ama de casa, para personas que vien solxs hace poco.
+
+## ideas equipo 
 
 ### idea din0
 
@@ -57,6 +63,6 @@ una interfaz donde la persona controla un computador a través de su interacció
 
 ### idea jotín
 
-#### 
+#### incomodidad frente al conflicto
 
-casco
+casco que detecta al tono de la voz(tranquilo, agresivo, compasivo, etc.). Muestra de manera visual, el tono con el que se está hablando. Funciona como un "medidor de temperatura" en la habitación, referente a si el ambiente está tenso, tranquilo, etc.
