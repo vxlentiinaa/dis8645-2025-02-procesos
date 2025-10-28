@@ -41,13 +41,15 @@ https://etimologias.dechile.net/?abrazo
 
 - simulador de sonidos de la rutina de una mamá ama de casa, para personas que vien solxs hace poco.
 
-## ideas equipo 
+- un casco que te confunda al hablar, y vaya repitiendo lo que dijiste en loop.
+
+## ideas equipo
 
 ### idea din0
 
 #### apego ansioso
 
-máquina de abrazos, se muestra amable al inciio, una vez te abraza, se niega a soltarte y se aferra a ti
+máquina de abrazos, se muestra amable al inicio, una vez te abraza, se niega a soltarte y se aferra a ti.
 
 ### idea clifford1one
 
@@ -66,3 +68,15 @@ una interfaz donde la persona controla un computador a través de su interacció
 #### incomodidad frente al conflicto
 
 casco que detecta al tono de la voz(tranquilo, agresivo, compasivo, etc.). Muestra de manera visual, el tono con el que se está hablando. Funciona como un "medidor de temperatura" en la habitación, referente a si el ambiente está tenso, tranquilo, etc.
+
+
+
+### feedback
+
+din0: tiene temporalidad, distintos efectos y constrasta lo dulce con lo hostigoso
+
+clifford: le faltan pasos. le falta remate
+
+franudp: muy general
+
+jot: wena, similar a juan downey
