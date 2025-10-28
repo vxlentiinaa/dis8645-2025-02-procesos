@@ -19,8 +19,7 @@ Tiene cualidades **materiales y relaciones.** -> Reduccionismo: Es que las relac
 
 ¿Porqué empieza "la tercera mesa?
 
-Es porque Harman quiere definir que es la mesa, (el medio que hablamos antes) de ahí sale la Ontología Orientada a Objetos. Asíntota.![imagen1](https://github.com/user-attachments/assets/ad7f6558-e445-4689-89e9-953d055f2297)
-
+Es porque Harman quiere definir que es la mesa, (el medio que hablamos antes) de ahí sale la Ontología Orientada a Objetos. Asíntota.
 
 Cómo llegamos a la mesa real: mediante la filosofía y el arte (como son) -> metáforas.
 
@@ -51,4 +50,10 @@ desarrolla su serie “Hidroscopias”, y el proyecto se titula **Hidroscopia / 
  
 <https://artishockrevista.com/2025/09/14/claudia-gonzalez-godoy-hidroscopias/>
 
+![claudiaGonzales](./imagenes/imagen1.jpg)
 
+![claudiaGonzales](./imagenes/imagen2.jpg)
+
+![claudiaGonzales](./imagenes/imagen3.jpg)
+
+![claudiaGonzales](./imagenes/imagen4.jpg)
