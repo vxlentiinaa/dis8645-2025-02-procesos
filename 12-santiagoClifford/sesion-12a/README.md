@@ -1,1 +1,62 @@
 # sesion-12a
+
+## 20205-oct-28
+
+hicimos los grupos.
+
+| nombre           | habilidad                                                     | atao            |
+|------------------|---------------------------------------------------------------|-----------------|
+| Carla Pino       | Dibujar, Ilustrar, Código                                     | las Clases      |
+| Aileen           | Modelado 3D y código                                          | Diseñoo Gráfico |
+| Jota             | modelado 3d, maqueteo y registro                              | codigo          |
+| FranUDP          | modelado 3d, impresion 3d, código, circuitos, problem solving | diseño grafico  |
+| santiagoClifford | código, UX, conceptualización, escritura                      | delegar         |
+
+
+### máquinas sentimentales
+
+objetos cuyas cualidades externas, que producen sentimiento específicos.
+
+emociones específicas. ejemplo-01, cómo se sentiría un gato navegando la gravedad en la luna. ejemplo-02, el dolor de pegarse en el dedo chico del pie.
+
+emociones, sensaciones, afectos. ESPECíFICOS
+
+## idea-01
+
+una experiencia donde se le pide al objeto usuario que se despoje de todas sus pertenencias, y que una báscula pese las cosas que dejó.
+
+ideas brainstorm
+
+casco, te responde “asistente virtual”
+
+robot que brinde abrazos.normalmente se asocia a los robots con la flata de emociones
+
+el usuarie es la interacción. el movimiento del cuerpo es cmo el mouse
+brea
+epilepsia
+agorafobia
+https://etimologias.dechile.net/?abrazo
+
+### idea din0
+
+#### apego ansioso
+
+máquina de abrazos, se muestra amable al inciio, una vez te abraza, se niega a soltarte y se aferra a ti
+
+### idea clifford1one
+
+#### austeridad(?)
+
+una experiencia donde se le pide al objeto usuario que se despoje de todas sus pertenencias, y que una báscula pese las cosas que dejó.
+
+### idea franUDP
+
+#### confusión, "dislexia"
+
+una interfaz donde la persona controla un computador a través de su interacción con el entorno(espacio físico).
+
+### idea jotín
+
+#### 
+
+casco
