@@ -50,7 +50,7 @@ desarrolla su serie “Hidroscopias”, y el proyecto se titula **Hidroscopia / 
  
 <https://artishockrevista.com/2025/09/14/claudia-gonzalez-godoy-hidroscopias/>
 
-Galería Gabriela Mistral 
+Galería Gabriela Mistral, Decantaciones y Resonaciones ¿Dónde nace y termina el rumor del río?
 
 ![claudiaGonzales](./imagenes/imagen1.jpg)
 
