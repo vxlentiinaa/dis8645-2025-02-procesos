@@ -134,6 +134,66 @@ Cada persona debe subir una investigación detallada de la obra artística de Cl
 
 cada persona debe subir taxonomía detallada de sensores, actuadores, software y hardware utilizado en 1 obra exhibida en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes.
 
+- La obra elegida es `~~~Desde la raíz~~~ Aproximaciones al bosque esclerófilo` por Yto Aranda.
+
+La obra es una instalación inmersiva que invita a imaginar el bosque esclerófilo desde su interior: el subsuelo. La obra es compuesta mediante tejidos que integra la luz, la interacción táctil, sonido y olores propios del bosque. La obra recrea la red subterránea de raíces y micorrizas, como un sistema sensible y activo; capaz de responder al tacto y revlear el funcionamiento interconectado de la obra.
+
+La obra pone en escena la inteligencia del mundo natural, donde las plantas no solo perciben y se comunican, sino también que sostienen la vida mediante relaciones basadas en el cuidado y la reciprocidad. La luz se convierte en código, el sonido se asocia a la vida, y el cuerpo visitante se integra como una extensión sensible de esta red en constante transformación.
+
+Por otro lado, están las 24 pinturas electrónicas, organizadas en tres bloques (planeta raíz, simbiosis-micorrizas y agua raíz), invitan a imaginar el mundo subterráneo desde distintas perspectivas. Esta experiencia se amplifica con un video que documenta visualmente el bosque real, conectando la instalación con su territorio de origen. En su conjunto, `~~~Desde la raíz~~~` entrelaza arte, ciencia y tecnología en una experiencia transmedial que desestabiliza la mirada antropocéntrica, revelando el mundo vegetal como un sistema complejo, sensible e interconectado, del cual depende la vida de otras especies, incluida la humana.
+
+Para la 17 Bienal de Artes Mediales propone una instalación inmersiva que integra tejido, luz, sonido, video y sensores, configurando una experiencia sensorial que desestabiliza la mirada antropocéntrica.
+
+insertar foto de pinturas
+
+- Sensores:
+  - La obra posee sensores táctiles instalados en las raíces/micorrizas tejidas que al tocarlos generan sonidos de canto de aves mediante parlantes abiertos.
+    
+- Actuadores:
+  - Parlantes abiertos/altavoces para la reproducción de los sonidos del bosque.
+  - Audífonos para escuchar narraciones (se menciona reproducción de seis narraciones por raíz en audífonos).
+  - Iluminación LED programable que se integra a las raíces (se habla de luz como código y las imágenes muestran tiras/luces integradas en los tejidos).
+  - Video, proyector que documenta el bosque real y conecta la instalación con su territorio.
+  - Elementos olfativos, olores propios del bosque (la obra integra lo olfativo como parte de la experiencia).
+
+- Infraestructura:
+  - Tejidos de yute o sisal que simbolizan las raíces, hechas con técnicas como crochet, macramé y palillos.
+  - Estructura colgante (parece ser de alambre) donde caen los tejidos.
+  - 24 piezas electrónicas (de 67 x 77 cm - 54 cm de diámetro) y los módulos textiles integrados con electrónica; la inclusión de 24 pinturas electrónicas hexagonales y la proyección de un video que registra flora, fauna y funga del bosque esclerófilo, recopilado durante las exploraciones territoriales de la artista en su propio hábitat, Rao Caya.
+
+- Software/Hardware/programación:
+  - Microcontroladores, en las descripciones de la instalación hablan de microcontroladores/circuitos integrados en las pinturas electrónicas y módulos textiles (la ficha y la documentación técnica de la obra lo listan como parte del montaje).
+  - Iluminación LED programables.
+  - Sistemas de reproducción de audio (grabaciones del bosque, narraciones en español/inglés), vinculados a la interacción táctil).
+
+|Componente|Tipo|Especifícaciones|Función|
+|----------|----|----------------|-------|
+|Sensor táctil|Sensor|Dentro de los tejidos de yute|Detecta prescencia y activa sonidos de aves|
+|Parlantes|Output/Hardware|Instalados dentro de la sala|Reproducen sonidos del bosque|
+|Audífonos|Output/Hardware|Instalados para escuchar 6 narraciones|Escuchar las narraciones de la obra|
+|Iluminación LED|Actuador/Harware|Tiras LED programables que se integran en las raíces y en las piezas electrónicas|Generar patrones lumínicos|
+|Proyección de Video|Hardware/Software|Documenta el bosque real|Proyectar imágenes del bosque|
+|Elementos olfativos|Olfativo|La obra integra lo olfativo como parte de la experiencia|Simula olores propios del bosque|
+|Microcontrolador|Hardware|Arduino|Controlar sensores, LED y sonidos|
+
+- Cosas que probablemente estén:
+  - Amplificadores de audio (para alimentar parlantes abiertos).
+  - Controladores de tiras LED (drivers / PWM) y fuentes de alimentación específicas.
+  - Relés o drivers para controlar difusores de olor.
+  - Placas de desarrollo / microcontroladores (p. ej. Arduino/Teensy/Raspberry Pi) para leer sensores táctiles y disparar audio/LEDs (las páginas mencionan “microcontroladores” en la ficha/introducción del montaje).
+  - Tarjetas de audio USB, DACs, interfaces de sonido y mezcladores para enrutar audio a parlantes y audífonos.
+  - Cableado, protoboards / PCBs de circuito impreso (para las “pinturas electrónicas”).
+  - Software de audio interactivo (Max/MSP, Pure Data, Ableton Live con control MIDI/Open sound control; comunes en instalaciones sonoras; no explicitado por la documentación de la obra, por lo tanto marcado como inferencia).
+
+- Flujo de interacción
+  - 1. Interacción humana (tocar un nudo / raíz tejida)
+  - 2. Sensor táctil detecta la presencia
+  - 3. Microcontrolador procesa la señal
+  - 4a. dispara archivo de audio (ave/narración) a parlante o audífono;
+  - 4b. activa secuencia lumínica (LED) y/o
+  - 4c. coordina elementos de vídeo/loop. (Este flujo está descrito en términos de lo que la obra hace; el detalle técnico exacto de cada paso no siempre aparece en las notas públicas)
+
+
 ---
 
 Bibliografía / Enlaces:
@@ -150,6 +210,9 @@ Bibliografía / Enlaces:
 - Bienal de Artes Mediales de Santiago. (s. f.). Claudia González Godoy [Ficha participante] <https://17.bienaldeartesmediales.cl/participante/claudia-gonzalez-godoy/>
 - Arte Informado. (s. f.). Claudia González Godoy – artista [Ficha de artista] <https://www.arteinformado.com/guia/f/claudia-gonzalez-godoy-168978>
 - Casa Hoffmann. (s. f.). Claudia González Godoy [Perfil de artista]. <https://casa-hoffmann.com/portfolio/claudia-gonzalez-godoy/>
+- 17ª Bienal de Artes Mediales de Santiago. (2025). ~~~ desde la raíz ~~~ una aproximación al bosque esclerófilo. Recuperado de <https://17.bienaldeartesmediales.cl/obra/desde-la-raiz-una-aproximacion-al-bosque-esclerofilo>
+- Vilches, M. J. (2025, 14 agosto). Yto Aranda: arte, naturaleza y tecnología. 17ª Bienal de Artes Mediales de Santiago. Recuperado de <https://17.bienaldeartesmediales.cl/2025/08/14/yto-aranda>
+- Aranda, Y. (2023, 27 septiembre). ~~~ desde la raíz ~~~: una aproximación al bosque esclerófilo. Recuperado de <https://yto.cl/desdelaraiz/>
 - <https://www.instagram.com/p/DPtsRnuDVAY/>
 - <https://www.instagram.com/p/DPwvI5yDwcN/>
 - <https://arteymedios.org/claudia-gonzalez/>
