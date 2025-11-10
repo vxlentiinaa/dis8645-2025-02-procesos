@@ -86,6 +86,8 @@ Diseño orientado a objetos, ¿cómo lo interpreta Matías? diseñar pensando qu
 
 ---
 
+Luego de la intensa clase de filosofía que tuvimos, en el segundo bloque salimos a terreno. Fuimos a la Galería Gabriela Mistral y al Centro Cultural CEINA a ver la 17 Bienal de Artes Mediales.
+
 ### Encargo 17 
 
 Cada persona debe subir una investigación detallada de la obra artística de Claudia González Godoy, con énfasis en su investigación sobre ríos, incluyendo información sobre premios, exposiciones, colaboradores, estudios y referencias en su obra.
@@ -130,6 +132,12 @@ Cada persona debe subir una investigación detallada de la obra artística de Cl
 
 - Claudia González Godoy (Santiago, 1983) es Artista Visual y Profesora de Arte (Escuela de Arte y Cultura Visual, Universidad Arcis) y tiene un Magíster en Artes Mediales (Universidad de Chile). Su trayectoria incluye docencia y gestión de proyectos en arte y tecnología.
 
+![Decantaciones y Resonaciones](./imagenes/decantaciones_1.jpg)
+
+![Decantaciones y Resonaciones](./imagenes/decantaciones_2.jpg)
+
+![Decantaciones y Resonaciones](./imagenes/decantaciones_3.jpg)
+
 ### Encargo 18
 
 cada persona debe subir taxonomía detallada de sensores, actuadores, software y hardware utilizado en 1 obra exhibida en la Bienal de Artes Mediales 2025, citando correctamente a las fuentes.
@@ -144,7 +152,15 @@ Por otro lado, están las 24 pinturas electrónicas, organizadas en tres bloques
 
 Para la 17 Bienal de Artes Mediales propone una instalación inmersiva que integra tejido, luz, sonido, video y sensores, configurando una experiencia sensorial que desestabiliza la mirada antropocéntrica.
 
-insertar foto de pinturas
+![Desde la Raíz](./imagenes/desdeLaRaiz_1.jpg)
+
+![Desde la Raíz](./imagenes/desdeLaRaiz_2.jpg)
+
+![Desde la Raíz](./imagenes/desdeLaRaiz_3.jpg)
+
+![Desde la Raíz](./imagenes/desdeLaRaiz_4.jpg)
+
+![Desde la Raíz](./imagenes/desdeLaRaiz_5.jpg)
 
 - Sensores:
   - La obra posee sensores táctiles instalados en las raíces/micorrizas tejidas que al tocarlos generan sonidos de canto de aves mediante parlantes abiertos.
