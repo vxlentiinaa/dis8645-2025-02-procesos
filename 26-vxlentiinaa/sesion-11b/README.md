@@ -186,13 +186,12 @@ insertar foto de pinturas
   - Software de audio interactivo (Max/MSP, Pure Data, Ableton Live con control MIDI/Open sound control; comunes en instalaciones sonoras; no explicitado por la documentación de la obra, por lo tanto marcado como inferencia).
 
 - Flujo de interacción
-  - 1. Interacción humana (tocar un nudo / raíz tejida)
-  - 2. Sensor táctil detecta la presencia
-  - 3. Microcontrolador procesa la señal
-  - 4a. dispara archivo de audio (ave/narración) a parlante o audífono;
-  - 4b. activa secuencia lumínica (LED) y/o
-  - 4c. coordina elementos de vídeo/loop. (Este flujo está descrito en términos de lo que la obra hace; el detalle técnico exacto de cada paso no siempre aparece en las notas públicas)
-
+  - a. Interacción humana (tocar un nudo / raíz tejida)
+  - b. Sensor táctil detecta la presencia
+  - c. Microcontrolador procesa la señal
+  - d. dispara archivo de audio (ave/narración) a parlante o audífono;
+  - e. activa secuencia lumínica (LED) y/o
+  - f. coordina elementos de vídeo/loop. (Este flujo está descrito en términos de lo que la obra hace; el detalle técnico exacto de cada paso no siempre aparece en las notas públicas)
 
 ---
 
